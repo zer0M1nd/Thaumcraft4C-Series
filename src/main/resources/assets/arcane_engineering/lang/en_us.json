@@ -1,0 +1,15 @@
+{
+  "tooltip.arcane_engineering.fuel": "Biodiesel: %s / %s mB",
+  "tooltip.arcane_engineering.boots_controls": "Hold jump to thrust; hold sneak and jump to hover.",
+  "ae.guide.MAGITECH": "Combines thaumaturgy with Immersive Engineering. Consult the Engineer's Manual for the host machines.",
+  "ae.guide.DRILLTHAUMIUM": "Install in the IE drill: 3 by 3, one layer, diamond tier, speed 10, attack 6, durability 3000. Repair with thaumium.",
+  "ae.guide.DRILLVOID": "Correction: the original 0.2.7 recipe uses a STEEL drill head despite the old text saying iron. 3 by 3, speed 12, attack 7, immune to head wear.",
+  "ae.guide.NODEDESTABILIZER": "Place directly below a node; input is on the bottom only. 100,000 FE starts it, then 100 FE/t. Power failure: 75% normal, 25% fading tainted node with 1 vitium and an explosion. Breaking an active device always causes the latter.",
+  "ae.guide.ROD_upgradeable": "Assemble treated sticks with any researched cap pair. Base capacity is 30. The Engineer's Workbench offers 2 slots, 3 with electrum or 4 with steel.",
+  "ae.guide.CAP_steel": "Steel has a 100% consumption multiplier and gives treated wood wands 4 upgrade slots. It also works in normal wand assembly.",
+  "ae.guide.CAP_electrum": "Electrum consumes 95% of normal vis (a 5% discount), with 3 treated-wand slots. The old wording of a 95% discount was misleading.",
+  "ae.guide.CAPACITOR": "Each capacitor multiplies capacity by 1.5. Removing one discards vis above the reduced capacity.",
+  "ae.guide.CHARGER": "Every 80 / charger count ticks, replenish 1 vis of the first unfilled primal aspect. Works while carried in the inventory.",
+  "ae.guide.ENERGIZER": "Each energizer adds one potency level and adds 0.1 to the final vis consumption multiplier. Multiple upgrades stack.",
+  "ae.guide.IMPULSEBOOTS": "Holds 20,000 mB biodiesel. Hold jump to thrust; sneak+jump to hover. Disabled in water. Each thrust tick has a 50% chance to spend 1 mB. Slow your descent sufficiently to reset fall distance. Server validates thrust and fuel."
+}

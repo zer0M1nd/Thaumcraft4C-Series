@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GPL-3.0-only"
+[[mods]]
+modId="arcane_engineering"
+version="${version}"
+displayName="Arcane Engineering"
+authors="Eris Izalith (cadaverous_queen); TC4 Revival contributors"
+credits="Original destabilizer model and texture: HuggableCreep; original integration: Azanor, BluSunrize and DamienHazard."
+description='''Arcane Engineering 0.2.7 gameplay recreated for Thaumcraft 4: Continuation and Immersive Engineering. Original artwork is requested at runtime through Thaumcraft.'''
+[[dependencies.arcane_engineering]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.arcane_engineering]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.arcane_engineering]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.115.6,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.arcane_engineering]]
+modId="immersiveengineering"
+mandatory=true
+versionRange="[1.20.1-10.2.0,)"
+ordering="AFTER"
+side="BOTH"

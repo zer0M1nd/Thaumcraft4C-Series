@@ -1,0 +1,22 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "arcane_engineering:CAP_steel",
+  "pattern": [
+    "nnn",
+    "n n"
+  ],
+  "key": {
+    "n": {
+      "tag": "forge:nuggets/steel"
+    }
+  },
+  "vis": {
+    "ordo": 4,
+    "ignis": 4,
+    "aer": 4
+  },
+  "result": {
+    "item": "arcane_engineering:wandcap_steel"
+  }
+}

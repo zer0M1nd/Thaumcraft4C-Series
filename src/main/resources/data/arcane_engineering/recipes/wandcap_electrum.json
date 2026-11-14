@@ -1,0 +1,22 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "arcane_engineering:CAP_electrum",
+  "pattern": [
+    "nnn",
+    "n n"
+  ],
+  "key": {
+    "n": {
+      "tag": "forge:nuggets/electrum"
+    }
+  },
+  "vis": {
+    "ordo": 5,
+    "ignis": 5,
+    "aer": 5
+  },
+  "result": {
+    "item": "arcane_engineering:wandcap_electrum"
+  }
+}

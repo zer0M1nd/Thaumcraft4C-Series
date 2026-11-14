@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "arcane_engineering:CAPACITOR",
+  "pattern": [
+    " i ",
+    "gwg",
+    "ifi"
+  ],
+  "key": {
+    "i": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    },
+    "w": {
+      "item": "thaumcraft:wisp_essence"
+    },
+    "f": {
+      "item": "thaumcraft:vis_filter"
+    }
+  },
+  "vis": {
+    "ordo": 24,
+    "aer": 16,
+    "perditio": 16,
+    "ignis": 8
+  },
+  "result": {
+    "item": "arcane_engineering:wandupgrade_capacitor"
+  }
+}

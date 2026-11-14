@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IFI",
+    "BFB",
+    "C C"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/aluminum"
+    },
+    "F": {
+      "item": "immersiveengineering:hemp_fabric"
+    },
+    "B": {
+      "item": "minecraft:leather_boots"
+    },
+    "C": {
+      "item": "immersiveengineering:component_steel"
+    }
+  },
+  "result": {
+    "item": "arcane_engineering:impulse_boots"
+  }
+}

@@ -1,0 +1,550 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "arcane_engineering:MAGITECH",
+      "pages": [
+        {
+          "id": "arcane_engineering:MAGITECH/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "ArcaneEngineering.research_page.MAGITECH.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "arcane_engineering:MAGITECH/manual",
+          "type": "NORMAL_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "immersiveengineering:crafting/manual"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "arcane_engineering:MAGITECH/modern",
+          "type": "TEXT",
+          "text": {
+            "translate": "ae.guide.MAGITECH"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "arcane_engineering:DRILLTHAUMIUM",
+      "pages": [
+        {
+          "id": "arcane_engineering:DRILLTHAUMIUM/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "ArcaneEngineering.research_page.DRILLTHAUMIUM"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "arcane_engineering:DRILLTHAUMIUM/drillhead_thaumium",
+          "type": "ARCANE_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcane_engineering:drillhead_thaumium"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "arcane_engineering:DRILLTHAUMIUM/modern",
+          "type": "TEXT",
+          "text": {
+            "translate": "ae.guide.DRILLTHAUMIUM"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "arcane_engineering:DRILLVOID",
+      "pages": [
+        {
+          "id": "arcane_engineering:DRILLVOID/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "ArcaneEngineering.research_page.DRILLVOID"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "arcane_engineering:DRILLVOID/drillhead_void",
+          "type": "INFUSION_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcane_engineering:drillhead_void"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "arcane_engineering:DRILLVOID/modern",
+          "type": "TEXT",
+          "text": {
+            "translate": "ae.guide.DRILLVOID"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "arcane_engineering:NODEDESTABILIZER",
+      "pages": [
+        {
+          "id": "arcane_engineering:NODEDESTABILIZER/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "ArcaneEngineering.research_page.NODEDESTABILIZER"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "arcane_engineering:NODEDESTABILIZER/destabilizer",
+          "type": "ARCANE_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcane_engineering:destabilizer"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "arcane_engineering:NODEDESTABILIZER/modern",
+          "type": "TEXT",
+          "text": {
+            "translate": "ae.guide.NODEDESTABILIZER"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "arcane_engineering:ROD_upgradeable",
+      "pages": [
+        {
+          "id": "arcane_engineering:ROD_upgradeable/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "ArcaneEngineering.research_page.ROD_upgradeable"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "arcane_engineering:ROD_upgradeable/stick_treated",
+          "type": "NORMAL_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "immersiveengineering:crafting/stick_treated"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "arcane_engineering:ROD_upgradeable/wand_iron",
+          "type": "ARCANE_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "arcane_engineering:ROD_upgradeable",
+            "width": 3,
+            "height": 3,
+            "mirrored": false,
+            "output": {
+              "item": "arcane_engineering:wand_upgradeable",
+              "nbt": "{rod:\"arcane_engineering:upgradeable\",cap:\"iron\"}",
+              "count": 1
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                null,
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:wand_cap_iron",
+                    "count": 1
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "immersiveengineering:stick_treated",
+                    "count": 1
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:wand_cap_iron",
+                    "count": 1
+                  }
+                },
+                null,
+                null
+              ]
+            },
+            "aspects": {
+              "aer": 2,
+              "terra": 2,
+              "ignis": 2,
+              "aqua": 2,
+              "ordo": 2,
+              "perditio": 2
+            }
+          }
+        },
+        {
+          "id": "arcane_engineering:ROD_upgradeable/wand_electrum",
+          "type": "ARCANE_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "arcane_engineering:ROD_upgradeable",
+            "width": 3,
+            "height": 3,
+            "mirrored": false,
+            "output": {
+              "item": "arcane_engineering:wand_upgradeable",
+              "nbt": "{rod:\"arcane_engineering:upgradeable\",cap:\"arcane_engineering:electrum\"}",
+              "count": 1
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                null,
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "arcane_engineering:wandcap_electrum",
+                    "count": 1
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "immersiveengineering:stick_treated",
+                    "count": 1
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "arcane_engineering:wandcap_electrum",
+                    "count": 1
+                  }
+                },
+                null,
+                null
+              ]
+            },
+            "aspects": {
+              "aer": 10,
+              "terra": 10,
+              "ignis": 10,
+              "aqua": 10,
+              "ordo": 10,
+              "perditio": 10
+            }
+          }
+        },
+        {
+          "id": "arcane_engineering:ROD_upgradeable/wand_steel",
+          "type": "ARCANE_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "arcane_engineering:ROD_upgradeable",
+            "width": 3,
+            "height": 3,
+            "mirrored": false,
+            "output": {
+              "item": "arcane_engineering:wand_upgradeable",
+              "nbt": "{rod:\"arcane_engineering:upgradeable\",cap:\"arcane_engineering:steel\"}",
+              "count": 1
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                null,
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "arcane_engineering:wandcap_steel",
+                    "count": 1
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "immersiveengineering:stick_treated",
+                    "count": 1
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "arcane_engineering:wandcap_steel",
+                    "count": 1
+                  }
+                },
+                null,
+                null
+              ]
+            },
+            "aspects": {
+              "aer": 8,
+              "terra": 8,
+              "ignis": 8,
+              "aqua": 8,
+              "ordo": 8,
+              "perditio": 8
+            }
+          }
+        },
+        {
+          "id": "arcane_engineering:ROD_upgradeable/modern",
+          "type": "TEXT",
+          "text": {
+            "translate": "ae.guide.ROD_upgradeable"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "arcane_engineering:CAP_steel",
+      "pages": [
+        {
+          "id": "arcane_engineering:CAP_steel/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "ArcaneEngineering.research_page.CAP_steel"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "arcane_engineering:CAP_steel/wandcap_steel",
+          "type": "ARCANE_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcane_engineering:wandcap_steel"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "arcane_engineering:CAP_steel/modern",
+          "type": "TEXT",
+          "text": {
+            "translate": "ae.guide.CAP_steel"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "arcane_engineering:CAP_electrum",
+      "pages": [
+        {
+          "id": "arcane_engineering:CAP_electrum/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "ArcaneEngineering.research_page.CAP_electrum"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "arcane_engineering:CAP_electrum/wandcap_electrum",
+          "type": "ARCANE_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcane_engineering:wandcap_electrum"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "arcane_engineering:CAP_electrum/modern",
+          "type": "TEXT",
+          "text": {
+            "translate": "ae.guide.CAP_electrum"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "arcane_engineering:CAPACITOR",
+      "pages": [
+        {
+          "id": "arcane_engineering:CAPACITOR/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "ArcaneEngineering.research_page.CAPACITOR"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "arcane_engineering:CAPACITOR/wandupgrade_capacitor",
+          "type": "ARCANE_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcane_engineering:wandupgrade_capacitor"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "arcane_engineering:CAPACITOR/modern",
+          "type": "TEXT",
+          "text": {
+            "translate": "ae.guide.CAPACITOR"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "arcane_engineering:CHARGER",
+      "pages": [
+        {
+          "id": "arcane_engineering:CHARGER/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "ArcaneEngineering.research_page.CHARGER"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "arcane_engineering:CHARGER/wandupgrade_charger",
+          "type": "INFUSION_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcane_engineering:wandupgrade_charger"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "arcane_engineering:CHARGER/modern",
+          "type": "TEXT",
+          "text": {
+            "translate": "ae.guide.CHARGER"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "arcane_engineering:ENERGIZER",
+      "pages": [
+        {
+          "id": "arcane_engineering:ENERGIZER/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "ArcaneEngineering.research_page.ENERGIZER"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "arcane_engineering:ENERGIZER/wandupgrade_energizer",
+          "type": "INFUSION_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcane_engineering:wandupgrade_energizer"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "arcane_engineering:ENERGIZER/modern",
+          "type": "TEXT",
+          "text": {
+            "translate": "ae.guide.ENERGIZER"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "arcane_engineering:IMPULSEBOOTS",
+      "pages": [
+        {
+          "id": "arcane_engineering:IMPULSEBOOTS/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "ArcaneEngineering.research_page.IMPULSEBOOTS"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "arcane_engineering:IMPULSEBOOTS/impulse_boots",
+          "type": "NORMAL_CRAFTING",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcane_engineering:impulse_boots"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "arcane_engineering:IMPULSEBOOTS/modern",
+          "type": "TEXT",
+          "text": {
+            "translate": "ae.guide.IMPULSEBOOTS"
+          },
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

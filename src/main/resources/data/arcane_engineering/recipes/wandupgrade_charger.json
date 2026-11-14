@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "arcane_engineering:CHARGER",
+  "instability": 8,
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:vis_relay"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    }
+  ],
+  "aspects": {
+    "auram": 24,
+    "vitreus": 24,
+    "lucrum": 8,
+    "praecantatio": 32
+  },
+  "result": {
+    "item": "arcane_engineering:wandupgrade_charger"
+  }
+}
