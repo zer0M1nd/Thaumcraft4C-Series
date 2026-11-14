@@ -1,0 +1,23 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "thermal:dynamo_stirling"
+  },
+  "output": {
+    "item": "technomancy:blood_dynamo"
+  },
+  "upgradeLevel": 2,
+  "altarSyphon": 10000,
+  "consumptionRate": 100,
+  "drainRate": 100,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thermal:dynamo_stirling"
+    }
+  ]
+}

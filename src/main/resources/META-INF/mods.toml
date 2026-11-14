@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Apache-2.0"
+[[mods]]
+modId="technomancy"
+version="${version}"
+displayName="Technomancy: Continuation"
+authors="Democretes, theflogat, Mordenkainen; TC4Revival port"
+description='''Science and magic. Technomancy 0.12.5 reimplemented for Thaumcraft 4: Continuation on Forge 1.20.1.'''
+[[dependencies.technomancy]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.technomancy]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.technomancy]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.115.1,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.technomancy]]
+modId="botania"
+mandatory=false
+versionRange="[1.20.1-450,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.technomancy]]
+modId="bloodmagic"
+mandatory=false
+versionRange="[3.3.8,)"
+ordering="AFTER"
+side="BOTH"

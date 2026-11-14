@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " NI",
+    "NIN",
+    "IN "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "I": {
+      "tag": "forge:dyes/black"
+    }
+  },
+  "result": {
+    "item": "technomancy:pen_core"
+  }
+}

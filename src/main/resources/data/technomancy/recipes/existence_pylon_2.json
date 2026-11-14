@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "technomancy:potency_gem"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "technomancy:existence_gem",
+      "nbt": "{Damage:0}"
+    },
+    {
+      "item": "technomancy:existence_pylon_1"
+    }
+  ],
+  "result": {
+    "item": "technomancy:existence_pylon_2"
+  }
+}

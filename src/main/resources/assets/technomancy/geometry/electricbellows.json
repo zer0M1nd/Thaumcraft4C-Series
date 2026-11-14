@@ -1,0 +1,172 @@
+{
+  "width": 128,
+  "height": 64,
+  "texture": "electricbellows",
+  "parts": [
+    {
+      "name": "BottomPlank",
+      "pivot": [
+        0,
+        22,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -6,
+            0,
+            -6
+          ],
+          "size": [
+            12,
+            2,
+            12
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "MiddlePlank",
+      "pivot": [
+        0,
+        16,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -6,
+            -1,
+            -6
+          ],
+          "size": [
+            12,
+            2,
+            12
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "TopPlank",
+      "pivot": [
+        0,
+        8,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -6,
+            0,
+            -6
+          ],
+          "size": [
+            12,
+            2,
+            12
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Bag",
+      "pivot": [
+        0,
+        16,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -10,
+            -12.03333,
+            -10
+          ],
+          "size": [
+            20,
+            24.0,
+            20
+          ],
+          "uv": [
+            48,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Nozzle",
+      "pivot": [
+        0,
+        16,
+        6
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -2,
+            -2,
+            0
+          ],
+          "size": [
+            4,
+            4,
+            2
+          ],
+          "uv": [
+            0,
+            36
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    }
+  ]
+}

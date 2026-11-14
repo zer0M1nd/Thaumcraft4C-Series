@@ -1,0 +1,23 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "thermal:rf_coil"
+  },
+  "output": {
+    "item": "technomancy:life_coil"
+  },
+  "upgradeLevel": 1,
+  "altarSyphon": 1000,
+  "consumptionRate": 100,
+  "drainRate": 100,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thermal:machine_frame"
+    }
+  ]
+}

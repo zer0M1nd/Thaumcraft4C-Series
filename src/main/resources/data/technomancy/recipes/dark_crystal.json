@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GR",
+    "RG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "R": {
+      "tag": "forge:dyes/blue"
+    }
+  },
+  "result": {
+    "item": "technomancy:dark_crystal",
+    "count": 3
+  }
+}

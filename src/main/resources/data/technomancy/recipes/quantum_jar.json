@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    "QNQ",
+    "Q Q",
+    "QQQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "technomancy:quantized_glass"
+    },
+    "N": {
+      "item": "technomancy:neutronized_metal"
+    }
+  },
+  "result": {
+    "item": "technomancy:quantum_jar"
+  },
+  "research": "technomancy:QUANTUMJARS",
+  "vis": {
+    "ordo": 15,
+    "aqua": 10
+  }
+}

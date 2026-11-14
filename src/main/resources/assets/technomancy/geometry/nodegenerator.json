@@ -1,0 +1,304 @@
+{
+  "width": 256,
+  "height": 128,
+  "texture": "nodegenerator",
+  "parts": [
+    {
+      "name": "OuterBoard",
+      "pivot": [
+        -8,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0,
+            -19,
+            -19
+          ],
+          "size": [
+            2,
+            38,
+            38
+          ],
+          "uv": [
+            176,
+            52
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "MiddleBoard",
+      "pivot": [
+        -6,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0,
+            -22,
+            -22
+          ],
+          "size": [
+            2,
+            44,
+            44
+          ],
+          "uv": [
+            0,
+            40
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "BackBoard",
+      "pivot": [
+        -4,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0,
+            -19,
+            -19
+          ],
+          "size": [
+            4,
+            38,
+            38
+          ],
+          "uv": [
+            92,
+            52
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "pivot": [
+        2,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -6,
+            -8,
+            -8
+          ],
+          "size": [
+            12,
+            32,
+            16
+          ],
+          "uv": [
+            200,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Pylon4",
+      "pivot": [
+        -12,
+        -16,
+        16
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -4,
+            -2,
+            -2
+          ],
+          "size": [
+            8,
+            4,
+            4
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Pylon3",
+      "pivot": [
+        -12,
+        16,
+        16
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -4,
+            -2,
+            -2
+          ],
+          "size": [
+            8,
+            4,
+            4
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Pylon1",
+      "pivot": [
+        -12,
+        -16,
+        -16
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -4,
+            -2,
+            -2
+          ],
+          "size": [
+            8,
+            4,
+            4
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Pylon2",
+      "pivot": [
+        -12,
+        16,
+        -16
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -4,
+            -2,
+            -2
+          ],
+          "size": [
+            8,
+            4,
+            4
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "CenterPiece1",
+      "pivot": [
+        -7.5,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7853981633974483,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -1.0,
+            -13,
+            -13
+          ],
+          "size": [
+            2.0,
+            26,
+            26
+          ],
+          "uv": [
+            144,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    }
+  ]
+}

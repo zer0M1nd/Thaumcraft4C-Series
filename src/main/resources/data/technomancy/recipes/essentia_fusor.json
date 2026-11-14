@@ -1,0 +1,61 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "technomancy:ESSENTIAFUSOR",
+  "instability": 10,
+  "aspects": {
+    "praecantatio": 32,
+    "fabrico": 32,
+    "permutatio": 16,
+    "machina": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:alchemy_centrifuge"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_valve"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "technomancy:neutronized_metal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_valve"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "technomancy:neutronized_metal"
+      }
+    }
+  ],
+  "result": {
+    "item": "technomancy:essentia_fusor"
+  }
+}

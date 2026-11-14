@@ -1,0 +1,40 @@
+{
+  "width": 64,
+  "height": 32,
+  "texture": "fusor",
+  "parts": [
+    {
+      "name": "fusor",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            16,
+            12,
+            16
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    }
+  ]
+}

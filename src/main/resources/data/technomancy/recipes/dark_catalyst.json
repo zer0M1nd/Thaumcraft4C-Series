@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ARB",
+    "RGR",
+    "BRA"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "R": {
+      "tag": "forge:dyes/blue"
+    },
+    "B": {
+      "item": "minecraft:clay"
+    },
+    "A": {
+      "item": "minecraft:cod"
+    }
+  },
+  "result": {
+    "item": "technomancy:dark_catalyst"
+  }
+}

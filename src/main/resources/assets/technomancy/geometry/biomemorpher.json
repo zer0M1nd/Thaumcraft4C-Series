@@ -1,0 +1,469 @@
+{
+  "width": 64,
+  "height": 32,
+  "texture": "biomemorpher",
+  "parts": [
+    {
+      "name": "Bottom",
+      "pivot": [
+        0,
+        25,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -8,
+            -2,
+            -8
+          ],
+          "size": [
+            16,
+            1,
+            16
+          ],
+          "uv": [
+            0,
+            15
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Top",
+      "pivot": [
+        0,
+        8,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        3.1415930026556436
+      ],
+      "boxes": [
+        {
+          "position": [
+            -8,
+            0,
+            -8
+          ],
+          "size": [
+            16,
+            1,
+            16
+          ],
+          "uv": [
+            0,
+            15
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Post1",
+      "pivot": [
+        -8,
+        16,
+        7
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0,
+            -8,
+            0
+          ],
+          "size": [
+            1,
+            16,
+            1
+          ],
+          "uv": [
+            0,
+            14
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Post2",
+      "pivot": [
+        -8,
+        16,
+        -8
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0,
+            -8,
+            0
+          ],
+          "size": [
+            1,
+            16,
+            1
+          ],
+          "uv": [
+            0,
+            14
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Post3",
+      "pivot": [
+        7,
+        15,
+        -8
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0,
+            -8,
+            0
+          ],
+          "size": [
+            1,
+            16,
+            1
+          ],
+          "uv": [
+            0,
+            14
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Post4",
+      "pivot": [
+        7,
+        15,
+        7
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0,
+            -8,
+            0
+          ],
+          "size": [
+            1,
+            16,
+            1
+          ],
+          "uv": [
+            0,
+            14
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Side1",
+      "pivot": [
+        -8,
+        16,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0,
+            -2,
+            -2
+          ],
+          "size": [
+            1,
+            4,
+            4
+          ],
+          "uv": [
+            16,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Side2",
+      "pivot": [
+        0,
+        16,
+        -8
+      ],
+      "rotation": [
+        -0.0,
+        -1.5707959777290461,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0,
+            -2,
+            -2
+          ],
+          "size": [
+            1,
+            4,
+            4
+          ],
+          "uv": [
+            16,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Side3",
+      "pivot": [
+        7,
+        16,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0,
+            -2,
+            -2
+          ],
+          "size": [
+            1,
+            4,
+            4
+          ],
+          "uv": [
+            16,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Side4",
+      "pivot": [
+        0,
+        16,
+        8
+      ],
+      "rotation": [
+        -0.0,
+        1.5707959777290461,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0,
+            -2,
+            -2
+          ],
+          "size": [
+            1,
+            4,
+            4
+          ],
+          "uv": [
+            16,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Glass1",
+      "pivot": [
+        -8,
+        15,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0.5,
+            -7,
+            -7
+          ],
+          "size": [
+            0.0,
+            15,
+            14
+          ],
+          "uv": [
+            30,
+            -14
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Glass2",
+      "pivot": [
+        0,
+        15,
+        -7
+      ],
+      "rotation": [
+        -0.0,
+        -1.5707959777290461,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -0.5,
+            -7,
+            -7
+          ],
+          "size": [
+            0.0,
+            15,
+            14
+          ],
+          "uv": [
+            30,
+            -14
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Glass3",
+      "pivot": [
+        7,
+        15,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        3.1415930026556436,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -0.5,
+            -7,
+            -7
+          ],
+          "size": [
+            0.0,
+            15,
+            14
+          ],
+          "uv": [
+            30,
+            -14
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Glass4",
+      "pivot": [
+        0,
+        15,
+        8
+      ],
+      "rotation": [
+        -0.0,
+        1.5707959777290461,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            0.5,
+            -7,
+            -7
+          ],
+          "size": [
+            0.0,
+            15,
+            14
+          ],
+          "uv": [
+            30,
+            -14
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    }
+  ]
+}

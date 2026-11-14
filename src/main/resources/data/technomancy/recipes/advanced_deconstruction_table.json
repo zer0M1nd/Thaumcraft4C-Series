@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "technomancy:ADVDECONTABLE",
+  "instability": 10,
+  "aspects": {
+    "praecantatio": 32,
+    "fabrico": 8,
+    "permutatio": 16,
+    "instrumentum": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:deconstruction_table"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    }
+  ],
+  "result": {
+    "item": "technomancy:advanced_deconstruction_table"
+  }
+}

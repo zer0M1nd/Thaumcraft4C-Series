@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "technomancy:existence_burner"
+    },
+    {
+      "item": "thermal:machine_frame"
+    },
+    {
+      "item": "thermal:rf_coil"
+    }
+  ],
+  "result": {
+    "item": "technomancy:dynamic_existence_burner"
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "thermal:machine_frame"
+    }
+  ]
+}

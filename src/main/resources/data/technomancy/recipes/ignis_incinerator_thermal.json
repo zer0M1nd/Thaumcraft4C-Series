@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    " A ",
+    "BMB",
+    "ICI"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "M": {
+      "item": "thermal:machine_frame"
+    },
+    "I": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "C": {
+      "item": "technomancy:enchanted_coil"
+    }
+  },
+  "result": {
+    "item": "technomancy:ignis_incinerator"
+  },
+  "research": "technomancy:PROCESSOR",
+  "vis": {
+    "ignis": 25,
+    "perditio": 25,
+    "ordo": 25
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "thermal:machine_frame"
+    }
+  ]
+}

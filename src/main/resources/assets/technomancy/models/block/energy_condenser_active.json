@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "front": "technomancy:block/condenserblockfront",
+    "side": "technomancy:block/condenserblockside",
+    "top": "technomancy:block/condenserblockbottom",
+    "bottom": "technomancy:block/condenserblocktop"
+  }
+}

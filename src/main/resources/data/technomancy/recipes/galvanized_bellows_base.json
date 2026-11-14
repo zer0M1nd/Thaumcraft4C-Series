@@ -1,0 +1,50 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    "TG ",
+    "EBC",
+    "TG "
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "G": {
+      "item": "technomancy:neutronized_gear"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    },
+    "B": {
+      "item": "thaumcraft:bellows"
+    },
+    "C": {
+      "item": "technomancy:enchanted_coil"
+    }
+  },
+  "result": {
+    "item": "technomancy:galvanized_bellows"
+  },
+  "research": "technomancy:ELECTRICBELLOWS",
+  "vis": {
+    "aer": 30,
+    "ordo": 30,
+    "ignis": 30
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:item_exists",
+        "item": "thermal:machine_frame"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "mekanism"
+      }
+    }
+  ]
+}

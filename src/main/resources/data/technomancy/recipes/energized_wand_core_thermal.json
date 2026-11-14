@@ -1,0 +1,53 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "technomancy:ROD_electric",
+  "instability": 8,
+  "aspects": {
+    "potentia": 50,
+    "instrumentum": 50,
+    "praecantatio": 50,
+    "machina": 50,
+    "permutatio": 50
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_rod_silverwood"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thermal:energy_cell"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thermal:rf_coil"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thermal:rf_coil"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thermal:rf_coil"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "technomancy:enchanted_coil"
+      }
+    }
+  ],
+  "result": {
+    "item": "technomancy:energized_wand_core"
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "thermal:machine_frame"
+    }
+  ]
+}

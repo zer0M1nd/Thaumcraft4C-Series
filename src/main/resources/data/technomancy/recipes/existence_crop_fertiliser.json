@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BGB",
+    " A "
+  ],
+  "key": {
+    "G": {
+      "type": "forge:partial_nbt",
+      "item": "technomancy:existence_gem",
+      "nbt": "{Damage:0}"
+    },
+    "B": {
+      "item": "minecraft:golden_apple"
+    },
+    "A": {
+      "item": "minecraft:golden_carrot"
+    }
+  },
+  "result": {
+    "item": "technomancy:existence_crop_fertiliser"
+  }
+}

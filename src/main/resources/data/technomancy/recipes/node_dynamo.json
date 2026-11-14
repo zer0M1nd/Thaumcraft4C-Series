@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    " C ",
+    "GIG",
+    "IRI"
+  ],
+  "key": {
+    "C": {
+      "item": "technomancy:enchanted_coil"
+    },
+    "G": {
+      "item": "technomancy:neutronized_gear"
+    },
+    "I": {
+      "item": "technomancy:neutronized_metal"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "technomancy:node_dynamo"
+  },
+  "research": "technomancy:DYNAMO",
+  "vis": {
+    "terra": 5,
+    "ordo": 25,
+    "ignis": 15,
+    "perditio": 10
+  }
+}
