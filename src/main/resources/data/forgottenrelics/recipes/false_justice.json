@@ -1,0 +1,67 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:FalseJustice",
+  "instability": 24,
+  "aspects": {
+    "lux": 120,
+    "lucrum": 24,
+    "telum": 40,
+    "instrumentum": 36,
+    "humanus": 52,
+    "praecantatio": 36,
+    "permutatio": 72,
+    "spiritus": 48,
+    "tenebrae": 45
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:false_justice",
+    "count": 1
+  }
+}

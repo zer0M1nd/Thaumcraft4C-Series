@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:DiscordRing",
+  "instability": 2,
+  "aspects": {
+    "instrumentum": 16,
+    "iter": 16,
+    "praecantatio": 12,
+    "permutatio": 8,
+    "vacuos": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_ring"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "botania:dragonstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:elementium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:elementium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:discord_ring",
+    "count": 1
+  }
+}

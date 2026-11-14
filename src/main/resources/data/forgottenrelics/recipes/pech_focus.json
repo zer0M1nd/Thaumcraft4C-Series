@@ -1,0 +1,73 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:PechFocus",
+  "instability": 4,
+  "aspects": {
+    "permutatio": 25,
+    "venenum": 20,
+    "praecantatio": 16,
+    "perditio": 12,
+    "sensus": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primal_charm"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:sugar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_wart"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:fermented_spider_eye"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:focus_pech",
+    "count": 1
+  }
+}

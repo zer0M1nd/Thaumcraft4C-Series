@@ -1,0 +1,85 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:ObeliskDrainer",
+  "instability": 8,
+  "aspects": {
+    "alienis": 72,
+    "vacuos": 64,
+    "tenebrae": 64,
+    "potentia": 40,
+    "praecantatio": 52,
+    "auram": 25,
+    "permutatio": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:obelisk_drainer",
+    "count": 1
+  }
+}

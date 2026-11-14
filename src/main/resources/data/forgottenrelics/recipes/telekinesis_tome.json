@@ -1,0 +1,75 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:TelekinesisTome",
+  "instability": 8,
+  "aspects": {
+    "motus": 32,
+    "vinculum": 48,
+    "praecantatio": 64,
+    "tenebrae": 24,
+    "aer": 25,
+    "potentia": 40,
+    "instrumentum": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_shock"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:gravity_rod"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_shock"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:telekinesis_tome",
+    "count": 1
+  }
+}

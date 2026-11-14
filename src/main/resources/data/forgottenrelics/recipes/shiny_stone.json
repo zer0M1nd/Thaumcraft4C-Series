@@ -1,0 +1,64 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:ShinyStone",
+  "instability": 8,
+  "aspects": {
+    "sano": 40,
+    "victus": 32,
+    "vinculum": 24,
+    "permutatio": 24,
+    "praecantatio": 24,
+    "vitreus": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "botania:dragonstone"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:shiny_stone",
+    "count": 1
+  }
+}

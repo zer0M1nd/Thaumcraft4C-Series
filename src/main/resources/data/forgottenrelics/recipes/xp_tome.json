@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:XPTome",
+  "instability": 4,
+  "aspects": {
+    "spiritus": 32,
+    "cognitio": 40,
+    "permutatio": 8,
+    "praecantatio": 24
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:brain_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:xp_tome",
+    "count": 1
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:Overthrower",
+  "instability": 8,
+  "aspects": {
+    "ignis": 70,
+    "iter": 40,
+    "praecantatio": 36,
+    "cognitio": 24,
+    "tenebrae": 48
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_brick"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_wart"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_wart"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_brick"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:overthrower",
+    "count": 1
+  }
+}

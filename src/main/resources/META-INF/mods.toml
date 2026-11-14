@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="WTFPL-2.0"
+[[mods]]
+modId="forgottenrelics"
+version="${version}"
+displayName="Forgotten Relics: Continuation"
+authors="Integral / Aizistral (original); TC4Revival (modern port)"
+credits="Theismarius (original art), Dreamfinity (original inspiration)"
+description='''A Forge 1.20.1 continuation of Forgotten Relics 1.7.3 Final for Thaumcraft 4 and Botania. Original media are loaded through Thaumcraft's external resource manager.'''
+[[dependencies.forgottenrelics]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.forgottenrelics]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.forgottenrelics]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.114,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.forgottenrelics]]
+modId="botania"
+mandatory=true
+versionRange="[1.20.1-445,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.forgottenrelics]]
+modId="curios"
+mandatory=true
+versionRange="[5.14.1+1.20.1,)"
+ordering="AFTER"
+side="BOTH"

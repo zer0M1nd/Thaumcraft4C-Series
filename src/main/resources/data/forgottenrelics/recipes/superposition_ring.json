@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:SuperpositionRing",
+  "instability": 4,
+  "aspects": {
+    "alienis": 32,
+    "permutatio": 30,
+    "iter": 24,
+    "tenebrae": 20,
+    "tutamen": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_ring"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:ender_air_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:ender_air_bottle"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:superposition_ring",
+    "count": 1
+  }
+}

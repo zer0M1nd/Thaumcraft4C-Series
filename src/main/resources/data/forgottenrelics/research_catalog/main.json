@@ -1,0 +1,965 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "FORGOTTEN_RELICS",
+      "icon": "forgottenrelics:textures/item/apotheosis.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "forgottenrelics:GenericTheory",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 1,
+          "aspects": {
+            "cognitio": 4,
+            "instrumentum": 4,
+            "praecantatio": 4,
+            "fabrico": 4
+          },
+          "displayColumn": 0,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "thaumcraft:runed_tablet"
+          },
+          "parentsHidden": [
+            "INFUSION",
+            "THAUMIUM"
+          ],
+          "isSpecial": true,
+          "isRound": true,
+          "pageCount": 5
+        },
+        {
+          "key": "forgottenrelics:SuperpositionRing",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "iter": 4,
+            "tenebrae": 3,
+            "alienis": 6,
+            "permutatio": 4
+          },
+          "displayColumn": 3,
+          "displayRow": 1,
+          "icon_item": {
+            "item": "forgottenrelics:superposition_ring"
+          },
+          "parents": [
+            "forgottenrelics:GenericTheory"
+          ],
+          "parentsHidden": [
+            "ELDRITCHMINOR"
+          ],
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:WeatherStone",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 1,
+          "aspects": {
+            "tempestas": 8,
+            "aer": 4,
+            "aqua": 4,
+            "permutatio": 3
+          },
+          "displayColumn": -3,
+          "displayRow": -1,
+          "icon_item": {
+            "item": "forgottenrelics:weather_stone"
+          },
+          "parents": [
+            "forgottenrelics:GenericTheory"
+          ],
+          "parentsHidden": [
+            "forgottenrelics:DeificAmulet"
+          ],
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:MiningCharm",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 1,
+          "aspects": {
+            "perfodio": 5,
+            "instrumentum": 4,
+            "motus": 4,
+            "humanus": 3
+          },
+          "displayColumn": 3,
+          "displayRow": -1,
+          "icon_item": {
+            "item": "forgottenrelics:mining_charm"
+          },
+          "parents": [
+            "forgottenrelics:GenericTheory"
+          ],
+          "parentsHidden": [
+            "ELEMENTALPICK"
+          ],
+          "isRound": true,
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "forgottenrelics:AdvancedMiningCharm",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "perfodio": 8,
+            "instrumentum": 6,
+            "motus": 4,
+            "auram": 3,
+            "praecantatio": 4
+          },
+          "displayColumn": 5,
+          "displayRow": -3,
+          "icon_item": {
+            "item": "forgottenrelics:advanced_mining_charm"
+          },
+          "parents": [
+            "forgottenrelics:MiningCharm"
+          ],
+          "isHidden": true,
+          "pageCount": 3,
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "forgottenrelics:DimensionalMirror",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "iter": 8,
+            "tenebrae": 6,
+            "alienis": 6,
+            "praecantatio": 5
+          },
+          "displayColumn": 1,
+          "displayRow": -3,
+          "icon_item": {
+            "item": "forgottenrelics:dimensional_mirror"
+          },
+          "parents": [
+            "forgottenrelics:GenericTheory"
+          ],
+          "parentsHidden": [
+            "MIRRORHAND",
+            "FOCUSPORTABLEHOLE",
+            "forgottenrelics:DeificAmulet"
+          ],
+          "isSpecial": true,
+          "isConcealed": true,
+          "warp": 1,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:AncientAegis",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 1,
+          "aspects": {
+            "tutamen": 8,
+            "permutatio": 6,
+            "metallum": 6,
+            "praecantatio": 4
+          },
+          "displayColumn": 5,
+          "displayRow": 3,
+          "icon_item": {
+            "item": "forgottenrelics:ancient_aegis"
+          },
+          "parents": [
+            "forgottenrelics:SuperpositionRing"
+          ],
+          "parentsHidden": [
+            "RUNICKINETIC",
+            "ENCHFABRIC"
+          ],
+          "isHidden": true,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:XPTome",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "cognitio": 10,
+            "vacuos": 8,
+            "permutatio": 8,
+            "praecantatio": 8
+          },
+          "displayColumn": -5,
+          "displayRow": -3,
+          "icon_item": {
+            "item": "forgottenrelics:xp_tome"
+          },
+          "parents": [
+            "forgottenrelics:WeatherStone"
+          ],
+          "parentsHidden": [
+            "JARBRAIN",
+            "NITOR"
+          ],
+          "isConcealed": true,
+          "warp": 2,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:SpellbookTheory",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 1,
+          "aspects": {
+            "cognitio": 6,
+            "praecantatio": 4,
+            "fabrico": 4,
+            "ordo": 3
+          },
+          "displayColumn": -1,
+          "displayRow": 2,
+          "icon_item": {
+            "item": "minecraft:writable_book"
+          },
+          "parents": [
+            "forgottenrelics:GenericTheory"
+          ],
+          "parentsHidden": [
+            "CRIMSON"
+          ],
+          "isRound": true,
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:DiscordTome",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "praecantatio": 8,
+            "iter": 6,
+            "tenebrae": 4,
+            "cognitio": 4,
+            "alienis": 3
+          },
+          "displayColumn": -2,
+          "displayRow": 5,
+          "icon_item": {
+            "item": "forgottenrelics:teleportation_tome"
+          },
+          "parents": [
+            "forgottenrelics:SpellbookTheory"
+          ],
+          "parentsHidden": [
+            "FOCUSPORTABLEHOLE"
+          ],
+          "isHidden": true,
+          "warp": 3,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:FateTome",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "sano": 8,
+            "victus": 8,
+            "permutatio": 5,
+            "cognitio": 4,
+            "praecantatio": 4
+          },
+          "displayColumn": -4,
+          "displayRow": 2,
+          "icon_item": {
+            "item": "forgottenrelics:fate_tome"
+          },
+          "parents": [
+            "forgottenrelics:SpellbookTheory"
+          ],
+          "parentsHidden": [
+            "ELDRITCHMAJOR"
+          ],
+          "isSpecial": true,
+          "isHidden": true,
+          "isConcealed": true,
+          "warp": 8,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:Thunderpeal",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "potentia": 5,
+            "aer": 4,
+            "praecantatio": 4,
+            "cognitio": 3
+          },
+          "displayColumn": 0,
+          "displayRow": 4,
+          "icon_item": {
+            "item": "forgottenrelics:thunderpeal"
+          },
+          "parents": [
+            "forgottenrelics:SpellbookTheory"
+          ],
+          "parentsHidden": [
+            "forgottenrelics:DiscordTome",
+            "FOCUSSHOCK",
+            "FOCALMANIPULATION"
+          ],
+          "isConcealed": true,
+          "pageCount": 5
+        },
+        {
+          "key": "forgottenrelics:TelekinesisTome",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "motus": 8,
+            "volatus": 6,
+            "vinculum": 6,
+            "cognitio": 4,
+            "praecantatio": 4
+          },
+          "displayColumn": -4,
+          "displayRow": 7,
+          "icon_item": {
+            "item": "forgottenrelics:telekinesis_tome"
+          },
+          "parents": [
+            "forgottenrelics:DiscordTome"
+          ],
+          "parentsHidden": [
+            "ELDRITCHMINOR",
+            "forgottenrelics:Thunderpeal"
+          ],
+          "isHidden": true,
+          "pageCount": 5
+        },
+        {
+          "key": "forgottenrelics:ObeliskDrainer",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "alienis": 10,
+            "vacuos": 8,
+            "tenebrae": 8,
+            "permutatio": 6,
+            "cognitio": 4,
+            "praecantatio": 4
+          },
+          "displayColumn": 0,
+          "displayRow": 7,
+          "icon_item": {
+            "item": "forgottenrelics:obelisk_drainer"
+          },
+          "parents": [
+            "forgottenrelics:DiscordTome"
+          ],
+          "parentsHidden": [
+            "ELDRITCHMAJOR",
+            "VOIDMETAL",
+            "ENCHFABRIC",
+            "NITOR",
+            "OCULUS"
+          ],
+          "isConcealed": true,
+          "warp": 4,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:EldritchSpell",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "tenebrae": 8,
+            "telum": 8,
+            "alienis": 6,
+            "cognitio": 4,
+            "praecantatio": 4
+          },
+          "displayColumn": 2,
+          "displayRow": 6,
+          "icon_item": {
+            "item": "forgottenrelics:eldritch_spell"
+          },
+          "parents": [
+            "forgottenrelics:ObeliskDrainer"
+          ],
+          "isSpecial": true,
+          "isHidden": true,
+          "isConcealed": true,
+          "warp": 6,
+          "pageCount": 4,
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "forgottenrelics:CrimsonSpell",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "ignis": 8,
+            "tenebrae": 8,
+            "perditio": 6,
+            "alienis": 4,
+            "cognitio": 4,
+            "praecantatio": 4
+          },
+          "displayColumn": 3,
+          "displayRow": 8,
+          "icon_item": {
+            "item": "forgottenrelics:crimson_spell"
+          },
+          "parents": [
+            "forgottenrelics:EldritchSpell"
+          ],
+          "isHidden": true,
+          "isConcealed": true,
+          "warp": 5,
+          "pageCount": 5,
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "forgottenrelics:ChaosTome",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "aer": 8,
+            "aqua": 8,
+            "ignis": 8,
+            "terra": 8,
+            "ordo": 8,
+            "perditio": 8,
+            "cognitio": 4,
+            "praecantatio": 4
+          },
+          "displayColumn": 2,
+          "displayRow": 3,
+          "icon_item": {
+            "item": "forgottenrelics:chaos_tome"
+          },
+          "parents": [
+            "forgottenrelics:EldritchSpell"
+          ],
+          "parentsHidden": [
+            "ROD_primal_staff"
+          ],
+          "isHidden": true,
+          "warp": 7,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:NuclearFury",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "praecantatio": 8,
+            "potentia": 8,
+            "lux": 6,
+            "ignis": 5,
+            "auram": 5,
+            "cognitio": 4
+          },
+          "displayColumn": 4,
+          "displayRow": 5,
+          "icon_item": {
+            "item": "forgottenrelics:missile_tome"
+          },
+          "parents": [
+            "forgottenrelics:ChaosTome"
+          ],
+          "parentsHidden": [
+            "PRIMPEARL"
+          ],
+          "isHidden": true,
+          "isConcealed": true,
+          "warp": 4,
+          "pageCount": 5
+        },
+        {
+          "key": "forgottenrelics:SoulTome",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "spiritus": 8,
+            "vinculum": 8,
+            "mortuus": 6,
+            "cognitio": 4,
+            "praecantatio": 4
+          },
+          "displayColumn": -1,
+          "displayRow": 9,
+          "icon_item": {
+            "item": "forgottenrelics:soul_tome"
+          },
+          "parents": [
+            "forgottenrelics:ObeliskDrainer"
+          ],
+          "parentsHidden": [
+            "JARBRAIN"
+          ],
+          "isHidden": true,
+          "isConcealed": true,
+          "warp": 3,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:LunarFlares",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "lux": 8,
+            "sensus": 8,
+            "aer": 6,
+            "potentia": 8,
+            "cognitio": 4,
+            "praecantatio": 4
+          },
+          "displayColumn": -5,
+          "displayRow": 9,
+          "icon_item": {
+            "item": "forgottenrelics:lunar_flares"
+          },
+          "parents": [
+            "forgottenrelics:TelekinesisTome"
+          ],
+          "parentsHidden": [
+            "forgottenrelics:EldritchSpell",
+            "PRIMPEARL"
+          ],
+          "isHidden": true,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:OblivionStone",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 1,
+          "aspects": {
+            "tenebrae": 4,
+            "vacuos": 4,
+            "permutatio": 4
+          },
+          "displayColumn": 7,
+          "displayRow": -2,
+          "icon_item": {
+            "item": "forgottenrelics:oblivion_stone"
+          },
+          "parents": [
+            "forgottenrelics:SuperpositionRing"
+          ],
+          "parentsHidden": [
+            "VOIDMETAL",
+            "SINSTONE"
+          ],
+          "isSpecial": true,
+          "isConcealed": true,
+          "isSecondary": true,
+          "warp": 3,
+          "pageCount": 5
+        },
+        {
+          "key": "forgottenrelics:ChaosCore",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "ordo": 8,
+            "perditio": 8,
+            "permutatio": 8,
+            "potentia": 8,
+            "vacuos": 8
+          },
+          "displayColumn": 8,
+          "displayRow": -4,
+          "icon_item": {
+            "item": "forgottenrelics:chaos_core"
+          },
+          "parents": [
+            "forgottenrelics:OblivionStone"
+          ],
+          "parentsHidden": [
+            "ALUMENTUM",
+            "forgottenrelics:AncientAegis"
+          ],
+          "isRound": true,
+          "isHidden": true,
+          "isConcealed": true,
+          "warp": 2,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:TheParadox",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 1,
+          "aspects": {
+            "perditio": 8,
+            "permutatio": 8,
+            "ordo": 8,
+            "telum": 6
+          },
+          "displayColumn": 6,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "forgottenrelics:paradox"
+          },
+          "parents": [
+            "forgottenrelics:SuperpositionRing"
+          ],
+          "parentsHidden": [
+            "forgottenrelics:ChaosCore",
+            "PRIMPEARL"
+          ],
+          "isHidden": true,
+          "isConcealed": true,
+          "isSecondary": true,
+          "warp": 8,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:DarkSunRing",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "ignis": 7,
+            "tenebrae": 6,
+            "potentia": 5,
+            "tutamen": 4,
+            "permutatio": 3,
+            "praecantatio": 2,
+            "lux": 1
+          },
+          "displayColumn": 7,
+          "displayRow": 2,
+          "icon_item": {
+            "item": "forgottenrelics:dark_sun_ring"
+          },
+          "parents": [
+            "forgottenrelics:SuperpositionRing"
+          ],
+          "parentsHidden": [
+            "ELDRITCHMINOR",
+            "NITOR",
+            "RUNICCHARGED"
+          ],
+          "isHidden": true,
+          "isConcealed": true,
+          "warp": 3,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:DeificAmulet",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "humanus": 6,
+            "sano": 4,
+            "lux": 4,
+            "permutatio": 4,
+            "praecantatio": 4
+          },
+          "displayColumn": 3,
+          "displayRow": -4,
+          "icon_item": {
+            "item": "forgottenrelics:deific_amulet"
+          },
+          "parents": [
+            "forgottenrelics:MiningCharm"
+          ],
+          "parentsHidden": [
+            "RUNICEMERGENCY"
+          ],
+          "isHidden": true,
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:ShinyStone",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "sano": 8,
+            "permutatio": 6,
+            "vitreus": 4,
+            "praecantatio": 4
+          },
+          "displayColumn": 6,
+          "displayRow": -5,
+          "icon_item": {
+            "item": "forgottenrelics:shiny_stone"
+          },
+          "parents": [
+            "forgottenrelics:DeificAmulet"
+          ],
+          "isHidden": true,
+          "pageCount": 4,
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "forgottenrelics:TerrorCrown",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "alienis": 8,
+            "telum": 6,
+            "perditio": 6,
+            "tutamen": 4,
+            "sensus": 2
+          },
+          "displayColumn": -6,
+          "displayRow": -5,
+          "icon_item": {
+            "item": "forgottenrelics:terror_crown"
+          },
+          "parents": [
+            "forgottenrelics:XPTome"
+          ],
+          "parentsHidden": [
+            "ELDRITCHMAJOR",
+            "OCULUS"
+          ],
+          "isHidden": true,
+          "warp": 4,
+          "pageCount": 5
+        },
+        {
+          "key": "forgottenrelics:OblivionAmulet",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "tenebrae": 12,
+            "mortuus": 10,
+            "tutamen": 8,
+            "permutatio": 8,
+            "vacuos": 8,
+            "spiritus": 4
+          },
+          "displayColumn": -3,
+          "displayRow": -4,
+          "icon_item": {
+            "item": "forgottenrelics:oblivion_amulet"
+          },
+          "parents": [
+            "forgottenrelics:XPTome"
+          ],
+          "parentsHidden": [
+            "forgottenrelics:OblivionStone",
+            "forgottenrelics:TerrorCrown",
+            "PRIMPEARL"
+          ],
+          "isSpecial": true,
+          "isHidden": true,
+          "isConcealed": true,
+          "warp": 8,
+          "pageCount": 5
+        },
+        {
+          "key": "forgottenrelics:NebulousCore",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "auram": 10,
+            "praecantatio": 8,
+            "vacuos": 6,
+            "potentia": 6,
+            "permutatio": 4
+          },
+          "displayColumn": 0,
+          "displayRow": -5,
+          "icon_item": {
+            "item": "forgottenrelics:arcanum"
+          },
+          "parents": [
+            "forgottenrelics:DeificAmulet"
+          ],
+          "parentsHidden": [
+            "PRIMPEARL",
+            "VISAMULET",
+            "forgottenrelics:SuperpositionRing",
+            "THAUMIUM"
+          ],
+          "isSpecial": true,
+          "isHidden": true,
+          "pageCount": 5
+        },
+        {
+          "key": "forgottenrelics:FalseJustice",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "lux": 8,
+            "tenebrae": 8,
+            "permutatio": 8,
+            "instrumentum": 6,
+            "humanus": 4
+          },
+          "displayColumn": -7,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "forgottenrelics:false_justice"
+          },
+          "parentsHidden": [
+            "forgottenrelics:Apotheosis"
+          ],
+          "isSpecial": true,
+          "isRound": true,
+          "warp": 4,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:Overthrower",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "ignis": 10,
+            "iter": 8,
+            "tenebrae": 8,
+            "praecantatio": 6,
+            "cognitio": 4,
+            "spiritus": 4
+          },
+          "displayColumn": -5,
+          "displayRow": 5,
+          "icon_item": {
+            "item": "forgottenrelics:overthrower"
+          },
+          "parents": [
+            "forgottenrelics:DiscordTome"
+          ],
+          "parentsHidden": [
+            "FOCUSHELLBAT"
+          ],
+          "isSpecial": true,
+          "isHidden": true,
+          "isConcealed": true,
+          "isSecondary": true,
+          "warp": 3,
+          "pageCount": 5
+        },
+        {
+          "key": "forgottenrelics:VoidGrimoire",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 3,
+          "aspects": {
+            "vacuos": 10,
+            "tenebrae": 8,
+            "alienis": 8,
+            "iter": 6,
+            "cognitio": 4,
+            "perditio": 4
+          },
+          "displayColumn": -7,
+          "displayRow": 7,
+          "icon_item": {
+            "item": "forgottenrelics:void_grimoire"
+          },
+          "parents": [
+            "forgottenrelics:Overthrower"
+          ],
+          "parentsHidden": [
+            "OCULUS",
+            "forgottenrelics:TerrorCrown",
+            "forgottenrelics:ChaosCore"
+          ],
+          "isConcealed": true,
+          "isLost": true,
+          "warp": 4,
+          "pageCount": 5
+        },
+        {
+          "key": "forgottenrelics:PechFocus",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "permutatio": 8,
+            "perditio": 6,
+            "praecantatio": 4,
+            "sensus": 4
+          },
+          "displayColumn": -1,
+          "displayRow": -2,
+          "icon_item": {
+            "item": "thaumcraft:focus_pech"
+          },
+          "parents": [
+            "forgottenrelics:WeatherStone"
+          ],
+          "parentsHidden": [
+            "FOCUSFIRE",
+            "FOCUSFROST"
+          ],
+          "isHidden": true,
+          "isSecondary": true,
+          "pageCount": 3
+        },
+        {
+          "key": "forgottenrelics:DiscordRing",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 8,
+            "iter": 8,
+            "praecantatio": 8
+          },
+          "displayColumn": 3,
+          "displayRow": -6,
+          "icon_item": {
+            "item": "forgottenrelics:discord_ring"
+          },
+          "parents": [
+            "forgottenrelics:DeificAmulet"
+          ],
+          "parentsHidden": [
+            "forgottenrelics:DiscordTome"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 4
+        },
+        {
+          "key": "forgottenrelics:Apotheosis",
+          "category": "FORGOTTEN_RELICS",
+          "complexity": 2,
+          "aspects": {
+            "praecantatio": 16,
+            "telum": 12,
+            "potentia": 12,
+            "lux": 12,
+            "cognitio": 8
+          },
+          "displayColumn": -2,
+          "displayRow": 7,
+          "icon_item": {
+            "item": "forgottenrelics:apotheosis"
+          },
+          "parents": [
+            "forgottenrelics:DiscordTome"
+          ],
+          "parentsHidden": [
+            "forgottenrelics:LunarFlares",
+            "forgottenrelics:SoulTome",
+            "forgottenrelics:NuclearFury",
+            "forgottenrelics:CrimsonSpell",
+            "forgottenrelics:FateTome",
+            "forgottenrelics:NebulousCore",
+            "forgottenrelics:OblivionAmulet",
+            "forgottenrelics:TheParadox",
+            "forgottenrelics:Overthrower",
+            "forgottenrelics:DarkSunRing",
+            "forgottenrelics:ShinyStone",
+            "forgottenrelics:DimensionalMirror"
+          ],
+          "isSpecial": true,
+          "isRound": true,
+          "isLost": true,
+          "warp": 10,
+          "pageCount": 6
+        }
+      ]
+    }
+  ]
+}

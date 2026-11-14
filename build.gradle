@@ -1,0 +1,71 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
+version = '0.1.0.1'
+group = 'forgottenrelics'
+base.archivesName = 'Forgotten-Relics-Modern-Port'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.withSourcesJar()
+sourceSets {
+    serverTest {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+repositories {
+    flatDir { dirs '../../../Data/Dependencies/TC4/0.4.114', '../ForbiddenMagic/libs' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    mavenCentral()
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+    implementation fg.deobf('local.validation:Thaumcraft-4-Modern-Port:0.4.114')
+    implementation fg.deobf('local:botania:455')
+    runtimeOnly fg.deobf('local:patchouli:85')
+    runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
+    implementation fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            args '--mixin.config', 'tc4revival.mixins.json'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+            mods { forgottenrelics { source sourceSets.main } }
+        }
+        gameTestServer {
+            workingDirectory file('../../../Data/Verification/20261114-01a1d90b-forgotten-relics/gametest')
+            property 'forge.enabledGameTestNamespaces', 'forgottenrelics'
+            mods { forgottenrelics { source sourceSets.serverTest } }
+            jvmArgs '-Xmx1408m', '-XX:ActiveProcessorCount=2'
+        }
+        server {
+            workingDirectory file('../../../Data/Verification/20261114-01a1d90b-forgotten-relics/server')
+            args '--nogui'
+            property 'forge.enabledGameTestNamespaces', 'forgottenrelics'
+            mods { forgottenrelics { source sourceSets.serverTest } }
+            jvmArgs '-Xmx1408m', '-XX:ActiveProcessorCount=2'
+        }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 17 }
+tasks.withType(ProcessResources).configureEach { filteringCharset = 'UTF-8' }
+tasks.named('processResources') { inputs.property 'version', project.version; filesMatching('META-INF/mods.toml') { expand version: project.version } }
+tasks.named('jar') { finalizedBy 'reobfJar' }
+tasks.matching { it.name == 'reobfJar' }.configureEach { jvmArgs.add('-Xmx768m') }
+tasks.named('test') { useJUnitPlatform() }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }
+tasks.register('verifyExternalResources') {
+    dependsOn 'jar', 'reobfJar', 'sourcesJar'
+    doLast {
+        ['jar', 'sourcesJar'].each { name ->
+            new java.util.zip.ZipFile(tasks.named(name).get().archiveFile.get().asFile).withCloseable { zip ->
+                zip.entries().each { entry ->
+                    if (entry.name ==~ /.*\.(png|ogg|lang|obj)/ || entry.name.startsWith('tc4revival/') || entry.name.startsWith('thaumcraft/api/'))
+                        throw new GradleException("Unexpected bundled original resource or base class: ${entry.name}")
+                }
+            }
+        }
+    }
+}

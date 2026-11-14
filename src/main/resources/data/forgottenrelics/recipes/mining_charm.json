@@ -1,0 +1,64 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:MiningCharm",
+  "instability": 1,
+  "aspects": {
+    "perfodio": 24,
+    "instrumentum": 20,
+    "motus": 16,
+    "metallum": 12,
+    "praecantatio": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "botania:reach_ring"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_pickaxe"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:potion"
+      },
+      "nbt": "{Potion:\"minecraft:strong_swiftness\"}"
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:mining_charm",
+    "count": 1
+  }
+}

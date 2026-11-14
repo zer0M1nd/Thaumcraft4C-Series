@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:DimensionalMirror",
+  "instability": 6,
+  "aspects": {
+    "iter": 40,
+    "tenebrae": 20,
+    "praecantatio": 24,
+    "vacuos": 16,
+    "alienis": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:hand_mirror"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:dragonstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:ender_air_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_portable_hole"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:ender_air_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:dragonstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:dimensional_mirror",
+    "count": 1
+  }
+}

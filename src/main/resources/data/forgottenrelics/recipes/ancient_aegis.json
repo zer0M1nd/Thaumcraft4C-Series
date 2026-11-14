@@ -1,0 +1,65 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:AncientAegis",
+  "instability": 5,
+  "aspects": {
+    "tutamen": 45,
+    "permutatio": 30,
+    "sano": 24,
+    "praecantatio": 30,
+    "metallum": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "botania:knockback_belt"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "botania:dragonstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:potion"
+      },
+      "nbt": "{Potion:\"minecraft:strong_healing\"}"
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:runic_girdle_kinetic"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:potion"
+      },
+      "nbt": "{Potion:\"minecraft:strong_healing\"}"
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:ancient_aegis",
+    "count": 1
+  }
+}

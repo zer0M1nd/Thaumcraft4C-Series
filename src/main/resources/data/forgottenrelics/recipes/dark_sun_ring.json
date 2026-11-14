@@ -1,0 +1,73 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:DarkSunRing",
+  "instability": 8,
+  "aspects": {
+    "ignis": 60,
+    "tutamen": 48,
+    "permutatio": 36,
+    "tenebrae": 40,
+    "praecantatio": 25
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:runic_ring_charged"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "botania:super_lava_pendant"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:elementium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:cinderpearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:cinderpearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:elementium_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:dark_sun_ring",
+    "count": 1
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:TerrorCrown",
+  "instability": 8,
+  "aspects": {
+    "alienis": 50,
+    "telum": 32,
+    "sensus": 24,
+    "mortuus": 42,
+    "spiritus": 16,
+    "perditio": 20,
+    "praecantatio": 36,
+    "tutamen": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:goggles"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_pride"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_wrath"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:terror_crown",
+    "count": 1
+  }
+}

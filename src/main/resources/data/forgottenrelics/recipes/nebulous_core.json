@@ -1,0 +1,85 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:NebulousCore",
+  "instability": 12,
+  "aspects": {
+    "auram": 80,
+    "praecantatio": 128,
+    "vacuos": 32,
+    "alienis": 50,
+    "tenebrae": 40,
+    "iter": 24,
+    "permutatio": 48
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primordial_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_amulet"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:ender_air_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forgottenrelics:superposition_ring"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:ender_air_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:arcanum",
+    "count": 1
+  }
+}

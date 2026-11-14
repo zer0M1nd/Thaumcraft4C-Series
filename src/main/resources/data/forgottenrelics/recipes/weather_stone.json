@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:WeatherStone",
+  "instability": 4,
+  "aspects": {
+    "tempestas": 16,
+    "aer": 24,
+    "aqua": 10,
+    "permutatio": 12,
+    "potentia": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_air"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_air"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:weather_stone",
+    "count": 1
+  }
+}

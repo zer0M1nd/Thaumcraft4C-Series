@@ -1,0 +1,68 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:TheParadox",
+  "instability": 32,
+  "aspects": {
+    "aer": 64,
+    "ignis": 64,
+    "aqua": 64,
+    "terra": 64,
+    "ordo": 64,
+    "perditio": 64,
+    "vacuos": 48,
+    "telum": 32,
+    "praecantatio": 24,
+    "permutatio": 36
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_sword"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "forgottenrelics:chaos_core"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:paradox",
+    "count": 1
+  }
+}

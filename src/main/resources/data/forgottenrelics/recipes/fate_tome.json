@@ -1,0 +1,85 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:FateTome",
+  "instability": 20,
+  "aspects": {
+    "sano": 40,
+    "victus": 64,
+    "permutatio": 32,
+    "humanus": 24,
+    "cognitio": 16,
+    "spiritus": 36,
+    "ordo": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:dragonstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:dragonstone"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:fate_tome",
+    "count": 1
+  }
+}

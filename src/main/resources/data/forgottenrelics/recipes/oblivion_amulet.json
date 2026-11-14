@@ -1,0 +1,65 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:OblivionAmulet",
+  "instability": 16,
+  "aspects": {
+    "mortuus": 64,
+    "permutatio": 50,
+    "vacuos": 72,
+    "tenebrae": 100,
+    "alienis": 24,
+    "praecantatio": 32,
+    "ignis": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "botania:blood_pendant"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:oblivion_amulet",
+    "count": 1
+  }
+}

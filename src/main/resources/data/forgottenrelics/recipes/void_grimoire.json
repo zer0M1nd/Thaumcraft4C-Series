@@ -1,0 +1,66 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:VoidGrimoire",
+  "instability": 10,
+  "aspects": {
+    "vacuos": 100,
+    "tenebrae": 52,
+    "iter": 24,
+    "praecantatio": 40,
+    "cognitio": 32,
+    "alienis": 40,
+    "permutatio": 16,
+    "perditio": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "forgottenrelics:overthrower"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:void_grimoire",
+    "count": 1
+  }
+}
