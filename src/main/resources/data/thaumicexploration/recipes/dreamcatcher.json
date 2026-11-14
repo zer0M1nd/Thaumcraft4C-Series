@@ -1,0 +1,39 @@
+{
+  "type": "thaumcraft:arcane",
+  "vis": {
+    "ordo": 15,
+    "perditio": 15
+  },
+  "pattern": [
+    "GPG",
+    "PSP",
+    "FPF"
+  ],
+  "key": {
+    "G": {
+      "item": "thaumcraft:tainted_goo"
+    },
+    "P": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "S": {
+      "item": "thaumcraft:tainted_tendril"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "thaumicexploration:charm_no_taint"
+  },
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "dreamcatcher",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:DREAMCATCHER"
+}

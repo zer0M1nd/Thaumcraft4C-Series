@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 5,
+  "aspects": {
+    "mortuus": 40,
+    "exanimis": 10,
+    "fames": 20,
+    "vinculum": 20,
+    "telum": 5,
+    "spiritus": 30
+  },
+  "result": {
+    "item": "thaumicexploration:crucible_souls"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:alchemy_furnace"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:crucible"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alembic"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "crucibleSouls",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:CRUCSOULS"
+}

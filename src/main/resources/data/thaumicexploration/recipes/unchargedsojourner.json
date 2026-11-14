@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "vis": {
+    "aer": 6,
+    "perditio": 6,
+    "ordo": 6
+  },
+  "pattern": [
+    "ABA",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:blue_dye"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "thaumicexploration:sojourner_cap_uncharged"
+  },
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "sojourner",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:CAP_SOJOURNER"
+}

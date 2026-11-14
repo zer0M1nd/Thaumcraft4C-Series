@@ -1,0 +1,53 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
+version = '0.1.0.1'
+group = 'thaumicexploration'
+base.archivesName = 'Thaumic-Exploration-Modern-Port'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.withSourcesJar()
+sourceSets { verification { compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath; runtimeClasspath += sourceSets.main.runtimeClasspath } }
+repositories {
+    flatDir { dirs '../../../Data/Dependencies/TC4/0.4.115.9' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    mavenCentral()
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+    implementation fg.deobf('local.validation:Thaumcraft-4-Modern-Port:0.4.115.9')
+    compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
+    runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            args '--mixin.config', 'tc4revival.mixins.json'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+            mods { thaumicexploration { source sourceSets.main } }
+        }
+        server { workingDirectory file('run-server'); args '--nogui' }
+        client { workingDirectory file('run-client') }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 17 }
+tasks.withType(ProcessResources).configureEach { filteringCharset = 'UTF-8' }
+tasks.named('processResources') { inputs.property 'version', project.version; filesMatching('META-INF/mods.toml') { expand version: project.version } }
+tasks.named('jar') { finalizedBy 'reobfJar' }
+tasks.named('test') { useJUnitPlatform() }
+tasks.register('verificationJar', Jar) { from sourceSets.verification.output; archiveBaseName = 'ThaumicExplorationVerification'; archiveClassifier = 'test-only'; finalizedBy 'reobfVerificationJar' }
+reobf { verificationJar { classpath.from(sourceSets.verification.compileClasspath) } }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }
+tasks.register('verifyExternalResources') {
+    dependsOn 'jar', 'reobfJar', 'sourcesJar'
+    doLast {
+        ['jar', 'sourcesJar'].each { name ->
+            new java.util.zip.ZipFile(tasks.named(name).get().archiveFile.get().asFile).withCloseable { zip ->
+                zip.entries().each { entry ->
+                    if (entry.name ==~ /.*\.(png|ogg|lang|obj)/ || entry.name.startsWith('tc4revival/') || entry.name.startsWith('thaumcraft/api/'))
+                        throw new GradleException("Unexpected bundled original resource or base class: ${entry.name}")
+                }
+            }
+        }
+    }
+}

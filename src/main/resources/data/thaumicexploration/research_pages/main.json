@@ -1,0 +1,934 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicexploration:DISCOUNTRINGS",
+      "pages": [
+        {
+          "id": "thaumicexploration:DISCOUNTRINGS/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.DISCOUNTRINGS.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:DISCOUNTRINGS/recipe/arcane_crafting",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:discount_ring_aer",
+              "thaumicexploration:discount_ring_terra",
+              "thaumicexploration:discount_ring_ignis",
+              "thaumicexploration:discount_ring_aqua",
+              "thaumicexploration:discount_ring_ordo",
+              "thaumicexploration:discount_ring_perditio"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:FLESHCURE",
+      "pages": [
+        {
+          "id": "thaumicexploration:FLESHCURE/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.FLESHCURE.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:FLESHCURE/recipe/crucible_crafting",
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:fleshcure"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:SOULBRAZIER",
+      "pages": [
+        {
+          "id": "thaumicexploration:SOULBRAZIER/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.SOULBRAZIER.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:SOULBRAZIER/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:soulbrazier"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:FLOATCANDLE",
+      "pages": [
+        {
+          "id": "thaumicexploration:FLOATCANDLE/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.FLOATCANDLE.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:FLOATCANDLE/recipe/arcane_crafting",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:floating_candle_white",
+              "thaumicexploration:floating_candle_orange",
+              "thaumicexploration:floating_candle_magenta",
+              "thaumicexploration:floating_candle_light_blue",
+              "thaumicexploration:floating_candle_yellow",
+              "thaumicexploration:floating_candle_lime",
+              "thaumicexploration:floating_candle_pink",
+              "thaumicexploration:floating_candle_gray",
+              "thaumicexploration:floating_candle_light_gray",
+              "thaumicexploration:floating_candle_cyan",
+              "thaumicexploration:floating_candle_purple",
+              "thaumicexploration:floating_candle_blue",
+              "thaumicexploration:floating_candle_brown",
+              "thaumicexploration:floating_candle_green",
+              "thaumicexploration:floating_candle_red",
+              "thaumicexploration:floating_candle_black"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:BRAINCURE",
+      "pages": [
+        {
+          "id": "thaumicexploration:BRAINCURE/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.BRAINCURE.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:BRAINCURE/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:braincure",
+              "thaumicexploration:braincurealt1",
+              "thaumicexploration:braincurealt3",
+              "thaumicexploration:braincurealt4",
+              "thaumicexploration:braincurealt5"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:THINKTANK",
+      "pages": [
+        {
+          "id": "thaumicexploration:THINKTANK/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.THINKTANK.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:THINKTANK/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:thinktank"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicexploration:THINKTANK/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.THINKTANK.2"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:thinktank/structure",
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumicexploration.structure",
+            "keys": [
+              "thaumicexploration:build_thinktank"
+            ]
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:URN",
+      "pages": [
+        {
+          "id": "thaumicexploration:URN/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.URN.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:URN/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:urn"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:BURN",
+      "pages": [
+        {
+          "id": "thaumicexploration:BURN/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.BURN.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:BURN/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:burn"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:STABILIZERBELT",
+      "pages": [
+        {
+          "id": "thaumicexploration:STABILIZERBELT/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.STABILIZERBELT.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:STABILIZERBELT/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:stabilizerbelt"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:REPLICATOR",
+      "pages": [
+        {
+          "id": "thaumicexploration:REPLICATOR/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.REPLICATOR.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:REPLICATOR/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.REPLICATOR.2"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:REPLICATOR/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:replicator"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:CRUCSOULS",
+      "pages": [
+        {
+          "id": "thaumicexploration:CRUCSOULS/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.CRUCSOULS.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:CRUCSOULS/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.CRUCSOULS.2"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:CRUCSOULS/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:crucsouls"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:TALISMANFOOD",
+      "pages": [
+        {
+          "id": "thaumicexploration:TALISMANFOOD/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.TALISMANFOOD.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:TALISMANFOOD/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:talismanfood"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:METEORBOOTS",
+      "pages": [
+        {
+          "id": "thaumicexploration:METEORBOOTS/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.METEORBOOTS.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:METEORBOOTS/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:meteorboots"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:COMETBOOTS",
+      "pages": [
+        {
+          "id": "thaumicexploration:COMETBOOTS/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.COMETBOOTS.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:COMETBOOTS/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:cometboots"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:CAP_SOJOURNER",
+      "pages": [
+        {
+          "id": "thaumicexploration:CAP_SOJOURNER/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.CAP_SOJOURNER.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:CAP_SOJOURNER/recipe/arcane_crafting",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:unchargedsojourner"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicexploration:CAP_SOJOURNER/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:cap_sojourner"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:CAP_MECHANIST",
+      "pages": [
+        {
+          "id": "thaumicexploration:CAP_MECHANIST/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.CAP_MECHANIST.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:CAP_MECHANIST/recipe/arcane_crafting",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:unchargedmechanist"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicexploration:CAP_MECHANIST/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:cap_mechanist"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:TAINTBASICS",
+      "pages": [
+        {
+          "id": "thaumicexploration:TAINTBASICS/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.TAINTBASICS.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:TAINTBASICS/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.TAINTBASICS.2"
+          },
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:DREAMCATCHER",
+      "pages": [
+        {
+          "id": "thaumicexploration:DREAMCATCHER/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.DREAMCATCHER.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:DREAMCATCHER/recipe/arcane_crafting",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:dreamcatcher"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:TENTACLERING",
+      "pages": [
+        {
+          "id": "thaumicexploration:TENTACLERING/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.TENTACLERING.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:TENTACLERING/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:tentaclering"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:ENCHBINDING",
+      "pages": [
+        {
+          "id": "thaumicexploration:ENCHBINDING/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.ENCHBINDING.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:ENCHBINDING/recipe/infusion_enchantment",
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:enchbinding"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:ENCHNIGHTVISION",
+      "pages": [
+        {
+          "id": "thaumicexploration:ENCHNIGHTVISION/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.ENCHNIGHTVISION.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:ENCHNIGHTVISION/recipe/infusion_enchantment",
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:enchnightvision"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:ENCHDISARM",
+      "pages": [
+        {
+          "id": "thaumicexploration:ENCHDISARM/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.ENCHDISARM.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:ENCHDISARM/recipe/infusion_enchantment",
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:enchdisarm"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:ROD_AMBER",
+      "pages": [
+        {
+          "id": "thaumicexploration:ROD_AMBER/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.ROD_AMBER.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:ROD_AMBER/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:rod_amber"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:ROD_TRANSMUTATION",
+      "pages": [
+        {
+          "id": "thaumicexploration:ROD_TRANSMUTATION/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.ROD_TRANSMUTATION.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:ROD_TRANSMUTATION/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:rod_transmutation"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:ROD_AMBER_staff",
+      "pages": [
+        {
+          "id": "thaumicexploration:ROD_AMBER_staff/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.ROD_AMBER_staff.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:ROD_AMBER_staff/recipe/arcane_crafting",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:rod_amber_staff"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:ROD_TRANSMUTATION_staff",
+      "pages": [
+        {
+          "id": "thaumicexploration:ROD_TRANSMUTATION_staff/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.ROD_TRANSMUTATION_staff.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:ROD_TRANSMUTATION_staff/recipe/arcane_crafting",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:rod_transmutation_staff"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:ROD_NECROMANCER_staff",
+      "pages": [
+        {
+          "id": "thaumicexploration:ROD_NECROMANCER_staff/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.ROD_NECROMANCER_staff.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:ROD_NECROMANCER_staff/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:rod_necromancer_staff"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:JARSEAL",
+      "pages": [
+        {
+          "id": "thaumicexploration:JARSEAL/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.JARSEAL.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:JARSEAL/recipe/crucible_crafting",
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:jar_seal_white",
+              "thaumicexploration:jar_seal_orange",
+              "thaumicexploration:jar_seal_magenta",
+              "thaumicexploration:jar_seal_light_blue",
+              "thaumicexploration:jar_seal_yellow",
+              "thaumicexploration:jar_seal_lime",
+              "thaumicexploration:jar_seal_pink",
+              "thaumicexploration:jar_seal_gray",
+              "thaumicexploration:jar_seal_light_gray",
+              "thaumicexploration:jar_seal_cyan",
+              "thaumicexploration:jar_seal_purple",
+              "thaumicexploration:jar_seal_blue",
+              "thaumicexploration:jar_seal_brown",
+              "thaumicexploration:jar_seal_green",
+              "thaumicexploration:jar_seal_red",
+              "thaumicexploration:jar_seal_black"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:TRASHJAR",
+      "pages": [
+        {
+          "id": "thaumicexploration:TRASHJAR/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.TRASHJAR.1"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:TRASHJAR/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.TRASHJAR.2"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicexploration:TRASHJAR/recipe/infusion_crafting",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:trashjar"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:CHESTSEAL",
+      "pages": [
+        {
+          "id": "thaumicexploration:CHESTSEAL/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.CHESTSEAL.1"
+          },
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "id": "thaumicexploration:CHESTSEAL/recipe",
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:chest_seal_white",
+              "thaumicexploration:chest_seal_orange",
+              "thaumicexploration:chest_seal_magenta",
+              "thaumicexploration:chest_seal_light_blue",
+              "thaumicexploration:chest_seal_yellow",
+              "thaumicexploration:chest_seal_lime",
+              "thaumicexploration:chest_seal_pink",
+              "thaumicexploration:chest_seal_gray",
+              "thaumicexploration:chest_seal_light_gray",
+              "thaumicexploration:chest_seal_cyan",
+              "thaumicexploration:chest_seal_purple",
+              "thaumicexploration:chest_seal_blue",
+              "thaumicexploration:chest_seal_brown",
+              "thaumicexploration:chest_seal_green",
+              "thaumicexploration:chest_seal_red",
+              "thaumicexploration:chest_seal_black"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicexploration:ROD_BREAD",
+      "pages": [
+        {
+          "id": "thaumicexploration:ROD_BREAD/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "te.text.ROD_BREAD.1"
+          },
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "id": "thaumicexploration:ROD_BREAD/recipe",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicexploration:rod_bread"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

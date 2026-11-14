@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="CC-BY-NC-SA-4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/"
+[[mods]]
+modId="thaumicexploration"
+version="${version}"
+displayName="Thaumic Exploration: Continuation"
+authors="Original: Flaxbeard, gaeakat / nekosune; modern adaptation: TC4Revival contributors"
+displayURL="https://www.mcmod.cn/class/237.html"
+description='''A Forge 1.20.1 adaptation of Thaumic Exploration 1.1-53. Original assets are loaded separately by Thaumcraft. This is an unofficial adaptation, provided without warranty under CC BY-NC-SA 4.0.'''
+[[dependencies.thaumicexploration]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.thaumicexploration]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.thaumicexploration]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.115.9,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.thaumicexploration]]
+modId="curios"
+mandatory=true
+versionRange="[5.0,)"
+ordering="AFTER"
+side="BOTH"

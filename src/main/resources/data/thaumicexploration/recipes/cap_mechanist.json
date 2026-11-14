@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 5,
+  "aspects": {
+    "machina": 16,
+    "praecantatio": 12,
+    "auram": 6,
+    "potentia": 12
+  },
+  "result": {
+    "item": "thaumicexploration:mechanist_cap"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicexploration:mechanist_cap_uncharged"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "mechanist",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:CAP_MECHANIST"
+}

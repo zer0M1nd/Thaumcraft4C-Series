@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 3,
+  "aspects": {
+    "ordo": 12,
+    "terra": 12,
+    "tutamen": 4,
+    "iter": 8
+  },
+  "result": {
+    "item": "thaumicexploration:stabilizer_belt"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_belt"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    }
+  ],
+  "research": "thaumicexploration:STABILIZERBELT"
+}

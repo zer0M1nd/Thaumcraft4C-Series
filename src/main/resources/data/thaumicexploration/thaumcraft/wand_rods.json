@@ -1,0 +1,56 @@
+[
+  {
+    "tag": "thaumicexploration:amber",
+    "item": "thaumicexploration:amber_core",
+    "capacity": 10,
+    "craftCost": 8,
+    "research": "thaumicexploration:ROD_AMBER",
+    "staff": false,
+    "texture": "thaumicexploration:textures/models/rodamber.png"
+  },
+  {
+    "tag": "thaumicexploration:amber_staff",
+    "item": "thaumicexploration:amber_staff_core",
+    "capacity": 25,
+    "craftCost": 18,
+    "research": "thaumicexploration:ROD_AMBER_staff",
+    "staff": true,
+    "texture": "thaumicexploration:textures/models/rodamber.png"
+  },
+  {
+    "tag": "thaumicexploration:transmutative",
+    "item": "thaumicexploration:transmutation_core",
+    "capacity": 75,
+    "craftCost": 6,
+    "research": "thaumicexploration:ROD_TRANSMUTATION",
+    "staff": false,
+    "texture": "thaumicexploration:textures/models/rodtransmutation.png"
+  },
+  {
+    "tag": "thaumicexploration:transmutative_staff",
+    "item": "thaumicexploration:transmutation_staff_core",
+    "capacity": 175,
+    "craftCost": 14,
+    "research": "thaumicexploration:ROD_TRANSMUTATION_staff",
+    "staff": true,
+    "texture": "thaumicexploration:textures/models/rodtransmutation.png"
+  },
+  {
+    "tag": "thaumicexploration:necromancer_staff",
+    "item": "thaumicexploration:necro_staff_core",
+    "capacity": 200,
+    "craftCost": 15,
+    "research": "thaumicexploration:ROD_NECROMANCER_staff",
+    "staff": true,
+    "texture": "thaumicexploration:textures/models/rodnecro.png"
+  },
+  {
+    "tag": "thaumicexploration:bread",
+    "item": "thaumicexploration:bread_core",
+    "capacity": 39,
+    "craftCost": 8,
+    "research": "thaumicexploration:ROD_BREAD",
+    "staff": false,
+    "texture": "thaumicexploration:textures/models/rodbread.png"
+  }
+]

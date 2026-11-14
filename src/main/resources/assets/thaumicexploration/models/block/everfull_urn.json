@@ -1,0 +1,232 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "thaumicexploration:blocks/everfullurn",
+    "1": "thaumicexploration:blocks/everfullurnms",
+    "2": "thaumicexploration:blocks/everfullurnts",
+    "3": "thaumicexploration:blocks/everfullurntt",
+    "4": "thaumicexploration:blocks/everfullurnbt",
+    "5": "thaumicexploration:blocks/everfullurnbb",
+    "6": "thaumicexploration:blocks/everfullurntb",
+    "particle": "thaumicexploration:blocks/everfullurn"
+  },
+  "elements": [
+    {
+      "name": "base",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        9,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            7,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            2,
+            7,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            2,
+            7,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            2,
+            7,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#4"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#5"
+        }
+      }
+    },
+    {
+      "name": "neck",
+      "from": [
+        5,
+        9,
+        5
+      ],
+      "to": [
+        11,
+        13,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            3,
+            11,
+            7
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            5,
+            3,
+            11,
+            7
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            5,
+            3,
+            11,
+            7
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            5,
+            3,
+            11,
+            7
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "rim",
+      "from": [
+        4,
+        13,
+        4
+      ],
+      "to": [
+        12,
+        16,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#3"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#6"
+        }
+      }
+    }
+  ],
+  "display": {
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        -135,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    }
+  },
+  "render_type": "minecraft:cutout"
+}

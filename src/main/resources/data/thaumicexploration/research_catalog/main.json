@@ -1,0 +1,921 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TX",
+      "icon": "thaumicexploration:textures/tabs/txtab.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "sourceModId": "thaumicexploration",
+      "research": [
+        {
+          "key": "thaumicexploration:TXBASICARTIFACE",
+          "category": "TX",
+          "displayColumn": 3,
+          "displayRow": 1,
+          "isVirtual": true,
+          "mirrorOf": "BASICARTIFACE",
+          "pageCount": 6,
+          "aspects": {},
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemResource",
+            "metadata": 15
+          }
+        },
+        {
+          "key": "thaumicexploration:DISCOUNTRINGS",
+          "category": "TX",
+          "aspects": {
+            "praecantatio": 5,
+            "vitreus": 2
+          },
+          "displayColumn": 1,
+          "displayRow": 3,
+          "complexity": 1,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:discount_ring_ignis"
+          },
+          "isSecondary": true,
+          "isConcealed": true,
+          "parents": [
+            "BASICARTIFACE",
+            "thaumicexploration:TXBASICARTIFACE"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:TXTALLOW",
+          "category": "TX",
+          "displayColumn": -6,
+          "displayRow": -11,
+          "isVirtual": true,
+          "mirrorOf": "TALLOW",
+          "pageCount": 3,
+          "aspects": {},
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemResource",
+            "metadata": 4
+          }
+        },
+        {
+          "key": "thaumicexploration:TXINFUSION",
+          "category": "TX",
+          "displayColumn": 2,
+          "displayRow": -7,
+          "isVirtual": true,
+          "mirrorOf": "INFUSION",
+          "pageCount": 8,
+          "aspects": {},
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockStoneDevice",
+            "metadata": 2
+          }
+        },
+        {
+          "key": "thaumicexploration:FLESHCURE",
+          "category": "TX",
+          "aspects": {
+            "tutamen": 1,
+            "corpus": 3,
+            "permutatio": 2
+          },
+          "displayColumn": -4,
+          "displayRow": -10,
+          "complexity": 1,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "minecraft:rotten_flesh"
+          },
+          "isSecondary": true,
+          "isHidden": true,
+          "parents": [
+            "thaumicexploration:TXTALLOW"
+          ],
+          "parentsHidden": [
+            "TALLOW"
+          ],
+          "itemTriggers": [
+            {
+              "item": "minecraft:rotten_flesh"
+            }
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:SOULBRAZIER",
+          "category": "TX",
+          "aspects": {
+            "auram": 3,
+            "alienis": 3
+          },
+          "displayColumn": -6,
+          "displayRow": -10,
+          "complexity": 0,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:soul_brazier"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:FLOATCANDLE",
+          "category": "TX",
+          "aspects": {
+            "praecantatio": 1,
+            "corpus": 2,
+            "aer": 3
+          },
+          "displayColumn": -7,
+          "displayRow": -9,
+          "complexity": 1,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:floating_candle_white"
+          },
+          "isSecondary": true,
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXTALLOW",
+            "TALLOW"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:BRAINCURE",
+          "category": "TX",
+          "aspects": {
+            "cognitio": 4,
+            "ordo": 5,
+            "humanus": 3,
+            "exanimis": 3
+          },
+          "displayColumn": -2,
+          "displayRow": -8,
+          "complexity": 1,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:pure_zombie_brain"
+          },
+          "isSecondary": true,
+          "isConcealed": true,
+          "parents": [
+            "JARBRAIN",
+            "thaumicexploration:FLESHCURE",
+            "thaumicexploration:TXINFUSION"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:THINKTANK",
+          "category": "TX",
+          "aspects": {
+            "exanimis": 4,
+            "cognitio": 8,
+            "sensus": 6,
+            "lucrum": 2
+          },
+          "displayColumn": -1,
+          "displayRow": -5,
+          "complexity": 3,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:think_tank"
+          },
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:BRAINCURE",
+            "RESEARCHER2"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "pageCount": 4
+        },
+        {
+          "key": "thaumicexploration:URN",
+          "category": "TX",
+          "aspects": {
+            "praecantatio": 4,
+            "vacuos": 2,
+            "aqua": 5
+          },
+          "displayColumn": 3,
+          "displayRow": -10,
+          "complexity": 1,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:everfull_urn"
+          },
+          "isConcealed": true,
+          "parents": [
+            "INFUSION",
+            "thaumicexploration:TXINFUSION"
+          ],
+          "parentsHidden": [
+            "ARCANEEAR"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:BURN",
+          "category": "TX",
+          "aspects": {
+            "praecantatio": 4,
+            "vacuos": 2,
+            "ignis": 5
+          },
+          "displayColumn": 4,
+          "displayRow": -11,
+          "complexity": 1,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:everburn_urn"
+          },
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:URN"
+          ],
+          "parentsHidden": [
+            "ARCANEEAR"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:TXHOVERHARNESS",
+          "category": "TX",
+          "displayColumn": 2,
+          "displayRow": -12,
+          "isVirtual": true,
+          "mirrorOf": "HOVERHARNESS",
+          "pageCount": 3,
+          "aspects": {},
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:HoverHarness",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "thaumicexploration:STABILIZERBELT",
+          "category": "TX",
+          "aspects": {
+            "ordo": 4,
+            "terra": 4,
+            "iter": 2
+          },
+          "displayColumn": 1,
+          "displayRow": -10,
+          "complexity": 1,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:stabilizer_belt"
+          },
+          "isConcealed": true,
+          "parents": [
+            "INFUSION",
+            "thaumicexploration:TXINFUSION",
+            "HOVERHARNESS",
+            "thaumicexploration:TXHOVERHARNESS"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:TXDISTILESSENTIA",
+          "category": "TX",
+          "displayColumn": 7,
+          "displayRow": -6,
+          "isVirtual": true,
+          "mirrorOf": "DISTILESSENTIA",
+          "pageCount": 6,
+          "aspects": {},
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockMetalDevice",
+            "metadata": 1
+          }
+        },
+        {
+          "key": "thaumicexploration:REPLICATOR",
+          "category": "TX",
+          "aspects": {
+            "fabrico": 10,
+            "machina": 10,
+            "ordo": 6
+          },
+          "displayColumn": 4,
+          "displayRow": -5,
+          "complexity": 3,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:replicator"
+          },
+          "isConcealed": true,
+          "parents": [
+            "DISTILESSENTIA",
+            "thaumicexploration:TXINFUSION",
+            "thaumicexploration:TXDISTILESSENTIA"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "pageCount": 3
+        },
+        {
+          "key": "thaumicexploration:CRUCSOULS",
+          "category": "TX",
+          "aspects": {
+            "mortuus": 7,
+            "fames": 7,
+            "spiritus": 8
+          },
+          "displayColumn": 5,
+          "displayRow": -7,
+          "complexity": 3,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:crucible_souls"
+          },
+          "isConcealed": true,
+          "parents": [
+            "DISTILESSENTIA",
+            "thaumicexploration:TXINFUSION",
+            "thaumicexploration:TXDISTILESSENTIA"
+          ],
+          "parentsHidden": [
+            "thaumicexploration:BRAINCURE",
+            "INFUSION"
+          ],
+          "pageCount": 3
+        },
+        {
+          "key": "thaumicexploration:TALISMANFOOD",
+          "category": "TX",
+          "aspects": {
+            "fames": 5,
+            "corpus": 4,
+            "messis": 4
+          },
+          "displayColumn": -1,
+          "displayRow": -11,
+          "complexity": 2,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:talisman_food"
+          },
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXINFUSION",
+            "thaumicexploration:FLESHCURE"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:TXBOOTSTRAVELLER",
+          "category": "TX",
+          "displayColumn": 1,
+          "displayRow": -4,
+          "isVirtual": true,
+          "mirrorOf": "BOOTSTRAVELLER",
+          "pageCount": 2,
+          "aspects": {},
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:BootsTraveller",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "thaumicexploration:METEORBOOTS",
+          "category": "TX",
+          "aspects": {
+            "ignis": 5,
+            "potentia": 5,
+            "iter": 10,
+            "volatus": 5
+          },
+          "displayColumn": 2,
+          "displayRow": -1,
+          "complexity": 2,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:boots_meteor"
+          },
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXBOOTSTRAVELLER",
+            "BOOTSTRAVELLER",
+            "FOCUSFIRE"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:COMETBOOTS",
+          "category": "TX",
+          "aspects": {
+            "aqua": 5,
+            "gelum": 5,
+            "iter": 10,
+            "motus": 5
+          },
+          "displayColumn": 5,
+          "displayRow": -3,
+          "complexity": 2,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:boots_comet"
+          },
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXBOOTSTRAVELLER",
+            "BOOTSTRAVELLER",
+            "FOCUSFROST"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:TXCAP_thaumium",
+          "category": "TX",
+          "displayColumn": -7,
+          "displayRow": -7,
+          "isVirtual": true,
+          "mirrorOf": "CAP_thaumium",
+          "pageCount": 3,
+          "aspects": {},
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:WandCap",
+            "metadata": 2
+          }
+        },
+        {
+          "key": "thaumicexploration:CAP_SOJOURNER",
+          "category": "TX",
+          "aspects": {
+            "permutatio": 5,
+            "potentia": 5,
+            "auram": 8,
+            "lucrum": 5,
+            "instrumentum": 3
+          },
+          "displayColumn": -5,
+          "displayRow": -8,
+          "complexity": 2,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:sojourner_cap"
+          },
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXCAP_thaumium",
+            "CAP_thaumium"
+          ],
+          "parentsHidden": [
+            "WANDPED"
+          ],
+          "pageCount": 3
+        },
+        {
+          "key": "thaumicexploration:CAP_MECHANIST",
+          "category": "TX",
+          "aspects": {
+            "machina": 5,
+            "potentia": 5,
+            "auram": 8,
+            "lucrum": 5,
+            "instrumentum": 3
+          },
+          "displayColumn": -9,
+          "displayRow": -6,
+          "complexity": 2,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:mechanist_cap"
+          },
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXCAP_thaumium",
+            "CAP_thaumium"
+          ],
+          "parentsHidden": [
+            "NODETAPPER2"
+          ],
+          "pageCount": 3
+        },
+        {
+          "key": "thaumicexploration:TAINTBASICS",
+          "category": "TX",
+          "aspects": {},
+          "displayColumn": -9,
+          "displayRow": 0,
+          "complexity": 0,
+          "sourceModId": "thaumicexploration",
+          "icon_resource": "thaumicexploration:textures/tabs/taintresearch2.png",
+          "isRound": true,
+          "isStub": true,
+          "isAutoUnlock": true,
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:DREAMCATCHER",
+          "category": "TX",
+          "aspects": {
+            "cognitio": 5,
+            "instrumentum": 5,
+            "vitium": 6
+          },
+          "displayColumn": -7,
+          "displayRow": 2,
+          "complexity": 2,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:charm_no_taint"
+          },
+          "isHidden": true,
+          "parents": [
+            "thaumicexploration:TAINTBASICS"
+          ],
+          "aspectTriggers": [
+            "vitium"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:TENTACLERING",
+          "category": "TX",
+          "aspects": {
+            "vitium": 8,
+            "telum": 4,
+            "tutamen": 4
+          },
+          "displayColumn": -11,
+          "displayRow": 2,
+          "complexity": 2,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:tentacle_ring"
+          },
+          "isHidden": true,
+          "parents": [
+            "thaumicexploration:TAINTBASICS"
+          ],
+          "entityTriggers": [
+            "thaumcraft:taintacle"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:TXINFUSIONENCHANTMENT",
+          "category": "TX",
+          "displayColumn": -5,
+          "displayRow": -6,
+          "isVirtual": true,
+          "mirrorOf": "INFUSIONENCHANTMENT",
+          "pageCount": 44,
+          "aspects": {},
+          "icon_resource": "thaumcraft:textures/misc/r_enchant.png"
+        },
+        {
+          "key": "thaumicexploration:ENCHBINDING",
+          "category": "TX",
+          "aspects": {
+            "vinculum": 6,
+            "perditio": 5,
+            "iter": 3
+          },
+          "displayColumn": -7,
+          "displayRow": -4,
+          "complexity": 1,
+          "sourceModId": "thaumicexploration",
+          "icon_resource": "thaumicexploration:textures/tabs/binding.png",
+          "isSecondary": true,
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXINFUSIONENCHANTMENT",
+            "INFUSIONENCHANTMENT"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:ENCHNIGHTVISION",
+          "category": "TX",
+          "aspects": {
+            "sensus": 6,
+            "tenebrae": 2,
+            "lux": 6
+          },
+          "displayColumn": -5,
+          "displayRow": -4,
+          "complexity": 1,
+          "sourceModId": "thaumicexploration",
+          "icon_resource": "thaumicexploration:textures/tabs/nightvision.png",
+          "isSecondary": true,
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXINFUSIONENCHANTMENT",
+            "INFUSIONENCHANTMENT"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:ENCHDISARM",
+          "category": "TX",
+          "aspects": {
+            "limus": 6,
+            "vinculum": 4,
+            "telum": 4
+          },
+          "displayColumn": -3,
+          "displayRow": -4,
+          "complexity": 1,
+          "sourceModId": "thaumicexploration",
+          "icon_resource": "thaumicexploration:textures/tabs/disarm.png",
+          "isSecondary": true,
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXINFUSIONENCHANTMENT",
+            "INFUSIONENCHANTMENT"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:TXROD_greatwood",
+          "category": "TX",
+          "displayColumn": -3,
+          "displayRow": -2,
+          "isVirtual": true,
+          "mirrorOf": "ROD_greatwood",
+          "pageCount": 2,
+          "aspects": {},
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:WandRod",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "thaumicexploration:ROD_AMBER",
+          "category": "TX",
+          "aspects": {
+            "instrumentum": 5,
+            "auram": 8,
+            "vinculum": 5,
+            "praecantatio": 8
+          },
+          "displayColumn": -5,
+          "displayRow": -1,
+          "complexity": 2,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:amber_core"
+          },
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXROD_greatwood",
+            "ROD_obsidian",
+            "ROD_reed",
+            "ROD_blaze",
+            "ROD_ice",
+            "ROD_quartz",
+            "ROD_bone"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:ROD_TRANSMUTATION",
+          "category": "TX",
+          "aspects": {
+            "instrumentum": 8,
+            "praecantatio": 8,
+            "permutatio": 12
+          },
+          "displayColumn": -1,
+          "displayRow": -1,
+          "complexity": 2,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:transmutation_core"
+          },
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXROD_greatwood",
+            "ROD_greatwood"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:ROD_AMBER_staff",
+          "category": "TX",
+          "aspects": {
+            "instrumentum": 3,
+            "auram": 4,
+            "vinculum": 3,
+            "praecantatio": 4
+          },
+          "displayColumn": -6,
+          "displayRow": 0,
+          "complexity": 2,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:amber_staff_core"
+          },
+          "isSecondary": true,
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXROD_greatwood_staff",
+            "thaumicexploration:ROD_AMBER"
+          ],
+          "parentsHidden": [
+            "ROD_greatwood_staff"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:ROD_TRANSMUTATION_staff",
+          "category": "TX",
+          "aspects": {
+            "instrumentum": 4,
+            "praecantatio": 4,
+            "permutatio": 6
+          },
+          "displayColumn": 0,
+          "displayRow": 0,
+          "complexity": 2,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:transmutation_staff_core"
+          },
+          "isSecondary": true,
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXROD_greatwood_staff",
+            "thaumicexploration:ROD_TRANSMUTATION"
+          ],
+          "parentsHidden": [
+            "ROD_greatwood_staff"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:TXROD_greatwood_staff",
+          "category": "TX",
+          "displayColumn": -3,
+          "displayRow": 3,
+          "isVirtual": true,
+          "mirrorOf": "ROD_greatwood_staff",
+          "pageCount": 3,
+          "aspects": {},
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:WandRod",
+            "metadata": 50
+          }
+        },
+        {
+          "key": "thaumicexploration:ROD_NECROMANCER_staff",
+          "category": "TX",
+          "aspects": {
+            "instrumentum": 5,
+            "perditio": 5,
+            "mortuus": 8,
+            "auram": 4,
+            "spiritus": 5
+          },
+          "displayColumn": -3,
+          "displayRow": 1,
+          "complexity": 3,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:necro_staff_core"
+          },
+          "isConcealed": true,
+          "parents": [
+            "ROD_greatwood_staff",
+            "thaumicexploration:TXROD_greatwood_staff"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:JARSEAL",
+          "category": "TX",
+          "aspects": {
+            "alienis": 5,
+            "vinculum": 8,
+            "praecantatio": 5,
+            "iter": 5
+          },
+          "displayColumn": -7,
+          "displayRow": -2,
+          "complexity": 1,
+          "sourceModId": "thaumicexploration",
+          "icon_resource": "thaumicexploration:textures/tabs/jarseals.png",
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:TXJARVOID",
+          "category": "TX",
+          "displayColumn": 7,
+          "displayRow": -10,
+          "isVirtual": true,
+          "mirrorOf": "JARVOID",
+          "pageCount": 2,
+          "aspects": {},
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockJar",
+            "metadata": 3
+          }
+        },
+        {
+          "key": "thaumicexploration:TRASHJAR",
+          "category": "TX",
+          "aspects": {
+            "perditio": 8,
+            "vacuos": 8,
+            "fames": 5,
+            "alienis": 3
+          },
+          "displayColumn": 5,
+          "displayRow": -9,
+          "complexity": 2,
+          "sourceModId": "thaumicexploration",
+          "icon_item": {
+            "item": "thaumicexploration:trash_jar"
+          },
+          "isConcealed": true,
+          "parents": [
+            "thaumicexploration:TXJARVOID",
+            "JARVOID",
+            "INFUSION",
+            "thaumicexploration:TXINFUSION"
+          ],
+          "pageCount": 3
+        },
+        {
+          "key": "thaumicexploration:CHESTSEAL",
+          "category": "TX",
+          "displayColumn": -9,
+          "displayRow": -2,
+          "icon_resource": "thaumicexploration:textures/tabs/chestseals.png",
+          "parents": [
+            "thaumicexploration:JARSEAL"
+          ],
+          "complexity": 1,
+          "isSecondary": true,
+          "isConcealed": true,
+          "aspects": {
+            "alienis": 5,
+            "vinculum": 8,
+            "praecantatio": 5,
+            "iter": 5
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicexploration:ROD_BREAD",
+          "category": "TX",
+          "displayColumn": -1,
+          "displayRow": 2,
+          "icon_resource": "thaumicexploration:textures/items/rodbread.png",
+          "parents": [
+            "thaumicexploration:ROD_TRANSMUTATION"
+          ],
+          "complexity": 1,
+          "isSecondary": true,
+          "isConcealed": true,
+          "aspects": {
+            "praecantatio": 3,
+            "messis": 3
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

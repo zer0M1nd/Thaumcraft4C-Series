@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 7,
+  "aspects": {
+    "mortuus": 32,
+    "tenebrae": 32,
+    "auram": 32
+  },
+  "result": {
+    "item": "thaumicexploration:soul_brazier"
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    }
+  ],
+  "research": "thaumicexploration:SOULBRAZIER"
+}

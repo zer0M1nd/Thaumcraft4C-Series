@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 4,
+  "aspects": {
+    "vitium": 32,
+    "telum": 8,
+    "tutamen": 16,
+    "bestia": 8
+  },
+  "result": {
+    "item": "thaumicexploration:tentacle_ring"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_ring"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      }
+    }
+  ],
+  "research": "thaumicexploration:TENTACLERING"
+}

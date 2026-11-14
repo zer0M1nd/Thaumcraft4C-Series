@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 5,
+  "aspects": {
+    "sensus": 16,
+    "tenebrae": 8,
+    "lux": 16
+  },
+  "enchantment": "thaumicexploration:night_vision",
+  "base_xp": 13,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_carrot"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "enchantments",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:ENCHNIGHTVISION"
+}

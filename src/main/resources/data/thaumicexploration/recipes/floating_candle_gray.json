@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "vis": {
+    "aer": 5
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:tallow_candle_7"
+    },
+    {
+      "item": "thaumcraft:tallow_candle_7"
+    },
+    {
+      "item": "thaumcraft:tallow_candle_7"
+    },
+    {
+      "item": "thaumcraft:air_shard"
+    }
+  ],
+  "result": {
+    "item": "thaumicexploration:floating_candle_gray",
+    "count": 3
+  },
+  "research": "thaumicexploration:FLOATCANDLE"
+}

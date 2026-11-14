@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 5,
+  "aspects": {
+    "auram": 6,
+    "praecantatio": 12,
+    "permutatio": 16,
+    "potentia": 12
+  },
+  "result": {
+    "item": "thaumicexploration:sojourner_cap"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicexploration:sojourner_cap_uncharged"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "sojourner",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:CAP_SOJOURNER"
+}

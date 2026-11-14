@@ -1,0 +1,56 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 4,
+  "aspects": {
+    "aqua": 25,
+    "gelum": 25,
+    "iter": 25,
+    "motus": 25
+  },
+  "result": {
+    "item": "thaumicexploration:boots_comet"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:traveller_boots"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:snow_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:snow_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:snow_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_frost"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "boots",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:COMETBOOTS"
+}

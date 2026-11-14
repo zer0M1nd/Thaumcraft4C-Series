@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 3,
+  "aspects": {
+    "praecantatio": 8,
+    "messis": 8,
+    "fames": 4
+  },
+  "result": {
+    "item": "thaumicexploration:bread_core"
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:bread"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "breadWand",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:ROD_BREAD"
+}

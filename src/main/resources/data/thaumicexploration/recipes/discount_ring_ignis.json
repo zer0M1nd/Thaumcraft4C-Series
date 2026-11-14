@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:arcane",
+  "vis": {
+    "ignis": 15
+  },
+  "pattern": [
+    " F ",
+    "F F",
+    " F "
+  ],
+  "key": {
+    "F": {
+      "item": "thaumcraft:fire_shard"
+    }
+  },
+  "result": {
+    "item": "thaumicexploration:discount_ring_ignis"
+  },
+  "research": "thaumicexploration:DISCOUNTRINGS"
+}

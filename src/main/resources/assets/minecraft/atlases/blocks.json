@@ -1,0 +1,284 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/chest/normal",
+      "sprite": "minecraft:entity/chest/normal"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumcraft:models/brain2",
+      "sprite": "thaumcraft:models/brain2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumcraft:models/jar",
+      "sprite": "thaumcraft:models/jar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumcraft:models/jarbrine",
+      "sprite": "thaumcraft:models/jarbrine"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/crucible1",
+      "sprite": "thaumicexploration:blocks/crucible1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/crucible2",
+      "sprite": "thaumicexploration:blocks/crucible2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/crucible3",
+      "sprite": "thaumicexploration:blocks/crucible3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/crucible5",
+      "sprite": "thaumicexploration:blocks/crucible5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/crucible6",
+      "sprite": "thaumicexploration:blocks/crucible6"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/everfullurn",
+      "sprite": "thaumicexploration:blocks/everfullurn"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/everfullurnbb",
+      "sprite": "thaumicexploration:blocks/everfullurnbb"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/everfullurnbt",
+      "sprite": "thaumicexploration:blocks/everfullurnbt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/everfullurnms",
+      "sprite": "thaumicexploration:blocks/everfullurnms"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/everfullurntb",
+      "sprite": "thaumicexploration:blocks/everfullurntb"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/everfullurnts",
+      "sprite": "thaumicexploration:blocks/everfullurnts"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/everfullurntt",
+      "sprite": "thaumicexploration:blocks/everfullurntt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/replicator",
+      "sprite": "thaumicexploration:blocks/replicator"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/replicatorbottom",
+      "sprite": "thaumicexploration:blocks/replicatorbottom"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:blocks/replicatortop",
+      "sprite": "thaumicexploration:blocks/replicatortop"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/bootscomet",
+      "sprite": "thaumicexploration:items/bootscomet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/bootsmeteor",
+      "sprite": "thaumicexploration:items/bootsmeteor"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/candle",
+      "sprite": "thaumicexploration:items/candle"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/capmechanist",
+      "sprite": "thaumicexploration:items/capmechanist"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/capmechanistcharged",
+      "sprite": "thaumicexploration:items/capmechanistcharged"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/capsojourner",
+      "sprite": "thaumicexploration:items/capsojourner"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/capsojournercharged",
+      "sprite": "thaumicexploration:items/capsojournercharged"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/dreamcatcher",
+      "sprite": "thaumicexploration:items/dreamcatcher"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/purezombiebrain",
+      "sprite": "thaumicexploration:items/purezombiebrain"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/ringaer",
+      "sprite": "thaumicexploration:items/ringaer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/ringaqua",
+      "sprite": "thaumicexploration:items/ringaqua"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/ringignis",
+      "sprite": "thaumicexploration:items/ringignis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/ringordo",
+      "sprite": "thaumicexploration:items/ringordo"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/ringperdito",
+      "sprite": "thaumicexploration:items/ringperdito"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/ringterra",
+      "sprite": "thaumicexploration:items/ringterra"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/rodamber",
+      "sprite": "thaumicexploration:items/rodamber"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/rodamber_staff",
+      "sprite": "thaumicexploration:items/rodamber_staff"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/rodbread",
+      "sprite": "thaumicexploration:items/rodbread"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/rodnecro_staff",
+      "sprite": "thaumicexploration:items/rodnecro_staff"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/rodtransmutation",
+      "sprite": "thaumicexploration:items/rodtransmutation"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/rodtransmutation_staff",
+      "sprite": "thaumicexploration:items/rodtransmutation_staff"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/sealblank",
+      "sprite": "thaumicexploration:items/sealblank"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/sealchest",
+      "sprite": "thaumicexploration:items/sealchest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/sealchestinset",
+      "sprite": "thaumicexploration:items/sealchestinset"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/sealjar",
+      "sprite": "thaumicexploration:items/sealjar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/sealjarinset",
+      "sprite": "thaumicexploration:items/sealjarinset"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/stabilizerbelt",
+      "sprite": "thaumicexploration:items/stabilizerbelt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/taintaclering",
+      "sprite": "thaumicexploration:items/taintaclering"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/taintberry",
+      "sprite": "thaumicexploration:items/taintberry"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/taintring",
+      "sprite": "thaumicexploration:items/taintring"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:items/talismanfood",
+      "sprite": "thaumicexploration:items/talismanfood"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:models/floatycandle",
+      "sprite": "thaumicexploration:models/floatycandle"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:models/floatycandlestub",
+      "sprite": "thaumicexploration:models/floatycandlestub"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:models/jar_oblivion",
+      "sprite": "thaumicexploration:models/jar_oblivion"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:models/largejar",
+      "sprite": "thaumicexploration:models/largejar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:models/largejarbrine",
+      "sprite": "thaumicexploration:models/largejarbrine"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:models/soulbrazier",
+      "sprite": "thaumicexploration:models/soulbrazier"
+    }
+  ]
+}

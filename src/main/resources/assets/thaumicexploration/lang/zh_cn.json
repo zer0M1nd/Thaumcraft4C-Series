@@ -1,0 +1,12 @@
+{
+  "block.thaumicexploration.bound_chest": "绑定箱子",
+  "block.thaumicexploration.bound_jar": "绑定罐子",
+  "block.thaumicexploration.soul_brazier": "灵魂火盆",
+  "message.thaumicexploration.empty_chest": "只有空的单个箱子才能施加封印。",
+  "txitems.boundJar.networkInfo": "绑定网络：%s",
+  "tooltip.thaumicexploration.nourishment": "储存：%s 食物 / %s 饱和度",
+  "entity.thaumicexploration.taintacle_minion": "腐化触手仆从",
+  "death.attack.thaumicexploration.soul_crucible": "%1$s 的灵魂被坩埚吞噬了",
+  "te.text.CHESTSEAL.1": "在铁砧上为箱子封印命名，然后将同色、同名的封印施加到空的单个箱子上，即可让它们共享物品。也可以用任意颜色的箱子封印点击已绑定的箱子，复制它的网络和颜色。网络可以跨越维度；只有正在加载的端点会运行自动化。拆除任意绑定箱子会取出该网络的物品，请谨慎操作。",
+  "te.text.ROD_BREAD.1": "可选的法式面包魔杖彩蛋。启用模组配置中的 breadWand 后可研究和制作。容量为每种原始要素 39 vis，面包偶尔会开口说话。"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "XZX",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "thaumcraft:magic_tallow"
+    },
+    "Z": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "thaumicexploration:blank_seal_yellow"
+  }
+}
