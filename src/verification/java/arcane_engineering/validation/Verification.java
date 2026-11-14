@@ -96,7 +96,7 @@ public class Verification {
             check(c.original("arcane_engineering:AEFAKE_THAUMIUM").key().equals("THAUMIUM"),"mirror");
             var view=new ResearchBrowser(c,r->true,()->true).view(new PlayerKnowledge(TCAspects.catalog()),"ARCANEENGINEERING",0).orElseThrow();
             check(view.nodes().stream().filter(n->n.research().mirror()).count()==4,"hidden core mirrors");
-            check(view.links().stream().filter(l->l.target().startsWith("arcane_engineering:AEFAKE_")).count()==4,"missing mirror links");
+            check(view.links().stream().filter(l->l.target().startsWith("arcane_engineering:AEFAKE_")).count()==7,"missing mirror links");
         });
         test("drills.tiers.wear.repair",()->{
             var t=ArcaneEngineering.THAUMIUM_DRILL.get();var v=ArcaneEngineering.VOID_DRILL.get();var ts=new ItemStack(t);var vs=new ItemStack(v);
