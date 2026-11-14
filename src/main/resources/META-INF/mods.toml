@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="CC-BY-NC-3.0; original resources loaded externally"
+[[mods]]
+modId="advancedthaumaturgy"
+version="${version}"
+displayName="Advanced Thaumaturgy"
+authors="LycaonX, MonzterAssassin, nekosune, ToFam, gaeakat, caligator; continuation contributors"
+description='''A Forge 1.20.1 recreation of Advanced Thaumaturgy AT2-30r. Mercurial wand upgrades, node modification and essentia machines. Original artwork is loaded from the original JAR at runtime.'''
+[[dependencies.advancedthaumaturgy]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.advancedthaumaturgy]]
+modId="computercraft"
+mandatory=false
+versionRange="[1.116.1,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.advancedthaumaturgy]]
+modId="opencomputers"
+mandatory=false
+versionRange="[1.9.0,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.advancedthaumaturgy]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.advancedthaumaturgy]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.115.1,)"
+ordering="AFTER"
+side="BOTH"

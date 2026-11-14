@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "advancedthaumaturgy:node_setup",
+      "class": "advancedthaumaturgy.NodeSetup",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {}
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 2
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                null,
+                null,
+                null,
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:node_jar"
+                  }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:arcane_pedestal"
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:arcane_pedestal"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "advancedthaumaturgy:node_modifier"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:arcane_pedestal"
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:arcane_pedestal"
+                  }
+                },
+                null
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

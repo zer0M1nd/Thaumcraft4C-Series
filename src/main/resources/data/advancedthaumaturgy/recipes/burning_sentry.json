@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "advancedthaumaturgy:MINILITHFIRE",
+  "pattern": [
+    " O ",
+    " B "
+  ],
+  "key": {
+    "O": {
+      "item": "advancedthaumaturgy:crystal_fire"
+    },
+    "B": {
+      "item": "advancedthaumaturgy:microlith_base"
+    }
+  },
+  "vis": {
+    "perditio": 50
+  },
+  "result": {
+    "item": "advancedthaumaturgy:burning_sentry"
+  }
+}

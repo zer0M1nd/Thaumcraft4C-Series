@@ -1,0 +1,958 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "advancedthaumaturgy:MERCURIALROD",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MERCURIALROD.original0"
+          },
+          "id": "advancedthaumaturgy:MERCURIALROD/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MERCURIALROD.original1"
+          },
+          "id": "advancedthaumaturgy:MERCURIALROD/original/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MERCURIALROD.0"
+          },
+          "id": "advancedthaumaturgy:MERCURIALROD/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MERCURIALROD.1"
+          },
+          "id": "advancedthaumaturgy:MERCURIALROD/text/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:mercurial_rod"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MERCURIALROD/recipe/mercurial_rod",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:MERCURIALWAND",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MERCURIALWAND.original0"
+          },
+          "id": "advancedthaumaturgy:MERCURIALWAND/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MERCURIALWAND.original1"
+          },
+          "id": "advancedthaumaturgy:MERCURIALWAND/original/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MERCURIALWAND.0"
+          },
+          "id": "advancedthaumaturgy:MERCURIALWAND/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MERCURIALWAND.1"
+          },
+          "id": "advancedthaumaturgy:MERCURIALWAND/text/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:mercurial_wand"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MERCURIALWAND/recipe/mercurial_wand",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:ARCANECRYSTAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.ARCANECRYSTAL.original0"
+          },
+          "id": "advancedthaumaturgy:ARCANECRYSTAL/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.ARCANECRYSTAL.0"
+          },
+          "id": "advancedthaumaturgy:ARCANECRYSTAL/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:infused_endstone_chunk"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:ARCANECRYSTAL/recipe/infused_endstone_chunk",
+          "page_break": true
+        },
+        {
+          "type": "SMELTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_inert"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:ARCANECRYSTAL/recipe/crystal_inert",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:NODEMODIFIER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.NODEMODIFIER.original0"
+          },
+          "id": "advancedthaumaturgy:NODEMODIFIER/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.NODEMODIFIER.original1"
+          },
+          "id": "advancedthaumaturgy:NODEMODIFIER/original/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.NODEMODIFIER.0"
+          },
+          "id": "advancedthaumaturgy:NODEMODIFIER/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.NODEMODIFIER.1"
+          },
+          "id": "advancedthaumaturgy:NODEMODIFIER/text/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:node_modifier"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:NODEMODIFIER/recipe/node_modifier",
+          "page_break": true
+        },
+        {
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:node_setup"
+            ],
+            "class": "advancedthaumaturgy.NodeSetup"
+          },
+          "id": "advancedthaumaturgy:NODEMODIFIER/setup",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:ETHEREALJAR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.ETHEREALJAR.original0"
+          },
+          "id": "advancedthaumaturgy:ETHEREALJAR/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.ETHEREALJAR.original1"
+          },
+          "id": "advancedthaumaturgy:ETHEREALJAR/original/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.ETHEREALJAR.0"
+          },
+          "id": "advancedthaumaturgy:ETHEREALJAR/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:ethereal_jar"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:ETHEREALJAR/recipe/ethereal_jar",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:FERTILIZER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.FERTILIZER.original0"
+          },
+          "id": "advancedthaumaturgy:FERTILIZER/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.FERTILIZER.0"
+          },
+          "id": "advancedthaumaturgy:FERTILIZER/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:thaumic_fertilizer"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:FERTILIZER/recipe/thaumic_fertilizer",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:ESSENTIAENGINE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.ESSENTIAENGINE.original0"
+          },
+          "id": "advancedthaumaturgy:ESSENTIAENGINE/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.ESSENTIAENGINE.0"
+          },
+          "id": "advancedthaumaturgy:ESSENTIAENGINE/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:essentia_engine"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:ESSENTIAENGINE/recipe/essentia_engine",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:UPGRADERECHARGE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.UPGRADERECHARGE.original0"
+          },
+          "id": "advancedthaumaturgy:UPGRADERECHARGE/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.UPGRADERECHARGE.0"
+          },
+          "id": "advancedthaumaturgy:UPGRADERECHARGE/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_recharge"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADERECHARGE/recipe/crystal_recharge",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:apply_recharge"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADERECHARGE/recipe/apply_recharge",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:UPGRADEDRAIN",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.UPGRADEDRAIN.original0"
+          },
+          "id": "advancedthaumaturgy:UPGRADEDRAIN/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.UPGRADEDRAIN.0"
+          },
+          "id": "advancedthaumaturgy:UPGRADEDRAIN/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_multiplier"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADEDRAIN/recipe/crystal_multiplier",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:apply_multiplier"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADEDRAIN/recipe/apply_multiplier",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:poisonous_potato"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADEDRAIN/recipe/poisonous_potato",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:UPGRADECOMPOUND",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.UPGRADECOMPOUND.original0"
+          },
+          "id": "advancedthaumaturgy:UPGRADECOMPOUND/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.UPGRADECOMPOUND.0"
+          },
+          "id": "advancedthaumaturgy:UPGRADECOMPOUND/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_compound"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADECOMPOUND/recipe/crystal_compound",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:apply_compound"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADECOMPOUND/recipe/apply_compound",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:UPGRADEDISCOUNT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.UPGRADEDISCOUNT.original0"
+          },
+          "id": "advancedthaumaturgy:UPGRADEDISCOUNT/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.UPGRADEDISCOUNT.0"
+          },
+          "id": "advancedthaumaturgy:UPGRADEDISCOUNT/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_discount"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADEDISCOUNT/recipe/crystal_discount",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:apply_discount"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADEDISCOUNT/recipe/apply_discount",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:UPGRADESTABILIZER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.UPGRADESTABILIZER.original0"
+          },
+          "id": "advancedthaumaturgy:UPGRADESTABILIZER/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.UPGRADESTABILIZER.0"
+          },
+          "id": "advancedthaumaturgy:UPGRADESTABILIZER/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_stabilizer"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADESTABILIZER/recipe/crystal_stabilizer",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:apply_stabilizer"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADESTABILIZER/recipe/apply_stabilizer",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:UPGRADEPOTENCY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.UPGRADEPOTENCY.original0"
+          },
+          "id": "advancedthaumaturgy:UPGRADEPOTENCY/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.UPGRADEPOTENCY.0"
+          },
+          "id": "advancedthaumaturgy:UPGRADEPOTENCY/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_potency"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADEPOTENCY/recipe/crystal_potency",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:apply_potency"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:UPGRADEPOTENCY/recipe/apply_potency",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:MINILITHBASE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MINILITHBASE.original0"
+          },
+          "id": "advancedthaumaturgy:MINILITHBASE/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MINILITHBASE.original1"
+          },
+          "id": "advancedthaumaturgy:MINILITHBASE/original/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MINILITHBASE.0"
+          },
+          "id": "advancedthaumaturgy:MINILITHBASE/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:microlith_base"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHBASE/recipe/microlith_base",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:MINILITHFLUX",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MINILITHFLUX.original0"
+          },
+          "id": "advancedthaumaturgy:MINILITHFLUX/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MINILITHFLUX.0"
+          },
+          "id": "advancedthaumaturgy:MINILITHFLUX/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_flux"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHFLUX/recipe/crystal_flux",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:flux_dissipator"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHFLUX/recipe/flux_dissipator",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:MINILITHWATCHFUL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MINILITHWATCHFUL.original0"
+          },
+          "id": "advancedthaumaturgy:MINILITHWATCHFUL/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MINILITHWATCHFUL.0"
+          },
+          "id": "advancedthaumaturgy:MINILITHWATCHFUL/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_watchful"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHWATCHFUL/recipe/crystal_watchful",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:watchful_microlith"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHWATCHFUL/recipe/watchful_microlith",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:MINILITHHEAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MINILITHHEAL.0"
+          },
+          "id": "advancedthaumaturgy:MINILITHHEAL/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_healing"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHHEAL/recipe/crystal_healing",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:healing_microlith"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHHEAL/recipe/healing_microlith",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:MINILITHZAP",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MINILITHZAP.0"
+          },
+          "id": "advancedthaumaturgy:MINILITHZAP/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_lightning"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHZAP/recipe/crystal_lightning",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:lightning_microlith"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHZAP/recipe/lightning_microlith",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:MINILITHFIRE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MINILITHFIRE.0"
+          },
+          "id": "advancedthaumaturgy:MINILITHFIRE/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_fire"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHFIRE/recipe/crystal_fire",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:burning_sentry"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHFIRE/recipe/burning_sentry",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:MINILITHFROST",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.MINILITHFROST.0"
+          },
+          "id": "advancedthaumaturgy:MINILITHFROST/text/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:crystal_frost"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHFROST/recipe/crystal_frost",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "advancedthaumaturgy:frost_microlith"
+            ],
+            "class": "modern"
+          },
+          "id": "advancedthaumaturgy:MINILITHFROST/recipe/frost_microlith",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:VOIDCAGE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.VOIDCAGE.original0"
+          },
+          "id": "advancedthaumaturgy:VOIDCAGE/original/0",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.VOIDCAGE.0"
+          },
+          "id": "advancedthaumaturgy:VOIDCAGE/text/0",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "advancedthaumaturgy:WANDBENCH",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "advancedthaumaturgy.research.WANDBENCH.0"
+          },
+          "id": "advancedthaumaturgy:WANDBENCH/text/0",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

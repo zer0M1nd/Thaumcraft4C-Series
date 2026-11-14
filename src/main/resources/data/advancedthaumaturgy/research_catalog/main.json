@@ -1,0 +1,514 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ADVTHAUM",
+      "icon": "advancedthaumaturgy:textures/items/wand_rod_mercurial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "advancedthaumaturgy:MERCURIALROD",
+          "category": "ADVTHAUM",
+          "displayColumn": 0,
+          "displayRow": -2,
+          "icon_item": {
+            "item": "advancedthaumaturgy:mercurial_rod"
+          },
+          "complexity": 3,
+          "aspects": {
+            "metallum": 1,
+            "vitreus": 1,
+            "venenum": 1,
+            "arbor": 1
+          },
+          "parents": [
+            "ROD_silverwood",
+            "INFUSION"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "pageCount": 5
+        },
+        {
+          "key": "advancedthaumaturgy:MERCURIALWAND",
+          "category": "ADVTHAUM",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "advancedthaumaturgy:mercurial_wand"
+          },
+          "complexity": 3,
+          "aspects": {},
+          "parents": [
+            "advancedthaumaturgy:MERCURIALROD"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isStub": true,
+          "isRound": true,
+          "isConcealed": true,
+          "pageCount": 5
+        },
+        {
+          "key": "advancedthaumaturgy:ARCANECRYSTAL",
+          "category": "ADVTHAUM",
+          "displayColumn": -4,
+          "displayRow": 2,
+          "icon_item": {
+            "item": "advancedthaumaturgy:crystal_inert"
+          },
+          "complexity": 3,
+          "aspects": {
+            "vitreus": 10,
+            "praecantatio": 10,
+            "ordo": 10
+          },
+          "parents": [
+            "advancedthaumaturgy:MERCURIALWAND"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isStub": true,
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "advancedthaumaturgy:NODEMODIFIER",
+          "category": "ADVTHAUM",
+          "displayColumn": 0,
+          "displayRow": -4,
+          "icon_item": {
+            "item": "advancedthaumaturgy:node_modifier"
+          },
+          "complexity": 3,
+          "aspects": {
+            "auram": 16,
+            "metallum": 16
+          },
+          "parents": [
+            "NODEJAR",
+            "INFUSION"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isConcealed": true,
+          "isSpecial": true,
+          "pageCount": 6
+        },
+        {
+          "key": "advancedthaumaturgy:ETHEREALJAR",
+          "category": "ADVTHAUM",
+          "displayColumn": 3,
+          "displayRow": -3,
+          "icon_item": {
+            "item": "advancedthaumaturgy:ethereal_jar"
+          },
+          "complexity": 3,
+          "aspects": {
+            "aer": 4,
+            "perditio": 4,
+            "vacuos": 8,
+            "praecantatio": 8
+          },
+          "parents": [
+            "JARVOID"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 4
+        },
+        {
+          "key": "advancedthaumaturgy:FERTILIZER",
+          "category": "ADVTHAUM",
+          "displayColumn": -3,
+          "displayRow": -5,
+          "icon_item": {
+            "item": "advancedthaumaturgy:thaumic_fertilizer"
+          },
+          "complexity": 3,
+          "aspects": {
+            "herba": 1,
+            "aqua": 1,
+            "aer": 1,
+            "messis": 1
+          },
+          "parents": [],
+          "mod_id": "advancedthaumaturgy",
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "advancedthaumaturgy:ESSENTIAENGINE",
+          "category": "ADVTHAUM",
+          "displayColumn": 3,
+          "displayRow": -5,
+          "icon_item": {
+            "item": "advancedthaumaturgy:essentia_engine"
+          },
+          "complexity": 2,
+          "aspects": {
+            "terra": 1,
+            "ignis": 1,
+            "praecantatio": 1,
+            "arbor": 1
+          },
+          "parents": [
+            "INFERNALFURNACE",
+            "INFUSION"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "advancedthaumaturgy:UPGRADERECHARGE",
+          "category": "ADVTHAUM",
+          "displayColumn": -3,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "advancedthaumaturgy:crystal_recharge"
+          },
+          "complexity": 3,
+          "aspects": {
+            "aer": 20,
+            "terra": 20,
+            "ignis": 20,
+            "aqua": 20,
+            "ordo": 20,
+            "perditio": 20
+          },
+          "parents": [
+            "advancedthaumaturgy:ARCANECRYSTAL",
+            "INFUSION",
+            "ROD_reed",
+            "ROD_blaze",
+            "ROD_obsidian",
+            "ROD_ice",
+            "ROD_quartz",
+            "ROD_bone"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isStub": true,
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "advancedthaumaturgy:UPGRADEDRAIN",
+          "category": "ADVTHAUM",
+          "displayColumn": -6,
+          "displayRow": 1,
+          "icon_item": {
+            "item": "advancedthaumaturgy:crystal_multiplier"
+          },
+          "complexity": 3,
+          "aspects": {
+            "tutamen": 10,
+            "mortuus": 10,
+            "herba": 10,
+            "gelum": 10,
+            "limus": 20
+          },
+          "parents": [
+            "advancedthaumaturgy:ARCANECRYSTAL",
+            "INFUSION",
+            "DISTILESSENTIA"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isStub": true,
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 5
+        },
+        {
+          "key": "advancedthaumaturgy:UPGRADECOMPOUND",
+          "category": "ADVTHAUM",
+          "displayColumn": -5,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "advancedthaumaturgy:crystal_compound"
+          },
+          "complexity": 3,
+          "aspects": {
+            "bestia": 32,
+            "tenebrae": 32,
+            "pannus": 16,
+            "corpus": 16,
+            "venenum": 8,
+            "limus": 8
+          },
+          "parents": [
+            "advancedthaumaturgy:ARCANECRYSTAL",
+            "INFUSION"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isStub": true,
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "advancedthaumaturgy:UPGRADEDISCOUNT",
+          "category": "ADVTHAUM",
+          "displayColumn": -3,
+          "displayRow": 4,
+          "icon_item": {
+            "item": "advancedthaumaturgy:crystal_discount"
+          },
+          "complexity": 3,
+          "aspects": {
+            "praecantatio": 10,
+            "alienis": 10,
+            "auram": 10,
+            "potentia": 10,
+            "perditio": 10
+          },
+          "parents": [
+            "advancedthaumaturgy:ARCANECRYSTAL",
+            "INFUSION",
+            "ENCHFABRIC"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isStub": true,
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "advancedthaumaturgy:UPGRADESTABILIZER",
+          "category": "ADVTHAUM",
+          "displayColumn": -5,
+          "displayRow": 4,
+          "icon_item": {
+            "item": "advancedthaumaturgy:crystal_stabilizer"
+          },
+          "complexity": 3,
+          "aspects": {
+            "ordo": 16,
+            "praecantatio": 16
+          },
+          "parents": [
+            "advancedthaumaturgy:ARCANECRYSTAL",
+            "INFUSION"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isStub": true,
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "advancedthaumaturgy:UPGRADEPOTENCY",
+          "category": "ADVTHAUM",
+          "displayColumn": -6,
+          "displayRow": 3,
+          "icon_item": {
+            "item": "advancedthaumaturgy:crystal_potency"
+          },
+          "complexity": 3,
+          "aspects": {
+            "potentia": 32
+          },
+          "parents": [
+            "advancedthaumaturgy:ARCANECRYSTAL",
+            "INFUSION"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isStub": true,
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "advancedthaumaturgy:MINILITHBASE",
+          "category": "ADVTHAUM",
+          "displayColumn": 2,
+          "displayRow": 5,
+          "icon_item": {
+            "item": "advancedthaumaturgy:microlith_base"
+          },
+          "complexity": 1,
+          "aspects": {
+            "vitium": 16,
+            "ordo": 8,
+            "praecantatio": 8
+          },
+          "parents": [
+            "advancedthaumaturgy:ARCANECRYSTAL"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "advancedthaumaturgy:MINILITHFLUX",
+          "category": "ADVTHAUM",
+          "displayColumn": 0,
+          "displayRow": 6,
+          "icon_item": {
+            "item": "advancedthaumaturgy:flux_dissipator"
+          },
+          "complexity": 1,
+          "aspects": {
+            "vacuos": 6,
+            "vitium": 10
+          },
+          "parents": [
+            "advancedthaumaturgy:MINILITHBASE"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "advancedthaumaturgy:MINILITHWATCHFUL",
+          "category": "ADVTHAUM",
+          "displayColumn": 3,
+          "displayRow": 3,
+          "icon_item": {
+            "item": "advancedthaumaturgy:watchful_microlith"
+          },
+          "complexity": 1,
+          "aspects": {
+            "sensus": 4,
+            "praecantatio": 12
+          },
+          "parents": [
+            "advancedthaumaturgy:MINILITHBASE"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "advancedthaumaturgy:MINILITHHEAL",
+          "category": "ADVTHAUM",
+          "displayColumn": 3,
+          "displayRow": 7,
+          "icon_item": {
+            "item": "advancedthaumaturgy:healing_microlith"
+          },
+          "complexity": 1,
+          "aspects": {
+            "sano": 8,
+            "victus": 8
+          },
+          "parents": [
+            "advancedthaumaturgy:MINILITHBASE"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "advancedthaumaturgy:MINILITHZAP",
+          "category": "ADVTHAUM",
+          "displayColumn": 4,
+          "displayRow": 6,
+          "icon_item": {
+            "item": "advancedthaumaturgy:lightning_microlith"
+          },
+          "complexity": 1,
+          "aspects": {
+            "telum": 4,
+            "aer": 8,
+            "potentia": 10
+          },
+          "parents": [
+            "advancedthaumaturgy:MINILITHBASE"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "advancedthaumaturgy:MINILITHFIRE",
+          "category": "ADVTHAUM",
+          "displayColumn": 4,
+          "displayRow": 4,
+          "icon_item": {
+            "item": "advancedthaumaturgy:burning_sentry"
+          },
+          "complexity": 1,
+          "aspects": {
+            "telum": 4,
+            "aer": 8,
+            "ignis": 10
+          },
+          "parents": [
+            "advancedthaumaturgy:MINILITHBASE"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "advancedthaumaturgy:MINILITHFROST",
+          "category": "ADVTHAUM",
+          "displayColumn": 1,
+          "displayRow": 7,
+          "icon_item": {
+            "item": "advancedthaumaturgy:frost_microlith"
+          },
+          "complexity": 1,
+          "aspects": {
+            "telum": 4,
+            "gelum": 10
+          },
+          "parents": [
+            "advancedthaumaturgy:MINILITHBASE"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "advancedthaumaturgy:VOIDCAGE",
+          "category": "ADVTHAUM",
+          "displayColumn": -3,
+          "displayRow": -3,
+          "icon_item": {
+            "item": "advancedthaumaturgy:focus_void_cage"
+          },
+          "complexity": 2,
+          "aspects": {
+            "bestia": 1,
+            "vacuos": 1,
+            "praecantatio": 1
+          },
+          "parents": [
+            "FOCUSFIRE"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "advancedthaumaturgy:WANDBENCH",
+          "category": "ADVTHAUM",
+          "displayColumn": 0,
+          "displayRow": 2,
+          "icon_item": {
+            "item": "advancedthaumaturgy:wandbench"
+          },
+          "complexity": 3,
+          "aspects": {
+            "praecantatio": 1,
+            "machina": 1,
+            "permutatio": 1,
+            "instrumentum": 1
+          },
+          "parents": [
+            "advancedthaumaturgy:ARCANECRYSTAL"
+          ],
+          "mod_id": "advancedthaumaturgy",
+          "pageCount": 1,
+          "isConcealed": true
+        }
+      ]
+    }
+  ]
+}

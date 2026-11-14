@@ -1,0 +1,61 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "advancedthaumaturgy:NODEMODIFIER",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:arcane_pedestal"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_log"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_log"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    }
+  ],
+  "aspects": {
+    "lucrum": 64,
+    "auram": 128,
+    "praecantatio": 256,
+    "arbor": 256
+  },
+  "result": {
+    "item": "advancedthaumaturgy:node_modifier"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "advancedthaumaturgy:wand_upgrade",
+  "research": "advancedthaumaturgy:UPGRADEDRAIN",
+  "instability": 4,
+  "center": {
+    "ingredient": {
+      "item": "advancedthaumaturgy:mercurial_wand"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "advancedthaumaturgy:crystal_multiplier"
+      }
+    }
+  ],
+  "aspects": {
+    "praecantatio": 8
+  },
+  "result": {
+    "item": "advancedthaumaturgy:mercurial_wand"
+  },
+  "upgrade": "multiplier"
+}
