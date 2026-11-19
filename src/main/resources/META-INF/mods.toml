@@ -1,13 +1,20 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="GPL-3.0-only"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
 [[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/arcane_engineering/index.html"
 modId="arcane_engineering"
 version="${version}"
 displayName="Arcane Engineering"
-authors="Eris Izalith (cadaverous_queen); TC4 Revival contributors"
-credits="Original destabilizer model and texture: HuggableCreep; original integration: Azanor, BluSunrize and DamienHazard."
-description='''Arcane Engineering 0.2.7 gameplay recreated for Thaumcraft 4: Continuation and Immersive Engineering. Original artwork is requested at runtime through Thaumcraft.'''
+authors="zer0M1nd"
+credits="Original Arcane Engineering by Eris Izalith (cadaverous_queen)."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Upgrade treated-wood wands, fit thaumic drill heads and fuel biodiesel boots to take flight.
+
+-------- Original release --------
+Original credits: Azanor (Thaumcraft), BluSunrize and DamienHazard (Immersive Engineering), and HuggableCreep (node destabilizer model and texture).'''
+
 [[dependencies.arcane_engineering]]
 modId="forge"
 mandatory=true
@@ -23,7 +30,7 @@ side="BOTH"
 [[dependencies.arcane_engineering]]
 modId="thaumcraft"
 mandatory=true
-versionRange="[0.4.115.6,)"
+versionRange="[0.4.116.2,)"
 ordering="AFTER"
 side="BOTH"
 [[dependencies.arcane_engineering]]

@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.1.0.1'
+version = '0.1.3'
 group = 'arcane_engineering'
 base.archivesName = 'Arcane-Engineering-Modern-Port'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -47,4 +47,10 @@ tasks.register('verifyExternalResources') {
     doLast { ['jar','sourcesJar'].each { taskName -> new java.util.zip.ZipFile(tasks.named(taskName).get().archiveFile.get().asFile).withCloseable { zip -> zip.entries().each { e ->
         if (e.name ==~ /.*\.(png|ogg|lang|obj)/ || e.name.startsWith('tc4revival/') || e.name.startsWith('thaumcraft/api/')) throw new GradleException("Bundled legacy resource or dependency: ${e.name}")
     } } } }
+}
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+    }
 }

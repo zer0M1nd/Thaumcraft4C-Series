@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_ARCANE_ENGINEERING",
+      "pages": [
+        {
+          "id": "arcane_engineering:tut_addon_arcane_engineering/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.arcane_engineering.tut_addon_arcane_engineering.text.1",
+            "with": [
+              [
+                {
+                  "text": "奥法工程学是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "arcane_engineering:tut_addon_arcane_engineering/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.arcane_engineering.tut_addon_arcane_engineering.text.2",
+            "with": [
+              [
+                {
+                  "text": "它连接神秘时代与"
+                },
+                {
+                  "text": "沉浸工程",
+                  "bold": true
+                },
+                {
+                  "text": "（Immersive Engineering）：可升级的防腐木法杖、钢和琥珀金杖端、三种法杖升级，以及给沉浸工程钻机使用的神秘钻头和虚空钻头（3×3 采掘），另有推进靴和节点干扰器。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "arcane_engineering:tut_addon_arcane_engineering/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "arcane_engineering:tut_addon_arcane_engineering/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.arcane_engineering.tut_addon_arcane_engineering.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "arcane_engineering:tut_addon_arcane_engineering/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.arcane_engineering.tut_addon_arcane_engineering.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "arcane_engineering:MAGITECH"
+                },
+                {
+                  "text": "：魔法技术，自动解锁。\n· "
+                },
+                {
+                  "research": "arcane_engineering:ROD_upgradeable"
+                },
+                {
+                  "text": "：防腐木杖柄，可以安装升级的法杖。\n· "
+                },
+                {
+                  "research": "arcane_engineering:CAP_steel"
+                },
+                {
+                  "text": "：钢杖端。\n· "
+                },
+                {
+                  "research": "arcane_engineering:DRILLTHAUMIUM"
+                },
+                {
+                  "text": "：神秘钻头。\n· "
+                },
+                {
+                  "research": "arcane_engineering:IMPULSEBOOTS"
+                },
+                {
+                  "text": "：推进靴，自动解锁。\n分页中放有基础法杖工艺、神秘锭等原版研究的镜像，点击会跳回原研究。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "arcane_engineering:tut_addon_arcane_engineering/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "arcane_engineering:tut_addon_arcane_engineering/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "arcane_engineering:tut_addon_arcane_engineering/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "arcane_engineering:MAGITECH",
+            "arcane_engineering:ROD_upgradeable",
+            "arcane_engineering:CAP_steel",
+            "arcane_engineering:DRILLTHAUMIUM",
+            "arcane_engineering:IMPULSEBOOTS"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}
