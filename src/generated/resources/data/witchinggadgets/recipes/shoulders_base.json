@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_nugget"
+    },
+    "l": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "ll ",
+    "ill",
+    " i "
+  ],
+  "result": {
+    "item": "witchinggadgets:shoulders_base"
+  }
+}

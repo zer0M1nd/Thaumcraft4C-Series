@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "languages": [
+    "zh_cn"
+  ],
+  "patches": [
+    {
+      "keys": [
+        "witchinggadgets_research_page.SPINNINGWHEEL.2"
+      ],
+      "find": "魔法制品-",
+      "replace": "魔法制品。",
+      "count": 1
+    }
+  ]
+}

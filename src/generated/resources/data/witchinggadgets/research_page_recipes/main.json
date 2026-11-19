@@ -1,0 +1,6721 @@
+{
+  "entries": [
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ordo": 5,
+          "perditio": 5
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:thread_simple"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:thread_thaumium"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:thread_thaumium"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:thread_gold"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:cloth_bewitched"
+          }
+        }
+      },
+      "key": "witchinggadgets:cloth_bewitched"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ordo": 10,
+          "perditio": 10
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_bewitched"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_bewitched"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:robe_chest"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_bewitched"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:advanced_robe_chest"
+          }
+        },
+        "research": "witchinggadgets:ADVANCEDROBES",
+        "width": 3
+      },
+      "key": "witchinggadgets:advanced_robe_chest"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ordo": 10,
+          "perditio": 10
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_bewitched"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_bewitched"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:robe_legs"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_bewitched"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:advanced_robe_legs"
+          }
+        },
+        "research": "witchinggadgets:ADVANCEDROBES",
+        "width": 3
+      },
+      "key": "witchinggadgets:advanced_robe_legs"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 5,
+          "ordo": 5
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:iron_ingot"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:oak_planks"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:spruce_planks"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:greatwood_planks"
+                  }
+                }
+              ],
+              "kind": "ore",
+              "names": [
+                "#minecraft:planks"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:table"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:spinning_wheel"
+          }
+        },
+        "research": "witchinggadgets:SPINNINGWHEEL",
+        "width": 3
+      },
+      "key": "witchinggadgets:spinning_wheel"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 5,
+          "perditio": 5
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:thread_simple"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:thread_simple"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:thread_simple"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:thread_thaumium"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 2,
+            "item": "witchinggadgets:cloth_space"
+          }
+        }
+      },
+      "key": "witchinggadgets:cloth_space"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 20,
+          "ordo": 20
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:bag"
+          }
+        },
+        "research": "witchinggadgets:BAGOFTRICKS",
+        "width": 3
+      },
+      "key": "witchinggadgets:bag"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 10,
+          "ordo": 10
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:hungry_chest"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:bag"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:hungry_bag"
+          }
+        },
+        "research": "witchinggadgets:HUNGERBAG",
+        "width": 3
+      },
+      "key": "witchinggadgets:hungry_bag"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 4,
+          "praecantatio": 4,
+          "vacuos": 8
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:ender_chest"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_bewitched"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:ender_eye"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_bewitched"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:bag"
+          }
+        },
+        "instability": 3,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:ender_bag"
+          }
+        },
+        "research": "witchinggadgets:ENDERBAG"
+      },
+      "key": "witchinggadgets:ender_bag"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 16,
+          "perditio": 32,
+          "vacuos": 16
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_seed"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_seed"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:bag"
+          }
+        },
+        "instability": 4,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:void_bag"
+          }
+        },
+        "research": "witchinggadgets:VOIDBAG"
+      },
+      "key": "witchinggadgets:void_bag"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aqua": 10,
+          "ignis": 20,
+          "ordo": 10
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:smooth_stone_slab"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:coal_block"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:smooth_stone_slab"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:greatwood_planks"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:bucket"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:greatwood_planks"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:greatwood_planks"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:greatwood_planks"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:greatwood_planks"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:sauna_stove"
+          }
+        },
+        "research": "witchinggadgets:SAUNASTOVE",
+        "width": 3
+      },
+      "key": "witchinggadgets:sauna_stove"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ordo": 5,
+          "terra": 3
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:arcane_stone"
+              }
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:air_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:fire_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:water_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:earth_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:order_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:entropy_shard"
+                  }
+                }
+              ],
+              "kind": "ore",
+              "names": [
+                "#forge:shards"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:arcane_stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:arcane_stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:redstone_torch"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:arcane_stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:arcane_stone"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:arcane_stone"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 6,
+            "item": "witchinggadgets:ethereal_wall"
+          }
+        },
+        "research": "witchinggadgets:ETHEREALWALL",
+        "width": 3
+      },
+      "key": "witchinggadgets:ethereal_wall"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ordo": 10,
+          "perditio": 10
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:air_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:fire_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:water_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:earth_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:order_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:entropy_shard"
+                  }
+                }
+              ],
+              "kind": "ore",
+              "names": [
+                "#forge:shards"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:arcane_stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:clock"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:arcane_stone"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:air_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:fire_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:water_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:earth_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:order_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:entropy_shard"
+                  }
+                }
+              ],
+              "kind": "ore",
+              "names": [
+                "#forge:shards"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:ageing_stone"
+          }
+        },
+        "research": "witchinggadgets:AGEINGSTONE",
+        "width": 3
+      },
+      "key": "witchinggadgets:ageing_stone"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "perditio": 4,
+          "terra": 8
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:thaumium_pickaxe"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:water_bucket"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:arcane_stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:lava_bucket"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:greatwood_planks"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:arcane_stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:greatwood_planks"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:stone_extruder"
+          }
+        },
+        "research": "witchinggadgets:STONEEXTRUDER",
+        "width": 3
+      },
+      "key": "witchinggadgets:stone_extruder"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 7
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:enchanted_fabric"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:enchanted_fabric"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:enchanted_fabric"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:enchanted_fabric"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:enchanted_fabric"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:enchanted_fabric"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:enchanted_fabric"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:cloak_standard"
+          }
+        },
+        "research": "witchinggadgets:CLOAK",
+        "width": 3
+      },
+      "key": "witchinggadgets:cloak_standard"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 20,
+          "ordo": 10,
+          "perditio": 15
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "witchinggadgets:cloak_standard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "witchinggadgets:cloak_plain"
+                  }
+                }
+              ],
+              "kind": "ore",
+              "names": [
+                "#forge:travellers_gear/cloaks"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_space"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:bag"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:cloak_storage"
+          }
+        },
+        "research": "witchinggadgets:CLOAK_STORAGE",
+        "width": 3
+      },
+      "key": "witchinggadgets:cloak_storage"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ignis": 10,
+          "perditio": 20,
+          "terra": 15
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:wolf_pelt"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:wolf_pelt"
+              }
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "witchinggadgets:cloak_standard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "witchinggadgets:cloak_plain"
+                  }
+                }
+              ],
+              "kind": "ore",
+              "names": [
+                "#forge:travellers_gear/cloaks"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:wolf_pelt"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:cloak_wolf"
+          }
+        },
+        "research": "witchinggadgets:CLOAK_WOLF",
+        "width": 3
+      },
+      "key": "witchinggadgets:cloak_wolf"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 4,
+          "iter": 8,
+          "sensus": 4,
+          "spiritus": 8
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:potion",
+                "nbt": "{Potion:\"minecraft:long_invisibility\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_bewitched"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:ender_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_bewitched"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:cloak_standard"
+          }
+        },
+        "instability": 3,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:cloak_spectral"
+          }
+        },
+        "research": "witchinggadgets:CLOAK_SPECTRAL"
+      },
+      "key": "witchinggadgets:cloak_spectral"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 5,
+          "ordo": 5
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:mundane_belt"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloak_standard"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:kama_standard"
+          }
+        },
+        "research": "witchinggadgets:CLOAKKAMA",
+        "width": 1
+      },
+      "key": "witchinggadgets:kama_standard"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 5,
+          "ordo": 5
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:mundane_belt"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloak_spectral"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:kama_spectral"
+          }
+        },
+        "research": "witchinggadgets:CLOAKKAMA",
+        "width": 1
+      },
+      "key": "witchinggadgets:kama_spectral"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 5,
+          "ordo": 5
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:mundane_belt"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloak_storage"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:kama_storage"
+          }
+        },
+        "research": "witchinggadgets:CLOAKKAMA",
+        "width": 1
+      },
+      "key": "witchinggadgets:kama_storage"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 5,
+          "ordo": 5
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:mundane_belt"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloak_wolf"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:kama_wolf"
+          }
+        },
+        "research": "witchinggadgets:CLOAKKAMA",
+        "width": 1
+      },
+      "key": "witchinggadgets:kama_wolf"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 5,
+          "ordo": 5
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:mundane_belt"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloak_raven"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:kama_raven"
+          }
+        },
+        "research": "witchinggadgets:CLOAKKAMA",
+        "width": 1
+      },
+      "key": "witchinggadgets:kama_raven"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 15,
+          "ordo": 15
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "twilightforest:raven_feather"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "twilightforest:raven_feather"
+              }
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "witchinggadgets:cloak_standard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "witchinggadgets:cloak_plain"
+                  }
+                }
+              ],
+              "kind": "ore",
+              "names": [
+                "#forge:travellers_gear/cloaks"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "twilightforest:raven_feather"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "twilightforest:raven_feather"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:air_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "twilightforest:raven_feather"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:cloak_raven"
+          }
+        },
+        "research": "witchinggadgets:CLOAK_RAVEN",
+        "width": 3
+      },
+      "key": "witchinggadgets:cloak_raven"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ignis": 10,
+          "perditio": 10
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:wolf_pelt"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:wolf_pelt"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:vambrace_base"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:wolf_pelt"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:vambrace_strength"
+          }
+        },
+        "research": "witchinggadgets:WGBAUBLES",
+        "width": 3
+      },
+      "key": "witchinggadgets:vambrace_strength"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ordo": 10,
+          "terra": 10
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:shoulders_base"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:earth_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:earth_shard"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:shoulders_knockback"
+          }
+        },
+        "research": "witchinggadgets:WGBAUBLES",
+        "width": 3
+      },
+      "key": "witchinggadgets:shoulders_knockback"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 8,
+          "instrumentum": 4,
+          "motus": 4,
+          "perfodio": 8
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:sugar"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:potion",
+                "nbt": "{Potion:\"minecraft:swiftness\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:sugar"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:vambrace_base"
+          }
+        },
+        "instability": 2,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:vambrace_haste"
+          }
+        },
+        "research": "witchinggadgets:WGBAUBLES"
+      },
+      "key": "witchinggadgets:vambrace_haste"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 16,
+          "motus": 8,
+          "volatus": 16
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:feather"
+              }
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:iron_ingot"
+                  }
+                }
+              ],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/silver"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:feather"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:air_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:feather"
+              }
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:iron_ingot"
+                  }
+                }
+              ],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/silver"
+              ]
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:shoulders_base"
+          }
+        },
+        "instability": 2,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:shoulders_doublejump"
+          }
+        },
+        "research": "witchinggadgets:WGBAUBLES"
+      },
+      "key": "witchinggadgets:shoulders_doublejump"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 16,
+          "ordo": 8,
+          "telum": 8
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_arrow_air"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_arrow_fire"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_arrow_water"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_arrow_earth"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_arrow_order"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_arrow_entropy"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:mundane_ring"
+          }
+        },
+        "instability": 2,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:ring_sniper"
+          }
+        },
+        "research": "witchinggadgets:WGBAUBLES"
+      },
+      "key": "witchinggadgets:ring_sniper"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ordo": 30
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:enchanted_book"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:gold_coin"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:enchanted_book"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:gold_coin"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:gold_coin"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:gold_coin"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:enchanted_book"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:gold_coin"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:enchanted_book"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:gold_coin",
+            "nbt": "{Enchantments:[{id:\"minecraft:fortune\",lvl:1s},{id:\"minecraft:looting\",lvl:1s}]}"
+          }
+        },
+        "width": 3
+      },
+      "key": "witchinggadgets:lucky_coin"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "instrumentum": 16,
+          "lucrum": 32
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:lapis_lazuli"
+              }
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:iron_ingot"
+                  }
+                }
+              ],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/silver"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:lapis_lazuli"
+              }
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:iron_ingot"
+                  }
+                }
+              ],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/silver"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:lapis_lazuli"
+              }
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:iron_ingot"
+                  }
+                }
+              ],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/silver"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:lapis_lazuli"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:gold_coin",
+            "nbt": "{Enchantments:[{id:\"minecraft:fortune\",lvl:1s},{id:\"minecraft:looting\",lvl:1s}]}"
+          }
+        },
+        "instability": 3,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:ring_luck"
+          }
+        },
+        "research": "witchinggadgets:WGBAUBLES"
+      },
+      "key": "witchinggadgets:ring_luck"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "praecantatio": 8,
+          "tenebrae": 4,
+          "vitreus": 8
+        },
+        "enchantment": {
+          "id": 0,
+          "max_level": 2,
+          "name": "enchantment.wg.invisibleGear"
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:quartz"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:gemstone_dust"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "instability": 2,
+        "kind": "infusion_enchantment",
+        "output": {
+          "elements": [],
+          "kind": "sequence"
+        },
+        "recipeXP": 2,
+        "research": "witchinggadgets:ENCH_INVISIBLEGEAR"
+      },
+      "key": "witchinggadgets:enchant_invisible_gear"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "lux": 4,
+          "praecantatio": 8,
+          "sensus": 8
+        },
+        "enchantment": {
+          "id": 0,
+          "max_level": 1,
+          "name": "enchantment.wg.unveiling"
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:golden_carrot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "instability": 2,
+        "kind": "infusion_enchantment",
+        "output": {
+          "elements": [],
+          "kind": "sequence"
+        },
+        "recipeXP": 2,
+        "research": "witchinggadgets:ENCH_UNVEILING"
+      },
+      "key": "witchinggadgets:enchant_unveiling"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "motus": 6,
+          "praecantatio": 8,
+          "tenebrae": 8
+        },
+        "enchantment": {
+          "id": 0,
+          "max_level": 5,
+          "name": "enchantment.wg.stealth"
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:potion",
+                "nbt": "{Potion:\"minecraft:invisibility\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "instability": 2,
+        "kind": "infusion_enchantment",
+        "output": {
+          "elements": [],
+          "kind": "sequence"
+        },
+        "recipeXP": 1,
+        "research": "witchinggadgets:ENCH_STEALTH"
+      },
+      "key": "witchinggadgets:enchant_stealth"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "praecantatio": 4,
+          "telum": 12,
+          "tenebrae": 8
+        },
+        "enchantment": {
+          "id": 0,
+          "max_level": 3,
+          "name": "enchantment.wg.backstab"
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:iron_sword"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:potion",
+                "nbt": "{Potion:\"minecraft:invisibility\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "instability": 3,
+        "kind": "infusion_enchantment",
+        "output": {
+          "elements": [],
+          "kind": "sequence"
+        },
+        "recipeXP": 1,
+        "research": "witchinggadgets:ENCH_BACKSTAB"
+      },
+      "key": "witchinggadgets:enchant_backstab"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "praecantatio": 4,
+          "tutamen": 12,
+          "vinculum": 8
+        },
+        "enchantment": {
+          "id": 0,
+          "max_level": 1,
+          "name": "enchantment.wg.rideProtect"
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:piston"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:piston"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "instability": 3,
+        "kind": "infusion_enchantment",
+        "output": {
+          "elements": [],
+          "kind": "sequence"
+        },
+        "recipeXP": 3,
+        "research": "witchinggadgets:ENCH_RIDEPROTECT"
+      },
+      "key": "witchinggadgets:enchant_ride_protect"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "vacuos": 2,
+          "vitreus": 4
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:bucket"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:crystal_capsule"
+          }
+        },
+        "research": "witchinggadgets:CRYSTALCAPSULE"
+      },
+      "key": "witchinggadgets:crystal_capsule"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:quartz"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:flint"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:iron_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:stick"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:stick"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:stick"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "crafting_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:cutting_tools"
+          }
+        },
+        "width": 3
+      },
+      "key": "witchinggadgets:cutting_tools"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "elements": [
+            {
+              "aspects": {},
+              "kind": "aspects"
+            },
+            {
+              "kind": "literal",
+              "value": 1
+            },
+            {
+              "kind": "literal",
+              "value": 2
+            },
+            {
+              "kind": "literal",
+              "value": 1
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "witchinggadgets:cutting_tools"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "thaumcraft:table"
+                  }
+                }
+              ],
+              "kind": "sequence"
+            }
+          ],
+          "kind": "sequence"
+        }
+      },
+      "key": "witchinggadgets:cutting_table"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "herba": 4,
+          "perditio": 4,
+          "praecantatio": 4
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:rose_bush"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:rose_vines"
+          }
+        },
+        "research": "witchinggadgets:ROSEVINE"
+      },
+      "key": "witchinggadgets:rose_vines"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "herba": 2,
+          "victus": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:dirt"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:grass_block"
+          }
+        },
+        "research": "witchinggadgets:ALCHEMICALTRANSMOGRIFY"
+      },
+      "key": "witchinggadgets:transmogrify_grass"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "herba": 2,
+          "tenebrae": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:dirt"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:mycelium"
+          }
+        },
+        "research": "witchinggadgets:ALCHEMICALTRANSMOGRIFY"
+      },
+      "key": "witchinggadgets:transmogrify_mycel"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "perditio": 3
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:cobblestone"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:sand"
+          }
+        },
+        "research": "witchinggadgets:ALCHEMICALTRANSMOGRIFY"
+      },
+      "key": "witchinggadgets:transmogrify_sand"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "vitreus": 3
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:gravel"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:flint"
+          }
+        },
+        "research": "witchinggadgets:ALCHEMICALTRANSMOGRIFY"
+      },
+      "key": "witchinggadgets:transmogrify_flint"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ordo": 30
+        },
+        "height": 2,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:book"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:jar_label"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:scribing_tools"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:table"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:label_library"
+          }
+        },
+        "research": "witchinggadgets:LABELLIB",
+        "width": 3
+      },
+      "key": "witchinggadgets:label_library"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 10,
+          "aqua": 10,
+          "ordo": 10
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:bellows"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:hopper"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:alchemical_construct"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:essentia_tube"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:bellows"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:mirror_pump"
+          }
+        },
+        "research": "witchinggadgets:MIRRORPUMP",
+        "width": 3
+      },
+      "key": "witchinggadgets:mirror_pump"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 20,
+          "ordo": 10,
+          "terra": 20
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:greatwood_planks"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:leather"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:glass_pane"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:mirrored_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:thaumometer"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:greatwood_planks"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:leather"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:scan_camera"
+          }
+        },
+        "research": "witchinggadgets:SCANCAMERA",
+        "width": 3
+      },
+      "key": "witchinggadgets:scan_camera"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 5,
+          "aqua": 5,
+          "ordo": 5
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:photo_plate"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:paper"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:black_dye"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:developed_photo"
+          }
+        },
+        "research": "witchinggadgets:SCANCAMERA"
+      },
+      "key": "witchinggadgets:photo_developing"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:photo_plate"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "crafting_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:mirrored_glass"
+          }
+        }
+      },
+      "key": "witchinggadgets:photo_clear"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ordo": 10
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:rods/wooden"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:dyes/red"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:rods/wooden"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:rods/wooden"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:dyes/blue"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:rods/wooden"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:rods/wooden"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:dyes/green"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:rods/wooden"
+              ]
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          }
+        },
+        "research": "witchinggadgets:CALCULATOR",
+        "width": 3
+      },
+      "key": "witchinggadgets:calculator"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "cognitio": 6,
+          "instrumentum": 2,
+          "iter": 4
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:ender_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:thread_simple"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:thread_simple"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:thread_simple"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:greatwood_log"
+          }
+        },
+        "instability": 2,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:guiding_string"
+          }
+        },
+        "research": "witchinggadgets:LABYRINTHSTRING"
+      },
+      "key": "witchinggadgets:guiding_string"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "elements": [
+            {
+              "aspects": {
+                "ignis": 50,
+                "perditio": 50,
+                "terra": 50
+              },
+              "kind": "aspects"
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_brick_stairs"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_brick_stairs"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_brick_stairs"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_brick_stairs"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:lava_bucket"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_brick_stairs"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_brick_stairs"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_brick_stairs"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_brick_stairs"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:obsidian"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:soul_sand"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:obsidian"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:soul_sand"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:soul_sand"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:soul_sand"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:obsidian"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:soul_sand"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:obsidian"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_bricks"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_bricks"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_bricks"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_bricks"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:obsidian"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_bricks"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_bricks"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_bricks"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "count": 1,
+                    "item": "minecraft:nether_bricks"
+                  }
+                }
+              ],
+              "kind": "sequence"
+            }
+          ],
+          "kind": "sequence"
+        }
+      },
+      "key": "witchinggadgets:infernal_blast_furnace"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/aluminum"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:aluminum_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_aluminum"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/aluminum"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/aluminum"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_aluminum"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/cobalt"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:cobalt_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_cobalt"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/cobalt"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/cobalt"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_cobalt"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/ardite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:ardite_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_ardite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/ardite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/ardite"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_ardite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/nickel"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:nickel_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_nickel"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/nickel"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/nickel"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_nickel"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/fz_dark_iron"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:fz_dark_iron_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_fz_dark_iron"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/fz_dark_iron"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/fz_dark_iron"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_fz_dark_iron"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/manganese"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:manganese_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_manganese"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/manganese"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/manganese"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_manganese"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/zinc"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:zinc_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_zinc"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/zinc"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/zinc"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_zinc"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/platinum"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:platinum_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_platinum"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/platinum"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/platinum"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_platinum"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/ignatius"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:ignatius_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_ignatius"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/ignatius"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/ignatius"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_ignatius"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/shadow_iron"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:shadow_iron_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_shadow_iron"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/shadow_iron"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/shadow_iron"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_shadow_iron"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/lemurite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:lemurite_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_lemurite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/lemurite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/lemurite"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_lemurite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/midasium"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:midasium_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_midasium"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/midasium"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/midasium"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_midasium"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/vyroxeres"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:vyroxeres_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_vyroxeres"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/vyroxeres"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/vyroxeres"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_vyroxeres"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/ceruclase"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:ceruclase_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_ceruclase"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/ceruclase"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/ceruclase"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_ceruclase"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/alduorite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:alduorite_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_alduorite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/alduorite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/alduorite"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_alduorite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/kalendrite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:kalendrite_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_kalendrite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/kalendrite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/kalendrite"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_kalendrite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/vulcanite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:vulcanite_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_vulcanite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/vulcanite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/vulcanite"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_vulcanite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/sanguinite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:sanguinite_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_sanguinite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/sanguinite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/sanguinite"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_sanguinite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/prometheum"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:prometheum_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_prometheum"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/prometheum"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/prometheum"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_prometheum"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/deep_iron"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:deep_iron_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_deep_iron"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/deep_iron"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/deep_iron"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_deep_iron"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/infuscolium"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:infuscolium_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_infuscolium"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/infuscolium"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/infuscolium"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_infuscolium"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/oureclase"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:oureclase_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_oureclase"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/oureclase"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/oureclase"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_oureclase"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/astral_silver"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:astral_silver_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_astral_silver"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/astral_silver"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/astral_silver"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_astral_silver"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/carmot"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:carmot_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_carmot"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/carmot"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/carmot"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_carmot"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/mithril"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:mithril_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_mithril"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/mithril"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/mithril"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_mithril"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/rubracium"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:rubracium_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_rubracium"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/rubracium"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/rubracium"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_rubracium"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/orichalcum"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:orichalcum_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_orichalcum"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/orichalcum"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/orichalcum"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_orichalcum"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/adamantine"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:adamantine_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_adamantine"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/adamantine"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/adamantine"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_adamantine"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/atlarus"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:atlarus_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_atlarus"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/atlarus"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/atlarus"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_atlarus"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/eximite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:eximite_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_eximite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/eximite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/eximite"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_eximite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/meutoite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:meutoite_cluster"
+          }
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS"
+      },
+      "key": "witchinggadgets:cluster_meutoite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 2
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/meutoite"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:nuggets/meutoite"
+          ]
+        },
+        "research": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION"
+      },
+      "key": "witchinggadgets:transmute_meutoite"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "metallum": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "elements": [],
+          "kind": "ore",
+          "names": [
+            "#forge:ores/cinnabar"
+          ]
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:cinnabar_cluster"
+          }
+        },
+        "research": "witchinggadgets:PURECINNABAR"
+      },
+      "key": "witchinggadgets:pure_cinnabar"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ordo": 16,
+          "permutatio": 8,
+          "terra": 16
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:iron_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:essentia_tube"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:silverwood_sapling"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:essentia_tube"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:alchemical_construct"
+          }
+        },
+        "instability": 3,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:terraformer"
+          }
+        },
+        "research": "witchinggadgets:TERRAFORMER"
+      },
+      "key": "witchinggadgets:terraformer"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "terra": 10
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:grass_block"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:essentia_tube"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_plains"
+          }
+        },
+        "research": "witchinggadgets:TERRAFORMER",
+        "width": 3
+      },
+      "key": "witchinggadgets:terraform_focus_plains"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aqua": 10,
+          "ordo": 10
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:ice"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:essentia_tube"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_cold_taiga"
+          }
+        },
+        "research": "witchinggadgets:TERRAFORMFOCUS_COLDTAIGA",
+        "width": 3
+      },
+      "key": "witchinggadgets:terraform_focus_cold_taiga"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ignis": 10,
+          "terra": 10
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:sand"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:essentia_tube"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_desert"
+          }
+        },
+        "research": "witchinggadgets:TERRAFORMFOCUS_DESERT",
+        "width": 3
+      },
+      "key": "witchinggadgets:terraform_focus_desert"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aqua": 10,
+          "terra": 10
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:jungle_log"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:essentia_tube"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_jungle"
+          }
+        },
+        "research": "witchinggadgets:TERRAFORMFOCUS_JUNGLE",
+        "width": 3
+      },
+      "key": "witchinggadgets:terraform_focus_jungle"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "ignis": 10,
+          "perditio": 10
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:nether_bricks"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:essentia_tube"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_hell"
+          }
+        },
+        "research": "witchinggadgets:TERRAFORMFOCUS_HELL",
+        "width": 3
+      },
+      "key": "witchinggadgets:terraform_focus_hell"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "permutatio": 8,
+          "vitium": 32
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:iron_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:iron_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:essentia_tube"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:iron_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:taint_crust"
+          }
+        },
+        "instability": 3,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_taint"
+          }
+        },
+        "research": "witchinggadgets:TERRAFORMFOCUS_TAINT"
+      },
+      "key": "witchinggadgets:terraform_focus_taint"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aqua": 10,
+          "terra": 10
+        },
+        "height": 3,
+        "ingredients": {
+          "elements": [
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "sequence"
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:mycelium"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:essentia_tube"
+              }
+            },
+            {
+              "elements": [],
+              "kind": "ore",
+              "names": [
+                "#forge:ingots/iron"
+              ]
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_mushroom"
+          }
+        },
+        "research": "witchinggadgets:TERRAFORMFOCUS_MUSHROOM",
+        "width": 3
+      },
+      "key": "witchinggadgets:terraform_focus_mushroom"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 16,
+          "aqua": 16,
+          "ignis": 16,
+          "ordo": 16,
+          "perditio": 16,
+          "terra": 16
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:air_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:fire_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:earth_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:water_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:order_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:entropy_shard"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:powerless_pearl"
+          }
+        },
+        "instability": 3,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:primordial_pearl"
+          }
+        },
+        "research": "witchinggadgets:EMPOWERPEARL"
+      },
+      "key": "witchinggadgets:empower_pearl"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 8,
+          "aqua": 8,
+          "ignis": 8,
+          "instrumentum": 8,
+          "ordo": 8,
+          "perditio": 8,
+          "praecantatio": 32,
+          "terra": 8,
+          "vitreus": 16
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "witchinggadgets:cloth_bewitched"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_seed"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_seed"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:node_converter"
+          }
+        },
+        "instability": 6,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:primordial_glove"
+          }
+        },
+        "research": "witchinggadgets:PRIMORDIALGLOVE"
+      },
+      "key": "witchinggadgets:primordial_glove"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 32,
+          "aqua": 32,
+          "ignis": 32,
+          "metallum": 128,
+          "ordo": 32,
+          "perditio": 32,
+          "praecantatio": 64,
+          "telum": 64,
+          "terra": 32
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_sword"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wand_rod_greatwood"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_sword"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:void_metal_block"
+          }
+        },
+        "instability": 10,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:primordial_sword"
+          }
+        },
+        "research": "witchinggadgets:PRIMORDIALWEAPONRY"
+      },
+      "key": "witchinggadgets:primordial_sword"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 32,
+          "aqua": 32,
+          "ignis": 32,
+          "instrumentum": 32,
+          "metallum": 128,
+          "ordo": 32,
+          "perditio": 32,
+          "praecantatio": 64,
+          "telum": 32,
+          "terra": 32
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_pickaxe"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wand_rod_greatwood"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_sword"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:void_metal_block"
+          }
+        },
+        "instability": 10,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:primordial_hammer"
+          }
+        },
+        "research": "witchinggadgets:PRIMORDIALWEAPONRY"
+      },
+      "key": "witchinggadgets:primordial_hammer"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 32,
+          "aqua": 32,
+          "ignis": 32,
+          "instrumentum": 32,
+          "metallum": 128,
+          "ordo": 32,
+          "perditio": 32,
+          "praecantatio": 64,
+          "telum": 32,
+          "terra": 32
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_axe"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wand_rod_greatwood"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_axe"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:void_metal_block"
+          }
+        },
+        "instability": 10,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:primordial_axe"
+          }
+        },
+        "research": "witchinggadgets:PRIMORDIALWEAPONRY"
+      },
+      "key": "witchinggadgets:primordial_axe"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 32,
+          "aqua": 32,
+          "ignis": 32,
+          "metallum": 128,
+          "ordo": 32,
+          "perditio": 32,
+          "praecantatio": 64,
+          "terra": 32,
+          "tutamen": 32
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:fortress_helmet"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:void_metal_block"
+          }
+        },
+        "instability": 10,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:primordial_helmet"
+          }
+        },
+        "research": "witchinggadgets:PRIMORDIALARMOR"
+      },
+      "key": "witchinggadgets:primordial_helmet"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 32,
+          "aqua": 32,
+          "ignis": 32,
+          "metallum": 128,
+          "ordo": 32,
+          "perditio": 32,
+          "praecantatio": 64,
+          "terra": 32,
+          "tutamen": 32
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:fortress_chestplate"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:void_metal_block"
+          }
+        },
+        "instability": 10,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:primordial_chestplate"
+          }
+        },
+        "research": "witchinggadgets:PRIMORDIALARMOR"
+      },
+      "key": "witchinggadgets:primordial_chestplate"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 32,
+          "aqua": 32,
+          "ignis": 32,
+          "metallum": 128,
+          "ordo": 32,
+          "perditio": 32,
+          "praecantatio": 64,
+          "terra": 32,
+          "tutamen": 32
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:fortress_leggings"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:void_metal_block"
+          }
+        },
+        "instability": 10,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:primordial_leggings"
+          }
+        },
+        "research": "witchinggadgets:PRIMORDIALARMOR"
+      },
+      "key": "witchinggadgets:primordial_leggings"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aer": 32,
+          "aqua": 32,
+          "ignis": 32,
+          "metallum": 128,
+          "ordo": 32,
+          "perditio": 32,
+          "praecantatio": 64,
+          "terra": 32,
+          "tutamen": 32
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:traveller_boots"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:primal_charm"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:wisp_essence"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:void_metal_block"
+          }
+        },
+        "instability": 10,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:primordial_boots"
+          }
+        },
+        "research": "witchinggadgets:PRIMORDIALARMOR"
+      },
+      "key": "witchinggadgets:primordial_boots"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 20,
+          "iter": 20,
+          "vacuos": 20,
+          "vitreus": 20
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:focus_portable_hole"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:entropy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:ender_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:chiseled_quartz_block"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:item_mirror"
+          }
+        },
+        "instability": 8,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "witchinggadgets:wall_mirror"
+          }
+        },
+        "research": "witchinggadgets:WALLMIRROR"
+      },
+      "key": "witchinggadgets:wall_mirror"
+    }
+  ],
+  "format": 1
+}

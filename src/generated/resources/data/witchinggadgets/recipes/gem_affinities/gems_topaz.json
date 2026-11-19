@@ -1,0 +1,15 @@
+{
+  "type": "witchinggadgets:gem_affinity",
+  "affinities": [
+    "aer",
+    "ignis"
+  ],
+  "aversions": [
+    "perditio",
+    "aqua"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/topaz"
+  },
+  "priority": 1000
+}

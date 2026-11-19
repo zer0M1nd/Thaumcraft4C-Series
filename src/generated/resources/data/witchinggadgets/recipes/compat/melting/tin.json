@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "tin"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/tin"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_tin"
+  },
+  "temperature": 400,
+  "time": 80
+}

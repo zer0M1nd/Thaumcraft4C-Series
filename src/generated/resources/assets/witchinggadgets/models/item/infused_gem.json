@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "witchinggadgets:item/infused_gem_oval",
+      "predicate": {
+        "witchinggadgets:gem_cut": 1
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "witchinggadgets:items/infusedgem_point"
+  }
+}

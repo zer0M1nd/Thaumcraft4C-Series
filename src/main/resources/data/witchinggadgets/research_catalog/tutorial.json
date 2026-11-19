@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_WITCHINGGADGETS",
+          "category": "TUTORIAL",
+          "displayColumn": 39,
+          "displayRow": 6,
+          "parents": [
+            "TUT_ROBES"
+          ],
+          "icon_item": {
+            "item": "witchinggadgets:cloak_spectral",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "witchinggadgets"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "witchinggadgets:SPINNINGWHEEL",
+            "witchinggadgets:CLOAK",
+            "witchinggadgets:BAGOFTRICKS",
+            "witchinggadgets:WGBAUBLES",
+            "witchinggadgets:INFERNALBLASTFURNACE",
+            "witchinggadgets:PRIMORDIALGEARSET"
+          ],
+          "pageCount": 8
+        }
+      ]
+    }
+  ]
+}

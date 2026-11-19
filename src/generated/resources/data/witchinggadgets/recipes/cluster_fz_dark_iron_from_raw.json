@@ -1,0 +1,16 @@
+{
+  "type": "witchinggadgets:metal_crucible",
+  "aspects": {
+    "metallum": 1,
+    "ordo": 1
+  },
+  "catalyst": {
+    "tag": "forge:raw_materials/fz_dark_iron"
+  },
+  "metal": "fz_dark_iron",
+  "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS",
+  "result": {
+    "item": "witchinggadgets:fz_dark_iron_cluster"
+  },
+  "transmutation": false
+}

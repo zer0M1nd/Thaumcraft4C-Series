@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "B": {
+      "item": "witchinggadgets:bag"
+    },
+    "C": {
+      "tag": "forge:travellers_gear/cloaks"
+    },
+    "S": {
+      "item": "witchinggadgets:cloth_space"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    "SCS",
+    " B "
+  ],
+  "research": "witchinggadgets:CLOAK_STORAGE",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:cloak_storage"
+  },
+  "vis": {
+    "aer": 20,
+    "ordo": 10,
+    "perditio": 15
+  }
+}

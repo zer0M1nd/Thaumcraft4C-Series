@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "B": {
+      "item": "thaumcraft:mundane_belt"
+    },
+    "C": {
+      "item": "witchinggadgets:cloak_standard"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    "B",
+    "C"
+  ],
+  "research": "witchinggadgets:CLOAKKAMA",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:kama_standard"
+  },
+  "result_transform": {
+    "type": "witchinggadgets:cloak_to_kama"
+  },
+  "vis": {
+    "aer": 5,
+    "ordo": 5
+  }
+}

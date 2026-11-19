@@ -1,0 +1,14 @@
+{
+  "type": "witchinggadgets:gem_affinity",
+  "affinities": [
+    "ignis"
+  ],
+  "aversions": [
+    "perditio",
+    "aqua"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/ruby"
+  },
+  "priority": 1000
+}

@@ -1,0 +1,42 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 4,
+    "iter": 8,
+    "sensus": 4,
+    "spiritus": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "witchinggadgets:cloak_standard"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:potion"
+      },
+      "nbt": "{Potion:\"minecraft:long_invisibility\"}"
+    },
+    {
+      "ingredient": {
+        "item": "witchinggadgets:cloth_bewitched"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "witchinggadgets:cloth_bewitched"
+      }
+    }
+  ],
+  "instability": 3,
+  "research": "witchinggadgets:CLOAK_SPECTRAL",
+  "result": {
+    "item": "witchinggadgets:cloak_spectral"
+  }
+}

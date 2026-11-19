@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:arcane",
+  "ingredients": [
+    {
+      "item": "witchinggadgets:thread_simple"
+    },
+    {
+      "item": "witchinggadgets:thread_simple"
+    },
+    {
+      "item": "witchinggadgets:thread_simple"
+    },
+    {
+      "item": "witchinggadgets:thread_thaumium"
+    }
+  ],
+  "mode": "shapeless",
+  "research": "witchinggadgets:BAGOFTRICKS",
+  "result": {
+    "count": 2,
+    "item": "witchinggadgets:cloth_space"
+  },
+  "vis": {
+    "aer": 5,
+    "perditio": 5
+  }
+}

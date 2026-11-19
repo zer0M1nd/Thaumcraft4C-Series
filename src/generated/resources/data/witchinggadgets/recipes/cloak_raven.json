@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:travellers_gear/cloaks"
+    },
+    "F": {
+      "item": "twilightforest:raven_feather"
+    },
+    "S": {
+      "item": "thaumcraft:air_shard"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    " F ",
+    "FCF",
+    "FSF"
+  ],
+  "research": "witchinggadgets:CLOAK_RAVEN",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:cloak_raven"
+  },
+  "vis": {
+    "aer": 15,
+    "ordo": 15
+  }
+}

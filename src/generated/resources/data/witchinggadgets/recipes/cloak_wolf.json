@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "C": {
+      "tag": "forge:travellers_gear/cloaks"
+    },
+    "W": {
+      "item": "witchinggadgets:wolf_pelt"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    " W ",
+    "WCW"
+  ],
+  "research": "witchinggadgets:CLOAK_WOLF",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:cloak_wolf"
+  },
+  "vis": {
+    "ignis": 10,
+    "perditio": 20,
+    "terra": 15
+  }
+}

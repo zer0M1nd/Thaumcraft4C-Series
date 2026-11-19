@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "C": {
+      "item": "witchinggadgets:cloth_bewitched"
+    },
+    "R": {
+      "item": "thaumcraft:robe_chest"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    " C ",
+    "CRC"
+  ],
+  "research": "witchinggadgets:ADVANCEDROBES",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:advanced_robe_chest"
+  },
+  "vis": {
+    "ordo": 10,
+    "perditio": 10
+  }
+}

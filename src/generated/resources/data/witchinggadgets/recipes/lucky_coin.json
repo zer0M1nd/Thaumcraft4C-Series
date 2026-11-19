@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "B": {
+      "item": "minecraft:enchanted_book"
+    },
+    "C": {
+      "item": "thaumcraft:gold_coin"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    "BCB",
+    "CCC",
+    "BCB"
+  ],
+  "research": "witchinggadgets:WGBAUBLES",
+  "result": {
+    "item": "thaumcraft:gold_coin",
+    "nbt": "{Enchantments:[{id:\"minecraft:fortune\",lvl:1s},{id:\"minecraft:looting\",lvl:1s}]}"
+  },
+  "vis": {
+    "ordo": 30
+  }
+}

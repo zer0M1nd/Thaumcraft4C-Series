@@ -1,0 +1,13 @@
+{
+  "parent": "forge:item/default",
+  "apply_fluid_luminosity": false,
+  "cover_is_mask": false,
+  "flip_gas": false,
+  "fluid": "minecraft:empty",
+  "loader": "forge:fluid_container",
+  "textures": {
+    "base": "witchinggadgets:items/crystalcapsule",
+    "cover": "witchinggadgets:items/crystalcapsule_overlay",
+    "fluid": "witchinggadgets:items/crystalcapsule_mask"
+  }
+}

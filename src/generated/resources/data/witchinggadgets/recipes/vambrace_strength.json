@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "P": {
+      "item": "witchinggadgets:wolf_pelt"
+    },
+    "V": {
+      "item": "witchinggadgets:vambrace_base"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    " P ",
+    "PVP"
+  ],
+  "research": "witchinggadgets:WGBAUBLES",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:vambrace_strength"
+  },
+  "vis": {
+    "ignis": 10,
+    "perditio": 10
+  }
+}

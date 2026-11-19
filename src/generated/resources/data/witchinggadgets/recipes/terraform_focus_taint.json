@@ -1,0 +1,49 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "permutatio": 8,
+    "vitium": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:taint_crust"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_tube"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    }
+  ],
+  "instability": 3,
+  "research": "witchinggadgets:TERRAFORMFOCUS_TAINT",
+  "result": {
+    "item": "witchinggadgets:terraform_focus_taint"
+  }
+}

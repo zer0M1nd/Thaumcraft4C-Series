@@ -1,0 +1,16 @@
+{
+  "type": "rackitup:drying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rackitup"
+    }
+  ],
+  "ingredient": {
+    "item": "thaumcraft:zombie_brain"
+  },
+  "result": {
+    "item": "witchinggadgets:brainjerky"
+  },
+  "time": 600
+}

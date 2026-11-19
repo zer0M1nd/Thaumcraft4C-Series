@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "B": {
+      "item": "witchinggadgets:bag"
+    },
+    "C": {
+      "item": "witchinggadgets:cloth_space"
+    },
+    "H": {
+      "item": "thaumcraft:hungry_chest"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    " H ",
+    "CBC"
+  ],
+  "research": "witchinggadgets:HUNGERBAG",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:hungry_bag"
+  },
+  "vis": {
+    "aer": 10,
+    "ordo": 10
+  }
+}

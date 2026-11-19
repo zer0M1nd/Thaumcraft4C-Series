@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "perditio": 16,
+    "praecantatio": 16,
+    "vitreus": 16
+  },
+  "base_xp": 5,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:flint"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "witchinggadgets:gemstone_brittle",
+  "instability": 4,
+  "research": "witchinggadgets:GEMCUTTING"
+}

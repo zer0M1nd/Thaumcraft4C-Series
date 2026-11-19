@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "fz_dark_iron"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/fz_dark_iron"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_fz_dark_iron"
+  },
+  "temperature": 600,
+  "time": 120
+}

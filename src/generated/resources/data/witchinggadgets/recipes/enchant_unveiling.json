@@ -1,0 +1,24 @@
+{
+  "type": "witchinggadgets:gear_enchantment",
+  "aspects": {
+    "lux": 4,
+    "praecantatio": 8,
+    "sensus": 8
+  },
+  "base_xp": 2,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "witchinggadgets:unveiling",
+  "instability": 2,
+  "research": "witchinggadgets:ENCH_UNVEILING"
+}

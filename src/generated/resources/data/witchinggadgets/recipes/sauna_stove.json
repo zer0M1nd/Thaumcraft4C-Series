@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    "SCS",
+    "WBW",
+    "WWW"
+  ],
+  "research": "witchinggadgets:SAUNASTOVE",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:sauna_stove"
+  },
+  "vis": {
+    "aqua": 10,
+    "ignis": 20,
+    "ordo": 10
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 32,
+    "aqua": 32,
+    "ignis": 32,
+    "metallum": 128,
+    "ordo": 32,
+    "perditio": 32,
+    "praecantatio": 64,
+    "terra": 32,
+    "tutamen": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "witchinggadgets:void_metal_block"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fortress_helmet"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    }
+  ],
+  "instability": 10,
+  "research": "witchinggadgets:PRIMORDIALARMOR",
+  "result": {
+    "item": "witchinggadgets:primordial_helmet"
+  }
+}

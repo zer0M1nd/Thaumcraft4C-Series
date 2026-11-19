@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "copper"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/copper"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_copper"
+  },
+  "temperature": 350,
+  "time": 70
+}

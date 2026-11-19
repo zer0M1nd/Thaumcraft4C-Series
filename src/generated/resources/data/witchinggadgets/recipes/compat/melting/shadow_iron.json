@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "shadow_iron"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/shadow_iron"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_shadow_iron"
+  },
+  "temperature": 550,
+  "time": 110
+}

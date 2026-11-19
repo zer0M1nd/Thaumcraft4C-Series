@@ -1,0 +1,17 @@
+{
+  "type": "witchinggadgets:metal_crucible",
+  "aspects": {
+    "metallum": 2,
+    "ordo": 2
+  },
+  "catalyst": {
+    "tag": "forge:ores/meutoite"
+  },
+  "metal": "meutoite",
+  "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS",
+  "result": {
+    "count": 2,
+    "item": "witchinggadgets:meutoite_cluster"
+  },
+  "transmutation": false
+}

@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "potentia": 16,
+    "praecantatio": 16,
+    "vitreus": 16
+  },
+  "base_xp": 5,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "witchinggadgets:gemstone_potency",
+  "instability": 4,
+  "research": "witchinggadgets:GEMCUTTING"
+}

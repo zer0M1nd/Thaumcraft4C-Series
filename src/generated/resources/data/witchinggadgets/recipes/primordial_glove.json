@@ -1,0 +1,56 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 8,
+    "aqua": 8,
+    "ignis": 8,
+    "instrumentum": 8,
+    "ordo": 8,
+    "perditio": 8,
+    "praecantatio": 32,
+    "terra": 8,
+    "vitreus": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:node_converter"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "witchinggadgets:cloth_bewitched"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    }
+  ],
+  "instability": 6,
+  "research": "witchinggadgets:PRIMORDIALGLOVE",
+  "result": {
+    "item": "witchinggadgets:primordial_glove"
+  }
+}

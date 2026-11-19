@@ -1,0 +1,29 @@
+{
+  "type": "witchinggadgets:gear_enchantment",
+  "aspects": {
+    "praecantatio": 4,
+    "tutamen": 12,
+    "vinculum": 8
+  },
+  "base_xp": 3,
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    }
+  ],
+  "enchantment": "witchinggadgets:ride_protect",
+  "instability": 3,
+  "research": "witchinggadgets:ENCH_RIDEPROTECT"
+}

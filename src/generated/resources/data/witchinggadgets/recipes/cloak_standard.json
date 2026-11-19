@@ -1,0 +1,22 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "F": {
+      "item": "thaumcraft:enchanted_fabric"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    " F ",
+    "FFF",
+    "FFF"
+  ],
+  "research": "witchinggadgets:CLOAK",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:cloak_standard"
+  },
+  "vis": {
+    "aer": 7
+  }
+}

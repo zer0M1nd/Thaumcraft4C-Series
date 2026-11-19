@@ -1,0 +1,2481 @@
+{
+  "entries": [
+    {
+      "key": "witchinggadgets:SAUNASTOVE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.SAUNASTOVE.1"
+          },
+          "id": "witchinggadgets:SAUNASTOVE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.SAUNASTOVE.2"
+          },
+          "id": "witchinggadgets:SAUNASTOVE/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:sauna_stove"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:SAUNASTOVE/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:ETHEREALWALL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.ETHEREALWALL.1"
+          },
+          "id": "witchinggadgets:ETHEREALWALL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.ETHEREALWALL.2"
+          },
+          "id": "witchinggadgets:ETHEREALWALL/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:ethereal_wall"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ETHEREALWALL/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:AGEINGSTONE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.AGEINGSTONE.1"
+          },
+          "id": "witchinggadgets:AGEINGSTONE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:ageing_stone"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:AGEINGSTONE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:STONEEXTRUDER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.STONEEXTRUDER.1"
+          },
+          "id": "witchinggadgets:STONEEXTRUDER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:stone_extruder"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:STONEEXTRUDER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:ADVANCEDROBES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.ADVANCEDROBES.1"
+          },
+          "id": "witchinggadgets:ADVANCEDROBES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cloth_bewitched"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ADVANCEDROBES/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:advanced_robe_chest"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ADVANCEDROBES/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:advanced_robe_legs"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ADVANCEDROBES/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:SPINNINGWHEEL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.SPINNINGWHEEL.1"
+          },
+          "id": "witchinggadgets:SPINNINGWHEEL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.SPINNINGWHEEL.2"
+          },
+          "id": "witchinggadgets:SPINNINGWHEEL/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:spinning_wheel"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:SPINNINGWHEEL/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.SPINNINGWHEEL.r1"
+          },
+          "id": "witchinggadgets:SPINNINGWHEEL/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.SPINNINGWHEEL.r2"
+          },
+          "id": "witchinggadgets:SPINNINGWHEEL/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.SPINNINGWHEEL.r3"
+          },
+          "id": "witchinggadgets:SPINNINGWHEEL/page/6",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:BAGOFTRICKS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.BAGOFTRICKS.1"
+          },
+          "id": "witchinggadgets:BAGOFTRICKS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cloth_space"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:BAGOFTRICKS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:bag"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:BAGOFTRICKS/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:HUNGERBAG",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.HUNGERBAG.1"
+          },
+          "id": "witchinggadgets:HUNGERBAG/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:hungry_bag"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:HUNGERBAG/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:ENDERBAG",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.ENDERBAG.1"
+          },
+          "id": "witchinggadgets:ENDERBAG/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:ender_bag"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ENDERBAG/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:VOIDBAG",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.VOIDBAG.1"
+          },
+          "id": "witchinggadgets:VOIDBAG/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:void_bag"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:VOIDBAG/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:CLOAK",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.CLOAK.1"
+          },
+          "id": "witchinggadgets:CLOAK/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cloak_standard"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:CLOAK/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:CLOAK_SPECTRAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.CLOAK_SPECTRAL.1"
+          },
+          "id": "witchinggadgets:CLOAK_SPECTRAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cloak_spectral"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:CLOAK_SPECTRAL/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.CLOAK_SPECTRAL.2"
+          },
+          "id": "witchinggadgets:CLOAK_SPECTRAL/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:CLOAK_STORAGE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.CLOAK_STORAGE.1"
+          },
+          "id": "witchinggadgets:CLOAK_STORAGE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cloak_storage"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:CLOAK_STORAGE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:CLOAK_WOLF",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.CLOAK_WOLF.1"
+          },
+          "id": "witchinggadgets:CLOAK_WOLF/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cloak_wolf"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:CLOAK_WOLF/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:CLOAKKAMA",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.CLOAKKAMA.1"
+          },
+          "id": "witchinggadgets:CLOAKKAMA/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:kama_standard",
+              "witchinggadgets:kama_spectral",
+              "witchinggadgets:kama_storage",
+              "witchinggadgets:kama_wolf",
+              "witchinggadgets:kama_raven"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:CLOAKKAMA/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:CLOAK_RAVEN",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.CLOAK_RAVEN.1"
+          },
+          "id": "witchinggadgets:CLOAK_RAVEN/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cloak_raven"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:CLOAK_RAVEN/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:WGBAUBLES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.WGBAUBLES.1"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:shoulders_knockback"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.WGBAUBLES.2"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:vambrace_strength"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.WGBAUBLES.3"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:vambrace_haste"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/6",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.WGBAUBLES.4"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/7",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:shoulders_doublejump"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/8",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.WGBAUBLES.5"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/9",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:ring_sniper"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/10",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.WGBAUBLES.6"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/11",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:ring_luck"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/12",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:lucky_coin"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:WGBAUBLES/page/13",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:WGPOTIONS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.WGPOTIONS.1"
+          },
+          "id": "witchinggadgets:WGPOTIONS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.WGPOTIONS.2"
+          },
+          "id": "witchinggadgets:WGPOTIONS/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:ENCH_INVISIBLEGEAR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.ENCH_INVISIBLEGEAR.1"
+          },
+          "id": "witchinggadgets:ENCH_INVISIBLEGEAR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:enchant_invisible_gear"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ENCH_INVISIBLEGEAR/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:ENCH_UNVEILING",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.ENCH_UNVEILING.1"
+          },
+          "id": "witchinggadgets:ENCH_UNVEILING/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:enchant_unveiling"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ENCH_UNVEILING/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:ENCH_STEALTH",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.ENCH_STEALTH.1"
+          },
+          "id": "witchinggadgets:ENCH_STEALTH/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:enchant_stealth"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ENCH_STEALTH/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:ENCH_BACKSTAB",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.ENCH_BACKSTAB.1"
+          },
+          "id": "witchinggadgets:ENCH_BACKSTAB/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:enchant_backstab"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ENCH_BACKSTAB/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:ENCH_RIDEPROTECT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.ENCH_RIDEPROTECT.1"
+          },
+          "id": "witchinggadgets:ENCH_RIDEPROTECT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:enchant_ride_protect"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ENCH_RIDEPROTECT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:CRYSTALCAPSULE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.CRYSTALCAPSULE.1"
+          },
+          "id": "witchinggadgets:CRYSTALCAPSULE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:crystal_capsule"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:CRYSTALCAPSULE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:GEMCUTTING",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.GEMCUTTING.1"
+          },
+          "id": "witchinggadgets:GEMCUTTING/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cutting_tools"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:GEMCUTTING/page/2",
+          "page_break": true
+        },
+        {
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cutting_table"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:GEMCUTTING/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.GEMCUTTING.2"
+          },
+          "id": "witchinggadgets:GEMCUTTING/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.GEMCUTTING.3"
+          },
+          "id": "witchinggadgets:GEMCUTTING/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.GEMCUTTING.4"
+          },
+          "id": "witchinggadgets:GEMCUTTING/page/6",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.GEMCUTTING.5"
+          },
+          "id": "witchinggadgets:GEMCUTTING/page/7",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.GEMCUTTING.6"
+          },
+          "id": "witchinggadgets:GEMCUTTING/page/8",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.GEMCUTTING.7"
+          },
+          "id": "witchinggadgets:GEMCUTTING/page/9",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:enchant_gemstone_potency"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:GEMCUTTING/page/10",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:enchant_gemstone_brittle"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:GEMCUTTING/page/11",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:ROSEVINE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.ROSEVINE.1"
+          },
+          "id": "witchinggadgets:ROSEVINE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:rose_vines"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ROSEVINE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:ALCHEMICALTRANSMOGRIFY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.ALCHEMICALTRANSMOGRIFY.1"
+          },
+          "id": "witchinggadgets:ALCHEMICALTRANSMOGRIFY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmogrify_grass"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ALCHEMICALTRANSMOGRIFY/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmogrify_mycel"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ALCHEMICALTRANSMOGRIFY/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmogrify_sand"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ALCHEMICALTRANSMOGRIFY/page/4",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmogrify_flint"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:ALCHEMICALTRANSMOGRIFY/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:LABELLIB",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.LABELLIB.1"
+          },
+          "id": "witchinggadgets:LABELLIB/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:label_library"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:LABELLIB/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:MIRRORPUMP",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.MIRRORPUMP.1"
+          },
+          "id": "witchinggadgets:MIRRORPUMP/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:mirror_pump"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:MIRRORPUMP/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:SCANCAMERA",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.SCANCAMERA.1"
+          },
+          "id": "witchinggadgets:SCANCAMERA/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:scan_camera"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:SCANCAMERA/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.SCANCAMERA.2"
+          },
+          "id": "witchinggadgets:SCANCAMERA/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:photo_developing"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:SCANCAMERA/page/4",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:photo_clear"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:SCANCAMERA/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:CALCULATOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.CALCULATOR.1"
+          },
+          "id": "witchinggadgets:CALCULATOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:calculator"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:CALCULATOR/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:LABYRINTHSTRING",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.LABYRINTHSTRING.1"
+          },
+          "id": "witchinggadgets:LABYRINTHSTRING/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:guiding_string"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:LABYRINTHSTRING/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:INFERNALBLASTFURNACE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.INFERNALBLASTFURNACE.1"
+          },
+          "id": "witchinggadgets:INFERNALBLASTFURNACE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.INFERNALBLASTFURNACE.2"
+          },
+          "id": "witchinggadgets:INFERNALBLASTFURNACE/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:infernal_blast_furnace"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:INFERNALBLASTFURNACE/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.INFERNALBLASTFURNACE.3"
+          },
+          "id": "witchinggadgets:INFERNALBLASTFURNACE/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:PURECINNABAR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.PURECINNABAR.1"
+          },
+          "id": "witchinggadgets:PURECINNABAR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:pure_cinnabar"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:PURECINNABAR/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.METALLURGICPERFECTION_CLUSTERS.1"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_aluminum"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_cobalt"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_ardite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/4",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_nickel"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/5",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_fz_dark_iron"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/6",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_manganese"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/7",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_zinc"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/8",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_platinum"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/9",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_ignatius"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/10",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_shadow_iron"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/11",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_lemurite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/12",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_midasium"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/13",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_vyroxeres"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/14",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_ceruclase"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/15",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_alduorite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/16",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_kalendrite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/17",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_vulcanite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/18",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_sanguinite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/19",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_prometheum"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/20",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_deep_iron"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/21",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_infuscolium"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/22",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_oureclase"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/23",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_astral_silver"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/24",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_carmot"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/25",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_mithril"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/26",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_rubracium"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/27",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_orichalcum"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/28",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_adamantine"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/29",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_atlarus"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/30",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_eximite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/31",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:cluster_meutoite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS/page/32",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.METALLURGICPERFECTION_TRANSMUTATION.1"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_aluminum"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_cobalt"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_ardite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/4",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_nickel"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/5",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_fz_dark_iron"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/6",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_manganese"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/7",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_zinc"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/8",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_platinum"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/9",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_ignatius"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/10",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_shadow_iron"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/11",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_lemurite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/12",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_midasium"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/13",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_vyroxeres"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/14",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_ceruclase"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/15",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_alduorite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/16",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_kalendrite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/17",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_vulcanite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/18",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_sanguinite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/19",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_prometheum"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/20",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_deep_iron"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/21",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_infuscolium"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/22",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_oureclase"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/23",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_astral_silver"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/24",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_carmot"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/25",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_mithril"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/26",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_rubracium"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/27",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_orichalcum"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/28",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_adamantine"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/29",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_atlarus"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/30",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_eximite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/31",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:transmute_meutoite"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION/page/32",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:TERRAFORMFOCUS_COLDTAIGA",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.TERRAFORMFOCUS_COLDTAIGA.1"
+          },
+          "id": "witchinggadgets:TERRAFORMFOCUS_COLDTAIGA/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:terraform_focus_cold_taiga"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:TERRAFORMFOCUS_COLDTAIGA/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:TERRAFORMFOCUS_DESERT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.TERRAFORMFOCUS_DESERT.1"
+          },
+          "id": "witchinggadgets:TERRAFORMFOCUS_DESERT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:terraform_focus_desert"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:TERRAFORMFOCUS_DESERT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:TERRAFORMFOCUS_JUNGLE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.TERRAFORMFOCUS_JUNGLE.1"
+          },
+          "id": "witchinggadgets:TERRAFORMFOCUS_JUNGLE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:terraform_focus_jungle"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:TERRAFORMFOCUS_JUNGLE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:TERRAFORMFOCUS_HELL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.TERRAFORMFOCUS_HELL.1"
+          },
+          "id": "witchinggadgets:TERRAFORMFOCUS_HELL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:terraform_focus_hell"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:TERRAFORMFOCUS_HELL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:TERRAFORMFOCUS_TAINT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.TERRAFORMFOCUS_TAINT.1"
+          },
+          "id": "witchinggadgets:TERRAFORMFOCUS_TAINT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:terraform_focus_taint"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:TERRAFORMFOCUS_TAINT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:TERRAFORMFOCUS_MUSHROOM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.TERRAFORMFOCUS_MUSHROOM.1"
+          },
+          "id": "witchinggadgets:TERRAFORMFOCUS_MUSHROOM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:terraform_focus_mushroom"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:TERRAFORMFOCUS_MUSHROOM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:TERRAFORMER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.TERRAFORMER.1"
+          },
+          "id": "witchinggadgets:TERRAFORMER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:terraformer"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:TERRAFORMER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.TERRAFORMER.2"
+          },
+          "id": "witchinggadgets:TERRAFORMER/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:terraform_focus_plains"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:TERRAFORMER/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:PRIMORDIALGEARSET",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.PRIMORDIALGEARSET.1"
+          },
+          "id": "witchinggadgets:PRIMORDIALGEARSET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.PRIMORDIALGEARSET.2"
+          },
+          "id": "witchinggadgets:PRIMORDIALGEARSET/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:EMPOWERPEARL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.EMPOWERPEARL.1"
+          },
+          "id": "witchinggadgets:EMPOWERPEARL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:empower_pearl"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:EMPOWERPEARL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:PRIMORDIALGLOVE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.PRIMORDIALGLOVE.1"
+          },
+          "id": "witchinggadgets:PRIMORDIALGLOVE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:primordial_glove"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:PRIMORDIALGLOVE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.PRIMORDIALGLOVE.2"
+          },
+          "id": "witchinggadgets:PRIMORDIALGLOVE/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:PRIMORDIALWEAPONRY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.PRIMORDIALWEAPONRY.1"
+          },
+          "id": "witchinggadgets:PRIMORDIALWEAPONRY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.PRIMORDIALWEAPONRY.2"
+          },
+          "id": "witchinggadgets:PRIMORDIALWEAPONRY/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.PRIMORDIALWEAPONRY.3"
+          },
+          "id": "witchinggadgets:PRIMORDIALWEAPONRY/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:primordial_sword"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:PRIMORDIALWEAPONRY/page/4",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:primordial_hammer"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:PRIMORDIALWEAPONRY/page/5",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:primordial_axe"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:PRIMORDIALWEAPONRY/page/6",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "witchinggadgets:PRIMORDIALARMOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.PRIMORDIALARMOR.1"
+          },
+          "id": "witchinggadgets:PRIMORDIALARMOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "witchinggadgets_research_page.PRIMORDIALARMOR.2"
+          },
+          "id": "witchinggadgets:PRIMORDIALARMOR/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:primordial_helmet"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:PRIMORDIALARMOR/page/3",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:primordial_chestplate"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:PRIMORDIALARMOR/page/4",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:primordial_leggings"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:PRIMORDIALARMOR/page/5",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "keys": [
+              "witchinggadgets:primordial_boots"
+            ],
+            "kind": "reference"
+          },
+          "id": "witchinggadgets:PRIMORDIALARMOR/page/6",
+          "page_break": true
+        }
+      ]
+    }
+  ],
+  "format": 1
+}

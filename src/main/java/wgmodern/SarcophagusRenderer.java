@@ -1,0 +1,11 @@
+package wgmodern;
+import com.mojang.blaze3d.vertex.PoseStack;import com.mojang.math.Axis;import net.minecraft.client.model.*;import net.minecraft.client.model.geom.*;import net.minecraft.client.renderer.*;import net.minecraft.client.renderer.blockentity.*;import net.minecraft.resources.ResourceLocation;import net.minecraft.core.Direction;import net.minecraft.world.entity.LivingEntity;
+/** Original horizontal skeleton, hood and layered void robe, shown only after the lid is removed. */
+public class SarcophagusRenderer implements BlockEntityRenderer<Sarcophagus.Tile>{
+ private final SkeletonModel<net.minecraft.world.entity.monster.Skeleton> skeleton;private final tc4revival.client.VoidRobeModel robe=new tc4revival.client.VoidRobeModel(false);
+ public SarcophagusRenderer(BlockEntityRendererProvider.Context c){skeleton=new SkeletonModel<>(c.bakeLayer(ModelLayers.SKELETON));}
+ @Override public boolean shouldRenderOffScreen(Sarcophagus.Tile t){return true;}
+ @Override public void render(Sarcophagus.Tile t,float partial,PoseStack p,MultiBufferSource b,int light,int overlay){var s=t.getBlockState();if(s.getValue(Sarcophagus.PART)!=2||!s.getValue(Sarcophagus.OPEN))return;var facing=s.getValue(SpinningWheel.FACING);boolean x=facing.getAxis()==Direction.Axis.Z;p.pushPose();p.mulPose(Axis.XP.rotationDegrees(90));p.mulPose(Axis.ZP.rotationDegrees(x?90:180));p.translate(x?.5:-.5,0,-.25);var skin=b.getBuffer(RenderType.entityCutoutNoCull(new ResourceLocation("minecraft","textures/entity/skeleton/skeleton.png")));for(var part:new ModelPart[]{skeleton.head,skeleton.body,skeleton.leftLeg,skeleton.rightLeg})part.render(p,skin,light,overlay);p.pushPose();p.translate(.03125,0,0);skeleton.leftArm.render(p,skin,light,overlay);p.translate(-.0625,0,0);skeleton.rightArm.render(p,skin,light,overlay);p.popPose();p.translate(0,0,-.015625);
+  for(String suffix:new String[]{"_overlay",""}){p.pushPose();var out=b.getBuffer(RenderType.entityCutoutNoCull(new ResourceLocation("thaumcraft","textures/models/void_robe_armor"+suffix+".png")));robe.head.render(p,out,light,overlay);p.scale(.75f,.75f,.75f);p.translate(0,.25,0);for(var part:new ModelPart[]{robe.body,robe.leftLeg,robe.rightLeg})part.render(p,out,light,overlay);p.translate(0,-.25,0);robe.leftArm.render(p,out,light,overlay);robe.rightArm.render(p,out,light,overlay);p.popPose();}p.popPose();}
+}
+

@@ -1,0 +1,16 @@
+{
+  "type": "witchinggadgets:metal_crucible",
+  "aspects": {
+    "metallum": 1,
+    "ordo": 1
+  },
+  "catalyst": {
+    "tag": "forge:raw_materials/mithril"
+  },
+  "metal": "mithril",
+  "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS",
+  "result": {
+    "item": "witchinggadgets:mithril_cluster"
+  },
+  "transmutation": false
+}

@@ -1,0 +1,16 @@
+{
+  "type": "witchinggadgets:gem_affinity",
+  "affinities": [
+    "ordo",
+    "ignis",
+    "perditio",
+    "terra",
+    "aer",
+    "aqua"
+  ],
+  "aversions": [],
+  "ingredient": {
+    "tag": "forge:gems/primordial"
+  },
+  "priority": 1000
+}

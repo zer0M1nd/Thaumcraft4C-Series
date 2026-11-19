@@ -1,0 +1,24 @@
+package wgmodern;
+import net.minecraft.core.*;import net.minecraft.nbt.*;import net.minecraft.network.chat.Component;import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;import net.minecraft.server.level.ServerPlayer;import net.minecraft.world.*;import net.minecraft.world.entity.player.*;import net.minecraft.world.inventory.*;import net.minecraft.world.item.*;import net.minecraft.world.item.context.BlockPlaceContext;import net.minecraft.world.level.*;import net.minecraft.world.level.block.*;import net.minecraft.world.level.block.entity.*;import net.minecraft.world.level.block.state.*;import net.minecraft.world.phys.BlockHitResult;import net.minecraftforge.network.NetworkHooks;
+public class LabelLibrary extends BaseEntityBlock {
+ public LabelLibrary(){super(Properties.copy(Blocks.OAK_PLANKS).strength(2.5f,6).noOcclusion());registerDefaultState(stateDefinition.any().setValue(SpinningWheel.FACING,Direction.NORTH));}
+ @Override protected void createBlockStateDefinition(StateDefinition.Builder<Block,BlockState> b){b.add(SpinningWheel.FACING);}@Override public BlockState getStateForPlacement(BlockPlaceContext c){return defaultBlockState().setValue(SpinningWheel.FACING,c.getHorizontalDirection().getOpposite());}
+ @Override public RenderShape getRenderShape(BlockState s){return RenderShape.ENTITYBLOCK_ANIMATED;}@Override public BlockEntity newBlockEntity(BlockPos p,BlockState s){return new Tile(p,s);}
+ @Override public InteractionResult use(BlockState s,Level l,BlockPos p,Player player,InteractionHand hand,BlockHitResult hit){if(player instanceof ServerPlayer server&&l.getBlockEntity(p) instanceof Tile tile)NetworkHooks.openScreen(server,tile,p);return InteractionResult.sidedSuccess(l.isClientSide);}
+ @Override public void onRemove(BlockState s,Level l,BlockPos p,BlockState n,boolean moving){if(s.getBlock()!=n.getBlock()&&l.getBlockEntity(p) instanceof Tile t)Containers.dropItemStack(l,p.getX(),p.getY(),p.getZ(),t.items.get(0));super.onRemove(s,l,p,n,moving);}
+ public static class Tile extends SidedInventoryEntity implements MenuProvider {
+  @Override public int[] getSlotsForFace(Direction face){return new int[]{0};}
+  @Override public boolean canPlaceItem(int slot,ItemStack stack){return slot==0&&stack.getItem() instanceof tc4revival.content.JarLabelItem;}
+  @Override public boolean canPlaceItemThroughFace(int slot,ItemStack stack,Direction face){return canPlaceItem(slot,stack);}
+  @Override public boolean canTakeItemThroughFace(int slot,ItemStack stack,Direction face){return slot==0;}
+  public NonNullList<ItemStack> items=NonNullList.withSize(2,ItemStack.EMPTY);public String aspect="";public Tile(BlockPos p,BlockState s){super(Content.LABEL_TILE.get(),p,s);}
+  public ItemStack result(){var a=tc4revival.aspect.TCAspects.catalog().find(aspect).orElse(null);if(a==null||!(items.get(0).getItem() instanceof tc4revival.content.JarLabelItem))return ItemStack.EMPTY;var s=new ItemStack(tc4revival.content.TCItems.JAR_LABEL.get());((tc4revival.content.StoredAspectItem)s.getItem()).setStoredAspects(s,new tc4revival.aspect.AspectAmounts().add(a,0));return s;}
+  public void changed(){items.set(1,result());setChanged();if(level!=null&&!level.isClientSide)level.sendBlockUpdated(worldPosition,getBlockState(),getBlockState(),3);}
+  @Override public void load(CompoundTag t){super.load(t);items=NonNullList.withSize(2,ItemStack.EMPTY);ContainerHelper.loadAllItems(t,items);aspect=t.getString("Aspect");items.set(1,result());}
+  @Override protected void saveAdditional(CompoundTag t){super.saveAdditional(t);var input=NonNullList.withSize(1,ItemStack.EMPTY);input.set(0,items.get(0));ContainerHelper.saveAllItems(t,input);t.putString("Aspect",aspect);}
+  @Override public CompoundTag getUpdateTag(){return saveWithoutMetadata();}@Override public ClientboundBlockEntityDataPacket getUpdatePacket(){return ClientboundBlockEntityDataPacket.create(this);}
+  @Override public int getContainerSize(){return 2;}@Override public boolean isEmpty(){return items.get(0).isEmpty();}@Override public ItemStack getItem(int i){return items.get(i);}@Override public ItemStack removeItem(int i,int n){var s=ContainerHelper.removeItem(items,i,n);if(i==0)changed();return s;}@Override public ItemStack removeItemNoUpdate(int i){return ContainerHelper.takeItem(items,i);}@Override public void setItem(int i,ItemStack s){items.set(i,s);if(i==0)changed();}@Override public void clearContent(){items.clear();changed();}
+  @Override public boolean stillValid(Player p){return level!=null&&level.getBlockEntity(worldPosition)==this&&p.distanceToSqr(net.minecraft.world.phys.Vec3.atCenterOf(worldPosition))<=64;}
+  @Override public Component getDisplayName(){return Component.translatable("tile.WG_WoodenDevice.labelLibrary");}@Override public AbstractContainerMenu createMenu(int id,Inventory inv,Player p){return new LabelMenu(id,inv,worldPosition);}
+ }
+}

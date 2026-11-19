@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "C": {
+      "item": "witchinggadgets:cloth_space"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    "C C",
+    "C C",
+    "CCC"
+  ],
+  "research": "witchinggadgets:BAGOFTRICKS",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:bag"
+  },
+  "vis": {
+    "aer": 20,
+    "ordo": 20
+  }
+}

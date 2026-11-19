@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "E": {
+      "item": "thaumcraft:earth_shard"
+    },
+    "S": {
+      "item": "witchinggadgets:shoulders_base"
+    },
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    " S ",
+    "ETE"
+  ],
+  "research": "witchinggadgets:WGBAUBLES",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:shoulders_knockback"
+  },
+  "vis": {
+    "ordo": 10,
+    "terra": 10
+  }
+}

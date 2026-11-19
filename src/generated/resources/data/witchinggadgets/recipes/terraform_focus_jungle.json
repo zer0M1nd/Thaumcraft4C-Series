@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "B": {
+      "item": "minecraft:jungle_log"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "S": {
+      "item": "thaumcraft:balanced_shard"
+    },
+    "T": {
+      "item": "thaumcraft:essentia_tube"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    " S ",
+    "IBI",
+    "ITI"
+  ],
+  "research": "witchinggadgets:TERRAFORMFOCUS_JUNGLE",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:terraform_focus_jungle"
+  },
+  "vis": {
+    "aqua": 10,
+    "terra": 10
+  }
+}

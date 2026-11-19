@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "lead"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/lead"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_lead"
+  },
+  "temperature": 400,
+  "time": 80
+}

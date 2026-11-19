@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "midasium"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/midasium"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_midasium"
+  },
+  "temperature": 550,
+  "time": 110
+}

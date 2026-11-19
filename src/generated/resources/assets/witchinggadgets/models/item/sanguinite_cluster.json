@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "witchinggadgets:item/sanguinite_cluster_1",
+      "predicate": {
+        "witchinggadgets:cluster_type": 1
+      }
+    },
+    {
+      "model": "witchinggadgets:item/sanguinite_cluster_2",
+      "predicate": {
+        "witchinggadgets:cluster_type": 2
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "witchinggadgets:items/cluster_metal",
+    "layer1": "witchinggadgets:items/cluster_overlay"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "alduorite"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/alduorite"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_alduorite"
+  },
+  "temperature": 550,
+  "time": 110
+}

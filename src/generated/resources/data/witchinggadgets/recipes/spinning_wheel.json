@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "thaumcraft:table"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    "I W",
+    " T "
+  ],
+  "research": "witchinggadgets:SPINNINGWHEEL",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:spinning_wheel"
+  },
+  "vis": {
+    "aer": 5,
+    "ordo": 5
+  }
+}

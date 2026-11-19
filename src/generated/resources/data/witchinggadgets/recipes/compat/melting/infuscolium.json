@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "infuscolium"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/infuscolium"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_infuscolium"
+  },
+  "temperature": 550,
+  "time": 110
+}

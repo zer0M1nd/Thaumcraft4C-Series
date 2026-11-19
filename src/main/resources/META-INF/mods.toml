@@ -1,0 +1,73 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/witchinggadgets/index.html"
+modId="witchinggadgets"
+version="${version}"
+displayName="Witching Gadgets"
+authors="zer0M1nd"
+credits="Original Witching Gadgets by BluSunrize."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Craft magical cloaks, accessories and machines for travel, resource processing and work with aura nodes.
+
+-------- Original release --------
+It's a kind of magic
+
+Original credits: The Forge guys, Azanor for Thaucmraft, SlimeKnights for the packet system, 'The Skype Guys' and #kihira on IRC for inspiration and criticism. Yulife (German translation), SlimeKnights/Tinkers Construct (packet system), OndraSter (coremod and ASM debugging), SpitefulFox (FakeResearchItem system), Damien Hazard (Infernal Blast Furnace concept and textures), Lorc of game-icons.net (CC BY 3.0 icons) and iChun (Tabula modeling tool).'''
+
+[[dependencies.witchinggadgets]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.13,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.witchinggadgets]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.witchinggadgets]]
+modId="curios"
+mandatory=true
+versionRange="[5,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.witchinggadgets]]
+modId="botania"
+mandatory=false
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.witchinggadgets]]
+modId="cb_multipart"
+mandatory=false
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.witchinggadgets]]
+modId="tconstruct"
+mandatory=false
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.witchinggadgets]]
+modId="rackitup"
+mandatory=false
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.witchinggadgets]]
+modId="twilightforest"
+mandatory=false
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
