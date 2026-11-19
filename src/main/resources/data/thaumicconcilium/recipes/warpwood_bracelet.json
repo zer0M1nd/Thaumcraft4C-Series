@@ -1,0 +1,79 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumicbases"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "taintedmagic"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "taintedmagic:wand_rod_warpwood_staff"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "taintedmagic:wand_cap_shadowmetal"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "taintedmagic:warped_unbalanced_shard"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "taintedmagic:tainted_unbalanced_shard"
+    }
+  ],
+  "research": "thaumicconcilium:WARPWOODBRACELET",
+  "instability": 5,
+  "aspects": {
+    "instrumentum": 32,
+    "alienis": 128,
+    "cognitio": 64,
+    "praecantatio": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "taintedmagic:wand_rod_warpwood_staff"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:wand_cap_shadowmetal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:warped_unbalanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:wand_cap_shadowmetal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:tainted_unbalanced_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:warpwood_bracelet",
+    "count": 1,
+    "nbt": "{\"rod\": \"taintedmagic:warpwood\", \"cap\": \"taintedmagic:shadowmetal\"}"
+  }
+}

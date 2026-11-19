@@ -1,0 +1,17 @@
+{
+  "type": "thaumicconcilium:chained_rift",
+  "research": "thaumicconcilium:WARPDRUM",
+  "catalyst": {
+    "item": "thaumicconcilium:thaumaturge_drum"
+  },
+  "aspects": {
+    "sensus": 128,
+    "perditio": 128,
+    "cognitio": 64,
+    "bestia": 64,
+    "vitium": 64
+  },
+  "result": {
+    "item": "thaumicconcilium:warped_drum"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumicbases"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "botania:terrasteel_block"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "forbidden_magic:wand_cap_terrasteel"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "botania:gaia_ingot"
+    }
+  ],
+  "research": "thaumicconcilium:TERRASTEELBRACELET",
+  "instability": 7,
+  "aspects": {
+    "instrumentum": 32,
+    "metallum": 128,
+    "terra": 64,
+    "potentia": 64,
+    "praecantatio": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "botania:terrasteel_block"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wand_cap_terrasteel"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:gaia_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wand_cap_terrasteel"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:gaia_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:terrasteel_bracelet",
+    "count": 1,
+    "nbt": "{\"rod\": \"thaumicconcilium:terrasteel\", \"cap\": \"forbidden_magic:terrasteel\"}"
+  }
+}

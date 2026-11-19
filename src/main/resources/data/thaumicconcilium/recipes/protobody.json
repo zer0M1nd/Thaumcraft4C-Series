@@ -1,0 +1,88 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "taintedmagic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumichorizons"
+    }
+  ],
+  "research": "thaumicconcilium:PROTOBODY",
+  "instability": 10,
+  "aspects": {
+    "humanus": 128,
+    "vacuos": 256,
+    "alienis": 64,
+    "auram": 128
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumichorizons:corpse_effigy"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumichorizons:void_putty"
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"vacuos\",amount:2}]}"
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "item": "thaumichorizons:void_putty"
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"corpus\",amount:2}]}"
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "item": "thaumichorizons:void_putty"
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"auram\",amount:2}]}"
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "item": "thaumichorizons:void_putty"
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"humanus\",amount:2}]}"
+      },
+      "exact": true
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:protobody",
+    "count": 1
+  }
+}

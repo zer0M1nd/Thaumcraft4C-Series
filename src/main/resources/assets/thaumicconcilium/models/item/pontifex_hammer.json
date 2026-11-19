@@ -1,0 +1,88 @@
+{
+  "parent": "minecraft:builtin/entity",
+  "textures": {
+    "particle": "thaumcraft:item/crimson_blade"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -180,
+        60,
+        -160
+      ],
+      "translation": [
+        -5.70157,
+        -3.84514,
+        3.0528
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -180,
+        60,
+        -160
+      ],
+      "translation": [
+        -5.70157,
+        -3.84514,
+        3.0528
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        -4.52548,
+        -3.2,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        -4.52548,
+        -3.2,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        -45,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    }
+  }
+}

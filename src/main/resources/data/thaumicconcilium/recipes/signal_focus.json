@@ -1,0 +1,102 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:SIGNALFOCI",
+  "instability": 5,
+  "aspects": {
+    "potentia": 32,
+    "instrumentum": 16,
+    "sensus": 64,
+    "lux": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_fire"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:black_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:red_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:green_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:brown_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:purple_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cyan_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:light_gray_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gray_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:pink_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:lime_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:yellow_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:light_blue_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:magenta_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:orange_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:white_dye"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:signal_focus",
+    "count": 1
+  }
+}

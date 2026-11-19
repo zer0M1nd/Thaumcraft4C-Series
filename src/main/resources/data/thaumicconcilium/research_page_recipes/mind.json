@@ -1,0 +1,216 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicconcilium:brain_littering",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicconcilium:BRAINLITTERING",
+        "instability": 10,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicconcilium:entity_icon_thaumaturge",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicconcilium:entity_icon_mad_thaumaturge",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 64,
+          "alienis": 64,
+          "cognitio": 64
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:knowledge_fragment",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicconcilium:red_powered_mind",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicconcilium:REDPOWEREDMIND",
+        "instability": 10,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicconcilium:entity_icon_mad_thaumaturge",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicconcilium:entity_icon_red_powered_mind",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "vitreus": 64,
+          "cognitio": 64,
+          "sensus": 32,
+          "machina": 32
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:liquid_death_bucket",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:repeater",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:liquid_death_bucket",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_seed",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:liquid_death_bucket",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:comparator",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

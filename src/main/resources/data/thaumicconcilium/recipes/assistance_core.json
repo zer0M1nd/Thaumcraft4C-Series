@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gadomancy"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumichorizons"
+    }
+  ],
+  "research": "thaumicconcilium:ASSISTANCECORE",
+  "instability": 8,
+  "aspects": {
+    "instrumentum": 32,
+    "bestia": 16,
+    "vinculum": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:golem_core_butcher"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumichorizons:focus_containment"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumichorizons:human_blood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:golem_core_essentia"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumichorizons:human_blood"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:assistance_core",
+    "count": 1
+  }
+}

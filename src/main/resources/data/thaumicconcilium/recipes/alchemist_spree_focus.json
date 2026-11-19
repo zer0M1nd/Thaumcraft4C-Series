@@ -1,0 +1,105 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:ALCHEMISTSPREE",
+  "instability": 20,
+  "aspects": {
+    "permutatio": 512,
+    "fabrico": 128,
+    "praecantatio": 512,
+    "aqua": 64,
+    "ignis": 64,
+    "alienis": 128,
+    "telum": 128
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:focus_deflection"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumicconcilium:primordial_life"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:crucible"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alembic"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alembic"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:crucible"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mnemonic_matrix"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:crucible"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alembic"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alembic"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:crucible"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mnemonic_matrix"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:alchemist_spree_focus",
+    "count": 1
+  }
+}

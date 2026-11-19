@@ -1,0 +1,108 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gadomancy"
+    }
+  ],
+  "research": "thaumicconcilium:RIFTGEM",
+  "instability": 10,
+  "aspects": {
+    "vitreus": 64,
+    "vacuos": 64,
+    "iter": 96,
+    "auram": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "gadomancy:aura_core_perditio"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "gadomancy:darkness_element"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_infused_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:warded_glass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_infused_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "gadomancy:darkness_element"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_infused_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:warded_glass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_infused_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:rift_gem_inert",
+    "count": 1
+  }
+}

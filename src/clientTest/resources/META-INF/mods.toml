@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Unlicensed isolated acceptance tooling"
+[[mods]]
+modId="concilium_client_audit"
+version="0.0.0"
+displayName="Concilium isolated client audit"
+displayTest="IGNORE_ALL_VERSION"
+[[dependencies.concilium_client_audit]]
+modId="thaumicconcilium"
+mandatory=true
+versionRange="[0.1.0.1,)"
+ordering="AFTER"
+side="BOTH"

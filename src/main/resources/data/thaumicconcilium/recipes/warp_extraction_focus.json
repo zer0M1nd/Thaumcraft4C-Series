@@ -1,0 +1,125 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:WARPEXTRACTIONFOCI",
+  "instability": 20,
+  "aspects": {
+    "cognitio": 256,
+    "alienis": 256,
+    "instrumentum": 64,
+    "permutatio": 128,
+    "potentia": 256,
+    "perditio": 64,
+    "spiritus": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primordial_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:focus_telekinesis"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:focus_telekinesis"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:focus_telekinesis"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:crystalwell"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:crystalwell"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:crystalwell"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicconcilium:primordial_life"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_primal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_primal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_primal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:warp_extraction_focus",
+    "count": 1
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicconcilium:HexOfPredictability",
+      "class": "java.util.Arrays$ArrayList",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "ordo": 100,
+                "terra": 100
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 1
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:bedrock",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicconcilium:Lithographer",
+      "class": "java.util.Arrays$ArrayList",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "ignis": 100,
+                "ordo": 100,
+                "aqua": 50,
+                "aer": 100
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 1
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:advanced_alchemical_construct",
+                    "count": 1
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:gold_block",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:thaumium_block",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:gold_block",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:gold_block",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:red_bed",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:gold_block",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicconcilium:QuicksilverCrucible",
+      "class": "java.util.Arrays$ArrayList",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {}
+            },
+            {
+              "kind": "literal",
+              "value": 1
+            },
+            {
+              "kind": "literal",
+              "value": 2
+            },
+            {
+              "kind": "literal",
+              "value": 1
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicconcilium:entity_icon_quicksilver_elemental",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:crucible",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

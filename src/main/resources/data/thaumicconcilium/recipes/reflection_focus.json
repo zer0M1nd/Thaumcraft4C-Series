@@ -1,0 +1,114 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:REFLECTIONFOCI",
+  "instability": 20,
+  "aspects": {
+    "vitium": 256,
+    "cognitio": 256,
+    "instrumentum": 64,
+    "permutatio": 128,
+    "alienis": 128,
+    "forbidden_magic:superbia": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:focus_xp_drain"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumonomicon"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumonomicon"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:scribing_tools"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:scribing_tools"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:scribing_tools"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:sanity_soap"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:sanity_soap"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:sanity_soap"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_trade"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_trade"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_trade"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:crystalwell"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:crystalwell"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:crystalwell"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:purifying_water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:purifying_water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:purifying_water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumonomicon"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:reflection_focus",
+    "count": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:SILVERWOODSHARDMILL",
+  "instability": 5,
+  "aspects": {
+    "instrumentum": 64,
+    "sano": 64,
+    "arbor": 128,
+    "ordo": 64,
+    "perditio": 64,
+    "machina": 32,
+    "praecantatio": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:silverwood_log"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_rod_silverwood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:silverwood_shard_mill",
+    "count": 1
+  }
+}

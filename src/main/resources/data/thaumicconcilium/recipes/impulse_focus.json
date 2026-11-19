@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:IMPULSEFOCI",
+  "instability": 15,
+  "aspects": {
+    "perditio": 128,
+    "ignis": 128,
+    "forbidden_magic:ira": 96,
+    "vinculum": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicconcilium:signal_focus"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_fire"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_fire"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_block"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:impulse_focus",
+    "count": 1
+  }
+}

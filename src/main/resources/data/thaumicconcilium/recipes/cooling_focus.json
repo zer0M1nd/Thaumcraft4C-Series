@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:COOLINGFOCI",
+  "instability": 5,
+  "aspects": {
+    "ignis": 16,
+    "aer": 16,
+    "instrumentum": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_frost"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:torch"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:torch"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:cooling_focus",
+    "count": 1
+  }
+}

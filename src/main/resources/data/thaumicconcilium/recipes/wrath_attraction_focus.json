@@ -1,0 +1,85 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:WRATHATTRACTION",
+  "instability": 15,
+  "aspects": {
+    "forbidden_magic:ira": 128,
+    "bestia": 64,
+    "sensus": 64,
+    "fames": 96,
+    "forbidden_magic:infernus": 128
+  },
+  "center": {
+    "ingredient": {
+      "type": "forge:nbt",
+      "item": "thaumcraft:wisp_essence",
+      "nbt": "{Aspects:[{key:\"forbidden_magic:ira\",amount:2}]}"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:dark_quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:dark_quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:dark_quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:wrath_attraction_focus",
+    "count": 1
+  }
+}

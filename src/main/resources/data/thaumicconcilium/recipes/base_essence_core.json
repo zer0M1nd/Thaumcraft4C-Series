@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    }
+  ],
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "arsmagicalegacy:affinity_essence",
+      "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:air\"}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "arsmagicalegacy:affinity_essence",
+      "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:water\"}"
+    },
+    {
+      "item": "arsmagicalegacy:arcane_ash"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "arsmagicalegacy:affinity_essence",
+      "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:fire\"}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "arsmagicalegacy:affinity_essence",
+      "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:earth\"}"
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:base_essence_core"
+  }
+}

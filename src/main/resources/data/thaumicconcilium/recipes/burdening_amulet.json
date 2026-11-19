@@ -1,0 +1,82 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:BURDENINGAMULET",
+  "instability": 8,
+  "aspects": {
+    "tutamen": 96,
+    "mortuus": 96,
+    "alienis": 128,
+    "forbidden_magic:invidia": 128
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:lesser_vis_amulet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:sinister_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:obsidian_tile"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:burdening_amulet",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "thaumicconcilium:high_essence_core"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "arsmagicalegacy:affinity_essence",
+      "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:life\"}"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "arsmagicalegacy:affinity_essence",
+      "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:ender\"}"
+    },
+    {
+      "item": "thaumicconcilium:base_essence_core"
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:pure_essence"
+  }
+}

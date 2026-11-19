@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": [
+        "thaumicconcilium:destabilized_crystal"
+      ],
+      "aspects": [
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "thaumicconcilium:hex_of_predictability"
+      ],
+      "aspects": [
+        {
+          "aspect": "terra",
+          "amount": 64
+        },
+        {
+          "aspect": "ordo",
+          "amount": 128
+        },
+        {
+          "aspect": "auram",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "items": [
+        "thaumicconcilium:lithographer"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 64
+        },
+        {
+          "aspect": "sensus",
+          "amount": 32
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 64
+        },
+        {
+          "aspect": "potentia",
+          "amount": 16
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "items": [
+        "thaumicconcilium:red_powered_mind"
+      ],
+      "aspects": [
+        {
+          "aspect": "cognitio",
+          "amount": 64
+        },
+        {
+          "aspect": "sensus",
+          "amount": 64
+        },
+        {
+          "aspect": "exanimis",
+          "amount": 32
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 32
+        },
+        {
+          "aspect": "machina",
+          "amount": 16
+        }
+      ],
+      "required_mods": [
+        "automagy",
+        "thaumichorizons"
+      ]
+    },
+    {
+      "items": [
+        "thaumicconcilium:warped_drum"
+      ],
+      "aspects": [
+        {
+          "aspect": "cognitio",
+          "amount": 16
+        },
+        {
+          "aspect": "pannus",
+          "amount": 16
+        },
+        {
+          "aspect": "instrumentum",
+          "amount": 16
+        },
+        {
+          "aspect": "vitium",
+          "amount": 16
+        },
+        {
+          "aspect": "bestia",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "items": [
+        "thaumicconcilium:protobody"
+      ],
+      "aspects": [
+        {
+          "aspect": "humanus",
+          "amount": 4
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        },
+        {
+          "aspect": "alienis",
+          "amount": 4
+        },
+        {
+          "aspect": "perditio",
+          "amount": 4
+        }
+      ],
+      "required_mods": [
+        "taintedmagic",
+        "thaumichorizons"
+      ]
+    }
+  ]
+}

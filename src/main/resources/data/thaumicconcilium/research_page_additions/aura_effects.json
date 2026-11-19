@@ -1,0 +1,226 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicconcilium:observed_aura_effects",
+      "research": "gadomancy:aura_effects",
+      "optional": true,
+      "position": "end",
+      "priority": 10,
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "gadomancy"
+        }
+      ],
+      "components": [
+        {
+          "id": "thaumicconcilium:observed_aura_effects/list",
+          "type": "gadomancy:aura_effect_list",
+          "page_break": true,
+          "data": {},
+          "group": {
+            "size": 4,
+            "field": "aspects",
+            "entries": [
+              {
+                "id": "infernus",
+                "value": "forbidden_magic:infernus",
+                "when": {
+                  "research": "gadomancy:aura/forbidden_magic/infernus"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "scope": "common",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "forbidden_magic:infernus"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "luxuria",
+                "value": "forbidden_magic:luxuria",
+                "when": {
+                  "research": "gadomancy:aura/forbidden_magic/luxuria"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "scope": "common",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "forbidden_magic:luxuria"
+                    }
+                  },
+                  {
+                    "type": "thaumcraft:config",
+                    "modid": "forbidden_magic",
+                    "scope": "common",
+                    "key": "noLust",
+                    "value": false
+                  }
+                ]
+              },
+              {
+                "id": "gula",
+                "value": "forbidden_magic:gula",
+                "when": {
+                  "research": "gadomancy:aura/forbidden_magic/gula"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "scope": "common",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "forbidden_magic:gula"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "ira",
+                "value": "forbidden_magic:ira",
+                "when": {
+                  "research": "gadomancy:aura/forbidden_magic/ira"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "scope": "common",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "forbidden_magic:ira"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "invidia",
+                "value": "forbidden_magic:invidia",
+                "when": {
+                  "research": "gadomancy:aura/forbidden_magic/invidia"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "scope": "common",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "forbidden_magic:invidia"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "desidia",
+                "value": "forbidden_magic:desidia",
+                "when": {
+                  "research": "gadomancy:aura/forbidden_magic/desidia"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "scope": "common",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "forbidden_magic:desidia"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "superbia",
+                "value": "forbidden_magic:superbia",
+                "when": {
+                  "research": "gadomancy:aura/forbidden_magic/superbia"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "scope": "common",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "forbidden_magic:superbia"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "terminus",
+                "value": "thaumicomniverse:terminus",
+                "when": {
+                  "research": "gadomancy:aura/thaumicomniverse/terminus"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "scope": "common",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "thaumicomniverse:terminus"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "tinctura",
+                "value": "alfheim:tinctura",
+                "when": {
+                  "research": "gadomancy:aura/alfheim/tinctura"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "scope": "common",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "alfheim:tinctura"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "tinctura_legacy",
+                "value": "tinctura",
+                "when": {
+                  "research": "gadomancy:aura/tinctura"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

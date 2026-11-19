@@ -1,0 +1,75 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumicbases"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "forbidden_magic:wand_rod_livingwood"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "forbidden_magic:wand_cap_manasteel"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "botania:mana_diamond"
+    }
+  ],
+  "research": "thaumicconcilium:LIVINGWOODBRACELET",
+  "instability": 5,
+  "aspects": {
+    "instrumentum": 32,
+    "arbor": 128,
+    "victus": 64,
+    "praecantatio": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "forbidden_magic:wand_rod_livingwood"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wand_cap_manasteel"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:mana_diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wand_cap_manasteel"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:mana_diamond"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:livingwood_bracelet",
+    "count": 1,
+    "nbt": "{\"rod\": \"forbidden_magic:livingwood\", \"cap\": \"forbidden_magic:manasteel\"}"
+  }
+}

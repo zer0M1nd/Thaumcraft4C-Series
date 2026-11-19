@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_THAUMICCONCILIUM",
+      "pages": [
+        {
+          "id": "thaumicconcilium:tut_addon_thaumicconcilium/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicconcilium.tut_addon_thaumicconcilium.text.1",
+            "with": [
+              [
+                {
+                  "text": "神秘议会是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicconcilium:tut_addon_thaumicconcilium/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicconcilium.tut_addon_thaumicconcilium.text.2",
+            "with": [
+              [
+                {
+                  "text": "神秘议会是一个"
+                },
+                {
+                  "text": "后期联动中心",
+                  "bold": true
+                },
+                {
+                  "text": "：大量新的法杖核心、血腥教皇装备、裂隙、魔力凝聚器和元始生命。你安装的每一个其他神秘时代扩展，都可能在这里多出一条专属分支。\n研究在"
+                },
+                {
+                  "text": "神秘议会",
+                  "bold": true
+                },
+                {
+                  "text": "分页中。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicconcilium:tut_addon_thaumicconcilium/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicconcilium:tut_addon_thaumicconcilium/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicconcilium.tut_addon_thaumicconcilium.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicconcilium:tut_addon_thaumicconcilium/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicconcilium.tut_addon_thaumicconcilium.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "thaumicconcilium:BOTTLEWATER"
+                },
+                {
+                  "text": "：纯净水瓶、"
+                },
+                {
+                  "research": "thaumicconcilium:XYLOGRAPHY"
+                },
+                {
+                  "text": "：法杖木刻，自动解锁。\n· "
+                },
+                {
+                  "research": "thaumicconcilium:THAUMATURGES"
+                },
+                {
+                  "text": "：神秘使，本分页的枢纽。\n· "
+                },
+                {
+                  "research": "thaumicconcilium:SIGNALFOCI"
+                },
+                {
+                  "text": "、"
+                },
+                {
+                  "research": "thaumicconcilium:VISCONDUCTOR"
+                },
+                {
+                  "text": "：新的法杖核心。\n· "
+                },
+                {
+                  "research": "thaumicconcilium:CRIMSONPONTIFEX"
+                },
+                {
+                  "text": "：血腥教皇。\n本模组需要禁忌魔法和神秘工匠同时安装；与其他扩展的分支只在对应扩展存在时出现。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicconcilium:tut_addon_thaumicconcilium/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicconcilium:tut_addon_thaumicconcilium/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "thaumicconcilium:tut_addon_thaumicconcilium/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "thaumicconcilium:BOTTLEWATER",
+            "thaumicconcilium:XYLOGRAPHY",
+            "thaumicconcilium:THAUMATURGES",
+            "thaumicconcilium:SIGNALFOCI",
+            "thaumicconcilium:VISCONDUCTOR",
+            "thaumicconcilium:CRIMSONPONTIFEX"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

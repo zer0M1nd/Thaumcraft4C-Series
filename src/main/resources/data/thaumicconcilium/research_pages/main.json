@@ -1,0 +1,2512 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicconcilium:BOTTLEWATER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.clearwater.first"
+          },
+          "id": "thaumicconcilium:BOTTLEWATER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:clear_water_bottle"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:BOTTLEWATER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:XYLOGRAPHY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.xylography.first"
+          },
+          "id": "thaumicconcilium:XYLOGRAPHY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:BOTTLEOFTHICKTAINT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.bottleofthicktaint.first"
+          },
+          "id": "thaumicconcilium:BOTTLEOFTHICKTAINT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:thick_taint_bottle"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:BOTTLEOFTHICKTAINT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:TIGHTBELT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.tightbelt.first"
+          },
+          "id": "thaumicconcilium:TIGHTBELT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:tight_belt"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:TIGHTBELT/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "id": "polishment-tight_belt",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/tight_belt"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:DESTCRYSTAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.destcrystal.first"
+          },
+          "id": "thaumicconcilium:DESTCRYSTAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:destabilized_crystal"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:DESTCRYSTAL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:COOLINGFOCI",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.coolingfoci.first"
+          },
+          "id": "thaumicconcilium:COOLINGFOCI/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:cooling_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:COOLINGFOCI/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "id": "polishment-cooling_focus",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/cooling_focus"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:VISCONDUCTOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.visconductor.first"
+          },
+          "id": "thaumicconcilium:VISCONDUCTOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:vis_conductor_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:VISCONDUCTOR/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.visconductor.second"
+          },
+          "id": "thaumicconcilium:VISCONDUCTOR/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:DEMATUPGRADE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.dematupgrade.first"
+          },
+          "id": "thaumicconcilium:DEMATUPGRADE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:RUNICWINDINGS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.runicwindings.first"
+          },
+          "id": "thaumicconcilium:RUNICWINDINGS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:runic_body_windings"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:RUNICWINDINGS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:runic_legs_windings"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:RUNICWINDINGS/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:REFLECTIONFOCI",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.reflectionfoci.first"
+          },
+          "id": "thaumicconcilium:REFLECTIONFOCI/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:reflection_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:REFLECTIONFOCI/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "id": "polishment-reflection_focus",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/reflection_focus"
+          },
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.reflectionfoci.second"
+          },
+          "id": "thaumicconcilium:REFLECTIONFOCI/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:MADTHAUMATURGES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.madthaumaturges.first"
+          },
+          "id": "thaumicconcilium:MADTHAUMATURGES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.madthaumaturges.second"
+          },
+          "id": "thaumicconcilium:MADTHAUMATURGES/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:THAUMATURGES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.thaumaturges.first"
+          },
+          "id": "thaumicconcilium:THAUMATURGES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.thaumaturges.second"
+          },
+          "id": "thaumicconcilium:THAUMATURGES/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:RIFTS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.rifts.first"
+          },
+          "id": "thaumicconcilium:RIFTS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.rifts.second"
+          },
+          "id": "thaumicconcilium:RIFTS/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:SIGNALFOCI",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.signalfoci.first"
+          },
+          "id": "thaumicconcilium:SIGNALFOCI/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:signal_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:SIGNALFOCI/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:IMPULSEFOCI",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.impulsefoci.first"
+          },
+          "id": "thaumicconcilium:IMPULSEFOCI/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:impulse_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:IMPULSEFOCI/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:POSITIVEBURSTFOCI",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.positiveburstfoci.first"
+          },
+          "id": "thaumicconcilium:POSITIVEBURSTFOCI/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:positive_burst_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:POSITIVEBURSTFOCI/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:NETHER_MEMBRANE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.nether_membrane.first"
+          },
+          "id": "thaumicconcilium:NETHER_MEMBRANE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:VISCONDENSER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.viscondenser.first"
+          },
+          "id": "thaumicconcilium:VISCONDENSER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:vis_condenser"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:VISCONDENSER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.viscondenser.second"
+          },
+          "id": "thaumicconcilium:VISCONDENSER/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:HEXOFPREDICTABILITY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.hex.first"
+          },
+          "id": "thaumicconcilium:HEXOFPREDICTABILITY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:HexOfPredictability"
+            ],
+            "class": "java.util.Arrays$ArrayList"
+          },
+          "id": "thaumicconcilium:HEXOFPREDICTABILITY/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.hex.second"
+          },
+          "id": "thaumicconcilium:HEXOFPREDICTABILITY/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:ASTRALMONITOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.astralmonitor.first"
+          },
+          "id": "thaumicconcilium:ASTRALMONITOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "thaumicconcilium:chained_rift",
+          "data": {
+            "recipe": "thaumicconcilium:astral_monitor"
+          },
+          "id": "thaumicconcilium:ASTRALMONITOR/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.astralmonitor.second"
+          },
+          "id": "thaumicconcilium:ASTRALMONITOR/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.astralmonitor.third"
+          },
+          "id": "thaumicconcilium:ASTRALMONITOR/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:LITHOGRAPHER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.lithographer.first"
+          },
+          "id": "thaumicconcilium:LITHOGRAPHER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:Lithographer"
+            ],
+            "class": "java.util.Arrays$ArrayList"
+          },
+          "id": "thaumicconcilium:LITHOGRAPHER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.lithographer.second"
+          },
+          "id": "thaumicconcilium:LITHOGRAPHER/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:coagulating_eye_drops"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:LITHOGRAPHER/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:BURDENINGAMULET",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.burdeningamulet.first"
+          },
+          "id": "thaumicconcilium:BURDENINGAMULET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:burdening_amulet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:BURDENINGAMULET/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "id": "polishment-burdening_amulet",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/burdening_amulet"
+          },
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.burdeningamulet.second"
+          },
+          "id": "thaumicconcilium:BURDENINGAMULET/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:RINGOFBLUSTERINGLIGHT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.ringofblusteringlight.first"
+          },
+          "id": "thaumicconcilium:RINGOFBLUSTERINGLIGHT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:ring_of_blustering_light"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:RINGOFBLUSTERINGLIGHT/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "id": "polishment-ring_of_blustering_light",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/ring_of_blustering_light"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:THAUMDRUM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.thaumdrum.first"
+          },
+          "id": "thaumicconcilium:THAUMDRUM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:thaumaturge_drum"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:THAUMDRUM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:WARPDRUM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.warpdrum.first"
+          },
+          "id": "thaumicconcilium:WARPDRUM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "thaumicconcilium:chained_rift",
+          "data": {
+            "recipe": "thaumicconcilium:warped_drum"
+          },
+          "id": "thaumicconcilium:WARPDRUM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:BRIGHTESTONE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.brightestone.first"
+          },
+          "id": "thaumicconcilium:BRIGHTESTONE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.brightestone.second"
+          },
+          "id": "thaumicconcilium:BRIGHTESTONE/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:PRIMORDIALLIFE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.primordiallife.first"
+          },
+          "id": "thaumicconcilium:PRIMORDIALLIFE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:ETHEREALMANIPULATOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.ethman.first"
+          },
+          "id": "thaumicconcilium:ETHEREALMANIPULATOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:ethereal_manipulator_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:ETHEREALMANIPULATOR/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "id": "polishment-ethereal_manipulator_focus",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/ethereal_manipulator_focus"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:SPOTLIGHTFOCI",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.spotlightfoci.first"
+          },
+          "id": "thaumicconcilium:SPOTLIGHTFOCI/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:spotlight_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:SPOTLIGHTFOCI/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "id": "polishment-spotlight_focus",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/spotlight_focus"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:WARPEXTRACTIONFOCI",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.warpextractionfoci.first"
+          },
+          "id": "thaumicconcilium:WARPEXTRACTIONFOCI/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:warp_extraction_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:WARPEXTRACTIONFOCI/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "id": "polishment-warp_extraction_focus",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/warp_extraction_focus"
+          },
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.warpextractionfoci.second"
+          },
+          "id": "thaumicconcilium:WARPEXTRACTIONFOCI/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:WRATHATTRACTION",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.wrathattraction.first"
+          },
+          "id": "thaumicconcilium:WRATHATTRACTION/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:wrath_attraction_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:WRATHATTRACTION/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "id": "polishment-wrath_attraction_focus",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/wrath_attraction_focus"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:TAINTANIMATION",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.taintanimation.first"
+          },
+          "id": "thaumicconcilium:TAINTANIMATION/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:taint_animation_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:TAINTANIMATION/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "id": "polishment-taint_animation_focus",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/taint_animation_focus"
+          },
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.taintanimation.second"
+          },
+          "id": "thaumicconcilium:TAINTANIMATION/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:SCRIBINGFOCI",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.scribingfoci.first"
+          },
+          "id": "thaumicconcilium:SCRIBINGFOCI/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:scribing_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:SCRIBINGFOCI/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "id": "polishment-scribing_focus",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/scribing_focus"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:ALCHEMISTSPREE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.alchemistspreefoci.first"
+          },
+          "id": "thaumicconcilium:ALCHEMISTSPREE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:alchemist_spree_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:ALCHEMISTSPREE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:SHARDMILL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.shardmill.first"
+          },
+          "id": "thaumicconcilium:SHARDMILL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:shard_mill"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:SHARDMILL/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.shardmill.second"
+          },
+          "id": "thaumicconcilium:SHARDMILL/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.shardmill.third"
+          },
+          "id": "thaumicconcilium:SHARDMILL/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:SILVERWOODSHARDMILL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.silverwoodshardmill.first"
+          },
+          "id": "thaumicconcilium:SILVERWOODSHARDMILL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:silverwood_shard_mill"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:SILVERWOODSHARDMILL/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.silverwoodshardmill.second"
+          },
+          "id": "thaumicconcilium:SILVERWOODSHARDMILL/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.silverwoodshardmill.third"
+          },
+          "id": "thaumicconcilium:SILVERWOODSHARDMILL/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.silverwoodshardmill.fourth"
+          },
+          "id": "thaumicconcilium:SILVERWOODSHARDMILL/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:DUMPJACKBOOTS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.dumpjackboots.first"
+          },
+          "id": "thaumicconcilium:DUMPJACKBOOTS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:dump_jackboots"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:DUMPJACKBOOTS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "id": "polishment-dump_jackboots",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/dump_jackboots"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:QUICKSILVERCRUCIBLE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.quicksilvercrucible.first"
+          },
+          "id": "thaumicconcilium:QUICKSILVERCRUCIBLE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:QuicksilverCrucible"
+            ],
+            "class": "java.util.Arrays$ArrayList"
+          },
+          "id": "thaumicconcilium:QUICKSILVERCRUCIBLE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.quicksilvercrucible.second"
+          },
+          "id": "thaumicconcilium:QUICKSILVERCRUCIBLE/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:FLESHCRUCIBLE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.fleshcrucible.first"
+          },
+          "id": "thaumicconcilium:FLESHCRUCIBLE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:flesh_crucible"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:FLESHCRUCIBLE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:PROTOBODY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.protobody.first"
+          },
+          "id": "thaumicconcilium:PROTOBODY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:protobody"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:PROTOBODY/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:polishment",
+          "data": {
+            "recipe": "thaumicconcilium:polishment/protobody"
+          },
+          "id": "thaumicconcilium:PROTOBODY/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.protobody.second"
+          },
+          "id": "thaumicconcilium:PROTOBODY/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:SOLIDVOID",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.solidvoid.first"
+          },
+          "id": "thaumicconcilium:SOLIDVOID/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.thaumicconcilium.modern_void_height"
+          },
+          "id": "thaumicconcilium:SOLIDVOID/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:TCHORIZONS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.tchorizons.first"
+          },
+          "id": "thaumicconcilium:TCHORIZONS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:DRAINAGESYRINGE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.drainagesyringe.first"
+          },
+          "id": "thaumicconcilium:DRAINAGESYRINGE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.drainagesyringe.second"
+          },
+          "id": "thaumicconcilium:DRAINAGESYRINGE/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:drainage_syringe"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:DRAINAGESYRINGE/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:BRAINLITTERING",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.brainlittering.first"
+          },
+          "id": "thaumicconcilium:BRAINLITTERING/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.brainlittering.second"
+          },
+          "id": "thaumicconcilium:BRAINLITTERING/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:brain_littering"
+            ],
+            "class": "thaumcraft.api.crafting.InfusionRecipe"
+          },
+          "id": "thaumicconcilium:BRAINLITTERING/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:REDPOWEREDMIND",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.redpoweredmind.first"
+          },
+          "id": "thaumicconcilium:REDPOWEREDMIND/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:red_powered_mind"
+            ],
+            "class": "thaumcraft.api.crafting.InfusionRecipe"
+          },
+          "id": "thaumicconcilium:REDPOWEREDMIND/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.redpoweredmind.second"
+          },
+          "id": "thaumicconcilium:REDPOWEREDMIND/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:TCGADOMANCY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.tcgadomancy.first"
+          },
+          "id": "thaumicconcilium:TCGADOMANCY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:RIFTGEM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.riftgem.first"
+          },
+          "id": "thaumicconcilium:RIFTGEM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:rift_gem_inert"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:RIFTGEM/page/2",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:chained_rift",
+          "data": {
+            "recipe": "thaumicconcilium:rift_gem"
+          },
+          "id": "thaumicconcilium:RIFTGEM/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.riftgem.second"
+          },
+          "id": "thaumicconcilium:RIFTGEM/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.riftgem.third"
+          },
+          "id": "thaumicconcilium:RIFTGEM/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.riftgem.fourth"
+          },
+          "id": "thaumicconcilium:RIFTGEM/page/6",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:TERRACAST",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.terracast.first"
+          },
+          "id": "thaumicconcilium:TERRACAST/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.terracast.second"
+          },
+          "id": "thaumicconcilium:TERRACAST/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:terra_cast_gem_inert"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:TERRACAST/page/3",
+          "page_break": true
+        },
+        {
+          "type": "thaumicconcilium:chained_rift",
+          "data": {
+            "recipe": "thaumicconcilium:terra_cast_gem"
+          },
+          "id": "thaumicconcilium:TERRACAST/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:VALETCORE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.valetcore.first"
+          },
+          "id": "thaumicconcilium:VALETCORE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:valet_core"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:VALETCORE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:ASSISTANCECORE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.assistancecore.first"
+          },
+          "id": "thaumicconcilium:ASSISTANCECORE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:assistance_core"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:ASSISTANCECORE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.assistancecore.second"
+          },
+          "id": "thaumicconcilium:ASSISTANCECORE/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.assistancecore.third"
+          },
+          "research": "UPGRADEENTROPY",
+          "id": "thaumicconcilium:ASSISTANCECORE/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.assistancecore.fourth"
+          },
+          "research": "UPGRADEORDER",
+          "id": "thaumicconcilium:ASSISTANCECORE/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:BUFFGOLEM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.buffgolem.first"
+          },
+          "id": "thaumicconcilium:BUFFGOLEM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.buffgolem.second"
+          },
+          "id": "thaumicconcilium:BUFFGOLEM/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.buffgolem.third"
+          },
+          "id": "thaumicconcilium:BUFFGOLEM/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.buffgolem.fourth"
+          },
+          "id": "thaumicconcilium:BUFFGOLEM/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:buff_golem"
+            ],
+            "class": "thaumcraft.api.crafting.InfusionRecipe"
+          },
+          "id": "thaumicconcilium:BUFFGOLEM/page/5",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.buffgolem.fifth"
+          },
+          "research": "FOCUSEXCAVATION",
+          "id": "thaumicconcilium:BUFFGOLEM/page/6",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.buffgolem.sixth"
+          },
+          "research": "thaumicconcilium:WRATHATTRACTION",
+          "id": "thaumicconcilium:BUFFGOLEM/page/7",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:DOPESQUID",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.dopesquid.first"
+          },
+          "id": "thaumicconcilium:DOPESQUID/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:dope_squid"
+            ],
+            "class": "thaumcraft.api.crafting.InfusionRecipe"
+          },
+          "id": "thaumicconcilium:DOPESQUID/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:TCTAINTEDMAGIC",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.tctaintedmagic.first"
+          },
+          "id": "thaumicconcilium:TCTAINTEDMAGIC/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:CRIMSONANNALES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.crimsonannales.first"
+          },
+          "id": "thaumicconcilium:CRIMSONANNALES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.crimsonannales.second"
+          },
+          "id": "thaumicconcilium:CRIMSONANNALES/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:CRIMSONPONTIFEX",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.crimsonpontifex.first"
+          },
+          "id": "thaumicconcilium:CRIMSONPONTIFEX/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:PONTIFEXROBE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.pontifexrobe.first"
+          },
+          "id": "thaumicconcilium:PONTIFEXROBE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "thaumicconcilium:chained_rift",
+          "data": {
+            "recipes": [
+              "thaumicconcilium:pontifex_helmet",
+              "thaumicconcilium:pontifex_chestplate",
+              "thaumicconcilium:pontifex_leggings",
+              "thaumicconcilium:pontifex_boots"
+            ]
+          },
+          "id": "thaumicconcilium:PONTIFEXROBE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.pontifexrobe.second"
+          },
+          "id": "thaumicconcilium:PONTIFEXROBE/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:CRIMSONINITIATION",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.crimsonimitiation.first"
+          },
+          "id": "thaumicconcilium:CRIMSONINITIATION/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:PONTIFEXHAMMER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.pontifexhammer.first"
+          },
+          "id": "thaumicconcilium:PONTIFEXHAMMER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:pontifex_hammer"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:PONTIFEXHAMMER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:CRIMSONRAID",
+      "pages": [
+        {
+          "id": "thaumicconcilium:crimsonraid/page/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.crimsonraid.first"
+          },
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:CRIMSONSPELLS",
+      "pages": [
+        {
+          "id": "thaumicconcilium:crimsonspells/page/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.crimsonspells.first"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicconcilium:crimsonspells/page/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.crimsonspells.second"
+          },
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:THAUMICCONCILIUM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.thaumicconcilium.first"
+          },
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.thaumicconcilium.second"
+          },
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.thaumicconcilium.quicksilver1"
+          },
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.thaumicconcilium.quicksilver2"
+          },
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.thaumicconcilium.dissolved1"
+          },
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.thaumicconcilium.dissolved2"
+          },
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/6",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.samurai1"
+          },
+          "research": "thaumicconcilium:TCTAINTEDMAGIC",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/7",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.samurai2"
+          },
+          "research": "thaumicconcilium:TCTAINTEDMAGIC",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/8",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.paladin1"
+          },
+          "research": "thaumicconcilium:TCTAINTEDMAGIC",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/9",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.paladin2"
+          },
+          "research": "thaumicconcilium:TCTAINTEDMAGIC",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/10",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.overanimated1"
+          },
+          "research": "thaumicconcilium:TCHORIZONS",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/11",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.overanimated2"
+          },
+          "research": "thaumicconcilium:TCHORIZONS",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/12",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.vengefulgolem1"
+          },
+          "research": "thaumicconcilium:TCAUTOMAGY",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/13",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.vengefulgolem2"
+          },
+          "research": "thaumicconcilium:TCAUTOMAGY",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/14",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.sloppyalchemist1"
+          },
+          "research": "thaumicconcilium:TCWITCHERYBM",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/15",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.sloppyalchemist2"
+          },
+          "research": "thaumicconcilium:TCWITCHERYBM",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/16",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.burnedwitch1"
+          },
+          "research": "thaumicconcilium:TCWITCHERY",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/17",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.burnedwitch2"
+          },
+          "research": "thaumicconcilium:TCWITCHERY",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/18",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.witheredbotanist1"
+          },
+          "research": "thaumicconcilium:TCBOTANIA",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/19",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.witheredbotanist2"
+          },
+          "research": "thaumicconcilium:TCBOTANIA",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/20",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.thaumicconcilium.netherexplorer1"
+          },
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/21",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.thaumicconcilium.netherexplorer2"
+          },
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/22",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.crimsonarcher1"
+          },
+          "research": "thaumicconcilium:TCDYES",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/23",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.crimsonarcher2"
+          },
+          "research": "thaumicconcilium:TCDYES",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/24",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.crimsonranger1"
+          },
+          "research": "thaumicconcilium:TCDYES",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/25",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "text": {
+            "translate": "entry.thaumicconcilium.crimsonranger2"
+          },
+          "research": "thaumicconcilium:TCDYES",
+          "id": "thaumicconcilium:THAUMICCONCILIUM/page/26",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:TCAUTOMAGY",
+      "pages": []
+    },
+    {
+      "key": "thaumicconcilium:TCDYES",
+      "pages": []
+    },
+    {
+      "key": "thaumicconcilium:TCBOTANIA",
+      "pages": []
+    },
+    {
+      "key": "thaumicconcilium:TCWITCHERY",
+      "pages": []
+    },
+    {
+      "key": "thaumicconcilium:TCWITCHERYBM",
+      "pages": []
+    },
+    {
+      "key": "thaumicconcilium:MATERIALPEELER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.materialpeeler.first"
+          },
+          "id": "thaumicconcilium:MATERIALPEELER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.materialpeeler.second"
+          },
+          "id": "thaumicconcilium:MATERIALPEELER/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:TCBASES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.tcbases.first"
+          },
+          "id": "thaumicconcilium:TCBASES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:LIVINGWOODBRACELET",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.livingwoodbracelet.first"
+          },
+          "id": "thaumicconcilium:LIVINGWOODBRACELET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:livingwood_bracelet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:LIVINGWOODBRACELET/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:DREAMWOODBRACELET",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.dreamwoodbracelet.first"
+          },
+          "id": "thaumicconcilium:DREAMWOODBRACELET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:dreamwood_bracelet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:DREAMWOODBRACELET/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:BLOODBRACELET",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.bloodbracelet.first"
+          },
+          "id": "thaumicconcilium:BLOODBRACELET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:alchemist_bracelet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:BLOODBRACELET/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:INFERNALBRACELET",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.infernalbracelet.first"
+          },
+          "id": "thaumicconcilium:INFERNALBRACELET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:infernal_bracelet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:INFERNALBRACELET/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:TAINTEDBRACELET",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.taintedbracelet.first"
+          },
+          "id": "thaumicconcilium:TAINTEDBRACELET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:tainted_bracelet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:TAINTEDBRACELET/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:WARPWOODBRACELET",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.warpwoodbracelet.first"
+          },
+          "id": "thaumicconcilium:WARPWOODBRACELET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:warpwood_bracelet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:WARPWOODBRACELET/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:TERRASTEELBRACELET",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.terrasteelbracelet.first"
+          },
+          "id": "thaumicconcilium:TERRASTEELBRACELET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:terrasteel_bracelet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicconcilium:TERRASTEELBRACELET/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:ARS_SCHOOLS",
+      "pages": [
+        {
+          "id": "thaumicconcilium:ARS_SCHOOLS/page/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicconcilium.ars.ARS_SCHOOLS"
+          },
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:ROD_witchwood",
+      "pages": [
+        {
+          "id": "thaumicconcilium:ROD_witchwood/page/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicconcilium.ars.ROD_witchwood"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicconcilium:ROD_witchwood/page/2",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:witchwood_rod"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:CAP_vinteum",
+      "pages": [
+        {
+          "id": "thaumicconcilium:CAP_vinteum/page/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicconcilium.ars.CAP_vinteum"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicconcilium:CAP_vinteum/page/2",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:vinteum_cap"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:ROD_witchwood_staff",
+      "pages": [
+        {
+          "id": "thaumicconcilium:ROD_witchwood_staff/page/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicconcilium.ars.ROD_witchwood_staff"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicconcilium:ROD_witchwood_staff/page/2",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:witchwood_staff"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicconcilium:ROD_witchwood_staff/base_essence_core",
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:base_essence_core"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicconcilium:ROD_witchwood_staff/high_essence_core",
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:high_essence_core"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicconcilium:ROD_witchwood_staff/pure_essence",
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:pure_essence"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicconcilium:WITCHWOODBRACELET",
+      "pages": [
+        {
+          "id": "thaumicconcilium:WITCHWOODBRACELET/page/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "entry.witchwoodbracelet.first"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicconcilium:WITCHWOODBRACELET/page/2",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicconcilium:witchwood_bracelet"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

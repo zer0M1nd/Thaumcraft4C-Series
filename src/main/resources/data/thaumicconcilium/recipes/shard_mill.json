@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicconcilium:SHARDMILL",
+  "pattern": [
+    "GLG",
+    "WCW",
+    "GWG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "W": {
+      "item": "thaumcraft:greatwood_log"
+    },
+    "C": {
+      "item": "thaumcraft:primal_charm"
+    }
+  },
+  "vis": {
+    "perditio": 50,
+    "ordo": 25,
+    "aer": 10,
+    "terra": 10
+  },
+  "result": {
+    "item": "thaumicconcilium:shard_mill"
+  }
+}

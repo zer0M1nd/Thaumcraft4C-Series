@@ -1,0 +1,23 @@
+{
+  "type": "thaumicconcilium:chained_rift",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gadomancy"
+    }
+  ],
+  "research": "thaumicconcilium:TERRACAST",
+  "catalyst": {
+    "item": "thaumicconcilium:terra_cast_gem_inert"
+  },
+  "aspects": {
+    "iter": 128,
+    "perditio": 128,
+    "vitreus": 128,
+    "cognitio": 128,
+    "auram": 64
+  },
+  "result": {
+    "item": "thaumicconcilium:terra_cast_gem"
+  }
+}

@@ -1,0 +1,1997 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "CONCILIUM",
+      "icon": "thaumicconcilium:textures/category.png",
+      "background": "thaumicconcilium:textures/researchback.png",
+      "research": [
+        {
+          "key": "thaumicconcilium:BOTTLEWATER",
+          "category": "CONCILIUM",
+          "displayColumn": 0,
+          "displayRow": -6,
+          "complexity": 1,
+          "aspects": {
+            "aqua": 1
+          },
+          "pageCount": 2,
+          "isAutoUnlock": true,
+          "isStub": true,
+          "icon_item": {
+            "item": "thaumicconcilium:clear_water_bottle",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:XYLOGRAPHY",
+          "category": "CONCILIUM",
+          "displayColumn": -2,
+          "displayRow": -3,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 1,
+            "cognitio": 1,
+            "arbor": 1
+          },
+          "pageCount": 1,
+          "isAutoUnlock": true,
+          "isRound": true,
+          "icon_item": {
+            "item": "thaumcraft:casting_wand",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:BOTTLEOFTHICKTAINT",
+          "category": "CONCILIUM",
+          "displayColumn": 3,
+          "displayRow": -5,
+          "complexity": 2,
+          "aspects": {
+            "vitium": 15,
+            "limus": 20,
+            "vitreus": 10
+          },
+          "pageCount": 2,
+          "isLost": true,
+          "warp": 2,
+          "parents": [
+            "thaumicconcilium:TCBOTTLETAINT"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:thick_taint_bottle",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:TIGHTBELT",
+          "category": "CONCILIUM",
+          "displayColumn": 5,
+          "displayRow": -4,
+          "complexity": 2,
+          "aspects": {
+            "tutamen": 20,
+            "vitium": 30,
+            "humanus": 5,
+            "venenum": 30
+          },
+          "pageCount": 3,
+          "isConcealed": true,
+          "warp": 3,
+          "parents": [
+            "thaumicconcilium:BOTTLEOFTHICKTAINT"
+          ],
+          "parentsHidden": [
+            "HOVERGIRDLE",
+            "thaumicconcilium:DESTCRYSTAL"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:tight_belt",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:DESTCRYSTAL",
+          "category": "CONCILIUM",
+          "displayColumn": -2,
+          "displayRow": 5,
+          "complexity": 2,
+          "aspects": {
+            "vitreus": 30,
+            "potentia": 20,
+            "praecantatio": 20,
+            "auram": 30
+          },
+          "isLost": true,
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:VISCONDUCTOR"
+          ],
+          "parentsHidden": [
+            "ESSENTIACRYSTAL"
+          ],
+          "siblings": [
+            "thaumicconcilium:COOLINGFOCI"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:destabilized_crystal",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:COOLINGFOCI",
+          "category": "CONCILIUM",
+          "displayColumn": -3,
+          "displayRow": 7,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 15,
+            "gelum": 30,
+            "permutatio": 10,
+            "aer": 20
+          },
+          "pageCount": 3,
+          "parents": [
+            "thaumicconcilium:DESTCRYSTAL"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:cooling_focus",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:VISCONDUCTOR",
+          "category": "CONCILIUM",
+          "displayColumn": -4,
+          "displayRow": 5,
+          "complexity": 3,
+          "aspects": {
+            "permutatio": 10,
+            "instrumentum": 10,
+            "humanus": 10,
+            "potentia": 10,
+            "praecantatio": 10
+          },
+          "isLost": true,
+          "isSpecial": true,
+          "pageCount": 3,
+          "parentsHidden": [
+            "thaumicconcilium:THAUMATURGES",
+            "INFUSION",
+            "VISPOWER",
+            "WANDPEDFOC"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:vis_conductor_focus",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:DEMATUPGRADE",
+          "category": "CONCILIUM",
+          "displayColumn": -11,
+          "displayRow": -1,
+          "complexity": 1,
+          "aspects": {
+            "praecantatio": 4,
+            "potentia": 4,
+            "auram": 8,
+            "instrumentum": 4
+          },
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 1,
+          "parents": [
+            "thaumicconcilium:RIFTS"
+          ],
+          "parentsHidden": [
+            "thaumicconcilium:VISCONDUCTOR",
+            "FOCALMANIPULATION"
+          ],
+          "icon_resource": "thaumicconcilium:textures/misc/dematerialization.png"
+        },
+        {
+          "key": "thaumicconcilium:RUNICWINDINGS",
+          "category": "CONCILIUM",
+          "displayColumn": 3,
+          "displayRow": -3,
+          "complexity": 1,
+          "aspects": {
+            "tutamen": 10,
+            "alienis": 15,
+            "cognitio": 20,
+            "praecantatio": 20
+          },
+          "warp": 3,
+          "isLost": true,
+          "isHidden": true,
+          "pageCount": 3,
+          "parentsHidden": [
+            "RUNICAUGMENTATION",
+            "forbidden_magic:CRYSTALWELL"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:runic_body_windings",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:REFLECTIONFOCI",
+          "category": "CONCILIUM",
+          "displayColumn": 2,
+          "displayRow": 10,
+          "complexity": 3,
+          "aspects": {
+            "alienis": 20,
+            "cognitio": 30,
+            "instrumentum": 10,
+            "vitium": 20,
+            "permutatio": 30
+          },
+          "warp": 5,
+          "isLost": true,
+          "pageCount": 4,
+          "parents": [
+            "thaumicconcilium:DESTCRYSTAL"
+          ],
+          "parentsHidden": [
+            "thaumic_tinkerer:FOCUS_XP_DRAIN",
+            "ADVANCEDGOLEM"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:reflection_focus",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:MADTHAUMATURGES",
+          "category": "CONCILIUM",
+          "displayColumn": -4,
+          "displayRow": 2,
+          "complexity": 1,
+          "aspects": {
+            "cognitio": 5,
+            "alienis": 10,
+            "humanus": 15
+          },
+          "warp": 1,
+          "isLost": true,
+          "isRound": true,
+          "isConcealed": true,
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:THAUMATURGES"
+          ],
+          "entityTriggers": [
+            "ThaumicConcilium.MadThaumaturge"
+          ],
+          "icon_resource": "thaumicconcilium:textures/item/icon_mad_thaumaturge.png"
+        },
+        {
+          "key": "thaumicconcilium:TCRESEARCHDUPE",
+          "category": "CONCILIUM",
+          "displayColumn": -5,
+          "displayRow": -5,
+          "complexity": 0,
+          "aspects": {},
+          "pageCount": 0,
+          "mirrorOf": "RESEARCHDUPE",
+          "isSpecial": true,
+          "isRound": true,
+          "icon_resource": "thaumcraft:textures/misc/r_resdupe.png"
+        },
+        {
+          "key": "thaumicconcilium:TCBOTTLETAINT",
+          "category": "CONCILIUM",
+          "displayColumn": 0,
+          "displayRow": -5,
+          "complexity": 0,
+          "aspects": {},
+          "pageCount": 0,
+          "mirrorOf": "BOTTLETAINT",
+          "isStub": true,
+          "icon_item": {
+            "item": "thaumcraft:taint_bottle",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:THAUMATURGES",
+          "category": "CONCILIUM",
+          "displayColumn": -3,
+          "displayRow": -1,
+          "complexity": 1,
+          "aspects": {
+            "humanus": 8,
+            "permutatio": 8
+          },
+          "pageCount": 2,
+          "isConcealed": true,
+          "isStub": true,
+          "isSecondary": true,
+          "isSpecial": true,
+          "parents": [
+            "thaumicconcilium:TCRESEARCHDUPE"
+          ],
+          "icon_resource": "thaumicconcilium:textures/item/icon_thaumaturge.png"
+        },
+        {
+          "key": "thaumicconcilium:RIFTS",
+          "category": "CONCILIUM",
+          "displayColumn": -9,
+          "displayRow": -3,
+          "complexity": 1,
+          "aspects": {
+            "vacuos": 4,
+            "praecantatio": 4,
+            "alienis": 4,
+            "perditio": 8
+          },
+          "pageCount": 2,
+          "isSecondary": true,
+          "isSpecial": true,
+          "isLost": true,
+          "warp": 3,
+          "entityTriggers": [
+            "ThaumicConcilium.RiftEntity"
+          ],
+          "icon_resource": "thaumicconcilium:textures/misc/rift_res.png"
+        },
+        {
+          "key": "thaumicconcilium:SIGNALFOCI",
+          "category": "CONCILIUM",
+          "displayColumn": 0,
+          "displayRow": 2,
+          "complexity": 1,
+          "pageCount": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "potentia": 30,
+            "sensus": 20
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "parents": [
+            "thaumicconcilium:THAUMATURGES"
+          ],
+          "parentsHidden": [
+            "FOCUSFIRE",
+            "INFUSION"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:signal_focus",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:IMPULSEFOCI",
+          "category": "CONCILIUM",
+          "displayColumn": 2,
+          "displayRow": 6,
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "potentia": 30,
+            "forbidden_magic:ira": 20,
+            "ignis": 30
+          },
+          "isLost": true,
+          "parents": [
+            "thaumicconcilium:SIGNALFOCI"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:impulse_focus",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:POSITIVEBURSTFOCI",
+          "category": "CONCILIUM",
+          "displayColumn": 0,
+          "displayRow": 4,
+          "complexity": 3,
+          "pageCount": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "sano": 20,
+            "auram": 15,
+            "humanus": 20
+          },
+          "isLost": true,
+          "isConcealed": true,
+          "parents": [
+            "thaumicconcilium:SIGNALFOCI"
+          ],
+          "parentsHidden": [
+            "thaumic_tinkerer:FOCUS_HEAL"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:positive_burst_focus",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:NETHER_MEMBRANE",
+          "category": "CONCILIUM",
+          "displayColumn": 3,
+          "displayRow": -2,
+          "complexity": 0,
+          "pageCount": 1,
+          "aspects": {
+            "corpus": 4,
+            "forbidden_magic:infernus": 4,
+            "tutamen": 4,
+            "pannus": 4
+          },
+          "isSecondary": true,
+          "isLost": true,
+          "itemTriggers": [
+            {
+              "item": "thaumicconcilium:nether_membrane",
+              "count": 1
+            }
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:nether_membrane",
+            "count": 1
+          },
+          "entityTriggers": [
+            "ThaumicConcilium.NetherExplorer"
+          ]
+        },
+        {
+          "key": "thaumicconcilium:VISCONDENSER",
+          "category": "CONCILIUM",
+          "displayColumn": -13,
+          "displayRow": -1,
+          "complexity": 1,
+          "pageCount": 3,
+          "aspects": {
+            "praecantatio": 4,
+            "potentia": 4,
+            "auram": 8,
+            "machina": 4
+          },
+          "parents": [
+            "thaumicconcilium:DEMATUPGRADE"
+          ],
+          "parentsHidden": [
+            "NODESTABILIZERADV"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:vis_condenser",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:HEXOFPREDICTABILITY",
+          "category": "CONCILIUM",
+          "displayColumn": -12,
+          "displayRow": 1,
+          "complexity": 3,
+          "pageCount": 3,
+          "aspects": {
+            "ordo": 15,
+            "terra": 30,
+            "vinculum": 15,
+            "praecantatio": 30
+          },
+          "warp": 2,
+          "isConcealed": true,
+          "isSpecial": true,
+          "parents": [
+            "thaumicconcilium:VISCONDENSER"
+          ],
+          "parentsHidden": [
+            "OUTERREV"
+          ],
+          "icon_resource": "thaumicconcilium:textures/misc/hex.png",
+          "siblings": [
+            "thaumicconcilium:ASTRALMONITOR"
+          ]
+        },
+        {
+          "key": "thaumicconcilium:ASTRALMONITOR",
+          "category": "CONCILIUM",
+          "displayColumn": -12,
+          "displayRow": 3,
+          "complexity": 3,
+          "pageCount": 4,
+          "aspects": {
+            "sensus": 15,
+            "vitreus": 30,
+            "instrumentum": 15,
+            "spiritus": 30,
+            "vacuos": 10
+          },
+          "isConcealed": true,
+          "parents": [
+            "thaumicconcilium:HEXOFPREDICTABILITY"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:astral_monitor",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:LITHOGRAPHER",
+          "category": "CONCILIUM",
+          "displayColumn": -13,
+          "displayRow": 5,
+          "complexity": 3,
+          "pageCount": 4,
+          "aspects": {
+            "sensus": 15,
+            "machina": 10,
+            "vacuos": 10,
+            "alienis": 10
+          },
+          "warp": 2,
+          "isConcealed": true,
+          "parents": [
+            "thaumicconcilium:ASTRALMONITOR"
+          ],
+          "parentsHidden": [
+            "ADVALCHEMYFURNACE"
+          ],
+          "icon_resource": "thaumicconcilium:textures/misc/lithographer.png"
+        },
+        {
+          "key": "thaumicconcilium:BURDENINGAMULET",
+          "category": "CONCILIUM",
+          "isConcealed": true,
+          "warp": 3,
+          "icon_item": {
+            "item": "thaumicconcilium:burdening_amulet",
+            "count": 1
+          },
+          "displayColumn": 7,
+          "displayRow": -5,
+          "complexity": 2,
+          "pageCount": 4,
+          "aspects": {
+            "alienis": 20,
+            "tutamen": 30,
+            "sensus": 30,
+            "mortuus": 30,
+            "forbidden_magic:invidia": 10
+          },
+          "parents": [
+            "thaumicconcilium:TIGHTBELT"
+          ],
+          "parentsHidden": [
+            "SINSTONE"
+          ]
+        },
+        {
+          "key": "thaumicconcilium:RINGOFBLUSTERINGLIGHT",
+          "category": "CONCILIUM",
+          "isConcealed": true,
+          "warp": 3,
+          "icon_item": {
+            "item": "thaumicconcilium:ring_of_blustering_light",
+            "count": 1
+          },
+          "displayColumn": -12,
+          "displayRow": 9,
+          "complexity": 3,
+          "pageCount": 3,
+          "aspects": {
+            "potentia": 30,
+            "tutamen": 30,
+            "lux": 30,
+            "praecantatio": 20,
+            "forbidden_magic:superbia": 20
+          },
+          "parents": [
+            "thaumicconcilium:PRIMORDIALLIFE"
+          ],
+          "parentsHidden": [
+            "PRIMPEARL",
+            "RUNICCHARGED",
+            "thaumic_tinkerer:ICHOR"
+          ]
+        },
+        {
+          "key": "thaumicconcilium:THAUMDRUM",
+          "category": "CONCILIUM",
+          "displayColumn": -6,
+          "displayRow": 7,
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "sensus": 10,
+            "auram": 20,
+            "victus": 10
+          },
+          "isHidden": true,
+          "parents": [
+            "thaumicconcilium:VISCONDUCTOR"
+          ],
+          "itemTriggers": [
+            {
+              "item": "minecraft:note_block",
+              "count": 1
+            }
+          ],
+          "entityTriggers": [
+            "Thaumcraft.Wisp"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:thaumaturge_drum",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:WARPDRUM",
+          "category": "CONCILIUM",
+          "displayColumn": -5,
+          "displayRow": 7,
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "sensus": 10,
+            "cognitio": 20,
+            "victus": 10,
+            "perditio": 10,
+            "bestia": 10
+          },
+          "isConcealed": true,
+          "warp": 3,
+          "parents": [
+            "thaumicconcilium:THAUMDRUM"
+          ],
+          "parentsHidden": [
+            "thaumicconcilium:HEXOFPREDICTABILITY"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:warped_drum",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:BRIGHTESTONE",
+          "category": "CONCILIUM",
+          "displayColumn": -10,
+          "displayRow": 4,
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "potentia": 10,
+            "auram": 20,
+            "victus": 10,
+            "forbidden_magic:superbia": 10
+          },
+          "isConcealed": true,
+          "isRound": true,
+          "parents": [
+            "thaumicconcilium:HEXOFPREDICTABILITY"
+          ],
+          "parentsHidden": [
+            "thaumicconcilium:THAUMDRUM"
+          ],
+          "icon_resource": "thaumicconcilium:textures/misc/brightest.png"
+        },
+        {
+          "key": "thaumicconcilium:PRIMORDIALLIFE",
+          "category": "CONCILIUM",
+          "displayColumn": -12,
+          "displayRow": 7,
+          "complexity": 2,
+          "pageCount": 1,
+          "aspects": {
+            "potentia": 10,
+            "auram": 20,
+            "victus": 10,
+            "forbidden_magic:superbia": 10
+          },
+          "isSecondary": true,
+          "isSpecial": true,
+          "isLost": true,
+          "warp": 3,
+          "parents": [
+            "thaumicconcilium:BRIGHTESTONE"
+          ],
+          "itemTriggers": [
+            {
+              "item": "thaumicconcilium:primordial_life",
+              "count": 1
+            }
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:primordial_life",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:ETHEREALMANIPULATOR",
+          "category": "CONCILIUM",
+          "displayColumn": -14,
+          "displayRow": 1,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "auram": 10,
+            "cognitio": 10,
+            "motus": 10
+          },
+          "pageCount": 3,
+          "parents": [
+            "thaumicconcilium:HEXOFPREDICTABILITY"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:ethereal_manipulator_focus",
+            "count": 1
+          },
+          "parentsHidden": [
+            "thaumic_tinkerer:FOCUS_TELEKINESIS"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:SPOTLIGHTFOCI",
+          "category": "CONCILIUM",
+          "displayColumn": -10,
+          "displayRow": 10,
+          "complexity": 2,
+          "aspects": {
+            "lux": 20,
+            "telum": 30,
+            "ordo": 10,
+            "potentia": 20
+          },
+          "pageCount": 3,
+          "parents": [
+            "thaumicconcilium:RINGOFBLUSTERINGLIGHT"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:spotlight_focus",
+            "count": 1
+          },
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:WARPEXTRACTIONFOCI",
+          "category": "CONCILIUM",
+          "displayColumn": -14,
+          "displayRow": 10,
+          "complexity": 3,
+          "aspects": {
+            "alienis": 20,
+            "permutatio": 30,
+            "potentia": 10,
+            "instrumentum": 15,
+            "cognitio": 20
+          },
+          "pageCount": 4,
+          "parents": [
+            "thaumicconcilium:RINGOFBLUSTERINGLIGHT"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:warp_extraction_focus",
+            "count": 1
+          },
+          "parentsHidden": [
+            "FOCUSPRIMAL",
+            "PRIMPEARL",
+            "thaumicconcilium:REFLECTIONFOCI"
+          ],
+          "warp": 5,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:WRATHATTRACTION",
+          "category": "CONCILIUM",
+          "displayColumn": 0,
+          "displayRow": 8,
+          "complexity": 3,
+          "aspects": {
+            "forbidden_magic:ira": 20,
+            "bestia": 15,
+            "sensus": 15,
+            "fames": 30
+          },
+          "pageCount": 3,
+          "parents": [
+            "thaumicconcilium:DESTCRYSTAL"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:wrath_attraction_focus",
+            "count": 1
+          },
+          "warp": 3
+        },
+        {
+          "key": "thaumicconcilium:TAINTANIMATION",
+          "category": "CONCILIUM",
+          "displayColumn": 3,
+          "displayRow": 8,
+          "complexity": 3,
+          "aspects": {
+            "vitium": 20,
+            "victus": 20,
+            "corpus": 20,
+            "telum": 10
+          },
+          "pageCount": 4,
+          "parents": [
+            "thaumicconcilium:DESTCRYSTAL"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:taint_animation_focus",
+            "count": 1
+          },
+          "parentsHidden": [
+            "thaumicconcilium:BOTTLEOFTHICKTAINT",
+            "FOCUSHELLBAT",
+            "forbidden_magic:TAINTSHOVEL"
+          ],
+          "warp": 4
+        },
+        {
+          "key": "thaumicconcilium:SCRIBINGFOCI",
+          "category": "CONCILIUM",
+          "displayColumn": 5,
+          "displayRow": -2,
+          "complexity": 3,
+          "aspects": {
+            "tutamen": 25,
+            "potentia": 25,
+            "praecantatio": 30,
+            "instrumentum": 15,
+            "humanus": 20
+          },
+          "pageCount": 3,
+          "parents": [
+            "thaumicconcilium:RUNICWINDINGS"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:scribing_focus",
+            "count": 1
+          },
+          "parentsHidden": [
+            "thaumicconcilium:DESTCRYSTAL",
+            "FOCUSWARDING",
+            "thaumic_tinkerer:BRIGHT_NITOR"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:ALCHEMISTSPREE",
+          "category": "CONCILIUM",
+          "displayColumn": -12,
+          "displayRow": 11,
+          "complexity": 3,
+          "aspects": {
+            "permutatio": 30,
+            "fabrico": 10,
+            "praecantatio": 20,
+            "telum": 10
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:RINGOFBLUSTERINGLIGHT"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:alchemist_spree_focus",
+            "count": 1
+          },
+          "parentsHidden": [
+            "ADVALCHEMYFURNACE",
+            "THAUMATORIUM"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:SHARDMILL",
+          "category": "CONCILIUM",
+          "displayColumn": 0,
+          "displayRow": -3,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 16,
+            "vitreus": 16,
+            "perditio": 4,
+            "praecantatio": 4
+          },
+          "pageCount": 4,
+          "parents": [
+            "thaumicconcilium:THAUMATURGES"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:shard_mill",
+            "count": 1
+          },
+          "parentsHidden": [
+            "ROD_greatwood",
+            "FOCUSFIRE"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:SILVERWOODSHARDMILL",
+          "category": "CONCILIUM",
+          "displayColumn": 1,
+          "displayRow": -4,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 16,
+            "vitreus": 16,
+            "ordo": 4,
+            "praecantatio": 4
+          },
+          "pageCount": 5,
+          "parents": [
+            "thaumicconcilium:SHARDMILL"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:silverwood_shard_mill",
+            "count": 1
+          },
+          "parentsHidden": [
+            "ROD_silverwood"
+          ],
+          "warp": 1,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:DUMPJACKBOOTS",
+          "category": "CONCILIUM",
+          "displayColumn": -2,
+          "displayRow": 9,
+          "complexity": 2,
+          "aspects": {
+            "tutamen": 20,
+            "fabrico": 10,
+            "terra": 10,
+            "machina": 5
+          },
+          "pageCount": 3,
+          "parents": [
+            "thaumicconcilium:DESTCRYSTAL"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:dump_jackboots",
+            "count": 1
+          },
+          "parentsHidden": [
+            "BOOTSTRAVELLER"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:QUICKSILVERCRUCIBLE",
+          "category": "CONCILIUM",
+          "displayColumn": -14,
+          "displayRow": 3,
+          "complexity": 2,
+          "aspects": {
+            "humanus": 10,
+            "permutatio": 10,
+            "metallum": 10,
+            "praecantatio": 10,
+            "corpus": 10
+          },
+          "pageCount": 3,
+          "parents": [],
+          "isConcealed": true,
+          "isHidden": true,
+          "entityTriggers": [
+            "ThaumicConcilium.QuicksilverElemental"
+          ],
+          "warp": 3,
+          "icon_item": {
+            "item": "thaumicconcilium:quicksilver_crucible",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:FLESHCRUCIBLE",
+          "category": "CONCILIUM",
+          "displayColumn": -8,
+          "displayRow": 12,
+          "complexity": 3,
+          "aspects": {
+            "humanus": 8,
+            "vacuos": 8,
+            "corpus": 8,
+            "permutatio": 8,
+            "ignis": 8
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:MATERIALPEELER"
+          ],
+          "parentsHidden": [
+            "thaumicconcilium:QUICKSILVERCRUCIBLE"
+          ],
+          "isConcealed": true,
+          "warp": 4,
+          "icon_item": {
+            "item": "thaumicconcilium:flesh_crucible",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:PROTOBODY",
+          "category": "CONCILIUM",
+          "displayColumn": -8,
+          "displayRow": 13,
+          "complexity": 3,
+          "aspects": {
+            "humanus": 8,
+            "vacuos": 8,
+            "corpus": 8,
+            "alienis": 8,
+            "fabrico": 8
+          },
+          "pageCount": 4,
+          "parents": [
+            "thaumicconcilium:FLESHCRUCIBLE"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "warp": 4,
+          "icon_item": {
+            "item": "thaumicconcilium:protobody",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:SOLIDVOID",
+          "category": "CONCILIUM",
+          "displayColumn": -8,
+          "displayRow": 14,
+          "complexity": 3,
+          "aspects": {
+            "vacuos": 8,
+            "vitreus": 8,
+            "alienis": 8,
+            "fabrico": 8
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:PROTOBODY"
+          ],
+          "isRound": true,
+          "isLost": true,
+          "icon_item": {
+            "item": "thaumicconcilium:solid_void",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:TCHORIZONS",
+          "category": "CONCILIUM",
+          "displayColumn": 7,
+          "displayRow": -1,
+          "complexity": 1,
+          "aspects": {
+            "praecantatio": 8,
+            "humanus": 8
+          },
+          "pageCount": 1,
+          "parents": [
+            "thaumicconcilium:THAUMATURGES"
+          ],
+          "parentsHidden": [],
+          "warp": 0,
+          "icon_item": {
+            "item": "thaumichorizons:vat",
+            "count": 1
+          },
+          "isRound": true
+        },
+        {
+          "key": "thaumicconcilium:DRAINAGESYRINGE",
+          "category": "CONCILIUM",
+          "displayColumn": 9,
+          "displayRow": 0,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 8,
+            "vacuos": 8,
+            "limus": 8,
+            "fames": 8
+          },
+          "pageCount": 3,
+          "parents": [
+            "thaumicconcilium:TCHORIZONS"
+          ],
+          "parentsHidden": [
+            "ESSENTIARESERVOIR"
+          ],
+          "warp": 3,
+          "icon_item": {
+            "item": "thaumicconcilium:drainage_syringe",
+            "count": 1
+          },
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:BRAINLITTERING",
+          "category": "CONCILIUM",
+          "displayColumn": 8,
+          "displayRow": 2,
+          "complexity": 2,
+          "aspects": {
+            "cognitio": 8,
+            "perditio": 8,
+            "alienis": 8,
+            "humanus": 8
+          },
+          "pageCount": 3,
+          "parents": [
+            "thaumicconcilium:TCHORIZONS"
+          ],
+          "parentsHidden": [],
+          "warp": 5,
+          "isConcealed": true,
+          "icon_resource": "thaumicconcilium:textures/misc/brain_littering.png"
+        },
+        {
+          "key": "thaumicconcilium:REDPOWEREDMIND",
+          "category": "CONCILIUM",
+          "displayColumn": 9,
+          "displayRow": 4,
+          "complexity": 3,
+          "aspects": {
+            "cognitio": 10,
+            "machina": 10,
+            "vitreus": 10,
+            "sensus": 10
+          },
+          "pageCount": 3,
+          "parents": [
+            "thaumicconcilium:BRAINLITTERING",
+            "LIQUIDDEATH",
+            "ELDRITCHMINOR"
+          ],
+          "parentsHidden": [],
+          "warp": 5,
+          "icon_item": {
+            "item": "thaumicconcilium:entity_icon_red_powered_mind",
+            "count": 1
+          },
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:TCGADOMANCY",
+          "category": "CONCILIUM",
+          "displayColumn": -5,
+          "displayRow": 1,
+          "complexity": 1,
+          "aspects": {
+            "instrumentum": 8,
+            "auram": 8
+          },
+          "pageCount": 1,
+          "parents": [
+            "thaumicconcilium:THAUMATURGES"
+          ],
+          "parentsHidden": [],
+          "icon_item": {
+            "item": "gadomancy:category_icon",
+            "count": 1
+          },
+          "isRound": true
+        },
+        {
+          "key": "thaumicconcilium:RIFTGEM",
+          "category": "CONCILIUM",
+          "displayColumn": -9,
+          "displayRow": 2,
+          "complexity": 2,
+          "aspects": {
+            "vitreus": 8,
+            "auram": 8,
+            "vacuos": 8,
+            "iter": 8
+          },
+          "pageCount": 6,
+          "parents": [
+            "thaumicconcilium:TCGADOMANCY",
+            "thaumicconcilium:HEXOFPREDICTABILITY"
+          ],
+          "parentsHidden": [
+            "WARDEDARCANA"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:rift_gem",
+            "count": 1
+          },
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:TERRACAST",
+          "category": "CONCILIUM",
+          "displayColumn": -9,
+          "displayRow": 0,
+          "complexity": 2,
+          "aspects": {
+            "vitreus": 8,
+            "auram": 8,
+            "terra": 8,
+            "iter": 8
+          },
+          "pageCount": 4,
+          "parents": [
+            "thaumicconcilium:TCGADOMANCY",
+            "thaumicconcilium:HEXOFPREDICTABILITY",
+            "thaumicconcilium:RIFTGEM"
+          ],
+          "parentsHidden": [
+            "WARDEDARCANA"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:terra_cast_gem",
+            "count": 1
+          },
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:VALETCORE",
+          "category": "CONCILIUM",
+          "displayColumn": -7,
+          "displayRow": -1,
+          "complexity": 2,
+          "aspects": {
+            "humanus": 8,
+            "forbidden_magic:superbia": 8,
+            "machina": 8
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:TCGADOMANCY"
+          ],
+          "parentsHidden": [
+            "COREUSE",
+            "ARCANEEAR"
+          ],
+          "warp": 0,
+          "icon_item": {
+            "item": "thaumicconcilium:valet_core",
+            "count": 1
+          },
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:ASSISTANCECORE",
+          "category": "CONCILIUM",
+          "displayColumn": -7,
+          "displayRow": 3,
+          "complexity": 2,
+          "aspects": {
+            "humanus": 8,
+            "vinculum": 8,
+            "bestia": 8
+          },
+          "pageCount": 5,
+          "parents": [
+            "thaumicconcilium:TCGADOMANCY"
+          ],
+          "parentsHidden": [
+            "COREALCHEMY",
+            "COREBUTCHER"
+          ],
+          "warp": 1,
+          "icon_item": {
+            "item": "thaumicconcilium:assistance_core",
+            "count": 1
+          },
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:BUFFGOLEM",
+          "category": "CONCILIUM",
+          "displayColumn": 7,
+          "displayRow": 5,
+          "complexity": 1,
+          "aspects": {
+            "humanus": 8,
+            "potentia": 8,
+            "metallum": 8,
+            "alienis": 8
+          },
+          "pageCount": 7,
+          "parents": [
+            "thaumicconcilium:BRAINLITTERING"
+          ],
+          "parentsHidden": [
+            "GOLEMTHAUMIUM",
+            "GOLEMFETTER"
+          ],
+          "warp": 5,
+          "icon_item": {
+            "item": "thaumicconcilium:entity_icon_golem_bydlo",
+            "count": 1
+          },
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicconcilium:DOPESQUID",
+          "category": "CONCILIUM",
+          "displayColumn": 11,
+          "displayRow": -2,
+          "complexity": 2,
+          "aspects": {
+            "herba": 10,
+            "bestia": 10,
+            "praecantatio": 10,
+            "humanus": 10,
+            "volatus": 10
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:TCHORIZONS"
+          ],
+          "parentsHidden": [],
+          "warp": 1,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumicconcilium:entity_icon_dope_squid",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:TCTAINTEDMAGIC",
+          "category": "CONCILIUM",
+          "displayColumn": -6,
+          "displayRow": 5,
+          "complexity": 1,
+          "aspects": {
+            "praecantatio": 8,
+            "vitium": 8
+          },
+          "parents": [
+            "thaumicconcilium:THAUMATURGES"
+          ],
+          "parentsHidden": [],
+          "warp": 3,
+          "pageCount": 1,
+          "isRound": true,
+          "icon_resource": "taintedmagic:textures/misc/tab_tm.png"
+        },
+        {
+          "key": "thaumicconcilium:CRIMSONANNALES",
+          "category": "CONCILIUM",
+          "displayColumn": -8,
+          "displayRow": 6,
+          "complexity": 1,
+          "aspects": {
+            "humanus": 8,
+            "victus": 8
+          },
+          "parents": [
+            "thaumicconcilium:TCTAINTEDMAGIC"
+          ],
+          "parentsHidden": [
+            "CRIMSON"
+          ],
+          "warp": 3,
+          "pageCount": 2,
+          "isLost": true,
+          "isRound": true,
+          "icon_item": {
+            "item": "thaumicconcilium:crimson_annales",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:CRIMSONPONTIFEX",
+          "category": "CONCILIUM",
+          "displayColumn": -8,
+          "displayRow": 8,
+          "complexity": 1,
+          "aspects": {
+            "humanus": 8,
+            "victus": 8,
+            "forbidden_magic:superbia": 8,
+            "vacuos": 8,
+            "alienis": 8
+          },
+          "parents": [
+            "thaumicconcilium:CRIMSONANNALES"
+          ],
+          "parentsHidden": [
+            "thaumicconcilium:BRIGHTESTONE"
+          ],
+          "warp": 2,
+          "pageCount": 1,
+          "isRound": true,
+          "isConcealed": true,
+          "icon_resource": "thaumicconcilium:textures/misc/pontifex.png"
+        },
+        {
+          "key": "thaumicconcilium:PONTIFEXROBE",
+          "category": "CONCILIUM",
+          "displayColumn": -7,
+          "displayRow": 11,
+          "complexity": 1,
+          "aspects": {
+            "humanus": 8,
+            "victus": 8,
+            "forbidden_magic:superbia": 8,
+            "tutamen": 8,
+            "fabrico": 8
+          },
+          "parents": [
+            "thaumicconcilium:CRIMSONPONTIFEX",
+            "thaumicconcilium:MATERIALPEELER"
+          ],
+          "parentsHidden": [],
+          "warp": 2,
+          "pageCount": 3,
+          "isLost": true,
+          "icon_item": {
+            "item": "thaumicconcilium:pontifex_helmet",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:CRIMSONINITIATION",
+          "category": "CONCILIUM",
+          "displayColumn": -6,
+          "displayRow": 12,
+          "complexity": 1,
+          "aspects": {
+            "humanus": 8,
+            "victus": 8,
+            "permutatio": 8,
+            "cognitio": 8
+          },
+          "parents": [
+            "thaumicconcilium:PONTIFEXROBE"
+          ],
+          "parentsHidden": [],
+          "warp": 3,
+          "pageCount": 1,
+          "isRound": true,
+          "isConcealed": true,
+          "icon_resource": "thaumicconcilium:textures/misc/crimson_initiation.png",
+          "siblings": [
+            "thaumicconcilium:CRIMSONRAID"
+          ]
+        },
+        {
+          "key": "thaumicconcilium:PONTIFEXHAMMER",
+          "category": "CONCILIUM",
+          "displayColumn": -6,
+          "displayRow": 10,
+          "complexity": 1,
+          "aspects": {
+            "humanus": 8,
+            "victus": 8,
+            "forbidden_magic:superbia": 8,
+            "telum": 8,
+            "fames": 8
+          },
+          "parents": [
+            "thaumicconcilium:CRIMSONPONTIFEX"
+          ],
+          "parentsHidden": [],
+          "warp": 2,
+          "pageCount": 2,
+          "isLost": true,
+          "icon_item": {
+            "item": "thaumicconcilium:pontifex_hammer",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:CRIMSONRAID",
+          "category": "CONCILIUM",
+          "displayColumn": -5,
+          "displayRow": 13,
+          "complexity": 1,
+          "aspects": {
+            "humanus": 8,
+            "telum": 8,
+            "alienis": 8,
+            "iter": 8
+          },
+          "parents": [
+            "thaumicconcilium:CRIMSONINITIATION"
+          ],
+          "pageCount": 1,
+          "warp": 3,
+          "isRound": true,
+          "isConcealed": true,
+          "icon_resource": "thaumicconcilium:textures/icon/skill/crimson_raid.png"
+        },
+        {
+          "key": "thaumicconcilium:CRIMSONSPELLS",
+          "category": "CONCILIUM",
+          "displayColumn": -5,
+          "displayRow": 9,
+          "complexity": 1,
+          "aspects": {
+            "humanus": 8,
+            "victus": 8,
+            "cognitio": 8,
+            "praecantatio": 8,
+            "telum": 8
+          },
+          "parents": [
+            "thaumicconcilium:CRIMSONPONTIFEX"
+          ],
+          "pageCount": 2,
+          "warp": 1,
+          "icon_item": {
+            "item": "thaumcraft:crimson_rites",
+            "count": 1
+          },
+          "isLost": true
+        },
+        {
+          "key": "thaumicconcilium:THAUMICCONCILIUM",
+          "category": "CONCILIUM",
+          "displayColumn": -2,
+          "displayRow": 2,
+          "complexity": 1,
+          "aspects": {
+            "cognitio": 5,
+            "alienis": 10,
+            "humanus": 15
+          },
+          "pageCount": 26,
+          "parents": [
+            "thaumicconcilium:THAUMATURGES"
+          ],
+          "isLost": true,
+          "isRound": true,
+          "isConcealed": true,
+          "warp": 1,
+          "icon_resource": "thaumicconcilium:textures/category.png",
+          "entityTriggers": [
+            "ThaumicConcilium.Overanimated",
+            "ThaumicConcilium.VengefulGolem",
+            "ThaumicConcilium.Dissolved",
+            "ThaumicConcilium.Samurai",
+            "ThaumicConcilium.QuicksilverElemental",
+            "ThaumicConcilium.CrimsonPaladin",
+            "ThaumicConcilium.WitheredBotanist",
+            "ThaumicConcilium.NetherExplorer",
+            "ThaumicConcilium.Chort",
+            "ThaumicConcilium.SloppyAlchemist",
+            "ThaumicConcilium.CrimsonArcher",
+            "ThaumicConcilium.CrimsonRanger",
+            "ThaumicConcilium.BurnedWitch"
+          ]
+        },
+        {
+          "key": "thaumicconcilium:TCAUTOMAGY",
+          "category": "CONCILIUM",
+          "displayColumn": 20,
+          "displayRow": 20,
+          "complexity": 1,
+          "aspects": {
+            "machina": 8,
+            "cognitio": 8
+          },
+          "isVirtual": true,
+          "isAutoUnlock": true,
+          "pageCount": 0,
+          "icon_item": {
+            "item": "minecraft:dirt",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:TCDYES",
+          "category": "CONCILIUM",
+          "displayColumn": 20,
+          "displayRow": 22,
+          "complexity": 1,
+          "aspects": {
+            "sensus": 8,
+            "humanus": 8
+          },
+          "isVirtual": true,
+          "isAutoUnlock": true,
+          "pageCount": 0,
+          "icon_item": {
+            "item": "minecraft:dirt",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:TCBOTANIA",
+          "category": "CONCILIUM",
+          "displayColumn": 20,
+          "displayRow": 23,
+          "complexity": 1,
+          "aspects": {
+            "sensus": 8,
+            "humanus": 8
+          },
+          "isVirtual": true,
+          "isAutoUnlock": true,
+          "pageCount": 0,
+          "icon_item": {
+            "item": "minecraft:dirt",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:TCWITCHERY",
+          "category": "CONCILIUM",
+          "displayColumn": 20,
+          "displayRow": 24,
+          "complexity": 1,
+          "aspects": {
+            "praecantatio": 8,
+            "humanus": 8
+          },
+          "isVirtual": true,
+          "isAutoUnlock": true,
+          "pageCount": 0,
+          "icon_item": {
+            "item": "minecraft:dirt",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:TCWITCHERYBM",
+          "category": "CONCILIUM",
+          "displayColumn": 20,
+          "displayRow": 25,
+          "complexity": 1,
+          "aspects": {
+            "praecantatio": 8,
+            "humanus": 8
+          },
+          "isVirtual": true,
+          "isAutoUnlock": true,
+          "pageCount": 0,
+          "icon_item": {
+            "item": "minecraft:dirt",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:MATERIALPEELER",
+          "category": "CONCILIUM",
+          "displayColumn": -8,
+          "displayRow": 10,
+          "complexity": 1,
+          "aspects": {
+            "humanus": 8,
+            "vacuos": 8,
+            "corpus": 8,
+            "permutatio": 8,
+            "ordo": 8
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:CRIMSONPONTIFEX"
+          ],
+          "parentsHidden": [],
+          "siblings": [
+            "thaumicconcilium:FLESHCRUCIBLE"
+          ],
+          "isLost": true,
+          "isRound": true,
+          "warp": 4,
+          "icon_resource": "thaumicconcilium:textures/misc/peeler.png"
+        },
+        {
+          "key": "thaumicconcilium:TCBASES",
+          "category": "CONCILIUM",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "complexity": 1,
+          "aspects": {
+            "praecantatio": 8,
+            "fabrico": 8
+          },
+          "pageCount": 1,
+          "parents": [
+            "thaumicconcilium:THAUMATURGES"
+          ],
+          "parentsHidden": [],
+          "isRound": true,
+          "icon_item": {
+            "item": "thaumicbases:bracelet_iron",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:LIVINGWOODBRACELET",
+          "category": "CONCILIUM",
+          "displayColumn": 2,
+          "displayRow": 1,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "arbor": 15,
+            "victus": 10
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:TCBASES"
+          ],
+          "parentsHidden": [
+            "forbidden_magic:ROD_livingwood",
+            "forbidden_magic:CAP_manasteel"
+          ],
+          "isConcealed": true,
+          "warp": 0,
+          "icon_item": {
+            "item": "thaumicconcilium:livingwood_bracelet",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:DREAMWOODBRACELET",
+          "category": "CONCILIUM",
+          "displayColumn": 2,
+          "displayRow": 2,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "arbor": 15,
+            "auram": 10
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:TCBASES",
+            "thaumicconcilium:LIVINGWOODBRACELET"
+          ],
+          "parentsHidden": [
+            "forbidden_magic:ROD_dreamwood",
+            "forbidden_magic:CAP_elementium"
+          ],
+          "isConcealed": true,
+          "warp": 0,
+          "icon_item": {
+            "item": "thaumicconcilium:dreamwood_bracelet",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:BLOODBRACELET",
+          "category": "CONCILIUM",
+          "displayColumn": 3,
+          "displayRow": 1,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "fames": 15,
+            "victus": 10
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:TCBASES"
+          ],
+          "parentsHidden": [
+            "forbidden_magic:ROD_blood",
+            "forbidden_magic:CAP_alchemical"
+          ],
+          "isConcealed": true,
+          "warp": 1,
+          "icon_item": {
+            "item": "thaumicconcilium:alchemist_bracelet",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:INFERNALBRACELET",
+          "category": "CONCILIUM",
+          "displayColumn": 4,
+          "displayRow": 2,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "forbidden_magic:infernus": 15,
+            "forbidden_magic:superbia": 10
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:TCBASES"
+          ],
+          "parentsHidden": [
+            "forbidden_magic:ROD_infernal",
+            "CAP_thaumium"
+          ],
+          "isConcealed": true,
+          "warp": 1,
+          "icon_item": {
+            "item": "thaumicconcilium:infernal_bracelet",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:TAINTEDBRACELET",
+          "category": "CONCILIUM",
+          "displayColumn": 3,
+          "displayRow": 3,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "vitium": 15,
+            "praecantatio": 10
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:TCBASES"
+          ],
+          "parentsHidden": [
+            "forbidden_magic:ROD_tainted",
+            "CAP_thaumium"
+          ],
+          "isConcealed": true,
+          "warp": 2,
+          "icon_item": {
+            "item": "thaumicconcilium:tainted_bracelet",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:WARPWOODBRACELET",
+          "category": "CONCILIUM",
+          "displayColumn": 4,
+          "displayRow": 3,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "arbor": 15,
+            "alienis": 10,
+            "tenebrae": 10,
+            "cognitio": 10
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:TCBASES"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "warp": 3,
+          "icon_item": {
+            "item": "thaumicconcilium:warpwood_bracelet",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:TERRASTEELBRACELET",
+          "category": "CONCILIUM",
+          "displayColumn": 2,
+          "displayRow": 3,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "metallum": 15,
+            "auram": 10
+          },
+          "pageCount": 2,
+          "parents": [
+            "thaumicconcilium:TCBASES"
+          ],
+          "parentsHidden": [
+            "forbidden_magic:CAP_terrasteel"
+          ],
+          "isConcealed": true,
+          "warp": 0,
+          "icon_item": {
+            "item": "thaumicconcilium:terrasteel_bracelet",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:ARS_SCHOOLS",
+          "category": "CONCILIUM",
+          "displayColumn": -12,
+          "displayRow": -1,
+          "complexity": 0,
+          "aspects": {},
+          "warp": 0,
+          "isRound": true,
+          "isStub": true,
+          "isAutoUnlock": true,
+          "pageCount": 1,
+          "icon_item": {
+            "item": "minecraft:enchanting_table",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumicconcilium:ROD_witchwood",
+          "category": "CONCILIUM",
+          "displayColumn": -12,
+          "displayRow": 1,
+          "complexity": 2,
+          "aspects": {
+            "praecantatio": 6,
+            "arbor": 5,
+            "cognitio": 4
+          },
+          "parents": [
+            "thaumicconcilium:ARS_SCHOOLS",
+            "ROD_silverwood",
+            "INFUSION"
+          ],
+          "pageCount": 2,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumicconcilium:witchwood_rod",
+            "count": 1
+          },
+          "warp": 2
+        },
+        {
+          "key": "thaumicconcilium:CAP_vinteum",
+          "category": "CONCILIUM",
+          "displayColumn": -13,
+          "displayRow": 3,
+          "complexity": 2,
+          "aspects": {
+            "praecantatio": 4,
+            "instrumentum": 1,
+            "potentia": 2
+          },
+          "parents": [
+            "thaumicconcilium:ROD_witchwood",
+            "CAP_thaumium"
+          ],
+          "pageCount": 2,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumicconcilium:vinteum_cap",
+            "count": 1
+          },
+          "isSecondary": true
+        },
+        {
+          "key": "thaumicconcilium:ROD_witchwood_staff",
+          "category": "CONCILIUM",
+          "displayColumn": -12,
+          "displayRow": 5,
+          "complexity": 2,
+          "aspects": {
+            "praecantatio": 8,
+            "cognitio": 7,
+            "instrumentum": 6
+          },
+          "parents": [
+            "ROD_silverwood_staff",
+            "thaumicconcilium:ROD_witchwood"
+          ],
+          "pageCount": 5,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumicconcilium:witchwood_staff",
+            "count": 1
+          },
+          "isSpecial": true
+        },
+        {
+          "key": "thaumicconcilium:WITCHWOODBRACELET",
+          "category": "CONCILIUM",
+          "displayColumn": 3,
+          "displayRow": 2,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "arbor": 15,
+            "praecantatio": 10
+          },
+          "parents": [
+            "thaumicconcilium:TCBASES"
+          ],
+          "pageCount": 2,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumicconcilium:witchwood_bracelet",
+            "count": 1
+          },
+          "parentsHidden": [
+            "thaumicconcilium:ROD_witchwood",
+            "thaumicconcilium:CAP_vinteum"
+          ]
+        }
+      ]
+    }
+  ]
+}

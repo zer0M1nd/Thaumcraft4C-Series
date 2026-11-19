@@ -1,0 +1,47 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gadomancy"
+    }
+  ],
+  "research": "thaumicconcilium:VALETCORE",
+  "instability": 8,
+  "aspects": {
+    "instrumentum": 32,
+    "machina": 16,
+    "sensus": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:golem_core_use"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:arcane_ear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mundane_amulet"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:valet_core",
+    "count": 1
+  }
+}

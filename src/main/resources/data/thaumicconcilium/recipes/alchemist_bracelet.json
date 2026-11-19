@@ -1,0 +1,75 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumicbases"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "forbidden_magic:wand_rod_blood"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "forbidden_magic:wand_cap_alchemical"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "bloodmagic:largebloodstonebrick"
+    }
+  ],
+  "research": "thaumicconcilium:BLOODBRACELET",
+  "instability": 5,
+  "aspects": {
+    "instrumentum": 32,
+    "fames": 128,
+    "victus": 64,
+    "praecantatio": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "forbidden_magic:wand_rod_blood"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wand_cap_alchemical"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "bloodmagic:largebloodstonebrick"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wand_cap_alchemical"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "bloodmagic:largebloodstonebrick"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:alchemist_bracelet",
+    "count": 1,
+    "nbt": "{\"rod\": \"forbidden_magic:blood_staff\", \"cap\": \"forbidden_magic:alchemical\"}"
+  }
+}

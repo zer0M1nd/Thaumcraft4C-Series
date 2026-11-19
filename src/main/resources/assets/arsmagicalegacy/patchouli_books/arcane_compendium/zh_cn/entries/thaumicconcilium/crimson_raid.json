@@ -1,0 +1,16 @@
+{
+  "category": "arsmagicalegacy:components",
+  "name": "skill.thaumicconcilium.crimson_raid.name",
+  "icon": "thaumicconcilium:crimson_annales",
+  "advancement": "thaumicconcilium:crimson_raid_skill",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "skill.thaumicconcilium.crimson_raid.description"
+    },
+    {
+      "type": "arsmagicalegacy:spell_part",
+      "part": "thaumicconcilium:crimson_raid"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    }
+  ],
+  "research": "thaumicconcilium:ROD_witchwood",
+  "instability": 5,
+  "aspects": {
+    "praecantatio": 16,
+    "terra": 9,
+    "aqua": 9,
+    "ignis": 9,
+    "aer": 9
+  },
+  "center": {
+    "ingredient": {
+      "item": "arsmagicalegacy:witchwood_log"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "type": "forge:partial_nbt",
+        "item": "arsmagicalegacy:affinity_essence",
+        "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:arcane\"}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "arsmagicalegacy:purified_vinteum_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:partial_nbt",
+        "item": "arsmagicalegacy:affinity_essence",
+        "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:earth\"}"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:partial_nbt",
+        "item": "arsmagicalegacy:affinity_essence",
+        "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:air\"}"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:partial_nbt",
+        "item": "arsmagicalegacy:affinity_essence",
+        "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:fire\"}"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:partial_nbt",
+        "item": "arsmagicalegacy:affinity_essence",
+        "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:water\"}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "arsmagicalegacy:sunstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "arsmagicalegacy:moonstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "arsmagicalegacy:arcane_ash"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:witchwood_rod",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "thaumicconcilium:chained_rift",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "taintedmagic"
+    }
+  ],
+  "research": "thaumicconcilium:PONTIFEXROBE",
+  "catalyst": {
+    "item": "thaumcraft:cultist_robe_leggings"
+  },
+  "aspects": {
+    "victus": 128,
+    "vacuos": 128,
+    "tutamen": 256,
+    "permutatio": 64,
+    "corpus": 256
+  },
+  "result": {
+    "item": "thaumicconcilium:pontifex_leggings"
+  }
+}

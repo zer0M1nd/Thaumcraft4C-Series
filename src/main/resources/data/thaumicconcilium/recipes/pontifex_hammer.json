@@ -1,0 +1,80 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "taintedmagic"
+    }
+  ],
+  "research": "thaumicconcilium:PONTIFEXHAMMER",
+  "instability": 7,
+  "aspects": {
+    "telum": 64,
+    "victus": 64,
+    "metallum": 128,
+    "forbidden_magic:superbia": 32,
+    "permutatio": 16,
+    "fames": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:crimson_sword"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:focus_mage_mace"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:crimson_alloy_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:staff_rod_greatwood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:crimson_alloy_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_block"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:pontifex_hammer",
+    "count": 1
+  }
+}

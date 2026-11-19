@@ -1,0 +1,98 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:ETHEREALMANIPULATOR",
+  "instability": 10,
+  "aspects": {
+    "instrumentum": 64,
+    "motus": 64,
+    "auram": 64,
+    "volatus": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:focus_telekinesis"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"auram\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:sugar"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"auram\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"aer\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"aer\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"motus\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:sugar"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"motus\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"volatus\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"volatus\",amount:2}]}"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:ethereal_manipulator_focus",
+    "count": 1
+  }
+}

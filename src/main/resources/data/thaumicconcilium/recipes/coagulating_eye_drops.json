@@ -1,0 +1,17 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicconcilium:LITHOGRAPHER",
+  "catalyst": {
+    "type": "forge:nbt",
+    "item": "thaumcraft:essentia_phial",
+    "nbt": "{Aspects:[{key:\"sensus\",amount:8}]}"
+  },
+  "aspects": {
+    "perditio": 4,
+    "sensus": 2,
+    "sano": 2
+  },
+  "result": {
+    "item": "thaumicconcilium:coagulating_eye_drops"
+  }
+}

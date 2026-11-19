@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicconcilium:VISCONDENSER",
+  "pattern": [
+    "GSG",
+    "BFB",
+    "BAB"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "B": {
+      "item": "minecraft:gold_block"
+    },
+    "A": {
+      "item": "thaumcraft:advanced_node_stabilizer"
+    },
+    "F": {
+      "type": "forge:partial_nbt",
+      "item": "thaumicconcilium:vis_conductor_focus",
+      "nbt": "{upgrade:[{key:\"thaumicconcilium:dematerialization\"}]}"
+    }
+  },
+  "vis": {
+    "perditio": 50,
+    "ordo": 50,
+    "aer": 10,
+    "ignis": 10
+  },
+  "result": {
+    "item": "thaumicconcilium:vis_condenser"
+  }
+}

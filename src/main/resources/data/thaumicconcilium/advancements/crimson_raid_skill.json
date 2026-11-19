@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "parent": "arsmagicalegacy:book/root",
+  "criteria": {
+    "knows": {
+      "trigger": "arsmagicalegacy:player_learned_skill",
+      "conditions": {
+        "skill": "thaumicconcilium:crimson_raid"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "knows"
+    ]
+  ]
+}
