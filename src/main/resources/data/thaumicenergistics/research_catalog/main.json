@@ -1,0 +1,405 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICENERGISTICS",
+      "icon": "thaumicenergistics:textures/research/tab.icon.png",
+      "background": "thaumicenergistics:textures/research/background.png",
+      "research": [
+        {
+          "key": "thaumicenergistics:START",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "pageCount": 1,
+          "icon_item": {
+            "item": "thaumicenergistics:diffusion_core"
+          },
+          "complexity": 0,
+          "isAutoUnlock": true,
+          "parents": [],
+          "aspects": {},
+          "isSecondary": false,
+          "isRound": true
+        },
+        {
+          "key": "thaumicenergistics:CORES",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": 0,
+          "displayRow": -2,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "thaumicenergistics:diffusion_core"
+          },
+          "complexity": 2,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:START",
+            "DISTILESSENTIA"
+          ],
+          "aspects": {
+            "limus": 3,
+            "praecantatio": 5,
+            "machina": 5,
+            "permutatio": 5
+          },
+          "isSecondary": false
+        },
+        {
+          "key": "thaumicenergistics:STORAGE",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": 0,
+          "displayRow": 2,
+          "pageCount": 28,
+          "icon_item": {
+            "item": "thaumicenergistics:essentia_cell_1k"
+          },
+          "complexity": 2,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:START",
+            "DISTILESSENTIA",
+            "WARDEDARCANA"
+          ],
+          "aspects": {
+            "vacuos": 5,
+            "potentia": 5,
+            "vitreus": 3,
+            "metallum": 3
+          },
+          "isSecondary": false
+        },
+        {
+          "key": "thaumicenergistics:IO",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": -2,
+          "displayRow": -2,
+          "pageCount": 1,
+          "icon_item": {
+            "item": "thaumicenergistics:coalescence_core"
+          },
+          "complexity": 2,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:CORES",
+            "TUBEFILTER"
+          ],
+          "aspects": {
+            "machina": 5,
+            "metallum": 3,
+            "vitreus": 3,
+            "aer": 3
+          },
+          "isSecondary": false,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicenergistics:ARCANE_TERMINAL",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": 2,
+          "displayRow": -1,
+          "pageCount": 5,
+          "icon_item": {
+            "item": "thaumicenergistics:arcane_terminal"
+          },
+          "complexity": 1,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:START"
+          ],
+          "aspects": {
+            "fabrico": 5,
+            "potentia": 3,
+            "machina": 3,
+            "vacuos": 3
+          },
+          "isSecondary": false
+        },
+        {
+          "key": "thaumicenergistics:ESSENTIA_PROVIDER",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": -2,
+          "displayRow": -4,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumicenergistics:essentia_provider"
+          },
+          "complexity": 3,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:IO",
+            "INFUSION",
+            "TUBEFILTER"
+          ],
+          "aspects": {
+            "machina": 3,
+            "praecantatio": 5,
+            "ordo": 3,
+            "sensus": 7
+          },
+          "isSecondary": false,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicenergistics:INFUSION_PROVIDER",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": -5,
+          "displayRow": -2,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumicenergistics:infusion_provider"
+          },
+          "complexity": 3,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:IO",
+            "MIRROR",
+            "INFUSION"
+          ],
+          "aspects": {
+            "machina": 3,
+            "praecantatio": 3,
+            "permutatio": 7,
+            "motus": 7,
+            "sensus": 5
+          },
+          "isSecondary": false,
+          "isConcealed": true,
+          "isSpecial": true
+        },
+        {
+          "key": "thaumicenergistics:IRON_GEARBOX",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": 4,
+          "displayRow": -5,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "thaumicenergistics:iron_gearbox"
+          },
+          "complexity": 1,
+          "isAutoUnlock": false,
+          "parents": [],
+          "aspects": {
+            "machina": 6,
+            "metallum": 4,
+            "permutatio": 4
+          },
+          "isSecondary": true
+        },
+        {
+          "key": "thaumicenergistics:THAUMIUM_GEARBOX",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": 4,
+          "displayRow": -6,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumicenergistics:thaumium_gearbox"
+          },
+          "complexity": 1,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:IRON_GEARBOX",
+            "COREUSE"
+          ],
+          "aspects": {
+            "machina": 10,
+            "praecantatio": 8,
+            "metallum": 5
+          },
+          "isSecondary": true
+        },
+        {
+          "key": "thaumicenergistics:QUARTZ",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": -5,
+          "displayRow": -5,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "ae2:certus_quartz_crystal"
+          },
+          "complexity": 1,
+          "isAutoUnlock": false,
+          "parents": [
+            "ALCHEMICALDUPLICATION"
+          ],
+          "aspects": {
+            "vitreus": 5
+          },
+          "isSecondary": true,
+          "isConcealed": true,
+          "itemTriggers": [
+            {
+              "item": "ae2:certus_quartz_crystal"
+            }
+          ]
+        },
+        {
+          "key": "thaumicenergistics:VIS",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": 4,
+          "displayRow": -1,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumicenergistics:vis_interface"
+          },
+          "complexity": 2,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:ARCANE_TERMINAL",
+            "VISPOWER"
+          ],
+          "aspects": {
+            "auram": 5,
+            "potentia": 4,
+            "vacuos": 3,
+            "machina": 2
+          },
+          "isSecondary": false
+        },
+        {
+          "key": "thaumicenergistics:ARCANE_ASSEMBLER",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": 6,
+          "displayRow": -1,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumicenergistics:arcane_assembler"
+          },
+          "complexity": 3,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:VIS",
+            "SCEPTRE",
+            "thaumicenergistics:START"
+          ],
+          "aspects": {
+            "fabrico": 5,
+            "machina": 3,
+            "cognitio": 3,
+            "permutatio": 3,
+            "auram": 3,
+            "lucrum": 3
+          },
+          "isSecondary": false,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicenergistics:KNOWLEDGE_INSCRIBER",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": 6,
+          "displayRow": 0,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "thaumicenergistics:knowledge_inscriber"
+          },
+          "complexity": 1,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:ARCANE_ASSEMBLER"
+          ],
+          "aspects": {
+            "cognitio": 5,
+            "machina": 3,
+            "fabrico": 3,
+            "permutatio": 1
+          },
+          "isSecondary": true,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicenergistics:TOOLS",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": -3,
+          "displayRow": -7,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumicenergistics:wrench_focus"
+          },
+          "complexity": 1,
+          "isAutoUnlock": false,
+          "parents": [
+            "FOCUSFIRE"
+          ],
+          "aspects": {
+            "machina": 6,
+            "instrumentum": 5,
+            "praecantatio": 3
+          },
+          "isSecondary": true
+        },
+        {
+          "key": "thaumicenergistics:GENERATOR",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": 1,
+          "displayRow": -4,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumicenergistics:essentia_vibration_chamber"
+          },
+          "complexity": 2,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:CORES"
+          ],
+          "aspects": {
+            "machina": 5,
+            "praecantatio": 3,
+            "aqua": 1,
+            "motus": 3,
+            "potentia": 5
+          },
+          "isSecondary": false,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicenergistics:GOLEMS",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": 0,
+          "displayRow": -6,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumicenergistics:golem_wireless_backpack"
+          },
+          "complexity": 3,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:CORES",
+            "COREGATHER"
+          ],
+          "aspects": {
+            "potentia": 5,
+            "auram": 5,
+            "cognitio": 3,
+            "tutamen": 3,
+            "motus": 1,
+            "permutatio": 1
+          },
+          "isSecondary": false,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicenergistics:MICROSCOPE",
+          "category": "THAUMICENERGISTICS",
+          "displayColumn": 4,
+          "displayRow": -4,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumicenergistics:cell_microscope"
+          },
+          "complexity": 1,
+          "isAutoUnlock": false,
+          "parents": [
+            "thaumicenergistics:START"
+          ],
+          "aspects": {
+            "vacuos": 5,
+            "potentia": 5,
+            "vitreus": 3,
+            "metallum": 3
+          },
+          "isSecondary": false
+        }
+      ]
+    }
+  ]
+}

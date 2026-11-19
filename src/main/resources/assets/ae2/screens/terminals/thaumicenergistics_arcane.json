@@ -1,0 +1,77 @@
+{
+  "includes": [
+    "terminal.json"
+  ],
+  "slots": {
+    "CRAFTING_GRID": {
+      "left": 44,
+      "bottom": 153,
+      "grid": "BREAK_AFTER_3COLS"
+    },
+    "CRAFTING_RESULT": {
+      "left": 116,
+      "bottom": 117
+    },
+    "thaumicenergistics_wand": {
+      "left": 116,
+      "bottom": 153
+    },
+    "thaumicenergistics_armor": {
+      "left": 8,
+      "bottom": 162,
+      "grid": "VERTICAL"
+    },
+    "PLAYER_INVENTORY": {
+      "left": 8,
+      "bottom": 81,
+      "grid": "BREAK_AFTER_9COLS"
+    },
+    "PLAYER_HOTBAR": {
+      "left": 8,
+      "bottom": 23,
+      "grid": "HORIZONTAL"
+    },
+    "thaumicenergistics_singularity": {
+      "left": 26,
+      "bottom": 126
+    }
+  },
+  "widgets": {
+    "clearCraftingGrid": {
+      "left": 98,
+      "bottom": 154
+    },
+    "swapArmor": {
+      "left": 26,
+      "bottom": 131
+    },
+    "clearToPlayerInv": {
+      "left": 98,
+      "bottom": 143
+    }
+  },
+  "text": {
+    "player_inventory_title": {
+      "text": {
+        "text": ""
+      },
+      "position": {
+        "left": 8,
+        "bottom": 93
+      }
+    }
+  },
+  "terminalStyle": {
+    "bottom": {
+      "texture": "thaumicenergistics:textures/gui/arcane.crafting.png",
+      "textureWidth": 256,
+      "textureHeight": 256,
+      "srcRect": [
+        0,
+        71,
+        195,
+        172
+      ]
+    }
+  }
+}

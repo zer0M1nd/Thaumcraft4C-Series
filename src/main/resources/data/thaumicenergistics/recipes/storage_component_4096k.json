@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:STORAGE",
+  "vis": {
+    "ignis": 3,
+    "ordo": 64
+  },
+  "result": {
+    "item": "thaumicenergistics:storage_component_4096k"
+  },
+  "mode": "shaped",
+  "pattern": [
+    "EPE",
+    "CGC",
+    "ECE"
+  ],
+  "key": {
+    "E": {
+      "item": "thaumcraft:void_ingot"
+    },
+    "P": {
+      "item": "ae2:engineering_processor"
+    },
+    "C": {
+      "item": "thaumicenergistics:storage_component_1024k"
+    },
+    "G": {
+      "item": "thaumcraft:warded_glass"
+    }
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "essentia_cells"
+    },
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "extended_cells"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
+version = '0.2.29.1'
+group='temodern'
+base.archivesName='Thaumic-Energistics-Modern-Port'
+java.toolchain.languageVersion=JavaLanguageVersion.of(17)
+java.withSourcesJar()
+// Human-readable notices live with workspace documentation; preserve their original JAR paths.
+sourceSets.main.resources.srcDir('../../../Docs/Licenses/ThaumicEnergistics')
+repositories { flatDir { dirs 'libs' }; maven { url=uri('local-maven'); content { includeGroup 'local.te' } }; mavenCentral() }
+repositories {
+    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
+    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+}
+dependencies {
+ compileOnly files('../../TC4/libs/jei-1.20.1-common-api-15.20.0.106.jar','../../TC4/libs/jei-1.20.1-forge-api-15.20.0.106.jar')
+ minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+ implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
+  ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
+  : 'local.revival:Thaumcraft-4-Modern-Port:0.4.114')
+ runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
+ implementation fg.deobf('local.te:ae2:15.4.10')
+ runtimeOnly fg.deobf('local.te:jei:15.59.0.211')
+ runtimeOnly fg.deobf('local.te:guideme:20.1.15')
+ runtimeOnly fg.deobf('local.te:curios:5.14.1')
+ testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+}
+minecraft {
+ mappings channel:'official',version:'1.20.1'
+ runs {
+  configureEach {
+   args '--mixin.config','thaumicenergistics.mixins.json'
+   property 'mixin.env.remapRefMap', 'true'
+   property 'mixin.env.refMapRemappingFile', layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+   mods { thaumicenergistics { source sourceSets.main } }
+  }
+  server { workingDirectory file('run-server'); args '--nogui'; jvmArgs '-Xmx2G' }
+  client {
+   workingDirectory file(project.hasProperty('resourceAudit') ? 'run-resource-audit' : 'run-client')
+   if (project.hasProperty('resourceAudit')) property 'temodern.resourceAudit', 'true'
+   args '--username','TC4Tester','--width','1280','--height','720'; jvmArgs '-Xmx3G'
+  }
+  gameTestServer { workingDirectory file('run-server'); property 'forge.enabledGameTestNamespaces','thaumicenergistics'; jvmArgs '-Xmx3G' }
+ }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding='UTF-8'; options.release=17 }
+test { useJUnitPlatform() }
+tasks.configureEach {
+ if (name == 'runClient' && project.hasProperty('resourceAudit')) {
+  doFirst { file('run-resource-audit').mkdirs(); file('run-resource-audit/resource-audit-result.txt').text='PENDING' }
+  doLast {
+   def result = file('run-resource-audit/resource-audit-result.txt').text
+   if (!result.startsWith('PASS:')) throw new GradleException('Client resource audit: '+result)
+  }
+ }
+}
+tasks.named('jar') { finalizedBy 'reobfJar' }
+tasks.named('jar') { manifest.attributes('MixinConfigs':'thaumicenergistics.mixins.json') }
+tasks.named('jar') { exclude 'temodern/test/**'; exclude 'data/thaumicenergistics/structures/test_empty.nbt' }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps=false; reproducibleFileOrder=true }
+tasks.register('verifyDistribution') {
+ dependsOn 'jar','reobfJar','sourcesJar'
+ doLast {
+  def approved = new groovy.json.JsonSlurper().parse(file('src/main/resources/META-INF/thaumicenergistics-modern-assets.json')).textures
+  ['jar','sourcesJar'].each { name -> new java.util.zip.ZipFile(tasks.named(name).get().archiveFile.get().asFile).withCloseable { zip ->
+   approved.each { path, hash ->
+    def entry = zip.getEntry(path)
+    if (entry == null || java.security.MessageDigest.getInstance('SHA-256').digest(zip.getInputStream(entry).bytes).encodeHex().toString() != hash)
+     throw new GradleException('Missing or changed approved texture: '+path)
+   }
+   zip.entries().each { e ->
+    if((e.name ==~ /.*\.(png|ogg|lang|obj)/ && !approved.containsKey(e.name)) || e.name.startsWith('tc4revival/') || e.name.startsWith('thaumcraft/api/') || e.name.startsWith('appeng/'))throw new GradleException('Bundled external content: '+e.name)
+   }
+  } }
+ }
+}
+
+tasks.named("processResources") { inputs.property "version",project.version; filesMatching("META-INF/mods.toml") { expand version:project.version } }
+
+// Resource metadata must be UTF-8 on every build host.
+tasks.withType(ProcessResources).configureEach { filteringCharset = 'UTF-8' }
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+    }
+}

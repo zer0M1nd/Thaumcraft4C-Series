@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:ARCANE_ASSEMBLER",
+  "vis": {
+    "aqua": 3,
+    "ordo": 3,
+    "terra": 1
+  },
+  "result": {
+    "item": "thaumicenergistics:knowledge_core"
+  },
+  "mode": "shaped",
+  "pattern": [
+    "VLV",
+    "LZL",
+    "VCV"
+  ],
+  "key": {
+    "V": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "Z": {
+      "item": "thaumcraft:zombie_brain"
+    },
+    "C": {
+      "item": "ae2:calculation_processor"
+    }
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "arcane_assembler"
+    }
+  ]
+}

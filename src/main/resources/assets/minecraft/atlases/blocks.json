@@ -1,0 +1,300 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/distillation.encoder.face"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/e.vibration.face.ignis"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/e.vibration.face.off"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/e.vibration.face.potentia"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/e.vibration.input"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/essentia.provider"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/essentia.provider.overlay"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/infusion.provider"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/infusion.provider.overlay"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/knowledge.inscriber.bottom"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/knowledge.inscriber.side"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/knowledge.inscriber.top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/parts/arcane.crafting.side"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:blocks/parts/vis.interface"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:items/foci.aewrench"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:items/golem.wifi.backpack"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:items/knowledge.core"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:items/material.coalescence.core"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:items/material.diffusion.core"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:items/material.iron.gear"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/block/arcane_core"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/block/arcane_frame"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/block/arcane_glass"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/block/arcane_trim"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/block/iron_gearbox"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/block/thaumium_gearbox"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/drive/essentia_cell_1024k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/drive/essentia_cell_16384k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/drive/essentia_cell_16k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/drive/essentia_cell_1k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/drive/essentia_cell_256k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/drive/essentia_cell_4096k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/drive/essentia_cell_4k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/drive/essentia_cell_64k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/drive/essentia_cell_creative"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/drive/essentia_cell_quantum"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/drive/essentia_cell_singularity"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/essentia_cell_1024k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/essentia_cell_16384k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/essentia_cell_16k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/essentia_cell_1k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/essentia_cell_256k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/essentia_cell_4096k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/essentia_cell_4k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/essentia_cell_64k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/essentia_cell_creative"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/essentia_cell_led"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/essentia_cell_quantum"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/essentia_cell_singularity"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/storage_casing"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/storage_component_1024k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/storage_component_16384k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/storage_component_16k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/storage_component_1k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/storage_component_256k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/storage_component_4096k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/storage_component_4k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/storage_component_64k"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/part/interface_back"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/part/interface_plate"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/part/terminal_back"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/part/terminal_green"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/part/terminal_side"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/part/vis_creative"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/part/vis_input"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/part/vis_output"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/block/iron_gear"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/block/thaumium_gear"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/encoded_arcane_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/coalescence_core"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/diffusion_core"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/wireless_arcane_terminal"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/item/vis_charging_card"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicenergistics:modern/block/arcane_outer_rim"
+    }
+  ]
+}

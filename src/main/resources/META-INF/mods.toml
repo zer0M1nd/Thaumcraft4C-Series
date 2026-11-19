@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/thaumicenergistics/index.html"
+modId="thaumicenergistics"
+version="${version}"
+displayName="Thaumic Energistics"
+authors="zer0M1nd"
+credits="Original Thaumic Energistics by Nividica."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Store and transport essentia through an Applied Energistics 2 ME network to supply alchemy and infusion.
+
+-------- Original release --------
+The digital age could use some magic
+
+Original credits: Azanor & AlgorithmX2 for their respective mods. And M3gaFr3ak for giving me somewhere to start. Localization: Mrkwtkr, alvin137, puyo061, Wuestengecko, TheVizzy, Adaptivity, Joccob, & Keridos. Textures: CyanideX. Special thanks to MKoanga.'''
+
+[[dependencies.thaumicenergistics]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.0,48)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.thaumicenergistics]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.thaumicenergistics]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.thaumicenergistics]]
+modId="ae2"
+mandatory=true
+versionRange="[15.4.8,16)"
+ordering="AFTER"
+side="BOTH"

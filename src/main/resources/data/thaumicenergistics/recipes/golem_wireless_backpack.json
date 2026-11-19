@@ -1,0 +1,44 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:GOLEMS",
+  "vis": {
+    "aer": 6,
+    "ignis": 4,
+    "ordo": 3
+  },
+  "result": {
+    "item": "thaumicenergistics:golem_wireless_backpack"
+  },
+  "mode": "shaped",
+  "pattern": [
+    "TIT",
+    "NWN",
+    "FCF"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "I": {
+      "item": "ae2:cable_interface"
+    },
+    "N": {
+      "item": "thaumcraft:nitor"
+    },
+    "W": {
+      "item": "ae2:wireless_receiver"
+    },
+    "F": {
+      "item": "ae2:fluix_crystal"
+    },
+    "C": {
+      "item": "ae2:charger"
+    }
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "golem_backpack"
+    }
+  ]
+}

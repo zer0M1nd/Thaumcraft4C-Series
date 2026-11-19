@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicenergistics:QUARTZ",
+  "catalyst": {
+    "item": "ae2:certus_quartz_crystal"
+  },
+  "aspects": {
+    "vitreus": 4,
+    "aqua": 2
+  },
+  "result": {
+    "item": "ae2:certus_quartz_crystal",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "quartz_duplication"
+    }
+  ]
+}

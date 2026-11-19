@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QCQ",
+    "CEC",
+    "QCQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "ae2:quantum_ring"
+    },
+    "C": {
+      "item": "thaumicenergistics:storage_component_16384k"
+    },
+    "E": {
+      "item": "ae2:dense_energy_cell"
+    }
+  },
+  "result": {
+    "item": "thaumicenergistics:essentia_cell_quantum"
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "essentia_cells"
+    },
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "extended_cells"
+    }
+  ]
+}

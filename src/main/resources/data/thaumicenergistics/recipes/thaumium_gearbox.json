@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicenergistics:THAUMIUM_GEARBOX",
+  "catalyst": {
+    "item": "thaumicenergistics:iron_gearbox"
+  },
+  "aspects": {
+    "metallum": 16,
+    "praecantatio": 16
+  },
+  "result": {
+    "item": "thaumicenergistics:thaumium_gearbox"
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "gearbox"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicenergistics:INFUSION_PROVIDER",
+  "instability": 4,
+  "aspects": {
+    "machina": 64,
+    "praecantatio": 32,
+    "ordo": 32,
+    "permutatio": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "ae2:interface"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_mirror"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicenergistics:coalescence_core"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_mirror"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicenergistics:coalescence_core"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicenergistics:infusion_provider"
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "infusion_provider"
+    }
+  ]
+}

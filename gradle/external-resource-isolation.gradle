@@ -1,0 +1,74 @@
+// Fingerprints contain no original assets. Builds do not require the player's reference JAR.
+def mappingFile = file('src/main/resources/tc4revival/external-resources.tsv')
+def assetHashes = file('config/resource-audit/original-asset-sha256.txt')
+def languageHashes = file('config/resource-audit/original-language-value-sha256.txt')
+def loadRules = {
+    [paths: mappingFile.readLines('UTF-8').findAll { it && !it.startsWith('#') }
+            .collect { it.split('\t')[0] }.toSet(),
+     assets: assetHashes.readLines('UTF-8').toSet(),
+     text: languageHashes.readLines('UTF-8').toSet()]
+}
+def hash = { byte[] bytes -> java.security.MessageDigest.getInstance('SHA-256').digest(bytes).encodeHex().toString() }
+def inspectResource = { String path, byte[] bytes, rules ->
+    path = path.replaceFirst('^src/(main|generated)/resources/', '')
+    if (rules.paths.contains(path)) throw new GradleException("External-only resource entered distribution: ${path}")
+    if (rules.assets.contains(hash(bytes))) throw new GradleException("Original asset bytes entered distribution: ${path}")
+    if (path.startsWith('assets/') && path.contains('/lang/') && path.endsWith('.json')) {
+        def translations = new groovy.json.JsonSlurper().parseText(new String(bytes, 'UTF-8'))
+        translations.each { key, value ->
+            if (value instanceof String && rules.text.contains(hash(value.getBytes('UTF-8'))))
+                throw new GradleException("Original language text entered distribution: ${path} (${key})")
+        }
+    }
+}
+
+tasks.register('verifyExternalResourceInputs') {
+    inputs.files(mappingFile, assetHashes, languageHashes)
+    inputs.files(sourceSets.main.resources)
+    doLast {
+        def rules = loadRules()
+        sourceSets.main.resources.srcDirs.each { root ->
+            fileTree(root).matching { exclude '.cache/**' }.files.each { candidate ->
+                inspectResource(root.toPath().relativize(candidate.toPath()).toString().replace('\\', '/'), candidate.bytes, rules)
+            }
+        }
+    }
+}
+
+tasks.named('processResources') { dependsOn 'verifyExternalResourceInputs' }
+tasks.named('sourcesJar') { dependsOn 'verifyExternalResourceInputs' }
+tasks.register('releaseSourcesZip', Zip) {
+    dependsOn 'verifyExternalResourceInputs'
+    archiveClassifier = 'source-project'
+    destinationDirectory = layout.buildDirectory.dir('distributions')
+    from(projectDir) {
+        include 'build.gradle', 'settings.gradle', 'gradle.properties', 'gradlew', 'gradlew.bat'
+        include 'gradle/**', 'config/resource-audit/**'
+        include 'docs/INSTALL-EXTERNAL-RESOURCES.md', 'docs/ADDON-API.md', 'docs/addon-example/**', 'docs/validation/2026-09-16-addon-api.md'
+        include 'src/main/**', 'src/generated/resources/**', 'src/test/java/**'
+        exclude '**/.cache/**'
+    }
+    from('docs/INSTALL-EXTERNAL-RESOURCES.md') { rename { 'README.md' } }
+}
+tasks.register('verifyExternalResourceArchives') {
+    dependsOn 'jar', 'reobfJar', 'sourcesJar', 'releaseSourcesZip'
+    inputs.files(mappingFile, assetHashes, languageHashes)
+    inputs.files(tasks.named('jar').flatMap { it.archiveFile }, tasks.named('sourcesJar').flatMap { it.archiveFile },
+            tasks.named('releaseSourcesZip').flatMap { it.archiveFile })
+    doLast {
+        def rules = loadRules()
+        ['jar', 'sourcesJar', 'releaseSourcesZip'].each { taskName ->
+            def archive = tasks.named(taskName).get().archiveFile.get().asFile
+            new java.util.zip.ZipFile(archive).withCloseable { zip ->
+                zip.entries().each { entry ->
+                    if (!entry.directory) zip.getInputStream(entry).withCloseable { stream ->
+                        inspectResource(entry.name, stream.bytes, rules)
+                    }
+                }
+            }
+            logger.lifecycle("External resource isolation verified: ${archive.name}")
+        }
+    }
+}
+tasks.named('check') { dependsOn 'verifyExternalResourceInputs' }
+tasks.named('build') { dependsOn 'verifyExternalResourceArchives' }

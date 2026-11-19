@@ -1,0 +1,64 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicenergistics:ARCANE_ASSEMBLER",
+  "instability": 7,
+  "aspects": {
+    "fabrico": 64,
+    "permutatio": 32,
+    "auram": 16,
+    "praecantatio": 16,
+    "metallum": 8,
+    "vitreus": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "ae2:molecular_assembler"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicenergistics:arcane_assembler"
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "arcane_assembler"
+    }
+  ]
+}

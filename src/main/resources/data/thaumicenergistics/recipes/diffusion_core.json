@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:CORES",
+  "vis": {
+    "aqua": 2,
+    "perditio": 2
+  },
+  "result": {
+    "item": "thaumicenergistics:diffusion_core"
+  },
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "thaumcraft:quicksilver_drop"
+    },
+    {
+      "item": "thaumcraft:quicksilver_drop"
+    },
+    {
+      "item": "thaumcraft:quicksilver_drop"
+    },
+    {
+      "item": "thaumcraft:entropy_shard"
+    },
+    {
+      "item": "ae2:annihilation_core"
+    }
+  ]
+}

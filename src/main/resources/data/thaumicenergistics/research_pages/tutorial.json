@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_THAUMICENERGISTICS",
+      "pages": [
+        {
+          "id": "thaumicenergistics:tut_addon_thaumicenergistics/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicenergistics.tut_addon_thaumicenergistics.text.1",
+            "with": [
+              [
+                {
+                  "text": "神秘能源是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicenergistics:tut_addon_thaumicenergistics/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicenergistics.tut_addon_thaumicenergistics.text.2",
+            "with": [
+              [
+                {
+                  "text": "神秘能源让"
+                },
+                {
+                  "text": "应用能源 2",
+                  "bold": true
+                },
+                {
+                  "text": "（AE2）可以储存和运输源质：源质存储元件、输入/输出总线、源质终端，还能在 ME 网络中进行奥术合成和注魔自动化。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicenergistics:tut_addon_thaumicenergistics/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicenergistics:tut_addon_thaumicenergistics/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicenergistics.tut_addon_thaumicenergistics.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicenergistics:tut_addon_thaumicenergistics/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicenergistics.tut_addon_thaumicenergistics.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "thaumicenergistics:START"
+                },
+                {
+                  "text": "：神秘能源，自动解锁。\n· "
+                },
+                {
+                  "research": "thaumicenergistics:CORES"
+                },
+                {
+                  "text": "：扩散核心，需要"
+                },
+                {
+                  "research": "DISTILESSENTIA"
+                },
+                {
+                  "text": "。\n· "
+                },
+                {
+                  "research": "thaumicenergistics:STORAGE"
+                },
+                {
+                  "text": "：1k 源质存储元件。\n· "
+                },
+                {
+                  "research": "thaumicenergistics:IO"
+                },
+                {
+                  "text": "：源质网络输入/输出。\n· "
+                },
+                {
+                  "research": "thaumicenergistics:ARCANE_TERMINAL"
+                },
+                {
+                  "text": "：奥术合成终端。\n· "
+                },
+                {
+                  "research": "thaumicenergistics:INFUSION_PROVIDER"
+                },
+                {
+                  "text": "：注魔供应器，让 ME 网络为注魔祭坛供料。\n你需要先对 AE2 有基本了解。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicenergistics:tut_addon_thaumicenergistics/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicenergistics:tut_addon_thaumicenergistics/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "thaumicenergistics:tut_addon_thaumicenergistics/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "thaumicenergistics:START",
+            "thaumicenergistics:CORES",
+            "thaumicenergistics:STORAGE",
+            "thaumicenergistics:IO",
+            "thaumicenergistics:ARCANE_TERMINAL",
+            "thaumicenergistics:INFUSION_PROVIDER"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

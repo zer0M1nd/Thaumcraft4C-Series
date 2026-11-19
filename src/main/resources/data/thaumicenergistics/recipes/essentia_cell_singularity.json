@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CDC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumicenergistics:essentia_cell_quantum"
+    },
+    "D": {
+      "item": "ae2:condenser"
+    }
+  },
+  "result": {
+    "item": "thaumicenergistics:essentia_cell_singularity"
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "essentia_cells"
+    },
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "extended_cells"
+    }
+  ]
+}

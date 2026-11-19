@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WRW",
+    "R R",
+    "TTT"
+  ],
+  "key": {
+    "W": {
+      "item": "thaumcraft:warded_glass"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    }
+  },
+  "result": {
+    "item": "thaumicenergistics:storage_casing"
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "essentia_cells"
+    }
+  ]
+}

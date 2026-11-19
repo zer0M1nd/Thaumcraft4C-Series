@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "ae2:cable_anchor"
+    },
+    "B": {
+      "item": "thaumcraft:eldritch_stone"
+    }
+  },
+  "result": {
+    "item": "ae2:facade",
+    "count": 4,
+    "nbt": {
+      "item": "thaumcraft:eldritch_stone"
+    }
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "thaumcraft_facades"
+    }
+  ]
+}

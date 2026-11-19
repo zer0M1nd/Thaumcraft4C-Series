@@ -1,0 +1,2244 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicenergistics:START",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.START"
+          },
+          "id": "thaumicenergistics:START/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:CORES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.CORES"
+          },
+          "id": "thaumicenergistics:CORES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:CORES",
+            "width": 3,
+            "height": 2,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:diffusion_core"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:quicksilver_drop"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:quicksilver_drop"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:quicksilver_drop"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:entropy_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:annihilation_core"
+                  }
+                },
+                null
+              ]
+            },
+            "aspects": {
+              "aqua": 2,
+              "perditio": 2
+            }
+          },
+          "id": "thaumicenergistics:CORES/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:CORES",
+            "width": 3,
+            "height": 2,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:coalescence_core"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:quicksilver_drop"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:quicksilver_drop"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:quicksilver_drop"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:order_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:formation_core"
+                  }
+                },
+                null
+              ]
+            },
+            "aspects": {
+              "aqua": 2,
+              "ordo": 2
+            }
+          },
+          "id": "thaumicenergistics:CORES/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:STORAGE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.STORAGE"
+          },
+          "id": "thaumicenergistics:STORAGE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:STORAGE",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:storage_component_1k"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:wisp_essence"
+                  }
+                },
+                {
+                  "kind": "ore",
+                  "names": [],
+                  "elements": [
+                    {
+                      "kind": "stack",
+                      "stack": {
+                        "item": "ae2:certus_quartz_crystal"
+                      }
+                    },
+                    {
+                      "kind": "stack",
+                      "stack": {
+                        "item": "ae2:charged_certus_quartz_crystal"
+                      }
+                    }
+                  ]
+                },
+                null,
+                {
+                  "kind": "ore",
+                  "names": [],
+                  "elements": [
+                    {
+                      "kind": "stack",
+                      "stack": {
+                        "item": "ae2:certus_quartz_crystal"
+                      }
+                    },
+                    {
+                      "kind": "stack",
+                      "stack": {
+                        "item": "ae2:charged_certus_quartz_crystal"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:logic_processor"
+                  }
+                },
+                {
+                  "kind": "ore",
+                  "names": [],
+                  "elements": [
+                    {
+                      "kind": "stack",
+                      "stack": {
+                        "item": "ae2:certus_quartz_crystal"
+                      }
+                    },
+                    {
+                      "kind": "stack",
+                      "stack": {
+                        "item": "ae2:charged_certus_quartz_crystal"
+                      }
+                    }
+                  ]
+                },
+                null,
+                {
+                  "kind": "ore",
+                  "names": [],
+                  "elements": [
+                    {
+                      "kind": "stack",
+                      "stack": {
+                        "item": "ae2:certus_quartz_crystal"
+                      }
+                    },
+                    {
+                      "kind": "stack",
+                      "stack": {
+                        "item": "ae2:charged_certus_quartz_crystal"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:wisp_essence"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "ignis": 3,
+              "ordo": 1
+            }
+          },
+          "id": "thaumicenergistics:STORAGE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:STORAGE",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:storage_component_4k"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:wisp_essence"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:calculation_processor"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:wisp_essence"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_1k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:quartz_glass"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_1k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:wisp_essence"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_1k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:wisp_essence"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "ignis": 3,
+              "ordo": 2
+            }
+          },
+          "id": "thaumicenergistics:STORAGE/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:STORAGE",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:storage_component_16k"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:salis_mundus"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:engineering_processor"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:wisp_essence"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_4k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:quartz_glass"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_4k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:wisp_essence"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_4k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:salis_mundus"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "ignis": 3,
+              "ordo": 4
+            }
+          },
+          "id": "thaumicenergistics:STORAGE/page/4",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:STORAGE",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:storage_component_64k"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:salis_mundus"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:engineering_processor"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:salis_mundus"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_16k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:quartz_glass"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_16k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:salis_mundus"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_16k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:salis_mundus"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "ignis": 3,
+              "ordo": 8
+            }
+          },
+          "id": "thaumicenergistics:STORAGE/page/5",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:STORAGE",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:storage_component_256k"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:salis_mundus"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:engineering_processor"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:salis_mundus"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_64k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:warded_glass"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_64k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:salis_mundus"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_64k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:salis_mundus"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "ignis": 3,
+              "ordo": 16
+            }
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "cells_256k"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/6",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:STORAGE",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:storage_component_1024k"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:void_seed"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:engineering_processor"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:void_seed"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_256k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:warded_glass"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_256k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:void_seed"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_256k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:void_seed"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "ignis": 3,
+              "ordo": 32
+            }
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "extended_cells"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/7",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:STORAGE",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:storage_component_4096k"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:void_ingot"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:engineering_processor"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:void_ingot"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_1024k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:warded_glass"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_1024k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:void_ingot"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_1024k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:void_ingot"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "ignis": 3,
+              "ordo": 64
+            }
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "extended_cells"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/8",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:STORAGE",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:storage_component_16384k"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:primal_charm"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:void_ingot"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:primal_charm"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_4096k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:essentia_reservoir"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_4096k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:primal_charm"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:storage_component_4096k"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:primal_charm"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "ignis": 3,
+              "ordo": 128
+            }
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "extended_cells"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/9",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_1024k"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_1024k"
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "extended_cells"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/10",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_1024k_shaped"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_1024k"
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "extended_cells"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/11",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_16384k"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_16384k"
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "extended_cells"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/12",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_16384k_shaped"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_16384k"
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "extended_cells"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/13",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_16k"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_16k"
+          },
+          "id": "thaumicenergistics:STORAGE/page/14",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_16k_shaped"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_16k"
+          },
+          "id": "thaumicenergistics:STORAGE/page/15",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_1k"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_1k"
+          },
+          "id": "thaumicenergistics:STORAGE/page/16",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_1k_shaped"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_1k"
+          },
+          "id": "thaumicenergistics:STORAGE/page/17",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_256k"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_256k"
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "cells_256k"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/18",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_256k_shaped"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_256k"
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "cells_256k"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/19",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_4096k"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_4096k"
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "extended_cells"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/20",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_4096k_shaped"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_4096k"
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "extended_cells"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/21",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_4k"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_4k"
+          },
+          "id": "thaumicenergistics:STORAGE/page/22",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_4k_shaped"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_4k"
+          },
+          "id": "thaumicenergistics:STORAGE/page/23",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_64k"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_64k"
+          },
+          "id": "thaumicenergistics:STORAGE/page/24",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_64k_shaped"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_64k"
+          },
+          "id": "thaumicenergistics:STORAGE/page/25",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_quantum"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_quantum"
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "extended_cells"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/26",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_cell_singularity"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_cell_singularity"
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "extended_cells"
+            }
+          ],
+          "id": "thaumicenergistics:STORAGE/page/27",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:storage_casing"
+            ],
+            "class": "net.minecraft.world.item.crafting.Recipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:storage_casing"
+          },
+          "id": "thaumicenergistics:STORAGE/page/28",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:IO",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.IO"
+          },
+          "id": "thaumicenergistics:IO/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:ARCANE_TERMINAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.ARCANE_TERMINAL"
+          },
+          "id": "thaumicenergistics:ARCANE_TERMINAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:ARCANE_TERMINAL",
+            "width": 3,
+            "height": 1,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:arcane_terminal"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:terminal"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:arcane_workbench"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:calculation_processor"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "aer": 10,
+              "terra": 10,
+              "ignis": 10,
+              "aqua": 10,
+              "ordo": 10,
+              "perditio": 10
+            }
+          },
+          "id": "thaumicenergistics:ARCANE_TERMINAL/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:ARCANE_TERMINAL",
+            "width": 3,
+            "height": 1,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:wireless_arcane_terminal"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:wireless_terminal"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:arcane_workbench"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:calculation_processor"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "aer": 25,
+              "terra": 25,
+              "ignis": 25,
+              "aqua": 25,
+              "ordo": 25,
+              "perditio": 25
+            }
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "wireless_arcane_terminal"
+            }
+          ],
+          "id": "thaumicenergistics:ARCANE_TERMINAL/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:ARCANE_TERMINAL",
+            "width": 3,
+            "height": 1,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:vis_charging_card"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:advanced_card"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:wireless_receiver"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:vis_interface"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "aer": 25,
+              "terra": 25,
+              "ignis": 25,
+              "aqua": 25,
+              "ordo": 25,
+              "perditio": 25
+            }
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "vis_charging_card"
+            }
+          ],
+          "id": "thaumicenergistics:ARCANE_TERMINAL/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.WIRELESS_ARCANE"
+          },
+          "conditions": [
+            {
+              "type": "thaumicenergistics:feature_enabled",
+              "feature": "wireless_arcane_terminal"
+            }
+          ],
+          "id": "thaumicenergistics:ARCANE_TERMINAL/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:ESSENTIA_PROVIDER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.ESSENTIA_PROVIDER"
+          },
+          "id": "thaumicenergistics:ESSENTIA_PROVIDER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:essentia_provider"
+            ],
+            "class": "thaumcraft.api.crafting.InfusionRecipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:essentia_provider"
+          },
+          "id": "thaumicenergistics:ESSENTIA_PROVIDER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:INFUSION_PROVIDER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.INFUSION_PROVIDER"
+          },
+          "id": "thaumicenergistics:INFUSION_PROVIDER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:infusion_provider"
+            ],
+            "class": "thaumcraft.api.crafting.InfusionRecipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:infusion_provider"
+          },
+          "id": "thaumicenergistics:INFUSION_PROVIDER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:IRON_GEARBOX",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.IRON_GEARBOX"
+          },
+          "id": "thaumicenergistics:IRON_GEARBOX/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:IRON_GEARBOX",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:iron_gearbox"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:cobblestone"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:iron_gear"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:cobblestone"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:iron_gear"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:iron_gear"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:iron_gear"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:cobblestone"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:iron_gear"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:cobblestone"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "aer": 2,
+              "ordo": 2
+            }
+          },
+          "id": "thaumicenergistics:IRON_GEARBOX/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:IRON_GEARBOX",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:iron_gear"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:iron_ingot"
+                  }
+                },
+                null,
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:stick"
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:iron_ingot"
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:iron_ingot"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "terra": 1,
+              "ignis": 1
+            }
+          },
+          "id": "thaumicenergistics:IRON_GEARBOX/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:THAUMIUM_GEARBOX",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.THAUMIUM_GEARBOX"
+          },
+          "id": "thaumicenergistics:THAUMIUM_GEARBOX/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:thaumium_gearbox"
+            ],
+            "class": "thaumcraft.api.crafting.CrucibleRecipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:thaumium_gearbox"
+          },
+          "id": "thaumicenergistics:THAUMIUM_GEARBOX/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:QUARTZ",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.QUARTZ"
+          },
+          "id": "thaumicenergistics:QUARTZ/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:duplicate_certus"
+            ],
+            "class": "thaumcraft.api.crafting.CrucibleRecipe"
+          },
+          "recipeOutput": {
+            "item": "ae2:certus_quartz_crystal",
+            "count": 2
+          },
+          "id": "thaumicenergistics:QUARTZ/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:duplicate_nether"
+            ],
+            "class": "thaumcraft.api.crafting.CrucibleRecipe"
+          },
+          "recipeOutput": {
+            "item": "minecraft:quartz",
+            "count": 2
+          },
+          "id": "thaumicenergistics:QUARTZ/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:VIS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.VIS"
+          },
+          "id": "thaumicenergistics:VIS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:VIS",
+            "width": 3,
+            "height": 1,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:vis_interface"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:balanced_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:me_p2p_tunnel"
+                  }
+                },
+                null
+              ]
+            },
+            "aspects": {
+              "aer": 2,
+              "terra": 2,
+              "ignis": 2,
+              "aqua": 2,
+              "ordo": 2,
+              "perditio": 2
+            }
+          },
+          "id": "thaumicenergistics:VIS/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:ARCANE_ASSEMBLER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.ARCANE_ASSEMBLER"
+          },
+          "id": "thaumicenergistics:ARCANE_ASSEMBLER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicenergistics:arcane_assembler"
+            ],
+            "class": "thaumcraft.api.crafting.InfusionRecipe"
+          },
+          "recipeOutput": {
+            "item": "thaumicenergistics:arcane_assembler"
+          },
+          "id": "thaumicenergistics:ARCANE_ASSEMBLER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:KNOWLEDGE_INSCRIBER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.KNOWLEDGE_INSCRIBER"
+          },
+          "id": "thaumicenergistics:KNOWLEDGE_INSCRIBER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:KNOWLEDGE_INSCRIBER",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:knowledge_core"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:quartz_vibrant_glass"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:lapis_lazuli"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:quartz_vibrant_glass"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:lapis_lazuli"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:zombie_brain"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:lapis_lazuli"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:quartz_vibrant_glass"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:calculation_processor"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:quartz_vibrant_glass"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "aqua": 3,
+              "ordo": 3,
+              "terra": 1
+            }
+          },
+          "id": "thaumicenergistics:KNOWLEDGE_INSCRIBER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:KNOWLEDGE_INSCRIBER",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:knowledge_inscriber"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:iron_ingot"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:semi_dark_monitor"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:iron_ingot"
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:thaumonomicon"
+                  }
+                },
+                null,
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:iron_ingot"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:logic_processor"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:iron_ingot"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "aer": 5,
+              "terra": 5,
+              "ignis": 5,
+              "aqua": 5,
+              "ordo": 5,
+              "perditio": 5
+            }
+          },
+          "id": "thaumicenergistics:KNOWLEDGE_INSCRIBER/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:TOOLS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.TOOLS"
+          },
+          "id": "thaumicenergistics:TOOLS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:TOOLS",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:wrench_focus"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:air_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:quartz"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:fire_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:quartz"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:certus_quartz_wrench"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:quartz"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:fire_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:quartz"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:air_shard"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "aer": 10,
+              "ignis": 10
+            }
+          },
+          "id": "thaumicenergistics:TOOLS/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:GENERATOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.GENERATOR"
+          },
+          "id": "thaumicenergistics:GENERATOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:GENERATOR",
+            "width": 3,
+            "height": 1,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:essentia_vibration_chamber"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:vibration_chamber"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumicenergistics:diffusion_core"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:essentia_jar"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "aqua": 2,
+              "perditio": 4,
+              "ignis": 7,
+              "ordo": 4
+            }
+          },
+          "id": "thaumicenergistics:GENERATOR/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:GOLEMS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.GOLEMS"
+          },
+          "id": "thaumicenergistics:GOLEMS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:GOLEMS",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:golem_wireless_backpack"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:thaumium_ingot"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:cable_interface"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:thaumium_ingot"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:nitor"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:wireless_receiver"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:nitor"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:fluix_crystal"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:charger"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:fluix_crystal"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "aer": 6,
+              "ignis": 4,
+              "ordo": 3
+            }
+          },
+          "id": "thaumicenergistics:GOLEMS/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicenergistics:MICROSCOPE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicenergistics.page.MICROSCOPE"
+          },
+          "id": "thaumicenergistics:MICROSCOPE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "inline_arcane",
+            "research": "thaumicenergistics:MICROSCOPE",
+            "width": 3,
+            "height": 3,
+            "mirrored": true,
+            "output": {
+              "item": "thaumicenergistics:cell_microscope"
+            },
+            "ingredients": {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:essentia_mirror"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:thaumometer"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:essentia_mirror"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:singularity"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:quantum_link"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:singularity"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:essentia_mirror"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "ae2:item_p2p_tunnel"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:essentia_mirror"
+                  }
+                }
+              ]
+            },
+            "aspects": {
+              "aer": 300,
+              "terra": 300,
+              "ordo": 300
+            }
+          },
+          "id": "thaumicenergistics:MICROSCOPE/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}
