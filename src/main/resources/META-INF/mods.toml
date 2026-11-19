@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/thaumcraftresourceadapter/index.html"
+modId="thaumcraftresourceadapter"
+version="${version}"
+displayName="ThaumcraftResourceAdapter"
+displayTest="IGNORE_ALL_VERSION"
+authors="zer0M1nd"
+description='''
+This tool is part of the Thaumcraft 4: Continuation series.
+Convert local resource packs made for older Thaumcraft versions and addons into packs you can enable in Minecraft 1.20.1.'''
+
+[[dependencies.thaumcraftresourceadapter]]
+modId="forge"
+mandatory=true
+versionRange="[47.4,)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.thaumcraftresourceadapter]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="CLIENT"
