@@ -1,0 +1,962 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "forbidden_magic:CRYSTALWELL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.CRYSTALWELL.1"
+          },
+          "id": "forbidden_magic:CRYSTALWELL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden_magic.book.crystalwell_modes"
+          },
+          "id": "forbidden_magic:CRYSTALWELL/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:crystalwell"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:CRYSTALWELL/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:crystalwell_easy_display"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:CRYSTALWELL/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:PRIMEWELL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.PRIMEWELL.1"
+          },
+          "id": "forbidden_magic:PRIMEWELL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:primewell"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:PRIMEWELL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:TRANSEMERALD",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.TRANSEMERALD.1"
+          },
+          "id": "forbidden_magic:TRANSEMERALD/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:trans_emerald"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:TRANSEMERALD/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:BLACKFLOWER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.BLACKFLOWER.1"
+          },
+          "id": "forbidden_magic:BLACKFLOWER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:black_flower"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:BLACKFLOWER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:black_ink"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:BLACKFLOWER/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:RIDINGCROP",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.RIDINGCROP.1"
+          },
+          "id": "forbidden_magic:RIDINGCROP/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:riding_crop"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:RIDINGCROP/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:CONSUMING",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.CONSUMING.1"
+          },
+          "id": "forbidden_magic:CONSUMING/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:consuming"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:CONSUMING/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:EDUCATIONAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.EDUCATIONAL.1"
+          },
+          "id": "forbidden_magic:EDUCATIONAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:educational"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:EDUCATIONAL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:SCHOOLS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.SCHOOLS.1"
+          },
+          "id": "forbidden_magic:SCHOOLS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:NETHERSHARDS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.NETHERSHARDS.1"
+          },
+          "id": "forbidden_magic:NETHERSHARDS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.NETHERSHARDS.2"
+          },
+          "id": "forbidden_magic:NETHERSHARDS/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.NETHERSHARDS.3"
+          },
+          "id": "forbidden_magic:NETHERSHARDS/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:HELLFIRE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.HELLFIRE.1"
+          },
+          "id": "forbidden_magic:HELLFIRE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:ROD_profane",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.ROD_profane.1"
+          },
+          "id": "forbidden_magic:ROD_profane/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:SUBCOLLAR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.SUBCOLLAR.1"
+          },
+          "id": "forbidden_magic:SUBCOLLAR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:sub_collar"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:SUBCOLLAR/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:SKULLAXE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.SKULLAXE.1"
+          },
+          "id": "forbidden_magic:SKULLAXE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:skull_axe"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:SKULLAXE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:RINGFOOD",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.RINGFOOD.1"
+          },
+          "id": "forbidden_magic:RINGFOOD/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:ring_food"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:RINGFOOD/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden_magic.book.food_modes"
+          },
+          "id": "forbidden_magic:RINGFOOD/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:ARCANECAKE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.ARCANECAKE.1"
+          },
+          "id": "forbidden_magic:ARCANECAKE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:arcane_cake"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:ARCANECAKE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden_magic.book.food_modes"
+          },
+          "id": "forbidden_magic:ARCANECAKE/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:FOCUSBLINK",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.FOCUSBLINK.1"
+          },
+          "id": "forbidden_magic:FOCUSBLINK/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:focus_blink"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:FOCUSBLINK/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:MORPHTOOLS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.MORPHTOOLS.1"
+          },
+          "id": "forbidden_magic:MORPHTOOLS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:morph_pick"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:MORPHTOOLS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:morph_sword"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:MORPHTOOLS/page/3",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:morph_shovel"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:MORPHTOOLS/page/4",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:morph_axe"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:MORPHTOOLS/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:ROD_infernal",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.ROD_infernal.1"
+          },
+          "id": "forbidden_magic:ROD_infernal/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:wand_rod_infernal"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:ROD_infernal/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.ROD_infernal.2"
+          },
+          "id": "forbidden_magic:ROD_infernal/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:WRATH",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.WRATH.1"
+          },
+          "id": "forbidden_magic:WRATH/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:wrath"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:WRATH/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:GREEDY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.GREEDY.1"
+          },
+          "id": "forbidden_magic:GREEDY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:greedy"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:GREEDY/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:CORRUPTING",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.CORRUPTING.1"
+          },
+          "id": "forbidden_magic:CORRUPTING/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:corrupting"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:CORRUPTING/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:CLUSTER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.CLUSTER.1"
+          },
+          "id": "forbidden_magic:CLUSTER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:cluster"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:CLUSTER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:IMPACT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.IMPACT.1"
+          },
+          "id": "forbidden_magic:IMPACT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:impact"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:IMPACT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:VOIDTOUCHED",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.VOIDTOUCHED.1"
+          },
+          "id": "forbidden_magic:VOIDTOUCHED/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:voidtouched"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:VOIDTOUCHED/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:FORK",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.FORK.1"
+          },
+          "id": "forbidden_magic:FORK/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:fork"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:FORK/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT_CONCEALED",
+          "research": "forbidden_magic:WRATHCAGE",
+          "text": {
+            "translate": "forbidden.research_page.FORK.wc"
+          },
+          "id": "forbidden_magic:FORK/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:WRATHCAGE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.WRATHCAGE.1"
+          },
+          "id": "forbidden_magic:WRATHCAGE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:wrath_cage"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:WRATHCAGE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.WRATHCAGE.2"
+          },
+          "id": "forbidden_magic:WRATHCAGE/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.WRATHCAGE.3"
+          },
+          "id": "forbidden_magic:WRATHCAGE/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:mob_crystal"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:WRATHCAGE/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:TAINTSHOVEL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.TAINTSHOVEL.1"
+          },
+          "id": "forbidden_magic:TAINTSHOVEL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:taint_shovel"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:TAINTSHOVEL/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.TAINTSHOVEL.2"
+          },
+          "id": "forbidden_magic:TAINTSHOVEL/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:TAINTPICK",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.TAINTPICK.1"
+          },
+          "id": "forbidden_magic:TAINTPICK/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:taint_pick"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:TAINTPICK/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:ROD_tainted",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.ROD_tainted.1"
+          },
+          "id": "forbidden_magic:ROD_tainted/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:wand_rod_tainted"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:ROD_tainted/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:TAINTTREE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.TAINTTREE.1"
+          },
+          "id": "forbidden_magic:TAINTTREE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:taint_tree"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:TAINTTREE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:taint_plank"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:TAINTTREE/page/3",
+          "page_break": true
+        },
+        {
+          "type": "SMELTING",
+          "recipe": {
+            "kind": "stack",
+            "stack": {
+              "item": "forbidden_magic:taint_log",
+              "count": 1
+            }
+          },
+          "id": "forbidden_magic:TAINTTREE/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:TAINTSTONE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.TAINTSTONE.1"
+          },
+          "id": "forbidden_magic:TAINTSTONE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:taint_stone"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:TAINTSTONE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:taint_brick"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:TAINTSTONE/page/3",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

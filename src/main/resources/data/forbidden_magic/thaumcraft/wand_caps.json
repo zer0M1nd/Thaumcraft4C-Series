@@ -1,0 +1,44 @@
+[
+  {
+    "tag": "forbidden_magic:manasteel",
+    "cost": 0.9,
+    "craftCost": 6,
+    "texture": "forbidden_magic:textures/models/wand_cap_manasteel.png",
+    "research": "forbidden_magic:CAP_manasteel",
+    "item": "forbidden_magic:wand_cap_manasteel"
+  },
+  {
+    "tag": "forbidden_magic:elementium",
+    "cost": 0.8,
+    "craftCost": 9,
+    "texture": "forbidden_magic:textures/models/wand_cap_elementium.png",
+    "research": "forbidden_magic:CAP_elementium",
+    "item": "forbidden_magic:wand_cap_elementium"
+  },
+  {
+    "tag": "forbidden_magic:terrasteel",
+    "cost": 1.8,
+    "craftCost": 1,
+    "texture": "forbidden_magic:textures/models/wand_cap_terrasteel.png",
+    "research": "forbidden_magic:CAP_terrasteel",
+    "item": "forbidden_magic:wand_cap_terrasteel"
+  },
+  {
+    "tag": "forbidden_magic:orichalcum",
+    "cost": 0,
+    "craftCost": 1000,
+    "texture": "forbidden_magic:textures/models/wand_cap_orichalcum.png",
+    "research": ""
+  },
+  {
+    "tag": "forbidden_magic:alchemical",
+    "item": "forbidden_magic:wand_cap_alchemical",
+    "cost": 0.9,
+    "aspectCosts": {
+      "aqua": 0.8
+    },
+    "craftCost": 7,
+    "texture": "forbidden_magic:textures/models/wand_cap_alchemical.png",
+    "research": "forbidden_magic:CAP_alchemical"
+  }
+]

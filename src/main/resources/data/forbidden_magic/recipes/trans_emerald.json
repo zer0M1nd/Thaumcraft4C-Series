@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "forbidden_magic:TRANSEMERALD",
+  "legacy_order": 20020,
+  "result": {
+    "item": "forbidden_magic:emerald_nugget",
+    "count": 4
+  },
+  "catalyst": {
+    "tag": "forge:nuggets/emerald"
+  },
+  "aspects": {
+    "vitreus": 2,
+    "lucrum": 2
+  },
+  "conditions": [
+    {
+      "type": "forbidden_magic:config",
+      "option": "emerald",
+      "expected": true
+    }
+  ]
+}

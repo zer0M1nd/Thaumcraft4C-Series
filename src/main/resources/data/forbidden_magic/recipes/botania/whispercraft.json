@@ -1,0 +1,54 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "forbidden_magic:WHISPERWEED",
+  "result": {
+    "item": "forbidden_magic:whisperweed",
+    "count": 1
+  },
+  "vis": {
+    "ignis": 10,
+    "aqua": 10,
+    "terra": 10,
+    "aer": 10,
+    "ordo": 10,
+    "perditio": 10
+  },
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:grass"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "botania:dragonstone"
+    },
+    {
+      "item": "thaumcraft:knowledge_fragment"
+    },
+    {
+      "item": "botania:gray_petal"
+    },
+    {
+      "item": "botania:purple_petal"
+    },
+    {
+      "item": "botania:rune_envy"
+    },
+    {
+      "item": "thaumcraft:amber"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "botania",
+      "expected": true
+    }
+  ]
+}

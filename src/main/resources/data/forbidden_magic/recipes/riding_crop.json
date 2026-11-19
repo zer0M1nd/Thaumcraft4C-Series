@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "forbidden_magic:riding_crop",
+    "count": 1
+  },
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "conditions": [
+    {
+      "type": "forbidden_magic:config",
+      "option": "lust",
+      "expected": true
+    }
+  ]
+}

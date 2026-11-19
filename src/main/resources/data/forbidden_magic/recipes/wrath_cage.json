@@ -1,0 +1,84 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:WRATHCAGE",
+  "instability": 10,
+  "aspects": {
+    "forbidden_magic:ira": 32,
+    "praecantatio": 32,
+    "bestia": 32,
+    "machina": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_block"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    }
+  ],
+  "result": {
+    "item": "forbidden_magic:wrath_cage",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forbidden_magic:config",
+      "option": "cage",
+      "expected": true
+    }
+  ]
+}

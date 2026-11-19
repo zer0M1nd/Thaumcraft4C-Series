@@ -1,0 +1,54 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:SUBCOLLAR",
+  "instability": 1,
+  "aspects": {
+    "forbidden_magic:luxuria": 8,
+    "vinculum": 8,
+    "forbidden_magic:infernus": 4,
+    "corpus": 4
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:vis_amulet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "forbidden_magic:lust_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:lust_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:lust_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:lead"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mundane_belt"
+      }
+    }
+  ],
+  "result": {
+    "item": "forbidden_magic:pain_collar",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forbidden_magic:config",
+      "option": "lust",
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "tag": "forbidden_magic:tainted",
+    "capacity": 150,
+    "craftCost": 12,
+    "texture": "forbidden_magic:textures/models/wand_rod_tainted.png",
+    "staff": false,
+    "research": "forbidden_magic:ROD_tainted",
+    "item": "forbidden_magic:wand_rod_tainted"
+  },
+  {
+    "tag": "forbidden_magic:infernal",
+    "capacity": 150,
+    "craftCost": 12,
+    "texture": "forbidden_magic:textures/models/wand_rod_infernal.png",
+    "staff": false,
+    "research": "forbidden_magic:ROD_infernal",
+    "item": "forbidden_magic:wand_rod_infernal"
+  },
+  {
+    "tag": "forbidden_magic:profane",
+    "capacity": 50,
+    "craftCost": 12,
+    "texture": "forbidden_magic:textures/models/wand_rod_profane.png",
+    "staff": false,
+    "research": "forbidden_magic:ROD_profane",
+    "item": "forbidden_magic:wand_rod_profane"
+  },
+  {
+    "tag": "forbidden_magic:profaned",
+    "capacity": 50,
+    "craftCost": 12,
+    "texture": "forbidden_magic:textures/models/wand_rod_profaned.png",
+    "staff": false,
+    "research": ""
+  },
+  {
+    "tag": "forbidden_magic:neutronium",
+    "capacity": 9001,
+    "craftCost": 1000,
+    "texture": "forbidden_magic:textures/models/wand_rod_neutronium.png",
+    "staff": false,
+    "research": "",
+    "glowing": true
+  },
+  {
+    "tag": "forbidden_magic:neutronium_staff",
+    "capacity": 9002,
+    "craftCost": 1000,
+    "texture": "forbidden_magic:textures/models/wand_rod_neutronium.png",
+    "staff": true,
+    "research": "",
+    "glowing": true
+  },
+  {
+    "tag": "forbidden_magic:livingwood",
+    "item": "forbidden_magic:wand_rod_livingwood",
+    "capacity": 100,
+    "craftCost": 12,
+    "texture": "forbidden_magic:textures/models/wand_rod_livingwood.png",
+    "staff": false,
+    "runes": false,
+    "research": "forbidden_magic:ROD_livingwood"
+  },
+  {
+    "tag": "forbidden_magic:dreamwood",
+    "item": "forbidden_magic:wand_rod_dreamwood",
+    "capacity": 100,
+    "craftCost": 12,
+    "texture": "forbidden_magic:textures/models/wand_rod_dreamwood.png",
+    "staff": false,
+    "runes": false,
+    "research": "forbidden_magic:ROD_dreamwood"
+  },
+  {
+    "tag": "forbidden_magic:dreamwood_staff",
+    "item": "forbidden_magic:wand_rod_dreamwood_staff",
+    "capacity": 250,
+    "craftCost": 25,
+    "texture": "forbidden_magic:textures/models/wand_rod_dreamwood.png",
+    "staff": true,
+    "runes": true,
+    "research": "forbidden_magic:ROD_dreamwood_staff"
+  },
+  {
+    "tag": "forbidden_magic:blood",
+    "item": "forbidden_magic:wand_rod_blood",
+    "capacity": 100,
+    "craftCost": 12,
+    "texture": "forbidden_magic:textures/models/wand_rod_blood.png",
+    "staff": false,
+    "research": "forbidden_magic:ROD_blood"
+  },
+  {
+    "tag": "forbidden_magic:blood_staff",
+    "item": "forbidden_magic:wand_rod_blood_staff",
+    "capacity": 50,
+    "craftCost": 24,
+    "texture": "forbidden_magic:textures/models/wand_rod_blood.png",
+    "staff": true,
+    "research": "forbidden_magic:ROD_blood_staff"
+  }
+]

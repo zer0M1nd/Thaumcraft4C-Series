@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "entity": "thaumcraft:brainy_zombie",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:ira": 3
+      }
+    },
+    {
+      "entity": "thaumcraft:giant_brainy_zombie",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:ira": 4
+      }
+    },
+    {
+      "entity": "thaumcraft:fire_bat",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:ira": 1,
+        "forbidden_magic:infernus": 2
+      }
+    },
+    {
+      "entity": "minecraft:wither_skeleton",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:infernus": 3
+      }
+    },
+    {
+      "entity": "minecraft:creeper",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:ira": 2
+      }
+    },
+    {
+      "entity": "minecraft:wither",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:infernus": 7,
+        "forbidden_magic:ira": 7
+      }
+    },
+    {
+      "entity": "minecraft:ocelot",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:desidia": 3
+      }
+    },
+    {
+      "entity": "minecraft:enderman",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:superbia": 4,
+        "forbidden_magic:invidia": 4
+      }
+    },
+    {
+      "entity": "minecraft:ghast",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:infernus": 3,
+        "forbidden_magic:ira": 3
+      }
+    },
+    {
+      "entity": "minecraft:zombified_piglin",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:ira": 6
+      }
+    },
+    {
+      "entity": "minecraft:ender_dragon",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:superbia": 10
+      }
+    },
+    {
+      "entity": "minecraft:pig",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:gula": 3
+      }
+    },
+    {
+      "entity": "minecraft:magma_cube",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:infernus": 1
+      }
+    },
+    {
+      "entity": "minecraft:creeper",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:ira": 2
+      },
+      "variant": "powered"
+    }
+  ]
+}

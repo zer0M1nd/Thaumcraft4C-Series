@@ -1,0 +1,91 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forbidden_magic:config",
+          "option": "food_enabled",
+          "expected": true
+        },
+        {
+          "type": "forbidden_magic:config",
+          "option": "food_hard",
+          "expected": true
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "research": "forbidden_magic:RINGFOOD",
+        "result": {
+          "item": "forbidden_magic:ring_nutrition",
+          "count": 1
+        },
+        "vis": {
+          "perditio": 10,
+          "aqua": 20,
+          "terra": 20
+        },
+        "pattern": [
+          " D ",
+          "SXS",
+          " S "
+        ],
+        "key": {
+          "S": {
+            "item": "forbidden_magic:gluttony_shard"
+          },
+          "X": {
+            "item": "thaumcraft:mundane_ring"
+          },
+          "D": {
+            "item": "forbidden_magic:nether_star_block"
+          }
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forbidden_magic:config",
+          "option": "food_enabled",
+          "expected": true
+        },
+        {
+          "type": "forbidden_magic:config",
+          "option": "food_hard",
+          "expected": false
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "research": "forbidden_magic:RINGFOOD",
+        "result": {
+          "item": "forbidden_magic:ring_nutrition",
+          "count": 1
+        },
+        "vis": {
+          "perditio": 10,
+          "aqua": 20,
+          "terra": 20
+        },
+        "pattern": [
+          " D ",
+          "SXS",
+          " S "
+        ],
+        "key": {
+          "S": {
+            "item": "forbidden_magic:gluttony_shard"
+          },
+          "X": {
+            "item": "thaumcraft:mundane_ring"
+          },
+          "D": {
+            "item": "minecraft:diamond"
+          }
+        }
+      }
+    }
+  ]
+}

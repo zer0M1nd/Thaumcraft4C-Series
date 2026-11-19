@@ -1,0 +1,45 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:GREEDY",
+  "enchantment": "forbidden_magic:greedy",
+  "instability": 4,
+  "aspects": {
+    "forbidden_magic:infernus": 16,
+    "telum": 8,
+    "lucrum": 16
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:greed_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:greed_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forbidden_magic:config",
+      "option": "greedy",
+      "expected": true
+    }
+  ]
+}

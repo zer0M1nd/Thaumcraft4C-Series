@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "forbidden_magic:CAP_elementium",
+  "result": {
+    "item": "forbidden_magic:wand_cap_elementium_inert",
+    "count": 1
+  },
+  "vis": {
+    "perditio": 27,
+    "ignis": 27,
+    "aqua": 27,
+    "aer": 27,
+    "terra": 27,
+    "ordo": 27
+  },
+  "pattern": [
+    "NNN",
+    "N N"
+  ],
+  "key": {
+    "N": {
+      "tag": "botania:elementium_nuggets"
+    }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "botania",
+      "expected": true
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    }
+  ]
+}

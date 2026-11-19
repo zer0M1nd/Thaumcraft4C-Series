@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "forbidden_magic:PRIMEWELL",
+  "result": {
+    "item": "forbidden_magic:primewell",
+    "count": 1
+  },
+  "vis": {
+    "aqua": 50,
+    "terra": 50,
+    "ignis": 50,
+    "aer": 50,
+    "ordo": 50,
+    "perditio": 50
+  },
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "thaumcraft:primordial_pearl"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ]
+}

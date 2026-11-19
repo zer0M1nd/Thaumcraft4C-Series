@@ -1,0 +1,56 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:VOIDTOUCHED",
+  "enchantment": "forbidden_magic:voidtouched",
+  "instability": 8,
+  "aspects": {
+    "vacuos": 16,
+    "tenebrae": 16,
+    "forbidden_magic:invidia": 24,
+    "alienis": 16
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forbidden_magic:config",
+      "option": "enchantments",
+      "expected": true
+    }
+  ]
+}

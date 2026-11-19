@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "forbidden_magic:BLOODMAGIC",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.BLOODMAGIC.1"
+          },
+          "id": "forbidden_magic:BLOODMAGIC/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:ROD_blood",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.ROD_blood.1"
+          },
+          "id": "forbidden_magic:ROD_blood/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:bloodmagic/blood_recipe"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:ROD_blood/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.ROD_blood.2"
+          },
+          "id": "forbidden_magic:ROD_blood/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:ROD_blood_staff",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.ROD_blood_staff.1"
+          },
+          "id": "forbidden_magic:ROD_blood_staff/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:bloodmagic/blood_staff"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:ROD_blood_staff/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:CAP_alchemical",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.CAP_alchemical.1"
+          },
+          "id": "forbidden_magic:CAP_alchemical/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:bloodmagic/alchemical_recipe"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:CAP_alchemical/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:BLOODWELL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.BLOODWELL.1"
+          },
+          "id": "forbidden_magic:BLOODWELL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:bloodmagic/bloodwell_recipe"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:BLOODWELL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:BLOODRAPIER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.BLOODRAPIER.1"
+          },
+          "id": "forbidden_magic:BLOODRAPIER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:bloodmagic/blood_rapier"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:BLOODRAPIER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:ELDRITCHORB",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.ELDRITCHORB.1"
+          },
+          "id": "forbidden_magic:ELDRITCHORB/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:bloodmagic/eldritch_orb"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:ELDRITCHORB/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

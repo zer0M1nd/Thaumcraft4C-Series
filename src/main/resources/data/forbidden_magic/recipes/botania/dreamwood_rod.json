@@ -1,0 +1,90 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:ROD_dreamwood",
+  "result": {
+    "item": "forbidden_magic:wand_rod_dreamwood_inert",
+    "count": 1
+  },
+  "instability": 3,
+  "aspects": {
+    "praecantatio": 16,
+    "arbor": 32,
+    "victus": 16,
+    "sensus": 8,
+    "herba": 8
+  },
+  "center": {
+    "exact": true,
+    "ingredient": {
+      "item": "botania:dreamwood_log"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "botania:mana_diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_mana"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_water"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_fire"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_earth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_air"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_spring"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_summer"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_autumn"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_winter"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "botania",
+      "expected": true
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    }
+  ]
+}

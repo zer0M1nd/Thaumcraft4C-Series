@@ -1,0 +1,229 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "FORBIDDEN",
+      "icon": "forbidden_magic:textures/misc/forbidden.png",
+      "background": "forbidden_magic:textures/misc/runecircle.png",
+      "research": [
+        {
+          "key": "forbidden_magic:BOTANY",
+          "category": "FORBIDDEN",
+          "displayColumn": -3,
+          "displayRow": 3,
+          "complexity": 0,
+          "aspects": {},
+          "icon_item": {
+            "item": "botania:lexicon",
+            "count": 1
+          },
+          "warp": 0,
+          "parents": [
+            "forbidden_magic:SCHOOLS"
+          ],
+          "isRound": true,
+          "isStub": true,
+          "isAutoUnlock": true,
+          "pageCount": 1
+        },
+        {
+          "key": "forbidden_magic:ROD_livingwood",
+          "category": "FORBIDDEN",
+          "displayColumn": -1,
+          "displayRow": 3,
+          "complexity": 3,
+          "aspects": {
+            "arbor": 8,
+            "praecantatio": 4,
+            "herba": 6
+          },
+          "icon_item": {
+            "item": "forbidden_magic:wand_rod_livingwood",
+            "count": 1
+          },
+          "warp": 2,
+          "parents": [
+            "forbidden_magic:BOTANY",
+            "ROD_silverwood",
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:CAP_manasteel",
+          "category": "FORBIDDEN",
+          "displayColumn": 1,
+          "displayRow": 2,
+          "complexity": 2,
+          "aspects": {
+            "auram": 6,
+            "praecantatio": 4,
+            "metallum": 4
+          },
+          "icon_item": {
+            "item": "forbidden_magic:wand_cap_manasteel",
+            "count": 1
+          },
+          "warp": 0,
+          "parents": [
+            "forbidden_magic:ROD_livingwood"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:ROD_dreamwood_staff",
+          "category": "FORBIDDEN",
+          "displayColumn": 1,
+          "displayRow": 3,
+          "complexity": 2,
+          "aspects": {
+            "arbor": 16,
+            "praecantatio": 8,
+            "alienis": 6
+          },
+          "icon_item": {
+            "item": "forbidden_magic:wand_rod_dreamwood_staff",
+            "count": 1
+          },
+          "warp": 0,
+          "parents": [
+            "forbidden_magic:ROD_livingwood",
+            "ROD_silverwood_staff"
+          ],
+          "siblings": [
+            "forbidden_magic:ROD_dreamwood"
+          ],
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "forbidden_magic:ROD_dreamwood",
+          "category": "FORBIDDEN",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "complexity": 0,
+          "aspects": {},
+          "isVirtual": true,
+          "pageCount": 0
+        },
+        {
+          "key": "forbidden_magic:CAP_elementium",
+          "category": "FORBIDDEN",
+          "displayColumn": 3,
+          "displayRow": 3,
+          "complexity": 3,
+          "aspects": {
+            "ignis": 8,
+            "praecantatio": 12,
+            "aqua": 8,
+            "aer": 8,
+            "terra": 8
+          },
+          "icon_item": {
+            "item": "forbidden_magic:wand_cap_elementium",
+            "count": 1
+          },
+          "warp": 0,
+          "parents": [
+            "forbidden_magic:ROD_dreamwood_staff"
+          ],
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "forbidden_magic:CAP_terrasteel",
+          "category": "FORBIDDEN",
+          "displayColumn": 3,
+          "displayRow": 2,
+          "complexity": 1,
+          "aspects": {
+            "potentia": 1,
+            "metallum": 1
+          },
+          "icon_item": {
+            "item": "forbidden_magic:wand_cap_terrasteel",
+            "count": 1
+          },
+          "warp": 0,
+          "parents": [
+            "forbidden_magic:CAP_manasteel"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:EUCLIDAISY",
+          "category": "FORBIDDEN",
+          "displayColumn": -3,
+          "displayRow": 5,
+          "complexity": 2,
+          "aspects": {
+            "herba": 8,
+            "praecantatio": 4,
+            "auram": 12
+          },
+          "icon_item": {
+            "item": "forbidden_magic:euclidaisy",
+            "count": 1
+          },
+          "warp": 0,
+          "parents": [
+            "forbidden_magic:BOTANY",
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:WHISPERWEED",
+          "category": "FORBIDDEN",
+          "displayColumn": -4,
+          "displayRow": 5,
+          "complexity": 1,
+          "aspects": {
+            "herba": 8,
+            "cognitio": 10,
+            "sensus": 4
+          },
+          "icon_item": {
+            "item": "forbidden_magic:whisperweed",
+            "count": 1
+          },
+          "warp": 0,
+          "parents": [
+            "forbidden_magic:BOTANY"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:TAINTHISTLE",
+          "category": "FORBIDDEN",
+          "displayColumn": -2,
+          "displayRow": 5,
+          "complexity": 2,
+          "aspects": {
+            "herba": 8,
+            "vitium": 10,
+            "praecantatio": 4
+          },
+          "icon_item": {
+            "item": "forbidden_magic:tainthistle",
+            "count": 1
+          },
+          "warp": 0,
+          "parents": [
+            "forbidden_magic:BOTANY",
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

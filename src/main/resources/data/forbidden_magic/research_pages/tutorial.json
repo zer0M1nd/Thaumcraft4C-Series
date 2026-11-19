@@ -1,0 +1,192 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_FORBIDDEN_MAGIC",
+      "pages": [
+        {
+          "id": "forbidden_magic:tut_addon_forbidden_magic/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.forbidden_magic.tut_addon_forbidden_magic.text.1",
+            "with": [
+              [
+                {
+                  "text": "禁忌魔法是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "forbidden_magic:tut_addon_forbidden_magic/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.forbidden_magic.tut_addon_forbidden_magic.text.2",
+            "with": [
+              [
+                {
+                  "text": "禁忌魔法是神秘时代「黑暗面」的扩展：从下界生物身上收集"
+                },
+                {
+                  "text": "罪孽碎片",
+                  "bold": true
+                },
+                {
+                  "text": "，制作炼狱和腐化杖柄、可变形的避役工具、新的注魔附魔，以及能刷出怪物的暴怒之笼。很多内容会带来扭曲。\n研究在"
+                },
+                {
+                  "text": "伪经",
+                  "bold": true
+                },
+                {
+                  "text": "分页中。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "forbidden_magic:tut_addon_forbidden_magic/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "forbidden_magic:tut_addon_forbidden_magic/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.forbidden_magic.tut_addon_forbidden_magic.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "forbidden_magic:tut_addon_forbidden_magic/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.forbidden_magic.tut_addon_forbidden_magic.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "forbidden_magic:NETHERSHARDS"
+                },
+                {
+                  "text": "：下界之星，介绍罪孽碎片的来源。\n· "
+                },
+                {
+                  "research": "forbidden_magic:CRYSTALWELL"
+                },
+                {
+                  "text": "：水晶笔与墨，不用补墨的笔与墨。\n· "
+                },
+                {
+                  "research": "forbidden_magic:MORPHTOOLS"
+                },
+                {
+                  "text": "：避役工具，一把工具切换多种形态。\n· "
+                },
+                {
+                  "research": "forbidden_magic:ROD_infernal"
+                },
+                {
+                  "text": "：炼狱杖柄。\n· "
+                },
+                {
+                  "research": "forbidden_magic:WRATHCAGE"
+                },
+                {
+                  "text": "：暴怒之笼。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "forbidden_magic:tut_addon_forbidden_magic/text/6",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.forbidden_magic.tut_addon_forbidden_magic.text.6",
+            "with": [
+              [
+                {
+                  "text": "安装了血魔法："
+                },
+                {
+                  "research": "forbidden_magic:SCHOOLS"
+                },
+                {
+                  "text": "下会出现「血之魔法」分支。\n"
+                }
+              ]
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "bloodmagic"
+            }
+          ]
+        },
+        {
+          "id": "forbidden_magic:tut_addon_forbidden_magic/text/7",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.forbidden_magic.tut_addon_forbidden_magic.text.7",
+            "with": [
+              [
+                {
+                  "text": "安装了植物魔法："
+                },
+                {
+                  "research": "forbidden_magic:SCHOOLS"
+                },
+                {
+                  "text": "下会出现「花之魔法」分支。\n"
+                }
+              ]
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "botania"
+            }
+          ]
+        },
+        {
+          "id": "forbidden_magic:tut_addon_forbidden_magic/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "forbidden_magic:tut_addon_forbidden_magic/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "forbidden_magic:tut_addon_forbidden_magic/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "forbidden_magic:SCHOOLS",
+            "forbidden_magic:NETHERSHARDS",
+            "forbidden_magic:CRYSTALWELL",
+            "forbidden_magic:MORPHTOOLS",
+            "forbidden_magic:ROD_infernal",
+            "forbidden_magic:WRATHCAGE"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

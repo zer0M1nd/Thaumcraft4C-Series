@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "forbidden_magic:WRATHCAGE",
+  "legacy_order": 20018,
+  "result": {
+    "item": "forbidden_magic:mob_crystal",
+    "count": 1
+  },
+  "catalyst": {
+    "item": "minecraft:diamond"
+  },
+  "aspects": {
+    "cognitio": 10,
+    "potentia": 10
+  },
+  "conditions": [
+    {
+      "type": "forbidden_magic:config",
+      "option": "cage",
+      "expected": true
+    }
+  ]
+}

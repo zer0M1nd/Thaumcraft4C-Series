@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "enchantment": "forbidden_magic:wrath",
+      "research": "forbidden_magic:WRATH",
+      "icon": "forbidden_magic:textures/misc/wrath.png",
+      "aspects": {
+        "perditio": 6,
+        "ignis": 6
+      }
+    },
+    {
+      "enchantment": "forbidden_magic:cluster",
+      "research": "forbidden_magic:CLUSTER",
+      "icon": "forbidden_magic:textures/misc/lucrative.png",
+      "aspects": {
+        "ignis": 5,
+        "terra": 5,
+        "ordo": 5
+      }
+    },
+    {
+      "enchantment": "forbidden_magic:greedy",
+      "research": "forbidden_magic:GREEDY",
+      "icon": "forbidden_magic:textures/misc/greedy.png",
+      "aspects": {
+        "perditio": 50,
+        "terra": 30,
+        "ordo": 20
+      }
+    },
+    {
+      "enchantment": "forbidden_magic:educational",
+      "research": "forbidden_magic:EDUCATIONAL",
+      "icon": "forbidden_magic:textures/misc/educational.png",
+      "aspects": {
+        "aer": 10,
+        "ignis": 10,
+        "aqua": 10,
+        "terra": 10,
+        "ordo": 15,
+        "perditio": 15
+      }
+    },
+    {
+      "enchantment": "forbidden_magic:consuming",
+      "research": "forbidden_magic:CONSUMING",
+      "icon": "forbidden_magic:textures/misc/consuming.png",
+      "aspects": {
+        "perditio": 10
+      }
+    },
+    {
+      "enchantment": "forbidden_magic:corrupting",
+      "research": "forbidden_magic:CORRUPTING",
+      "icon": "forbidden_magic:textures/misc/corrupting.png",
+      "aspects": {
+        "perditio": 20,
+        "ignis": 15,
+        "terra": 10
+      }
+    },
+    {
+      "enchantment": "forbidden_magic:voidtouched",
+      "research": "forbidden_magic:VOIDTOUCHED",
+      "icon": "forbidden_magic:textures/misc/voidtouched.png",
+      "aspects": {
+        "perditio": 70
+      }
+    },
+    {
+      "enchantment": "forbidden_magic:impact",
+      "research": "forbidden_magic:IMPACT",
+      "icon": "forbidden_magic:textures/misc/impact.png",
+      "aspects": {
+        "perditio": 30,
+        "terra": 30
+      }
+    }
+  ]
+}

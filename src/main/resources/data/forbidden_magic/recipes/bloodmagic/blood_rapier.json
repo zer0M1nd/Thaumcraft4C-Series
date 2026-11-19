@@ -1,0 +1,57 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:BLOODRAPIER",
+  "result": {
+    "item": "forbidden_magic:blood_rapier",
+    "count": 1
+  },
+  "instability": 8,
+  "aspects": {
+    "victus": 18,
+    "fames": 32,
+    "telum": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_sword"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:gluttony_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "bloodmagic",
+      "expected": true
+    }
+  ]
+}

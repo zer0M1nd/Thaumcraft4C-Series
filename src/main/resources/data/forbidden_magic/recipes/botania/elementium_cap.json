@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:CAP_elementium",
+  "result": {
+    "item": "forbidden_magic:wand_cap_elementium",
+    "count": 1
+  },
+  "instability": 1,
+  "aspects": {
+    "terra": 18,
+    "ignis": 18,
+    "aqua": 18,
+    "aer": 18
+  },
+  "center": {
+    "ingredient": {
+      "item": "forbidden_magic:wand_cap_elementium_inert"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "botania:pixie_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_water"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_fire"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_earth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_air"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "botania",
+      "expected": true
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    }
+  ]
+}

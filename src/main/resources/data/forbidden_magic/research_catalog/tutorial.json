@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_FORBIDDEN_MAGIC",
+          "category": "TUTORIAL",
+          "displayColumn": 66,
+          "displayRow": -6,
+          "parents": [
+            "TUT_WARP_CONTROL"
+          ],
+          "icon_item": {
+            "item": "forbidden_magic:wrath_shard",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "forbidden_magic"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "forbidden_magic:SCHOOLS",
+            "forbidden_magic:NETHERSHARDS",
+            "forbidden_magic:CRYSTALWELL",
+            "forbidden_magic:MORPHTOOLS",
+            "forbidden_magic:ROD_infernal",
+            "forbidden_magic:WRATHCAGE"
+          ],
+          "pageCount": 10
+        }
+      ]
+    }
+  ]
+}

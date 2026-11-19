@@ -1,0 +1,27 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "forbidden_magic:wand_cap_manasteel_inert"
+  },
+  "output": {
+    "item": "forbidden_magic:wand_cap_manasteel",
+    "count": 1
+  },
+  "mana": 1000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "botania",
+      "expected": true
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    }
+  ]
+}

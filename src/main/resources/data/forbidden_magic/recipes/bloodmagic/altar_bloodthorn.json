@@ -1,0 +1,28 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "botania:red_mystical_flower"
+  },
+  "output": {
+    "item": "forbidden_magic:bloodthorn"
+  },
+  "upgradeLevel": 3,
+  "altarSyphon": 15000,
+  "consumptionRate": 25,
+  "drainRate": 50,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "bloodmagic",
+      "expected": true
+    }
+  ]
+}
