@@ -1,0 +1,86 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "heartwork:Infusion_basic",
+  "instability": 1,
+  "aspects": {
+    "heartwork:odachi": 16,
+    "telum": 16,
+    "potentia": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "slashblade:slashblade"
+    },
+    "exact": true,
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:stone"
+      },
+      "exact": true,
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "slashblade:slashblade",
+    "count": 1,
+    "nbt": "{\"bladeState\":{\"currentCombo\":\"slashblade:none\",\"ComboRoot\":\"slashblade:standby\",\"maxDamage\":70,\"baseAttackModifier\":6.0,\"SpecialAttackType\":\"slashblade:sakura_end\",\"isDefaultBewitched\":0,\"translationKey\":\"item.slashblade.yasha\",\"StandbyRenderType\":2,\"SummonedSwordColor\":-13421569,\"adjustXYZ\":[0.0,0.0,0.0],\"fallDecreaseRate\":0,\"AttackAmplifier\":0,\"ModelName\":\"slashblade:model/named/yasha/yasha.obj\",\"TextureName\":\"slashblade:model/named/yasha/yasha.png\"},\"Enchantments\":[]}"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ]
+}

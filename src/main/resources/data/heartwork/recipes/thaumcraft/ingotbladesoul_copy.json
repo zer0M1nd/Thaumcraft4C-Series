@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "heartwork:IngotBladeSoul_copy",
+  "legacy_order": 20003,
+  "aspects": {
+    "metallum": 6,
+    "heartwork:odachi": 12,
+    "spiritus": 16,
+    "heartwork:proud": 16
+  },
+  "catalyst": {
+    "item": "slashblade:proudsoul_ingot"
+  },
+  "result": {
+    "item": "slashblade:proudsoul_ingot",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ]
+}

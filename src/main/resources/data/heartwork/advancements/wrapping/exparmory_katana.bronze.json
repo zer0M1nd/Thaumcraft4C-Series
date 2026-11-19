@@ -1,0 +1,50 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exparmory"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "exparmory:katana.bronze"
+    }
+  ],
+  "parent": "heartwork:blades/root",
+  "display": {
+    "icon": {
+      "item": "exparmory:katana.bronze"
+    },
+    "title": {
+      "translate": "item.heartwork.wrapped_name",
+      "with": [
+        {
+          "translate": "item.exparmory.katana.bronze"
+        }
+      ]
+    },
+    "description": {
+      "translate": "advancements.heartwork.wrapping.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "wrapped": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "heartwork:wrapped_blade"
+            ],
+            "nbt": "{\"WrapItem\": {\"id\": \"exparmory:katana.bronze\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

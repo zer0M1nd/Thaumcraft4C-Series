@@ -1,0 +1,29 @@
+{
+  "name": "heartwork:smith_3",
+  "item": "heartwork:tls_blade",
+  "render": {
+    "texture": "heartwork:blade/named/smith/smith_2.png",
+    "model": "heartwork:blade/named/muramasa/muramasa.obj",
+    "carry_type": "default"
+  },
+  "properties": {
+    "attack_base": 15.0,
+    "max_damage": 95,
+    "slash_art": "slashblade:judgement_cut",
+    "sword_type": []
+  },
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 6
+    },
+    {
+      "id": "minecraft:efficiency",
+      "lvl": 8
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 8
+    }
+  ]
+}

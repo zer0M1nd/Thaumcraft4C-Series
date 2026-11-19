@@ -1,0 +1,35 @@
+{
+  "name": "heartwork:void_blade",
+  "item": "heartwork:void_blade",
+  "render": {
+    "texture": "heartwork:blade/named/void.png",
+    "model": "heartwork:blade/named/sange/sange.obj",
+    "carry_type": "ninja"
+  },
+  "properties": {
+    "attack_base": 15.0,
+    "max_damage": 113,
+    "slash_art": "heartwork:slashdimension_old",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 7
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 6
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 6
+    }
+  ]
+}

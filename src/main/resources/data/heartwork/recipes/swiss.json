@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:swiss"
+  },
+  "pattern": [
+    "A*C",
+    " # ",
+    "B*D"
+  ],
+  "key": {
+    "#": {
+      "item": "heartwork:swiss_knife"
+    },
+    "*": {
+      "item": "heartwork:steel_ingot_1"
+    },
+    "A": {
+      "item": "heartwork:good_steel_axe"
+    },
+    "B": {
+      "item": "heartwork:good_steel_pickaxe"
+    },
+    "C": {
+      "item": "heartwork:good_steel_sword"
+    },
+    "D": {
+      "item": "heartwork:good_steel_shovel"
+    }
+  }
+}

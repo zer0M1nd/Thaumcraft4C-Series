@@ -1,0 +1,24 @@
+[
+  {
+    "tag": "heartwork:odachi",
+    "color": 16777200,
+    "components": [
+      "telum",
+      "vacuos"
+    ],
+    "chatColor": "",
+    "blendFactor": 1,
+    "texture": "heartwork:textures/aspects/blade.png"
+  },
+  {
+    "tag": "heartwork:proud",
+    "color": 7147944,
+    "components": [
+      "spiritus",
+      "heartwork:odachi"
+    ],
+    "chatColor": "",
+    "blendFactor": 1,
+    "texture": "heartwork:textures/aspects/proud.png"
+  }
+]

@@ -1,0 +1,920 @@
+{
+  "items": [
+    {
+      "id": "butter",
+      "kind": "food",
+      "nutrition": 1,
+      "meat": false
+    },
+    {
+      "id": "cheese",
+      "kind": "food",
+      "nutrition": 2,
+      "meat": false
+    },
+    {
+      "id": "jam",
+      "kind": "food",
+      "nutrition": 2,
+      "meat": false
+    },
+    {
+      "id": "hone",
+      "kind": "item"
+    },
+    {
+      "id": "coffee_bean",
+      "kind": "item"
+    },
+    {
+      "id": "coffee_bean_roast",
+      "kind": "item"
+    },
+    {
+      "id": "coffee_powder",
+      "kind": "item"
+    },
+    {
+      "id": "mashed_tea_green",
+      "kind": "item"
+    },
+    {
+      "id": "mashed_tea_black",
+      "kind": "item"
+    },
+    {
+      "id": "strawberry",
+      "kind": "food",
+      "nutrition": 1,
+      "meat": false
+    },
+    {
+      "id": "lettuce",
+      "kind": "food",
+      "nutrition": 1,
+      "meat": false
+    },
+    {
+      "id": "pear",
+      "kind": "food",
+      "nutrition": 2,
+      "meat": false
+    },
+    {
+      "id": "cream_sauce",
+      "kind": "food",
+      "nutrition": 2,
+      "meat": false
+    },
+    {
+      "id": "tea_leaf",
+      "kind": "item"
+    },
+    {
+      "id": "flour",
+      "kind": "item"
+    },
+    {
+      "id": "dough",
+      "kind": "item"
+    },
+    {
+      "id": "dough_bread",
+      "kind": "item"
+    },
+    {
+      "id": "dough_bugerbread",
+      "kind": "item"
+    },
+    {
+      "id": "dough_cookie",
+      "kind": "item"
+    },
+    {
+      "id": "dough_pie",
+      "kind": "item"
+    },
+    {
+      "id": "dough_cracker",
+      "kind": "item"
+    },
+    {
+      "id": "crashed_iron_charcoal",
+      "kind": "item"
+    },
+    {
+      "id": "crashed_iron_redstone",
+      "kind": "item"
+    },
+    {
+      "id": "crashed_iron_highpower",
+      "kind": "item"
+    },
+    {
+      "id": "crashed_iron_1",
+      "kind": "item"
+    },
+    {
+      "id": "crashed_iron_2",
+      "kind": "item"
+    },
+    {
+      "id": "smith_steel_ingot",
+      "kind": "item"
+    },
+    {
+      "id": "steel_ingot_1",
+      "kind": "item"
+    },
+    {
+      "id": "steel_ingot_2",
+      "kind": "item"
+    },
+    {
+      "id": "steel_ingot_power",
+      "kind": "item"
+    },
+    {
+      "id": "steel_ingot_highpower",
+      "kind": "item"
+    },
+    {
+      "id": "tahamagane",
+      "kind": "item"
+    },
+    {
+      "id": "iron_sand",
+      "kind": "item"
+    },
+    {
+      "id": "coal_powder",
+      "kind": "item"
+    },
+    {
+      "id": "cocoa_powder",
+      "kind": "item"
+    },
+    {
+      "id": "cocoa_batter",
+      "kind": "item"
+    },
+    {
+      "id": "iron_plate",
+      "kind": "item"
+    },
+    {
+      "id": "cup",
+      "kind": "item"
+    },
+    {
+      "id": "cup_wooden",
+      "kind": "item"
+    },
+    {
+      "id": "cake_cheese",
+      "kind": "cake"
+    },
+    {
+      "id": "cake_chocolate",
+      "kind": "cake"
+    },
+    {
+      "id": "cake_tea",
+      "kind": "cake"
+    },
+    {
+      "id": "brownie",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false
+    },
+    {
+      "id": "chocolate",
+      "kind": "food",
+      "nutrition": 2,
+      "meat": false
+    },
+    {
+      "id": "sausage",
+      "kind": "food",
+      "nutrition": 6,
+      "meat": false
+    },
+    {
+      "id": "toast",
+      "kind": "food",
+      "nutrition": 2,
+      "meat": false
+    },
+    {
+      "id": "mashed_potatoes",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false
+    },
+    {
+      "id": "sweetpotato_baked",
+      "kind": "food",
+      "nutrition": 6,
+      "meat": true
+    },
+    {
+      "id": "marshmallows",
+      "kind": "food",
+      "nutrition": 1,
+      "meat": true
+    },
+    {
+      "id": "bread",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false
+    },
+    {
+      "id": "buger_meat",
+      "kind": "food",
+      "nutrition": 8,
+      "meat": false
+    },
+    {
+      "id": "buger_cheese",
+      "kind": "food",
+      "nutrition": 9,
+      "meat": false
+    },
+    {
+      "id": "buger_mix",
+      "kind": "food",
+      "nutrition": 11,
+      "meat": false
+    },
+    {
+      "id": "big_mac",
+      "kind": "food",
+      "nutrition": 14,
+      "meat": false
+    },
+    {
+      "id": "cakebase",
+      "kind": "food",
+      "nutrition": 10,
+      "meat": false
+    },
+    {
+      "id": "cake_jam",
+      "kind": "food",
+      "nutrition": 12,
+      "meat": false
+    },
+    {
+      "id": "toast_butter",
+      "kind": "food",
+      "nutrition": 3,
+      "meat": false
+    },
+    {
+      "id": "toast_cheese",
+      "kind": "food",
+      "nutrition": 4,
+      "meat": false
+    },
+    {
+      "id": "toast_jam",
+      "kind": "food",
+      "nutrition": 4,
+      "meat": false
+    },
+    {
+      "id": "meat_stew",
+      "kind": "food",
+      "nutrition": 17,
+      "meat": false,
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "id": "pumpkin_stew",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false,
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "id": "potato_stew",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false,
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "id": "carrot_stew",
+      "kind": "food",
+      "nutrition": 4,
+      "meat": false,
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "id": "chocolate_pie",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false
+    },
+    {
+      "id": "strawberry_pie",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false
+    },
+    {
+      "id": "tea_pie",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false
+    },
+    {
+      "id": "potato_pie",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false
+    },
+    {
+      "id": "green_tea",
+      "kind": "food",
+      "nutrition": 4,
+      "meat": false,
+      "remainder": "heartwork:cup"
+    },
+    {
+      "id": "black_tea",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false,
+      "remainder": "heartwork:cup"
+    },
+    {
+      "id": "coffee",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false,
+      "remainder": "heartwork:cup"
+    },
+    {
+      "id": "black_coffee",
+      "kind": "food",
+      "nutrition": 4,
+      "meat": false,
+      "remainder": "heartwork:cup"
+    },
+    {
+      "id": "coco",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false,
+      "remainder": "heartwork:cup"
+    },
+    {
+      "id": "black_coco",
+      "kind": "food",
+      "nutrition": 4,
+      "meat": false,
+      "remainder": "heartwork:cup"
+    },
+    {
+      "id": "apple_juice",
+      "kind": "food",
+      "nutrition": 4,
+      "meat": false,
+      "remainder": "heartwork:cup"
+    },
+    {
+      "id": "pear_juice",
+      "kind": "food",
+      "nutrition": 4,
+      "meat": false,
+      "remainder": "heartwork:cup"
+    },
+    {
+      "id": "strawberry_juice",
+      "kind": "food",
+      "nutrition": 4,
+      "meat": false,
+      "remainder": "heartwork:cup"
+    },
+    {
+      "id": "cup_beer",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false,
+      "remainder": "heartwork:cup_wooden"
+    },
+    {
+      "id": "melon_juice",
+      "kind": "food",
+      "nutrition": 4,
+      "meat": false,
+      "remainder": "heartwork:cup"
+    },
+    {
+      "id": "bacon_raw",
+      "kind": "food",
+      "nutrition": 2,
+      "meat": false
+    },
+    {
+      "id": "bacon_cooked",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false
+    },
+    {
+      "id": "cracker",
+      "kind": "food",
+      "nutrition": 2,
+      "meat": false
+    },
+    {
+      "id": "smore",
+      "kind": "food",
+      "nutrition": 5,
+      "meat": false
+    },
+    {
+      "id": "pancake_raw",
+      "kind": "food",
+      "nutrition": 2,
+      "meat": false
+    },
+    {
+      "id": "pancake_raw_berry",
+      "kind": "food",
+      "nutrition": 4,
+      "meat": false
+    },
+    {
+      "id": "pancake_cooked",
+      "kind": "food",
+      "nutrition": 6,
+      "meat": false
+    },
+    {
+      "id": "pancake_cooked_berry",
+      "kind": "food",
+      "nutrition": 8,
+      "meat": false
+    },
+    {
+      "id": "biscuit",
+      "kind": "food",
+      "nutrition": 4,
+      "meat": false
+    },
+    {
+      "id": "meat_stick_raw",
+      "kind": "food",
+      "nutrition": 3,
+      "meat": false
+    },
+    {
+      "id": "meat_stick_cooked",
+      "kind": "food",
+      "nutrition": 8,
+      "meat": false
+    },
+    {
+      "id": "steak_dinner",
+      "kind": "food",
+      "nutrition": 10,
+      "meat": false,
+      "remainder": "heartwork:iron_plate"
+    },
+    {
+      "id": "egg_dinner",
+      "kind": "food",
+      "nutrition": 13,
+      "meat": false,
+      "remainder": "heartwork:iron_plate"
+    },
+    {
+      "id": "potato_dinner",
+      "kind": "food",
+      "nutrition": 15,
+      "meat": false,
+      "remainder": "heartwork:iron_plate"
+    },
+    {
+      "id": "full_dinner",
+      "kind": "food",
+      "nutrition": 18,
+      "meat": false,
+      "remainder": "heartwork:iron_plate"
+    },
+    {
+      "id": "book1",
+      "kind": "guide"
+    },
+    {
+      "id": "book2",
+      "kind": "guide"
+    },
+    {
+      "id": "hammer",
+      "kind": "hammer"
+    },
+    {
+      "id": "black_feather",
+      "kind": "item"
+    },
+    {
+      "id": "proud_thaum_ingot",
+      "kind": "item"
+    },
+    {
+      "id": "proud_void_ingot",
+      "kind": "item"
+    },
+    {
+      "id": "bladework_normal",
+      "kind": "item"
+    },
+    {
+      "id": "bladework_thaum",
+      "kind": "item"
+    },
+    {
+      "id": "bladework_void",
+      "kind": "item"
+    },
+    {
+      "id": "straw_slash",
+      "kind": "straw"
+    },
+    {
+      "id": "good_steel_pickaxe",
+      "kind": "tool",
+      "tool": "pickaxe",
+      "level": 2,
+      "uses": 400,
+      "speed": 6,
+      "damage": 5,
+      "enchantment": 14,
+      "repair_ticks": 0,
+      "repair": "heartwork:steel_ingot_1"
+    },
+    {
+      "id": "good_steel_axe",
+      "kind": "tool",
+      "tool": "axe",
+      "level": 2,
+      "uses": 400,
+      "speed": 6,
+      "damage": 5,
+      "enchantment": 14,
+      "repair_ticks": 0,
+      "repair": "heartwork:steel_ingot_1"
+    },
+    {
+      "id": "good_steel_hoe",
+      "kind": "tool",
+      "tool": "hoe",
+      "level": 2,
+      "uses": 400,
+      "speed": 6,
+      "damage": 5,
+      "enchantment": 14,
+      "repair_ticks": 0,
+      "repair": "heartwork:steel_ingot_1"
+    },
+    {
+      "id": "good_steel_sword",
+      "kind": "tool",
+      "tool": "sword",
+      "level": 2,
+      "uses": 400,
+      "speed": 6,
+      "damage": 5,
+      "enchantment": 14,
+      "repair_ticks": 0,
+      "repair": "heartwork:steel_ingot_1"
+    },
+    {
+      "id": "good_steel_shovel",
+      "kind": "tool",
+      "tool": "shovel",
+      "level": 2,
+      "uses": 400,
+      "speed": 6,
+      "damage": 5,
+      "enchantment": 14,
+      "repair_ticks": 0,
+      "repair": "heartwork:steel_ingot_1"
+    },
+    {
+      "id": "super_steel_pickaxe",
+      "kind": "tool",
+      "tool": "pickaxe",
+      "level": 2,
+      "uses": 512,
+      "speed": 7,
+      "damage": 7,
+      "enchantment": 16,
+      "repair_ticks": 0,
+      "repair": "heartwork:steel_ingot_2"
+    },
+    {
+      "id": "super_steel_axe",
+      "kind": "tool",
+      "tool": "axe",
+      "level": 2,
+      "uses": 512,
+      "speed": 7,
+      "damage": 7,
+      "enchantment": 16,
+      "repair_ticks": 0,
+      "repair": "heartwork:steel_ingot_2"
+    },
+    {
+      "id": "super_steel_hoe",
+      "kind": "tool",
+      "tool": "hoe",
+      "level": 2,
+      "uses": 512,
+      "speed": 7,
+      "damage": 7,
+      "enchantment": 16,
+      "repair_ticks": 0,
+      "repair": "heartwork:steel_ingot_2"
+    },
+    {
+      "id": "super_steel_sword",
+      "kind": "tool",
+      "tool": "sword",
+      "level": 2,
+      "uses": 512,
+      "speed": 7,
+      "damage": 7,
+      "enchantment": 16,
+      "repair_ticks": 0,
+      "repair": "heartwork:steel_ingot_2"
+    },
+    {
+      "id": "super_steel_shovel",
+      "kind": "tool",
+      "tool": "shovel",
+      "level": 2,
+      "uses": 512,
+      "speed": 7,
+      "damage": 7,
+      "enchantment": 16,
+      "repair_ticks": 0,
+      "repair": "heartwork:steel_ingot_2"
+    },
+    {
+      "id": "power_steel_pickaxe",
+      "kind": "tool",
+      "tool": "pickaxe",
+      "level": 2,
+      "uses": 128,
+      "speed": 6,
+      "damage": 5,
+      "enchantment": 4,
+      "repair_ticks": 800,
+      "repair": "heartwork:steel_ingot_power"
+    },
+    {
+      "id": "power_steel_axe",
+      "kind": "tool",
+      "tool": "axe",
+      "level": 2,
+      "uses": 128,
+      "speed": 6,
+      "damage": 5,
+      "enchantment": 4,
+      "repair_ticks": 800,
+      "repair": "heartwork:steel_ingot_power"
+    },
+    {
+      "id": "power_steel_hoe",
+      "kind": "tool",
+      "tool": "hoe",
+      "level": 2,
+      "uses": 128,
+      "speed": 6,
+      "damage": 5,
+      "enchantment": 4,
+      "repair_ticks": 800,
+      "repair": "heartwork:steel_ingot_power"
+    },
+    {
+      "id": "power_steel_sword",
+      "kind": "tool",
+      "tool": "sword",
+      "level": 2,
+      "uses": 128,
+      "speed": 6,
+      "damage": 5,
+      "enchantment": 4,
+      "repair_ticks": 800,
+      "repair": "heartwork:steel_ingot_power"
+    },
+    {
+      "id": "power_steel_shovel",
+      "kind": "tool",
+      "tool": "shovel",
+      "level": 2,
+      "uses": 128,
+      "speed": 6,
+      "damage": 5,
+      "enchantment": 4,
+      "repair_ticks": 800,
+      "repair": "heartwork:steel_ingot_power"
+    },
+    {
+      "id": "highpower_steel_pickaxe",
+      "kind": "tool",
+      "tool": "pickaxe",
+      "level": 3,
+      "uses": 256,
+      "speed": 6,
+      "damage": 6,
+      "enchantment": 6,
+      "repair_ticks": 1600,
+      "repair": "heartwork:steel_ingot_highpower"
+    },
+    {
+      "id": "highpower_steel_axe",
+      "kind": "tool",
+      "tool": "axe",
+      "level": 3,
+      "uses": 256,
+      "speed": 6,
+      "damage": 6,
+      "enchantment": 6,
+      "repair_ticks": 1600,
+      "repair": "heartwork:steel_ingot_highpower"
+    },
+    {
+      "id": "highpower_steel_hoe",
+      "kind": "tool",
+      "tool": "hoe",
+      "level": 3,
+      "uses": 256,
+      "speed": 6,
+      "damage": 6,
+      "enchantment": 6,
+      "repair_ticks": 1600,
+      "repair": "heartwork:steel_ingot_highpower"
+    },
+    {
+      "id": "highpower_steel_sword",
+      "kind": "tool",
+      "tool": "sword",
+      "level": 3,
+      "uses": 256,
+      "speed": 6,
+      "damage": 6,
+      "enchantment": 6,
+      "repair_ticks": 1600,
+      "repair": "heartwork:steel_ingot_highpower"
+    },
+    {
+      "id": "highpower_steel_shovel",
+      "kind": "tool",
+      "tool": "shovel",
+      "level": 3,
+      "uses": 256,
+      "speed": 6,
+      "damage": 6,
+      "enchantment": 6,
+      "repair_ticks": 1600,
+      "repair": "heartwork:steel_ingot_highpower"
+    },
+    {
+      "id": "swiss_knife",
+      "kind": "swiss",
+      "uses": 256,
+      "mode": "knife"
+    },
+    {
+      "id": "swiss",
+      "kind": "swiss",
+      "uses": 512,
+      "mode": "basic"
+    },
+    {
+      "id": "swiss_crafter",
+      "kind": "swiss",
+      "uses": 512,
+      "mode": "crafter"
+    },
+    {
+      "id": "swiss_combat",
+      "kind": "swiss",
+      "uses": 512,
+      "mode": "combat"
+    },
+    {
+      "id": "swiss_tools",
+      "kind": "swiss",
+      "uses": 512,
+      "mode": "tools"
+    },
+    {
+      "id": "swiss_researcher",
+      "kind": "swiss",
+      "uses": 512,
+      "mode": "researcher"
+    },
+    {
+      "id": "swiss_wooden",
+      "kind": "swiss",
+      "uses": 768,
+      "mode": "basic"
+    },
+    {
+      "id": "swiss_crafter_wooden",
+      "kind": "swiss",
+      "uses": 768,
+      "mode": "crafter"
+    },
+    {
+      "id": "swiss_combat_wooden",
+      "kind": "swiss",
+      "uses": 768,
+      "mode": "combat"
+    },
+    {
+      "id": "swiss_tools_wooden",
+      "kind": "swiss",
+      "uses": 768,
+      "mode": "tools"
+    },
+    {
+      "id": "swiss_researcher_wooden",
+      "kind": "swiss",
+      "uses": 768,
+      "mode": "researcher"
+    },
+    {
+      "id": "coffee_seeds",
+      "kind": "seed",
+      "block": "coffeecrop"
+    },
+    {
+      "id": "lettuce_seeds",
+      "kind": "seed",
+      "block": "lettucecrop"
+    },
+    {
+      "id": "strawberry_seeds",
+      "kind": "seed",
+      "block": "strawberrycrop"
+    },
+    {
+      "id": "tea_seeds",
+      "kind": "seed",
+      "block": "teacrop"
+    },
+    {
+      "id": "wheat_grain",
+      "kind": "seed",
+      "block": "minecraft:wheat"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "cake_cheese",
+      "kind": "cake"
+    },
+    {
+      "id": "cake_chocolate",
+      "kind": "cake"
+    },
+    {
+      "id": "cake_tea",
+      "kind": "cake"
+    },
+    {
+      "id": "coffeecrop",
+      "kind": "crop",
+      "seed": "coffee_seeds",
+      "produce": "coffee_bean"
+    },
+    {
+      "id": "lettucecrop",
+      "kind": "crop",
+      "seed": "lettuce_seeds",
+      "produce": "lettuce"
+    },
+    {
+      "id": "strawberrycrop",
+      "kind": "crop",
+      "seed": "strawberry_seeds",
+      "produce": "strawberry"
+    },
+    {
+      "id": "teacrop",
+      "kind": "crop",
+      "seed": "tea_seeds",
+      "produce": "tea_leaf"
+    }
+  ]
+}

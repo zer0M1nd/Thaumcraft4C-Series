@@ -1,0 +1,18 @@
+{
+  "name": "heartwork:murakumo",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/murakumo/texture.png",
+    "model": "heartwork:blade/named/murakumo/model.obj",
+    "carry_type": "default"
+  },
+  "properties": {
+    "attack_base": 8.0,
+    "max_damage": 113,
+    "slash_art": "slashblade:judgement_cut",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "enchantments": []
+}

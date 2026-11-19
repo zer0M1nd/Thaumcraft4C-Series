@@ -1,0 +1,52 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    " ED",
+    "HDE",
+    "BE "
+  ],
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "heartwork:void_blade",
+      "request": {
+        "name": "heartwork:smithblade_void_bewitched_colored",
+        "enchantments": [
+          {
+            "id": "minecraft:unbreaking",
+            "lvl": 6
+          },
+          {
+            "id": "minecraft:efficiency",
+            "lvl": 7
+          },
+          {
+            "id": "minecraft:sharpness",
+            "lvl": 6
+          },
+          {
+            "id": "minecraft:smite",
+            "lvl": 3
+          }
+        ]
+      }
+    },
+    "H": {
+      "item": "heartwork:hammer"
+    },
+    "D": {
+      "tag": "minecraft:logs"
+    },
+    "E": {
+      "tag": "forge:dyes/white"
+    }
+  },
+  "blade": "heartwork:smithblade_void_bewitched",
+  "inherit": "first"
+}

@@ -1,0 +1,41 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "darkraven"
+    }
+  ],
+  "parent": "heartwork:blades/root",
+  "display": {
+    "icon": {
+      "item": "slashblade:slashblade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:ikaruga\", \"bladeState\": {\"ModelName\": \"heartwork:blade/named/ikaruga/model.obj\", \"TextureName\": \"heartwork:blade/named/ikaruga/texture.png\", \"translationKey\": \"item.heartwork.ikaruga\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"slashblade:drive_horizontal\", \"maxDamage\": 113, \"baseAttackModifier\": 12.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.ikaruga.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.ikaruga.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:ikaruga\"}"
+          }
+        ]
+      }
+    }
+  }
+}

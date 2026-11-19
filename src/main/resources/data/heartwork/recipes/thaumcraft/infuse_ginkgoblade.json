@@ -1,0 +1,105 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "heartwork:Infusion_basic",
+  "instability": 1,
+  "aspects": {
+    "heartwork:odachi": 32,
+    "telum": 32,
+    "potentia": 32,
+    "vacuos": 32,
+    "aer": 64,
+    "aqua": 64,
+    "ignis": 64,
+    "terra": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "slashblade:slashblade"
+    },
+    "exact": true,
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:dandelion"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "slashblade:slashblade",
+    "count": 1,
+    "nbt": "{\"bladeState\":{\"currentCombo\":\"slashblade:none\",\"ComboRoot\":\"slashblade:standby\",\"maxDamage\":61,\"baseAttackModifier\":8.0,\"SpecialAttackType\":\"heartwork:sakuya\",\"isDefaultBewitched\":1,\"translationKey\":\"item.heartwork.ginkgoblade\",\"StandbyRenderType\":3,\"SummonedSwordColor\":16300840,\"adjustXYZ\":[0.0,0.0,0.0],\"fallDecreaseRate\":0,\"AttackAmplifier\":2.0,\"ModelName\":\"heartwork:blade/named/sakuya/work.obj\",\"TextureName\":\"heartwork:blade/named/sakuya/texture_1.png\"},\"Enchantments\":[],\"HeartworkBlade\":\"heartwork:ginkgoblade\"}"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ]
+}

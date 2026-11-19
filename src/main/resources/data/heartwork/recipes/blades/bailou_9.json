@@ -1,0 +1,39 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "D D",
+    "CBC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "heartwork:unnamed_blade",
+      "request": {
+        "name": "heartwork:unnamed_blade",
+        "kill": 250,
+        "proud_soul": 750
+      }
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "D": {
+      "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "blade": "heartwork:bailou",
+  "inherit": "first"
+}

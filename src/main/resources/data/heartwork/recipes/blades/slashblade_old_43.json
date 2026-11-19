@@ -1,0 +1,29 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    " AD",
+    " AD",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "heartwork:smith_steel_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {}
+    },
+    "D": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "blade": "heartwork:slashblade_old",
+  "inherit": "first"
+}

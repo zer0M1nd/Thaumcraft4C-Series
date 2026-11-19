@@ -1,0 +1,31 @@
+{
+  "name": "heartwork:silverbamboolight_blood",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/silverbamboolight/silverbamboo_blood.png",
+    "model": "heartwork:blade/named/yamato.obj",
+    "carry_type": "ninja"
+  },
+  "properties": {
+    "attack_base": 13.0,
+    "max_damage": 80,
+    "slash_art": "heartwork:iai",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 8
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    }
+  ]
+}

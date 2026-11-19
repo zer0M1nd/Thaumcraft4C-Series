@@ -1,0 +1,34 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    " ED",
+    "HDE",
+    "BE "
+  ],
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "heartwork:thw_blade",
+      "request": {
+        "name": "heartwork:smithblade_thaum_colored"
+      }
+    },
+    "H": {
+      "item": "heartwork:hammer"
+    },
+    "D": {
+      "tag": "minecraft:logs"
+    },
+    "E": {
+      "tag": "forge:dyes/white"
+    }
+  },
+  "blade": "heartwork:smithblade_thaum",
+  "inherit": "first"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    " DA",
+    "DA ",
+    "B  "
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "heartwork:tls_blade",
+      "request": {
+        "name": "heartwork:smith_1",
+        "kill": 50,
+        "refine": 1
+      }
+    },
+    "D": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "blade": "heartwork:smith_2",
+  "inherit": "first"
+}

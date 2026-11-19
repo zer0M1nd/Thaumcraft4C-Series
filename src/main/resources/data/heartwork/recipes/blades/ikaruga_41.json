@@ -1,0 +1,39 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "darkraven"
+    }
+  ],
+  "pattern": [
+    "ADA",
+    "CBC",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade:darkraven",
+        "kill": 1000
+      }
+    },
+    "C": {
+      "item": "minecraft:ender_eye"
+    },
+    "D": {
+      "item": "minecraft:feather"
+    }
+  },
+  "blade": "heartwork:ikaruga",
+  "inherit": "first"
+}

@@ -1,0 +1,47 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "DAD",
+    "CBC",
+    "DCD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:dragon_egg"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "heartwork:roukan",
+        "kill": 1000,
+        "proud_soul": 2000,
+        "refine": 10,
+        "enchantments": [
+          {
+            "id": "minecraft:unbreaking",
+            "lvl": 4
+          },
+          {
+            "id": "minecraft:sharpness",
+            "lvl": 8
+          }
+        ]
+      }
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "blade": "heartwork:louguan_tx",
+  "inherit": "first"
+}

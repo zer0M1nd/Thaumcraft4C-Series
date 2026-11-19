@@ -1,0 +1,41 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ],
+  "parent": "heartwork:blades/roukan",
+  "display": {
+    "icon": {
+      "item": "slashblade:slashblade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:yingjian\", \"bladeState\": {\"ModelName\": \"heartwork:blade/named/botlouguan/model.obj\", \"TextureName\": \"heartwork:blade/named/botlouguan/texture.png\", \"translationKey\": \"item.heartwork.yingjian\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"heartwork:sabailou3\", \"maxDamage\": 91, \"baseAttackModifier\": 7.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.yingjian.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.yingjian.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:yingjian\"}"
+          }
+        ]
+      }
+    }
+  }
+}

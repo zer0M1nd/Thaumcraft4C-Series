@@ -1,0 +1,105 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "heartwork:Infusion_basic",
+  "instability": 1,
+  "aspects": {
+    "heartwork:odachi": 32,
+    "telum": 32,
+    "potentia": 32,
+    "vacuos": 32,
+    "aer": 64,
+    "aqua": 64,
+    "ignis": 64,
+    "terra": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "slashblade:slashblade"
+    },
+    "exact": true,
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:poppy"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_tiny"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "slashblade:slashblade",
+    "count": 1,
+    "nbt": "{\"bladeState\":{\"currentCombo\":\"slashblade:none\",\"ComboRoot\":\"slashblade:standby\",\"maxDamage\":75,\"baseAttackModifier\":8.0,\"SpecialAttackType\":\"heartwork:spear2\",\"isDefaultBewitched\":0,\"translationKey\":\"item.heartwork.louguan_fake\",\"StandbyRenderType\":3,\"SummonedSwordColor\":-13421569,\"adjustXYZ\":[0.0,0.0,0.0],\"fallDecreaseRate\":0,\"AttackAmplifier\":0,\"ModelName\":\"heartwork:blade/named/louguan_fake/model.obj\",\"TextureName\":\"heartwork:blade/named/louguan_fake/texture.png\"},\"Enchantments\":[],\"HeartworkBlade\":\"heartwork:louguan_fake\"}"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ]
+}

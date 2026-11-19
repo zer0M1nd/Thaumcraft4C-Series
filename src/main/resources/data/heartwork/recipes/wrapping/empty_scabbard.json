@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exparmory"
+    }
+  ],
+  "pattern": [
+    "RBL",
+    "CIC",
+    "LBR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:lapis_block"
+    },
+    "B": {
+      "item": "minecraft:obsidian"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    },
+    "I": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "heartwork:wrapped_blade"
+  }
+}

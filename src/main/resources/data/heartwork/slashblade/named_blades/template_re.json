@@ -1,0 +1,16 @@
+{
+  "name": "heartwork:template_re",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/famous/5.png",
+    "model": "heartwork:blade/named/muramasa/muramasa.obj",
+    "carry_type": "ninja"
+  },
+  "properties": {
+    "attack_base": 6.0,
+    "max_damage": 65,
+    "slash_art": "slashblade:drive_vertical",
+    "sword_type": []
+  },
+  "enchantments": []
+}

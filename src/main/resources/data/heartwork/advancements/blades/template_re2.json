@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "parent": "heartwork:blades/namedblade_basic",
+  "display": {
+    "icon": {
+      "item": "slashblade:slashblade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:template_re2\", \"bladeState\": {\"ModelName\": \"heartwork:blade/named/muramasa/muramasa.obj\", \"TextureName\": \"heartwork:blade/named/famous/6.png\", \"translationKey\": \"item.heartwork.template_re2\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"slashblade:drive_vertical\", \"maxDamage\": 65, \"baseAttackModifier\": 6.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.template_re2.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.template_re2.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:template_re2\"}"
+          }
+        ]
+      }
+    }
+  }
+}

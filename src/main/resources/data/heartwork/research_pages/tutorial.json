@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_HEARTWORK",
+      "pages": [
+        {
+          "id": "heartwork:tut_addon_heartwork/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.heartwork.tut_addon_heartwork.text.1",
+            "with": [
+              [
+                {
+                  "text": "心血结晶是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "heartwork:tut_addon_heartwork/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.heartwork.tut_addon_heartwork.text.2",
+            "with": [
+              [
+                {
+                  "text": "心血结晶主要围绕"
+                },
+                {
+                  "text": "拔刀剑",
+                  "bold": true
+                },
+                {
+                  "text": "（SlashBlade），兼有料理与锻造内容。它在魔导手册中的研究讲述如何"
+                },
+                {
+                  "text": "为拔刀剑注魔",
+                  "bold": true
+                },
+                {
+                  "text": "、复制「耀魂」，用神秘与虚空耀魂锭锻造刀身部件，最终打造出旋风刀等命名刀。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "heartwork:tut_addon_heartwork/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "heartwork:tut_addon_heartwork/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.heartwork.tut_addon_heartwork.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "heartwork:tut_addon_heartwork/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.heartwork.tut_addon_heartwork.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "heartwork:SlashBlade"
+                },
+                {
+                  "text": "：介绍条目，自动解锁。\n· "
+                },
+                {
+                  "research": "heartwork:Infusion_basic"
+                },
+                {
+                  "text": "：基础拔刀剑注魔。\n· "
+                },
+                {
+                  "research": "heartwork:Proud_thaum_ingot"
+                },
+                {
+                  "text": "：神秘耀魂锭。\n· "
+                },
+                {
+                  "research": "heartwork:Bladework_thaum"
+                },
+                {
+                  "text": "：神秘刀工。\n· "
+                },
+                {
+                  "research": "heartwork:Roukan_xf"
+                },
+                {
+                  "text": "：命名刀的锻造。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "heartwork:tut_addon_heartwork/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "heartwork:tut_addon_heartwork/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "heartwork:tut_addon_heartwork/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "heartwork:SlashBlade",
+            "heartwork:Infusion_basic",
+            "heartwork:Proud_thaum_ingot",
+            "heartwork:Bladework_thaum",
+            "heartwork:Roukan_xf"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "ADA",
+    "DBD",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "heartwork:smith_steel_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "heartwork:unnamed_blade",
+      "request": {
+        "name": "heartwork:unnamed_blade",
+        "kill": 100
+      }
+    },
+    "D": {
+      "item": "minecraft:dandelion"
+    }
+  },
+  "blade": "heartwork:eievui",
+  "inherit": "first"
+}

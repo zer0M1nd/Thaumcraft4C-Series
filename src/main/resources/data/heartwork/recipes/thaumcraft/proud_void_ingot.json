@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "heartwork:Proud_void_ingot",
+  "legacy_order": 20005,
+  "aspects": {
+    "metallum": 4,
+    "spiritus": 8,
+    "heartwork:proud": 16
+  },
+  "catalyst": {
+    "item": "thaumcraft:void_ingot"
+  },
+  "result": {
+    "item": "heartwork:proud_void_ingot",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ]
+}

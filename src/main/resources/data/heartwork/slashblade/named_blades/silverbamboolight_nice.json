@@ -1,0 +1,16 @@
+{
+  "name": "heartwork:silverbamboolight_nice",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/silverbamboolight/silverbamboo_nice.png",
+    "model": "heartwork:blade/named/yamato.obj",
+    "carry_type": "ninja"
+  },
+  "properties": {
+    "attack_base": 8.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:judgement_cut",
+    "sword_type": []
+  },
+  "enchantments": []
+}

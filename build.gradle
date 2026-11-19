@@ -1,0 +1,93 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
+version = '0.1.2'
+group = 'heartwork'
+base.archivesName = 'Heartwork-Modern-Port'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.withSourcesJar()
+sourceSets {
+    audit {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+    baselineTest {
+        java.srcDir 'src/serverTest/java'
+        java.include 'heartwork/HeartworkServerTests.java'
+        resources.srcDir 'src/serverTest/resources'
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+    serverTest {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+repositories {
+    flatDir { dirs '../../../Data/Dependencies/TC4/0.4.116.1', '../../../References/Projects/ThaumicOmniverse/evidence/modern-jars', '../../../References/Projects/ThaumicOmniverse/evidence/collab-jars', '../../../References/Projects/ThaumicOmniverse/expansion-20261021', 'libs' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    mavenCentral()
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+    implementation fg.deobf('local.validation:Thaumcraft-4-Modern-Port:0.4.116.1')
+    compileOnly fg.deobf('local.validation:SlashBladeResharped-1.20.1:1.9.65')
+    compileOnly fg.deobf('local.validation:ic2-forge:2.10.33-ex120')
+    compileOnly fg.deobf('local.validation:Botania-1.20.1:456-FORGE')
+    if (project.hasProperty('withIntegrations')) {
+        runtimeOnly fg.deobf('local.validation:ic2-forge:2.10.33-ex120')
+        runtimeOnly fg.deobf('local.validation:Botania-1.20.1:456-FORGE')
+        runtimeOnly fg.deobf('local.validation:patchouli-local:1')
+        runtimeOnly fg.deobf('local.validation:cofh_core-1.20.1:11.0.2.56')
+    }
+    if (!project.hasProperty('withoutSlashblade')) runtimeOnly fg.deobf('local.validation:SlashBladeResharped-1.20.1:1.9.65')
+    compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
+    runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
+    runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            args '--mixin.config', 'tc4revival.mixins.json'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+            mods { heartwork { source sourceSets.main } }
+        }
+        server { workingDirectory file('../../../Data/Verification/20261114-01a1d90a-heartwork/server'); args '--nogui'; jvmArgs '-Xmx2G','-XX:ActiveProcessorCount=2' }
+        client { workingDirectory file('../../../Data/Verification/20261114-01a1d90a-heartwork/client'); jvmArgs '-Xmx3G','-XX:ActiveProcessorCount=2' }
+        gameTestServer {
+            workingDirectory file('../../../Data/Verification/20261114-01a1d90a-heartwork/' + (project.hasProperty('withoutSlashblade') ? 'gametest-base' : 'gametest'))
+            property 'forge.enabledGameTestNamespaces', 'heartwork'
+            mods { heartwork { source project.hasProperty('withoutSlashblade') ? sourceSets.baselineTest : sourceSets.serverTest } }
+            jvmArgs '-Xmx1200M', '-XX:+UseSerialGC', '-XX:ActiveProcessorCount=2', '-XX:ReservedCodeCacheSize=96M'
+        }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 17 }
+tasks.withType(ProcessResources).configureEach { filteringCharset = 'UTF-8' }
+tasks.named('processResources') { inputs.property 'version', project.version; filesMatching('META-INF/mods.toml') { expand version: project.version } }
+tasks.named('jar') { finalizedBy 'reobfJar' }
+tasks.named('test') { useJUnitPlatform() }
+tasks.register('auditJar', Jar) { from sourceSets.audit.output; archiveClassifier = 'audit'; finalizedBy 'reobfAuditJar' }
+reobf { auditJar {} }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }
+tasks.register('verifyExternalResources') {
+    dependsOn 'jar', 'reobfJar', 'sourcesJar'
+    doLast {
+        ['jar', 'sourcesJar'].each { name ->
+            new java.util.zip.ZipFile(tasks.named(name).get().archiveFile.get().asFile).withCloseable { zip ->
+                zip.entries().each { entry ->
+                    if (entry.name ==~ /.*\.(png|ogg|lang|obj)/ || entry.name.startsWith('tc4revival/') || entry.name.startsWith('thaumcraft/api/'))
+                        throw new GradleException("Unexpected bundled original resource or base class: ${entry.name}")
+                }
+            }
+        }
+    }
+}
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+    }
+}

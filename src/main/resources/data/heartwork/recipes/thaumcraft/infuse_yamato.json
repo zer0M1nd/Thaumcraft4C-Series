@@ -1,0 +1,106 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "heartwork:Infusion_basic",
+  "instability": 1,
+  "aspects": {
+    "heartwork:odachi": 64,
+    "telum": 64,
+    "heartwork:proud": 64,
+    "potentia": 64,
+    "vacuos": 64,
+    "aer": 128,
+    "aqua": 128,
+    "ignis": 128,
+    "terra": 128
+  },
+  "center": {
+    "ingredient": {
+      "item": "slashblade:slashblade"
+    },
+    "exact": true,
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_sphere"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_sphere"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_block"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_crystal_cluster"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "slashblade:slashblade",
+    "count": 1,
+    "nbt": "{\"bladeState\":{\"currentCombo\":\"slashblade:none\",\"ComboRoot\":\"slashblade:standby\",\"maxDamage\":40,\"baseAttackModifier\":7.0,\"SpecialAttackType\":\"slashblade:judgement_cut\",\"isDefaultBewitched\":1,\"translationKey\":\"item.slashblade.yamato\",\"StandbyRenderType\":1,\"SummonedSwordColor\":-13421569,\"adjustXYZ\":[0.0,0.0,0.0],\"fallDecreaseRate\":0,\"AttackAmplifier\":0,\"ModelName\":\"slashblade:model/named/yamato.obj\",\"TextureName\":\"slashblade:model/named/yamato.png\"},\"Enchantments\":[{\"id\":\"minecraft:soul_speed\",\"lvl\":2},{\"id\":\"minecraft:power\",\"lvl\":5},{\"id\":\"minecraft:feather_falling\",\"lvl\":4}]}"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ]
+}

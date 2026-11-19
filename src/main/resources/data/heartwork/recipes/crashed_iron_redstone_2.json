@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+    "item": "heartwork:crashed_iron_redstone",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "heartwork:crashed_iron_charcoal"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    }
+  ]
+}

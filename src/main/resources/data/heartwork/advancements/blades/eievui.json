@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "parent": "heartwork:blades/root",
+  "display": {
+    "icon": {
+      "item": "slashblade:slashblade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:eievui\", \"bladeState\": {\"ModelName\": \"heartwork:blade/named/eievui/model.obj\", \"TextureName\": \"heartwork:blade/named/eievui/texture.png\", \"translationKey\": \"item.heartwork.eievui\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"heartwork:slashdimension_old\", \"maxDamage\": 113, \"baseAttackModifier\": 8.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.eievui.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.eievui.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:eievui\"}"
+          }
+        ]
+      }
+    }
+  }
+}

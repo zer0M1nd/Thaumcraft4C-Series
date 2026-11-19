@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:cup",
+    "count": 1
+  },
+  "pattern": [
+    "# #",
+    "#U#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/iron"
+    },
+    "U": {
+      "item": "heartwork:hammer"
+    }
+  }
+}

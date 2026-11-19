@@ -1,0 +1,106 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "heartwork:Infusion_basic",
+  "instability": 1,
+  "aspects": {
+    "heartwork:odachi": 64,
+    "telum": 64,
+    "heartwork:proud": 64,
+    "potentia": 64,
+    "vacuos": 64,
+    "aer": 128,
+    "aqua": 128,
+    "ignis": 128,
+    "terra": 128
+  },
+  "center": {
+    "ingredient": {
+      "item": "slashblade:slashblade"
+    },
+    "exact": true,
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_sphere"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_sphere"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_block"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "exact": true,
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "slashblade:slashblade",
+    "count": 1,
+    "nbt": "{\"bladeState\":{\"currentCombo\":\"slashblade:none\",\"ComboRoot\":\"slashblade:standby\",\"maxDamage\":113,\"baseAttackModifier\":8.0,\"SpecialAttackType\":\"slashblade:judgement_cut\",\"isDefaultBewitched\":1,\"translationKey\":\"item.heartwork.murakumo\",\"StandbyRenderType\":1,\"SummonedSwordColor\":-13421569,\"adjustXYZ\":[0.0,0.0,0.0],\"fallDecreaseRate\":0,\"AttackAmplifier\":2.0,\"ModelName\":\"heartwork:blade/named/murakumo/model.obj\",\"TextureName\":\"heartwork:blade/named/murakumo/texture.png\"},\"Enchantments\":[],\"HeartworkBlade\":\"heartwork:murakumo\"}"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "heartwork:birdblade",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/bird/1.png",
+    "model": "heartwork:blade/named/bird/model.obj",
+    "carry_type": "default"
+  },
+  "properties": {
+    "attack_base": 7.0,
+    "max_damage": 250,
+    "slash_art": "heartwork:slashdimension_old",
+    "sword_type": []
+  },
+  "enchantments": []
+}

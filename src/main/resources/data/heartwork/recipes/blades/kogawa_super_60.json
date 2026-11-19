@@ -1,0 +1,32 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "ADA",
+    "DBD",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "heartwork:kogawa_rare",
+        "kill": 500
+      }
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "blade": "heartwork:kogawa_super",
+  "inherit": "first"
+}

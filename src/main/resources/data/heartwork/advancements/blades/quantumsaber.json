@@ -1,0 +1,41 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    }
+  ],
+  "parent": "heartwork:blades/nanosaber",
+  "display": {
+    "icon": {
+      "item": "heartwork:eu_blade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:quantumsaber\", \"bladeState\": {\"ModelName\": \"heartwork:blade/named/nanosaber/model.obj\", \"TextureName\": \"heartwork:blade/named/nanosaber/texture_1.png\", \"translationKey\": \"item.heartwork.quantumsaber\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"slashblade:drive_vertical\", \"maxDamage\": 100, \"baseAttackModifier\": 21.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.quantumsaber.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.quantumsaber.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:quantumsaber\"}"
+          }
+        ]
+      }
+    }
+  }
+}

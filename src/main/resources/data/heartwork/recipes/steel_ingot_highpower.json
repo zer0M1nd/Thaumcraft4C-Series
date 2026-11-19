@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+    "item": "heartwork:steel_ingot_highpower"
+  },
+  "ingredients": [
+    {
+      "item": "heartwork:steel_ingot_power"
+    },
+    {
+      "tag": "forge:storage_blocks/redstone"
+    }
+  ]
+}

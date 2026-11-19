@@ -1,0 +1,16 @@
+{
+  "name": "heartwork:smith_1",
+  "item": "heartwork:tls_blade",
+  "render": {
+    "texture": "heartwork:blade/named/smith/smith_0.png",
+    "model": "heartwork:blade/named/muramasa/muramasa.obj",
+    "carry_type": "default"
+  },
+  "properties": {
+    "attack_base": 7.0,
+    "max_damage": 90,
+    "slash_art": "slashblade:judgement_cut",
+    "sword_type": []
+  },
+  "enchantments": []
+}

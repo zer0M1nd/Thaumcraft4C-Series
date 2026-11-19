@@ -1,0 +1,16 @@
+{
+  "name": "heartwork:smithblade_basic_colored",
+  "item": "heartwork:thw_blade",
+  "render": {
+    "texture": "heartwork:blade/named/heartwork/color1.png",
+    "model": "heartwork:blade/named/famous/1.obj",
+    "carry_type": "default"
+  },
+  "properties": {
+    "attack_base": 7.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:drive_horizontal",
+    "sword_type": []
+  },
+  "enchantments": []
+}

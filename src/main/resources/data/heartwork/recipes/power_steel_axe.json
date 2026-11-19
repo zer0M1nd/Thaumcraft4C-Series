@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:power_steel_axe"
+  },
+  "pattern": [
+    "**",
+    "*#",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "*": {
+      "item": "heartwork:steel_ingot_power"
+    }
+  }
+}

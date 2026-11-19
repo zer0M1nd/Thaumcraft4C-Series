@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:good_steel_pickaxe"
+  },
+  "pattern": [
+    "***",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "*": {
+      "item": "heartwork:steel_ingot_1"
+    }
+  }
+}

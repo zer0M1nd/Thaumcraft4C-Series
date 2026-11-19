@@ -1,0 +1,14 @@
+{
+  "name": "heartwork:model_blade",
+  "item": "heartwork:model_blade",
+  "render": {
+    "texture": "heartwork:blade/unnamed/texture_model.png",
+    "model": "heartwork:blade/blade.obj",
+    "carry_type": "default"
+  },
+  "properties": {
+    "attack_base": 4,
+    "max_damage": 51,
+    "slash_art": "slashblade:judgement_cut"
+  }
+}

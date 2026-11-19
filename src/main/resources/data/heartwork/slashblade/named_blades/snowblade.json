@@ -1,0 +1,19 @@
+{
+  "name": "heartwork:snowblade",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/sakuya/texture_snow.png",
+    "model": "heartwork:blade/named/sakuya/work.obj",
+    "carry_type": "ninja",
+    "summon_sword_color": 15792383
+  },
+  "properties": {
+    "attack_base": 9.0,
+    "max_damage": 71,
+    "slash_art": "heartwork:sakuya",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "enchantments": []
+}

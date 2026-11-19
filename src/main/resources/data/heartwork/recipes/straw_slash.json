@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:straw_slash"
+  },
+  "pattern": [
+    "#",
+    "H",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:hay_block"
+    },
+    "H": {
+      "tag": "forge:rods/wooden"
+    }
+  }
+}

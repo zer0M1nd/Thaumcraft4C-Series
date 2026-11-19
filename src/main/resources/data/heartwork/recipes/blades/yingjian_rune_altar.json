@@ -1,0 +1,49 @@
+{
+  "type": "botania:runic_altar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ],
+  "mana": 1000,
+  "ingredients": [
+    {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "heartwork:roukan"
+      }
+    },
+    {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "botania:vine_ball"
+    },
+    {
+      "item": "minecraft:oak_log"
+    },
+    {
+      "item": "botania:thorn_chakram"
+    },
+    {
+      "tag": "botania:terrasteel_ingots"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "output": {
+    "item": "slashblade:slashblade",
+    "count": 1,
+    "nbt": "{\"bladeState\":{\"currentCombo\":\"slashblade:none\",\"ComboRoot\":\"slashblade:standby\",\"maxDamage\":91,\"baseAttackModifier\":7.0,\"SpecialAttackType\":\"heartwork:sabailou3\",\"isDefaultBewitched\":1,\"translationKey\":\"item.heartwork.yingjian\",\"StandbyRenderType\":2,\"SummonedSwordColor\":-13421569,\"adjustXYZ\":[0.0,0.0,0.0],\"fallDecreaseRate\":0,\"AttackAmplifier\":0,\"ModelName\":\"heartwork:blade/named/botlouguan/model.obj\",\"TextureName\":\"heartwork:blade/named/botlouguan/texture.png\"},\"Enchantments\":[{\"id\":\"minecraft:unbreaking\",\"lvl\":8},{\"id\":\"minecraft:sharpness\",\"lvl\":2},{\"id\":\"minecraft:looting\",\"lvl\":2}],\"HeartworkBlade\":\"heartwork:yingjian\"}"
+  }
+}

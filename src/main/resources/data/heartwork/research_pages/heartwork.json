@@ -1,0 +1,594 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "heartwork:SlashBlade",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.SlashBlade"
+          },
+          "id": "heartwork:SlashBlade/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "ASPECTS",
+          "aspects": {
+            "heartwork:odachi": 1,
+            "heartwork:proud": 1,
+            "telum": 1,
+            "vacuos": 1
+          },
+          "id": "heartwork:SlashBlade/aspects",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "heartwork:Infusion_basic",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.Infusion_basic"
+          },
+          "id": "heartwork:Infusion_basic/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_muramasa"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_basic/infuse_muramasa",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_agito"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_basic/infuse_agito",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_yasha"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_basic/infuse_yasha",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_yashatrue"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_basic/infuse_yashatrue",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_doutanuki"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_basic/infuse_doutanuki",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_bamboolight_nice"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_basic/infuse_bamboolight_nice",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "heartwork:Proudsoul_copy",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.Proudsoul_copy"
+          },
+          "id": "heartwork:Proudsoul_copy/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/proudsoul_copy"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Proudsoul_copy/proudsoul_copy",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "heartwork:IngotBladeSoul_copy",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.IngotBladeSoul_copy"
+          },
+          "id": "heartwork:IngotBladeSoul_copy/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/ingotbladesoul_copy"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:IngotBladeSoul_copy/ingotbladesoul_copy",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "heartwork:Proud_thaum_ingot",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.Proud_thaum_ingot"
+          },
+          "id": "heartwork:Proud_thaum_ingot/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/proud_thaum_ingot"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Proud_thaum_ingot/proud_thaum_ingot",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "heartwork:knowledge_decomposition",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.knowledge_decomposition"
+          },
+          "id": "heartwork:knowledge_decomposition/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/knowledge_decomposition"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:knowledge_decomposition/knowledge_decomposition",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "heartwork:Proud_void_ingot",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.Proud_void_ingot"
+          },
+          "id": "heartwork:Proud_void_ingot/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/proud_void_ingot"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Proud_void_ingot/proud_void_ingot",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "heartwork:Bladework_thaum",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.Bladework_thaum"
+          },
+          "id": "heartwork:Bladework_thaum/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/bladework_thaum"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Bladework_thaum/bladework_thaum",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "heartwork:Bladework_void",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.Bladework_void"
+          },
+          "id": "heartwork:Bladework_void/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/bladework_void"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Bladework_void/bladework_void",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "heartwork:Roukan_xf",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.Roukan_xf"
+          },
+          "id": "heartwork:Roukan_xf/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/roukan_xf"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Roukan_xf/roukan_xf",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "heartwork:Bailou_xf",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.Bailou_xf"
+          },
+          "id": "heartwork:Bailou_xf/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/bailou_xf"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Bailou_xf/bailou_xf",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "heartwork:Infusion_normal",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.Infusion_normal"
+          },
+          "id": "heartwork:Infusion_normal/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_orotiagito"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_normal/infuse_orotiagito",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_fox_white"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_normal/infuse_fox_white",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_fox_black"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_normal/infuse_fox_black",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_sange"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_normal/infuse_sange",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_louguan_fake"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_normal/infuse_louguan_fake",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_sakuyablade"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_normal/infuse_sakuyablade",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_ginkgoblade"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_normal/infuse_ginkgoblade",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_snowblade"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_normal/infuse_snowblade",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "heartwork:Infusion_hard",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.Infusion_hard"
+          },
+          "id": "heartwork:Infusion_hard/text",
+          "import_legacy": true,
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_tagayasan"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_hard/infuse_tagayasan",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_yamato"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_hard/infuse_yamato",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_koseki"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_hard/infuse_koseki",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_yuzukitukumo"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_hard/infuse_yuzukitukumo",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_roukan"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_hard/infuse_roukan",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_bailou"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_hard/infuse_bailou",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_shurablade"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_hard/infuse_shurablade",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_murakumo"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_hard/infuse_murakumo",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_kogawa_super"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_hard/infuse_kogawa_super",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "heartwork:thaumcraft/infuse_void_blade"
+            ],
+            "class": "modern"
+          },
+          "id": "heartwork:Infusion_hard/infuse_void_blade",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

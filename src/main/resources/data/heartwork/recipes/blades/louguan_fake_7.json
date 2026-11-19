@@ -1,0 +1,34 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "ACA",
+    "CBC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "heartwork:louguan_old2",
+        "kill": 400,
+        "proud_soul": 500,
+        "refine": 2
+      }
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    }
+  },
+  "blade": "heartwork:louguan_fake",
+  "inherit": "first"
+}

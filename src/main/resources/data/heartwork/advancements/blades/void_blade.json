@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "parent": "heartwork:blades/root",
+  "display": {
+    "icon": {
+      "item": "heartwork:void_blade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:void_blade\", \"bladeState\": {\"ModelName\": \"heartwork:blade/named/sange/sange.obj\", \"TextureName\": \"heartwork:blade/named/void.png\", \"translationKey\": \"item.heartwork.void_blade\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"heartwork:slashdimension_old\", \"maxDamage\": 113, \"baseAttackModifier\": 15.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.void_blade.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.void_blade.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:void_blade\"}"
+          }
+        ]
+      }
+    }
+  }
+}

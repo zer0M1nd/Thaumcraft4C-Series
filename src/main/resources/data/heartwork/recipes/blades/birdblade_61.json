@@ -1,0 +1,32 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "  A",
+    " AD",
+    "BD "
+  ],
+  "key": {
+    "A": {
+      "item": "heartwork:smith_steel_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "heartwork:unnamed_blade",
+      "request": {
+        "name": "heartwork:unnamed_blade",
+        "kill": 150
+      }
+    },
+    "D": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "blade": "heartwork:birdblade",
+  "inherit": "first"
+}

@@ -1,0 +1,35 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "DAD",
+    "CBC",
+    "DAD"
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "heartwork:unnamed_blade",
+      "request": {
+        "name": "heartwork:unnamed_blade",
+        "kill": 50
+      }
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "D": {
+      "item": "minecraft:poppy"
+    }
+  },
+  "blade": "heartwork:sakuyablade",
+  "inherit": "first"
+}

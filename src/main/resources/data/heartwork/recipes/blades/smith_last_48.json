@@ -1,0 +1,46 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "DDD",
+    "ACB",
+    "DHD"
+  ],
+  "key": {
+    "H": {
+      "item": "heartwork:hammer"
+    },
+    "A": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "heartwork:louguan_tx"
+      }
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "heartwork:silverbamboolight_blood"
+      }
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "heartwork:tls_blade",
+      "request": {
+        "name": "heartwork:smith_3"
+      }
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "blade": "heartwork:smith_last",
+  "inherit": "center",
+  "fixed": true
+}

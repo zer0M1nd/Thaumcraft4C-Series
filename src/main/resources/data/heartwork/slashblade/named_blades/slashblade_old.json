@@ -1,0 +1,16 @@
+{
+  "name": "heartwork:slashblade_old",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/slashblade/1.png",
+    "model": "heartwork:blade/named/slashblade/1.obj",
+    "carry_type": "default"
+  },
+  "properties": {
+    "attack_base": 6.0,
+    "max_damage": 51,
+    "slash_art": "heartwork:slashdimension_old",
+    "sword_type": []
+  },
+  "enchantments": []
+}

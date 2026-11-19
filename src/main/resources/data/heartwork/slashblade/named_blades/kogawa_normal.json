@@ -1,0 +1,16 @@
+{
+  "name": "heartwork:kogawa_normal",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/kogawa/texture_normal.png",
+    "model": "heartwork:blade/named/kogawa/model.obj",
+    "carry_type": "ninja"
+  },
+  "properties": {
+    "attack_base": 7.0,
+    "max_damage": 113,
+    "slash_art": "slashblade:judgement_cut",
+    "sword_type": []
+  },
+  "enchantments": []
+}

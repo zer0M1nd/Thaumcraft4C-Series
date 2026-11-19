@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "parent": "heartwork:blades/silverbamboolight_nice",
+  "display": {
+    "icon": {
+      "item": "slashblade:slashblade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:silverbamboolight_gold\", \"bladeState\": {\"ModelName\": \"heartwork:blade/named/yamato.obj\", \"TextureName\": \"heartwork:blade/named/silverbamboolight/silverbamboo_gold.png\", \"translationKey\": \"item.heartwork.silverbamboolight_gold\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"slashblade:judgement_cut\", \"maxDamage\": 50, \"baseAttackModifier\": 10.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.silverbamboolight_gold.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.silverbamboolight_gold.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:silverbamboolight_gold\"}"
+          }
+        ]
+      }
+    }
+  }
+}
