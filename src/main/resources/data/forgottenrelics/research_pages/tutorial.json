@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_FORGOTTENRELICS",
+      "pages": [
+        {
+          "id": "forgottenrelics:tut_addon_forgottenrelics/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.forgottenrelics.tut_addon_forgottenrelics.text.1",
+            "with": [
+              [
+                {
+                  "text": "失落遗物学是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "forgottenrelics:tut_addon_forgottenrelics/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.forgottenrelics.tut_addon_forgottenrelics.text.2",
+            "with": [
+              [
+                {
+                  "text": "它加入了 35 件强大的"
+                },
+                {
+                  "text": "遗物",
+                  "bold": true
+                },
+                {
+                  "text": "：采掘护符、维度魔镜、经验之书、雷电与虚空法术，以及带有大量扭曲的终局遗物。多数遗物需要通过扫描发现，再通过注魔制作；许多遗物消耗"
+                },
+                {
+                  "text": "植物魔法的魔力",
+                  "bold": true
+                },
+                {
+                  "text": "，佩戴在饰品栏中。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "forgottenrelics:tut_addon_forgottenrelics/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "forgottenrelics:tut_addon_forgottenrelics/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.forgottenrelics.tut_addon_forgottenrelics.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "forgottenrelics:tut_addon_forgottenrelics/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.forgottenrelics.tut_addon_forgottenrelics.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "forgottenrelics:GenericTheory"
+                },
+                {
+                  "text": "：永恒遗物理论，需要注魔和神秘锭。\n· "
+                },
+                {
+                  "research": "forgottenrelics:MiningCharm"
+                },
+                {
+                  "text": "：采掘护符（需要元素镐）。\n· "
+                },
+                {
+                  "research": "forgottenrelics:SpellbookTheory"
+                },
+                {
+                  "text": "：法术书基础（需要血腥崇拜）。\n· "
+                },
+                {
+                  "research": "forgottenrelics:SuperpositionRing"
+                },
+                {
+                  "text": "：叠加态之戒（需要邪术揭谛）。\n· "
+                },
+                {
+                  "research": "forgottenrelics:DimensionalMirror"
+                },
+                {
+                  "text": "：维度魔镜，随身传送。\n很多研究是隐藏或失落的，多扫描你在世界中遇到的东西。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "forgottenrelics:tut_addon_forgottenrelics/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "forgottenrelics:tut_addon_forgottenrelics/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "forgottenrelics:tut_addon_forgottenrelics/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "forgottenrelics:GenericTheory",
+            "forgottenrelics:MiningCharm",
+            "forgottenrelics:SpellbookTheory",
+            "forgottenrelics:SuperpositionRing",
+            "forgottenrelics:DimensionalMirror"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}
