@@ -1,13 +1,22 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="CC-BY-NC-SA-4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
 [[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/thaumicexploration/index.html"
 modId="thaumicexploration"
 version="${version}"
 displayName="Thaumic Exploration: Continuation"
-authors="Original: Flaxbeard, gaeakat / nekosune; modern adaptation: TC4Revival contributors"
-displayURL="https://www.mcmod.cn/class/237.html"
-description='''A Forge 1.20.1 adaptation of Thaumic Exploration 1.1-53. Original assets are loaded separately by Thaumcraft. This is an unofficial adaptation, provided without warranty under CC BY-NC-SA 4.0.'''
+authors="zer0M1nd"
+credits="Original Thaumic Exploration by Flaxbeard and gaeakat (nekosune)."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Meditate in an enchanted vat, link distant inventories and craft wands and boots with new abilities.
+
+-------- Original release --------
+An add-on for Thaumcraft 4.1, adding a variety of content.
+
+Original credits: Special thanks to ThaumLite, SoundLogic, and the guys at #minecraftforge IRC'''
+
 [[dependencies.thaumicexploration]]
 modId="forge"
 mandatory=true
@@ -23,7 +32,7 @@ side="BOTH"
 [[dependencies.thaumicexploration]]
 modId="thaumcraft"
 mandatory=true
-versionRange="[0.4.115.9,)"
+versionRange="[0.4.116.2,)"
 ordering="AFTER"
 side="BOTH"
 [[dependencies.thaumicexploration]]

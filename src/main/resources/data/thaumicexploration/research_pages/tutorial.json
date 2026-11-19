@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_THAUMICEXPLORATION",
+      "pages": [
+        {
+          "id": "thaumicexploration:tut_addon_thaumicexploration/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicexploration.tut_addon_thaumicexploration.text.1",
+            "with": [
+              [
+                {
+                  "text": "神秘探险是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicexploration:tut_addon_thaumicexploration/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicexploration.tut_addon_thaumicexploration.text.2",
+            "with": [
+              [
+                {
+                  "text": "神秘探险提供了大量"
+                },
+                {
+                  "text": "功能独立的小装置",
+                  "bold": true
+                },
+                {
+                  "text": "：省魔力的指环、永不干涸的水壶、方块复制器、流星之靴、新的杖端和杖柄，以及三种新的注魔附魔。\n它的研究在"
+                },
+                {
+                  "text": "秘术学",
+                  "bold": true
+                },
+                {
+                  "text": "分页中，分页里放有原版研究的镜像，方便你看清前后关系。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicexploration:tut_addon_thaumicexploration/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicexploration:tut_addon_thaumicexploration/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicexploration.tut_addon_thaumicexploration.text.4",
+            "with": [
+              [
+                {
+                  "text": "推荐顺序\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicexploration:tut_addon_thaumicexploration/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicexploration.tut_addon_thaumicexploration.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "thaumicexploration:DISCOUNTRINGS"
+                },
+                {
+                  "text": "：碎片指环，降低某种魔力的消耗，前期就能做。\n· "
+                },
+                {
+                  "research": "thaumicexploration:URN"
+                },
+                {
+                  "text": "：无尽之壶，无限水源。\n· "
+                },
+                {
+                  "research": "thaumicexploration:METEORBOOTS"
+                },
+                {
+                  "text": "：流星之靴，冲刺与下砸。\n· "
+                },
+                {
+                  "research": "thaumicexploration:REPLICATOR"
+                },
+                {
+                  "text": "：神秘复制器，用源质复制方块。\n· "
+                },
+                {
+                  "research": "thaumicexploration:CAP_SOJOURNER"
+                },
+                {
+                  "text": "：索杰纳杖端，会自动缓慢充能。\n大部分内容需要"
+                },
+                {
+                  "research": "TUT_INFUSION_RUN"
+                },
+                {
+                  "text": "。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicexploration:tut_addon_thaumicexploration/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicexploration:tut_addon_thaumicexploration/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "thaumicexploration:tut_addon_thaumicexploration/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "thaumicexploration:DISCOUNTRINGS",
+            "thaumicexploration:URN",
+            "thaumicexploration:REPLICATOR",
+            "thaumicexploration:METEORBOOTS",
+            "thaumicexploration:CAP_SOJOURNER"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

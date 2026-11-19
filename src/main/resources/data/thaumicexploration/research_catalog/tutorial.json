@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_THAUMICEXPLORATION",
+          "category": "TUTORIAL",
+          "displayColumn": 33,
+          "displayRow": 9,
+          "parents": [
+            "TUT_GADGETS",
+            "BASICARTIFACE"
+          ],
+          "icon_item": {
+            "item": "thaumicexploration:everburn_urn",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumicexploration"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "thaumicexploration:DISCOUNTRINGS",
+            "thaumicexploration:URN",
+            "thaumicexploration:REPLICATOR",
+            "thaumicexploration:METEORBOOTS",
+            "thaumicexploration:CAP_SOJOURNER"
+          ],
+          "pageCount": 8,
+          "parentMirrors": {
+            "BASICARTIFACE": "TUT_ADDON_THAUMICEXPLORATION_PREREQUISITE_1"
+          }
+        },
+        {
+          "key": "TUT_ADDON_THAUMICEXPLORATION_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 32,
+          "displayRow": 8,
+          "mirrorOf": "BASICARTIFACE",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumicexploration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
