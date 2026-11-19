@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_ADVANCEDTHAUMATURGY",
+      "pages": [
+        {
+          "id": "advancedthaumaturgy:tut_addon_advancedthaumaturgy/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.advancedthaumaturgy.tut_addon_advancedthaumaturgy.text.1",
+            "with": [
+              [
+                {
+                  "text": "高等神秘学是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "advancedthaumaturgy:tut_addon_advancedthaumaturgy/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.advancedthaumaturgy.tut_addon_advancedthaumaturgy.text.2",
+            "with": [
+              [
+                {
+                  "text": "它的核心是一根可以"
+                },
+                {
+                  "text": "插入水晶升级",
+                  "bold": true
+                },
+                {
+                  "text": "的水银法杖：在魔杖台上安装充能、倍增吸取、节能等升级。此外还有节点修改器（改变节点类型和要素）、把源质转化为电能的源质引擎，以及提供范围效果的「微晶器」哨兵。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "advancedthaumaturgy:tut_addon_advancedthaumaturgy/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "advancedthaumaturgy:tut_addon_advancedthaumaturgy/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.advancedthaumaturgy.tut_addon_advancedthaumaturgy.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "advancedthaumaturgy:tut_addon_advancedthaumaturgy/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.advancedthaumaturgy.tut_addon_advancedthaumaturgy.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "advancedthaumaturgy:MERCURIALROD"
+                },
+                {
+                  "text": "：水银杖芯，需要银树杖柄和注魔。\n· "
+                },
+                {
+                  "research": "advancedthaumaturgy:MERCURIALWAND"
+                },
+                {
+                  "text": "、"
+                },
+                {
+                  "research": "advancedthaumaturgy:WANDBENCH"
+                },
+                {
+                  "text": "：水银水晶法杖与魔杖台。\n· "
+                },
+                {
+                  "research": "advancedthaumaturgy:NODEMODIFIER"
+                },
+                {
+                  "text": "：节点修改器。\n· "
+                },
+                {
+                  "research": "advancedthaumaturgy:ESSENTIAENGINE"
+                },
+                {
+                  "text": "：源质引擎。\n· "
+                },
+                {
+                  "research": "advancedthaumaturgy:MINILITHBASE"
+                },
+                {
+                  "text": "：微晶器基座。\n部分哨兵在原作中未完成，研究页会注明。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "advancedthaumaturgy:tut_addon_advancedthaumaturgy/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "advancedthaumaturgy:tut_addon_advancedthaumaturgy/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "advancedthaumaturgy:tut_addon_advancedthaumaturgy/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "advancedthaumaturgy:MERCURIALROD",
+            "advancedthaumaturgy:MERCURIALWAND",
+            "advancedthaumaturgy:WANDBENCH",
+            "advancedthaumaturgy:NODEMODIFIER",
+            "advancedthaumaturgy:ESSENTIAENGINE",
+            "advancedthaumaturgy:MINILITHBASE"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}
