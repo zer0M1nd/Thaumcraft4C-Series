@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:SCANNED_NODE_MAP",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 2,
+          "displayRow": -2,
+          "complexity": 1,
+          "isSecondary": true,
+          "parents": [
+            "NODES",
+            "thaumicomniverse:GUIDE_OMNIVERSE"
+          ],
+          "pageCount": 1,
+          "aspects": {
+            "cognitio": 2,
+            "auram": 2
+          },
+          "icon_item": {
+            "item": "thaumcraft:thaumometer"
+          }
+        }
+      ]
+    }
+  ]
+}

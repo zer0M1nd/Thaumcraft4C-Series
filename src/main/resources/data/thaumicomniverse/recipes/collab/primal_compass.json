@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "center": {
+    "ingredient": {
+      "item": "thaumicomniverse:sinister_compass"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    }
+  ],
+  "aspects": {
+    "alienis": 32,
+    "sensus": 32,
+    "cognitio": 16,
+    "iter": 32
+  },
+  "instability": 8,
+  "research": "thaumicomniverse:PRIMAL_COMPASS",
+  "result": {
+    "item": "thaumicomniverse:primal_compass"
+  }
+}

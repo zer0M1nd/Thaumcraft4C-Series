@@ -1,0 +1,47 @@
+{
+  "type": "alchemistry:dissolver",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alchemistry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chemlib"
+    }
+  ],
+  "group": "thaumicomniverse:fictional_chemistry",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "thaumcraft:amber"
+    }
+  },
+  "output": {
+    "groups": [
+      {
+        "probability": 100.0,
+        "results": [
+          {
+            "count": 10,
+            "item": "chemlib:carbon"
+          },
+          {
+            "count": 16,
+            "item": "chemlib:hydrogen"
+          },
+          {
+            "count": 2,
+            "item": "chemlib:oxygen"
+          },
+          {
+            "count": 1,
+            "item": "chemlib:sulfur"
+          }
+        ]
+      }
+    ],
+    "rolls": 1,
+    "weighted": false
+  }
+}

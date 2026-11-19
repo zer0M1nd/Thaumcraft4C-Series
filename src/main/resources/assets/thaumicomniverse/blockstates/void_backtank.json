@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,waterlogged=false": {
+      "model": "thaumicomniverse:block/create/void_backtank",
+      "y": 90
+    },
+    "facing=east,waterlogged=true": {
+      "model": "thaumicomniverse:block/create/void_backtank",
+      "y": 90
+    },
+    "facing=north,waterlogged=false": {
+      "model": "thaumicomniverse:block/create/void_backtank"
+    },
+    "facing=north,waterlogged=true": {
+      "model": "thaumicomniverse:block/create/void_backtank"
+    },
+    "facing=south,waterlogged=false": {
+      "model": "thaumicomniverse:block/create/void_backtank",
+      "y": 180
+    },
+    "facing=south,waterlogged=true": {
+      "model": "thaumicomniverse:block/create/void_backtank",
+      "y": 180
+    },
+    "facing=west,waterlogged=false": {
+      "model": "thaumicomniverse:block/create/void_backtank",
+      "y": 270
+    },
+    "facing=west,waterlogged=true": {
+      "model": "thaumicomniverse:block/create/void_backtank",
+      "y": 270
+    }
+  }
+}

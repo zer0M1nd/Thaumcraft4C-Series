@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "thaumicomniverse:block/machine/uxv_essentia_input_hatch",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "thaumicomniverse:block/machine/uxv_essentia_input_hatch",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "thaumicomniverse:block/machine/uxv_essentia_input_hatch"
+    },
+    "facing=south": {
+      "model": "thaumicomniverse:block/machine/uxv_essentia_input_hatch",
+      "y": 180
+    },
+    "facing=up": {
+      "gtceu:z": 180,
+      "model": "thaumicomniverse:block/machine/uxv_essentia_input_hatch",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "thaumicomniverse:block/machine/uxv_essentia_input_hatch",
+      "y": 270
+    }
+  }
+}

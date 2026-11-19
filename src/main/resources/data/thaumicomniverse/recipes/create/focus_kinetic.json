@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicomniverse:KINETIC_FOCUS",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:balanced_shard"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "create:shaft"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicomniverse:infused_mechanism"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ],
+  "aspects": {
+    "aer": 16,
+    "ignis": 16,
+    "ordo": 16
+  },
+  "instability": 4,
+  "result": {
+    "item": "thaumicomniverse:focus_kinetic"
+  }
+}

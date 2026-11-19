@@ -1,0 +1,359 @@
+{
+  "format_version": "26.3",
+  "credit": "Create contributors; adapted in Blockbench for Thaumic Omniverse (textures remade 1115_01)",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "gearbox": "#back",
+    "particle": "#side",
+    "bearing_side": "#side",
+    "back": "thaumicomniverse:block/create/gearbox",
+    "side": "thaumicomniverse:block/create/arcane_coupler_side",
+    "face_bearing_side": "thaumicomniverse:block/create/arcane_coupler_side",
+    "face_bearing_top": "thaumicomniverse:block/create/arcane_coupler_top"
+  },
+  "elements": [
+    {
+      "name": "Side",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        2,
+        12,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            4,
+            16,
+            16
+          ],
+          "texture": "#bearing_side"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ],
+          "texture": "#bearing_side"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            2,
+            16
+          ],
+          "texture": "#bearing_side"
+        },
+        "west": {
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ],
+          "texture": "#bearing_side"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            16
+          ],
+          "texture": "#gearbox"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            16
+          ],
+          "texture": "#gearbox"
+        }
+      }
+    },
+    {
+      "name": "Side",
+      "from": [
+        14,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        12,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            2,
+            16
+          ],
+          "texture": "#bearing_side"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ],
+          "texture": "#bearing_side"
+        },
+        "south": {
+          "uv": [
+            14,
+            4,
+            16,
+            16
+          ],
+          "texture": "#bearing_side"
+        },
+        "west": {
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ],
+          "texture": "#bearing_side"
+        },
+        "up": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "texture": "#gearbox"
+        },
+        "down": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "texture": "#gearbox"
+        }
+      }
+    },
+    {
+      "name": "Side",
+      "from": [
+        2,
+        0,
+        0
+      ],
+      "to": [
+        14,
+        12,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            4,
+            14,
+            16
+          ],
+          "texture": "#bearing_side"
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            14,
+            16
+          ],
+          "texture": "#bearing_side"
+        },
+        "up": {
+          "uv": [
+            2,
+            0,
+            14,
+            2
+          ],
+          "texture": "#gearbox"
+        },
+        "down": {
+          "uv": [
+            2,
+            14,
+            14,
+            16
+          ],
+          "texture": "#gearbox"
+        }
+      }
+    },
+    {
+      "name": "Side",
+      "from": [
+        2,
+        0,
+        14
+      ],
+      "to": [
+        14,
+        12,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            4,
+            14,
+            16
+          ],
+          "texture": "#bearing_side"
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            14,
+            16
+          ],
+          "texture": "#bearing_side"
+        },
+        "up": {
+          "uv": [
+            2,
+            14,
+            14,
+            16
+          ],
+          "texture": "#gearbox"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            14,
+            2
+          ],
+          "texture": "#gearbox"
+        }
+      }
+    },
+    {
+      "name": "Core",
+      "from": [
+        2,
+        0.95,
+        2
+      ],
+      "to": [
+        14,
+        12,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#gearbox"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#gearbox"
+        }
+      }
+    },
+    {
+      "name": "Top",
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#face_bearing_side"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#face_bearing_side"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#face_bearing_side"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#face_bearing_side"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#face_bearing_top"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#face_bearing_top"
+        }
+      }
+    }
+  ]
+}

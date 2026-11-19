@@ -1,0 +1,122 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thaumicfutures"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "thaumicfutures:alchemical_brass_ingot"
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "pattern": [
+          " B ",
+          "TXT",
+          " B "
+        ],
+        "key": {
+          "B": {
+            "item": "thaumicfutures:alchemical_brass_ingot"
+          },
+          "T": {
+            "item": "thaumcraft:essentia_filter"
+          },
+          "X": {
+            "item": "thaumcraft:jar_label"
+          }
+        },
+        "research": "CONVENIENTTUBES",
+        "result": {
+          "item": "thaumicomniverse:convenient_essentia_filter",
+          "count": 4
+        },
+        "vis": {
+          "aqua": 10,
+          "ordo": 10,
+          "aer": 5
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/brass"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "pattern": [
+          " B ",
+          "TXT",
+          " B "
+        ],
+        "key": {
+          "B": {
+            "tag": "forge:ingots/brass"
+          },
+          "T": {
+            "item": "thaumcraft:essentia_filter"
+          },
+          "X": {
+            "item": "thaumcraft:jar_label"
+          }
+        },
+        "research": "CONVENIENTTUBES",
+        "result": {
+          "item": "thaumicomniverse:convenient_essentia_filter",
+          "count": 4
+        },
+        "vis": {
+          "aqua": 10,
+          "ordo": 10,
+          "aer": 5
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "pattern": [
+          " B ",
+          "TXT",
+          " B "
+        ],
+        "key": {
+          "B": {
+            "item": "minecraft:copper_ingot"
+          },
+          "T": {
+            "item": "thaumcraft:essentia_filter"
+          },
+          "X": {
+            "item": "thaumcraft:jar_label"
+          }
+        },
+        "research": "CONVENIENTTUBES",
+        "result": {
+          "item": "thaumicomniverse:convenient_essentia_filter",
+          "count": 4
+        },
+        "vis": {
+          "aqua": 10,
+          "ordo": 10,
+          "aer": 5
+        }
+      }
+    }
+  ]
+}

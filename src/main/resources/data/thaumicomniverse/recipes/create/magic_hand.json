@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "acceptMirrored": false,
+  "pattern": [
+    " T ",
+    " M ",
+    "PPP",
+    "PRP",
+    " H "
+  ],
+  "key": {
+    "T": {
+      "tag": "forge:ingots/thaumium"
+    },
+    "M": {
+      "item": "thaumicomniverse:alchemical_mechanism"
+    },
+    "P": {
+      "item": "thaumcraft:silverwood_planks"
+    },
+    "R": {
+      "item": "thaumcraft:wand_rod_silverwood"
+    },
+    "H": {
+      "item": "create:brass_hand"
+    }
+  },
+  "result": {
+    "item": "thaumicomniverse:magic_hand"
+  }
+}

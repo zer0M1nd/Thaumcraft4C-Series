@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "thaumicomniverse:essentia_stockpile_switch"
+    }
+  ],
+  "result": {
+    "item": "create:stockpile_switch",
+    "count": 1
+  }
+}

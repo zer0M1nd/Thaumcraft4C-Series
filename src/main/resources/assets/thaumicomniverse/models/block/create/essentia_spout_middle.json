@@ -1,0 +1,80 @@
+{
+  "format_version": "26.3",
+  "credit": "Create contributors; material corrections in Blockbench for Thaumic Omniverse",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "thaumicomniverse:block/create/spout_nozzle",
+    "particle": "thaumicomniverse:block/create/spout_nozzle"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        -4,
+        5
+      ],
+      "to": [
+        11,
+        -2,
+        11
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          16.5,
+          3.5,
+          16.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            14,
+            11,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            5,
+            14,
+            11,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            5,
+            14,
+            11,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            5,
+            14,
+            11,
+            16
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ]
+}

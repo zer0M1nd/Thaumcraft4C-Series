@@ -1,0 +1,19 @@
+{
+  "type": "create:pressing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:ingots/void"
+    }
+  ],
+  "results": [
+    {
+      "item": "thaumicomniverse:void_sheet"
+    }
+  ]
+}

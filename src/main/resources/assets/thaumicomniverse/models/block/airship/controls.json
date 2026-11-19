@@ -1,0 +1,552 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "controls_4": "thaumicomniverse:airship/block/controls_frame",
+    "controls_1_7": "thaumicomniverse:airship/block/controls",
+    "lever_5": "thaumicomniverse:airship/block/controls"
+  },
+  "elements": [
+    {
+      "name": "Control_0",
+      "from": [
+        14,
+        2,
+        6
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          2,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            9,
+            1,
+            16
+          ],
+          "texture": "#controls_4"
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            11,
+            7
+          ],
+          "texture": "#controls_4"
+        },
+        "south": {
+          "uv": [
+            7,
+            0,
+            8,
+            7
+          ],
+          "texture": "#controls_4"
+        },
+        "west": {
+          "uv": [
+            16,
+            9,
+            11,
+            16
+          ],
+          "texture": "#controls_4"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1,
+            5
+          ],
+          "rotation": 180,
+          "texture": "#controls_1_7"
+        },
+        "down": {
+          "uv": [
+            0,
+            11,
+            1,
+            16
+          ],
+          "rotation": 180,
+          "texture": "#controls_1_7"
+        }
+      }
+    },
+    {
+      "name": "Control_1",
+      "from": [
+        2,
+        7,
+        14
+      ],
+      "to": [
+        14,
+        16,
+        16
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          2,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            0,
+            7,
+            4.5
+          ],
+          "texture": "#controls_1_7"
+        },
+        "south": {
+          "uv": [
+            1,
+            0,
+            7,
+            4.5
+          ],
+          "texture": "#controls_4"
+        },
+        "up": {
+          "uv": [
+            1,
+            0,
+            7,
+            1
+          ],
+          "rotation": 180,
+          "texture": "#controls_1_7"
+        }
+      }
+    },
+    {
+      "name": "Control_2",
+      "from": [
+        0,
+        2,
+        6
+      ],
+      "to": [
+        2,
+        16,
+        16
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          16,
+          2,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            9,
+            8,
+            16
+          ],
+          "texture": "#controls_4"
+        },
+        "east": {
+          "uv": [
+            11,
+            9,
+            16,
+            16
+          ],
+          "texture": "#controls_4"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1,
+            7
+          ],
+          "texture": "#controls_4"
+        },
+        "west": {
+          "uv": [
+            11,
+            0,
+            16,
+            7
+          ],
+          "texture": "#controls_4"
+        },
+        "up": {
+          "uv": [
+            7,
+            0,
+            8,
+            5
+          ],
+          "rotation": 180,
+          "texture": "#controls_1_7"
+        },
+        "down": {
+          "uv": [
+            7,
+            11,
+            8,
+            16
+          ],
+          "rotation": 180,
+          "texture": "#controls_1_7"
+        }
+      }
+    },
+    {
+      "name": "Control_3",
+      "from": [
+        2,
+        7,
+        7
+      ],
+      "to": [
+        14,
+        15.05,
+        15
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          2,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            14,
+            7,
+            10.05
+          ],
+          "rotation": 180,
+          "texture": "#controls_4"
+        },
+        "up": {
+          "uv": [
+            1,
+            13.5,
+            7,
+            9.55
+          ],
+          "texture": "#controls_4"
+        },
+        "down": {
+          "uv": [
+            1,
+            14.5,
+            7,
+            10.5
+          ],
+          "rotation": 180,
+          "texture": "#controls_4"
+        }
+      }
+    },
+    {
+      "name": "Control_4",
+      "from": [
+        2,
+        2,
+        8
+      ],
+      "to": [
+        14,
+        7,
+        16
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          2,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            13.5,
+            7,
+            16
+          ],
+          "texture": "#controls_4"
+        },
+        "south": {
+          "uv": [
+            1,
+            4.5,
+            7,
+            7
+          ],
+          "texture": "#controls_4"
+        },
+        "down": {
+          "uv": [
+            7,
+            12,
+            1,
+            16
+          ],
+          "texture": "#controls_1_7"
+        }
+      }
+    },
+    {
+      "name": "Control_5",
+      "from": [
+        0,
+        0,
+        4
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          4
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            7,
+            8,
+            8
+          ],
+          "texture": "#controls_4"
+        },
+        "east": {
+          "uv": [
+            16,
+            7,
+            10,
+            8
+          ],
+          "texture": "#controls_4"
+        },
+        "south": {
+          "uv": [
+            0,
+            7,
+            8,
+            8
+          ],
+          "texture": "#controls_4"
+        },
+        "west": {
+          "uv": [
+            10,
+            7,
+            16,
+            8
+          ],
+          "texture": "#controls_4"
+        },
+        "up": {
+          "uv": [
+            8,
+            10,
+            16,
+            16
+          ],
+          "texture": "#controls_1_7"
+        },
+        "down": {
+          "uv": [
+            8,
+            16,
+            16,
+            10
+          ],
+          "texture": "#controls_1_7"
+        }
+      }
+    },
+    {
+      "name": "Control_6",
+      "from": [
+        4,
+        11,
+        -1
+      ],
+      "to": [
+        6,
+        13,
+        9
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "x",
+        "origin": [
+          0,
+          12,
+          11
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            1.5,
+            9,
+            2.5
+          ],
+          "rotation": 180,
+          "texture": "#lever_5"
+        },
+        "east": {
+          "uv": [
+            9,
+            3,
+            8,
+            8
+          ],
+          "rotation": 90,
+          "texture": "#lever_5"
+        },
+        "west": {
+          "uv": [
+            9,
+            3,
+            8,
+            8
+          ],
+          "rotation": 270,
+          "texture": "#lever_5"
+        },
+        "up": {
+          "uv": [
+            8,
+            3,
+            9,
+            8
+          ],
+          "texture": "#lever_5"
+        },
+        "down": {
+          "uv": [
+            8,
+            3,
+            9,
+            8
+          ],
+          "rotation": 180,
+          "texture": "#lever_5"
+        }
+      }
+    },
+    {
+      "name": "Control_7",
+      "from": [
+        10,
+        11,
+        -1
+      ],
+      "to": [
+        12,
+        13,
+        9
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "x",
+        "origin": [
+          6,
+          12,
+          11
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            1.5,
+            9,
+            2.5
+          ],
+          "rotation": 180,
+          "texture": "#lever_5"
+        },
+        "east": {
+          "uv": [
+            9,
+            3,
+            8,
+            8
+          ],
+          "rotation": 90,
+          "texture": "#lever_5"
+        },
+        "west": {
+          "uv": [
+            9,
+            3,
+            8,
+            8
+          ],
+          "rotation": 270,
+          "texture": "#lever_5"
+        },
+        "up": {
+          "uv": [
+            8,
+            3,
+            9,
+            8
+          ],
+          "texture": "#lever_5"
+        },
+        "down": {
+          "uv": [
+            8,
+            3,
+            9,
+            8
+          ],
+          "rotation": 180,
+          "texture": "#lever_5"
+        }
+      }
+    }
+  ]
+}

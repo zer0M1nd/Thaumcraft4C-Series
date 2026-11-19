@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_THAUMICOMNIVERSE",
+      "pages": [
+        {
+          "id": "thaumicomniverse:tut_addon_thaumicomniverse/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicomniverse.tut_addon_thaumicomniverse.text.1",
+            "with": [
+              [
+                {
+                  "text": "神秘万象是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicomniverse:tut_addon_thaumicomniverse/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicomniverse.tut_addon_thaumicomniverse.text.2",
+            "with": [
+              [
+                {
+                  "text": "神秘万象把神秘时代与"
+                },
+                {
+                  "text": "现代模组",
+                  "bold": true
+                },
+                {
+                  "text": "连接起来，尤其是"
+                },
+                {
+                  "text": "机械动力",
+                  "bold": true
+                },
+                {
+                  "text": "（Create）：奥术序列组装、奥术马达、奥术飞艇等。它还扩展了一些本体机制，例如所有模组矿物的晶簇化与嬗变、所有模组附魔的注魔附魔。\n本体研究页中"
+                },
+                {
+                  "text": "蓝色",
+                  "bold": true
+                },
+                {
+                  "text": "的提示，很多就来自神秘万象。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicomniverse:tut_addon_thaumicomniverse/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicomniverse:tut_addon_thaumicomniverse/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicomniverse.tut_addon_thaumicomniverse.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicomniverse:tut_addon_thaumicomniverse/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicomniverse.tut_addon_thaumicomniverse.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "thaumicomniverse:UNIVERSAL_ENCHANTMENTS"
+                },
+                {
+                  "text": "：万象注魔附魔，需要"
+                },
+                {
+                  "research": "INFUSIONENCHANTMENT"
+                },
+                {
+                  "text": "。\n· "
+                },
+                {
+                  "research": "thaumicomniverse:UNIVERSAL_CLUSTERS"
+                },
+                {
+                  "text": "：通用晶簇化。\n· "
+                },
+                {
+                  "research": "thaumicomniverse:SINISTER_COMPASS"
+                },
+                {
+                  "text": "：凶险指南针。\n· "
+                },
+                {
+                  "research": "thaumicomniverse:SCANNED_NODE_MAP"
+                },
+                {
+                  "text": "：节点测绘。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicomniverse:tut_addon_thaumicomniverse/text/6",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicomniverse.tut_addon_thaumicomniverse.text.6",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "thaumicomniverse:ARCANE_ASSEMBLY"
+                },
+                {
+                  "text": "、"
+                },
+                {
+                  "research": "thaumicomniverse:AIRSHIPS"
+                },
+                {
+                  "text": "：机械动力联动的奥术组装和飞艇。\n"
+                }
+              ]
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "create"
+            }
+          ]
+        },
+        {
+          "id": "thaumicomniverse:tut_addon_thaumicomniverse/text/7",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicomniverse.tut_addon_thaumicomniverse.text.7",
+            "with": [
+              [
+                {
+                  "text": "其他联动研究只有在对应模组安装时才会出现。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicomniverse:tut_addon_thaumicomniverse/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicomniverse:tut_addon_thaumicomniverse/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "thaumicomniverse:tut_addon_thaumicomniverse/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "thaumicomniverse:UNIVERSAL_ENCHANTMENTS",
+            "thaumicomniverse:SINISTER_COMPASS",
+            "thaumicomniverse:UNIVERSAL_CLUSTERS",
+            "thaumicomniverse:ARCANE_ASSEMBLY",
+            "thaumicomniverse:AIRSHIPS",
+            "thaumicomniverse:SCANNED_NODE_MAP"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

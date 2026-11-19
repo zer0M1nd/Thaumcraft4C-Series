@@ -1,0 +1,22 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:diamond",
+  "result": "thaumicomniverse:primordial_pearl",
+  "item": {
+    "item": "thaumcraft:primordial_pearl"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumcraft"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:primordial_pearl"
+    }
+  ]
+}

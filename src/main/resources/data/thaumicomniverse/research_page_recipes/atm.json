@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:THAUMATURGE_CERTIFICATE",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "omniverse_requires": [
+        "allthemodium"
+      ],
+      "omniverse_certificate": {
+        "type": "thaumicomniverse:certificate",
+        "research": "thaumicomniverse:THAUMATURGE_CERTIFICATE",
+        "instability": 30,
+        "center": {
+          "ingredient": {
+            "item": "thaumcraft:primordial_pearl"
+          }
+        },
+        "components": [
+          {
+            "ingredient": {
+              "item": "thaumicomniverse:void_block_3x"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "thaumicomniverse:thaumium_block_4x"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "thaumicomniverse:alchemical_brass_block_4x"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "thaumcraft:focus_hellbat"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "thaumcraft:liquid_death_bucket"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "thaumcraft:arcane_bore"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "thaumcraft:golem_core_essentia"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "thaumcraft:staff_rod_primal"
+            }
+          }
+        ],
+        "optional_components": [
+          {
+            "mod": "thaumic_tinkerer",
+            "component": {
+              "ingredient": {
+                "item": "thaumic_tinkerer:placement_mirror"
+              }
+            }
+          },
+          {
+            "mod": "thaumicenergistics",
+            "component": {
+              "ingredient": {
+                "item": "thaumicenergistics:storage_component_256k"
+              }
+            }
+          },
+          {
+            "mod": "thaumicbases",
+            "component": {
+              "ingredient": {
+                "item": "thaumicbases:node_focus_brightness"
+              }
+            }
+          },
+          {
+            "mod": "forbidden_magic",
+            "component": {
+              "ingredient": {
+                "item": "forbidden_magic:wand_rod_infernal"
+              }
+            }
+          },
+          {
+            "mod": "forbidden_magic",
+            "component": {
+              "ingredient": {
+                "item": "forbidden_magic:wrath_cage"
+              }
+            }
+          },
+          {
+            "mod": "automagy",
+            "component": {
+              "ingredient": {
+                "item": "automagy:inventarium"
+              }
+            }
+          },
+          {
+            "mod": "thaumichorizons",
+            "component": {
+              "ingredient": {
+                "item": "thaumichorizons:void_putty"
+              }
+            }
+          },
+          {
+            "mod": "thaumichorizons",
+            "component": {
+              "ingredient": {
+                "item": "thaumichorizons:ink_egg"
+              }
+            }
+          }
+        ],
+        "aspects": {},
+        "result": {
+          "item": "thaumicomniverse:thaumaturge_certificate"
+        },
+        "conditions": [
+          {
+            "type": "forge:mod_loaded",
+            "modid": "allthemodium"
+          }
+        ]
+      },
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicomniverse:THAUMATURGE_CERTIFICATE",
+        "instability": 30,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:primordial_pearl",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:thaumaturge_certificate",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": []
+        },
+        "aspects": []
+      }
+    }
+  ]
+}

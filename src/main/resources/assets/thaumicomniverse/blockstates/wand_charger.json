@@ -1,0 +1,56 @@
+{
+  "variants": {
+    "facing=up,rotated=false": {
+      "model": "thaumicomniverse:block/create/wand_charger"
+    },
+    "facing=up,rotated=true": {
+      "model": "thaumicomniverse:block/create/wand_charger_rotated"
+    },
+    "facing=down,rotated=false": {
+      "model": "thaumicomniverse:block/create/wand_charger",
+      "x": 180
+    },
+    "facing=down,rotated=true": {
+      "model": "thaumicomniverse:block/create/wand_charger_rotated",
+      "x": 180
+    },
+    "facing=north,rotated=false": {
+      "model": "thaumicomniverse:block/create/wand_charger",
+      "x": 90
+    },
+    "facing=north,rotated=true": {
+      "model": "thaumicomniverse:block/create/wand_charger_rotated",
+      "x": 90
+    },
+    "facing=south,rotated=false": {
+      "model": "thaumicomniverse:block/create/wand_charger",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,rotated=true": {
+      "model": "thaumicomniverse:block/create/wand_charger_rotated",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east,rotated=false": {
+      "model": "thaumicomniverse:block/create/wand_charger",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,rotated=true": {
+      "model": "thaumicomniverse:block/create/wand_charger_rotated",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,rotated=false": {
+      "model": "thaumicomniverse:block/create/wand_charger",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west,rotated=true": {
+      "model": "thaumicomniverse:block/create/wand_charger_rotated",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

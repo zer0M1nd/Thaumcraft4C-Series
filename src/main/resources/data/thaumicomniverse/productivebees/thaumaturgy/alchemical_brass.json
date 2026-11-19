@@ -1,0 +1,20 @@
+{
+  "primaryColor": "#cc993c",
+  "secondaryColor": "#372646",
+  "tertiaryColor": "#d8c8ef",
+  "particleColor": "#cc993c",
+  "flowerItem": "thaumicfutures:alchemical_brass_ingot",
+  "size": 0.6,
+  "renderer": "default",
+  "selfbreed": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumcraft"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumicfutures:alchemical_brass_ingot"
+    }
+  ]
+}

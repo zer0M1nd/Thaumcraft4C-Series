@@ -1,0 +1,143 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thaumicfutures"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "thaumicfutures:alchemical_brass_ingot"
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "research": "thaumicomniverse:ESSENTIA_PUMP_UPGRADE",
+        "result": {
+          "item": "thaumicomniverse:essentia_pump_upgrade"
+        },
+        "pattern": [
+          " T ",
+          "LUR",
+          " B "
+        ],
+        "key": {
+          "T": {
+            "item": "minecraft:piston"
+          },
+          "L": {
+            "item": "thaumcraft:essentia_tube"
+          },
+          "R": {
+            "item": "thaumcraft:essentia_phial"
+          },
+          "B": {
+            "item": "thaumicfutures:alchemical_brass_ingot"
+          },
+          "U": {
+            "item": "sophisticatedbackpacks:upgrade_base"
+          }
+        },
+        "vis": {
+          "aer": 15,
+          "aqua": 15,
+          "ordo": 10
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/brass"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "research": "thaumicomniverse:ESSENTIA_PUMP_UPGRADE",
+        "result": {
+          "item": "thaumicomniverse:essentia_pump_upgrade"
+        },
+        "pattern": [
+          " T ",
+          "LUR",
+          " B "
+        ],
+        "key": {
+          "T": {
+            "item": "minecraft:piston"
+          },
+          "L": {
+            "item": "thaumcraft:essentia_tube"
+          },
+          "R": {
+            "item": "thaumcraft:essentia_phial"
+          },
+          "B": {
+            "tag": "forge:ingots/brass"
+          },
+          "U": {
+            "item": "sophisticatedbackpacks:upgrade_base"
+          }
+        },
+        "vis": {
+          "aer": 15,
+          "aqua": 15,
+          "ordo": 10
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "research": "thaumicomniverse:ESSENTIA_PUMP_UPGRADE",
+        "result": {
+          "item": "thaumicomniverse:essentia_pump_upgrade"
+        },
+        "pattern": [
+          " T ",
+          "LUR",
+          " B "
+        ],
+        "key": {
+          "T": {
+            "item": "minecraft:piston"
+          },
+          "L": {
+            "item": "thaumcraft:essentia_tube"
+          },
+          "R": {
+            "item": "thaumcraft:essentia_phial"
+          },
+          "B": {
+            "item": "minecraft:copper_ingot"
+          },
+          "U": {
+            "item": "sophisticatedbackpacks:upgrade_base"
+          }
+        },
+        "vis": {
+          "aer": 15,
+          "aqua": 15,
+          "ordo": 10
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
+    }
+  ]
+}

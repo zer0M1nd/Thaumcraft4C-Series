@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicomniverse:alignment",
+  "center": {
+    "ingredient": {
+      "item": "thaumicomniverse:positive_pedestal"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:hopper"
+      }
+    }
+  ],
+  "aspects": {
+    "praecantatio": 8,
+    "permutatio": 8,
+    "ordo": 8
+  },
+  "instability": 3,
+  "result": {
+    "item": "thaumicomniverse:stack_positive_pedestal"
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:ARCANE_CONTRAPTIONS",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 0,
+          "displayRow": -6,
+          "icon_item": {
+            "item": "thaumicomniverse:thaumic_casing"
+          },
+          "parents": [
+            "thaumicomniverse:ARCANE_ASSEMBLY"
+          ],
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:THAUMIC_CASING",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -2,
+          "displayRow": -7,
+          "icon_item": {
+            "item": "thaumicomniverse:thaumic_casing"
+          },
+          "parents": [
+            "thaumicomniverse:ARCANE_CONTRAPTIONS"
+          ],
+          "complexity": 2,
+          "pageCount": 3,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:ARCANE_MOTOR",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -4,
+          "displayRow": -8,
+          "icon_item": {
+            "item": "thaumicomniverse:arcane_motor"
+          },
+          "parents": [
+            "thaumicomniverse:THAUMIC_CASING"
+          ],
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:ARCANE_BURNER",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -4,
+          "displayRow": -7,
+          "icon_item": {
+            "item": "thaumicomniverse:arcane_blaze_burner"
+          },
+          "parents": [
+            "thaumicomniverse:THAUMIC_CASING"
+          ],
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:THAUMIC_CRANK",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -4,
+          "displayRow": -6,
+          "icon_item": {
+            "item": "thaumicomniverse:thaumic_hand_crank"
+          },
+          "parents": [
+            "thaumicomniverse:THAUMIC_CASING"
+          ],
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:VOID_MECHANISMS",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -2,
+          "displayRow": -9,
+          "icon_item": {
+            "item": "thaumicomniverse:void_sandpaper"
+          },
+          "parents": [
+            "thaumicomniverse:THAUMIC_CASING",
+            "VOIDMETAL"
+          ],
+          "complexity": 2,
+          "pageCount": 4,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:WAND_CHARGER",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -4,
+          "displayRow": -9,
+          "icon_item": {
+            "item": "thaumicomniverse:wand_charger"
+          },
+          "parents": [
+            "thaumicomniverse:THAUMIC_CASING",
+            "VISCHARGERELAY"
+          ],
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:ARCANE_SUSPENSION",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 2,
+          "displayRow": -6,
+          "icon_item": {
+            "item": "thaumicomniverse:arcane_suspension_coupler"
+          },
+          "parents": [
+            "thaumicomniverse:ARCANE_CONTRAPTIONS",
+            "LEVITATOR"
+          ],
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:ARCANE_MAGNET",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 4,
+          "displayRow": -7,
+          "icon_item": {
+            "item": "thaumicomniverse:arcane_kinetic_magnet"
+          },
+          "parents": [
+            "thaumicomniverse:ARCANE_SUSPENSION"
+          ],
+          "complexity": 2,
+          "pageCount": 3,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:FLOATING_DEPOT",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 4,
+          "displayRow": -5,
+          "icon_item": {
+            "item": "thaumicomniverse:arcane_floating_depot"
+          },
+          "parents": [
+            "thaumicomniverse:ARCANE_SUSPENSION"
+          ],
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:ESSENTIA_SPOUT",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 2,
+          "displayRow": -4,
+          "icon_item": {
+            "item": "thaumicomniverse:essentia_spout"
+          },
+          "parents": [
+            "thaumicomniverse:ARCANE_CONTRAPTIONS"
+          ],
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:ESSENTIA_SWITCH",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -3,
+          "displayRow": -5,
+          "icon_item": {
+            "item": "create:stockpile_switch"
+          },
+          "parents": [
+            "thaumicomniverse:THAUMIC_CASING"
+          ],
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:PORTABLE_ESSENTIA",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -2,
+          "displayRow": -4,
+          "icon_item": {
+            "item": "thaumicomniverse:portable_essentia_interface"
+          },
+          "parents": [
+            "thaumicomniverse:ARCANE_CONTRAPTIONS"
+          ],
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "motus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        }
+      ]
+    }
+  ]
+}

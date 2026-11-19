@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "thaumicfutures:alchemical_brass_ingot"
+  },
+  "material": "thaumicomniverse:alchemical_brass",
+  "needed": 1,
+  "value": 1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumicfutures"
+    },
+    {
+      "type": "thaumicomniverse:feature",
+      "group": "TINKERS"
+    }
+  ]
+}

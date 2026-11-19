@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:AIRSHIPS",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 0,
+          "displayRow": -9,
+          "icon_item": {
+            "item": "thaumicomniverse:airship_station"
+          },
+          "parents": [
+            "thaumicomniverse:ARCANE_CONTRAPTIONS",
+            "thaumicomniverse:VOID_MECHANISMS"
+          ],
+          "complexity": 3,
+          "pageCount": 10,
+          "aspects": {
+            "volatus": 12,
+            "iter": 12,
+            "machina": 12,
+            "praecantatio": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:KINETIC_FOCUS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.focus_kinetic"
+          },
+          "id": "thaumicomniverse:KINETIC_FOCUS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/focus_kinetic"
+            ]
+          },
+          "id": "thaumicomniverse:KINETIC_FOCUS/page/2",
+          "page_break": true
+        }
+      ],
+      "omniverse_requires": [
+        "create"
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RELOCATION_FOCUS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.focus_relocation"
+          },
+          "id": "thaumicomniverse:RELOCATION_FOCUS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/focus_relocation"
+            ]
+          },
+          "id": "thaumicomniverse:RELOCATION_FOCUS/page/2",
+          "page_break": true
+        }
+      ],
+      "omniverse_requires": [
+        "create"
+      ]
+    }
+  ]
+}

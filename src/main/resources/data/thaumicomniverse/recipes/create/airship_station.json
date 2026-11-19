@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:AIRSHIPS",
+  "pattern": [
+    " S ",
+    "RMR",
+    "VCV"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/thaumium"
+    },
+    "V": {
+      "tag": "forge:plates/void"
+    },
+    "C": {
+      "item": "thaumicomniverse:thaumic_casing"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "M": {
+      "item": "thaumicomniverse:infused_mechanism"
+    }
+  },
+  "vis": {
+    "aer": 30,
+    "ordo": 20,
+    "perditio": 10
+  },
+  "result": {
+    "item": "thaumicomniverse:airship_station",
+    "count": 1
+  }
+}

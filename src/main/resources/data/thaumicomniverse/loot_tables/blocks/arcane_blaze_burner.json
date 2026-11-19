@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "thaumicomniverse:empty_arcane_blaze_burner",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "thaumicomniverse:arcane_blaze_burner",
+                  "properties": {
+                    "blaze": "none"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "thaumicomniverse:arcane_blaze_burner"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ],
+  "omniverse_requires": [
+    "create"
+  ]
+}

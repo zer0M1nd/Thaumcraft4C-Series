@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicomniverse:void_block"
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:void_ingot",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
+}

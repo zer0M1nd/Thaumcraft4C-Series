@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicomniverse:alignment",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:arcane_pedestal"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    }
+  ],
+  "aspects": {
+    "praecantatio": 8,
+    "permutatio": 8,
+    "ordo": 8
+  },
+  "instability": 3,
+  "result": {
+    "item": "thaumicomniverse:positive_pedestal"
+  }
+}

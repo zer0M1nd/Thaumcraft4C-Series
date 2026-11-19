@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "thaumcraft:primal_charm"
+    }
+  ],
+  "result": "thaumicomniverse:runic_shield",
+  "level": {
+    "max": 3
+  },
+  "slots": {
+    "defense": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "thaumicomniverse:feature",
+      "group": "TINKERS"
+    }
+  ]
+}

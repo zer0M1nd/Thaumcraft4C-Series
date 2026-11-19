@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "model": "thaumicomniverse:models/block/create/arcane_blaze_burner_item.obj",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "metal": "thaumicomniverse:block/create/blaze_heater_brazier",
+    "stone": "thaumcraft:block/es_1",
+    "blaze": "create:block/blaze_idle",
+    "particle": "thaumcraft:block/es_1"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

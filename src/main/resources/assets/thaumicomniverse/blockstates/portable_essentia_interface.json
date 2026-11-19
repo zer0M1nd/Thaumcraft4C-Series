@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "thaumicomniverse:block/create/portable_essentia_interface",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "thaumicomniverse:block/create/portable_essentia_interface",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "thaumicomniverse:block/create/portable_essentia_interface",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "thaumicomniverse:block/create/portable_essentia_interface",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "thaumicomniverse:block/create/portable_essentia_interface"
+    },
+    "facing=west": {
+      "model": "thaumicomniverse:block/create/portable_essentia_interface",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

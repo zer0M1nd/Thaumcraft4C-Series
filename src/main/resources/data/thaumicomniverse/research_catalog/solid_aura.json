@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:SOLID_AURA",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 2,
+          "displayRow": 4,
+          "icon_item": {
+            "item": "thaumicomniverse:solid_aura"
+          },
+          "parents": [
+            "INFUSION"
+          ],
+          "parentMirrors": {
+            "INFUSION": "thaumicomniverse:M_INFUSION"
+          },
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "permutatio": 8
+          },
+          "omniverse_requires": []
+        }
+      ]
+    }
+  ]
+}

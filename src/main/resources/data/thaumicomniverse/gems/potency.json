@@ -1,0 +1,32 @@
+{
+  "weight": 10,
+  "quality": 0,
+  "dimensions": [],
+  "min_rarity": "common",
+  "max_rarity": "ancient",
+  "unique": false,
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "armor",
+        "types": [
+          "helmet",
+          "chestplate",
+          "leggings",
+          "boots"
+        ]
+      },
+      "attribute": "thaumcraft:potency",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.5,
+        "uncommon": 1,
+        "rare": 1.5,
+        "epic": 2,
+        "mythic": 3,
+        "ancient": 4
+      }
+    }
+  ]
+}

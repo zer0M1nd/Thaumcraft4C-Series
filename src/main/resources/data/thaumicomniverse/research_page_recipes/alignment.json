@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:alignment_core",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicomniverse:alignment",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:arcane_pedestal"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:alignment_core"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 8,
+          "permutatio": 8,
+          "ordo": 8
+        },
+        "instability": 3
+      }
+    },
+    {
+      "key": "thaumicomniverse:positive_pedestal",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicomniverse:alignment",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:arcane_pedestal"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:positive_pedestal"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:order_shard"
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 8,
+          "permutatio": 8,
+          "ordo": 8
+        },
+        "instability": 3
+      }
+    },
+    {
+      "key": "thaumicomniverse:negative_pedestal",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicomniverse:alignment",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:arcane_pedestal"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:negative_pedestal"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_shard"
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 8,
+          "permutatio": 8,
+          "ordo": 8
+        },
+        "instability": 3
+      }
+    },
+    {
+      "key": "thaumicomniverse:stack_positive_pedestal",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicomniverse:alignment",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:positive_pedestal"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:stack_positive_pedestal"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:hopper"
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 8,
+          "permutatio": 8,
+          "ordo": 8
+        },
+        "instability": 3
+      }
+    },
+    {
+      "key": "thaumicomniverse:stack_negative_pedestal",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicomniverse:alignment",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:negative_pedestal"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:stack_negative_pedestal"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:hopper"
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 8,
+          "permutatio": 8,
+          "ordo": 8
+        },
+        "instability": 3
+      }
+    }
+  ]
+}

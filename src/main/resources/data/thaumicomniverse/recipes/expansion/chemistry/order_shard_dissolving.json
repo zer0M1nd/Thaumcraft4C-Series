@@ -1,0 +1,47 @@
+{
+  "type": "alchemistry:dissolver",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alchemistry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chemlib"
+    }
+  ],
+  "group": "thaumicomniverse:fictional_chemistry",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "thaumcraft:order_shard"
+    }
+  },
+  "output": {
+    "groups": [
+      {
+        "probability": 100.0,
+        "results": [
+          {
+            "count": 2,
+            "item": "chemlib:silicon"
+          },
+          {
+            "count": 4,
+            "item": "chemlib:oxygen"
+          },
+          {
+            "count": 2,
+            "item": "chemlib:boron"
+          },
+          {
+            "count": 1,
+            "item": "chemlib:xenon"
+          }
+        ]
+      }
+    ],
+    "rolls": 1,
+    "weighted": false
+  }
+}

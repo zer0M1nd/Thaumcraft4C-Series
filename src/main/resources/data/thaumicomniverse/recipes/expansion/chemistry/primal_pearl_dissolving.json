@@ -1,0 +1,47 @@
+{
+  "type": "alchemistry:dissolver",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alchemistry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chemlib"
+    }
+  ],
+  "group": "thaumicomniverse:fictional_chemistry",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "thaumcraft:primordial_pearl"
+    }
+  },
+  "output": {
+    "groups": [
+      {
+        "probability": 100.0,
+        "results": [
+          {
+            "count": 64,
+            "item": "chemlib:oganesson"
+          },
+          {
+            "count": 64,
+            "item": "chemlib:tennessine"
+          },
+          {
+            "count": 64,
+            "item": "chemlib:moscovium"
+          },
+          {
+            "count": 64,
+            "item": "chemlib:nihonium"
+          }
+        ]
+      }
+    ],
+    "rolls": 1,
+    "weighted": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumicomniverse:essentia_dynamo"
+  },
+  "pattern": [
+    "TCT",
+    "VFV",
+    "TRT"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "C": {
+      "item": "thermal:rf_coil"
+    },
+    "V": {
+      "item": "thaumcraft:vis_filter"
+    },
+    "F": {
+      "item": "thermal:dynamo_stirling"
+    },
+    "R": {
+      "item": "thaumicfutures:vis_resonator"
+    }
+  },
+  "vis": {
+    "ignis": 30,
+    "ordo": 20,
+    "perditio": 10
+  },
+  "research": "thaumicomniverse:ESSENTIA_DYNAMO",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    }
+  ]
+}

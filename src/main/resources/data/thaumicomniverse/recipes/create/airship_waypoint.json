@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:AIRSHIPS",
+  "pattern": [
+    " E ",
+    " S ",
+    " C "
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/thaumium"
+    },
+    "C": {
+      "item": "thaumicomniverse:thaumic_casing"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "vis": {
+    "aer": 30,
+    "ordo": 20,
+    "perditio": 10
+  },
+  "result": {
+    "item": "thaumicomniverse:airship_waypoint",
+    "count": 2
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "credit": "Made with Blockbench (TC4Revival resource remake 1115_01)",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "brass": "create:block/brass_block",
+    "post": "thaumicomniverse:block/arcane_motor/body",
+    "marker": "thaumicomniverse:airship/marker",
+    "hull": "thaumicomniverse:airship/block/hull",
+    "particle": "thaumicomniverse:airship/marker"
+  },
+  "elements": [
+    {
+      "name": "Foot",
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        1.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#hull",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Post",
+      "from": [
+        7,
+        1.5,
+        7
+      ],
+      "to": [
+        9,
+        8.5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#post"
+        },
+        "east": {
+          "texture": "#post"
+        },
+        "south": {
+          "texture": "#post"
+        },
+        "west": {
+          "texture": "#post"
+        },
+        "up": {
+          "texture": "#post"
+        }
+      }
+    },
+    {
+      "name": "Vane shaft",
+      "from": [
+        7.5,
+        8.5,
+        4
+      ],
+      "to": [
+        8.5,
+        9.5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Vane head",
+      "from": [
+        6.5,
+        8.5,
+        2.5
+      ],
+      "to": [
+        9.5,
+        9.5,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      },
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          9,
+          4
+        ]
+      }
+    },
+    {
+      "name": "Vane tail",
+      "from": [
+        6,
+        8.5,
+        11
+      ],
+      "to": [
+        10,
+        9.5,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Route crystal",
+      "from": [
+        6,
+        10.5,
+        6
+      ],
+      "to": [
+        10,
+        15,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#marker"
+        },
+        "east": {
+          "texture": "#marker"
+        },
+        "south": {
+          "texture": "#marker"
+        },
+        "west": {
+          "texture": "#marker"
+        },
+        "up": {
+          "texture": "#marker"
+        },
+        "down": {
+          "texture": "#marker"
+        }
+      },
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          12.75,
+          8
+        ]
+      },
+      "forge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    }
+  ]
+}

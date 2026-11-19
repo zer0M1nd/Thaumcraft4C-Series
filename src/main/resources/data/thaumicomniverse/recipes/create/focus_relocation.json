@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicomniverse:RELOCATION_FOCUS",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:balanced_shard"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "create:super_glue"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicomniverse:infused_mechanism"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ],
+  "aspects": {
+    "aer": 24,
+    "terra": 24,
+    "ordo": 24
+  },
+  "instability": 4,
+  "result": {
+    "item": "thaumicomniverse:focus_relocation"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "credit": "Made with Blockbench (TC4Revival resource remake 1115_01)",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "hull": "thaumicomniverse:airship/block/hull",
+    "port": "thaumicomniverse:airship/block/fuel_port",
+    "brass": "create:block/brass_block",
+    "particle": "thaumicomniverse:airship/block/hull"
+  },
+  "elements": [
+    {
+      "name": "Hull body",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        14,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull",
+          "uv": [
+            0,
+            2,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#hull",
+          "uv": [
+            0,
+            2,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#hull",
+          "uv": [
+            0,
+            2,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#hull",
+          "uv": [
+            0,
+            2,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#port"
+        },
+        "down": {
+          "texture": "#hull"
+        }
+      }
+    },
+    {
+      "name": "Rim north",
+      "from": [
+        0,
+        14,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Rim south",
+      "from": [
+        0,
+        14,
+        14
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Rim west",
+      "from": [
+        0,
+        14,
+        2
+      ],
+      "to": [
+        2,
+        16,
+        14
+      ],
+      "faces": {
+        "east": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Rim east",
+      "from": [
+        14,
+        14,
+        2
+      ],
+      "to": [
+        16,
+        16,
+        14
+      ],
+      "faces": {
+        "east": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Intake glow",
+      "from": [
+        5,
+        14,
+        5
+      ],
+      "to": [
+        11,
+        14.25,
+        11
+      ],
+      "faces": {
+        "up": {
+          "texture": "#port",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        }
+      },
+      "forge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    }
+  ]
+}

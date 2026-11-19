@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:FOCUS_POUCH_UPGRADE",
+      "omniverse_requires": [
+        "sophisticatedbackpacks"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.focus_pouch_upgrade"
+          },
+          "id": "thaumicomniverse:FOCUS_POUCH_UPGRADE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:collab/focus_pouch_upgrade"
+            ]
+          },
+          "id": "thaumicomniverse:FOCUS_POUCH_UPGRADE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:ESSENTIA_TANK_UPGRADE",
+      "omniverse_requires": [
+        "sophisticatedbackpacks"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.essentia_tank_upgrade"
+          },
+          "id": "thaumicomniverse:ESSENTIA_TANK_UPGRADE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:collab/essentia_tank_upgrade"
+            ]
+          },
+          "id": "thaumicomniverse:ESSENTIA_TANK_UPGRADE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:ESSENTIA_PUMP_UPGRADE",
+      "omniverse_requires": [
+        "sophisticatedbackpacks"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.essentia_pump_upgrade"
+          },
+          "id": "thaumicomniverse:ESSENTIA_PUMP_UPGRADE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:collab/essentia_pump_upgrade"
+            ]
+          },
+          "id": "thaumicomniverse:ESSENTIA_PUMP_UPGRADE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:ARCANE_CRAFTING_UPGRADE",
+      "omniverse_requires": [
+        "sophisticatedbackpacks"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.arcane_crafting_upgrade"
+          },
+          "id": "thaumicomniverse:ARCANE_CRAFTING_UPGRADE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:collab/arcane_crafting_upgrade"
+            ]
+          },
+          "id": "thaumicomniverse:ARCANE_CRAFTING_UPGRADE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:ENERGIZED_NODE_UPGRADE",
+      "omniverse_requires": [
+        "sophisticatedbackpacks"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.energized_node_upgrade"
+          },
+          "id": "thaumicomniverse:ENERGIZED_NODE_UPGRADE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:collab/energized_node_upgrade"
+            ]
+          },
+          "id": "thaumicomniverse:ENERGIZED_NODE_UPGRADE/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

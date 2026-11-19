@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "thaumcraft:triple_meat_treat",
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "thaumicfutures:rabbit_nugget"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "thaumcraft:chicken_nugget"
+    },
+    {
+      "item": "thaumcraft:fish_nugget"
+    },
+    {
+      "item": "thaumicfutures:rabbit_nugget"
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:triple_meat_treat"
+  }
+}

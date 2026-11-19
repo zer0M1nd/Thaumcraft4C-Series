@@ -1,0 +1,76 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicomniverse:BIG_PEARL",
+  "instability": 12,
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primordial_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    }
+  ],
+  "aspects": {
+    "alienis": 64,
+    "praecantatio": 64,
+    "aqua": 64,
+    "ignis": 64,
+    "terra": 64,
+    "aer": 64,
+    "ordo": 64,
+    "perditio": 64,
+    "thaumicomniverse:terminus": 32
+  },
+  "result": {
+    "item": "thaumicomniverse:extremely_primordial_pearl"
+  },
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "avaritia"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "endless"
+        }
+      ]
+    }
+  ]
+}

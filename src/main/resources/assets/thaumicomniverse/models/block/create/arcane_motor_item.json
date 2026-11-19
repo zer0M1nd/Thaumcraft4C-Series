@@ -1,0 +1,663 @@
+{
+  "credit": "Made with Blockbench (TC4Revival resource remake 1115_01)",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "flange": "thaumicomniverse:block/create/andesite_casing",
+    "body": "thaumicomniverse:block/arcane_motor/body",
+    "plate": "thaumicomniverse:block/arcane_motor/plate",
+    "brass": "create:block/brass_block",
+    "crystal": "thaumicomniverse:block/arcane_motor/crystal",
+    "collar": "thaumicomniverse:block/arcane_motor/collar",
+    "particle": "thaumicomniverse:block/arcane_motor/body",
+    "axis": "create:block/axis",
+    "axis_top": "create:block/axis_top"
+  },
+  "elements": [
+    {
+      "name": "Mount flange",
+      "from": [
+        1,
+        1,
+        0
+      ],
+      "to": [
+        15,
+        15,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#flange",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "east": {
+          "texture": "#flange",
+          "uv": [
+            0,
+            1,
+            2,
+            15
+          ]
+        },
+        "south": {
+          "texture": "#flange",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "west": {
+          "texture": "#flange",
+          "uv": [
+            14,
+            1,
+            16,
+            15
+          ]
+        },
+        "up": {
+          "texture": "#flange",
+          "uv": [
+            1,
+            0,
+            15,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#flange",
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Body wide",
+      "from": [
+        3,
+        5,
+        2
+      ],
+      "to": [
+        13,
+        11,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#plate",
+          "uv": [
+            3,
+            5,
+            13,
+            11
+          ]
+        },
+        "east": {
+          "texture": "#body",
+          "uv": [
+            2,
+            5,
+            13,
+            11
+          ]
+        },
+        "south": {
+          "texture": "#plate",
+          "uv": [
+            3,
+            5,
+            13,
+            11
+          ]
+        },
+        "west": {
+          "texture": "#body",
+          "uv": [
+            3,
+            5,
+            14,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#body",
+          "uv": [
+            3,
+            2,
+            13,
+            13
+          ]
+        },
+        "down": {
+          "texture": "#body",
+          "uv": [
+            3,
+            3,
+            13,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "name": "Body tall",
+      "from": [
+        5,
+        3,
+        2
+      ],
+      "to": [
+        11,
+        13,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#plate",
+          "uv": [
+            5,
+            3,
+            11,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#body",
+          "uv": [
+            2,
+            3,
+            13,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#plate",
+          "uv": [
+            5,
+            3,
+            11,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#body",
+          "uv": [
+            3,
+            3,
+            14,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#body",
+          "uv": [
+            5,
+            2,
+            11,
+            13
+          ]
+        },
+        "down": {
+          "texture": "#body",
+          "uv": [
+            5,
+            3,
+            11,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "name": "Brass band wide",
+      "from": [
+        2.5,
+        4.5,
+        3.5
+      ],
+      "to": [
+        13.5,
+        11.5,
+        5.0
+      ],
+      "faces": {
+        "east": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Brass band tall",
+      "from": [
+        4.5,
+        2.5,
+        3.5
+      ],
+      "to": [
+        11.5,
+        13.5,
+        5.0
+      ],
+      "faces": {
+        "east": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Brass band wide",
+      "from": [
+        2.5,
+        4.5,
+        9
+      ],
+      "to": [
+        13.5,
+        11.5,
+        10.5
+      ],
+      "faces": {
+        "east": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Brass band tall",
+      "from": [
+        4.5,
+        2.5,
+        9
+      ],
+      "to": [
+        11.5,
+        13.5,
+        10.5
+      ],
+      "faces": {
+        "east": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Shaft collar",
+      "from": [
+        5,
+        5,
+        13
+      ],
+      "to": [
+        11,
+        11,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#body"
+        },
+        "east": {
+          "texture": "#body"
+        },
+        "south": {
+          "texture": "#collar",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#body"
+        },
+        "up": {
+          "texture": "#body"
+        },
+        "down": {
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "name": "Crystal seat",
+      "from": [
+        5.5,
+        13,
+        5
+      ],
+      "to": [
+        10.5,
+        13.5,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Crystal claw NW",
+      "from": [
+        5.5,
+        13.5,
+        5
+      ],
+      "to": [
+        6.5,
+        15,
+        6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Crystal claw NE",
+      "from": [
+        9.5,
+        13.5,
+        5
+      ],
+      "to": [
+        10.5,
+        15,
+        6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Crystal claw SW",
+      "from": [
+        5.5,
+        13.5,
+        9
+      ],
+      "to": [
+        6.5,
+        15,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Crystal claw SE",
+      "from": [
+        9.5,
+        13.5,
+        9
+      ],
+      "to": [
+        10.5,
+        15,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Vis crystal",
+      "from": [
+        6,
+        12.5,
+        5.5
+      ],
+      "to": [
+        10,
+        16,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crystal"
+        },
+        "east": {
+          "texture": "#crystal"
+        },
+        "south": {
+          "texture": "#crystal"
+        },
+        "west": {
+          "texture": "#crystal"
+        },
+        "up": {
+          "texture": "#crystal"
+        }
+      },
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          14,
+          7.5
+        ]
+      },
+      "forge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    },
+    {
+      "name": "Shaft",
+      "from": [
+        6,
+        6,
+        12
+      ],
+      "to": [
+        10,
+        10,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#axis_top",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#axis",
+          "uv": [
+            6,
+            0,
+            10,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#axis_top",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#axis",
+          "uv": [
+            6,
+            0,
+            10,
+            4
+          ]
+        },
+        "up": {
+          "texture": "#axis",
+          "uv": [
+            6,
+            0,
+            10,
+            4
+          ]
+        },
+        "down": {
+          "texture": "#axis",
+          "uv": [
+            6,
+            0,
+            10,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

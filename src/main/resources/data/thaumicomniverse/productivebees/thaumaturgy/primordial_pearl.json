@@ -1,0 +1,20 @@
+{
+  "primaryColor": "#ff78ff",
+  "secondaryColor": "#372646",
+  "tertiaryColor": "#d8c8ef",
+  "particleColor": "#ff78ff",
+  "flowerItem": "thaumcraft:primordial_pearl",
+  "size": 0.6,
+  "renderer": "default",
+  "selfbreed": false,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumcraft"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:primordial_pearl"
+    }
+  ]
+}

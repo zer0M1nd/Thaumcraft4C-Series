@@ -1,0 +1,22 @@
+{
+  "type": "create:item_application",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "thaumicomniverse:thaumic_casing"
+    },
+    {
+      "tag": "forge:plates/void"
+    }
+  ],
+  "results": [
+    {
+      "item": "thaumicomniverse:airship_casing"
+    }
+  ]
+}

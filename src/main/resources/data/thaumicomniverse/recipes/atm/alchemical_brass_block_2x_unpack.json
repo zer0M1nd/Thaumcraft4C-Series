@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicomniverse:alchemical_brass_block_2x"
+    }
+  ],
+  "result": {
+    "item": "thaumicomniverse:alchemical_brass_block_1x",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumicfutures:alchemical_brass_block"
+    }
+  ]
+}

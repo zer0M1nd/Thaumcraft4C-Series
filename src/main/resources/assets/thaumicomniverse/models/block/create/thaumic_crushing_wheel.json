@@ -1,0 +1,11 @@
+{
+  "parent": "create:block/crushing_wheel/textures",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "model": "create:models/block/crushing_wheel/crushing_wheel.obj",
+  "textures": {
+    "plates": "thaumicomniverse:block/create/thaumic_crushing_wheel_plates",
+    "insert": "thaumicomniverse:block/create/thaumic_crushing_wheel_insert",
+    "particle": "thaumicomniverse:block/create/thaumic_crushing_wheel_plates"
+  }
+}

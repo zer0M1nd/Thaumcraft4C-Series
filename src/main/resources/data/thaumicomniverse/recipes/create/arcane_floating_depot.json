@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:FLOATING_DEPOT",
+  "pattern": [
+    " D ",
+    "TLT",
+    " C "
+  ],
+  "key": {
+    "D": {
+      "item": "create:depot"
+    },
+    "T": {
+      "tag": "forge:plates/thaumium"
+    },
+    "L": {
+      "item": "thaumcraft:levitator"
+    },
+    "C": {
+      "item": "thaumicomniverse:infused_mechanism"
+    }
+  },
+  "vis": {
+    "aer": 40,
+    "ordo": 30
+  },
+  "result": {
+    "item": "thaumicomniverse:arcane_floating_depot",
+    "count": 2
+  }
+}

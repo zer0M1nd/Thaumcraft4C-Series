@@ -1,0 +1,55 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicomniverse:AKASHIC",
+  "instability": 12,
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:knowledge_fragment"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "tag": "thaumicomniverse:avaritia/infinity_ingots"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "thaumicomniverse:avaritia/infinity_ingots"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "thaumicomniverse:avaritia/infinity_ingots"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "thaumicomniverse:avaritia/infinity_ingots"
+      }
+    }
+  ],
+  "aspects": {
+    "cognitio": 64,
+    "praecantatio": 64,
+    "thaumicomniverse:terminus": 32
+  },
+  "result": {
+    "item": "thaumicomniverse:akashic_record"
+  },
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "avaritia"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "endless"
+        }
+      ]
+    }
+  ]
+}

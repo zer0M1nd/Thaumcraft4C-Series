@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "thaumicomniverse:alchemical_brass_block_2x"
+    }
+  },
+  "result": {
+    "item": "thaumicomniverse:alchemical_brass_block_3x"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumicfutures:alchemical_brass_block"
+    }
+  ]
+}

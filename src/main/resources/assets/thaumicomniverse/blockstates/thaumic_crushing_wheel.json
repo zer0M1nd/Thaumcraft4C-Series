@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "thaumicomniverse:block/create/thaumic_crushing_wheel",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "thaumicomniverse:block/create/thaumic_crushing_wheel"
+    },
+    "axis=z": {
+      "model": "thaumicomniverse:block/create/thaumic_crushing_wheel",
+      "x": 90,
+      "y": 180
+    }
+  }
+}

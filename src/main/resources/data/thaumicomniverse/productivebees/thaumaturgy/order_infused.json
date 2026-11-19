@@ -1,0 +1,20 @@
+{
+  "primaryColor": "#eeccff",
+  "secondaryColor": "#372646",
+  "tertiaryColor": "#d8c8ef",
+  "particleColor": "#eeccff",
+  "flowerItem": "thaumcraft:order_infused_stone",
+  "size": 0.6,
+  "renderer": "default_crystal",
+  "selfbreed": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumcraft"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:order_infused_stone"
+    }
+  ]
+}

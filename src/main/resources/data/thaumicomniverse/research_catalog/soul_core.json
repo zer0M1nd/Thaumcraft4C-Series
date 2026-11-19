@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:SOUL_CORE",
+          "omniverse_layout_group": "quark",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 2,
+          "displayRow": 6,
+          "parents": [
+            "INFUSION",
+            "JARBRAIN"
+          ],
+          "parentMirrors": {
+            "INFUSION": "thaumicomniverse:M_INFUSION"
+          },
+          "icon_item": {
+            "item": "thaumicomniverse:soul_core"
+          },
+          "aspects": {
+            "spiritus": 8,
+            "cognitio": 8,
+            "machina": 6
+          },
+          "complexity": 3,
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

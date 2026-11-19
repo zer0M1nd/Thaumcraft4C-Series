@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:ARCANE_ASSEMBLY",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "id": "thaumicomniverse:ARCANE_ASSEMBLY/items",
+          "type": "ITEM",
+          "items": [
+            {
+              "item": "thaumicomniverse:alchemical_mechanism"
+            },
+            {
+              "item": "thaumicomniverse:infused_mechanism"
+            }
+          ],
+          "size": 32
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.arcane_assembly"
+          },
+          "id": "thaumicomniverse:ARCANE_ASSEMBLY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.arcane_assembly.infused"
+          },
+          "id": "thaumicomniverse:ARCANE_ASSEMBLY/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.arcane_assembly.outcomes"
+          },
+          "id": "thaumicomniverse:ARCANE_ASSEMBLY/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

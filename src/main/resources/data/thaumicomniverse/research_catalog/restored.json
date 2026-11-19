@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:ESSENTIA_DYNAMO",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -4,
+          "displayRow": -1,
+          "icon_item": {
+            "item": "thaumicomniverse:essentia_dynamo"
+          },
+          "parents": [
+            "DISTILESSENTIA",
+            "thaumicomniverse:GUIDE_INDUSTRY"
+          ],
+          "complexity": 2,
+          "aspects": {
+            "potentia": 4,
+            "machina": 4,
+            "praecantatio": 3
+          },
+          "pageCount": 2,
+          "omniverse_requires": [
+            "thermal_expansion"
+          ]
+        }
+      ]
+    }
+  ]
+}

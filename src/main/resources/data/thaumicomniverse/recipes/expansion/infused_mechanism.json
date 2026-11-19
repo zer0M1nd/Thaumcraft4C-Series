@@ -1,0 +1,115 @@
+{
+  "type": "create:sequenced_assembly",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:plates/thaumium"
+  },
+  "transitionalItem": {
+    "item": "thaumicomniverse:incomplete_infused_mechanism"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "thaumicomniverse:incomplete_infused_mechanism"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        }
+      ],
+      "results": [
+        {
+          "item": "thaumicomniverse:incomplete_infused_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "thaumicomniverse:incomplete_infused_mechanism"
+        },
+        {
+          "item": "thaumcraft:balanced_shard"
+        }
+      ],
+      "results": [
+        {
+          "item": "thaumicomniverse:incomplete_infused_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "thaumicomniverse:infusion_processing",
+      "research": "thaumicomniverse:ARCANE_ASSEMBLY",
+      "instability": 2,
+      "components": [
+        {
+          "item": "thaumcraft:salis_mundus"
+        },
+        {
+          "item": "thaumcraft:amber"
+        },
+        {
+          "item": "thaumcraft:salis_mundus"
+        },
+        {
+          "item": "thaumcraft:amber"
+        }
+      ],
+      "aspects": {
+        "praecantatio": 16,
+        "machina": 8,
+        "potentia": 16
+      },
+      "ingredients": [
+        {
+          "item": "thaumicomniverse:incomplete_infused_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "thaumicomniverse:incomplete_infused_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "thaumicomniverse:incomplete_infused_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "thaumicomniverse:incomplete_infused_mechanism"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "thaumicomniverse:infused_mechanism",
+      "chance": 70
+    },
+    {
+      "item": "thaumcraft:thaumium_nugget",
+      "chance": 15
+    },
+    {
+      "item": "thaumcraft:amber",
+      "chance": 10
+    },
+    {
+      "item": "minecraft:quartz",
+      "chance": 5
+    }
+  ]
+}

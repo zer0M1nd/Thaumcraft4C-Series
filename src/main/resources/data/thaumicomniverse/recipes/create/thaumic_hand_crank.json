@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:THAUMIC_CRANK",
+  "pattern": [
+    "WT",
+    " S"
+  ],
+  "key": {
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "vis": {
+    "terra": 10
+  },
+  "result": {
+    "item": "thaumicomniverse:thaumic_hand_crank",
+    "count": 1
+  }
+}

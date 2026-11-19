@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:KINETIC_FOCUS",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 2,
+          "displayRow": -8,
+          "icon_item": {
+            "item": "thaumicomniverse:focus_kinetic"
+          },
+          "parents": [
+            "thaumicomniverse:ARCANE_CONTRAPTIONS",
+            "FOCUSFIRE"
+          ],
+          "complexity": 3,
+          "aspects": {
+            "motus": 5,
+            "machina": 5,
+            "praecantatio": 5
+          },
+          "pageCount": 2,
+          "omniverse_requires": [
+            "create"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:RELOCATION_FOCUS",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 2,
+          "displayRow": -7,
+          "icon_item": {
+            "item": "thaumicomniverse:focus_relocation"
+          },
+          "parents": [
+            "thaumicomniverse:ARCANE_CONTRAPTIONS",
+            "FOCUSFIRE"
+          ],
+          "complexity": 3,
+          "aspects": {
+            "motus": 5,
+            "machina": 5,
+            "praecantatio": 5
+          },
+          "pageCount": 2,
+          "omniverse_requires": [
+            "create"
+          ]
+        }
+      ]
+    }
+  ]
+}

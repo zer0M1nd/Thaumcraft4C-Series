@@ -1,0 +1,47 @@
+{
+  "type": "alchemistry:dissolver",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alchemistry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chemlib"
+    }
+  ],
+  "group": "thaumicomniverse:fictional_chemistry",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "thaumcraft:void_ingot"
+    }
+  },
+  "output": {
+    "groups": [
+      {
+        "probability": 100.0,
+        "results": [
+          {
+            "count": 64,
+            "item": "chemlib:neptunium"
+          },
+          {
+            "count": 64,
+            "item": "chemlib:plutonium"
+          },
+          {
+            "count": 64,
+            "item": "chemlib:iridium"
+          },
+          {
+            "count": 64,
+            "item": "chemlib:americium"
+          }
+        ]
+      }
+    ],
+    "rolls": 1,
+    "weighted": false
+  }
+}

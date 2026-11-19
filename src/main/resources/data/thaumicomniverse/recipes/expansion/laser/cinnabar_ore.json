@@ -1,0 +1,30 @@
+{
+  "type": "industrialforegoing:laser_drill_ore",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ],
+  "catalyst": {
+    "item": "industrialforegoing:laser_lens14"
+  },
+  "output": {
+    "item": "thaumcraft:cinnabar_ore"
+  },
+  "pointer": 0,
+  "rarity": [
+    {
+      "depth_min": -64,
+      "depth_max": 80,
+      "weight": 5,
+      "blacklist": {
+        "type": "minecraft:dimension",
+        "values": [
+          "minecraft:the_end"
+        ]
+      },
+      "whitelist": {}
+    }
+  ]
+}

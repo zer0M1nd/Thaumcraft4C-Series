@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:ESSENTIA_RAILWAY",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -4,
+          "displayRow": 1,
+          "icon_item": {
+            "item": "thaumicomniverse:essentia_minecart"
+          },
+          "parents": [
+            "JARLABEL",
+            "THAUMIUM",
+            "thaumicomniverse:GUIDE_INDUSTRY"
+          ],
+          "complexity": 2,
+          "pageCount": 6,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "metallum": 8
+          },
+          "omniverse_requires": [
+            "railcraft"
+          ]
+        }
+      ]
+    }
+  ]
+}

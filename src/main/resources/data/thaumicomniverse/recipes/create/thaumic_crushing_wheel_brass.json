@@ -1,0 +1,117 @@
+{
+  "type": "create:sequenced_assembly",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "thaumicomniverse:feature",
+      "group": "CREATE"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:item_exists",
+        "item": "thaumicfutures:alchemical_brass_sheet"
+      }
+    }
+  ],
+  "ingredient": {
+    "item": "create:crushing_wheel"
+  },
+  "transitionalItem": {
+    "item": "thaumicomniverse:incomplete_thaumic_crushing_wheel"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "thaumicomniverse:incomplete_thaumic_crushing_wheel"
+        },
+        {
+          "item": "create:brass_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "thaumicomniverse:incomplete_thaumic_crushing_wheel"
+        }
+      ]
+    },
+    {
+      "type": "thaumicomniverse:essentia_spouting",
+      "ingredients": [
+        {
+          "item": "thaumicomniverse:incomplete_thaumic_crushing_wheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "thaumicomniverse:incomplete_thaumic_crushing_wheel"
+        }
+      ],
+      "aspects": {
+        "perditio": 8
+      },
+      "research": "thaumicomniverse:THAUMIC_CRUSHING_WHEEL"
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "thaumicomniverse:incomplete_thaumic_crushing_wheel"
+        },
+        {
+          "fluid": "thaumcraft:liquid_death",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "thaumicomniverse:incomplete_thaumic_crushing_wheel"
+        }
+      ]
+    },
+    {
+      "type": "thaumicomniverse:essentia_spouting",
+      "ingredients": [
+        {
+          "item": "thaumicomniverse:incomplete_thaumic_crushing_wheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "thaumicomniverse:incomplete_thaumic_crushing_wheel"
+        }
+      ],
+      "aspects": {
+        "aqua": 8
+      },
+      "research": "thaumicomniverse:THAUMIC_CRUSHING_WHEEL"
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "thaumicomniverse:incomplete_thaumic_crushing_wheel"
+        },
+        {
+          "item": "thaumicomniverse:thaumium_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "thaumicomniverse:incomplete_thaumic_crushing_wheel"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "thaumicomniverse:thaumic_crushing_wheel"
+    }
+  ],
+  "loops": 5
+}

@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:AIRSHIPS",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.airships.assembly"
+          },
+          "id": "thaumicomniverse:AIRSHIPS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.airships.routes"
+          },
+          "id": "thaumicomniverse:AIRSHIPS/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.airships.driving"
+          },
+          "id": "thaumicomniverse:AIRSHIPS/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.airships.automatic"
+          },
+          "id": "thaumicomniverse:AIRSHIPS/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.airships.lifecycle"
+          },
+          "id": "thaumicomniverse:AIRSHIPS/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/airship_station"
+            ]
+          },
+          "id": "thaumicomniverse:AIRSHIPS/page/6",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/airship_waypoint"
+            ]
+          },
+          "id": "thaumicomniverse:AIRSHIPS/page/7",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/airship_controls"
+            ]
+          },
+          "id": "thaumicomniverse:AIRSHIPS/page/8",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/airship_fuel_interface"
+            ]
+          },
+          "id": "thaumicomniverse:AIRSHIPS/page/9",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/airship_signal"
+            ]
+          },
+          "id": "thaumicomniverse:AIRSHIPS/page/10",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

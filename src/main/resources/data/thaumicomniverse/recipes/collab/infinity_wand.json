@@ -1,0 +1,44 @@
+{
+  "type": "avaritia:shaped_table",
+  "tier": 4,
+  "category": "equipment",
+  "pattern": [
+    "      C  ",
+    "     CIC ",
+    "     NIIC",
+    "    NINC ",
+    "   NXN   ",
+    " CNIN    ",
+    "CIIN     ",
+    " CIC     ",
+    "  C      "
+  ],
+  "key": {
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "C": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "X": {
+      "item": "avaritia:crystal_matrix"
+    }
+  },
+  "result": {
+    "item": "thaumcraft:casting_wand",
+    "nbt": {
+      "rod": "thaumicomniverse:infinity",
+      "cap": "thaumicomniverse:matrix",
+      "tc4_metadata": 9000
+    }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "avaritia"
+    }
+  ]
+}

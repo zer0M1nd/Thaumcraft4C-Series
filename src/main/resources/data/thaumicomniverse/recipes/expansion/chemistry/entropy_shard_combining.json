@@ -1,0 +1,43 @@
+{
+  "type": "alchemistry:combiner",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alchemistry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chemlib"
+    }
+  ],
+  "group": "thaumicomniverse:fictional_chemistry",
+  "input": [
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "chemlib:silicon"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "chemlib:oxygen"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "chemlib:antimony"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "chemlib:radon"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:entropy_shard"
+  }
+}

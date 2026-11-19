@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:UNIVERSAL_ENCHANTMENTS",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 2,
+          "displayRow": 2,
+          "complexity": 2,
+          "parents": [
+            "INFUSIONENCHANTMENT",
+            "thaumicomniverse:GUIDE_OMNIVERSE"
+          ],
+          "aspects": {
+            "praecantatio": 6,
+            "cognitio": 4,
+            "permutatio": 4
+          },
+          "pageCount": 1,
+          "icon_item": {
+            "item": "minecraft:enchanted_book"
+          }
+        }
+      ]
+    }
+  ]
+}

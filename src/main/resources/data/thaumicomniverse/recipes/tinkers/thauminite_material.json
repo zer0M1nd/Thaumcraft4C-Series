@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "thaumicbases:thauminite_ingot"
+  },
+  "material": "thaumicomniverse:thauminite",
+  "needed": 1,
+  "value": 1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumicbases"
+    },
+    {
+      "type": "thaumicomniverse:feature",
+      "group": "TINKERS"
+    }
+  ]
+}

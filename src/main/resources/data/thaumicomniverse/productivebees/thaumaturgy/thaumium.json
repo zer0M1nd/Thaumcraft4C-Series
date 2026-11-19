@@ -1,0 +1,20 @@
+{
+  "primaryColor": "#6f549c",
+  "secondaryColor": "#372646",
+  "tertiaryColor": "#d8c8ef",
+  "particleColor": "#6f549c",
+  "flowerItem": "thaumcraft:thaumium_ingot",
+  "size": 0.6,
+  "renderer": "default",
+  "selfbreed": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumcraft"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:thaumium_ingot"
+    }
+  ]
+}

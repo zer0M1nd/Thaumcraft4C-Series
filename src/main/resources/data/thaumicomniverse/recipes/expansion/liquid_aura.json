@@ -1,0 +1,20 @@
+{
+  "type": "create:emptying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "thaumicomniverse:solid_aura"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "thaumicomniverse:aura",
+      "amount": 10
+    }
+  ]
+}

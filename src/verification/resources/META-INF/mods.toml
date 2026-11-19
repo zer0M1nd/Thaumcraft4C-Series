@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="thaumicomniverse_verification"
+version="1.0"
+displayName="Omniverse isolated verification"
+[[dependencies.thaumicomniverse_verification]]
+modId="thaumicomniverse"
+mandatory=true
+versionRange="[0,)"
+ordering="AFTER"
+side="SERVER"
+
+[[dependencies.thaumicomniverse_verification]]
+modId="thaumicfutures"
+mandatory=false
+versionRange="[0.1.0,)"
+ordering="AFTER"
+side="SERVER"

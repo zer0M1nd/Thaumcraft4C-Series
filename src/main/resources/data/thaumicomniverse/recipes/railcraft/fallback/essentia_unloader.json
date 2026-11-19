@@ -1,0 +1,50 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "railcraft"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "thaumicomniverse:feature",
+        "group": "TUBES"
+      }
+    }
+  ],
+  "research": "thaumicomniverse:ESSENTIA_RAILWAY",
+  "vis": {
+    "aqua": 25,
+    "ordo": 15,
+    "perditio": 10
+  },
+  "pattern": [
+    "GTG",
+    "JBF",
+    "GSG"
+  ],
+  "key": {
+    "J": {
+      "item": "thaumcraft:essentia_jar"
+    },
+    "F": {
+      "item": "thaumcraft:vis_filter"
+    },
+    "B": {
+      "item": "thaumcraft:balanced_shard"
+    },
+    "T": {
+      "item": "railcraft:detector_track_kit"
+    },
+    "S": {
+      "item": "thaumcraft:essentia_tube"
+    },
+    "G": {
+      "tag": "forge:glass_panes"
+    }
+  },
+  "result": {
+    "item": "thaumicomniverse:essentia_unloader"
+  }
+}

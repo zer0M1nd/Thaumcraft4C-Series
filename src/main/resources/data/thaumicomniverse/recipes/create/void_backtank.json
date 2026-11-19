@@ -1,0 +1,57 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:VOID_MECHANISMS",
+  "instability": 3,
+  "center": {
+    "ingredient": {
+      "item": "create:copper_backtank"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/void"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/void"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/void"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/void"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    }
+  ],
+  "aspects": {
+    "aer": 32,
+    "vacuos": 32,
+    "metallum": 24,
+    "alienis": 16
+  },
+  "result": {
+    "item": "thaumicomniverse:void_backtank"
+  }
+}

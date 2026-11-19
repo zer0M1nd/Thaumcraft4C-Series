@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "thaumicomniverse:block/create/arcane_suspension_coupler"
+    },
+    "facing=down": {
+      "model": "thaumicomniverse:block/create/arcane_suspension_coupler",
+      "x": 180
+    }
+  }
+}

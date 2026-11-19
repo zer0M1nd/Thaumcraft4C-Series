@@ -1,0 +1,38 @@
+{
+  "research": "thaumicomniverse:alignment",
+  "center": {
+    "item": "minecraft:quartz"
+  },
+  "near": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    }
+  ],
+  "result": {
+    "item": "thaumicomniverse:aligned_crystal"
+  },
+  "minimum": 1,
+  "maximum": 16,
+  "risk": 2,
+  "duration": 200,
+  "stabilityPerPair": 0.25,
+  "quantityRisk": 1,
+  "kindRisk": 1,
+  "answer": {
+    "explicit": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 2,
+        "sign": 1
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 1,
+        "sign": -1
+      }
+    ]
+  }
+}

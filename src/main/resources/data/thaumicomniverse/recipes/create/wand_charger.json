@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:WAND_CHARGER",
+  "pattern": [
+    " R ",
+    "T T",
+    "WCW"
+  ],
+  "key": {
+    "R": {
+      "item": "thaumcraft:vis_relay"
+    },
+    "T": {
+      "tag": "forge:plates/thaumium"
+    },
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "C": {
+      "item": "thaumicomniverse:thaumic_casing"
+    }
+  },
+  "vis": {
+    "aer": 20,
+    "ordo": 20,
+    "ignis": 20
+  },
+  "result": {
+    "item": "thaumicomniverse:wand_charger",
+    "count": 1
+  }
+}

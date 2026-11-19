@@ -1,0 +1,15 @@
+{
+  "craftable": true,
+  "hidden": false,
+  "sortOrder": 35,
+  "tier": 3,
+  "condition": {
+    "type": "forge:and",
+    "values": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "tconstruct"
+      }
+    ]
+  }
+}
