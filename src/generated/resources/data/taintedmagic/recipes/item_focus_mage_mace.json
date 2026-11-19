@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:MACEFOCUS",
+  "instability": 3,
+  "aspects": {
+    "telum": 32,
+    "metallum": 8,
+    "perditio": 18,
+    "praecantatio": 26
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:focus_mage_mace",
+    "count": 1
+  }
+}

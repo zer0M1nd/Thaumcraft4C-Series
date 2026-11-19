@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "taintedmagic:warp_fertilizer",
+    "count": 1
+  },
+  "research": "taintedmagic:WARPTREE",
+  "vis": {
+    "perditio": 150
+  },
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "thaumcraft:zombie_brain"
+    },
+    {
+      "item": "taintedmagic:warped_unbalanced_shard"
+    },
+    {
+      "item": "thaumcraft:wisp_essence"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ]
+}

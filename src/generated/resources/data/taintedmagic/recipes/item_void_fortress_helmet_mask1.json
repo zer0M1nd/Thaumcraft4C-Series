@@ -1,0 +1,50 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "MASKANGRYGHOST",
+  "instability": 8,
+  "aspects": {
+    "perditio": 64,
+    "mortuus": 64,
+    "tutamen": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "taintedmagic:void_fortress_helmet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:bone_meal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:poisonous_potato"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    }
+  ],
+  "result": {
+    "patch": "{mask:1}"
+  }
+}

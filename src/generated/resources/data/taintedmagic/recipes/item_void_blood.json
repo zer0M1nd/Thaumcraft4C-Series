@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "taintedmagic:void_blood",
+    "count": 1
+  },
+  "research": "taintedmagic:VOIDBLOOD",
+  "vis": {
+    "ordo": 35,
+    "perditio": 25
+  },
+  "mode": "shaped",
+  "pattern": [
+    " B ",
+    "CAC",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "taintedmagic:crimson_blood"
+    },
+    "B": {
+      "item": "taintedmagic:primordial_mote"
+    },
+    "C": {
+      "item": "thaumcraft:void_seed"
+    },
+    "D": {
+      "item": "thaumcraft:wisp_essence"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:PRIMALBLADE",
+  "instability": 8,
+  "aspects": {
+    "telum": 65,
+    "alienis": 46,
+    "tenebrae": 16,
+    "metallum": 60,
+    "vacuos": 56
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_sword"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:shard_of_creation"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:primal_blade",
+    "count": 1
+  }
+}

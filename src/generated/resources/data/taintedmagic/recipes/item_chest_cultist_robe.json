@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumcraft:cultist_robe_chestplate",
+    "count": 1
+  },
+  "research": "taintedmagic:CRIMSONROBES",
+  "vis": {
+    "ignis": 10,
+    "perditio": 10
+  },
+  "mode": "shaped",
+  "pattern": [
+    "A A",
+    "CAC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "taintedmagic:crimson_stained_cloth"
+    },
+    "B": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:LUMOSRING",
+  "instability": 1,
+  "aspects": {
+    "lux": 35,
+    "sensus": 25,
+    "auram": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_ring"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:focus_lumos"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:lumos_ring",
+    "count": 1
+  }
+}

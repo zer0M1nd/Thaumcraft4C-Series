@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "taintedmagic:thaumic_alloy_plate",
+    "count": 1
+  },
+  "research": "taintedmagic:THAUMICDISASSEMBLER",
+  "vis": {
+    "ordo": 50,
+    "perditio": 50
+  },
+  "mode": "shaped",
+  "pattern": [
+    "BAB",
+    "A A",
+    "BAB"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "B": {
+      "item": "thaumcraft:void_ingot"
+    }
+  }
+}

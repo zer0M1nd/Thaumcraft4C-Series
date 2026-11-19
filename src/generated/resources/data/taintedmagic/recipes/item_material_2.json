@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "taintedmagic:crimson_stained_cloth",
+    "count": 1
+  },
+  "research": "taintedmagic:CRIMSONROBES",
+  "vis": {
+    "ignis": 5,
+    "perditio": 5
+  },
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "taintedmagic:crimson_blood"
+    },
+    {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:TIMESALT",
+  "instability": 7,
+  "aspects": {
+    "auram": 20,
+    "lux": 30,
+    "tenebrae": 30
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:salis_mundus"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:fragment_of_creation"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_nugget"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:salis_aevus",
+    "count": 3
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:CREATIONSHARD",
+  "instability": 8,
+  "aspects": {
+    "aer": 55,
+    "terra": 55,
+    "ignis": 55,
+    "aqua": 55,
+    "ordo": 55,
+    "perditio": 55
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:balanced_shard"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:shard_of_creation",
+    "count": 1
+  }
+}

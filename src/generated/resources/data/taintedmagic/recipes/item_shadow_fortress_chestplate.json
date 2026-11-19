@@ -1,0 +1,53 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:SHADOWFORTRESS",
+  "instability": 7,
+  "aspects": {
+    "metallum": 38,
+    "tutamen": 26,
+    "praecantatio": 18,
+    "tenebrae": 34,
+    "vacuos": 26
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_chestplate"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:shadow_fortress_chestplate",
+    "count": 1
+  }
+}

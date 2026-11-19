@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumcraft:cultist_leader_leggings",
+    "count": 1
+  },
+  "research": "taintedmagic:PRAETORARMOR",
+  "vis": {
+    "ordo": 20,
+    "perditio": 20,
+    "ignis": 20
+  },
+  "mode": "shaped",
+  "pattern": [
+    "CDC",
+    "BAB",
+    "BCB"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:cultist_plate_leggings"
+    },
+    "B": {
+      "item": "taintedmagic:crimson_alloy_plate"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:gold_ingot"
+    }
+  }
+}

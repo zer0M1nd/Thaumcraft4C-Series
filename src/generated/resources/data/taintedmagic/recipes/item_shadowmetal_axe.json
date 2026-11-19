@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "taintedmagic:shadowmetal_axe",
+    "count": 1
+  },
+  "pattern": [
+    "AA",
+    "AB",
+    " B"
+  ],
+  "key": {
+    "A": {
+      "item": "taintedmagic:shadowmetal_ingot"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  }
+}

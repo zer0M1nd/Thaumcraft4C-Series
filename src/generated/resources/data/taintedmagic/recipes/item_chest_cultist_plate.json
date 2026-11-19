@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumcraft:cultist_plate_chestplate",
+    "count": 1
+  },
+  "research": "taintedmagic:KNIGHTROBES",
+  "vis": {
+    "terra": 10,
+    "ignis": 10,
+    "perditio": 10
+  },
+  "mode": "shaped",
+  "pattern": [
+    "A A",
+    "ABA",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "taintedmagic:crimson_alloy_plate"
+    }
+  }
+}

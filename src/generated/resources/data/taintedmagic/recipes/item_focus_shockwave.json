@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:FOCUSSHOCKWAVE",
+  "instability": 6,
+  "aspects": {
+    "aer": 35,
+    "motus": 42,
+    "potentia": 42,
+    "praecantatio": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_shock"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:tnt"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:tnt"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:focus_shockwave",
+    "count": 1
+  }
+}

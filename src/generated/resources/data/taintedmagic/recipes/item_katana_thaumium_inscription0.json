@@ -1,0 +1,50 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:INSCRIPTIONFIRE",
+  "instability": 8,
+  "aspects": {
+    "ignis": 64,
+    "potentia": 64,
+    "telum": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "taintedmagic:thaumium_katana"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_fire"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:coal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:netherrack"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    }
+  ],
+  "result": {
+    "patch": "{inscription:0}"
+  }
+}

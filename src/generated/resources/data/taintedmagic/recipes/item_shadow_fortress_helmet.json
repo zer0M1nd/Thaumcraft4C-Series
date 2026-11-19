@@ -1,0 +1,48 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:SHADOWFORTRESS",
+  "instability": 7,
+  "aspects": {
+    "metallum": 28,
+    "tutamen": 20,
+    "praecantatio": 12,
+    "tenebrae": 30,
+    "vacuos": 22
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_helmet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:shadow_fortress_helmet",
+    "count": 1
+  }
+}

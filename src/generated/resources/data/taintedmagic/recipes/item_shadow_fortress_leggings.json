@@ -1,0 +1,48 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:SHADOWFORTRESS",
+  "instability": 7,
+  "aspects": {
+    "metallum": 32,
+    "tutamen": 24,
+    "praecantatio": 16,
+    "tenebrae": 32,
+    "vacuos": 24
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_leggings"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:shadow_fortress_leggings",
+    "count": 1
+  }
+}

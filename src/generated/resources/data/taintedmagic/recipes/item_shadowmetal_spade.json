@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "taintedmagic:shadowmetal_spade",
+    "count": 1
+  },
+  "pattern": [
+    "A",
+    "B",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "taintedmagic:shadowmetal_ingot"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  }
+}

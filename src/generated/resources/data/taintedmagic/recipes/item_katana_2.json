@@ -1,0 +1,83 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:SHADOWMETALKATANA",
+  "instability": 7,
+  "aspects": {
+    "metallum": 62,
+    "telum": 65,
+    "praecantatio": 42,
+    "vacuos": 16,
+    "tenebrae": 46
+  },
+  "center": {
+    "ingredient": {
+      "item": "taintedmagic:shadowmetal_sword"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:shadowmetal_katana",
+    "count": 1
+  }
+}

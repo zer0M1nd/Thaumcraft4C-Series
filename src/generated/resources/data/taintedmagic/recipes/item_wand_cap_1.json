@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "taintedmagic:wand_cap_cloth",
+    "count": 1
+  },
+  "research": "taintedmagic:CAP_cloth",
+  "vis": {
+    "terra": 10,
+    "ignis": 10,
+    "perditio": 10,
+    "ordo": 10
+  },
+  "mode": "shaped",
+  "pattern": [
+    "AAA",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:enchanted_fabric"
+    }
+  }
+}

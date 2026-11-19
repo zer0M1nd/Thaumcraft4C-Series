@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "MASKGRINNINGDEVIL",
+  "instability": 8,
+  "aspects": {
+    "cognitio": 64,
+    "sano": 64,
+    "tutamen": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "taintedmagic:shadow_fortress_helmet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "tag": "forge:dyes/black"
+      },
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:shimmerleaf"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    }
+  ],
+  "result": {
+    "patch": "{mask:0}"
+  }
+}

@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/taintedmagic/index.html"
+modId="taintedmagic"
+version="${version}"
+displayName="Tainted Magic"
+authors="zer0M1nd"
+credits="Original Tainted Magic by John Yorke (tadashi_3)."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Study taint and warp to forge shadowmetal gear and wield new wand foci.
+
+-------- Original release --------
+Tainted Magic is an addon to Thaumcraft 4 which focuses on the dark side of Thaumaturgy.
+
+Original credits: Azanor (Thaumcraft), RapidMelons (ideas and help), wiiv (Fortress Blade model and texture), Twilight2暮暮 (Chinese translation) and Pinger (Russian translation).'''
+
+[[dependencies.taintedmagic]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"

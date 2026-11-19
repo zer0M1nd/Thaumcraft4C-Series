@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:GATEKEY",
+  "instability": 7,
+  "aspects": {
+    "motus": 40,
+    "auram": 20,
+    "iter": 25,
+    "praecantatio": 30
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:fragment_of_creation"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:gate_key",
+    "count": 1
+  }
+}

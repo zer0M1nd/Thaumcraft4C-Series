@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "taintedmagic:wand_rod_warpwood_staff",
+    "count": 1
+  },
+  "research": "taintedmagic:ROD_warpwood_staff",
+  "vis": {
+    "aer": 120,
+    "terra": 120,
+    "ignis": 120,
+    "aqua": 120,
+    "ordo": 120,
+    "perditio": 120
+  },
+  "mode": "shaped",
+  "pattern": [
+    "  A",
+    " B ",
+    "B  "
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:primordial_pearl"
+    },
+    "B": {
+      "item": "taintedmagic:wand_rod_warpwood"
+    }
+  }
+}

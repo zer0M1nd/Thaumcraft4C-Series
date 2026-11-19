@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "taintedmagic:focus_vis_shard",
+    "count": 1
+  },
+  "research": "taintedmagic:FOCUSSHARD",
+  "vis": {
+    "aer": 46,
+    "perditio": 38,
+    "ordo": 22
+  },
+  "mode": "shaped",
+  "pattern": [
+    "BDC",
+    "DAD",
+    "CDB"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:quicksilver"
+    },
+    "B": {
+      "item": "thaumcraft:balanced_shard"
+    },
+    "C": {
+      "item": "taintedmagic:tainted_unbalanced_shard"
+    },
+    "D": {
+      "item": "thaumcraft:wisp_essence"
+    }
+  }
+}

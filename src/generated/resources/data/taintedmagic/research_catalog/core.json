@@ -1,0 +1,1261 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TAINTEDMAGIC",
+      "icon": "taintedmagic:textures/misc/tab_tm.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "taintedmagic:TAINTEDMAGIC",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 2,
+          "displayRow": -1,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {},
+          "icon_item": {
+            "item": "thaumcraft:jar_label",
+            "count": 1
+          },
+          "isRound": true,
+          "isAutoUnlock": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:SHADOWMETAL",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 0,
+          "displayRow": 1,
+          "complexity": 1,
+          "warp": 1,
+          "aspects": {
+            "metallum": 1,
+            "tenebrae": 1,
+            "praecantatio": 1
+          },
+          "icon_item": {
+            "item": "taintedmagic:shadowmetal_ingot",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:TAINTEDMAGIC"
+          ],
+          "isConcealed": true,
+          "pageCount": 7
+        },
+        {
+          "key": "taintedmagic:CAP_shadowmetal",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": -3,
+          "displayRow": 2,
+          "complexity": 2,
+          "warp": 4,
+          "aspects": {
+            "metallum": 4,
+            "tenebrae": 4,
+            "alienis": 4,
+            "praecantatio": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:wand_cap_shadowmetal",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:SHADOWMETAL",
+            "CAP_void",
+            "PRIMPEARL"
+          ],
+          "isConcealed": true,
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:SHADOWCLOTH",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": -2,
+          "displayRow": 4,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "pannus": 1,
+            "tenebrae": 1
+          },
+          "icon_item": {
+            "item": "taintedmagic:shadow_imbued_cloth",
+            "count": 1
+          },
+          "parents": [
+            "ENCHFABRIC",
+            "taintedmagic:SHADOWMETAL"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:ROD_warpwood",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 8,
+          "displayRow": 0,
+          "complexity": 3,
+          "warp": 5,
+          "aspects": {
+            "arbor": 4,
+            "tenebrae": 4,
+            "alienis": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:wand_rod_warpwood",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:WARPTREE",
+            "VOIDMETAL",
+            "PRIMPEARL",
+            "ROD_primal_staff"
+          ],
+          "parentsHidden": [
+            "taintedmagic:SHADOWMETAL"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:ROD_warpwood_staff",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 10,
+          "displayRow": -1,
+          "complexity": 2,
+          "warp": 0,
+          "aspects": {
+            "arbor": 4,
+            "tenebrae": 4,
+            "alienis": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:wand_rod_warpwood_staff",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:ROD_warpwood"
+          ],
+          "parentsHidden": [
+            "taintedmagic:CREATIONSHARD"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:UNBALANCEDSHARDS",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 4,
+          "displayRow": -1,
+          "complexity": 0,
+          "warp": 1,
+          "aspects": {
+            "vitreus": 4,
+            "tenebrae": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:tainted_unbalanced_shard",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:TAINTEDMAGIC"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 3
+        },
+        {
+          "key": "taintedmagic:WARPTREE",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 6,
+          "displayRow": -2,
+          "complexity": 3,
+          "warp": 2,
+          "aspects": {
+            "praecantatio": 4,
+            "tenebrae": 4,
+            "arbor": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:warp_fertilizer",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:UNBALANCEDSHARDS"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:CRIMSONROBES",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": -2,
+          "displayRow": -1,
+          "complexity": 2,
+          "warp": 0,
+          "aspects": {
+            "pannus": 4,
+            "permutatio": 4,
+            "tutamen": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:crimson_stained_cloth",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:HOLLOWDAGGER"
+          ],
+          "isConcealed": true,
+          "pageCount": 6
+        },
+        {
+          "key": "taintedmagic:VOIDFORTRESS",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 8,
+          "displayRow": -9,
+          "complexity": 2,
+          "warp": 2,
+          "aspects": {
+            "tutamen": 5,
+            "alienis": 3,
+            "tenebrae": 3,
+            "vacuos": 5
+          },
+          "icon_item": {
+            "item": "taintedmagic:void_fortress_helmet",
+            "count": 1
+          },
+          "parents": [
+            "ELDRITCHMAJOR"
+          ],
+          "parentsHidden": [
+            "ARMORVOIDFORTRESS",
+            "ARMORFORTRESS"
+          ],
+          "isConcealed": true,
+          "pageCount": 4,
+          "parentMirrors": {
+            "ELDRITCHMAJOR": "taintedmagic:TMELDRITCHMAJOR"
+          }
+        },
+        {
+          "key": "taintedmagic:WARPEDGOGGLES",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 2,
+          "displayRow": 4,
+          "complexity": 1,
+          "warp": 0,
+          "aspects": {
+            "tutamen": 8,
+            "alienis": 4,
+            "tenebrae": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:warped_goggles",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:SHADOWMETAL"
+          ],
+          "parentsHidden": [
+            "taintedmagic:TAINTEDMAGIC",
+            "GOGGLES"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:KNIGHTROBES",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": -4,
+          "displayRow": -2,
+          "complexity": 2,
+          "warp": 0,
+          "aspects": {
+            "pannus": 4,
+            "tenebrae": 4,
+            "tutamen": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:crimson_alloy_plate",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:CRIMSONROBES"
+          ],
+          "parentsHidden": [
+            "ELDRITCHMINOR"
+          ],
+          "isConcealed": true,
+          "pageCount": 5
+        },
+        {
+          "key": "taintedmagic:PRAETORARMOR",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": -6,
+          "displayRow": 0,
+          "complexity": 2,
+          "warp": 0,
+          "aspects": {
+            "pannus": 4,
+            "tenebrae": 4,
+            "tutamen": 4,
+            "alienis": 4
+          },
+          "icon_item": {
+            "item": "thaumcraft:cultist_leader_helmet",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:KNIGHTROBES"
+          ],
+          "parentsHidden": [
+            "taintedmagic:CRIMSONROBES",
+            "taintedmagic:TMELDRITCHMAJOR",
+            "VOIDMETAL"
+          ],
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "taintedmagic:VOIDBLOOD",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": -2,
+          "displayRow": -5,
+          "complexity": 0,
+          "warp": 3,
+          "aspects": {
+            "vacuos": 14,
+            "tenebrae": 8,
+            "tutamen": 18,
+            "auram": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:void_blood",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:HOLLOWDAGGER"
+          ],
+          "parentsHidden": [
+            "ELDRITCHMAJOR",
+            "taintedmagic:BREAKPEARL"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:VOIDWALKERBOOTS",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 4,
+          "displayRow": -8,
+          "complexity": 3,
+          "warp": 4,
+          "aspects": {
+            "praecantatio": 4,
+            "tenebrae": 8,
+            "tutamen": 8,
+            "alienis": 8
+          },
+          "icon_item": {
+            "item": "taintedmagic:voidwalker_boots",
+            "count": 1
+          },
+          "parents": [
+            "ELDRITCHMAJOR"
+          ],
+          "parentsHidden": [
+            "PRIMPEARL",
+            "BOOTSTRAVELLER",
+            "taintedmagic:SHADOWCLOTH",
+            "ARMORVOIDFORTRESS"
+          ],
+          "isConcealed": true,
+          "pageCount": 2,
+          "parentMirrors": {
+            "ELDRITCHMAJOR": "taintedmagic:TMELDRITCHMAJOR"
+          }
+        },
+        {
+          "key": "taintedmagic:BREAKPEARL",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 8,
+          "displayRow": -6,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "aer": 4,
+            "terra": 4,
+            "ignis": 4,
+            "aqua": 4,
+            "ordo": 4,
+            "perditio": 16
+          },
+          "icon_item": {
+            "item": "taintedmagic:primordial_nodule",
+            "count": 1
+          },
+          "parents": [
+            "PRIMPEARL"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 3
+        },
+        {
+          "key": "taintedmagic:CREATIONSHARD",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 9,
+          "displayRow": -7,
+          "complexity": 3,
+          "warp": 9,
+          "aspects": {
+            "aer": 16,
+            "terra": 16,
+            "ignis": 16,
+            "aqua": 16,
+            "ordo": 16,
+            "perditio": 16
+          },
+          "icon_item": {
+            "item": "taintedmagic:shard_of_creation",
+            "count": 1
+          },
+          "parents": [
+            "ELDRITCHMAJOR"
+          ],
+          "parentsHidden": [
+            "PRIMPEARL"
+          ],
+          "isConcealed": true,
+          "isSpecial": true,
+          "pageCount": 3,
+          "parentMirrors": {
+            "ELDRITCHMAJOR": "taintedmagic:TMELDRITCHMAJOR"
+          }
+        },
+        {
+          "key": "taintedmagic:CREATION",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 11,
+          "displayRow": -5,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {},
+          "icon_resource": "taintedmagic:textures/misc/r_creation.png",
+          "parents": [
+            "taintedmagic:CREATIONSHARD"
+          ],
+          "isConcealed": true,
+          "isSpecial": true,
+          "isRound": true,
+          "isHidden": true,
+          "pageCount": 6
+        },
+        {
+          "key": "taintedmagic:SKYSALT",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 12,
+          "displayRow": -7,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "aer": 4,
+            "terra": 4,
+            "ignis": 4,
+            "aqua": 4,
+            "ordo": 4,
+            "perditio": 4,
+            "tempestas": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:salis_tempestas",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:CREATION"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:TIMESALT",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 13,
+          "displayRow": -6,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "aer": 4,
+            "terra": 4,
+            "ignis": 4,
+            "aqua": 4,
+            "ordo": 4,
+            "perditio": 4,
+            "permutatio": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:salis_aevus",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:CREATION"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:THAUMICDISASSEMBLER",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 6,
+          "displayRow": -9,
+          "complexity": 3,
+          "warp": 0,
+          "aspects": {
+            "metallum": 4,
+            "telum": 8,
+            "instrumentum": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:thaumic_disassembler",
+            "count": 1
+          },
+          "parents": [
+            "ELDRITCHMAJOR"
+          ],
+          "parentsHidden": [
+            "THAUMIUM",
+            "VOIDMETAL",
+            "PRIMPEARL"
+          ],
+          "isConcealed": true,
+          "pageCount": 4,
+          "parentMirrors": {
+            "ELDRITCHMAJOR": "taintedmagic:TMELDRITCHMAJOR"
+          }
+        },
+        {
+          "key": "taintedmagic:VOIDSASH",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 3,
+          "displayRow": -9,
+          "complexity": 0,
+          "warp": 3,
+          "aspects": {
+            "vacuos": 4,
+            "metallum": 8,
+            "tutamen": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:voidwalker_sash",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:VOIDWALKERBOOTS"
+          ],
+          "parentsHidden": [
+            "PRIMPEARL"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:MAGICFUNGUAR",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 2,
+          "displayRow": -4,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "praecantatio": 2,
+            "fames": 4,
+            "herba": 2
+          },
+          "icon_item": {
+            "item": "taintedmagic:magic_funguar",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:VISHROOMCRAFT"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:VISHROOMCRAFT",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 3,
+          "displayRow": -3,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "praecantatio": 4,
+            "fabrico": 2,
+            "herba": 3
+          },
+          "icon_item": {
+            "item": "thaumcraft:vishroom",
+            "count": 1
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "isHidden": true,
+          "pageCount": 3
+        },
+        {
+          "key": "taintedmagic:HOLLOWDAGGER",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 0,
+          "displayRow": -3,
+          "complexity": 2,
+          "warp": 2,
+          "aspects": {
+            "telum": 4,
+            "ignis": 4,
+            "sano": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:hollow_dagger",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:TAINTEDMAGIC"
+          ],
+          "parentsHidden": [
+            "ENCHFABRIC",
+            "ESSENTIACRYSTAL",
+            "ELDRITCHMINOR"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:CRIMSONBLADE",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": -6,
+          "displayRow": 2,
+          "complexity": 0,
+          "warp": 5,
+          "aspects": {
+            "perditio": 8,
+            "alienis": 2,
+            "telum": 16,
+            "vacuos": 6
+          },
+          "icon_item": {
+            "item": "thaumcraft:crimson_sword",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:PRAETORARMOR"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:SHADOWFORTRESS",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 0,
+          "displayRow": 3,
+          "complexity": 3,
+          "warp": 3,
+          "aspects": {
+            "metallum": 4,
+            "tenebrae": 8,
+            "tutamen": 8,
+            "vacuos": 2
+          },
+          "icon_item": {
+            "item": "taintedmagic:shadow_fortress_helmet",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:SHADOWMETAL"
+          ],
+          "parentsHidden": [
+            "taintedmagic:VOIDFORTRESS",
+            "taintedmagic:TMELDRITCHMAJOR",
+            "taintedmagic:UNBALANCEDSHARDS"
+          ],
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "taintedmagic:CAP_cloth",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 3,
+          "displayRow": 1,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "praecantatio": 4,
+            "pannus": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:wand_cap_cloth",
+            "count": 1
+          },
+          "parentsHidden": [
+            "CAP_gold",
+            "ENCHFABRIC"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:CAP_crimsoncloth",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": -1,
+          "displayRow": -1,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "praecantatio": 8,
+            "pannus": 4,
+            "sano": 8
+          },
+          "icon_item": {
+            "item": "taintedmagic:wand_cap_crimsoncloth",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:CRIMSONROBES"
+          ],
+          "parentsHidden": [
+            "taintedmagic:CAP_cloth"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:CAP_shadowcloth",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": -3,
+          "displayRow": 5,
+          "complexity": 0,
+          "warp": 1,
+          "aspects": {
+            "praecantatio": 16,
+            "pannus": 8,
+            "vacuos": 16,
+            "tenebrae": 8
+          },
+          "icon_item": {
+            "item": "taintedmagic:wand_cap_shadowcloth",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:SHADOWCLOTH"
+          ],
+          "parentsHidden": [
+            "taintedmagic:CAP_cloth"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:PRIMALBLADE",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 11,
+          "displayRow": -3,
+          "complexity": 3,
+          "warp": 5,
+          "aspects": {
+            "praecantatio": 1,
+            "alienis": 1,
+            "telum": 1,
+            "vacuos": 1,
+            "auram": 1
+          },
+          "icon_item": {
+            "item": "taintedmagic:primal_blade",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:CREATION"
+          ],
+          "parentsHidden": [
+            "VOIDMETAL",
+            "PRIMALCRUSHER",
+            "taintedmagic:UNBALANCEDSHARDS",
+            "taintedmagic:HOLLOWDAGGER"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:THAUMIUMKATANA",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 12,
+          "displayRow": -1,
+          "complexity": 3,
+          "warp": 0,
+          "aspects": {
+            "metallum": 8,
+            "praecantatio": 4,
+            "telum": 6
+          },
+          "icon_item": {
+            "item": "taintedmagic:thaumium_katana",
+            "count": 1
+          },
+          "parentsHidden": [
+            "ARMORFORTRESS"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:VOIDMETALKATANA",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 7,
+          "displayRow": -10,
+          "complexity": 3,
+          "warp": 3,
+          "aspects": {
+            "metallum": 16,
+            "praecantatio": 8,
+            "telum": 12,
+            "vacuos": 12
+          },
+          "icon_item": {
+            "item": "taintedmagic:voidmetal_katana",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:VOIDFORTRESS"
+          ],
+          "parentsHidden": [
+            "taintedmagic:THAUMIUMKATANA"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:SHADOWMETALKATANA",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 0,
+          "displayRow": 5,
+          "complexity": 3,
+          "warp": 5,
+          "aspects": {
+            "metallum": 16,
+            "praecantatio": 8,
+            "telum": 12,
+            "vacuos": 12,
+            "tenebrae": 14
+          },
+          "icon_item": {
+            "item": "taintedmagic:shadowmetal_katana",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:SHADOWFORTRESS"
+          ],
+          "parentsHidden": [
+            "taintedmagic:VOIDMETALKATANA"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:INSCRIPTIONFIRE",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 14,
+          "displayRow": 0,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "ignis": 8,
+            "perditio": 4,
+            "metallum": 6
+          },
+          "icon_resource": "taintedmagic:textures/misc/r_inscription0.png",
+          "parents": [
+            "taintedmagic:THAUMIUMKATANA"
+          ],
+          "parentsHidden": [
+            "FOCUSFIRE"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:INSCRIPTIONTHUNDER",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 14,
+          "displayRow": 1,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "perditio": 8,
+            "motus": 4,
+            "metallum": 6
+          },
+          "icon_resource": "taintedmagic:textures/misc/r_inscription1.png",
+          "parents": [
+            "taintedmagic:THAUMIUMKATANA"
+          ],
+          "parentsHidden": [
+            "taintedmagic:FOCUSSHOCKWAVE"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:INSCRIPTIONHEAL",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 14,
+          "displayRow": 2,
+          "complexity": 0,
+          "warp": 2,
+          "aspects": {
+            "sano": 8,
+            "exanimis": 4,
+            "metallum": 6
+          },
+          "icon_resource": "taintedmagic:textures/misc/r_inscription2.png",
+          "parents": [
+            "taintedmagic:THAUMIUMKATANA"
+          ],
+          "parentsHidden": [
+            "BATHSALTS"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:VOIDGOGGLES",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 3,
+          "displayRow": 3,
+          "complexity": 0,
+          "warp": 2,
+          "aspects": {
+            "vacuos": 8,
+            "tenebrae": 4,
+            "praecantatio": 6,
+            "sensus": 12
+          },
+          "icon_item": {
+            "item": "taintedmagic:voidmetal_goggles",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:WARPEDGOGGLES"
+          ],
+          "parentsHidden": [
+            "VOIDMETAL"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:ELDRITCHFOCUS",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 5,
+          "displayRow": -5,
+          "complexity": 3,
+          "warp": 7,
+          "aspects": {
+            "alienis": 22,
+            "perditio": 14,
+            "aer": 4,
+            "tenebrae": 6
+          },
+          "icon_item": {
+            "item": "taintedmagic:focus_dark_matter",
+            "count": 1
+          },
+          "parents": [
+            "ELDRITCHMAJOR"
+          ],
+          "parentsHidden": [
+            "OUTERREV"
+          ],
+          "isConcealed": true,
+          "isSpecial": true,
+          "pageCount": 2,
+          "parentMirrors": {
+            "ELDRITCHMAJOR": "taintedmagic:TMELDRITCHMAJOR"
+          }
+        },
+        {
+          "key": "taintedmagic:DIFFUSIONUPGRADE",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 6,
+          "displayRow": -4,
+          "complexity": 0,
+          "warp": 2,
+          "aspects": {
+            "praecantatio": 4,
+            "tenebrae": 8,
+            "telum": 8,
+            "alienis": 10
+          },
+          "icon_resource": "taintedmagic:textures/foci/icondiffusion.png",
+          "parents": [
+            "taintedmagic:ELDRITCHFOCUS"
+          ],
+          "parentsHidden": [
+            "FOCALMANIPULATION"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 1
+        },
+        {
+          "key": "taintedmagic:MACEFOCUS",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 7,
+          "displayRow": 3,
+          "complexity": 2,
+          "warp": 0,
+          "aspects": {
+            "perditio": 10,
+            "terra": 4,
+            "telum": 6,
+            "praecantatio": 8
+          },
+          "icon_item": {
+            "item": "taintedmagic:focus_mage_mace",
+            "count": 1
+          },
+          "parentsHidden": [
+            "THAUMIUM",
+            "FOCUSFIRE"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:FOCUSSHOCKWAVE",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 7,
+          "displayRow": 2,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "praecantatio": 20,
+            "perditio": 12,
+            "aer": 6,
+            "motus": 12
+          },
+          "icon_item": {
+            "item": "taintedmagic:focus_shockwave",
+            "count": 1
+          },
+          "parentsHidden": [
+            "FOCUSSHOCK"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:FOCUSSHARD",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 6,
+          "displayRow": 1,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "vitreus": 2,
+            "praecantatio": 4,
+            "motus": 6
+          },
+          "icon_item": {
+            "item": "taintedmagic:focus_vis_shard",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:UNBALANCEDSHARDS"
+          ],
+          "parentsHidden": [
+            "FOCUSFIRE"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:TAINTFOCUS",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 5,
+          "displayRow": 2,
+          "complexity": 3,
+          "warp": 3,
+          "aspects": {
+            "vitium": 4,
+            "victus": 4,
+            "motus": 4
+          },
+          "icon_item": {
+            "item": "taintedmagic:focus_taint_swarm",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:FOCUSSHARD"
+          ],
+          "parentsHidden": [
+            "INFUSION",
+            "BOTTLETAINT"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:FOCUSLUMOS",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 5,
+          "displayRow": 3,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {
+            "ignis": 16,
+            "lux": 24,
+            "potentia": 8
+          },
+          "icon_item": {
+            "item": "taintedmagic:focus_lumos",
+            "count": 1
+          },
+          "parentsHidden": [
+            "FOCUSFIRE"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:LUMOSRING",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 6,
+          "displayRow": 4,
+          "complexity": 2,
+          "warp": 0,
+          "aspects": {
+            "tutamen": 16,
+            "auram": 12,
+            "lux": 24,
+            "potentia": 8
+          },
+          "icon_item": {
+            "item": "taintedmagic:lumos_ring",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:FOCUSLUMOS"
+          ],
+          "parentsHidden": [
+            "RUNICARMOR"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:FLYTECHARM",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 13,
+          "displayRow": -4,
+          "complexity": 3,
+          "warp": 0,
+          "aspects": {
+            "volatus": 15,
+            "aer": 20,
+            "sensus": 8,
+            "praecantatio": 12
+          },
+          "icon_item": {
+            "item": "taintedmagic:flyte_charm",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:CREATION"
+          ],
+          "parentsHidden": [
+            "taintedmagic:VOIDSASH",
+            "PRIMALARROW"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:GATEKEY",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 9,
+          "displayRow": -4,
+          "complexity": 3,
+          "warp": 0,
+          "aspects": {
+            "iter": 30,
+            "permutatio": 15,
+            "auram": 20,
+            "volatus": 10
+          },
+          "icon_item": {
+            "item": "taintedmagic:gate_key",
+            "count": 1
+          },
+          "parents": [
+            "taintedmagic:CREATION"
+          ],
+          "isConcealed": true,
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "taintedmagic:TMELDRITCHMAJOR",
+          "category": "TAINTEDMAGIC",
+          "displayColumn": 7,
+          "displayRow": -7,
+          "complexity": 0,
+          "warp": 0,
+          "aspects": {},
+          "icon_resource": "thaumcraft:textures/misc/r_eldritchmajor.png",
+          "parents": [],
+          "isHidden": false,
+          "isConcealed": false,
+          "isSpecial": true,
+          "isRound": true,
+          "isStub": true,
+          "pageCount": 0,
+          "mirrorOf": "ELDRITCHMAJOR"
+        }
+      ]
+    }
+  ]
+}

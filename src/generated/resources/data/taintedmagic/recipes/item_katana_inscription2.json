@@ -1,0 +1,58 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:INSCRIPTIONHEAL",
+  "instability": 8,
+  "aspects": {
+    "sano": 64,
+    "exanimis": 64,
+    "telum": 16
+  },
+  "center": {
+    "ingredient": [
+      {
+        "item": "taintedmagic:thaumium_katana"
+      },
+      {
+        "item": "taintedmagic:voidmetal_katana"
+      },
+      {
+        "item": "taintedmagic:shadowmetal_katana"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_pech"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:fermented_spider_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:bath_salts"
+      }
+    }
+  ],
+  "result": {
+    "patch": "{inscription:2}"
+  }
+}

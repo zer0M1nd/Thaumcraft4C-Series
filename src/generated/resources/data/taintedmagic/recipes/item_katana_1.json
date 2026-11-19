@@ -1,0 +1,83 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:VOIDMETALKATANA",
+  "instability": 6,
+  "aspects": {
+    "metallum": 52,
+    "telum": 55,
+    "praecantatio": 32,
+    "vacuos": 46,
+    "alienis": 12
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_sword"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:voidmetal_katana",
+    "count": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:KNIGHTROBES",
+  "instability": 2,
+  "aspects": {
+    "fames": 4,
+    "metallum": 8,
+    "praecantatio": 6
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:crimson_blood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:crimson_blood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:crimson_blood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:crimson_blood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_nugget"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:crimson_alloy_plate",
+    "count": 9
+  }
+}
