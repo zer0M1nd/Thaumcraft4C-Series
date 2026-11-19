@@ -1,0 +1,74 @@
+plugins { id 'java' }
+
+group = 'dev.tc4.updater'
+version = '0.2.5'
+base.archivesName = 'ThaumcraftUpdater'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.withSourcesJar()
+
+repositories {
+    maven { url = 'https://maven.minecraftforge.net/' }
+    mavenCentral()
+}
+
+configurations { selfHelper }
+
+dependencies {
+    selfHelper 'com.google.code.gson:gson:2.10'
+    // All runtime libraries are supplied by Forge's BOOT layer. Never shade them.
+    compileOnly('cpw.mods:modlauncher:10.0.9') { transitive = false }
+    compileOnly('net.minecraftforge:fmlloader:1.20.1-47.4.23') { transitive = false }
+    compileOnly('net.minecraftforge:forgespi:7.0.1') { transitive = false }
+    compileOnly 'com.electronwill.night-config:toml:3.6.4'
+    compileOnly 'com.google.code.gson:gson:2.10'
+    compileOnly 'org.apache.maven:maven-artifact:3.8.5'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
+    testImplementation 'com.electronwill.night-config:toml:3.6.4'
+    testImplementation 'com.google.code.gson:gson:2.10'
+    testImplementation 'org.apache.maven:maven-artifact:3.8.5'
+    constraints {
+        compileOnly 'org.apache.commons:commons-lang3:3.12.0'
+        testImplementation 'org.apache.commons:commons-lang3:3.12.0'
+    }
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 17 }
+tasks.named('processResources') {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/mods.toml') { expand version: project.version }
+}
+// Early services live in SERVICE; the native review UI lives in GAME in a separate package.
+tasks.named('jar') {
+    dependsOn ':clientui:jar', ':clientui:reobfJar', 'selfHelperJar'
+    from(tasks.named('selfHelperJar')) { into 'META-INF/thaumcraftupdater' }
+    from(project(':clientui').layout.buildDirectory.file('libs/thaumcraftupdater-marker.jar')) { into 'META-INF/thaumcraftupdater' }
+    manifest {
+        attributes 'Automatic-Module-Name': 'dev.tc4.updater.bootstrap',
+                   'FMLModType': 'LIBRARY',
+                   'Implementation-Version': project.version,
+                   'Implementation-Title': 'ThaumcraftUpdater'
+    }
+}
+// Separate JVM after game exit: Forge's libraries and loaded service JAR may be locked.
+// Only this private helper contains Gson; the boot/game layers still use Forge's libraries.
+tasks.register('selfHelperJar', Jar) {
+    from('LICENSE', 'NOTICE')
+    from('LICENSES/LICENSE-Gson-Apache-2.0.txt') { into 'META-INF' }
+    dependsOn classes
+    archiveFileName = 'self-update-helper.jar'
+    destinationDirectory = layout.buildDirectory.dir('helper')
+    from(sourceSets.main.output) {
+        include 'dev/tc4/updater/SelfUpdate*.class', 'dev/tc4/updater/UpdateTransaction*.class', 'dev/tc4/updater/FilesSupport.class'
+    }
+    from({ configurations.selfHelper.collect { zipTree(it) } }) { include 'com/google/gson/**' }
+    manifest { attributes 'Main-Class': 'dev.tc4.updater.SelfUpdateHelper' }
+}
+tasks.named('sourcesJar') { from('clientui/src/main') { into 'clientui' } }
+tasks.named('test') { useJUnitPlatform() }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+    }
+}

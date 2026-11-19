@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/thaumcraftupdater/index.html"
+modId="thaumcraftupdater"
+version="${version}"
+displayName="ThaumcraftUpdater"
+displayTest="IGNORE_ALL_VERSION"
+authors="zer0M1nd"
+description='''
+This tool is part of the Thaumcraft 4: Continuation series.
+Choose which updates to apply to installed series mods before Forge loads them.'''
+
+[[dependencies.thaumcraftupdater]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.0,48)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.thaumcraftupdater]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
