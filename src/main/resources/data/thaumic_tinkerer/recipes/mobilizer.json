@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:LEVITATOR_LOCOMOTIVE",
+  "instability": 4,
+  "aspects": {
+    "motus": 15,
+    "ordo": 20,
+    "praecantatio": 15
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:levitator"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:obsidian_tile"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:mobilizer",
+    "count": 1
+  }
+}

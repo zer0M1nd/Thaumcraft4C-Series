@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:INFUSED_POTIONS",
+  "instability": 5,
+  "aspects": {
+    "messis": 32,
+    "meto": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:infused_seeds",
+    "count": 1,
+    "nbt": "{Aspect:\"aqua\"}"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:SUMMON",
+  "instability": 4,
+  "aspects": {
+    "exanimis": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:condensed_soul_exanimis"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_exanimis"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_exanimis"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_exanimis"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_exanimis"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_exanimis"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_exanimis"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_exanimis"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_exanimis"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:infused_soul_exanimis",
+    "count": 1
+  }
+}

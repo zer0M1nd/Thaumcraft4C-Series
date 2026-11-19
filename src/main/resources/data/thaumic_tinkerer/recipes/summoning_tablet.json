@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumic_tinkerer:SUMMON",
+  "pattern": [
+    "WWW",
+    "SSS"
+  ],
+  "key": {
+    "W": {
+      "item": "thaumcraft:obsidian_tile"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "vis": {
+    "ordo": 50,
+    "perditio": 50
+  },
+  "result": {
+    "item": "thaumic_tinkerer:summoning_tablet",
+    "count": 1
+  }
+}

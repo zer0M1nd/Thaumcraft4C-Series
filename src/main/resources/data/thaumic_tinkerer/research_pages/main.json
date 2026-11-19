@@ -1,0 +1,2512 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumic_tinkerer:DARK_QUARTZ",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:DARK_QUARTZ.0"
+          },
+          "id": "thaumic_tinkerer:DARK_QUARTZ/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:dark_quartz"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:DARK_QUARTZ/page/2",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:dark_quartz_block"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:DARK_QUARTZ/page/3",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:dark_quartz_slab"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:DARK_QUARTZ/page/4",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:dark_quartz_pillar"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:DARK_QUARTZ/page/5",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:chiseled_dark_quartz"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:DARK_QUARTZ/page/6",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:dark_quartz_stairs"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:DARK_QUARTZ/page/7",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:GASEOUS_LIGHT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:GASEOUS_LIGHT.0"
+          },
+          "id": "thaumic_tinkerer:GASEOUS_LIGHT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:gaseous_light"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:GASEOUS_LIGHT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:GASEOUS_SHADOW",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:GASEOUS_SHADOW.0"
+          },
+          "id": "thaumic_tinkerer:GASEOUS_SHADOW/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:gaseous_shadow"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:GASEOUS_SHADOW/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:BRIGHT_NITOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:BRIGHT_NITOR.0"
+          },
+          "id": "thaumic_tinkerer:BRIGHT_NITOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:bright_nitor"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:BRIGHT_NITOR/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:GAS_REMOVER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:GAS_REMOVER.0"
+          },
+          "id": "thaumic_tinkerer:GAS_REMOVER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:gas_remover"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:GAS_REMOVER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FUNNEL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FUNNEL.0"
+          },
+          "id": "thaumic_tinkerer:FUNNEL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:essentia_funnel"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FUNNEL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:REPAIRER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:REPAIRER.0"
+          },
+          "id": "thaumic_tinkerer:REPAIRER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:restorer"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:REPAIRER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:INTERFACE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:INTERFACE.0"
+          },
+          "id": "thaumic_tinkerer:INTERFACE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:transvector_interface"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:INTERFACE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:INTERFACE.1"
+          },
+          "id": "thaumic_tinkerer:INTERFACE/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:connector"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:INTERFACE/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:INTERFACE.2"
+          },
+          "id": "thaumic_tinkerer:INTERFACE/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FOCUS_SMELT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FOCUS_SMELT.0"
+          },
+          "id": "thaumic_tinkerer:FOCUS_SMELT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:focus_smelting"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FOCUS_SMELT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FOCUS_FLIGHT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FOCUS_FLIGHT.0"
+          },
+          "id": "thaumic_tinkerer:FOCUS_FLIGHT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:focus_flight"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FOCUS_FLIGHT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FOCUS_TELEKINESIS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FOCUS_TELEKINESIS.0"
+          },
+          "id": "thaumic_tinkerer:FOCUS_TELEKINESIS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:focus_telekinesis"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FOCUS_TELEKINESIS/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:MAGNETS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:MAGNETS.0"
+          },
+          "id": "thaumic_tinkerer:MAGNETS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:MAGNETS.1"
+          },
+          "id": "thaumic_tinkerer:MAGNETS/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:item_magnet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:MAGNETS/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:mob_magnet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:MAGNETS/page/4",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:soul_mould"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:MAGNETS/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ANIMATION_TABLET",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ANIMATION_TABLET.0"
+          },
+          "id": "thaumic_tinkerer:ANIMATION_TABLET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:dynamism_tablet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ANIMATION_TABLET/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FOCUS_DEFLECT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FOCUS_DEFLECT.0"
+          },
+          "id": "thaumic_tinkerer:FOCUS_DEFLECT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:focus_deflection"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FOCUS_DEFLECT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FOCUS_ENDER_CHEST",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FOCUS_ENDER_CHEST.0"
+          },
+          "id": "thaumic_tinkerer:FOCUS_ENDER_CHEST/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:focus_ender_chest"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FOCUS_ENDER_CHEST/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FOCUS_DISLOCATION",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FOCUS_DISLOCATION.0"
+          },
+          "id": "thaumic_tinkerer:FOCUS_DISLOCATION/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FOCUS_DISLOCATION.1"
+          },
+          "id": "thaumic_tinkerer:FOCUS_DISLOCATION/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:focus_dislocation"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FOCUS_DISLOCATION/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FOCUS_HEAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FOCUS_HEAL.0"
+          },
+          "id": "thaumic_tinkerer:FOCUS_HEAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:focus_healing"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FOCUS_HEAL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:SPELL_CLOTH",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:SPELL_CLOTH.0"
+          },
+          "id": "thaumic_tinkerer:SPELL_CLOTH/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:spell_cloth"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:SPELL_CLOTH/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ENCHANTER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ENCHANTER.0"
+          },
+          "id": "thaumic_tinkerer:ENCHANTER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ENCHANTER.1"
+          },
+          "id": "thaumic_tinkerer:ENCHANTER/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ENCHANTER.2"
+          },
+          "id": "thaumic_tinkerer:ENCHANTER/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:osmotic_enchanter"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ENCHANTER/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_ASCENT_BOOST",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_ASCENT_BOOST.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_ASCENT_BOOST/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/ascent_boost"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_ASCENT_BOOST/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_SLOW_FALL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_SLOW_FALL.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_SLOW_FALL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/slow_fall"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_SLOW_FALL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_AUTO_SMELT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_AUTO_SMELT.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_AUTO_SMELT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/flaming_touch"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_AUTO_SMELT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_DESINTEGRATE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_DESINTEGRATE.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_DESINTEGRATE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/disintegrate"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_DESINTEGRATE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_QUICK_DRAW",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_QUICK_DRAW.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_QUICK_DRAW/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/quick_draw"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_QUICK_DRAW/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_VAMPIRISM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_VAMPIRISM.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_VAMPIRISM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/vampirism"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_VAMPIRISM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_FOCUSED",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_FOCUSED.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_FOCUSED/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/focused_strike"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_FOCUSED/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_DISPERSED",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_DISPERSED.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_DISPERSED/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/dispersed_strike"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_DISPERSED/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_FINAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_FINAL.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_FINAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/final_strike"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_FINAL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_POUNCE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_POUNCE.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_POUNCE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/pounce"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_POUNCE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_SHATTER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_SHATTER.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_SHATTER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/shatter"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_SHATTER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_SHOCKWAVE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_SHOCKWAVE.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_SHOCKWAVE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/shockwave"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_SHOCKWAVE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_TUNNEL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_TUNNEL.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_TUNNEL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/tunnel"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_TUNNEL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:TTENCH_VALIANCE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:TTENCH_VALIANCE.0"
+          },
+          "id": "thaumic_tinkerer:TTENCH_VALIANCE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumic_tinkerer:enchantment/valiance"
+            ]
+          },
+          "id": "thaumic_tinkerer:TTENCH_VALIANCE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:XP_TALISMAN",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:XP_TALISMAN.0"
+          },
+          "id": "thaumic_tinkerer:XP_TALISMAN/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:xp_talisman"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:XP_TALISMAN/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:CLEANSING_TALISMAN",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:CLEANSING_TALISMAN.0"
+          },
+          "id": "thaumic_tinkerer:CLEANSING_TALISMAN/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:cleansing_talisman"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:CLEANSING_TALISMAN/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:BLOOD_SWORD",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:BLOOD_SWORD.0"
+          },
+          "id": "thaumic_tinkerer:BLOOD_SWORD/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:blood_sword"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:BLOOD_SWORD/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:BLOOD_SWORD.1"
+          },
+          "id": "thaumic_tinkerer:BLOOD_SWORD/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:SUMMON",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:SUMMON.0"
+          },
+          "id": "thaumic_tinkerer:SUMMON/page/1",
+          "page_break": true,
+          "import_legacy": false
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:summoning_tablet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:SUMMON/page/2",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:condensed_soul_aqua",
+              "thaumic_tinkerer:condensed_soul_humanus",
+              "thaumic_tinkerer:condensed_soul_aer",
+              "thaumic_tinkerer:condensed_soul_volatus",
+              "thaumic_tinkerer:condensed_soul_ignis",
+              "thaumic_tinkerer:condensed_soul_praecantatio",
+              "thaumic_tinkerer:condensed_soul_exanimis",
+              "thaumic_tinkerer:condensed_soul_corpus",
+              "thaumic_tinkerer:condensed_soul_bestia",
+              "thaumic_tinkerer:condensed_soul_venenum",
+              "thaumic_tinkerer:condensed_soul_terra",
+              "thaumic_tinkerer:condensed_soul_alienis",
+              "thaumic_tinkerer:condensed_soul_iter",
+              "thaumic_tinkerer:condensed_soul_metallum",
+              "thaumic_tinkerer:condensed_soul_limus",
+              "thaumic_tinkerer:condensed_soul_pannus",
+              "thaumic_tinkerer:condensed_soul_messis"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:SUMMON/page/3",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:infused_soul_aqua",
+              "thaumic_tinkerer:infused_soul_humanus",
+              "thaumic_tinkerer:infused_soul_aer",
+              "thaumic_tinkerer:infused_soul_volatus",
+              "thaumic_tinkerer:infused_soul_ignis",
+              "thaumic_tinkerer:infused_soul_praecantatio",
+              "thaumic_tinkerer:infused_soul_exanimis",
+              "thaumic_tinkerer:infused_soul_corpus",
+              "thaumic_tinkerer:infused_soul_bestia",
+              "thaumic_tinkerer:infused_soul_venenum",
+              "thaumic_tinkerer:infused_soul_terra",
+              "thaumic_tinkerer:infused_soul_alienis",
+              "thaumic_tinkerer:infused_soul_iter",
+              "thaumic_tinkerer:infused_soul_metallum",
+              "thaumic_tinkerer:infused_soul_limus",
+              "thaumic_tinkerer:infused_soul_pannus",
+              "thaumic_tinkerer:infused_soul_messis"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:SUMMON/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:SUMMON.1"
+          },
+          "id": "thaumic_tinkerer:SUMMON/page/5",
+          "page_break": true,
+          "import_legacy": false
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:REVEALING_HELM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:REVEALING_HELM.0"
+          },
+          "id": "thaumic_tinkerer:REVEALING_HELM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:revealing_helm"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:REVEALING_HELM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:SHARE_TOME",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:SHARE_TOME.0"
+          },
+          "id": "thaumic_tinkerer:SHARE_TOME/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:share_book"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:SHARE_TOME/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:INFUSED_INKWELL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:INFUSED_INKWELL.0"
+          },
+          "id": "thaumic_tinkerer:INFUSED_INKWELL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:infused_inkwell"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:INFUSED_INKWELL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:PLATFORM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:PLATFORM.0"
+          },
+          "id": "thaumic_tinkerer:PLATFORM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:platform"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:PLATFORM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FIRE_AER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FIRE_AER.0"
+          },
+          "id": "thaumic_tinkerer:FIRE_AER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:fire_aer"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FIRE_AER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FIRE_IGNIS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FIRE_IGNIS.0"
+          },
+          "id": "thaumic_tinkerer:FIRE_IGNIS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:fire_ignis"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FIRE_IGNIS/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FIRE_AQUA",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FIRE_AQUA.0"
+          },
+          "id": "thaumic_tinkerer:FIRE_AQUA/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:fire_aqua"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FIRE_AQUA/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FIRE_TERRA",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FIRE_TERRA.0"
+          },
+          "id": "thaumic_tinkerer:FIRE_TERRA/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:fire_terra"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FIRE_TERRA/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FIRE_ORDO",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FIRE_ORDO.0"
+          },
+          "id": "thaumic_tinkerer:FIRE_ORDO/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:fire_ordo"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FIRE_ORDO/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FIRE_PERDITIO",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FIRE_PERDITIO.0"
+          },
+          "id": "thaumic_tinkerer:FIRE_PERDITIO/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:fire_perditio"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FIRE_PERDITIO/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:INFUSED_POTIONS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:INFUSED_POTIONS.0"
+          },
+          "id": "thaumic_tinkerer:INFUSED_POTIONS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:INFUSED_POTIONS.1"
+          },
+          "id": "thaumic_tinkerer:INFUSED_POTIONS/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:INFUSED_POTIONS.2"
+          },
+          "id": "thaumic_tinkerer:INFUSED_POTIONS/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:INFUSED_POTIONS.3"
+          },
+          "id": "thaumic_tinkerer:INFUSED_POTIONS/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:INFUSED_POTIONS.4"
+          },
+          "id": "thaumic_tinkerer:INFUSED_POTIONS/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:INFUSED_POTIONS.5"
+          },
+          "id": "thaumic_tinkerer:INFUSED_POTIONS/page/6",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:infused_seed_aer",
+              "thaumic_tinkerer:infused_seed_ignis",
+              "thaumic_tinkerer:infused_seed_aqua",
+              "thaumic_tinkerer:infused_seed_terra",
+              "thaumic_tinkerer:infused_seed_ordo",
+              "thaumic_tinkerer:infused_seed_perditio"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:INFUSED_POTIONS/page/7",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:infused_potion_aer"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:INFUSED_POTIONS/page/8",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:infused_potion_ignis"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:INFUSED_POTIONS/page/9",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:infused_potion_terra"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:INFUSED_POTIONS/page/10",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:infused_potion_aqua"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:INFUSED_POTIONS/page/11",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:LEVITATOR_LOCOMOTIVE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:LEVITATOR_LOCOMOTIVE.0"
+          },
+          "id": "thaumic_tinkerer:LEVITATOR_LOCOMOTIVE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:mobilizer"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:LEVITATOR_LOCOMOTIVE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:mobilizer_relay"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:LEVITATOR_LOCOMOTIVE/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:DIMENSION_SHARDS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:DIMENSION_SHARDS.0"
+          },
+          "id": "thaumic_tinkerer:DIMENSION_SHARDS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHOR.0"
+          },
+          "id": "thaumic_tinkerer:ICHOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichor"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHOR/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHOR_CLOTH",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHOR_CLOTH.0"
+          },
+          "id": "thaumic_tinkerer:ICHOR_CLOTH/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichor_cloth"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHOR_CLOTH/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHORIUM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHORIUM.0"
+          },
+          "id": "thaumic_tinkerer:ICHORIUM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichorium"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHORIUM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:CAP_ICHOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:CAP_ICHOR.0"
+          },
+          "id": "thaumic_tinkerer:CAP_ICHOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichor_cap"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:CAP_ICHOR/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ROD_ICHORCLOTH",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ROD_ICHORCLOTH.0"
+          },
+          "id": "thaumic_tinkerer:ROD_ICHORCLOTH/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichorcloth_rod"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ROD_ICHORCLOTH/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHOR_TOOLS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHOR_TOOLS.0"
+          },
+          "id": "thaumic_tinkerer:ICHOR_TOOLS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichor_pick"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHOR_TOOLS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichor_shovel"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHOR_TOOLS/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichor_axe"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHOR_TOOLS/page/4",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichor_sword"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHOR_TOOLS/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHORCLOTH_ARMOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHORCLOTH_ARMOR.0"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_ARMOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichorcloth_helm"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_ARMOR/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichorcloth_chest"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_ARMOR/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichorcloth_legs"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_ARMOR/page/4",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichorcloth_boots"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_ARMOR/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHOR_PICK_GEM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHOR_PICK_GEM.0"
+          },
+          "id": "thaumic_tinkerer:ICHOR_PICK_GEM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:awakened_ichor_pick"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHOR_PICK_GEM/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHOR_PICK_GEM.1"
+          },
+          "id": "thaumic_tinkerer:ICHOR_PICK_GEM/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHOR_SHOVEL_GEM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHOR_SHOVEL_GEM.0"
+          },
+          "id": "thaumic_tinkerer:ICHOR_SHOVEL_GEM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:awakened_ichor_shovel"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHOR_SHOVEL_GEM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHOR_AXE_GEM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHOR_AXE_GEM.0"
+          },
+          "id": "thaumic_tinkerer:ICHOR_AXE_GEM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:awakened_ichor_axe"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHOR_AXE_GEM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHOR_SWORD_GEM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHOR_SWORD_GEM.0"
+          },
+          "id": "thaumic_tinkerer:ICHOR_SWORD_GEM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:awakened_ichor_sword"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHOR_SWORD_GEM/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHOR_SWORD_GEM.1"
+          },
+          "id": "thaumic_tinkerer:ICHOR_SWORD_GEM/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHORCLOTH_HELM_GEM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHORCLOTH_HELM_GEM.0"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_HELM_GEM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:awakened_ichorcloth_helm"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_HELM_GEM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHORCLOTH_CHEST_GEM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHORCLOTH_CHEST_GEM.0"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_CHEST_GEM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:awakened_ichorcloth_chest"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_CHEST_GEM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHORCLOTH_LEGS_GEM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHORCLOTH_LEGS_GEM.0"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_LEGS_GEM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:awakened_ichorcloth_legs"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_LEGS_GEM/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHORCLOTH_LEGS_GEM.1"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_LEGS_GEM/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHORCLOTH_BOOTS_GEM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHORCLOTH_BOOTS_GEM.0"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_BOOTS_GEM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:awakened_ichorcloth_boots"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHORCLOTH_BOOTS_GEM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:CAT_AMULET",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:CAT_AMULET.0"
+          },
+          "id": "thaumic_tinkerer:CAT_AMULET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:cat_amulet"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:CAT_AMULET/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:PROTOCLAY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:PROTOCLAY.0"
+          },
+          "id": "thaumic_tinkerer:PROTOCLAY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:protoclay"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:PROTOCLAY/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ICHOR_POUCH",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ICHOR_POUCH.0"
+          },
+          "id": "thaumic_tinkerer:ICHOR_POUCH/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:ichor_pouch"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ICHOR_POUCH/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "ttmodern.pouch.upgrade_note"
+          },
+          "id": "thaumic_tinkerer:ICHOR_POUCH/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:BLOCK_TALISMAN",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:BLOCK_TALISMAN.0"
+          },
+          "id": "thaumic_tinkerer:BLOCK_TALISMAN/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:block_talisman"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:BLOCK_TALISMAN/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:WARP_GATE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:WARP_GATE.0"
+          },
+          "id": "thaumic_tinkerer:WARP_GATE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:warp_gate"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:WARP_GATE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:WARP_GATE.1"
+          },
+          "id": "thaumic_tinkerer:WARP_GATE/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:sky_pearl"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:WARP_GATE/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:PLACEMENT_MIRROR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:PLACEMENT_MIRROR.0"
+          },
+          "id": "thaumic_tinkerer:PLACEMENT_MIRROR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:placement_mirror"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:PLACEMENT_MIRROR/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "ttmodern.mirror.upgrade_note"
+          },
+          "id": "thaumic_tinkerer:PLACEMENT_MIRROR/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FOCUS_XP_DRAIN",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FOCUS_XP_DRAIN.0"
+          },
+          "id": "thaumic_tinkerer:FOCUS_XP_DRAIN/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:focus_xp_drain"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FOCUS_XP_DRAIN/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "ttmodern.xp_focus.upgrade_note"
+          },
+          "id": "thaumic_tinkerer:FOCUS_XP_DRAIN/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FOCUS_RECALL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FOCUS_RECALL.0"
+          },
+          "id": "thaumic_tinkerer:FOCUS_RECALL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:focus_recall"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FOCUS_RECALL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:FOCUS_SHADOWBEAM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:FOCUS_SHADOWBEAM.0"
+          },
+          "id": "thaumic_tinkerer:FOCUS_SHADOWBEAM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:focus_shadowbeam"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:FOCUS_SHADOWBEAM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:PERIPHERALS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:PERIPHERALS.0"
+          },
+          "id": "thaumic_tinkerer:PERIPHERALS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "ttmodern.peripherals.analyzer"
+          },
+          "id": "thaumic_tinkerer:PERIPHERALS/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:ASPECT_ANALYZER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:ASPECT_ANALYZER.0"
+          },
+          "id": "thaumic_tinkerer:ASPECT_ANALYZER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:aspect_analyzer"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:ASPECT_ANALYZER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumic_tinkerer:GOLEM_CONNECTOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:GOLEM_CONNECTOR.0"
+          },
+          "id": "thaumic_tinkerer:GOLEM_CONNECTOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:golem_connector"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:GOLEM_CONNECTOR/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:GOLEM_CONNECTOR.1"
+          },
+          "id": "thaumic_tinkerer:GOLEM_CONNECTOR/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:connector"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:GOLEM_CONNECTOR/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:GOLEM_CONNECTOR.2"
+          },
+          "id": "thaumic_tinkerer:GOLEM_CONNECTOR/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "ttmodern.peripherals.golem"
+          },
+          "id": "thaumic_tinkerer:GOLEM_CONNECTOR/page/6",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumic_tinkerer:INFUSED_POTIONS",
+  "legacy_order": 10203,
+  "aspects": {
+    "auram": 5,
+    "aqua": 5
+  },
+  "catalyst": {
+    "item": "thaumic_tinkerer:infused_grain_aqua"
+  },
+  "result": {
+    "item": "thaumic_tinkerer:infused_potion_aqua",
+    "count": 1
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "thaumic_tinkerer:item/seed_aer",
+  "overrides": [
+    {
+      "predicate": {
+        "thaumic_tinkerer:aspect": 0
+      },
+      "model": "thaumic_tinkerer:item/seed_aer"
+    },
+    {
+      "predicate": {
+        "thaumic_tinkerer:aspect": 1
+      },
+      "model": "thaumic_tinkerer:item/seed_ignis"
+    },
+    {
+      "predicate": {
+        "thaumic_tinkerer:aspect": 2
+      },
+      "model": "thaumic_tinkerer:item/seed_aqua"
+    },
+    {
+      "predicate": {
+        "thaumic_tinkerer:aspect": 3
+      },
+      "model": "thaumic_tinkerer:item/seed_terra"
+    },
+    {
+      "predicate": {
+        "thaumic_tinkerer:aspect": 4
+      },
+      "model": "thaumic_tinkerer:item/seed_ordo"
+    },
+    {
+      "predicate": {
+        "thaumic_tinkerer:aspect": 5
+      },
+      "model": "thaumic_tinkerer:item/seed_perditio"
+    },
+    {
+      "predicate": {
+        "thaumic_tinkerer:aspect": 6
+      },
+      "model": "thaumic_tinkerer:item/seed_generic"
+    }
+  ]
+}

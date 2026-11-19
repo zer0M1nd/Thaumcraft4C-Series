@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:TTENCH_SHATTER",
+  "enchantment": "thaumic_tinkerer:shatter",
+  "instability": 4,
+  "base_xp": 5,
+  "aspects": {
+    "terra": 8,
+    "perditio": 8,
+    "praecantatio": 12
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_pickaxe"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:flint"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

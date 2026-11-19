@@ -1,0 +1,18 @@
+{
+  "type": "thaumic_tinkerer:bedrock",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "thaumic_tinkerer:bedrock",
+      "lakes": false,
+      "features": true,
+      "layers": [
+        {
+          "height": 256,
+          "block": "minecraft:bedrock"
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

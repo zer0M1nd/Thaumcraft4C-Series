@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumic_tinkerer:GAS_REMOVER",
+  "pattern": [
+    "DDD",
+    "T G",
+    "QQQ"
+  ],
+  "key": {
+    "D": {
+      "item": "thaumic_tinkerer:dark_quartz"
+    },
+    "T": {
+      "item": "thaumic_tinkerer:gaseous_shadow"
+    },
+    "G": {
+      "item": "thaumic_tinkerer:gaseous_light"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "vis": {
+    "aer": 2,
+    "ordo": 2
+  },
+  "result": {
+    "item": "thaumic_tinkerer:gas_remover",
+    "count": 1
+  }
+}

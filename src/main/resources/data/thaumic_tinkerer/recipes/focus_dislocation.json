@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:FOCUS_DISLOCATION",
+  "instability": 8,
+  "aspects": {
+    "alienis": 20,
+    "tenebrae": 10,
+    "vacuos": 25,
+    "praecantatio": 20,
+    "vitium": 5
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:focus_dislocation",
+    "count": 1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:FOCUS_RECALL",
+  "instability": 10,
+  "aspects": {
+    "iter": 100,
+    "alienis": 64,
+    "praecantatio": 50
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:sky_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:item_mirror"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_portable_hole"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:focus_recall",
+    "count": 1
+  }
+}

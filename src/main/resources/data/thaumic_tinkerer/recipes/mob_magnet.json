@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumic_tinkerer:MAGNETS",
+  "pattern": [
+    " I ",
+    "SIs",
+    "WFW"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "thaumcraft:air_shard"
+    },
+    "s": {
+      "item": "thaumcraft:earth_shard"
+    },
+    "W": {
+      "item": "thaumcraft:greatwood_log"
+    },
+    "F": {
+      "item": "thaumic_tinkerer:focus_telekinesis"
+    }
+  },
+  "vis": {
+    "aer": 20,
+    "ordo": 5,
+    "terra": 15,
+    "perditio": 5
+  },
+  "result": {
+    "item": "thaumic_tinkerer:mob_magnet",
+    "count": 1
+  }
+}

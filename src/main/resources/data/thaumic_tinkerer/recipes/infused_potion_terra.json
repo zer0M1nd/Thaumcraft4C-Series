@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumic_tinkerer:INFUSED_POTIONS",
+  "legacy_order": 10202,
+  "aspects": {
+    "auram": 5,
+    "terra": 5
+  },
+  "catalyst": {
+    "item": "thaumic_tinkerer:infused_grain_terra"
+  },
+  "result": {
+    "item": "thaumic_tinkerer:infused_potion_terra",
+    "count": 1
+  }
+}

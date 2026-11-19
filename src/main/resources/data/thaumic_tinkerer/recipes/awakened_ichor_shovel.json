@@ -1,0 +1,84 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:ICHOR_SHOVEL_GEM",
+  "instability": 15,
+  "aspects": {
+    "terra": 82,
+    "perfodio": 64,
+    "instrumentum": 32,
+    "meto": 32,
+    "vinculum": 16,
+    "sensus": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:ichor_shovel"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichorium"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_shovel"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_excavation"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:tnt"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:cinnabar_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:iron_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:gold_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_excavation"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_shovel"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor_cloth"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:awakened_ichor_shovel",
+    "count": 1
+  }
+}

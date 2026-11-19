@@ -1,0 +1,4 @@
+execute positioned 1900 10 1000 run test run tinkererdislocatorpreservescontainersandrollsback
+execute positioned 1940 10 1000 run test run tinkererdislocatorpulsesqueueonceandmoveentities
+execute positioned 1980 10 1000 run test run tinkererdislocatorrespondsonlytoredstoneedges
+execute positioned 2020 10 1000 run test run tinkererexportrecipeaspects

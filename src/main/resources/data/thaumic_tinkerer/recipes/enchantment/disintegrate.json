@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:TTENCH_DESINTEGRATE",
+  "enchantment": "thaumic_tinkerer:disintegrate",
+  "instability": 4,
+  "base_xp": 5,
+  "aspects": {
+    "perditio": 12,
+    "aer": 5,
+    "terra": 5,
+    "praecantatio": 12
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:flint"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

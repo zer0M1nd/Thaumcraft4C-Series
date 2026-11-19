@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:TTENCH_ASCENT_BOOST",
+  "enchantment": "thaumic_tinkerer:ascent_boost",
+  "instability": 4,
+  "base_xp": 5,
+  "aspects": {
+    "perditio": 4,
+    "aer": 5,
+    "praecantatio": 12
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

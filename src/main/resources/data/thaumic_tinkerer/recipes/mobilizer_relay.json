@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    "WFW",
+    "SIs",
+    "WFW"
+  ],
+  "key": {
+    "W": {
+      "item": "thaumcraft:greatwood_log"
+    },
+    "F": {
+      "item": "minecraft:glass"
+    },
+    "S": {
+      "item": "thaumcraft:air_shard"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "thaumcraft:earth_shard"
+    }
+  },
+  "result": {
+    "item": "thaumic_tinkerer:mobilizer_relay",
+    "count": 1
+  },
+  "research": "thaumic_tinkerer:LEVITATOR_LOCOMOTIVE",
+  "vis": {
+    "aer": 20,
+    "ordo": 5,
+    "terra": 15
+  }
+}

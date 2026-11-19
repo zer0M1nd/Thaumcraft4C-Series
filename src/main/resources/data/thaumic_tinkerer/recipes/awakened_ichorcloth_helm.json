@@ -1,0 +1,87 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:ICHORCLOTH_HELM_GEM",
+  "instability": 13,
+  "aspects": {
+    "aqua": 50,
+    "tutamen": 32,
+    "fames": 32,
+    "auram": 32,
+    "lux": 64,
+    "corpus": 16,
+    "cognitio": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:ichorcloth_helm"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumonomicon"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_primal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_helmet"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:partial_nbt",
+        "item": "minecraft:potion",
+        "nbt": "{Potion:\"minecraft:night_vision\"}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:goggles"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cod"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cake"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:awakened_ichorcloth_helm",
+    "count": 1
+  }
+}

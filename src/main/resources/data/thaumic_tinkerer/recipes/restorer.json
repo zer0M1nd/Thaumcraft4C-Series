@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:REPAIRER",
+  "legacy_order": 10010,
+  "instability": 8,
+  "aspects": {
+    "instrumentum": 15,
+    "fabrico": 20,
+    "ordo": 10,
+    "praecantatio": 15
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_block"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:oak_planks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:restorer",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "conditions": [],
+  "categories": [
+    {
+      "key": "TT_CATEGORY",
+      "icon": "thaumic_tinkerer:textures/misc/r_enchanting.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumic_tinkerer:DISLOCATOR",
+          "category": "TT_CATEGORY",
+          "displayColumn": -6,
+          "displayRow": 1,
+          "complexity": 3,
+          "aspects": {
+            "iter": 2,
+            "machina": 1,
+            "alienis": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:INTERFACE"
+          ],
+          "parentsHidden": [
+            "MIRROR"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:transvector_dislocator",
+            "count": 1
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumic_tinkerer:GASEOUS_LIGHT",
+  "legacy_order": 10000,
+  "aspects": {
+    "lux": 16,
+    "aer": 10,
+    "motus": 8
+  },
+  "catalyst": {
+    "item": "thaumcraft:empty_phial"
+  },
+  "result": {
+    "item": "thaumic_tinkerer:gaseous_light",
+    "count": 1
+  }
+}

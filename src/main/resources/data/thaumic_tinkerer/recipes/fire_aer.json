@@ -1,0 +1,17 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumic_tinkerer:FIRE_AER",
+  "legacy_order": 10100,
+  "aspects": {
+    "ignis": 5,
+    "praecantatio": 5,
+    "aer": 5
+  },
+  "catalyst": {
+    "item": "thaumcraft:air_shard"
+  },
+  "result": {
+    "item": "thaumic_tinkerer:fire_aer",
+    "count": 1
+  }
+}

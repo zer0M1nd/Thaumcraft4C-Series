@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:TTENCH_QUICK_DRAW",
+  "enchantment": "thaumic_tinkerer:quick_draw",
+  "instability": 4,
+  "base_xp": 5,
+  "aspects": {
+    "ordo": 5,
+    "aer": 5,
+    "aqua": 4,
+    "praecantatio": 12
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:bow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:sugar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

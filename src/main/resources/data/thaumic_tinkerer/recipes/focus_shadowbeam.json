@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:FOCUS_SHADOWBEAM",
+  "instability": 12,
+  "aspects": {
+    "tenebrae": 65,
+    "alienis": 32,
+    "praecantatio": 50,
+    "telum": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_shock"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:arrow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_excavation"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:focus_deflection"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:focus_shadowbeam",
+    "count": 1
+  }
+}

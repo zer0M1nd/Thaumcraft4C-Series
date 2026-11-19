@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_THAUMIC_TINKERER",
+      "pages": [
+        {
+          "id": "thaumic_tinkerer:tut_addon_thaumic_tinkerer/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumic_tinkerer.tut_addon_thaumic_tinkerer.text.1",
+            "with": [
+              [
+                {
+                  "text": "神秘工匠是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumic_tinkerer:tut_addon_thaumic_tinkerer/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumic_tinkerer.tut_addon_thaumic_tinkerer.text.2",
+            "with": [
+              [
+                {
+                  "text": "神秘工匠在原版神秘时代的基础上补充了大量"
+                },
+                {
+                  "text": "实用工具和自动化设备",
+                  "bold": true
+                },
+                {
+                  "text": "，并在后期提供一条以「灵液」为核心的超高阶装备路线。\n它的研究都在"
+                },
+                {
+                  "text": "神秘工匠",
+                  "bold": true
+                },
+                {
+                  "text": "分页中。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumic_tinkerer:tut_addon_thaumic_tinkerer/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumic_tinkerer:tut_addon_thaumic_tinkerer/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumic_tinkerer.tut_addon_thaumic_tinkerer.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumic_tinkerer:tut_addon_thaumic_tinkerer/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumic_tinkerer.tut_addon_thaumic_tinkerer.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "thaumic_tinkerer:DARK_QUARTZ"
+                },
+                {
+                  "text": "：烟黑石英，许多设备的基础材料，无需前置。\n· "
+                },
+                {
+                  "research": "thaumic_tinkerer:REVEALING_HELM"
+                },
+                {
+                  "text": "：揭示之头盔，把护目镜功能并入头盔（需要护目镜和神秘锭）。\n· "
+                },
+                {
+                  "research": "thaumic_tinkerer:INTERFACE"
+                },
+                {
+                  "text": "：矢量变换接口，可以远程连接方块，是自动化的好帮手。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumic_tinkerer:tut_addon_thaumic_tinkerer/text/6",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumic_tinkerer.tut_addon_thaumic_tinkerer.text.6",
+            "with": [
+              [
+                {
+                  "text": "中后期\n",
+                  "bold": true
+                }
+              ]
+            ]
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumic_tinkerer:tut_addon_thaumic_tinkerer/text/7",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumic_tinkerer.tut_addon_thaumic_tinkerer.text.7",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "thaumic_tinkerer:ENCHANTER"
+                },
+                {
+                  "text": "：渗透附魔台，用要素点为装备附上自选附魔。\n· "
+                },
+                {
+                  "research": "thaumic_tinkerer:ICHOR"
+                },
+                {
+                  "text": "：灵液，后期 KAMI 阶段的核心材料，可以做出灵宝工具、盔甲，最终造出传送用的「仙域之门」。\n建议在熟悉"
+                },
+                {
+                  "research": "TUT_INFUSION_RUN"
+                },
+                {
+                  "text": "之后再深入它的中后期内容。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumic_tinkerer:tut_addon_thaumic_tinkerer/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumic_tinkerer:tut_addon_thaumic_tinkerer/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "thaumic_tinkerer:tut_addon_thaumic_tinkerer/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "thaumic_tinkerer:DARK_QUARTZ",
+            "thaumic_tinkerer:REVEALING_HELM",
+            "thaumic_tinkerer:INTERFACE",
+            "thaumic_tinkerer:ENCHANTER",
+            "thaumic_tinkerer:ICHOR"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

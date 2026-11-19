@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    "CCC",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumic_tinkerer:ichor_cloth"
+    }
+  },
+  "result": {
+    "item": "thaumic_tinkerer:ichorcloth_helm",
+    "count": 1
+  },
+  "research": "thaumic_tinkerer:ICHORCLOTH_ARMOR",
+  "vis": {
+    "aqua": 75
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:TTENCH_DISPERSED",
+  "enchantment": "thaumic_tinkerer:dispersed_strike",
+  "instability": 4,
+  "base_xp": 5,
+  "aspects": {
+    "perditio": 6,
+    "ignis": 5,
+    "terra": 5,
+    "praecantatio": 12
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

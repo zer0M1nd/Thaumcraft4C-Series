@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "languages": ["zh_cn"],
+  "patches": [{
+    "keys": ["tc.research_page.thaumic_tinkerer:ICHOR_TOOLS.0", "ttresearch.page.ICHOR_TOOLS.0"],
+    "find": "还不用坏",
+    "replace": "还用不坏",
+    "count": 1
+  }]
+}

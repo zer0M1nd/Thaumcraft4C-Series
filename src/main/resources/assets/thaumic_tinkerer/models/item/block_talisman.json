@@ -1,0 +1,11 @@
+{
+  "parent": "thaumic_tinkerer:item/block_talisman_0",
+  "overrides": [
+    {
+      "predicate": {
+        "thaumic_tinkerer:enabled": 1
+      },
+      "model": "thaumic_tinkerer:item/block_talisman_1"
+    }
+  ]
+}

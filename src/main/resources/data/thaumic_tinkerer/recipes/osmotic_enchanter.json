@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:ENCHANTER",
+  "instability": 15,
+  "aspects": {
+    "praecantatio": 50,
+    "potentia": 20,
+    "alienis": 20,
+    "vacuos": 20,
+    "cognitio": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:enchanting_table"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:obsidian_totem"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:obsidian_totem"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:obsidian_totem"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:obsidian_totem"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:obsidian_totem"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:spell_cloth"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:osmotic_enchanter",
+    "count": 1
+  }
+}

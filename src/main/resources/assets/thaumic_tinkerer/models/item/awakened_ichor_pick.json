@@ -1,0 +1,17 @@
+{
+  "parent": "thaumic_tinkerer:item/awakened_ichor_pick_0",
+  "overrides": [
+    {
+      "predicate": {
+        "thaumic_tinkerer:tool_mode": 1
+      },
+      "model": "thaumic_tinkerer:item/awakened_ichor_pick_1"
+    },
+    {
+      "predicate": {
+        "thaumic_tinkerer:tool_mode": 2
+      },
+      "model": "thaumic_tinkerer:item/awakened_ichor_pick_2"
+    }
+  ]
+}

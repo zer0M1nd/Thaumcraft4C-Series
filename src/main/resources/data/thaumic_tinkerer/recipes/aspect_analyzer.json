@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    "TWT",
+    "WMW",
+    "TWT"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "M": {
+      "item": "thaumcraft:thaumometer"
+    }
+  },
+  "result": {
+    "item": "thaumic_tinkerer:aspect_analyzer",
+    "count": 1
+  },
+  "research": "thaumic_tinkerer:ASPECT_ANALYZER",
+  "vis": {
+    "ordo": 1,
+    "perditio": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "computercraft"
+    }
+  ]
+}

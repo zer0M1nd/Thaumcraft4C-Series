@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:CLEANSING_TALISMAN",
+  "instability": 5,
+  "aspects": {
+    "sano": 10,
+    "instrumentum": 10,
+    "humanus": 20,
+    "victus": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:dark_quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:dark_quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:dark_quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:dark_quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:cleansing_talisman",
+    "count": 1
+  }
+}

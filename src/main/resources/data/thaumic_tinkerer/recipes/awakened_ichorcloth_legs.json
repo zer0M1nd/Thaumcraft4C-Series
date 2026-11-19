@@ -1,0 +1,87 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:ICHORCLOTH_LEGS_GEM",
+  "instability": 13,
+  "aspects": {
+    "ignis": 50,
+    "tutamen": 32,
+    "sano": 32,
+    "potentia": 32,
+    "lux": 64,
+    "lucrum": 16,
+    "alienis": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:ichorcloth_legs"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_primal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumonomicon"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_leggings"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:partial_nbt",
+        "item": "minecraft:potion",
+        "nbt": "{Potion:\"minecraft:fire_resistance\"}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:focus_smelting"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:bright_nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:lava_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_rod"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:awakened_ichorcloth_legs",
+    "count": 1
+  }
+}

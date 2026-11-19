@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:TTENCH_AUTO_SMELT",
+  "enchantment": "thaumic_tinkerer:flaming_touch",
+  "instability": 4,
+  "base_xp": 5,
+  "aspects": {
+    "perditio": 10,
+    "ignis": 15,
+    "praecantatio": 12
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

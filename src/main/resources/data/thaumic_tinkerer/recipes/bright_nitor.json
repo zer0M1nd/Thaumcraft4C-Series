@@ -1,0 +1,18 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumic_tinkerer:BRIGHT_NITOR",
+  "legacy_order": 10002,
+  "aspects": {
+    "potentia": 25,
+    "lux": 25,
+    "aer": 10,
+    "ignis": 10
+  },
+  "catalyst": {
+    "item": "thaumcraft:nitor"
+  },
+  "result": {
+    "item": "thaumic_tinkerer:bright_nitor",
+    "count": 1
+  }
+}

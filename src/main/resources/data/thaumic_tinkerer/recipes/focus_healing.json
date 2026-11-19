@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:FOCUS_HEAL",
+  "instability": 4,
+  "aspects": {
+    "sano": 10,
+    "spiritus": 10,
+    "victus": 15
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_pech"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_nugget"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:focus_healing",
+    "count": 1
+  }
+}
