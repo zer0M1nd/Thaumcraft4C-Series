@@ -1,0 +1,52 @@
+{
+  "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+  "legacy_order": 41,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{upgrade:2b}"
+  },
+  "instability": 6,
+  "aspects": {
+    "tutamen": 256,
+    "praecantatio": 256,
+    "potentia": 512,
+    "vitreus": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:item_runic_boots_enhanced"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    }
+  ]
+}

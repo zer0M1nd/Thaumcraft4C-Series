@@ -1,0 +1,52 @@
+{
+  "research": "MASKSIPPINGFIEND",
+  "legacy_order": 3,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{mask:2}"
+  },
+  "instability": 8,
+  "aspects": {
+    "exanimis": 64,
+    "victus": 64,
+    "tutamen": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:fortress_helm"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:red_dye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:milk_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    }
+  ]
+}

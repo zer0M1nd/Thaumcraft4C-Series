@@ -1,0 +1,33 @@
+{
+  "research": "thaumicdyes:TD.IRONHELMGOGGLES",
+  "legacy_order": 193,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{goggles:1b}"
+  },
+  "instability": 5,
+  "aspects": {
+    "sensus": 32,
+    "auram": 16,
+    "tutamen": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:iron_fortress_helm"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:goggles"
+      },
+      "damage": -1
+    }
+  ]
+}

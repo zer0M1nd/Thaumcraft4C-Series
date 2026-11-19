@@ -1,0 +1,43 @@
+{
+  "research": "thaumicdyes:TD.DYEDRANGER",
+  "legacy_order": 177,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:cultist_ranger_chest_dyed",
+    "count": 1
+  },
+  "instability": 3,
+  "aspects": {
+    "tutamen": 24,
+    "praecantatio": 24,
+    "pannus": 8,
+    "metallum": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:cultist_ranger_chest"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ]
+}

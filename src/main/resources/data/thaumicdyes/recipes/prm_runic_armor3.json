@@ -1,0 +1,44 @@
+{
+  "research": "thaumicdyes:TD.PRIMALRUNICARMOR",
+  "legacy_order": 17,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:item_runic_boots_primal",
+    "count": 1
+  },
+  "instability": 10,
+  "aspects": {
+    "praecantatio": 240,
+    "alienis": 120,
+    "tenebrae": 60,
+    "spiritus": 60,
+    "permutatio": 40
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primordial_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumicdyes:item_runic_boots_enhanced"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicdyes:boots_void_traveller"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      }
+    }
+  ]
+}

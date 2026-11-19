@@ -1,0 +1,52 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONLEADER",
+  "legacy_order": 159,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumcraft:cultist_leader_leggings",
+    "count": 1
+  },
+  "instability": 3,
+  "aspects": {
+    "tutamen": 10,
+    "alienis": 10,
+    "metallum": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:cultist_plate_leggings"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicdyes:item_resource_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicdyes:item_resource_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    }
+  ]
+}

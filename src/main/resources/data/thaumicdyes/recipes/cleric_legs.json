@@ -1,0 +1,30 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONCLERIC",
+  "legacy_order": 153,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumcraft:cultist_robe_leggings",
+    "count": 1
+  },
+  "vis": {
+    "aqua": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "RGR",
+    "RIR",
+    "R R"
+  ],
+  "key": {
+    "R": {
+      "item": "thaumicdyes:item_resource_fabric"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  }
+}

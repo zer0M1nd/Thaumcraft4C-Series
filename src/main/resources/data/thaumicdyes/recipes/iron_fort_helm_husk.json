@@ -1,0 +1,33 @@
+{
+  "research": "thaumicdyes:TD.IRONHELMHUSK",
+  "legacy_order": 196,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{mask:2}"
+  },
+  "instability": 2,
+  "aspects": {
+    "fabrico": 8,
+    "tutamen": 8,
+    "alienis": 4,
+    "permutatio": 4
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:iron_fortress_helm"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicdyes:inhabited_plate_helm"
+      }
+    }
+  ]
+}

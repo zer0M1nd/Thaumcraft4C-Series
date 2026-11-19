@@ -1,0 +1,51 @@
+{
+  "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+  "legacy_order": 142,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{upgrade:10b}"
+  },
+  "instability": 6,
+  "aspects": {
+    "telum": 200,
+    "praecantatio": 64,
+    "potentia": 96
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:item_runic_legs_enhanced"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    }
+  ]
+}

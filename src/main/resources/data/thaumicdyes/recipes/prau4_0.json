@@ -1,0 +1,55 @@
+{
+  "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+  "legacy_order": 70,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{upgrade:4b}"
+  },
+  "instability": 6,
+  "aspects": {
+    "tutamen": 16,
+    "praecantatio": 64,
+    "aqua": 32,
+    "sano": 60
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:item_runic_helmet_primal"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:partial_nbt",
+        "item": "minecraft:potion",
+        "nbt": "{Potion:\"minecraft:long_regeneration\"}"
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    }
+  ]
+}

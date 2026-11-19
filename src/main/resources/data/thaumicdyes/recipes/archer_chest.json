@@ -1,0 +1,30 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONARCHER",
+  "legacy_order": 165,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumicdyes:cultist_archer_chest",
+    "count": 1
+  },
+  "vis": {
+    "aer": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "I I",
+    "RIR",
+    "IlI"
+  ],
+  "key": {
+    "R": {
+      "item": "thaumicdyes:item_resource_fabric"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "l": {
+      "item": "minecraft:leather"
+    }
+  }
+}

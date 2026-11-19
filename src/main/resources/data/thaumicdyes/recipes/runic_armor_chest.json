@@ -1,0 +1,58 @@
+{
+  "research": "thaumicdyes:TD.RUNICARMOR",
+  "legacy_order": 5,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:item_runic_chest",
+    "count": 1
+  },
+  "instability": 4,
+  "aspects": {
+    "tutamen": 60,
+    "praecantatio": 105,
+    "potentia": 105
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:scribing_tools"
+      }
+    }
+  ]
+}

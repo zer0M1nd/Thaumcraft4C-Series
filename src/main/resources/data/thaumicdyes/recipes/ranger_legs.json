@@ -1,0 +1,32 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONRANGER",
+  "legacy_order": 163,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumicdyes:cultist_ranger_legs",
+    "count": 1
+  },
+  "vis": {
+    "terra": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "sLs",
+    "bBb"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "L": {
+      "item": "thaumcraft:cultist_robe_leggings"
+    },
+    "s": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "minecraft:glass_bottle"
+    }
+  }
+}

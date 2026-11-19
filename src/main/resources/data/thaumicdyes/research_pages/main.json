@@ -1,0 +1,1638 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicdyes:TD.CRIMSON",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.CRIMSON/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.crimson.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSON/page/2",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.crimson.2"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSON/page/3",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.crimson.3"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSON/page/4",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:fabric_resource"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSON/page/5",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:crimson_boots"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.CRIMSONBANNER",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.CRIMSONBANNER/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.crimsonBanner.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONBANNER/page/2",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:crimson_banner"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.CRIMSONCLERIC",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.CRIMSONCLERIC/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.crimsonCleric.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONCLERIC/page/2",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:cleric_hood"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONCLERIC/page/3",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:cleric_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONCLERIC/page/4",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:cleric_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.CRIMSONKNIGHT",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.CRIMSONKNIGHT/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.crimsonKnight.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONKNIGHT/page/2",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:knight_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONKNIGHT/page/3",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:knight_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONKNIGHT/page/4",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:knight_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.CRIMSONLEADER",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.CRIMSONLEADER/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.crimsonLeader.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONLEADER/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:leader_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONLEADER/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:leader_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONLEADER/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:leader_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.PALADIN",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.PALADIN/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.paladin.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.PALADIN/page/2",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:paladin_helm"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.CRIMSONRANGER",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.CRIMSONRANGER/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.crimsonRanger.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONRANGER/page/2",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:ranger_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONRANGER/page/3",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:ranger_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONRANGER/page/4",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:ranger_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.CRIMSONARCHER",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.CRIMSONARCHER/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.crimsonArcher.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONARCHER/page/2",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:archer_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONARCHER/page/3",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:archer_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.CRIMSONARCHER/page/4",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:archer_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.DYEDROBE",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.DYEDROBE/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.robe.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDROBE/page/2",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.robe.2"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDROBE/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:robe_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDROBE/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:robe_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDROBE/page/5",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:robe_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.DYEDKNIGHT",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.DYEDKNIGHT/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.knight.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDKNIGHT/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:kni_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDKNIGHT/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:kni_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDKNIGHT/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:kni_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.DYEDPRAETOR",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.DYEDPRAETOR/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.praetor.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDPRAETOR/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:prae_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDPRAETOR/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:prae_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDPRAETOR/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:prae_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.DYEDRANGER",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.DYEDRANGER/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.ranger.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDRANGER/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:ranger_helm_dyed"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDRANGER/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:ranger_chest_dyed"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDRANGER/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:ranger_legs_dyed"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDRANGER/page/5",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.ranger.2"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDRANGER/page/6",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:ranger_helm_goggles"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDRANGER/page/7",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:ranger_helm_plate"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.DYEDARCHER",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.DYEDARCHER/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.archer.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDARCHER/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:archer_helm_dyed"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDARCHER/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:archer_chest_dyed"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDARCHER/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:archer_legs_dyed"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.SUNNYD",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.SUNNYD/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.sunnyD.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.SUNNYD/page/2",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:sun_kni_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.SUNNYD/page/3",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:sun_kni_chest"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.INHABITEDPLATE",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.INHABITEDPLATE/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.husk.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.INHABITEDPLATE/page/2",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.husk.2"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.INHABITEDPLATE/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:husk_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.INHABITEDPLATE/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:husk_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.INHABITEDPLATE/page/5",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:husk_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.MASKEVIL",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.MASKEVIL/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.maskEvil.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.MASKEVIL/page/2",
+          "page_break": true,
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:mask_evil"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.IRONFORTRESS",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.IRONFORTRESS/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.ironFortress.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.IRONFORTRESS/page/2",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.ironFortress.2"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.IRONFORTRESS/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:iron_fort_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.IRONFORTRESS/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:iron_fort_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.IRONFORTRESS/page/5",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:iron_fort_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.IRONHELMGOGGLES",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.IRONHELMGOGGLES/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.ironHelmGoggles.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.IRONHELMGOGGLES/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:iron_fort_helm_goggles"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.IRONHELMAESTHETICS",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.IRONHELMAESTHETICS/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.ironHelmFace.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.IRONHELMAESTHETICS/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:iron_fort_helm_knight"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.IRONHELMAESTHETICS/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:iron_fort_helm_praetor"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.IRONHELMHUSK",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.IRONHELMHUSK/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.ironHelmFace.2"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.IRONHELMHUSK/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:iron_fort_helm_husk"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.DYEDFORTRESS",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.DYEDFORTRESS/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.fortress.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDFORTRESS/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:fort_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDFORTRESS/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:fort_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.DYEDFORTRESS/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:fort_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.THAUMIUMROBE",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.THAUMIUMROBE/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.thaumrobe.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.THAUMIUMROBE/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:thaum_robe_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.THAUMIUMROBE/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:thaum_robe_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.THAUMIUMROBE/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:thaum_robe_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.VOIDROBE",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.VOIDROBE/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.voidrobe.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.VOIDROBE/page/2",
+          "page_break": true,
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:void_robe_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.VOIDROBE/page/3",
+          "page_break": true,
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:void_robe_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.VOIDROBE/page/4",
+          "page_break": true,
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:void_robe_legs"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.THAUMIUMBOOTS",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.THAUMIUMBOOTS/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.thaumboots.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.THAUMIUMBOOTS/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:thaum_boots"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.VOIDBOOTS",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.VOIDBOOTS/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.voidboots.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.VOIDBOOTS/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:void_boots"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.RUNICARMOR",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.RUNICARMOR/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMOR.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMOR/page/2",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMOR.2"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMOR/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:runic_armor_helm"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMOR/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:runic_armor_chest"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMOR/page/5",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:runic_armor_legs"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMOR/page/6",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:runic_armor_boots"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.RUNICGOGGLES",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.RUNICGOGGLES/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICGOGGLES.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICGOGGLES/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:runic_goggles"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.RUNICBOOTSTRAVELLER",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.RUNICBOOTSTRAVELLER/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICBOOTSTRAVELLER.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICBOOTSTRAVELLER/page/2",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:runic_boots_traveller"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.RUNICARMORUPGRADES",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMORUPGRADES.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/2",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMORUPGRADES.2"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/3",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMORUPGRADES.a1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:rau1_0",
+              "thaumicdyes:rau1_1",
+              "thaumicdyes:rau1_2",
+              "thaumicdyes:rau1_3"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/5",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMORUPGRADES.a2"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/6",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:rau2_0",
+              "thaumicdyes:rau2_1",
+              "thaumicdyes:rau2_2",
+              "thaumicdyes:rau2_3"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/7",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMORUPGRADES.a3"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/8",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:rau3_0",
+              "thaumicdyes:rau3_1",
+              "thaumicdyes:rau3_2",
+              "thaumicdyes:rau3_3"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/9",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMORUPGRADES.a4"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/10",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:rau4_0",
+              "thaumicdyes:rau4_1",
+              "thaumicdyes:rau4_2",
+              "thaumicdyes:rau4_3"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/11",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMORUPGRADES.a5"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/12",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:rau5_0",
+              "thaumicdyes:rau5_1",
+              "thaumicdyes:rau5_2",
+              "thaumicdyes:rau5_3"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/13",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMORUPGRADES.a6"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/14",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:rau6_0",
+              "thaumicdyes:rau6_1",
+              "thaumicdyes:rau6_2",
+              "thaumicdyes:rau6_3"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/15",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMORUPGRADES.a7"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/16",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:rau7_0",
+              "thaumicdyes:rau7_1",
+              "thaumicdyes:rau7_2",
+              "thaumicdyes:rau7_3"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/17",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMORUPGRADES.a8"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/18",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:rau8_0",
+              "thaumicdyes:rau8_1",
+              "thaumicdyes:rau8_2",
+              "thaumicdyes:rau8_3"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/19",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMORUPGRADES.a9"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/20",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:rau9_3"
+            ],
+            "class": "modern"
+          }
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/21",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.RUNICARMORUPGRADES.a10"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.RUNICARMORUPGRADES/page/22",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:rau10_0",
+              "thaumicdyes:rau10_1",
+              "thaumicdyes:rau10_2",
+              "thaumicdyes:rau10_3"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.ENHANCEDRUNICARMOR",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.ENHANCEDRUNICARMOR/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.ENHANCEDRUNICARMOR.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.ENHANCEDRUNICARMOR/page/2",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.ENHANCEDRUNICARMOR.2"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.ENHANCEDRUNICARMOR/page/3",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:enh_runic_armor0",
+              "thaumicdyes:enh_runic_armor1",
+              "thaumicdyes:enh_runic_armor2",
+              "thaumicdyes:enh_runic_armor3"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.PRIMALRUNICARMOR",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.PRIMALRUNICARMOR/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.PRIMALRUNICARMOR.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.PRIMALRUNICARMOR/page/2",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.PRIMALRUNICARMOR.2"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.PRIMALRUNICARMOR/page/3",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.PRIMALRUNICARMOR.3"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.PRIMALRUNICARMOR/page/4",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicdyes:prm_runic_armor0",
+              "thaumicdyes:prm_runic_armor1",
+              "thaumicdyes:prm_runic_armor2",
+              "thaumicdyes:prm_runic_armor3"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyes:TD.PRIMALRUNIC",
+      "pages": [
+        {
+          "id": "thaumicdyes:TD.PRIMALRUNIC/page/1",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.PRIMALRUNIC.1"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.PRIMALRUNIC/page/2",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.PRIMALRUNIC.2"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.PRIMALRUNIC/page/3",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.PRIMALRUNIC.3"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "thaumicdyes:TD.PRIMALRUNIC/page/4",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.TD.PRIMALRUNIC.4"
+          },
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

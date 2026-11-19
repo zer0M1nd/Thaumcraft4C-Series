@@ -1,0 +1,52 @@
+{
+  "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+  "legacy_order": 131,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{upgrade:9b}"
+  },
+  "instability": 6,
+  "aspects": {
+    "iter": 24,
+    "praecantatio": 16,
+    "volatus": 24,
+    "motus": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:item_runic_boots_traveller"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "research": "thaumicdyes:TD.DYEDRANGER",
+  "legacy_order": 179,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{mask:0}"
+  },
+  "instability": 3,
+  "aspects": {
+    "sensus": 16,
+    "auram": 8,
+    "tutamen": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:cultist_ranger_helm_dyed"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:goggles"
+      },
+      "damage": -1
+    }
+  ]
+}

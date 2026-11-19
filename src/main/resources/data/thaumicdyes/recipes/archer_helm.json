@@ -1,0 +1,29 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONARCHER",
+  "legacy_order": 164,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumicdyes:cultist_archer_helm",
+    "count": 1
+  },
+  "vis": {
+    "aer": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "IHI",
+    " g "
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "H": {
+      "item": "minecraft:iron_helmet"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  }
+}

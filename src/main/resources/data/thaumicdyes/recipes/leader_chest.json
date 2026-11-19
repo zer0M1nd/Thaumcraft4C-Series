@@ -1,0 +1,52 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONLEADER",
+  "legacy_order": 158,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumcraft:cultist_leader_chestplate",
+    "count": 1
+  },
+  "instability": 3,
+  "aspects": {
+    "tutamen": 12,
+    "alienis": 12,
+    "metallum": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:cultist_plate_chestplate"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicdyes:item_resource_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicdyes:item_resource_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    }
+  ]
+}

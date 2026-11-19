@@ -1,0 +1,43 @@
+{
+  "research": "thaumicdyes:TD.DYEDFORTRESS",
+  "legacy_order": 198,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:fortress_chest",
+    "count": 1
+  },
+  "instability": 5,
+  "aspects": {
+    "tutamen": 24,
+    "praecantatio": 24,
+    "pannus": 8,
+    "metallum": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:fortress_chestplate"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ]
+}

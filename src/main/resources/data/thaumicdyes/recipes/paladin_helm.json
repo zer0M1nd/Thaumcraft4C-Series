@@ -1,0 +1,30 @@
+{
+  "research": "thaumicdyes:TD.PALADIN",
+  "legacy_order": 160,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumicdyes:cultist_paladin_helm",
+    "count": 1
+  },
+  "vis": {
+    "ignis": 20,
+    "perditio": 10,
+    "ordo": 25
+  },
+  "pattern": [
+    " g ",
+    "GHG",
+    " g "
+  ],
+  "key": {
+    "H": {
+      "item": "thaumcraft:cultist_leader_helmet"
+    },
+    "g": {
+      "item": "minecraft:gold_nugget"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  }
+}

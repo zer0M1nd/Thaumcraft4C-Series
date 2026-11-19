@@ -1,0 +1,27 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONCLERIC",
+  "legacy_order": 152,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumcraft:cultist_robe_chestplate",
+    "count": 1
+  },
+  "vis": {
+    "aqua": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "R R",
+    "RRR",
+    "RGR"
+  ],
+  "key": {
+    "R": {
+      "item": "thaumicdyes:item_resource_fabric"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  }
+}

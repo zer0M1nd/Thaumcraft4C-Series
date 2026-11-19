@@ -1,0 +1,43 @@
+{
+  "research": "thaumicdyes:TD.DYEDARCHER",
+  "legacy_order": 183,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:cultist_archer_legs_dyed",
+    "count": 1
+  },
+  "instability": 5,
+  "aspects": {
+    "tutamen": 20,
+    "praecantatio": 20,
+    "pannus": 8,
+    "metallum": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:cultist_archer_legs"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ]
+}

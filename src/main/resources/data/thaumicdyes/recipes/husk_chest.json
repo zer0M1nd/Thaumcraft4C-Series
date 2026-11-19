@@ -1,0 +1,48 @@
+{
+  "research": "thaumicdyes:TD.INHABITEDPLATE",
+  "legacy_order": 187,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:inhabited_plate_chest",
+    "count": 1
+  },
+  "instability": 3,
+  "aspects": {
+    "perditio": 16,
+    "alienis": 24,
+    "metallum": 24,
+    "tutamen": 24
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:cultist_plate_chestplate"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    }
+  ]
+}

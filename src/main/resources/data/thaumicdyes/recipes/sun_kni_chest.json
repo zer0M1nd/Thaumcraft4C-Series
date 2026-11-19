@@ -1,0 +1,32 @@
+{
+  "research": "thaumicdyes:TD.SUNNYD",
+  "legacy_order": 185,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumicdyes:sun_knight_chest",
+    "count": 1
+  },
+  "vis": {
+    "ignis": 20,
+    "aer": 20
+  },
+  "pattern": [
+    "nrn",
+    "rCr",
+    "nyn"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumicdyes:cultist_plate_chest"
+    },
+    "r": {
+      "item": "minecraft:red_dye"
+    },
+    "y": {
+      "item": "minecraft:yellow_dye"
+    },
+    "n": {
+      "tag": "forge:nuggets/iron"
+    }
+  }
+}

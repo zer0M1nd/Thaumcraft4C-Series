@@ -1,0 +1,25 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONBANNER",
+  "legacy_order": 150,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "minecraft:red_banner",
+    "nbt": "{BlockEntityTag:{id:\"minecraft:banner\",Patterns:[{Pattern:\"tc_crimson\",Color:4}]}}"
+  },
+  "vis": {
+    "ordo": 5
+  },
+  "pattern": [
+    "g g",
+    "gBg",
+    "g g"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:red_banner"
+    },
+    "g": {
+      "item": "minecraft:gold_nugget"
+    }
+  }
+}

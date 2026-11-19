@@ -1,0 +1,30 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONRANGER",
+  "legacy_order": 161,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumicdyes:cultist_ranger_helm",
+    "count": 1
+  },
+  "vis": {
+    "terra": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    " I ",
+    "IHI",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "thaumicdyes:item_resource_fabric"
+    },
+    "H": {
+      "item": "minecraft:iron_helmet"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  }
+}

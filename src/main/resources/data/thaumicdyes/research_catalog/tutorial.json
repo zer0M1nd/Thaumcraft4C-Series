@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_THAUMICDYES",
+          "category": "TUTORIAL",
+          "displayColumn": 48,
+          "displayRow": 9,
+          "parents": [
+            "TUT_FORTRESS"
+          ],
+          "icon_item": {
+            "item": "thaumicdyes:cultist_paladin_helm",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumicdyes"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "thaumicdyes:TD.CRIMSON",
+            "thaumicdyes:TD.THAUMIUMROBE",
+            "thaumicdyes:TD.DYEDFORTRESS",
+            "thaumicdyes:TD.RUNICARMOR",
+            "thaumicdyes:TD.PRIMALRUNICARMOR"
+          ],
+          "pageCount": 8
+        }
+      ]
+    }
+  ]
+}

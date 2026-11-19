@@ -1,0 +1,30 @@
+{
+  "research": "thaumicdyes:TD.MASKEVIL",
+  "legacy_order": 189,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumicdyes:item_mask_evil",
+    "count": 1
+  },
+  "vis": {
+    "perditio": 60,
+    "ignis": 40,
+    "aer": 40
+  },
+  "pattern": [
+    "LVL",
+    "L L",
+    "EVE"
+  ],
+  "key": {
+    "E": {
+      "item": "thaumcraft:eldritch_eye"
+    },
+    "V": {
+      "item": "thaumcraft:void_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  }
+}

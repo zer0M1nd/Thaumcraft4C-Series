@@ -1,0 +1,29 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONARCHER",
+  "legacy_order": 166,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumicdyes:cultist_archer_legs",
+    "count": 1
+  },
+  "vis": {
+    "aer": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "ILI",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "thaumicdyes:item_resource_fabric"
+    },
+    "L": {
+      "item": "thaumcraft:cultist_plate_leggings"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  }
+}

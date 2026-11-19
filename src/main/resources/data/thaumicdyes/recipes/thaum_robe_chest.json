@@ -1,0 +1,53 @@
+{
+  "research": "thaumicdyes:TD.THAUMIUMROBE",
+  "legacy_order": 201,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:thaumium_robe_chest",
+    "count": 1
+  },
+  "instability": 4,
+  "aspects": {
+    "metallum": 24,
+    "tutamen": 24,
+    "pannus": 24,
+    "praecantatio": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_chestplate"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:robe_chest"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    }
+  ]
+}

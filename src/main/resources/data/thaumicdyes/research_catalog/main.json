@@ -1,0 +1,858 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "DYES",
+      "icon": "thaumicdyes:textures/gui/r_td2.png",
+      "background": "thaumicdyes:textures/gui/r_tdbg.png",
+      "research": [
+        {
+          "key": "thaumicdyes:TD.CRIMSON",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "alienis": 4,
+            "tutamen": 4,
+            "praecantatio": 4
+          },
+          "pageCount": 5,
+          "displayColumn": -2,
+          "displayRow": -1,
+          "icon_item": {
+            "item": "thaumcraft:crimson_rites",
+            "count": 1
+          },
+          "parents": [
+            "CRIMSON",
+            "ENCHFABRIC"
+          ],
+          "isLost": true,
+          "isSpecial": true,
+          "isRound": true,
+          "itemTriggers": [
+            {
+              "item": "thaumcraft:crimson_rites",
+              "count": 1
+            }
+          ],
+          "warp": 1
+        },
+        {
+          "key": "thaumicdyes:TD.CRIMSONBANNER",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {
+            "pannus": 2,
+            "sensus": 1
+          },
+          "pageCount": 2,
+          "displayColumn": -1,
+          "displayRow": -1,
+          "icon_item": {
+            "item": "minecraft:red_banner",
+            "nbt": "{BlockEntityTag:{id:\"minecraft:banner\",Patterns:[{Pattern:\"tc_crimson\",Color:4}]}}"
+          },
+          "parents": [
+            "thaumicdyes:TD.CRIMSON"
+          ],
+          "isConcealed": true,
+          "isSecondary": true
+        },
+        {
+          "key": "thaumicdyes:TD.CRIMSONCLERIC",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {
+            "alienis": 4,
+            "tutamen": 4,
+            "pannus": 4
+          },
+          "pageCount": 4,
+          "displayColumn": -5,
+          "displayRow": -2,
+          "icon_item": {
+            "item": "thaumcraft:cultist_robe_helmet",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.CRIMSON"
+          ],
+          "isConcealed": true,
+          "isLost": true,
+          "entityTriggers": [
+            "thaumcraft:cultist_cleric"
+          ]
+        },
+        {
+          "key": "thaumicdyes:TD.CRIMSONKNIGHT",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {
+            "alienis": 4,
+            "tutamen": 4,
+            "metallum": 4
+          },
+          "pageCount": 4,
+          "displayColumn": -5,
+          "displayRow": -1,
+          "icon_item": {
+            "item": "thaumcraft:cultist_plate_helmet",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.CRIMSON"
+          ],
+          "isConcealed": true,
+          "isLost": true,
+          "entityTriggers": [
+            "thaumcraft:cultist_knight"
+          ]
+        },
+        {
+          "key": "thaumicdyes:TD.CRIMSONLEADER",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "alienis": 4,
+            "tutamen": 4,
+            "metallum": 4,
+            "praecantatio": 4
+          },
+          "pageCount": 4,
+          "displayColumn": -3,
+          "displayRow": 2,
+          "icon_item": {
+            "item": "thaumcraft:cultist_leader_helmet",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.CRIMSON",
+            "PRIMPEARL"
+          ],
+          "parentsHidden": [
+            "thaumicdyes:TD.CRIMSONCLERIC",
+            "thaumicdyes:TD.CRIMSONKNIGHT",
+            "thaumicdyes:TD.CRIMSONRANGER",
+            "thaumicdyes:TD.CRIMSONARCHER"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.PALADIN",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {
+            "alienis": 4,
+            "tutamen": 4,
+            "metallum": 4
+          },
+          "pageCount": 2,
+          "displayColumn": -3,
+          "displayRow": 4,
+          "icon_item": {
+            "item": "thaumicdyes:cultist_paladin_helm",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.CRIMSONLEADER"
+          ],
+          "parentsHidden": [
+            "thaumicdyes:TD.DYEDPRAETOR"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.CRIMSONRANGER",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {
+            "alienis": 4,
+            "tutamen": 4,
+            "pannus": 4
+          },
+          "pageCount": 4,
+          "displayColumn": -4,
+          "displayRow": -3,
+          "icon_item": {
+            "item": "thaumicdyes:cultist_ranger_chest",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.CRIMSON"
+          ],
+          "parentsHidden": [
+            "thaumicdyes:TD.CRIMSONCLERIC"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.CRIMSONARCHER",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {
+            "alienis": 4,
+            "tutamen": 4,
+            "pannus": 4
+          },
+          "pageCount": 4,
+          "displayColumn": -5,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "thaumicdyes:cultist_archer_helm",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.CRIMSON"
+          ],
+          "parentsHidden": [
+            "thaumicdyes:TD.CRIMSONKNIGHT"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.DYEDROBE",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "pannus": 4,
+            "tutamen": 4,
+            "praecantatio": 4
+          },
+          "pageCount": 5,
+          "displayColumn": -7,
+          "displayRow": -3,
+          "icon_item": {
+            "item": "thaumicdyes:cultist_robe_helm",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.CRIMSONCLERIC"
+          ],
+          "isConcealed": true,
+          "isSecondary": true
+        },
+        {
+          "key": "thaumicdyes:TD.DYEDKNIGHT",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "pannus": 4,
+            "tutamen": 4,
+            "praecantatio": 4
+          },
+          "pageCount": 4,
+          "displayColumn": -7,
+          "displayRow": -1,
+          "icon_item": {
+            "item": "thaumicdyes:cultist_plate_chest",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.CRIMSONKNIGHT"
+          ],
+          "isConcealed": true,
+          "isSecondary": true
+        },
+        {
+          "key": "thaumicdyes:TD.DYEDPRAETOR",
+          "category": "DYES",
+          "complexity": 3,
+          "aspects": {
+            "pannus": 5,
+            "tutamen": 5,
+            "praecantatio": 5,
+            "tenebrae": 5
+          },
+          "pageCount": 4,
+          "displayColumn": -5,
+          "displayRow": 3,
+          "icon_item": {
+            "item": "thaumicdyes:cultist_leader_chest",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.CRIMSONLEADER"
+          ],
+          "isConcealed": true,
+          "isSecondary": true
+        },
+        {
+          "key": "thaumicdyes:TD.DYEDRANGER",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "pannus": 4,
+            "tutamen": 4,
+            "praecantatio": 4,
+            "iter": 4
+          },
+          "pageCount": 7,
+          "displayColumn": -5,
+          "displayRow": -5,
+          "icon_item": {
+            "item": "thaumicdyes:cultist_ranger_chest_dyed",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.CRIMSONRANGER"
+          ],
+          "isConcealed": true,
+          "isSecondary": true
+        },
+        {
+          "key": "thaumicdyes:TD.DYEDARCHER",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "pannus": 5,
+            "tutamen": 5,
+            "praecantatio": 5,
+            "telum": 5
+          },
+          "pageCount": 4,
+          "displayColumn": -7,
+          "displayRow": 1,
+          "icon_item": {
+            "item": "thaumicdyes:cultist_archer_helm_dyed",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.CRIMSONARCHER"
+          ],
+          "isConcealed": true,
+          "isSecondary": true
+        },
+        {
+          "key": "thaumicdyes:TD.SUNNYD",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {
+            "ignis": 4,
+            "tutamen": 4,
+            "auram": 4
+          },
+          "pageCount": 3,
+          "displayColumn": 0,
+          "displayRow": -3,
+          "icon_item": {
+            "item": "thaumicdyes:sun_knight_chest",
+            "count": 1
+          },
+          "parentsHidden": [
+            "thaumicdyes:TD.DYEDKNIGHT"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.OUTERARRIVAL",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {},
+          "pageCount": 0,
+          "displayColumn": -2,
+          "displayRow": 6,
+          "mirrorOf": "ENTEROUTER",
+          "isStub": true,
+          "isHidden": true,
+          "icon_resource": "thaumcraft:textures/misc/r_outer.png",
+          "isSecondary": false
+        },
+        {
+          "key": "thaumicdyes:TD.INHABITEDPLATE",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "perditio": 4,
+            "permutatio": 4,
+            "alienis": 4
+          },
+          "pageCount": 5,
+          "displayColumn": -4,
+          "displayRow": 6,
+          "icon_item": {
+            "item": "thaumicdyes:inhabited_plate_helm",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.OUTERARRIVAL"
+          ],
+          "warp": 2
+        },
+        {
+          "key": "thaumicdyes:TD.MASKEVIL",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "perditio": 4,
+            "telum": 4,
+            "alienis": 4
+          },
+          "pageCount": 2,
+          "displayColumn": 0,
+          "displayRow": 7,
+          "icon_item": {
+            "item": "thaumicdyes:item_mask_evil",
+            "count": 1
+          },
+          "parents": [
+            "VOIDMETAL"
+          ],
+          "warp": 2
+        },
+        {
+          "key": "thaumicdyes:TD.IRONFORTRESS",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "tutamen": 5,
+            "metallum": 5,
+            "fabrico": 5
+          },
+          "pageCount": 5,
+          "displayColumn": 9,
+          "displayRow": -1,
+          "icon_item": {
+            "item": "thaumicdyes:iron_fortress_helm",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.ARMORFORTRESS"
+          ],
+          "isSecondary": true
+        },
+        {
+          "key": "thaumicdyes:TD.IRONHELMGOGGLES",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {
+            "sensus": 5,
+            "auram": 3,
+            "tutamen": 3
+          },
+          "pageCount": 2,
+          "displayColumn": 11,
+          "displayRow": -1,
+          "icon_item": {
+            "item": "thaumcraft:goggles",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.IRONFORTRESS",
+            "GOGGLES"
+          ],
+          "isSecondary": true,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.IRONHELMAESTHETICS",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {
+            "fabrico": 5,
+            "tutamen": 3
+          },
+          "pageCount": 3,
+          "displayColumn": 11,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "thaumcraft:cultist_plate_helmet",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.IRONFORTRESS"
+          ],
+          "isSecondary": true,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.IRONHELMHUSK",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {
+            "fabrico": 5,
+            "tutamen": 3,
+            "alienis": 2
+          },
+          "pageCount": 2,
+          "displayColumn": 10,
+          "displayRow": 1,
+          "icon_item": {
+            "item": "thaumicdyes:inhabited_plate_helm",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.IRONFORTRESS"
+          ],
+          "parentsHidden": [
+            "thaumicdyes:TD.INHABITEDPLATE",
+            "thaumicdyes:TD.IRONHELMAESTHETICS"
+          ],
+          "isSecondary": true,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.THAUMIUM",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {},
+          "pageCount": 0,
+          "displayColumn": 2,
+          "displayRow": -1,
+          "mirrorOf": "THAUMIUM",
+          "isStub": true,
+          "isHidden": true,
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemResource",
+            "metadata": 2,
+            "ore": "ingotThaumium"
+          },
+          "isSecondary": false
+        },
+        {
+          "key": "thaumicdyes:TD.ARMORFORTRESS",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {},
+          "pageCount": 0,
+          "displayColumn": 7,
+          "displayRow": -2,
+          "mirrorOf": "ARMORFORTRESS",
+          "isStub": true,
+          "isHidden": true,
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemHelmetFortress",
+            "metadata": 0
+          },
+          "isSecondary": false
+        },
+        {
+          "key": "thaumicdyes:TD.DYEDFORTRESS",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "pannus": 5,
+            "tutamen": 5,
+            "praecantatio": 5
+          },
+          "pageCount": 4,
+          "displayColumn": 5,
+          "displayRow": -2,
+          "icon_item": {
+            "item": "thaumicdyes:fortress_helm",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.THAUMIUM",
+            "thaumicdyes:TD.ARMORFORTRESS"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.THAUMIUMROBE",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "tutamen": 5,
+            "pannus": 5,
+            "fabrico": 5
+          },
+          "pageCount": 4,
+          "displayColumn": 3,
+          "displayRow": -4,
+          "icon_item": {
+            "item": "thaumicdyes:thaumium_robe_chest",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.THAUMIUM",
+            "GOGGLES",
+            "ENCHFABRIC"
+          ]
+        },
+        {
+          "key": "thaumicdyes:TD.VOIDFORTRESS",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {},
+          "pageCount": 0,
+          "displayColumn": 2,
+          "displayRow": 6,
+          "mirrorOf": "ARMORVOIDFORTRESS",
+          "isStub": true,
+          "isHidden": true,
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemHelmetVoidFortress",
+            "metadata": 0
+          },
+          "isSecondary": true
+        },
+        {
+          "key": "thaumicdyes:TD.VOIDROBE",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "tutamen": 5,
+            "metallum": 5,
+            "fabrico": 5
+          },
+          "pageCount": 4,
+          "displayColumn": 4,
+          "displayRow": 6,
+          "icon_item": {
+            "item": "thaumicdyes:void_robe_helm",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.VOIDFORTRESS"
+          ],
+          "isSecondary": true,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.BOOTSTRAVELLER",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {},
+          "pageCount": 0,
+          "displayColumn": 4,
+          "displayRow": 2,
+          "mirrorOf": "BOOTSTRAVELLER",
+          "isStub": true,
+          "isHidden": true,
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:BootsTraveller",
+            "metadata": 0
+          },
+          "isSecondary": false
+        },
+        {
+          "key": "thaumicdyes:TD.THAUMIUMBOOTS",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "tutamen": 5,
+            "pannus": 5,
+            "iter": 5
+          },
+          "pageCount": 2,
+          "displayColumn": 2,
+          "displayRow": 1,
+          "icon_item": {
+            "item": "thaumicdyes:boots_thaumium_traveller",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.THAUMIUM",
+            "thaumicdyes:TD.BOOTSTRAVELLER"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.VOIDBOOTS",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "tutamen": 5,
+            "pannus": 5,
+            "iter": 5,
+            "alienis": 5
+          },
+          "pageCount": 2,
+          "displayColumn": 2,
+          "displayRow": 4,
+          "icon_item": {
+            "item": "thaumicdyes:boots_void_traveller",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.VOIDFORTRESS",
+            "thaumicdyes:TD.BOOTSTRAVELLER"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.RUNICARMOR",
+          "category": "DYES",
+          "complexity": 3,
+          "aspects": {
+            "tutamen": 8,
+            "aer": 5,
+            "praecantatio": 5,
+            "potentia": 5,
+            "cognitio": 3
+          },
+          "pageCount": 6,
+          "displayColumn": 8,
+          "displayRow": 3,
+          "icon_item": {
+            "item": "thaumicdyes:item_runic_chest",
+            "count": 1
+          },
+          "parents": [
+            "INFUSION",
+            "RUNICARMOR"
+          ],
+          "isConcealed": true,
+          "isSpecial": true
+        },
+        {
+          "key": "thaumicdyes:TD.RUNICGOGGLES",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "sensus": 8,
+            "praecantatio": 5,
+            "tutamen": 5,
+            "auram": 3
+          },
+          "pageCount": 2,
+          "displayColumn": 7,
+          "displayRow": 1,
+          "icon_item": {
+            "item": "thaumicdyes:item_runic_goggles",
+            "count": 1
+          },
+          "parents": [
+            "GOGGLES",
+            "thaumicdyes:TD.RUNICARMOR"
+          ],
+          "isSecondary": true,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.RUNICBOOTSTRAVELLER",
+          "category": "DYES",
+          "complexity": 2,
+          "aspects": {
+            "iter": 8,
+            "aqua": 5,
+            "tutamen": 5,
+            "volatus": 5
+          },
+          "pageCount": 2,
+          "displayColumn": 5,
+          "displayRow": 2,
+          "icon_item": {
+            "item": "thaumicdyes:item_runic_boots_traveller",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.BOOTSTRAVELLER",
+            "thaumicdyes:TD.RUNICARMOR"
+          ],
+          "isSecondary": true,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.RUNICARMORUPGRADES",
+          "category": "DYES",
+          "complexity": 3,
+          "aspects": {
+            "praecantatio": 8,
+            "tutamen": 5,
+            "ordo": 5,
+            "cognitio": 3
+          },
+          "pageCount": 22,
+          "displayColumn": 7,
+          "displayRow": 4,
+          "icon_resource": "thaumcraft:textures/misc/r_runicupg.png",
+          "parents": [
+            "thaumicdyes:TD.RUNICARMOR"
+          ],
+          "parentsHidden": [
+            "RUNICHEALING",
+            "RUNICKINETIC",
+            "RUNICEMERGENCY"
+          ],
+          "isSecondary": true,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.ENHANCEDRUNICARMOR",
+          "category": "DYES",
+          "complexity": 3,
+          "aspects": {
+            "tutamen": 8,
+            "aer": 5,
+            "praecantatio": 5,
+            "potentia": 5,
+            "cognitio": 3
+          },
+          "pageCount": 3,
+          "displayColumn": 10,
+          "displayRow": 3,
+          "icon_item": {
+            "item": "thaumicdyes:item_runic_chest_enhanced",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.RUNICARMOR"
+          ],
+          "parentsHidden": [
+            "thaumicdyes:TD.RUNICARMORUPGRADES"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "thaumicdyes:TD.PRIMALRUNICARMOR",
+          "category": "DYES",
+          "complexity": 3,
+          "aspects": {
+            "tutamen": 8,
+            "alienis": 12,
+            "praecantatio": 12,
+            "tenebrae": 10,
+            "spiritus": 8
+          },
+          "pageCount": 4,
+          "displayColumn": 11,
+          "displayRow": 6,
+          "icon_item": {
+            "item": "thaumicdyes:item_runic_chest_primal",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.ENHANCEDRUNICARMOR"
+          ],
+          "parentsHidden": [
+            "PRIMPEARL"
+          ],
+          "isConcealed": true,
+          "warp": 4
+        },
+        {
+          "key": "thaumicdyes:TD.PRIMALRUNIC",
+          "category": "DYES",
+          "complexity": 1,
+          "aspects": {
+            "tutamen": 8,
+            "alienis": 12,
+            "praecantatio": 12,
+            "tenebrae": 10,
+            "spiritus": 8
+          },
+          "pageCount": 4,
+          "displayColumn": 12,
+          "displayRow": 6,
+          "icon_item": {
+            "item": "thaumcraft:eldritch_eye",
+            "count": 1
+          },
+          "parents": [
+            "thaumicdyes:TD.PRIMALRUNICARMOR"
+          ],
+          "isConcealed": true
+        }
+      ]
+    }
+  ]
+}
