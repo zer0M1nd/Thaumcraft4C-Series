@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICINFUSION",
+      "icon": "thaumicinfusion:textures/research/r_ti.png",
+      "background": "thaumicinfusion:textures/research/r_tibg.png",
+      "research": [
+        {
+          "key": "thaumicinfusion:FOCUSINFUSION",
+          "category": "THAUMICINFUSION",
+          "displayColumn": -2,
+          "displayRow": 0,
+          "complexity": 2,
+          "aspects": {
+            "terra": 6,
+            "tutamen": 3,
+            "ordo": 3,
+            "cognitio": 3
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "thaumicinfusion:focus_infusion",
+            "count": 1
+          },
+          "pageCount": 103
+        },
+        {
+          "key": "thaumicinfusion:ESSENTIABLOCKS",
+          "category": "THAUMICINFUSION",
+          "displayColumn": 2,
+          "displayRow": 0,
+          "complexity": 2,
+          "aspects": {
+            "ordo": 3,
+            "praecantatio": 3
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "thaumicinfusion:essentia_block",
+            "count": 1
+          },
+          "pageCount": 3
+        }
+      ]
+    }
+  ]
+}

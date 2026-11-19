@@ -1,0 +1,704 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicinfusion:localization/block_limits",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "tc.research_page.FOCUSINFUSION.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "世界中的任意方块",
+          "replace": {
+            "text": "世界中允许交互且未被配置禁止的非空气方块"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "any block within the world",
+          "replace": {
+            "text": " non-air blocks that allow interaction and are not blacklisted"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/menu_air_zh",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "tc.research_page.FOCUSINFUSION.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "右键使用法杖",
+          "replace": {
+            "text": "对空气右键使用法杖"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/remove_zh",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "tc.research_page.FOCUSINFUSION.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "潜行右键点击它",
+          "replace": {
+            "text": "在菜单中再次点击已选要素以清空选择，再右键点击方块；源质会退回附近仍有空间的容器"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/full_jar",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "tc.research_page.FOCUSINFUSION.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "一个装满所需源质的罐子",
+          "replace": {
+            "text": "一个存有足够所需源质的容器"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "a jar full of essentia of the aspect that you wish to infuse",
+          "replace": {
+            "text": " a vessel containing enough essentia of the desired aspect"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/full_phials",
+      "research": "thaumicinfusion:ESSENTIABLOCKS",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "tc.research_page.ESSENTIABLOCKS.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "四个装有同一种源质的瓶子",
+          "replace": {
+            "text": "四个装有同一种源质的满瓶（每瓶 8 点）"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "four phials containing the same essentia",
+          "replace": {
+            "text": " four full phials containing the same essentia (8 units each)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/fabrico_click",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.FABRICO"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "右键点击方块",
+          "replace": {
+            "text": "左键点击方块"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "right click on the block",
+          "replace": {
+            "text": " left click on the block"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/fabrico_tint",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.FABRICO"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "任何方块都能变成任何颜色",
+          "replace": {
+            "text": "方块的原贴图会乘以所选要素的颜色"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "any block can become any colour!",
+          "replace": {
+            "text": " blocks are tinted by multiplying their original texture colors!"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/sano_food",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.SANO"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "前提是你吃饱了",
+          "replace": {
+            "text": "前提是饥饿值大于 0"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "if you are nice and fed that is",
+          "replace": {
+            "text": " if your food level is above zero"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/sano_rate",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.SANO"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "根据你的饥饿值恢复生命",
+          "replace": {
+            "text": "每 50 刻有 50% 概率恢复 1 点生命，不消耗饥饿值"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "regenerates your health based on your hunger level",
+          "replace": {
+            "text": " gives each eligible player a 50% chance to heal 1 health every 50 ticks, without consuming food"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/alienis_trigger",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.ALIENIS"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "只要以任何方式与方块交互",
+          "replace": {
+            "text": "生物只要接触方块或其上方一格空间"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "if you interact with the block in any way",
+          "replace": {
+            "text": " if a living entity touches the block or the space directly above it"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/tempestas_weather",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.TEMPESTAS"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "下雨时",
+          "replace": {
+            "text": "雷暴且上方可见天空时"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "while raining",
+          "replace": {
+            "text": " during a thunderstorm with sky access above the block"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/bestia_scope",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.BESTIA"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "阻止任何敌对生物生成",
+          "replace": {
+            "text": "阻止友好及敌对生物通过该方块的落脚面生成检查"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "stop any aggressive mob from spawning",
+          "replace": {
+            "text": " make the block fail the valid-spawn-surface check for both friendly and hostile mobs"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/messis_soil",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.MESSIS"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "把任何方块变成伪装的耕地",
+          "replace": {
+            "text": "让方块通过植物支撑及肥沃检查，但不会真正变成耕地"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "turns any block into a disguised farm block",
+          "replace": {
+            "text": " makes the block pass plant-support and fertile-soil checks, without actually becoming farmland"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/perditio_trigger",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.PERDITIO"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "与方块发生任何交互，都可能导致它爆炸",
+          "replace": {
+            "text": "未潜行玩家接触方块或其上方一格时，每刻有 1/20 概率产生强度 4 的爆炸，并移除此效果"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "any interaction with the block after infusion makes it prone to exploding",
+          "replace": {
+            "text": " a non-sneaking player touching the block or the space directly above gives it a 1/20 chance each tick to cause a power-4 explosion and remove this effect"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/vinculum_scope",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.VINCULUM"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "让碰巧踩上它的任何实体无法移动",
+          "replace": {
+            "text": "每刻清零接触方块及其上方两格内生物的速度，但不锁定位置"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "immobilize any entity that so happens to step onto the block",
+          "replace": {
+            "text": " zero the velocity of living entities touching it or the two blocks above it each tick, without locking their position"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/swap_edges",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.PERMUTATIO"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "向其中一个施加红石信号",
+          "replace": {
+            "text": "使其中一个端点的红石供电状态改变（通电和断电均可）"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "applying a redstone signal to one of the linked blocks",
+          "replace": {
+            "text": " changing either linked block between powered and unpowered"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/praecantatio_noop",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.PRAECANTATIO"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "用这个要素将源质罐和其他要素容器标记为周围所有注魔的源质供应者。",
+          "replace": {
+            "text": "目前只有注魔标记和通用外观，没有额外供源质功能；附近容器供源质无需此注魔。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Use this aspect to mark a jar and other aspect containers as suppliers for all neighbouring infusions.",
+          "replace": {
+            "text": " Currently only stores the infusion mark and normal visuals. Adds no essentia-supply behavior; nearby vessels work without it."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/mortuus_light",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.MORTUUS"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "夜间",
+          "replace": {
+            "text": "上方亮度不高于 8 且上方连续两格为空气时"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "during night",
+          "replace": {
+            "text": " when light above is at most 8 and two air blocks are clear"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/victus_light",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.VICTUS"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "夜间",
+          "replace": {
+            "text": "上方亮度至少为 8 且上方连续两格为空气时"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "during night",
+          "replace": {
+            "text": " when light above is at least 8 and two air blocks are clear"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/vitreus_light",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.VITREUS"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "让光像穿过玻璃一样穿过方块",
+          "replace": {
+            "text": "将方块的遮光值设为 0，实际光照仍取决于周围方块和光照引擎"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "makes light pass though the block like glass",
+          "replace": {
+            "text": " sets the block light-blocking value to zero; actual lighting still depends on surrounding blocks and the lighting engine"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/sensus_choice",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.SENSUS"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "你选择的任何其他方块",
+          "replace": {
+            "text": "默认状态为实心不透明方块的贴图，保留原形状"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "any other block of your choosing",
+          "replace": {
+            "text": " textures from a block whose default state renders as solid, keeping the original shape"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/gelum_position",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.GELUM"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "把附近的水变成冰，还可能在实心方块上方生成雪",
+          "replace": {
+            "text": "每 200 刻只检查相对 X、Y、Z 各减 10 的位置：水变冰；否则，若该处不是雪层、可见天空且上方为空气，就在其上放雪层"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "turn nearby water into ice and solid blocks will have a chance to have snow spawn on top of it",
+          "replace": {
+            "text": " every 200 ticks check only the position offset by -10 on X, Y and Z: water becomes ice; otherwise snow is placed above if it is not a snow layer, sees the sky and has air above"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:localization/infernus_living",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "ti.effect_info.INFERNUS"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "会将碰巧接触这个方块的任何实体点燃。",
+          "replace": {
+            "text": "会将接触方块或其上方一格的生物点燃 8 秒。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Sets any entity that happens to touch this block on fire.",
+          "replace": {
+            "text": " Sets living entities touching the block or the space directly above it on fire for 8 seconds."
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

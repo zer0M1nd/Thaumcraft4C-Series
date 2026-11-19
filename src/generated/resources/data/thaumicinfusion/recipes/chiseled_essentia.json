@@ -1,0 +1,26 @@
+{
+  "type": "thaumicinfusion:essentia",
+  "stage": 2,
+  "research": "thaumicinfusion:ESSENTIABLOCKS",
+  "mode": "shaped",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": {
+      "item": "thaumicinfusion:essentia_bricks"
+    }
+  },
+  "vis": {
+    "perditio": 4
+  },
+  "result": {
+    "item": "thaumicinfusion:chiseled_essentia",
+    "nbt": {
+      "BlockEntityTag": {
+        "aspect": "aer"
+      }
+    }
+  }
+}

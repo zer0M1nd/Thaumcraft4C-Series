@@ -1,0 +1,26 @@
+{
+  "type": "thaumicinfusion:essentia",
+  "stage": 1,
+  "research": "thaumicinfusion:ESSENTIABLOCKS",
+  "mode": "shaped",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": {
+      "item": "thaumicinfusion:essentia_block"
+    }
+  },
+  "vis": {
+    "perditio": 4
+  },
+  "result": {
+    "item": "thaumicinfusion:essentia_bricks",
+    "nbt": {
+      "BlockEntityTag": {
+        "aspect": "aer"
+      }
+    }
+  }
+}

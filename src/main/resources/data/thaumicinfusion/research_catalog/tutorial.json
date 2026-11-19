@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_THAUMICINFUSION",
+          "category": "TUTORIAL",
+          "displayColumn": 39,
+          "displayRow": -9,
+          "parents": [
+            "TUT_FOCUS_MORE"
+          ],
+          "icon_item": {
+            "item": "thaumicinfusion:focus_infusion",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumicinfusion"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "thaumicinfusion:FOCUSINFUSION",
+            "thaumicinfusion:ESSENTIABLOCKS"
+          ],
+          "pageCount": 9
+        }
+      ]
+    }
+  ]
+}
