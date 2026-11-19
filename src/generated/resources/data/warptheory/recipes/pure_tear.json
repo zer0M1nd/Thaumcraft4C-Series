@@ -1,0 +1,65 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 16,
+    "permutatio": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "warptheory:easy_recipes",
+      "easy": false
+    }
+  ],
+  "instability": 5,
+  "research": "warptheory:WARPCLEANSER",
+  "result": {
+    "item": "warptheory:pure_tear"
+  }
+}

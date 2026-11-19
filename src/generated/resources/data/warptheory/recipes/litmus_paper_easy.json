@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "warptheory:easy_recipes",
+      "easy": true
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    }
+  ],
+  "mode": "shapeless",
+  "research": "warptheory:WARPPAPER",
+  "result": {
+    "item": "warptheory:litmus_paper"
+  },
+  "vis": {
+    "aqua": 4
+  }
+}

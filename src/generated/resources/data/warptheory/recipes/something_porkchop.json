@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:crucible",
+  "aspects": {
+    "alienis": 16,
+    "permutatio": 8
+  },
+  "catalyst": {
+    "item": "minecraft:porkchop"
+  },
+  "conditions": [
+    {
+      "type": "warptheory:easy_recipes",
+      "easy": false
+    }
+  ],
+  "research": "warptheory:WARPSOMETHING",
+  "result": {
+    "item": "warptheory:something"
+  }
+}

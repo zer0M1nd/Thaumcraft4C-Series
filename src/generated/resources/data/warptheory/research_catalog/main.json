@@ -1,0 +1,105 @@
+{
+  "categories": [
+    {
+      "background": "thaumcraft:textures/gui/gui_researchbackeldritch.png",
+      "icon": "thaumcraft:textures/misc/r_eldritch.png",
+      "key": "ELDRITCH",
+      "research": [
+        {
+          "aspects": {
+            "alienis": 6,
+            "permutatio": 3
+          },
+          "category": "ELDRITCH",
+          "complexity": 2,
+          "displayColumn": -3,
+          "displayRow": -1,
+          "icon_item": {
+            "count": 1,
+            "item": "warptheory:pure_tear"
+          },
+          "key": "warptheory:WARPCLEANSER",
+          "pageCount": 2,
+          "parents": [
+            "ELDRITCHMAJOR"
+          ]
+        },
+        {
+          "aspects": {
+            "alienis": 6,
+            "permutatio": 3,
+            "praecantatio": 3
+          },
+          "category": "ELDRITCH",
+          "complexity": 3,
+          "displayColumn": -4,
+          "displayRow": 1,
+          "icon_item": {
+            "count": 1,
+            "item": "warptheory:pure_talisman"
+          },
+          "key": "warptheory:WARPAMULET",
+          "pageCount": 2,
+          "parents": [
+            "warptheory:WARPCLEANSER"
+          ]
+        }
+      ]
+    },
+    {
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "icon": "thaumcraft:textures/misc/r_crucible.png",
+      "key": "ALCHEMY",
+      "research": [
+        {
+          "aspectTriggers": [
+            "alienis",
+            "corpus",
+            "permutatio"
+          ],
+          "aspects": {
+            "alienis": 3,
+            "corpus": 3
+          },
+          "category": "ALCHEMY",
+          "complexity": 1,
+          "displayColumn": -2,
+          "displayRow": -5,
+          "icon_item": {
+            "count": 1,
+            "item": "warptheory:something"
+          },
+          "isHidden": true,
+          "key": "warptheory:WARPSOMETHING",
+          "pageCount": 2,
+          "parents": [],
+          "warp": 2
+        },
+        {
+          "aspectTriggers": [
+            "alienis",
+            "praecantatio",
+            "sensus"
+          ],
+          "aspects": {
+            "alienis": 3,
+            "praecantatio": 3
+          },
+          "category": "ALCHEMY",
+          "complexity": 2,
+          "displayColumn": 0,
+          "displayRow": -5,
+          "icon_item": {
+            "count": 1,
+            "item": "warptheory:litmus_paper"
+          },
+          "isHidden": true,
+          "key": "warptheory:WARPPAPER",
+          "pageCount": 2,
+          "parents": []
+        }
+      ]
+    }
+  ],
+  "format": 1
+}

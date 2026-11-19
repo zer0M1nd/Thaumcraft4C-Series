@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_WARPTHEORY",
+      "pages": [
+        {
+          "id": "warptheory:tut_addon_warptheory/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.warptheory.tut_addon_warptheory.text.1",
+            "with": [
+              [
+                {
+                  "text": "扭曲理论是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "warptheory:tut_addon_warptheory/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.warptheory.tut_addon_warptheory.text.2",
+            "with": [
+              [
+                {
+                  "text": "扭曲理论大幅扩充了"
+                },
+                {
+                  "text": "扭曲事件",
+                  "bold": true
+                },
+                {
+                  "text": "：扭曲越高，越可能遇到各种新的怪事。作为补偿，它也提供了测量和清除扭曲的道具。\n它没有自己的分页，研究分布在"
+                },
+                {
+                  "text": "炼金术",
+                  "bold": true
+                },
+                {
+                  "text": "和"
+                },
+                {
+                  "text": "邪术学",
+                  "bold": true
+                },
+                {
+                  "text": "分页中。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "warptheory:tut_addon_warptheory/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "warptheory:tut_addon_warptheory/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.warptheory.tut_addon_warptheory.text.4",
+            "with": [
+              [
+                {
+                  "text": "相关研究\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "warptheory:tut_addon_warptheory/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.warptheory.tut_addon_warptheory.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "warptheory:WARPPAPER"
+                },
+                {
+                  "text": "：奥术石蕊试纸，测量扭曲（隐藏研究，扫描特定要素发现）。\n· "
+                },
+                {
+                  "research": "warptheory:WARPSOMETHING"
+                },
+                {
+                  "text": "：块状物（隐藏研究）。\n· "
+                },
+                {
+                  "research": "warptheory:WARPCLEANSER"
+                },
+                {
+                  "text": "：纯净泪水，清除扭曲，需要"
+                },
+                {
+                  "research": "ELDRITCHMAJOR"
+                },
+                {
+                  "text": "。\n· "
+                },
+                {
+                  "research": "warptheory:WARPAMULET"
+                },
+                {
+                  "text": "：净化护身符。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "warptheory:tut_addon_warptheory/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "warptheory:tut_addon_warptheory/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "warptheory:tut_addon_warptheory/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "warptheory:WARPPAPER",
+            "warptheory:WARPSOMETHING",
+            "warptheory:WARPCLEANSER",
+            "warptheory:WARPAMULET"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "minecraft_version": "1.7.10",
+  "sources": [
+    {
+      "path": "assets/warptheory/lang/zh_cn.lang",
+      "keys": {
+        "chat.warptheory.acceleration": "chat.warptheory.acceleration",
+        "chat.warptheory.addwarp": "chat.warptheory.addwarp",
+        "chat.warptheory.averagewarp": "chat.warptheory.averagewarp",
+        "chat.warptheory.bats": "chat.warptheory.bats",
+        "chat.warptheory.blind": "chat.warptheory.blind",
+        "chat.warptheory.blink": "chat.warptheory.blink",
+        "chat.warptheory.blood": "chat.warptheory.blood",
+        "chat.warptheory.chests": "chat.warptheory.chests",
+        "chat.warptheory.deadlywarp": "chat.warptheory.deadlywarp",
+        "chat.warptheory.decay": "chat.warptheory.decay",
+        "chat.warptheory.ears": "chat.warptheory.ears",
+        "chat.warptheory.fall": "chat.warptheory.fall",
+        "chat.warptheory.friend": "chat.warptheory.friend",
+        "chat.warptheory.jump": "chat.warptheory.jump",
+        "chat.warptheory.lightning": "chat.warptheory.lightning",
+        "chat.warptheory.livestock": "chat.warptheory.livestock",
+        "chat.warptheory.majorwarp": "chat.warptheory.majorwarp",
+        "chat.warptheory.minorwarp": "chat.warptheory.minorwarp",
+        "chat.warptheory.nausea": "chat.warptheory.nausea",
+        "chat.warptheory.normalwarp": "chat.warptheory.normalwarp",
+        "chat.warptheory.permanentwarp": "chat.warptheory.permanentwarp",
+        "chat.warptheory.poison": "chat.warptheory.poison",
+        "chat.warptheory.purge": "chat.warptheory.purge",
+        "chat.warptheory.purgefail": "chat.warptheory.purgefail",
+        "chat.warptheory.rain": "chat.warptheory.rain",
+        "chat.warptheory.swamp": "chat.warptheory.swamp",
+        "chat.warptheory.tempwarp": "chat.warptheory.tempwarp",
+        "chat.warptheory.tongue": "chat.warptheory.tongue",
+        "chat.warptheory.wind": "chat.warptheory.wind",
+        "chat.warptheory.wither": "chat.warptheory.wither",
+        "item.warptheory.amulet": "item.warptheory.amulet.name",
+        "item.warptheory.amulet.name": "item.warptheory.amulet.name",
+        "item.warptheory.cleanser": "item.warptheory.cleanser.name",
+        "item.warptheory.cleanser.name": "item.warptheory.cleanser.name",
+        "item.warptheory.paper": "item.warptheory.paper.name",
+        "item.warptheory.paper.name": "item.warptheory.paper.name",
+        "item.warptheory.something": "item.warptheory.something.name",
+        "item.warptheory.something.name": "item.warptheory.something.name",
+        "itemGroup.warptheory.tab": "itemGroup.warptheory.tab",
+        "research.warptheory.warpamulet": "research.warptheory.warpamulet",
+        "research.warptheory.warpcleanser": "research.warptheory.warpcleanser",
+        "research.warptheory.warppaper": "research.warptheory.warppaper",
+        "research.warptheory.warpsomething": "research.warptheory.warpsomething",
+        "tc.research_name.WARPAMULET": "tc.research_name.WARPAMULET",
+        "tc.research_name.WARPCLEANSER": "tc.research_name.WARPCLEANSER",
+        "tc.research_name.WARPPAPER": "tc.research_name.WARPPAPER",
+        "tc.research_name.WARPSOMETHING": "tc.research_name.WARPSOMETHING",
+        "tc.research_name.warptheory:WARPAMULET": "tc.research_name.WARPAMULET",
+        "tc.research_name.warptheory:WARPCLEANSER": "tc.research_name.WARPCLEANSER",
+        "tc.research_name.warptheory:WARPPAPER": "tc.research_name.WARPPAPER",
+        "tc.research_name.warptheory:WARPSOMETHING": "tc.research_name.WARPSOMETHING",
+        "tc.research_text.WARPAMULET": "tc.research_text.WARPAMULET",
+        "tc.research_text.WARPCLEANSER": "tc.research_text.WARPCLEANSER",
+        "tc.research_text.WARPPAPER": "tc.research_text.WARPPAPER",
+        "tc.research_text.WARPSOMETHING": "tc.research_text.WARPSOMETHING",
+        "tc.research_text.warptheory:WARPAMULET": "tc.research_text.WARPAMULET",
+        "tc.research_text.warptheory:WARPCLEANSER": "tc.research_text.WARPCLEANSER",
+        "tc.research_text.warptheory:WARPPAPER": "tc.research_text.WARPPAPER",
+        "tc.research_text.warptheory:WARPSOMETHING": "tc.research_text.WARPSOMETHING",
+        "tooltip.warptheory.amulet": "tooltip.warptheory.amulet",
+        "tooltip.warptheory.cleanser": "tooltip.warptheory.cleanser",
+        "tooltip.warptheory.paper": "tooltip.warptheory.paper",
+        "tooltip.warptheory.something": "tooltip.warptheory.something"
+      },
+      "pictures": {
+        "warptheory:textures/items/itemCleanser.png": "warptheory:textures/items/itemcleanser.png",
+        "warptheory:textures/items/itemSomething.png": "warptheory:textures/items/itemsomething.png",
+        "warptheory:textures/items/itemAmulet.png": "warptheory:textures/items/itemamulet.png",
+        "warptheory:textures/items/itemPaper.png": "warptheory:textures/items/itempaper.png",
+        "warptheory:textures/blocks/blank.png": "warptheory:textures/blocks/blank.png"
+      }
+    }
+  ],
+  "official_supplements": [
+    {
+      "url": "https://raw.githubusercontent.com/GTNewHorizons/WarpTheory/edfce4abfd47461545a7003344747af2f2a3cd0d/src/main/resources/assets/warptheory/lang/zh_CN.lang",
+      "sha256": "dee9378c58734efa43ad16207c7650171534b6418ad9fd3b707598206e77c1d9",
+      "keys": {
+        "chat.warptheory.purge": "chat.warptheory.purge",
+        "chat.warptheory.purgefail": "chat.warptheory.purgefail",
+        "itemGroup.warptheory.tab": "itemGroup.warptheory.tab"
+      },
+      "pictures": {
+        "warptheory:textures/items/itemCleanser.png": "warptheory:textures/items/itemcleanser.png",
+        "warptheory:textures/items/itemSomething.png": "warptheory:textures/items/itemsomething.png",
+        "warptheory:textures/items/itemAmulet.png": "warptheory:textures/items/itemamulet.png",
+        "warptheory:textures/items/itemPaper.png": "warptheory:textures/items/itempaper.png",
+        "warptheory:textures/blocks/blank.png": "warptheory:textures/blocks/blank.png"
+      }
+    }
+  ]
+}

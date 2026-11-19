@@ -1,0 +1,50 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
+version=mod_version
+group='wtmodern'
+base.archivesName='Warp-Theory-Modern-Port'
+java.toolchain.languageVersion=JavaLanguageVersion.of(17)
+java.withSourcesJar()
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps=false; reproducibleFileOrder=true }
+repositories { maven { url=uri('.tooling/maven') }; maven { url='https://maven.theillusivec4.top/' }; mavenCentral() }
+repositories {
+    flatDir { dirs project.hasProperty('tc4ValidationVersion') ? '../../TC4/build/libs' : '../../../Data/Dependencies/TC4/0.4.107.1' }
+    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+}
+dependencies {
+    runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
+ minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+ implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
+        ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
+        : 'local.revival:Thaumcraft-4-Modern-Port:0.4.107.1')
+ implementation fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
+ testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
+}
+minecraft {
+ mappings channel:'official',version:'1.20.1'
+ runs {
+  configureEach {
+   args '--mixin.config','tc4revival.mixins.json'
+   property 'mixin.env.remapRefMap','true'
+   property 'mixin.env.refMapRemappingFile',layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+   property 'forge.enableGameTest','true'
+   property 'forge.enabledGameTestNamespaces','warptheory'
+   mods { warptheory { source sourceSets.main } }
+  }
+  server { workingDirectory project.file('run-server'); args '--nogui' }
+  gameTestServer { workingDirectory project.file('run-gametest') }
+  client { workingDirectory project.file('run-client') }
+  data { workingDirectory project.file('run-data'); args '--mod','warptheory','--all','--output',file('src/generated/resources/').absolutePath,'--existing',file('src/main/resources/').absolutePath }
+ }
+}
+sourceSets.main.resources.srcDir 'src/generated/resources'
+tasks.withType(JavaCompile).configureEach { options.encoding='UTF-8'; options.release=17 }
+tasks.named('test') { useJUnitPlatform() }
+tasks.named('jar') { finalizedBy 'reobfJar' }
+tasks.named('processResources') { inputs.property 'version',project.version; filesMatching('META-INF/mods.toml') { expand version:project.version } }
+tasks.register('verifyExternalResources') { dependsOn 'jar','reobfJar'; doLast { new java.util.zip.ZipFile(tasks.jar.archiveFile.get().asFile).withCloseable { zip -> zip.entries().each { e -> if(e.name==~ /.*\.(png|ogg|lang|obj)/) throw new GradleException('Bundled legacy asset '+e.name) } } } }
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+    }
+}
