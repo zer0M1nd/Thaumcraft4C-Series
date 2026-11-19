@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Bracelet.Greatwood",
+  "mode": "shaped",
+  "pattern": [
+    "CIC",
+    "I I"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumcraft:wand_cap_gold"
+    },
+    "I": {
+      "item": "thaumcraft:greatwood_log"
+    }
+  },
+  "vis": {
+    "aer": 25,
+    "ignis": 25,
+    "aqua": 25,
+    "terra": 25,
+    "ordo": 25,
+    "perditio": 25
+  },
+  "result": {
+    "item": "thaumicbases:bracelet_greatwood",
+    "count": 1
+  }
+}

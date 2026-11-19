@@ -1,0 +1,18 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Tobacco.Sanity",
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicbases:tobacco_pile"
+    }
+  ],
+  "vis": {
+    "ordo": 10,
+    "aer": 10,
+    "perditio": 10
+  },
+  "result": {
+    "item": "thaumicbases:tobacco_sanity"
+  }
+}

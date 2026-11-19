@@ -1,0 +1,69 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.NodeFoci.Unstable",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primal_charm"
+    },
+    "damage": -1
+  },
+  "instability": 3,
+  "aspects": {
+    "auram": 64,
+    "mortuus": 32,
+    "perditio": 64
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_entropy"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_entropy"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_entropy"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_entropy"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:node_focus_instability"
+  }
+}

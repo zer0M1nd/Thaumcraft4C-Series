@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.DecoBlocks",
+  "mode": "shaped",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "@": {
+      "item": "thaumcraft:entropy_crystal_cluster"
+    }
+  },
+  "vis": {
+    "perditio": 5
+  },
+  "result": {
+    "item": "thaumicbases:old_mossy_cobble",
+    "count": 8
+  }
+}

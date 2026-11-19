@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.VoidAnvil",
+  "center": {
+    "ingredient": {
+      "item": "thaumicbases:thaumic_anvil"
+    },
+    "damage": -1
+  },
+  "instability": 3,
+  "aspects": {
+    "fabrico": 32,
+    "instrumentum": 24,
+    "telum": 24,
+    "ordo": 48
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumicbases:void_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:void_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:void_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:void_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:void_block"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:void_anvil"
+  }
+}

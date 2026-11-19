@@ -1,0 +1,22 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "TB.CrystalBlocks",
+  "legacy_order": 10049,
+  "result": {
+    "item": "thaumicbases:crystal_tainted",
+    "count": 1
+  },
+  "catalyst": {
+    "item": "thaumcraft:water_crystal_cluster"
+  },
+  "aspects": {
+    "aer": 1,
+    "ignis": 1,
+    "aqua": 3,
+    "terra": 1,
+    "ordo": 1,
+    "perditio": 1,
+    "fabrico": 2,
+    "vitium": 2
+  }
+}

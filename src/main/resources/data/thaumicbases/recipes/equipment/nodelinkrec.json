@@ -1,0 +1,42 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.NodeLinker",
+  "mode": "shaped",
+  "pattern": [
+    "TPT",
+    "ANA",
+    "BOB"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:vis_relay"
+    },
+    "P": {
+      "item": "thaumcraft:primal_charm"
+    },
+    "A": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "B": {
+      "item": "thaumcraft:arcane_stone_bricks"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "N": {
+      "item": "thaumcraft:alumentum"
+    }
+  },
+  "vis": {
+    "aer": 5,
+    "ignis": 5,
+    "aqua": 5,
+    "terra": 5,
+    "ordo": 5,
+    "perditio": 5
+  },
+  "result": {
+    "item": "thaumicbases:node_linker",
+    "count": 1
+  }
+}

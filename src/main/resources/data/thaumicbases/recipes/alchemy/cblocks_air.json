@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "TB.CrystalBlocks",
+  "legacy_order": 10044,
+  "result": {
+    "item": "thaumicbases:crystal_air",
+    "count": 1
+  },
+  "catalyst": {
+    "item": "thaumcraft:air_crystal_cluster"
+  },
+  "aspects": {
+    "aer": 3,
+    "ignis": 1,
+    "aqua": 1,
+    "terra": 1,
+    "ordo": 1,
+    "perditio": 1,
+    "fabrico": 2
+  }
+}

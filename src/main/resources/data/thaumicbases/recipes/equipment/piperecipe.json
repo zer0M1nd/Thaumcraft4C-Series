@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Tobacco",
+  "mode": "shaped",
+  "pattern": [
+    "#@ ",
+    " ##"
+  ],
+  "key": {
+    "#": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "@": {
+      "item": "thaumcraft:salis_mundus"
+    }
+  },
+  "vis": {
+    "aer": 4,
+    "ignis": 4,
+    "aqua": 4,
+    "terra": 4,
+    "ordo": 4,
+    "perditio": 4
+  },
+  "result": {
+    "item": "thaumicbases:greatwood_pipe",
+    "count": 1
+  }
+}

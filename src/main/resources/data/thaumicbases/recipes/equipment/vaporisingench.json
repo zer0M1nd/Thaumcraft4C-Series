@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Vaporising",
+  "enchantment": "thaumicbases:vaporising",
+  "instability": 2,
+  "aspects": {
+    "praecantatio": 8,
+    "vitreus": 8,
+    "vinculum": 8
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      },
+      "damage": -1
+    }
+  ]
+}

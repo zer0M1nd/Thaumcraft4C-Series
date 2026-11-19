@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Tobacco",
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:tools/mortar"
+    },
+    {
+      "item": "thaumicbases:tobacco_leaves"
+    }
+  ],
+  "vis": {
+    "ordo": 1,
+    "perditio": 1
+  },
+  "result": {
+    "item": "thaumicbases:tobacco_pile"
+  }
+}

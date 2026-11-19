@@ -1,0 +1,98 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver",
+  "center": {
+    "ingredient": {
+      "item": "minecraft:iron_block"
+    },
+    "damage": -1
+  },
+  "instability": 5,
+  "aspects": {
+    "telum": 256,
+    "metallum": 32,
+    "arbor": 16,
+    "instrumentum": 12,
+    "potentia": 32,
+    "machina": 12,
+    "vacuos": 16,
+    "ignis": 32
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:fire_charge"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gunpowder"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_log"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gunpowder"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_fire"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:fire_charge"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gunpowder"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:bone_bow"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_log"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gunpowder"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone_torch"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:revolver"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.ElderKnowledge",
+  "enchantment": "thaumicbases:elder_knowledge",
+  "instability": 2,
+  "aspects": {
+    "praecantatio": 8,
+    "cognitio": 8,
+    "telum": 8
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:paper"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:paper"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:paper"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    }
+  ]
+}

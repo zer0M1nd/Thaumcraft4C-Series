@@ -1,0 +1,69 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.NodeFoci.Stability",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primal_charm"
+    },
+    "damage": -1
+  },
+  "instability": 1,
+  "aspects": {
+    "auram": 64,
+    "ordo": 32,
+    "permutatio": 16
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mirrored_glass"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_mixed"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mirrored_glass"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_mixed"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:node_focus_stability"
+  }
+}

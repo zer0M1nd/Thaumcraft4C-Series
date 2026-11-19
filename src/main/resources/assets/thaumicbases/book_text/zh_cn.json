@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "languages": [
+    "zh_cn"
+  ],
+  "patches": [
+    {
+      "keys": [
+        "tb.rec.revolver.page.1"
+      ],
+      "find": "生成的.1点",
+      "replace": "生成的。1点",
+      "count": 1
+    }
+  ]
+}

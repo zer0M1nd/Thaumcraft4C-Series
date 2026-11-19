@@ -1,0 +1,22 @@
+[
+  {
+    "tag": "thaumicbases:tbthaumium",
+    "capacity": 80,
+    "craftCost": 6,
+    "texture": "thaumicbases:textures/items/wand_rod_thaumium_uv.png",
+    "item": "thaumicbases:thaumium_wand_core",
+    "research": "ROD_tbthaumium",
+    "regenerateAll": true,
+    "regenerationInterval": 50
+  },
+  {
+    "tag": "thaumicbases:tbvoid",
+    "capacity": 160,
+    "craftCost": 16,
+    "texture": "thaumicbases:textures/items/wand_rod_void_uv.png",
+    "item": "thaumicbases:void_wand_core",
+    "research": "ROD_tbvoid",
+    "regenerateAll": true,
+    "regenerationInterval": 50
+  }
+]

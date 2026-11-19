@@ -1,0 +1,45 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Foci.Activation",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mirrored_glass"
+    },
+    "damage": -1
+  },
+  "instability": 0,
+  "aspects": {
+    "iter": 8,
+    "sensus": 8,
+    "motus": 8
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:focus_activation"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Bracelet.Thaumium",
+  "mode": "shaped",
+  "pattern": [
+    "CIC",
+    "INI",
+    "N N"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumicbases:thauminite_wand_cap"
+    },
+    "I": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "N": {
+      "item": "thaumcraft:salis_mundus"
+    }
+  },
+  "vis": {
+    "aer": 25,
+    "ignis": 25,
+    "aqua": 25,
+    "terra": 25,
+    "ordo": 25,
+    "perditio": 25
+  },
+  "result": {
+    "item": "thaumicbases:bracelet_thaumium",
+    "count": 1
+  }
+}

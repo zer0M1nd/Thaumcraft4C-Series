@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=north,damage=0": {
+      "model": "thaumicbases:block/thaumic_anvil_0",
+      "y": 0
+    },
+    "facing=east,damage=0": {
+      "model": "thaumicbases:block/thaumic_anvil_0",
+      "y": 90
+    },
+    "facing=south,damage=0": {
+      "model": "thaumicbases:block/thaumic_anvil_0",
+      "y": 180
+    },
+    "facing=west,damage=0": {
+      "model": "thaumicbases:block/thaumic_anvil_0",
+      "y": 270
+    },
+    "facing=north,damage=1": {
+      "model": "thaumicbases:block/thaumic_anvil_1",
+      "y": 0
+    },
+    "facing=east,damage=1": {
+      "model": "thaumicbases:block/thaumic_anvil_1",
+      "y": 90
+    },
+    "facing=south,damage=1": {
+      "model": "thaumicbases:block/thaumic_anvil_1",
+      "y": 180
+    },
+    "facing=west,damage=1": {
+      "model": "thaumicbases:block/thaumic_anvil_1",
+      "y": 270
+    },
+    "facing=north,damage=2": {
+      "model": "thaumicbases:block/thaumic_anvil_2",
+      "y": 0
+    },
+    "facing=east,damage=2": {
+      "model": "thaumicbases:block/thaumic_anvil_2",
+      "y": 90
+    },
+    "facing=south,damage=2": {
+      "model": "thaumicbases:block/thaumic_anvil_2",
+      "y": 180
+    },
+    "facing=west,damage=2": {
+      "model": "thaumicbases:block/thaumic_anvil_2",
+      "y": 270
+    }
+  }
+}

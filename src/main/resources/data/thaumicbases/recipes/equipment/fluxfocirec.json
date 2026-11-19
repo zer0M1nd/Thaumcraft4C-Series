@@ -1,0 +1,45 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Foci.Flux",
+  "center": {
+    "ingredient": {
+      "item": "minecraft:diamond"
+    },
+    "damage": -1
+  },
+  "instability": 3,
+  "aspects": {
+    "aqua": 16,
+    "vacuos": 16,
+    "ordo": 16
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:flux_scrubber"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_jar"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:focus_flux"
+  }
+}

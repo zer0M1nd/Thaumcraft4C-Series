@@ -1,0 +1,932 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/aspectshroom/stage_0"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/aspectshroom/stage_1"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/aspectshroom/stage_2"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/aspectshroom/stage_3"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/aurelia/closed"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/aurelia/open"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/aurelia/petal"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/blazingfluid/block"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/blazingfluid/leftovers"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_0_bot"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_0_top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_1_bot"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_1_top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_2_bot"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_2_top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_3_bot"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_3_top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_4_bot"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_4_top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_5_bot"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_5_top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_6_bot"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_6_top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_7_bot"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/briar/stage_7_top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/brick"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/cobblestone"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/cobblestone_mossy"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/cryingobelisk/cryingobelisk_sideb"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/cryingobelisk/cryingobelisk_sidet"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/cryingobelisk/cryingobelisk_tb"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/cryingobelisk/cryingobsidian"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/crystal/air"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/crystal/earth"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/crystal/entropy"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/crystal/fire"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/crystal/mixed"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/crystal/order"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/crystal/tainted"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/crystal/water"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/diamond_block"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/diamond_block_side"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/dust_block"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/eldritchark"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/endertree/leaves"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/endertree/log"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/endertree/log_top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/endertree/planks"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/endertree/sapling"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/entitydeconstructor/block"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/entitydeconstructor/glass"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/entitydeconstructor/goldbase"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/flaxium"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/glieonia/stage_0"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/glieonia/stage_1"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/glieonia/stage_2"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/glieonia/stage_3"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/gold_block"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/gold_block_side"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/goldenoak/leaves"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/goldenoak/sapling"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/gravel"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/iron_block"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/iron_block_side"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/irongreatwood"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/knoze/stage_0"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/knoze/stage_1"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/knoze/stage_2"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/knoze/stage_3"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lapis_block"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lazullia/stage_0"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lazullia/stage_1"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lazullia/stage_2"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lazullia/stage_3"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lazullia/stage_4"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lazullia/stage_5"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lazullia/stage_6"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lazullia/stage_7"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lucrite/stage_0"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lucrite/stage_1"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lucrite/stage_2"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lucrite/stage_3"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lucrite/stage_4"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lucrite/stage_5"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lucrite/stage_6"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/lucrite/stage_7"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/metalleat/stage_0"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/metalleat/stage_1"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/metalleat/stage_2"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/metalleat/stage_3"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/metalleat/stage_4"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/metalleat/stage_5"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/metalleat/stage_6"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/metalleat/stage_7"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nethertree/leaves"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nethertree/log"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nethertree/log_top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nethertree/sapling"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nodelinker/nodelinkeruv"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nodemanipulator/baseuvmap"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nodemanipulator/foci_brightness"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nodemanipulator/foci_destruction"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nodemanipulator/foci_efficiency"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nodemanipulator/foci_hunger"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nodemanipulator/foci_instability"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nodemanipulator/foci_purity"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nodemanipulator/foci_sinister"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nodemanipulator/foci_speed"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nodemanipulator/foci_stability"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/nodemanipulator/foci_taint"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/overchanter/bottom"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/overchanter/side"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/overchanter/top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/peacefulltree/leaves"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/peacefulltree/log"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/peacefulltree/log_top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/peacefulltree/sapling"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/plax/stage_0"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/plax/stage_1"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/plax/stage_2"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/plax/stage_3"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/plax/stage_4"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/plax/stage_5"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/plax/stage_6"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/plax/stage_7"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/quicksilverblock"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/quicksilverbrick"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/rainbowcacti/bottom"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/rainbowcacti/side"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/rainbowcacti/top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/redlon/redlon_connected"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/redlon/redlon_disconnected"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/relocator/rotatedside"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/spike/iron"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/spike/iron_bloody"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/spike/thaumic"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/spike/thaumic_bloody"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/spike/void"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/spike/void_bloody"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/sweed/stage_0"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/sweed/stage_1"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/sweed/stage_2"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/sweed/stage_3"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tfurnace/front_off"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tfurnace/front_on"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tfurnace/side"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tfurnace/top"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tfurnace/top_filled"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/thauminiteblock"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/thaumiumanvil/base"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/thaumiumanvil/top_damaged_0"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/thaumiumanvil/top_damaged_1"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/thaumiumanvil/top_damaged_2"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tobacco/stage_0"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tobacco/stage_1"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tobacco/stage_2"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tobacco/stage_3"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tobacco/stage_4"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tobacco/stage_5"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tobacco/stage_6"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/tobacco/stage_7"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/voidanvil/base"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/voidanvil/top_damaged_0"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/voidanvil/top_damaged_1"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/voidanvil/top_damaged_2"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/voidblock"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/voidplant/stage_0"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/voidplant/stage_1"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/voidplant/stage_2"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:blocks/voidplant/stage_3"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/aurelia_petal"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/bloodycloth"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/bloodyrobes/bloodyboots"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/bloodyrobes/bloodychest"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/bloodyrobes/bloodylegs"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/briar_seedbag"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/bucket_blazing_fluid"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/concentratedtaint"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/flint_and_steel"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/foci/activation/foci"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/foci/drain/foci"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/foci/experience/foci"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/foci/flux/foci"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/glieonia_seed"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/knose/airfragment"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/knose/aquafragment"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/knose/entropyfragment"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/knose/firefragment"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/knose/mixedfragment"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/knose/orderfragment"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/knose/taintedfragment"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/knose/terrafragment"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/knose_seed"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/lazullia_seeds"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/lucrite_seeds"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/metalleat_seeds"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/mortar"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/nuggetthauminite"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/plax_seeds"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/redlon_seed"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/rosehip_syrup"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/seeds_sweed"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/shears"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/smokingpipe"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/smokingpipe_silverwood"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thauminite/thauminite_ingot"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thauminite/thauminiteaxe"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thauminite/thauminiteboots"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thauminite/thauminitechest"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thauminite/thauminitehelm"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thauminite/thauminitehoe"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thauminite/thauminitelegs"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thauminite/thauminitepick"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thauminite/thauminiteshears"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thauminite/thauminiteshovel"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thauminite/thauminitesword"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thauminite/wand_cap_thauminite"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/thaumium_wand_core"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/tobacco_eldritch"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/tobacco_fighting"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/tobacco_hunger"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/tobacco_knowledge"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/tobacco_leaves"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/tobacco_mining"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/tobacco_pile"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/tobacco_sanity"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/tobacco_seeds"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/tobacco_tainted"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/tobacco_wispy"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/void_seed"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/void_wand_core"
+    },
+    {
+      "type": "single",
+      "resource": "thaumicbases:items/herobrinesscythe"
+    }
+  ]
+}

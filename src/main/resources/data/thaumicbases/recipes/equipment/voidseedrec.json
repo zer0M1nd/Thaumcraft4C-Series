@@ -1,0 +1,57 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.VoidSeed",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_seed"
+    },
+    "damage": -1
+  },
+  "instability": 3,
+  "aspects": {
+    "alienis": 16,
+    "tenebrae": 16,
+    "messis": 16
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:wheat_seeds"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:pumpkin_seeds"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:melon_seeds"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:poisonous_potato"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:carrot"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_wart"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:void_seed"
+  }
+}

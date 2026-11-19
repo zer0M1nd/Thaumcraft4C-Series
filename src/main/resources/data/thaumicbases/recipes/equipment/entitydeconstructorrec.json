@@ -1,0 +1,69 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.EntityDec",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumometer"
+    },
+    "damage": -1
+  },
+  "instability": 4,
+  "aspects": {
+    "mortuus": 16,
+    "spiritus": 4,
+    "cognitio": 16
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:light_weighted_pressure_plate"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:light_weighted_pressure_plate"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:heavy_weighted_pressure_plate"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:heavy_weighted_pressure_plate"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:entity_deconstructor"
+  }
+}

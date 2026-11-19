@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver.Heavy",
+  "instability": 2,
+  "center": {
+    "ingredient": {
+      "type": "thaumicbases:revolver_upgrade",
+      "upgrade": "thaumicbases:heavy",
+      "level": 2
+    },
+    "damage": -1,
+    "display": [
+      {
+        "item": "thaumicbases:revolver",
+        "nbt": "{\"tbUpgrade:thaumicbases:heavy\": 2}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "telum": 32,
+    "metallum": 32
+  },
+  "result": {
+    "patch": "{\"tbUpgrade:thaumicbases:heavy\": 3}"
+  }
+}

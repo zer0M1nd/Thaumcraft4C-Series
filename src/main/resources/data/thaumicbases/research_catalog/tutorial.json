@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_THAUMICBASES",
+          "category": "TUTORIAL",
+          "displayColumn": 45,
+          "displayRow": -6,
+          "parents": [
+            "TUT_CRUCIBLE_MORE"
+          ],
+          "icon_item": {
+            "item": "thaumicbases:bracelet_iron",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumicbases"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "TB.DecoBlocks",
+            "TB.Thauminite",
+            "TB.BasicPlants",
+            "TB.AdvAlc",
+            "TB.Bracelet.Iron",
+            "TB.NodeMan"
+          ],
+          "pageCount": 8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Foci.Experience",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_excavation"
+    },
+    "damage": -1
+  },
+  "instability": 5,
+  "aspects": {
+    "lucrum": 32,
+    "vacuos": 32,
+    "cognitio": 16,
+    "fames": 32,
+    "perfodio": 8
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_axe"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_pickaxe"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_shovel"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:shears"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:focus_experience"
+  }
+}

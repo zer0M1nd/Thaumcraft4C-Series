@@ -1,0 +1,45 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.CryingObs",
+  "center": {
+    "ingredient": {
+      "item": "minecraft:obsidian"
+    },
+    "damage": -1
+  },
+  "instability": 2,
+  "aspects": {
+    "iter": 16,
+    "victus": 16,
+    "spiritus": 16
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:red_bed"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:old_lapis"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:old_lapis"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "minecraft:crying_obsidian"
+  }
+}

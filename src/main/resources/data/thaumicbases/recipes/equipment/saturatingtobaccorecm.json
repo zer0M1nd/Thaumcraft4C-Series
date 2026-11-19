@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Tobacco.Saturating",
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicbases:tobacco_pile"
+    },
+    {
+      "item": "minecraft:melon_seeds"
+    }
+  ],
+  "vis": {
+    "terra": 10,
+    "ignis": 10,
+    "aqua": 10
+  },
+  "result": {
+    "item": "thaumicbases:tobacco_hunger"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.DecoBlocks",
+  "mode": "shaped",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gravel"
+    },
+    "@": {
+      "item": "thaumcraft:entropy_crystal_cluster"
+    }
+  },
+  "vis": {
+    "perditio": 5
+  },
+  "result": {
+    "item": "thaumicbases:old_gravel",
+    "count": 8
+  }
+}

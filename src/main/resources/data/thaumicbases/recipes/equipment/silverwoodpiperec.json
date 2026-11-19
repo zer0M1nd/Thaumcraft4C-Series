@@ -1,0 +1,69 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.SilverwoodPipe",
+  "center": {
+    "ingredient": {
+      "item": "thaumicbases:greatwood_pipe"
+    },
+    "damage": -1
+  },
+  "instability": 4,
+  "aspects": {
+    "auram": 8,
+    "ordo": 32,
+    "sano": 16
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:silverwood_planks"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:silverwood_planks"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:silverwood_planks"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:silverwood_planks"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:shimmerleaf"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:silverwood_pipe"
+  }
+}

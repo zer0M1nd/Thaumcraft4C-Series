@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Relocator",
+  "mode": "shaped",
+  "pattern": [
+    "GAG",
+    "ENE",
+    "GWG"
+  ],
+  "key": {
+    "G": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "A": {
+      "item": "thaumcraft:air_shard"
+    },
+    "E": {
+      "item": "thaumcraft:earth_shard"
+    },
+    "W": {
+      "item": "thaumcraft:water_shard"
+    },
+    "N": {
+      "item": "thaumcraft:nitor"
+    }
+  },
+  "vis": {
+    "aer": 5,
+    "terra": 15,
+    "aqua": 5
+  },
+  "result": {
+    "item": "thaumicbases:relocator",
+    "count": 1
+  }
+}

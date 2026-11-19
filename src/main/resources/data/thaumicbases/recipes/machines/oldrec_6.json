@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.DecoBlocks",
+  "mode": "shaped",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_block"
+    },
+    "@": {
+      "item": "thaumcraft:entropy_crystal_cluster"
+    }
+  },
+  "vis": {
+    "perditio": 5
+  },
+  "result": {
+    "item": "thaumicbases:old_gold",
+    "count": 8
+  }
+}

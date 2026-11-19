@@ -1,0 +1,45 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Bracelet.Ice",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_rod_ice"
+    },
+    "damage": -1
+  },
+  "instability": 2,
+  "aspects": {
+    "aqua": 24,
+    "gelum": 12,
+    "praecantatio": 8
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:bracelet_ice"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver.Tainted",
+  "instability": 14,
+  "center": {
+    "ingredient": {
+      "type": "thaumicbases:revolver_upgrade",
+      "upgrade": "thaumicbases:tainted",
+      "level": 2
+    },
+    "damage": -1,
+    "display": [
+      {
+        "item": "thaumicbases:revolver",
+        "nbt": "{\"tbUpgrade:thaumicbases:tainted\": 2}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "vitium": 32,
+    "telum": 32
+  },
+  "result": {
+    "patch": "{\"tbUpgrade:thaumicbases:tainted\": 3}"
+  }
+}

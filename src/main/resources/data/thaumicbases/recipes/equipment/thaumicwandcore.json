@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "ROD_tbthaumium",
+  "mode": "shaped",
+  "pattern": [
+    " @#",
+    "@#@",
+    "#@ "
+  ],
+  "key": {
+    "#": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "@": {
+      "item": "thaumcraft:salis_mundus"
+    }
+  },
+  "vis": {
+    "aer": 50,
+    "ignis": 50,
+    "aqua": 50,
+    "terra": 50,
+    "ordo": 50,
+    "perditio": 50
+  },
+  "result": {
+    "item": "thaumicbases:thaumium_wand_core",
+    "count": 1
+  }
+}

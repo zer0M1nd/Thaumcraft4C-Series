@@ -1,0 +1,64 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver.Accuracy",
+  "instability": 2,
+  "center": {
+    "ingredient": {
+      "type": "thaumicbases:revolver_upgrade",
+      "upgrade": "thaumicbases:accuracy",
+      "level": 1
+    },
+    "damage": -1,
+    "display": [
+      {
+        "item": "thaumicbases:revolver",
+        "nbt": "{\"tbUpgrade:thaumicbases:accuracy\": 1}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:glass_pane"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:carrot"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glass_pane"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glass_pane"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glass_pane"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "ordo": 16,
+    "sensus": 16
+  },
+  "result": {
+    "patch": "{\"tbUpgrade:thaumicbases:accuracy\": 2}"
+  }
+}

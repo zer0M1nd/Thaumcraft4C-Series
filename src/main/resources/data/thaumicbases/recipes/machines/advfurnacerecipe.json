@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.AdvAlc",
+  "mode": "shaped",
+  "pattern": [
+    "# #",
+    "#@#",
+    "$$$"
+  ],
+  "key": {
+    "#": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "@": {
+      "item": "thaumcraft:alchemy_furnace"
+    },
+    "$": {
+      "item": "thaumcraft:bellows"
+    }
+  },
+  "vis": {
+    "aqua": 20,
+    "ignis": 20,
+    "aer": 10
+  },
+  "result": {
+    "item": "thaumicbases:advanced_alchemical_furnace",
+    "count": 1
+  }
+}

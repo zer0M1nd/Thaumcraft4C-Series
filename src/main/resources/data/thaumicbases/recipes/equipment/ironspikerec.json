@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Spike.Iron",
+  "mode": "shaped",
+  "pattern": [
+    " * ",
+    "*#*",
+    "#_#"
+  ],
+  "key": {
+    "*": {
+      "tag": "forge:nuggets/iron"
+    },
+    "#": {
+      "tag": "forge:ingots/iron"
+    },
+    "_": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    }
+  },
+  "vis": {
+    "ignis": 1,
+    "perditio": 1
+  },
+  "result": {
+    "item": "thaumicbases:spike_iron",
+    "count": 1
+  }
+}

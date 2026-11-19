@@ -1,0 +1,44 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Foci.Drain",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_excavation"
+    },
+    "damage": -1
+  },
+  "instability": 0,
+  "aspects": {
+    "aqua": 3,
+    "vacuos": 6
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:bucket"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bucket"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_jar"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_jar"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:focus_drain"
+  }
+}

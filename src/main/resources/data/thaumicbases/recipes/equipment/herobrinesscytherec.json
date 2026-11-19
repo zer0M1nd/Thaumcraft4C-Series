@@ -1,0 +1,47 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.HerobrinesScythe",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_hoe"
+    },
+    "damage": -1
+  },
+  "instability": 7,
+  "aspects": {
+    "telum": 128,
+    "potentia": 64,
+    "auram": 12,
+    "alienis": 32,
+    "mortuus": 64
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:liquid_death_bucket"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:staff_rod_primal"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:liquid_death_bucket"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:herobrines_scythe"
+  }
+}

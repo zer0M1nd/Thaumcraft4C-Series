@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Bracelet.Iron",
+  "mode": "shaped",
+  "pattern": [
+    "CIC",
+    "N N"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumcraft:wand_cap_iron"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "N": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "vis": {
+    "aer": 1,
+    "ignis": 1,
+    "aqua": 1,
+    "terra": 1,
+    "ordo": 1,
+    "perditio": 1
+  },
+  "result": {
+    "item": "thaumicbases:bracelet_iron",
+    "count": 1
+  }
+}

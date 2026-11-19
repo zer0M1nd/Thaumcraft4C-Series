@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "TB.CrystalBlocks",
+  "legacy_order": 10050,
+  "result": {
+    "item": "thaumicbases:crystal_earth",
+    "count": 1
+  },
+  "catalyst": {
+    "item": "thaumcraft:earth_crystal_cluster"
+  },
+  "aspects": {
+    "aer": 1,
+    "ignis": 1,
+    "aqua": 1,
+    "terra": 3,
+    "ordo": 1,
+    "perditio": 1,
+    "fabrico": 2
+  }
+}

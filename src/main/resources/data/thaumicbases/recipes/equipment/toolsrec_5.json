@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Thauminite",
+  "mode": "shaped",
+  "pattern": [
+    "###",
+    " | ",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "thaumicbases:thauminite_ingot"
+    },
+    "|": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "vis": {
+    "aer": 15,
+    "ignis": 15,
+    "aqua": 15,
+    "terra": 15,
+    "ordo": 15,
+    "perditio": 15
+  },
+  "result": {
+    "item": "thaumicbases:thauminite_pickaxe",
+    "count": 1
+  }
+}

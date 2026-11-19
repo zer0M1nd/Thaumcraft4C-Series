@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.BloodyRobes",
+  "mode": "shaped",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "thaumicbases:bloody_cloth"
+    }
+  },
+  "vis": {
+    "terra": 3
+  },
+  "result": {
+    "item": "thaumicbases:bloody_boots",
+    "count": 1
+  }
+}

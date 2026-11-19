@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "TB.CrystalBlocks",
+  "legacy_order": 10056,
+  "result": {
+    "item": "thaumicbases:crystal_mixed",
+    "count": 1
+  },
+  "catalyst": {
+    "item": "thaumcraft:mixed_crystal_cluster"
+  },
+  "aspects": {
+    "aer": 2,
+    "ignis": 2,
+    "aqua": 2,
+    "terra": 2,
+    "ordo": 2,
+    "perditio": 2,
+    "fabrico": 2
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver.Eldritch",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "type": "thaumicbases:revolver_upgrade",
+      "upgrade": "thaumicbases:eldritch",
+      "level": 0
+    },
+    "damage": -1,
+    "display": [
+      {
+        "item": "thaumicbases:revolver",
+        "nbt": "{\"tbUpgrade:thaumicbases:eldritch\": 0}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "alienis": 8,
+    "vacuos": 8
+  },
+  "result": {
+    "patch": "{\"tbUpgrade:thaumicbases:eldritch\": 1}"
+  }
+}

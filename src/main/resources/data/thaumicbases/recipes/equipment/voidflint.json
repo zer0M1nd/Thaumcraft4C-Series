@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    " C"
+  ],
+  "key": {
+    "#": {
+      "item": "thaumcraft:void_ingot"
+    },
+    "C": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "thaumicbases:void_flint_and_steel"
+  }
+}
