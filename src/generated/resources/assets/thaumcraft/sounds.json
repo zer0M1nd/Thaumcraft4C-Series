@@ -1,0 +1,689 @@
+{
+  "alembicknock": {
+    "sounds": [
+      {
+        "name": "thaumcraft:alembicknock",
+        "stream": false
+      }
+    ]
+  },
+  "brain": {
+    "sounds": [
+      {
+        "name": "thaumcraft:brain1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:brain2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:brain3",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:brain4",
+        "stream": false
+      }
+    ]
+  },
+  "bubble": {
+    "sounds": [
+      {
+        "name": "thaumcraft:bubble1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:bubble2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:bubble3",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:bubble4",
+        "stream": false
+      }
+    ]
+  },
+  "cameraclack": {
+    "sounds": [
+      {
+        "name": "thaumcraft:cameraclack1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:cameraclack2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:cameraclack3",
+        "stream": false
+      }
+    ]
+  },
+  "cameraticks": {
+    "sounds": [
+      {
+        "name": "thaumcraft:cameraticks",
+        "stream": false
+      }
+    ]
+  },
+  "chant": {
+    "sounds": [
+      {
+        "name": "thaumcraft:chant1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:chant2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:chant3",
+        "stream": false
+      }
+    ]
+  },
+  "coins": {
+    "sounds": [
+      "thaumcraft:coins"
+    ]
+  },
+  "crabclaw": {
+    "sounds": [
+      {
+        "name": "thaumcraft:crabclaw",
+        "stream": false
+      }
+    ]
+  },
+  "crabdeath": {
+    "sounds": [
+      {
+        "name": "thaumcraft:crabdeath",
+        "stream": false
+      }
+    ]
+  },
+  "crabtalk": {
+    "sounds": [
+      {
+        "name": "thaumcraft:crabtalk1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:crabtalk2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:crabtalk3",
+        "stream": false
+      }
+    ]
+  },
+  "craftfail": {
+    "sounds": [
+      {
+        "name": "thaumcraft:craftfail",
+        "stream": false
+      }
+    ]
+  },
+  "craftstart": {
+    "sounds": [
+      {
+        "name": "thaumcraft:craftstart",
+        "stream": false
+      }
+    ]
+  },
+  "creak": {
+    "sounds": [
+      {
+        "name": "thaumcraft:creak1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:creak2",
+        "stream": false
+      }
+    ]
+  },
+  "crystal": {
+    "sounds": [
+      {
+        "name": "thaumcraft:crystal",
+        "stream": false
+      }
+    ]
+  },
+  "doorfail": {
+    "sounds": [
+      {
+        "name": "thaumcraft:doorfail",
+        "stream": false
+      }
+    ]
+  },
+  "egattack": {
+    "sounds": [
+      {
+        "name": "thaumcraft:egattack",
+        "stream": false
+      }
+    ]
+  },
+  "egdeath": {
+    "sounds": [
+      {
+        "name": "thaumcraft:egdeath",
+        "stream": false
+      }
+    ]
+  },
+  "egidle": {
+    "sounds": [
+      {
+        "name": "thaumcraft:egidle1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:egidle2",
+        "stream": false
+      }
+    ]
+  },
+  "egscreech": {
+    "sounds": [
+      {
+        "name": "thaumcraft:egscreech",
+        "stream": false
+      }
+    ]
+  },
+  "erase": {
+    "sounds": [
+      {
+        "name": "thaumcraft:erase",
+        "stream": false
+      }
+    ]
+  },
+  "evilportal": {
+    "sounds": [
+      {
+        "name": "thaumcraft:evilportal",
+        "stream": false
+      }
+    ]
+  },
+  "fireloop": {
+    "sounds": [
+      {
+        "name": "thaumcraft:fireloop",
+        "stream": false
+      }
+    ]
+  },
+  "fly": {
+    "sounds": [
+      {
+        "name": "thaumcraft:fly1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:fly2",
+        "stream": false
+      }
+    ]
+  },
+  "golemironshoot": {
+    "sounds": [
+      "thaumcraft:golemironshoot"
+    ]
+  },
+  "gore": {
+    "sounds": [
+      {
+        "name": "thaumcraft:gore1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:gore2",
+        "stream": false
+      }
+    ]
+  },
+  "heartbeat": {
+    "sounds": [
+      {
+        "name": "thaumcraft:heartbeat",
+        "stream": false
+      }
+    ]
+  },
+  "hhoff": {
+    "sounds": [
+      {
+        "name": "thaumcraft:hhoff",
+        "stream": false
+      }
+    ]
+  },
+  "hhon": {
+    "sounds": [
+      {
+        "name": "thaumcraft:hhon",
+        "stream": false
+      }
+    ]
+  },
+  "ice": {
+    "sounds": [
+      {
+        "name": "thaumcraft:ice1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:ice2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:ice3",
+        "stream": false
+      }
+    ]
+  },
+  "infuser": {
+    "sounds": [
+      {
+        "name": "thaumcraft:infuser",
+        "stream": false
+      }
+    ]
+  },
+  "infuserstart": {
+    "sounds": [
+      {
+        "name": "thaumcraft:infuserstart",
+        "stream": false
+      }
+    ]
+  },
+  "jacobs": {
+    "sounds": [
+      {
+        "name": "thaumcraft:jacobs",
+        "stream": false
+      }
+    ]
+  },
+  "jar": {
+    "sounds": [
+      "thaumcraft:jar1",
+      "thaumcraft:jar2",
+      "thaumcraft:jar3",
+      "thaumcraft:jar4"
+    ]
+  },
+  "key": {
+    "sounds": [
+      {
+        "name": "thaumcraft:key",
+        "stream": false
+      }
+    ]
+  },
+  "learn": {
+    "sounds": [
+      {
+        "name": "thaumcraft:learn",
+        "stream": false
+      }
+    ]
+  },
+  "monolith": {
+    "sounds": [
+      {
+        "name": "thaumcraft:monolith",
+        "stream": false
+      }
+    ]
+  },
+  "page": {
+    "sounds": [
+      {
+        "name": "thaumcraft:page1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:page2",
+        "stream": false
+      }
+    ]
+  },
+  "pech_charge": {
+    "sounds": [
+      {
+        "name": "thaumcraft:pech_charge1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:pech_charge2",
+        "stream": false
+      }
+    ]
+  },
+  "pech_death": {
+    "sounds": [
+      {
+        "name": "thaumcraft:pech_death",
+        "stream": false
+      }
+    ]
+  },
+  "pech_dice": {
+    "sounds": [
+      {
+        "name": "thaumcraft:pech_dice",
+        "stream": false
+      }
+    ]
+  },
+  "pech_hit": {
+    "sounds": [
+      {
+        "name": "thaumcraft:pech_hit1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:pech_hit2",
+        "stream": false
+      }
+    ]
+  },
+  "pech_idle": {
+    "sounds": [
+      {
+        "name": "thaumcraft:pech_idle1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:pech_idle2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:pech_idle3",
+        "stream": false
+      }
+    ]
+  },
+  "pech_trade": {
+    "sounds": [
+      {
+        "name": "thaumcraft:pech_trade",
+        "stream": false
+      }
+    ]
+  },
+  "pump": {
+    "sounds": [
+      {
+        "name": "thaumcraft:pump1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:pump2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:pump3",
+        "stream": false
+      }
+    ]
+  },
+  "roots": {
+    "sounds": [
+      {
+        "name": "thaumcraft:roots1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:roots2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:roots3",
+        "stream": false
+      }
+    ]
+  },
+  "rumble": {
+    "sounds": [
+      {
+        "name": "thaumcraft:rumble",
+        "stream": false
+      }
+    ]
+  },
+  "runic_shield_charge": {
+    "sounds": [
+      {
+        "name": "thaumcraft:runic_shield_charge",
+        "stream": false
+      }
+    ]
+  },
+  "runic_shield_effect": {
+    "sounds": [
+      {
+        "name": "thaumcraft:runic_shield_effect",
+        "stream": false
+      }
+    ]
+  },
+  "shock": {
+    "sounds": [
+      {
+        "name": "thaumcraft:shock1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:shock2",
+        "stream": false
+      }
+    ]
+  },
+  "spill": {
+    "sounds": [
+      {
+        "name": "thaumcraft:spill",
+        "stream": false
+      }
+    ]
+  },
+  "squeek": {
+    "sounds": [
+      {
+        "name": "thaumcraft:squeek1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:squeek2",
+        "stream": false
+      }
+    ]
+  },
+  "swarm": {
+    "sounds": [
+      {
+        "name": "thaumcraft:swarm1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:swarm2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:swarm3",
+        "stream": false
+      }
+    ]
+  },
+  "swarmattack": {
+    "sounds": [
+      {
+        "name": "thaumcraft:swarmattack",
+        "stream": false
+      }
+    ]
+  },
+  "swing": {
+    "sounds": [
+      {
+        "name": "thaumcraft:swing1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:swing2",
+        "stream": false
+      }
+    ]
+  },
+  "tentacle": {
+    "sounds": [
+      {
+        "name": "thaumcraft:tentacle1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:tentacle2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:tentacle3",
+        "stream": false
+      }
+    ]
+  },
+  "tool": {
+    "sounds": [
+      {
+        "name": "thaumcraft:tool1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:tool2",
+        "stream": false
+      }
+    ]
+  },
+  "upgrade": {
+    "sounds": [
+      "thaumcraft:upgrade"
+    ]
+  },
+  "urnbreak": {
+    "sounds": [
+      {
+        "name": "thaumcraft:urnbreak",
+        "stream": false
+      }
+    ]
+  },
+  "wand": {
+    "sounds": [
+      {
+        "name": "thaumcraft:wand1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:wand2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:wand3",
+        "stream": false
+      }
+    ]
+  },
+  "wandfail": {
+    "sounds": [
+      {
+        "name": "thaumcraft:wandfail",
+        "stream": false
+      }
+    ]
+  },
+  "whispers": {
+    "sounds": [
+      {
+        "name": "thaumcraft:whispers",
+        "stream": false
+      }
+    ]
+  },
+  "wind": {
+    "sounds": [
+      {
+        "name": "thaumcraft:wind1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:wind2",
+        "stream": false
+      }
+    ]
+  },
+  "wispdead": {
+    "sounds": [
+      {
+        "name": "thaumcraft:wispdead",
+        "stream": false
+      }
+    ]
+  },
+  "wisplive": {
+    "sounds": [
+      {
+        "name": "thaumcraft:wisplive1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:wisplive2",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:wisplive3",
+        "stream": false
+      }
+    ]
+  },
+  "write": {
+    "sounds": [
+      {
+        "name": "thaumcraft:write1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:write2",
+        "stream": false
+      }
+    ]
+  },
+  "zap": {
+    "sounds": [
+      {
+        "name": "thaumcraft:zap1",
+        "stream": false
+      },
+      {
+        "name": "thaumcraft:zap2",
+        "stream": false
+      }
+    ]
+  }
+}

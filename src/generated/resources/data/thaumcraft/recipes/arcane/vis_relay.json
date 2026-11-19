@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "thaumcraft:balanced_shard"
+    }
+  },
+  "pattern": [
+    " I ",
+    "ISI",
+    " I "
+  ],
+  "research": "VISPOWER",
+  "result": {
+    "count": 2,
+    "item": "thaumcraft:vis_relay"
+  },
+  "vis": {
+    "ignis": 8,
+    "ordo": 8
+  }
+}

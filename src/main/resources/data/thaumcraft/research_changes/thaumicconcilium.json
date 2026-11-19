@@ -1,0 +1,685 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicconcilium:xylography_safe",
+      "research": "thaumicconcilium:XYLOGRAPHY",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "木刻已修正：只接受一根法杖，完整保留其数据，避免多根输入时吞杖。",
+          "en_us": "Xylography accepts exactly one wand and preserves all its data, preventing lost extra wands."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:cooling_ticks",
+      "research": "thaumicconcilium:COOLINGFOCI",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "冷却核心适配新版：效果按游戏刻计时，高潜能的冷却周期最低为1刻。",
+          "en_us": "Cooling uses game ticks, with a minimum one-tick interval at high Potency."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:crystal_storage",
+      "research": "thaumicconcilium:DESTCRYSTAL",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "失稳晶体储存已修正：耗尽后的首次输入正常入账，采下的晶体保留内容。",
+          "en_us": "Destabilized Crystals accept the first input after depletion and retain their contents when harvested."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:conductor_owner",
+      "research": "thaumicconcilium:VISCONDUCTOR",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "灵气导流已修正：充能精灵保留施法者并避开友军，高潜能不再产生无效伤害。",
+          "en_us": "Charged Wisps retain their caster and avoid allies; high Potency no longer produces invalid damage."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:polishment_altar",
+      "research": "thaumicconcilium:VISCONDUCTOR",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "润饰扣费已修正：仅使用实际完成注魔的祭坛，失败时返还本次付款，不再误扣附近祭坛。",
+          "en_us": "Polishment uses the altar that completed the infusion and rolls payment back on failure, without charging nearby altars."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:spawn_once",
+      "research": "thaumicconcilium:MADTHAUMATURGES",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "疯狂魔导师生成已修正：巨脑僵尸的随机替换只在初次生成时判定，读档不重抽。",
+          "en_us": "Giant Brainy Zombie replacement is rolled only on initial spawning, never again on loading."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:reflection_xp",
+      "research": "thaumicconcilium:REFLECTIONFOCI",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "反射核心扣费已修正：按真实等级和经验条计算余额，自动施法不能挪用主人的研究点。",
+          "en_us": "Reflection uses actual levels and XP progress; automated casters cannot spend their owner’s research points."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:signal_dyes",
+      "research": "thaumicconcilium:SIGNALFOCI",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "信号核心适配新版：使用16种现代染料；信号烟花不额外造成烟花伤害。",
+          "en_us": "Signal foci use the sixteen modern dyes; their fireworks cause no additional firework damage."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:impulse_focus",
+      "research": "thaumicconcilium:IMPULSEFOCI",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "冲击核心已修正：正确读取核心的升级与消耗，爆炸遵守保护和生物破坏规则。",
+          "en_us": "Impulse reads upgrades and costs from its focus and respects protection and mob-griefing rules."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:trade_returns",
+      "research": "thaumicconcilium:THAUMATURGES",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "魔导师交易已修正：关闭界面或奖励槽满时返还剩余物品，远离或激怒商人后不能继续交易。",
+          "en_us": "Trading returns leftover items when closed or full, and stops when the trader is distant or hostile."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:rift_saved",
+      "research": "thaumicconcilium:RIFTS",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "自然裂隙已修正：随机事件可正常产生充能精灵，坍缩进度会保存。",
+          "en_us": "Natural Rifts correctly spawn Charged Wisps during random events and preserve collapse progress."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:hex_structure",
+      "research": "thaumicconcilium:HEXOFPREDICTABILITY",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "六方结构已修正：严格检查3×3范围内的八块邪术石，失败不扣魔力，拆除不掉落基岩。",
+          "en_us": "The Hex requires eight Eldritch Stones in its 3×3 frame. Failed assembly costs no vis; dismantling never drops bedrock."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:rift_catalyst",
+      "research": "thaumicconcilium:HEXOFPREDICTABILITY",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "裂隙合成已修正：只消耗配方所需数量的催化物，不再吞掉整叠；储存的源质仍会全部清空。",
+          "en_us": "Rift crafting consumes only the required catalyst count, rather than its entire stack. Stored essentia is still fully emptied."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:monitor_state",
+      "research": "thaumicconcilium:ASTRALMONITOR",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "星体监视器已修正：载体锁定并保存；目标离线或离开维度时清空旧读数。颜色节奏不再受帧率影响。",
+          "en_us": "Astral Monitors lock and save their carrier, clear stale readings for offline or out-of-dimension targets, and animate by game ticks."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:brightest_saved",
+      "research": "thaumicconcilium:BRIGHTESTONE",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "最耀者已修正：保存短路与攻击进度，读档不重置生命；最终短路只掉落一次，召唤失败后重试不重复扣精灵。",
+          "en_us": "The Brightest One saves combat and short-circuit progress without healing on reload. Final drops occur once; failed summons do not consume extra wisps on retry."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:warp_caster",
+      "research": "thaumicconcilium:WARPEXTRACTIONFOCI",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "扭曲汲取已修正：正确记录施法者与自笞效果来源，充能的威力和寿命可保存。",
+          "en_us": "Warp Extraction preserves the caster, power and lifetime of its charges and correctly attributes self-inflicted effects."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:protobody_once",
+      "research": "thaumicconcilium:PROTOBODY",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "原躯拆分已修正：肢体正常向外抛散，部分生成被取消或读档时不重复生成已产生的肢体。",
+          "en_us": "Protobody limbs scatter correctly, and successful limbs are not duplicated after partial cancellation or reloading."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:void_height",
+      "research": "thaumicconcilium:SOLIDVOID",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "虚空高度适配新版：以当前维度最低建造高度为界；原躯在其下方16格拆分。",
+          "en_us": "Void boundaries follow the dimension’s minimum build height; Protobodies split sixteen blocks below it."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:syringe_payment",
+      "research": "thaumicconcilium:DRAINAGESYRINGE",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "引流注射器已修正：装满后不继续伤害，回充只扣实际接收量，并遵守PvP与攻击保护。",
+          "en_us": "Drainage Syringes stop damaging when full, charge only what the recipient accepts, and respect PvP and attack protection."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:mind_coordinates",
+      "research": "thaumicconcilium:REDPOWEREDMIND",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "红能思维适配新版：读取现代晶眼坐标；眼刻印可跨维度读取已加载区块，星体监视器仍限同维度。",
+          "en_us": "Red-Powered Minds read modern Crystal Eye coordinates. Eye engravings may read loaded chunks across dimensions; Astral Monitors remain dimension-local."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:mill_payment",
+      "research": "thaumicconcilium:SHARDMILL",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "碎片磨盘扣费已修正：每次成功喷出粉末立即扣料，中断使用不再免单。选料键可重绑，默认为Alt+J。",
+          "en_us": "Shard Mills pay for each successful dust shot immediately, including interrupted use. Selection is rebindable and defaults to Alt+J."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:silvermill_payment",
+      "research": "thaumicconcilium:SILVERWOODSHARDMILL",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "银树磨盘已修正：装料必须匹配所选碎片，每次喷出立即扣料；嫉妒粉末读档保留归属与连锁层数。选料键默认Alt+J。",
+          "en_us": "Silverwood Mills require the selected shard type and pay per shot. Envy dust saves its caster and chain depth. Selection defaults to Alt+J."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:spotlight_damage",
+      "research": "thaumicconcilium:SPOTLIGHTFOCI",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "聚光核心伤害已修正：经过正常伤害、保护与死亡掉落流程。",
+          "en_us": "Spotlight damage follows normal damage, protection, death and drop handling."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:pontifex_damage",
+      "research": "thaumicconcilium:CRIMSONPONTIFEX",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "血腥教皇已修正：随从消失后解除相应减伤，范围攻击正常执行；攻击实际生效才回血或清除护盾。",
+          "en_us": "The Pontifex loses minion-based protection when minions are gone and performs area attacks correctly. Healing and shield removal require successful hits."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:peeler_center",
+      "research": "thaumicconcilium:MATERIALPEELER",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "物质剥离器已修正：保存准确中心，中心区块暂时卸载不会误触发坍缩。",
+          "en_us": "Material Peelers preserve their exact center and do not collapse merely because its chunk unloads."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:robe_keys",
+      "research": "thaumicconcilium:PONTIFEXROBE",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "教皇法袍适配新版：能力键可重绑，默认为Alt+L；染色配方接受任意黑色染料。",
+          "en_us": "Pontifex Robe abilities are rebindable and default to Alt+L. Dyeing accepts any black dye."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:ars_rod_witchwood",
+      "research": "thaumicconcilium:ROD_witchwood",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "configuration": "forbidden_magic:compatibility.conversionWands",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "arsmagicalegacy"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.conversionWands",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "奥术魔法联动适配新版：改用Ars Magica: Legacy的材料与魔力系统。",
+          "en_us": "Ars Magica integration uses Ars Magica: Legacy materials and mana."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:ars_rod_witchwood_staff",
+      "research": "thaumicconcilium:ROD_witchwood_staff",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "configuration": "forbidden_magic:compatibility.conversionWands",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "arsmagicalegacy"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.conversionWands",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "奥术魔法联动适配新版：改用Ars Magica: Legacy的材料与魔力系统。",
+          "en_us": "Ars Magica integration uses Ars Magica: Legacy materials and mana."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:ars_cap_vinteum",
+      "research": "thaumicconcilium:CAP_vinteum",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "configuration": "forbidden_magic:compatibility.conversionWands",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "arsmagicalegacy"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.conversionWands",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "奥术魔法联动适配新版：改用Ars Magica: Legacy的材料与魔力系统。",
+          "en_us": "Ars Magica integration uses Ars Magica: Legacy materials and mana."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:ars_witchwoodbracelet",
+      "research": "thaumicconcilium:WITCHWOODBRACELET",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "configuration": "forbidden_magic:compatibility.conversionWands",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "arsmagicalegacy"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.conversionWands",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "奥术魔法联动适配新版：改用Ars Magica: Legacy的材料与魔力系统。",
+          "en_us": "Ars Magica integration uses Ars Magica: Legacy materials and mana."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:raid_host",
+      "research": "thaumicconcilium:CRIMSONRAID",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "arsmagicalegacy"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "血腥远征适配新版：接入Ars Magica: Legacy法术；已有召唤的短期限制不会因区块卸载消失。",
+          "en_us": "Crimson Raid uses Ars Magica: Legacy spells; unloading a chunk does not bypass its temporary summon limit."
+        }
+      }
+    },
+    {
+      "id": "thaumicconcilium:witchery_host",
+      "research": "thaumicconcilium:CRIMSONSPELLS",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "witchery"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "血腥法术适配新版：接入DoomCat Witchery的法术、知识与灌注系统。",
+          "en_us": "Crimson Spells use DoomCat Witchery’s spell, knowledge and infusion systems."
+        }
+      }
+    }
+  ]
+}

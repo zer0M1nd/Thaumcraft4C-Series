@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "H": {
+      "item": "minecraft:iron_helmet"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "IHI"
+  ],
+  "research": "TINYVISOR",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:golem_decoration_visor"
+  },
+  "vis": {
+    "aqua": 4,
+    "terra": 4
+  }
+}

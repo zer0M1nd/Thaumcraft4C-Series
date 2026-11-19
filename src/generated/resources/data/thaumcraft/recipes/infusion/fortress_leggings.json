@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "metallum": 24,
+    "praecantatio": 16,
+    "tutamen": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_leggings"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/thaumium"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/thaumium"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/thaumium"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    }
+  ],
+  "instability": 3,
+  "legacy_order": 36,
+  "research": "ARMORFORTRESS",
+  "result": {
+    "item": "thaumcraft:fortress_leggings"
+  }
+}

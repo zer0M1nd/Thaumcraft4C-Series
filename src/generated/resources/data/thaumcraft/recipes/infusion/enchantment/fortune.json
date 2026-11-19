@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "instrumentum": 4,
+    "lucrum": 8,
+    "praecantatio": 4
+  },
+  "base_xp": 5,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:fortune",
+  "instability": 3,
+  "legacy_order": 88,
+  "research": "INFUSIONENCHANTMENT"
+}

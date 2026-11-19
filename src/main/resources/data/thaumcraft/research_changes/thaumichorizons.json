@@ -1,0 +1,628 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumichorizons:synthetic_node_capacity",
+      "research": "etherealShard",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "天域碎片已修正：充能不再超出容量，累计100厘点即可转为1点魔力。",
+          "en_us": "Ethereal Shards cannot overfill; every accumulated 100 centivis becomes one vis."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:dynamo_input",
+      "research": "essentiaDynamo",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "源质反应炉已修正：仅从底面接收实际消耗的源质，空输入不能延长发电。",
+          "en_us": "Essentia Dynamos accept fuel only from below and require actual essentia to extend generation."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:recombination_payment",
+      "research": "recombinator",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "因果重组器已修正：合并需要两节点中实际存在的魔力，并从各自节点扣除；仅有容量不再足够。",
+          "en_us": "Recombination requires stored vis in both nodes and deducts it from the correct node; capacity alone is insufficient."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:dynamo_budget",
+      "research": "visDynamo",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "魔力反应炉已修正：多个消费者共享同一刻的输出上限，重新加载也不能重复取满。",
+          "en_us": "Vis Dynamo consumers share one output budget per tick, including across reloads."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:powder_consumption",
+      "research": "golemPowder",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "活化粉已修正：成功活化消耗一份粉末；可活化材料由现代方块标签确定。",
+          "en_us": "Successful animation consumes one powder. Modern block tags determine eligible materials."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:animation_return",
+      "research": "focusAnimation",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "活化回收已修正：方块或物品成功还原后才移除傀儡；失败时保留并重试。",
+          "en_us": "Animated golems remain until their block or item is successfully restored; failed returns retry."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:blood_formula_limits",
+      "research": "essentiaInjection",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "血液炼金已修正：每剂最多8点已发现要素，成品槽满时停止吸取；候选效果用尽后不再追加无效效果。采血样本不复制装备或库存。",
+          "en_us": "Blood formulas use at most eight units of discovered aspects. Full output stops intake; exhausted effect lists add no invalid effect. Blood samples do not copy equipment or inventories."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:injector_preservation",
+      "research": "injector",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "针筒发射器已修正：装填保留名称与附魔，弹药成功发射后才扣除。",
+          "en_us": "Injector loading preserves names and enchantments; ammunition is spent only after a projectile is successfully spawned."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:clone_payment",
+      "research": "incarnationVat",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "化身之缸已修正：收齐全部源质并成功培育后才消耗样本和营养；更换样本会重新计算费用，喂食也实际消耗饥饿源质。",
+          "en_us": "Incarnation consumes its sample and nutrients only after all essentia is supplied and the clone is created. Changing samples recalculates costs; feeding consumes Fames."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:vat_occupancy",
+      "research": "healingVat",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "治愈之缸已修正：只接收当前所需源质；缸中玩家离线时仍占据缸体，不会被克隆过程覆盖。",
+          "en_us": "Curative Vats accept only required essentia. An offline occupant still occupies the vat and cannot be overwritten by cloning."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:vat_recipe_snapshot",
+      "research": "infusionVat",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "生物注魔已修正：相同原料不会重复充当多份材料；开始后保存配方与消耗进度，重载不会改变本次费用。",
+          "en_us": "Creature infusions match ingredients individually and preserve the started recipe and consumption progress across reloads."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:creature_attributes",
+      "research": "generalInfusion",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "生物强化已修正：保存、重载或克隆不会重复叠加同一种速度与攻击强化。",
+          "en_us": "Saving, reloading and cloning no longer stack the same speed or attack augmentation repeatedly."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:containment_continuity",
+      "research": "focusContainment",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "收容核心已修正：必须持续瞄准同一目标，实心方块阻挡光束；乘骑中的生物不能单独捕捉。释放失败时保留罐中生物。",
+          "en_us": "Containment requires a continuous beam on the same target and cannot pass through solid blocks or split a riding pair. Failed releases preserve the jarred creature."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:fangs_attacker",
+      "research": "eldritchFangs",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "邪术毒牙已修正：强化生物成功攻击时对受害者施毒，不再在自己受击时错误中毒。",
+          "en_us": "Eldritch Fangs poison the victim of a successful attack instead of poisoning their owner when struck."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:runic_fraction",
+      "research": "runicCreature",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "符文皮毛已修正：不足1点的伤害也会扣除相应护盾；配方使用正确的研究门槛。",
+          "en_us": "Runic Hide pays shield charge for fractional damage too; its recipe uses the correct research requirement."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:loyalty_cooldown",
+      "research": "instilledLoyalty",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "忠诚生物已修正：近战攻击遵守冷却，不再每刻攻击一次。",
+          "en_us": "Loyal creatures respect melee cooldowns instead of attacking every tick."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:sheep_shearing",
+      "research": "sheepInfusion",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "自剪羊适配新版：只有成年且羊毛已长回时才产出羊毛。",
+          "en_us": "Self-shearing sheep produce wool only when adult and ready to be sheared."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:pig_foraging",
+      "research": "pigInfusion",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "觅食猪已修正：抵达食物后正常进食；遵守生物破坏规则、领地保护与世界边界，不破坏有方块实体的容器。",
+          "en_us": "Foraging pigs eat after reaching food and respect mobGriefing, protection and world borders; they do not destroy block-entity containers."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:hound_walls",
+      "research": "dogInfusion",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "地狱猎犬已修正：火焰被实心方块阻挡，不能隔墙伤害目标。",
+          "en_us": "Nether Hound fire is blocked by solid blocks and cannot hit through walls."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:nightmare_landing",
+      "research": "nightmareInfusion",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "梦魇马旅行已修正：找不到容纳坐骑与骑手的安全落点时拒绝传送；成功转移后才触发出发地爆炸。",
+          "en_us": "Nightmare travel requires a safe landing for both mount and rider; the departure explosion occurs only after transfer succeeds."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:soul_return_death",
+      "research": "cloneSelf",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "灵魂信标适配新版：实际死亡才触发转生，图腾救命或护甲挡下致命伤不会提前换体。",
+          "en_us": "Soul Beacons trigger on actual death; a Totem rescue or armor preventing lethal damage does not replace the body."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:amulet_death",
+      "research": "mirrorAmulet",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "镜像护身符已修正：实际死亡后才转移物品；传送失败不会吞物，珍珠无法掉落时保留在护符槽中。",
+          "en_us": "Mirrored Amulets transfer items only after death. Failed transfers preserve items; a pearl that cannot drop remains in the amulet slot."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:lens_exchange",
+      "research": "lensCase",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "透镜交换已修正：保留每片透镜的数据，并先为旧透镜安排存放位置，避免遗失或复制。",
+          "en_us": "Lens swapping preserves each lens and its data and reserves space for the old lens before exchanging it."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:lens_nightvision",
+      "research": "lensWater",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "水之共鸣之镜已修正：摘下透镜不会清除其他来源的夜视。",
+          "en_us": "Removing an Echo Lens preserves night vision from other sources."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:lens_scan_ticks",
+      "research": "lensOrderEntropy",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "学者之镜已修正：扫描速度按游戏刻计时，不随画面帧率改变。",
+          "en_us": "Scholar’s Lens scans use game ticks; frame rate no longer changes scanning speed."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:liquefaction_containers",
+      "research": "focusLiquefaction",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "熔析核心已修正：不直接熔掉带库存的方块；产物被保护阻止时保留原料。",
+          "en_us": "Liquefaction avoids inventory-bearing blocks and preserves input when protection prevents the output."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:disintegration_payment",
+      "research": "focusDisintegration",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "解离核心已修正：成功支付并生成产物后才删除原料；晶化源质不能再次分解。",
+          "en_us": "Disintegration removes input only after payment and output succeed. Crystallized essentia cannot be disintegrated again."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:putty_repair",
+      "research": "voidPutty",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "虚空油灰已修正：修复保留物品数据，不能用一份油灰修复异常堆叠的整叠装备。",
+          "en_us": "Void Putty preserves item data and cannot repair an entire abnormal stack of equipment with one putty."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:stabilizer_changes",
+      "research": "vortexStabilizer",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "漩涡弱化已修正：撤除光束时不会覆盖其他设备或永久改变的节点性质。",
+          "en_us": "Removing attenuation beams does not overwrite node changes made by other devices or permanent effects."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:rift_transactions",
+      "research": "planarRift",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "裂隙转化已修正：成功生成精灵或傀儡才消耗投入物；形成时保留不可破坏方块，容器正常掉落。",
+          "en_us": "Rifts consume materials only after creating their wisps or golems. Formation preserves unbreakable blocks and drops container contents normally."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:plane_layers",
+      "research": "pocketPlane",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "configuration": "enablePocketPlane",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumichorizons",
+          "key": "enablePocketPlane",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "位面生成已修正：肉质层厚度按自身要素占比计算，不再被织物层比例覆盖；已有区块保持。",
+          "en_us": "New pocket planes calculate flesh-layer thickness from its own aspect share instead of the cloth share. Existing chunks remain unchanged."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:greatwoodBoat_modern_boat",
+      "research": "greatwoodBoat",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "船只适配新版：使用现代双座船与划桨操作，保留材料加速和防摔碎能力。",
+          "en_us": "Boats use modern two-seat rowing controls while retaining material speed bonuses and fall protection."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:thaumiumBoat_modern_boat",
+      "research": "thaumiumBoat",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "船只适配新版：使用现代双座船与划桨操作，保留材料加速和防摔碎能力。",
+          "en_us": "Boats use modern two-seat rowing controls while retaining material speed bonuses and fall protection."
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:scholar_chicken_black",
+      "research": "chickenInfusion",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "学者鸡配方适配新版：墨囊可替换为任意黑色染料。",
+          "en_us": "Scholar Chicken infusion accepts any black dye in place of an ink sac."
+        }
+      }
+    }
+  ]
+}

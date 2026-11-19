@@ -1,0 +1,26 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "up": {
+          "texture": "#all"
+        }
+      },
+      "from": [
+        0,
+        0.08,
+        0
+      ],
+      "to": [
+        16,
+        0.08,
+        16
+      ]
+    }
+  ],
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "thaumcraft:block/taint_fibres",
+    "particle": "thaumcraft:block/taint_fibres"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "B": {
+      "item": "thaumcraft:zombie_brain"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    }
+  },
+  "pattern": [
+    "GIG",
+    "GBG",
+    "WRW"
+  ],
+  "research": "ARCANEEAR",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:arcane_ear"
+  },
+  "vis": {
+    "aer": 10,
+    "ordo": 10
+  }
+}

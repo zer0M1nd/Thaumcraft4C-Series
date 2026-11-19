@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "cognitio": 64,
+    "sano": 64,
+    "tutamen": 16
+  },
+  "center": {
+    "damage": -1,
+    "ingredient": {
+      "item": "thaumcraft:fortress_helmet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ink_sac"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:shimmerleaf"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    }
+  ],
+  "instability": 8,
+  "legacy_order": 38,
+  "research": "MASKGRINNINGDEVIL",
+  "result": {
+    "patch": "{mask:0}"
+  }
+}

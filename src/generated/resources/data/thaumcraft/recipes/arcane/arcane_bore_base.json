@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    }
+  },
+  "pattern": [
+    "WIW",
+    "IDI",
+    "WIW"
+  ],
+  "research": "ARCANEBORE",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:arcane_bore_base"
+  },
+  "vis": {
+    "aer": 10,
+    "ordo": 10
+  }
+}

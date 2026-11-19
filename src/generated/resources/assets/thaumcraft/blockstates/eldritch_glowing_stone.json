@@ -1,0 +1,196 @@
+{
+  "variants": {
+    "down=false,east=false,north=false,south=false,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_0"
+    },
+    "down=false,east=false,north=false,south=false,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_16"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_2"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_18"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_8"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_24"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_10"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_26"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_4"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_20"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_6"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_22"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_12"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_28"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_14"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_30"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_32"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_48"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_34"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_50"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_40"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_56"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_42"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_58"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_36"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_52"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_38"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_54"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_44"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_60"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_46"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_62"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_1"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_17"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_3"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_19"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_9"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_25"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_11"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_27"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_5"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_21"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_7"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_23"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_13"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_29"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_15"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_31"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_33"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_49"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_35"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_51"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_41"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_57"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_43"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_59"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_37"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_53"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_39"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_55"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_45"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_61"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=false": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_47"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=true": {
+      "model": "thaumcraft:block/eldritch_glowing_stone_63"
+    }
+  }
+}

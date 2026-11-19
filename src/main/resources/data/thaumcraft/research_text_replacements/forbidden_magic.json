@@ -1,0 +1,294 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "forbidden_magic:botany_cap_manasteel_2_mana",
+      "research": "forbidden_magic:CAP_manasteel",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "compatibility.botania",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.botania",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "keys": [
+        "forbidden.research_page.CAP_manasteel.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "AM魔力",
+          "replace": {
+            "text": "Mana魔力"
+          },
+          "count": 2
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:botany_cap_manasteel_1_pool",
+      "research": "forbidden_magic:CAP_manasteel",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "compatibility.botania",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.botania",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "keys": [
+        "forbidden.research_page.CAP_manasteel.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "血池",
+          "replace": {
+            "text": "魔力池"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:botany_rod_livingwood_3_mana",
+      "research": "forbidden_magic:ROD_livingwood",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "compatibility.botania",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.botania",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "keys": [
+        "forbidden.research_page.ROD_livingwood.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "AM魔力",
+          "replace": {
+            "text": "Mana魔力"
+          },
+          "count": 3
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:botany_rod_livingwood_1_pool",
+      "research": "forbidden_magic:ROD_livingwood",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "compatibility.botania",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.botania",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "keys": [
+        "forbidden.research_page.ROD_livingwood.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "血池",
+          "replace": {
+            "text": "魔力池"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:trash_text",
+      "research": "forbidden_magic:CONSUMING",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "general.enchantments",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "general.enchantments",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "keys": [
+        "forbidden.research_page.CONSUMING.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "所有圆石,泥土或下界岩",
+          "replace": {
+            "text": "配置列表中的垃圾（默认圆石、泥土、砂土、沙子、红沙、砂砾和下界岩）"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Any Cobblestone, Dirt, Gravel, or Netherrack",
+          "replace": {
+            "text": " Configured trash (by default cobblestone, dirt, coarse dirt, sand, red sand, gravel and netherrack)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:corrupting_text",
+      "research": "forbidden_magic:CORRUPTING",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "general.enchantments",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "general.enchantments",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "keys": [
+        "forbidden.research_page.CORRUPTING.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "晶化的碎片只是看起来容易感染",
+          "replace": {
+            "text": "只有包裹在蕴魔石中的碎片才会被腐化"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:euclid_salis_text",
+      "research": "forbidden_magic:EUCLIDAISY",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "keys": [
+        "forbidden.research_page.EUCLIDAISY.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "天域精华是源质的重要来源,也是世界盐配方中非常重要的材料",
+          "replace": {
+            "text": "天域精华是灵气源质的重要来源"
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

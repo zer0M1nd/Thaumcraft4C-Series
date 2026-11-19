@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "chance": 1.0,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:tainted_goo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:tainted_tendril",
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

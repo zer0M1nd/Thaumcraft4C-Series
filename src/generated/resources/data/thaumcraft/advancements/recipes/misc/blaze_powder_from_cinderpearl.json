@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cinderpearl": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thaumcraft:cinderpearl"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thaumcraft:blaze_powder_from_cinderpearl"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cinderpearl",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thaumcraft:blaze_powder_from_cinderpearl"
+    ]
+  },
+  "sends_telemetry_event": false
+}

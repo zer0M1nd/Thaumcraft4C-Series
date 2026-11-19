@@ -1,0 +1,61 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "ordo": 10,
+    "permutatio": 10,
+    "praecantatio": 15
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    }
+  ],
+  "instability": 4,
+  "legacy_order": 67,
+  "research": "WANDPEDFOC",
+  "result": {
+    "item": "thaumcraft:wand_pedestal_focus"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aqua": 12,
+    "lucrum": 12,
+    "praecantatio": 8
+  },
+  "base_xp": 5,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nautilus_shell"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:luck_of_the_sea",
+  "instability": 3,
+  "legacy_order": 101,
+  "research": "INFUSIONENCHANTMENT"
+}

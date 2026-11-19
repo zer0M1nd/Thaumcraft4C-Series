@@ -1,0 +1,17 @@
+{
+  "description": "User-supplied replacement artwork, copied without resizing or recoloring. Original asset fingerprints remain enforced.",
+  "replacements": {
+    "assets/thaumcraft/textures/item/thaumiumingot.png": {
+      "source": "E:/MinecraftResources/Output/0920_01/thaumiumingot.png",
+      "sha256": "8d81d74d1320e41fb518ca494aa51222c539d7f3ed44d86623b2c5c2a56bbbc8",
+      "size": [16, 16],
+      "introduced_in": "0.4.34"
+    },
+    "assets/thaumcraft/textures/item/voidingot.png": {
+      "source": "E:/MinecraftResources/Output/0920_01/voidingot.png",
+      "sha256": "9077211aeee0ba49bbbc441c8bc6e1b0cb708427cc5429126a02bc001d44e4fe",
+      "size": [16, 16],
+      "introduced_in": "0.4.34"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EXAMPLE_ADDON",
+      "icon": "thaumcraft:textures/aspects/cognitio.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "example_addon:START",
+          "category": "EXAMPLE_ADDON",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "pageCount": 2,
+          "isAutoUnlock": true,
+          "icon_item": {
+            "item": "minecraft:amethyst_shard"
+          }
+        }
+      ]
+    }
+  ]
+}

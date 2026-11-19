@@ -1,0 +1,54 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 16,
+    "metallum": 24,
+    "pannus": 24,
+    "praecantatio": 16,
+    "tutamen": 24,
+    "vacuos": 24
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_chestplate"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:robe_chest"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    }
+  ],
+  "instability": 6,
+  "legacy_order": 32,
+  "research": "ARMORVOIDFORTRESS",
+  "result": {
+    "item": "thaumcraft:void_robe_chestplate"
+  }
+}

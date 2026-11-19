@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "C": {
+      "item": "thaumcraft:water_shard"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "NCN",
+    "NNN"
+  ],
+  "research": "UPGRADEWATER",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:golem_upgrade_water"
+  },
+  "vis": {
+    "aqua": 10
+  }
+}

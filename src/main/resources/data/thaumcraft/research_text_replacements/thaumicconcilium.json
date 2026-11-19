@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicconcilium:lithographer_unit",
+      "research": "thaumicconcilium:LITHOGRAPHER",
+      "kind": "continuation",
+      "provider": "thaumicconcilium",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘议会",
+          "en_us": "Thaumic Concilium"
+        }
+      },
+      "keys": [
+        "entry.lithographer.second"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "32 fractions of Sensus vis",
+          "replace": {
+            "text": " 32 points of Sensus essentia"
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

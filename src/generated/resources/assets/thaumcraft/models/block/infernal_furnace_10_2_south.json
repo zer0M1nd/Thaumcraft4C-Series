@@ -1,0 +1,71 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "south": {
+          "texture": "#frame"
+        }
+      },
+      "from": [
+        0,
+        0,
+        6
+      ],
+      "shade": false,
+      "to": [
+        16,
+        16,
+        6
+      ]
+    },
+    {
+      "faces": {
+        "south": {
+          "texture": "#inside"
+        }
+      },
+      "from": [
+        0,
+        0,
+        3.2
+      ],
+      "shade": false,
+      "to": [
+        16,
+        16,
+        3.2
+      ]
+    },
+    {
+      "faces": {
+        "south": {
+          "texture": "#fire",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "from": [
+        0,
+        0,
+        1.6
+      ],
+      "shade": false,
+      "to": [
+        16,
+        24,
+        1.6
+      ]
+    }
+  ],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "fire": "minecraft:block/fire_0",
+    "frame": "thaumcraft:block/furnace13",
+    "inside": "thaumcraft:block/furnace15",
+    "particle": "thaumcraft:block/furnace7"
+  }
+}

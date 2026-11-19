@@ -1,0 +1,180 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicenergistics:microscope_target_text",
+      "research": "thaumicenergistics:STORAGE",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "keys": [
+        "thaumicenergistics.page.STORAGE"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "显微镜检查另一只手中的存储元件",
+          "replace": {
+            "text": "显微镜持续瞄准掉落的元件、ME驱动器或ME箱子45刻后扫描其中物品"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "The microscope inspects a cell held in your other hand",
+          "replace": {
+            "text": " Hold use with the microscope while aiming at a dropped cell, ME drive or ME chest for 45 ticks to scan its stored items"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:focused_io_en",
+      "research": "thaumicenergistics:IO",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "keys": [
+        "thaumicenergistics.page.IO"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "Connect providers to a powered network. Essentia providers feed tubes; infusion providers supply nearby infusion consumers. The advanced provider requests missing essentia through AE crafting CPUs. Encode a distillation pattern using one input sample and a blank pattern, then install it in a pattern provider serving an alchemical furnace. Import the resulting essentia using ordinary import buses.",
+          "replace": {
+            "text": " Ordinary ME import, export and storage buses handle essentia. They can access jars and alchemical containers from any side."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:focused_essentia_provider_en",
+      "research": "thaumicenergistics:ESSENTIA_PROVIDER",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "keys": [
+        "thaumicenergistics.page.ESSENTIA_PROVIDER"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "Connect providers to a powered network. Essentia providers feed tubes; infusion providers supply nearby infusion consumers. The advanced provider requests missing essentia through AE crafting CPUs. Encode a distillation pattern using one input sample and a blank pattern, then install it in a pattern provider serving an alchemical furnace. Import the resulting essentia using ordinary import buses.",
+          "replace": {
+            "text": " Connect an Essentia Provider to a powered ME network to supply adjacent tubes. Missing essentia can be requested from ME crafting CPUs."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:focused_infusion_provider_en",
+      "research": "thaumicenergistics:INFUSION_PROVIDER",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "keys": [
+        "thaumicenergistics.page.INFUSION_PROVIDER"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "Connect providers to a powered network. Essentia providers feed tubes; infusion providers supply nearby infusion consumers. The advanced provider requests missing essentia through AE crafting CPUs. Encode a distillation pattern using one input sample and a blank pattern, then install it in a pattern provider serving an alchemical furnace. Import the resulting essentia using ordinary import buses.",
+          "replace": {
+            "text": " Connect an Infusion Provider to a powered ME network to supply nearby infusion consumers. Missing essentia can be requested from ME crafting CPUs."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:focused_generator_en",
+      "research": "thaumicenergistics:GENERATOR",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "keys": [
+        "thaumicenergistics.page.GENERATOR"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "Sneak-use toggles input/output. An output interface supplies nearby vis relays from the same ME network. A vis interface collects centivis from an energized node network and supplies arcane machines on the same ME grid. The creative interface provides unlimited primal vis. Vibration chambers burn Ignis or Potentia for AE power. Iron gearboxes turn adjacent crankable machines; thaumium gearboxes also accept use-core golems.",
+          "replace": {
+            "text": " Vibration Chambers burn Ignis or Potentia essentia for AE energy. Open the menu to view fuel and generation. Tubes can supply fuel on every side except the front."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:focused_iron_gearbox_en",
+      "research": "thaumicenergistics:IRON_GEARBOX",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "keys": [
+        "thaumicenergistics.page.IRON_GEARBOX"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "Sneak-use toggles input/output. An output interface supplies nearby vis relays from the same ME network. A vis interface collects centivis from an energized node network and supplies arcane machines on the same ME grid. The creative interface provides unlimited primal vis. Vibration chambers burn Ignis or Potentia for AE power. Iron gearboxes turn adjacent crankable machines; thaumium gearboxes also accept use-core golems.",
+          "replace": {
+            "text": " Right-click the Iron Gearbox to turn connected crankable machines."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:focused_thaumium_gearbox_en",
+      "research": "thaumicenergistics:THAUMIUM_GEARBOX",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "keys": [
+        "thaumicenergistics.page.THAUMIUM_GEARBOX"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "Sneak-use toggles input/output. An output interface supplies nearby vis relays from the same ME network. A vis interface collects centivis from an energized node network and supplies arcane machines on the same ME grid. The creative interface provides unlimited primal vis. Vibration chambers burn Ignis or Potentia for AE power. Iron gearboxes turn adjacent crankable machines; thaumium gearboxes also accept use-core golems.",
+          "replace": {
+            "text": " Thaumium Gearboxes can also be operated by golems equipped with a Use Core."
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

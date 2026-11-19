@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "thaumcraft:vis_relay"
+    },
+    "W": {
+      "item": "thaumcraft:wand_rod_greatwood"
+    }
+  },
+  "pattern": [
+    " R ",
+    "W W",
+    "I I"
+  ],
+  "research": "VISCHARGERELAY",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:workbench_charger"
+  },
+  "vis": {
+    "aer": 16,
+    "ignis": 16,
+    "ordo": 16
+  }
+}

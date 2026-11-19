@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicinfusion:spatial_save",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "空间链接已修正：存档后仍保留目标维度和坐标。",
+          "en_us": "Spatial links now retain their destination dimension and coordinates across saves."
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:volatus_permission",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "configuration": "effects.volatus",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicinfusion",
+          "key": "effects.volatus",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "飞行注魔已修正：离开效果范围只撤销此注魔提供的飞行；调长检查间隔不会让飞行在两次检查之间失效。",
+          "en_us": "Volatus infusion only revokes the flight it granted. Longer check intervals no longer interrupt flight between checks."
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:falling_block_data",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "方块注魔已修正：下落方块落地后保留原有注魔。",
+          "en_us": "Falling blocks retain their infusions when they land."
+        }
+      }
+    }
+  ]
+}

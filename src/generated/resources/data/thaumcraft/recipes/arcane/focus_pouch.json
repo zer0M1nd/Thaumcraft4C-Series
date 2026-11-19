@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "B": {
+      "item": "thaumcraft:mundane_belt"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "LBL",
+    "LLL"
+  ],
+  "research": "FOCUSPOUCH",
+  "result": {
+    "item": "thaumcraft:focus_pouch"
+  },
+  "vis": {
+    "ordo": 10,
+    "perditio": 10,
+    "terra": 10
+  }
+}

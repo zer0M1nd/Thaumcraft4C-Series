@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "machina": 32,
+    "motus": 16,
+    "perfodio": 32,
+    "potentia": 16,
+    "vacuos": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:piston"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_planks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_planks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_pickaxe"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_shovel"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    }
+  ],
+  "instability": 4,
+  "legacy_order": 25,
+  "research": "ARCANEBORE",
+  "result": {
+    "item": "thaumcraft:arcane_bore"
+  }
+}

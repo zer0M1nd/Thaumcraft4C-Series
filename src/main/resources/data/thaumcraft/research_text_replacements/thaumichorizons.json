@@ -1,0 +1,625 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumichorizons:crop_fruiting_text",
+      "research": "alcheponics",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "alcheponics1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "在它们结出果实前就已经死亡了",
+          "replace": {
+            "text": "结出果实后不久便会死亡"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:wheat_sterile_text",
+      "research": "alcheponics",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "alcheponics2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "但这种方式对小麦的生长没有效果",
+          "replace": {
+            "text": "但以此方式得到的小麦不能繁殖"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:chameleon_armor_text",
+      "research": "chameleonSkin",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "chameleonSkin1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "还包括普通隐身所不具有的隐藏护甲的能力",
+          "replace": {
+            "text": "和普通隐身一样无法隐藏护甲"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:chameleon_key_text",
+      "research": "chameleonSkin",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "chameleonSkin1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "按下C键",
+          "replace": {
+            "text": "按下在控制设置中绑定的“变色皮肤”键"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "using the X key",
+          "replace": {
+            "text": " using the Chameleon Skin key assigned in Controls"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:climb_key_text",
+      "research": "spiderClimb",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "spiderClimb1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "按下C键",
+          "replace": {
+            "text": "按下在控制设置中绑定的“飞檐走壁”键"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "the C key",
+          "replace": {
+            "text": " the Spider Climb key assigned in Controls"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:fingers_key_text",
+      "research": "morphicFingers",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "morphicFingers1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "按下M键",
+          "replace": {
+            "text": "按下在控制设置中绑定的“变形之指”键"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "the M key",
+          "replace": {
+            "text": " the Morphic Fingers key assigned in Controls"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:lens_key_text",
+      "research": "lensFire",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "lensFire1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "按住V键",
+          "replace": {
+            "text": "按住在控制设置中绑定的透镜选择键"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "holding the V key",
+          "replace": {
+            "text": " holding the lens-selection key assigned in Controls"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:lens_remove_key_text",
+      "research": "lensFire",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "lensFire1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "按住V的同时按下Shift键",
+          "replace": {
+            "text": "按住潜行键的同时按下透镜选择键"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "pressing V while holding shift",
+          "replace": {
+            "text": " pressing the lens-selection key while sneaking"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:goggles_indispensable_text",
+      "research": "lensFire",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "lensFire1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "不必要的工具",
+          "replace": {
+            "text": "不可或缺的工具"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:boat_impact_text",
+      "research": "greatwoodBoat",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "greatwoodBoat1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "不会被人为摧毁",
+          "replace": {
+            "text": "不会因碰撞而摧毁"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:vat_entry_text",
+      "research": "healingVat",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "healingVat2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "要进入或离开治愈之缸,只需右击通路阀门",
+          "replace": {
+            "text": "潜行右击顶盖进入治愈之缸，再次右击即可离开"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "To enter or exit the curative vat, simply right-click the lid's access hatch",
+          "replace": {
+            "text": " Sneak-right-click the lid to enter the curative vat; right-click again to leave"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:injection_effect_count_text",
+      "research": "essentiaInjection",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "essentiaInjection2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "一剂注射剂只能消耗两点要素源质并提供一种效果",
+          "replace": {
+            "text": "每两点要素源质至多提供一种效果，不足两点按两点计"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "one effect per two essentia used",
+          "replace": {
+            "text": " one effect per two essentia used, rounding an odd total up"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:amplifier_bonus_text",
+      "research": "transductionAmplifier",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "transductionAmplifier1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "每种要素的Vis含量都翻了十倍",
+          "replace": {
+            "text": "每种基础要素的Vis含量都增加了十点"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:vis_dynamo_cost_text",
+      "research": "visDynamo",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "visDynamo1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "每秒从法杖中获取1点cV并发射出5点cV",
+          "replace": {
+            "text": "每5刻从法杖为每种启用要素支付0.4 vis（可减免），并提供每刻每种5 cV的输出"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "drawing one vis per second from the wand and emitting 5 cV",
+          "replace": {
+            "text": " drawing 0.4 vis per enabled aspect every five ticks before discounts and supplying up to 5 cV of each per tick"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:vis_dynamo_selection_text",
+      "research": "visDynamo",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "keys": [
+        "visDynamo1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "只产出一种Vis",
+          "replace": {
+            "text": "只产出所选择的基础要素"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:keystone_bind_en_text",
+      "research": "planarKeystone",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumichorizons",
+          "key": "enablePocketPlane",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "planarKeystone1"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "right-click with the keystone in hand while you occupy a pocket plane",
+          "replace": {
+            "text": " use the blank keystone on the return rift inside a pocket plane"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:gateway_cost_text",
+      "research": "planarKeystone",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumichorizons",
+          "key": "enablePocketPlane",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "planarKeystone2"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "100 vis",
+          "replace": {
+            "text": " 250 vis before crafting discounts"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:keystone_bind_zh_text",
+      "research": "pocketPlane",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumichorizons",
+          "key": "enablePocketPlane",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "pocketPlane3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "只需前往你的世界并手持要石右击即可",
+          "replace": {
+            "text": "只需在口袋位面内手持空白要石右击返回裂隙即可"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:planarKeystone1_zh_text",
+      "research": "planarKeystone",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumichorizons",
+          "key": "enablePocketPlane",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "planarKeystone1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "从简单的黑曜石环到威风八面的邪术方尖碑,迄今为止你见过的所有其他维度的传送门都是永久结构.这种进行时空旅行的方法有它的好处,但传送门本身可能开销巨大,并且关于它们建筑的秘密大都遗失在了历史的长河中.\n你已经开发出了另一种基于被称为\"要石\"的特殊法杖核心进行次元旅行的方案.这些强力设备可用来在固体表面创建临时的单向次元裂缝,从而实现世界与世界间的快速转换.",
+          "replace": {
+            "text": "你已找到更稳定的位面旅行方法：将异界要石绑定到口袋位面，再将它装入传送门顶部的插槽。要石是传送门的钥匙，并非法杖核心。"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:planarKeystone2_zh_text",
+      "research": "planarKeystone",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumichorizons",
+          "key": "enablePocketPlane",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "planarKeystone2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "新制的要石在生效前必须经过压印.只需要手持要石并右击;它就将与你当前所在的世界永久绑定,不可逆转.\n不幸的是,此法并非适用于所有维度 - 尤其是外域,它似乎被什么东西守护着,这层守护阻止了一切进出迷宫的旅行.\n神秘学也提供了一种传统的传送门的设计.只需用奥术石材和青金石块构造一个垂直的环,用你的法杖激活青金石,并安装一块异界要石,将会开启一个永久传送门.要移除要石,只需要右击.",
+          "replace": {
+            "text": "在口袋位面内，手持空白要石右击返回裂隙进行绑定。建造5×5竖直框架：四角为高级炼金构件，顶部中央为要石插槽，其余边框为邪术石；中央3×3留空。装入已绑定要石后以法杖开启，消耗每种基础要素250 vis，可享制作减免。每个位面最多四座同时连接的传送门。空手右击插槽取出要石并关闭；口袋位面和外域内不能建造网关。"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumichorizons:keystone_portal_zh_text",
+      "research": "pocketPlane",
+      "kind": "continuation",
+      "provider": "thaumichorizons",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘视界",
+          "en_us": "Thaumic Horizons"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumichorizons",
+          "key": "enablePocketPlane",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "pocketPlane3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "更简单的方法是使用异界要石 - 这里是说法杖核心,它可以创造一个小型的临时传送门到你的世界.\n要石所创造的传送门只会维持数秒钟,并将在传送走一个个体后立刻关闭.在你的世界里再次使用此核心将会把你送回你离开的地方.",
+          "replace": {
+            "text": "进一步研究可解锁异界要石与永久网关；要石不是法杖核心，不能直接开启临时传送门。"
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

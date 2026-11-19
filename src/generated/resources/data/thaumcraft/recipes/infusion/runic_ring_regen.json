@@ -1,0 +1,53 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aqua": 32,
+    "praecantatio": 16,
+    "sano": 32,
+    "tutamen": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:runic_ring"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:potion"
+      },
+      "nbt": "{Potion:\"minecraft:long_regeneration\"}"
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    }
+  ],
+  "instability": 6,
+  "legacy_order": 50,
+  "research": "RUNICHEALING",
+  "result": {
+    "item": "thaumcraft:runic_ring_regen"
+  }
+}

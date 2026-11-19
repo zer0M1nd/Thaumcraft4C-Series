@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "A": {
+      "item": "thaumcraft:nitor"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "S": {
+      "item": "thaumcraft:node_stabilizer"
+    }
+  },
+  "pattern": [
+    "RCR",
+    "ISI",
+    "RAR"
+  ],
+  "research": "VISPOWER",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:node_converter"
+  },
+  "vis": {
+    "aer": 32,
+    "ignis": 32,
+    "perditio": 32
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "instrumentum": 8,
+    "motus": 16,
+    "praecantatio": 8
+  },
+  "base_xp": 4,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:quick_charge",
+  "instability": 3,
+  "legacy_order": 108,
+  "research": "INFUSIONENCHANTMENT"
+}

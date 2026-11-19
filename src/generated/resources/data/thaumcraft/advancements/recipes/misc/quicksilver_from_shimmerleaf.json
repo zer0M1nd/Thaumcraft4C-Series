@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shimmerleaf": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thaumcraft:shimmerleaf"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thaumcraft:quicksilver_from_shimmerleaf"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_shimmerleaf",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thaumcraft:quicksilver_from_shimmerleaf"
+    ]
+  },
+  "sends_telemetry_event": false
+}

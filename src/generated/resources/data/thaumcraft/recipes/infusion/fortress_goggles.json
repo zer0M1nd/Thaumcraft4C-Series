@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "auram": 16,
+    "sensus": 32,
+    "tutamen": 16
+  },
+  "center": {
+    "damage": -1,
+    "ingredient": {
+      "item": "thaumcraft:fortress_helmet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    {
+      "damage": -1,
+      "ingredient": {
+        "item": "thaumcraft:goggles"
+      }
+    }
+  ],
+  "instability": 5,
+  "legacy_order": 37,
+  "research": "HELMGOGGLES",
+  "result": {
+    "patch": "{goggles:1b}"
+  }
+}

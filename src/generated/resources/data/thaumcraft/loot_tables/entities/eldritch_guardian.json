@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "chance": 0.5,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "amount": 2,
+                "aspect": "exanimis",
+                "operation": "aspect"
+              }
+            }
+          ],
+          "name": "thaumcraft:wisp_essence"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "conditions": [
+        {
+          "chance": 0.5,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "amount": 2,
+                "aspect": "alienis",
+                "operation": "aspect"
+              }
+            }
+          ],
+          "name": "thaumcraft:wisp_essence"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:eldritch_eye"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

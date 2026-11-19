@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "N": {
+      "tag": "forge:nuggets/copper"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "N N"
+  ],
+  "research": "CAP_copper",
+  "result": {
+    "item": "thaumcraft:wand_cap_copper"
+  },
+  "vis": {
+    "aer": 2,
+    "ignis": 2,
+    "ordo": 2
+  }
+}

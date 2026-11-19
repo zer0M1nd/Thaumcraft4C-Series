@@ -1,0 +1,391 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicenergistics:ae_native_essentia",
+      "research": "thaumicenergistics:IO",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "源质网络适配新版：普通 ME 终端、总线、监视器与电平发射器可直接处理源质，不再需要独立的源质设备。总线可从容器任意面存取。",
+          "en_us": "Modern AE2 terminals, buses, monitors and level emitters handle essentia directly. Separate essentia variants are unnecessary; buses access containers from any side."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:cells_256k",
+      "research": "thaumicenergistics:STORAGE",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "configuration": "revival_features.storage.cells_256k",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicenergistics",
+          "key": "storage.cells_256k",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "源质存储已扩充：新增256k存储元件。",
+          "en_us": "Essentia storage adds a 256k cell tier."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:cells_extended",
+      "research": "thaumicenergistics:STORAGE",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "configuration": "revival_features.storage.extended_cells",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicenergistics",
+          "key": "storage.cells_256k",
+          "scope": "server",
+          "value": true
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicenergistics",
+          "key": "storage.extended_cells",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "源质存储已扩充：新增1024k及以上、量子和奇点元件。",
+          "en_us": "Essentia storage adds 1024k and larger cells, including Quantum and Singularity tiers."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:cell_contents",
+      "research": "thaumicenergistics:STORAGE",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "源质元件新增预览：悬停可查看已存要素和数量。",
+          "en_us": "Essentia cells show a preview of stored aspects and quantities on hover."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:terminal_phials",
+      "research": "thaumicenergistics:STORAGE",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "终端取源质已调整：从网络借取本体空源质瓶装填，无需另造专用安瓿。",
+          "en_us": "Terminals fill Thaumcraft phials borrowed from network storage; no separate ampoule is needed."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:native_pattern_encoding",
+      "research": "thaumicenergistics:ARCANE_TERMINAL",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "样板编码适配新版：奥术配方使用 AE 原生样板编码终端；坩埚、注魔和蒸馏使用含物品与源质的处理样板。",
+          "en_us": "Pattern encoding uses the native AE Pattern Encoding Terminal for arcane recipes and processing patterns containing items and essentia for crucible, infusion and distillation recipes."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:wireless_arcane",
+      "research": "thaumicenergistics:ARCANE_TERMINAL",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "configuration": "revival_features.crafting.wireless_arcane_terminal",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicenergistics",
+          "key": "crafting.wireless_arcane_terminal",
+          "scope": "server",
+          "value": true
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicenergistics",
+          "key": "crafting.arcane_terminal",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "奥术合成新增无线终端：可选择背包法杖支付，逐根尝试完整费用，不合并多根法杖的魔力。",
+          "en_us": "Wireless Arcane Terminals can use inventory wands. Each wand must cover the entire cost; vis from multiple wands is never combined."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:wireless_quantum",
+      "research": "thaumicenergistics:ARCANE_TERMINAL",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "configuration": "revival_features.crafting.wireless_arcane_terminal",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicenergistics",
+          "key": "crafting.wireless_arcane_terminal",
+          "scope": "server",
+          "value": true
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicenergistics",
+          "key": "crafting.arcane_terminal",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ae2wtlib"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "无线终端新增 AE2WTLib 联动：量子桥卡配合缠绕奇点，可通过已加载且通电的量子桥跨维度连接网络。",
+          "en_us": "Wireless terminals support AE2WTLib Quantum Bridge Cards: use a paired singularity to connect across dimensions through a loaded, powered quantum bridge."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:wireless_vis_card",
+      "research": "thaumicenergistics:ARCANE_TERMINAL",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "configuration": "revival_features.crafting.vis_charging_card",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicenergistics",
+          "key": "crafting.wireless_arcane_terminal",
+          "scope": "server",
+          "value": true
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicenergistics",
+          "key": "crafting.arcane_terminal",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicenergistics",
+          "key": "crafting.vis_charging_card",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "无线终端新增魔力充能卡：从同一网络的输入灵气接口为终端内部法杖充能，不给背包法杖充能。",
+          "en_us": "Wireless Vis Cards recharge the terminal’s internal wand from input vis interfaces on the same network; inventory wands are not charged."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:provider_cpu_requests",
+      "research": "thaumicenergistics:INFUSION_PROVIDER",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "注魔供应器已增强：普通供应器即可向 ME 合成 CPU 请求缺失源质，不再另设高级供应器。",
+          "en_us": "Ordinary Infusion Providers can request missing essentia from ME crafting CPUs; a separate Advanced Provider is no longer needed."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:essentia_provider_requests",
+      "research": "thaumicenergistics:ESSENTIA_PROVIDER",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "源质供应器已增强：缺少所需源质时可向 ME 合成 CPU 自动下单。",
+          "en_us": "Essentia Providers can request missing essentia from ME crafting CPUs."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:assembler_wand",
+      "research": "thaumicenergistics:ARCANE_ASSEMBLER",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "奥术装配室已调整：制造不再消耗银树权杖；运行时放入真实法杖支付魔力，应用杖端、杖型与装备减免。",
+          "en_us": "Arcane Assemblers no longer consume a Silverwood Scepter during construction. Insert a real wand for crafting; its cap, wand-type and equipment discounts apply."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:vis_binding_identity",
+      "research": "thaumicenergistics:VIS",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "灵气接口连接已修正：绑定的是输入接口本身；拆除后在原位放新接口必须重新绑定。",
+          "en_us": "Vis links bind to a specific input interface; a replacement at the same position must be linked again."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:generator_buffer",
+      "research": "thaumicenergistics:GENERATOR",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "源质谐振仓已修正：网络暂时拒收的能量会保留；新增界面可查看燃料和发电状态。",
+          "en_us": "Vibration Chambers retain energy that the network cannot accept. A new status menu shows fuel and generation."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:golem_fluids",
+      "research": "thaumicenergistics:GOLEMS",
+      "kind": "continuation",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "无线傀儡适配新版：支持新版 Forge 流体运输；按实际运输量结算，断网时保留携带物。",
+          "en_us": "Wireless golems support modern Forge fluids, account for actual transferred amounts and retain carried resources when disconnected."
+        }
+      }
+    },
+    {
+      "id": "thaumicenergistics:terminal_resource_filter",
+      "research": "thaumicenergistics:START",
+      "kind": "integration",
+      "provider": "thaumicenergistics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘能源",
+          "en_us": "Thaumic Energistics"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ae2"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自神秘能源的终端修改：AE 通用终端新增“显示源质”资源筛选。",
+          "en_us": "Thaumic Energistics adds a “Show Essentia” resource filter to ordinary AE terminals."
+        }
+      }
+    }
+  ]
+}

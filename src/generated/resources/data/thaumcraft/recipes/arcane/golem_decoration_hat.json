@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "C": {
+      "item": "minecraft:black_wool"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    " C ",
+    " G ",
+    "CCC"
+  ],
+  "research": "TINYHAT",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:golem_decoration_hat"
+  },
+  "vis": {
+    "ignis": 8,
+    "ordo": 8
+  }
+}

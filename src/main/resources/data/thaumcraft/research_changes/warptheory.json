@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "warptheory:cleanser_queue",
+      "research": "warptheory:WARPCLEANSER",
+      "kind": "continuation",
+      "provider": "warptheory",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘扭曲学",
+          "en_us": "Warp Theory"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "扭曲净化已修正：没有可用反扑事件时停止排队；退出重进保留队列，死亡清除。总扭曲归零后清除剩余反扑，已开始的坠落仍会安全返回。",
+          "en_us": "Warp cleansing is fixed: queuing stops when no rebound event is available. Queues survive reconnecting and clear on death. Reaching zero total warp clears remaining effects, while a fall already underway still returns you safely."
+        }
+      }
+    },
+    {
+      "id": "warptheory:queued_protection",
+      "research": "warptheory:WARPCLEANSER",
+      "kind": "continuation",
+      "provider": "warptheory",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘扭曲学",
+          "en_us": "Warp Theory"
+        }
+      },
+      "configuration": "general.addWarpEffects",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "warptheory",
+          "key": "general.addWarpEffects",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "扭曲反扑已修正：扭曲守护、创造模式或关闭扭曲事件时，尚未发生的排队事件会暂停。",
+          "en_us": "Queued warp events now pause under Warp Ward, in creative mode, or while warp events are disabled."
+        }
+      }
+    },
+    {
+      "id": "warptheory:meat_research",
+      "research": "warptheory:WARPSOMETHING",
+      "kind": "continuation",
+      "provider": "warptheory",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘扭曲学",
+          "en_us": "Warp Theory"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "怪异肉块研究已调整：笔记同时使用异域与肉体要素，不再只有单一要素。",
+          "en_us": "Something research now uses both Alienis and Corpus, rather than a single aspect."
+        }
+      }
+    },
+    {
+      "id": "warptheory:permanent_cost_safety",
+      "research": "warptheory:WARPCLEANSER",
+      "kind": "continuation",
+      "provider": "warptheory",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘扭曲学",
+          "en_us": "Warp Theory"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "扭曲费用已修正：永久扭曲费用除数至少为1，大额扭曲值不再溢出，装备扭曲按实际穿戴计算。",
+          "en_us": "Warp costs are fixed: the permanent-warp divisor is at least 1, large totals cannot overflow, and gear warp follows actual equipment."
+        }
+      }
+    },
+    {
+      "id": "warptheory:vanishing_restoration",
+      "research": "warptheory:WARPCLEANSER",
+      "kind": "continuation",
+      "provider": "warptheory",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘扭曲学",
+          "en_us": "Warp Theory"
+        }
+      },
+      "configuration": "general.addWarpEffects / general.allowGlobalWarpEffects / events.fall.enabled",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "warptheory",
+          "key": "general.addWarpEffects",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "warptheory",
+          "key": "general.allowGlobalWarpEffects",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "warptheory",
+          "key": "events.fall.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "虚空幻觉已修正：临时隐藏的方块会保留状态与容器内容，恢复不会复制物品。",
+          "en_us": "Void-fall illusions preserve the states and inventory contents of temporarily hidden blocks, without duplicating items on restoration."
+        }
+      }
+    }
+  ]
+}

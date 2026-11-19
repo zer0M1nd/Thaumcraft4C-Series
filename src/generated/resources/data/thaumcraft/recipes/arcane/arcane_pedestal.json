@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "pattern": [
+    "SSS",
+    " S ",
+    "SSS"
+  ],
+  "research": "INFUSION",
+  "result": {
+    "count": 2,
+    "item": "thaumcraft:arcane_pedestal"
+  },
+  "vis": {
+    "aer": 5
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 8,
+    "auram": 8,
+    "sensus": 8,
+    "tenebrae": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:flint"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    }
+  ],
+  "instability": 5,
+  "legacy_order": 1,
+  "research": "SINSTONE",
+  "result": {
+    "item": "thaumcraft:sinister_stone"
+  }
+}

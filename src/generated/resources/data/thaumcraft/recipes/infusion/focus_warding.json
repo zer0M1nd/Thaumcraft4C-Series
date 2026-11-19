@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "cognitio": 10,
+    "ordo": 25,
+    "terra": 25,
+    "tutamen": 25
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    }
+  ],
+  "instability": 4,
+  "legacy_order": 65,
+  "research": "FOCUSWARDING",
+  "result": {
+    "item": "thaumcraft:focus_warding"
+  }
+}

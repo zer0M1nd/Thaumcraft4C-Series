@@ -1,0 +1,259 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "taintedmagic:flyte_cost_text",
+      "research": "taintedmagic:FLYTECHARM",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "keys": [
+        "tm.text.FLYTECHARM.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "0.1 每 tick",
+          "replace": {
+            "text": "0.15 vis 每 tick"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:flyte_controls_text",
+      "research": "taintedmagic:FLYTECHARM",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "keys": [
+        "tm.text.FLYTECHARM.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "特别的是,当你在飞行的时候 ,每两秒钟你都可以按下冲刺键来冲刺,但那会消耗一些火魔力.",
+          "replace": {
+            "text": "双击跳跃键开始飞行。"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:lumos_hand_text",
+      "research": "taintedmagic:FOCUSLUMOS",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "keys": [
+        "tm.text.FOCUSLUMOS.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "当这个核心装备时",
+          "replace": {
+            "text": "当手持装有这个核心的法杖时"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:salt_use_skysalt",
+      "research": "taintedmagic:SKYSALT",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "keys": [
+        "tm.text.SKYSALT.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "撒盐空中时(鼠标右键),它会立刻",
+          "replace": {
+            "text": "将盐丢入世界约五秒后,它会"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:salt_use_timesalt",
+      "research": "taintedmagic:TIMESALT",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "keys": [
+        "tm.text.TIMESALT.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "撒盐空中时(鼠标右键),它会立刻",
+          "replace": {
+            "text": "将盐丢入世界约五秒后,它会"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:weather_rain_text",
+      "research": "taintedmagic:SKYSALT",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "keys": [
+        "tm.text.SKYSALT.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "如果正处于风暴中,天空会立刻放晴,反之亦然",
+          "replace": {
+            "text": "若正下雨便转晴,若晴朗便下雨并有一成概率雷暴"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "if the skies are stormy, they will become clear; if the skies are clear, they will become stormy",
+          "replace": {
+            "text": " rain clears; clear skies turn rainy, with a one-in-ten chance of a thunderstorm"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:dagger_bottle_text",
+      "research": "taintedmagic:HOLLOWDAGGER",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "keys": [
+        "tm.text.HOLLOWDAGGER.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "玻璃瓶",
+          "replace": {
+            "text": "神秘时代的空源质瓶"
+          },
+          "count": 2
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:shadow_story_iron",
+      "research": "taintedmagic:SHADOWMETAL",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "keys": [
+        "tm.text.SHADOWMETAL.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "一块石头",
+          "replace": {
+            "text": "一块铁锭"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:shadow_story_ingot",
+      "research": "taintedmagic:SHADOWMETAL",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "keys": [
+        "tm.text.SHADOWMETAL.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "一块闪耀着光辉的矿石——影子矿石",
+          "replace": {
+            "text": "一块闪耀着光辉的暗影金属锭"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:missing_tm.text.THAUMICDISASSEMBLER.2",
+      "research": "taintedmagic:THAUMICDISASSEMBLER",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "keys": [
+        "tm.text.THAUMICDISASSEMBLER.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "tm.text.THAUMICDISASSEMBLER.2",
+          "replace": {
+            "text": "耕地范围随模式变化：慢速1×1，普通3×3，快速5×5；关闭模式不耕地。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "tm.text.THAUMICDISASSEMBLER.2",
+          "replace": {
+            "text": " Tilling follows the mode: Slow 1×1, Normal 3×3, Fast 5×5; Off disables tilling."
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

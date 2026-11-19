@@ -1,0 +1,293 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicomniverse:repair_eligible_text",
+      "research": "ENCHANT",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "apotheosis"
+        }
+      ],
+      "keys": [
+        "tc.research_page.ENCHANT.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "这种附魔只能对部分神秘物品生效",
+          "replace": {
+            "text": "宝藏书架可为普通可损耗物品提供此附魔"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "This enchantment can only be applied to items made with Thaumcraft, and even then not all of them.",
+          "replace": {
+            "text": " A Treasure Shelf also lets ordinary damageable items receive this enchantment."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:airship_speed_text",
+      "research": "thaumicomniverse:AIRSHIPS",
+      "kind": "continuation",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "create",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "keys": [
+        "omniverse.page.airships.automatic"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "速度上限为 Create 列车对应上限的一半",
+          "replace": {
+            "text": "速度和加速度按配置缩放，默认均为对应 Create 列车的四分之一"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Top speeds are half their Create train counterparts",
+          "replace": {
+            "text": " Speed and acceleration use configurable multipliers, both defaulting to one quarter of the corresponding Create train values"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:airship_modes_text",
+      "research": "thaumicomniverse:AIRSHIPS",
+      "kind": "continuation",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "create",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "keys": [
+        "omniverse.page.airships.driving"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "挪移可使飞艇暂离航线。",
+          "replace": {
+            "text": "A+D同时按住2秒切换自由飞行；退出自由飞行后按住空格接回航线。挪移也可使飞艇暂离航线。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Relocation can move a ship off route.",
+          "replace": {
+            "text": " Hold A+D for two seconds to toggle free flight; after leaving it, hold Jump to rejoin a route. Relocation can also move a ship off route."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:backpack_tank_capacity_text",
+      "research": "thaumicomniverse:ESSENTIA_TANK_UPGRADE",
+      "kind": "continuation",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "sophisticatedbackpacks"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "backpacks",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "keys": [
+        "omniverse.page.essentia_tank_upgrade"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "源质储罐可存放 64 点单一种类的源质。",
+          "replace": {
+            "text": "源质储罐占用两列物品格，基础容量为背包行数×16点，储存单一种类；堆叠升级按背包储罐配置继续扩容。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "The tank holds 64 essentia of one aspect.",
+          "replace": {
+            "text": " The tank occupies two inventory columns and holds one aspect. Base capacity is 16 times the backpack row count, increased by stack upgrades according to the backpack tank settings."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:generator_fuel_text",
+      "research": "thaumicomniverse:ESSENTIA_ENGINE",
+      "kind": "continuation",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "gtceu"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "gregtech",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "keys": [
+        "omniverse.page.essentia_engine"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "每单位总能量缩放为其2倍",
+          "replace": {
+            "text": "先按每批4点源质、4096 EU/t换算燃烧刻数，再应用可配置的时长倍率（默认4）；每点总能量约为旧GTNH的8倍，存在整刻舍入"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "scaled to twice their energy per unit",
+          "replace": {
+            "text": " converted into whole ticks for a four-essentia batch at 4096 EU/t, then multiplied by the configured duration factor (default 4); energy per point is approximately eight times the old GTNH value, subject to tick rounding"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:aura_emptying_text",
+      "research": "thaumicomniverse:SOLID_AURA",
+      "kind": "continuation",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "aura_materials",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "keys": [
+        "omniverse.page.solid_aura"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "加热搅拌",
+          "replace": {
+            "text": "分液"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Heated mixing",
+          "replace": {
+            "text": " Emptying"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:missing_omniverse.page.arcane_crafter",
+      "research": "thaumicomniverse:RESTORED_CRAFTER",
+      "kind": "continuation",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "keys": [
+        "omniverse.page.arcane_crafter"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "omniverse.page.arcane_crafter",
+          "replace": {
+            "text": "像夸克合成器一样，点击空槽可禁用该格，每个红石上升沿制作一次并向正面容器输出；前方无容器时抛出产物。需要放入装有已绑定灵魂核心的法杖，以核心主人的研究校验奥术配方并消耗法杖魔力。魔力充能中继器可为顶端的法杖充能；普通合成配方也可使用。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "omniverse.page.arcane_crafter",
+          "replace": {
+            "text": " Click empty cells to disable them. Each rising redstone edge crafts once into the inventory in front, or ejects the output if no inventory exists. Insert a wand with a bound Soul Core: its owner's live research unlocks arcane recipes, and the wand pays their vis. Relays recharge the wand on top. Ordinary crafting recipes also work."
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

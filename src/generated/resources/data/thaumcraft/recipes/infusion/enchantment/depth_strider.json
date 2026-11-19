@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aqua": 16,
+    "iter": 8,
+    "praecantatio": 8
+  },
+  "base_xp": 4,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:prismarine_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:depth_strider",
+  "instability": 3,
+  "legacy_order": 93,
+  "research": "INFUSIONENCHANTMENT"
+}

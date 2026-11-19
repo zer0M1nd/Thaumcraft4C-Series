@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aqua": 16,
+    "arbor": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_axe"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_log"
+      }
+    }
+  ],
+  "instability": 1,
+  "legacy_order": 21,
+  "research": "ELEMENTALAXE",
+  "result": {
+    "item": "thaumcraft:elemental_axe"
+  }
+}

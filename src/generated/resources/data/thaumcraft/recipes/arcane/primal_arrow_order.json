@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "A": {
+      "item": "minecraft:arrow"
+    },
+    "S": {
+      "item": "thaumcraft:order_shard"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ASA",
+    "AAA"
+  ],
+  "research": "PRIMALARROW",
+  "result": {
+    "count": 8,
+    "item": "thaumcraft:primal_arrow_order"
+  },
+  "vis": {
+    "ordo": 8
+  }
+}

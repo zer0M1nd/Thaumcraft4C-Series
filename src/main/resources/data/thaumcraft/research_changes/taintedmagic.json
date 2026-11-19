@@ -1,0 +1,167 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "taintedmagic:salt_calendar",
+      "research": "taintedmagic:TIMESALT",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "恒常日月之盐已修正：切换昼夜保留累计日期，不再退回世界第一天。",
+          "en_us": "Salis Aevus now preserves the world’s accumulated days instead of resetting the calendar to day one."
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:disassembler_energy",
+      "research": "taintedmagic:THAUMICDISASSEMBLER",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "神秘分解杵已修正：充能不足时不再扣成负数；支持现代耕地规则，并可从佩戴的储魔饰品和副手法杖充能。",
+          "en_us": "The Thaumic Disassembler cannot spend charge below zero. It supports modern tilling rules and charges from worn vis accessories or an offhand wand."
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:katana_thaumiumkatana",
+      "research": "taintedmagic:THAUMIUMKATANA",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "蓄力斩已修正：伤害、距离和蓄力时间统一核验，不再接受任意目标或伤害。",
+          "en_us": "Charged strikes now validate damage, range and charge time, rejecting arbitrary targets or damage."
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:katana_voidmetalkatana",
+      "research": "taintedmagic:VOIDMETALKATANA",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "蓄力斩已修正：伤害、距离和蓄力时间统一核验，不再接受任意目标或伤害。",
+          "en_us": "Charged strikes now validate damage, range and charge time, rejecting arbitrary targets or damage."
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:katana_shadowmetalkatana",
+      "research": "taintedmagic:SHADOWMETALKATANA",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "蓄力斩已修正：伤害、距离和蓄力时间统一核验，不再接受任意目标或伤害。",
+          "en_us": "Charged strikes now validate damage, range and charge time, rejecting arbitrary targets or damage."
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:named_flyte",
+      "research": "taintedmagic:FLYTECHARM",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "飞天魔符已修正：改名后仍可提供飞行能力。",
+          "en_us": "Renamed Flyte Charms still grant flight."
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:fortress_black_dye",
+      "research": "MASKGRINNINGDEVIL",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "污秽魔法面具配方已扩展：虚空与暗影要塞头盔的狞笑恶鬼面具可使用任意黑色染料。",
+          "en_us": "Tainted Magic mask recipes accept any black dye for Grinning Devil faceplates on Void and Shadow Fortress helms."
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:armor_mix_shadowfortress",
+      "research": "taintedmagic:SHADOWFORTRESS",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护甲结算适配新版：可与本体及其他扩展的特殊护甲混穿，各部件共同结算防护和耐久。",
+          "en_us": "Armour protection supports mixed sets: each piece contributes alongside Thaumcraft and other addons’ special armour."
+        }
+      }
+    },
+    {
+      "id": "taintedmagic:armor_mix_voidwalkerboots",
+      "research": "taintedmagic:VOIDWALKERBOOTS",
+      "kind": "continuation",
+      "provider": "taintedmagic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "污秽魔法",
+          "en_us": "Tainted Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护甲结算适配新版：可与本体及其他扩展的特殊护甲混穿，各部件共同结算防护和耐久。",
+          "en_us": "Armour protection supports mixed sets: each piece contributes alongside Thaumcraft and other addons’ special armour."
+        }
+      }
+    }
+  ]
+}

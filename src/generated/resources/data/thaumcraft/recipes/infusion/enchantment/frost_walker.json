@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "gelum": 16,
+    "iter": 8,
+    "praecantatio": 12
+  },
+  "base_xp": 6,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:packed_ice"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:frost_walker",
+  "instability": 4,
+  "legacy_order": 94,
+  "research": "INFUSIONENCHANTMENT"
+}

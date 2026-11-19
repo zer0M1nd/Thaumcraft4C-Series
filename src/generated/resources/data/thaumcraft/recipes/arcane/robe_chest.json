@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "I": {
+      "item": "thaumcraft:enchanted_fabric"
+    }
+  },
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "research": "ENCHFABRIC",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:robe_chest"
+  },
+  "vis": {
+    "aer": 5
+  }
+}

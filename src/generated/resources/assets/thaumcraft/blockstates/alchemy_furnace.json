@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "contents=false,lit=false": {
+      "model": "thaumcraft:block/alchemy_furnace"
+    },
+    "contents=false,lit=true": {
+      "model": "thaumcraft:block/alchemy_furnace_lit"
+    },
+    "contents=true,lit=false": {
+      "model": "thaumcraft:block/alchemy_furnace_filled"
+    },
+    "contents=true,lit=true": {
+      "model": "thaumcraft:block/alchemy_furnace_lit_filled"
+    }
+  }
+}

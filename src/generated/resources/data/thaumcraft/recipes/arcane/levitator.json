@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "A": {
+      "item": "thaumcraft:air_shard"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "thaumcraft:earth_shard"
+    },
+    "N": {
+      "item": "thaumcraft:nitor"
+    },
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    }
+  },
+  "pattern": [
+    "WEW",
+    "BNB",
+    "WAW"
+  ],
+  "research": "LEVITATOR",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:levitator"
+  },
+  "vis": {
+    "aer": 10,
+    "terra": 5
+  }
+}

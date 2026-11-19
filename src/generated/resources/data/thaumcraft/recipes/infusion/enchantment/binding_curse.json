@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 8,
+    "praecantatio": 12,
+    "vinculum": 16
+  },
+  "base_xp": 5,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:chain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:carved_pumpkin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:binding_curse",
+  "instability": 4,
+  "legacy_order": 95,
+  "research": "INFUSIONENCHANTMENT"
+}

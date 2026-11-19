@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "bestia": 16,
+    "lux": 8,
+    "victus": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:arcane_lamp"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:wheat"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:carrot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    }
+  ],
+  "instability": 4,
+  "legacy_order": 27,
+  "research": "LAMPFERTILITY",
+  "result": {
+    "item": "thaumcraft:fertility_lamp"
+  }
+}

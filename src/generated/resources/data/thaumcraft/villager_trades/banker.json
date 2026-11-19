@@ -1,0 +1,243 @@
+{
+  "format": 1,
+  "levels": {
+    "1": [
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 3,
+          "min": 2
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "minecraft:arrow"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 2
+      },
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 4,
+          "min": 3
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "minecraft:paper"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 2
+      },
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 3,
+          "min": 2
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "minecraft:coal"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 2
+      }
+    ],
+    "2": [
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 8,
+          "min": 6
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "minecraft:white_wool"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 5
+      },
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 9,
+          "min": 7
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "minecraft:book"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 5
+      },
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 8,
+          "min": 6
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "minecraft:iron_ingot"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 5
+      }
+    ],
+    "3": [
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 12,
+          "min": 9
+        },
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "minecraft:glowstone"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 10
+      },
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 12,
+          "min": 10
+        },
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "thaumcraft:thaumium_ingot"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 10
+      }
+    ],
+    "4": [
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 22,
+          "min": 20
+        },
+        "max_uses": 12,
+        "price_multiplier": 0.2,
+        "sell": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 15
+      },
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 20,
+          "min": 16
+        },
+        "max_uses": 12,
+        "price_multiplier": 0.2,
+        "sell": {
+          "items": [
+            "minecraft:experience_bottle"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 15
+      }
+    ],
+    "5": [
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 24,
+          "min": 22
+        },
+        "max_uses": 3,
+        "price_multiplier": 0.2,
+        "sell": {
+          "items": [
+            "minecraft:diamond"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 30
+      },
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 32,
+          "min": 25
+        },
+        "max_uses": 3,
+        "price_multiplier": 0.2,
+        "sell": {
+          "items": [
+            "minecraft:saddle"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 30
+      }
+    ]
+  }
+}

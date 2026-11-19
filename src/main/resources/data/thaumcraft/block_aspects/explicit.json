@@ -1,0 +1,859 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "block": "thaumcraft:advanced_alchemy_furnace",
+      "aspects": {
+        "praecantatio": 8,
+        "aqua": 8,
+        "fabrico": 8
+      }
+    },
+    {
+      "block": "minecraft:attached_melon_stem",
+      "aspects": {
+        "herba": 1
+      }
+    },
+    {
+      "block": "minecraft:attached_pumpkin_stem",
+      "aspects": {
+        "herba": 1
+      }
+    },
+    {
+      "block": "minecraft:bamboo_sapling",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:black_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:blue_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:brown_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:bubble_column",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:cave_vines_plant",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:cyan_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "thaumcraft:eldritch_door_barrier",
+      "aspects": {}
+    },
+    {
+      "block": "thaumcraft:eldritch_field",
+      "aspects": {}
+    },
+    {
+      "block": "thaumcraft:eldritch_portal",
+      "aspects": {
+        "vacuos": 8,
+        "alienis": 8,
+        "iter": 8
+      }
+    },
+    {
+      "block": "thaumcraft:eldritch_void",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:end_gateway",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:end_portal",
+      "aspects": {
+        "alienis": 4,
+        "iter": 4
+      }
+    },
+    {
+      "block": "thaumcraft:energized_node",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:fire",
+      "aspects": {
+        "ignis": 4
+      }
+    },
+    {
+      "block": "thaumcraft:flux_gas",
+      "aspects": {}
+    },
+    {
+      "block": "thaumcraft:flux_goo",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:frosted_ice",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:gray_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:green_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "thaumcraft:infernal_furnace",
+      "aspects": {}
+    },
+    {
+      "block": "thaumcraft:infusion_pillar",
+      "aspects": {}
+    },
+    {
+      "block": "thaumcraft:infusion_pillar_top",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:kelp_plant",
+      "aspects": {}
+    },
+    {
+      "block": "thaumcraft:lamp_air",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:lava",
+      "aspects": {
+        "ignis": 3,
+        "terra": 1
+      }
+    },
+    {
+      "block": "minecraft:light_blue_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:light_gray_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:lime_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:magenta_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "thaumcraft:mana_pod",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:moving_piston",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:nether_portal",
+      "aspects": {
+        "ignis": 4,
+        "iter": 4
+      }
+    },
+    {
+      "block": "minecraft:orange_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:pink_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "north",
+        "short": "true",
+        "type": "normal"
+      },
+      "aspects": {
+        "machina": 2,
+        "motus": 4,
+        "arbor": 2,
+        "terra": 3,
+        "perditio": 3,
+        "metallum": 3,
+        "potentia": 1
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "north",
+        "short": "true",
+        "type": "sticky"
+      },
+      "aspects": {
+        "machina": 3,
+        "motus": 7,
+        "limus": 1,
+        "arbor": 1,
+        "terra": 2,
+        "perditio": 2,
+        "metallum": 2
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "north",
+        "short": "false",
+        "type": "normal"
+      },
+      "aspects": {
+        "machina": 2,
+        "motus": 4,
+        "arbor": 2,
+        "terra": 3,
+        "perditio": 3,
+        "metallum": 3,
+        "potentia": 1
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "north",
+        "short": "false",
+        "type": "sticky"
+      },
+      "aspects": {
+        "machina": 3,
+        "motus": 7,
+        "limus": 1,
+        "arbor": 1,
+        "terra": 2,
+        "perditio": 2,
+        "metallum": 2
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "east",
+        "short": "true",
+        "type": "normal"
+      },
+      "aspects": {
+        "machina": 2,
+        "motus": 4,
+        "arbor": 2,
+        "terra": 3,
+        "perditio": 3,
+        "metallum": 3,
+        "potentia": 1
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "east",
+        "short": "true",
+        "type": "sticky"
+      },
+      "aspects": {
+        "machina": 3,
+        "motus": 7,
+        "limus": 1,
+        "arbor": 1,
+        "terra": 2,
+        "perditio": 2,
+        "metallum": 2
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "east",
+        "short": "false",
+        "type": "normal"
+      },
+      "aspects": {
+        "machina": 2,
+        "motus": 4,
+        "arbor": 2,
+        "terra": 3,
+        "perditio": 3,
+        "metallum": 3,
+        "potentia": 1
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "east",
+        "short": "false",
+        "type": "sticky"
+      },
+      "aspects": {
+        "machina": 3,
+        "motus": 7,
+        "limus": 1,
+        "arbor": 1,
+        "terra": 2,
+        "perditio": 2,
+        "metallum": 2
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "south",
+        "short": "true",
+        "type": "normal"
+      },
+      "aspects": {
+        "machina": 2,
+        "motus": 4,
+        "arbor": 2,
+        "terra": 3,
+        "perditio": 3,
+        "metallum": 3,
+        "potentia": 1
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "south",
+        "short": "true",
+        "type": "sticky"
+      },
+      "aspects": {
+        "machina": 3,
+        "motus": 7,
+        "limus": 1,
+        "arbor": 1,
+        "terra": 2,
+        "perditio": 2,
+        "metallum": 2
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "south",
+        "short": "false",
+        "type": "normal"
+      },
+      "aspects": {
+        "machina": 2,
+        "motus": 4,
+        "arbor": 2,
+        "terra": 3,
+        "perditio": 3,
+        "metallum": 3,
+        "potentia": 1
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "south",
+        "short": "false",
+        "type": "sticky"
+      },
+      "aspects": {
+        "machina": 3,
+        "motus": 7,
+        "limus": 1,
+        "arbor": 1,
+        "terra": 2,
+        "perditio": 2,
+        "metallum": 2
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "west",
+        "short": "true",
+        "type": "normal"
+      },
+      "aspects": {
+        "machina": 2,
+        "motus": 4,
+        "arbor": 2,
+        "terra": 3,
+        "perditio": 3,
+        "metallum": 3,
+        "potentia": 1
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "west",
+        "short": "true",
+        "type": "sticky"
+      },
+      "aspects": {
+        "machina": 3,
+        "motus": 7,
+        "limus": 1,
+        "arbor": 1,
+        "terra": 2,
+        "perditio": 2,
+        "metallum": 2
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "west",
+        "short": "false",
+        "type": "normal"
+      },
+      "aspects": {
+        "machina": 2,
+        "motus": 4,
+        "arbor": 2,
+        "terra": 3,
+        "perditio": 3,
+        "metallum": 3,
+        "potentia": 1
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "west",
+        "short": "false",
+        "type": "sticky"
+      },
+      "aspects": {
+        "machina": 3,
+        "motus": 7,
+        "limus": 1,
+        "arbor": 1,
+        "terra": 2,
+        "perditio": 2,
+        "metallum": 2
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "up",
+        "short": "true",
+        "type": "normal"
+      },
+      "aspects": {
+        "machina": 2,
+        "motus": 4,
+        "arbor": 2,
+        "terra": 3,
+        "perditio": 3,
+        "metallum": 3,
+        "potentia": 1
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "up",
+        "short": "true",
+        "type": "sticky"
+      },
+      "aspects": {
+        "machina": 3,
+        "motus": 7,
+        "limus": 1,
+        "arbor": 1,
+        "terra": 2,
+        "perditio": 2,
+        "metallum": 2
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "up",
+        "short": "false",
+        "type": "normal"
+      },
+      "aspects": {
+        "machina": 2,
+        "motus": 4,
+        "arbor": 2,
+        "terra": 3,
+        "perditio": 3,
+        "metallum": 3,
+        "potentia": 1
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "up",
+        "short": "false",
+        "type": "sticky"
+      },
+      "aspects": {
+        "machina": 3,
+        "motus": 7,
+        "limus": 1,
+        "arbor": 1,
+        "terra": 2,
+        "perditio": 2,
+        "metallum": 2
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "down",
+        "short": "true",
+        "type": "normal"
+      },
+      "aspects": {
+        "machina": 2,
+        "motus": 4,
+        "arbor": 2,
+        "terra": 3,
+        "perditio": 3,
+        "metallum": 3,
+        "potentia": 1
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "down",
+        "short": "true",
+        "type": "sticky"
+      },
+      "aspects": {
+        "machina": 3,
+        "motus": 7,
+        "limus": 1,
+        "arbor": 1,
+        "terra": 2,
+        "perditio": 2,
+        "metallum": 2
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "down",
+        "short": "false",
+        "type": "normal"
+      },
+      "aspects": {
+        "machina": 2,
+        "motus": 4,
+        "arbor": 2,
+        "terra": 3,
+        "perditio": 3,
+        "metallum": 3,
+        "potentia": 1
+      }
+    },
+    {
+      "block": "minecraft:piston_head",
+      "properties": {
+        "facing": "down",
+        "short": "false",
+        "type": "sticky"
+      },
+      "aspects": {
+        "machina": 3,
+        "motus": 7,
+        "limus": 1,
+        "arbor": 1,
+        "terra": 2,
+        "perditio": 2,
+        "metallum": 2
+      }
+    },
+    {
+      "block": "thaumcraft:portable_hole",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_acacia_sapling",
+      "aspects": {
+        "arbor": 1,
+        "herba": 2
+      }
+    },
+    {
+      "block": "minecraft:potted_allium",
+      "aspects": {
+        "herba": 1,
+        "victus": 1,
+        "sensus": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_azalea_bush",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_azure_bluet",
+      "aspects": {
+        "herba": 1,
+        "victus": 1,
+        "sensus": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_bamboo",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_birch_sapling",
+      "aspects": {
+        "arbor": 1,
+        "herba": 2
+      }
+    },
+    {
+      "block": "minecraft:potted_blue_orchid",
+      "aspects": {
+        "herba": 1,
+        "victus": 1,
+        "sensus": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_brown_mushroom",
+      "aspects": {
+        "herba": 1,
+        "tenebrae": 1,
+        "terra": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_cactus",
+      "aspects": {
+        "herba": 3,
+        "aqua": 1,
+        "perditio": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_cherry_sapling",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_cornflower",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_crimson_fungus",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_crimson_roots",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_dandelion",
+      "aspects": {
+        "herba": 1,
+        "victus": 1,
+        "sensus": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_dark_oak_sapling",
+      "aspects": {
+        "arbor": 1,
+        "herba": 2
+      }
+    },
+    {
+      "block": "minecraft:potted_dead_bush",
+      "aspects": {
+        "herba": 1,
+        "perditio": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_fern",
+      "aspects": {
+        "herba": 1,
+        "aer": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_flowering_azalea_bush",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_jungle_sapling",
+      "aspects": {
+        "arbor": 1,
+        "herba": 2
+      }
+    },
+    {
+      "block": "minecraft:potted_lily_of_the_valley",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_mangrove_propagule",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_oak_sapling",
+      "aspects": {
+        "arbor": 1,
+        "herba": 2
+      }
+    },
+    {
+      "block": "minecraft:potted_orange_tulip",
+      "aspects": {
+        "herba": 1,
+        "victus": 1,
+        "sensus": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_oxeye_daisy",
+      "aspects": {
+        "herba": 1,
+        "victus": 1,
+        "sensus": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_pink_tulip",
+      "aspects": {
+        "herba": 1,
+        "victus": 1,
+        "sensus": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_poppy",
+      "aspects": {
+        "herba": 1,
+        "victus": 1,
+        "sensus": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_red_mushroom",
+      "aspects": {
+        "herba": 1,
+        "tenebrae": 1,
+        "ignis": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_red_tulip",
+      "aspects": {
+        "herba": 1,
+        "victus": 1,
+        "sensus": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_spruce_sapling",
+      "aspects": {
+        "arbor": 1,
+        "herba": 2
+      }
+    },
+    {
+      "block": "minecraft:potted_torchflower",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_warped_fungus",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_warped_roots",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:potted_white_tulip",
+      "aspects": {
+        "herba": 1,
+        "victus": 1,
+        "sensus": 1
+      }
+    },
+    {
+      "block": "minecraft:potted_wither_rose",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:purple_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:red_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "thaumcraft:shock_field",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:soul_fire",
+      "aspects": {"ignis": 2, "spiritus": 2}
+    },
+    {
+      "block": "minecraft:tall_seagrass",
+      "aspects": {}
+    },
+    {
+      "block": "thaumcraft:thaumatorium",
+      "aspects": {
+        "aqua": 6,
+        "ordo": 6,
+        "metallum": 3,
+        "lucrum": 1
+      }
+    },
+    {
+      "block": "thaumcraft:warded",
+      "aspects": {}
+    },
+    {
+      "block": "thaumcraft:warding_barrier",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:water",
+      "aspects": {
+        "aqua": 4
+      }
+    },
+    {
+      "block": "minecraft:white_candle_cake",
+      "aspects": {}
+    },
+    {
+      "block": "minecraft:yellow_candle_cake",
+      "aspects": {}
+    }
+  ]
+}

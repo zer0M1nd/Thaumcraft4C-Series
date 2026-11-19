@@ -1,0 +1,22 @@
+{
+  "type": "thaumcraft:infernal_bonus",
+  "base_count": 0,
+  "ingredient": [
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "minecraft:tropical_fish"
+    },
+    {
+      "item": "minecraft:pufferfish"
+    }
+  ],
+  "legacy_order": 7,
+  "result": {
+    "item": "thaumcraft:fish_nugget"
+  }
+}

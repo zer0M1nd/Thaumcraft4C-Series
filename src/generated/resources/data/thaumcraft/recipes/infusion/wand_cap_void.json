@@ -1,0 +1,42 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 18,
+    "auram": 18,
+    "potentia": 18,
+    "vacuos": 18
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_cap_void_inert"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "instability": 8,
+  "legacy_order": 55,
+  "research": "CAP_void",
+  "result": {
+    "item": "thaumcraft:wand_cap_void"
+  }
+}

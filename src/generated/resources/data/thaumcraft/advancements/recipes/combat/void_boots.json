@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thaumcraft:void_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_void_metal": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/void"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_void_metal",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thaumcraft:void_boots"
+    ]
+  },
+  "sends_telemetry_event": false
+}

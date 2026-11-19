@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "instrumentum": 16,
+    "iter": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:item_mirror"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:stick"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:compass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:map"
+      }
+    }
+  ],
+  "instability": 5,
+  "legacy_order": 4,
+  "research": "MIRRORHAND",
+  "result": {
+    "item": "thaumcraft:hand_mirror"
+  }
+}

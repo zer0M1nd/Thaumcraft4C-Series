@@ -1,0 +1,827 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicomniverse:repair_table",
+      "research": "ENCHANT",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "apotheosis"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自神化的联动：宝藏书架允许为普通可损耗物品抽选修复附魔；仍遵守神化的附魔强度和黑名单。",
+          "en_us": "Apotheosis integration: Treasure Shelves let ordinary damageable items roll Repair, subject to enchanting power and blacklists."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:apotheosis_cap",
+      "research": "INFUSIONENCHANTMENT",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "apotheosis"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "注魔法附魔上限已调整：使用神化上限再加一级；本体关闭增强模式时也生效。",
+          "en_us": "Infusion enchanting uses the Apotheosis cap plus one level, including when core enhanced enchanting is off."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:external_enchantments",
+      "research": "INFUSIONENCHANTMENT",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "configuration": "revival_features.enchantment_infusion",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "enchantment_infusion",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "第三方附魔已加入注魔：完成“通用注魔附魔”即可解锁该组配方，各配方仍独立付费。",
+          "en_us": "Third-party enchantments gain infusion recipes through the single Universal Infusion Enchantments research, retaining individual recipe costs."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:create_repair",
+      "research": "ENCHANT",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "configuration": "revival_features.create",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "create",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自机械动力的联动：液态灵气或充能器可付费修复带修复附魔的物品。",
+          "en_us": "Create integration: liquid aura and vis chargers can pay to restore items bearing Repair."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:belt_charging",
+      "research": "VISCHARGERELAY",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "configuration": "revival_features.create",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "create",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自机械动力的联动：充能器可为经过的传送带物品补充魔力。",
+          "en_us": "Create integration: vis chargers recharge items passing on belts."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:create_crucible",
+      "research": "CRUCIBLE",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "configuration": "revival_features.create",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "create",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自机械动力的联动：坩埚可用独立输入／输出槽接受催化剂并送出产物；自动配方不检查真人研究，仍完整支付源质。",
+          "en_us": "Create integration: crucibles use separate input/output slots for catalysts and products. Automated crafting skips player research checks but pays all essentia."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:create_infusion",
+      "research": "INFUSION",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "configuration": "revival_features.create",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "create",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自机械动力的联动：基座可接传送带、漏斗和机械手，支持序列组装；注魔可取用动态结构源质，仪式仍需手动开启。",
+          "en_us": "Create integration: pedestals accept belts, funnels, deployers and sequenced assembly. Infusion can draw contraption essentia but must still be started manually."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:moving_bore",
+      "research": "ARCANEBORE",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "configuration": "revival_features.create",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "create",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自机械动力的联动：钻孔机可随动态结构运行，沿用核心、镐、耐久与魔力费用，产物进入结构库存；移动扫描参数上限为32。",
+          "en_us": "Create integration: bores operate on contraptions using their focus, pickaxe, durability and vis, sending output to contraption storage; the moving scan parameter is capped at 32."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:create_mirror",
+      "research": "MIRROR",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "configuration": "revival_features.create",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "create",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自机械动力的联动：魔镜可接收传送带物品，向传送带或开放容器输出；堵塞时缓存产物，也支持移动结构。",
+          "en_us": "Create integration: mirrors accept belt items and output to belts or open containers, buffering blocked output and supporting contraptions."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:moving_bindings",
+      "research": "GOLEMSTRAW",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "configuration": "revival_features.create",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "create",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自机械动力的联动：结构装配与还原保留傀儡绑定和标记，傀儡可追踪移动目标。",
+          "en_us": "Create integration: assembly and disassembly preserve golem bindings and markers, allowing golems to follow moving targets."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:addon_hazards",
+      "research": "GOLEMSTRAW",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:or",
+          "values": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "tconstruct"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "twilightforest"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "mcwfences"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumicbases"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumic_tinkerer"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "ad_astra"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "blue_skies"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "irons_spellbooks"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "ars_nouveau"
+            }
+          ]
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "傀儡避险已扩展：识别已登记的附属尖刺、带刺围栏、特殊危险流体与暮色滑块。",
+          "en_us": "Golem hazard avoidance includes registered addon spikes, wired fences, dangerous fluids and Twilight Forest sliders."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:soul_knowledge",
+      "research": "COREUSE",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "configuration": "revival_features.soul_automation",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "soul_automation",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自灵魂核心的修改：假玩家使用已绑定的灵魂法杖时可取得绑定者研究知识；真人仍使用自身知识。",
+          "en_us": "Soul Core integration: fake players using a bound soul wand can act with its owner’s research; real players still use their own knowledge."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:maid_shield",
+      "research": "RUNICARMOR",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "configuration": "revival_features.touhou_little_maid",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "touhou_little_maid"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "touhou_little_maid",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自车万女仆的联动：女仆穿戴符文装备也可获得护盾，其施法同时使用装备的减耗与潜能。",
+          "en_us": "Touhou Little Maid integration: equipped runic gear grants maids shielding, with equipment discounts and Potency also applied to casting."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:tablet_charge",
+      "research": "thaumic_tinkerer:ANIMATION_TABLET",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thaumic_tinkerer"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "活化工具台新增充能：上方的本体充能器可为台内法杖充能，并付费修复带修复附魔的物品。",
+          "en_us": "Animation Tablets accept vis charging from the core charger above and paid repairs for items bearing Repair."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:ponder_thaumonomicon",
+      "research": "THAUMONOMICON",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增思索演示：相关物品或多方块页可打开分步教程，退出后返回手册。",
+          "en_us": "Thaumonomicon tutorials: related items and multiblock pages open step-by-step Ponder scenes and return to the book when closed."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:ponder_restable",
+      "research": "RESTABLE",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增思索演示：相关物品或多方块页可打开分步教程，退出后返回手册。",
+          "en_us": "Thaumonomicon tutorials: related items and multiblock pages open step-by-step Ponder scenes and return to the book when closed."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:ponder_basicthaumaturgy",
+      "research": "BASICTHAUMATURGY",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增思索演示：相关物品或多方块页可打开分步教程，退出后返回手册。",
+          "en_us": "Thaumonomicon tutorials: related items and multiblock pages open step-by-step Ponder scenes and return to the book when closed."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:ponder_crucible",
+      "research": "CRUCIBLE",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增思索演示：相关物品或多方块页可打开分步教程，退出后返回手册。",
+          "en_us": "Thaumonomicon tutorials: related items and multiblock pages open step-by-step Ponder scenes and return to the book when closed."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:ponder_infusion",
+      "research": "INFUSION",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增思索演示：相关物品或多方块页可打开分步教程，退出后返回手册。",
+          "en_us": "Thaumonomicon tutorials: related items and multiblock pages open step-by-step Ponder scenes and return to the book when closed."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:ponder_nodejar",
+      "research": "NODEJAR",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增思索演示：相关物品或多方块页可打开分步教程，退出后返回手册。",
+          "en_us": "Thaumonomicon tutorials: related items and multiblock pages open step-by-step Ponder scenes and return to the book when closed."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:ponder_vispower",
+      "research": "VISPOWER",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增思索演示：相关物品或多方块页可打开分步教程，退出后返回手册。",
+          "en_us": "Thaumonomicon tutorials: related items and multiblock pages open step-by-step Ponder scenes and return to the book when closed."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:ponder_advalchemyfurnace",
+      "research": "ADVALCHEMYFURNACE",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增思索演示：相关物品或多方块页可打开分步教程，退出后返回手册。",
+          "en_us": "Thaumonomicon tutorials: related items and multiblock pages open step-by-step Ponder scenes and return to the book when closed."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:ponder_infernalfurnace",
+      "research": "INFERNALFURNACE",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增思索演示：相关物品或多方块页可打开分步教程，退出后返回手册。",
+          "en_us": "Thaumonomicon tutorials: related items and multiblock pages open step-by-step Ponder scenes and return to the book when closed."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:ponder_thaumatorium",
+      "research": "THAUMATORIUM",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增思索演示：相关物品或多方块页可打开分步教程，退出后返回手册。",
+          "en_us": "Thaumonomicon tutorials: related items and multiblock pages open step-by-step Ponder scenes and return to the book when closed."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:atm_ores",
+      "research": "ORE",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "configuration": "revival_features.atm.ores",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "allthemodium"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "atm.ores",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自ATM的联动：ATM维度加入神秘矿物，只影响新生成区块。",
+          "en_us": "ATM integration: thaumic ores generate in ATM dimensions, affecting only new chunks."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:ancient_forest",
+      "research": "ORE",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicomniverse",
+          "key": "worldgen.ancient_magical_forest",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "世界生成新增远古魔法森林：仅在魔法森林内部生成，替代旧蓝色变体；该区域节点尝试倍率为4。",
+          "en_us": "Ancient Magical Forests generate inside magical forests, replacing the blue variant and multiplying node attempts there by four."
+        }
+      },
+      "configuration": "worldgen.ancient_magical_forest"
+    },
+    {
+      "id": "thaumicomniverse:universal_alchemy",
+      "research": "TRANSIRON",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "configuration": "revival_features.universal_alchemy",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicomniverse",
+          "key": "universal_alchemy",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "金属嬗变已扩展：按当前材料标签生成可用金属的嬗变和矿簇路线。",
+          "en_us": "Metal transmutation expands to available materials through current tags and ore-cluster routes."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:project_enchanting",
+      "research": "ENCHANT",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "apotheosis"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自神化的联动：神秘系列附魔可按各自适用物品、强度与黑名单在神化附魔台抽选。",
+          "en_us": "Apotheosis integration: Thaumcraft-family enchantments can roll at its table, respecting item eligibility, power and blacklists."
+        }
+      }
+    },
+    {
+      "id": "thaumicomniverse:apotheosis_all_stats",
+      "research": "ENCHANT",
+      "kind": "integration",
+      "provider": "thaumicomniverse",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘万象",
+          "en_us": "Thaumic Omniverse"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "apotheosis"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自神化的属性联动已调整：全属性宝石不再提升神秘时代的自定义属性。",
+          "en_us": "Apotheosis attribute integration is adjusted: All Stats gems no longer increase Thaumcraft’s custom attributes."
+        }
+      }
+    }
+  ]
+}

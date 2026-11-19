@@ -1,0 +1,1140 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "gadomancy:compressor_pull_text",
+      "research": "gadomancy:essentia_compressor",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.ESSENTIA_COMPRESSOR.6"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "然而，源质冷凝器将会平均地将内中源质分摊给每个罐子，源质库或是源质之镜，它们在该网络中最多存在五个，但是它们所能接受到的源质总是会比冷凝器中现存源质少。",
+          "replace": {
+            "text": "随后，源质冷凝器会从五格内的罐子、源质库和源质镜中抽取源质，但仅抽取源质总量不高于冷凝器的容器。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "less essentia inside them than the main condenser",
+          "replace": {
+            "text": " no more total essentia inside them than the main condenser"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:compressor_capacity_text",
+      "research": "gadomancy:essentia_compressor",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.ESSENTIA_COMPRESSOR.4"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "就像只能储存200多点源质的源质库一样",
+          "replace": {
+            "text": "每种要素的初始容量为200点"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:compressor_upgrade_text",
+      "research": "gadomancy:essentia_compressor",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.ESSENTIA_COMPRESSOR.9"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "如果暗影元素被放置在荒古基座附近的冷凝器中",
+          "replace": {
+            "text": "如果暗影元素被放置在冷凝器附近的荒古基座上"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:portal_pedestals_text",
+      "research": "gadomancy:e_portal_creator",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.E_PORTAL_CREATOR.6"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "外部还需要四个重定向核心",
+          "replace": {
+            "text": "外部还需要四个荒古基座"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:jar_link_text",
+      "research": "gadomancy:remote_jar",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.REMOTEJAR.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "手持魔镜右击",
+          "replace": {
+            "text": "手持另一个镜像罐子右击"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:knowledge_boosters_text",
+      "research": "gadomancy:knowledge_book",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.KNOWLEDGE_BOOK.4"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "任何一种记录在案的要素帮助都会加快法术台的研究进程",
+          "replace": {
+            "text": "附近的书架及其他已登记的知识来源会加快知识之书的研究进程"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "any form of booster that can affect an enchantment table",
+          "replace": {
+            "text": " bookshelves or other registered knowledge sources"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_target_text",
+      "research": "gadomancy:ethereal_familiar",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.ETHEREAL_FAMILIAR.3"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "hostile entities that attack its wearer",
+          "replace": {
+            "text": " hostile entities within range"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_damage_text",
+      "research": "gadomancy:familiar_damage",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_DAMAGE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "使魔的攻击得以翻倍",
+          "replace": {
+            "text": "每级使魔攻击伤害增加1.1"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "its attack power is effectively doubled",
+          "replace": {
+            "text": " its attack damage increases by 1.1 per level"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_speed_text",
+      "research": "gadomancy:familiar_speed",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_SPEED.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "将会提高攻击速度与攻击伤害来撕碎多个敌人",
+          "replace": {
+            "text": "每级会将攻击间隔缩短6刻，基础间隔为32刻"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "so that it can attack twice as fast as before. The second stage both increases its attack speed and allows it to hit multiple enemies in a single strike",
+          "replace": {
+            "text": " by reducing its attack interval by 6 ticks per level, from a base interval of 32 ticks"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_poison_target_text",
+      "research": "gadomancy:familiar_poison",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_POISON.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "而不是直接伤害他",
+          "replace": {
+            "text": "并造成直接伤害"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "rather than doing damage",
+          "replace": {
+            "text": " as well as dealing direct damage"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_poison_filter_text",
+      "research": "gadomancy:familiar_poison",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_POISON.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "经历此升级的使魔似乎能够发现对方是否可以中毒，结果就是它们只会去攻击那些未中毒的目标。",
+          "replace": {
+            "text": "它仍会攻击范围内的敌对生物，不会排除已中毒或免疫中毒的目标。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Familiars with this upgrade seem to be able to detect which foes can be poisoned, and as such, it will only attack those that can be poisoned.",
+          "replace": {
+            "text": " It still attacks hostile targets within range, including poisoned targets and those immune to poison."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_fire_damage_text",
+      "research": "gadomancy:familiar_fire",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_FIRE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "而不是造成伤害",
+          "replace": {
+            "text": "并继续造成直接伤害"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "rather than dealing damage",
+          "replace": {
+            "text": " as well as dealing direct damage"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_fire_sun_text",
+      "research": "gadomancy:familiar_fire",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_FIRE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "这一力量还能让被攻击者在阳光下陷入虚弱状态",
+          "replace": {
+            "text": "第三级还能让目标获得阳光恐惧"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "leaving them scorched and weak to the light of the sun",
+          "replace": {
+            "text": " at level III also afflicting them with Sun Scorned"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_weakness_damage_text",
+      "research": "gadomancy:familiar_weakness",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_WEAKNESS.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "移除了使魔的伤害性",
+          "replace": {
+            "text": "降低了使魔的直接伤害"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "removes the familiars damaging capabilities altogether and replaces them",
+          "replace": {
+            "text": " reduces the familiar’s direct damage and supplements it"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_damage_cost_text",
+      "research": "gadomancy:familiar_damage",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_DAMAGE.1"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_fire_cost_text",
+      "research": "gadomancy:familiar_fire",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_FIRE.1"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_poison_cost_text",
+      "research": "gadomancy:familiar_poison",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_POISON.1"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_range_cost_text",
+      "research": "gadomancy:familiar_range",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_RANGE.1"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_shock_cost_text",
+      "research": "gadomancy:familiar_shock",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_SHOCK.1"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_speed_cost_text",
+      "research": "gadomancy:familiar_speed",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_SPEED.1"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_weakness_cost_text",
+      "research": "gadomancy:familiar_weakness",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_WEAKNESS.1"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_damage_zh_cost",
+      "research": "gadomancy:familiar_damage",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_DAMAGE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "每次攻击将会消耗",
+          "replace": {
+            "text": "成功攻击有三分之一概率耗魔，触发时每级消耗"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_fire_zh_cost",
+      "research": "gadomancy:familiar_fire",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_FIRE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "平均每次会消耗",
+          "replace": {
+            "text": "成功攻击有三分之一概率耗魔，触发时每级消耗"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_poison_zh_cost",
+      "research": "gadomancy:familiar_poison",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_POISON.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "在每次攻击时将消耗",
+          "replace": {
+            "text": "成功攻击有三分之一概率耗魔，触发时每级消耗"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_range_zh_cost",
+      "research": "gadomancy:familiar_range",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_RANGE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "每次攻击将消耗",
+          "replace": {
+            "text": "成功攻击有三分之一概率耗魔，触发时每级消耗"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_shock_zh_cost",
+      "research": "gadomancy:familiar_shock",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_SHOCK.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "每次的攻击平均消耗",
+          "replace": {
+            "text": "成功攻击有三分之一概率耗魔，触发时每级消耗"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_speed_zh_cost",
+      "research": "gadomancy:familiar_speed",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_SPEED.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "每次攻击将会消耗",
+          "replace": {
+            "text": "成功攻击有三分之一概率耗魔，触发时每级消耗"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_weakness_zh_cost",
+      "research": "gadomancy:familiar_weakness",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_WEAKNESS.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "每次使用会消耗",
+          "replace": {
+            "text": "成功攻击有三分之一概率耗魔，触发时每级消耗"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "gadomancy:compressor_pull_text_zh_english_fallback",
+      "research": "gadomancy:essentia_compressor",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.ESSENTIA_COMPRESSOR.6"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "less essentia inside them than the main condenser",
+          "replace": {
+            "text": " no more total essentia inside them than the main condenser"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:knowledge_boosters_text_zh_english_fallback",
+      "research": "gadomancy:knowledge_book",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.KNOWLEDGE_BOOK.4"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "any form of booster that can affect an enchantment table",
+          "replace": {
+            "text": " bookshelves or other registered knowledge sources"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_damage_text_zh_english_fallback",
+      "research": "gadomancy:familiar_damage",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_DAMAGE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "its attack power is effectively doubled",
+          "replace": {
+            "text": " its attack damage increases by 1.1 per level"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_speed_text_zh_english_fallback",
+      "research": "gadomancy:familiar_speed",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_SPEED.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "so that it can attack twice as fast as before. The second stage both increases its attack speed and allows it to hit multiple enemies in a single strike",
+          "replace": {
+            "text": " by reducing its attack interval by 6 ticks per level, from a base interval of 32 ticks"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_poison_target_text_zh_english_fallback",
+      "research": "gadomancy:familiar_poison",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_POISON.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "rather than doing damage",
+          "replace": {
+            "text": " as well as dealing direct damage"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_poison_filter_text_zh_english_fallback",
+      "research": "gadomancy:familiar_poison",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_POISON.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "Familiars with this upgrade seem to be able to detect which foes can be poisoned, and as such, it will only attack those that can be poisoned.",
+          "replace": {
+            "text": " It still attacks hostile targets within range, including poisoned targets and those immune to poison."
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_fire_damage_text_zh_english_fallback",
+      "research": "gadomancy:familiar_fire",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_FIRE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "rather than dealing damage",
+          "replace": {
+            "text": " as well as dealing direct damage"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_fire_sun_text_zh_english_fallback",
+      "research": "gadomancy:familiar_fire",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_FIRE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "leaving them scorched and weak to the light of the sun",
+          "replace": {
+            "text": " at level III also afflicting them with Sun Scorned"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_weakness_damage_text_zh_english_fallback",
+      "research": "gadomancy:familiar_weakness",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_WEAKNESS.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "removes the familiars damaging capabilities altogether and replaces them",
+          "replace": {
+            "text": " reduces the familiar’s direct damage and supplements it"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_damage_cost_text_zh_english_fallback",
+      "research": "gadomancy:familiar_damage",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_DAMAGE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_fire_cost_text_zh_english_fallback",
+      "research": "gadomancy:familiar_fire",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_FIRE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_poison_cost_text_zh_english_fallback",
+      "research": "gadomancy:familiar_poison",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_POISON.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_range_cost_text_zh_english_fallback",
+      "research": "gadomancy:familiar_range",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_RANGE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_shock_cost_text_zh_english_fallback",
+      "research": "gadomancy:familiar_shock",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_SHOCK.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_speed_cost_text_zh_english_fallback",
+      "research": "gadomancy:familiar_speed",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_SPEED.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_weakness_cost_text_zh_english_fallback",
+      "research": "gadomancy:familiar_weakness",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_WEAKNESS.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "per attack and level",
+          "replace": {
+            "text": " per level when a successful attack consumes vis (one chance in three)"
+          },
+          "count": 1,
+          "source_locale": "en_us"
+        }
+      }
+    }
+  ]
+}

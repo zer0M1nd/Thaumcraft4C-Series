@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 15,
+    "bestia": 15,
+    "ignis": 25,
+    "perditio": 25
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    }
+  ],
+  "instability": 3,
+  "legacy_order": 63,
+  "research": "FOCUSHELLBAT",
+  "result": {
+    "item": "thaumcraft:focus_hellbat"
+  }
+}

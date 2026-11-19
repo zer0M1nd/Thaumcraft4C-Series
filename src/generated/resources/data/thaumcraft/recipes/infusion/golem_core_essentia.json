@@ -1,0 +1,44 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aqua": 15,
+    "motus": 15,
+    "praecantatio": 15
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:golem_core_liquid"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:potion"
+      },
+      "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:potion"
+      },
+      "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:potion"
+      },
+      "nbt": "{Potion:\"minecraft:water\"}"
+    }
+  ],
+  "instability": 2,
+  "legacy_order": 15,
+  "research": "COREALCHEMY",
+  "result": {
+    "item": "thaumcraft:golem_core_essentia"
+  }
+}

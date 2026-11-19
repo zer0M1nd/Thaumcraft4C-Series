@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "T": {
+      "item": "thaumcraft:thaumometer"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "L L",
+    "TGT"
+  ],
+  "research": "GOGGLES",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:goggles"
+  },
+  "vis": {
+    "aer": 5,
+    "aqua": 5,
+    "ignis": 5,
+    "ordo": 3,
+    "perditio": 3,
+    "terra": 5
+  }
+}

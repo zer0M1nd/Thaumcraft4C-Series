@@ -1,0 +1,1896 @@
+{
+  "format": 1,
+  "groups": [],
+  "items": [
+    {
+      "item": "thaumcraft:aura_node",
+      "legacy_item": "Thaumcraft:blockAiry",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:magic_box",
+      "legacy_item": "Thaumcraft:blockMagicBox",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:primal_crusher",
+      "legacy_item": "Thaumcraft:ItemPrimalCrusher",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:bone_bow",
+      "legacy_item": "Thaumcraft:ItemBowBone",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:primal_arrow_air",
+      "legacy_item": "Thaumcraft:PrimalArrow",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:primal_arrow_fire",
+      "legacy_item": "Thaumcraft:PrimalArrow",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:primal_arrow_water",
+      "legacy_item": "Thaumcraft:PrimalArrow",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:primal_arrow_earth",
+      "legacy_item": "Thaumcraft:PrimalArrow",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:primal_arrow_order",
+      "legacy_item": "Thaumcraft:PrimalArrow",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:primal_arrow_entropy",
+      "legacy_item": "Thaumcraft:PrimalArrow",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:hungry_chest",
+      "legacy_item": "Thaumcraft:blockChestHungry",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:golem_fetter",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 9
+    },
+    {
+      "item": "thaumcraft:thaumium_block",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:golem_straw",
+      "legacy_item": "Thaumcraft:ItemGolemPlacer",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:golem_wood",
+      "legacy_item": "Thaumcraft:ItemGolemPlacer",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:golem_tallow",
+      "legacy_item": "Thaumcraft:ItemGolemPlacer",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:golem_clay",
+      "legacy_item": "Thaumcraft:ItemGolemPlacer",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:golem_flesh",
+      "legacy_item": "Thaumcraft:ItemGolemPlacer",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:golem_stone",
+      "legacy_item": "Thaumcraft:ItemGolemPlacer",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:golem_iron",
+      "legacy_item": "Thaumcraft:ItemGolemPlacer",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:golem_thaumium",
+      "legacy_item": "Thaumcraft:ItemGolemPlacer",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:golem_core_fill",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:golem_core_empty",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:golem_core_gather",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:golem_core_harvest",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:golem_core_guard",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:golem_core_liquid",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:golem_core_essentia",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:golem_core_lumber",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:golem_core_use",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 8
+    },
+    {
+      "item": "thaumcraft:golem_core_butcher",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 9
+    },
+    {
+      "item": "thaumcraft:golem_core_sorting",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 10
+    },
+    {
+      "item": "thaumcraft:golem_core_fish",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 11
+    },
+    {
+      "item": "thaumcraft:golem_core_blank",
+      "legacy_item": "Thaumcraft:ItemGolemCore",
+      "metadata": 100
+    },
+    {
+      "item": "thaumcraft:golem_upgrade_air",
+      "legacy_item": "Thaumcraft:ItemGolemUpgrade",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:golem_upgrade_earth",
+      "legacy_item": "Thaumcraft:ItemGolemUpgrade",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:golem_upgrade_fire",
+      "legacy_item": "Thaumcraft:ItemGolemUpgrade",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:golem_upgrade_water",
+      "legacy_item": "Thaumcraft:ItemGolemUpgrade",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:golem_upgrade_order",
+      "legacy_item": "Thaumcraft:ItemGolemUpgrade",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:golem_upgrade_entropy",
+      "legacy_item": "Thaumcraft:ItemGolemUpgrade",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:golem_decoration_hat",
+      "legacy_item": "Thaumcraft:ItemGolemDecoration",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:golem_decoration_glasses",
+      "legacy_item": "Thaumcraft:ItemGolemDecoration",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:golem_decoration_bowtie",
+      "legacy_item": "Thaumcraft:ItemGolemDecoration",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:golem_decoration_fez",
+      "legacy_item": "Thaumcraft:ItemGolemDecoration",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:golem_decoration_dart",
+      "legacy_item": "Thaumcraft:ItemGolemDecoration",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:golem_decoration_visor",
+      "legacy_item": "Thaumcraft:ItemGolemDecoration",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:golem_decoration_armor",
+      "legacy_item": "Thaumcraft:ItemGolemDecoration",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:golem_decoration_mace",
+      "legacy_item": "Thaumcraft:ItemGolemDecoration",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:golem_bell",
+      "legacy_item": "Thaumcraft:GolemBell",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:traveling_trunk",
+      "legacy_item": "Thaumcraft:TrunkSpawner",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:elemental_pickaxe",
+      "legacy_item": "Thaumcraft:ItemPickaxeElemental",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:elemental_hoe",
+      "legacy_item": "Thaumcraft:ItemHoeElemental",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:elemental_axe",
+      "legacy_item": "Thaumcraft:ItemAxeElemental",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:elemental_shovel",
+      "legacy_item": "Thaumcraft:ItemShovelElemental",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:elemental_sword",
+      "legacy_item": "Thaumcraft:ItemSwordElemental",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:arcane_bore_base",
+      "legacy_item": "Thaumcraft:blockWoodenDevice",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:arcane_bore",
+      "legacy_item": "Thaumcraft:blockWoodenDevice",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:arcane_lamp",
+      "legacy_item": "Thaumcraft:blockMetalDevice",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:growth_lamp",
+      "legacy_item": "Thaumcraft:blockMetalDevice",
+      "metadata": 8
+    },
+    {
+      "item": "thaumcraft:fertility_lamp",
+      "legacy_item": "Thaumcraft:blockMetalDevice",
+      "metadata": 13
+    },
+    {
+      "item": "thaumcraft:amber_block",
+      "legacy_item": "Thaumcraft:blockCosmeticOpaque",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:fortress_helmet",
+      "legacy_item": "Thaumcraft:ItemHelmetFortress",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:fortress_chestplate",
+      "legacy_item": "Thaumcraft:ItemChestplateFortress",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:fortress_leggings",
+      "legacy_item": "Thaumcraft:ItemLeggingsFortress",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:void_robe_helmet",
+      "legacy_item": "Thaumcraft:ItemHelmetVoidFortress",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:void_robe_chestplate",
+      "legacy_item": "Thaumcraft:ItemChestplateVoidFortress",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:void_robe_leggings",
+      "legacy_item": "Thaumcraft:ItemLeggingsVoidFortress",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:hover_harness",
+      "legacy_item": "Thaumcraft:HoverHarness",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:hover_girdle",
+      "legacy_item": "Thaumcraft:ItemGirdleHover",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:traveller_boots",
+      "legacy_item": "Thaumcraft:BootsTraveller",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:bath_salts",
+      "legacy_item": "Thaumcraft:ItemBathSalts",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:sanity_soap",
+      "legacy_item": "Thaumcraft:ItemSanitySoap",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:tallow_block",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:purifying_water",
+      "legacy_item": "Thaumcraft:blockFluidPure",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:levitator",
+      "legacy_item": "Thaumcraft:blockLifter",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:arcane_ear",
+      "legacy_item": "Thaumcraft:blockWoodenDevice",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:eldritch_altar",
+      "legacy_item": "Thaumcraft:blockEldritch",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:eldritch_obelisk",
+      "legacy_item": "Thaumcraft:blockEldritch",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:eldritch_obelisk_segment",
+      "legacy_item": "Thaumcraft:blockEldritch",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:eldritch_cap",
+      "legacy_item": "Thaumcraft:blockEldritch",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:eldritch_glowing_stone",
+      "legacy_item": "Thaumcraft:blockEldritch",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:eldritch_glyphed_stone",
+      "legacy_item": "Thaumcraft:blockEldritch",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:eldritch_carved_stone",
+      "legacy_item": "Thaumcraft:blockEldritch",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:eldritch_door_frame",
+      "legacy_item": "Thaumcraft:blockEldritch",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:eldritch_lock",
+      "legacy_item": "Thaumcraft:blockEldritch",
+      "metadata": 8
+    },
+    {
+      "item": "thaumcraft:eldritch_crab_spawner",
+      "legacy_item": "Thaumcraft:blockEldritch",
+      "metadata": 9
+    },
+    {
+      "item": "thaumcraft:eldritch_rune_trap",
+      "legacy_item": "Thaumcraft:blockEldritch",
+      "metadata": 10
+    },
+    {
+      "item": "thaumcraft:eldritch_stone",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 11
+    },
+    {
+      "item": "thaumcraft:eldritch_rock",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 12
+    },
+    {
+      "item": "thaumcraft:eldritch_stone_nonspawning",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 13
+    },
+    {
+      "item": "thaumcraft:eldritch_crust",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 14
+    },
+    {
+      "item": "thaumcraft:eldritch_pedestal_stone",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 15
+    },
+    {
+      "item": "thaumcraft:obsidian_tile",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:eldritch_crystal",
+      "legacy_item": "Thaumcraft:blockCrystal",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:eldritch_stairs",
+      "legacy_item": "Thaumcraft:blockStairsEldritch",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:eldritch_slab",
+      "legacy_item": "Thaumcraft:blockCosmeticSlabStone",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:loot_urn_0",
+      "legacy_item": "Thaumcraft:blockLootUrn",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:loot_urn_1",
+      "legacy_item": "Thaumcraft:blockLootUrn",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:loot_urn_2",
+      "legacy_item": "Thaumcraft:blockLootUrn",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:loot_crate_0",
+      "legacy_item": "Thaumcraft:blockLootCrate",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:loot_crate_1",
+      "legacy_item": "Thaumcraft:blockLootCrate",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:loot_crate_2",
+      "legacy_item": "Thaumcraft:blockLootCrate",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:eldritch_eye",
+      "legacy_item": "Thaumcraft:ItemEldritchObject",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:runed_tablet",
+      "legacy_item": "Thaumcraft:ItemEldritchObject",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:obelisk_placer",
+      "legacy_item": "Thaumcraft:ItemEldritchObject",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:cultist_robe_helmet",
+      "legacy_item": "Thaumcraft:ItemHelmetCultistRobe",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:cultist_robe_chestplate",
+      "legacy_item": "Thaumcraft:ItemChestplateCultistRobe",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:cultist_robe_leggings",
+      "legacy_item": "Thaumcraft:ItemLeggingsCultistRobe",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:cultist_plate_helmet",
+      "legacy_item": "Thaumcraft:ItemHelmetCultistPlate",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:cultist_plate_chestplate",
+      "legacy_item": "Thaumcraft:ItemChestplateCultistPlate",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:cultist_plate_leggings",
+      "legacy_item": "Thaumcraft:ItemLeggingsCultistPlate",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:cultist_leader_helmet",
+      "legacy_item": "Thaumcraft:ItemHelmetCultistLeaderPlate",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:cultist_leader_chestplate",
+      "legacy_item": "Thaumcraft:ItemChestplateCultistLeaderPlate",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:cultist_leader_leggings",
+      "legacy_item": "Thaumcraft:ItemLeggingsCultistLeaderPlate",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:cultist_boots",
+      "legacy_item": "Thaumcraft:ItemBootsCultist",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:crimson_rites",
+      "legacy_item": "Thaumcraft:ItemEldritchObject",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:crimson_sword",
+      "legacy_item": "Thaumcraft:ItemSwordCrimson",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:mana_bean",
+      "legacy_item": "Thaumcraft:ItemManaBean",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:common_loot_bag",
+      "legacy_item": "Thaumcraft:ItemLootBag",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:uncommon_loot_bag",
+      "legacy_item": "Thaumcraft:ItemLootBag",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:rare_loot_bag",
+      "legacy_item": "Thaumcraft:ItemLootBag",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:primordial_pearl",
+      "legacy_item": "Thaumcraft:ItemEldritchObject",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:void_pickaxe",
+      "legacy_item": "Thaumcraft:ItemPickVoid",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:void_axe",
+      "legacy_item": "Thaumcraft:ItemAxeVoid",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:void_shovel",
+      "legacy_item": "Thaumcraft:ItemShovelVoid",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:void_hoe",
+      "legacy_item": "Thaumcraft:ItemHoeVoid",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:void_sword",
+      "legacy_item": "Thaumcraft:ItemSwordVoid",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:void_helmet",
+      "legacy_item": "Thaumcraft:ItemHelmetVoid",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:void_chestplate",
+      "legacy_item": "Thaumcraft:ItemChestplateVoid",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:void_leggings",
+      "legacy_item": "Thaumcraft:ItemLeggingsVoid",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:void_boots",
+      "legacy_item": "Thaumcraft:ItemBootsVoid",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:air_ring",
+      "legacy_item": "Thaumcraft:ItemBaubleBlanks",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:earth_ring",
+      "legacy_item": "Thaumcraft:ItemBaubleBlanks",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:fire_ring",
+      "legacy_item": "Thaumcraft:ItemBaubleBlanks",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:water_ring",
+      "legacy_item": "Thaumcraft:ItemBaubleBlanks",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:order_ring",
+      "legacy_item": "Thaumcraft:ItemBaubleBlanks",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:entropy_ring",
+      "legacy_item": "Thaumcraft:ItemBaubleBlanks",
+      "metadata": 8
+    },
+    {
+      "item": "thaumcraft:shimmerleaf",
+      "legacy_item": "Thaumcraft:blockCustomPlant",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:cinderpearl",
+      "legacy_item": "Thaumcraft:blockCustomPlant",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:vishroom",
+      "legacy_item": "Thaumcraft:blockCustomPlant",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:greatwood_planks",
+      "legacy_item": "Thaumcraft:blockWoodenDevice",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:greatwood_slab",
+      "legacy_item": "Thaumcraft:blockCosmeticSlabWood",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:greatwood_stairs",
+      "legacy_item": "Thaumcraft:blockStairsGreatwood",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:silverwood_planks",
+      "legacy_item": "Thaumcraft:blockWoodenDevice",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:silverwood_slab",
+      "legacy_item": "Thaumcraft:blockCosmeticSlabWood",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:silverwood_stairs",
+      "legacy_item": "Thaumcraft:blockStairsSilverwood",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:greatwood_log",
+      "legacy_item": "Thaumcraft:blockMagicalLog",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:greatwood_leaves",
+      "legacy_item": "Thaumcraft:blockMagicalLeaves",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:greatwood_sapling",
+      "legacy_item": "Thaumcraft:blockCustomPlant",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:silverwood_log",
+      "legacy_item": "Thaumcraft:blockMagicalLog",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:silverwood_leaves",
+      "legacy_item": "Thaumcraft:blockMagicalLeaves",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:silverwood_sapling",
+      "legacy_item": "Thaumcraft:blockCustomPlant",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:air_crystal_cluster",
+      "legacy_item": "Thaumcraft:blockCrystal",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:fire_crystal_cluster",
+      "legacy_item": "Thaumcraft:blockCrystal",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:water_crystal_cluster",
+      "legacy_item": "Thaumcraft:blockCrystal",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:earth_crystal_cluster",
+      "legacy_item": "Thaumcraft:blockCrystal",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:order_crystal_cluster",
+      "legacy_item": "Thaumcraft:blockCrystal",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:entropy_crystal_cluster",
+      "legacy_item": "Thaumcraft:blockCrystal",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:mixed_crystal_cluster",
+      "legacy_item": "Thaumcraft:blockCrystal",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:runic_ring_lesser",
+      "legacy_item": "Thaumcraft:ItemRingRunic",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:runic_ring",
+      "legacy_item": "Thaumcraft:ItemRingRunic",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:runic_ring_charged",
+      "legacy_item": "Thaumcraft:ItemRingRunic",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:runic_ring_regen",
+      "legacy_item": "Thaumcraft:ItemRingRunic",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:runic_amulet",
+      "legacy_item": "Thaumcraft:ItemAmuletRunic",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:runic_amulet_emergency",
+      "legacy_item": "Thaumcraft:ItemAmuletRunic",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:runic_girdle",
+      "legacy_item": "Thaumcraft:ItemGirdleRunic",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:runic_girdle_kinetic",
+      "legacy_item": "Thaumcraft:ItemGirdleRunic",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:wand_cap_iron",
+      "legacy_item": "Thaumcraft:WandCap",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:wand_cap_gold",
+      "legacy_item": "Thaumcraft:WandCap",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:wand_cap_copper",
+      "legacy_item": "Thaumcraft:WandCap",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:wand_cap_thaumium",
+      "legacy_item": "Thaumcraft:WandCap",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:wand_cap_thaumium_inert",
+      "legacy_item": "Thaumcraft:WandCap",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:wand_cap_void",
+      "legacy_item": "Thaumcraft:WandCap",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:wand_cap_void_inert",
+      "legacy_item": "Thaumcraft:WandCap",
+      "metadata": 8
+    },
+    {
+      "item": "thaumcraft:wand_rod_greatwood",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:wand_rod_obsidian",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:wand_rod_silverwood",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:wand_rod_ice",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:wand_rod_quartz",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:wand_rod_reed",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:wand_rod_blaze",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:wand_rod_bone",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:staff_rod_greatwood",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 50
+    },
+    {
+      "item": "thaumcraft:staff_rod_obsidian",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 51
+    },
+    {
+      "item": "thaumcraft:staff_rod_silverwood",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 52
+    },
+    {
+      "item": "thaumcraft:staff_rod_ice",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 53
+    },
+    {
+      "item": "thaumcraft:staff_rod_quartz",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 54
+    },
+    {
+      "item": "thaumcraft:staff_rod_reed",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 55
+    },
+    {
+      "item": "thaumcraft:staff_rod_blaze",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 56
+    },
+    {
+      "item": "thaumcraft:staff_rod_bone",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 57
+    },
+    {
+      "item": "thaumcraft:staff_rod_primal",
+      "legacy_item": "Thaumcraft:WandRod",
+      "metadata": 100
+    },
+    {
+      "item": "thaumcraft:thaumium_pickaxe",
+      "legacy_item": "Thaumcraft:ItemPickThaumium",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:thaumium_axe",
+      "legacy_item": "Thaumcraft:ItemAxeThaumium",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:thaumium_shovel",
+      "legacy_item": "Thaumcraft:ItemShovelThaumium",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:thaumium_hoe",
+      "legacy_item": "Thaumcraft:ItemHoeThaumium",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:thaumium_sword",
+      "legacy_item": "Thaumcraft:ItemSwordThaumium",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:thaumium_helmet",
+      "legacy_item": "Thaumcraft:ItemHelmetThaumium",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:thaumium_chestplate",
+      "legacy_item": "Thaumcraft:ItemChestplateThaumium",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:thaumium_leggings",
+      "legacy_item": "Thaumcraft:ItemLeggingsThaumium",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:thaumium_boots",
+      "legacy_item": "Thaumcraft:ItemBootsThaumium",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:mundane_amulet",
+      "legacy_item": "Thaumcraft:ItemBaubleBlanks",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:mundane_ring",
+      "legacy_item": "Thaumcraft:ItemBaubleBlanks",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:mundane_belt",
+      "legacy_item": "Thaumcraft:ItemBaubleBlanks",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:chicken_nugget",
+      "legacy_item": "Thaumcraft:ItemNuggetChicken",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:beef_nugget",
+      "legacy_item": "Thaumcraft:ItemNuggetBeef",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:pork_nugget",
+      "legacy_item": "Thaumcraft:ItemNuggetPork",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:fish_nugget",
+      "legacy_item": "Thaumcraft:ItemNuggetFish",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:triple_meat_treat",
+      "legacy_item": "Thaumcraft:TripleMeatTreat",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:air_shard",
+      "legacy_item": "Thaumcraft:ItemShard",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:fire_shard",
+      "legacy_item": "Thaumcraft:ItemShard",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:water_shard",
+      "legacy_item": "Thaumcraft:ItemShard",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:earth_shard",
+      "legacy_item": "Thaumcraft:ItemShard",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:order_shard",
+      "legacy_item": "Thaumcraft:ItemShard",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:entropy_shard",
+      "legacy_item": "Thaumcraft:ItemShard",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:balanced_shard",
+      "legacy_item": "Thaumcraft:ItemShard",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:thaumometer",
+      "legacy_item": "Thaumcraft:ItemThaumometer",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:knowledge_fragment",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 9
+    },
+    {
+      "item": "thaumcraft:silverwood_node_log",
+      "legacy_item": "Thaumcraft:blockMagicalLog",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:thaumonomicon",
+      "legacy_item": "Thaumcraft:ItemThaumonomicon",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:cheat_thaumonomicon",
+      "legacy_item": "Thaumcraft:ItemThaumonomicon",
+      "metadata": 42
+    },
+    {
+      "item": "thaumcraft:zombie_brain",
+      "legacy_item": "Thaumcraft:ItemZombieBrain",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:sanity_checker",
+      "legacy_item": "Thaumcraft:ItemSanityChecker",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:sinister_stone",
+      "legacy_item": "Thaumcraft:ItemCompassStone",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:travel_paving_stone",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:warding_paving_stone",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:cinnabar_ore",
+      "legacy_item": "Thaumcraft:blockCustomOre",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:air_infused_stone",
+      "legacy_item": "Thaumcraft:blockCustomOre",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:fire_infused_stone",
+      "legacy_item": "Thaumcraft:blockCustomOre",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:water_infused_stone",
+      "legacy_item": "Thaumcraft:blockCustomOre",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:earth_infused_stone",
+      "legacy_item": "Thaumcraft:blockCustomOre",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:order_infused_stone",
+      "legacy_item": "Thaumcraft:blockCustomOre",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:entropy_infused_stone",
+      "legacy_item": "Thaumcraft:blockCustomOre",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:amber_ore",
+      "legacy_item": "Thaumcraft:blockCustomOre",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:obsidian_node_totem",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 8
+    },
+    {
+      "item": "thaumcraft:obsidian_totem",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:metal_grate",
+      "legacy_item": "Thaumcraft:blockMetalDevice",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:arcane_spa",
+      "legacy_item": "Thaumcraft:blockStoneDevice",
+      "metadata": 12
+    },
+    {
+      "item": "thaumcraft:flux_scrubber",
+      "legacy_item": "Thaumcraft:blockStoneDevice",
+      "metadata": 14
+    },
+    {
+      "item": "thaumcraft:deconstruction_table",
+      "legacy_item": "Thaumcraft:blockTable",
+      "metadata": 14
+    },
+    {
+      "item": "thaumcraft:arcane_workbench",
+      "legacy_item": "Thaumcraft:blockTable",
+      "metadata": 15
+    },
+    {
+      "item": "thaumcraft:primal_charm",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 15
+    },
+    {
+      "item": "thaumcraft:casting_wand",
+      "legacy_item": "Thaumcraft:WandCasting",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:wisp_essence",
+      "legacy_item": "Thaumcraft:ItemWispEssence",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:taint_hive_spawn_egg",
+      "legacy_item": "Thaumcraft:ItemSpawnerEgg",
+      "metadata": 20
+    },
+    {
+      "item": "thaumcraft:taint_swarm_spawn_egg",
+      "legacy_item": "Thaumcraft:ItemSpawnerEgg",
+      "metadata": 21
+    },
+    {
+      "item": "thaumcraft:tainted_chicken_spawn_egg",
+      "legacy_item": "Thaumcraft:ItemSpawnerEgg",
+      "metadata": 22
+    },
+    {
+      "item": "thaumcraft:tainted_cow_spawn_egg",
+      "legacy_item": "Thaumcraft:ItemSpawnerEgg",
+      "metadata": 23
+    },
+    {
+      "item": "thaumcraft:tainted_creeper_spawn_egg",
+      "legacy_item": "Thaumcraft:ItemSpawnerEgg",
+      "metadata": 24
+    },
+    {
+      "item": "thaumcraft:tainted_pig_spawn_egg",
+      "legacy_item": "Thaumcraft:ItemSpawnerEgg",
+      "metadata": 25
+    },
+    {
+      "item": "thaumcraft:tainted_sheep_spawn_egg",
+      "legacy_item": "Thaumcraft:ItemSpawnerEgg",
+      "metadata": 26
+    },
+    {
+      "item": "thaumcraft:tainted_villager_spawn_egg",
+      "legacy_item": "Thaumcraft:ItemSpawnerEgg",
+      "metadata": 27
+    },
+    {
+      "item": "thaumcraft:tainted_goo",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 11
+    },
+    {
+      "item": "thaumcraft:tainted_tendril",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 12
+    },
+    {
+      "item": "thaumcraft:nitor",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:crucible",
+      "legacy_item": "Thaumcraft:blockMetalDevice",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:bellows",
+      "legacy_item": "Thaumcraft:blockWoodenDevice",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:arcane_pedestal",
+      "legacy_item": "Thaumcraft:blockStoneDevice",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:alumentum",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:essentia_resonator",
+      "legacy_item": "Thaumcraft:ItemResonator",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:alchemy_furnace",
+      "legacy_item": "Thaumcraft:blockStoneDevice",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:alembic",
+      "legacy_item": "Thaumcraft:blockMetalDevice",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:essentia_reservoir",
+      "legacy_item": "Thaumcraft:blockEssentiaReservoir",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:essentia_mirror",
+      "legacy_item": "Thaumcraft:blockMirror",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:item_mirror",
+      "legacy_item": "Thaumcraft:blockMirror",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:hand_mirror",
+      "legacy_item": "Thaumcraft:HandMirror",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:liquid_death_bucket",
+      "legacy_item": "Thaumcraft:ItemBucketDeath",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:purifying_water_bucket",
+      "legacy_item": "Thaumcraft:ItemBucketPure",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:liquid_death",
+      "legacy_item": "Thaumcraft:blockFluidDeath",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:taint_bottle",
+      "legacy_item": "Thaumcraft:ItemBottleTaint",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:essence_crystal",
+      "legacy_item": "Thaumcraft:ItemCrystalEssence",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:warded_glass",
+      "legacy_item": "Thaumcraft:blockCosmeticOpaque",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:arcane_door",
+      "legacy_item": "Thaumcraft:ItemArcaneDoor",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:iron_key",
+      "legacy_item": "Thaumcraft:ArcaneDoorKey",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:gold_key",
+      "legacy_item": "Thaumcraft:ArcaneDoorKey",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:arcane_pressure_plate",
+      "legacy_item": "Thaumcraft:blockWoodenDevice",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:ethereal_bloom",
+      "legacy_item": "Thaumcraft:blockCustomPlant",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:alchemy_centrifuge",
+      "legacy_item": "Thaumcraft:blockTube",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:essentia_crystallizer",
+      "legacy_item": "Thaumcraft:blockTube",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:alchemical_construct",
+      "legacy_item": "Thaumcraft:blockMetalDevice",
+      "metadata": 9
+    },
+    {
+      "item": "thaumcraft:advanced_alchemical_construct",
+      "legacy_item": "Thaumcraft:blockMetalDevice",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:mnemonic_matrix",
+      "legacy_item": "Thaumcraft:blockMetalDevice",
+      "metadata": 12
+    },
+    {
+      "item": "thaumcraft:essentia_tube",
+      "legacy_item": "Thaumcraft:blockTube",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:essentia_valve",
+      "legacy_item": "Thaumcraft:blockTube",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:essentia_filter",
+      "legacy_item": "Thaumcraft:blockTube",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:essentia_buffer",
+      "legacy_item": "Thaumcraft:blockTube",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:essentia_restrictor",
+      "legacy_item": "Thaumcraft:blockTube",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:essentia_oneway",
+      "legacy_item": "Thaumcraft:blockTube",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:infusion_matrix",
+      "legacy_item": "Thaumcraft:blockStoneDevice",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:brain_jar",
+      "legacy_item": "Thaumcraft:blockJar",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:essentia_jar",
+      "legacy_item": "Thaumcraft:blockJar",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:void_jar",
+      "legacy_item": "Thaumcraft:blockJar",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:filled_essentia_jar",
+      "legacy_item": "Thaumcraft:BlockJarFilledItem",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:filled_void_jar",
+      "legacy_item": "Thaumcraft:BlockJarFilledItem",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:jar_label",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 13
+    },
+    {
+      "item": "thaumcraft:empty_phial",
+      "legacy_item": "Thaumcraft:ItemEssence",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:essentia_phial",
+      "legacy_item": "Thaumcraft:ItemEssence",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:node_jar",
+      "legacy_item": "Thaumcraft:BlockJarNodeItem",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:taint_crust",
+      "legacy_item": "Thaumcraft:blockTaint",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:taint_soil",
+      "legacy_item": "Thaumcraft:blockTaint",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:flesh_block",
+      "legacy_item": "Thaumcraft:blockTaint",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:taint_fibres",
+      "legacy_item": "Thaumcraft:blockTaintFibres",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:taint_grass",
+      "legacy_item": "Thaumcraft:blockTaintFibres",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:taint_plant",
+      "legacy_item": "Thaumcraft:blockTaintFibres",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:taint_spore_stalk",
+      "legacy_item": "Thaumcraft:blockTaintFibres",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:taint_spore_stalk_mature",
+      "legacy_item": "Thaumcraft:blockTaintFibres",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:wand_pedestal",
+      "legacy_item": "Thaumcraft:blockStoneDevice",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:wand_pedestal_focus",
+      "legacy_item": "Thaumcraft:blockStoneDevice",
+      "metadata": 8
+    },
+    {
+      "item": "thaumcraft:lesser_vis_amulet",
+      "legacy_item": "Thaumcraft:ItemAmuletVis",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:vis_amulet",
+      "legacy_item": "Thaumcraft:ItemAmuletVis",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:focus_pouch",
+      "legacy_item": "Thaumcraft:FocusPouch",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:focus_shock",
+      "legacy_item": "Thaumcraft:FocusShock",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:focus_fire",
+      "legacy_item": "Thaumcraft:FocusFire",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:focus_frost",
+      "legacy_item": "Thaumcraft:FocusFrost",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:focus_excavation",
+      "legacy_item": "Thaumcraft:FocusExcavation",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:focus_pech",
+      "legacy_item": "Thaumcraft:FocusPech",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:focus_portable_hole",
+      "legacy_item": "Thaumcraft:FocusPortableHole",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:focus_trade",
+      "legacy_item": "Thaumcraft:FocusTrade",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:focus_warding",
+      "legacy_item": "Thaumcraft:FocusWarding",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:focus_hellbat",
+      "legacy_item": "Thaumcraft:FocusHellbat",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:focus_primal",
+      "legacy_item": "Thaumcraft:FocusPrimal",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:goggles",
+      "legacy_item": "Thaumcraft:ItemGoggles",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:robe_chest",
+      "legacy_item": "Thaumcraft:ItemChestplateRobe",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:robe_legs",
+      "legacy_item": "Thaumcraft:ItemLeggingsRobe",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:robe_boots",
+      "legacy_item": "Thaumcraft:ItemBootsRobe",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:focal_manipulator",
+      "legacy_item": "Thaumcraft:blockStoneDevice",
+      "metadata": 13
+    },
+    {
+      "item": "thaumcraft:vis_relay",
+      "legacy_item": "Thaumcraft:blockMetalDevice",
+      "metadata": 14
+    },
+    {
+      "item": "thaumcraft:workbench_charger",
+      "legacy_item": "Thaumcraft:blockMetalDevice",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:node_stabilizer",
+      "legacy_item": "Thaumcraft:blockStoneDevice",
+      "metadata": 9
+    },
+    {
+      "item": "thaumcraft:advanced_node_stabilizer",
+      "legacy_item": "Thaumcraft:blockStoneDevice",
+      "metadata": 10
+    },
+    {
+      "item": "thaumcraft:node_converter",
+      "legacy_item": "Thaumcraft:blockStoneDevice",
+      "metadata": 11
+    },
+    {
+      "item": "thaumcraft:arcane_stone",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:arcane_stone_bricks",
+      "legacy_item": "Thaumcraft:blockCosmeticSolid",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:arcane_stone_slab",
+      "legacy_item": "Thaumcraft:blockCosmeticSlabStone",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:arcane_stone_stairs",
+      "legacy_item": "Thaumcraft:blockStairsArcaneStone",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:research_notes",
+      "legacy_item": "Thaumcraft:ItemResearchNotes",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:unknown_research_notes",
+      "legacy_item": "Thaumcraft:ItemResearchNotes",
+      "metadata": 42
+    },
+    {
+      "item": "thaumcraft:discovery",
+      "legacy_item": "Thaumcraft:ItemResearchNotes",
+      "metadata": 64
+    },
+    {
+      "item": "thaumcraft:scribing_tools",
+      "legacy_item": "Thaumcraft:ItemInkwell",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:table",
+      "legacy_item": "Thaumcraft:blockTable",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:research_table",
+      "legacy_item": "Thaumcraft:blockTable",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:tallow_candle_0",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 0
+    },
+    {
+      "item": "thaumcraft:tallow_candle_1",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:tallow_candle_2",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:tallow_candle_3",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:tallow_candle_4",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:tallow_candle_5",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:tallow_candle_6",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:tallow_candle_7",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:tallow_candle_8",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 8
+    },
+    {
+      "item": "thaumcraft:tallow_candle_9",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 9
+    },
+    {
+      "item": "thaumcraft:tallow_candle_10",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 10
+    },
+    {
+      "item": "thaumcraft:tallow_candle_11",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 11
+    },
+    {
+      "item": "thaumcraft:tallow_candle_12",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 12
+    },
+    {
+      "item": "thaumcraft:tallow_candle_13",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 13
+    },
+    {
+      "item": "thaumcraft:tallow_candle_14",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 14
+    },
+    {
+      "item": "thaumcraft:tallow_candle_15",
+      "legacy_item": "Thaumcraft:blockCandle",
+      "metadata": 15
+    },
+    {
+      "item": "thaumcraft:thaumium_ingot",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 2
+    },
+    {
+      "item": "thaumcraft:quicksilver",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 3
+    },
+    {
+      "item": "thaumcraft:magic_tallow",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:legacy_brain",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:amber",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:enchanted_fabric",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:vis_filter",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 8
+    },
+    {
+      "item": "thaumcraft:mirrored_glass",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 10
+    },
+    {
+      "item": "thaumcraft:salis_mundus",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 14
+    },
+    {
+      "item": "thaumcraft:void_ingot",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 16
+    },
+    {
+      "item": "thaumcraft:void_seed",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 17
+    },
+    {
+      "item": "thaumcraft:gold_coin",
+      "legacy_item": "Thaumcraft:ItemResource",
+      "metadata": 18
+    },
+    {
+      "item": "thaumcraft:iron_cluster",
+      "legacy_item": "Thaumcraft:ItemNugget",
+      "metadata": 16
+    },
+    {
+      "item": "thaumcraft:copper_cluster",
+      "legacy_item": "Thaumcraft:ItemNugget",
+      "metadata": 17
+    },
+    {
+      "item": "thaumcraft:cinnabar_cluster",
+      "legacy_item": "Thaumcraft:ItemNugget",
+      "metadata": 21
+    },
+    {
+      "item": "thaumcraft:gold_cluster",
+      "legacy_item": "Thaumcraft:ItemNugget",
+      "metadata": 31
+    },
+    {
+      "item": "thaumcraft:copper_nugget",
+      "legacy_item": "Thaumcraft:ItemNugget",
+      "metadata": 1
+    },
+    {
+      "item": "thaumcraft:quicksilver_drop",
+      "legacy_item": "Thaumcraft:ItemNugget",
+      "metadata": 5
+    },
+    {
+      "item": "thaumcraft:thaumium_nugget",
+      "legacy_item": "Thaumcraft:ItemNugget",
+      "metadata": 6
+    },
+    {
+      "item": "thaumcraft:void_nugget",
+      "legacy_item": "Thaumcraft:ItemNugget",
+      "metadata": 7
+    },
+    {
+      "item": "thaumcraft:wand_cap_silver",
+      "legacy_item": "Thaumcraft:WandCap",
+      "metadata": 4
+    },
+    {
+      "item": "thaumcraft:wand_cap_silver_inert",
+      "legacy_item": "Thaumcraft:WandCap",
+      "metadata": 5
+    }
+  ]
+}

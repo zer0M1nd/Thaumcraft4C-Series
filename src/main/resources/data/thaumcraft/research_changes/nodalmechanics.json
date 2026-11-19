@@ -1,0 +1,23 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "nodalmechanics:node_roll",
+      "research": "NODECATALYZATION",
+      "kind": "continuation",
+      "provider": "nodalmechanics",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "节点力学",
+          "en_us": "Nodal Mechanics"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "节点调制已修正：随机结果在注魔开工时确定并保存，预览或重载不再重抽；异常矩阵不能用于制作。",
+          "en_us": "Node Catalyzation is fixed: random results are chosen and saved when infusion starts, not rerolled by previews or reloads; malformed matrices cannot be crafted."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tc4revival.mixin",
+  "plugin": "tc4revival.mixin.OptionalCompatMixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ChunkReadSnapshotMixin",
+    "AutoResearchNoteMixin",
+    "AutoResearchLegacyMixin",
+    "AutoResearchBatchMixin",
+    "WandBlockInteractionMixin",
+    "FeatureRecipeReloadMixin",
+    "FeatureRecipeConditionsMixin",
+    "ElementalArrowDamageMixin"
+  ],
+  "client": [
+    "EasyVillagersItemRendererMixin",
+    "EasyVillagersBlockRendererMixin",
+    "BookFontTypographyMixin",
+    "BookGraphicsTypographyMixin",
+    "ExternalResourceOrderMixin",
+    "OriginalDownloadBootstrapMixin",
+    "ResearchSubtitleLocalizationMixin",
+    "GregTechBucketTooltipMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

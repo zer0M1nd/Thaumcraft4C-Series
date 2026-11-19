@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "CAP_silver",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.CAP_silver.1"
+          },
+          "id": "thaumcraft:CAP_silver/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumcraft:arcane/wand_cap_silver_inert"
+            ]
+          },
+          "recipeOutput": {
+            "count": 1,
+            "damageable": false,
+            "item": "thaumcraft:wand_cap_silver_inert",
+            "metadata": 0
+          },
+          "id": "thaumcraft:CAP_silver/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumcraft:infusion/wand_cap_silver"
+            ]
+          },
+          "recipeOutput": {
+            "count": 1,
+            "damageable": false,
+            "item": "thaumcraft:wand_cap_silver",
+            "metadata": 0
+          },
+          "id": "thaumcraft:CAP_silver/page/3",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

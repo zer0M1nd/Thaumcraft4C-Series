@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aqua": 8,
+    "permutatio": 8,
+    "praecantatio": 8,
+    "vacuos": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:essentia_buffer"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    }
+  ],
+  "instability": 6,
+  "legacy_order": 43,
+  "research": "ESSENTIARESERVOIR",
+  "result": {
+    "item": "thaumcraft:essentia_reservoir"
+  }
+}

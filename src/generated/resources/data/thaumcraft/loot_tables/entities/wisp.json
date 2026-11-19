@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "amount": 2,
+                "from_entity": true,
+                "operation": "aspect"
+              }
+            }
+          ],
+          "name": "thaumcraft:wisp_essence"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

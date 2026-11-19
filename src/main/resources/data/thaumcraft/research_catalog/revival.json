@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "BASICS",
+      "icon": "thaumcraft:textures/items/thaumonomiconcheat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "REVIVAL_RESEARCH_ASSISTANCE",
+          "category": "BASICS",
+          "displayColumn": 6,
+          "displayRow": 4,
+          "parents": [
+            "RESEARCHER2"
+          ],
+          "icon_resource": "thaumcraft:textures/misc/r_revival_research_assistance.png",
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 6
+            },
+            {
+              "aspect": "instrumentum",
+              "amount": 4
+            },
+            {
+              "aspect": "ordo",
+              "amount": 4
+            }
+          ],
+          "pageCount": 1,
+          "isRound": true,
+          "isSpecial": true
+        },
+        {
+          "key": "REVIVAL_ASPECT_RELATIONS",
+          "category": "BASICS",
+          "displayColumn": 6,
+          "displayRow": 6,
+          "parents": [
+            "REVIVAL_RESEARCH_ASSISTANCE",
+            "JARBRAIN"
+          ],
+          "icon_resource": "thaumcraft:textures/misc/r_revival_aspect_relations.png",
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 8
+            },
+            {
+              "aspect": "sensus",
+              "amount": 6
+            },
+            {
+              "aspect": "vinculum",
+              "amount": 4
+            }
+          ],
+          "pageCount": 1,
+          "isRound": true,
+          "isSpecial": true
+        },
+        {
+          "key": "REVIVAL_LISTENING_GUIDANCE",
+          "category": "BASICS",
+          "displayColumn": 5,
+          "displayRow": 3,
+          "parents": [
+            "RESEARCHER2"
+          ],
+          "icon_resource": "thaumcraft:textures/misc/r_revival_listening_guidance.png",
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 6
+            },
+            {
+              "aspect": "sensus",
+              "amount": 4
+            },
+            {
+              "aspect": "ordo",
+              "amount": 4
+            }
+          ],
+          "pageCount": 1,
+          "isRound": true,
+          "isSpecial": true
+        }
+      ]
+    },
+    {
+      "key": "ELDRITCH",
+      "icon": "thaumcraft:textures/misc/r_eldritch.png",
+      "background": "thaumcraft:textures/gui/gui_researchbackeldritch.png",
+      "research": [
+        {
+          "key": "REVIVAL_RESEARCH_CONNECTIONS",
+          "category": "ELDRITCH",
+          "displayColumn": -2,
+          "displayRow": 8,
+          "parents": [
+            "REVIVAL_ASPECT_RELATIONS",
+            "PRIMPEARL"
+          ],
+          "icon_resource": "thaumcraft:textures/misc/r_revival_research_connections.png",
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 12
+            },
+            {
+              "aspect": "alienis",
+              "amount": 8
+            },
+            {
+              "aspect": "vinculum",
+              "amount": 8
+            }
+          ],
+          "pageCount": 1,
+          "isRound": true,
+          "isSpecial": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "image": "thaumcraft:textures/misc/research3.png",
+    "u": 0, "v": 104, "width": 96, "height": 16,
+    "items": ["thaumcraft:air_shard", "thaumcraft:fire_shard", "thaumcraft:water_shard", "thaumcraft:earth_shard", "thaumcraft:order_shard", "thaumcraft:entropy_shard"]
+  },
+  {
+    "image": "thaumcraft:textures/misc/research1.png",
+    "u": 0, "v": 240, "width": 64, "height": 16,
+    "items": [
+      {"id":"thaumcraft:mana_bean","nbt":"{Aspects:[{key:\"terra\",amount:1}]}"},
+      {"id":"thaumcraft:mana_bean","nbt":"{Aspects:[{key:\"aer\",amount:1}]}"},
+      {"id":"thaumcraft:mana_bean","nbt":"{Aspects:[{key:\"aqua\",amount:1}]}"},
+      {"id":"thaumcraft:mana_bean","nbt":"{Aspects:[{key:\"ignis\",amount:1}]}"}
+    ]
+  }
+]

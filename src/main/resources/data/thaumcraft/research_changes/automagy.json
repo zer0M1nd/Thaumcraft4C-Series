@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "automagy:mirror_signal",
+      "research": "automagy:REDCRYSTAL_MIRRORBOUND",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "跨维度红晶信号已修正：移除电源后，镜间反馈不再自行维持供电。",
+          "en_us": "Cross-dimensional redcrystal is fixed: mirror feedback no longer sustains power after its source is removed."
+        }
+      }
+    },
+    {
+      "id": "automagy:network_limit",
+      "research": "automagy:REDCRYSTAL",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "红晶网络适配新版：仅检查已加载区块，每个相连网络最多处理 16384 个节点。",
+          "en_us": "Redcrystal networks use loaded chunks only and process at most 16384 connected nodes."
+        }
+      }
+    },
+    {
+      "id": "automagy:hopper",
+      "research": "automagy:ALCHEMYBOILER",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "炼金锅炉新增自动化：顶部可用漏斗送入燃料、空桶，并取出容器余物。",
+          "en_us": "Alchemical boilers support automation: the top item interface accepts fuel and empty buckets and exposes container remainders."
+        }
+      }
+    },
+    {
+      "id": "automagy:chest_transaction",
+      "research": "automagy:EAGERCHEST",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "易物箱交换已修正：接收方放不下的物品留在原处；玩家改名后仍保留原有识别关系。",
+          "en_us": "Eager Chest trading is fixed: rejected items stay at their source, and player recognition survives name changes."
+        }
+      }
+    },
+    {
+      "id": "automagy:pearl_slot",
+      "research": "automagy:GREEDYCHEST",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "贪婪珍珠回收已调整：飞行时不占用原槽，返回时优先放回空原槽，再放入背包；没有空间才掉落。",
+          "en_us": "Avarice pearls no longer reserve their original slot while flying. On return they use that slot if empty, then inventory space, otherwise drop."
+        }
+      }
+    },
+    {
+      "id": "automagy:modern_filters",
+      "research": "automagy:ENCHANTEDPAPER",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "筛选纸适配新版：忽略损伤不会合并不同注册物品；旧版共用数据值的变种可能需要分别指定。",
+          "en_us": "Filters use modern item identities: ignoring damage does not merge distinct items; former metadata variants may need separate entries."
+        }
+      }
+    },
+    {
+      "id": "automagy:inventory_identity",
+      "research": "automagy:INVENTARIUM",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "库存统计已修正：双箱等同一库存不会因从不同面访问而重复计数。",
+          "en_us": "Inventarium counts are fixed: accessing the same inventory, including double chests, from multiple faces no longer counts it twice."
+        }
+      }
+    }
+  ]
+}

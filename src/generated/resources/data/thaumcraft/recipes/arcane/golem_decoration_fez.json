@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "C": {
+      "item": "minecraft:red_wool"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "CCS",
+    "CCS",
+    "  S"
+  ],
+  "research": "TINYFEZ",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:golem_decoration_fez"
+  },
+  "vis": {
+    "aqua": 4,
+    "terra": 4
+  }
+}

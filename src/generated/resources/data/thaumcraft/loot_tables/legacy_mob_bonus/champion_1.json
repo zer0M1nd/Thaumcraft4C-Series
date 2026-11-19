@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "range": {
+                    "min": 10
+                  },
+                  "value": {
+                    "type": "thaumcraft:looting",
+                    "base": 1.0,
+                    "multiplier": 1.0
+                  }
+                }
+              ],
+              "name": "thaumcraft:rare_loot_bag"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "range": {
+                    "min": 5
+                  },
+                  "value": {
+                    "type": "thaumcraft:looting",
+                    "base": 1.0,
+                    "multiplier": 1.0
+                  }
+                }
+              ],
+              "name": "thaumcraft:uncommon_loot_bag"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "range": {
+                    "min": 0
+                  },
+                  "value": {
+                    "type": "thaumcraft:looting",
+                    "base": 1.0,
+                    "multiplier": 1.0
+                  }
+                }
+              ],
+              "name": "thaumcraft:common_loot_bag"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

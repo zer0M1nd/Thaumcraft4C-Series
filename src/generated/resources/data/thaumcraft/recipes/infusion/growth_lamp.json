@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "herba": 16,
+    "lux": 8,
+    "victus": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:arcane_lamp"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bone_meal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bone_meal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    }
+  ],
+  "instability": 4,
+  "legacy_order": 26,
+  "research": "LAMPGROWTH",
+  "result": {
+    "item": "thaumcraft:growth_lamp"
+  }
+}

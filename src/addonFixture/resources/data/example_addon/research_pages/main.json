@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "example_addon:START",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "example_addon.page.start"
+          },
+          "id": "example_addon:START/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ASPECTS",
+          "aspects": {
+            "example_addon:insight": 1
+          },
+          "id": "example_addon:START/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

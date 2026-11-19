@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "C": {
+      "tag": "thaumcraft:shards"
+    },
+    "S": {
+      "tag": "forge:stone"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "research": "ARCANESTONE",
+  "result": {
+    "count": 9,
+    "item": "thaumcraft:arcane_stone"
+  },
+  "vis": {
+    "ignis": 1,
+    "terra": 1
+  }
+}

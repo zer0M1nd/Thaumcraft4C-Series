@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "potentia": 35,
+    "praecantatio": 35,
+    "tutamen": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_amulet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "damage": 0,
+      "ingredient": {
+        "item": "thaumcraft:scribing_tools"
+      }
+    }
+  ],
+  "instability": 4,
+  "legacy_order": 47,
+  "research": "RUNICARMOR",
+  "result": {
+    "item": "thaumcraft:runic_amulet"
+  }
+}

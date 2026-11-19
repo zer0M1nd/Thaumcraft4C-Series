@@ -1,0 +1,134 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#face2"
+        },
+        "east": {
+          "texture": "#face3"
+        },
+        "north": {
+          "texture": "#face3"
+        },
+        "south": {
+          "texture": "#face3"
+        },
+        "up": {
+          "texture": "#face1"
+        },
+        "west": {
+          "texture": "#face3"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#face5"
+        }
+      },
+      "from": [
+        0,
+        0,
+        14.032
+      ],
+      "to": [
+        16,
+        16,
+        14.032
+      ]
+    },
+    {
+      "faces": {
+        "east": {
+          "texture": "#face5"
+        }
+      },
+      "from": [
+        1.968,
+        0,
+        0
+      ],
+      "to": [
+        1.968,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "south": {
+          "texture": "#face5"
+        }
+      },
+      "from": [
+        0,
+        0,
+        1.968
+      ],
+      "to": [
+        16,
+        16,
+        1.968
+      ]
+    },
+    {
+      "faces": {
+        "west": {
+          "texture": "#face5"
+        }
+      },
+      "from": [
+        14.032,
+        0,
+        0
+      ],
+      "to": [
+        14.032,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#face6"
+        },
+        "up": {
+          "texture": "#face6"
+        }
+      },
+      "from": [
+        0,
+        4,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ]
+    }
+  ],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "face1": "thaumcraft:block/crucible1",
+    "face2": "thaumcraft:block/crucible2",
+    "face3": "thaumcraft:block/crucible3",
+    "face4": "thaumcraft:block/crucible4",
+    "face5": "thaumcraft:block/crucible5",
+    "face6": "thaumcraft:block/crucible6",
+    "particle": "thaumcraft:block/metalbase"
+  }
+}

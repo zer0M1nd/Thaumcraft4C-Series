@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "B": {
+      "item": "thaumcraft:zombie_brain"
+    },
+    "D": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "T": {
+      "tag": "forge:ingots/thaumium"
+    }
+  },
+  "pattern": [
+    " B ",
+    "TDT"
+  ],
+  "requires_warded_stone": true,
+  "research": "WARDEDARCANA",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:arcane_pressure_plate"
+  },
+  "vis": {
+    "aqua": 20,
+    "ignis": 5,
+    "ordo": 10,
+    "terra": 10
+  }
+}

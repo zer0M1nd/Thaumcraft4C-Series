@@ -1,0 +1,401 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicdyes:breach_fix",
+      "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "破盾升级已修正：无耐久的符文护甲也能触发破盾效果；仍只激活首槽，可右击轮换。属性加成仅在正确穿戴槽生效。",
+          "en_us": "Shield-breach upgrades now work on durability-free runic armor. Only the first slot triggers; right-click to rotate it. Attribute bonuses require the correct armor slot."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:potion_matching",
+      "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "升级材料适配新版：伤害II喷溅药水、力量II与延长再生按真实药水种类匹配。",
+          "en_us": "Upgrade ingredients require the actual modern potions: Splash Harming II, Strength II and extended Regeneration."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:mask_protection",
+      "research": "thaumicdyes:TD.MASKEVIL",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "残酷面具已修正：攻击限24格内无遮挡的持续凝视目标，遵守PvP、队伍与攻击保护。",
+          "en_us": "The Mask of Cruelty requires sustained, unobstructed sight within 24 blocks and respects PvP, teams and attack protection."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:modern_banner",
+      "research": "thaumicdyes:TD.CRIMSONBANNER",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "血腥旗帜适配新版：用红色原版旗帜、6金粒和5点秩序制作，不再需要已移除的旗帜研究。",
+          "en_us": "Crimson banners use a vanilla red banner, six gold nuggets and five Ordo, without the removed Banners research."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:armor_runicarmor",
+      "research": "thaumicdyes:TD.RUNICARMOR",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护甲适配新版：特殊防护按实际穿戴部位与其他扩展护甲共同结算，支持混穿。",
+          "en_us": "Special armor protection combines contributions from the actual equipped slots, including mixed addon armor."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:armor_enhancedrunicarmor",
+      "research": "thaumicdyes:TD.ENHANCEDRUNICARMOR",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护甲适配新版：特殊防护按实际穿戴部位与其他扩展护甲共同结算，支持混穿。",
+          "en_us": "Special armor protection combines contributions from the actual equipped slots, including mixed addon armor."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:armor_primalrunicarmor",
+      "research": "thaumicdyes:TD.PRIMALRUNICARMOR",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护甲适配新版：特殊防护按实际穿戴部位与其他扩展护甲共同结算，支持混穿。",
+          "en_us": "Special armor protection combines contributions from the actual equipped slots, including mixed addon armor."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:armor_thaumiumrobe",
+      "research": "thaumicdyes:TD.THAUMIUMROBE",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护甲适配新版：特殊防护按实际穿戴部位与其他扩展护甲共同结算，支持混穿。",
+          "en_us": "Special armor protection combines contributions from the actual equipped slots, including mixed addon armor."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:armor_voidrobe",
+      "research": "thaumicdyes:TD.VOIDROBE",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护甲适配新版：特殊防护按实际穿戴部位与其他扩展护甲共同结算，支持混穿。",
+          "en_us": "Special armor protection combines contributions from the actual equipped slots, including mixed addon armor."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:armor_ironfortress",
+      "research": "thaumicdyes:TD.IRONFORTRESS",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护甲适配新版：特殊防护按实际穿戴部位与其他扩展护甲共同结算，支持混穿。",
+          "en_us": "Special armor protection combines contributions from the actual equipped slots, including mixed addon armor."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:armor_dyedfortress",
+      "research": "thaumicdyes:TD.DYEDFORTRESS",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护甲适配新版：特殊防护按实际穿戴部位与其他扩展护甲共同结算，支持混穿。",
+          "en_us": "Special armor protection combines contributions from the actual equipped slots, including mixed addon armor."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:armor_runicgoggles",
+      "research": "thaumicdyes:TD.RUNICGOGGLES",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护甲适配新版：特殊防护按实际穿戴部位与其他扩展护甲共同结算，支持混穿。",
+          "en_us": "Special armor protection combines contributions from the actual equipped slots, including mixed addon armor."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:armor_runicbootstraveller",
+      "research": "thaumicdyes:TD.RUNICBOOTSTRAVELLER",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护甲适配新版：特殊防护按实际穿戴部位与其他扩展护甲共同结算，支持混穿。",
+          "en_us": "Special armor protection combines contributions from the actual equipped slots, including mixed addon armor."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:dye_dyedrobe",
+      "research": "thaumicdyes:TD.DYEDROBE",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "染色适配新版：接受现代染料，可用装水炼药锅洗色，保留原调色规则。",
+          "en_us": "Dyeing accepts modern dyes and washing in water cauldrons, retaining the original color-mixing rules."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:dye_dyedknight",
+      "research": "thaumicdyes:TD.DYEDKNIGHT",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "染色适配新版：接受现代染料，可用装水炼药锅洗色，保留原调色规则。",
+          "en_us": "Dyeing accepts modern dyes and washing in water cauldrons, retaining the original color-mixing rules."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:dye_dyedpraetor",
+      "research": "thaumicdyes:TD.DYEDPRAETOR",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "染色适配新版：接受现代染料，可用装水炼药锅洗色，保留原调色规则。",
+          "en_us": "Dyeing accepts modern dyes and washing in water cauldrons, retaining the original color-mixing rules."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:dye_dyedranger",
+      "research": "thaumicdyes:TD.DYEDRANGER",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "染色适配新版：接受现代染料，可用装水炼药锅洗色，保留原调色规则。",
+          "en_us": "Dyeing accepts modern dyes and washing in water cauldrons, retaining the original color-mixing rules."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:dye_dyedarcher",
+      "research": "thaumicdyes:TD.DYEDARCHER",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "染色适配新版：接受现代染料，可用装水炼药锅洗色，保留原调色规则。",
+          "en_us": "Dyeing accepts modern dyes and washing in water cauldrons, retaining the original color-mixing rules."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:dye_thaumiumrobe",
+      "research": "thaumicdyes:TD.THAUMIUMROBE",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "染色适配新版：接受现代染料，可用装水炼药锅洗色，保留原调色规则。",
+          "en_us": "Dyeing accepts modern dyes and washing in water cauldrons, retaining the original color-mixing rules."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:dye_voidrobe",
+      "research": "thaumicdyes:TD.VOIDROBE",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "染色适配新版：接受现代染料，可用装水炼药锅洗色，保留原调色规则。",
+          "en_us": "Dyeing accepts modern dyes and washing in water cauldrons, retaining the original color-mixing rules."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:dye_dyedfortress",
+      "research": "thaumicdyes:TD.DYEDFORTRESS",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "染色适配新版：接受现代染料，可用装水炼药锅洗色，保留原调色规则。",
+          "en_us": "Dyeing accepts modern dyes and washing in water cauldrons, retaining the original color-mixing rules."
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:dyes_mask_recipe",
+      "research": "thaumicdyes:TD.MASKEVIL",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "面具配方适配新版：接受任意黑色染料。",
+          "en_us": "Mask recipes accept any modern black dye."
+        }
+      }
+    }
+  ]
+}

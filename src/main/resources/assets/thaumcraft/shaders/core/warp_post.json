@@ -1,0 +1,7 @@
+{
+  "vertex": "thaumcraft:warp_post",
+  "fragment": "thaumcraft:warp_post",
+  "attributes": ["Position", "UV0"],
+  "samplers": [{"name": "Sampler0"}],
+  "uniforms": [{"name": "Pass", "type": "int", "count": 1, "values": [0]}]
+}

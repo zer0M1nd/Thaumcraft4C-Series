@@ -1,0 +1,55 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 16,
+    "metallum": 16,
+    "pannus": 16,
+    "praecantatio": 16,
+    "sensus": 16,
+    "tutamen": 16,
+    "vacuos": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_helmet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:goggles"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    }
+  ],
+  "instability": 6,
+  "legacy_order": 31,
+  "research": "ARMORVOIDFORTRESS",
+  "result": {
+    "item": "thaumcraft:void_robe_helmet"
+  }
+}

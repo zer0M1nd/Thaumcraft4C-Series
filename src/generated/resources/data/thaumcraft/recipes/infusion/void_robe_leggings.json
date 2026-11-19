@@ -1,0 +1,54 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 16,
+    "metallum": 20,
+    "pannus": 20,
+    "praecantatio": 16,
+    "tutamen": 20,
+    "vacuos": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_leggings"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:robe_legs"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    }
+  ],
+  "instability": 6,
+  "legacy_order": 33,
+  "research": "ARMORVOIDFORTRESS",
+  "result": {
+    "item": "thaumcraft:void_robe_leggings"
+  }
+}

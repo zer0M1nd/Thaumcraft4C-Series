@@ -1,0 +1,30 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 5368321,
+    "separation": 24,
+    "spacing": 32
+  },
+  "structures": [
+    {
+      "structure": "thaumcraft:eldritch_obelisk",
+      "weight": 1
+    },
+    {
+      "structure": "thaumcraft:eldritch_obelisk_golem",
+      "weight": 1
+    },
+    {
+      "structure": "thaumcraft:eldritch_obelisk_warden",
+      "weight": 1
+    },
+    {
+      "structure": "thaumcraft:eldritch_obelisk_crimson",
+      "weight": 1
+    },
+    {
+      "structure": "thaumcraft:eldritch_obelisk_taint",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "cognitio": 10,
+    "exanimis": 20,
+    "sensus": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:essentia_jar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:spider_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:spider_eye"
+      }
+    }
+  ],
+  "instability": 4,
+  "legacy_order": 2,
+  "research": "JARBRAIN",
+  "result": {
+    "item": "thaumcraft:brain_jar"
+  }
+}

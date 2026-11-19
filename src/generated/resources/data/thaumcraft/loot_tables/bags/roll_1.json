@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "conditions": [
+                {
+                  "chance": 0.025,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "name": "thaumcraft:bags/gear_1"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "thaumcraft:bags/items_1"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

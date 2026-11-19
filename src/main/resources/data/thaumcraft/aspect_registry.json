@@ -1,0 +1,464 @@
+[
+  {
+    "tag": "aer",
+    "color": 16777086,
+    "components": [],
+    "chatColor": "e",
+    "blendFactor": 1
+  },
+  {
+    "tag": "terra",
+    "color": 5685248,
+    "components": [],
+    "chatColor": "2",
+    "blendFactor": 1
+  },
+  {
+    "tag": "ignis",
+    "color": 16734721,
+    "components": [],
+    "chatColor": "c",
+    "blendFactor": 1
+  },
+  {
+    "tag": "aqua",
+    "color": 3986684,
+    "components": [],
+    "chatColor": "3",
+    "blendFactor": 1
+  },
+  {
+    "tag": "ordo",
+    "color": 14013676,
+    "components": [],
+    "chatColor": "7",
+    "blendFactor": 1
+  },
+  {
+    "tag": "perditio",
+    "color": 4210752,
+    "components": [],
+    "chatColor": "8",
+    "blendFactor": 771
+  },
+  {
+    "tag": "vacuos",
+    "color": 8947848,
+    "components": [
+      "aer",
+      "perditio"
+    ],
+    "chatColor": "",
+    "blendFactor": 771
+  },
+  {
+    "tag": "lux",
+    "color": 16774755,
+    "components": [
+      "aer",
+      "ignis"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "tempestas",
+    "color": 16777215,
+    "components": [
+      "aer",
+      "aqua"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "motus",
+    "color": 13487348,
+    "components": [
+      "aer",
+      "ordo"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "gelum",
+    "color": 14811135,
+    "components": [
+      "ignis",
+      "perditio"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "vitreus",
+    "color": 8454143,
+    "components": [
+      "terra",
+      "ordo"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "victus",
+    "color": 14548997,
+    "components": [
+      "aqua",
+      "terra"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "venenum",
+    "color": 9039872,
+    "components": [
+      "aqua",
+      "perditio"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "potentia",
+    "color": 12648447,
+    "components": [
+      "ordo",
+      "ignis"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "permutatio",
+    "color": 5735255,
+    "components": [
+      "perditio",
+      "ordo"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "metallum",
+    "color": 11908557,
+    "components": [
+      "terra",
+      "vitreus"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "mortuus",
+    "color": 8943496,
+    "components": [
+      "victus",
+      "perditio"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "volatus",
+    "color": 15198167,
+    "components": [
+      "aer",
+      "motus"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "tenebrae",
+    "color": 2236962,
+    "components": [
+      "vacuos",
+      "lux"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "spiritus",
+    "color": 15461371,
+    "components": [
+      "victus",
+      "mortuus"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "sano",
+    "color": 16723764,
+    "components": [
+      "victus",
+      "ordo"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "iter",
+    "color": 14702683,
+    "components": [
+      "motus",
+      "terra"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "alienis",
+    "color": 8409216,
+    "components": [
+      "vacuos",
+      "tenebrae"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "praecantatio",
+    "color": 9896128,
+    "components": [
+      "vacuos",
+      "potentia"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "auram",
+    "color": 16761087,
+    "components": [
+      "praecantatio",
+      "aer"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "vitium",
+    "color": 8388736,
+    "components": [
+      "praecantatio",
+      "perditio"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "limus",
+    "color": 129024,
+    "components": [
+      "victus",
+      "aqua"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "herba",
+    "color": 109568,
+    "components": [
+      "victus",
+      "terra"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "arbor",
+    "color": 8873265,
+    "components": [
+      "aer",
+      "herba"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "bestia",
+    "color": 10445833,
+    "components": [
+      "motus",
+      "victus"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "corpus",
+    "color": 15615885,
+    "components": [
+      "mortuus",
+      "bestia"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "exanimis",
+    "color": 3817472,
+    "components": [
+      "motus",
+      "mortuus"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "cognitio",
+    "color": 16761523,
+    "components": [
+      "ignis",
+      "spiritus"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "sensus",
+    "color": 1038847,
+    "components": [
+      "aer",
+      "spiritus"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "humanus",
+    "color": 16766912,
+    "components": [
+      "bestia",
+      "cognitio"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "messis",
+    "color": 14791537,
+    "components": [
+      "herba",
+      "humanus"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "perfodio",
+    "color": 14471896,
+    "components": [
+      "humanus",
+      "terra"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "instrumentum",
+    "color": 4210926,
+    "components": [
+      "humanus",
+      "ordo"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "meto",
+    "color": 15641986,
+    "components": [
+      "messis",
+      "instrumentum"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "telum",
+    "color": 12603472,
+    "components": [
+      "instrumentum",
+      "ignis"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "tutamen",
+    "color": 49344,
+    "components": [
+      "instrumentum",
+      "terra"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "fames",
+    "color": 10093317,
+    "components": [
+      "victus",
+      "vacuos"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "lucrum",
+    "color": 15121988,
+    "components": [
+      "humanus",
+      "fames"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "fabrico",
+    "color": 8428928,
+    "components": [
+      "humanus",
+      "instrumentum"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "pannus",
+    "color": 15395522,
+    "components": [
+      "instrumentum",
+      "bestia"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "machina",
+    "color": 8421536,
+    "components": [
+      "motus",
+      "instrumentum"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  },
+  {
+    "tag": "vinculum",
+    "color": 10125440,
+    "components": [
+      "motus",
+      "perditio"
+    ],
+    "chatColor": "",
+    "blendFactor": 1
+  }
+]

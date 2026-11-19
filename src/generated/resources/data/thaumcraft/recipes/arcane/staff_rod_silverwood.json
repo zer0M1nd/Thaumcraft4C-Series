@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "G": {
+      "item": "thaumcraft:wand_rod_silverwood"
+    },
+    "S": {
+      "item": "thaumcraft:primal_charm"
+    }
+  },
+  "pattern": [
+    "  S",
+    " G ",
+    "G  "
+  ],
+  "research": "ROD_silverwood_staff",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:staff_rod_silverwood"
+  },
+  "vis": {
+    "ordo": 24
+  }
+}

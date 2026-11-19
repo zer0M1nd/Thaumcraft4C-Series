@@ -1,0 +1,42 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "iter": 4,
+    "motus": 4,
+    "spiritus": 4,
+    "vacuos": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:hungry_chest"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_planks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:golem_wood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_planks"
+      }
+    }
+  ],
+  "instability": 3,
+  "legacy_order": 6,
+  "research": "TRAVELTRUNK",
+  "result": {
+    "item": "thaumcraft:traveling_trunk"
+  }
+}

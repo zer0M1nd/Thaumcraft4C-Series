@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "chance": 0.33333334,
+              "condition": "minecraft:random_chance"
+            },
+            {
+              "condition": "minecraft:value_check",
+              "range": {
+                "min": 1
+              },
+              "value": {
+                "type": "minecraft:uniform",
+                "max": {
+                  "type": "thaumcraft:looting",
+                  "base": 0.0,
+                  "multiplier": 1.0
+                },
+                "min": 0
+              }
+            }
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

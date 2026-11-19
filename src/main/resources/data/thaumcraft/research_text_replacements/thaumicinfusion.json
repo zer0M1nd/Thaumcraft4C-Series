@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicinfusion:focus_menu_text",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "tc.research_page.FOCUSINFUSION.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "right click with your wand",
+          "replace": {
+            "text": "right click into the air with your wand"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "right click with your wand",
+          "replace": {
+            "text": " right click into the air with your wand"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicinfusion:focus_remove_text",
+      "research": "thaumicinfusion:FOCUSINFUSION",
+      "kind": "continuation",
+      "provider": "thaumicinfusion",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘注魔",
+          "en_us": "Thaumic Infusion"
+        }
+      },
+      "keys": [
+        "tc.research_page.FOCUSINFUSION.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "simply shift click it with your wand equipped",
+          "replace": {
+            "text": "click the selected aspect again in the menu to clear your selection, then right-click the block; recovered essentia is returned to nearby jars with space"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "simply shift click it with your wand equipped",
+          "replace": {
+            "text": " click the selected aspect again in the menu to clear your selection, then right-click the block; recovered essentia is returned to nearby jars with space"
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "to": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#glow",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#glow",
+          "tintindex": 0
+        },
+        "north": {
+          "texture": "#glow",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#glow",
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#glow",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#glow",
+          "tintindex": 0
+        }
+      },
+      "from": [
+        0.16,
+        14.4,
+        0.16
+      ],
+      "to": [
+        15.84,
+        15.84,
+        15.84
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#glow",
+          "tintindex": 1
+        },
+        "east": {
+          "texture": "#glow",
+          "tintindex": 1
+        },
+        "north": {
+          "texture": "#glow",
+          "tintindex": 1
+        },
+        "south": {
+          "texture": "#glow",
+          "tintindex": 1
+        },
+        "up": {
+          "texture": "#glow",
+          "tintindex": 1
+        },
+        "west": {
+          "texture": "#glow",
+          "tintindex": 1
+        }
+      },
+      "from": [
+        0.16,
+        1.6,
+        0.16
+      ],
+      "to": [
+        15.84,
+        14.4,
+        15.84
+      ]
+    }
+  ],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "thaumcraft:block/arcaneearbottom",
+    "glow": "thaumcraft:block/animatedglow",
+    "particle": "thaumcraft:block/lifterside",
+    "side": "thaumcraft:block/lifterside",
+    "top": "thaumcraft:block/liftertop"
+  }
+}

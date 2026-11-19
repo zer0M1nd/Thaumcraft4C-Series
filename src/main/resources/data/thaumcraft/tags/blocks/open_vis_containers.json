@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft:arcane_pedestal",
+    "thaumcraft:wand_pedestal",
+    {"id": "create:belt", "required": false},
+    {"id": "create:depot", "required": false},
+    {"id": "create:weighted_ejector", "required": false}
+  ]
+}
