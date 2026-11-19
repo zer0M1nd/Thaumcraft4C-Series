@@ -1,0 +1,70 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:rockbreaker_drill",
+  "instability": 6,
+  "aspects": {
+    "instrumentum": 32,
+    "potentia": 48,
+    "perfodio": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:thaumium_drill"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:flint_and_steel"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:fire_charge"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_pickaxe"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_shovel"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:lapotron_crystal"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:reinforced_stone"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:iridium"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:overclocker_upgrade"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:rockbreaker_drill",
+    "nbt": "{charge:10.0d}"
+  }
+}

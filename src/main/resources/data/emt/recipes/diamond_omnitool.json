@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "emt:diamond_omnitool",
+  "ingredients": [
+    {
+      "item": "emt:diamond_chainsaw"
+    },
+    {
+      "item": "ic2:diamond_drill"
+    }
+  ],
+  "vis": {
+    "aer": 15,
+    "ordo": 15
+  },
+  "result": {
+    "item": "emt:diamond_omnitool",
+    "nbt": "{charge:10.0d}"
+  }
+}

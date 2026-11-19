@@ -1,0 +1,53 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:nano_wings",
+  "instability": 4,
+  "aspects": {
+    "volatus": 48,
+    "aer": 32,
+    "machina": 48,
+    "potentia": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:thaumium_wings"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "ic2:carbon_plate"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:carbon_plate"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:carbon_plate"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:nano_chestplate"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:nano_wings",
+    "nbt": "{charge:10.0d}"
+  }
+}

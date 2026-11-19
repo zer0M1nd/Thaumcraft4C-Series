@@ -1,0 +1,59 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:stream_chainsaw",
+  "instability": 6,
+  "aspects": {
+    "potentia": 48,
+    "arbor": 48,
+    "instrumentum": 32,
+    "aqua": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:thaumium_chainsaw"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:water_bucket"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_axe"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_log"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:lapotron_crystal"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:iridium"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:overclocker_upgrade"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:stream_chainsaw",
+    "nbt": "{charge:10.0d}"
+  }
+}

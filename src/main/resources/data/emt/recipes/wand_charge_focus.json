@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:wand_charge_focus",
+  "instability": 5,
+  "aspects": {
+    "potentia": 48,
+    "auram": 32,
+    "permutatio": 48,
+    "lucrum": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:wand_charger"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "emt:charge_focus"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:energy_pack"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:iridium"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:iridium"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:wand_charge_focus"
+  }
+}

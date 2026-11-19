@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "emt:blocks/machines/top",
+    "bottom": "emt:blocks/machines/side",
+    "side": "emt:blocks/machines/side",
+    "front": "emt:blocks/machines/wandcharger"
+  }
+}

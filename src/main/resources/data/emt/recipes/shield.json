@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "emt:shield",
+  "pattern": [
+    "XYX",
+    "X X",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:glass"
+    },
+    "Y": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "vis": {
+    "ordo": 1,
+    "perditio": 1
+  },
+  "result": {
+    "item": "emt:shield",
+    "count": 6
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:uu_matter_infusion",
+  "instability": 4,
+  "aspects": {
+    "ignis": 8,
+    "aqua": 8,
+    "aer": 8,
+    "terra": 8,
+    "ordo": 8,
+    "perditio": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:charcoal"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    }
+  ],
+  "result": {
+    "item": "minecraft:coal",
+    "count": 16
+  }
+}

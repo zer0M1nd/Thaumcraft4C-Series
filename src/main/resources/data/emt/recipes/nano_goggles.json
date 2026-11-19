@@ -1,0 +1,64 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:nano_goggles",
+  "instability": 5,
+  "aspects": {
+    "tutamen": 16,
+    "sensus": 16,
+    "potentia": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:electric_goggles"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:nano_helmet"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:carbon_plate"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:circuit"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:nano_goggles",
+    "nbt": "{charge:10.0d}"
+  }
+}

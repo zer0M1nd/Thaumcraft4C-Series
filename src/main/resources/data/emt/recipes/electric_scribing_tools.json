@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "emt:electric_scribing_tools",
+  "pattern": [
+    "YXY",
+    "XZX",
+    "YXY"
+  ],
+  "key": {
+    "Y": {
+      "item": "ic2:circuit"
+    },
+    "X": {
+      "item": "thaumcraft:scribing_tools"
+    },
+    "Z": {
+      "item": "ic2:energy_crystal"
+    }
+  },
+  "vis": {
+    "aer": 16,
+    "ordo": 16,
+    "perditio": 16
+  },
+  "result": {
+    "item": "emt:electric_scribing_tools",
+    "nbt": "{charge:10.0d}"
+  }
+}

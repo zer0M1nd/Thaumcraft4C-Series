@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:foundation",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Electric Magic Tools"
+          },
+          "id": "emt:foundation/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "emt:thaumium_drill",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Thaumium Drill"
+          },
+          "id": "emt:thaumium_drill/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:thaumium_drill"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:thaumium_drill/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:diamond_chainsaw",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Diamond Chainsaw"
+          },
+          "id": "emt:diamond_chainsaw/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:diamond_chainsaw"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:diamond_chainsaw/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:thaumium_chainsaw",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Thaumium Chainsaw"
+          },
+          "id": "emt:thaumium_chainsaw/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:thaumium_chainsaw"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:thaumium_chainsaw/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:iron_omnitool",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Iron Omnitool"
+          },
+          "id": "emt:iron_omnitool/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:iron_omnitool"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:iron_omnitool/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:diamond_omnitool",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Diamond Omnitool"
+          },
+          "id": "emt:diamond_omnitool/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:diamond_omnitool"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:diamond_omnitool/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:thaumium_omnitool",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Thaumium Omnitool"
+          },
+          "id": "emt:thaumium_omnitool/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:thaumium_omnitool"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:thaumium_omnitool/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:electric_scribing_tools",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Electric Scribing Tools"
+          },
+          "id": "emt:electric_scribing_tools/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:electric_scribing_tools"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:electric_scribing_tools/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

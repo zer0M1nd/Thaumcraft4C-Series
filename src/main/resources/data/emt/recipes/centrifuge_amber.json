@@ -1,0 +1,17 @@
+{
+  "type": "ic2:centrifuge",
+  "ingredient": {
+    "item": "emt:purified_amber"
+  },
+  "minHeat": 1000,
+  "result": [
+    {
+      "item": "ic2:small_copper_dust",
+      "count": 1
+    },
+    {
+      "item": "thaumcraft:amber",
+      "count": 1
+    }
+  ]
+}

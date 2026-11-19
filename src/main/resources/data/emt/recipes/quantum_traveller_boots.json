@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:quantum_traveller_boots",
+  "instability": 2,
+  "aspects": {
+    "potentia": 32,
+    "tutamen": 32,
+    "motus": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:nano_traveller_boots"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:redstone_block"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:quantum_boots"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:lapotron_crystal"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:iridium"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:quantum_traveller_boots",
+    "nbt": "{charge:10.0d}"
+  }
+}

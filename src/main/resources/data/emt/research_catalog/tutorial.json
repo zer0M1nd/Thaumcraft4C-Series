@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_EMT",
+          "category": "TUTORIAL",
+          "displayColumn": 36,
+          "displayRow": -6,
+          "parents": [
+            "TUT_GOGGLES",
+            "INFUSION"
+          ],
+          "icon_item": {
+            "item": "emt:electric_goggles",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "emt"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "ic2"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "emt:foundation",
+            "emt:electric_goggles",
+            "emt:thaumium_omnitool",
+            "emt:quantum_traveller_boots",
+            "emt:wand_charger",
+            "emt:potentia_generator"
+          ],
+          "pageCount": 8,
+          "parentMirrors": {
+            "INFUSION": "TUT_ADDON_EMT_PREREQUISITE_1"
+          }
+        },
+        {
+          "key": "TUT_ADDON_EMT_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 35,
+          "displayRow": -7,
+          "mirrorOf": "INFUSION",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "emt"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "ic2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

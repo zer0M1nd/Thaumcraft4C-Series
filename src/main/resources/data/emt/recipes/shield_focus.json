@@ -1,0 +1,65 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:shield_focus",
+  "instability": 4,
+  "aspects": {
+    "aer": 16,
+    "tutamen": 20,
+    "vitreus": 16,
+    "vinculum": 20,
+    "victus": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_portable_hole"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "ic2:reinforced_stone"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:reinforced_glass"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:reinforced_stone"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:reinforced_glass"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_block"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:shield_focus"
+  }
+}

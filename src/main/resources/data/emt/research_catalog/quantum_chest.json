@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:shield",
+          "category": "EMT",
+          "displayColumn": 4,
+          "displayRow": 5,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "tutamen": 3,
+            "vinculum": 2
+          },
+          "parents": [
+            "emt:shield_focus"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:shield"
+          }
+        },
+        {
+          "key": "emt:infused_quantum_chestplate",
+          "category": "EMT",
+          "displayColumn": 0,
+          "displayRow": 10,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "volatus": 5,
+            "aer": 5,
+            "machina": 8,
+            "potentia": 4
+          },
+          "parents": [
+            "emt:quantum_wings"
+          ],
+          "isSecondary": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:infused_quantum_chestplate"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        }
+      ]
+    }
+  ]
+}

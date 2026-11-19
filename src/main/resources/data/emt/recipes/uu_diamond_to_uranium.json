@@ -1,0 +1,64 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:uu_matter_infusion",
+  "instability": 4,
+  "aspects": {
+    "ignis": 16,
+    "aqua": 16,
+    "aer": 16,
+    "terra": 16,
+    "ordo": 16,
+    "perditio": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    }
+  ],
+  "result": {
+    "item": "ic2:uranium_238",
+    "count": 2
+  }
+}

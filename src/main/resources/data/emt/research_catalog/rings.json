@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:inventory_charging_ring",
+          "category": "EMT",
+          "displayColumn": 0,
+          "displayRow": -5,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "potentia": 4,
+            "vitreus": 4,
+            "praecantatio": 4
+          },
+          "isConcealed": true,
+          "isSecondary": false,
+          "parentsHidden": [
+            "INFUSION",
+            "emt:foundation"
+          ],
+          "icon_item": {
+            "item": "emt:inventory_charging_ring"
+          }
+        },
+        {
+          "key": "emt:armor_charging_ring",
+          "category": "EMT",
+          "displayColumn": 0,
+          "displayRow": -7,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "potentia": 4,
+            "tutamen": 4,
+            "praecantatio": 4
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "icon_item": {
+            "item": "emt:armor_charging_ring"
+          },
+          "parents": [
+            "emt:inventory_charging_ring"
+          ]
+        },
+        {
+          "key": "emt:one_ring",
+          "category": "EMT",
+          "displayColumn": 6,
+          "displayRow": -7,
+          "pageCount": 1,
+          "complexity": 0,
+          "aspects": {},
+          "isRound": true,
+          "isAutoUnlock": true,
+          "icon_item": {
+            "item": "emt:one_ring"
+          }
+        }
+      ]
+    }
+  ]
+}

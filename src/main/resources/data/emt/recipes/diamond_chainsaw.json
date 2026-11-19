@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "Y": {
+      "item": "ic2:chainsaw"
+    }
+  },
+  "result": {
+    "item": "emt:diamond_chainsaw",
+    "nbt": "{charge:10.0d}"
+  }
+}

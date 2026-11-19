@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYZ",
+    "XYZ",
+    "XYZ"
+  ],
+  "key": {
+    "X": {
+      "item": "emt:feather_mesh"
+    },
+    "Y": {
+      "item": "emt:glue"
+    },
+    "Z": {
+      "item": "emt:cardboard"
+    }
+  },
+  "result": {
+    "item": "emt:feather_wing_component"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:electric_goggles",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Electric Goggles"
+          },
+          "id": "emt:electric_goggles/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:electric_goggles"
+            ]
+          },
+          "id": "emt:electric_goggles/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:nano_goggles",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Nanosuit Goggles of Revealing"
+          },
+          "id": "emt:nano_goggles/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:nano_goggles"
+            ]
+          },
+          "id": "emt:nano_goggles/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:quantum_goggles",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Quantum Goggles of Revealing"
+          },
+          "id": "emt:quantum_goggles/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:quantum_goggles"
+            ]
+          },
+          "id": "emt:quantum_goggles/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:solar_goggles",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Solar Helmet of Revealing"
+          },
+          "id": "emt:solar_goggles/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:solar_goggles"
+            ]
+          },
+          "id": "emt:solar_goggles/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

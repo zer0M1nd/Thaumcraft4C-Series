@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:compressed_solar",
+          "category": "EMT",
+          "displayColumn": -4,
+          "displayRow": -5,
+          "pageCount": 4,
+          "complexity": 2,
+          "aspects": {
+            "potentia": 4,
+            "lux": 3,
+            "metallum": 2
+          },
+          "parents": [],
+          "parentsHidden": [
+            "emt:potentia_generator",
+            "INFUSION"
+          ],
+          "isSecondary": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:compressed_solar"
+          }
+        },
+        {
+          "key": "emt:water_solar",
+          "category": "EMT",
+          "displayColumn": -7,
+          "displayRow": -7,
+          "pageCount": 4,
+          "complexity": 1,
+          "aspects": {
+            "aqua": 4,
+            "praecantatio": 3,
+            "potentia": 4
+          },
+          "parents": [
+            "emt:compressed_solar"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:water_solar"
+          }
+        },
+        {
+          "key": "emt:dark_solar",
+          "category": "EMT",
+          "displayColumn": -8,
+          "displayRow": -6,
+          "pageCount": 4,
+          "complexity": 1,
+          "aspects": {
+            "perditio": 4,
+            "praecantatio": 3,
+            "potentia": 4
+          },
+          "parents": [
+            "emt:compressed_solar"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:dark_solar"
+          }
+        },
+        {
+          "key": "emt:order_solar",
+          "category": "EMT",
+          "displayColumn": -6,
+          "displayRow": -8,
+          "pageCount": 4,
+          "complexity": 1,
+          "aspects": {
+            "ordo": 4,
+            "praecantatio": 3,
+            "potentia": 4
+          },
+          "parents": [
+            "emt:compressed_solar"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:order_solar"
+          }
+        },
+        {
+          "key": "emt:fire_solar",
+          "category": "EMT",
+          "displayColumn": -5,
+          "displayRow": -7,
+          "pageCount": 4,
+          "complexity": 1,
+          "aspects": {
+            "ignis": 4,
+            "praecantatio": 3,
+            "potentia": 4
+          },
+          "parents": [
+            "emt:compressed_solar"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:fire_solar"
+          }
+        },
+        {
+          "key": "emt:air_solar",
+          "category": "EMT",
+          "displayColumn": -4,
+          "displayRow": -6,
+          "pageCount": 4,
+          "complexity": 1,
+          "aspects": {
+            "aer": 4,
+            "praecantatio": 3,
+            "potentia": 4
+          },
+          "parents": [
+            "emt:compressed_solar"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:air_solar"
+          }
+        },
+        {
+          "key": "emt:earth_solar",
+          "category": "EMT",
+          "displayColumn": -6,
+          "displayRow": -7,
+          "pageCount": 4,
+          "complexity": 1,
+          "aspects": {
+            "terra": 4,
+            "praecantatio": 3,
+            "potentia": 4
+          },
+          "parents": [
+            "emt:compressed_solar"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:earth_solar"
+          }
+        },
+        {
+          "key": "emt:potentia_generator",
+          "category": "EMT",
+          "displayColumn": -2,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "potentia": 4,
+            "permutatio": 4,
+            "metallum": 3
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "isSecondary": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:potentia_generator"
+          }
+        },
+        {
+          "key": "emt:ignis_generator",
+          "category": "EMT",
+          "displayColumn": -3,
+          "displayRow": 4,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "ignis": 3,
+            "permutatio": 4
+          },
+          "parents": [
+            "emt:potentia_generator"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:ignis_generator"
+          }
+        },
+        {
+          "key": "emt:auram_generator",
+          "category": "EMT",
+          "displayColumn": -1,
+          "displayRow": 4,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "auram": 3,
+            "permutatio": 4
+          },
+          "parents": [
+            "emt:potentia_generator"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:auram_generator"
+          }
+        },
+        {
+          "key": "emt:arbor_generator",
+          "category": "EMT",
+          "displayColumn": -2,
+          "displayRow": 5,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "arbor": 3,
+            "permutatio": 4
+          },
+          "parents": [
+            "emt:potentia_generator"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:arbor_generator"
+          }
+        },
+        {
+          "key": "emt:aer_generator",
+          "category": "EMT",
+          "displayColumn": -2,
+          "displayRow": 6,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "aer": 3,
+            "permutatio": 4
+          },
+          "parents": [
+            "emt:potentia_generator"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:aer_generator"
+          }
+        }
+      ]
+    }
+  ]
+}

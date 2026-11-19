@@ -1,0 +1,57 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:charge_focus",
+  "instability": 4,
+  "aspects": {
+    "permutatio": 25,
+    "potentia": 32,
+    "machina": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "ic2:advanced_re_battery"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "ic2:generator"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:batbox"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "tag": "emt:all_shards"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "tag": "emt:all_shards"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:charge_focus"
+  }
+}

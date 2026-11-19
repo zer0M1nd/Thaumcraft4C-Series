@@ -1,0 +1,39 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:uu_matter_infusion",
+  "instability": 4,
+  "aspects": {
+    "ignis": 4,
+    "aqua": 4,
+    "aer": 4,
+    "terra": 4,
+    "ordo": 4,
+    "perditio": 4
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 2
+  }
+}

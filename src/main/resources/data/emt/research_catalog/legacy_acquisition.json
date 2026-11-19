@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:tiny_uranium",
+          "category": "EMT",
+          "displayColumn": -5,
+          "displayRow": -5,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "venenum": 4,
+            "mortuus": 3,
+            "permutatio": 3
+          },
+          "icon_item": {
+            "item": "ic2:uranium_238",
+            "count": 1
+          },
+          "isSecondary": true,
+          "isConcealed": true,
+          "parentsHidden": [
+            "emt:foundation"
+          ]
+        },
+        {
+          "key": "emt:thaumium_plate",
+          "category": "EMT",
+          "displayColumn": 6,
+          "displayRow": -6,
+          "pageCount": 2,
+          "complexity": 0,
+          "aspects": {},
+          "icon_item": {
+            "item": "emt:thaumium_plate",
+            "count": 1
+          },
+          "isRound": true,
+          "isAutoUnlock": true
+        }
+      ]
+    }
+  ]
+}

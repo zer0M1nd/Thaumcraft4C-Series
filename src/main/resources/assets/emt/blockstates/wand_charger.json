@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "emt:block/wand_charger",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "emt:block/wand_charger",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "emt:block/wand_charger",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "emt:block/wand_charger",
+      "y": 270
+    }
+  }
+}

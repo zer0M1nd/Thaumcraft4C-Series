@@ -1,0 +1,60 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:ethereal_processor",
+  "instability": 3,
+  "aspects": {
+    "machina": 16,
+    "praecantatio": 16,
+    "fabrico": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "ic2:macerator"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "ic2:electric_furnace"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alchemical_construct"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:end_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:end_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      }
+    }
+  ],
+  "result": {
+    "item": "emt:ethereal_processor"
+  }
+}

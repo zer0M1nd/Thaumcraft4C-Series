@@ -1,0 +1,54 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:quantum_wings",
+  "instability": 6,
+  "aspects": {
+    "volatus": 48,
+    "aer": 32,
+    "machina": 48,
+    "potentia": 32,
+    "tutamen": 48
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:nano_wings"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "ic2:iridium"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:iridium"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:iridium"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:quantum_chestplate"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:quantum_wings",
+    "nbt": "{charge:10.0d}"
+  }
+}

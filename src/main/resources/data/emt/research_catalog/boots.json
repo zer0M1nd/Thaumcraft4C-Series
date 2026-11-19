@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:electric_traveller_boots",
+          "category": "EMT",
+          "displayColumn": 2,
+          "displayRow": 0,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "potentia": 2,
+            "tutamen": 5,
+            "motus": 2
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "icon_item": {
+            "item": "emt:electric_traveller_boots"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "emt:nano_traveller_boots",
+          "category": "EMT",
+          "displayColumn": 4,
+          "displayRow": 0,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "potentia": 3,
+            "tutamen": 5,
+            "motus": 3
+          },
+          "parents": [
+            "emt:electric_traveller_boots"
+          ],
+          "isConcealed": true,
+          "isSecondary": false,
+          "icon_item": {
+            "item": "emt:nano_traveller_boots"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "emt:quantum_traveller_boots",
+          "category": "EMT",
+          "displayColumn": 6,
+          "displayRow": 0,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "potentia": 4,
+            "tutamen": 5,
+            "motus": 4
+          },
+          "parents": [
+            "emt:nano_traveller_boots"
+          ],
+          "isConcealed": true,
+          "isSecondary": false,
+          "icon_item": {
+            "item": "emt:quantum_traveller_boots"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        }
+      ]
+    }
+  ]
+}

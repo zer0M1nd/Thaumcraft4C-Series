@@ -1,0 +1,45 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:legacy_wand_focus_energy_ball",
+  "instability": 4,
+  "aspects": {
+    "potentia": 10,
+    "praecantatio": 5,
+    "victus": 6
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_shock"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:tnt"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:advanced_re_battery"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:advanced_re_battery"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:advanced_re_battery"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:energy_ball_focus"
+  }
+}

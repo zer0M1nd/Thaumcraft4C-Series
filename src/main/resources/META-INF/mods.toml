@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/emt/index.html"
+modId="emt"
+version="${version}"
+displayName="Electro-Magic Tools"
+authors="zer0M1nd"
+credits="Original Electro-Magic Tools by fewizz and TheSilentium."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Combine electricity and vis to power tools, armor and machines that bridge industry and thaumaturgy.
+
+-------- Original release --------
+Ever thought about combining magic and electricity?
+
+Original credits: Azanor, Tombenpotter, TehNut, the IC2 guys and the forge guys!'''
+
+[[dependencies.emt]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.emt]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.emt]]
+modId="ic2"
+mandatory=true
+versionRange="[2.10.33,)"
+ordering="AFTER"
+side="BOTH"

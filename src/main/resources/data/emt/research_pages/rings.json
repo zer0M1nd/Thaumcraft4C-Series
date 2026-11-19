@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:inventory_charging_ring",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Inventory Charging Ring"
+          },
+          "id": "emt:inventory_charging_ring/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:inventory_charging_ring"
+            ]
+          },
+          "id": "emt:inventory_charging_ring/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:armor_charging_ring",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Armor Charging Ring"
+          },
+          "id": "emt:armor_charging_ring/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:armor_charging_ring"
+            ]
+          },
+          "id": "emt:armor_charging_ring/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:one_ring",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.The One Ring"
+          },
+          "id": "emt:one_ring/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

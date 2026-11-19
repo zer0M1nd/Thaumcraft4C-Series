@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "emt:diamond_omnitool",
+  "pattern": [
+    "XAX",
+    "XBX",
+    "XAX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "A": {
+      "item": "ic2:advanced_circuit"
+    },
+    "B": {
+      "item": "emt:iron_omnitool"
+    }
+  },
+  "vis": {
+    "aer": 15,
+    "ordo": 15
+  },
+  "result": {
+    "item": "emt:diamond_omnitool"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_EMT",
+      "pages": [
+        {
+          "id": "emt:tut_addon_emt/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.emt.tut_addon_emt.text.1",
+            "with": [
+              [
+                {
+                  "text": "电力魔法工具是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "emt:tut_addon_emt/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.emt.tut_addon_emt.text.2",
+            "with": [
+              [
+                {
+                  "text": "它把"
+                },
+                {
+                  "text": "工业 2",
+                  "bold": true
+                },
+                {
+                  "text": "（IC2）的电力装备与神秘时代结合：用注魔把 IC2 装备升级为电子护目镜、电力旅行者之靴、羽翼、钻锯等；用源质发电，或者反过来用电为法杖充能。\n研究在"
+                },
+                {
+                  "text": "电子魔法工具",
+                  "bold": true
+                },
+                {
+                  "text": "分页中，几乎都以注魔为前置。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "emt:tut_addon_emt/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "emt:tut_addon_emt/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.emt.tut_addon_emt.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "emt:tut_addon_emt/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.emt.tut_addon_emt.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "emt:foundation"
+                },
+                {
+                  "text": "：电力魔法工具，自动解锁。\n· "
+                },
+                {
+                  "research": "emt:electric_goggles"
+                },
+                {
+                  "text": "：电子揭示之护目镜。\n· "
+                },
+                {
+                  "research": "emt:thaumium_omnitool"
+                },
+                {
+                  "text": "：神秘钻锯。\n· "
+                },
+                {
+                  "research": "emt:quantum_traveller_boots"
+                },
+                {
+                  "text": "：量子旅行者之靴。\n· "
+                },
+                {
+                  "research": "emt:wand_charger"
+                },
+                {
+                  "text": "：工业法杖充能站。\n· "
+                },
+                {
+                  "research": "emt:potentia_generator"
+                },
+                {
+                  "text": "：能量源质发电机。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "emt:tut_addon_emt/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "emt:tut_addon_emt/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "emt:tut_addon_emt/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "emt:foundation",
+            "emt:electric_goggles",
+            "emt:thaumium_omnitool",
+            "emt:quantum_traveller_boots",
+            "emt:wand_charger",
+            "emt:potentia_generator"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:uu_matter_infusion",
+          "category": "EMT",
+          "displayColumn": 5,
+          "displayRow": 5,
+          "pageCount": 16,
+          "complexity": 3,
+          "aspects": {
+            "alienis": 4,
+            "praecantatio": 4,
+            "fabrico": 5
+          },
+          "parentsHidden": [
+            "emt:foundation",
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:uu_matter_drop"
+          }
+        },
+        {
+          "key": "emt:lightning_summoner",
+          "category": "EMT",
+          "displayColumn": 6,
+          "displayRow": -5,
+          "pageCount": 1,
+          "complexity": 0,
+          "aspects": {},
+          "isRound": true,
+          "isAutoUnlock": true,
+          "icon_item": {
+            "item": "emt:lightning_summoner"
+          }
+        },
+        {
+          "key": "emt:macerating_clusters",
+          "category": "EMT",
+          "displayColumn": 5,
+          "displayRow": -7,
+          "pageCount": 1,
+          "complexity": 0,
+          "aspects": {},
+          "isRound": true,
+          "isAutoUnlock": true,
+          "icon_item": {
+            "item": "ic2:small_gold_dust"
+          }
+        }
+      ]
+    }
+  ]
+}

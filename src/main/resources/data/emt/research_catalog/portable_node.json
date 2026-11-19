@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:portable_node",
+          "category": "EMT",
+          "displayColumn": 2,
+          "displayRow": 5,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "praecantatio": 5,
+            "auram": 5,
+            "lucrum": 5
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:portable_node"
+          }
+        }
+      ]
+    }
+  ]
+}

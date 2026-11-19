@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:explosion_focus",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Explosion Focus"
+          },
+          "id": "emt:explosion_focus/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:explosion_focus"
+            ]
+          },
+          "id": "emt:explosion_focus/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:energy_ball_focus",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Energy Ball Focus"
+          },
+          "id": "emt:energy_ball_focus/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:energy_ball_focus"
+            ]
+          },
+          "id": "emt:energy_ball_focus/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:christmas_focus",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Kris-tmas Focus"
+          },
+          "id": "emt:christmas_focus/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:christmas_focus"
+            ]
+          },
+          "id": "emt:christmas_focus/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:shield_focus",
+          "category": "EMT",
+          "displayColumn": 4,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "tutamen": 5,
+            "aer": 2,
+            "vitreus": 3,
+            "vinculum": 2
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:shield_focus"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        }
+      ]
+    }
+  ]
+}

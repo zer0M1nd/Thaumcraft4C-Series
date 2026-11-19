@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:thaumium_omnitool",
+  "instability": 6,
+  "aspects": {
+    "instrumentum": 25,
+    "telum": 25,
+    "potentia": 25,
+    "perfodio": 25
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:thaumium_chainsaw"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "emt:thaumium_drill"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:carbon_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:obsidian_plate"
+      }
+    }
+  ],
+  "result": {
+    "item": "emt:thaumium_omnitool",
+    "nbt": "{charge:10.0d}"
+  }
+}

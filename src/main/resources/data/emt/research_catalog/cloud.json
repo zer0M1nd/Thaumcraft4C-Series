@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:electric_cloud",
+          "category": "EMT",
+          "displayColumn": 4,
+          "displayRow": -7,
+          "pageCount": 2,
+          "complexity": 0,
+          "aspects": {},
+          "isRound": true,
+          "isAutoUnlock": true,
+          "icon_item": {
+            "item": "emt:electric_cloud"
+          }
+        }
+      ]
+    }
+  ]
+}

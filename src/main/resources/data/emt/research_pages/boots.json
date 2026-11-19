@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:electric_traveller_boots",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Electric Boots of the Traveller"
+          },
+          "id": "emt:electric_traveller_boots/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:electric_traveller_boots"
+            ]
+          },
+          "id": "emt:electric_traveller_boots/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:nano_traveller_boots",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Nano Boots of the Traveller"
+          },
+          "id": "emt:nano_traveller_boots/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:nano_traveller_boots"
+            ]
+          },
+          "id": "emt:nano_traveller_boots/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:quantum_traveller_boots",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Quantum Boots of the Traveller"
+          },
+          "id": "emt:quantum_traveller_boots/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:quantum_traveller_boots"
+            ]
+          },
+          "id": "emt:quantum_traveller_boots/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

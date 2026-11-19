@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:wand_charger",
+          "category": "EMT",
+          "displayColumn": -4,
+          "displayRow": 2,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "potentia": 4,
+            "fabrico": 2,
+            "permutatio": 3,
+            "lucrum": 5
+          },
+          "parents": [
+            "emt:potentia_generator"
+          ],
+          "isConcealed": false,
+          "icon_item": {
+            "item": "emt:wand_charger"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "emt:charge_focus",
+          "category": "EMT",
+          "displayColumn": 5,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "permutatio": 4,
+            "potentia": 5,
+            "machina": 4
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:charge_focus"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "emt:wand_charge_focus",
+          "category": "EMT",
+          "displayColumn": 7,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "potentia": 5,
+            "auram": 4,
+            "permutatio": 4,
+            "lucrum": 5
+          },
+          "parents": [
+            "emt:charge_focus"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:wand_charge_focus"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        }
+      ]
+    }
+  ]
+}

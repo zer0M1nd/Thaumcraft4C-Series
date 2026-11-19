@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:rockbreaker_drill",
+          "category": "EMT",
+          "displayColumn": 0,
+          "displayRow": -4,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "potentia": 3,
+            "ignis": 2,
+            "perfodio": 3
+          },
+          "parents": [
+            "emt:thaumium_drill"
+          ],
+          "icon_item": {
+            "item": "emt:rockbreaker_drill"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "emt:stream_chainsaw",
+          "category": "EMT",
+          "displayColumn": -3,
+          "displayRow": -4,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "instrumentum": 3,
+            "arbor": 3,
+            "aqua": 6,
+            "potentia": 4
+          },
+          "parents": [
+            "emt:thaumium_chainsaw"
+          ],
+          "icon_item": {
+            "item": "emt:stream_chainsaw"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        }
+      ]
+    }
+  ]
+}

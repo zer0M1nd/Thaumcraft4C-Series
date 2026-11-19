@@ -1,0 +1,57 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:inventory_charging_ring",
+  "instability": 6,
+  "aspects": {
+    "potentia": 64,
+    "vitreus": 32,
+    "praecantatio": 48
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_ring"
+    },
+    "damage": 0
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "emt:thaumium_drill"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:generator"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:geo_generator"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:solar_generator"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:wind_generator"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:water_generator"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:nuclear_reactor"
+      }
+    }
+  ],
+  "result": {
+    "item": "emt:inventory_charging_ring"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:uu_matter_infusion",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.UU-Matter Infusion"
+          },
+          "id": "emt:uu_matter_infusion/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_matter_drop"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_charcoal_to_coal"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/3",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_glowstone_dust_to_block"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/4",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_stone_bricks_to_iron_ore"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/5",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_arcane_stone_to_copper_ore"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/6",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_arcane_stone_bricks_to_tin_ore"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/7",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_amber_block_to_lead_ore"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/8",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_amber_bricks_to_uranium_ore"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/9",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_shard_to_resin"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/10",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_shard_to_redstone"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/11",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_shard_to_lapis"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/12",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_iron_to_gold"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/13",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_gold_to_diamond"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/14",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_diamond_to_uranium"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/15",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:uu_uranium_to_iridium"
+            ]
+          },
+          "id": "emt:uu_matter_infusion/page/16",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:lightning_summoner",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Lightning Summoner"
+          },
+          "id": "emt:lightning_summoner/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "emt:macerating_clusters",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Macerating Native Ore Clusters"
+          },
+          "id": "emt:macerating_clusters/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

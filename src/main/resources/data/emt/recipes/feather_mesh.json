@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYX",
+    "YXY",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:feather"
+    },
+    "Y": {
+      "item": "emt:duct_tape"
+    }
+  },
+  "result": {
+    "item": "emt:feather_mesh"
+  }
+}

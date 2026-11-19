@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:electric_cloud",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Electric Cloud.1"
+          },
+          "id": "emt:electric_cloud/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Electric Cloud.2"
+          },
+          "id": "emt:electric_cloud/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

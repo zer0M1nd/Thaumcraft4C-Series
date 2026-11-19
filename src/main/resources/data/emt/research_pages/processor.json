@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:ethereal_processor",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Etheral Processor"
+          },
+          "id": "emt:ethereal_processor/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:ethereal_processor"
+            ]
+          },
+          "id": "emt:ethereal_processor/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

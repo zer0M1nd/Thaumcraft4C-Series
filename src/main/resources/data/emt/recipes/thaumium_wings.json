@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "emt:thaumium_wing_component"
+    }
+  },
+  "result": {
+    "item": "emt:thaumium_wings"
+  },
+  "mode": "shaped",
+  "research": "emt:thaumium_wings",
+  "vis": {
+    "aer": 48,
+    "ignis": 48,
+    "aqua": 48,
+    "terra": 48,
+    "ordo": 48,
+    "perditio": 48
+  }
+}
