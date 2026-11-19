@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.1.0.1'
+version = '0.1.3'
 group = 'technomancy'
 base.archivesName = 'Technomancy-Modern-Port'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -63,5 +63,11 @@ tasks.register('verifyExternalResources') {
                 }
             }
         }
+    }
+}
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
     }
 }

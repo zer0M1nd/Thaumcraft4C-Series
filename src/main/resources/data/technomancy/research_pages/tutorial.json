@@ -1,0 +1,186 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_TECHNOMANCY",
+      "pages": [
+        {
+          "id": "technomancy:tut_addon_technomancy/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.technomancy.tut_addon_technomancy.text.1",
+            "with": [
+              [
+                {
+                  "text": "量子魔法是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "technomancy:tut_addon_technomancy/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.technomancy.tut_addon_technomancy.text.2",
+            "with": [
+              [
+                {
+                  "text": "量子魔法把神秘时代和"
+                },
+                {
+                  "text": "能源",
+                  "bold": true
+                },
+                {
+                  "text": "结合起来：把节点或魔力转化为电能，再用电能凝聚魔力、甚至"
+                },
+                {
+                  "text": "制造新的节点",
+                  "bold": true
+                },
+                {
+                  "text": "。它还提供量子罐、无线源质线圈、神秘冶炼炉和生物群系转换器。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "technomancy:tut_addon_technomancy/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "technomancy:tut_addon_technomancy/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.technomancy.tut_addon_technomancy.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "technomancy:tut_addon_technomancy/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.technomancy.tut_addon_technomancy.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "technomancy:TECHNOBASICS"
+                },
+                {
+                  "text": "：神秘量子科学，自动解锁。\n· "
+                },
+                {
+                  "research": "technomancy:DYNAMO"
+                },
+                {
+                  "text": "：神秘能源炉，从节点或魔力发电。\n· "
+                },
+                {
+                  "research": "technomancy:QUANTUMJARS"
+                },
+                {
+                  "text": "：量子罐，大容量源质储存。\n· "
+                },
+                {
+                  "research": "technomancy:CONDENSER"
+                },
+                {
+                  "text": "、"
+                },
+                {
+                  "research": "technomancy:NODEGENERATOR"
+                },
+                {
+                  "text": "：凝聚能源与节点创造。\n· "
+                },
+                {
+                  "research": "technomancy:PROCESSOR"
+                },
+                {
+                  "text": "：神秘冶炼炉，矿物翻倍加工。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "technomancy:tut_addon_technomancy/text/6",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.technomancy.tut_addon_technomancy.text.6",
+            "with": [
+              [
+                {
+                  "text": "安装了植物魔法：会出现「植物魔法机器」研究。\n"
+                }
+              ]
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "botania"
+            }
+          ]
+        },
+        {
+          "id": "technomancy:tut_addon_technomancy/text/7",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.technomancy.tut_addon_technomancy.text.7",
+            "with": [
+              [
+                {
+                  "text": "安装了血魔法：会出现「血魔法机器」研究。\n"
+                }
+              ]
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "bloodmagic"
+            }
+          ]
+        },
+        {
+          "id": "technomancy:tut_addon_technomancy/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "technomancy:tut_addon_technomancy/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "technomancy:tut_addon_technomancy/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "technomancy:TECHNOBASICS",
+            "technomancy:DYNAMO",
+            "technomancy:QUANTUMJARS",
+            "technomancy:CONDENSER",
+            "technomancy:NODEGENERATOR",
+            "technomancy:PROCESSOR"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

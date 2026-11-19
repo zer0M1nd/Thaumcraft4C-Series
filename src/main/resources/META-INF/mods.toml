@@ -1,12 +1,22 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Apache-2.0"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
 [[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/technomancy/index.html"
 modId="technomancy"
 version="${version}"
 displayName="Technomancy: Continuation"
-authors="Democretes, theflogat, Mordenkainen; TC4Revival port"
-description='''Science and magic. Technomancy 0.12.5 reimplemented for Thaumcraft 4: Continuation on Forge 1.20.1.'''
+authors="zer0M1nd"
+credits="Original Technomancy by Democretes, theflogat, and Mordenkainen."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Combine essentia and energy to build machines that purify ores, manufacture nodes and fuel rituals.
+
+-------- Original release --------
+Science and magic. What could go wrong?
+
+Original credits: Azanor for Thaumcraft, CoFH for Thermal Expansion, FTB forums for support and ideas.'''
+
 [[dependencies.technomancy]]
 modId="forge"
 mandatory=true
@@ -22,7 +32,7 @@ side="BOTH"
 [[dependencies.technomancy]]
 modId="thaumcraft"
 mandatory=true
-versionRange="[0.4.115.1,)"
+versionRange="[0.4.116.2,)"
 ordering="AFTER"
 side="BOTH"
 [[dependencies.technomancy]]

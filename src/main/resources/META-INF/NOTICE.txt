@@ -6,8 +6,7 @@ Baseline: Technomancy 0.12.5 for Minecraft 1.7.10.
 Original project: https://www.curseforge.com/minecraft/mc-mods/technomancy
 The original project's declared license is Apache License 2.0.
 
-This is a modified, independently implemented Forge 1.20.1 port by the
-TC4Revival project (2026). The Java code, registry identifiers, persistence,
+The Forge 1.20.1 implementation was developed by zer0M1nd (2026). The Java code, registry identifiers, persistence,
 networking, recipes and rendering adapters have been changed for the modern
 runtime. Model geometry was converted from the original author definitions
 through Blockbench. The black-hole sphere and reservoir were rebuilt to match
@@ -19,5 +18,5 @@ which retrieves and verifies the original 0.12.5 distribution for the player.
 Minecraft, Forge, Thaumcraft, Botania, Blood Magic and JEI remain the works of
 their respective authors and are not bundled with this product.
 
-This product is distributed under the Apache License, Version 2.0.
-See the accompanying LICENSE.txt.
+The Apache License for the original project accompanies this notice in LICENSE.txt.
+The project license for the modern implementation is in the root LICENSE.
