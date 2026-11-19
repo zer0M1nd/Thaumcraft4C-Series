@@ -1,0 +1,74 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
+version = '0.1.3'
+group = 'arcanearteries'
+base.archivesName = 'Arcane-Arteries-Modern-Port'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.withSourcesJar()
+sourceSets {
+    serverTest {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+repositories {
+    flatDir { dirs 'libs', '../../../Data/Dependencies/TC4/0.4.114' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    mavenCentral()
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+    implementation fg.deobf('local.validation:Thaumcraft-4-Modern-Port:0.4.114')
+    implementation fg.deobf('local:bloodmagic:3.3.8-50')
+    implementation fg.deobf('local:patchouli:85')
+    compileOnly fg.deobf('local:botania:455')
+    compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
+    runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
+    runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
+    if (providers.gradleProperty('withBotania').isPresent()) runtimeOnly fg.deobf('local:botania:455')
+    testImplementation files('libs/junit-platform-console-standalone-1.10.2.jar')
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            args '--mixin.config', 'tc4revival.mixins.json'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+            mods { arcanearteries { source sourceSets.main } }
+        }
+        server { workingDirectory file('run-server'); args '--nogui'; jvmArgs '-Xmx2G' }
+        client { workingDirectory file('run-client'); jvmArgs '-Xmx3G' }
+        gameTestServer {
+            workingDirectory file('../../../Data/Verification/20261114-01a1d90c-arteries/gametest')
+            property 'forge.enabledGameTestNamespaces', 'arcanearteries'
+            mods { arcanearteries { source sourceSets.serverTest } }
+            jvmArgs '-Xmx1024m', '-XX:ActiveProcessorCount=2'
+        }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 17 }
+tasks.withType(ProcessResources).configureEach { filteringCharset = 'UTF-8' }
+tasks.named('processResources') { inputs.property 'version', project.version; filesMatching('META-INF/mods.toml') { expand version: project.version } }
+tasks.named('jar') { finalizedBy 'reobfJar' }
+tasks.named('test') { useJUnitPlatform() }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }
+tasks.register('verifyArchives') {
+    dependsOn 'jar', 'reobfJar', 'sourcesJar'
+    doLast {
+        ['jar', 'sourcesJar'].each { name ->
+            new java.util.zip.ZipFile(tasks.named(name).get().archiveFile.get().asFile).withCloseable { zip ->
+                zip.entries().each { entry ->
+                    if (entry.name ==~ /.*\.(png|ogg|lang|obj)/ || entry.name.startsWith('tc4revival/') || entry.name.startsWith('thaumcraft/api/') || entry.name.startsWith('wayoftime/'))
+                        throw new GradleException("Bundled original resource or dependency class: ${entry.name}")
+                }
+            }
+        }
+    }
+}
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+    }
+}

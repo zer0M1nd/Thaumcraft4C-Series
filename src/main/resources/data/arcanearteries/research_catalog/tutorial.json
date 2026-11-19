@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_ARCANEARTERIES",
+          "category": "TUTORIAL",
+          "displayColumn": 33,
+          "displayRow": 6,
+          "parents": [
+            "TUT_GADGETS"
+          ],
+          "icon_item": {
+            "item": "arcanearteries:thaumic_knife",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "arcanearteries"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "bloodmagic"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "arcanearteries:DAGGER",
+            "arcanearteries:SACRIFICEDAGGER",
+            "arcanearteries:SLATE",
+            "arcanearteries:RUNE"
+          ],
+          "pageCount": 10
+        }
+      ]
+    }
+  ]
+}

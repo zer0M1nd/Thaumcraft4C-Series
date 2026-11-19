@@ -1,0 +1,35 @@
+{
+  "type": "botania:runic_altar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "arcanearteries:feature",
+      "feature": "botanical_self",
+      "hard": true
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "botania:pixie_dust"
+    },
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "bloodmagic:sacrificialdagger"
+    }
+  ],
+  "mana": 50000,
+  "output": {
+    "item": "arcanearteries:botanical_knife"
+  }
+}

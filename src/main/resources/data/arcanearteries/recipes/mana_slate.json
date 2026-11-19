@@ -1,0 +1,21 @@
+{
+  "type": "botania:mana_infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "arcanearteries:feature",
+      "feature": "slates",
+      "hard": false
+    }
+  ],
+  "input": {
+    "item": "minecraft:stone"
+  },
+  "output": {
+    "item": "arcanearteries:mana_slate"
+  },
+  "mana": 3000
+}

@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ZARTERIES",
+      "icon": "arcanearteries:textures/item/thaumic_knife.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "arcanearteries:DAGGER",
+          "category": "ZARTERIES",
+          "complexity": 2,
+          "aspects": {
+            "perditio": 4,
+            "victus": 3,
+            "praecantatio": 1
+          },
+          "pageCount": 2,
+          "displayColumn": 0,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "arcanearteries:thaumic_knife"
+          },
+          "parents": []
+        },
+        {
+          "key": "arcanearteries:DAGGERH",
+          "category": "ZARTERIES",
+          "complexity": 2,
+          "aspects": {
+            "perditio": 8,
+            "victus": 6,
+            "praecantatio": 10
+          },
+          "pageCount": 2,
+          "displayColumn": 0,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "arcanearteries:thaumic_knife"
+          },
+          "parents": []
+        },
+        {
+          "key": "arcanearteries:SACRIFICEDAGGER",
+          "category": "ZARTERIES",
+          "complexity": 2,
+          "aspects": {
+            "perditio": 7,
+            "victus": 12,
+            "praecantatio": 6,
+            "mortuus": 10
+          },
+          "pageCount": 2,
+          "displayColumn": 1,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "arcanearteries:thaumic_sacrifice"
+          },
+          "parents": []
+        },
+        {
+          "key": "arcanearteries:SACRIFICEDAGGERH",
+          "category": "ZARTERIES",
+          "complexity": 2,
+          "aspects": {
+            "perditio": 7,
+            "victus": 15,
+            "praecantatio": 10,
+            "mortuus": 15
+          },
+          "pageCount": 2,
+          "displayColumn": 1,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "arcanearteries:thaumic_sacrifice"
+          },
+          "parents": []
+        },
+        {
+          "key": "arcanearteries:SLATE",
+          "category": "ZARTERIES",
+          "complexity": 1,
+          "aspects": {
+            "perditio": 3,
+            "victus": 2,
+            "praecantatio": 1
+          },
+          "pageCount": 2,
+          "displayColumn": 2,
+          "displayRow": 1,
+          "icon_item": {
+            "item": "arcanearteries:thaumic_slate"
+          },
+          "parents": []
+        },
+        {
+          "key": "arcanearteries:RUNE",
+          "category": "ZARTERIES",
+          "complexity": 1,
+          "aspects": {
+            "perditio": 6,
+            "victus": 10,
+            "praecantatio": 4,
+            "ordo": 6
+          },
+          "pageCount": 2,
+          "displayColumn": -3,
+          "displayRow": -1,
+          "icon_item": {
+            "item": "arcanearteries:thaumic_rune"
+          },
+          "parents": []
+        }
+      ]
+    }
+  ]
+}

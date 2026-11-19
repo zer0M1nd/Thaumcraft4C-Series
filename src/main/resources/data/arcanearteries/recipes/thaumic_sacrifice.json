@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "arcanearteries:feature",
+      "feature": "thaumic_mob",
+      "hard": false
+    }
+  ],
+  "research": "arcanearteries:SACRIFICEDAGGER",
+  "center": {
+    "ingredient": {
+      "item": "arcanearteries:thaumic_knife"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "arcanearteries:thaumic_sacrifice"
+  },
+  "aspects": {
+    "praecantatio": 10,
+    "victus": 6,
+    "mortuus": 8
+  },
+  "instability": 2
+}

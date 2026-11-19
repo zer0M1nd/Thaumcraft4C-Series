@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "arcanearteries:feature",
+      "feature": "slates",
+      "hard": false
+    }
+  ],
+  "pattern": [
+    " S ",
+    "RGR",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "arcanearteries:mana_slate"
+    },
+    "R": {
+      "item": "minecraft:stone"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result": {
+    "item": "arcanearteries:mana_rune"
+  }
+}

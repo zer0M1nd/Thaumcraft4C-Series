@@ -1,0 +1,32 @@
+{
+  "type": "botania:runic_altar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "arcanearteries:feature",
+      "feature": "botanical_mob",
+      "hard": true
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "botania:dreamwood_twig"
+    },
+    {
+      "item": "botania:pixie_dust"
+    },
+    {
+      "item": "arcanearteries:botanical_knife"
+    }
+  ],
+  "mana": 55000,
+  "output": {
+    "item": "arcanearteries:botanical_sacrifice"
+  }
+}

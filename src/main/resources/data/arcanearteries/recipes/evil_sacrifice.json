@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evilcraft"
+    },
+    {
+      "type": "arcanearteries:feature",
+      "feature": "evil_mob",
+      "hard": false
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "arcanearteries:evil_knife"
+    }
+  ],
+  "result": {
+    "item": "arcanearteries:evil_sacrifice"
+  }
+}

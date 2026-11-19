@@ -1,0 +1,55 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/arcanearteries/index.html"
+modId="arcanearteries"
+version="${version}"
+displayName="Arcane Arteries"
+authors="zer0M1nd"
+credits="Original Arcane Arteries by jordsta95 and MaxIsH0t."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Craft sacrificial tools, slates and runes that connect thaumaturgy to Blood Magic's altar progression.
+
+-------- Original release --------
+An arcane upgrade for Blood Magic
+
+Original credits: MaxIsH0t maintained the original project.'''
+
+[[dependencies.arcanearteries]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.arcanearteries]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.arcanearteries]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.arcanearteries]]
+modId="bloodmagic"
+mandatory=true
+versionRange="[3.3.8,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.arcanearteries]]
+modId="botania"
+mandatory=false
+versionRange="[1.20.1-445,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.arcanearteries]]
+modId="evilcraft"
+mandatory=false
+versionRange="[1.2.0,)"
+ordering="AFTER"
+side="BOTH"

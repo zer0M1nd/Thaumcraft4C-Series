@@ -1,0 +1,20 @@
+{
+  "type": "bloodmagic:altar",
+  "conditions": [
+    {
+      "type": "arcanearteries:feature",
+      "feature": "upgrade",
+      "hard": false
+    }
+  ],
+  "input": {
+    "item": "arcanearteries:thaumic_slate"
+  },
+  "output": {
+    "item": "bloodmagic:reinforcedslate"
+  },
+  "upgradeLevel": 1,
+  "altarSyphon": 1500,
+  "consumptionRate": 20,
+  "drainRate": 20
+}

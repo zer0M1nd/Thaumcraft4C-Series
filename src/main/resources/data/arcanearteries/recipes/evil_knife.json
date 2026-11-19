@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evilcraft"
+    },
+    {
+      "type": "arcanearteries:feature",
+      "feature": "evil_self",
+      "hard": false
+    }
+  ],
+  "pattern": [
+    "F",
+    "F",
+    "D"
+  ],
+  "key": {
+    "F": {
+      "item": "evilcraft:flesh_werewolf"
+    },
+    "D": {
+      "item": "bloodmagic:sacrificialdagger"
+    }
+  },
+  "result": {
+    "item": "arcanearteries:evil_knife"
+  }
+}
