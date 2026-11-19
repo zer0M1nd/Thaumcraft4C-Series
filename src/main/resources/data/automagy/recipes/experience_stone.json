@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:XPSTONE",
+  "vis": {
+    "perditio": 60,
+    "terra": 30,
+    "ordo": 10
+  },
+  "pattern": [
+    "ESE",
+    "ABA",
+    "ESE"
+  ],
+  "key": {
+    "E": {
+      "item": "thaumcraft:entropy_shard"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    },
+    "A": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "B": {
+      "item": "thaumcraft:zombie_brain"
+    }
+  },
+  "result": {
+    "item": "automagy:experience_stone"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:THIRSTYTANK",
+  "vis": {
+    "aqua": 16,
+    "ordo": 4,
+    "perditio": 4
+  },
+  "pattern": [
+    "SGS",
+    "GAG",
+    "SWS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "G": {
+      "tag": "forge:glass"
+    },
+    "A": {
+      "item": "automagy:avarice_pearl"
+    },
+    "W": {
+      "item": "thaumcraft:water_shard"
+    }
+  },
+  "result": {
+    "item": "automagy:thirsty_tank"
+  }
+}

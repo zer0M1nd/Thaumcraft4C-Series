@@ -1,0 +1,26 @@
+{
+  "textures": {
+    "particle": "automagy:block/entity_sensor-dark",
+    "face": "automagy:block/entity_sensor-dark"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "south": {
+          "texture": "#face",
+          "cullface": "south"
+        }
+      }
+    }
+  ]
+}

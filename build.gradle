@@ -1,0 +1,92 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
+version = mod_version
+group = 'automagy.modern'
+base.archivesName = 'Automagy-Modern-Port'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.withSourcesJar()
+repositories { flatDir { dirs 'libs' };
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    maven { url = uri('.deps/maven') }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    mavenCentral()
+}
+repositories {
+    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
+    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+}
+dependencies {
+    runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+    implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
+        ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
+        : 'local.revival:Thaumcraft-4-Modern-Port:0.4.114')
+    runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
+    compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
+    runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
+    compileOnly files('.deps/Jade-1.20.1-Forge-11.13.3.jar')
+    compileOnly files('.deps/jei-1.20.1-common-api-15.20.0.106.jar')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+}
+// Runtime fixtures are available only to the dedicated GameTest run, never the distribution jar.
+sourceSets {
+    gametest {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            arg '-mixin.config=automagy.mixins.json'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+            mods { automagy { source sourceSets.main } }
+        }
+        server { workingDirectory file('run-server'); args '--nogui'; jvmArgs '-Xmx2G' }
+        gameTestServer {
+            workingDirectory file('run-gametest')
+            property 'forge.enabledGameTestNamespaces', 'automagy'
+            jvmArgs '-Xmx1536m', '-XX:ActiveProcessorCount=2'
+            mods { automagy { source sourceSets.gametest } }
+        }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding='UTF-8'; options.release=17 }
+tasks.named('processResources') { inputs.property 'version',project.version; filesMatching('META-INF/mods.toml') { expand version:project.version } }
+tasks.named('test') { useJUnitPlatform() }
+tasks.named('jar') { manifest { attributes 'MixinConfigs':'automagy.mixins.json' }; finalizedBy 'reobfJar' }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps=false; reproducibleFileOrder=true }
+tasks.register('verifyDistribution') {
+    dependsOn 'jar','reobfJar','sourcesJar'
+    doLast {
+        ['jar','sourcesJar'].each { taskName ->
+            new java.util.zip.ZipFile(tasks.named(taskName).get().archiveFile.get().asFile).withCloseable { zip ->
+                if (taskName == 'jar') {
+                    ['automagy/Automagy.class','automagy.mixins.json','automagy/mixin/BeaconBlockEntityMixin.class','META-INF/mods.toml','data/automagy/thaumcraft/original_resources.json'].each { required ->
+                        if (zip.getEntry(required) == null) throw new GradleException('Missing distribution entry: '+required)
+                    }
+                    def metadata=zip.getInputStream(zip.getEntry('META-INF/mods.toml')).withCloseable { it.getText('UTF-8') }
+                    if (!metadata.contains('version="'+project.version+'"') || metadata.contains('${version}')) throw new GradleException('Unexpanded or inconsistent mod version')
+                    def manifest=zip.getInputStream(zip.getEntry('META-INF/MANIFEST.MF')).withCloseable { new java.util.jar.Manifest(it) }
+                    if (manifest.mainAttributes.getValue('MixinConfigs') != 'automagy.mixins.json') throw new GradleException('Missing runtime mixin manifest')
+                }
+                zip.entries().each { e ->
+                    if (e.name ==~ /.*\.(png|ogg|lang|obj)/) throw new GradleException('Bundled old resource: '+e.name)
+                    if (e.name.startsWith('tc4revival/') || e.name.startsWith('thaumcraft/')) throw new GradleException('Bundled base classes: '+e.name)
+                    if (e.name.startsWith('automagy/gametest/') || e.name.startsWith('data/automagy/structures/') || e.name.startsWith('data/automagy/gametest/')) throw new GradleException('Bundled test fixture: '+e.name)
+                    if (e.name.endsWith('.jar') || e.name.startsWith('mezz/jei/') || e.name.startsWith('snownee/jade/')) throw new GradleException('Bundled optional dependency: '+e.name)
+                }
+            }
+        }
+    }
+}
+
+// Resource metadata must be UTF-8 on every build host.
+tasks.withType(ProcessResources).configureEach { filteringCharset = 'UTF-8' }
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+    }
+}

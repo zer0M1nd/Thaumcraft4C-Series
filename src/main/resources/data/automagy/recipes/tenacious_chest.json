@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:TENACIOUSCHEST",
+  "vis": {
+    "aer": 5,
+    "terra": 2,
+    "aqua": 2
+  },
+  "pattern": [
+    "W_W",
+    "WSW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "_": {
+      "tag": "minecraft:wooden_trapdoors"
+    },
+    "S": {
+      "tag": "forge:slimeballs"
+    }
+  },
+  "result": {
+    "item": "automagy:tenacious_chest"
+  }
+}

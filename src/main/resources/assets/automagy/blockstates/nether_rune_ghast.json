@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "automagy:block/nether_rune_ghast"
+    },
+    "active=true": {
+      "model": "automagy:block/nether_rune_ghast_active"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:MOBLURE",
+  "instability": 3,
+  "aspects": {
+    "ignis": 16,
+    "cognitio": 10,
+    "fames": 10,
+    "tenebrae": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "automagy:fire_crystal_brain"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:fermented_spider_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:carrot_on_a_stick"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "automagy:runed_obsidian"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:obsidian_totem"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:mob_lure"
+  }
+}

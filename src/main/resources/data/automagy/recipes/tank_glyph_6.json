@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:THIRSTYTANK_GLYPH",
+  "vis": {
+    "aqua": 3,
+    "ordo": 5
+  },
+  "pattern": [
+    "iii",
+    " i ",
+    "sSO"
+  ],
+  "key": {
+    "i": {
+      "item": "automagy:aqua_ink"
+    },
+    "s": {
+      "item": "thaumcraft:arcane_stone_slab"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    },
+    "O": {
+      "item": "thaumcraft:order_shard"
+    }
+  },
+  "result": {
+    "item": "automagy:tank_glyph_6"
+  }
+}

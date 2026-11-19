@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:MAGICHOURGLASS",
+  "vis": {
+    "ordo": 4,
+    "aer": 2,
+    "terra": 1,
+    "perditio": 1
+  },
+  "pattern": [
+    " R ",
+    "OHA",
+    " P "
+  ],
+  "key": {
+    "R": {
+      "item": "automagy:redcrystal"
+    },
+    "O": {
+      "item": "automagy:order_sliver"
+    },
+    "H": {
+      "item": "automagy:hourglass"
+    },
+    "P": {
+      "item": "minecraft:light_weighted_pressure_plate"
+    },
+    "A": {
+      "item": "automagy:air_sliver"
+    }
+  },
+  "result": {
+    "item": "automagy:magic_hourglass"
+  }
+}

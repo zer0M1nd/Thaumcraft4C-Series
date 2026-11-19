@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:THIRSTYTANK_GLYPH",
+  "vis": {
+    "aqua": 16,
+    "aer": 3,
+    "perditio": 3
+  },
+  "pattern": [
+    "BPB",
+    "iWi",
+    "si "
+  ],
+  "key": {
+    "i": {
+      "item": "automagy:aqua_ink"
+    },
+    "s": {
+      "item": "thaumcraft:arcane_stone_slab"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "W": {
+      "item": "thaumcraft:water_shard"
+    }
+  },
+  "result": {
+    "item": "automagy:tank_glyph_8"
+  }
+}

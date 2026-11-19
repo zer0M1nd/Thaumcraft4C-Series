@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north,powered=false": {
+      "model": "automagy:block/requisition_tome",
+      "y": 0
+    },
+    "facing=north,powered=true": {
+      "model": "automagy:block/requisition_tome",
+      "y": 0
+    },
+    "facing=east,powered=false": {
+      "model": "automagy:block/requisition_tome",
+      "y": 90
+    },
+    "facing=east,powered=true": {
+      "model": "automagy:block/requisition_tome",
+      "y": 90
+    },
+    "facing=south,powered=false": {
+      "model": "automagy:block/requisition_tome",
+      "y": 180
+    },
+    "facing=south,powered=true": {
+      "model": "automagy:block/requisition_tome",
+      "y": 180
+    },
+    "facing=west,powered=false": {
+      "model": "automagy:block/requisition_tome",
+      "y": 270
+    },
+    "facing=west,powered=true": {
+      "model": "automagy:block/requisition_tome",
+      "y": 270
+    }
+  }
+}

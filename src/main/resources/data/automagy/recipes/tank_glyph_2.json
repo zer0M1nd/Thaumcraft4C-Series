@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:THIRSTYTANK_GLYPH",
+  "vis": {
+    "aqua": 3,
+    "perditio": 15
+  },
+  "pattern": [
+    " i ",
+    "iEi",
+    "siB"
+  ],
+  "key": {
+    "i": {
+      "item": "automagy:aqua_ink"
+    },
+    "s": {
+      "item": "thaumcraft:arcane_stone_slab"
+    },
+    "E": {
+      "item": "thaumcraft:entropy_shard"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "automagy:tank_glyph_2"
+  }
+}

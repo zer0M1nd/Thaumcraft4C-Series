@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:MIRRORINPUT",
+  "instability": 8,
+  "aspects": {
+    "iter": 8,
+    "tenebrae": 8,
+    "permutatio": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:compass"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:conflux_disc",
+    "count": 2
+  }
+}

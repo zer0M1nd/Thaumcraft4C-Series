@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/automagy/index.html"
+modId="automagy"
+version="${version}"
+displayName="Automagy"
+authors="zer0M1nd"
+credits="Original Automagy by Tuhljin (programming and art) and Draanor (art)."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Build magical sorting networks, control redstone signals and automate essentia handling with golems and enchanted devices.
+
+-------- Original release --------
+An addon for Thaumcraft 4 focused on providing flexible and interesting tools for automation and logistics, plus a few other fun thaumic gadgets.
+
+Original credits: Special thanks and much credit go to Azanor.'''
+
+[[dependencies.automagy]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"

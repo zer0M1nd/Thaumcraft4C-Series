@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=down,lit=false": {
+      "model": "automagy:block/tally_world_down_off"
+    },
+    "facing=down,lit=true": {
+      "model": "automagy:block/tally_world_down_on"
+    },
+    "facing=up,lit=false": {
+      "model": "automagy:block/tally_world_up_off"
+    },
+    "facing=up,lit=true": {
+      "model": "automagy:block/tally_world_up_on"
+    },
+    "facing=north,lit=false": {
+      "model": "automagy:block/tally_world_north_off"
+    },
+    "facing=north,lit=true": {
+      "model": "automagy:block/tally_world_north_on"
+    },
+    "facing=south,lit=false": {
+      "model": "automagy:block/tally_world_south_off"
+    },
+    "facing=south,lit=true": {
+      "model": "automagy:block/tally_world_south_on"
+    },
+    "facing=west,lit=false": {
+      "model": "automagy:block/tally_world_west_off"
+    },
+    "facing=west,lit=true": {
+      "model": "automagy:block/tally_world_west_on"
+    },
+    "facing=east,lit=false": {
+      "model": "automagy:block/tally_world_east_off"
+    },
+    "facing=east,lit=true": {
+      "model": "automagy:block/tally_world_east_on"
+    }
+  }
+}

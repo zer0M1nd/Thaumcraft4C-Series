@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:INVENTARIUM_EXTRA",
+  "vis": {
+    "terra": 14,
+    "ignis": 14,
+    "ordo": 14
+  },
+  "pattern": [
+    "WWW",
+    "SBS",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "thaumcraft:silverwood_planks"
+    },
+    "S": {
+      "item": "automagy:greatwood_bookshelf"
+    },
+    "B": {
+      "item": "minecraft:enchanted_book"
+    }
+  },
+  "result": {
+    "item": "automagy:silverwood_bookshelf"
+  }
+}

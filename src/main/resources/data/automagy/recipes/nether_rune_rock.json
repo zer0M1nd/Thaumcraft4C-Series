@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:NETHERMIND",
+  "vis": {
+    "ignis": 3,
+    "terra": 6
+  },
+  "pattern": [
+    "BSB",
+    "NRN",
+    "BSB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:nether_brick"
+    },
+    "N": {
+      "item": "minecraft:netherrack"
+    },
+    "R": {
+      "item": "automagy:runed_obsidian"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "result": {
+    "item": "automagy:nether_rune_rock"
+  }
+}

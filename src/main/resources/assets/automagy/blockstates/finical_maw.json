@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "automagy:block/finical_maw"
+    },
+    "facing=down": {
+      "model": "automagy:block/finical_maw",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "automagy:block/finical_maw",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "automagy:block/finical_maw",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "automagy:block/finical_maw",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "automagy:block/finical_maw",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

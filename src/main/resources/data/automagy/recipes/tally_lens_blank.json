@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:TALLYBLOCK_LENS",
+  "vis": {
+    "aer": 2,
+    "terra": 1
+  },
+  "pattern": [
+    " g ",
+    "gPg",
+    " gR"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_nugget"
+    },
+    "P": {
+      "item": "minecraft:glass_pane"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "automagy:tally_lens_blank"
+  }
+}

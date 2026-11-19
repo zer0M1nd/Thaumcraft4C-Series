@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:ENCHANTEDPAPER",
+  "vis": {
+    "aer": 5,
+    "ignis": 5,
+    "aqua": 5,
+    "terra": 5,
+    "ordo": 5,
+    "perditio": 5
+  },
+  "pattern": [
+    "LPP",
+    "GPP",
+    "LPP"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "automagy:enchanted_paper"
+    }
+  },
+  "result": {
+    "item": "automagy:enchanted_tome"
+  }
+}

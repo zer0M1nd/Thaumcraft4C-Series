@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:GOLEMLINKER",
+  "instability": 3,
+  "aspects": {
+    "ordo": 16,
+    "spiritus": 4,
+    "humanus": 4,
+    "instrumentum": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:silverwood_log"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:golem_upgrade_order"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:golem_linker"
+  }
+}

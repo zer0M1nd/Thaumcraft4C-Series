@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=up,socketed=false": {
+      "model": "automagy:block/multi_dest_mirror",
+      "x": 0,
+      "y": 0
+    },
+    "facing=down,socketed=false": {
+      "model": "automagy:block/multi_dest_mirror",
+      "x": 180,
+      "y": 0
+    },
+    "facing=north,socketed=false": {
+      "model": "automagy:block/multi_dest_mirror",
+      "x": 90,
+      "y": 0
+    },
+    "facing=south,socketed=false": {
+      "model": "automagy:block/multi_dest_mirror",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east,socketed=false": {
+      "model": "automagy:block/multi_dest_mirror",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,socketed=false": {
+      "model": "automagy:block/multi_dest_mirror",
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,socketed=true": {
+      "model": "automagy:block/multi_dest_mirror_socketed",
+      "x": 0,
+      "y": 0
+    },
+    "facing=down,socketed=true": {
+      "model": "automagy:block/multi_dest_mirror_socketed",
+      "x": 180,
+      "y": 0
+    },
+    "facing=north,socketed=true": {
+      "model": "automagy:block/multi_dest_mirror_socketed",
+      "x": 90,
+      "y": 0
+    },
+    "facing=south,socketed=true": {
+      "model": "automagy:block/multi_dest_mirror_socketed",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east,socketed=true": {
+      "model": "automagy:block/multi_dest_mirror_socketed",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,socketed=true": {
+      "model": "automagy:block/multi_dest_mirror_socketed",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

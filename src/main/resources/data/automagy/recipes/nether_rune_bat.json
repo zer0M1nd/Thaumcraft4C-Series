@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:NETHERRUNE_BAT",
+  "vis": {
+    "ignis": 20,
+    "aer": 15,
+    "perditio": 15
+  },
+  "pattern": [
+    "FST",
+    "GRG",
+    "TSF"
+  ],
+  "key": {
+    "F": {
+      "item": "automagy:fire_sliver"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "R": {
+      "item": "automagy:runed_obsidian"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "result": {
+    "item": "automagy:nether_rune_bat"
+  }
+}

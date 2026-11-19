@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:REDCRYSTAL_RES",
+  "vis": {
+    "aer": 8,
+    "ordo": 4
+  },
+  "pattern": [
+    " R ",
+    "QSQ"
+  ],
+  "key": {
+    "R": {
+      "item": "automagy:redcrystal"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "S": {
+      "item": "thaumcraft:air_shard"
+    }
+  },
+  "result": {
+    "item": "automagy:redcrystal_res"
+  }
+}

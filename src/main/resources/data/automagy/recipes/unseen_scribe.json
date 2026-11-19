@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:INVENTARIUM",
+  "vis": {
+    "aer": 15,
+    "ordo": 30,
+    "terra": 5
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:scribing_tools"
+    },
+    {
+      "item": "automagy:enchanted_tome"
+    },
+    {
+      "item": "thaumcraft:nitor"
+    },
+    {
+      "item": "thaumcraft:order_shard"
+    },
+    {
+      "item": "thaumcraft:table"
+    },
+    {
+      "item": "automagy:air_sliver"
+    }
+  ],
+  "result": {
+    "item": "automagy:unseen_scribe"
+  }
+}

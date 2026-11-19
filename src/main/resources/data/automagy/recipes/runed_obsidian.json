@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:NETHERMIND",
+  "vis": {
+    "ignis": 6,
+    "terra": 3,
+    "aer": 1,
+    "perditio": 1
+  },
+  "ingredients": [
+    {
+      "item": "automagy:fire_sliver"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "item": "automagy:runed_obsidian"
+  }
+}

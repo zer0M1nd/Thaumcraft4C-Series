@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:GOLEMWORKBENCH_UPGRADE",
+  "vis": {
+    "perditio": 15
+  },
+  "pattern": [
+    "eTN",
+    "TGT",
+    "BTD"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "N": {
+      "item": "thaumcraft:nitor"
+    },
+    "G": {
+      "item": "thaumcraft:golem_upgrade_entropy"
+    },
+    "e": {
+      "type": "forge:partial_nbt",
+      "item": "thaumcraft:wisp_essence",
+      "nbt": "{Aspects:[{key:\"perditio\",amount:2}]}"
+    },
+    "B": {
+      "item": "automagy:enchanted_tome"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "automagy:workbench_upgrade_5"
+  }
+}

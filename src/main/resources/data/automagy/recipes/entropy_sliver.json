@@ -1,0 +1,17 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:SLIVERS",
+  "ingredients": [
+    {
+      "item": "thaumcraft:entropy_shard"
+    }
+  ],
+  "vis": {
+    "perditio": 1
+  },
+  "result": {
+    "item": "automagy:entropy_sliver",
+    "count": 4
+  }
+}

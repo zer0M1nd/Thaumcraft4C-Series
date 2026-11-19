@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:THIRSTYTANK_GLYPH",
+  "vis": {
+    "aqua": 3,
+    "ordo": 2,
+    "perditio": 2
+  },
+  "pattern": [
+    " ii",
+    "iH ",
+    "si "
+  ],
+  "key": {
+    "i": {
+      "item": "automagy:aqua_ink"
+    },
+    "s": {
+      "item": "thaumcraft:arcane_stone_slab"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    }
+  },
+  "result": {
+    "item": "automagy:tank_glyph_3"
+  }
+}

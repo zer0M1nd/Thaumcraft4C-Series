@@ -1,0 +1,53 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:ESSENTIALOCUSAGGREGATOR",
+  "instability": 4,
+  "aspects": {
+    "aqua": 32,
+    "praecantatio": 24,
+    "limus": 16,
+    "iter": 8,
+    "permutatio": 8,
+    "tenebrae": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:essentia_mirror"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:map"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:lapis_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:locus_aggregator"
+  }
+}

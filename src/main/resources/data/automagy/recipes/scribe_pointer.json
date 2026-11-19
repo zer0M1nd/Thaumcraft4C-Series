@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:INVENTARIUM_POINTER",
+  "vis": {
+    "terra": 5,
+    "aer": 30,
+    "ordo": 5
+  },
+  "pattern": [
+    "QQQ",
+    "QEQ",
+    "GOG"
+  ],
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "O": {
+      "item": "thaumcraft:order_crystal_cluster"
+    }
+  },
+  "result": {
+    "item": "automagy:scribe_pointer"
+  }
+}

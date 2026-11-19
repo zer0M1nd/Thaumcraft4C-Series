@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=down,lit=false": {
+      "model": "automagy:block/tally_inventory_down_off"
+    },
+    "facing=down,lit=true": {
+      "model": "automagy:block/tally_inventory_down_on"
+    },
+    "facing=up,lit=false": {
+      "model": "automagy:block/tally_inventory_up_off"
+    },
+    "facing=up,lit=true": {
+      "model": "automagy:block/tally_inventory_up_on"
+    },
+    "facing=north,lit=false": {
+      "model": "automagy:block/tally_inventory_north_off"
+    },
+    "facing=north,lit=true": {
+      "model": "automagy:block/tally_inventory_north_on"
+    },
+    "facing=south,lit=false": {
+      "model": "automagy:block/tally_inventory_south_off"
+    },
+    "facing=south,lit=true": {
+      "model": "automagy:block/tally_inventory_south_on"
+    },
+    "facing=west,lit=false": {
+      "model": "automagy:block/tally_inventory_west_off"
+    },
+    "facing=west,lit=true": {
+      "model": "automagy:block/tally_inventory_west_on"
+    },
+    "facing=east,lit=false": {
+      "model": "automagy:block/tally_inventory_east_off"
+    },
+    "facing=east,lit=true": {
+      "model": "automagy:block/tally_inventory_east_on"
+    }
+  }
+}

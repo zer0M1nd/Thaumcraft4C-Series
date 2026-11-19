@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:DIMENSIONLURE",
+  "instability": 6,
+  "aspects": {
+    "ignis": 64,
+    "fames": 32,
+    "lucrum": 8,
+    "vinculum": 16,
+    "iter": 16,
+    "sensus": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "automagy:mob_lure"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "type": "automagy:enchanted",
+        "item": "minecraft:fishing_rod",
+        "enchantment": "minecraft:lure",
+        "minimum": 1
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "automagy:earth_crystal_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:sticky_piston"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cobweb"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:oak_trapdoor"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:dimension_lure"
+  }
+}

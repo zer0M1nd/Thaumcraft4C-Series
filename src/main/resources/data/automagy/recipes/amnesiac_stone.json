@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:AMNESIASTONE",
+  "vis": {
+    "perditio": 20,
+    "terra": 4,
+    "aqua": 4
+  },
+  "pattern": [
+    "SES",
+    "SBS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:arcane_stone_bricks"
+    },
+    "E": {
+      "item": "thaumcraft:entropy_shard"
+    },
+    "B": {
+      "item": "automagy:entropy_crystal_brain"
+    }
+  },
+  "result": {
+    "item": "automagy:amnesiac_stone"
+  }
+}

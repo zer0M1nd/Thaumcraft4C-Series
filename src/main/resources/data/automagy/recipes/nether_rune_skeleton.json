@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:NETHERRUNE_SKELETON",
+  "vis": {
+    "terra": 15,
+    "perditio": 20
+  },
+  "pattern": [
+    "sSB",
+    "HRH",
+    "BSs"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stone_sword"
+    },
+    "B": {
+      "item": "minecraft:nether_bricks"
+    },
+    "H": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "R": {
+      "item": "automagy:runed_obsidian"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "result": {
+    "item": "automagy:nether_rune_skeleton"
+  }
+}

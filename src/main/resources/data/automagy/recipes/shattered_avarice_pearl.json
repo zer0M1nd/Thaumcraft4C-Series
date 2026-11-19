@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:AVARICIOUS",
+  "vis": {
+    "perditio": 2
+  },
+  "ingredients": [
+    {
+      "item": "automagy:avarice_pearl"
+    },
+    {
+      "item": "automagy:entropy_sliver"
+    }
+  ],
+  "result": {
+    "item": "automagy:shattered_avarice_pearl",
+    "count": 2
+  }
+}

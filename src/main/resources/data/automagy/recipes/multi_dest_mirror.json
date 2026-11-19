@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:MIRRORMULTIDEST",
+  "instability": 5,
+  "aspects": {
+    "cognitio": 32,
+    "lucrum": 8,
+    "ordo": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "automagy:melding_mirror"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_bars"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "automagy:enchanted_tome"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:map"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:multi_dest_mirror"
+  }
+}

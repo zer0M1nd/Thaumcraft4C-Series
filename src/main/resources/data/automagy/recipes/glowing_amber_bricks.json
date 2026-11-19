@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:NITORLIGHT",
+  "vis": {
+    "terra": 2,
+    "aqua": 2,
+    "ignis": 4
+  },
+  "pattern": [
+    "A A",
+    " N ",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:amber"
+    },
+    "N": {
+      "item": "thaumcraft:nitor"
+    }
+  },
+  "result": {
+    "item": "automagy:glowing_amber_bricks"
+  }
+}

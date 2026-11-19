@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:NETHERRUNE_SOUL",
+  "vis": {
+    "ignis": 10,
+    "terra": 20,
+    "perditio": 10
+  },
+  "pattern": [
+    "ASG",
+    "BRB",
+    "GSA"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:amber_block"
+    },
+    "G": {
+      "item": "minecraft:ghast_tear"
+    },
+    "B": {
+      "item": "minecraft:soul_sand"
+    },
+    "R": {
+      "item": "automagy:runed_obsidian"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "result": {
+    "item": "automagy:nether_rune_soul"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:SLIVERS",
+  "ingredients": [
+    {
+      "item": "automagy:earth_sliver"
+    },
+    {
+      "item": "automagy:earth_sliver"
+    },
+    {
+      "item": "automagy:earth_sliver"
+    },
+    {
+      "item": "automagy:earth_sliver"
+    }
+  ],
+  "vis": {
+    "ordo": 2,
+    "terra": 2
+  },
+  "result": {
+    "item": "thaumcraft:earth_shard"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:REMOTECOMPARATOR",
+  "vis": {
+    "aer": 5,
+    "perditio": 5,
+    "ordo": 5
+  },
+  "pattern": [
+    " R ",
+    "RAR",
+    "SSS"
+  ],
+  "key": {
+    "R": {
+      "item": "automagy:redcrystal"
+    },
+    "A": {
+      "item": "thaumcraft:air_shard"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "result": {
+    "item": "automagy:remote_comparator"
+  }
+}

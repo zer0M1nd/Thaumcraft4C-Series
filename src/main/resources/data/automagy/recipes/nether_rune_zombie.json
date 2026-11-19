@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:NETHERRUNE_ZOMBIE",
+  "vis": {
+    "ignis": 20,
+    "terra": 15,
+    "perditio": 15
+  },
+  "pattern": [
+    "GST",
+    "BRB",
+    "TSG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:golden_sword"
+    },
+    "T": {
+      "item": "thaumcraft:tallow_block"
+    },
+    "B": {
+      "item": "thaumcraft:zombie_brain"
+    },
+    "R": {
+      "item": "automagy:runed_obsidian"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "result": {
+    "item": "automagy:nether_rune_zombie"
+  }
+}

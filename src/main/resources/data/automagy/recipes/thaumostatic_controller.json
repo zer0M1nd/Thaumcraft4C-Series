@@ -1,0 +1,53 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:THAUMOSTATICREFUELER",
+  "instability": 4,
+  "aspects": {
+    "aer": 50,
+    "cognitio": 20,
+    "potentia": 20,
+    "volatus": 16,
+    "iter": 8,
+    "permutatio": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "automagy:air_crystal_brain"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:compass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alchemical_construct"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_relay"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "automagy:thaumostatic_pylon"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:thaumostatic_controller"
+  }
+}

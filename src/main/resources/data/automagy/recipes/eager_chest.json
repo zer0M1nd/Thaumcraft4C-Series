@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:EAGERCHEST",
+  "vis": {
+    "ordo": 5,
+    "perditio": 5
+  },
+  "pattern": [
+    "w_w",
+    "WAW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "w": {
+      "tag": "minecraft:planks"
+    },
+    "_": {
+      "tag": "minecraft:wooden_trapdoors"
+    },
+    "A": {
+      "item": "automagy:mercatus_amalgam"
+    }
+  },
+  "result": {
+    "item": "automagy:eager_chest"
+  }
+}

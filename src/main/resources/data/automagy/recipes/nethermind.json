@@ -1,0 +1,76 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:NETHERMIND",
+  "instability": 5,
+  "aspects": {
+    "ignis": 64,
+    "cognitio": 32,
+    "iter": 16,
+    "tenebrae": 16,
+    "alienis": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "automagy:fire_crystal_brain"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "automagy:nether_heart"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:lava_bucket"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "automagy:runed_obsidian"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:soul_sand"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:netherrack"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "automagy:runed_obsidian"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "automagy:avarice_pearl"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_wart"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "automagy:runed_obsidian"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "automagy:nethermind"
+  }
+}

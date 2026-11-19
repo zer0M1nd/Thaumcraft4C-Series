@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/simple_dungeon"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "automagy:chests/nether_spire_pearls",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "automagy:chests/nether_spire_paper",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "automagy:chests/nether_spire_tomes",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "automagy:chests/nether_spire_slivers",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "automagy:chests/nether_spire_amalgam",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:REDCRYSTAL_DENSE",
+  "vis": {
+    "terra": 2
+  },
+  "ingredients": [
+    {
+      "item": "automagy:redcrystal"
+    },
+    {
+      "item": "automagy:earth_sliver"
+    },
+    {
+      "item": "automagy:redcrystal"
+    }
+  ],
+  "result": {
+    "item": "automagy:redcrystal_dense",
+    "count": 2
+  }
+}

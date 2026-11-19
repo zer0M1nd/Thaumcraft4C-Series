@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:GREEDYCHEST",
+  "vis": {
+    "aer": 7,
+    "ordo": 2,
+    "perditio": 2
+  },
+  "pattern": [
+    "W_W",
+    "WAW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "_": {
+      "tag": "minecraft:wooden_trapdoors"
+    },
+    "A": {
+      "item": "automagy:avarice_pearl"
+    }
+  },
+  "result": {
+    "item": "automagy:greedy_chest"
+  }
+}

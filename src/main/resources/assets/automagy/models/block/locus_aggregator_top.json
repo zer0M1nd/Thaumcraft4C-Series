@@ -1,0 +1,81 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "top": "automagy:block/locus_aggregator_top",
+    "side": "automagy:block/locus_aggregator_side",
+    "bottom": "minecraft:block/lapis_block",
+    "glow_top": "automagy:block/locus_aggregator_top_overlay",
+    "glow_side": "automagy:block/locus_aggregator_side_overlay",
+    "particle": "automagy:block/locus_aggregator_side"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        8,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "texture": "#bottom"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.001,
+        8,
+        -0.001
+      ],
+      "to": [
+        16.001,
+        16.001,
+        16.001
+      ],
+      "shade": false,
+      "forge_data": {
+        "block_light": 15,
+        "sky_light": 15,
+        "ambient_occlusion": false
+      },
+      "faces": {
+        "up": {
+          "texture": "#glow_top"
+        },
+        "north": {
+          "texture": "#glow_side"
+        },
+        "south": {
+          "texture": "#glow_side"
+        },
+        "east": {
+          "texture": "#glow_side"
+        },
+        "west": {
+          "texture": "#glow_side"
+        }
+      }
+    }
+  ]
+}

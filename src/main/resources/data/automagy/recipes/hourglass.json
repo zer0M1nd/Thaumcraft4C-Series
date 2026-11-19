@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " _ ",
+    "|S|",
+    " _R"
+  ],
+  "key": {
+    "_": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "|": {
+      "item": "minecraft:glass_pane"
+    },
+    "S": {
+      "tag": "minecraft:sand"
+    },
+    "R": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "item": "automagy:hourglass"
+  }
+}

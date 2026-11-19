@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:AVARICIOUS",
+  "vis": {
+    "ordo": 5,
+    "aer": 5
+  },
+  "pattern": [
+    "GDG",
+    "ASO",
+    " P "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "A": {
+      "item": "thaumcraft:air_shard"
+    },
+    "O": {
+      "item": "thaumcraft:order_shard"
+    },
+    "S": {
+      "item": "thaumcraft:salis_mundus"
+    },
+    "P": {
+      "item": "automagy:avarice_pearl"
+    }
+  },
+  "result": {
+    "item": "automagy:misers_pearl"
+  }
+}

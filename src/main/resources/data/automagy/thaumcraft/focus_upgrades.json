@@ -1,0 +1,31 @@
+[
+  {
+    "key": "automagy:gratis",
+    "name": "focus.upgrade.automagy.gratis.name",
+    "description": "focus.upgrade.automagy.gratis.text",
+    "texture": "automagy:textures/foci/gratis.png",
+    "aspects": [
+      "fames",
+      "praecantatio"
+    ]
+  },
+  {
+    "key": "automagy:storage",
+    "name": "focus.upgrade.automagy.storage.name",
+    "description": "focus.upgrade.automagy.storage.text",
+    "texture": "automagy:textures/foci/storage.png",
+    "aspects": [
+      "alienis"
+    ]
+  },
+  {
+    "key": "automagy:transposing",
+    "name": "focus.upgrade.automagy.transposing.name",
+    "description": "focus.upgrade.automagy.transposing.text",
+    "texture": "automagy:textures/foci/transposing.png",
+    "aspects": [
+      "permutatio",
+      "instrumentum"
+    ]
+  }
+]
