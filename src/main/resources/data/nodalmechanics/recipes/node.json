@@ -1,0 +1,30 @@
+{
+  "type": "nodalmechanics:node",
+  "research": "NODECATALYZATION",
+  "instability": 10,
+  "center": {
+    "ingredient": {
+      "item": "nodalmechanics:matrix"
+    },
+    "nbt": "{aspects:\"ignis,ignis,ignis,ignis,ignis,ignis,ignis,ignis\"}"
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "aspects": {
+    "ignis": 1200
+  },
+  "result": {
+    "item": "thaumcraft:node_jar",
+    "nbt": "{Aspects:[{key:\"ignis\",amount:120}]}"
+  }
+}

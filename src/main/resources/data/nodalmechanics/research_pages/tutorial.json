@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_NODALMECHANICS",
+      "pages": [
+        {
+          "id": "nodalmechanics:tut_addon_nodalmechanics/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.nodalmechanics.tut_addon_nodalmechanics.text.1",
+            "with": [
+              [
+                {
+                  "text": "节点力学是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "nodalmechanics:tut_addon_nodalmechanics/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.nodalmechanics.tut_addon_nodalmechanics.text.2",
+            "with": [
+              [
+                {
+                  "text": "一个很小的扩展，只有一条研究："
+                },
+                {
+                  "research": "NODECATALYZATION"
+                },
+                {
+                  "text": "（节点催生），位于"
+                },
+                {
+                  "text": "基本信息",
+                  "bold": true
+                },
+                {
+                  "text": "分页。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "nodalmechanics:tut_addon_nodalmechanics/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "nodalmechanics:tut_addon_nodalmechanics/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.nodalmechanics.tut_addon_nodalmechanics.text.4",
+            "with": [
+              [
+                {
+                  "text": "玩法\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "nodalmechanics:tut_addon_nodalmechanics/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.nodalmechanics.tut_addon_nodalmechanics.text.5",
+            "with": [
+              [
+                {
+                  "text": "制作一个矩阵，用八种「调谐」配方让它对应你想要的要素，再用它"
+                },
+                {
+                  "text": "催生或改造灵气节点",
+                  "bold": true
+                },
+                {
+                  "text": "，得到指定类型的节点。\n它需要"
+                },
+                {
+                  "research": "NODEJAR"
+                },
+                {
+                  "text": "和进阶节点引流术作为前置，并会带来少量扭曲。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "nodalmechanics:tut_addon_nodalmechanics/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "nodalmechanics:tut_addon_nodalmechanics/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "nodalmechanics:tut_addon_nodalmechanics/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "NODECATALYZATION"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

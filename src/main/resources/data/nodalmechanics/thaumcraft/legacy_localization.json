@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "minecraft_version": "1.7.10",
+  "sources": [
+    {
+      "path": "assets/nodalmechanics/lang/zh_cn.lang",
+      "keys": {
+        "item.nodalmechanics.matrix.attuned": "item.nodalmechanics.matrix.attuned.name",
+        "item.nodalmechanics.matrix.attuned.name": "item.nodalmechanics.matrix.attuned.name",
+        "item.nodalmechanics.matrix.unattuned": "item.nodalmechanics.matrix.unattuned.name",
+        "item.nodalmechanics.matrix.unattuned.name": "item.nodalmechanics.matrix.unattuned.name",
+        "itemGroup.NodalMechanics": "itemGroup.nodalmechanics.tab",
+        "itemGroup.nodalmechanics.tab": "itemGroup.nodalmechanics.tab",
+        "nodalmechanics.nodecatalyzation.research": "nodalmechanics.nodecatalyzation.research",
+        "tc.research_name.NODECATALYZATION": "tc.research_name.NODECATALYZATION",
+        "tc.research_page.NODECATALYZATION.0": "nodalmechanics.nodecatalyzation.research",
+        "tc.research_text.NODECATALYZATION": "tc.research_text.NODECATALYZATION",
+        "tooltip.nodalmechanics.matrix.attuned": "tooltip.nodalmechanics.matrix.attuned",
+        "tooltip.nodalmechanics.matrix.unattuned": "tooltip.nodalmechanics.matrix.unattuned"
+      },
+      "pictures": {
+        "nodalmechanics:textures/items/itemMatrix.png": "nodalmechanics:textures/item/matrix.png"
+      }
+    }
+  ]
+}

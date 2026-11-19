@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "BASICS",
+      "icon": "thaumcraft:textures/items/thaumonomiconcheat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "NODECATALYZATION",
+          "category": "BASICS",
+          "displayColumn": -5,
+          "displayRow": 4,
+          "pageCount": 6,
+          "icon_item": {
+            "item": "nodalmechanics:matrix",
+            "count": 1
+          },
+          "complexity": 3,
+          "aspects": {
+            "auram": 6,
+            "vacuos": 3
+          },
+          "parents": [
+            "NODEJAR",
+            "NODETAPPER2"
+          ],
+          "parentsHidden": [
+            "JARLABEL"
+          ],
+          "isSpecial": true,
+          "warp": 2
+        }
+      ]
+    }
+  ]
+}

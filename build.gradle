@@ -1,0 +1,68 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
+version = '0.1.6'
+group = 'nodalmechanics'
+base.archivesName = 'Nodal-Mechanics-Modern-Port'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.withSourcesJar()
+repositories {
+    flatDir { dirs 'libs' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    mavenCentral()
+}
+repositories {
+    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
+    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+}
+dependencies {
+    runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+    implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
+        ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
+        : 'local.revival:Thaumcraft-4-Modern-Port:0.4.114')
+    compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
+    runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            property 'forge.enableGameTest', 'true'
+            property 'forge.enabledGameTestNamespaces', 'thaumcraft,nodalmechanics'
+            args '--mixin.config', 'tc4revival.mixins.json'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+            mods { nodalmechanics { source sourceSets.main } }
+        }
+        server { workingDirectory file('run-server'); args '--nogui'; jvmArgs '-Xmx2G' }
+        client { workingDirectory file('run-client'); jvmArgs '-Xmx3G' }
+        gameTestServer { workingDirectory file('run-gametest') }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 17 }
+tasks.named('processResources') { inputs.property 'version', project.version; filesMatching('META-INF/mods.toml') { expand version: project.version } }
+tasks.named('jar') { finalizedBy 'reobfJar' }
+tasks.named('test') { useJUnitPlatform() }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }
+tasks.register('verifyExternalResources') {
+    dependsOn 'jar', 'reobfJar', 'sourcesJar'
+    doLast {
+        ['jar', 'sourcesJar'].each { name ->
+            new java.util.zip.ZipFile(tasks.named(name).get().archiveFile.get().asFile).withCloseable { zip ->
+                zip.entries().each { entry ->
+                    if (entry.name ==~ /.*\.(png|ogg|lang|obj)/ || entry.name.startsWith('tc4revival/') || entry.name.startsWith('thaumcraft/api/'))
+                        throw new GradleException("Unexpected bundled legacy resource or base class: ${entry.name}")
+                }
+            }
+        }
+    }
+}
+
+// Resource metadata must be UTF-8 on every build host.
+tasks.withType(ProcessResources).configureEach { filteringCharset = 'UTF-8' }
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+    }
+}

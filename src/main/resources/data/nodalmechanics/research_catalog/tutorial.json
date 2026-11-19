@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_NODALMECHANICS",
+          "category": "TUTORIAL",
+          "displayColumn": 54,
+          "displayRow": 6,
+          "parents": [
+            "TUT_NODE_JAR",
+            "NODEJAR"
+          ],
+          "icon_item": {
+            "item": "nodalmechanics:matrix",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "nodalmechanics"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "NODECATALYZATION"
+          ],
+          "pageCount": 8,
+          "parentMirrors": {
+            "NODEJAR": "TUT_ADDON_NODALMECHANICS_PREREQUISITE_1"
+          }
+        },
+        {
+          "key": "TUT_ADDON_NODALMECHANICS_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 53,
+          "displayRow": 5,
+          "mirrorOf": "NODEJAR",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "nodalmechanics"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

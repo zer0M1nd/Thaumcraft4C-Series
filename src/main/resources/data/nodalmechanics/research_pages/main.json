@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "NODECATALYZATION",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.NODECATALYZATION.0"
+          },
+          "id": "nodalmechanics:NODECATALYZATION/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "nodalmechanics:matrix"
+            ],
+            "class": "modern"
+          },
+          "id": "nodalmechanics:NODECATALYZATION/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "nodalmechanics:attune_mixed"
+            ],
+            "class": "modern"
+          },
+          "id": "nodalmechanics:NODECATALYZATION/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "nodalmechanics:attune_single"
+            ],
+            "class": "modern"
+          },
+          "id": "nodalmechanics:NODECATALYZATION/page/4",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "nodalmechanics:node_mixed"
+            ],
+            "class": "modern"
+          },
+          "id": "nodalmechanics:NODECATALYZATION/page/5",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "nodalmechanics:node_single"
+            ],
+            "class": "modern"
+          },
+          "id": "nodalmechanics:NODECATALYZATION/page/6",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}
