@@ -1,0 +1,257 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:creature_guardian_panther",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "catInfusion",
+        "input": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:creature_jar",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false,
+                "nbt": "{\"Captured\": {\"id\": \"minecraft:cat\", \"Health\": 10.0}}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:creature_jar",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false,
+                "nbt": "{\"Captured\": {\"id\": \"minecraft:ocelot\", \"Health\": 10.0}}"
+              }
+            }
+          ]
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:guardian_panther\", \"Health\": 10.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false,
+                "nbt": "{\"Potion\": \"minecraft:strong_strength\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:saddle",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "bestia": 8,
+          "telum": 8
+        },
+        "instability": 2
+      }
+    },
+    {
+      "key": "thaumichorizons:creature_familiar",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "catInfusion",
+        "input": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:creature_jar",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false,
+                "nbt": "{\"Captured\": {\"id\": \"minecraft:cat\", \"Health\": 10.0}}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:creature_jar",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false,
+                "nbt": "{\"Captured\": {\"id\": \"minecraft:ocelot\", \"Health\": 10.0}}"
+              }
+            }
+          ]
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:familiar\", \"Health\": 10.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:black_wool",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_nugget",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "vinculum": 8,
+          "auram": 4,
+          "potentia": 16
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "thaumichorizons:creature_gravekeeper",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "catInfusion",
+        "input": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:creature_jar",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false,
+                "nbt": "{\"Captured\": {\"id\": \"minecraft:cat\", \"Health\": 10.0}}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:creature_jar",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false,
+                "nbt": "{\"Captured\": {\"id\": \"minecraft:ocelot\", \"Health\": 10.0}}"
+              }
+            }
+          ]
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:gravekeeper\", \"Health\": 10.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:bone",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:amber",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:silverwood_log",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ordo": 16,
+          "mortuus": 8,
+          "lux": 24
+        },
+        "instability": 6
+      }
+    }
+  ]
+}

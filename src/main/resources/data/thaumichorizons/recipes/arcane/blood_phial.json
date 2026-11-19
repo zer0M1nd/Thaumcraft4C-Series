@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "blastPhial",
+  "ingredients": [
+    {
+      "item": "thaumcraft:empty_phial"
+    },
+    {
+      "item": "thaumcraft:empty_phial"
+    },
+    {
+      "item": "thaumcraft:empty_phial"
+    },
+    {
+      "item": "thaumcraft:empty_phial"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "thaumichorizons:human_blood"
+    }
+  ],
+  "vis": {
+    "ignis": 1,
+    "aqua": 1,
+    "perditio": 1
+  },
+  "result": {
+    "item": "thaumichorizons:blood_phial",
+    "count": 4
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "dogInfusion",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "dogInfusion1"
+          },
+          "id": "thaumichorizons:dogInfusion/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_seawolf"
+            ]
+          },
+          "id": "thaumichorizons:dogInfusion/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "dogInfusion2"
+          },
+          "id": "thaumichorizons:dogInfusion/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_lunar_wolf"
+            ]
+          },
+          "id": "thaumichorizons:dogInfusion/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "dogInfusion3"
+          },
+          "id": "thaumichorizons:dogInfusion/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_nether_hound"
+            ]
+          },
+          "id": "thaumichorizons:dogInfusion/page/6",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

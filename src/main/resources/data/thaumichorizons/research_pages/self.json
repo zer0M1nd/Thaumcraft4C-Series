@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "cloneVillager",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "cloneVillager1"
+          },
+          "id": "thaumichorizons:cloneVillager/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:corpse_effigy"
+            ]
+          },
+          "id": "thaumichorizons:cloneVillager/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "cloneVillager2"
+          },
+          "id": "thaumichorizons:cloneVillager/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

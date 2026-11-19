@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:alchemite",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "alchemite",
+        "aspects": {
+          "potentia": 4,
+          "vitreus": 4,
+          "permutatio": 4
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:tnt",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:alchemite",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    }
+  ]
+}

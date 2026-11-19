@@ -1,0 +1,30 @@
+{
+  "research": "infusionVat",
+  "instability": 4,
+  "target": {
+    "kind": "living"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    {
+      "item": "thaumichorizons:human_blood"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "thaumichorizons:human_blood"
+    }
+  ],
+  "aspects": {
+    "sano": 8,
+    "victus": 16,
+    "cognitio": 4
+  },
+  "output": {
+    "kind": "augmentation",
+    "id": "awake_blood"
+  }
+}

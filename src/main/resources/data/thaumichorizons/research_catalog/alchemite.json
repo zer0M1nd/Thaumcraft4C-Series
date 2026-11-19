@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "alchemite",
+          "category": "ThaumicHorizons",
+          "displayColumn": 3,
+          "displayRow": 6,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "ignis",
+              "amount": 2
+            },
+            {
+              "aspect": "perditio",
+              "amount": 2
+            },
+            {
+              "aspect": "potentia",
+              "amount": 4
+            },
+            {
+              "aspect": "vitreus",
+              "amount": 4
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 2
+            }
+          ],
+          "parentsHidden": [
+            "ESSENTIACRYSTAL"
+          ],
+          "icon_item": {
+            "item": "thaumichorizons:alchemite"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

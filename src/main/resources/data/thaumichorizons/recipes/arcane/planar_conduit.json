@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "planarTheory",
+  "pattern": [
+    "VEV",
+    "EPE",
+    "VEV"
+  ],
+  "key": {
+    "V": {
+      "item": "thaumcraft:void_ingot"
+    },
+    "E": {
+      "item": "thaumcraft:wisp_essence"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "vis": {
+    "aer": 50,
+    "ignis": 50,
+    "aqua": 50,
+    "terra": 50,
+    "ordo": 50,
+    "perditio": 50
+  },
+  "result": {
+    "item": "thaumichorizons:planar_conduit"
+  }
+}

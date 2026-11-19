@@ -1,0 +1,1129 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:self_quicksilver_limbs",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "selfInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:corpse_effigy",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:self_infusion_quicksilver_limbs",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false,
+                "nbt": "{\"Potion\": \"minecraft:strong_swiftness\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false,
+                "nbt": "{\"Potion\": \"minecraft:strong_swiftness\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "motus": 64,
+          "machina": 32,
+          "volatus": 32
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "thaumichorizons:self_awake_blood",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "selfInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:corpse_effigy",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:self_infusion_awake_blood",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:golden_apple",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glistering_melon_slice",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glistering_melon_slice",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glistering_melon_slice",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glistering_melon_slice",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "sano": 32,
+          "victus": 64,
+          "cognitio": 32
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "thaumichorizons:self_diamond_skin",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "selfInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:corpse_effigy",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:self_infusion_diamond_skin",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather_helmet",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather_chestplate",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather_leggings",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather_boots",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "tutamen": 32,
+          "vitreus": 32,
+          "humanus": 16
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "thaumichorizons:self_silverwood_heart",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "silverHeart",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:corpse_effigy",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:self_infusion_silverwood_heart",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:shimmerleaf",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:silverwood_log",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:cinderpearl",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:silverwood_log",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ordo": 32,
+          "sano": 32,
+          "permutatio": 16
+        },
+        "instability": 7
+      }
+    },
+    {
+      "key": "thaumichorizons:self_photosynthetic_skin",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "synthSkin",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:corpse_effigy",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:self_infusion_photosynthetic_skin",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:oak_leaves",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:spruce_leaves",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:birch_leaves",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:jungle_leaves",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:acacia_leaves",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:dark_oak_leaves",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:oak_sapling",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:spruce_sapling",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:birch_sapling",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:jungle_sapling",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:acacia_sapling",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:dark_oak_sapling",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:poppy",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:blue_orchid",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:allium",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:azure_bluet",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:red_tulip",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:orange_tulip",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:white_tulip",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:pink_tulip",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:oxeye_daisy",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:vine",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "herba": 32,
+          "fames": 32,
+          "lux": 32,
+          "humanus": 16
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "thaumichorizons:self_amphibious",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "amphibious",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:corpse_effigy",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:self_infusion_amphibious",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:cod",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:salmon",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:tropical_fish",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:pufferfish",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false,
+                "nbt": "{\"Potion\": \"minecraft:long_water_breathing\"}"
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:cod",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:salmon",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:tropical_fish",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:pufferfish",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false,
+                "nbt": "{\"Potion\": \"minecraft:long_water_breathing\"}"
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "aqua": 64,
+          "aer": 64,
+          "victus": 32,
+          "permutatio": 16
+        },
+        "instability": 7
+      }
+    },
+    {
+      "key": "thaumichorizons:self_spider_climb",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "spiderClimb",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:corpse_effigy",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:self_infusion_spider_climb",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:cobweb",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:enchanted_fabric",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:cobweb",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ladder",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:cobweb",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:enchanted_fabric",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:cobweb",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ladder",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "bestia": 32,
+          "motus": 48,
+          "limus": 32
+        },
+        "instability": 8
+      }
+    },
+    {
+      "key": "thaumichorizons:self_chameleon_skin",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "chameleonSkin",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:corpse_effigy",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:self_infusion_chameleon_skin",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:spider_eye",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:red_dye",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:blue_dye",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:yellow_dye",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:black_dye",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:white_dye",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "sensus": 48,
+          "permutatio": 32,
+          "vacuos": 32
+        },
+        "instability": 7
+      }
+    },
+    {
+      "key": "thaumichorizons:self_warped_tumor",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "warpedTumor",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:corpse_effigy",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:self_infusion_warped_tumor",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:flesh_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:bath_salts",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:nether_star",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:nether_star",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:sanity_soap",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "vitium": 64,
+          "alienis": 48,
+          "vinculum": 32,
+          "corpus": 24,
+          "permutatio": 16
+        },
+        "instability": 12
+      }
+    },
+    {
+      "key": "thaumichorizons:self_morphic_fingers",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "morphicFingers",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:corpse_effigy",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:self_infusion_morphic_fingers",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_workbench",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "instrumentum": 32,
+          "fabrico": 32,
+          "humanus": 32,
+          "permutatio": 16
+        },
+        "instability": 6
+      }
+    }
+  ]
+}

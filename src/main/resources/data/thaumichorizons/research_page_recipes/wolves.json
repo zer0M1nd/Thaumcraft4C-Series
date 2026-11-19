@@ -1,0 +1,288 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:creature_seawolf",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "dogInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"minecraft:wolf\", \"Health\": 8.0}}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:seawolf\", \"Health\": 8.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:cod",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:salmon",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:tropical_fish",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:pufferfish",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:water_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:cod",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:salmon",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:tropical_fish",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:pufferfish",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false,
+                "nbt": "{\"Potion\": \"minecraft:long_water_breathing\"}"
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "aqua": 8,
+          "aer": 8,
+          "permutatio": 4,
+          "motus": 8
+        },
+        "instability": 2
+      }
+    },
+    {
+      "key": "thaumichorizons:creature_lunar_wolf",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "dogInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"minecraft:wolf\", \"Health\": 8.0}}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:lunar_wolf\", \"Health\": 8.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:mirrored_glass",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "lux": 8,
+          "vacuos": 8,
+          "praecantatio": 16,
+          "permutatio": 4
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "thaumichorizons:creature_nether_hound",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "dogInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"minecraft:wolf\", \"Health\": 8.0}}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:nether_hound\", \"Health\": 8.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:lava_bucket",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:blaze_rod",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:fire_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:blaze_rod",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 24,
+          "telum": 8,
+          "bestia": 8
+        },
+        "instability": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "lensEarth",
+  "instability": 1,
+  "aspects": {
+    "sensus": 20,
+    "vacuos": 12,
+    "lux": 12
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:lens_earth"
+  }
+}

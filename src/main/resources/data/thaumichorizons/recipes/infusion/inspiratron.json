@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "soulKnowledge",
+  "instability": 5,
+  "aspects": {
+    "sano": 8,
+    "cognitio": 16,
+    "ordo": 8,
+    "spiritus": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:brain_jar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:scribing_tools"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:inspiratron"
+  }
+}

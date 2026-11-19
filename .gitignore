@@ -1,0 +1,33 @@
+# Gradle outputs, local dependencies and development instances
+.gradle/
+build/
+build-*/
+/.tooling/
+/.deps/
+/local-maven/
+*.jar
+!/gradle/wrapper/gradle-wrapper.jar
+/run
+/run-*
+/logs/
+*.log
+hs_err_pid*
+replay_pid*
+/src/generated/resources/.cache/
+
+# Developer-machine files and workspace junctions
+/docs
+/references
+/evidence
+/.github/modernize/
+local.properties
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

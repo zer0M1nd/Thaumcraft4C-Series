@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "etherealShard",
+  "instability": 7,
+  "aspects": {
+    "auram": 8,
+    "potentia": 32,
+    "vacuos": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:balanced_shard"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:synthetic_node"
+  }
+}

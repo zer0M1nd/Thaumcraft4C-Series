@@ -1,0 +1,37 @@
+{
+  "research": "nightmareInfusion",
+  "instability": 8,
+  "target": {
+    "kind": "entity",
+    "id": "thaumichorizons:endersteed"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "thaumcraft:fire_shard"
+    },
+    {
+      "item": "thaumcraft:levitator"
+    },
+    {
+      "item": "thaumcraft:fire_shard"
+    },
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "aspects": {
+    "ignis": 32,
+    "iter": 16,
+    "vacuos": 16
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:nightmare"
+  }
+}

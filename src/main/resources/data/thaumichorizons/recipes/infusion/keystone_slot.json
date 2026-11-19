@@ -1,0 +1,61 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "planarKeystone",
+  "instability": 8,
+  "aspects": {
+    "vacuos": 32,
+    "iter": 24,
+    "machina": 24,
+    "alienis": 24
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumichorizons:planar_conduit"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:keystone_slot"
+  }
+}

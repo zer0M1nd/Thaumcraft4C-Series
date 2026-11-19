@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "greatwoodBoat",
+          "category": "ThaumicHorizons",
+          "displayColumn": 5,
+          "displayRow": 8,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "aqua",
+              "amount": 1
+            },
+            {
+              "aspect": "iter",
+              "amount": 1
+            },
+            {
+              "aspect": "fabrico",
+              "amount": 1
+            }
+          ],
+          "parents": [],
+          "isSecondary": true,
+          "icon_item": {
+            "item": "thaumichorizons:boat_greatwood"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "thaumiumBoat",
+          "category": "ThaumicHorizons",
+          "displayColumn": 7,
+          "displayRow": 8,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "ignis",
+              "amount": 2
+            },
+            {
+              "aspect": "metallum",
+              "amount": 2
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "greatwoodBoat",
+            "THAUMIUM"
+          ],
+          "isSecondary": false,
+          "icon_item": {
+            "item": "thaumichorizons:boat_thaumium"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

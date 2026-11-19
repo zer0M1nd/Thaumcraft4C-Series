@@ -1,0 +1,61 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "recombinator",
+  "instability": 9,
+  "aspects": {
+    "permutatio": 32,
+    "auram": 20,
+    "fabrico": 32,
+    "potentia": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primordial_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumichorizons:planar_conduit"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:node_converter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumichorizons:planar_conduit"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:node_stabilizer"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:recombinator"
+  }
+}

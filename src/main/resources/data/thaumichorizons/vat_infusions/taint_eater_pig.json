@@ -1,0 +1,32 @@
+{
+  "research": "pigInfusion",
+  "instability": 6,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:pig"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:ethereal_bloom"
+    },
+    {
+      "item": "thaumcraft:silverwood_log"
+    },
+    {
+      "item": "thaumcraft:brain_jar"
+    },
+    {
+      "item": "thaumcraft:silverwood_log"
+    }
+  ],
+  "aspects": {
+    "vitium": 6,
+    "sano": 8,
+    "herba": 8,
+    "fames": 16
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:taint_eater_pig"
+  }
+}

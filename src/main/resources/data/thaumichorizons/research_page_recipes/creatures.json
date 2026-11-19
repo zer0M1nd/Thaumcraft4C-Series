@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:creature_scholar_chicken",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "chickenInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"minecraft:chicken\", \"Health\": 4.0}}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:scholar_chicken\", \"Health\": 4.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "forge:dyes/black"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:black_dye",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:shears",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "tenebrae": 4,
+          "limus": 4,
+          "permutatio": 2
+        },
+        "instability": 2
+      }
+    },
+    {
+      "key": "thaumichorizons:creature_gold_chicken",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "chickenInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"minecraft:chicken\", \"Health\": 4.0}}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:gold_chicken\", \"Health\": 4.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:golden_apple",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alchemical_construct",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:golden_apple",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:crucible",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "lucrum": 8,
+          "metallum": 8,
+          "fabrico": 16
+        },
+        "instability": 6
+      }
+    }
+  ]
+}

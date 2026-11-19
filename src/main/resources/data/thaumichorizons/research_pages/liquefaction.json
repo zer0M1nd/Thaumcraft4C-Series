@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "focusLiquefaction",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "focusLiquefaction1"
+          },
+          "id": "thaumichorizons:focusLiquefaction/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:focus_liquefaction"
+            ]
+          },
+          "id": "thaumichorizons:focusLiquefaction/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

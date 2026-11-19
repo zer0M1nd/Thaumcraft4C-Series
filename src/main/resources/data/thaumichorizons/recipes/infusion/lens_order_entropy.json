@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "lensOrderEntropy",
+  "instability": 1,
+  "aspects": {
+    "sensus": 24,
+    "cognitio": 12,
+    "praecantatio": 12
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:scribing_tools"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:book"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:lens_order_entropy"
+  }
+}

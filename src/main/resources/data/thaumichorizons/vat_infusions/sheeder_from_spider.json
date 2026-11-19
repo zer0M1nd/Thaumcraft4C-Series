@@ -1,0 +1,31 @@
+{
+  "research": "sheederInfusion",
+  "instability": 5,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:spider"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:zombie_brain"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "aspects": {
+    "pannus": 32,
+    "permutatio": 8,
+    "cognitio": 16
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:sheeder"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "injector",
+  "instability": 2,
+  "aspects": {
+    "telum": 8,
+    "machina": 8,
+    "volatus": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:bone_bow"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_planks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:injector"
+  }
+}

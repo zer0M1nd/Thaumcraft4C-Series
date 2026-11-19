@@ -1,0 +1,570 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:alcheponics_wheat",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "alcheponics",
+        "aspects": {
+          "lux": 2,
+          "terra": 2,
+          "aqua": 2
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:wheat_seeds",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:wheat",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:alcheponics_carrot",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "alcheponics",
+        "aspects": {
+          "lux": 2,
+          "terra": 2,
+          "aqua": 2
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:carrot",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:carrot",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:alcheponics_potato",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "alcheponics",
+        "aspects": {
+          "lux": 2,
+          "terra": 2,
+          "aqua": 2
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:potato",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:potato",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:alcheponics_melon",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "alcheponics",
+        "aspects": {
+          "lux": 3,
+          "terra": 3,
+          "aqua": 3
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:melon_seeds",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:melon",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:alcheponics_pumpkin",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "alcheponics",
+        "aspects": {
+          "lux": 3,
+          "terra": 3,
+          "aqua": 3
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:pumpkin_seeds",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:pumpkin",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:incubated_egg",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "alchIncubation",
+        "aspects": {
+          "ignis": 2,
+          "victus": 2
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:egg",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:incubated_egg",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:meat_growth_porkchop",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "meatGrowth",
+        "aspects": {
+          "victus": 3
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:porkchop",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:porkchop",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:meat_growth_beef",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "meatGrowth",
+        "aspects": {
+          "victus": 3
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:beef",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:beef",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:meat_growth_chicken",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "meatGrowth",
+        "aspects": {
+          "victus": 3
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:chicken",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:chicken",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:leather_beef",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "fleshLeather",
+        "aspects": {
+          "fabrico": 1,
+          "pannus": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:beef",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:leather",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:leather_porkchop",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "fleshLeather",
+        "aspects": {
+          "fabrico": 1,
+          "pannus": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:porkchop",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:leather",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:leather_rotten_flesh",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "fleshLeather",
+        "aspects": {
+          "fabrico": 1,
+          "pannus": 1,
+          "ordo": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:rotten_flesh",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:leather",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:empty_syringe",
+      "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "essentiaInjection",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:empty_syringe",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "aspects": {
+          "aqua": 1,
+          "ordo": 1
+        },
+        "width": 1,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:empty_phial",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_nugget",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:blood_infuser",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "essentiaInjection",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:blood_infuser",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "aspects": {
+          "humanus": 8,
+          "permutatio": 8,
+          "victus": 16,
+          "praecantatio": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:crucible",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:comparator",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alchemical_construct",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_filter",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alchemical_construct",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "thaumichorizons:blood_phial",
+      "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+      "data": {
+        "kind": "arcane_shapeless",
+        "research": "blastPhial",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:blood_phial",
+            "count": 4,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "aspects": {
+          "ignis": 1,
+          "aqua": 1,
+          "perditio": 1
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:empty_phial",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:empty_phial",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:empty_phial",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:empty_phial",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gunpowder",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:human_blood",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ghast",
+    "minecraft:enderman",
+    "minecraft:witch",
+    "minecraft:blaze",
+    "minecraft:magma_cube",
+    {
+      "id": "thaumcraft:pech",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:wisp",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:golem",
+      "required": false
+    }
+  ]
+}

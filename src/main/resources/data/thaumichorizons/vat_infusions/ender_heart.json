@@ -1,0 +1,27 @@
+{
+  "research": "infusionVat",
+  "instability": 6,
+  "target": {
+    "kind": "living"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "aspects": {
+    "alienis": 16,
+    "iter": 16,
+    "corpus": 16
+  },
+  "output": {
+    "kind": "augmentation",
+    "id": "ender_heart"
+  }
+}

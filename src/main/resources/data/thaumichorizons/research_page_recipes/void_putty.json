@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:void_putty",
+      "class": "net.minecraft.item.crafting.ShapelessRecipes",
+      "data": {
+        "kind": "crafting_shapeless",
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:elemental_sword",
+                "count": 1,
+                "metadata": 32767,
+                "damageable": true
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:void_putty",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:elemental_sword",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    }
+  ]
+}

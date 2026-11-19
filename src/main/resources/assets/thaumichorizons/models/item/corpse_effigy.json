@@ -1,0 +1,13 @@
+{
+  "parent": "builtin/entity",
+  "gui_light": "front",
+  "textures": {"particle": "thaumcraft:item/brain"},
+  "display": {
+    "gui": {"rotation": [10, -25, 0]},
+    "ground": {"translation": [0, 2, 0], "scale": [0.5, 0.5, 0.5]},
+    "thirdperson_righthand": {"rotation": [0, 0, 0], "translation": [0, 2, 1], "scale": [0.65, 0.65, 0.65]},
+    "thirdperson_lefthand": {"rotation": [0, 0, 0], "translation": [0, 2, 1], "scale": [0.65, 0.65, 0.65]},
+    "firstperson_righthand": {"rotation": [0, -20, 0], "translation": [0, 1, 0]},
+    "firstperson_lefthand": {"rotation": [0, 20, 0], "translation": [0, 1, 0]}
+  }
+}

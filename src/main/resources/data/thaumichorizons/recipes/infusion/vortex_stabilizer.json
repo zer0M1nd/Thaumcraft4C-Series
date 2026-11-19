@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "vortexStabilizer",
+  "instability": 6,
+  "aspects": {
+    "auram": 8,
+    "vinculum": 32,
+    "fames": 32,
+    "potentia": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:node_stabilizer"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumichorizons:planar_conduit"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:vortex_stabilizer"
+  }
+}

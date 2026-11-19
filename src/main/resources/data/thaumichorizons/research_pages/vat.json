@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "healingVat",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "healingVat1"
+          },
+          "id": "thaumichorizons:healingVat/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumichorizons.vat.structure"
+          },
+          "id": "thaumichorizons:healingVat/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "thaumichorizons:vat_structure",
+          "data": {},
+          "id": "thaumichorizons:healingVat/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "healingVat2"
+          },
+          "id": "thaumichorizons:healingVat/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "incarnationVat",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "incarnationVat1"
+          },
+          "id": "thaumichorizons:incarnationVat/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumichorizons:nutrients"
+            ]
+          },
+          "id": "thaumichorizons:incarnationVat/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "incarnationVat2"
+          },
+          "id": "thaumichorizons:incarnationVat/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "research": "sheepInfusion",
+  "instability": 2,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:sheep"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "minecraft:comparator"
+    }
+  ],
+  "aspects": {
+    "instrumentum": 8,
+    "pannus": 4
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:self_shearing_sheep"
+  }
+}

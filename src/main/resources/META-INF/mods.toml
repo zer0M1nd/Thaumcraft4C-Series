@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/thaumichorizons/index.html"
+modId="thaumichorizons"
+version="${version}"
+displayName="Thaumic Horizons"
+authors="zer0M1nd"
+credits="Original Thaumic Horizons by Kentington (TheKentington)."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Infuse living creatures, experiment with souls and craft lenses that reveal new ways to see the world.
+
+-------- Original release --------
+Pushing the boundaries of magic
+
+Original credits: Thanks to Azanor for Thaumcraft. The GTNH team maintained later versions of the original mod.'''
+
+[[dependencies.thaumichorizons]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.thaumichorizons]]
+modId="curios"
+mandatory=true
+versionRange="[5.14.1,)"
+ordering="AFTER"
+side="BOTH"

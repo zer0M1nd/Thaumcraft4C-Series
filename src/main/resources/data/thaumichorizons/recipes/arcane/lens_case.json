@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "lensCase",
+  "pattern": [
+    "LGL",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "G": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "thaumcraft:mundane_belt"
+    }
+  },
+  "vis": {
+    "terra": 10,
+    "ordo": 10,
+    "perditio": 10
+  },
+  "result": {
+    "item": "thaumichorizons:lens_case"
+  }
+}

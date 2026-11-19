@@ -1,0 +1,261 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "alcheponics",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "alcheponics1"
+          },
+          "id": "thaumichorizons:alcheponics/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumichorizons:alcheponics_wheat"
+            ]
+          },
+          "id": "thaumichorizons:alcheponics/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "alcheponics2"
+          },
+          "id": "thaumichorizons:alcheponics/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumichorizons:alcheponics_carrot"
+            ]
+          },
+          "id": "thaumichorizons:alcheponics/page/4",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumichorizons:alcheponics_potato"
+            ]
+          },
+          "id": "thaumichorizons:alcheponics/page/5",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumichorizons:alcheponics_melon"
+            ]
+          },
+          "id": "thaumichorizons:alcheponics/page/6",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumichorizons:alcheponics_pumpkin"
+            ]
+          },
+          "id": "thaumichorizons:alcheponics/page/7",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "alchIncubation",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "alchIncubation1"
+          },
+          "id": "thaumichorizons:alchIncubation/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumichorizons:incubated_egg"
+            ]
+          },
+          "id": "thaumichorizons:alchIncubation/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "meatGrowth",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "meatGrowth1"
+          },
+          "id": "thaumichorizons:meatGrowth/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumichorizons:meat_growth_porkchop",
+              "thaumichorizons:meat_growth_beef",
+              "thaumichorizons:meat_growth_chicken"
+            ]
+          },
+          "id": "thaumichorizons:meatGrowth/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "fleshLeather",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fleshLeather1"
+          },
+          "id": "thaumichorizons:fleshLeather/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumichorizons:leather_beef",
+              "thaumichorizons:leather_porkchop",
+              "thaumichorizons:leather_rotten_flesh"
+            ]
+          },
+          "id": "thaumichorizons:fleshLeather/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "essentiaInjection",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "essentiaInjection1"
+          },
+          "id": "thaumichorizons:essentiaInjection/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "thaumichorizons:empty_syringe"
+            ]
+          },
+          "id": "thaumichorizons:essentiaInjection/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "essentiaInjection2"
+          },
+          "id": "thaumichorizons:essentiaInjection/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:blood_infuser"
+            ]
+          },
+          "id": "thaumichorizons:essentiaInjection/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "essentiaInjection3"
+          },
+          "id": "thaumichorizons:essentiaInjection/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "essentiaInjection4"
+          },
+          "id": "thaumichorizons:essentiaInjection/page/6",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "blastPhial",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "blastPhial1"
+          },
+          "id": "thaumichorizons:blastPhial/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "thaumichorizons:blood_phial"
+            ]
+          },
+          "id": "thaumichorizons:blastPhial/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

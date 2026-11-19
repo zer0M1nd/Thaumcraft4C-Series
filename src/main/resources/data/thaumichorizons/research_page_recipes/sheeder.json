@@ -1,0 +1,575 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:sheeder_from_sheep",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "sheederInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"minecraft:sheep\", \"Health\": 8.0}}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:sheeder\", \"Health\": 8.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:cobweb",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:spider_eye",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:cobweb",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:spider_eye",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "pannus": 32,
+          "permutatio": 8,
+          "venenum": 8
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "thaumichorizons:sheeder_from_spider",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "sheederInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"minecraft:spider\", \"Health\": 8.0}}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:sheeder\", \"Health\": 8.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:white_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:orange_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:magenta_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:light_blue_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:yellow_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:lime_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:pink_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:gray_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:light_gray_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:cyan_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:purple_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:blue_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:brown_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:green_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:red_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:black_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:white_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:orange_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:magenta_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:light_blue_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:yellow_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:lime_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:pink_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:gray_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:light_gray_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:cyan_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:purple_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:blue_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:brown_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:green_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:red_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:black_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:white_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:orange_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:magenta_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:light_blue_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:yellow_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:lime_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:pink_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:gray_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:light_gray_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:cyan_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:purple_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:blue_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:brown_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:green_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:red_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:black_wool",
+                    "count": 1,
+                    "metadata": 0,
+                    "damageable": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "aspects": {
+          "pannus": 32,
+          "permutatio": 8,
+          "cognitio": 16
+        },
+        "instability": 5
+      }
+    }
+  ]
+}

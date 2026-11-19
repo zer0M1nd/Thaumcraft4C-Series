@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "horseInfusion",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "horseInfusion2"
+          },
+          "id": "thaumichorizons:horseInfusion/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_endersteed"
+            ]
+          },
+          "id": "thaumichorizons:horseInfusion/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "horseInfusion3"
+          },
+          "id": "thaumichorizons:horseInfusion/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_undead_horse"
+            ]
+          },
+          "id": "thaumichorizons:horseInfusion/page/4",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_skeletal_horse"
+            ]
+          },
+          "id": "thaumichorizons:horseInfusion/page/5",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

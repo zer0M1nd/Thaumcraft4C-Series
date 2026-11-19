@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "lensFire",
+  "instability": 1,
+  "aspects": {
+    "lux": 20,
+    "potentia": 12,
+    "sensus": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:lens_fire"
+  }
+}

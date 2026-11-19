@@ -1,0 +1,303 @@
+[
+  {
+    "id": "grass",
+    "health": 10,
+    "armor": 0,
+    "speed": 0.38,
+    "fire_resistant": false,
+    "upgrades": 2,
+    "carry": 1,
+    "regeneration_delay": 75,
+    "strength": 0,
+    "vis_cost": 750,
+    "sinks": false,
+    "blocks": [
+      "minecraft:grass_block",
+      "minecraft:mycelium",
+      "minecraft:podzol"
+    ],
+    "tags": []
+  },
+  {
+    "id": "dirt",
+    "health": 10,
+    "armor": 0,
+    "speed": 0.38,
+    "fire_resistant": false,
+    "upgrades": 1,
+    "carry": 1,
+    "regeneration_delay": 75,
+    "strength": 0,
+    "vis_cost": 500,
+    "sinks": false,
+    "blocks": [
+      "minecraft:dirt",
+      "minecraft:coarse_dirt",
+      "minecraft:rooted_dirt",
+      "minecraft:mud"
+    ],
+    "tags": []
+  },
+  {
+    "id": "wood",
+    "health": 20,
+    "armor": 6,
+    "speed": 0.35,
+    "fire_resistant": false,
+    "upgrades": 2,
+    "carry": 4,
+    "regeneration_delay": 75,
+    "strength": 1,
+    "vis_cost": 750,
+    "sinks": false,
+    "blocks": [
+      "minecraft:pumpkin",
+      "minecraft:carved_pumpkin",
+      "minecraft:jack_o_lantern",
+      "minecraft:melon",
+      "minecraft:bookshelf",
+      "minecraft:crafting_table",
+      "minecraft:note_block",
+      "minecraft:brown_mushroom_block",
+      "minecraft:red_mushroom_block",
+      "minecraft:mushroom_stem"
+    ],
+    "tags": [
+      "minecraft:logs",
+      "minecraft:planks"
+    ]
+  },
+  {
+    "id": "plant",
+    "health": 10,
+    "armor": 0,
+    "speed": 0.4,
+    "fire_resistant": false,
+    "upgrades": 2,
+    "carry": 1,
+    "regeneration_delay": 75,
+    "strength": 0,
+    "vis_cost": 750,
+    "sinks": false,
+    "blocks": [],
+    "tags": [
+      "minecraft:leaves"
+    ]
+  },
+  {
+    "id": "metal",
+    "health": 35,
+    "armor": 15,
+    "speed": 0.31,
+    "fire_resistant": true,
+    "upgrades": 2,
+    "carry": 32,
+    "regeneration_delay": 125,
+    "strength": 4,
+    "vis_cost": 1250,
+    "sinks": true,
+    "blocks": [],
+    "tags": [
+      "forge:storage_blocks/iron",
+      "forge:storage_blocks/gold",
+      "forge:storage_blocks/copper",
+      "forge:storage_blocks/netherite",
+      "forge:storage_blocks/thaumium",
+      "forge:storage_blocks/void",
+      "minecraft:anvil"
+    ]
+  },
+  {
+    "id": "cloth",
+    "health": 10,
+    "armor": 0,
+    "speed": 0.4,
+    "fire_resistant": false,
+    "upgrades": 2,
+    "carry": 1,
+    "regeneration_delay": 75,
+    "strength": 0,
+    "vis_cost": 750,
+    "sinks": false,
+    "blocks": [
+      "minecraft:sponge",
+      "minecraft:wet_sponge"
+    ],
+    "tags": [
+      "minecraft:wool",
+      "minecraft:wool_carpets"
+    ]
+  },
+  {
+    "id": "sand",
+    "health": 10,
+    "armor": 0,
+    "speed": 0.4,
+    "fire_resistant": false,
+    "upgrades": 1,
+    "carry": 1,
+    "regeneration_delay": 75,
+    "strength": 0,
+    "vis_cost": 500,
+    "sinks": false,
+    "blocks": [
+      "minecraft:sand",
+      "minecraft:red_sand",
+      "minecraft:gravel",
+      "minecraft:suspicious_sand",
+      "minecraft:suspicious_gravel"
+    ],
+    "tags": []
+  },
+  {
+    "id": "redstone",
+    "health": 20,
+    "armor": 9,
+    "speed": 0.35,
+    "fire_resistant": true,
+    "upgrades": 2,
+    "carry": 8,
+    "regeneration_delay": 45,
+    "strength": 2,
+    "vis_cost": 1000,
+    "sinks": true,
+    "blocks": [
+      "minecraft:redstone_lamp",
+      "minecraft:redstone_block"
+    ],
+    "tags": []
+  },
+  {
+    "id": "tnt",
+    "health": 10,
+    "armor": 0,
+    "speed": 0.38,
+    "fire_resistant": false,
+    "upgrades": 1,
+    "carry": 1,
+    "regeneration_delay": 75,
+    "strength": 0,
+    "vis_cost": 750,
+    "sinks": false,
+    "blocks": [
+      "minecraft:tnt"
+    ],
+    "tags": []
+  },
+  {
+    "id": "ice",
+    "health": 20,
+    "armor": 6,
+    "speed": 0.35,
+    "fire_resistant": false,
+    "upgrades": 2,
+    "carry": 4,
+    "regeneration_delay": 75,
+    "strength": 1,
+    "vis_cost": 750,
+    "sinks": false,
+    "blocks": [
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice",
+      "minecraft:snow_block"
+    ],
+    "tags": []
+  },
+  {
+    "id": "cactus",
+    "health": 20,
+    "armor": 6,
+    "speed": 0.35,
+    "fire_resistant": false,
+    "upgrades": 2,
+    "carry": 4,
+    "regeneration_delay": 75,
+    "strength": 1,
+    "vis_cost": 1000,
+    "sinks": false,
+    "blocks": [
+      "minecraft:cactus"
+    ],
+    "tags": []
+  },
+  {
+    "id": "clay",
+    "health": 25,
+    "armor": 9,
+    "speed": 0.33,
+    "fire_resistant": true,
+    "upgrades": 1,
+    "carry": 8,
+    "regeneration_delay": 100,
+    "strength": 2,
+    "vis_cost": 750,
+    "sinks": false,
+    "blocks": [],
+    "tags": []
+  },
+  {
+    "id": "cake",
+    "health": 20,
+    "armor": 6,
+    "speed": 0.35,
+    "fire_resistant": false,
+    "upgrades": 2,
+    "carry": 4,
+    "regeneration_delay": 25,
+    "strength": 1,
+    "vis_cost": 750,
+    "sinks": false,
+    "blocks": [
+      "minecraft:cake"
+    ],
+    "tags": []
+  },
+  {
+    "id": "web",
+    "health": 15,
+    "armor": 6,
+    "speed": 0.35,
+    "fire_resistant": false,
+    "upgrades": 2,
+    "carry": 4,
+    "regeneration_delay": 40,
+    "strength": 1,
+    "vis_cost": 1000,
+    "sinks": false,
+    "blocks": [
+      "minecraft:cobweb"
+    ],
+    "tags": []
+  },
+  {
+    "id": "void",
+    "health": 25,
+    "armor": 15,
+    "speed": 0.4,
+    "fire_resistant": true,
+    "upgrades": 2,
+    "carry": 8,
+    "regeneration_delay": 20,
+    "strength": 3,
+    "vis_cost": 0,
+    "sinks": false,
+    "blocks": [],
+    "tags": []
+  },
+  {
+    "id": "rock",
+    "health": 30,
+    "armor": 12,
+    "speed": 0.32,
+    "fire_resistant": true,
+    "upgrades": 2,
+    "carry": 16,
+    "regeneration_delay": 100,
+    "strength": 3,
+    "vis_cost": 1000,
+    "sinks": true,
+    "blocks": [],
+    "tags": []
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "research": "infusionVat",
+  "instability": 4,
+  "target": {
+    "kind": "living"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "aspects": {
+    "tutamen": 16,
+    "vitreus": 16,
+    "bestia": 8
+  },
+  "output": {
+    "kind": "augmentation",
+    "id": "diamond_skin"
+  }
+}

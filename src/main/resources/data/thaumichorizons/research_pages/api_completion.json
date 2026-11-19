@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "transductionAmplifier",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "transductionAmplifier1"
+          },
+          "id": "thaumichorizons:transductionAmplifier/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "thaumichorizons:transductionAmplifier"
+            ]
+          },
+          "id": "thaumichorizons:transductionAmplifier/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "transductionAmplifier2"
+          },
+          "id": "thaumichorizons:transductionAmplifier/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "crystalWand",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "crystalWand1"
+          },
+          "id": "thaumichorizons:crystalWand/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "thaumichorizons:crystalWand"
+            ]
+          },
+          "id": "thaumichorizons:crystalWand/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

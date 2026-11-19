@@ -1,0 +1,192 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "planarRift",
+          "category": "ThaumicHorizons",
+          "displayColumn": 14,
+          "displayRow": 8,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "vacuos",
+              "amount": 4
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 4
+            },
+            {
+              "aspect": "alienis",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "vortexStabilizer",
+            "transductionAmplifier"
+          ],
+          "isConcealed": true,
+          "warp": 3,
+          "pageCount": 3,
+          "icon_resource": "thaumichorizons:textures/misc/rift.png",
+          "isSpecial": true
+        },
+        {
+          "key": "wispSpawn",
+          "category": "ThaumicHorizons",
+          "displayColumn": 15,
+          "displayRow": 6,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "praecantatio",
+              "amount": 2
+            },
+            {
+              "aspect": "vitreus",
+              "amount": 2
+            },
+            {
+              "aspect": "victus",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "planarRift"
+          ],
+          "isConcealed": true,
+          "warp": 0,
+          "pageCount": 1,
+          "icon_resource": "thaumichorizons:textures/misc/wisp.png"
+        },
+        {
+          "key": "voidGolem",
+          "category": "ThaumicHorizons",
+          "displayColumn": 16,
+          "displayRow": 7,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "vacuos",
+              "amount": 2
+            },
+            {
+              "aspect": "motus",
+              "amount": 2
+            },
+            {
+              "aspect": "spiritus",
+              "amount": 2
+            },
+            {
+              "aspect": "humanus",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "wispSpawn"
+          ],
+          "isConcealed": true,
+          "warp": 1,
+          "pageCount": 1,
+          "icon_resource": "thaumichorizons:textures/misc/voidgolem.png",
+          "parentsHidden": [
+            "golemPowder"
+          ]
+        },
+        {
+          "key": "pocketPlane",
+          "category": "ThaumicHorizons",
+          "displayColumn": 18,
+          "displayRow": 8,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "iter",
+              "amount": 24
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 21
+            },
+            {
+              "aspect": "fabrico",
+              "amount": 18
+            },
+            {
+              "aspect": "auram",
+              "amount": 15
+            },
+            {
+              "aspect": "machina",
+              "amount": 21
+            },
+            {
+              "aspect": "alienis",
+              "amount": 6
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 6
+            },
+            {
+              "aspect": "cognitio",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "planarRift",
+            "PRIMPEARL"
+          ],
+          "isConcealed": true,
+          "warp": 4,
+          "pageCount": 5,
+          "icon_resource": "thaumichorizons:textures/misc/pocketplane.png"
+        },
+        {
+          "key": "planarKeystone",
+          "category": "ThaumicHorizons",
+          "displayColumn": 20,
+          "displayRow": 8,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "iter",
+              "amount": 15
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 12
+            },
+            {
+              "aspect": "auram",
+              "amount": 9
+            },
+            {
+              "aspect": "alienis",
+              "amount": 6
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "pocketPlane"
+          ],
+          "isConcealed": true,
+          "warp": 5,
+          "pageCount": 5,
+          "icon_item": {
+            "item": "thaumichorizons:keystone_slot"
+          }
+        }
+      ]
+    }
+  ]
+}

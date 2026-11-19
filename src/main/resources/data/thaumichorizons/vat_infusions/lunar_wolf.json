@@ -1,0 +1,29 @@
+{
+  "research": "dogInfusion",
+  "instability": 4,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:wolf"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "thaumcraft:mirrored_glass"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    }
+  ],
+  "aspects": {
+    "lux": 8,
+    "vacuos": 8,
+    "praecantatio": 16,
+    "permutatio": 4
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:lunar_wolf"
+  }
+}

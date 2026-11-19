@@ -1,0 +1,30 @@
+{
+  "research": "infusionVat",
+  "instability": 5,
+  "target": {
+    "kind": "living"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "thaumcraft:air_shard"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "aspects": {
+    "potentia": 16,
+    "telum": 12,
+    "tempestas": 4
+  },
+  "output": {
+    "kind": "augmentation",
+    "id": "shock_skin"
+  }
+}

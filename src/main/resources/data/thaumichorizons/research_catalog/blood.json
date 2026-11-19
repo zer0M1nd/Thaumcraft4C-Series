@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "alcheponics",
+          "category": "ThaumicHorizons",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "messis",
+              "amount": 5
+            },
+            {
+              "aspect": "herba",
+              "amount": 5
+            },
+            {
+              "aspect": "lux",
+              "amount": 5
+            }
+          ],
+          "parents": [],
+          "parentsHidden": [],
+          "isSecondary": false,
+          "isConcealed": false,
+          "warp": 0,
+          "icon_item": {
+            "item": "minecraft:wheat"
+          },
+          "pageCount": 7
+        },
+        {
+          "key": "alchIncubation",
+          "category": "ThaumicHorizons",
+          "displayColumn": 2,
+          "displayRow": 0,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "bestia",
+              "amount": 4
+            },
+            {
+              "aspect": "victus",
+              "amount": 2
+            },
+            {
+              "aspect": "ignis",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "alcheponics"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": false,
+          "warp": 0,
+          "icon_item": {
+            "item": "thaumichorizons:incubated_egg"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "meatGrowth",
+          "category": "ThaumicHorizons",
+          "displayColumn": 4,
+          "displayRow": 0,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "corpus",
+              "amount": 6
+            },
+            {
+              "aspect": "victus",
+              "amount": 4
+            },
+            {
+              "aspect": "bestia",
+              "amount": 4
+            },
+            {
+              "aspect": "fabrico",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "alchIncubation"
+          ],
+          "parentsHidden": [],
+          "isSecondary": false,
+          "isConcealed": false,
+          "warp": 0,
+          "icon_item": {
+            "item": "minecraft:beef"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "fleshLeather",
+          "category": "ThaumicHorizons",
+          "displayColumn": 6,
+          "displayRow": -1,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "corpus",
+              "amount": 4
+            },
+            {
+              "aspect": "pannus",
+              "amount": 6
+            },
+            {
+              "aspect": "fabrico",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "meatGrowth"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": false,
+          "warp": 0,
+          "icon_item": {
+            "item": "minecraft:leather"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "essentiaInjection",
+          "category": "ThaumicHorizons",
+          "displayColumn": 6,
+          "displayRow": 1,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "victus",
+              "amount": 4
+            },
+            {
+              "aspect": "humanus",
+              "amount": 2
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 2
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "meatGrowth"
+          ],
+          "parentsHidden": [
+            "THAUMATORIUM",
+            "INFUSION"
+          ],
+          "isSecondary": false,
+          "isConcealed": false,
+          "warp": 1,
+          "icon_item": {
+            "item": "thaumichorizons:human_blood"
+          },
+          "pageCount": 6
+        },
+        {
+          "key": "blastPhial",
+          "category": "ThaumicHorizons",
+          "displayColumn": 6,
+          "displayRow": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "victus",
+              "amount": 2
+            },
+            {
+              "aspect": "ignis",
+              "amount": 2
+            },
+            {
+              "aspect": "perditio",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "essentiaInjection"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "warp": 0,
+          "icon_item": {
+            "item": "thaumichorizons:blood_phial"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

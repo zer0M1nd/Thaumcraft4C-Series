@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "mirrorAmulet",
+          "category": "ThaumicHorizons",
+          "displayColumn": 17,
+          "displayRow": 4,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "mortuus",
+              "amount": 5
+            },
+            {
+              "aspect": "perditio",
+              "amount": 5
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 5
+            }
+          ],
+          "parents": [
+            "cloneSelf"
+          ],
+          "parentsHidden": [
+            "MIRROR"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:mirror_amulet"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

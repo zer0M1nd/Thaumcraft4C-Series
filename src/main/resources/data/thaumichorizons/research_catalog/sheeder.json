@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "sheederInfusion",
+          "category": "ThaumicHorizons",
+          "displayColumn": 10,
+          "displayRow": -7,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "pannus",
+              "amount": 4
+            },
+            {
+              "aspect": "bestia",
+              "amount": 3
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "sheepInfusion"
+          ],
+          "parentsHidden": [],
+          "siblings": [],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "minecraft:string"
+          },
+          "pageCount": 3
+        }
+      ]
+    }
+  ]
+}

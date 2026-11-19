@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "alternateGolemBell",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "alternateGolemBell1"
+          },
+          "id": "thaumichorizons:alternateGolemBell/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "thaumichorizons:alternateGolemBell"
+            ]
+          },
+          "id": "thaumichorizons:alternateGolemBell/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "focusAnimation",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "focusAnimation1"
+          },
+          "id": "thaumichorizons:focusAnimation/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:focus_animation"
+            ]
+          },
+          "id": "thaumichorizons:focusAnimation/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "focusAnimation2"
+          },
+          "id": "thaumichorizons:focusAnimation/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:advanced_golem"
+            ]
+          },
+          "id": "thaumichorizons:focusAnimation/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "golemPowder",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "golemPowder1"
+          },
+          "id": "thaumichorizons:golemPowder/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumichorizons:golem_powder"
+            ]
+          },
+          "id": "thaumichorizons:golemPowder/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "golemPowder2"
+          },
+          "id": "thaumichorizons:golemPowder/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "golemPowder3"
+          },
+          "id": "thaumichorizons:golemPowder/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

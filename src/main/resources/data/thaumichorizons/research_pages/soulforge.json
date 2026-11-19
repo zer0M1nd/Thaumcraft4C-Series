@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "soulAssembler",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "soulAssembler1"
+          },
+          "id": "thaumichorizons:soulAssembler/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:soulforge"
+            ]
+          },
+          "id": "thaumichorizons:soulAssembler/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "soulAssembler2"
+          },
+          "id": "thaumichorizons:soulAssembler/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "soulAssembler3"
+          },
+          "id": "thaumichorizons:soulAssembler/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "research": "dogInfusion",
+  "instability": 6,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:wolf"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "thaumcraft:fire_shard"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "aspects": {
+    "ignis": 24,
+    "telum": 8,
+    "bestia": 8
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:nether_hound"
+  }
+}

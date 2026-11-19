@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "cloneSelf",
+  "instability": 8,
+  "aspects": {
+    "spiritus": 16,
+    "vinculum": 32,
+    "iter": 32,
+    "mortuus": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primordial_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:beacon"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:soul_beacon"
+  }
+}

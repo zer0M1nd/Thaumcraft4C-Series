@@ -1,0 +1,59 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "cloneVillager",
+  "instability": 3,
+  "aspects": {
+    "fabrico": 8,
+    "humanus": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:zombie_brain"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bone"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:corpse_effigy"
+  }
+}

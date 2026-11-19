@@ -1,0 +1,337 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "focusContainment",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "focusContainment1"
+          },
+          "id": "thaumichorizons:focusContainment/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:focus_containment"
+            ]
+          },
+          "id": "thaumichorizons:focusContainment/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "focusContainment2"
+          },
+          "id": "thaumichorizons:focusContainment/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "infusionVat",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionVat1"
+          },
+          "id": "thaumichorizons:infusionVat/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:modified_matrix"
+            ]
+          },
+          "id": "thaumichorizons:infusionVat/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionVat2"
+          },
+          "id": "thaumichorizons:infusionVat/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionVat3"
+          },
+          "id": "thaumichorizons:infusionVat/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionVatClone"
+          },
+          "id": "thaumichorizons:infusionVat/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "generalInfusion",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "generalInfusion1"
+          },
+          "id": "thaumichorizons:generalInfusion/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_quick_limbs"
+            ]
+          },
+          "id": "thaumichorizons:generalInfusion/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "generalInfusion2"
+          },
+          "id": "thaumichorizons:generalInfusion/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_thaumic_claws"
+            ]
+          },
+          "id": "thaumichorizons:generalInfusion/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "generalInfusion3"
+          },
+          "id": "thaumichorizons:generalInfusion/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_awake_blood"
+            ]
+          },
+          "id": "thaumichorizons:generalInfusion/page/6",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "generalInfusion4"
+          },
+          "id": "thaumichorizons:generalInfusion/page/7",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_diamond_skin"
+            ]
+          },
+          "id": "thaumichorizons:generalInfusion/page/8",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "generalInfusion5"
+          },
+          "id": "thaumichorizons:generalInfusion/page/9",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_ender_heart"
+            ]
+          },
+          "id": "thaumichorizons:generalInfusion/page/10",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "generalInfusion6"
+          },
+          "id": "thaumichorizons:generalInfusion/page/11",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_shock_skin"
+            ]
+          },
+          "id": "thaumichorizons:generalInfusion/page/12",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "instilledLoyalty",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "generalInfusion7"
+          },
+          "id": "thaumichorizons:instilledLoyalty/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_instilled_loyalty"
+            ]
+          },
+          "id": "thaumichorizons:instilledLoyalty/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "generalInfusion7b"
+          },
+          "id": "thaumichorizons:instilledLoyalty/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "runicCreature",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "generalInfusion8"
+          },
+          "id": "thaumichorizons:runicCreature/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_runic_hide"
+            ]
+          },
+          "id": "thaumichorizons:runicCreature/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "eldritchFangs",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "generalInfusion9"
+          },
+          "id": "thaumichorizons:eldritchFangs/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_eldritch_fangs"
+            ]
+          },
+          "id": "thaumichorizons:eldritchFangs/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "portability",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "portability1"
+          },
+          "id": "thaumichorizons:portability/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_portability"
+            ]
+          },
+          "id": "thaumichorizons:portability/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

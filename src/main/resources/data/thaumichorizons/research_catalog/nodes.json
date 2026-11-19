@@ -1,0 +1,265 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "nodeMonitor",
+          "category": "ThaumicHorizons",
+          "displayColumn": 1,
+          "displayRow": 6,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "auram",
+              "amount": 3
+            },
+            {
+              "aspect": "machina",
+              "amount": 3
+            },
+            {
+              "aspect": "sensus",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "INFUSION"
+          ],
+          "parentsHidden": [],
+          "isSecondary": false,
+          "isConcealed": false,
+          "icon_item": {
+            "item": "thaumichorizons:node_monitor"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "visDynamo",
+          "category": "ThaumicHorizons",
+          "displayColumn": 3,
+          "displayRow": 2,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "auram",
+              "amount": 5
+            },
+            {
+              "aspect": "machina",
+              "amount": 5
+            },
+            {
+              "aspect": "potentia",
+              "amount": 5
+            }
+          ],
+          "parents": [],
+          "parentsHidden": [
+            "INFUSION",
+            "VISPOWER"
+          ],
+          "isSecondary": false,
+          "isConcealed": false,
+          "icon_item": {
+            "item": "thaumichorizons:vis_dynamo"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "essentiaDynamo",
+          "category": "ThaumicHorizons",
+          "displayColumn": 3,
+          "displayRow": 4,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "auram",
+              "amount": 5
+            },
+            {
+              "aspect": "machina",
+              "amount": 5
+            },
+            {
+              "aspect": "potentia",
+              "amount": 5
+            },
+            {
+              "aspect": "aqua",
+              "amount": 5
+            }
+          ],
+          "parents": [
+            "visDynamo"
+          ],
+          "parentsHidden": [
+            "INFUSION",
+            "VISPOWER",
+            "THAUMIUM"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:essentia_dynamo"
+          },
+          "pageCount": 3
+        },
+        {
+          "key": "etherealShard",
+          "category": "ThaumicHorizons",
+          "displayColumn": 1,
+          "displayRow": 4,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "auram",
+              "amount": 8
+            },
+            {
+              "aspect": "potentia",
+              "amount": 16
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 16
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 8
+            }
+          ],
+          "parents": [
+            "shardTrans"
+          ],
+          "parentsHidden": [
+            "INFUSION",
+            "VISPOWER"
+          ],
+          "isSecondary": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:synthetic_node"
+          },
+          "pageCount": 3
+        },
+        {
+          "key": "planarTheory",
+          "category": "ThaumicHorizons",
+          "displayColumn": 10,
+          "displayRow": 8,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "vacuos",
+              "amount": 5
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 5
+            },
+            {
+              "aspect": "alienis",
+              "amount": 5
+            }
+          ],
+          "parents": [
+            "VISPOWER",
+            "VOIDMETAL"
+          ],
+          "parentsHidden": [],
+          "isSecondary": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:planar_conduit"
+          },
+          "pageCount": 3
+        },
+        {
+          "key": "recombinator",
+          "category": "ThaumicHorizons",
+          "displayColumn": 12,
+          "displayRow": 8,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "auram",
+              "amount": 4
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 4
+            },
+            {
+              "aspect": "fabrico",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "planarTheory",
+            "PRIMPEARL"
+          ],
+          "parentsHidden": [],
+          "isSecondary": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:recombinator"
+          },
+          "pageCount": 4
+        },
+        {
+          "key": "shardTrans",
+          "category": "ThaumicHorizons",
+          "displayColumn": 1,
+          "displayRow": 2,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "permutatio",
+              "amount": 4
+            },
+            {
+              "aspect": "vitreus",
+              "amount": 4
+            },
+            {
+              "aspect": "ignis",
+              "amount": 2
+            },
+            {
+              "aspect": "aqua",
+              "amount": 2
+            },
+            {
+              "aspect": "terra",
+              "amount": 2
+            },
+            {
+              "aspect": "aer",
+              "amount": 2
+            },
+            {
+              "aspect": "ordo",
+              "amount": 2
+            },
+            {
+              "aspect": "perditio",
+              "amount": 2
+            }
+          ],
+          "parents": [],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": false,
+          "icon_item": {
+            "item": "thaumcraft:balanced_shard"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

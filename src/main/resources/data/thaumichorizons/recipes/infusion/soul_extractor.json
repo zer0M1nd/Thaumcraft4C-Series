@@ -1,0 +1,50 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "soulExtractor",
+  "instability": 4,
+  "aspects": {
+    "spiritus": 16,
+    "machina": 8,
+    "permutatio": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:hopper"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:soul_extractor"
+  }
+}

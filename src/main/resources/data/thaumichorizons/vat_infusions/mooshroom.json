@@ -1,0 +1,30 @@
+{
+  "research": "cowInfusion",
+  "instability": 2,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:cow"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    }
+  ],
+  "aspects": {
+    "herba": 8,
+    "bestia": 4
+  },
+  "output": {
+    "kind": "entity",
+    "id": "minecraft:mooshroom"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "research": "horseInfusion",
+  "instability": 2,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:horse"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:bone"
+    }
+  ],
+  "aspects": {
+    "mortuus": 8,
+    "exanimis": 8
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:skeletal_horse"
+  }
+}

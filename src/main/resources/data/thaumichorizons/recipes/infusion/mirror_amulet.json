@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "mirrorAmulet",
+  "instability": 6,
+  "aspects": {
+    "mortuus": 16,
+    "perditio": 32,
+    "vacuos": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primordial_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:mundane_amulet"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:map"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:item_mirror"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:mirror_amulet"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "vortexStabilizer",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "vortexStabilizer1"
+          },
+          "id": "thaumichorizons:vortexStabilizer/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:vortex_stabilizer"
+            ]
+          },
+          "id": "thaumichorizons:vortexStabilizer/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

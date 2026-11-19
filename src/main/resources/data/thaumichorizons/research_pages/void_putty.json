@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "voidPutty",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "voidPutty1"
+          },
+          "id": "thaumichorizons:voidPutty/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "net.minecraft.item.crafting.ShapelessRecipes",
+            "keys": [
+              "thaumichorizons:void_putty"
+            ]
+          },
+          "id": "thaumichorizons:voidPutty/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

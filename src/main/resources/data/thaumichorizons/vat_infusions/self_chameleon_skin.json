@@ -1,0 +1,36 @@
+{
+  "research": "chameleonSkin",
+  "instability": 7,
+  "target": {
+    "kind": "self"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "aspects": {
+    "sensus": 48,
+    "permutatio": 32,
+    "vacuos": 32
+  },
+  "output": {
+    "kind": "self",
+    "id": "chameleon_skin"
+  }
+}

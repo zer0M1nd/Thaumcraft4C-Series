@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "injector",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "injector1"
+          },
+          "id": "thaumichorizons:injector/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:injector"
+            ]
+          },
+          "id": "thaumichorizons:injector/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

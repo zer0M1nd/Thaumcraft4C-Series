@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "soulKnowledge",
+          "category": "ThaumicHorizons",
+          "displayColumn": 7,
+          "displayRow": 6,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "spiritus",
+              "amount": 4
+            },
+            {
+              "aspect": "sano",
+              "amount": 4
+            },
+            {
+              "aspect": "cognitio",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "soulExtractor"
+          ],
+          "isConcealed": true,
+          "warp": 2,
+          "icon_item": {
+            "item": "thaumichorizons:inspiratron"
+          },
+          "pageCount": 3
+        }
+      ]
+    }
+  ]
+}

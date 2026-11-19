@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "transductionAmplifier",
+          "category": "ThaumicHorizons",
+          "displayColumn": 12,
+          "displayRow": 6,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "auram",
+              "amount": 4
+            },
+            {
+              "aspect": "potentia",
+              "amount": 4
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "planarTheory"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:transduction_amplifier"
+          },
+          "pageCount": 3
+        },
+        {
+          "key": "crystalWand",
+          "category": "ThaumicHorizons",
+          "displayColumn": 15,
+          "displayRow": 10,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "praecantatio",
+              "amount": 4
+            },
+            {
+              "aspect": "vitreus",
+              "amount": 4
+            },
+            {
+              "aspect": "potentia",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "planarRift"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:crystal_wand"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

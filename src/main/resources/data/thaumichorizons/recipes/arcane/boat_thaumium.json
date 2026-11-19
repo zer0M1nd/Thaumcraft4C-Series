@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumiumBoat",
+  "pattern": [
+    "STS",
+    "TBT",
+    "STS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:water_shard"
+    },
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "B": {
+      "item": "thaumichorizons:boat_greatwood"
+    }
+  },
+  "vis": {
+    "ignis": 10,
+    "aqua": 10,
+    "ordo": 10,
+    "terra": 10
+  },
+  "result": {
+    "item": "thaumichorizons:boat_thaumium"
+  }
+}

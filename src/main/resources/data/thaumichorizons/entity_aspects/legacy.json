@@ -1,0 +1,681 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "entity": "thaumichorizons:chromatic_sheep",
+      "legacy_name": "ThaumicHorizons.ChromaticSheep",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "sensus",
+          "amount": 2
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:self_shearing_sheep",
+      "legacy_name": "ThaumicHorizons.SelfShearingSheep",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "instrumentum",
+          "amount": 2
+        },
+        {
+          "aspect": "pannus",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:guardian_panther",
+      "legacy_name": "ThaumicHorizons.GuardianPanther",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 4
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        },
+        {
+          "aspect": "perditio",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:familiar",
+      "legacy_name": "ThaumicHorizons.Familiar",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 3
+        },
+        {
+          "aspect": "auram",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:gravekeeper",
+      "legacy_name": "ThaumicHorizons.Gravekeeper",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "mortuus",
+          "amount": 3
+        },
+        {
+          "aspect": "ordo",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:chocolate_cow",
+      "legacy_name": "ThaumicHorizons.ChocolateCow",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "terra",
+          "amount": 3
+        },
+        {
+          "aspect": "sensus",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:scholar_chicken",
+      "legacy_name": "ThaumicHorizons.ScholarChicken",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "volatus",
+          "amount": 2
+        },
+        {
+          "aspect": "aer",
+          "amount": 1
+        },
+        {
+          "aspect": "tenebrae",
+          "amount": 2
+        },
+        {
+          "aspect": "cognitio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:gold_chicken",
+      "legacy_name": "ThaumicHorizons.GoldChicken",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "volatus",
+          "amount": 2
+        },
+        {
+          "aspect": "aer",
+          "amount": 1
+        },
+        {
+          "aspect": "lucrum",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:ore_pig",
+      "legacy_name": "ThaumicHorizons.OrePig",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "metallum",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:taint_eater_pig",
+      "legacy_name": "ThaumicHorizons.TaintEaterPig",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "sano",
+          "amount": 2
+        },
+        {
+          "aspect": "ordo",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:seawolf",
+      "legacy_name": "ThaumicHorizons.Seawolf",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "terra",
+          "amount": 3
+        },
+        {
+          "aspect": "aqua",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:lunar_wolf",
+      "legacy_name": "ThaumicHorizons.LunarWolf",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "terra",
+          "amount": 3
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:nether_hound",
+      "legacy_name": "ThaumicHorizons.NetherHound",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "terra",
+          "amount": 3
+        },
+        {
+          "aspect": "ignis",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:endersteed",
+      "legacy_name": "ThaumicHorizons.Endersteed",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "alienis",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:nightmare",
+      "legacy_name": "ThaumicHorizons.NightmareTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "alienis",
+          "amount": 4
+        },
+        {
+          "aspect": "ignis",
+          "amount": 4
+        },
+        {
+          "aspect": "iter",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "entity": "thaumichorizons:sheeder",
+      "legacy_name": "ThaumicHorizons.Sheeder",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "pannus",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/grass",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/dirt",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/wood",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/plant",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/metal",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/cloth",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/sand",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/redstone",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/tnt",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/ice",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/cactus",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/clay",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/cake",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/web",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/void",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "thaumcraft:golem",
+      "legacy_name": "ThaumicHorizons.GolemTH",
+      "variant": "any",
+      "legacy_qualifier": "",
+      "golem_material": "thaumichorizons:material/rock",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    }
+  ]
+}

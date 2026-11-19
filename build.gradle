@@ -1,0 +1,68 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
+version = '0.1.26.1'
+group='thmodern'
+base.archivesName='Thaumic-Horizons-Modern-Port'
+java.toolchain.languageVersion=JavaLanguageVersion.of(17)
+java.withSourcesJar()
+sourceSets { gameTest {
+    compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+    runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+} }
+configurations { gameTestImplementation.extendsFrom implementation; gameTestCompileOnly.extendsFrom compileOnly; gameTestRuntimeOnly.extendsFrom runtimeOnly }
+repositories { flatDir { dirs 'libs' }; mavenCentral(); maven { url='https://maven.theillusivec4.top/' } }
+repositories {
+    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
+    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+    implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
+            ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
+            : 'local.revival:Thaumcraft-4-Modern-Port:0.4.114')
+    runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
+    compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
+    runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+}
+minecraft {
+    mappings channel:'official', version:'1.20.1'
+    runs {
+        configureEach {
+            mods { thaumichorizons { source sourceSets.main } }
+            args '--mixin.config','tc4revival.mixins.json','--mixin.config','thaumichorizons.mixins.json'
+            property 'mixin.env.remapRefMap','true'
+            property 'mixin.env.refMapRemappingFile',layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+        }
+        server { workingDirectory file('run-server'); args '--nogui'; jvmArgs '-Xmx2G' }
+        gameTestServer {
+            workingDirectory file('run-gametest')
+            property 'forge.enabledGameTestNamespaces','thaumichorizons'
+            mods { thaumichorizons { source sourceSets.gameTest } }
+            jvmArgs '-Xmx2G'
+        }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding='UTF-8'; options.release=17 }
+tasks.named('processResources') {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/mods.toml') { expand version:project.version }
+}
+test { useJUnitPlatform() }
+tasks.named('jar') { manifest.attributes('MixinConfigs':'thaumichorizons.mixins.json'); finalizedBy 'reobfJar' }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps=false; reproducibleFileOrder=true }
+tasks.register('verifyArchives') {
+ dependsOn 'jar','reobfJar','sourcesJar'
+ doLast { ['jar','sourcesJar'].each { name -> new java.util.zip.ZipFile(tasks.named(name).get().archiveFile.get().asFile).withCloseable { zip -> zip.entries().each { e ->
+  def modernBoatArt = ['assets/thaumichorizons/textures/entity/boat/greatwood.png','assets/thaumichorizons/textures/entity/boat/thaumium.png']
+  if((e.name==~ /.*\.(png|ogg|lang|obj)/ && !modernBoatArt.contains(e.name)) || e.name.startsWith('tc4revival/') || e.name.startsWith('thaumcraft/api/'))throw new GradleException('Bundled dependency/legacy asset: '+e.name)
+ } } } }
+}
+
+// Resource metadata must be UTF-8 on every build host.
+tasks.withType(ProcessResources).configureEach { filteringCharset = 'UTF-8' }
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "research": "pigInfusion",
+  "instability": 4,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:pig"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:furnace"
+    },
+    {
+      "item": "thaumcraft:fire_shard"
+    },
+    {
+      "item": "thaumcraft:entropy_shard"
+    },
+    {
+      "item": "thaumcraft:earth_shard"
+    }
+  ],
+  "aspects": {
+    "terra": 8,
+    "fames": 8,
+    "metallum": 16,
+    "ignis": 8
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:ore_pig"
+  }
+}

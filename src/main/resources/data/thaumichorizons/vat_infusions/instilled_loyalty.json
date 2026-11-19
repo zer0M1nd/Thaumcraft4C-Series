@@ -1,0 +1,27 @@
+{
+  "research": "instilledLoyalty",
+  "instability": 6,
+  "target": {
+    "kind": "living"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:saddle"
+    },
+    {
+      "item": "thaumcraft:zombie_brain"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "aspects": {
+    "cognitio": 4,
+    "bestia": 3,
+    "permutatio": 3
+  },
+  "output": {
+    "kind": "augmentation",
+    "id": "instilled_loyalty"
+  }
+}

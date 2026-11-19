@@ -1,0 +1,60 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "focusContainment",
+  "instability": 6,
+  "aspects": {
+    "vacuos": 32,
+    "vinculum": 32,
+    "iter": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_portable_hole"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cobweb"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_bars"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cobweb"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_bars"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:focus_containment"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "lensFire",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "lensFire1"
+          },
+          "id": "thaumichorizons:lensFire/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:lens_fire"
+            ]
+          },
+          "id": "thaumichorizons:lensFire/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "lensWater",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "lensWater1"
+          },
+          "id": "thaumichorizons:lensWater/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:lens_water"
+            ]
+          },
+          "id": "thaumichorizons:lensWater/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "lensEarth",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "lensEarth1"
+          },
+          "id": "thaumichorizons:lensEarth/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:lens_earth"
+            ]
+          },
+          "id": "thaumichorizons:lensEarth/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "lensAir",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "lensAir1"
+          },
+          "id": "thaumichorizons:lensAir/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:lens_air"
+            ]
+          },
+          "id": "thaumichorizons:lensAir/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "lensOrderEntropy",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "lensOrderEntropy1"
+          },
+          "id": "thaumichorizons:lensOrderEntropy/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:lens_order_entropy"
+            ]
+          },
+          "id": "thaumichorizons:lensOrderEntropy/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "lensCase",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "lensCase1"
+          },
+          "id": "thaumichorizons:lensCase/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "thaumichorizons:lens_case"
+            ]
+          },
+          "id": "thaumichorizons:lensCase/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

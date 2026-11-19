@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:injector",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "injector",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:bone_bow",
+            "metadata": 0,
+            "count": 1,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:injector",
+            "metadata": 0,
+            "count": 1,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "metadata": 0,
+                "count": 1,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather",
+                "metadata": 0,
+                "count": 1,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "metadata": 0,
+                "count": 1,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard",
+                "metadata": 0,
+                "count": 1,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "telum": 8,
+          "machina": 8,
+          "volatus": 8
+        },
+        "instability": 2
+      }
+    }
+  ]
+}

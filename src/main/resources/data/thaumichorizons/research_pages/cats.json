@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "catInfusion",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "catInfusion1"
+          },
+          "id": "thaumichorizons:catInfusion/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_guardian_panther"
+            ]
+          },
+          "id": "thaumichorizons:catInfusion/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "catInfusion2"
+          },
+          "id": "thaumichorizons:catInfusion/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_familiar"
+            ]
+          },
+          "id": "thaumichorizons:catInfusion/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "catInfusion3"
+          },
+          "id": "thaumichorizons:catInfusion/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_gravekeeper"
+            ]
+          },
+          "id": "thaumichorizons:catInfusion/page/6",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}
