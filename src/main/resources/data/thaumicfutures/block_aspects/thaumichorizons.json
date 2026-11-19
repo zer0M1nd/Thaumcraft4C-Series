@@ -1,0 +1,22 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "block": "thaumichorizons:gateway_portal",
+      "aspects": {
+        "iter": 4,
+        "vacuos": 4
+      }
+    },
+    {
+      "block": "thaumichorizons:vat",
+      "aspects": {
+        "machina": 1,
+        "sano": 1
+      }
+    }
+  ],
+  "required_any_mods": [
+    "thaumichorizons"
+  ]
+}

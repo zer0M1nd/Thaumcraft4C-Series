@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_THAUMICFUTURES",
+      "pages": [
+        {
+          "id": "thaumicfutures:tut_addon_thaumicfutures/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicfutures.tut_addon_thaumicfutures.text.1",
+            "with": [
+              [
+                {
+                  "text": "神秘时代：未来是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicfutures:tut_addon_thaumicfutures/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicfutures.tut_addon_thaumicfutures.text.2",
+            "with": [
+              [
+                {
+                  "text": "它把神秘时代后续版本（神秘时代 5/6）和被删减内容中的一些设备带回了神秘时代 4，比如自动施法器、锚钩核心、建筑核心、荒古注魔祭坛等，并提供与许多其他模组的联动研究。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicfutures:tut_addon_thaumicfutures/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicfutures:tut_addon_thaumicfutures/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicfutures.tut_addon_thaumicfutures.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicfutures:tut_addon_thaumicfutures/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicfutures.tut_addon_thaumicfutures.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "ALCHEMICALBRASS"
+                },
+                {
+                  "text": "：炼金黄铜，在坩埚中制作，是本模组的核心材料。\n· "
+                },
+                {
+                  "research": "thaumicfutures:FOCUSTURRET"
+                },
+                {
+                  "text": "：施法器，自动使用法杖核心。\n· "
+                },
+                {
+                  "research": "thaumicfutures:FOCUSGRAPPLE"
+                },
+                {
+                  "text": "：锚钩核心，拉动自己移动。\n· "
+                },
+                {
+                  "research": "thaumicomniverse:RESTORED_ANCIENT_ALTAR"
+                },
+                {
+                  "text": "：荒古注魔祭坛，一种强化的注魔祭坛。\n与其他模组的联动研究只有在对应模组安装时才会出现。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicfutures:tut_addon_thaumicfutures/text/6",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicfutures.tut_addon_thaumicfutures.text.6",
+            "with": [
+              [
+                {
+                  "text": "你同时安装了神秘万象：两者共享一部分研究命名空间，请确保神秘时代：未来为 0.2.7 或更高版本。\n"
+                }
+              ]
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumicomniverse"
+            }
+          ]
+        },
+        {
+          "id": "thaumicfutures:tut_addon_thaumicfutures/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicfutures:tut_addon_thaumicfutures/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "thaumicfutures:tut_addon_thaumicfutures/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "ALCHEMICALBRASS",
+            "thaumicfutures:FOCUSTURRET",
+            "thaumicfutures:FOCUSGRAPPLE",
+            "thaumicomniverse:RESTORED_ANCIENT_ALTAR"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

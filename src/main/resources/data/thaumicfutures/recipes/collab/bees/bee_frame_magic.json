@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:MB_FRAME_MAGIC",
+  "pattern": [
+    "sss",
+    "sCs",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "thaumcraft:enchanted_fabric"
+    }
+  },
+  "vis": {
+    "ordo": 5,
+    "aer": 2,
+    "terra": 2
+  },
+  "result": {
+    "item": "thaumicfutures:bee_frame_magic"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

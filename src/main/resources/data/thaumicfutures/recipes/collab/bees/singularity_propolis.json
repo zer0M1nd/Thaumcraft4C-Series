@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicomniverse:MB_SINGULARITY",
+  "instability": 6,
+  "center": {
+    "ingredient": {
+      "item": "thaumicfutures:bee_propolis_unstable"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    }
+  ],
+  "aspects": {
+    "alienis": 10,
+    "permutatio": 20,
+    "vacuos": 15
+  },
+  "result": {
+    "item": "thaumicfutures:bee_dimensional_singularity",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicfutures:bee_essence_armor"
+    },
+    {
+      "item": "thaumicfutures:bee_frame_magic"
+    }
+  ],
+  "result": {
+    "item": "thaumicfutures:bee_frame_resilient"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

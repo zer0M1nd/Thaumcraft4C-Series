@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicomniverse:MB_ESSENCE_TIME",
+  "catalyst": {
+    "item": "minecraft:clock"
+  },
+  "aspects": {
+    "ordo": 10,
+    "vacuos": 10,
+    "vinculum": 4
+  },
+  "result": {
+    "item": "thaumicfutures:bee_essence_time"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

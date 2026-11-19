@@ -1,0 +1,68 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicfutures:FOCUSTURRET",
+  "result": {
+    "item": "thaumicfutures:autocaster"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:brain_jar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicfutures:morphic_resonator"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_planks"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "thaumicfutures:preferred_material",
+        "tag": "forge:gears/alchemical_brass",
+        "fallback": {
+          "item": "thaumicfutures:alchemical_brass_ingot"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:casting_wand"
+      },
+      "nbt": "{rod:\"wood\",cap:\"iron\"}",
+      "exact": true,
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "type": "thaumicfutures:preferred_material",
+        "tag": "forge:plates/alchemical_brass",
+        "fallback": {
+          "item": "thaumicfutures:alchemical_brass_ingot"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_planks"
+      }
+    }
+  ],
+  "aspects": {
+    "auram": 16,
+    "machina": 32,
+    "cognitio": 16,
+    "sensus": 16,
+    "telum": 16
+  },
+  "instability": 5
+}

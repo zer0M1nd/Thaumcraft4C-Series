@@ -1,0 +1,377 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICFUTURES",
+      "icon": "thaumicfutures:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:MAGIC_BEES",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -2,
+          "displayRow": 3,
+          "complexity": 1,
+          "isSecondary": true,
+          "parents": [
+            "BASICTHAUMATURGY",
+            "thaumicfutures:GUIDE_BEES"
+          ],
+          "pageCount": 1,
+          "aspects": {
+            "bestia": 2,
+            "praecantatio": 2
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ],
+          "icon_item": {
+            "item": "thaumicfutures:bee_comb_air"
+          }
+        },
+        {
+          "key": "thaumicomniverse:MB_SCOOP",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 4,
+          "displayRow": 3,
+          "complexity": 1,
+          "parents": [
+            "THAUMIUM"
+          ],
+          "parentMirrors": {
+            "THAUMIUM": "thaumicfutures:M_MB_THAUMIUM"
+          },
+          "pageCount": 2,
+          "aspects": {
+            "instrumentum": 1,
+            "praecantatio": 1,
+            "aer": 1
+          },
+          "icon_item": {
+            "item": "thaumicfutures:thaumium_scoop"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_GRAFTER",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 6,
+          "displayRow": 3,
+          "complexity": 2,
+          "parents": [
+            "thaumicomniverse:MB_SCOOP"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "instrumentum": 1,
+            "arbor": 1,
+            "lucrum": 1
+          },
+          "icon_item": {
+            "item": "thaumicfutures:thaumium_grafter"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_FRAME_MAGIC",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -4,
+          "displayRow": 3,
+          "complexity": 1,
+          "parents": [
+            "thaumicomniverse:MAGIC_BEES"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "instrumentum": 1,
+            "tutamen": 1
+          },
+          "icon_item": {
+            "item": "thaumicfutures:bee_frame_magic"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_ESSENCE_LIFE",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 4,
+          "displayRow": 7,
+          "complexity": 2,
+          "parents": [
+            "CRUCIBLE"
+          ],
+          "parentMirrors": {
+            "CRUCIBLE": "thaumicfutures:M_MB_CRUCIBLE"
+          },
+          "pageCount": 2,
+          "aspects": {
+            "praecantatio": 1,
+            "permutatio": 1
+          },
+          "icon_item": {
+            "item": "thaumicfutures:bee_essence_life"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_ESSENCE_ARMOR",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 2,
+          "displayRow": 8,
+          "complexity": 2,
+          "parents": [
+            "thaumicomniverse:MB_ESSENCE_LIFE"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "praecantatio": 1,
+            "tutamen": 1
+          },
+          "icon_item": {
+            "item": "thaumicfutures:bee_essence_armor"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_ESSENCE_UNSTABLE",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 6,
+          "displayRow": 8,
+          "complexity": 2,
+          "parents": [
+            "thaumicomniverse:MB_ESSENCE_LIFE"
+          ],
+          "pageCount": 3,
+          "aspects": {
+            "praecantatio": 1,
+            "perditio": 1
+          },
+          "icon_item": {
+            "item": "thaumicfutures:bee_essence_unstable"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_ESSENCE_DEATH",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 5,
+          "displayRow": 10,
+          "complexity": 2,
+          "parents": [
+            "thaumicomniverse:MB_ESSENCE_UNSTABLE"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "praecantatio": 1,
+            "mortuus": 1
+          },
+          "icon_item": {
+            "item": "thaumicfutures:bee_essence_death"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_ESSENCE_TIME",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 7,
+          "displayRow": 10,
+          "complexity": 2,
+          "parents": [
+            "thaumicomniverse:MB_ESSENCE_UNSTABLE"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "praecantatio": 1,
+            "ordo": 1
+          },
+          "icon_item": {
+            "item": "thaumicfutures:bee_essence_time"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_SINGULARITY",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 8,
+          "displayRow": 7,
+          "complexity": 2,
+          "parents": [
+            "INFUSION",
+            "thaumicomniverse:MB_ESSENCE_UNSTABLE"
+          ],
+          "pageCount": 3,
+          "aspects": {
+            "alienis": 2,
+            "permutatio": 2
+          },
+          "icon_item": {
+            "item": "thaumicfutures:bee_dimensional_singularity"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_ESSENCE_OBLIVION",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 10,
+          "displayRow": 7,
+          "complexity": 2,
+          "parents": [
+            "thaumicomniverse:MB_SINGULARITY"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "alienis": 2,
+            "perditio": 2
+          },
+          "icon_item": {
+            "item": "thaumicfutures:bee_essence_oblivion"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_WILD_HIVES",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 0,
+          "displayRow": 4,
+          "complexity": 2,
+          "parents": [
+            "thaumicfutures:GUIDE_BEES"
+          ],
+          "pageCount": 1,
+          "aspects": {
+            "bestia": 2,
+            "terra": 2
+          },
+          "icon_item": {
+            "item": "thaumicfutures:bee_hive_deep"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_MAGIC_APIARY",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -1,
+          "displayRow": 6,
+          "complexity": 2,
+          "parents": [
+            "thaumicomniverse:MB_WILD_HIVES"
+          ],
+          "pageCount": 1,
+          "aspects": {
+            "bestia": 2,
+            "praecantatio": 2
+          },
+          "icon_item": {
+            "item": "thaumicfutures:magic_apiary"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_VIS_AURA_PROVIDER",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -1,
+          "displayRow": 8,
+          "complexity": 2,
+          "parents": [
+            "VISPOWER",
+            "thaumicomniverse:MB_MAGIC_APIARY"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "praecantatio": 1,
+            "potentia": 1,
+            "auram": 1
+          },
+          "icon_item": {
+            "item": "thaumicfutures:vis_aura_provider"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_LORE_FRAGMENT",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -2,
+          "displayRow": 5,
+          "complexity": 2,
+          "parents": [
+            "thaumicomniverse:MB_WILD_HIVES"
+          ],
+          "pageCount": 1,
+          "aspects": {
+            "cognitio": 1,
+            "sensus": 1
+          },
+          "icon_item": {
+            "item": "thaumicfutures:bee_lore_fragment"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:MB_BREEDING",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 1,
+          "displayRow": 6,
+          "complexity": 2,
+          "parents": [
+            "thaumicomniverse:MB_WILD_HIVES"
+          ],
+          "pageCount": 5,
+          "aspects": {
+            "bestia": 2,
+            "cognitio": 2
+          },
+          "icon_item": {
+            "item": "thaumicfutures:bee_comb_air"
+          },
+          "omniverse_requires": [
+            "forestry",
+            "mobees"
+          ]
+        }
+      ]
+    }
+  ]
+}

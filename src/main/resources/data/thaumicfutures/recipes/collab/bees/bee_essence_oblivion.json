@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "thaumicomniverse:MB_ESSENCE_OBLIVION",
+  "ingredients": [
+    {
+      "item": "thaumicfutures:bee_dimensional_singularity"
+    },
+    {
+      "item": "minecraft:dragon_egg"
+    }
+  ],
+  "vis": {
+    "perditio": 25,
+    "aer": 40,
+    "ordo": 15
+  },
+  "result": {
+    "item": "thaumicfutures:bee_essence_oblivion"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

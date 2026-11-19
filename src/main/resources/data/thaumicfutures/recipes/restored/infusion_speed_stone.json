@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:RESTORED_INFUSION_STONES",
+  "result": {
+    "item": "thaumicfutures:infusion_speed_stone"
+  },
+  "pattern": [
+    "SNS",
+    "NGN",
+    "SNS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "N": {
+      "tag": "thaumicfutures:nitor"
+    },
+    "G": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "vis": {
+    "aer": 25,
+    "ordo": 25
+  }
+}

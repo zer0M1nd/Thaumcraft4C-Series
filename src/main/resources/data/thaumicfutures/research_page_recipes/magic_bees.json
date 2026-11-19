@@ -1,0 +1,761 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:MB_SCOOP",
+      "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "thaumicomniverse:MB_SCOOP",
+        "width": 3,
+        "height": 3,
+        "shaped": true,
+        "mirrored": true,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:thaumium_scoop",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:white_wool",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            null
+          ]
+        },
+        "aspects": [
+          {
+            "aspect": "ordo",
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:MB_GRAFTER",
+      "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "thaumicomniverse:MB_GRAFTER",
+        "width": 3,
+        "height": 3,
+        "shaped": true,
+        "mirrored": true,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:thaumium_grafter",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            null,
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            null,
+            null
+          ]
+        },
+        "aspects": [
+          {
+            "aspect": "ordo",
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:MB_FRAME_MAGIC",
+      "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "thaumicomniverse:MB_FRAME_MAGIC",
+        "width": 3,
+        "height": 3,
+        "shaped": true,
+        "mirrored": true,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:bee_frame_magic",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:enchanted_fabric",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": [
+          {
+            "aspect": "ordo",
+            "amount": 5
+          },
+          {
+            "aspect": "aer",
+            "amount": 2
+          },
+          {
+            "aspect": "terra",
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_LIFE",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "crucible",
+        "research": "thaumicomniverse:MB_ESSENCE_LIFE",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:poppy",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:bee_essence_life",
+            "count": 1
+          }
+        },
+        "aspects": [
+          {
+            "aspect": "permutatio",
+            "amount": 4
+          },
+          {
+            "aspect": "herba",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_ARMOR",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "crucible",
+        "research": "thaumicomniverse:MB_ESSENCE_ARMOR",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:leather",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:bee_essence_armor",
+            "count": 1
+          }
+        },
+        "aspects": [
+          {
+            "aspect": "tutamen",
+            "amount": 4
+          },
+          {
+            "aspect": "praecantatio",
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_UNSTABLE",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "crucible",
+        "research": "thaumicomniverse:MB_ESSENCE_UNSTABLE",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:bee_propolis_unstable",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:bee_essence_unstable",
+            "count": 1
+          }
+        },
+        "aspects": [
+          {
+            "aspect": "perditio",
+            "amount": 2
+          },
+          {
+            "aspect": "permutatio",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_UNSTABLE_NETHERRACK",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "crucible",
+        "research": "thaumicomniverse:MB_ESSENCE_UNSTABLE",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:netherrack",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:bee_essence_unstable",
+            "count": 1
+          }
+        },
+        "aspects": [
+          {
+            "aspect": "perditio",
+            "amount": 8
+          },
+          {
+            "aspect": "permutatio",
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_DEATH",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "crucible",
+        "research": "thaumicomniverse:MB_ESSENCE_DEATH",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:rotten_flesh",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:bee_essence_death",
+            "count": 1
+          }
+        },
+        "aspects": [
+          {
+            "aspect": "mortuus",
+            "amount": 4
+          },
+          {
+            "aspect": "perditio",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_TIME",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "crucible",
+        "research": "thaumicomniverse:MB_ESSENCE_TIME",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:clock",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:bee_essence_time",
+            "count": 1
+          }
+        },
+        "aspects": [
+          {
+            "aspect": "ordo",
+            "amount": 10
+          },
+          {
+            "aspect": "vacuos",
+            "amount": 10
+          },
+          {
+            "aspect": "vinculum",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:MB_SINGULARITY_GOLD",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicomniverse:MB_SINGULARITY",
+        "instability": 5,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:gold_block",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:bee_dimensional_singularity",
+            "count": 3
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_pearl",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": [
+          {
+            "aspect": "alienis",
+            "amount": 10
+          },
+          {
+            "aspect": "permutatio",
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:MB_SINGULARITY_PROPOLIS",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicomniverse:MB_SINGULARITY",
+        "instability": 6,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:bee_propolis_unstable",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:bee_dimensional_singularity",
+            "count": 3
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": [
+          {
+            "aspect": "alienis",
+            "amount": 10
+          },
+          {
+            "aspect": "permutatio",
+            "amount": 20
+          },
+          {
+            "aspect": "vacuos",
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_OBLIVION",
+      "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "arcane_shapeless",
+        "research": "thaumicomniverse:MB_ESSENCE_OBLIVION",
+        "shaped": false,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:bee_essence_oblivion",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicfutures:bee_dimensional_singularity",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:dragon_egg",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": [
+          {
+            "aspect": "perditio",
+            "amount": 25
+          },
+          {
+            "aspect": "aer",
+            "amount": 40
+          },
+          {
+            "aspect": "ordo",
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:MB_VIS_AURA_PROVIDER",
+      "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "thaumicomniverse:MB_VIS_AURA_PROVIDER",
+        "width": 3,
+        "height": 3,
+        "shaped": true,
+        "mirrored": true,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:vis_aura_provider",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_nugget",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_nugget",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:vis_relay",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_nugget",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicfutures:bee_pollen_unusual",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_nugget",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": [
+          {
+            "aspect": "ordo",
+            "amount": 60
+          },
+          {
+            "aspect": "aer",
+            "amount": 60
+          },
+          {
+            "aspect": "perditio",
+            "amount": 60
+          },
+          {
+            "aspect": "aqua",
+            "amount": 60
+          }
+        ]
+      }
+    }
+  ]
+}

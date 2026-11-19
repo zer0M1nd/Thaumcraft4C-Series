@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": [
+        "taintedmagic:primordial_mote"
+      ],
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 1
+        },
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "ignis",
+          "amount": 1
+        },
+        {
+          "aspect": "ordo",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "taintedmagic:primordial_nodule"
+      ],
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 4
+        },
+        {
+          "aspect": "aqua",
+          "amount": 4
+        },
+        {
+          "aspect": "ignis",
+          "amount": 4
+        },
+        {
+          "aspect": "ordo",
+          "amount": 4
+        },
+        {
+          "aspect": "perditio",
+          "amount": 5
+        },
+        {
+          "aspect": "terra",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "taintedmagic:shadow_imbued_cloth"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "ordo",
+          "amount": 3
+        },
+        {
+          "aspect": "pannus",
+          "amount": 4
+        },
+        {
+          "aspect": "perditio",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "items": [
+        "taintedmagic:shadowmetal_ingot"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "tenebrae",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "taintedmagic:voidwalker_boots"
+      ],
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 4
+        },
+        {
+          "aspect": "alienis",
+          "amount": 12
+        },
+        {
+          "aspect": "aqua",
+          "amount": 2
+        },
+        {
+          "aspect": "auram",
+          "amount": 2
+        },
+        {
+          "aspect": "bestia",
+          "amount": 10
+        },
+        {
+          "aspect": "corpus",
+          "amount": 1
+        },
+        {
+          "aspect": "herba",
+          "amount": 3
+        },
+        {
+          "aspect": "ignis",
+          "amount": 1
+        },
+        {
+          "aspect": "iter",
+          "amount": 9
+        },
+        {
+          "aspect": "metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "ordo",
+          "amount": 10
+        },
+        {
+          "aspect": "pannus",
+          "amount": 21
+        },
+        {
+          "aspect": "perditio",
+          "amount": 11
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 4
+        },
+        {
+          "aspect": "sensus",
+          "amount": 2
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 2
+        },
+        {
+          "aspect": "tenebrae",
+          "amount": 13
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "tutamen",
+          "amount": 8
+        },
+        {
+          "aspect": "unavailable:tabernus",
+          "amount": 12
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 13
+        },
+        {
+          "aspect": "volatus",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "taintedmagic:warpwood_log"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "taintedmagic:warpwood_planks"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "taintedmagic:warpwood_sapling"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 1
+        },
+        {
+          "aspect": "herba",
+          "amount": 2
+        }
+      ]
+    }
+  ],
+  "required_any_mods": [
+    "taintedmagic"
+  ]
+}

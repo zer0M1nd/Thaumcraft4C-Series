@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICFUTURES",
+      "icon": "thaumicfutures:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:BRASS_EXCHANGE",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -8,
+          "displayRow": -4,
+          "icon_item": {
+            "item": "thaumicfutures:alchemical_brass_nugget"
+          },
+          "parents": [
+            "ALCHEMICALBRASS"
+          ],
+          "complexity": 1,
+          "pageCount": 3,
+          "aspects": {
+            "permutatio": 3,
+            "metallum": 3
+          },
+          "omniverse_requires": [
+            "create"
+          ],
+          "omniverse_items": [
+            "thaumicfutures:alchemical_brass_nugget",
+            "create:brass_nugget"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    "bcb",
+    "cec",
+    "bcb"
+  ],
+  "key": {
+    "b": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "c": {
+      "item": "thaumcraft:mixed_crystal_cluster"
+    },
+    "e": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "thaumcraft:infusion_matrix"
+  },
+  "vis": {
+    "aer": 1,
+    "terra": 1,
+    "ignis": 1,
+    "aqua": 1,
+    "ordo": 1,
+    "perditio": 1
+  },
+  "research": "thaumicfutures:EX_MATRIX",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

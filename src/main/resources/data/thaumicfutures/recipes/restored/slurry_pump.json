@@ -1,0 +1,44 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:RESTORED_SMELTER",
+  "result": {
+    "item": "thaumicfutures:slurry_pump"
+  },
+  "pattern": [
+    "WTW",
+    "RGR",
+    "IBI"
+  ],
+  "key": {
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "T": {
+      "item": "thaumcraft:essentia_filter"
+    },
+    "R": {
+      "type": "thaumicfutures:preferred_material",
+      "tag": "forge:plates/alchemical_brass",
+      "fallback": {
+        "item": "thaumicfutures:alchemical_brass_ingot"
+      }
+    },
+    "G": {
+      "item": "thaumcraft:alchemical_construct"
+    },
+    "I": {
+      "type": "thaumicfutures:preferred_material",
+      "tag": "forge:plates/iron",
+      "fallback": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "B": {
+      "item": "thaumcraft:bellows"
+    }
+  },
+  "vis": {
+    "aer": 5,
+    "terra": 5
+  }
+}

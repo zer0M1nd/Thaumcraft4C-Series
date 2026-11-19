@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "thaumicfutures:block/magic_apiary_0",
+    "up": "thaumicfutures:block/magic_apiary_1",
+    "north": "thaumicfutures:block/magic_apiary_2",
+    "south": "thaumicfutures:block/magic_apiary_2",
+    "east": "thaumicfutures:block/magic_apiary_4",
+    "west": "thaumicfutures:block/magic_apiary_4",
+    "particle": "thaumicfutures:block/magic_apiary_2"
+  }
+}

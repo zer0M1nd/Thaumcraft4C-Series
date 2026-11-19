@@ -1,0 +1,485 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:MAGIC_BEES",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.magic_bee_products"
+          },
+          "id": "thaumicomniverse:MAGIC_BEES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_SCOOP",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.thaumium_scoop"
+          },
+          "id": "thaumicomniverse:MB_SCOOP/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "thaumicomniverse:MB_SCOOP"
+            ]
+          },
+          "id": "thaumicomniverse:MB_SCOOP/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_GRAFTER",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.thaumium_grafter"
+          },
+          "id": "thaumicomniverse:MB_GRAFTER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "thaumicomniverse:MB_GRAFTER"
+            ]
+          },
+          "id": "thaumicomniverse:MB_GRAFTER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_FRAME_MAGIC",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_frame_magic"
+          },
+          "id": "thaumicomniverse:MB_FRAME_MAGIC/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "thaumicomniverse:MB_FRAME_MAGIC"
+            ]
+          },
+          "id": "thaumicomniverse:MB_FRAME_MAGIC/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_LIFE",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_essence_life"
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_LIFE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumicomniverse:MB_ESSENCE_LIFE"
+            ]
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_LIFE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_ARMOR",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_essence_armor"
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_ARMOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumicomniverse:MB_ESSENCE_ARMOR"
+            ]
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_ARMOR/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_UNSTABLE",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_essence_unstable"
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_UNSTABLE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumicomniverse:MB_ESSENCE_UNSTABLE"
+            ]
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_UNSTABLE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumicomniverse:MB_ESSENCE_UNSTABLE_NETHERRACK"
+            ]
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_UNSTABLE/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_DEATH",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_essence_death"
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_DEATH/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumicomniverse:MB_ESSENCE_DEATH"
+            ]
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_DEATH/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_TIME",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_essence_time"
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_TIME/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumicomniverse:MB_ESSENCE_TIME"
+            ]
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_TIME/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_SINGULARITY",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_dimensional_singularity"
+          },
+          "id": "thaumicomniverse:MB_SINGULARITY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumicomniverse:MB_SINGULARITY_GOLD"
+            ]
+          },
+          "id": "thaumicomniverse:MB_SINGULARITY/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumicomniverse:MB_SINGULARITY_PROPOLIS"
+            ]
+          },
+          "id": "thaumicomniverse:MB_SINGULARITY/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_ESSENCE_OBLIVION",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_essence_oblivion"
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_OBLIVION/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "thaumicomniverse:MB_ESSENCE_OBLIVION"
+            ]
+          },
+          "id": "thaumicomniverse:MB_ESSENCE_OBLIVION/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_WILD_HIVES",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_hive_deep"
+          },
+          "id": "thaumicomniverse:MB_WILD_HIVES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_MAGIC_APIARY",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.magic_apiary"
+          },
+          "id": "thaumicomniverse:MB_MAGIC_APIARY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_VIS_AURA_PROVIDER",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.vis_aura_provider"
+          },
+          "id": "thaumicomniverse:MB_VIS_AURA_PROVIDER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "thaumicomniverse:MB_VIS_AURA_PROVIDER"
+            ]
+          },
+          "id": "thaumicomniverse:MB_VIS_AURA_PROVIDER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_LORE_FRAGMENT",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_lore_fragment"
+          },
+          "id": "thaumicomniverse:MB_LORE_FRAGMENT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:MB_BREEDING",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_comb_air"
+          },
+          "id": "thaumicomniverse:MB_BREEDING/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_breeding.1"
+          },
+          "id": "thaumicomniverse:MB_BREEDING/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_breeding.2"
+          },
+          "id": "thaumicomniverse:MB_BREEDING/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_breeding.3"
+          },
+          "id": "thaumicomniverse:MB_BREEDING/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.bee_breeding.4"
+          },
+          "id": "thaumicomniverse:MB_BREEDING/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

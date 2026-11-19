@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    "a a",
+    "a a",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/thaumium"
+    },
+    "b": {
+      "item": "thaumcraft:thaumium_nugget"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:thaumium_barrel"
+  },
+  "vis": {
+    "ignis": 5,
+    "aqua": 5
+  },
+  "research": "thaumicfutures:EX_BARREL",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

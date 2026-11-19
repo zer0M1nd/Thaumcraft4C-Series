@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:RESTORED_ANCIENT_ALTAR",
+  "pattern": [
+    " S ",
+    "SQS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "thaumicfutures:ancient_stone"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "vis": {
+    "terra": 1
+  },
+  "result": {
+    "item": "thaumicfutures:ancient_glyphed_stone",
+    "count": 4
+  }
+}

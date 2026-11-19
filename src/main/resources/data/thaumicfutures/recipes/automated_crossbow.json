@@ -1,0 +1,42 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "thaumicfutures:BASICTURRET",
+  "pattern": [
+    "BGI",
+    "WMW",
+    "S S"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bow"
+    },
+    "G": {
+      "type": "thaumicfutures:preferred_material",
+      "tag": "forge:gears/alchemical_brass",
+      "fallback": {
+        "item": "thaumicfutures:alchemical_brass_ingot"
+      }
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "M": {
+      "item": "thaumcraft:golem_core_blank"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:automated_crossbow"
+  },
+  "vis": {
+    "ignis": 50,
+    "aer": 100,
+    "ordo": 50
+  }
+}

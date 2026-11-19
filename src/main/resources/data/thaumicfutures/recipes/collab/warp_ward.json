@@ -1,0 +1,24 @@
+{
+  "type": "botania:brew",
+  "brew": "thaumicfutures:warp_ward",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "thaumcraft:bath_salts"
+    },
+    {
+      "item": "thaumcraft:amber"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

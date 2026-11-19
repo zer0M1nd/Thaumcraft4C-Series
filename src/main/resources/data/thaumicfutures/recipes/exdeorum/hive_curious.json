@@ -1,0 +1,44 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "thaumcraft:magic_tallow"
+    },
+    "b": {
+      "item": "thaumicfutures:infused_bee_trap"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:bee_hive_curious"
+  },
+  "vis": {
+    "aer": 4,
+    "terra": 4,
+    "ignis": 4,
+    "aqua": 4
+  },
+  "research": "thaumicfutures:EX_HIVES",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

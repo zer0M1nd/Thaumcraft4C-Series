@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "thaumicfutures:block/restored/essentia_injector",
+      "x": 0,
+      "y": 0
+    },
+    "facing=down": {
+      "model": "thaumicfutures:block/restored/essentia_injector",
+      "x": 180,
+      "y": 0
+    },
+    "facing=north": {
+      "model": "thaumicfutures:block/restored/essentia_injector",
+      "x": 90,
+      "y": 0
+    },
+    "facing=east": {
+      "model": "thaumicfutures:block/restored/essentia_injector",
+      "x": 90,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "thaumicfutures:block/restored/essentia_injector",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thaumicfutures:block/restored/essentia_injector",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

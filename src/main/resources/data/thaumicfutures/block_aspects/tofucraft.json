@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "block": "tofucraft:bittern",
+      "aspects": {
+        "ordo": 1
+      }
+    },
+    {
+      "block": "tofucraft:soybean",
+      "aspects": {
+        "messis": 2,
+        "thaumicomniverse:tofu": 1
+      }
+    },
+    {
+      "block": "tofucraft:tf_collector",
+      "aspects": {
+        "aer": 5,
+        "auram": 3,
+        "lucrum": 3,
+        "thaumicomniverse:tofu": 15
+      }
+    }
+  ],
+  "required_any_mods": [
+    "tofucraft"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "thaumicfutures:FOCUSGRAPPLE",
+  "pattern": [
+    "AQW",
+    "QDQ",
+    "WQA"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:air_shard"
+    },
+    "W": {
+      "item": "thaumcraft:water_shard"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "D": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:focus_grapple"
+  },
+  "vis": {
+    "aer": 75,
+    "aqua": 75,
+    "ordo": 50
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "thaumicfutures:revealing_helmet",
+  "ingredients": [
+    {
+      "item": "botania:elementium_helmet"
+    },
+    {
+      "item": "thaumcraft:goggles"
+    }
+  ],
+  "result": {
+    "item": "thaumicfutures:elementium_revealing_helmet"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

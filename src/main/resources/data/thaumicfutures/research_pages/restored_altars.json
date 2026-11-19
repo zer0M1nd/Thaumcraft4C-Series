@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:RESTORED_ANCIENT_ALTAR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_ancient_altar"
+          },
+          "id": "thaumicomniverse:RESTORED_ANCIENT_ALTAR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/ancient_stone"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ANCIENT_ALTAR/page/2",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/ancient_stone_bricks"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ANCIENT_ALTAR/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/ancient_pedestal"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ANCIENT_ALTAR/page/4",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/ancient_matrix"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ANCIENT_ALTAR/page/5",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/ancient_stone_stairs"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ANCIENT_ALTAR/page/6",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/ancient_stone_slab"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ANCIENT_ALTAR/page/7",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/ancient_glyphed_stone"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ANCIENT_ALTAR/page/8",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RESTORED_ELDRITCH_ALTAR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_eldritch_altar"
+          },
+          "id": "thaumicomniverse:RESTORED_ELDRITCH_ALTAR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/eldritch_stone"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ELDRITCH_ALTAR/page/2",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/eldritch_stone_bricks"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ELDRITCH_ALTAR/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/eldritch_pedestal"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ELDRITCH_ALTAR/page/4",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/eldritch_matrix"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ELDRITCH_ALTAR/page/5",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/eldritch_stone_stairs"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ELDRITCH_ALTAR/page/6",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/eldritch_stone_slab"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_ELDRITCH_ALTAR/page/7",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RESTORED_INFUSION_STONES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_infusion_stones"
+          },
+          "id": "thaumicomniverse:RESTORED_INFUSION_STONES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/infusion_speed_stone"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_INFUSION_STONES/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/infusion_efficiency_stone"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_INFUSION_STONES/page/3",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

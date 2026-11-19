@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicfutures:GUIDE_FUTURES",
+      "pages": [
+        {
+          "id": "thaumicfutures:GUIDE_FUTURES/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.guide_futures.intro"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:GUIDE_FUTURES/index",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.guide_futures.index",
+            "with": [
+              {
+                "research": "thaumicfutures:GUIDE_TC6"
+              },
+              {
+                "research": "thaumicfutures:GUIDE_TC5"
+              }
+            ]
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:GUIDE_FUTURES/index/exdeorum",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.guide_futures.exdeorum",
+            "with": [
+              {
+                "research": "thaumicfutures:EX_SHARDS"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "exdeorum"
+            }
+          ]
+        },
+        {
+          "id": "thaumicfutures:GUIDE_FUTURES/index/bees",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.guide_futures.bees",
+            "with": [
+              {
+                "research": "thaumicfutures:GUIDE_BEES"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "forestry"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "mobees"
+            }
+          ]
+        },
+        {
+          "id": "thaumicfutures:GUIDE_FUTURES/index/backpacks",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.guide_futures.backpacks",
+            "with": [
+              {
+                "research": "thaumicomniverse:ARCANE_CRAFTING_UPGRADE"
+              },
+              {
+                "research": "thaumicomniverse:ENERGIZED_NODE_UPGRADE"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "sophisticatedbackpacks"
+            }
+          ]
+        },
+        {
+          "id": "thaumicfutures:GUIDE_FUTURES/index/machinery",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.guide_futures.machinery",
+            "with": [
+              {
+                "research": "thaumicomniverse:MACHINE_ASPECT_PORTS"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "modular_machinery_reborn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:GUIDE_TC6",
+      "pages": [
+        {
+          "id": "thaumicfutures:GUIDE_TC6/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.guide_tc6.intro",
+            "with": [
+              {
+                "research": "CRUCIBLE"
+              },
+              {
+                "research": "INFUSION"
+              },
+              {
+                "research": "THAUMOMETER"
+              },
+              {
+                "research": "ELDRITCHMAJOR"
+              }
+            ]
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:GUIDE_TC6/index",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.guide_tc6.index",
+            "with": [
+              {
+                "research": "ALCHEMICALBRASS"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_MATERIALS"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_SPONGE"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_URN"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_SMELTER"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_TRANSCEIVER"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_ANCIENT_ALTAR"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_ELDRITCH_ALTAR"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_INFUSION_STONES"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_CHARMS"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_CELESTIAL"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_CURIOS"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_CRYSTALS"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_VOIDSEER"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_PARADOX"
+              },
+              {
+                "research": "thaumicomniverse:RESTORED_NITOR"
+              }
+            ]
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:GUIDE_TC6/index/create",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.guide_tc6.create",
+            "with": [
+              {
+                "research": "thaumicomniverse:BRASS_EXCHANGE"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "create"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:GUIDE_TC5",
+      "pages": [
+        {
+          "id": "thaumicfutures:GUIDE_TC5/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.guide_tc5.intro",
+            "with": [
+              {
+                "research": "thaumicfutures:DIOPTRA"
+              },
+              {
+                "research": "thaumicfutures:ARCANEPATTERNCRAFTER"
+              },
+              {
+                "research": "thaumicfutures:BASICTURRET"
+              },
+              {
+                "research": "thaumicfutures:FOCUSTURRET"
+              },
+              {
+                "research": "thaumicfutures:FOCUSSHARD"
+              },
+              {
+                "research": "thaumicfutures:FOCUSGRAPPLE"
+              },
+              {
+                "research": "thaumicfutures:FOCUSBUILDER"
+              }
+            ]
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:GUIDE_BEES",
+      "omniverse_requires": [
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "id": "thaumicfutures:GUIDE_BEES/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.guide_bees.intro",
+            "with": [
+              {
+                "research": "thaumicomniverse:MB_WILD_HIVES"
+              },
+              {
+                "research": "thaumicomniverse:MB_MAGIC_APIARY"
+              },
+              {
+                "research": "thaumicomniverse:MB_BREEDING"
+              },
+              {
+                "research": "thaumicomniverse:MAGIC_BEES"
+              },
+              {
+                "research": "thaumicomniverse:MB_SCOOP"
+              },
+              {
+                "research": "thaumicomniverse:MB_ESSENCE_LIFE"
+              },
+              {
+                "research": "thaumicomniverse:MB_ESSENCE_OBLIVION"
+              }
+            ]
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:GUIDE_BEES/intro/exdeorum",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.guide_bees.exdeorum",
+            "with": [
+              {
+                "research": "thaumicfutures:EX_HIVES"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "exdeorum"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

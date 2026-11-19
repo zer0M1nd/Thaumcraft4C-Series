@@ -1,0 +1,16 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "thaumcraft:scribing_tools"
+  },
+  "output": {
+    "item": "thaumicfutures:mana_inkwell"
+  },
+  "mana": 35000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

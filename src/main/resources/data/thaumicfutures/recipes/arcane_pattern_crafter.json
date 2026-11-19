@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "thaumicfutures:ARCANEPATTERNCRAFTER",
+  "pattern": [
+    " H ",
+    "GCG",
+    " W "
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "G": {
+      "type": "thaumicfutures:preferred_material",
+      "tag": "forge:gears/alchemical_brass",
+      "fallback": {
+        "item": "thaumicfutures:alchemical_brass_ingot"
+      }
+    },
+    "C": {
+      "item": "minecraft:crafting_table"
+    },
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:arcane_pattern_crafter"
+  },
+  "vis": {
+    "ordo": 100,
+    "ignis": 100,
+    "perditio": 100
+  }
+}

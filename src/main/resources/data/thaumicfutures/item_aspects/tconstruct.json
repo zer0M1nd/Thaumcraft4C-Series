@@ -1,0 +1,4702 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": [
+        "minecraft:copper_ingot"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "minecraft:iron_nugget"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:arrow_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:earthslime"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:arrow_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:flint",
+            "tconstruct:flint#basalt",
+            "tconstruct:flint#deepslate"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:battlesign"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:black_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:black_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:blue_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:blue_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:bow_grip"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_grip"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_grip"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cactus"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_grip"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_grip"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_grip"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_grip"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_grip"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_grip_cast"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:bow_limb"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_limb"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_limb"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cactus"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_limb"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_limb"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_limb"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_limb"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_limb"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:bow_limb_cast"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:bowstring"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        },
+        {
+          "aspect": "vinculum",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:string"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_axe"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:broad_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        },
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        },
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        },
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        },
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        },
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        },
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:flint",
+            "tconstruct:flint#basalt",
+            "tconstruct:flint#deepslate"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        },
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        },
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:rock",
+            "tconstruct:rock#andesite",
+            "tconstruct:rock#blackstone",
+            "tconstruct:rock#calcite",
+            "tconstruct:rock#diorite",
+            "tconstruct:rock#granite",
+            "tconstruct:rock#stone"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        },
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:flint",
+            "tconstruct:flint#basalt",
+            "tconstruct:flint#deepslate"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:rock",
+            "tconstruct:rock#andesite",
+            "tconstruct:rock#blackstone",
+            "tconstruct:rock#calcite",
+            "tconstruct:rock#diorite",
+            "tconstruct:rock#granite",
+            "tconstruct:rock#stone"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:broad_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:brown_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:brown_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:clear_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:clear_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:cleaver"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:cobalt_ingot"
+      ],
+      "aspects": [
+        {
+          "aspect": "ignis",
+          "amount": 2
+        },
+        {
+          "aspect": "instrumentum",
+          "amount": 1
+        },
+        {
+          "aspect": "metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "motus",
+          "amount": 1
+        },
+        {
+          "aspect": "ordo",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "potentia",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:cobalt_nugget"
+      ],
+      "aspects": [
+        {
+          "aspect": "ignis",
+          "amount": 2
+        },
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "potentia",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:copper_nugget"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:crafting_station"
+      ],
+      "aspects": [
+        {
+          "aspect": "fabrico",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:crossbow"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:cyan_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:cyan_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:dagger"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:excavator"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:fletching"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:feather"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:gear_cast"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "machina",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:gray_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:gray_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:green_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:green_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:hammer_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:hammer_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:hammer_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:hammer_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:hammer_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:hammer_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:flint",
+            "tconstruct:flint#basalt",
+            "tconstruct:flint#deepslate"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:hammer_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:hammer_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:rock",
+            "tconstruct:rock#andesite",
+            "tconstruct:rock#blackstone",
+            "tconstruct:rock#calcite",
+            "tconstruct:rock#diorite",
+            "tconstruct:rock#granite",
+            "tconstruct:rock#stone"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:hammer_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:hand_axe"
+      ],
+      "aspects": [
+        {
+          "aspect": "iter",
+          "amount": 3
+        },
+        {
+          "aspect": "machina",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:ingot_cast"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:javelin"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:large_plate"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:large_plate"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:large_plate"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:large_plate"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:large_plate"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:large_plate"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:flint",
+            "tconstruct:flint#basalt",
+            "tconstruct:flint#deepslate"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:large_plate"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:large_plate"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:rock",
+            "tconstruct:rock#andesite",
+            "tconstruct:rock#blackstone",
+            "tconstruct:rock#calcite",
+            "tconstruct:rock#diorite",
+            "tconstruct:rock#granite",
+            "tconstruct:rock#stone"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:large_plate"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:light_blue_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:light_blue_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:light_gray_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:light_gray_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:lime_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:lime_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:longbow"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "motus",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:magenta_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:magenta_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:manyullyn_ingot"
+      ],
+      "aspects": [
+        {
+          "aspect": "ignis",
+          "amount": 2
+        },
+        {
+          "aspect": "metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "potentia",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:manyullyn_nugget"
+      ],
+      "aspects": [
+        {
+          "aspect": "ignis",
+          "amount": 2
+        },
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "potentia",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:mattock"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:necrotic_bone"
+      ],
+      "aspects": [
+        {
+          "aspect": "exanimis",
+          "amount": 2
+        },
+        {
+          "aspect": "fames",
+          "amount": 2
+        },
+        {
+          "aspect": "mortuus",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:orange_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:orange_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:pattern"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        },
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:pick_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:pick_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:pick_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:pick_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:pick_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:pick_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:flint",
+            "tconstruct:flint#basalt",
+            "tconstruct:flint#deepslate"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:pick_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:pick_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:rock",
+            "tconstruct:rock#andesite",
+            "tconstruct:rock#blackstone",
+            "tconstruct:rock#calcite",
+            "tconstruct:rock#diorite",
+            "tconstruct:rock#granite",
+            "tconstruct:rock#stone"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:pick_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:pick_head_cast"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:pickaxe"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:pig_iron_ingot"
+      ],
+      "aspects": [
+        {
+          "aspect": "corpus",
+          "amount": 1
+        },
+        {
+          "aspect": "ignis",
+          "amount": 2
+        },
+        {
+          "aspect": "metallum",
+          "amount": 4
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "potentia",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:pig_iron_nugget"
+      ],
+      "aspects": [
+        {
+          "aspect": "ignis",
+          "amount": 2
+        },
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "potentia",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:pink_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:pink_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:purple_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:purple_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:red_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:red_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:scorched_basin"
+      ],
+      "aspects": [
+        {
+          "aspect": "herba",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vinculum",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:scorched_bricks"
+      ],
+      "aspects": [
+        {
+          "aspect": "herba",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vinculum",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:scorched_drain"
+      ],
+      "aspects": [
+        {
+          "aspect": "herba",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vinculum",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:scorched_faucet"
+      ],
+      "aspects": [
+        {
+          "aspect": "herba",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vinculum",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:scorched_table"
+      ],
+      "aspects": [
+        {
+          "aspect": "herba",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vinculum",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:scythe"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:seared_basin"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:seared_brick"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:seared_bricks"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:seared_channel"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:seared_drain"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:seared_fancy_bricks"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "fames",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "victus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:seared_faucet"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:seared_paver"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "fames",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "victus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:seared_table"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:shuriken"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:silky_cloth"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 1
+        },
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "pannus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:silky_jewel"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 1
+        },
+        {
+          "aspect": "lucrum",
+          "amount": 1
+        },
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "pannus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:sledge_hammer"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:small_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 3
+        },
+        {
+          "aspect": "machina",
+          "amount": 2
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 3
+        },
+        {
+          "aspect": "machina",
+          "amount": 2
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 3
+        },
+        {
+          "aspect": "machina",
+          "amount": 2
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 3
+        },
+        {
+          "aspect": "machina",
+          "amount": 2
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 3
+        },
+        {
+          "aspect": "machina",
+          "amount": 2
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 3
+        },
+        {
+          "aspect": "machina",
+          "amount": 2
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:flint",
+            "tconstruct:flint#basalt",
+            "tconstruct:flint#deepslate"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 3
+        },
+        {
+          "aspect": "machina",
+          "amount": 2
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 3
+        },
+        {
+          "aspect": "machina",
+          "amount": 2
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:rock",
+            "tconstruct:rock#andesite",
+            "tconstruct:rock#blackstone",
+            "tconstruct:rock#calcite",
+            "tconstruct:rock#diorite",
+            "tconstruct:rock#granite",
+            "tconstruct:rock#stone"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_axe_head"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 3
+        },
+        {
+          "aspect": "machina",
+          "amount": 2
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 3
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_axe_head_cast"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:small_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:flint",
+            "tconstruct:flint#basalt",
+            "tconstruct:flint#deepslate"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:rock",
+            "tconstruct:rock#andesite",
+            "tconstruct:rock#blackstone",
+            "tconstruct:rock#calcite",
+            "tconstruct:rock#diorite",
+            "tconstruct:rock#granite",
+            "tconstruct:rock#stone"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_blade"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:small_blade_cast"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:steel_ingot"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "ordo",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:steel_nugget"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "ordo",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:sword"
+      ],
+      "aspects": [
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:tinker_station"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 1
+        },
+        {
+          "aspect": "fabrico",
+          "amount": 1
+        },
+        {
+          "aspect": "ordo",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:tinkers_anvil"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "arbor",
+          "amount": 1
+        },
+        {
+          "aspect": "fabrico",
+          "amount": 1
+        },
+        {
+          "aspect": "ignis",
+          "amount": 1
+        },
+        {
+          "aspect": "instrumentum",
+          "amount": 1
+        },
+        {
+          "aspect": "lucrum",
+          "amount": 5
+        },
+        {
+          "aspect": "metallum",
+          "amount": 8
+        },
+        {
+          "aspect": "ordo",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 1
+        },
+        {
+          "aspect": "potentia",
+          "amount": 1
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:tool_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:flint",
+            "tconstruct:flint#basalt",
+            "tconstruct:flint#deepslate"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:rock",
+            "tconstruct:rock#andesite",
+            "tconstruct:rock#blackstone",
+            "tconstruct:rock#calcite",
+            "tconstruct:rock#diorite",
+            "tconstruct:rock#granite",
+            "tconstruct:rock#stone"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_binding_cast"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:tool_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:steel"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:flint",
+            "tconstruct:flint#basalt",
+            "tconstruct:flint#deepslate"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:rock",
+            "tconstruct:rock#andesite",
+            "tconstruct:rock#blackstone",
+            "tconstruct:rock#calcite",
+            "tconstruct:rock#diorite",
+            "tconstruct:rock#granite",
+            "tconstruct:rock#stone"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tool_handle_cast"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:tough_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:flint",
+            "tconstruct:flint#basalt",
+            "tconstruct:flint#deepslate"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:rock",
+            "tconstruct:rock#andesite",
+            "tconstruct:rock#blackstone",
+            "tconstruct:rock#calcite",
+            "tconstruct:rock#diorite",
+            "tconstruct:rock#granite",
+            "tconstruct:rock#stone"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_binding"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 2
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_binding_cast"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:tough_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bone"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:bronze"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:cobalt"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": "tconstruct:manyullyn"
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:copper",
+            "tconstruct:copper#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:flint",
+            "tconstruct:flint#basalt",
+            "tconstruct:flint#deepslate"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:iron",
+            "tconstruct:iron#oxidized"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:rock",
+            "tconstruct:rock#andesite",
+            "tconstruct:rock#blackstone",
+            "tconstruct:rock#calcite",
+            "tconstruct:rock#diorite",
+            "tconstruct:rock#granite",
+            "tconstruct:rock#stone"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_handle"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ],
+      "nbt": {
+        "Material": {
+          "$in": [
+            "tconstruct:wood",
+            "tconstruct:wood#crimson",
+            "tconstruct:wood#warped"
+          ]
+        }
+      }
+    },
+    {
+      "items": [
+        "tconstruct:tough_handle_cast"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:white_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:white_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:yellow_clear_stained_glass"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "tconstruct:yellow_clear_stained_glass_pane"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "required_any_mods": [
+    "tconstruct"
+  ]
+}

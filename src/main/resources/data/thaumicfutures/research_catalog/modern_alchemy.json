@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICFUTURES",
+      "icon": "thaumicfutures:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "ALCHEMICALBRASS",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -9,
+          "displayRow": -2,
+          "parents": [
+            "CRUCIBLE"
+          ],
+          "parentMirrors": {
+            "CRUCIBLE": "thaumicfutures:M_TC6_CRUCIBLE"
+          },
+          "icon_item": {
+            "item": "thaumicfutures:alchemical_brass_ingot"
+          },
+          "aspects": {
+            "metallum": 3,
+            "instrumentum": 3,
+            "permutatio": 3
+          },
+          "complexity": 2,
+          "pageCount": 2,
+          "future_layout_group": "create"
+        }
+      ]
+    }
+  ]
+}

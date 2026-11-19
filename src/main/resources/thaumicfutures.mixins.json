@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "thaumicfutures.mixin",
+  "plugin": "thaumicfutures.mixin.OptionalIntegrations",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ExDeorumHeatMixin",
+    "BotaniaRunicMixin",
+    "BotaniaArmorSetMixin",
+    "IndustrialSowerMixin",
+    "IndustrialFertilizerMixin",
+    "IndustrialPechMixin",
+    "IndustrialCrusherMixin",
+    "MachineryPortsMixin",
+    "MachinerySerializerMixin",
+    "MachineryBudgetMixin",
+    "ForestrySelfMutationRegistrationMixin",
+    "ForestrySelfMutationLookupMixin",
+    "ForestryFeatureProductionMixin",
+    "ForestryCentrifugeSaveMixin",
+    "TinkersFeatureSlotsMixin"
+  ],
+  "client": [
+    "ExDeorumJeiCacheMixin",
+    "ExDeorumHeatRecipeAccessor",
+    "ExDeorumHeatDisplayMixin",
+    "MachineryJeiTextMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

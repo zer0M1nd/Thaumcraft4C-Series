@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicomniverse:MB_ESSENCE_UNSTABLE",
+  "catalyst": {
+    "item": "thaumicfutures:bee_propolis_unstable"
+  },
+  "aspects": {
+    "perditio": 2,
+    "permutatio": 1
+  },
+  "result": {
+    "item": "thaumicfutures:bee_essence_unstable"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

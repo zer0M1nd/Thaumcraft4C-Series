@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "railcraft"
+    }
+  ],
+  "research": "thaumicomniverse:ESSENTIA_RAILWAY",
+  "vis": {
+    "ordo": 10,
+    "perditio": 10
+  },
+  "pattern": [
+    " RI",
+    "RIR",
+    "IR "
+  ],
+  "key": {
+    "I": {
+      "item": "thaumcraft:void_ingot"
+    },
+    "R": {
+      "tag": "forge:dyes/red"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:void_crowbar"
+  }
+}

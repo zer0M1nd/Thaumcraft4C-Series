@@ -1,0 +1,34 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICFUTURES",
+      "icon": "thaumicfutures:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:RESTORED_CRYSTALS",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -5,
+          "displayRow": 5,
+          "icon_item": {
+            "item": "thaumcraft:air_shard"
+          },
+          "parents": [
+            "THAUMOMETER"
+          ],
+          "parentMirrors": {
+            "THAUMOMETER": "thaumicfutures:M_TC6_THAUMOMETER"
+          },
+          "complexity": 2,
+          "aspects": {
+            "vitreus": 4,
+            "praecantatio": 3,
+            "herba": 3
+          },
+          "pageCount": 1
+        }
+      ]
+    }
+  ]
+}

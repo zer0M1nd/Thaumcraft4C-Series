@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    " a ",
+    " ba",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/thaumium"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:thaumium_hammer"
+  },
+  "vis": {
+    "aer": 2,
+    "terra": 2,
+    "ignis": 2,
+    "aqua": 2,
+    "ordo": 2,
+    "perditio": 2
+  },
+  "research": "thaumicfutures:EX_HAMMER",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "thaumicfutures:bee_lore_fragment"
+    },
+    {
+      "item": "thaumicfutures:bee_lore_fragment"
+    },
+    {
+      "item": "thaumicfutures:bee_lore_fragment"
+    },
+    {
+      "item": "thaumicfutures:bee_lore_fragment"
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:knowledge_fragment"
+  }
+}

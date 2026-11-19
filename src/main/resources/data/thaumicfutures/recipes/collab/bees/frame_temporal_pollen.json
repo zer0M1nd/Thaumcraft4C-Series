@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sPs",
+    "PfP",
+    "sPs"
+  ],
+  "key": {
+    "s": {
+      "tag": "minecraft:sand"
+    },
+    "P": {
+      "item": "thaumicfutures:bee_pollen_phased"
+    },
+    "f": {
+      "item": "thaumicfutures:bee_frame_magic"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:bee_frame_temporal"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

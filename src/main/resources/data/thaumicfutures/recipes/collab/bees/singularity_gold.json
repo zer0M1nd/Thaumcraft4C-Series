@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicomniverse:MB_SINGULARITY",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    }
+  ],
+  "aspects": {
+    "alienis": 10,
+    "permutatio": 20
+  },
+  "result": {
+    "item": "thaumicfutures:bee_dimensional_singularity",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

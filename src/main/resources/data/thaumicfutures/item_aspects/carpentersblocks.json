@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": [
+        "framedblocks:framed_button"
+      ],
+      "aspects": [
+        {
+          "aspect": "machina",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "framedblocks:framed_door"
+      ],
+      "aspects": [
+        {
+          "aspect": "machina",
+          "amount": 1
+        },
+        {
+          "aspect": "motus",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "framedblocks:framed_fence_gate"
+      ],
+      "aspects": [
+        {
+          "aspect": "iter",
+          "amount": 1
+        },
+        {
+          "aspect": "machina",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "framedblocks:framed_hammer"
+      ],
+      "aspects": [
+        {
+          "aspect": "fabrico",
+          "amount": 1
+        },
+        {
+          "aspect": "instrumentum",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "framedblocks:framed_ladder"
+      ],
+      "aspects": [
+        {
+          "aspect": "iter",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "framedblocks:framed_lever"
+      ],
+      "aspects": [
+        {
+          "aspect": "machina",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "framedblocks:framed_pressure_plate"
+      ],
+      "aspects": [
+        {
+          "aspect": "machina",
+          "amount": 1
+        },
+        {
+          "aspect": "sensus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "framedblocks:framed_torch"
+      ],
+      "aspects": [
+        {
+          "aspect": "lux",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "framedblocks:framed_trapdoor"
+      ],
+      "aspects": [
+        {
+          "aspect": "motus",
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "required_any_mods": [
+    "framedblocks"
+  ]
+}

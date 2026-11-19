@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicfutures:EX_SHIMMERLEAF",
+  "catalyst": {
+    "item": "minecraft:poppy"
+  },
+  "aspects": {
+    "praecantatio": 4,
+    "herba": 4,
+    "permutatio": 4
+  },
+  "result": {
+    "item": "thaumcraft:shimmerleaf"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

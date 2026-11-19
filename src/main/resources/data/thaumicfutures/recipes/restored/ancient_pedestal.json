@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:RESTORED_ANCIENT_ALTAR",
+  "result": {
+    "item": "thaumicfutures:ancient_pedestal"
+  },
+  "pattern": [
+    "SSS",
+    " B ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumicfutures:ancient_stone_slab"
+    },
+    "B": {
+      "item": "thaumicfutures:ancient_stone"
+    }
+  },
+  "vis": {
+    "aer": 3,
+    "terra": 3,
+    "ignis": 3,
+    "aqua": 3,
+    "ordo": 3,
+    "perditio": 3
+  }
+}

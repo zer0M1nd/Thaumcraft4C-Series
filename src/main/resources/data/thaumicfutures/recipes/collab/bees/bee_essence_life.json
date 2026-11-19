@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicomniverse:MB_ESSENCE_LIFE",
+  "catalyst": {
+    "item": "minecraft:poppy"
+  },
+  "aspects": {
+    "permutatio": 4,
+    "herba": 4
+  },
+  "result": {
+    "item": "thaumicfutures:bee_essence_life"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:MB_GRAFTER",
+  "pattern": [
+    "  T",
+    " s ",
+    "s  "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    }
+  },
+  "vis": {
+    "ordo": 5
+  },
+  "result": {
+    "item": "thaumicfutures:thaumium_grafter"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicomniverse:MB_ESSENCE_ARMOR",
+  "catalyst": {
+    "item": "minecraft:leather"
+  },
+  "aspects": {
+    "tutamen": 4,
+    "praecantatio": 2
+  },
+  "result": {
+    "item": "thaumicfutures:bee_essence_armor"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

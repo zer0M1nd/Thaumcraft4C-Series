@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hostilenetworks"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "thaumcraft:tainted_goo"
+    },
+    {
+      "item": "thaumicomniverse:outerlands_prediction"
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:eldritch_crust",
+    "count": 4
+  }
+}

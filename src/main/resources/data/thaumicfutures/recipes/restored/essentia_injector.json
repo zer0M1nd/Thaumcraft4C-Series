@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:RESTORED_TRANSCEIVER",
+  "result": {
+    "item": "thaumicfutures:essentia_injector"
+  },
+  "pattern": [
+    "BQB",
+    "IGI"
+  ],
+  "key": {
+    "B": {
+      "type": "thaumicfutures:preferred_material",
+      "tag": "forge:plates/alchemical_brass",
+      "fallback": {
+        "item": "thaumicfutures:alchemical_brass_ingot"
+      }
+    },
+    "Q": {
+      "item": "minecraft:hopper"
+    },
+    "I": {
+      "type": "thaumicfutures:preferred_material",
+      "tag": "forge:plates/iron",
+      "fallback": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "G": {
+      "item": "thaumcraft:alchemical_construct"
+    }
+  },
+  "vis": {
+    "aer": 5,
+    "aqua": 5
+  }
+}

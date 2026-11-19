@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xyx",
+    " x ",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "exdeorum:porcelain_clay_ball"
+    },
+    "y": [
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "minecraft:emerald"
+      }
+    ]
+  },
+  "result": {
+    "item": "thaumicfutures:porcelain_doll"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

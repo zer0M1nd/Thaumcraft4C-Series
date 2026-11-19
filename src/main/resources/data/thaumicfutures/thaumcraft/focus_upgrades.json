@@ -1,0 +1,22 @@
+[
+  {
+    "key": "thaumicfutures:persistent",
+    "name": "focus.upgrade.thaumicfutures.persistent.name",
+    "description": "focus.upgrade.thaumicfutures.persistent.text",
+    "aspects": [
+      "tutamen",
+      "telum",
+      "potentia"
+    ],
+    "texture": "thaumicfutures:textures/foci/persistent.png"
+  },
+  {
+    "key": "thaumicfutures:sticky",
+    "name": "focus.upgrade.thaumicfutures.sticky.name",
+    "description": "focus.upgrade.thaumicfutures.sticky.text",
+    "aspects": [
+      "vinculum"
+    ],
+    "texture": "thaumicfutures:textures/foci/sticky.png"
+  }
+]

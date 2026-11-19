@@ -1,0 +1,31 @@
+{
+  "type": "forestry:centrifuge",
+  "input": {
+    "item": "thaumicfutures:bee_comb_legacy_mundane"
+  },
+  "time": 20,
+  "products": [
+    {
+      "item": "forestry:beeswax",
+      "chance": 0.9
+    },
+    {
+      "item": "forestry:honey_drop",
+      "chance": 0.6
+    },
+    {
+      "item": "thaumicfutures:bee_wax_magic",
+      "chance": 0.1
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

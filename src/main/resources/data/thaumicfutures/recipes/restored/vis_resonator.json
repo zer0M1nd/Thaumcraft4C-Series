@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:RESTORED_MATERIALS",
+  "result": {
+    "item": "thaumicfutures:vis_resonator"
+  },
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "type": "thaumicfutures:preferred_material",
+      "tag": "forge:plates/iron",
+      "fallback": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "vis": {
+    "aer": 3,
+    "aqua": 3
+  }
+}

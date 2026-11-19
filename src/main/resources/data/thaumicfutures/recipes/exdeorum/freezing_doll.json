@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "ded",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:snowball"
+    },
+    "b": {
+      "item": "minecraft:nether_wart"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "e": {
+      "item": "thaumicfutures:porcelain_doll"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:freezing_doll"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}
