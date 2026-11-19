@@ -1,0 +1,260 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "INFUSION_BREWING",
+      "icon": "infusionbrewing:textures/item/magic_bottle.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "IB_MAGIC_BOTTLE",
+          "category": "INFUSION_BREWING",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "pageCount": 2,
+          "complexity": 0,
+          "aspects": {
+            "vitreus": 1,
+            "praecantatio": 1
+          },
+          "parents": [],
+          "isRound": true,
+          "icon_item": {
+            "item": "infusionbrewing:magic_bottle"
+          },
+          "isAutoUnlock": true
+        },
+        {
+          "key": "IB_MAGIC_BUCKET",
+          "category": "INFUSION_BREWING",
+          "displayColumn": 0,
+          "displayRow": 2,
+          "pageCount": 4,
+          "complexity": 0,
+          "aspects": {
+            "vitreus": 1,
+            "praecantatio": 1
+          },
+          "parents": [],
+          "isRound": true,
+          "icon_item": {
+            "item": "infusionbrewing:magic_bucket"
+          },
+          "isAutoUnlock": true
+        },
+        {
+          "key": "IB_FLUID_POTION",
+          "category": "INFUSION_BREWING",
+          "displayColumn": 2,
+          "displayRow": 0,
+          "pageCount": 24,
+          "complexity": 1,
+          "aspects": {
+            "praecantatio": 1,
+            "ordo": 1,
+            "perditio": 1
+          },
+          "parents": [
+            "INFUSION",
+            "IB_MAGIC_BOTTLE"
+          ],
+          "isRound": true,
+          "icon_item": {
+            "item": "infusionbrewing:speed_bucket"
+          }
+        },
+        {
+          "key": "IB_DURATION",
+          "category": "INFUSION_BREWING",
+          "displayColumn": 4,
+          "displayRow": -2,
+          "pageCount": 3,
+          "complexity": 0,
+          "aspects": {
+            "motus": 4,
+            "praecantatio": 4
+          },
+          "parents": [
+            "IB_FLUID_POTION"
+          ],
+          "isRound": true,
+          "icon_item": {
+            "item": "minecraft:redstone"
+          },
+          "isSecondary": true
+        },
+        {
+          "key": "IB_AMPLIFIER",
+          "category": "INFUSION_BREWING",
+          "displayColumn": 4,
+          "displayRow": 2,
+          "pageCount": 2,
+          "complexity": 0,
+          "aspects": {
+            "potentia": 4,
+            "praecantatio": 4
+          },
+          "parents": [
+            "IB_FLUID_POTION"
+          ],
+          "isRound": true,
+          "icon_item": {
+            "item": "minecraft:glowstone_dust"
+          },
+          "isSecondary": true
+        },
+        {
+          "key": "IB_SPLASH",
+          "category": "INFUSION_BREWING",
+          "displayColumn": 4,
+          "displayRow": 0,
+          "pageCount": 2,
+          "complexity": 0,
+          "aspects": {
+            "ignis": 4,
+            "praecantatio": 4
+          },
+          "parents": [
+            "IB_FLUID_POTION"
+          ],
+          "isRound": true,
+          "icon_item": {
+            "item": "minecraft:gunpowder"
+          },
+          "isSecondary": true
+        },
+        {
+          "key": "IB_POTION_AMULET",
+          "category": "INFUSION_BREWING",
+          "displayColumn": 2,
+          "displayRow": -4,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "aer": 1,
+            "tutamen": 1,
+            "sensus": 1
+          },
+          "parents": [
+            "IB_DURATION",
+            "ENCHFABRIC",
+            "TALLOW"
+          ],
+          "isRound": true,
+          "icon_item": {
+            "item": "infusionbrewing:potion_amulet"
+          }
+        },
+        {
+          "key": "IB_POTION_RING",
+          "category": "INFUSION_BREWING",
+          "displayColumn": 4,
+          "displayRow": -4,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "aqua": 1,
+            "vitreus": 1,
+            "humanus": 1
+          },
+          "parents": [
+            "IB_DURATION",
+            "ENCHFABRIC",
+            "TALLOW"
+          ],
+          "isRound": true,
+          "icon_item": {
+            "item": "infusionbrewing:potion_ring"
+          }
+        },
+        {
+          "key": "IB_POTION_BELT",
+          "category": "INFUSION_BREWING",
+          "displayColumn": 6,
+          "displayRow": -4,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "terra": 1,
+            "tutamen": 1,
+            "bestia": 1
+          },
+          "parents": [
+            "IB_DURATION",
+            "ENCHFABRIC",
+            "TALLOW"
+          ],
+          "isRound": true,
+          "icon_item": {
+            "item": "infusionbrewing:potion_belt"
+          }
+        },
+        {
+          "key": "IB_POTION_FOCUS",
+          "category": "INFUSION_BREWING",
+          "displayColumn": 6,
+          "displayRow": -1,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "ignis": 1,
+            "potentia": 1,
+            "perditio": 1
+          },
+          "parents": [
+            "IB_DURATION",
+            "IB_SPLASH",
+            "NITOR",
+            "ALUMENTUM"
+          ],
+          "isRound": true,
+          "icon_item": {
+            "item": "infusionbrewing:potion_focus"
+          }
+        },
+        {
+          "key": "IB_SPAWNER_POWER",
+          "category": "INFUSION_BREWING",
+          "displayColumn": 6,
+          "displayRow": 1,
+          "pageCount": 5,
+          "complexity": 3,
+          "aspects": {
+            "spiritus": 1,
+            "exanimis": 1,
+            "tenebrae": 1,
+            "venenum": 1
+          },
+          "parents": [
+            "IB_AMPLIFIER"
+          ],
+          "isRound": true,
+          "icon_item": {
+            "item": "infusionbrewing:spawner_power_4"
+          }
+        },
+        {
+          "key": "IB_SPAWNER_SPEED",
+          "category": "INFUSION_BREWING",
+          "displayColumn": 6,
+          "displayRow": 3,
+          "pageCount": 5,
+          "complexity": 3,
+          "aspects": {
+            "motus": 1,
+            "exanimis": 1,
+            "bestia": 1,
+            "iter": 1
+          },
+          "parents": [
+            "IB_AMPLIFIER"
+          ],
+          "isRound": true,
+          "icon_item": {
+            "item": "infusionbrewing:spawner_speed_4"
+          }
+        }
+      ]
+    }
+  ]
+}

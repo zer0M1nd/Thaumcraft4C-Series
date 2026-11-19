@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_INFUSIONBREWING",
+          "category": "TUTORIAL",
+          "displayColumn": 60,
+          "displayRow": -9,
+          "parents": [
+            "TUT_INFUSION_ENCHANT",
+            "INFUSION"
+          ],
+          "icon_item": {
+            "item": "infusionbrewing:magic_bottle",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "infusionbrewing"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "IB_MAGIC_BOTTLE",
+            "IB_FLUID_POTION",
+            "IB_DURATION",
+            "IB_AMPLIFIER",
+            "IB_POTION_AMULET",
+            "IB_POTION_FOCUS"
+          ],
+          "pageCount": 8,
+          "parentMirrors": {
+            "INFUSION": "TUT_ADDON_INFUSIONBREWING_PREREQUISITE_1"
+          }
+        },
+        {
+          "key": "TUT_ADDON_INFUSIONBREWING_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 59,
+          "displayRow": -10,
+          "mirrorOf": "INFUSION",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "infusionbrewing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

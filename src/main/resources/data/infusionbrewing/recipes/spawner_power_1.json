@@ -1,0 +1,71 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "IB_SPAWNER_POWER",
+  "instability": 2,
+  "center": {
+    "ingredient": {
+      "item": "minecraft:paper"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "type": "infusionbrewing:potion",
+        "effect": 5,
+        "amplifier": 0
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "infusionbrewing:potion",
+        "effect": 19,
+        "amplifier": 0
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "infusionbrewing:potion",
+        "effect": 20,
+        "amplifier": 0
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ink_sac"
+      }
+    }
+  ],
+  "aspects": {
+    "spiritus": 12,
+    "exanimis": 12,
+    "tenebrae": 16,
+    "venenum": 12,
+    "ignis": 16
+  },
+  "result": {
+    "item": "infusionbrewing:spawner_power_1"
+  }
+}

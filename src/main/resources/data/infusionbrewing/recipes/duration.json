@@ -1,0 +1,27 @@
+{
+  "type": "infusionbrewing:brewing",
+  "research": "IB_DURATION",
+  "instability": 1,
+  "center": {
+    "ingredient": {
+      "item": "minecraft:potion"
+    },
+    "nbt": "{CustomPotionEffects:[{Id:1b,Duration:2400,Amplifier:0b}]}"
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    }
+  ],
+  "aspects": {
+    "motus": 4,
+    "praecantatio": 2
+  },
+  "result": {
+    "item": "minecraft:potion",
+    "nbt": "{CustomPotionEffects:[{Id:1b,Duration:4800,Amplifier:0b}]}"
+  },
+  "mode": "duration"
+}

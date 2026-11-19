@@ -1,0 +1,27 @@
+{
+  "type": "infusionbrewing:brewing",
+  "research": "IB_SPLASH",
+  "instability": 1,
+  "center": {
+    "ingredient": {
+      "item": "minecraft:potion"
+    },
+    "nbt": "{CustomPotionEffects:[{Id:1b,Duration:2400,Amplifier:0b}]}"
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:gunpowder"
+      }
+    }
+  ],
+  "aspects": {
+    "ignis": 4,
+    "praecantatio": 2
+  },
+  "result": {
+    "item": "minecraft:splash_potion",
+    "nbt": "{CustomPotionEffects:[{Id:1b,Duration:2400,Amplifier:0b}]}"
+  },
+  "mode": "splash"
+}

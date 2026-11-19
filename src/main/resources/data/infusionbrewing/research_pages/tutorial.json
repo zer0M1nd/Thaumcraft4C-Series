@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_INFUSIONBREWING",
+      "pages": [
+        {
+          "id": "infusionbrewing:tut_addon_infusionbrewing/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.infusionbrewing.tut_addon_infusionbrewing.text.1",
+            "with": [
+              [
+                {
+                  "text": "注魔酿造是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "infusionbrewing:tut_addon_infusionbrewing/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.infusionbrewing.tut_addon_infusionbrewing.text.2",
+            "with": [
+              [
+                {
+                  "text": "它让你用"
+                },
+                {
+                  "text": "注魔",
+                  "bold": true
+                },
+                {
+                  "text": "来处理药水：把药水变成液体装进魔法瓶，再通过一次次注魔延长时间、提高等级或变成喷溅型，最后做成"
+                },
+                {
+                  "text": "永久生效的饰品",
+                  "bold": true
+                },
+                {
+                  "text": "或法杖核心。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "infusionbrewing:tut_addon_infusionbrewing/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "infusionbrewing:tut_addon_infusionbrewing/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.infusionbrewing.tut_addon_infusionbrewing.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "infusionbrewing:tut_addon_infusionbrewing/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.infusionbrewing.tut_addon_infusionbrewing.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "IB_MAGIC_BOTTLE"
+                },
+                {
+                  "text": "：魔法瓶，自动解锁。\n· "
+                },
+                {
+                  "research": "IB_FLUID_POTION"
+                },
+                {
+                  "text": "：药水液体，需要"
+                },
+                {
+                  "research": "INFUSION"
+                },
+                {
+                  "text": "。\n· "
+                },
+                {
+                  "research": "IB_DURATION"
+                },
+                {
+                  "text": "、"
+                },
+                {
+                  "research": "IB_AMPLIFIER"
+                },
+                {
+                  "text": "：延长时效、提升药效。\n· "
+                },
+                {
+                  "research": "IB_POTION_AMULET"
+                },
+                {
+                  "text": "：药水护身符，佩戴在饰品栏中持续获得药水效果。\n· "
+                },
+                {
+                  "research": "IB_POTION_FOCUS"
+                },
+                {
+                  "text": "：药水法杖核心。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "infusionbrewing:tut_addon_infusionbrewing/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "infusionbrewing:tut_addon_infusionbrewing/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "infusionbrewing:tut_addon_infusionbrewing/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "IB_MAGIC_BOTTLE",
+            "IB_FLUID_POTION",
+            "IB_DURATION",
+            "IB_AMPLIFIER",
+            "IB_POTION_AMULET",
+            "IB_POTION_FOCUS"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

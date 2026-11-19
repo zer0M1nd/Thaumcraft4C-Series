@@ -1,0 +1,71 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "IB_SPAWNER_POWER",
+  "instability": 11,
+  "center": {
+    "ingredient": {
+      "item": "infusionbrewing:spawner_power_3"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "type": "infusionbrewing:potion",
+        "effect": 5,
+        "amplifier": 3
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "infusionbrewing:potion",
+        "effect": 19,
+        "amplifier": 3
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "infusionbrewing:potion",
+        "effect": 20,
+        "amplifier": 3
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:cinderpearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_quartz_ore"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:magma_cream"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:coal_ore"
+      }
+    }
+  ],
+  "aspects": {
+    "spiritus": 48,
+    "exanimis": 48,
+    "tenebrae": 64,
+    "venenum": 48,
+    "ignis": 64
+  },
+  "result": {
+    "item": "infusionbrewing:spawner_power_4"
+  }
+}

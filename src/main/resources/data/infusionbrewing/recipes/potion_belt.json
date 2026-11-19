@@ -1,0 +1,44 @@
+{
+  "type": "infusionbrewing:brewing",
+  "research": "IB_POTION_BELT",
+  "instability": 8,
+  "center": {
+    "ingredient": {
+      "item": "minecraft:potion"
+    },
+    "nbt": "{CustomPotionEffects:[{Id:1b,Duration:19200,Amplifier:0b}]}"
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:magic_tallow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mundane_belt"
+      }
+    }
+  ],
+  "aspects": {
+    "terra": 32,
+    "tutamen": 16,
+    "vitreus": 16,
+    "bestia": 24
+  },
+  "result": {
+    "item": "infusionbrewing:potion_belt",
+    "nbt": "{CustomPotionEffects:[{Id:1b,Duration:19200,Amplifier:0b}]}"
+  },
+  "mode": "bauble"
+}
