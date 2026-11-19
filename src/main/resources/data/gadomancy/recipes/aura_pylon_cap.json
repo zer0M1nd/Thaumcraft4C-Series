@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "gadomancy:aura_pylon",
+  "pattern": [
+    " N ",
+    "ACA",
+    " P "
+  ],
+  "key": {
+    "N": {
+      "item": "thaumcraft:nitor"
+    },
+    "A": {
+      "item": "thaumcraft:alumentum"
+    },
+    "C": {
+      "item": "gadomancy:aura_core_ignis"
+    },
+    "P": {
+      "item": "gadomancy:aura_pylon"
+    }
+  },
+  "vis": {
+    "ordo": 90,
+    "ignis": 120,
+    "aer": 70
+  },
+  "result": {
+    "item": "gadomancy:aura_pylon_cap"
+  }
+}

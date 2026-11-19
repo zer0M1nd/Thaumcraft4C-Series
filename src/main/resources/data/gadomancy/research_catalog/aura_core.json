@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:aura_core",
+          "displayColumn": -1,
+          "displayRow": 6,
+          "pageCount": 4,
+          "complexity": 2,
+          "aspects": {
+            "auram": 22,
+            "praecantatio": 10,
+            "aer": 8,
+            "ignis": 8,
+            "aqua": 8,
+            "terra": 8,
+            "ordo": 8,
+            "perditio": 8
+          },
+          "parents": [
+            "INFUSION",
+            "THAUMIUM"
+          ],
+          "isConcealed": true,
+          "isSpecial": true,
+          "icon_item": {
+            "item": "gadomancy:aura_core_blank"
+          },
+          "category": "GADOMANCY"
+        },
+        {
+          "key": "gadomancy:clean_aura_core",
+          "displayColumn": 1,
+          "displayRow": 5,
+          "pageCount": 3,
+          "complexity": 0,
+          "aspects": {
+            "sano": 8,
+            "auram": 6,
+            "praecantatio": 8,
+            "aqua": 10
+          },
+          "parents": [
+            "gadomancy:aura_core"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "icon_item": {
+            "item": "gadomancy:aura_core_blank"
+          },
+          "category": "GADOMANCY"
+        },
+        {
+          "key": "gadomancy:arcane_packager",
+          "displayColumn": 2,
+          "displayRow": 7,
+          "pageCount": 4,
+          "complexity": 2,
+          "aspects": {
+            "aer": 12,
+            "machina": 16,
+            "vacuos": 10,
+            "praecantatio": 10
+          },
+          "parents": [
+            "gadomancy:aura_core",
+            "WARDEDARCANA"
+          ],
+          "isHidden": true,
+          "itemTriggers": [
+            {
+              "item": "gadomancy:aura_core_aer"
+            }
+          ],
+          "icon_item": {
+            "item": "gadomancy:arcane_packager"
+          },
+          "category": "GADOMANCY"
+        }
+      ]
+    }
+  ]
+}

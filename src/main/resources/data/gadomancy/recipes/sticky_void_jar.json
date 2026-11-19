@@ -1,0 +1,25 @@
+{
+  "type": "gadomancy:sticky_jar",
+  "mode": "shaped",
+  "research": "gadomancy:sticky_jar",
+  "pattern": [
+    "J",
+    "S"
+  ],
+  "key": {
+    "J": {
+      "item": "thaumcraft:void_jar"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "vis": {
+    "aqua": 10,
+    "terra": 10
+  },
+  "result": {
+    "item": "thaumcraft:void_jar",
+    "nbt": "{isStickyJar:1b}"
+  }
+}

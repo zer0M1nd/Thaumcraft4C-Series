@@ -1,0 +1,369 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:block_protector_0",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:block_protector",
+        "aspects": {
+          "ordo": 120,
+          "terra": 120
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:block_protector",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "nbt": "{Potion:\"minecraft:long_weakness\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "nbt": "{Potion:\"minecraft:long_weakness\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_tube",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_tube",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:block_protector_1",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:block_protector",
+        "aspects": {
+          "ordo": 120,
+          "terra": 120
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:block_protector",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "nbt": "{Potion:\"minecraft:weakness\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "nbt": "{Potion:\"minecraft:weakness\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_tube",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_tube",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:block_protector_2",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:block_protector",
+        "aspects": {
+          "ordo": 120,
+          "terra": 120
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:block_protector",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "nbt": "{Potion:\"minecraft:long_weakness\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "nbt": "{Potion:\"minecraft:weakness\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_tube",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_tube",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:block_protector_3",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:block_protector",
+        "aspects": {
+          "ordo": 120,
+          "terra": 120
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:block_protector",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "nbt": "{Potion:\"minecraft:weakness\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:potion",
+                "count": 1,
+                "nbt": "{Potion:\"minecraft:long_weakness\"}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_tube",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_tube",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

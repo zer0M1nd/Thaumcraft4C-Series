@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:arcane_dropper",
+          "category": "GADOMANCY",
+          "displayColumn": -1,
+          "displayRow": -3,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "ordo": 4,
+            "aer": 6,
+            "terra": 5,
+            "sensus": 5,
+            "machina": 7
+          },
+          "parents": [
+            "DISTILESSENTIA",
+            "BELLOWS"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "gadomancy:arcane_dropper"
+          }
+        }
+      ]
+    }
+  ]
+}

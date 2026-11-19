@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "gadomancy:e_portal_creator",
+  "instability": 7,
+  "aspects": {
+    "alienis": 22,
+    "vacuos": 38,
+    "machina": 30,
+    "tenebrae": 28,
+    "permutatio": 38
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_pedestal_focus"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_crystal_cluster"
+      }
+    }
+  ],
+  "result": {
+    "item": "gadomancy:portal_focus"
+  }
+}

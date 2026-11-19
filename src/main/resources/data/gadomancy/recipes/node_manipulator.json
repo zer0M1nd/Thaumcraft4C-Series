@@ -1,0 +1,82 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "gadomancy:node_manipulator",
+  "instability": 10,
+  "aspects": {
+    "auram": 42,
+    "alienis": 22,
+    "praecantatio": 38,
+    "machina": 28,
+    "tenebrae": 14
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_pedestal"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:node_stabilizer"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:warding_paving_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    }
+  ],
+  "result": {
+    "item": "gadomancy:node_manipulator"
+  }
+}

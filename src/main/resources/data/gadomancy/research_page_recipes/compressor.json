@@ -1,0 +1,331 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:darkness_element",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:essentia_compressor",
+        "instability": 6,
+        "aspects": {
+          "vacuos": 22,
+          "tenebrae": 18,
+          "alienis": 20,
+          "auram": 10
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:darkness_element",
+            "count": 1
+          }
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:void_seed",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alumentum",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alumentum",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:essentia_compressor",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:essentia_compressor",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "aqua": 190,
+          "ordo": 150,
+          "perditio": 120,
+          "ignis": 100,
+          "aer": 160,
+          "terra": 60
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:essentia_compressor",
+            "count": 3
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_log",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:order_crystal_cluster",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_log",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_filter",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "gadomancy:darkness_element",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_filter",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_log",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "gadomancy:aura_core_aqua",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_log",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:ancient_pedestal",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:e_portal_creator",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "perditio": 25,
+          "ordo": 25
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:ancient_pedestal",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_pedestal_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_pedestal_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_stone",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:activate_compressor",
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "aqua": 140,
+                "terra": 80,
+                "aer": 150,
+                "ordo": 20,
+                "perditio": 140
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 1
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 1
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:essentia_compressor",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:essentia_compressor",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:essentia_compressor",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

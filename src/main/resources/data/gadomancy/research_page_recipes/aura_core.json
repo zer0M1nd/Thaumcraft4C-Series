@@ -1,0 +1,1253 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:wash_aura_core_aer",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_blank",
+            "count": 1
+          }
+        },
+        "research": "gadomancy:clean_aura_core",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_aer",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "praecantatio": 12,
+          "aqua": 12,
+          "sano": 18
+        }
+      }
+    },
+    {
+      "key": "gadomancy:wash_aura_core_ignis",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_blank",
+            "count": 1
+          }
+        },
+        "research": "gadomancy:clean_aura_core",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_ignis",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "praecantatio": 12,
+          "aqua": 12,
+          "sano": 18
+        }
+      }
+    },
+    {
+      "key": "gadomancy:wash_aura_core_aqua",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_blank",
+            "count": 1
+          }
+        },
+        "research": "gadomancy:clean_aura_core",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_aqua",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "praecantatio": 12,
+          "aqua": 12,
+          "sano": 18
+        }
+      }
+    },
+    {
+      "key": "gadomancy:wash_aura_core_terra",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_blank",
+            "count": 1
+          }
+        },
+        "research": "gadomancy:clean_aura_core",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_terra",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "praecantatio": 12,
+          "aqua": 12,
+          "sano": 18
+        }
+      }
+    },
+    {
+      "key": "gadomancy:undo_aura_core_terra",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_blank",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shapeless",
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "gadomancy:aura_core_terra",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:wash_aura_core_ordo",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_blank",
+            "count": 1
+          }
+        },
+        "research": "gadomancy:clean_aura_core",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_ordo",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "praecantatio": 12,
+          "aqua": 12,
+          "sano": 18
+        }
+      }
+    },
+    {
+      "key": "gadomancy:wash_aura_core_perditio",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_blank",
+            "count": 1
+          }
+        },
+        "research": "gadomancy:clean_aura_core",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_perditio",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "praecantatio": 12,
+          "aqua": 12,
+          "sano": 18
+        }
+      }
+    },
+    {
+      "key": "gadomancy:undo_aura_core_perditio",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_blank",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shapeless",
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "gadomancy:aura_core_perditio",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:aura_core",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_core_blank",
+            "count": 1
+          }
+        },
+        "research": "gadomancy:aura_core",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:primal_charm",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "auram": 9,
+          "praecantatio": 19,
+          "alienis": 17,
+          "vacuos": 34
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "gadomancy:arcane_packager",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:arcane_packager",
+            "count": 1
+          }
+        },
+        "research": "gadomancy:arcane_packager",
+        "kind": "arcane_shaped",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "aer": 100,
+          "ordo": 60,
+          "perditio": 50
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:piston",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "gadomancy:aura_core_aer",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_workbench",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:activate_aura_core_aer",
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "aer": 84
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 2
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:casting_wand",
+                    "nbt": "{rod:\"greatwood\",cap:\"gold\"}",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:air_crystal_cluster",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:aura_core_blank",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:activate_aura_core_ignis",
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "ignis": 84
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 2
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:casting_wand",
+                    "nbt": "{rod:\"greatwood\",cap:\"gold\"}",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:fire_crystal_cluster",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:aura_core_blank",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:activate_aura_core_aqua",
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "aqua": 84
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 2
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:casting_wand",
+                    "nbt": "{rod:\"greatwood\",cap:\"gold\"}",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:water_crystal_cluster",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:aura_core_blank",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:activate_aura_core_terra",
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "terra": 84
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 2
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:casting_wand",
+                    "nbt": "{rod:\"greatwood\",cap:\"gold\"}",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:earth_crystal_cluster",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:aura_core_blank",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:activate_aura_core_ordo",
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "ordo": 84
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 2
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:casting_wand",
+                    "nbt": "{rod:\"greatwood\",cap:\"gold\"}",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:order_crystal_cluster",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:aura_core_blank",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:activate_aura_core_perditio",
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "perditio": 84
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 2
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:casting_wand",
+                    "nbt": "{rod:\"greatwood\",cap:\"gold\"}",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:entropy_crystal_cluster",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:aura_core_blank",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:activate_aura_core_balanced",
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "aer": 14,
+                "ignis": 14,
+                "aqua": 14,
+                "terra": 14,
+                "ordo": 14,
+                "perditio": 14
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 2
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:casting_wand",
+                    "nbt": "{rod:\"greatwood\",cap:\"gold\"}",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:mixed_crystal_cluster",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:aura_core_blank",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

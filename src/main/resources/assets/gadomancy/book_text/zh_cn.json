@@ -1,0 +1,24 @@
+{
+  "format": 1,
+  "languages": [
+    "zh_cn"
+  ],
+  "patches": [
+    {
+      "keys": [
+        "gadomancy.research_page.E_PORTAL_CREATOR.1"
+      ],
+      "find": "弗雷德里希.尼采",
+      "replace": "弗雷德里希·尼采",
+      "count": 1
+    },
+    {
+      "keys": [
+        "gadomancy.research_page.FAMILIAR_FIRE.1"
+      ],
+      "find": "之后 使魔",
+      "replace": "之后，使魔",
+      "count": 1
+    }
+  ]
+}

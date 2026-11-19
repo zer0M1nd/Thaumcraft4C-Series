@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:silverwood_golem",
+          "category": "GADOMANCY",
+          "displayColumn": 1,
+          "displayRow": -2,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "motus": 10,
+            "arbor": 10,
+            "praecantatio": 8,
+            "ordo": 8,
+            "corpus": 6,
+            "permutatio": 5
+          },
+          "parents": [
+            "GOLEMTALLOW"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "gadomancy:silverwood_golem"
+          }
+        },
+        {
+          "key": "gadomancy:golem_core_break",
+          "category": "GADOMANCY",
+          "displayColumn": 3,
+          "displayRow": -3,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "instrumentum": 8,
+            "perditio": 8,
+            "machina": 8
+          },
+          "parents": [
+            "COREHARVEST",
+            "ELEMENTALAXE",
+            "ELEMENTALPICK",
+            "ELEMENTALSHOVEL"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "gadomancy:golem_core_break"
+          }
+        },
+        {
+          "key": "gadomancy:golem_core_bodyguard",
+          "category": "GADOMANCY",
+          "displayColumn": 5,
+          "displayRow": -3,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 8,
+            "ordo": 8,
+            "machina": 10,
+            "tutamen": 8,
+            "telum": 8
+          },
+          "parents": [
+            "BOOTSTRAVELLER",
+            "ELEMENTALSWORD",
+            "COREGUARD"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "gadomancy:golem_core_bodyguard"
+          }
+        },
+        {
+          "key": "gadomancy:golem_runic_shield",
+          "category": "GADOMANCY",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "auram": 16,
+            "tutamen": 6,
+            "praecantatio": 4,
+            "motus": 8
+          },
+          "parents": [
+            "gadomancy:silverwood_golem"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "gadomancy:silverwood_golem",
+            "nbt": "{AddonData:{\"gadomancy:golem\":{RunicShield:1b}}}"
+          }
+        }
+      ]
+    }
+  ]
+}

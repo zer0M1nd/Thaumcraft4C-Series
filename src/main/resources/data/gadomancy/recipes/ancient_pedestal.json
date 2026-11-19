@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "gadomancy:e_portal_creator",
+  "pattern": [
+    "SPS",
+    " S ",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:eldritch_stone"
+    },
+    "P": {
+      "item": "thaumcraft:eldritch_pedestal_stone"
+    }
+  },
+  "vis": {
+    "perditio": 25,
+    "ordo": 25
+  },
+  "result": {
+    "item": "gadomancy:ancient_pedestal"
+  }
+}

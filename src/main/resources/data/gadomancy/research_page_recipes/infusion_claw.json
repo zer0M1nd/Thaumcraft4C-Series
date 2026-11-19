@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:infusion_claw",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:infusion_claw",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:wand_pedestal",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:infusion_claw",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:focus_primal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_core_use",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primal_charm",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "alienis": 25,
+          "machina": 20,
+          "praecantatio": 16,
+          "ordo": 20,
+          "tenebrae": 12
+        },
+        "instability": 10
+      }
+    }
+  ]
+}

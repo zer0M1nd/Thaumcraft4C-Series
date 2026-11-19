@@ -1,0 +1,39 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "gadomancy:golem_core_break",
+  "instability": 3,
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:golem_core_harvest"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_shovel"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_pickaxe"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_axe"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "perditio": 16,
+    "instrumentum": 24,
+    "machina": 16
+  },
+  "result": {
+    "item": "gadomancy:golem_core_break"
+  }
+}

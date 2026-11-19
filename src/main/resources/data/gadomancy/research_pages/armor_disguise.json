@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:armor_disguise",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ARMORDISGUISE.1"
+          },
+          "id": "gadomancy:armor_disguise/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "gadomancy:armor_disguise",
+          "data": {
+            "invisible": false
+          },
+          "id": "gadomancy:armor_disguise/page/2",
+          "page_break": true
+        },
+        {
+          "type": "gadomancy:armor_disguise",
+          "data": {
+            "invisible": true
+          },
+          "id": "gadomancy:armor_disguise/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ARMORDISGUISE.4"
+          },
+          "id": "gadomancy:armor_disguise/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

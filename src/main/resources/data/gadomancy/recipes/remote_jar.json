@@ -1,0 +1,28 @@
+{
+  "type": "gadomancy:remote_jar",
+  "mode": "shaped",
+  "research": "gadomancy:remote_jar",
+  "pattern": [
+    "GJG",
+    "GMG"
+  ],
+  "key": {
+    "G": {
+      "item": "thaumcraft:greatwood_log"
+    },
+    "J": {
+      "item": "thaumcraft:essentia_jar"
+    },
+    "M": {
+      "item": "thaumcraft:essentia_mirror"
+    }
+  },
+  "vis": {
+    "aqua": 10,
+    "terra": 10,
+    "ordo": 10
+  },
+  "result": {
+    "item": "gadomancy:remote_jar"
+  }
+}

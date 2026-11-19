@@ -1,0 +1,47 @@
+{
+  "type": "gadomancy:armor_disguise",
+  "research": "gadomancy:armor_disguise",
+  "instability": 0,
+  "center": {
+    "ingredient": {
+      "type": "gadomancy:disguise_material"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "gadomancy:disguise_material"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "limus": 12,
+    "tutamen": 10,
+    "praecantatio": 8
+  },
+  "result": {
+    "patch": "{gadomancy:{disguise:1b}}"
+  }
+}

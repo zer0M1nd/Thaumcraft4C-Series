@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:armor_disguise",
+          "category": "GADOMANCY",
+          "displayColumn": -2,
+          "displayRow": 0,
+          "pageCount": 4,
+          "complexity": 1,
+          "aspects": {
+            "limus": 8,
+            "praecantatio": 4,
+            "tutamen": 4
+          },
+          "parents": [
+            "INFUSIONENCHANTMENT"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "minecraft:iron_chestplate"
+          }
+        }
+      ]
+    }
+  ]
+}

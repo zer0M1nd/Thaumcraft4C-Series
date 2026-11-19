@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:infusion_claw",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.INFUSIONCLAW.1"
+          },
+          "id": "gadomancy:infusion_claw/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:infusion_claw"
+            ]
+          },
+          "id": "gadomancy:infusion_claw/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.INFUSIONCLAW.2"
+          },
+          "id": "gadomancy:infusion_claw/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "gadomancy:golem_runic_shield",
+  "research": "gadomancy:golem_runic_shield",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "item": "gadomancy:silverwood_golem"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:runic_girdle"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "praecantatio": 16,
+    "potentia": 16,
+    "tutamen": 8,
+    "auram": 4
+  },
+  "result": {
+    "patch": "{AddonData:{\"gadomancy:golem\":{RunicShield:1b}}}"
+  }
+}

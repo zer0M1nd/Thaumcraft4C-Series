@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:arcane_dropper",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ARCANEDROPPER.1"
+          },
+          "id": "gadomancy:arcane_dropper/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:arcane_dropper"
+            ]
+          },
+          "id": "gadomancy:arcane_dropper/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

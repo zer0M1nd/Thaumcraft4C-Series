@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "gadomancy:golem_core_bodyguard",
+  "instability": 3,
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:golem_core_guard"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:traveller_boots"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_sword"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "instrumentum": 28,
+    "machina": 20,
+    "telum": 10,
+    "tutamen": 16
+  },
+  "result": {
+    "item": "gadomancy:golem_core_bodyguard"
+  }
+}

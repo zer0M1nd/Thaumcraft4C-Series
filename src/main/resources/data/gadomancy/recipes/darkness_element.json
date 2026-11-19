@@ -1,0 +1,61 @@
+{
+  "type": "gadomancy:aura_core",
+  "research": "gadomancy:essentia_compressor",
+  "instability": 6,
+  "aspects": {
+    "vacuos": 22,
+    "tenebrae": 18,
+    "alienis": 20,
+    "auram": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_seed"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "result": {
+    "item": "gadomancy:darkness_element"
+  }
+}

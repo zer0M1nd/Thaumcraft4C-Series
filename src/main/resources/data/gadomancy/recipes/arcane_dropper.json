@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "gadomancy:arcane_dropper",
+  "pattern": [
+    "SDS",
+    "BAB",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:arcane_stone_bricks"
+    },
+    "D": {
+      "item": "minecraft:dropper"
+    },
+    "B": {
+      "item": "thaumcraft:bellows"
+    },
+    "A": {
+      "item": "thaumcraft:alchemical_construct"
+    }
+  },
+  "vis": {
+    "ordo": 14,
+    "aer": 14,
+    "terra": 10
+  },
+  "result": {
+    "item": "gadomancy:arcane_dropper"
+  }
+}

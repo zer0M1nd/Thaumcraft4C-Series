@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "gadomancy:node_manipulator",
+  "instability": 7,
+  "aspects": {
+    "alienis": 18,
+    "praecantatio": 18,
+    "machina": 20,
+    "tenebrae": 28,
+    "ordo": 30
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_pedestal_focus"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "gadomancy:randomization_focus"
+  }
+}

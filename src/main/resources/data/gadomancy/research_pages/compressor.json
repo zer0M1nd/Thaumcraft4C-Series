@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:essentia_compressor",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ESSENTIA_COMPRESSOR.1"
+          },
+          "id": "gadomancy:essentia_compressor/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ESSENTIA_COMPRESSOR.2"
+          },
+          "id": "gadomancy:essentia_compressor/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:darkness_element"
+            ]
+          },
+          "id": "gadomancy:essentia_compressor/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ESSENTIA_COMPRESSOR.4"
+          },
+          "id": "gadomancy:essentia_compressor/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:essentia_compressor"
+            ]
+          },
+          "id": "gadomancy:essentia_compressor/page/5",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ESSENTIA_COMPRESSOR.6"
+          },
+          "id": "gadomancy:essentia_compressor/page/6",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:activate_compressor"
+            ]
+          },
+          "id": "gadomancy:essentia_compressor/page/7",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ESSENTIA_COMPRESSOR.8"
+          },
+          "id": "gadomancy:essentia_compressor/page/8",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ESSENTIA_COMPRESSOR.9"
+          },
+          "id": "gadomancy:essentia_compressor/page/9",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

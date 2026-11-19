@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:revealer",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.REVEALER.1"
+          },
+          "id": "gadomancy:revealer/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:revealer"
+            ]
+          },
+          "id": "gadomancy:revealer/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

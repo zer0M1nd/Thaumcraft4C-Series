@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:aura_core",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.AURA_CORE.1"
+          },
+          "id": "gadomancy:aura_core/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:aura_core"
+            ]
+          },
+          "id": "gadomancy:aura_core/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.AURA_CORE.3"
+          },
+          "id": "gadomancy:aura_core/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:activate_aura_core_aer",
+              "gadomancy:activate_aura_core_ignis",
+              "gadomancy:activate_aura_core_aqua",
+              "gadomancy:activate_aura_core_terra",
+              "gadomancy:activate_aura_core_ordo",
+              "gadomancy:activate_aura_core_perditio",
+              "gadomancy:activate_aura_core_balanced"
+            ]
+          },
+          "id": "gadomancy:aura_core/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "gadomancy:clean_aura_core",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.CLEAN_AURA_CORE.1"
+          },
+          "id": "gadomancy:clean_aura_core/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:wash_aura_core_aer",
+              "gadomancy:wash_aura_core_ignis",
+              "gadomancy:wash_aura_core_aqua",
+              "gadomancy:wash_aura_core_terra",
+              "gadomancy:wash_aura_core_ordo",
+              "gadomancy:wash_aura_core_perditio"
+            ]
+          },
+          "id": "gadomancy:clean_aura_core/page/2",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:undo_aura_core_terra",
+              "gadomancy:undo_aura_core_perditio"
+            ]
+          },
+          "id": "gadomancy:clean_aura_core/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "gadomancy:arcane_packager",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ARCANE_PACKAGER.1"
+          },
+          "id": "gadomancy:arcane_packager/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "gadomancy:packager_recipe",
+          "data": {},
+          "id": "gadomancy:arcane_packager/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ARCANE_PACKAGER.3"
+          },
+          "id": "gadomancy:arcane_packager/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ARCANE_PACKAGER.4"
+          },
+          "id": "gadomancy:arcane_packager/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

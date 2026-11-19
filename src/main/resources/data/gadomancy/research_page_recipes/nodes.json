@@ -1,0 +1,1276 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:node_manipulator",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:node_manipulator",
+        "instability": 10,
+        "aspects": {
+          "auram": 42,
+          "alienis": 22,
+          "praecantatio": 38,
+          "machina": 28,
+          "tenebrae": 14
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:node_manipulator",
+            "count": 1
+          }
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:wand_pedestal",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:node_stabilizer",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:mixed_crystal_cluster",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_seed",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primal_charm",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warding_paving_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:mixed_crystal_cluster",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_seed",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primal_charm",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:randomization_focus",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:node_manipulator",
+        "instability": 7,
+        "aspects": {
+          "alienis": 18,
+          "praecantatio": 18,
+          "machina": 20,
+          "tenebrae": 28,
+          "ordo": 30
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:randomization_focus",
+            "count": 1
+          }
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:wand_pedestal_focus",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primal_charm",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:mixed_crystal_cluster",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primal_charm",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:mixed_crystal_cluster",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:portal_focus",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:e_portal_creator",
+        "instability": 7,
+        "aspects": {
+          "alienis": 22,
+          "vacuos": 38,
+          "machina": 30,
+          "tenebrae": 28,
+          "permutatio": 38
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:portal_focus",
+            "count": 1
+          }
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:wand_pedestal_focus",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_eye",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_crystal_cluster",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_crystal_cluster",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_eye",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_crystal_cluster",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_crystal_cluster",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:ancient_stone",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:ancient_stones",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "perditio": 16,
+          "terra": 8
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:eldritch_stone",
+            "count": 4
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_eye",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:ancient_stone_pedestal",
+      "class": "modern",
+      "data": {
+        "kind": "crucible",
+        "research": "gadomancy:ancient_stones",
+        "aspects": {
+          "alienis": 8,
+          "permutatio": 8,
+          "perditio": 12
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:eldritch_pedestal_stone",
+            "count": 1
+          }
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:arcane_stone_bricks",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "gadomancy:activate_node_manipulator",
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "aer": 100,
+                "ignis": 100,
+                "aqua": 100,
+                "terra": 100,
+                "ordo": 100,
+                "perditio": 100
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:aura_node",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:randomization_focus",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_pedestal_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_pedestal_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:node_manipulator",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_pedestal_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_pedestal_stone",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:activate_e_portal_creator",
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "aer": 150,
+                "ignis": 150,
+                "aqua": 150,
+                "terra": 150,
+                "ordo": 150,
+                "perditio": 150
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 7
+            },
+            {
+              "kind": "literal",
+              "value": 3
+            },
+            {
+              "kind": "literal",
+              "value": 7
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:aura_node",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:portal_focus",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:ancient_pedestal",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_pedestal_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_pedestal_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:ancient_pedestal",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:node_manipulator",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:ancient_pedestal",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_pedestal_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:eldritch_pedestal_stone",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:ancient_pedestal",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                },
+                {
+                  "kind": "sequence",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

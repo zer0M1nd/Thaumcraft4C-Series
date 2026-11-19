@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/gadomancy/index.html"
+modId="gadomancy"
+version="${version}"
+displayName="Gadomancy"
+authors="zer0M1nd"
+credits="Original Gadomancy by makeo and HellFirePvP."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Build specialized golems and devices to manipulate aura nodes and automate infusion.
+
+-------- Original release --------
+An addon for Thaumcraft.
+
+Original credits: To HellFirePvP and makeo for making this mod. The original texture notes credit Azanor for most of the source textures.'''
+
+[[dependencies.gadomancy]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.gadomancy]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+

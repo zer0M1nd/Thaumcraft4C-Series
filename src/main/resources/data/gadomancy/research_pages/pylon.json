@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:aura_pylon",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.AURA_PYLON.1"
+          },
+          "id": "gadomancy:aura_pylon/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:aura_pylon"
+            ]
+          },
+          "id": "gadomancy:aura_pylon/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:aura_pylon_cap"
+            ]
+          },
+          "id": "gadomancy:aura_pylon/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.AURA_PYLON.4"
+          },
+          "id": "gadomancy:aura_pylon/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:activate_aura_pylon"
+            ]
+          },
+          "id": "gadomancy:aura_pylon/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "gadomancy:aura_effects",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.AURA_EFFECTS.1"
+          },
+          "id": "gadomancy:aura_effects/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

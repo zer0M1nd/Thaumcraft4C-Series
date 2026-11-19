@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:essentia_compressor",
+          "category": "GADOMANCY",
+          "displayColumn": -4,
+          "displayRow": 7,
+          "pageCount": 9,
+          "complexity": 2,
+          "aspects": {
+            "vacuos": 12,
+            "aqua": 10,
+            "perditio": 12,
+            "praecantatio": 6,
+            "machina": 12
+          },
+          "parents": [
+            "gadomancy:aura_core",
+            "ESSENTIARESERVOIR"
+          ],
+          "isHidden": true,
+          "itemTriggers": [
+            {
+              "item": "gadomancy:aura_core_aqua"
+            }
+          ],
+          "icon_item": {
+            "item": "gadomancy:essentia_compressor"
+          },
+          "warp": 3
+        }
+      ]
+    }
+  ]
+}

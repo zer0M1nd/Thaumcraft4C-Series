@@ -1,0 +1,709 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:silverwood_golem",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:silverwood_golem",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:silverwood_log",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:silverwood_golem",
+            "nbt": "{AddonMaterial:\"gadomancy:silverwood\"}",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primal_charm",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:knowledge_fragment",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:knowledge_fragment",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "motus": 16,
+          "praecantatio": 16,
+          "humanus": 16,
+          "sensus": 16
+        },
+        "instability": 7
+      }
+    },
+    {
+      "key": "gadomancy:golem_core_break",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:golem_core_break",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_core_harvest",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:golem_core_break",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:elemental_shovel",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:elemental_pickaxe",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:elemental_axe",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "perditio": 16,
+          "instrumentum": 24,
+          "machina": 16
+        },
+        "instability": 3
+      }
+    },
+    {
+      "key": "gadomancy:golem_core_bodyguard",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:golem_core_bodyguard",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_core_guard",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:golem_core_bodyguard",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:traveller_boots",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:elemental_sword",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_pearl",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "instrumentum": 28,
+          "machina": 20,
+          "telum": 10,
+          "tutamen": 16
+        },
+        "instability": 3
+      }
+    },
+    {
+      "key": "gadomancy:golem_runic_shield/0",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:golem_runic_shield",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_straw",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_straw",
+            "nbt": "{AddonData:{\"gadomancy:golem\":{RunicShield:1b}}}",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:runic_girdle",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 16,
+          "potentia": 16,
+          "tutamen": 8,
+          "auram": 4
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "gadomancy:golem_runic_shield/1",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:golem_runic_shield",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_wood",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_wood",
+            "nbt": "{AddonData:{\"gadomancy:golem\":{RunicShield:1b}}}",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:runic_girdle",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 16,
+          "potentia": 16,
+          "tutamen": 8,
+          "auram": 4
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "gadomancy:golem_runic_shield/2",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:golem_runic_shield",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_tallow",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_tallow",
+            "nbt": "{AddonData:{\"gadomancy:golem\":{RunicShield:1b}}}",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:runic_girdle",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 16,
+          "potentia": 16,
+          "tutamen": 8,
+          "auram": 4
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "gadomancy:golem_runic_shield/3",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:golem_runic_shield",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_flesh",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_flesh",
+            "nbt": "{AddonData:{\"gadomancy:golem\":{RunicShield:1b}}}",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:runic_girdle",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 16,
+          "potentia": 16,
+          "tutamen": 8,
+          "auram": 4
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "gadomancy:golem_runic_shield/4",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:golem_runic_shield",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_clay",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_clay",
+            "nbt": "{AddonData:{\"gadomancy:golem\":{RunicShield:1b}}}",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:runic_girdle",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 16,
+          "potentia": 16,
+          "tutamen": 8,
+          "auram": 4
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "gadomancy:golem_runic_shield/5",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:golem_runic_shield",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_stone",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_stone",
+            "nbt": "{AddonData:{\"gadomancy:golem\":{RunicShield:1b}}}",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:runic_girdle",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 16,
+          "potentia": 16,
+          "tutamen": 8,
+          "auram": 4
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "gadomancy:golem_runic_shield/6",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:golem_runic_shield",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_iron",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_iron",
+            "nbt": "{AddonData:{\"gadomancy:golem\":{RunicShield:1b}}}",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:runic_girdle",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 16,
+          "potentia": 16,
+          "tutamen": 8,
+          "auram": 4
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "gadomancy:golem_runic_shield/7",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:golem_runic_shield",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_thaumium",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:golem_thaumium",
+            "nbt": "{AddonData:{\"gadomancy:golem\":{RunicShield:1b}}}",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:runic_girdle",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 16,
+          "potentia": 16,
+          "tutamen": 8,
+          "auram": 4
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "gadomancy:golem_runic_shield/8",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "gadomancy:golem_runic_shield",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:silverwood_golem",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:silverwood_golem",
+            "nbt": "{AddonData:{\"gadomancy:golem\":{RunicShield:1b}}}",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:runic_girdle",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "praecantatio": 16,
+          "potentia": 16,
+          "tutamen": 8,
+          "auram": 4
+        },
+        "instability": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:remote_jar",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.REMOTEJAR.1"
+          },
+          "id": "gadomancy:remote_jar/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "gadomancy:remote_jar_recipe",
+          "id": "gadomancy:remote_jar/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.REMOTEJAR.2"
+          },
+          "id": "gadomancy:remote_jar/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

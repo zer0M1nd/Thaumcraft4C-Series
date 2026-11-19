@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:ethereal_familiar",
+          "category": "GADOMANCY",
+          "displayColumn": 5,
+          "displayRow": 1,
+          "pageCount": 3,
+          "complexity": 2,
+          "aspects": {
+            "praecantatio": 8,
+            "ignis": 6,
+            "auram": 4
+          },
+          "parents": [
+            "RUNICARMOR"
+          ],
+          "isConcealed": true,
+          "isSpecial": true,
+          "icon_item": {
+            "item": "gadomancy:ethereal_familiar",
+            "nbt": "{aspect:\"praecantatio\"}"
+          }
+        },
+        {
+          "key": "gadomancy:familiar_shock",
+          "category": "GADOMANCY",
+          "displayColumn": 4,
+          "displayRow": -1,
+          "pageCount": 4,
+          "complexity": 2,
+          "aspects": {
+            "tempestas": 4,
+            "telum": 4,
+            "aer": 8
+          },
+          "parents": [
+            "gadomancy:ethereal_familiar"
+          ],
+          "isConcealed": true,
+          "icon_resource": "gadomancy:textures/misc/fam_lightning.png"
+        },
+        {
+          "key": "gadomancy:familiar_fire",
+          "category": "GADOMANCY",
+          "displayColumn": 6,
+          "displayRow": -1,
+          "pageCount": 4,
+          "complexity": 2,
+          "aspects": {
+            "ignis": 8,
+            "telum": 4,
+            "praecantatio": 4
+          },
+          "parents": [
+            "gadomancy:ethereal_familiar"
+          ],
+          "isConcealed": true,
+          "icon_resource": "gadomancy:textures/misc/fam_fire.png"
+        },
+        {
+          "key": "gadomancy:familiar_poison",
+          "category": "GADOMANCY",
+          "displayColumn": 3,
+          "displayRow": 2,
+          "pageCount": 4,
+          "complexity": 2,
+          "aspects": {
+            "venenum": 8,
+            "telum": 4,
+            "perditio": 4
+          },
+          "parents": [
+            "gadomancy:ethereal_familiar"
+          ],
+          "isConcealed": true,
+          "icon_resource": "gadomancy:textures/misc/fam_poison.png"
+        },
+        {
+          "key": "gadomancy:familiar_weakness",
+          "category": "GADOMANCY",
+          "displayColumn": 2,
+          "displayRow": 0,
+          "pageCount": 4,
+          "complexity": 2,
+          "aspects": {
+            "vinculum": 8,
+            "telum": 8,
+            "vitium": 6
+          },
+          "parents": [
+            "gadomancy:ethereal_familiar"
+          ],
+          "isConcealed": true,
+          "icon_resource": "gadomancy:textures/misc/fam_enervation.png"
+        },
+        {
+          "key": "gadomancy:familiar_damage",
+          "category": "GADOMANCY",
+          "displayColumn": 8,
+          "displayRow": 2,
+          "pageCount": 4,
+          "complexity": 2,
+          "aspects": {
+            "telum": 8,
+            "potentia": 8,
+            "praecantatio": 4
+          },
+          "parents": [
+            "gadomancy:ethereal_familiar",
+            "VOIDMETAL"
+          ],
+          "isConcealed": true,
+          "icon_resource": "gadomancy:textures/misc/fam_damage.png",
+          "parentsAny": [
+            "gadomancy:familiar_fire",
+            "gadomancy:familiar_shock",
+            "gadomancy:familiar_poison",
+            "gadomancy:familiar_weakness"
+          ]
+        },
+        {
+          "key": "gadomancy:familiar_range",
+          "category": "GADOMANCY",
+          "displayColumn": 6,
+          "displayRow": 4,
+          "pageCount": 3,
+          "complexity": 2,
+          "aspects": {
+            "praecantatio": 8,
+            "alienis": 8,
+            "ordo": 4
+          },
+          "parents": [
+            "gadomancy:ethereal_familiar"
+          ],
+          "isConcealed": true,
+          "icon_resource": "gadomancy:textures/misc/fam_range.png",
+          "parentsAny": [
+            "gadomancy:familiar_fire",
+            "gadomancy:familiar_shock",
+            "gadomancy:familiar_poison",
+            "gadomancy:familiar_weakness"
+          ]
+        },
+        {
+          "key": "gadomancy:familiar_speed",
+          "category": "GADOMANCY",
+          "displayColumn": 8,
+          "displayRow": 5,
+          "pageCount": 3,
+          "complexity": 2,
+          "aspects": {
+            "motus": 10,
+            "praecantatio": 4,
+            "auram": 4
+          },
+          "parents": [
+            "gadomancy:familiar_damage",
+            "gadomancy:familiar_range",
+            "PRIMPEARL"
+          ],
+          "isConcealed": true,
+          "icon_resource": "gadomancy:textures/misc/fam_speed.png"
+        }
+      ]
+    }
+  ]
+}

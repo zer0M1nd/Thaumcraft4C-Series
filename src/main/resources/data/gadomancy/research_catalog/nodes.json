@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:node_manipulator",
+          "category": "GADOMANCY",
+          "displayColumn": -9,
+          "displayRow": -4,
+          "pageCount": 6,
+          "complexity": 2,
+          "aspects": {
+            "alienis": 8,
+            "auram": 6,
+            "tenebrae": 4,
+            "praecantatio": 8,
+            "lucrum": 4,
+            "vacuos": 10,
+            "machina": 6,
+            "permutatio": 4
+          },
+          "parents": [
+            "VOIDMETAL",
+            "WANDPEDFOC",
+            "PAVEWARD",
+            "WANDPED"
+          ],
+          "isConcealed": true,
+          "isSpecial": true,
+          "warp": 4,
+          "icon_item": {
+            "item": "gadomancy:node_manipulator"
+          }
+        },
+        {
+          "key": "gadomancy:e_portal_creator",
+          "category": "GADOMANCY",
+          "displayColumn": -10,
+          "displayRow": 0,
+          "pageCount": 8,
+          "complexity": 2,
+          "aspects": {
+            "alienis": 6,
+            "tenebrae": 10,
+            "iter": 8,
+            "auram": 10,
+            "vacuos": 6,
+            "machina": 4
+          },
+          "parents": [
+            "gadomancy:node_manipulator",
+            "OCULUS"
+          ],
+          "isConcealed": true,
+          "isSpecial": true,
+          "warp": 4,
+          "icon_item": {
+            "item": "gadomancy:additional_eldritch_portal"
+          }
+        },
+        {
+          "key": "gadomancy:growing",
+          "category": "GADOMANCY",
+          "displayColumn": -8,
+          "displayRow": -1,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {},
+          "parents": [
+            "gadomancy:node_manipulator"
+          ],
+          "isLost": true,
+          "isConcealed": true,
+          "isSpecial": true,
+          "icon_resource": "thaumcraft:textures/misc/r_nodes.png"
+        },
+        {
+          "key": "gadomancy:growing_aggression",
+          "category": "GADOMANCY",
+          "displayColumn": -5,
+          "displayRow": 0,
+          "pageCount": 1,
+          "complexity": 3,
+          "aspects": {},
+          "parents": [
+            "gadomancy:growing"
+          ],
+          "isLost": true,
+          "icon_item": {
+            "item": "thaumcraft:aura_node"
+          }
+        },
+        {
+          "key": "gadomancy:growing_growth",
+          "category": "GADOMANCY",
+          "displayColumn": -7,
+          "displayRow": 2,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {},
+          "parents": [
+            "gadomancy:growing"
+          ],
+          "isLost": true,
+          "icon_resource": "gadomancy:textures/misc/r_node_star.png"
+        },
+        {
+          "key": "gadomancy:growing_attack",
+          "category": "GADOMANCY",
+          "displayColumn": -6,
+          "displayRow": 1,
+          "pageCount": 1,
+          "complexity": 3,
+          "aspects": {},
+          "parents": [
+            "gadomancy:growing"
+          ],
+          "isLost": true,
+          "icon_resource": "gadomancy:textures/misc/r_node_dark.png"
+        },
+        {
+          "key": "gadomancy:growing_growthclue",
+          "category": "GADOMANCY",
+          "displayColumn": -4,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "auram": 10,
+            "praecantatio": 15,
+            "alienis": 5,
+            "vacuos": 12,
+            "potentia": 12,
+            "perditio": 8,
+            "mortuus": 3,
+            "lucrum": 10,
+            "fames": 10,
+            "machina": 12,
+            "tenebrae": 12
+          },
+          "parents": [
+            "gadomancy:growing_aggression",
+            "gadomancy:growing_growth",
+            "gadomancy:growing_attack"
+          ],
+          "isSpecial": true,
+          "isRound": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumcraft:aura_node"
+          },
+          "warp": 3
+        },
+        {
+          "key": "gadomancy:ancient_stones",
+          "category": "GADOMANCY",
+          "displayColumn": -12,
+          "displayRow": 1,
+          "pageCount": 3,
+          "complexity": 3,
+          "aspects": {
+            "alienis": 10,
+            "terra": 8,
+            "permutatio": 6,
+            "perditio": 8
+          },
+          "parents": [
+            "OCULUS"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumcraft:eldritch_stone"
+          }
+        }
+      ]
+    }
+  ]
+}

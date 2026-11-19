@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gadomancy:items/golem_silverwood"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "gadomancy:golem_configuration": 1
+      },
+      "model": "gadomancy:item/silverwood_golem_1"
+    },
+    {
+      "predicate": {
+        "gadomancy:golem_configuration": 2
+      },
+      "model": "gadomancy:item/silverwood_golem_2"
+    },
+    {
+      "predicate": {
+        "gadomancy:golem_configuration": 3
+      },
+      "model": "gadomancy:item/silverwood_golem_3"
+    }
+  ]
+}

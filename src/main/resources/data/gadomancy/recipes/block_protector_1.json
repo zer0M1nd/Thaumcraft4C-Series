@@ -1,0 +1,48 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "gadomancy:block_protector",
+  "pattern": [
+    "WNV",
+    "PJP",
+    "GRG"
+  ],
+  "key": {
+    "N": {
+      "item": "thaumcraft:nitor"
+    },
+    "P": {
+      "item": "thaumcraft:essentia_tube"
+    },
+    "J": {
+      "item": "thaumcraft:essentia_jar"
+    },
+    "G": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "W": {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:weakness"
+      }
+    },
+    "V": {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:weakness"
+      }
+    }
+  },
+  "vis": {
+    "ordo": 120,
+    "terra": 120
+  },
+  "result": {
+    "item": "gadomancy:block_protector"
+  }
+}

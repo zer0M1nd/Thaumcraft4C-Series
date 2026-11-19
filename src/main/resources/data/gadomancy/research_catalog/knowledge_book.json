@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:knowledge_book",
+          "category": "GADOMANCY",
+          "displayColumn": -2,
+          "displayRow": 8,
+          "pageCount": 4,
+          "complexity": 2,
+          "warp": 1,
+          "aspects": {
+            "cognitio": 12,
+            "praecantatio": 8,
+            "motus": 6,
+            "ordo": 10,
+            "machina": 8,
+            "fabrico": 8
+          },
+          "parents": [
+            "gadomancy:aura_core",
+            "GOGGLES",
+            "THAUMATORIUM"
+          ],
+          "isHidden": true,
+          "itemTriggers": [
+            {
+              "item": "gadomancy:aura_core_ordo",
+              "count": 1
+            }
+          ],
+          "icon_item": {
+            "item": "gadomancy:knowledge_book"
+          }
+        }
+      ]
+    }
+  ]
+}
