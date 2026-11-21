@@ -44,21 +44,26 @@ tasks.register('releaseSourcesZip', Zip) {
     from(projectDir) {
         include 'build.gradle', 'settings.gradle', 'gradle.properties', 'gradlew', 'gradlew.bat'
         include 'gradle/**', 'config/resource-audit/**'
-        include 'docs/TERRABLENDER-WORLDGEN.md'
+        filesMatching('gradlew') { permissions { unix 'rwxr-xr-x' } }
+        include 'docs/*.md'
         include 'docs/ASPECT-EDITOR.md'
         include 'docs/ASPECT-DATA.md', 'docs/aspect-baseline/2026-10-08/**'
         include 'src/test/resources/aspect-migration/**'
         include 'docs/INSTALL-EXTERNAL-RESOURCES.md', 'docs/ADDON-API.md', 'docs/ADDON-EXTENSION-API.md', 'docs/validation/2026-09-16-0916_2/RESULTS.md', 'docs/validation/2026-09-16-remaining-addon-api/RESULTS.md', 'docs/validation/2026-09-17-original-downloads/RESULTS.md', 'docs/addon-example/**', 'docs/validation/2026-09-16-addon-api.md'
         include 'src/main/**', 'src/generated/resources/**', 'src/test/java/**'
-        include 'libs/jei-*-api-*.jar', 'libs/JEI-LICENSE.txt', 'libs/JEI-API.json'
+        include 'README.md', 'README.zh-CN.md', 'LICENSE', 'NOTICE', 'libs/startup-download-sources.zip'
+        include 'dependencies/prepare.py', 'dependencies/artifacts.json', 'libs/JEI-API.json', 'libs/JEI-LICENSE.txt'
         exclude '**/.cache/**'
     }
-    from('../../Docs/Projects/TC4/docs') {
-        include '*.md'
-        into 'docs'
+    // The development workspace also supplies guides for the extended source distribution.
+    def guides = file('../../Docs/Projects/TC4/docs')
+    if (guides.isDirectory()) {
+        from(guides) {
+            include '*.md'
+            into 'docs'
+            duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+        }
     }
-    from('../../Docs/Projects/TC4/docs/INSTALL-EXTERNAL-RESOURCES.md') { rename { 'README.md' } }
-    from('../../Docs/Relocated/Code/TC4/libs/JEI-LICENSE.txt') { into 'libs' }
 }
 tasks.register('verifyExternalResourceArchives') {
     dependsOn 'jar', 'reobfJar', 'sourcesJar', 'releaseSourcesZip'
