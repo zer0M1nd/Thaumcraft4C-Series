@@ -1,0 +1,62 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json"
+  ],
+  "background": {
+    "texture": "guis/molecular_assembler.png",
+    "srcRect": [
+      0,
+      0,
+      176,
+      197
+    ]
+  },
+  "slots": {
+    "MACHINE_CRAFTING_GRID": {
+      "left": 29,
+      "top": 36,
+      "grid": "BREAK_AFTER_3COLS"
+    },
+    "ENCODED_PATTERN": {
+      "left": 126,
+      "top": 16
+    },
+    "MACHINE_OUTPUT": {
+      "left": 126,
+      "top": 48
+    },
+    "thaumicenergistics_assembler_wand": {
+      "left": 74,
+      "top": 16
+    },
+    "thaumicenergistics_knowledge": {
+      "left": 92,
+      "top": 16
+    }
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "block.thaumicenergistics.arcane_assembler"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    }
+  },
+  "images": {
+    "progressBar": {
+      "texture": "guis/molecular_assembler.png",
+      "srcRect": [
+        148,
+        201,
+        6,
+        18
+      ]
+    }
+  },
+  "widgets": {}
+}

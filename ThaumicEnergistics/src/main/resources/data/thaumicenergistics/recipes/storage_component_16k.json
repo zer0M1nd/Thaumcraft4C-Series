@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:STORAGE",
+  "vis": {
+    "ignis": 3,
+    "ordo": 4
+  },
+  "result": {
+    "item": "thaumicenergistics:storage_component_16k"
+  },
+  "mode": "shaped",
+  "pattern": [
+    "SPE",
+    "CGC",
+    "ECS"
+  ],
+  "key": {
+    "E": {
+      "item": "thaumcraft:wisp_essence"
+    },
+    "P": {
+      "item": "ae2:engineering_processor"
+    },
+    "C": {
+      "item": "thaumicenergistics:storage_component_4k"
+    },
+    "G": {
+      "item": "ae2:quartz_glass"
+    },
+    "S": {
+      "item": "thaumcraft:salis_mundus"
+    }
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "essentia_cells"
+    }
+  ]
+}

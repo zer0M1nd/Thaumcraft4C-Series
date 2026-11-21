@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "thaumicenergistics:ARCANE_TERMINAL",
+  "vis": {
+    "aer": 25,
+    "terra": 25,
+    "ignis": 25,
+    "aqua": 25,
+    "ordo": 25,
+    "perditio": 25
+  },
+  "ingredients": [
+    {
+      "item": "ae2:wireless_terminal"
+    },
+    {
+      "item": "thaumcraft:arcane_workbench"
+    },
+    {
+      "item": "ae2:calculation_processor"
+    }
+  ],
+  "result": {
+    "item": "thaumicenergistics:wireless_arcane_terminal"
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "arcane_terminal"
+    },
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "wireless_arcane_terminal"
+    }
+  ]
+}

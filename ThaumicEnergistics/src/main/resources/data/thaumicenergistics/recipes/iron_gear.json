@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:IRON_GEARBOX",
+  "vis": {
+    "terra": 1,
+    "ignis": 1
+  },
+  "result": {
+    "item": "thaumicenergistics:iron_gear"
+  },
+  "mode": "shaped",
+  "pattern": [
+    " I ",
+    " W ",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    }
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "gearbox"
+    }
+  ]
+}

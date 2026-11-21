@@ -1,0 +1,1391 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicenergistics:essentia_cell_1024k",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shapeless",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_1024k"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_casing"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_1024k"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_1024k_shaped",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shaped",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_1024k"
+          }
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_1024k"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_16384k",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shapeless",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_16384k"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_casing"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_16384k"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_16384k_shaped",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shaped",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_16384k"
+          }
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_16384k"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_16k",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shapeless",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_16k"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_casing"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_16k"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_16k_shaped",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shaped",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_16k"
+          }
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_16k"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_1k",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shapeless",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_1k"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_casing"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_1k"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_1k_shaped",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shaped",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_1k"
+          }
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_1k"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_256k",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shapeless",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_256k"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_casing"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_256k"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_256k_shaped",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shaped",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_256k"
+          }
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_256k"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_4096k",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shapeless",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_4096k"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_casing"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_4096k"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_4096k_shaped",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shaped",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_4096k"
+          }
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_4096k"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_4k",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shapeless",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_4k"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_casing"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_4k"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_4k_shaped",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shaped",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_4k"
+          }
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_4k"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_64k",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shapeless",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_64k"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_casing"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_64k"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_64k_shaped",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shaped",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_64k"
+          }
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_64k"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_quantum",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shaped",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_quantum"
+          }
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ae2:quantum_ring"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_16384k"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ae2:quantum_ring"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_16384k"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ae2:dense_energy_cell"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_16384k"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ae2:quantum_ring"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:storage_component_16384k"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ae2:quantum_ring"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_cell_singularity",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shaped",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_cell_singularity"
+          }
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:essentia_cell_quantum"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:essentia_cell_quantum"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:essentia_cell_quantum"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:essentia_cell_quantum"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ae2:condenser"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:essentia_cell_quantum"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:essentia_cell_quantum"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:essentia_cell_quantum"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:essentia_cell_quantum"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:storage_casing",
+      "class": "net.minecraft.world.item.crafting.Recipe",
+      "data": {
+        "kind": "crafting_shaped",
+        "research": "thaumicenergistics:STORAGE",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:storage_casing"
+          }
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:warded_glass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:essentia_provider",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicenergistics:ESSENTIA_PROVIDER",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:essentia_provider"
+          }
+        },
+        "aspects": {
+          "machina": 64,
+          "praecantatio": 32,
+          "ordo": 32,
+          "permutatio": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "ae2:interface"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_filter"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:coalescence_core"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:water_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_filter"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:diffusion_core"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:water_shard"
+              }
+            }
+          ]
+        },
+        "instability": 3
+      }
+    },
+    {
+      "key": "thaumicenergistics:infusion_provider",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicenergistics:INFUSION_PROVIDER",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:infusion_provider"
+          }
+        },
+        "aspects": {
+          "machina": 64,
+          "praecantatio": 32,
+          "ordo": 32,
+          "permutatio": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "ae2:interface"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_mirror"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:coalescence_core"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_mirror"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicenergistics:coalescence_core"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard"
+              }
+            }
+          ]
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "thaumicenergistics:thaumium_gearbox",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "thaumicenergistics:THAUMIUM_GEARBOX",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:thaumium_gearbox"
+          }
+        },
+        "aspects": {
+          "metallum": 16,
+          "praecantatio": 16
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:iron_gearbox"
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:duplicate_certus",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "thaumicenergistics:QUARTZ",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "ae2:certus_quartz_crystal",
+            "count": 2
+          }
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "ae2:certus_quartz_crystal"
+          }
+        },
+        "aspects": {
+          "vitreus": 4,
+          "aqua": 2
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:duplicate_nether",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "thaumicenergistics:QUARTZ",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:quartz",
+            "count": 2
+          }
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:quartz"
+          }
+        },
+        "aspects": {
+          "vitreus": 4,
+          "aqua": 2,
+          "potentia": 2
+        }
+      }
+    },
+    {
+      "key": "thaumicenergistics:arcane_assembler",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicenergistics:ARCANE_ASSEMBLER",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicenergistics:arcane_assembler"
+          }
+        },
+        "aspects": {
+          "fabrico": 64,
+          "permutatio": 32,
+          "auram": 16,
+          "praecantatio": 16,
+          "metallum": 8,
+          "vitreus": 8
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "ae2:molecular_assembler"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:casting_wand",
+                "nbt": "{rod:\"silverwood\",cap:\"thaumium\",sceptre:1b}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:earth_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:water_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:order_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:fire_shard"
+              }
+            }
+          ]
+        },
+        "instability": 7
+      }
+    }
+  ]
+}

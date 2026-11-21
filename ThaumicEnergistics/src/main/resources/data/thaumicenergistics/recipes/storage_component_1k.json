@@ -1,0 +1,39 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:STORAGE",
+  "vis": {
+    "ignis": 3,
+    "ordo": 1
+  },
+  "result": {
+    "item": "thaumicenergistics:storage_component_1k"
+  },
+  "mode": "shaped",
+  "pattern": [
+    "EQ ",
+    "QPQ",
+    " QE"
+  ],
+  "key": {
+    "E": {
+      "item": "thaumcraft:wisp_essence"
+    },
+    "Q": [
+      {
+        "item": "ae2:certus_quartz_crystal"
+      },
+      {
+        "item": "ae2:charged_certus_quartz_crystal"
+      }
+    ],
+    "P": {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "essentia_cells"
+    }
+  ]
+}

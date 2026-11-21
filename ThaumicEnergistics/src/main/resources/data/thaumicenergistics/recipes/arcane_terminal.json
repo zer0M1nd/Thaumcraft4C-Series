@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:ARCANE_TERMINAL",
+  "vis": {
+    "aer": 10,
+    "terra": 10,
+    "ignis": 10,
+    "aqua": 10,
+    "ordo": 10,
+    "perditio": 10
+  },
+  "result": {
+    "item": "thaumicenergistics:arcane_terminal"
+  },
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "ae2:terminal"
+    },
+    {
+      "item": "thaumcraft:arcane_workbench"
+    },
+    {
+      "item": "ae2:calculation_processor"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "arcane_terminal"
+    }
+  ]
+}

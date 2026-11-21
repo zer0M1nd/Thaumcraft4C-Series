@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:STORAGE",
+  "vis": {
+    "ignis": 3,
+    "ordo": 128
+  },
+  "result": {
+    "item": "thaumicenergistics:storage_component_16384k"
+  },
+  "mode": "shaped",
+  "pattern": [
+    "EPE",
+    "CGC",
+    "ECE"
+  ],
+  "key": {
+    "E": {
+      "item": "thaumcraft:primal_charm"
+    },
+    "P": {
+      "item": "thaumcraft:void_ingot"
+    },
+    "C": {
+      "item": "thaumicenergistics:storage_component_4096k"
+    },
+    "G": {
+      "item": "thaumcraft:essentia_reservoir"
+    }
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "essentia_cells"
+    },
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "extended_cells"
+    }
+  ]
+}

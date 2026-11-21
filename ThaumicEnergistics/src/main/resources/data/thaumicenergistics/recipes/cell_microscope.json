@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:MICROSCOPE",
+  "vis": {
+    "aer": 300,
+    "terra": 300,
+    "ordo": 300
+  },
+  "result": {
+    "item": "thaumicenergistics:cell_microscope"
+  },
+  "mode": "shaped",
+  "pattern": [
+    "RTR",
+    "SQS",
+    "RPR"
+  ],
+  "key": {
+    "Q": {
+      "item": "ae2:quantum_link"
+    },
+    "P": {
+      "item": "ae2:item_p2p_tunnel"
+    },
+    "S": {
+      "item": "ae2:singularity"
+    },
+    "T": {
+      "item": "thaumcraft:thaumometer"
+    },
+    "R": {
+      "item": "thaumcraft:essentia_mirror"
+    }
+  }
+}

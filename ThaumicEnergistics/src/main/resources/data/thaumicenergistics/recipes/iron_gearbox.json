@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:IRON_GEARBOX",
+  "vis": {
+    "aer": 2,
+    "ordo": 2
+  },
+  "result": {
+    "item": "thaumicenergistics:iron_gearbox"
+  },
+  "mode": "shaped",
+  "pattern": [
+    "SGS",
+    "GGG",
+    "SGS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:cobblestone"
+    },
+    "G": {
+      "item": "thaumicenergistics:iron_gear"
+    }
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "gearbox"
+    }
+  ]
+}

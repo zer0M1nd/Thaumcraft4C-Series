@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "temodern.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": ["PatternTerminalMixin", "TerminalPhialMixin", "PatternLogicMixin", "TypeFilterMixin"],
+  "client": ["SettingToggleButtonMixin"],
+  "injectors": {"defaultRequire": 1}
+}

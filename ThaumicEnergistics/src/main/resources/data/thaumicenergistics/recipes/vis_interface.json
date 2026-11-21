@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:VIS",
+  "vis": {
+    "aer": 2,
+    "terra": 2,
+    "ignis": 2,
+    "aqua": 2,
+    "ordo": 2,
+    "perditio": 2
+  },
+  "result": {
+    "item": "thaumicenergistics:vis_interface"
+  },
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "thaumcraft:balanced_shard"
+    },
+    {
+      "item": "ae2:me_p2p_tunnel"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "vis_interface"
+    }
+  ]
+}

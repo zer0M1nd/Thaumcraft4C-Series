@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:ARCANE_ASSEMBLER",
+  "vis": {
+    "aer": 5,
+    "terra": 5,
+    "ignis": 5,
+    "aqua": 5,
+    "ordo": 5,
+    "perditio": 5
+  },
+  "result": {
+    "item": "thaumicenergistics:knowledge_inscriber"
+  },
+  "mode": "shaped",
+  "pattern": [
+    "IPI",
+    " T ",
+    "ILI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "ae2:semi_dark_monitor"
+    },
+    "T": {
+      "item": "thaumcraft:thaumonomicon"
+    },
+    "L": {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "arcane_assembler"
+    }
+  ]
+}

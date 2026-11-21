@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicenergistics:GENERATOR",
+  "vis": {
+    "aqua": 2,
+    "perditio": 4,
+    "ignis": 7,
+    "ordo": 4
+  },
+  "result": {
+    "item": "thaumicenergistics:essentia_vibration_chamber"
+  },
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "ae2:vibration_chamber"
+    },
+    {
+      "item": "thaumicenergistics:diffusion_core"
+    },
+    {
+      "item": "thaumcraft:essentia_jar"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumicenergistics:feature_enabled",
+      "feature": "vibration_chamber"
+    }
+  ]
+}
