@@ -1,0 +1,55 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 6,
+  "aspects": {
+    "praecantatio": 32,
+    "permutatio": 16,
+    "auram": 4
+  },
+  "result": {
+    "item": "thaumicexploration:transmutation_core"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primal_charm"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "research": "thaumicexploration:ROD_TRANSMUTATION"
+}

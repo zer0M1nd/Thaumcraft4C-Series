@@ -1,0 +1,59 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 2,
+  "aspects": {
+    "aqua": 20,
+    "vacuos": 8,
+    "praecantatio": 4
+  },
+  "result": {
+    "item": "thaumicexploration:everfull_urn"
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:flower_pot"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:brick"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:brick"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:brick"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "everfullUrn",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:URN"
+}

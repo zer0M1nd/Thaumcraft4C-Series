@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 3,
+  "aspects": {
+    "vinculum": 8,
+    "perditio": 4,
+    "iter": 4
+  },
+  "enchantment": "thaumicexploration:binding",
+  "base_xp": 3,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:soul_sand"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "enchantments",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:ENCHBINDING"
+}

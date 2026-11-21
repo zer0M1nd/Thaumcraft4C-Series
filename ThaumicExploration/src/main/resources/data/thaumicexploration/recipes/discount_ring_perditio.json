@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:arcane",
+  "vis": {
+    "perditio": 15
+  },
+  "pattern": [
+    " F ",
+    "F F",
+    " F "
+  ],
+  "key": {
+    "F": {
+      "item": "thaumcraft:entropy_shard"
+    }
+  },
+  "result": {
+    "item": "thaumicexploration:discount_ring_perditio"
+  },
+  "research": "thaumicexploration:DISCOUNTRINGS"
+}

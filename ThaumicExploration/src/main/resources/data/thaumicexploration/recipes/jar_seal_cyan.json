@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:crucible",
+  "catalyst": {
+    "item": "thaumicexploration:blank_seal_cyan"
+  },
+  "result": {
+    "item": "thaumicexploration:jar_seal_cyan"
+  },
+  "aspects": {
+    "alienis": 6,
+    "permutatio": 4,
+    "vitreus": 4,
+    "vinculum": 4,
+    "iter": 6
+  },
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "boundInventories",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:JARSEAL"
+}

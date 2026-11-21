@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Test only"
+[[mods]]
+modId="thaumicexploration_verification"
+version="1"
+displayName="Thaumic Exploration isolated verification"
+[[dependencies.thaumicexploration_verification]]
+modId="thaumicexploration"
+mandatory=true
+versionRange="[0.1.0.1,)"
+ordering="AFTER"
+side="BOTH"

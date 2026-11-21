@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 6,
+  "aspects": {
+    "mortuus": 32,
+    "perditio": 16,
+    "spiritus": 16,
+    "auram": 8
+  },
+  "result": {
+    "item": "thaumicexploration:necro_staff_core"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:staff_rod_bone"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "wither_skeleton_skull"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicexploration:pure_zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:rotten_flesh"
+      }
+    }
+  ],
+  "research": "thaumicexploration:ROD_NECROMANCER_staff"
+}

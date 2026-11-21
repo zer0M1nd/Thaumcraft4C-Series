@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:arcane",
+  "vis": {
+    "ignis": 6,
+    "perditio": 6,
+    "ordo": 6
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "item": "thaumicexploration:mechanist_cap_uncharged"
+  },
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "mechanist",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:CAP_MECHANIST"
+}

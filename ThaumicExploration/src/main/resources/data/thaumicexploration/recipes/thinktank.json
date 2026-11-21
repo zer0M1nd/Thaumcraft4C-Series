@@ -1,0 +1,59 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 6,
+  "aspects": {
+    "cognitio": 40,
+    "sensus": 20,
+    "exanimis": 30
+  },
+  "result": {
+    "item": "thaumicexploration:think_tank"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:essentia_jar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumicexploration:pure_zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:scribing_tools"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicexploration:pure_zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumonomicon"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicexploration:pure_zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumometer"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "thinkTank",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:THINKTANK"
+}

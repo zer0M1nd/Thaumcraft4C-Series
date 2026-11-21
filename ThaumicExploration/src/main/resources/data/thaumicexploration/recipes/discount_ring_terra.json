@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:arcane",
+  "vis": {
+    "terra": 15
+  },
+  "pattern": [
+    " F ",
+    "F F",
+    " F "
+  ],
+  "key": {
+    "F": {
+      "item": "thaumcraft:earth_shard"
+    }
+  },
+  "result": {
+    "item": "thaumicexploration:discount_ring_terra"
+  },
+  "research": "thaumicexploration:DISCOUNTRINGS"
+}

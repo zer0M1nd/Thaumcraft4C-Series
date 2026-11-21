@@ -1,0 +1,61 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 7,
+  "aspects": {
+    "perditio": 16,
+    "vacuos": 12,
+    "fames": 12,
+    "alienis": 12
+  },
+  "result": {
+    "item": "thaumicexploration:trash_jar"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_jar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:hungry_chest"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:warded_glass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:warded_glass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:warded_glass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:warded_glass"
+      }
+    }
+  ],
+  "research": "thaumicexploration:TRASHJAR"
+}

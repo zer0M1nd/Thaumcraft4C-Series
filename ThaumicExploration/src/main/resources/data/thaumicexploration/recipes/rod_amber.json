@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 5,
+  "aspects": {
+    "praecantatio": 14,
+    "auram": 4,
+    "vinculum": 6
+  },
+  "result": {
+    "item": "thaumicexploration:amber_core"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:amber_block"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "research": "thaumicexploration:ROD_AMBER"
+}

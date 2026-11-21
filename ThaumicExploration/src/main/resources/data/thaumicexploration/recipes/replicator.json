@@ -1,0 +1,65 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 9,
+  "aspects": {
+    "fabrico": 50,
+    "machina": 30,
+    "instrumentum": 30,
+    "ordo": 20
+  },
+  "result": {
+    "item": "thaumicexploration:replicator"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:infusion_matrix"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:arcane_workbench"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "replicator",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:REPLICATOR"
+}

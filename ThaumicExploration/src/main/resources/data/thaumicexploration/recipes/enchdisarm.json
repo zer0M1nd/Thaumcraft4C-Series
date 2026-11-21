@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 5,
+  "aspects": {
+    "telum": 4,
+    "limus": 8,
+    "vinculum": 4
+  },
+  "enchantment": "thaumicexploration:disarm",
+  "base_xp": 3,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:slime_ball"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "enchantments",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:ENCHDISARM"
+}

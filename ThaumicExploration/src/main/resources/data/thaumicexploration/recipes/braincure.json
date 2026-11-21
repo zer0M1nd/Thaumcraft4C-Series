@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 3,
+  "aspects": {
+    "humanus": 4,
+    "cognitio": 6,
+    "sano": 2
+  },
+  "result": {
+    "item": "thaumicexploration:pure_zombie_brain"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:zombie_brain"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:potion"
+      },
+      "nbt": "{Potion:\"minecraft:weakness\"}"
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:water_bucket"
+      }
+    }
+  ],
+  "research": "thaumicexploration:BRAINCURE"
+}

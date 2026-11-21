@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "vis": {
+    "ordo": 18
+  },
+  "pattern": [
+    "  S",
+    " G ",
+    "G  "
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:primal_charm"
+    },
+    "G": {
+      "item": "thaumicexploration:amber_core"
+    }
+  },
+  "result": {
+    "item": "thaumicexploration:amber_staff_core"
+  },
+  "research": "thaumicexploration:ROD_AMBER_staff"
+}

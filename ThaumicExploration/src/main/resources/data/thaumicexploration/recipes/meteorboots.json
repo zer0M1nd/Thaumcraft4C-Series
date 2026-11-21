@@ -1,0 +1,56 @@
+{
+  "type": "thaumcraft:infusion",
+  "instability": 4,
+  "aspects": {
+    "ignis": 25,
+    "potentia": 25,
+    "iter": 25,
+    "volatus": 25
+  },
+  "result": {
+    "item": "thaumicexploration:boots_meteor"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:traveller_boots"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:netherrack"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:netherrack"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:netherrack"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_fire"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thaumcraft:config",
+      "modid": "thaumicexploration",
+      "scope": "common",
+      "key": "boots",
+      "value": true
+    }
+  ],
+  "research": "thaumicexploration:METEORBOOTS"
+}
