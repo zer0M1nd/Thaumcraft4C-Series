@@ -1,0 +1,86 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:NuclearFury",
+  "instability": 10,
+  "aspects": {
+    "lux": 72,
+    "ignis": 80,
+    "perditio": 36,
+    "praecantatio": 64,
+    "auram": 16,
+    "potentia": 48,
+    "sensus": 32,
+    "vacuos": 40
+  },
+  "center": {
+    "ingredient": {
+      "item": "forgottenrelics:chaos_tome"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "botania:missile_rod"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:terrasteel_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:terrasteel_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:missile_tome",
+    "count": 1
+  }
+}

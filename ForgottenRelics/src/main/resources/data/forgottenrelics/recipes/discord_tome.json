@@ -1,0 +1,73 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:DiscordTome",
+  "instability": 5,
+  "aspects": {
+    "iter": 50,
+    "tenebrae": 30,
+    "vacuos": 30,
+    "praecantatio": 45,
+    "cognitio": 24
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:elementium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:ender_air_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_portable_hole"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:ender_air_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:elementium_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:teleportation_tome",
+    "count": 1
+  }
+}

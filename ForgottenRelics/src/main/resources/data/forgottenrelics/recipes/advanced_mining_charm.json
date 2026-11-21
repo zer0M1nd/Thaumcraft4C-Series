@@ -1,0 +1,85 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:AdvancedMiningCharm",
+  "instability": 8,
+  "aspects": {
+    "perfodio": 64,
+    "auram": 40,
+    "vitreus": 48,
+    "permutatio": 40,
+    "motus": 32,
+    "praecantatio": 36,
+    "instrumentum": 50
+  },
+  "center": {
+    "ingredient": {
+      "item": "forgottenrelics:mining_charm"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:elementium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:dragonstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_pickaxe"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:dragonstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:elementium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:advanced_mining_charm",
+    "count": 1
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:OblivionStone",
+  "instability": 4,
+  "aspects": {
+    "vacuos": 16,
+    "tenebrae": 16,
+    "perditio": 12,
+    "permutatio": 8,
+    "praecantatio": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:sinister_stone"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:oblivion_stone",
+    "count": 1
+  }
+}

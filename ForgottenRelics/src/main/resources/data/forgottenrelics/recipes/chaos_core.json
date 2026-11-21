@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:ChaosCore",
+  "instability": 10,
+  "aspects": {
+    "perditio": 25,
+    "ordo": 25,
+    "permutatio": 16,
+    "praecantatio": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primal_charm"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "botania:dragonstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:pixie_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:pixie_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:pixie_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:pixie_dust"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:chaos_core",
+    "count": 1
+  }
+}

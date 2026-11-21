@@ -1,0 +1,1629 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "forgottenrelics:GenericTheory",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.GenericTheory.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:GenericTheory/page/1",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.GenericTheory.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:GenericTheory/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.GenericTheory.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:GenericTheory/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.GenericTheory.4"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:GenericTheory/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.GenericTheory.5"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:GenericTheory/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:SuperpositionRing",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.SuperpositionRing.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:SuperpositionRing/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:superposition_ring"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:SuperpositionRing/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.SuperpositionRing.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:SuperpositionRing/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:SuperpositionRing/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.SuperpositionRing"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:WeatherStone",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.WeatherStone.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:WeatherStone/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:weather_stone"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:WeatherStone/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.WeatherStone.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:WeatherStone/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:WeatherStone/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.WeatherStone"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:MiningCharm",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.MiningCharm.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:MiningCharm/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:mining_charm"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:MiningCharm/page/2",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:MiningCharm/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.MiningCharm"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:AdvancedMiningCharm",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.AdvancedMiningCharm.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:AdvancedMiningCharm/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:advanced_mining_charm"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:AdvancedMiningCharm/page/2",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:AdvancedMiningCharm/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.AdvancedMiningCharm"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:DimensionalMirror",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.DimensionalMirror.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:DimensionalMirror/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:dimensional_mirror"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:DimensionalMirror/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.DimensionalMirror.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:DimensionalMirror/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:DimensionalMirror/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.DimensionalMirror"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:AncientAegis",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.AncientAegis.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:AncientAegis/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:ancient_aegis"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:AncientAegis/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.AncientAegis.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:AncientAegis/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:AncientAegis/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.AncientAegis"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:XPTome",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.XPTome.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:XPTome/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:xp_tome"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:XPTome/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.XPTome.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:XPTome/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:XPTome/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.XPTome"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:SpellbookTheory",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.SpellbookTheory.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:SpellbookTheory/page/1",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.SpellbookTheory.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:SpellbookTheory/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.SpellbookTheory.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:SpellbookTheory/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.SpellbookTheory.4"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:SpellbookTheory/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:DiscordTome",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.DiscordTome.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:DiscordTome/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:discord_tome"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:DiscordTome/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.DiscordTome.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:DiscordTome/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:DiscordTome/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.DiscordTome"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:FateTome",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.FateTome.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:FateTome/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:fate_tome"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:FateTome/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.FateTome.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:FateTome/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:FateTome/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.FateTome"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:Thunderpeal",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.Thunderpeal.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:Thunderpeal/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:thunderpeal"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:Thunderpeal/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.Thunderpeal.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:Thunderpeal/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.Thunderpeal.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:Thunderpeal/page/4",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:Thunderpeal/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.Thunderpeal"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:TelekinesisTome",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.TelekinesisTome.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:TelekinesisTome/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:telekinesis_tome"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:TelekinesisTome/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.TelekinesisTome.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:TelekinesisTome/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.TelekinesisTome.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:TelekinesisTome/page/4",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:TelekinesisTome/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.TelekinesisTome"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:ObeliskDrainer",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.ObeliskDrainer.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:ObeliskDrainer/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:obelisk_drainer"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:ObeliskDrainer/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.ObeliskDrainer.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:ObeliskDrainer/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:ObeliskDrainer/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.ObeliskDrainer"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:EldritchSpell",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.EldritchSpell.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:EldritchSpell/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:eldritch_spell"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:EldritchSpell/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.EldritchSpell.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:EldritchSpell/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:EldritchSpell/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.EldritchSpell"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:CrimsonSpell",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.CrimsonSpell.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:CrimsonSpell/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:crimson_spell"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:CrimsonSpell/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.CrimsonSpell.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:CrimsonSpell/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.CrimsonSpell.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:CrimsonSpell/page/4",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:CrimsonSpell/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.CrimsonSpell"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:ChaosTome",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.ChaosTome.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:ChaosTome/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:chaos_tome"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:ChaosTome/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.ChaosTome.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:ChaosTome/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:ChaosTome/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.ChaosTome"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:NuclearFury",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.NuclearFury.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:NuclearFury/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:nuclear_fury"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:NuclearFury/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.NuclearFury.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:NuclearFury/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.NuclearFury.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:NuclearFury/page/4",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:NuclearFury/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.NuclearFury"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:SoulTome",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.SoulTome.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:SoulTome/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:soul_tome"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:SoulTome/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.SoulTome.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:SoulTome/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:SoulTome/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.SoulTome"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:LunarFlares",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.LunarFlares.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:LunarFlares/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:lunar_flares"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:LunarFlares/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.LunarFlares.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:LunarFlares/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:LunarFlares/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.LunarFlares"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:OblivionStone",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.OblivionStone.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:OblivionStone/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:oblivion_stone"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:OblivionStone/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.OblivionStone.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:OblivionStone/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.OblivionStone.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:OblivionStone/page/4",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:OblivionStone/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.OblivionStone"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:ChaosCore",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.ChaosCore.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:ChaosCore/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:chaos_core"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:ChaosCore/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.ChaosCore.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:ChaosCore/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:ChaosCore/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.ChaosCore"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:TheParadox",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.TheParadox.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:TheParadox/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:the_paradox"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:TheParadox/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.TheParadox.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:TheParadox/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:TheParadox/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.TheParadox"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:DarkSunRing",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.DarkSunRing.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:DarkSunRing/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:dark_sun_ring"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:DarkSunRing/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.DarkSunRing.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:DarkSunRing/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:DarkSunRing/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.DarkSunRing"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:DeificAmulet",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.DeificAmulet.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:DeificAmulet/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:deific_amulet"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:DeificAmulet/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.DeificAmulet.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:DeificAmulet/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:DeificAmulet/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.DeificAmulet"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:ShinyStone",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.ShinyStone.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:ShinyStone/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:shiny_stone"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:ShinyStone/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.ShinyStone.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:ShinyStone/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:ShinyStone/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.ShinyStone"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:TerrorCrown",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.TerrorCrown.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:TerrorCrown/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:terror_crown"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:TerrorCrown/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.TerrorCrown.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:TerrorCrown/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.TerrorCrown.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:TerrorCrown/page/4",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:TerrorCrown/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.TerrorCrown"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:OblivionAmulet",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.OblivionAmulet.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:OblivionAmulet/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:oblivion_amulet"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:OblivionAmulet/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.OblivionAmulet.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:OblivionAmulet/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.OblivionAmulet.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:OblivionAmulet/page/4",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:OblivionAmulet/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.OblivionAmulet"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:NebulousCore",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.NebulousCore.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:NebulousCore/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:nebulous_core"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:NebulousCore/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.NebulousCore.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:NebulousCore/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.NebulousCore.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:NebulousCore/page/4",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:NebulousCore/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.NebulousCore"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:FalseJustice",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.FalseJustice.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:FalseJustice/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:false_justice"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:FalseJustice/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.FalseJustice.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:FalseJustice/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:FalseJustice/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.FalseJustice"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:Overthrower",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.Overthrower.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:Overthrower/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:overthrower"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:Overthrower/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.Overthrower.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:Overthrower/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.Overthrower.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:Overthrower/page/4",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:Overthrower/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.Overthrower"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:VoidGrimoire",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.VoidGrimoire.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:VoidGrimoire/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:void_grimoire"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:VoidGrimoire/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.VoidGrimoire.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:VoidGrimoire/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.VoidGrimoire.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:VoidGrimoire/page/4",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:VoidGrimoire/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.VoidGrimoire"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:PechFocus",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.PechFocus.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:PechFocus/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:pech_focus"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:PechFocus/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.PechFocus.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:PechFocus/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:DiscordRing",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.DiscordRing.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:DiscordRing/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:discord_ring"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:DiscordRing/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.DiscordRing.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:DiscordRing/page/3",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:DiscordRing/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.DiscordRing"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forgottenrelics:Apotheosis",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.Apotheosis.1"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:Apotheosis/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forgottenrelics:apotheosis"
+            ],
+            "class": "modern"
+          },
+          "id": "forgottenrelics:Apotheosis/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.Apotheosis.2"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:Apotheosis/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.Apotheosis.3"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:Apotheosis/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.text.Apotheosis.4"
+          },
+          "import_legacy": true,
+          "id": "forgottenrelics:Apotheosis/page/5",
+          "page_break": true
+        },
+        {
+          "id": "forgottenrelics:Apotheosis/controls",
+          "type": "TEXT",
+          "text": {
+            "translate": "fr.controls.Apotheosis"
+          },
+          "import_legacy": true,
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

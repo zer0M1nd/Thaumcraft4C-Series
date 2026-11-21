@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:Thunderpeal",
+  "instability": 4,
+  "aspects": {
+    "potentia": 32,
+    "praecantatio": 24,
+    "aer": 24,
+    "cognitio": 10,
+    "ignis": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:pixie_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_shock"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:pixie_dust"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:thunderpeal",
+    "count": 1
+  }
+}

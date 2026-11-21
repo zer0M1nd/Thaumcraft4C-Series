@@ -1,0 +1,86 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:LunarFlares",
+  "instability": 12,
+  "aspects": {
+    "aer": 64,
+    "potentia": 96,
+    "praecantatio": 120,
+    "cognitio": 32,
+    "ordo": 40,
+    "motus": 16,
+    "telum": 24,
+    "lux": 48
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:ender_air_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:terrasteel_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:star_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:star_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:terrasteel_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:ender_air_bottle"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:lunar_flares",
+    "count": 1
+  }
+}

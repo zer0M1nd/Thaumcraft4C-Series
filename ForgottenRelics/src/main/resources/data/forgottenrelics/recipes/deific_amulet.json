@@ -1,0 +1,64 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:DeificAmulet",
+  "instability": 4,
+  "aspects": {
+    "humanus": 30,
+    "lux": 42,
+    "auram": 16,
+    "praecantatio": 25,
+    "sano": 8,
+    "permutatio": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:runic_amulet_emergency"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "botania:lava_pendant"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:pixie_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:pixie_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:deific_amulet",
+    "count": 1
+  }
+}

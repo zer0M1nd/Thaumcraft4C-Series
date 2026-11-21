@@ -1,0 +1,88 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forgottenrelics:ChaosTome",
+  "instability": 12,
+  "aspects": {
+    "aer": 100,
+    "aqua": 100,
+    "terra": 100,
+    "ignis": 100,
+    "ordo": 100,
+    "perditio": 100,
+    "praecantatio": 256,
+    "permutatio": 72,
+    "alienis": 36,
+    "tenebrae": 40
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_primal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:elementium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_primal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_primal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:life_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_primal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:elementium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "result": {
+    "item": "forgottenrelics:chaos_tome",
+    "count": 1
+  }
+}
