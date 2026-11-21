@@ -5,20 +5,21 @@ base.archivesName = '[TC4Continuation]Advanced-Thaumaturgy'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
 repositories {
-    flatDir { dirs '../../../Data/Dependencies/TC4/0.4.115.1' }
+    flatDir { dirs 'dependencies/jars' }
     maven { url = 'https://maven.theillusivec4.top/' }
     maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
     mavenCentral()
 }
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
-    implementation fg.deobf('local.revival:Thaumcraft-4-Modern-Port:0.4.115.1')
+    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
     compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
     runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
-    compileOnly files('../../../Data/Dependencies/AdvancedThaumaturgy/cc-tweaked-1.20.1-core-api-1.120.2.jar','../../../Data/Dependencies/AdvancedThaumaturgy/cc-tweaked-1.20.1-forge-api-1.120.2.jar')
-    compileOnly files('../../../Data/Dependencies/AdvancedThaumaturgy/opencomputers-1.20.1-1.9.0-2.jar')
+    compileOnly files('dependencies/jars/cc-tweaked-1.20.1-core-api-1.120.2.jar','dependencies/jars/cc-tweaked-1.20.1-forge-api-1.120.2.jar')
+    compileOnly files('dependencies/jars/opencomputers-1.20.1-1.9.0-2.jar')
 }
 minecraft {
     mappings channel: 'official', version: '1.20.1'
