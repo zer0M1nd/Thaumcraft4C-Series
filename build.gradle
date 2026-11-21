@@ -1,7 +1,7 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
 version = '0.1.7.1'
 group = 'thaumicconcilium'
-base.archivesName = 'Thaumic-Concilium-Modern-Port'
+base.archivesName = '[TC4Continuation]Thaumic-Concilium'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
 sourceSets {
@@ -20,6 +20,12 @@ repositories {
     maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
     mavenCentral()
 }
+// The other add-ons may have been built before or after the distribution rename.
+def addonDependency = { String module, String archiveName, String version ->
+    def current = "[TC4Continuation]${archiveName}"
+    def artifact = file("../${module}/build/libs/${current}-${version}.jar").isFile() ? current : archiveName + '-Modern-Port'
+    "local.validation:${artifact}:${version}"
+}
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
     implementation fg.deobf("local.validation:Thaumcraft-4-Modern-Port:${findProperty('tc4ValidationVersion') ?: '0.4.114'}")
@@ -28,11 +34,11 @@ dependencies {
     compileOnly fg.deobf('local:bloodmagic:3.3.8-50')
     compileOnly fg.deobf('local:witchery-1.20.1-port:0.1.3.32-9376998')
     compileOnly fg.deobf('local:arsmagicalegacy:1.20.1-1.5.0')
-    compileOnly fg.deobf("local.validation:Gadomancy-Modern-Port:${findProperty('gadomancyValidationVersion') ?: '0.1.11.2'}")
+    compileOnly fg.deobf(addonDependency('Gadomancy', 'Gadomancy', findProperty('gadomancyValidationVersion') ?: '0.1.11.2'))
     runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
-    implementation fg.deobf("local.validation:Forbidden-Magic-Modern-Port:${findProperty('forbiddenMagicValidationVersion') ?: '0.1.16.1'}")
-    implementation fg.deobf("local.validation:Thaumic-Tinkerer-Modern-Port:${findProperty('tinkererValidationVersion') ?: '0.1.38.2'}")
+    implementation fg.deobf(addonDependency('ForbiddenMagic', 'Forbidden-Magic', findProperty('forbiddenMagicValidationVersion') ?: '0.1.16.1'))
+    implementation fg.deobf(addonDependency('ThaumicTinkerer', 'Thaumic-Tinkerer', findProperty('tinkererValidationVersion') ?: '0.1.38.2'))
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
 }
 minecraft {
