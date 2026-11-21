@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.1.3'
+version = '0.1.3.1'
 group = 'advancedthaumaturgy'
 base.archivesName = 'Advanced-Thaumaturgy-Modern-Port'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
