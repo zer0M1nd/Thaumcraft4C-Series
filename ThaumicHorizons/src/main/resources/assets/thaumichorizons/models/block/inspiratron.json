@@ -1,0 +1,281 @@
+{
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "body": "thaumichorizons:models/inspiratron",
+    "particle": "thaumichorizons:models/inspiratron"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        -1,
+        3
+      ],
+      "to": [
+        13,
+        13,
+        13
+      ],
+      "faces": {
+        "west": {
+          "texture": "#body",
+          "uv": [
+            0.0,
+            2.5,
+            2.5,
+            6.0
+          ]
+        },
+        "north": {
+          "texture": "#body",
+          "uv": [
+            2.5,
+            2.5,
+            5.0,
+            6.0
+          ]
+        },
+        "east": {
+          "texture": "#body",
+          "uv": [
+            5.0,
+            2.5,
+            7.5,
+            6.0
+          ]
+        },
+        "south": {
+          "texture": "#body",
+          "uv": [
+            7.5,
+            2.5,
+            10.0,
+            6.0
+          ]
+        },
+        "up": {
+          "texture": "#body",
+          "uv": [
+            2.5,
+            0.0,
+            5.0,
+            2.5
+          ]
+        },
+        "down": {
+          "texture": "#body",
+          "uv": [
+            5.0,
+            0.0,
+            7.5,
+            2.5
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        1,
+        16
+      ],
+      "faces": {
+        "west": {
+          "texture": "#body",
+          "uv": [
+            0.0,
+            13.75,
+            4.0,
+            14.0
+          ]
+        },
+        "north": {
+          "texture": "#body",
+          "uv": [
+            4.0,
+            13.75,
+            8.0,
+            14.0
+          ]
+        },
+        "east": {
+          "texture": "#body",
+          "uv": [
+            8.0,
+            13.75,
+            12.0,
+            14.0
+          ]
+        },
+        "south": {
+          "texture": "#body",
+          "uv": [
+            12.0,
+            13.75,
+            16.0,
+            14.0
+          ]
+        },
+        "up": {
+          "texture": "#body",
+          "uv": [
+            4.0,
+            9.75,
+            8.0,
+            13.75
+          ]
+        },
+        "down": {
+          "texture": "#body",
+          "uv": [
+            8.0,
+            9.75,
+            12.0,
+            13.75
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        1,
+        2
+      ],
+      "to": [
+        14,
+        4,
+        14
+      ],
+      "faces": {
+        "west": {
+          "texture": "#body",
+          "uv": [
+            0.0,
+            9.0,
+            3.0,
+            9.75
+          ]
+        },
+        "north": {
+          "texture": "#body",
+          "uv": [
+            3.0,
+            9.0,
+            6.0,
+            9.75
+          ]
+        },
+        "east": {
+          "texture": "#body",
+          "uv": [
+            6.0,
+            9.0,
+            9.0,
+            9.75
+          ]
+        },
+        "south": {
+          "texture": "#body",
+          "uv": [
+            9.0,
+            9.0,
+            12.0,
+            9.75
+          ]
+        },
+        "up": {
+          "texture": "#body",
+          "uv": [
+            3.0,
+            6.0,
+            6.0,
+            9.0
+          ]
+        },
+        "down": {
+          "texture": "#body",
+          "uv": [
+            6.0,
+            6.0,
+            9.0,
+            9.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        13,
+        2
+      ],
+      "to": [
+        14,
+        14,
+        14
+      ],
+      "faces": {
+        "west": {
+          "texture": "#body",
+          "uv": [
+            0.0,
+            9.0,
+            3.0,
+            9.25
+          ]
+        },
+        "north": {
+          "texture": "#body",
+          "uv": [
+            3.0,
+            9.0,
+            6.0,
+            9.25
+          ]
+        },
+        "east": {
+          "texture": "#body",
+          "uv": [
+            6.0,
+            9.0,
+            9.0,
+            9.25
+          ]
+        },
+        "south": {
+          "texture": "#body",
+          "uv": [
+            9.0,
+            9.0,
+            12.0,
+            9.25
+          ]
+        },
+        "up": {
+          "texture": "#body",
+          "uv": [
+            3.0,
+            6.0,
+            6.0,
+            9.0
+          ]
+        },
+        "down": {
+          "texture": "#body",
+          "uv": [
+            6.0,
+            6.0,
+            9.0,
+            9.0
+          ]
+        }
+      }
+    }
+  ]
+}

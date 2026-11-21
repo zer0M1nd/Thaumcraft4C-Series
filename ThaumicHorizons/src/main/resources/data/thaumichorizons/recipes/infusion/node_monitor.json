@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "nodeMonitor",
+  "instability": 2,
+  "aspects": {
+    "auram": 2,
+    "sensus": 8,
+    "machina": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumometer"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:comparator"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:node_monitor"
+  }
+}

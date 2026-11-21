@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "soulExtractor",
+          "category": "ThaumicHorizons",
+          "displayColumn": 5,
+          "displayRow": 6,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "spiritus",
+              "amount": 4
+            },
+            {
+              "aspect": "vinculum",
+              "amount": 4
+            },
+            {
+              "aspect": "terra",
+              "amount": 4
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "JARBRAIN",
+            "ENCHFABRIC"
+          ],
+          "isHidden": true,
+          "itemTriggers": [
+            {
+              "item": "minecraft:soul_sand",
+              "count": 1,
+              "metadata": 0,
+              "damageable": false
+            }
+          ],
+          "warp": 3,
+          "icon_item": {
+            "item": "thaumichorizons:soul_extractor"
+          },
+          "pageCount": 3
+        }
+      ]
+    }
+  ]
+}

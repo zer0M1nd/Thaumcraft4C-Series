@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "greatwoodBoat",
+  "pattern": [
+    "G G",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "thaumcraft:greatwood_log"
+    }
+  },
+  "vis": {
+    "ordo": 5,
+    "terra": 5,
+    "aqua": 5
+  },
+  "result": {
+    "item": "thaumichorizons:boat_greatwood"
+  }
+}

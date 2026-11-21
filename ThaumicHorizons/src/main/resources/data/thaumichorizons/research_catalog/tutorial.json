@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_THAUMICHORIZONS",
+          "category": "TUTORIAL",
+          "displayColumn": 62,
+          "displayRow": -9,
+          "parents": [
+            "TUT_INFUSION_ENCHANT",
+            "INFUSION"
+          ],
+          "icon_item": {
+            "item": "thaumichorizons:lens_fire",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumichorizons"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "alcheponics",
+            "lensFire",
+            "infusionVat",
+            "selfInfusion",
+            "planarTheory"
+          ],
+          "pageCount": 8,
+          "parentMirrors": {
+            "INFUSION": "TUT_ADDON_THAUMICHORIZONS_PREREQUISITE_1"
+          }
+        },
+        {
+          "key": "TUT_ADDON_THAUMICHORIZONS_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 61,
+          "displayRow": -10,
+          "mirrorOf": "INFUSION",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumichorizons"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

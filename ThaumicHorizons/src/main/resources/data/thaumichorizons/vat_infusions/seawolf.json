@@ -1,0 +1,36 @@
+{
+  "research": "dogInfusion",
+  "instability": 2,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:wolf"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:raw_fishes"
+    },
+    {
+      "item": "thaumcraft:water_shard"
+    },
+    {
+      "tag": "forge:raw_fishes"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:long_water_breathing"
+      }
+    }
+  ],
+  "aspects": {
+    "aqua": 8,
+    "aer": 8,
+    "permutatio": 4,
+    "motus": 8
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:seawolf"
+  }
+}

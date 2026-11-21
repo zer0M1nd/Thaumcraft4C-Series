@@ -1,0 +1,31 @@
+{
+  "research": "chickenInfusion",
+  "instability": 6,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:chicken"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "thaumcraft:alchemical_construct"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "thaumcraft:crucible"
+    }
+  ],
+  "aspects": {
+    "lucrum": 8,
+    "metallum": 8,
+    "fabrico": 16
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:gold_chicken"
+  }
+}

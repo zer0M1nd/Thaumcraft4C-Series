@@ -1,0 +1,126 @@
+[
+  {
+    "key": "thaumichorizons:berserk",
+    "aspects": [
+      "telum"
+    ],
+    "texture": "thaumichorizons:textures/foci/berserk.png",
+    "name": "focus.upgrade.berserk.name",
+    "description": "focus.upgrade.berserk.text",
+    "foci": [
+      "thaumichorizons:focus_animation"
+    ],
+    "ranks": [
+      3
+    ]
+  },
+  {
+    "key": "thaumichorizons:detonation",
+    "aspects": [
+      "telum"
+    ],
+    "texture": "thaumichorizons:textures/foci/detonation.png",
+    "name": "focus.upgrade.detonation.name",
+    "description": "focus.upgrade.detonation.text",
+    "foci": [
+      "thaumichorizons:focus_animation"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumichorizons:slow",
+    "aspects": [
+      "vinculum"
+    ],
+    "texture": "thaumichorizons:textures/foci/slow.png",
+    "name": "focus.upgrade.slow.name",
+    "description": "focus.upgrade.slow.text",
+    "foci": [
+      "thaumichorizons:focus_containment"
+    ],
+    "ranks": [
+      2,
+      4
+    ]
+  },
+  {
+    "key": "thaumichorizons:solar",
+    "aspects": [
+      "ordo",
+      "vacuos"
+    ],
+    "texture": "thaumichorizons:textures/foci/solar.png",
+    "name": "focus.upgrade.solar.name",
+    "description": "focus.upgrade.solar.text",
+    "foci": [
+      "thaumichorizons:focus_illumination_black",
+      "thaumichorizons:focus_illumination_red",
+      "thaumichorizons:focus_illumination_green",
+      "thaumichorizons:focus_illumination_brown",
+      "thaumichorizons:focus_illumination_blue",
+      "thaumichorizons:focus_illumination_purple",
+      "thaumichorizons:focus_illumination_cyan",
+      "thaumichorizons:focus_illumination_light_gray",
+      "thaumichorizons:focus_illumination_gray",
+      "thaumichorizons:focus_illumination_pink",
+      "thaumichorizons:focus_illumination_lime",
+      "thaumichorizons:focus_illumination_yellow",
+      "thaumichorizons:focus_illumination_light_blue",
+      "thaumichorizons:focus_illumination_magenta",
+      "thaumichorizons:focus_illumination_orange",
+      "thaumichorizons:focus_illumination_white"
+    ],
+    "ranks": [
+      3
+    ]
+  },
+  {
+    "key": "thaumichorizons:nuggets",
+    "aspects": [
+      "metallum"
+    ],
+    "texture": "thaumichorizons:textures/foci/nuggets.png",
+    "name": "focus.upgrade.nuggets.name",
+    "description": "focus.upgrade.nuggets.text",
+    "foci": [
+      "thaumichorizons:focus_liquefaction"
+    ],
+    "ranks": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "key": "thaumichorizons:purity",
+    "aspects": [
+      "ordo"
+    ],
+    "texture": "thaumichorizons:textures/foci/purity.png",
+    "name": "focus.upgrade.purity.name",
+    "description": "focus.upgrade.purity.text",
+    "foci": [
+      "thaumichorizons:focus_liquefaction"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumichorizons:enervation",
+    "aspects": [
+      "mortuus"
+    ],
+    "texture": "thaumichorizons:textures/foci/enervation.png",
+    "name": "focus.upgrade.enervation.name",
+    "description": "focus.upgrade.enervation.text",
+    "foci": [
+      "thaumichorizons:focus_disintegration"
+    ],
+    "ranks": [
+      5
+    ]
+  }
+]

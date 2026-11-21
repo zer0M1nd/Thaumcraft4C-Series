@@ -1,0 +1,293 @@
+{
+  "maximum_essentia": 8,
+  "effect_order": [
+    "minecraft:speed",
+    "minecraft:slowness",
+    "minecraft:haste",
+    "minecraft:mining_fatigue",
+    "minecraft:strength",
+    "minecraft:instant_health",
+    "minecraft:instant_damage",
+    "minecraft:jump_boost",
+    "minecraft:nausea",
+    "minecraft:regeneration",
+    "minecraft:resistance",
+    "minecraft:fire_resistance",
+    "minecraft:water_breathing",
+    "minecraft:invisibility",
+    "minecraft:blindness",
+    "minecraft:night_vision",
+    "minecraft:hunger",
+    "minecraft:weakness",
+    "minecraft:poison",
+    "minecraft:wither",
+    "minecraft:health_boost",
+    "minecraft:saturation",
+    "thaumcraft:flux_taint",
+    "thaumcraft:vis_exhaust",
+    "thaumichorizons:vis_regeneration",
+    "thaumichorizons:vacuum",
+    "thaumichorizons:shock",
+    "thaumichorizons:synthesis"
+  ],
+  "weights": {
+    "aer": {
+      "minecraft:speed": 3,
+      "minecraft:jump_boost": 4,
+      "minecraft:water_breathing": 3
+    },
+    "terra": {
+      "minecraft:slowness": 3,
+      "minecraft:haste": 4,
+      "minecraft:strength": 1,
+      "minecraft:resistance": 2
+    },
+    "ignis": {
+      "minecraft:speed": 1,
+      "minecraft:strength": 2,
+      "minecraft:fire_resistance": 6,
+      "minecraft:night_vision": 1
+    },
+    "aqua": {
+      "minecraft:speed": 2,
+      "minecraft:haste": 2,
+      "minecraft:regeneration": 1,
+      "minecraft:fire_resistance": 2,
+      "minecraft:water_breathing": 3
+    },
+    "ordo": {
+      "minecraft:slowness": 2,
+      "minecraft:mining_fatigue": 3,
+      "minecraft:resistance": 3,
+      "minecraft:health_boost": 2
+    },
+    "perditio": {
+      "minecraft:instant_damage": 1,
+      "minecraft:nausea": 1,
+      "minecraft:hunger": 1,
+      "minecraft:weakness": 2,
+      "minecraft:poison": 2,
+      "minecraft:wither": 3
+    },
+    "vacuos": {
+      "minecraft:invisibility": 4,
+      "minecraft:hunger": 2,
+      "thaumichorizons:vacuum": 4
+    },
+    "lux": {
+      "minecraft:blindness": 2,
+      "minecraft:night_vision": 8
+    },
+    "tempestas": {
+      "minecraft:speed": 1,
+      "minecraft:jump_boost": 2,
+      "minecraft:blindness": 1,
+      "thaumichorizons:shock": 8
+    },
+    "motus": {
+      "minecraft:speed": 5,
+      "minecraft:jump_boost": 5
+    },
+    "gelum": {
+      "minecraft:slowness": 2,
+      "minecraft:mining_fatigue": 2,
+      "minecraft:resistance": 2,
+      "minecraft:invisibility": 2,
+      "minecraft:weakness": 2
+    },
+    "vitreus": {
+      "minecraft:mining_fatigue": 2,
+      "minecraft:strength": 2,
+      "minecraft:invisibility": 6
+    },
+    "victus": {
+      "minecraft:instant_health": 2,
+      "minecraft:regeneration": 6,
+      "minecraft:health_boost": 2
+    },
+    "venenum": {
+      "minecraft:mining_fatigue": 1,
+      "minecraft:nausea": 1,
+      "minecraft:hunger": 1,
+      "minecraft:poison": 6,
+      "minecraft:weakness": 1
+    },
+    "potentia": {
+      "minecraft:speed": 2,
+      "minecraft:haste": 2,
+      "minecraft:strength": 1,
+      "minecraft:jump_boost": 1,
+      "thaumichorizons:vis_regeneration": 1,
+      "thaumichorizons:shock": 3
+    },
+    "permutatio": {
+      "minecraft:speed": 2,
+      "minecraft:haste": 2,
+      "minecraft:jump_boost": 1,
+      "minecraft:weakness": 2,
+      "thaumichorizons:vacuum": 3
+    },
+    "metallum": {
+      "minecraft:slowness": 2,
+      "minecraft:haste": 2,
+      "minecraft:strength": 2,
+      "minecraft:resistance": 4
+    },
+    "mortuus": {
+      "minecraft:instant_damage": 6,
+      "minecraft:nausea": 1,
+      "minecraft:hunger": 1,
+      "minecraft:weakness": 1,
+      "minecraft:wither": 1
+    },
+    "volatus": {
+      "minecraft:speed": 2,
+      "minecraft:jump_boost": 8
+    },
+    "tenebrae": {
+      "minecraft:invisibility": 4,
+      "minecraft:blindness": 5,
+      "minecraft:night_vision": 1
+    },
+    "spiritus": {
+      "minecraft:instant_health": 2,
+      "minecraft:regeneration": 1,
+      "minecraft:invisibility": 3,
+      "minecraft:night_vision": 2,
+      "minecraft:health_boost": 1,
+      "thaumichorizons:vis_regeneration": 1
+    },
+    "sano": {
+      "minecraft:instant_health": 6,
+      "minecraft:regeneration": 2,
+      "minecraft:health_boost": 2
+    },
+    "iter": {
+      "minecraft:speed": 8,
+      "minecraft:jump_boost": 2
+    },
+    "alienis": {
+      "minecraft:invisibility": 2,
+      "minecraft:blindness": 2,
+      "minecraft:night_vision": 2,
+      "thaumcraft:vis_exhaust": 2,
+      "thaumichorizons:vis_regeneration": 2
+    },
+    "praecantatio": {
+      "thaumcraft:vis_exhaust": 5,
+      "thaumichorizons:vis_regeneration": 5
+    },
+    "auram": {
+      "thaumichorizons:vis_regeneration": 10
+    },
+    "vitium": {
+      "thaumcraft:vis_exhaust": 2,
+      "minecraft:wither": 2,
+      "thaumcraft:flux_taint": 6
+    },
+    "limus": {
+      "minecraft:slowness": 4,
+      "minecraft:mining_fatigue": 2,
+      "minecraft:nausea": 2,
+      "minecraft:poison": 2
+    },
+    "herba": {
+      "minecraft:saturation": 2,
+      "thaumichorizons:synthesis": 8
+    },
+    "arbor": {
+      "minecraft:slowness": 2,
+      "minecraft:resistance": 2,
+      "thaumichorizons:synthesis": 6
+    },
+    "bestia": {
+      "minecraft:speed": 1,
+      "minecraft:strength": 5,
+      "minecraft:regeneration": 1,
+      "minecraft:water_breathing": 1,
+      "minecraft:night_vision": 1,
+      "minecraft:health_boost": 1
+    },
+    "corpus": {
+      "minecraft:regeneration": 2,
+      "minecraft:health_boost": 2,
+      "minecraft:saturation": 6
+    },
+    "exanimis": {
+      "minecraft:hunger": 2,
+      "minecraft:wither": 2,
+      "minecraft:instant_damage": 6
+    },
+    "cognitio": {
+      "minecraft:night_vision": 2,
+      "thaumcraft:vis_exhaust": 3,
+      "thaumichorizons:vis_regeneration": 3,
+      "thaumichorizons:vacuum": 2
+    },
+    "sensus": {
+      "minecraft:invisibility": 4,
+      "minecraft:night_vision": 6
+    },
+    "humanus": {
+      "minecraft:instant_health": 3,
+      "minecraft:regeneration": 3,
+      "minecraft:health_boost": 4
+    },
+    "messis": {
+      "minecraft:saturation": 6,
+      "thaumichorizons:synthesis": 4
+    },
+    "perfodio": {
+      "minecraft:haste": 10
+    },
+    "instrumentum": {
+      "minecraft:speed": 1,
+      "minecraft:haste": 8,
+      "minecraft:resistance": 1
+    },
+    "meto": {
+      "minecraft:haste": 2,
+      "minecraft:instant_health": 1,
+      "minecraft:saturation": 5,
+      "thaumichorizons:synthesis": 2
+    },
+    "telum": {
+      "minecraft:haste": 2,
+      "minecraft:strength": 8
+    },
+    "tutamen": {
+      "minecraft:resistance": 8,
+      "minecraft:fire_resistance": 2
+    },
+    "fames": {
+      "minecraft:weakness": 1,
+      "minecraft:saturation": 8,
+      "thaumichorizons:vacuum": 1
+    },
+    "lucrum": {
+      "minecraft:saturation": 2,
+      "thaumichorizons:vacuum": 8
+    },
+    "fabrico": {
+      "minecraft:mining_fatigue": 2,
+      "minecraft:instant_health": 2,
+      "minecraft:resistance": 2,
+      "minecraft:health_boost": 4
+    },
+    "pannus": {
+      "minecraft:mining_fatigue": 2,
+      "minecraft:resistance": 4,
+      "minecraft:blindness": 2,
+      "minecraft:weakness": 2
+    },
+    "machina": {
+      "minecraft:speed": 2,
+      "minecraft:haste": 4,
+      "minecraft:strength": 4
+    },
+    "vinculum": {
+      "minecraft:slowness": 8,
+      "minecraft:mining_fatigue": 2
+    }
+  }
+}

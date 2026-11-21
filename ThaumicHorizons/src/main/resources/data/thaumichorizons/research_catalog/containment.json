@@ -1,0 +1,236 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "focusContainment",
+          "category": "ThaumicHorizons",
+          "displayColumn": 8,
+          "displayRow": -3,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "vinculum",
+              "amount": 6
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 6
+            },
+            {
+              "aspect": "iter",
+              "amount": 2
+            }
+          ],
+          "parents": [],
+          "parentsHidden": [
+            "DISTILESSENTIA",
+            "FOCUSPORTABLEHOLE"
+          ],
+          "siblings": [],
+          "isRound": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:focus_containment"
+          },
+          "pageCount": 3
+        },
+        {
+          "key": "infusionVat",
+          "category": "ThaumicHorizons",
+          "displayColumn": 10,
+          "displayRow": -1,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "praecantatio",
+              "amount": 5
+            },
+            {
+              "aspect": "victus",
+              "amount": 5
+            },
+            {
+              "aspect": "fabrico",
+              "amount": 5
+            },
+            {
+              "aspect": "bestia",
+              "amount": 5
+            }
+          ],
+          "parents": [
+            "healingVat",
+            "INFUSION",
+            "focusContainment"
+          ],
+          "parentsHidden": [],
+          "siblings": [
+            "generalInfusion"
+          ],
+          "isRound": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:modified_matrix"
+          },
+          "pageCount": 5
+        },
+        {
+          "key": "generalInfusion",
+          "category": "ThaumicHorizons",
+          "displayColumn": 12,
+          "displayRow": -3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "bestia",
+              "amount": 1
+            }
+          ],
+          "parents": [
+            "infusionVat"
+          ],
+          "parentsHidden": [],
+          "siblings": [],
+          "isRound": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:infusion_quick_limbs"
+          },
+          "pageCount": 12
+        },
+        {
+          "key": "instilledLoyalty",
+          "category": "ThaumicHorizons",
+          "displayColumn": 15,
+          "displayRow": -1,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 4
+            },
+            {
+              "aspect": "bestia",
+              "amount": 3
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "generalInfusion"
+          ],
+          "parentsHidden": [],
+          "siblings": [],
+          "isRound": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:infusion_instilled_loyalty"
+          },
+          "pageCount": 3
+        },
+        {
+          "key": "runicCreature",
+          "category": "ThaumicHorizons",
+          "displayColumn": 15,
+          "displayRow": -3,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "potentia",
+              "amount": 4
+            },
+            {
+              "aspect": "tutamen",
+              "amount": 4
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "generalInfusion",
+            "RUNICAUGMENTATION"
+          ],
+          "parentsHidden": [],
+          "siblings": [],
+          "isRound": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:infusion_runic_hide"
+          },
+          "pageCount": 2,
+          "isSecondary": true
+        },
+        {
+          "key": "eldritchFangs",
+          "category": "ThaumicHorizons",
+          "displayColumn": 15,
+          "displayRow": -2,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "alienis",
+              "amount": 4
+            },
+            {
+              "aspect": "telum",
+              "amount": 4
+            },
+            {
+              "aspect": "venenum",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "generalInfusion",
+            "VOIDMETAL"
+          ],
+          "parentsHidden": [],
+          "siblings": [],
+          "isRound": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:infusion_eldritch_fangs"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "portability",
+          "category": "ThaumicHorizons",
+          "displayColumn": 15,
+          "displayRow": -4,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "vacuos",
+              "amount": 4
+            },
+            {
+              "aspect": "vinculum",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "generalInfusion"
+          ],
+          "parentsHidden": [],
+          "siblings": [],
+          "isRound": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:infusion_portability"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "horseInfusion",
+          "category": "ThaumicHorizons",
+          "displayColumn": 15,
+          "displayRow": -5,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "bestia",
+              "amount": 4
+            },
+            {
+              "aspect": "iter",
+              "amount": 5
+            },
+            {
+              "aspect": "alienis",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "generalInfusion"
+          ],
+          "parentsHidden": [],
+          "siblings": [],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "minecraft:saddle"
+          },
+          "pageCount": 5
+        }
+      ]
+    }
+  ]
+}

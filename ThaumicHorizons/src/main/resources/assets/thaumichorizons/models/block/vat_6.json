@@ -1,0 +1,79 @@
+{
+  "render_type": "minecraft:solid",
+  "textures": {
+    "vatbaseleftright": "thaumichorizons:block/vatbaseleftright",
+    "vatinnercornera": "thaumichorizons:block/vatinnercornera",
+    "vatbasecenter": "thaumichorizons:block/vatbasecenter",
+    "particle": "thaumichorizons:block/vattop"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#vatbaseleftright",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#vatbaseleftright",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#vatbaseleftright",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#vatbaseleftright",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#vatinnercornera",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#vatbasecenter",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "alchIncubation",
+  "aspects": {
+    "ignis": 2,
+    "victus": 2
+  },
+  "catalyst": {
+    "item": "minecraft:egg"
+  },
+  "result": {
+    "item": "thaumichorizons:incubated_egg",
+    "count": 1
+  }
+}

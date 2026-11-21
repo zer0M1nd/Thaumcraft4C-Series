@@ -1,0 +1,51 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "pigInfusion",
+          "category": "ThaumicHorizons",
+          "displayColumn": 12,
+          "displayRow": -5,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "bestia",
+              "amount": 5
+            },
+            {
+              "aspect": "fames",
+              "amount": 5
+            },
+            {
+              "aspect": "metallum",
+              "amount": 3
+            },
+            {
+              "aspect": "vitium",
+              "amount": 3
+            },
+            {
+              "aspect": "sano",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "generalInfusion"
+          ],
+          "parentsHidden": [],
+          "siblings": [],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "minecraft:cobblestone"
+          },
+          "pageCount": 4
+        }
+      ]
+    }
+  ]
+}

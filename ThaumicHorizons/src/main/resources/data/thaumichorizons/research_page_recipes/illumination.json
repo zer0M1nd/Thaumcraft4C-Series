@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:focus_illumination_yellow",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "focusIllumination",
+        "aspects": {
+          "lux": 12,
+          "potentia": 8,
+          "ignis": 8
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:glowstone",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:focus_illumination_yellow",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    }
+  ]
+}

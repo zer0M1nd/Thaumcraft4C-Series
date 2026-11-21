@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "soulAssembler",
+  "instability": 6,
+  "aspects": {
+    "spiritus": 16,
+    "fabrico": 16,
+    "permutatio": 16,
+    "cognitio": 32,
+    "sano": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:essentia_jar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:brain_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:brain_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:soulforge"
+  }
+}

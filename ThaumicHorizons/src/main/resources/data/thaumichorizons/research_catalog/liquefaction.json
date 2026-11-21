@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "focusLiquefaction",
+          "category": "ThaumicHorizons",
+          "displayColumn": 1,
+          "displayRow": 8,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "ignis",
+              "amount": 3
+            },
+            {
+              "aspect": "metallum",
+              "amount": 3
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "focusIllumination",
+            "FOCUSEXCAVATION"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:focus_liquefaction"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

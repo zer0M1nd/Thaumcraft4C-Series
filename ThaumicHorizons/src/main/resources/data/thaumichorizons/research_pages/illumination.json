@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "focusIllumination",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "focusIllumination1"
+          },
+          "id": "thaumichorizons:focusIllumination/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumichorizons:focus_illumination_yellow"
+            ]
+          },
+          "id": "thaumichorizons:focusIllumination/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

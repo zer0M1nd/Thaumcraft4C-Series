@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "voidPutty",
+          "category": "ThaumicHorizons",
+          "displayColumn": 16,
+          "displayRow": 9,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "permutatio",
+              "amount": 3
+            },
+            {
+              "aspect": "fabrico",
+              "amount": 3
+            },
+            {
+              "aspect": "metallum",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "planarRift"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:void_putty"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "research": "sheepInfusion",
+  "instability": 2,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:sheep"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "aspects": {
+    "sensus": 8,
+    "permutatio": 4
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:chromatic_sheep"
+  }
+}

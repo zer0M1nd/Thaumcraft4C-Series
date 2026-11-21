@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "essentiaInjection",
+  "pattern": [
+    "P",
+    "N"
+  ],
+  "key": {
+    "P": {
+      "item": "thaumcraft:empty_phial"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "vis": {
+    "aqua": 1,
+    "ordo": 1
+  },
+  "result": {
+    "item": "thaumichorizons:empty_syringe"
+  }
+}

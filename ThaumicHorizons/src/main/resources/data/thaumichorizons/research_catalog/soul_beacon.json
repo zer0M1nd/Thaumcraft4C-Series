@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "nightmare",
+          "category": "ThaumicHorizons",
+          "displayColumn": 13,
+          "displayRow": 4,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "spiritus",
+              "amount": 1
+            }
+          ],
+          "parents": [
+            "cloneVillager"
+          ],
+          "isConcealed": true,
+          "isRound": true,
+          "icon_resource": "thaumichorizons:textures/misc/skull.png",
+          "pageCount": 2
+        },
+        {
+          "key": "cloneSelf",
+          "category": "ThaumicHorizons",
+          "displayColumn": 15,
+          "displayRow": 4,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "spiritus",
+              "amount": 4
+            },
+            {
+              "aspect": "vinculum",
+              "amount": 4
+            },
+            {
+              "aspect": "humanus",
+              "amount": 4
+            },
+            {
+              "aspect": "sano",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "nightmare",
+            "PRIMPEARL"
+          ],
+          "isConcealed": true,
+          "warp": 5,
+          "icon_resource": "thaumichorizons:textures/misc/steve.png",
+          "pageCount": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "alcheponics",
+  "aspects": {
+    "lux": 2,
+    "terra": 2,
+    "aqua": 2
+  },
+  "catalyst": {
+    "item": "minecraft:wheat_seeds"
+  },
+  "result": {
+    "item": "minecraft:wheat",
+    "count": 2
+  }
+}

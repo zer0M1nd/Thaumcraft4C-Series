@@ -1,0 +1,328 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:alternateGolemBell",
+      "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "GOLEMBELL",
+        "aspects": {
+          "ordo": 5
+        },
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:golem_bell",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            null,
+            null,
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:focus_animation",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "focusAnimation",
+        "instability": 10,
+        "aspects": {
+          "humanus": 64,
+          "motus": 64,
+          "spiritus": 64,
+          "fabrico": 64
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:primordial_pearl",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:focus_animation",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_core_blank",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:human_blood",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_upgrade_air",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_upgrade_fire",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_upgrade_order",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_core_blank",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:human_blood",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_upgrade_earth",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_upgrade_water",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_upgrade_entropy",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:advanced_golem",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "focusAnimation",
+        "instability": 3,
+        "aspects": {
+          "cognitio": 8,
+          "sensus": 8,
+          "victus": 8
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:golem_placer",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "literal",
+              "value": "advanced"
+            },
+            {
+              "kind": "nbt",
+              "type": "net.minecraft.nbt.NBTTagByte",
+              "value": "1b"
+            }
+          ]
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glowstone_dust",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gunpowder",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:golem_powder",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "golemPowder",
+        "aspects": {
+          "humanus": 4,
+          "spiritus": 4,
+          "motus": 4
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:salis_mundus",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:golem_powder",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    }
+  ]
+}

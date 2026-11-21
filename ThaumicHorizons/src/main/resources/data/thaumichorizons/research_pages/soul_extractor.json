@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "soulExtractor",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "soulExtractor1"
+          },
+          "id": "thaumichorizons:soulExtractor/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:soul_extractor"
+            ]
+          },
+          "id": "thaumichorizons:soulExtractor/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "soulExtractor2"
+          },
+          "id": "thaumichorizons:soulExtractor/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

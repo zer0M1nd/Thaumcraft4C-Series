@@ -1,0 +1,23 @@
+{
+  "research": "portability",
+  "instability": 6,
+  "target": {
+    "kind": "living"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:essentia_jar"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "aspects": {
+    "vacuos": 16,
+    "vinculum": 16
+  },
+  "output": {
+    "kind": "augmentation",
+    "id": "portability"
+  }
+}

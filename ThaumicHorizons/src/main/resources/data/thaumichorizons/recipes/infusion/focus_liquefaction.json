@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "focusLiquefaction",
+  "instability": 3,
+  "aspects": {
+    "ignis": 12,
+    "metallum": 8,
+    "permutatio": 4
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_fire"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_excavation"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:focus_liquefaction"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "planarClouds",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "planarClouds1"
+          },
+          "id": "thaumichorizons:planarClouds/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "planarClouds2"
+          },
+          "id": "thaumichorizons:planarClouds/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "planarClouds3"
+          },
+          "id": "thaumichorizons:planarClouds/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumichorizons.cloud.availability"
+          },
+          "id": "thaumichorizons:planarClouds/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "leviathan",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "leviathan1"
+          },
+          "id": "thaumichorizons:leviathan/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "leviathan2"
+          },
+          "id": "thaumichorizons:leviathan/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumichorizons.cloud.availability"
+          },
+          "id": "thaumichorizons:leviathan/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "research": "infusionVat",
+  "instability": 3,
+  "target": {
+    "kind": "living"
+  },
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:strong_swiftness"
+      }
+    },
+    {
+      "item": "thaumcraft:quicksilver"
+    },
+    {
+      "item": "thaumcraft:quicksilver"
+    }
+  ],
+  "aspects": {
+    "motus": 16,
+    "machina": 8,
+    "volatus": 4
+  },
+  "output": {
+    "kind": "augmentation",
+    "id": "quick_limbs"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "research": "sheederInfusion",
+  "instability": 5,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:sheep"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:cobweb"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:cobweb"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    }
+  ],
+  "aspects": {
+    "pannus": 32,
+    "permutatio": 8,
+    "venenum": 8
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:sheeder"
+  }
+}

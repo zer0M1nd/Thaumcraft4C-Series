@@ -1,0 +1,47 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "essentiaDynamo",
+  "instability": 5,
+  "aspects": {
+    "auram": 4,
+    "potentia": 16,
+    "permutatio": 16,
+    "machina": 16,
+    "aqua": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:piston"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alchemical_construct"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_planks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_valve"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:essentia_dynamo"
+  }
+}

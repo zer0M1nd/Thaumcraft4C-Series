@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "injector",
+          "category": "ThaumicHorizons",
+          "displayColumn": 8,
+          "displayRow": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "telum",
+              "amount": 3
+            },
+            {
+              "aspect": "machina",
+              "amount": 3
+            },
+            {
+              "aspect": "volatus",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "blastPhial",
+            "BONEBOW"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:injector"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

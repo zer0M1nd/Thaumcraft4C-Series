@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "chickenInfusion",
+          "category": "ThaumicHorizons",
+          "displayColumn": 11,
+          "displayRow": -5,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "bestia",
+              "amount": 5
+            },
+            {
+              "aspect": "limus",
+              "amount": 5
+            },
+            {
+              "aspect": "lucrum",
+              "amount": 3
+            },
+            {
+              "aspect": "tenebrae",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "generalInfusion"
+          ],
+          "parentsHidden": [],
+          "siblings": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:ink_egg"
+          },
+          "pageCount": 5
+        }
+      ]
+    }
+  ]
+}

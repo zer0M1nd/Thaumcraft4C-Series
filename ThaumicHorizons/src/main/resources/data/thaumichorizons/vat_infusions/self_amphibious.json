@@ -1,0 +1,39 @@
+{
+  "research": "amphibious",
+  "instability": 7,
+  "target": {
+    "kind": "self"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:raw_fishes"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:long_water_breathing"
+      }
+    },
+    {
+      "tag": "forge:raw_fishes"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:long_water_breathing"
+      }
+    }
+  ],
+  "aspects": {
+    "aqua": 64,
+    "aer": 64,
+    "victus": 32,
+    "permutatio": 16
+  },
+  "output": {
+    "kind": "self",
+    "id": "amphibious"
+  }
+}

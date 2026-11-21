@@ -1,0 +1,350 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:creature_chocolate_cow",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "cowInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"minecraft:cow\", \"Health\": 8.0}}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:chocolate_cow\", \"Health\": 8.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:cocoa_beans",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:sugar",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:cocoa_beans",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:sugar",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "fames": 4,
+          "permutatio": 2
+        },
+        "instability": 2
+      }
+    },
+    {
+      "key": "thaumichorizons:creature_mooshroom",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "cowInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"minecraft:cow\", \"Health\": 8.0}}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"minecraft:mooshroom\", \"Health\": 8.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:brown_mushroom",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:red_mushroom",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:brown_mushroom",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:red_mushroom",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "herba": 8,
+          "bestia": 4
+        },
+        "instability": 2
+      }
+    },
+    {
+      "key": "thaumichorizons:creature_chromatic_sheep",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "sheepInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"minecraft:sheep\", \"Health\": 8.0}}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:chromatic_sheep\", \"Health\": 8.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:red_dye",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:lapis_lazuli",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:yellow_dye",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "sensus": 8,
+          "permutatio": 4
+        },
+        "instability": 2
+      }
+    },
+    {
+      "key": "thaumichorizons:creature_self_shearing_sheep",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "sheepInfusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"minecraft:sheep\", \"Health\": 8.0}}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:creature_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false,
+            "nbt": "{\"Captured\": {\"id\": \"thaumichorizons:self_shearing_sheep\", \"Health\": 8.0}}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:shears",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:comparator",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "instrumentum": 8,
+          "pannus": 4
+        },
+        "instability": 2
+      }
+    },
+    {
+      "key": "thaumichorizons:chocolate_bar",
+      "class": "net.minecraft.item.crafting.ShapedRecipes",
+      "data": {
+        "kind": "crafting_shaped",
+        "width": 1,
+        "height": 1,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:chocolate_milk",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:chocolate_bar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:ice_cream",
+      "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+      "data": {
+        "kind": "arcane_shapeless",
+        "research": "cowInfusion",
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:chocolate_milk",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:wheat",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:ice_cream",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "aspects": {
+          "aqua": 1
+        }
+      }
+    }
+  ]
+}

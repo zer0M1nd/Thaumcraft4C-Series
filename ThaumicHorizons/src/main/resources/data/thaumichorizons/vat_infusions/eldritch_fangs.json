@@ -1,0 +1,31 @@
+{
+  "research": "eldritchFangs",
+  "instability": 8,
+  "target": {
+    "kind": "living"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:void_ingot"
+    },
+    {
+      "item": "thaumcraft:vishroom"
+    },
+    {
+      "item": "thaumcraft:void_ingot"
+    },
+    {
+      "item": "thaumcraft:vishroom"
+    }
+  ],
+  "aspects": {
+    "alienis": 8,
+    "telum": 16,
+    "metallum": 16,
+    "venenum": 32
+  },
+  "output": {
+    "kind": "augmentation",
+    "id": "eldritch_fangs"
+  }
+}

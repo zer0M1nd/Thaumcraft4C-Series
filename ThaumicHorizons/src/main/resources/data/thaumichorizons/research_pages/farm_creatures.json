@@ -1,0 +1,114 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "cowInfusion",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "cowInfusion1"
+          },
+          "id": "thaumichorizons:cowInfusion/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_chocolate_cow"
+            ]
+          },
+          "id": "thaumichorizons:cowInfusion/page/2",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "net.minecraft.item.crafting.ShapedRecipes",
+            "keys": [
+              "thaumichorizons:chocolate_bar"
+            ]
+          },
+          "id": "thaumichorizons:cowInfusion/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "thaumichorizons:ice_cream"
+            ]
+          },
+          "id": "thaumichorizons:cowInfusion/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "cowInfusion2"
+          },
+          "id": "thaumichorizons:cowInfusion/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_mooshroom"
+            ]
+          },
+          "id": "thaumichorizons:cowInfusion/page/6",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "sheepInfusion",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "sheepInfusion1"
+          },
+          "id": "thaumichorizons:sheepInfusion/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_chromatic_sheep"
+            ]
+          },
+          "id": "thaumichorizons:sheepInfusion/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_self_shearing_sheep"
+            ]
+          },
+          "id": "thaumichorizons:sheepInfusion/page/3",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

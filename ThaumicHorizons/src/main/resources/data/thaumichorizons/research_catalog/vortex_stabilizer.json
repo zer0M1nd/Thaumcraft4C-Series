@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "vortexStabilizer",
+          "category": "ThaumicHorizons",
+          "displayColumn": 12,
+          "displayRow": 10,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "auram",
+              "amount": 3
+            },
+            {
+              "aspect": "fames",
+              "amount": 3
+            },
+            {
+              "aspect": "vinculum",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "planarTheory"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:vortex_stabilizer"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

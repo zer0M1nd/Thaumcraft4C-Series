@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "planarKeystone",
+  "instability": 6,
+  "aspects": {
+    "iter": 24,
+    "vacuos": 24,
+    "alienis": 12
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:keystone"
+  }
+}

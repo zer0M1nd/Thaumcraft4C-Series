@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:soul_beacon",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "cloneSelf",
+        "instability": 8,
+        "aspects": {
+          "spiritus": 16,
+          "vinculum": 32,
+          "iter": 32,
+          "mortuus": 32
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:primordial_pearl",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:soul_beacon",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_eye",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:beacon",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_eye",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

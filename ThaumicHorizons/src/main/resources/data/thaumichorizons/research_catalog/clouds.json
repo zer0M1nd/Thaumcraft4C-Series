@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "planarClouds",
+          "category": "ThaumicHorizons",
+          "displayColumn": 20,
+          "displayRow": 6,
+          "complexity": 1,
+          "aspects": [],
+          "parents": [
+            "pocketPlane"
+          ],
+          "isLost": true,
+          "isRound": true,
+          "icon_item": {
+            "item": "thaumichorizons:cloud"
+          },
+          "itemTriggers": [
+            {
+              "item": "thaumichorizons:cloud"
+            },
+            {
+              "item": "thaumichorizons:fire_cloud"
+            },
+            {
+              "item": "thaumichorizons:thunder_cloud"
+            },
+            {
+              "item": "thaumichorizons:acid_cloud"
+            },
+            {
+              "item": "thaumichorizons:alloy_cloud"
+            },
+            {
+              "item": "thaumichorizons:flesh_cloud"
+            },
+            {
+              "item": "thaumichorizons:vis_cloud"
+            },
+            {
+              "item": "thaumichorizons:glyph_cloud"
+            },
+            {
+              "item": "thaumichorizons:spore_cloud"
+            },
+            {
+              "item": "thaumichorizons:animus_cloud"
+            }
+          ],
+          "pageCount": 4
+        },
+        {
+          "key": "leviathan",
+          "category": "ThaumicHorizons",
+          "displayColumn": 20,
+          "displayRow": 10,
+          "complexity": 1,
+          "aspects": [],
+          "parents": [
+            "pocketPlane"
+          ],
+          "isLost": true,
+          "isRound": true,
+          "icon_item": {
+            "item": "thaumichorizons:leviathan"
+          },
+          "itemTriggers": [
+            {
+              "item": "thaumichorizons:leviathan"
+            }
+          ],
+          "pageCount": 3
+        }
+      ]
+    }
+  ]
+}

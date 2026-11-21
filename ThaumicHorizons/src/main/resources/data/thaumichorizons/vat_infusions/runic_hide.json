@@ -1,0 +1,34 @@
+{
+  "research": "runicCreature",
+  "instability": 7,
+  "target": {
+    "kind": "living"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "thaumcraft:amber"
+    },
+    {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    {
+      "item": "thaumcraft:nitor"
+    },
+    {
+      "item": "thaumcraft:scribing_tools"
+    }
+  ],
+  "aspects": {
+    "tutamen": 16,
+    "praecantatio": 32,
+    "potentia": 16,
+    "corpus": 8
+  },
+  "output": {
+    "kind": "augmentation",
+    "id": "runic_hide"
+  }
+}

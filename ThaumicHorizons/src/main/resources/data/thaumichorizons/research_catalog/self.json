@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "cloneVillager",
+          "category": "ThaumicHorizons",
+          "displayColumn": 11,
+          "displayRow": 4,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "spiritus",
+              "amount": 8
+            },
+            {
+              "aspect": "humanus",
+              "amount": 8
+            },
+            {
+              "aspect": "sano",
+              "amount": 8
+            }
+          ],
+          "parents": [
+            "incarnationVat",
+            "soulAssembler"
+          ],
+          "siblings": [
+            "nightmare"
+          ],
+          "isConcealed": true,
+          "warp": 3,
+          "icon_resource": "thaumichorizons:textures/misc/villager.png",
+          "pageCount": 3
+        }
+      ]
+    }
+  ]
+}

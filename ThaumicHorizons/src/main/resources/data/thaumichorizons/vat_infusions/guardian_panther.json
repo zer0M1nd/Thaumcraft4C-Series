@@ -1,0 +1,28 @@
+{
+  "research": "catInfusion",
+  "instability": 2,
+  "target": {
+    "kind": "tag",
+    "id": "thaumichorizons:infusable_cats"
+  },
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:strong_strength"
+      }
+    },
+    {
+      "item": "minecraft:saddle"
+    }
+  ],
+  "aspects": {
+    "bestia": 8,
+    "telum": 8
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:guardian_panther"
+  }
+}

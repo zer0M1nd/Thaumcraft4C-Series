@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "lensAir",
+  "instability": 1,
+  "aspects": {
+    "sensus": 18,
+    "auram": 4,
+    "victus": 12,
+    "exanimis": 12
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:bone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:egg"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:lens_air"
+  }
+}

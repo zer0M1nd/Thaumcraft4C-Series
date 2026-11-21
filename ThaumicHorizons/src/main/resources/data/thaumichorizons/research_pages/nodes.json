@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "nodeMonitor",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "nodeMonitor1"
+          },
+          "id": "thaumichorizons:nodeMonitor/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:nodeMonitor"
+            ]
+          },
+          "id": "thaumichorizons:nodeMonitor/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "visDynamo",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "visDynamo1"
+          },
+          "id": "thaumichorizons:visDynamo/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:visDynamo"
+            ]
+          },
+          "id": "thaumichorizons:visDynamo/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "essentiaDynamo",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "essentiaDynamo1"
+          },
+          "id": "thaumichorizons:essentiaDynamo/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:essentiaDynamo"
+            ]
+          },
+          "id": "thaumichorizons:essentiaDynamo/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "essentiaDynamo2"
+          },
+          "id": "thaumichorizons:essentiaDynamo/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "etherealShard",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "etherealShard1"
+          },
+          "id": "thaumichorizons:etherealShard/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:etherealShard"
+            ]
+          },
+          "id": "thaumichorizons:etherealShard/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "etherealShard2"
+          },
+          "id": "thaumichorizons:etherealShard/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "planarTheory",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "planarTheory1"
+          },
+          "id": "thaumichorizons:planarTheory/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "thaumichorizons:planarTheory"
+            ]
+          },
+          "id": "thaumichorizons:planarTheory/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "planarTheory2"
+          },
+          "id": "thaumichorizons:planarTheory/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "recombinator",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "recombinator1"
+          },
+          "id": "thaumichorizons:recombinator/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:recombinator"
+            ]
+          },
+          "id": "thaumichorizons:recombinator/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "recombinator2"
+          },
+          "id": "thaumichorizons:recombinator/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "recombinator3"
+          },
+          "id": "thaumichorizons:recombinator/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "shardTrans",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "shardTrans1"
+          },
+          "id": "thaumichorizons:shardTrans/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "thaumichorizons:shard_trans_fire",
+              "thaumichorizons:shard_trans_water",
+              "thaumichorizons:shard_trans_air",
+              "thaumichorizons:shard_trans_earth",
+              "thaumichorizons:shard_trans_order",
+              "thaumichorizons:shard_trans_entropy"
+            ]
+          },
+          "id": "thaumichorizons:shardTrans/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

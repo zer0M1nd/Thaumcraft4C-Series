@@ -1,0 +1,32 @@
+{
+  "parent": "builtin/entity",
+  "textures": {
+    "particle": "thaumichorizons:models/injector"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -2
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "research": "silverHeart",
+  "instability": 7,
+  "target": {
+    "kind": "self"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:shimmerleaf"
+    },
+    {
+      "item": "thaumcraft:silverwood_log"
+    },
+    {
+      "item": "thaumcraft:cinderpearl"
+    },
+    {
+      "item": "thaumcraft:silverwood_log"
+    }
+  ],
+  "aspects": {
+    "ordo": 32,
+    "sano": 32,
+    "permutatio": 16
+  },
+  "output": {
+    "kind": "self",
+    "id": "silverwood_heart"
+  }
+}

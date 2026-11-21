@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "has_key=false": {
+      "model": "thaumichorizons:block/keystone_slot"
+    },
+    "has_key=true": {
+      "model": "thaumichorizons:block/keystone_slot_filled"
+    }
+  }
+}

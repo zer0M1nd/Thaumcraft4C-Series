@@ -1,0 +1,30 @@
+{
+  "research": "cowInfusion",
+  "instability": 2,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:cow"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "aspects": {
+    "fames": 4,
+    "permutatio": 2
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:chocolate_cow"
+  }
+}

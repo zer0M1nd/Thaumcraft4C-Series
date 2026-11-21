@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "focusDisintegration",
+  "instability": 7,
+  "aspects": {
+    "perditio": 32,
+    "praecantatio": 24,
+    "vitreus": 32,
+    "permutatio": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_excavation"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:liquid_death_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:liquid_death_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:focus_disintegration"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "research": "chickenInfusion",
+  "instability": 2,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:chicken"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:dyes/black"
+    },
+    {
+      "item": "minecraft:shears"
+    }
+  ],
+  "aspects": {
+    "tenebrae": 4,
+    "limus": 4,
+    "permutatio": 2
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:scholar_chicken"
+  }
+}

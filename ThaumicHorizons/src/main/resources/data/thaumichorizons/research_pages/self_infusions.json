@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "selfInfusion",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "selfInfusion1"
+          },
+          "id": "thaumichorizons:selfInfusion/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "selfInfusion2"
+          },
+          "id": "thaumichorizons:selfInfusion/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "selfInfusion3"
+          },
+          "id": "thaumichorizons:selfInfusion/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "humanInfusion",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "humanInfusion1"
+          },
+          "id": "thaumichorizons:humanInfusion/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:self_quicksilver_limbs"
+            ]
+          },
+          "id": "thaumichorizons:humanInfusion/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "humanInfusion3"
+          },
+          "id": "thaumichorizons:humanInfusion/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:self_awake_blood"
+            ]
+          },
+          "id": "thaumichorizons:humanInfusion/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "humanInfusion4"
+          },
+          "id": "thaumichorizons:humanInfusion/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:self_diamond_skin"
+            ]
+          },
+          "id": "thaumichorizons:humanInfusion/page/6",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "silverHeart",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "silverHeart1"
+          },
+          "id": "thaumichorizons:silverHeart/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:self_silverwood_heart"
+            ]
+          },
+          "id": "thaumichorizons:silverHeart/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "silverHeart2"
+          },
+          "id": "thaumichorizons:silverHeart/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "synthSkin",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "synthSkin1"
+          },
+          "id": "thaumichorizons:synthSkin/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:self_photosynthetic_skin"
+            ]
+          },
+          "id": "thaumichorizons:synthSkin/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "amphibious",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "amphibious1"
+          },
+          "id": "thaumichorizons:amphibious/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:self_amphibious"
+            ]
+          },
+          "id": "thaumichorizons:amphibious/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "spiderClimb",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "spiderClimb1"
+          },
+          "id": "thaumichorizons:spiderClimb/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:self_spider_climb"
+            ]
+          },
+          "id": "thaumichorizons:spiderClimb/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "chameleonSkin",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "chameleonSkin1"
+          },
+          "id": "thaumichorizons:chameleonSkin/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:self_chameleon_skin"
+            ]
+          },
+          "id": "thaumichorizons:chameleonSkin/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "warpedTumor",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumichorizons.tumor.description"
+          },
+          "id": "thaumichorizons:warpedTumor/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:self_warped_tumor"
+            ]
+          },
+          "id": "thaumichorizons:warpedTumor/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "morphicFingers",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "morphicFingers1"
+          },
+          "id": "thaumichorizons:morphicFingers/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:self_morphic_fingers"
+            ]
+          },
+          "id": "thaumichorizons:morphicFingers/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

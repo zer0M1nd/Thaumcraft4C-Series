@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "soulAssembler",
+          "category": "ThaumicHorizons",
+          "displayColumn": 9,
+          "displayRow": 6,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "spiritus",
+              "amount": 4
+            },
+            {
+              "aspect": "sano",
+              "amount": 4
+            },
+            {
+              "aspect": "cognitio",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "soulKnowledge"
+          ],
+          "isConcealed": true,
+          "warp": 2,
+          "icon_item": {
+            "item": "thaumichorizons:soulforge"
+          },
+          "pageCount": 4
+        }
+      ]
+    }
+  ]
+}

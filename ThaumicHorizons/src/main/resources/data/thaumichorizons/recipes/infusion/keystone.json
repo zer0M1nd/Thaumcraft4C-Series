@@ -1,0 +1,60 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "pocketPlane",
+  "instability": 6,
+  "aspects": {
+    "iter": 32,
+    "vacuos": 32,
+    "permutatio": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumichorizons:planar_conduit"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:keystone"
+  }
+}

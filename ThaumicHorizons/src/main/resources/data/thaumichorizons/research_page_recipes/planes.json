@@ -1,0 +1,297 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:keystone",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "pocketPlane",
+        "instability": 6,
+        "aspects": {
+          "iter": 32,
+          "vacuos": 32,
+          "permutatio": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:planar_conduit",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:keystone",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:keystone_alternate",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "planarKeystone",
+        "instability": 6,
+        "aspects": {
+          "iter": 24,
+          "vacuos": 24,
+          "alienis": 12
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:diamond",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:keystone",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:keystone_slot",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "planarKeystone",
+        "instability": 8,
+        "aspects": {
+          "vacuos": 32,
+          "iter": 24,
+          "machina": 24,
+          "alienis": 24
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:planar_conduit",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:keystone_slot",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

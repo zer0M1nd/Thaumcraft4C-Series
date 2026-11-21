@@ -1,0 +1,269 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "selfInfusion",
+          "category": "ThaumicHorizons",
+          "displayColumn": 14,
+          "displayRow": 1,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "humanus",
+              "amount": 6
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 6
+            },
+            {
+              "aspect": "fabrico",
+              "amount": 6
+            }
+          ],
+          "parents": [
+            "generalInfusion",
+            "cloneSelf"
+          ],
+          "isConcealed": true,
+          "pageCount": 3,
+          "icon_resource": "thaumichorizons:textures/items/humaninfusion.png",
+          "siblings": [
+            "humanInfusion"
+          ]
+        },
+        {
+          "key": "humanInfusion",
+          "category": "ThaumicHorizons",
+          "displayColumn": 16,
+          "displayRow": 1,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "humanus",
+              "amount": 1
+            }
+          ],
+          "parents": [
+            "selfInfusion"
+          ],
+          "isConcealed": true,
+          "pageCount": 6,
+          "icon_resource": "thaumichorizons:textures/items/quicksilverlimbs.png"
+        },
+        {
+          "key": "silverHeart",
+          "category": "ThaumicHorizons",
+          "displayColumn": 19,
+          "displayRow": -1,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "humanus",
+              "amount": 3
+            },
+            {
+              "aspect": "ordo",
+              "amount": 3
+            },
+            {
+              "aspect": "sano",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "humanInfusion"
+          ],
+          "isConcealed": true,
+          "pageCount": 3,
+          "icon_resource": "thaumichorizons:textures/items/silverwoodheart.png"
+        },
+        {
+          "key": "synthSkin",
+          "category": "ThaumicHorizons",
+          "displayColumn": 19,
+          "displayRow": 0,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "humanus",
+              "amount": 3
+            },
+            {
+              "aspect": "herba",
+              "amount": 3
+            },
+            {
+              "aspect": "fames",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "humanInfusion"
+          ],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_resource": "thaumichorizons:textures/items/synthskin.png"
+        },
+        {
+          "key": "amphibious",
+          "category": "ThaumicHorizons",
+          "displayColumn": 19,
+          "displayRow": 1,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "humanus",
+              "amount": 3
+            },
+            {
+              "aspect": "aer",
+              "amount": 3
+            },
+            {
+              "aspect": "aqua",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "humanInfusion"
+          ],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "minecraft:cod"
+          }
+        },
+        {
+          "key": "spiderClimb",
+          "category": "ThaumicHorizons",
+          "displayColumn": 19,
+          "displayRow": 3,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "humanus",
+              "amount": 3
+            },
+            {
+              "aspect": "bestia",
+              "amount": 3
+            },
+            {
+              "aspect": "motus",
+              "amount": 3
+            },
+            {
+              "aspect": "limus",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "humanInfusion"
+          ],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_resource": "thaumichorizons:textures/items/spiderclimb.png"
+        },
+        {
+          "key": "chameleonSkin",
+          "category": "ThaumicHorizons",
+          "displayColumn": 19,
+          "displayRow": -2,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "sensus",
+              "amount": 4
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 4
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "humanInfusion"
+          ],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_resource": "thaumichorizons:textures/items/chameleonskin.png"
+        },
+        {
+          "key": "warpedTumor",
+          "category": "ThaumicHorizons",
+          "displayColumn": 19,
+          "displayRow": 4,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "humanus",
+              "amount": 15
+            },
+            {
+              "aspect": "vitium",
+              "amount": 12
+            },
+            {
+              "aspect": "alienis",
+              "amount": 9
+            },
+            {
+              "aspect": "corpus",
+              "amount": 6
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "humanInfusion"
+          ],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_resource": "thaumichorizons:textures/items/warpedtumor.png"
+        },
+        {
+          "key": "morphicFingers",
+          "category": "ThaumicHorizons",
+          "displayColumn": 19,
+          "displayRow": 2,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "humanus",
+              "amount": 3
+            },
+            {
+              "aspect": "fabrico",
+              "amount": 3
+            },
+            {
+              "aspect": "instrumentum",
+              "amount": 3
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "humanInfusion"
+          ],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_resource": "thaumichorizons:textures/items/morphicfingers.png"
+        }
+      ]
+    }
+  ]
+}

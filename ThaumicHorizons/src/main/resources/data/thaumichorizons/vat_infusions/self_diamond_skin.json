@@ -1,0 +1,42 @@
+{
+  "research": "selfInfusion",
+  "instability": 6,
+  "target": {
+    "kind": "self"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:leather_helmet"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:leather_chestplate"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:leather_leggings"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:leather_boots"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    }
+  ],
+  "aspects": {
+    "tutamen": 32,
+    "vitreus": 32,
+    "humanus": 16
+  },
+  "output": {
+    "kind": "self",
+    "id": "diamond_skin"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "lensFire",
+          "category": "ThaumicHorizons",
+          "displayColumn": 2,
+          "displayRow": -2,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "sensus",
+              "amount": 3
+            },
+            {
+              "aspect": "lux",
+              "amount": 3
+            },
+            {
+              "aspect": "potentia",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "GOGGLES",
+            "INFUSION"
+          ],
+          "isConcealed": false,
+          "icon_item": {
+            "item": "thaumichorizons:lens_fire"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "lensWater",
+          "category": "ThaumicHorizons",
+          "displayColumn": 1,
+          "displayRow": -4,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "sensus",
+              "amount": 4
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "lensFire",
+            "ARCANEEAR"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:lens_water"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "lensEarth",
+          "category": "ThaumicHorizons",
+          "displayColumn": 3,
+          "displayRow": -4,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "sensus",
+              "amount": 4
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 2
+            },
+            {
+              "aspect": "lux",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "lensFire"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:lens_earth"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "lensAir",
+          "category": "ThaumicHorizons",
+          "displayColumn": -1,
+          "displayRow": -4,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "sensus",
+              "amount": 4
+            },
+            {
+              "aspect": "auram",
+              "amount": 2
+            },
+            {
+              "aspect": "victus",
+              "amount": 2
+            },
+            {
+              "aspect": "exanimis",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "lensFire"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:lens_air"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "lensOrderEntropy",
+          "category": "ThaumicHorizons",
+          "displayColumn": 5,
+          "displayRow": -4,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "sensus",
+              "amount": 4
+            },
+            {
+              "aspect": "cognitio",
+              "amount": 4
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "lensFire"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:lens_order_entropy"
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "lensCase",
+          "category": "ThaumicHorizons",
+          "displayColumn": 2,
+          "displayRow": -6,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "vitreus",
+              "amount": 2
+            },
+            {
+              "aspect": "pannus",
+              "amount": 4
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 2
+            }
+          ],
+          "parents": [
+            "lensAir",
+            "lensWater",
+            "lensEarth",
+            "lensOrderEntropy",
+            "FOCUSPOUCH"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:lens_case"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

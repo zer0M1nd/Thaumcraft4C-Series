@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "cowInfusion",
+  "ingredients": [
+    {
+      "item": "thaumichorizons:chocolate_milk"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "vis": {
+    "aqua": 1
+  },
+  "result": {
+    "item": "thaumichorizons:ice_cream"
+  }
+}

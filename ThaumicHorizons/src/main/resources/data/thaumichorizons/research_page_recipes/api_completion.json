@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:transductionAmplifier",
+      "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "transductionAmplifier",
+        "aspects": {
+          "aer": 10,
+          "ignis": 10,
+          "ordo": 10
+        },
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:transduction_amplifier",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:planar_conduit",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alumentum",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:node_converter",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alumentum",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:crystalWand",
+      "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "crystalWand",
+        "aspects": {
+          "aer": 25,
+          "terra": 25,
+          "ignis": 25,
+          "aqua": 25,
+          "ordo": 25,
+          "perditio": 25
+        },
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:crystal_wand",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            null,
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:mixed_crystal_cluster",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            null,
+            null
+          ]
+        }
+      }
+    }
+  ]
+}

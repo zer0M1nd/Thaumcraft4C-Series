@@ -1,0 +1,71 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "focusAnimation",
+  "instability": 10,
+  "aspects": {
+    "humanus": 64,
+    "motus": 64,
+    "spiritus": 64,
+    "fabrico": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primordial_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:golem_core_blank"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumichorizons:human_blood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:golem_upgrade_air"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:golem_upgrade_fire"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:golem_upgrade_order"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:golem_core_blank"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumichorizons:human_blood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:golem_upgrade_earth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:golem_upgrade_water"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:golem_upgrade_entropy"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:focus_animation"
+  }
+}

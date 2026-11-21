@@ -1,0 +1,704 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumichorizons:nodeMonitor",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "nodeMonitor",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:thaumometer",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:node_monitor",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:comparator",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "instability": 2,
+        "aspects": {
+          "auram": 2,
+          "sensus": 8,
+          "machina": 8
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:visDynamo",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "visDynamo",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:piston",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:vis_dynamo",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primal_charm",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "instability": 5,
+        "aspects": {
+          "auram": 4,
+          "potentia": 16,
+          "permutatio": 16,
+          "machina": 16
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:essentiaDynamo",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "essentiaDynamo",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:piston",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:essentia_dynamo",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alchemical_construct",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_planks",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_valve",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "instability": 5,
+        "aspects": {
+          "auram": 4,
+          "potentia": 16,
+          "permutatio": 16,
+          "machina": 16,
+          "aqua": 32
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:etherealShard",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "etherealShard",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:balanced_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:synthetic_node",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alumentum",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alumentum",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alumentum",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alumentum",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "instability": 7,
+        "aspects": {
+          "auram": 8,
+          "potentia": 32,
+          "vacuos": 32
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:planarTheory",
+      "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "planarTheory",
+        "aspects": {
+          "aer": 50,
+          "ignis": 50,
+          "aqua": 50,
+          "terra": 50,
+          "ordo": 50,
+          "perditio": 50
+        },
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:planar_conduit",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wisp_essence",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wisp_essence",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_pearl",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wisp_essence",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wisp_essence",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:recombinator",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "recombinator",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:primordial_pearl",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumichorizons:recombinator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:vis_filter",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:planar_conduit",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:vis_filter",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:node_converter",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:vis_filter",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:planar_conduit",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:vis_filter",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:node_stabilizer",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        },
+        "instability": 9,
+        "aspects": {
+          "permutatio": 32,
+          "auram": 20,
+          "fabrico": 32,
+          "potentia": 32
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:shard_trans_fire",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "shardTrans",
+        "aspects": {
+          "ignis": 2,
+          "permutatio": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:balanced_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:fire_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:shard_trans_water",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "shardTrans",
+        "aspects": {
+          "aqua": 2,
+          "permutatio": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:balanced_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:water_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:shard_trans_air",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "shardTrans",
+        "aspects": {
+          "aer": 2,
+          "permutatio": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:balanced_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:air_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:shard_trans_earth",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "shardTrans",
+        "aspects": {
+          "terra": 2,
+          "permutatio": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:balanced_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:earth_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:shard_trans_order",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "shardTrans",
+        "aspects": {
+          "ordo": 2,
+          "permutatio": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:balanced_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:order_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    },
+    {
+      "key": "thaumichorizons:shard_trans_entropy",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "shardTrans",
+        "aspects": {
+          "perditio": 2,
+          "permutatio": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:balanced_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:entropy_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          }
+        }
+      }
+    }
+  ]
+}

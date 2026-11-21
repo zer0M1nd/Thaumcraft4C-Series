@@ -1,0 +1,24 @@
+{
+  "research": "infusionVat",
+  "instability": 3,
+  "target": {
+    "kind": "living"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:thaumium_sword"
+    },
+    {
+      "item": "thaumcraft:thaumium_sword"
+    }
+  ],
+  "aspects": {
+    "telum": 12,
+    "metallum": 8,
+    "praecantatio": 8
+  },
+  "output": {
+    "kind": "augmentation",
+    "id": "thaumic_claws"
+  }
+}

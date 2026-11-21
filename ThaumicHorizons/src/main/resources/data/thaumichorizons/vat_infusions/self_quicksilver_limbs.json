@@ -1,0 +1,44 @@
+{
+  "research": "selfInfusion",
+  "instability": 4,
+  "target": {
+    "kind": "self"
+  },
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:strong_swiftness"
+      }
+    },
+    {
+      "item": "thaumcraft:quicksilver"
+    },
+    {
+      "item": "thaumcraft:void_ingot"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:strong_swiftness"
+      }
+    },
+    {
+      "item": "thaumcraft:quicksilver"
+    },
+    {
+      "item": "thaumcraft:void_ingot"
+    }
+  ],
+  "aspects": {
+    "motus": 64,
+    "machina": 32,
+    "volatus": 32
+  },
+  "output": {
+    "kind": "self",
+    "id": "quicksilver_limbs"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:alchemical_construct",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "4"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:alchemical_construct",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "31"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "0"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "1"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "2"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "3"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "5"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "6"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "7"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "8"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "27"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "28"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "29"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "30"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "32"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "33"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "34"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:greatwood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "thaumichorizons:vat",
+              "properties": {
+                "part": "35"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

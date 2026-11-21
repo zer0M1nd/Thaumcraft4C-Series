@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "pigInfusion",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "pigInfusion1"
+          },
+          "id": "thaumichorizons:pigInfusion/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_ore_pig"
+            ]
+          },
+          "id": "thaumichorizons:pigInfusion/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "pigInfusion2"
+          },
+          "id": "thaumichorizons:pigInfusion/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:creature_taint_eater_pig"
+            ]
+          },
+          "id": "thaumichorizons:pigInfusion/page/4",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

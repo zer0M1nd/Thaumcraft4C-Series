@@ -1,0 +1,31 @@
+{
+  "research": "catInfusion",
+  "instability": 4,
+  "target": {
+    "kind": "tag",
+    "id": "thaumichorizons:infusable_cats"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:balanced_shard"
+    },
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "thaumcraft:balanced_shard"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "aspects": {
+    "vinculum": 8,
+    "auram": 4,
+    "potentia": 16
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:familiar"
+  }
+}

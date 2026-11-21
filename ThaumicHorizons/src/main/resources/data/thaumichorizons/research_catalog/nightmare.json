@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "nightmareInfusion",
+          "category": "ThaumicHorizons",
+          "displayColumn": 17,
+          "displayRow": -7,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "ignis",
+              "amount": 4
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 3
+            },
+            {
+              "aspect": "iter",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "horseInfusion",
+            "LEVITATOR"
+          ],
+          "parentsHidden": [],
+          "siblings": [],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "minecraft:nether_star"
+          },
+          "pageCount": 3
+        }
+      ]
+    }
+  ]
+}

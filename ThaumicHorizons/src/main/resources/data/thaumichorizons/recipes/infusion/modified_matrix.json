@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "infusionVat",
+  "instability": 10,
+  "aspects": {
+    "victus": 32,
+    "fabrico": 32,
+    "praecantatio": 32,
+    "bestia": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:infusion_matrix"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumichorizons:human_blood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumichorizons:human_blood"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:modified_matrix"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "render_type": "minecraft:solid",
+  "textures": {
+    "vatlidcenter": "thaumichorizons:block/vatlidcenter",
+    "vatlidtopcenter": "thaumichorizons:block/vatlidtopcenter",
+    "vatinnercenter": "thaumichorizons:block/vatinnercenter",
+    "greatwood": "thaumcraft:block/planks_greatwood",
+    "particle": "thaumichorizons:block/vattop"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#vatlidcenter",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#vatlidcenter",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#vatlidcenter",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#vatlidcenter",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#vatlidtopcenter",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#vatinnercenter",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

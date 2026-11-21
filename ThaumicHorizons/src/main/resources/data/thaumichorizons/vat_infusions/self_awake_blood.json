@@ -1,0 +1,36 @@
+{
+  "research": "selfInfusion",
+  "instability": 5,
+  "target": {
+    "kind": "self"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    {
+      "item": "thaumcraft:zombie_brain"
+    },
+    {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    {
+      "item": "minecraft:glistering_melon_slice"
+    }
+  ],
+  "aspects": {
+    "sano": 32,
+    "victus": 64,
+    "cognitio": 32
+  },
+  "output": {
+    "kind": "self",
+    "id": "awake_blood"
+  }
+}

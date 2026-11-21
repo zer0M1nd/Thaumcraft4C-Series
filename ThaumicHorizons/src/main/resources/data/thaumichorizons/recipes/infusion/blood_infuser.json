@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "essentiaInjection",
+  "instability": 4,
+  "aspects": {
+    "humanus": 8,
+    "permutatio": 8,
+    "victus": 16,
+    "praecantatio": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:crucible"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:comparator"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alchemical_construct"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alchemical_construct"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:blood_infuser"
+  }
+}

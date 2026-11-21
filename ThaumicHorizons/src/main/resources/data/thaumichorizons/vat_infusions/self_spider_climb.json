@@ -1,0 +1,42 @@
+{
+  "research": "spiderClimb",
+  "instability": 8,
+  "target": {
+    "kind": "self"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:cobweb"
+    },
+    {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    {
+      "item": "minecraft:cobweb"
+    },
+    {
+      "item": "minecraft:ladder"
+    },
+    {
+      "item": "minecraft:cobweb"
+    },
+    {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    {
+      "item": "minecraft:cobweb"
+    },
+    {
+      "item": "minecraft:ladder"
+    }
+  ],
+  "aspects": {
+    "bestia": 32,
+    "motus": 48,
+    "limus": 32
+  },
+  "output": {
+    "kind": "self",
+    "id": "spider_climb"
+  }
+}

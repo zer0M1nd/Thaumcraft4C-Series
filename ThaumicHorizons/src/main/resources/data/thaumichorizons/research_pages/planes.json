@@ -1,0 +1,174 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "planarRift",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "planarRift1"
+          },
+          "id": "thaumichorizons:planarRift/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "planarRift2"
+          },
+          "id": "thaumichorizons:planarRift/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "planarRift3"
+          },
+          "id": "thaumichorizons:planarRift/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "wispSpawn",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "wispSpawn1"
+          },
+          "id": "thaumichorizons:wispSpawn/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "voidGolem",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "voidGolem1"
+          },
+          "id": "thaumichorizons:voidGolem/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "pocketPlane",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "pocketPlane1"
+          },
+          "id": "thaumichorizons:pocketPlane/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "pocketPlane2"
+          },
+          "id": "thaumichorizons:pocketPlane/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "pocketPlane3"
+          },
+          "id": "thaumichorizons:pocketPlane/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:keystone"
+            ]
+          },
+          "id": "thaumichorizons:pocketPlane/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumichorizons.plane.creation"
+          },
+          "id": "thaumichorizons:pocketPlane/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "planarKeystone",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "planarKeystone1"
+          },
+          "id": "thaumichorizons:planarKeystone/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:keystone_alternate"
+            ]
+          },
+          "id": "thaumichorizons:planarKeystone/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "planarKeystone2"
+          },
+          "id": "thaumichorizons:planarKeystone/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:keystone_slot"
+            ]
+          },
+          "id": "thaumichorizons:planarKeystone/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumichorizons.gateway.structure"
+          },
+          "id": "thaumichorizons:planarKeystone/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

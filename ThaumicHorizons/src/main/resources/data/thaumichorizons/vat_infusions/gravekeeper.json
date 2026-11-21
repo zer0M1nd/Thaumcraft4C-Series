@@ -1,0 +1,31 @@
+{
+  "research": "catInfusion",
+  "instability": 6,
+  "target": {
+    "kind": "tag",
+    "id": "thaumichorizons:infusable_cats"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "thaumcraft:amber"
+    },
+    {
+      "item": "thaumcraft:silverwood_log"
+    }
+  ],
+  "aspects": {
+    "ordo": 16,
+    "mortuus": 8,
+    "lux": 24
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumichorizons:gravekeeper"
+  }
+}

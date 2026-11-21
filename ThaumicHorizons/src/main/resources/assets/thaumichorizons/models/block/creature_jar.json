@@ -1,0 +1,43 @@
+{
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "side": "thaumcraft:block/jar_side",
+    "top": "thaumcraft:block/jar_top",
+    "bottom": "thaumcraft:block/jar_bottom",
+    "particle": "thaumcraft:block/jar_side"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        12,
+        13
+      ],
+      "faces": {
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "texture": "#bottom"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "nightmare",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "nightmare1"
+          },
+          "id": "thaumichorizons:nightmare/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "nightmare2"
+          },
+          "id": "thaumichorizons:nightmare/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "cloneSelf",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "cloneSelf1"
+          },
+          "id": "thaumichorizons:cloneSelf/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumichorizons:soul_beacon"
+            ]
+          },
+          "id": "thaumichorizons:cloneSelf/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "cloneSelf2"
+          },
+          "id": "thaumichorizons:cloneSelf/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

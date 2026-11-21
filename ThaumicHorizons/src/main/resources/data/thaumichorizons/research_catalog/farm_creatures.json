@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "cowInfusion",
+          "category": "ThaumicHorizons",
+          "displayColumn": 9,
+          "displayRow": -5,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "bestia",
+              "amount": 5
+            },
+            {
+              "aspect": "limus",
+              "amount": 5
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 5
+            }
+          ],
+          "parents": [
+            "generalInfusion"
+          ],
+          "parentsHidden": [],
+          "siblings": [],
+          "isSecondary": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:chocolate_milk"
+          },
+          "pageCount": 6
+        },
+        {
+          "key": "sheepInfusion",
+          "category": "ThaumicHorizons",
+          "displayColumn": 10,
+          "displayRow": -5,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "bestia",
+              "amount": 3
+            },
+            {
+              "aspect": "pannus",
+              "amount": 3
+            },
+            {
+              "aspect": "sensus",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "generalInfusion"
+          ],
+          "parentsHidden": [],
+          "siblings": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "minecraft:white_wool"
+          },
+          "pageCount": 3
+        }
+      ]
+    }
+  ]
+}

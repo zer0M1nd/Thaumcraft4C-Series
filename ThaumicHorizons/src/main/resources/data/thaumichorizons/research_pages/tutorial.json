@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_THAUMICHORIZONS",
+      "pages": [
+        {
+          "id": "thaumichorizons:tut_addon_thaumichorizons/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumichorizons.tut_addon_thaumichorizons.text.1",
+            "with": [
+              [
+                {
+                  "text": "神秘视界是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumichorizons:tut_addon_thaumichorizons/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumichorizons.tut_addon_thaumichorizons.text.2",
+            "with": [
+              [
+                {
+                  "text": "神秘视界的主题是"
+                },
+                {
+                  "text": "生物神秘学",
+                  "bold": true
+                },
+                {
+                  "text": "：建造注魔缸，给动物甚至你自己注魔，获得水下呼吸、攀墙等能力。此外还有炼金栽培、奥术透镜、新的法杖核心，以及最终通往口袋异次元的异界研究。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumichorizons:tut_addon_thaumichorizons/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumichorizons:tut_addon_thaumichorizons/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumichorizons.tut_addon_thaumichorizons.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumichorizons:tut_addon_thaumichorizons/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumichorizons.tut_addon_thaumichorizons.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "alcheponics"
+                },
+                {
+                  "text": "：炼金栽培，无需前置。\n· "
+                },
+                {
+                  "research": "lensFire"
+                },
+                {
+                  "text": "：奥术透镜，戴在护目镜上的功能镜片。\n· "
+                },
+                {
+                  "research": "infusionVat"
+                },
+                {
+                  "text": "：生物注魔，核心设备注魔缸。\n· "
+                },
+                {
+                  "research": "selfInfusion"
+                },
+                {
+                  "text": "：自我注魔，给自己附加能力。\n· "
+                },
+                {
+                  "research": "planarTheory"
+                },
+                {
+                  "text": "：异界理论，后期路线（需要虚空金属）。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumichorizons:tut_addon_thaumichorizons/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumichorizons:tut_addon_thaumichorizons/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "thaumichorizons:tut_addon_thaumichorizons/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "alcheponics",
+            "lensFire",
+            "infusionVat",
+            "selfInfusion",
+            "planarTheory"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

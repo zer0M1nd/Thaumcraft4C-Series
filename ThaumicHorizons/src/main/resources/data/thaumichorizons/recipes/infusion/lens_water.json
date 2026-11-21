@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "lensWater",
+  "instability": 1,
+  "aspects": {
+    "sensus": 24,
+    "permutatio": 12,
+    "aqua": 12
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:arcane_ear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:note_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumichorizons:lens_water"
+  }
+}

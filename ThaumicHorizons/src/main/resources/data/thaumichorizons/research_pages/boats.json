@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "greatwoodBoat",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "greatwoodBoat1"
+          },
+          "id": "thaumichorizons:greatwoodBoat/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "thaumichorizons:boat_greatwood"
+            ]
+          },
+          "id": "thaumichorizons:greatwoodBoat/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumiumBoat",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumiumBoat1"
+          },
+          "id": "thaumichorizons:thaumiumBoat/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "thaumichorizons:boat_thaumium"
+            ]
+          },
+          "id": "thaumichorizons:thaumiumBoat/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

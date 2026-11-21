@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ThaumicHorizons",
+      "icon": "thaumichorizons:textures/misc/vat.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "focusDisintegration",
+          "category": "ThaumicHorizons",
+          "displayColumn": 3,
+          "displayRow": 8,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "praecantatio",
+              "amount": 3
+            },
+            {
+              "aspect": "vitreus",
+              "amount": 2
+            },
+            {
+              "aspect": "perditio",
+              "amount": 3
+            }
+          ],
+          "parents": [
+            "focusLiquefaction",
+            "alchemite",
+            "LIQUIDDEATH"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumichorizons:focus_disintegration"
+          },
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "focusAnimation",
+  "instability": 3,
+  "aspects": {
+    "cognitio": 8,
+    "sensus": 8,
+    "victus": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumichorizons:golem_placer"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    }
+  ],
+  "result": {
+    "patch": "{advanced:1b}"
+  }
+}

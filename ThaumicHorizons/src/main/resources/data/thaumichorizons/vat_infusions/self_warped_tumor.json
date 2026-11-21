@@ -1,0 +1,38 @@
+{
+  "research": "warpedTumor",
+  "instability": 12,
+  "target": {
+    "kind": "self"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:flesh_block"
+    },
+    {
+      "item": "thaumcraft:bath_salts"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "thaumcraft:arcane_stone"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "thaumcraft:sanity_soap"
+    }
+  ],
+  "aspects": {
+    "vitium": 64,
+    "alienis": 48,
+    "vinculum": 32,
+    "corpus": 24,
+    "permutatio": 16
+  },
+  "output": {
+    "kind": "self",
+    "id": "warped_tumor"
+  }
+}
