@@ -11,14 +11,15 @@ sourceSets {
     }
 }
 repositories {
-    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
+    flatDir { dirs 'dependencies/jars' }
     maven { url = 'https://maven.theillusivec4.top/' }
     maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
     mavenCentral()
 }
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
-    implementation fg.deobf("local.validation:Thaumcraft-4-Modern-Port:${findProperty('tc4ValidationVersion') ?: '0.4.114'}")
+    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
     compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
     runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
@@ -36,7 +37,7 @@ minecraft {
         server { workingDirectory file('run-server'); args '--nogui' }
         client { workingDirectory file('run-client') }
         gameTestServer {
-            workingDirectory file(findProperty('dyesGameTestDirectory') ?: '../../../Data/Verification/20261031-01a19066-concilium/dyes-gametest')
+            workingDirectory file(findProperty('dyesGameTestDirectory') ?: 'run-gametest')
             property 'forge.enabledGameTestNamespaces', 'thaumicdyes'
             mods { thaumicdyes { source sourceSets.serverTest } }
             jvmArgs '-Xmx3G'
