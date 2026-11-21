@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "parent": "heartwork:blades/birdblade_2",
+  "display": {
+    "icon": {
+      "item": "slashblade:slashblade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:zheng_blade\", \"bladeState\": {\"ModelName\": \"heartwork:blade/named/agito.obj\", \"TextureName\": \"heartwork:blade/named/bird/texture_zheng.png\", \"translationKey\": \"item.heartwork.zheng_blade\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"heartwork:iai_speed\", \"maxDamage\": 250, \"baseAttackModifier\": 12.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.zheng_blade.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.zheng_blade.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:zheng_blade\"}"
+          }
+        ]
+      }
+    }
+  }
+}

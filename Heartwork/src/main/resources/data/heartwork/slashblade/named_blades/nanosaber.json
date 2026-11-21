@@ -1,0 +1,21 @@
+{
+  "name": "heartwork:nanosaber",
+  "item": "heartwork:eu_blade",
+  "render": {
+    "texture": "heartwork:blade/named/nanosaber/texture.png",
+    "model": "heartwork:blade/named/nanosaber/model.obj",
+    "carry_type": "pso2"
+  },
+  "properties": {
+    "attack_base": 11.0,
+    "max_damage": 400,
+    "slash_art": "slashblade:drive_vertical",
+    "sword_type": []
+  },
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 1
+    }
+  ]
+}

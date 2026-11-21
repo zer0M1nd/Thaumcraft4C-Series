@@ -1,0 +1,31 @@
+{
+  "name": "heartwork:kogawa_super",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/kogawa/texture_super.png",
+    "model": "heartwork:blade/named/kogawa/model.obj",
+    "carry_type": "ninja"
+  },
+  "properties": {
+    "attack_base": 11.0,
+    "max_damage": 113,
+    "slash_art": "slashblade:judgement_cut",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "enchantments": [
+    {
+      "id": "minecraft:efficiency",
+      "lvl": 2
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "parent": "heartwork:blades/root",
+  "display": {
+    "icon": {
+      "item": "slashblade:slashblade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:nethop\", \"bladeState\": {\"ModelName\": \"heartwork:blade/named/arthurs/model_grand.obj\", \"TextureName\": \"heartwork:blade/named/arthurs/texture_grand.png\", \"translationKey\": \"item.heartwork.nethop\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"heartwork:sakuya2\", \"maxDamage\": 71, \"baseAttackModifier\": 10.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.nethop.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.nethop.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:nethop\"}"
+          }
+        ]
+      }
+    }
+  }
+}

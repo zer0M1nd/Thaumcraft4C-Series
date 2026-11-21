@@ -1,0 +1,35 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "DCD",
+    "CBC",
+    "DAD"
+  ],
+  "key": {
+    "A": {
+      "item": "heartwork:smith_steel_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_bamboo",
+      "request": {
+        "kill": 60,
+        "proud_soul": 150
+      }
+    },
+    "C": {
+      "item": "minecraft:paper"
+    },
+    "D": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "blade": "heartwork:bamboolight_nice",
+  "inherit": "first"
+}

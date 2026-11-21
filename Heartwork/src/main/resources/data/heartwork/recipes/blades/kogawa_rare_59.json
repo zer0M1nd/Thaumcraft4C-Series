@@ -1,0 +1,32 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "ADA",
+    "DBD",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "heartwork:kogawa_normal",
+        "kill": 100
+      }
+    },
+    "D": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "blade": "heartwork:kogawa_rare",
+  "inherit": "first"
+}

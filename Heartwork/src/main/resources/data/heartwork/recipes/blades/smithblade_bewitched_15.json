@@ -1,0 +1,33 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "ADA",
+    "DBD",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "heartwork:thw_blade",
+      "request": {
+        "name": "heartwork:smithblade_basic",
+        "kill": 500,
+        "refine": 10
+      }
+    },
+    "D": {
+      "tag": "forge:storage_blocks/iron"
+    }
+  },
+  "blade": "heartwork:smithblade_bewitched",
+  "inherit": "first"
+}

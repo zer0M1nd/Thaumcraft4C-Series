@@ -1,0 +1,35 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "display": {
+    "icon": {
+      "item": "heartwork:hammer"
+    },
+    "title": {
+      "translate": "advancements.heartwork.root.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_blade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "heartwork:blades"
+          }
+        ]
+      }
+    }
+  }
+}

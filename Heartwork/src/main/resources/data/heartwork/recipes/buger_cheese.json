@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+    "item": "heartwork:buger_cheese"
+  },
+  "ingredients": [
+    {
+      "tag": "heartwork:cooked_meat"
+    },
+    {
+      "item": "heartwork:bread"
+    },
+    {
+      "item": "heartwork:lettuce"
+    },
+    {
+      "tag": "forge:cheese"
+    }
+  ]
+}

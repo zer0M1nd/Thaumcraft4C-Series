@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "parent": "heartwork:blades/root",
+  "display": {
+    "icon": {
+      "item": "slashblade:slashblade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:murakumo\", \"bladeState\": {\"ModelName\": \"heartwork:blade/named/murakumo/model.obj\", \"TextureName\": \"heartwork:blade/named/murakumo/texture.png\", \"translationKey\": \"item.heartwork.murakumo\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"slashblade:judgement_cut\", \"maxDamage\": 113, \"baseAttackModifier\": 8.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.murakumo.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.murakumo.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:murakumo\"}"
+          }
+        ]
+      }
+    }
+  }
+}

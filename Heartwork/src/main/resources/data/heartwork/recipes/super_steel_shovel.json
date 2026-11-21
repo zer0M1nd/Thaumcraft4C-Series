@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:super_steel_shovel"
+  },
+  "pattern": [
+    "*",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "*": {
+      "item": "heartwork:steel_ingot_2"
+    }
+  }
+}

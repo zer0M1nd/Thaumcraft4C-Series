@@ -1,0 +1,57 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+issueTrackerURL="https://github.com/zer0M1nd/Thaumcraft4C-Series/issues"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/heartwork/index.html"
+updateJSONURL="http://tc4c.zer0m1nd.me/forge-updates/heartwork.json"
+modId="heartwork"
+version="${version}"
+displayName="The Heartwork: Modern Port"
+authors="zer0M1nd"
+credits="Original The Heartwork by Mysterious Mountain Smith."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Forge sabers, grow crops for new dishes and use infusion to unlock named blades and their special moves.
+
+-------- Original release --------
+Our cause is just.The operation will now begin.
+
+Original credits: THX to Mojang and lots of modder.Made by Mysterious Mountain Smith'''
+
+[[dependencies.heartwork]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.heartwork]]
+modId="slashblade"
+mandatory=false
+versionRange="[1.9.65,1.10)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.heartwork]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.heartwork]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.heartwork]]
+modId="ic2"
+mandatory=false
+versionRange="[2.10.33-ex120,2.11)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.heartwork]]
+modId="botania"
+mandatory=false
+versionRange="[1.20.1-456,1.20.2)"
+ordering="AFTER"
+side="BOTH"

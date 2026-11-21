@@ -1,0 +1,267 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "heartwork:blade",
+      "icon": "heartwork:textures/aspects/blade.png",
+      "background": "heartwork:textures/gui/slashblade.png",
+      "research": [
+        {
+          "key": "heartwork:SlashBlade",
+          "category": "heartwork:blade",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "complexity": 1,
+          "pageCount": 2,
+          "aspects": {},
+          "isAutoUnlock": true,
+          "isRound": true,
+          "icon_resource": "heartwork:textures/aspects/blade.png"
+        },
+        {
+          "key": "heartwork:Infusion_basic",
+          "category": "heartwork:blade",
+          "displayColumn": -2,
+          "displayRow": 0,
+          "complexity": 1,
+          "pageCount": 7,
+          "aspects": {
+            "heartwork:odachi": 1,
+            "ordo": 1,
+            "fabrico": 1
+          },
+          "parents": [
+            "heartwork:SlashBlade"
+          ],
+          "icon_item": {
+            "item": "slashblade:slashblade_wood",
+            "count": 1
+          }
+        },
+        {
+          "key": "heartwork:Proudsoul_copy",
+          "category": "heartwork:blade",
+          "displayColumn": -2,
+          "displayRow": -2,
+          "complexity": 1,
+          "pageCount": 2,
+          "aspects": {
+            "heartwork:proud": 1,
+            "permutatio": 1
+          },
+          "parents": [
+            "heartwork:SlashBlade"
+          ],
+          "icon_item": {
+            "item": "slashblade:proudsoul",
+            "count": 1
+          }
+        },
+        {
+          "key": "heartwork:IngotBladeSoul_copy",
+          "category": "heartwork:blade",
+          "displayColumn": -2,
+          "displayRow": -4,
+          "complexity": 1,
+          "pageCount": 2,
+          "aspects": {
+            "heartwork:proud": 1,
+            "metallum": 1,
+            "permutatio": 1
+          },
+          "parents": [
+            "heartwork:Proudsoul_copy"
+          ],
+          "icon_item": {
+            "item": "slashblade:proudsoul_ingot",
+            "count": 1
+          }
+        },
+        {
+          "key": "heartwork:Proud_thaum_ingot",
+          "category": "heartwork:blade",
+          "displayColumn": 0,
+          "displayRow": -2,
+          "complexity": 1,
+          "pageCount": 2,
+          "aspects": {
+            "heartwork:proud": 1,
+            "metallum": 1,
+            "praecantatio": 1
+          },
+          "parents": [
+            "heartwork:SlashBlade"
+          ],
+          "icon_item": {
+            "item": "heartwork:proud_thaum_ingot",
+            "count": 1
+          }
+        },
+        {
+          "key": "heartwork:knowledge_decomposition",
+          "category": "heartwork:blade",
+          "displayColumn": 0,
+          "displayRow": 2,
+          "complexity": 1,
+          "pageCount": 2,
+          "aspects": {
+            "sensus": 1,
+            "instrumentum": 1,
+            "humanus": 1
+          },
+          "icon_item": {
+            "item": "heartwork:book1",
+            "count": 1
+          }
+        },
+        {
+          "key": "heartwork:Proud_void_ingot",
+          "category": "heartwork:blade",
+          "displayColumn": 0,
+          "displayRow": -4,
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "heartwork:proud": 1,
+            "metallum": 1,
+            "vacuos": 1
+          },
+          "parents": [
+            "heartwork:Proud_thaum_ingot"
+          ],
+          "warp": 4,
+          "icon_item": {
+            "item": "heartwork:proud_void_ingot",
+            "count": 1
+          }
+        },
+        {
+          "key": "heartwork:Bladework_thaum",
+          "category": "heartwork:blade",
+          "displayColumn": 2,
+          "displayRow": -2,
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "heartwork:proud": 1,
+            "metallum": 1,
+            "praecantatio": 1,
+            "heartwork:odachi": 1
+          },
+          "parents": [
+            "heartwork:Proud_thaum_ingot"
+          ],
+          "icon_item": {
+            "item": "heartwork:bladework_thaum",
+            "count": 1
+          }
+        },
+        {
+          "key": "heartwork:Bladework_void",
+          "category": "heartwork:blade",
+          "displayColumn": 2,
+          "displayRow": -4,
+          "complexity": 3,
+          "pageCount": 2,
+          "aspects": {
+            "heartwork:proud": 1,
+            "metallum": 1,
+            "vacuos": 1,
+            "heartwork:odachi": 1
+          },
+          "parents": [
+            "heartwork:Proud_void_ingot"
+          ],
+          "warp": 4,
+          "icon_item": {
+            "item": "heartwork:bladework_void",
+            "count": 1
+          }
+        },
+        {
+          "key": "heartwork:Roukan_xf",
+          "category": "heartwork:blade",
+          "displayColumn": 4,
+          "displayRow": -2,
+          "complexity": 1,
+          "pageCount": 2,
+          "aspects": {
+            "heartwork:odachi": 1,
+            "aer": 1,
+            "herba": 1
+          },
+          "parents": [
+            "heartwork:SlashBlade"
+          ],
+          "icon_item": {
+            "item": "heartwork:xf_blade",
+            "count": 1,
+            "nbt": "{\"bladeState\":{\"currentCombo\":\"slashblade:none\",\"ComboRoot\":\"slashblade:standby\",\"maxDamage\":100,\"baseAttackModifier\":8.0,\"SpecialAttackType\":\"heartwork:saxianshizhan3\",\"isDefaultBewitched\":1,\"translationKey\":\"item.heartwork.roukan_xf\",\"StandbyRenderType\":1,\"SummonedSwordColor\":-13421569,\"adjustXYZ\":[0.0,0.0,0.0],\"fallDecreaseRate\":0,\"AttackAmplifier\":0,\"ModelName\":\"heartwork:blade/named/louguan/model.obj\",\"TextureName\":\"heartwork:blade/named/louguan/texture_xf.png\"},\"Enchantments\":[{\"id\":\"minecraft:unbreaking\",\"lvl\":6},{\"id\":\"minecraft:sharpness\",\"lvl\":7},{\"id\":\"minecraft:fortune\",\"lvl\":5}],\"HeartworkBlade\":\"heartwork:roukan_xf\"}"
+          }
+        },
+        {
+          "key": "heartwork:Bailou_xf",
+          "category": "heartwork:blade",
+          "displayColumn": 4,
+          "displayRow": 2,
+          "complexity": 1,
+          "pageCount": 2,
+          "aspects": {
+            "heartwork:odachi": 1,
+            "aer": 1,
+            "spiritus": 1
+          },
+          "parents": [
+            "heartwork:SlashBlade"
+          ],
+          "icon_item": {
+            "item": "heartwork:xf_blade",
+            "count": 1,
+            "nbt": "{\"bladeState\":{\"currentCombo\":\"slashblade:none\",\"ComboRoot\":\"slashblade:standby\",\"maxDamage\":120,\"baseAttackModifier\":3.0,\"SpecialAttackType\":\"heartwork:saxianshizhan3\",\"isDefaultBewitched\":1,\"translationKey\":\"item.heartwork.bailou_xf\",\"StandbyRenderType\":1,\"SummonedSwordColor\":-13421569,\"adjustXYZ\":[0.0,0.0,0.0],\"fallDecreaseRate\":0,\"AttackAmplifier\":0,\"ModelName\":\"heartwork:blade/named/bailou/model.obj\",\"TextureName\":\"heartwork:blade/named/bailou/texture_xf.png\"},\"Enchantments\":[{\"id\":\"minecraft:unbreaking\",\"lvl\":4},{\"id\":\"minecraft:smite\",\"lvl\":12},{\"id\":\"minecraft:fortune\",\"lvl\":5}],\"HeartworkBlade\":\"heartwork:bailou_xf\"}"
+          }
+        },
+        {
+          "key": "heartwork:Infusion_normal",
+          "category": "heartwork:blade",
+          "displayColumn": -4,
+          "displayRow": 0,
+          "complexity": 2,
+          "pageCount": 9,
+          "aspects": {
+            "heartwork:odachi": 1,
+            "spiritus": 1,
+            "vacuos": 1
+          },
+          "parents": [
+            "heartwork:Infusion_basic"
+          ],
+          "icon_item": {
+            "item": "slashblade:slashblade_white",
+            "count": 1
+          }
+        },
+        {
+          "key": "heartwork:Infusion_hard",
+          "category": "heartwork:blade",
+          "displayColumn": -6,
+          "displayRow": 0,
+          "complexity": 3,
+          "pageCount": 11,
+          "aspects": {
+            "heartwork:odachi": 1,
+            "vacuos": 1,
+            "tenebrae": 1
+          },
+          "parents": [
+            "heartwork:Infusion_normal"
+          ],
+          "warp": 5,
+          "icon_item": {
+            "item": "slashblade:slashblade",
+            "count": 1
+          }
+        }
+      ]
+    }
+  ]
+}

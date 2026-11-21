@@ -1,0 +1,31 @@
+{
+  "name": "heartwork:yingjian",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/botlouguan/texture.png",
+    "model": "heartwork:blade/named/botlouguan/model.obj",
+    "carry_type": "pso2"
+  },
+  "properties": {
+    "attack_base": 7.0,
+    "max_damage": 91,
+    "slash_art": "heartwork:sabailou3",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 8
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 2
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 2
+    }
+  ]
+}

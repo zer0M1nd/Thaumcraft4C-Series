@@ -1,0 +1,16 @@
+{
+  "name": "heartwork:sweapon",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/sweapon/texture.png",
+    "model": "heartwork:blade/named/sweapon/model.obj",
+    "carry_type": "ninja"
+  },
+  "properties": {
+    "attack_base": 4.0,
+    "max_damage": 51,
+    "slash_art": "heartwork:slashdimension_old",
+    "sword_type": []
+  },
+  "enchantments": []
+}

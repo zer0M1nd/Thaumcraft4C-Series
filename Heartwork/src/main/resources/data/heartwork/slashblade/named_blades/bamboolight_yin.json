@@ -1,0 +1,31 @@
+{
+  "name": "heartwork:bamboolight_yin",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/bamboolight/bamboo_yin.png",
+    "model": "heartwork:blade/named/yamato.obj",
+    "carry_type": "ninja"
+  },
+  "properties": {
+    "attack_base": 11.0,
+    "max_damage": 120,
+    "slash_art": "heartwork:iai",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 8
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 3
+    }
+  ]
+}

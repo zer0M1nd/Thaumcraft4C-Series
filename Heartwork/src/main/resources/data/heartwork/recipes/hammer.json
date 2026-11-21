@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:hammer"
+  },
+  "pattern": [
+    " #",
+    "H#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/iron"
+    },
+    "H": {
+      "tag": "forge:rods/wooden"
+    }
+  }
+}

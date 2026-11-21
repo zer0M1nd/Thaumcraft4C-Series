@@ -1,0 +1,36 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "DAD",
+    "CBC",
+    "DAD"
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "heartwork:doubleblade",
+        "kill": 500,
+        "proud_soul": 1000
+      }
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "D": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "blade": "heartwork:shurablade",
+  "inherit": "first"
+}

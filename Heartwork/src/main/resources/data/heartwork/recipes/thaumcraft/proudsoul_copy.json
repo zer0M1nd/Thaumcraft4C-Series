@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "heartwork:Proudsoul_copy",
+  "legacy_order": 20002,
+  "aspects": {
+    "ignis": 4,
+    "metallum": 2,
+    "heartwork:odachi": 2,
+    "spiritus": 4,
+    "heartwork:proud": 8
+  },
+  "catalyst": {
+    "item": "slashblade:proudsoul"
+  },
+  "result": {
+    "item": "slashblade:proudsoul",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "heartwork:ikaruga",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/ikaruga/texture.png",
+    "model": "heartwork:blade/named/ikaruga/model.obj",
+    "carry_type": "ninja"
+  },
+  "properties": {
+    "attack_base": 12.0,
+    "max_damage": 113,
+    "slash_art": "slashblade:drive_horizontal",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "enchantments": [
+    {
+      "id": "minecraft:efficiency",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 7
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 5
+    }
+  ]
+}

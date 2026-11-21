@@ -1,0 +1,33 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "DAD",
+    "DBD",
+    "DAD"
+  ],
+  "key": {
+    "A": {
+      "item": "heartwork:black_feather"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "heartwork:birdblade_2",
+        "kill": 1000,
+        "proud_soul": 1000
+      }
+    },
+    "D": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "blade": "heartwork:zheng_blade",
+  "inherit": "first"
+}

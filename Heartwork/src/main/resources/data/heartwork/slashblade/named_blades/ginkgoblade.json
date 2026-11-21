@@ -1,0 +1,19 @@
+{
+  "name": "heartwork:ginkgoblade",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/sakuya/texture_1.png",
+    "model": "heartwork:blade/named/sakuya/work.obj",
+    "carry_type": "ninja",
+    "summon_sword_color": 16300840
+  },
+  "properties": {
+    "attack_base": 8.0,
+    "max_damage": 61,
+    "slash_art": "heartwork:sakuya",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "enchantments": []
+}

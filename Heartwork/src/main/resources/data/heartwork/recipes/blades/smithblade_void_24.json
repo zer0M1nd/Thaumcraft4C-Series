@@ -1,0 +1,37 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    " DA",
+    "DC ",
+    "B H"
+  ],
+  "key": {
+    "A": {
+      "item": "heartwork:bladework_void"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "heartwork:unnamed_blade",
+      "request": {
+        "name": "heartwork:unnamed_blade"
+      }
+    },
+    "C": {
+      "item": "heartwork:proud_void_ingot"
+    },
+    "H": {
+      "item": "heartwork:hammer"
+    },
+    "D": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "blade": "heartwork:smithblade_void",
+  "inherit": "first"
+}

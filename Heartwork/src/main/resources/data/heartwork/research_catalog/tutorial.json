@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_HEARTWORK",
+          "category": "TUTORIAL",
+          "displayColumn": 51,
+          "displayRow": 6,
+          "parents": [
+            "TUT_ELEMENTAL_TOOLS",
+            "INFUSION"
+          ],
+          "icon_item": {
+            "item": "heartwork:proud_thaum_ingot",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "heartwork"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "slashblade"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "heartwork:SlashBlade",
+            "heartwork:Infusion_basic",
+            "heartwork:Proud_thaum_ingot",
+            "heartwork:Bladework_thaum",
+            "heartwork:Roukan_xf"
+          ],
+          "pageCount": 8,
+          "parentMirrors": {
+            "INFUSION": "TUT_ADDON_HEARTWORK_PREREQUISITE_1"
+          }
+        },
+        {
+          "key": "TUT_ADDON_HEARTWORK_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 50,
+          "displayRow": 5,
+          "mirrorOf": "INFUSION",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "heartwork"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "slashblade"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

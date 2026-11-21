@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:bladework_normal"
+  },
+  "pattern": [
+    "H#",
+    "#I"
+  ],
+  "key": {
+    "#": {
+      "item": "heartwork:smith_steel_ingot"
+    },
+    "H": {
+      "item": "heartwork:hammer"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  }
+}

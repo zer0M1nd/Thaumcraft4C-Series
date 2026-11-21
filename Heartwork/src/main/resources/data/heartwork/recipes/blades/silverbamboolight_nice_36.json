@@ -1,0 +1,29 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "CDC",
+    "CDC",
+    "CBC"
+  ],
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_silverbamboo",
+      "request": {}
+    },
+    "C": {
+      "item": "minecraft:paper"
+    },
+    "D": {
+      "item": "minecraft:stone"
+    }
+  },
+  "blade": "heartwork:silverbamboolight_nice",
+  "inherit": "first"
+}

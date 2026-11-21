@@ -1,0 +1,38 @@
+{
+  "type": "heartwork:wrap_blade",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exparmory"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "exparmory:katana.adamantium"
+    }
+  ],
+  "pattern": [
+    "  P",
+    " S ",
+    "T  "
+  ],
+  "key": {
+    "P": {
+      "item": "slashblade:proudsoul"
+    },
+    "S": {
+      "item": "heartwork:wrapped_blade"
+    },
+    "T": {
+      "item": "exparmory:katana.adamantium"
+    }
+  },
+  "result": {
+    "item": "heartwork:wrapped_blade"
+  },
+  "texture": "heartwork:blade/named/exparmoryblade/exparmoryadamantium.png",
+  "attack": 4.0
+}

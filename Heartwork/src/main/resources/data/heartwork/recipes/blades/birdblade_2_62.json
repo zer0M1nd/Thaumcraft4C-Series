@@ -1,0 +1,32 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    " DA",
+    "DAD",
+    "BD "
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "heartwork:birdblade",
+        "kill": 500
+      }
+    },
+    "D": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "blade": "heartwork:birdblade_2",
+  "inherit": "first"
+}

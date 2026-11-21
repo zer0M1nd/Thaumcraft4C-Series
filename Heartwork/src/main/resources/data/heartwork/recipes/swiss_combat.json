@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:swiss_combat"
+  },
+  "pattern": [
+    "A#A",
+    "B*B",
+    "A#A"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "*": {
+      "item": "heartwork:swiss"
+    },
+    "A": {
+      "item": "heartwork:steel_ingot_1"
+    },
+    "B": {
+      "item": "heartwork:steel_ingot_2"
+    }
+  }
+}

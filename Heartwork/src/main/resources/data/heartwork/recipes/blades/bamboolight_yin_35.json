@@ -1,0 +1,33 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "D D",
+    " B ",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "heartwork:bamboolight_nice",
+        "kill": 400,
+        "proud_soul": 500
+      }
+    },
+    "D": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "blade": "heartwork:bamboolight_yin",
+  "inherit": "first"
+}

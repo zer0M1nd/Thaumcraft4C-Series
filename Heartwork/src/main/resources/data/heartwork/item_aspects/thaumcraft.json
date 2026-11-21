@@ -1,0 +1,462 @@
+{
+  "format": 1,
+  "required_mods": [
+    "slashblade"
+  ],
+  "entries": [
+    {
+      "items": [
+        "slashblade:proudsoul_tiny"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 1
+        },
+        {
+          "aspect": "ignis",
+          "amount": 1
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "items": [
+        "slashblade:proudsoul_ingot"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 8
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 6
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "items": [
+        "slashblade:proudsoul_sphere"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 8
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 12
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "items": [
+        "slashblade:proudsoul"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 2
+        },
+        {
+          "aspect": "ignis",
+          "amount": 2
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 1
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "heartwork:hammer"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 2
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 4
+        },
+        {
+          "aspect": "instrumentum",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "items": [
+        "heartwork:tahamagane"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 14
+        }
+      ]
+    },
+    {
+      "items": [
+        "slashblade:slashblade"
+      ],
+      "nbt": {
+        "bladeState": {
+          "translationKey": "item.slashblade.tagayasan"
+        }
+      },
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 16
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 16
+        },
+        {
+          "aspect": "telum",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "items": [
+        "slashblade:slashblade"
+      ],
+      "nbt": {
+        "bladeState": {
+          "translationKey": "item.slashblade.yamato"
+        }
+      },
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 16
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 16
+        },
+        {
+          "aspect": "telum",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "items": [
+        "slashblade:slashblade"
+      ],
+      "nbt": {
+        "bladeState": {
+          "translationKey": "item.slashblade.koseki"
+        }
+      },
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 16
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 16
+        },
+        {
+          "aspect": "telum",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "items": [
+        "slashblade:slashblade"
+      ],
+      "nbt": {
+        "bladeState": {
+          "translationKey": "item.slashblade.yuzukitukumo"
+        }
+      },
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 16
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 16
+        },
+        {
+          "aspect": "telum",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "items": [
+        "slashblade:slashblade"
+      ],
+      "nbt": {
+        "bladeState": {
+          "translationKey": "item.heartwork.roukan"
+        }
+      },
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 16
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 16
+        },
+        {
+          "aspect": "telum",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "items": [
+        "slashblade:slashblade"
+      ],
+      "nbt": {
+        "bladeState": {
+          "translationKey": "item.heartwork.bailou"
+        }
+      },
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 16
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 16
+        },
+        {
+          "aspect": "telum",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "items": [
+        "slashblade:slashblade"
+      ],
+      "nbt": {
+        "bladeState": {
+          "translationKey": "item.heartwork.shurablade"
+        }
+      },
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 16
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 16
+        },
+        {
+          "aspect": "telum",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "items": [
+        "slashblade:slashblade"
+      ],
+      "nbt": {
+        "bladeState": {
+          "translationKey": "item.heartwork.murakumo"
+        }
+      },
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 16
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 16
+        },
+        {
+          "aspect": "telum",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "items": [
+        "slashblade:slashblade"
+      ],
+      "nbt": {
+        "bladeState": {
+          "translationKey": "item.heartwork.kogawa_super"
+        }
+      },
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 16
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 16
+        },
+        {
+          "aspect": "telum",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "items": [
+        "heartwork:void_blade"
+      ],
+      "nbt": {
+        "bladeState": {
+          "translationKey": "item.heartwork.void_blade"
+        }
+      },
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:odachi",
+          "amount": 16
+        },
+        {
+          "aspect": "heartwork:proud",
+          "amount": 16
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 16
+        },
+        {
+          "aspect": "telum",
+          "amount": 16
+        }
+      ]
+    }
+  ]
+}

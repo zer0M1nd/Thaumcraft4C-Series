@@ -1,0 +1,28 @@
+{
+  "name": "heartwork:shurablade",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/sakuya/texture_xiuluo.png",
+    "model": "heartwork:blade/named/famous/1.obj",
+    "carry_type": "ninja",
+    "summon_sword_color": 16711731
+  },
+  "properties": {
+    "attack_base": 12.0,
+    "max_damage": 113,
+    "slash_art": "heartwork:sakuya",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 4
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 2
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "heartwork:knowledge_decomposition",
+  "legacy_order": 20006,
+  "aspects": {
+    "humanus": 4,
+    "sensus": 4,
+    "instrumentum": 2
+  },
+  "catalyst": {
+    "item": "heartwork:book1"
+  },
+  "result": {
+    "item": "thaumcraft:knowledge_fragment",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ]
+}

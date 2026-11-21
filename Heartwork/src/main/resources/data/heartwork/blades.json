@@ -1,0 +1,386 @@
+{
+  "heartwork:sakuyablade": {
+    "legacy_name": "flammpfeil.slashblade.named.sakuyablade",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:ginkgoblade": {
+    "legacy_name": "flammpfeil.slashblade.named.ginkgoblade",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:snowblade": {
+    "legacy_name": "flammpfeil.slashblade.named.snowblade",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:doubleblade": {
+    "legacy_name": "flammpfeil.slashblade.named.doubleblade",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:shurablade": {
+    "legacy_name": "flammpfeil.slashblade.named.shurablade",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:louguan_old": {
+    "legacy_name": "flammpfeil.slashblade.named.louguan_old",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:louguan_old2": {
+    "legacy_name": "flammpfeil.slashblade.named.louguan_old2",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:louguan_fake": {
+    "legacy_name": "flammpfeil.slashblade.named.louguan_fake",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 0,
+    "blade_soul": "louguan_fake"
+  },
+  "heartwork:roukan": {
+    "legacy_name": "flammpfeil.slashblade.named.roukan",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 0,
+    "blade_soul": "louguan"
+  },
+  "heartwork:bailou": {
+    "legacy_name": "flammpfeil.slashblade.named.bailou",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 0,
+    "blade_soul": "bailou"
+  },
+  "heartwork:louguan_tx": {
+    "legacy_name": "flammpfeil.slashblade.named.louguan_tx",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 0,
+    "blade_soul": "louguan_tx"
+  },
+  "heartwork:bailou_tx": {
+    "legacy_name": "flammpfeil.slashblade.named.bailou_tx",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 0,
+    "blade_soul": "bailou"
+  },
+  "heartwork:smithblade_basic": {
+    "legacy_name": "flammpfeil.slashblade.named.smithblade_basic",
+    "kind": "BladeLoader.blade_thw",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smithblade_basic_colored": {
+    "legacy_name": "flammpfeil.slashblade.named.smithblade_basic_colored",
+    "kind": "BladeLoader.blade_thw",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smithblade_bewitched": {
+    "legacy_name": "flammpfeil.slashblade.named.smithblade_bewitched",
+    "kind": "BladeLoader.blade_thw",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smithblade_bewitched_colored": {
+    "legacy_name": "flammpfeil.slashblade.named.smithblade_bewitched_colored",
+    "kind": "BladeLoader.blade_thw",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smithblade_thaum": {
+    "legacy_name": "flammpfeil.slashblade.named.smithblade_thaum",
+    "kind": "BladeLoader.blade_thw",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smithblade_thaum_colored": {
+    "legacy_name": "flammpfeil.slashblade.named.smithblade_thaum_colored",
+    "kind": "BladeLoader.blade_thw",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smithblade_thaum_bewitched": {
+    "legacy_name": "flammpfeil.slashblade.named.smithblade_thaum_bewitched",
+    "kind": "BladeLoader.blade_thw",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smithblade_thaum_bewitched_colored": {
+    "legacy_name": "flammpfeil.slashblade.named.smithblade_thaum_bewitched_colored",
+    "kind": "BladeLoader.blade_thw",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smithblade_void": {
+    "legacy_name": "flammpfeil.slashblade.named.smithblade_void",
+    "kind": "BladeLoader.voidblade",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smithblade_void_colored": {
+    "legacy_name": "flammpfeil.slashblade.named.smithblade_void_colored",
+    "kind": "BladeLoader.voidblade",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smithblade_void_bewitched": {
+    "legacy_name": "flammpfeil.slashblade.named.smithblade_void_bewitched",
+    "kind": "BladeLoader.voidblade",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smithblade_void_bewitched_colored": {
+    "legacy_name": "flammpfeil.slashblade.named.smithblade_void_bewitched_colored",
+    "kind": "BladeLoader.voidblade",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:void_blade": {
+    "legacy_name": "flammpfeil.slashblade.named.void_blade",
+    "kind": "BladeLoader.voidblade",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:bailou_xf": {
+    "legacy_name": "flammpfeil.slashblade.named.bailou_xf",
+    "kind": "BladeLoader.xfblade",
+    "attack_amplifier": 0
+  },
+  "heartwork:roukan_xf": {
+    "legacy_name": "flammpfeil.slashblade.named.roukan_xf",
+    "kind": "BladeLoader.xfblade",
+    "attack_amplifier": 0
+  },
+  "heartwork:wenshi": {
+    "legacy_name": "flammpfeil.slashblade.named.wenshi",
+    "kind": "BladeLoader.rfBlade",
+    "attack_amplifier": 0,
+    "required_mod": "cofh_core"
+  },
+  "heartwork:yingjian": {
+    "legacy_name": "flammpfeil.slashblade.named.yingjian",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 0,
+    "required_mod": "botania"
+  },
+  "heartwork:nanosaber": {
+    "legacy_name": "flammpfeil.slashblade.named.nanosaber",
+    "kind": "BladeLoader.euBlade",
+    "attack_amplifier": 0,
+    "required_mod": "ic2",
+    "blade_soul": "EU slashblade"
+  },
+  "heartwork:quantumsaber": {
+    "legacy_name": "flammpfeil.slashblade.named.quantumsaber",
+    "kind": "BladeLoader.euBlade",
+    "attack_amplifier": 0,
+    "required_mod": "ic2",
+    "blade_soul": "quantum slashblade"
+  },
+  "heartwork:bamboolight_nice": {
+    "legacy_name": "flammpfeil.slashblade.named.bamboolight_nice",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 0
+  },
+  "heartwork:bamboolight_yin": {
+    "legacy_name": "flammpfeil.slashblade.named.bamboolight_yin",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 0,
+    "blade_soul": "bamboolight_yin"
+  },
+  "heartwork:silverbamboolight_nice": {
+    "legacy_name": "flammpfeil.slashblade.named.silverbamboolight_nice",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 0
+  },
+  "heartwork:silverbamboolight_gold": {
+    "legacy_name": "flammpfeil.slashblade.named.silverbamboolight_gold",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 0
+  },
+  "heartwork:silverbamboolight_blood": {
+    "legacy_name": "flammpfeil.slashblade.named.silverbamboolight_blood",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 0,
+    "blade_soul": "silverbamboolight_blood"
+  },
+  "heartwork:eievui": {
+    "legacy_name": "flammpfeil.slashblade.named.eievui",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:sagequoia": {
+    "legacy_name": "flammpfeil.slashblade.named.sagequoia",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:ikaruga": {
+    "legacy_name": "flammpfeil.slashblade.named.Ikaruga",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0,
+    "required_mod": "darkraven"
+  },
+  "heartwork:sweapon": {
+    "legacy_name": "flammpfeil.slashblade.named.sweapon",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:slashblade_old": {
+    "legacy_name": "flammpfeil.slashblade.named.slashblade_old",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:murakumo": {
+    "legacy_name": "flammpfeil.slashblade.named.murakumo",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0,
+    "blade_soul": "flammpfeil.slashblade.named.murakumo"
+  },
+  "heartwork:smith_1": {
+    "legacy_name": "flammpfeil.slashblade.named.smith_1",
+    "kind": "BladeLoader.blade_tls",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smith_2": {
+    "legacy_name": "flammpfeil.slashblade.named.smith_2",
+    "kind": "BladeLoader.blade_tls",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smith_3": {
+    "legacy_name": "flammpfeil.slashblade.named.smith_3",
+    "kind": "BladeLoader.blade_tls",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:smith_last": {
+    "legacy_name": "flammpfeil.slashblade.named.smith_last",
+    "kind": "BladeLoader.blade_tls",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:namedblade_basic": {
+    "legacy_name": "flammpfeil.slashblade.named.namedblade_basic",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:namedblade": {
+    "legacy_name": "flammpfeil.slashblade.named.namedblade",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:namedblade1": {
+    "legacy_name": "flammpfeil.slashblade.named.namedblade1",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:namedblade2": {
+    "legacy_name": "flammpfeil.slashblade.named.namedblade2",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:namedblade3": {
+    "legacy_name": "flammpfeil.slashblade.named.namedblade3",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:namedblade4": {
+    "legacy_name": "flammpfeil.slashblade.named.namedblade4",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:template_re": {
+    "legacy_name": "flammpfeil.slashblade.named.template_re",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:template_re2": {
+    "legacy_name": "flammpfeil.slashblade.named.template_re2",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:kogawa_normal": {
+    "legacy_name": "flammpfeil.slashblade.named.kogawa_normal",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:kogawa_rare": {
+    "legacy_name": "flammpfeil.slashblade.named.kogawa_rare",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:kogawa_super": {
+    "legacy_name": "flammpfeil.slashblade.named.kogawa_super",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:birdblade": {
+    "legacy_name": "flammpfeil.slashblade.named.birdblade",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:birdblade_2": {
+    "legacy_name": "flammpfeil.slashblade.named.birdblade_2",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:aya_blade": {
+    "legacy_name": "flammpfeil.slashblade.named.aya_blade",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:zheng_blade": {
+    "legacy_name": "flammpfeil.slashblade.named.zheng_blade",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:zheng": {
+    "legacy_name": "flammpfeil.slashblade.named.zheng",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:pear": {
+    "legacy_name": "flammpfeil.slashblade.named.pear",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:zombie": {
+    "legacy_name": "flammpfeil.slashblade.named.zombie",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:luli": {
+    "legacy_name": "flammpfeil.slashblade.named.luli",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:liu": {
+    "legacy_name": "flammpfeil.slashblade.named.liu",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:117": {
+    "legacy_name": "flammpfeil.slashblade.named.117",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:yile": {
+    "legacy_name": "flammpfeil.slashblade.named.yile",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:nethop": {
+    "legacy_name": "flammpfeil.slashblade.named.nethop",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:irsoft": {
+    "legacy_name": "flammpfeil.slashblade.named.irsoft",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:acid": {
+    "legacy_name": "flammpfeil.slashblade.named.acid",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:mirco": {
+    "legacy_name": "flammpfeil.slashblade.named.mirco",
+    "kind": "SlashBlade.bladeNamed",
+    "attack_amplifier": 2.0
+  },
+  "heartwork:unnamed_blade": {
+    "kind": "BladeLoader.blade"
+  },
+  "heartwork:model_blade": {
+    "kind": "BladeLoader.blade_model"
+  },
+  "heartwork:model_blade_1": {
+    "kind": "BladeLoader.blade_model_1"
+  }
+}

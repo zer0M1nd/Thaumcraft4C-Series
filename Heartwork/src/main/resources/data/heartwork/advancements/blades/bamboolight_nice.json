@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "parent": "heartwork:blades/root",
+  "display": {
+    "icon": {
+      "item": "slashblade:slashblade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:bamboolight_nice\", \"bladeState\": {\"ModelName\": \"heartwork:blade/blade.obj\", \"TextureName\": \"heartwork:blade/named/bamboolight/bamboo_nice.png\", \"translationKey\": \"item.heartwork.bamboolight_nice\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"slashblade:judgement_cut\", \"maxDamage\": 80, \"baseAttackModifier\": 4.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.bamboolight_nice.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.bamboolight_nice.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:bamboolight_nice\"}"
+          }
+        ]
+      }
+    }
+  }
+}

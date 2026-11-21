@@ -1,0 +1,55 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "ic2:alloy"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "ic2:iridium"
+    }
+  ],
+  "pattern": [
+    "IAI",
+    "CBC",
+    "IAI"
+  ],
+  "key": {
+    "A": {
+      "item": "ic2:alloy"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "heartwork:eu_blade",
+      "request": {
+        "name": "heartwork:nanosaber",
+        "kill": 2000,
+        "proud_soul": 2500,
+        "refine": 5,
+        "enchantments": [
+          {
+            "id": "minecraft:unbreaking",
+            "lvl": 1
+          }
+        ]
+      }
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "I": {
+      "item": "ic2:iridium"
+    }
+  },
+  "blade": "heartwork:quantumsaber",
+  "inherit": "first"
+}

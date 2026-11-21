@@ -1,0 +1,39 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "heartwork:Bladework_thaum",
+  "vis": {
+    "terra": 20,
+    "ignis": 20,
+    "ordo": 25,
+    "perditio": 35
+  },
+  "pattern": [
+    "HI ",
+    "I# ",
+    "  D"
+  ],
+  "key": {
+    "#": {
+      "item": "heartwork:smith_steel_ingot"
+    },
+    "H": {
+      "item": "heartwork:hammer"
+    },
+    "I": {
+      "item": "heartwork:proud_thaum_ingot"
+    },
+    "D": {
+      "item": "thaumcraft:salis_mundus"
+    }
+  },
+  "result": {
+    "item": "heartwork:bladework_thaum",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ]
+}

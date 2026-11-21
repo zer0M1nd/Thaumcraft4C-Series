@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:cup_wooden",
+    "count": 1
+  },
+  "pattern": [
+    "# #",
+    "DUD",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:logs"
+    },
+    "D": {
+      "item": "heartwork:smith_steel_ingot"
+    },
+    "U": {
+      "item": "heartwork:hammer"
+    }
+  }
+}

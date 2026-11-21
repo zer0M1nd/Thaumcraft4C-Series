@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "parent": "heartwork:blades/roukan",
+  "display": {
+    "icon": {
+      "item": "slashblade:slashblade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:louguan_tx\", \"bladeState\": {\"ModelName\": \"heartwork:blade/named/louguan/model.obj\", \"TextureName\": \"heartwork:blade/named/louguan/texture_tx.png\", \"translationKey\": \"item.heartwork.louguan_tx\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"heartwork:saxianshizhan2\", \"maxDamage\": 150, \"baseAttackModifier\": 16.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.louguan_tx.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.louguan_tx.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:louguan_tx\"}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "heartwork:louguan_fake",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/louguan_fake/texture.png",
+    "model": "heartwork:blade/named/louguan_fake/model.obj",
+    "carry_type": "ninja"
+  },
+  "properties": {
+    "attack_base": 8.0,
+    "max_damage": 75,
+    "slash_art": "heartwork:spear2",
+    "sword_type": []
+  },
+  "enchantments": []
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:swiss_combat_wooden"
+  },
+  "pattern": [
+    "ASA",
+    "A*A",
+    "ASA"
+  ],
+  "key": {
+    "*": {
+      "item": "heartwork:swiss_combat"
+    },
+    "A": {
+      "tag": "minecraft:logs"
+    },
+    "S": {
+      "tag": "forge:ingots/iron"
+    }
+  }
+}

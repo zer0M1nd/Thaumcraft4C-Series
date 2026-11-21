@@ -1,0 +1,30 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "FDA",
+    "DA ",
+    "S  "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "minecraft:paper"
+    },
+    "A": {
+      "tag": "minecraft:logs"
+    },
+    "S": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "blade": "heartwork:model_blade",
+  "inherit": "none"
+}

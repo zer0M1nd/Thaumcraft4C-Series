@@ -1,0 +1,31 @@
+{
+  "name": "heartwork:zombie",
+  "item": "slashblade:slashblade",
+  "render": {
+    "texture": "heartwork:blade/named/arthurs/texture_zombie.png",
+    "model": "heartwork:blade/named/arthurs/model_zombie.obj",
+    "carry_type": "default"
+  },
+  "properties": {
+    "attack_base": 10.0,
+    "max_damage": 71,
+    "slash_art": "heartwork:sakuya2",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "enchantments": [
+    {
+      "id": "minecraft:smite",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 8
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 7
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:swiss_knife"
+  },
+  "pattern": [
+    "SA",
+    "SA",
+    "SA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:dyes/red"
+    },
+    "S": {
+      "item": "heartwork:steel_ingot_1"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "heartwork:swiss_tools"
+  },
+  "pattern": [
+    "A#A",
+    "B*C",
+    "A#A"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "*": {
+      "item": "heartwork:swiss"
+    },
+    "A": {
+      "item": "heartwork:steel_ingot_1"
+    },
+    "B": {
+      "item": "heartwork:good_steel_hoe"
+    },
+    "C": {
+      "item": "minecraft:shears"
+    }
+  }
+}

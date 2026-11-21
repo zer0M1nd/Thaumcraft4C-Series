@@ -1,0 +1,35 @@
+{
+  "name": "heartwork:smithblade_bewitched",
+  "item": "heartwork:thw_blade",
+  "render": {
+    "texture": "heartwork:blade/named/heartwork/2.png",
+    "model": "heartwork:blade/named/oldtime/soda.obj",
+    "carry_type": "default"
+  },
+  "properties": {
+    "attack_base": 7.0,
+    "max_damage": 90,
+    "slash_art": "slashblade:judgement_cut",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:efficiency",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:thorns",
+      "lvl": 2
+    }
+  ]
+}

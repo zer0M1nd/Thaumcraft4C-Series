@@ -1,0 +1,45 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "ic2:alloy"
+    }
+  ],
+  "pattern": [
+    "IAI",
+    "CBC",
+    "IAI"
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "heartwork:unnamed_blade",
+      "request": {
+        "name": "heartwork:unnamed_blade",
+        "kill": 500,
+        "proud_soul": 500,
+        "refine": 5
+      }
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "I": {
+      "item": "ic2:alloy"
+    }
+  },
+  "blade": "heartwork:nanosaber",
+  "inherit": "first"
+}

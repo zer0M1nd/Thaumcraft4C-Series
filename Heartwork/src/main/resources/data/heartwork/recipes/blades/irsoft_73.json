@@ -1,0 +1,34 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    "ADA",
+    "CBC",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1000
+      }
+    },
+    "C": {
+      "item": "minecraft:obsidian"
+    },
+    "D": {
+      "item": "heartwork:book2"
+    }
+  },
+  "blade": "heartwork:irsoft",
+  "inherit": "first"
+}

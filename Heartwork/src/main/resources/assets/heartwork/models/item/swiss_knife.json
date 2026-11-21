@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "heartwork:item/swiss_knife"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "heartwork:active": 1
+      },
+      "model": "heartwork:item/swiss_knife_open"
+    }
+  ]
+}

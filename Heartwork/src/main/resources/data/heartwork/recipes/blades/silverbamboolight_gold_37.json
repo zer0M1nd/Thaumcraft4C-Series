@@ -1,0 +1,33 @@
+{
+  "type": "heartwork:blade_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    }
+  ],
+  "pattern": [
+    " AD",
+    "ADA",
+    "BA "
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "heartwork:silverbamboolight_nice",
+        "kill": 200,
+        "proud_soul": 100
+      }
+    },
+    "D": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "blade": "heartwork:silverbamboolight_gold",
+  "inherit": "first"
+}

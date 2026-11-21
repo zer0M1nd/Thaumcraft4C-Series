@@ -1,0 +1,41 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "slashblade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cofh_core"
+    }
+  ],
+  "parent": "heartwork:blades/roukan",
+  "display": {
+    "icon": {
+      "item": "heartwork:rf_blade",
+      "nbt": "{\"HeartworkBlade\": \"heartwork:wenshi\", \"bladeState\": {\"ModelName\": \"heartwork:blade/named/rflouguan/model.obj\", \"TextureName\": \"heartwork:blade/named/rflouguan/texture.png\", \"translationKey\": \"item.heartwork.wenshi\", \"currentCombo\": \"slashblade:none\", \"ComboRoot\": \"slashblade:standby\", \"SpecialAttackType\": \"heartwork:saxianshizhan2\", \"maxDamage\": 120, \"baseAttackModifier\": 12.0}}"
+    },
+    "title": {
+      "translate": "advancements.heartwork.wenshi.title"
+    },
+    "description": {
+      "translate": "advancements.heartwork.wenshi.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{\"HeartworkBlade\": \"heartwork:wenshi\"}"
+          }
+        ]
+      }
+    }
+  }
+}

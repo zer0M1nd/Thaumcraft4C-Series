@@ -1,0 +1,16 @@
+{
+  "name": "heartwork:smithblade_void_colored",
+  "item": "heartwork:void_blade",
+  "render": {
+    "texture": "heartwork:blade/named/heartwork/color3.png",
+    "model": "heartwork:blade/named/famous/1.obj",
+    "carry_type": "default"
+  },
+  "properties": {
+    "attack_base": 10.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:judgement_cut",
+    "sword_type": []
+  },
+  "enchantments": []
+}
