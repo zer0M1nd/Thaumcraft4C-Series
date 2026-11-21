@@ -51,7 +51,7 @@ public final class RestorerEntity extends BlockEntity implements thaumcraft.api.
     // Pull-only consumer: never advertise a nonexistent output or accept an unbounded push repair.
     @Override public boolean canInput(Direction side){return false;}
     @Override public boolean canOutput(Direction side){return false;}
-    @Override public Aspect suctionType(Direction side){return side==face()?TCAspects.catalog().require("instrumentum"):null;}
+    @Override public Aspect suctionType(Direction side){return null;}
     @Override public int suction(Direction side){return side==face()&&repairable(inventory.getStackInSlot(0))?128:0;}
     @Override public int minimumSuction(){return 0;}
     @Override public Aspect essentiaType(Direction side){return null;}

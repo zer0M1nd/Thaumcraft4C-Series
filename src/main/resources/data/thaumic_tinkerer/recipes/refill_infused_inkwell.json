@@ -6,9 +6,10 @@
     "III"
   ],
   "key": {
-    "I": {
-      "tag": "forge:dyes/black"
-    },
+    "I": [
+      {"item": "minecraft:ink_sac"},
+      {"tag": "forge:dyes/black"}
+    ],
     "B": {
       "item": "thaumic_tinkerer:infused_inkwell"
     }

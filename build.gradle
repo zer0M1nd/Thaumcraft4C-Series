@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.1.45.1'
+version = '0.1.46'
 group = 'ttmodern'
 base.archivesName = 'Thaumic-Tinkerer-Modern-Port'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)

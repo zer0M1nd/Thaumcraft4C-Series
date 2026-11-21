@@ -19,7 +19,7 @@ public final class ShareBookRecipe extends ShapedRecipe {
         ingredients.set(4,Ingredient.of(tc4revival.content.TCItems.THAUMONOMICON.get()));
         return ingredients;
     }
-    @Override public boolean isSpecial() {return true;}
+    @Override public boolean isSpecial() {return !TinkererConfig.SHARE_TOME.get();}
     @Override public boolean matches(CraftingContainer grid,Level level) {
         if(!TinkererConfig.SHARE_TOME.get()||grid.getWidth()!=3||grid.getHeight()!=3)return false;
         for(int i=0;i<9;i++) {
