@@ -1,0 +1,294 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:node_manipulator",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.NODE_MANIPULATOR.1"
+          },
+          "id": "gadomancy:node_manipulator/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:node_manipulator"
+            ]
+          },
+          "id": "gadomancy:node_manipulator/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.NODE_MANIPULATOR.3"
+          },
+          "id": "gadomancy:node_manipulator/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:randomization_focus"
+            ]
+          },
+          "id": "gadomancy:node_manipulator/page/4",
+          "page_break": true
+        },
+        {
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:activate_node_manipulator"
+            ]
+          },
+          "id": "gadomancy:node_manipulator/page/5",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.NODE_MANIPULATOR.6"
+          },
+          "id": "gadomancy:node_manipulator/page/6",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "gadomancy:e_portal_creator",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.E_PORTAL_CREATOR.1"
+          },
+          "id": "gadomancy:e_portal_creator/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:ancient_pedestal"
+            ]
+          },
+          "id": "gadomancy:e_portal_creator/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.E_PORTAL_CREATOR.3"
+          },
+          "id": "gadomancy:e_portal_creator/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.E_PORTAL_CREATOR.4"
+          },
+          "id": "gadomancy:e_portal_creator/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:portal_focus"
+            ]
+          },
+          "id": "gadomancy:e_portal_creator/page/5",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.E_PORTAL_CREATOR.6"
+          },
+          "id": "gadomancy:e_portal_creator/page/6",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:activate_e_portal_creator"
+            ]
+          },
+          "id": "gadomancy:e_portal_creator/page/7",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.E_PORTAL_CREATOR.8"
+          },
+          "id": "gadomancy:e_portal_creator/page/8",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "gadomancy:growing",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.GROWING.1"
+          },
+          "id": "gadomancy:growing/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.GROWING.2"
+          },
+          "id": "gadomancy:growing/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "gadomancy:growing_aggression",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.GROWING_AGGRESSION.1"
+          },
+          "id": "gadomancy:growing_aggression/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "gadomancy:growing_growth",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.GROWING_GROWTH.1"
+          },
+          "id": "gadomancy:growing_growth/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.GROWING_GROWTH.2"
+          },
+          "id": "gadomancy:growing_growth/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "gadomancy:growing_attack",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.GROWING_ATTACK.1"
+          },
+          "id": "gadomancy:growing_attack/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "gadomancy:growing_growthclue",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.GROWING_GROWTHCLUE.1"
+          },
+          "id": "gadomancy:growing_growthclue/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.GROWING_GROWTHCLUE.2"
+          },
+          "id": "gadomancy:growing_growthclue/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "gadomancy:ancient_stones",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.ANCIENT_STONES.1"
+          },
+          "id": "gadomancy:ancient_stones/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:ancient_stone"
+            ]
+          },
+          "id": "gadomancy:ancient_stones/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:ancient_stone_pedestal"
+            ]
+          },
+          "id": "gadomancy:ancient_stones/page/3",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

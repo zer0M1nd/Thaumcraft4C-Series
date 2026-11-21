@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:block_protector",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.BLOCK_PROTECTOR.1"
+          },
+          "id": "gadomancy:block_protector/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:block_protector_0",
+              "gadomancy:block_protector_1",
+              "gadomancy:block_protector_2",
+              "gadomancy:block_protector_3"
+            ]
+          },
+          "id": "gadomancy:block_protector/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.BLOCK_PROTECTOR.3"
+          },
+          "id": "gadomancy:block_protector/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.BLOCK_PROTECTOR.4"
+          },
+          "id": "gadomancy:block_protector/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

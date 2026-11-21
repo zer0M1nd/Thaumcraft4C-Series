@@ -1,0 +1,84 @@
+{
+  "type": "gadomancy:familiar_infusion",
+  "familiar_aspect": "*",
+  "aspect_cost": 24,
+  "augment": "fire",
+  "previous_level": 1,
+  "research": "gadomancy:familiar_fire",
+  "instability": 6,
+  "aspects": {
+    "ignis": 38,
+    "potentia": 32,
+    "telum": 18
+  },
+  "center": {
+    "ingredient": {
+      "item": "gadomancy:ethereal_familiar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:coal_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:magma_cream"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:coal_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:magma_cream"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    }
+  ],
+  "result": {
+    "item": "gadomancy:ethereal_familiar"
+  }
+}

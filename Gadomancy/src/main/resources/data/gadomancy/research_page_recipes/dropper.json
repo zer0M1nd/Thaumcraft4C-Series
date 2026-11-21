@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:arcane_dropper",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:arcane_dropper",
+        "aspects": {
+          "ordo": 14,
+          "aer": 14,
+          "terra": 10
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:arcane_dropper",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone_bricks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:dropper",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone_bricks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:bellows",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alchemical_construct",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:bellows",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone_bricks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone_bricks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone_bricks",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "gadomancy:ancient_stones",
+  "catalyst": {
+    "item": "thaumcraft:arcane_stone_bricks"
+  },
+  "aspects": {
+    "alienis": 8,
+    "permutatio": 8,
+    "perditio": 12
+  },
+  "result": {
+    "item": "thaumcraft:eldritch_pedestal_stone"
+  },
+  "conditions": [
+    {
+      "type": "gadomancy:ancient_stones"
+    }
+  ]
+}

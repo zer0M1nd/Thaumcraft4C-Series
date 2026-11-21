@@ -1,0 +1,38 @@
+{
+  "type": "gadomancy:packager",
+  "mode": "shaped",
+  "research": "gadomancy:arcane_packager",
+  "pattern": [
+    "PSP",
+    "GCG",
+    "JTJ"
+  ],
+  "key": {
+    "P": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "S": {
+      "item": "minecraft:piston"
+    },
+    "G": {
+      "item": "thaumcraft:warded_glass"
+    },
+    "C": {
+      "item": "gadomancy:aura_core_aer"
+    },
+    "J": {
+      "item": "thaumcraft:essentia_jar"
+    },
+    "T": {
+      "item": "thaumcraft:arcane_workbench"
+    }
+  },
+  "vis": {
+    "aer": 100,
+    "ordo": 60,
+    "perditio": 50
+  },
+  "result": {
+    "item": "gadomancy:arcane_packager"
+  }
+}

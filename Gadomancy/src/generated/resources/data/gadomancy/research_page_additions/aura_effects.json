@@ -1,0 +1,844 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "gadomancy:observed_aura_effects",
+      "research": "gadomancy:aura_effects",
+      "position": "end",
+      "priority": 0,
+      "components": [
+        {
+          "id": "gadomancy:observed_aura_effects/list",
+          "type": "gadomancy:aura_effect_list",
+          "data": {},
+          "group": {
+            "size": 4,
+            "field": "aspects",
+            "entries": [
+              {
+                "id": "aer",
+                "value": "aer",
+                "when": {
+                  "research": "gadomancy:aura/aer"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "aer",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "alienis",
+                "value": "alienis",
+                "when": {
+                  "research": "gadomancy:aura/alienis"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "alienis",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "aqua",
+                "value": "aqua",
+                "when": {
+                  "research": "gadomancy:aura/aqua"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "aqua",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "arbor",
+                "value": "arbor",
+                "when": {
+                  "research": "gadomancy:aura/arbor"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "arbor",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "auram",
+                "value": "auram",
+                "when": {
+                  "research": "gadomancy:aura/auram"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "auram",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "bestia",
+                "value": "bestia",
+                "when": {
+                  "research": "gadomancy:aura/bestia"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "bestia",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "cognitio",
+                "value": "cognitio",
+                "when": {
+                  "research": "gadomancy:aura/cognitio"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "cognitio",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "exanimis",
+                "value": "exanimis",
+                "when": {
+                  "research": "gadomancy:aura/exanimis"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "exanimis",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "fabrico",
+                "value": "fabrico",
+                "when": {
+                  "research": "gadomancy:aura/fabrico"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "fabrico",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "fames",
+                "value": "fames",
+                "when": {
+                  "research": "gadomancy:aura/fames"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "fames",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "gelum",
+                "value": "gelum",
+                "when": {
+                  "research": "gadomancy:aura/gelum"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "gelum",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "herba",
+                "value": "herba",
+                "when": {
+                  "research": "gadomancy:aura/herba"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "herba",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "humanus",
+                "value": "humanus",
+                "when": {
+                  "research": "gadomancy:aura/humanus"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "humanus",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "ignis",
+                "value": "ignis",
+                "when": {
+                  "research": "gadomancy:aura/ignis"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "ignis",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "instrumentum",
+                "value": "instrumentum",
+                "when": {
+                  "research": "gadomancy:aura/instrumentum"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "instrumentum",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "iter",
+                "value": "iter",
+                "when": {
+                  "research": "gadomancy:aura/iter"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "iter",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "limus",
+                "value": "limus",
+                "when": {
+                  "research": "gadomancy:aura/limus"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "limus",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "lucrum",
+                "value": "lucrum",
+                "when": {
+                  "research": "gadomancy:aura/lucrum"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "lucrum",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "lux",
+                "value": "lux",
+                "when": {
+                  "research": "gadomancy:aura/lux"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "lux",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "mortuus",
+                "value": "mortuus",
+                "when": {
+                  "research": "gadomancy:aura/mortuus"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "mortuus",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "motus",
+                "value": "motus",
+                "when": {
+                  "research": "gadomancy:aura/motus"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "motus",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "ordo",
+                "value": "ordo",
+                "when": {
+                  "research": "gadomancy:aura/ordo"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "ordo",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "pannus",
+                "value": "pannus",
+                "when": {
+                  "research": "gadomancy:aura/pannus"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "pannus",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "perditio",
+                "value": "perditio",
+                "when": {
+                  "research": "gadomancy:aura/perditio"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "perditio",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "perfodio",
+                "value": "perfodio",
+                "when": {
+                  "research": "gadomancy:aura/perfodio"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "perfodio",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "potentia",
+                "value": "potentia",
+                "when": {
+                  "research": "gadomancy:aura/potentia"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "potentia",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "praecantatio",
+                "value": "praecantatio",
+                "when": {
+                  "research": "gadomancy:aura/praecantatio"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "praecantatio",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "sano",
+                "value": "sano",
+                "when": {
+                  "research": "gadomancy:aura/sano"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "sano",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "sensus",
+                "value": "sensus",
+                "when": {
+                  "research": "gadomancy:aura/sensus"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "sensus",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "spiritus",
+                "value": "spiritus",
+                "when": {
+                  "research": "gadomancy:aura/spiritus"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "spiritus",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "telum",
+                "value": "telum",
+                "when": {
+                  "research": "gadomancy:aura/telum"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "telum",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "tempestas",
+                "value": "tempestas",
+                "when": {
+                  "research": "gadomancy:aura/tempestas"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "tempestas",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "tenebrae",
+                "value": "tenebrae",
+                "when": {
+                  "research": "gadomancy:aura/tenebrae"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "tenebrae",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "terra",
+                "value": "terra",
+                "when": {
+                  "research": "gadomancy:aura/terra"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "terra",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "tutamen",
+                "value": "tutamen",
+                "when": {
+                  "research": "gadomancy:aura/tutamen"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "tutamen",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "venenum",
+                "value": "venenum",
+                "when": {
+                  "research": "gadomancy:aura/venenum"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "venenum",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "victus",
+                "value": "victus",
+                "when": {
+                  "research": "gadomancy:aura/victus"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "victus",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "vinculum",
+                "value": "vinculum",
+                "when": {
+                  "research": "gadomancy:aura/vinculum"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "vinculum",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "vitium",
+                "value": "vitium",
+                "when": {
+                  "research": "gadomancy:aura/vitium"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "vitium",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "vitreus",
+                "value": "vitreus",
+                "when": {
+                  "research": "gadomancy:aura/vitreus"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "vitreus",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "volatus",
+                "value": "volatus",
+                "when": {
+                  "research": "gadomancy:aura/volatus"
+                },
+                "conditions": [
+                  {
+                    "type": "forge:not",
+                    "value": {
+                      "type": "thaumcraft:config",
+                      "modid": "gadomancy",
+                      "key": "blacklistAuraEffects",
+                      "operator": "contains",
+                      "value": "volatus",
+                      "scope": "common"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

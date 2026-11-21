@@ -1,0 +1,66 @@
+{
+  "type": "gadomancy:familiar_infusion",
+  "familiar_aspect": "*",
+  "aspect_cost": 30,
+  "augment": "weakness",
+  "previous_level": 1,
+  "research": "gadomancy:familiar_weakness",
+  "instability": 8,
+  "aspects": {
+    "mortuus": 28,
+    "auram": 26,
+    "alienis": 28,
+    "perditio": 48,
+    "vinculum": 14
+  },
+  "center": {
+    "ingredient": {
+      "item": "gadomancy:ethereal_familiar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:rotten_flesh"
+      }
+    }
+  ],
+  "result": {
+    "item": "gadomancy:ethereal_familiar"
+  }
+}

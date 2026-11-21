@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gadomancymodern.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MiningLuckMixin"
+  ],
+  "client": [
+    "AchromaticRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:remote_jar",
+          "category": "GADOMANCY",
+          "displayColumn": -4,
+          "displayRow": -3,
+          "pageCount": 3,
+          "complexity": 3,
+          "aspects": {
+            "aqua": 4,
+            "machina": 8,
+            "terra": 4,
+            "ordo": 8
+          },
+          "parents": [
+            "JARLABEL"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "gadomancy:remote_jar"
+          }
+        }
+      ]
+    }
+  ]
+}

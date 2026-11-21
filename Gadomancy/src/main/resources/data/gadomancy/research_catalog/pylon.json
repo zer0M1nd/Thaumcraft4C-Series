@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:aura_pylon",
+          "category": "GADOMANCY",
+          "displayColumn": 0,
+          "displayRow": 9,
+          "pageCount": 5,
+          "complexity": 2,
+          "aspects": {
+            "ordo": 12,
+            "auram": 20,
+            "praecantatio": 12,
+            "machina": 8
+          },
+          "parents": [
+            "gadomancy:aura_core",
+            "TUBEFILTER"
+          ],
+          "isHidden": true,
+          "itemTriggers": [
+            {
+              "item": "gadomancy:aura_core_ignis"
+            }
+          ],
+          "icon_item": {
+            "item": "gadomancy:aura_pylon_cap"
+          }
+        },
+        {
+          "key": "gadomancy:aura_effects",
+          "category": "GADOMANCY",
+          "displayColumn": 1,
+          "displayRow": 10,
+          "pageCount": 1,
+          "complexity": 2,
+          "aspects": {
+            "auram": 6,
+            "cognitio": 8,
+            "praecantatio": 4,
+            "ordo": 4
+          },
+          "parents": [
+            "gadomancy:aura_pylon"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "icon_resource": "thaumcraft:textures/misc/r_aspects.png"
+        }
+      ]
+    }
+  ]
+}

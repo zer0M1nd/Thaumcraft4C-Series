@@ -1,0 +1,85 @@
+{
+  "type": "gadomancy:familiar_infusion",
+  "familiar_aspect": "*",
+  "aspect_cost": 28,
+  "augment": "shock",
+  "previous_level": 1,
+  "research": "gadomancy:familiar_shock",
+  "instability": 5,
+  "aspects": {
+    "motus": 22,
+    "auram": 20,
+    "telum": 18,
+    "aer": 38
+  },
+  "center": {
+    "ingredient": {
+      "item": "gadomancy:ethereal_familiar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    }
+  ],
+  "result": {
+    "item": "gadomancy:ethereal_familiar"
+  }
+}

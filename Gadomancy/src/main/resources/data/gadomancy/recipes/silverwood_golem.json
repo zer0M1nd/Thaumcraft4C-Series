@@ -1,0 +1,65 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "gadomancy:silverwood_golem",
+  "instability": 7,
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:silverwood_log"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "motus": 16,
+    "praecantatio": 16,
+    "humanus": 16,
+    "sensus": 16
+  },
+  "result": {
+    "item": "gadomancy:silverwood_golem",
+    "nbt": "{AddonMaterial:\"gadomancy:silverwood\"}"
+  }
+}

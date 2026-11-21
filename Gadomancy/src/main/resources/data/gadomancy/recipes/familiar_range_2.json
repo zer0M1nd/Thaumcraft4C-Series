@@ -1,0 +1,105 @@
+{
+  "type": "gadomancy:familiar_infusion",
+  "familiar_aspect": "*",
+  "aspect_cost": 42,
+  "augment": "range",
+  "previous_level": 1,
+  "research": "gadomancy:familiar_range",
+  "instability": 9,
+  "aspects": {
+    "auram": 36,
+    "alienis": 34,
+    "telum": 28,
+    "aer": 40
+  },
+  "center": {
+    "ingredient": {
+      "item": "gadomancy:ethereal_familiar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    }
+  ],
+  "result": {
+    "item": "gadomancy:ethereal_familiar"
+  }
+}

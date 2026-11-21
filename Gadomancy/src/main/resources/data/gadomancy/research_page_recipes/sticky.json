@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:sticky_essentia_jar",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:sticky_jar",
+        "aspects": {
+          "aqua": 10,
+          "terra": 10
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:essentia_jar",
+            "count": 1,
+            "nbt": "{isStickyJar:1b}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:slime_ball",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:sticky_filled_essentia_jar",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:sticky_jar",
+        "aspects": {
+          "aqua": 10,
+          "terra": 10
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:filled_essentia_jar",
+            "count": 1,
+            "nbt": "{isStickyJar:1b}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:filled_essentia_jar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:slime_ball",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:sticky_void_jar",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:sticky_jar",
+        "aspects": {
+          "aqua": 10,
+          "terra": 10
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:void_jar",
+            "count": 1,
+            "nbt": "{isStickyJar:1b}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_jar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:slime_ball",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:sticky_filled_void_jar",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:sticky_jar",
+        "aspects": {
+          "aqua": 10,
+          "terra": 10
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:filled_void_jar",
+            "count": 1,
+            "nbt": "{isStickyJar:1b}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:filled_void_jar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:slime_ball",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

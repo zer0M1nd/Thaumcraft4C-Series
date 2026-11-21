@@ -1,0 +1,107 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        2,
+        4,
+        2
+      ],
+      "to": [
+        14,
+        8,
+        14
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        4,
+        8,
+        4
+      ],
+      "to": [
+        12,
+        16,
+        12
+      ]
+    }
+  ],
+  "textures": {
+    "side": "gadomancy:blocks/manipulator_side",
+    "top": "gadomancy:blocks/manipulator_top",
+    "bottom": "gadomancy:blocks/manipulator_bot",
+    "particle": "gadomancy:blocks/manipulator_side"
+  },
+  "parent": "minecraft:block/block"
+}

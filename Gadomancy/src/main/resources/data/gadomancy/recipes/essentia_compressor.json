@@ -1,0 +1,39 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "gadomancy:essentia_compressor",
+  "pattern": [
+    "LRL",
+    "TET",
+    "LCL"
+  ],
+  "key": {
+    "L": {
+      "item": "thaumcraft:greatwood_log"
+    },
+    "R": {
+      "item": "thaumcraft:order_crystal_cluster"
+    },
+    "T": {
+      "item": "thaumcraft:essentia_filter"
+    },
+    "E": {
+      "item": "gadomancy:darkness_element"
+    },
+    "C": {
+      "item": "gadomancy:aura_core_aqua"
+    }
+  },
+  "vis": {
+    "aqua": 190,
+    "ordo": 150,
+    "perditio": 120,
+    "ignis": 100,
+    "aer": 160,
+    "terra": 60
+  },
+  "result": {
+    "item": "gadomancy:essentia_compressor",
+    "count": 3
+  }
+}

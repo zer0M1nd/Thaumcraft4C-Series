@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:knowledge_book",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:knowledge_book",
+        "aspects": {
+          "ordo": 70,
+          "perditio": 20,
+          "aer": 20,
+          "ignis": 30
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:knowledge_book",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:scribing_tools",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumonomicon",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:scribing_tools",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:enchanted_book",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "gadomancy:aura_core_ordo",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:enchanted_book",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:mnemonic_matrix",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:goggles",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:mnemonic_matrix",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

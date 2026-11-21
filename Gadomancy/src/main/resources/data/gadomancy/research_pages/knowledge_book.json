@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:knowledge_book",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.KNOWLEDGE_BOOK.1"
+          },
+          "id": "gadomancy:knowledge_book/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "gadomancy:knowledge_book"
+            ]
+          },
+          "id": "gadomancy:knowledge_book/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.KNOWLEDGE_BOOK.3"
+          },
+          "id": "gadomancy:knowledge_book/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "gadomancy.research_page.KNOWLEDGE_BOOK.4"
+          },
+          "id": "gadomancy:knowledge_book/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

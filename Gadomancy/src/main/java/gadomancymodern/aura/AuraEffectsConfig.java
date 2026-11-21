@@ -1,0 +1,9 @@
+package gadomancymodern.aura;
+import net.minecraftforge.common.ForgeConfigSpec;
+public class AuraEffectsConfig {
+    public static final ForgeConfigSpec SPEC;
+    public static final ForgeConfigSpec.ConfigValue<java.util.List<? extends String>> BLACKLIST;
+    public static final ForgeConfigSpec.BooleanValue ADDITIONAL_NODES,ANCIENT_STONES;
+    public static final ForgeConfigSpec.IntValue MAX_MAZES;
+    static {var builder=new ForgeConfigSpec.Builder();BLACKLIST=builder.comment("Original Gadomancy aura effect aspect blacklist. Empty by default.").comment("禁用灵气效果的要素标识列表；空列表不禁用", "设置说明 / Setting: Aspect identifiers whose aura effects are disabled; empty disables none", "初始值 / Default: " + String.valueOf(java.util.List.of()) + "; 列表允许为空 / An empty list is allowed", "修改后重启世界或服务器 / Restart the world/server after editing.").defineListAllowEmpty("blacklistAuraEffects",java.util.List.of(),value->value instanceof String tag&&!tag.isBlank());ADDITIONAL_NODES=builder.comment("启用原有附加节点类型", "设置说明 / Setting: Enable the original additional node types", "初始值 / Default: " + String.valueOf(true) + "; 可选 / Allowed: true, false", "修改后重启世界或服务器 / Restart the world/server after editing.").define("enableAdditionalNodeTypes",true);ANCIENT_STONES=builder.comment("启用远古石配方", "设置说明 / Setting: Enable ancient stone recipes", "初始值 / Default: " + String.valueOf(false) + "; 可选 / Allowed: true, false", "修改后重启世界或服务器 / Restart the world/server after editing.").define("ancientStoneRecipes",false);MAX_MAZES=builder.comment("Maximum simultaneous private Eldritch mazes. -1 means unlimited.").comment("同时存在的私人邪术迷宫上限；-1 不限", "设置说明 / Setting: Maximum simultaneous private Eldritch mazes; -1 unlimited", "初始值 / Default: " + String.valueOf(-1) + "; 范围 / Range: " + String.valueOf(-1) + ".." + String.valueOf(10000), "修改后重启世界或服务器 / Restart the world/server after editing.").defineInRange("maxMazeCount",-1,-1,10000);SPEC=builder.build();}
+}

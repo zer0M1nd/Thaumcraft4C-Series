@@ -1,0 +1,39 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "gadomancy:knowledge_book",
+  "pattern": [
+    "STS",
+    "BOB",
+    "MGM"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:scribing_tools"
+    },
+    "T": {
+      "item": "thaumcraft:thaumonomicon"
+    },
+    "B": {
+      "item": "minecraft:enchanted_book"
+    },
+    "O": {
+      "item": "gadomancy:aura_core_ordo"
+    },
+    "M": {
+      "item": "thaumcraft:mnemonic_matrix"
+    },
+    "G": {
+      "item": "thaumcraft:goggles"
+    }
+  },
+  "vis": {
+    "ordo": 70,
+    "perditio": 20,
+    "aer": 20,
+    "ignis": 30
+  },
+  "result": {
+    "item": "gadomancy:knowledge_book"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:sticky_jar",
+          "category": "GADOMANCY",
+          "displayColumn": -5,
+          "displayRow": -5,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "limus": 8,
+            "terra": 8
+          },
+          "parents": [
+            "JARLABEL"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumcraft:essentia_jar",
+            "nbt": "{isStickyJar:1b}"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:revealer",
+          "category": "GADOMANCY",
+          "displayColumn": 1,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "sensus": 4,
+            "praecantatio": 4
+          },
+          "parents": [
+            "INFUSIONENCHANTMENT",
+            "GOGGLES"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "thaumcraft:goggles",
+            "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_GADOMANCY",
+      "pages": [
+        {
+          "id": "gadomancy:tut_addon_gadomancy/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.gadomancy.tut_addon_gadomancy.text.1",
+            "with": [
+              [
+                {
+                  "text": "魔像秘经是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gadomancy:tut_addon_gadomancy/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.gadomancy.tut_addon_gadomancy.text.2",
+            "with": [
+              [
+                {
+                  "text": "魔像秘经扩展了"
+                },
+                {
+                  "text": "傀儡",
+                  "bold": true
+                },
+                {
+                  "text": "和"
+                },
+                {
+                  "text": "灵气",
+                  "bold": true
+                },
+                {
+                  "text": "：银木傀儡和新的傀儡核心、天域使魔、向周围散布要素效果的魔灵核心与法柱、可以"
+                },
+                {
+                  "text": "自动注魔",
+                  "bold": true
+                },
+                {
+                  "text": "的注魔之爪，以及节点操纵与虚空漫步者之门。\n它没有自动解锁的研究，所有内容都从原版研究分支出来。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gadomancy:tut_addon_gadomancy/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "gadomancy:tut_addon_gadomancy/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.gadomancy.tut_addon_gadomancy.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gadomancy:tut_addon_gadomancy/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.gadomancy.tut_addon_gadomancy.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "gadomancy:silverwood_golem"
+                },
+                {
+                  "text": "：银木傀儡（需要油脂傀儡）。\n· "
+                },
+                {
+                  "research": "gadomancy:remote_jar"
+                },
+                {
+                  "text": "：镜像罐子（需要要素罐子和标签）。\n· "
+                },
+                {
+                  "research": "gadomancy:armor_disguise"
+                },
+                {
+                  "text": "：护甲伪装术（需要注魔法附魔）。\n· "
+                },
+                {
+                  "research": "gadomancy:aura_core"
+                },
+                {
+                  "text": "：魔灵核心。\n· "
+                },
+                {
+                  "research": "gadomancy:infusion_claw"
+                },
+                {
+                  "text": "：自动注魔。\n· "
+                },
+                {
+                  "research": "gadomancy:node_manipulator"
+                },
+                {
+                  "text": "：节点操纵。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gadomancy:tut_addon_gadomancy/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "gadomancy:tut_addon_gadomancy/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "gadomancy:tut_addon_gadomancy/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "gadomancy:silverwood_golem",
+            "gadomancy:remote_jar",
+            "gadomancy:armor_disguise",
+            "gadomancy:aura_core",
+            "gadomancy:infusion_claw",
+            "gadomancy:node_manipulator"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

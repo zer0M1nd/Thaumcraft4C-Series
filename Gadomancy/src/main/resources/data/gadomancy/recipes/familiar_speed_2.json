@@ -1,0 +1,106 @@
+{
+  "type": "gadomancy:familiar_infusion",
+  "familiar_aspect": "*",
+  "aspect_cost": 46,
+  "augment": "speed",
+  "previous_level": 1,
+  "research": "gadomancy:familiar_speed",
+  "instability": 9,
+  "aspects": {
+    "auram": 38,
+    "motus": 52,
+    "alienis": 38,
+    "aer": 48,
+    "telum": 28
+  },
+  "center": {
+    "ingredient": {
+      "item": "gadomancy:ethereal_familiar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "result": {
+    "item": "gadomancy:ethereal_familiar"
+  }
+}

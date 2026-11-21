@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "gadomancy:ancient_stones",
+  "pattern": [
+    "SSS",
+    "SES",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "E": {
+      "item": "thaumcraft:eldritch_eye"
+    }
+  },
+  "vis": {
+    "perditio": 16,
+    "terra": 8
+  },
+  "result": {
+    "item": "thaumcraft:eldritch_stone",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "gadomancy:ancient_stones"
+    }
+  ]
+}

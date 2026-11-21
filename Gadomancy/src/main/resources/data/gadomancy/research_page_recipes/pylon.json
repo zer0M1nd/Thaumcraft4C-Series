@@ -1,0 +1,239 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:aura_pylon",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:aura_pylon",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "ordo": 80,
+          "aqua": 50,
+          "ignis": 50,
+          "aer": 50
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_pylon",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_filter",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:silverwood_log",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_filter",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:silverwood_log",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:silverwood_log",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_filter",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_filter",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:aura_pylon_cap",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "gadomancy:aura_pylon",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "ordo": 90,
+          "ignis": 120,
+          "aer": 70
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "gadomancy:aura_pylon_cap",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alumentum",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "gadomancy:aura_core_ignis",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alumentum",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "gadomancy:aura_pylon",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "gadomancy:activate_aura_pylon",
+      "class": "modern",
+      "data": {
+        "kind": "compound",
+        "structure": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "aspects",
+              "aspects": {
+                "aer": 150,
+                "ignis": 150,
+                "aqua": 150,
+                "terra": 150,
+                "ordo": 150,
+                "perditio": 150
+              }
+            },
+            {
+              "kind": "literal",
+              "value": 1
+            },
+            {
+              "kind": "literal",
+              "value": 4
+            },
+            {
+              "kind": "literal",
+              "value": 1
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:aura_pylon_cap",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:aura_pylon",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:aura_pylon",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "gadomancy:aura_pylon",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "GADOMANCY",
+      "icon": "gadomancy:textures/items/category_icon.png",
+      "background": "gadomancy:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "gadomancy:infusion_claw",
+          "category": "GADOMANCY",
+          "displayColumn": -6,
+          "displayRow": -7,
+          "pageCount": 3,
+          "complexity": 3,
+          "aspects": {
+            "alienis": 8,
+            "machina": 8,
+            "praecantatio": 8,
+            "ordo": 8,
+            "tenebrae": 4
+          },
+          "parents": [
+            "FOCUSPRIMAL",
+            "VOIDMETAL",
+            "WANDPED",
+            "COREUSE"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "gadomancy:infusion_claw"
+          }
+        }
+      ]
+    }
+  ]
+}

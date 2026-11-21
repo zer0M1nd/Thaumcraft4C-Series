@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_GADOMANCY",
+          "category": "TUTORIAL",
+          "displayColumn": 45,
+          "displayRow": 12,
+          "parents": [
+            "TUT_GOLEM_UPGRADE"
+          ],
+          "icon_item": {
+            "item": "gadomancy:infusion_claw",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "gadomancy"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "gadomancy:silverwood_golem",
+            "gadomancy:remote_jar",
+            "gadomancy:armor_disguise",
+            "gadomancy:aura_core",
+            "gadomancy:infusion_claw",
+            "gadomancy:node_manipulator"
+          ],
+          "pageCount": 8
+        }
+      ]
+    }
+  ]
+}

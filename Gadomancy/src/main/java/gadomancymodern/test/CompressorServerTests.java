@@ -1,0 +1,45 @@
+package gadomancymodern.test;
+import gadomancymodern.Gadomancy;
+import gadomancymodern.compressor.*;
+import net.minecraft.core.*;
+import net.minecraft.gametest.framework.*;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.item.*;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraftforge.gametest.*;
+import tc4revival.aspect.*;
+import tc4revival.content.*;
+@GameTestHolder("gadomancy") @PrefixGameTestTemplate(false)
+public class CompressorServerTests {
+    public static class CountedJar extends EssentiaJarBlockEntity {
+        int totals;
+        public CountedJar(BlockPos pos,net.minecraft.world.level.block.state.BlockState state){super(pos,state);}
+        @Override public AspectAmounts revealedAspects(){totals++;return super.revealedAspects();}
+    }
+    @GameTest(templateNamespace="gadomancy",template="test_empty")
+    public static void compressorTotalsAreBoundedAndNeverCachedAcrossTransfers(GameTestHelper test){
+        var tile=build(test);var level=test.getLevel();var pos=tile.getBlockPos().east(2);
+        level.setBlockAndUpdate(pos,TCArcane.ESSENTIA_JAR.get().defaultBlockState());
+        level.removeBlockEntity(pos);var jar=new CountedJar(pos,level.getBlockState(pos));level.setBlockEntity(jar);
+        var aer=TCAspects.catalog().require("aer");jar.addToContainer(aer,5);jar.totals=0;
+        test.assertTrue(!tile.drainNearby()&&jar.totals==1,"Fuller source total is read once, not once per registered aspect");
+        jar.empty();jar.addToContainer(aer,1);middle(tile).addToContainer(aer,1);jar.totals=0;
+        test.assertTrue(tile.drainNearby()&&jar.amount()==0&&middle(tile).availableAmount(aer)==2,"Same-tick external source change is observed; exactly one unit transferred");
+        test.assertTrue(jar.totals==1,"Successful transfer also reads the source total only once");
+        jar.addToContainer(aer,5);test.assertTrue(!tile.drainNearby()&&jar.amount()==5,"Source becoming fuller is not accepted through a stale cache");
+        test.succeed();
+    }
+    public static EssentiaCompressorEntity build(GameTestHelper test){var pos=test.absolutePos(new BlockPos(5,100,5));var id=java.util.UUID.randomUUID();for(int i=0;i<3;i++){test.getLevel().setBlockAndUpdate(pos.above(i),Gadomancy.COMPRESSOR.get().defaultBlockState());var tile=(EssentiaCompressorEntity)test.getLevel().getBlockEntity(pos.above(i));tile.structure=id;tile.index=i;tile.stage=0;tile.pedestal=null;tile.consumeTick=0;tile.contents=new AspectAmounts();}return (EssentiaCompressorEntity)test.getLevel().getBlockEntity(pos);}
+    public static EssentiaCompressorEntity middle(EssentiaCompressorEntity tile){return (EssentiaCompressorEntity)tile.getLevel().getBlockEntity(tile.getBlockPos().above());}
+    @GameTest(templateNamespace="gadomancy",template="test_empty")
+    public static void activationCostsAndThreeSectionCapacity(GameTestHelper test){var level=test.getLevel();var tile=build(test);for(int i=0;i<3;i++)((EssentiaCompressorEntity)level.getBlockEntity(tile.getBlockPos().above(i))).structure=null;var player=new net.minecraftforge.common.util.FakePlayer(level,new com.mojang.authlib.GameProfile(java.util.UUID.randomUUID(),"GadCompress"));var wand=TCItems.CASTING_WAND.get().create(WandParts.Rod.SILVERWOOD_STAFF,WandParts.Cap.GOLD,false,true);player.setItemInHand(InteractionHand.MAIN_HAND,wand);test.assertTrue(!EssentiaCompressorBlock.form(level,tile.getBlockPos(),player,InteractionHand.MAIN_HAND),"Required research is enforced");thaumcraft.api.ThaumcraftApiHelper.completeResearch(player,"gadomancy:essentia_compressor");var aer=TCAspects.catalog().require("aer");var ignis=TCAspects.catalog().require("ignis");int fire=TCItems.CASTING_WAND.get().vis(wand,ignis),air=TCItems.CASTING_WAND.get().vis(wand,aer);test.assertTrue(EssentiaCompressorBlock.form(level,tile.getBlockPos().above(2),player,InteractionHand.MAIN_HAND),"Clicking the top finds the three unformed sections below");test.assertTrue(tile.valid()&&air-TCItems.CASTING_WAND.get().vis(wand,aer)==15000&&TCItems.CASTING_WAND.get().vis(wand,ignis)==fire,"Original formation drains Aer 150 and no Ignis");var middle=middle(tile);test.assertTrue(middle.addToContainer(aer,250)==50&&middle.availableAmount(aer)==200,"GTNH corrected remainder and master-owned capacity");test.assertTrue(tile.addToContainer(aer,1)==1&&!tile.contains(aer,1)&&!middle.connectable(Direction.NORTH)&&middle.canOutput(Direction.NORTH),"Only middle exposes storage, preserving original disconnected tube geometry");test.assertTrue(middle.takeEssentia(aer,250,Direction.EAST)==200&&middle.essentiaType(Direction.NORTH)==null,"Partial extraction and empty random-aspect query are safe");test.succeed();}
+    @GameTest(templateNamespace="gadomancy",template="test_empty")
+    public static void upgradeConsumesOnlyAncientPedestalAfterOriginalDelay(GameTestHelper test){var tile=build(test);var level=test.getLevel();var pos=tile.getBlockPos().east(3);level.setBlockAndUpdate(pos,Gadomancy.ANCIENT_PEDESTAL.get().defaultBlockState());var pedestal=(AncientPedestalEntity)level.getBlockEntity(pos);pedestal.setItem(0,new ItemStack(Gadomancy.DARKNESS_ELEMENT.get()));tile.consumeElement();test.assertTrue(pos.equals(tile.pedestal),"Original seven-by-seven same-height pedestal search");for(int i=0;i<400;i++)tile.consumeElement();test.assertTrue(tile.stage==0&&!pedestal.isEmpty(),"Element remains until strictly more than 400 consumption ticks");tile.consumeElement();test.assertTrue(tile.stage==1&&pedestal.isEmpty()&&middle(tile).capacity(TCAspects.catalog().require("aer"))==550,"One physical element adds 350 storage per aspect");for(int stage=1;stage<8;stage++){pedestal.setItem(0,new ItemStack(Gadomancy.DARKNESS_ELEMENT.get()));tile.consumeElement();for(int i=0;i<401;i++)tile.consumeElement();}test.assertTrue(tile.stage==8&&tile.storage()==3000,"Eight original upgrades cap storage at 3000");pedestal.setItem(0,new ItemStack(Gadomancy.DARKNESS_ELEMENT.get()));tile.consumeElement();test.assertTrue(!pedestal.isEmpty(),"Maximum stage never consumes another element");var copy=new EssentiaCompressorEntity(tile.getBlockPos(),tile.getBlockState());copy.load(tile.saveWithoutMetadata());test.assertTrue(copy.stage==8&&copy.structure.equals(tile.structure)&&copy.pedestal==null,"Stage and UUID persist; original transient progress does not");test.succeed();}
+    @GameTest(templateNamespace="gadomancy",template="test_empty")
+    public static void remoteDrainPreservesTheOriginalTotalComparison(GameTestHelper test){var tile=build(test);var level=test.getLevel();var pos=tile.getBlockPos().east(2);level.setBlockAndUpdate(pos,TCArcane.ESSENTIA_JAR.get().defaultBlockState());var jar=(EssentiaJarBlockEntity)level.getBlockEntity(pos);var aer=TCAspects.catalog().require("aer");jar.takeFromContainer(aer,jar.amount());jar.addToContainer(aer,5);test.assertTrue(!tile.drainNearby()&&jar.amount()==5,"Original rule does not drain a fuller source into an empty compressor");middle(tile).addToContainer(aer,5);test.assertTrue(tile.drainNearby()&&jar.amount()==4&&middle(tile).availableAmount(aer)==6,"A source at or below total contents loses exactly one unit");test.succeed();}
+    @GameTest(templateNamespace="gadomancy",template="test_empty")
+    public static void failureDestroysAllSectionsAndVortexMotionStaysFinite(GameTestHelper test){var tile=build(test);var level=test.getLevel();tile.stage=8;var cow=EntityType.COW.create(level);cow.setPos(tile.getBlockPos().getCenter().add(0,1,0));cow.setNoGravity(true);level.addFreshEntity(cow);tile.attract();test.assertTrue(Double.isFinite(cow.getDeltaMovement().length()),"Zero-distance vortex cannot produce NaN entity velocity");cow.discard();middle(tile).addToContainer(TCAspects.catalog().require("aqua"),10);var base=tile.getBlockPos();level.removeBlock(base.above(),false);test.assertTrue(!level.getBlockState(base).is(Gadomancy.COMPRESSOR.get())&&!level.getBlockState(base.above(2)).is(Gadomancy.COMPRESSOR.get()),"Breaking any formed section removes the entire linked structure");test.succeed();}
+    @GameTest(templateNamespace="gadomancy",template="test_empty")
+    public static void darknessInventoryAndDroppedEntityHaveActualAreaEffect(GameTestHelper test){var level=test.getLevel();var center=test.absolutePos(new BlockPos(6,100,6)).getCenter();var cow=EntityType.COW.create(level);cow.setPos(center.add(7,0,0));level.addFreshEntity(cow);DarknessElementEntity.affect(level,center);test.assertTrue(cow.hasEffect(MobEffects.BLINDNESS)&&cow.getEffect(MobEffects.BLINDNESS).getDuration()==100,"Darkness affects nearby living entities for 100 ticks");var source=new net.minecraft.world.entity.item.ItemEntity(level,center.x,center.y,center.z,new ItemStack(Gadomancy.DARKNESS_ELEMENT.get()));var custom=Gadomancy.DARKNESS_ELEMENT.get().createEntity(level,source,source.getItem());test.assertTrue(custom instanceof DarknessElementEntity&&((DarknessElementEntity)custom).getItem().getCount()==1,"Dropped item keeps the real stack in the custom persistent entity");cow.discard();test.succeed();}
+}

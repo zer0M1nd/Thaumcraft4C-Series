@@ -1,0 +1,8 @@
+package gadomancymodern.node;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+public class GrowingSaturationTest {
+    @Test public void foodKindsRepetitionAndOtherAspectDecayKeepOriginalArithmetic(){var state=new GrowingSaturation();assertTrue(state.accepts("aer",.5));assertFalse(state.fed("aer",true,"aspect_orb"));assertEquals(.98,state.saturation.get("aer"),1e-10);state.fed("aer",true,"aspect_orb");assertEquals(2.52,state.saturation.get("aer"),1e-10);assertEquals(1,state.consecutive);state.fed("ignis",true,"wisp");assertEquals(2.52-1.0/15,state.saturation.get("aer"),1e-10);assertEquals(1.12,state.saturation.get("ignis"),1e-10);}
+    @Test public void saturationRejectsAndDiverseFoodCalmsAggression(){var state=new GrowingSaturation();state.saturation.put("aer",55.0);state.lastAspect="aer";state.consecutive=1;assertFalse(state.accepts("aer",.5));assertTrue(state.accepts("aer",.51));assertEquals(2,state.happiness,1e-10);state.saturation.put("ignis",1.0);assertTrue(state.accepts("ignis",.9));assertEquals(0,state.happiness);state.happiness=300;assertTrue(state.accepts("terra",0));assertEquals(20,state.happiness);}
+    @Test public void excessAggressionTriggersExplosionAndSaturationLatches(){var state=new GrowingSaturation();state.happiness=401;assertTrue(state.fed("aer",true,"wisp"));assertEquals(40.1,state.happiness,1e-9);state.saturation.put("aer",93.5);assertFalse(state.saturated);state.fed("aer",true,"wisp");assertTrue(state.saturated);assertFalse(state.accepts("terra",.99999));state.happiness=361;assertEquals(12,state.damage());assertTrue(state.zap(360));assertFalse(state.zap(361));}
+}

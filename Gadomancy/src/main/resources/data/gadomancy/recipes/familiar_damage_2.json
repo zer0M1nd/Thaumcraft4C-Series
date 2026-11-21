@@ -1,0 +1,85 @@
+{
+  "type": "gadomancy:familiar_infusion",
+  "familiar_aspect": "*",
+  "aspect_cost": 22,
+  "augment": "damage",
+  "previous_level": 1,
+  "research": "gadomancy:familiar_damage",
+  "instability": 10,
+  "aspects": {
+    "telum": 28,
+    "potentia": 34,
+    "ignis": 30,
+    "auram": 14
+  },
+  "center": {
+    "ingredient": {
+      "item": "gadomancy:ethereal_familiar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wisp_essence"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber_block"
+      }
+    }
+  ],
+  "result": {
+    "item": "gadomancy:ethereal_familiar"
+  }
+}

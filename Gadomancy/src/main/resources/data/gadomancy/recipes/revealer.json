@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "gadomancy:revealer",
+  "instability": 4,
+  "enchantment": "gadomancy:revealer",
+  "aspects": {
+    "sensus": 16,
+    "praecantatio": 8
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:goggles"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

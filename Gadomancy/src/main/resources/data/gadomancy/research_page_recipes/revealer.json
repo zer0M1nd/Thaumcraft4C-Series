@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "gadomancy:revealer",
+      "class": "modern",
+      "data": {
+        "kind": "infusion_enchantment",
+        "research": "gadomancy:revealer",
+        "enchantment": {
+          "id": 0,
+          "name": "gadomancy.enchantment.revealer",
+          "max_level": 1
+        },
+        "recipeXP": 5,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:goggles",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "sensus": 16,
+          "praecantatio": 8
+        },
+        "instability": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "gadomancy:aura_pylon",
+  "pattern": [
+    "TST",
+    "S S",
+    "TJT"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:essentia_filter"
+    },
+    "S": {
+      "item": "thaumcraft:silverwood_log"
+    },
+    "J": {
+      "item": "thaumcraft:essentia_jar"
+    }
+  },
+  "vis": {
+    "ordo": 80,
+    "aqua": 50,
+    "ignis": 50,
+    "aer": 50
+  },
+  "result": {
+    "item": "gadomancy:aura_pylon"
+  }
+}
