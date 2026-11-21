@@ -1,17 +1,26 @@
 package tc4revival.content;
 
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
+import net.minecraftforge.common.ToolActions;
 
 public  class ElementalSwordItem extends ThaumiumSwordItem {
     public ElementalSwordItem() { super(ElementalToolTier.INSTANCE); }
     @Override public int getUseDuration(ItemStack stack) { return LegacySwordRules.USE_DURATION; }
-    @Override public net.minecraft.world.InteractionResultHolder<ItemStack> use(Level level,Player player,net.minecraft.world.InteractionHand hand) {
+    @Override public InteractionResultHolder<ItemStack> use(Level level,Player player,InteractionHand hand) {
+        var sword = player.getItemInHand(hand);
+        var offhand = player.getOffhandItem();
+        if (hand == InteractionHand.MAIN_HAND && (offhand.canPerformAction(ToolActions.SHIELD_BLOCK)
+                || offhand.getUseAnimation() == UseAnim.BLOCK)) {
+            return InteractionResultHolder.pass(sword);
+        }
         player.startUsingItem(hand);
-        return net.minecraft.world.InteractionResultHolder.consume(player.getItemInHand(hand));
+        return InteractionResultHolder.consume(sword);
     }
     @Override public Rarity getRarity(ItemStack stack) { return Rarity.RARE; }
     @Override public void onUseTick(Level level,LivingEntity user,ItemStack stack,int remaining) {
