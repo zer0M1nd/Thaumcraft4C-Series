@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.1.2'
+version = '0.1.2.1'
 group = 'heartwork'
 base.archivesName = 'Heartwork-Modern-Port'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
