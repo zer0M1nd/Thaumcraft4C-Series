@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_ARCANE_ENGINEERING",
+          "category": "TUTORIAL",
+          "displayColumn": 63,
+          "displayRow": 6,
+          "parents": [
+            "TUT_SPECIAL_RODS"
+          ],
+          "icon_item": {
+            "item": "arcane_engineering:wand_upgradeable",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "arcane_engineering"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "immersiveengineering"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "arcane_engineering:MAGITECH",
+            "arcane_engineering:ROD_upgradeable",
+            "arcane_engineering:CAP_steel",
+            "arcane_engineering:DRILLTHAUMIUM",
+            "arcane_engineering:IMPULSEBOOTS"
+          ],
+          "pageCount": 8
+        }
+      ]
+    }
+  ]
+}

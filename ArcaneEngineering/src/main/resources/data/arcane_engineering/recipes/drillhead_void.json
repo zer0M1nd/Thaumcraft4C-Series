@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "arcane_engineering:DRILLVOID",
+  "instability": 8,
+  "center": {
+    "ingredient": {
+      "item": "immersiveengineering:drillhead_steel"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    }
+  ],
+  "aspects": {
+    "tenebrae": 16,
+    "alienis": 32,
+    "perfodio": 8,
+    "metallum": 16
+  },
+  "result": {
+    "item": "arcane_engineering:drillhead_void"
+  }
+}

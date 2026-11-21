@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Unlicensed test fixture"
+[[mods]]
+modId="arcane_engineering_validation"
+version="1"
+displayName="Arcane Engineering isolated verification"
+[[dependencies.arcane_engineering_validation]]
+modId="arcane_engineering"
+mandatory=true
+versionRange="[0.1.0.1,)"
+ordering="AFTER"
+side="BOTH"

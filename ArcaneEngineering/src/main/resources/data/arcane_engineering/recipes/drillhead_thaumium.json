@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "arcane_engineering:DRILLTHAUMIUM",
+  "pattern": [
+    "ii ",
+    "bbi",
+    "ii "
+  ],
+  "key": {
+    "i": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "b": {
+      "item": "thaumcraft:thaumium_block"
+    }
+  },
+  "vis": {
+    "terra": 20,
+    "ordo": 20
+  },
+  "result": {
+    "item": "arcane_engineering:drillhead_thaumium"
+  }
+}

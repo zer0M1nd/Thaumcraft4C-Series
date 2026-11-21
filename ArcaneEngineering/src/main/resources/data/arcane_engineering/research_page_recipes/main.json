@@ -1,0 +1,861 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "arcane_engineering:destabilizer",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "arcane_engineering:destabilizer",
+            "count": 1
+          }
+        },
+        "research": "arcane_engineering:NODEDESTABILIZER",
+        "kind": "arcane_shaped",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "perditio": 50,
+          "aer": 25
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primal_charm",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "ore",
+              "names": [
+                "forge:ingots/steel"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:node_stabilizer",
+                "count": 1
+              }
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:ingots/steel"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "immersiveengineering:component_iron",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:arcane_stone",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:drillhead_thaumium",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "arcane_engineering:drillhead_thaumium",
+            "count": 1
+          }
+        },
+        "research": "arcane_engineering:DRILLTHAUMIUM",
+        "kind": "arcane_shaped",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "terra": 20,
+          "ordo": 20
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            null
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:drillhead_void",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "arcane_engineering:drillhead_void",
+            "count": 1
+          }
+        },
+        "research": "arcane_engineering:DRILLVOID",
+        "kind": "infusion",
+        "instability": 8,
+        "aspects": {
+          "tenebrae": 16,
+          "alienis": 32,
+          "perfodio": 8,
+          "metallum": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "immersiveengineering:drillhead_steel",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_seed",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_seed",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:wandcap_steel",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "arcane_engineering:wandcap_steel",
+            "count": 1
+          }
+        },
+        "research": "arcane_engineering:CAP_steel",
+        "kind": "arcane_shaped",
+        "width": 3,
+        "height": 2,
+        "aspects": {
+          "ordo": 4,
+          "ignis": 4,
+          "aer": 4
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/steel"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/steel"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/steel"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/steel"
+              ],
+              "elements": []
+            },
+            null,
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/steel"
+              ],
+              "elements": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:wandcap_electrum",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "arcane_engineering:wandcap_electrum",
+            "count": 1
+          }
+        },
+        "research": "arcane_engineering:CAP_electrum",
+        "kind": "arcane_shaped",
+        "width": 3,
+        "height": 2,
+        "aspects": {
+          "ordo": 5,
+          "ignis": 5,
+          "aer": 5
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/electrum"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/electrum"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/electrum"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/electrum"
+              ],
+              "elements": []
+            },
+            null,
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/electrum"
+              ],
+              "elements": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:wandupgrade_capacitor",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "arcane_engineering:wandupgrade_capacitor",
+            "count": 1
+          }
+        },
+        "research": "arcane_engineering:CAPACITOR",
+        "kind": "arcane_shaped",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "ordo": 24,
+          "aer": 16,
+          "perditio": 16,
+          "ignis": 8
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glass",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wisp_essence",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glass",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:vis_filter",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:wandupgrade_charger",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "arcane_engineering:wandupgrade_charger",
+            "count": 1
+          }
+        },
+        "research": "arcane_engineering:CHARGER",
+        "kind": "infusion",
+        "instability": 8,
+        "aspects": {
+          "auram": 24,
+          "vitreus": 24,
+          "lucrum": 8,
+          "praecantatio": 32
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:vis_relay",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:vis_filter",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wisp_essence",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:wandupgrade_energizer",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "arcane_engineering:wandupgrade_energizer",
+            "count": 1
+          }
+        },
+        "research": "arcane_engineering:ENERGIZER",
+        "kind": "infusion",
+        "instability": 8,
+        "aspects": {
+          "praecantatio": 24,
+          "potentia": 32,
+          "alienis": 16,
+          "machina": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:primal_charm",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "immersiveengineering:component_steel",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "immersiveengineering:component_steel",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:impulse_boots",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "arcane_engineering:impulse_boots",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "width": 3,
+        "height": 3,
+        "aspects": {},
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "forge:ingots/aluminum"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "immersiveengineering:hemp_fabric",
+                "count": 1
+              }
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:ingots/aluminum"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather_boots",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "immersiveengineering:hemp_fabric",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather_boots",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "immersiveengineering:component_steel",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "immersiveengineering:component_steel",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:manual",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "immersiveengineering:manual",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shapeless",
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:book",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:lever",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:stick_treated",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 4,
+            "item": "immersiveengineering:stick_treated"
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "width": 1,
+        "height": 2,
+        "aspects": {},
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "forge:treated_wood"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:treated_wood"
+              ],
+              "elements": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:wand_iron",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "arcane_engineering:wand_upgradeable",
+            "nbt": "{rod:\"arcane_engineering:upgradeable\",cap:\"iron\"}",
+            "count": 1
+          }
+        },
+        "research": "arcane_engineering:ROD_upgradeable",
+        "kind": "arcane_shaped",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "aer": 2,
+          "terra": 2,
+          "ignis": 2,
+          "aqua": 2,
+          "ordo": 2,
+          "perditio": 2
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            null,
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wand_cap_iron",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "immersiveengineering:stick_treated",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wand_cap_iron",
+                "count": 1
+              }
+            },
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:wand_electrum",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "arcane_engineering:wand_upgradeable",
+            "nbt": "{rod:\"arcane_engineering:upgradeable\",cap:\"arcane_engineering:electrum\"}",
+            "count": 1
+          }
+        },
+        "research": "arcane_engineering:ROD_upgradeable",
+        "kind": "arcane_shaped",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "aer": 10,
+          "terra": 10,
+          "ignis": 10,
+          "aqua": 10,
+          "ordo": 10,
+          "perditio": 10
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            null,
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "arcane_engineering:wandcap_electrum",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "immersiveengineering:stick_treated",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "arcane_engineering:wandcap_electrum",
+                "count": 1
+              }
+            },
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "key": "arcane_engineering:wand_steel",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "arcane_engineering:wand_upgradeable",
+            "nbt": "{rod:\"arcane_engineering:upgradeable\",cap:\"arcane_engineering:steel\"}",
+            "count": 1
+          }
+        },
+        "research": "arcane_engineering:ROD_upgradeable",
+        "kind": "arcane_shaped",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "aer": 8,
+          "terra": 8,
+          "ignis": 8,
+          "aqua": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            null,
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "arcane_engineering:wandcap_steel",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "immersiveengineering:stick_treated",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "arcane_engineering:wandcap_steel",
+                "count": 1
+              }
+            },
+            null,
+            null
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "arcane_engineering:NODEDESTABILIZER",
+  "pattern": [
+    " c ",
+    "isi",
+    "bmb"
+  ],
+  "key": {
+    "c": {
+      "item": "thaumcraft:primal_charm"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "s": {
+      "item": "thaumcraft:node_stabilizer"
+    },
+    "b": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "m": {
+      "item": "immersiveengineering:component_iron"
+    }
+  },
+  "vis": {
+    "perditio": 50,
+    "aer": 25
+  },
+  "result": {
+    "item": "arcane_engineering:destabilizer"
+  }
+}

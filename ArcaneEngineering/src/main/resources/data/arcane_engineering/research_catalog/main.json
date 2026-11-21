@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ARCANEENGINEERING",
+      "icon": "arcane_engineering:textures/gui/aeresearchicon.png",
+      "background": "arcane_engineering:textures/gui/aeresearchback.png",
+      "research": [
+        {
+          "key": "arcane_engineering:MAGITECH",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "pageCount": 3,
+          "complexity": 0,
+          "aspects": {},
+          "parents": [],
+          "icon_item": {
+            "item": "immersiveengineering:manual"
+          },
+          "warp": 0,
+          "isAutoUnlock": true,
+          "isSpecial": true,
+          "isStub": true
+        },
+        {
+          "key": "arcane_engineering:DRILLTHAUMIUM",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": 3,
+          "displayRow": 4,
+          "pageCount": 3,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 4,
+            "metallum": 4,
+            "machina": 2,
+            "perfodio": 6
+          },
+          "parents": [
+            "THAUMIUM"
+          ],
+          "icon_item": {
+            "item": "arcane_engineering:drillhead_thaumium"
+          },
+          "warp": 0,
+          "parentMirrors": {
+            "THAUMIUM": "arcane_engineering:AEFAKE_THAUMIUM"
+          }
+        },
+        {
+          "key": "arcane_engineering:DRILLVOID",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": 3,
+          "displayRow": 2,
+          "pageCount": 3,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 4,
+            "metallum": 4,
+            "alienis": 6,
+            "tenebrae": 6,
+            "perfodio": 6
+          },
+          "parents": [
+            "arcane_engineering:DRILLTHAUMIUM",
+            "VOIDMETAL"
+          ],
+          "icon_item": {
+            "item": "arcane_engineering:drillhead_void"
+          },
+          "warp": 0,
+          "parentMirrors": {
+            "VOIDMETAL": "arcane_engineering:AEFAKE_VOIDMETAL"
+          }
+        },
+        {
+          "key": "arcane_engineering:NODEDESTABILIZER",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": -3,
+          "displayRow": 2,
+          "pageCount": 3,
+          "complexity": 2,
+          "aspects": {
+            "auram": 4,
+            "potentia": 4,
+            "fames": 4
+          },
+          "parents": [
+            "NODESTABILIZER"
+          ],
+          "icon_item": {
+            "item": "arcane_engineering:destabilizer"
+          },
+          "warp": 4,
+          "parentMirrors": {
+            "NODESTABILIZER": "arcane_engineering:AEFAKE_NODESTABILIZER"
+          }
+        },
+        {
+          "key": "arcane_engineering:ROD_upgradeable",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": 0,
+          "displayRow": 4,
+          "pageCount": 6,
+          "complexity": 1,
+          "aspects": {
+            "instrumentum": 3,
+            "arbor": 6,
+            "praecantatio": 3,
+            "machina": 3
+          },
+          "parents": [
+            "BASICTHAUMATURGY"
+          ],
+          "icon_item": {
+            "item": "immersiveengineering:stick_treated"
+          },
+          "warp": 0,
+          "parentMirrors": {
+            "BASICTHAUMATURGY": "arcane_engineering:AEFAKE_BASICTHAUMATURGY"
+          }
+        },
+        {
+          "key": "arcane_engineering:CAP_steel",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": 1,
+          "displayRow": 4,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": {
+            "metallum": 3,
+            "ordo": 3,
+            "instrumentum": 3,
+            "machina": 3
+          },
+          "parents": [
+            "BASICTHAUMATURGY"
+          ],
+          "icon_item": {
+            "item": "arcane_engineering:wandcap_steel"
+          },
+          "warp": 0,
+          "parentMirrors": {
+            "BASICTHAUMATURGY": "arcane_engineering:AEFAKE_BASICTHAUMATURGY"
+          }
+        },
+        {
+          "key": "arcane_engineering:CAP_electrum",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": -1,
+          "displayRow": 4,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": {
+            "metallum": 3,
+            "lucrum": 3,
+            "instrumentum": 3
+          },
+          "parents": [
+            "BASICTHAUMATURGY"
+          ],
+          "icon_item": {
+            "item": "arcane_engineering:wandcap_electrum"
+          },
+          "warp": 0,
+          "parentMirrors": {
+            "BASICTHAUMATURGY": "arcane_engineering:AEFAKE_BASICTHAUMATURGY"
+          }
+        },
+        {
+          "key": "arcane_engineering:CAPACITOR",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": -1,
+          "displayRow": 6,
+          "pageCount": 3,
+          "complexity": 2,
+          "aspects": {
+            "auram": 3,
+            "potentia": 3,
+            "vacuos": 6,
+            "machina": 3
+          },
+          "parents": [
+            "arcane_engineering:ROD_upgradeable",
+            "DISTILESSENTIA",
+            "THAUMIUM"
+          ],
+          "icon_item": {
+            "item": "arcane_engineering:wandupgrade_capacitor"
+          },
+          "warp": 0,
+          "parentMirrors": {
+            "THAUMIUM": "arcane_engineering:AEFAKE_THAUMIUM"
+          }
+        },
+        {
+          "key": "arcane_engineering:CHARGER",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": 0,
+          "displayRow": 6,
+          "pageCount": 3,
+          "complexity": 2,
+          "aspects": {
+            "auram": 6,
+            "praecantatio": 3,
+            "vacuos": 3,
+            "machina": 3
+          },
+          "parents": [
+            "arcane_engineering:ROD_upgradeable",
+            "DISTILESSENTIA",
+            "INFUSION",
+            "ROD_primal_staff"
+          ],
+          "icon_item": {
+            "item": "arcane_engineering:wandupgrade_charger"
+          },
+          "warp": 3
+        },
+        {
+          "key": "arcane_engineering:ENERGIZER",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": 1,
+          "displayRow": 6,
+          "pageCount": 3,
+          "complexity": 3,
+          "aspects": {
+            "praecantatio": 3,
+            "potentia": 6,
+            "alienis": 3,
+            "machina": 3
+          },
+          "parents": [
+            "arcane_engineering:ROD_upgradeable",
+            "PRIMPEARL",
+            "INFUSION"
+          ],
+          "icon_item": {
+            "item": "arcane_engineering:wandupgrade_energizer"
+          },
+          "warp": 3
+        },
+        {
+          "key": "arcane_engineering:IMPULSEBOOTS",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": 0,
+          "displayRow": -2,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": {},
+          "parents": [],
+          "icon_item": {
+            "item": "arcane_engineering:impulse_boots"
+          },
+          "warp": 0,
+          "isAutoUnlock": true,
+          "isRound": true
+        },
+        {
+          "key": "arcane_engineering:AEFAKE_BASICTHAUMATURGY",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": 0,
+          "displayRow": 2,
+          "pageCount": 0,
+          "icon_item": {
+            "item": "thaumcraft:casting_wand"
+          },
+          "mirrorOf": "BASICTHAUMATURGY",
+          "isRound": true
+        },
+        {
+          "key": "arcane_engineering:AEFAKE_THAUMIUM",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": 4,
+          "displayRow": 5,
+          "pageCount": 0,
+          "icon_item": {
+            "item": "thaumcraft:thaumium_ingot"
+          },
+          "mirrorOf": "THAUMIUM",
+          "isRound": false
+        },
+        {
+          "key": "arcane_engineering:AEFAKE_VOIDMETAL",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": 4,
+          "displayRow": 4,
+          "pageCount": 0,
+          "icon_item": {
+            "item": "thaumcraft:void_ingot"
+          },
+          "mirrorOf": "VOIDMETAL",
+          "isRound": false
+        },
+        {
+          "key": "arcane_engineering:AEFAKE_NODESTABILIZER",
+          "category": "ARCANEENGINEERING",
+          "displayColumn": -4,
+          "displayRow": 5,
+          "pageCount": 0,
+          "icon_item": {
+            "item": "thaumcraft:node_stabilizer"
+          },
+          "mirrorOf": "NODESTABILIZER",
+          "isRound": false
+        }
+      ]
+    }
+  ]
+}
