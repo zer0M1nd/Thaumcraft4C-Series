@@ -1,7 +1,7 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
 version=mod_version
 group='wgmodern'
-base.archivesName='Witching-Gadgets-Modern-Port'
+base.archivesName='[TC4Continuation]Witching-Gadgets'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
 java.withSourcesJar()
 tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps=false; reproducibleFileOrder=true }
