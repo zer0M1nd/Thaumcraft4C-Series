@@ -5,20 +5,20 @@ base.archivesName='[TC4Continuation]Thaumic-Infusion'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
 java.withSourcesJar()
 tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps=false; reproducibleFileOrder=true }
-repositories { flatDir { dirs 'libs' }; maven { url='https://maven.theillusivec4.top/' }; mavenCentral() }
 repositories {
-    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.115.1'}" }
-    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    flatDir { dirs 'dependencies/jars' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    mavenCentral()
 }
+
 dependencies {
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
  minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
- implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
-        ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
-        : 'local.revival:Thaumcraft-4-Modern-Port:0.4.115.1')
+ implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
  compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
  runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
- testImplementation files('libs/junit-platform-console-standalone-1.10.2.jar')
+ testImplementation files('dependencies/jars/junit-platform-console-standalone-1.10.2.jar')
 
 }
 sourceSets.main.resources.srcDir 'src/generated/resources'
