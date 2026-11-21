@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:GT_MATERIALS",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -4,
+          "displayRow": -3,
+          "icon_item": {
+            "item": "thaumcraft:thaumium_ingot"
+          },
+          "parents": [
+            "THAUMIUM",
+            "thaumicomniverse:UNIVERSAL_CLUSTERS"
+          ],
+          "complexity": 2,
+          "pageCount": 1,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "metallum": 8
+          },
+          "omniverse_requires": [
+            "gtceu"
+          ]
+        }
+      ]
+    }
+  ]
+}

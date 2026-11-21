@@ -1,0 +1,35 @@
+{
+  "type": "alchemistry:dissolver",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alchemistry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chemlib"
+    }
+  ],
+  "group": "thaumicomniverse:fictional_chemistry",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "thaumcraft:quicksilver"
+    }
+  },
+  "output": {
+    "groups": [
+      {
+        "probability": 100.0,
+        "results": [
+          {
+            "count": 2,
+            "item": "chemlib:mercury"
+          }
+        ]
+      }
+    ],
+    "rolls": 1,
+    "weighted": false
+  }
+}

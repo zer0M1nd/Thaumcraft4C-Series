@@ -1,0 +1,45 @@
+{
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "type": "forge:nbt",
+    "item": "productivebees:configurable_honeycomb",
+    "nbt": {
+      "EntityTag": {
+        "type": "thaumicomniverse:void_metal"
+      }
+    }
+  },
+  "outputs": [
+    {
+      "item": {
+        "item": "thaumcraft:void_ingot"
+      },
+      "chance": 15
+    },
+    {
+      "item": {
+        "tag": "forge:wax"
+      }
+    },
+    {
+      "fluid": {
+        "fluid": "productivebees:honey"
+      },
+      "amount": 50
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumcraft"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:void_ingot"
+    }
+  ]
+}

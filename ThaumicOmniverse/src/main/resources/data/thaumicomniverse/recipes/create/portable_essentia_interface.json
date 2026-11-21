@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "thaumicomniverse:feature",
+      "group": "TUBES"
+    }
+  ],
+  "research": "thaumicomniverse:PORTABLE_ESSENTIA",
+  "pattern": [
+    "CPJ"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumicomniverse:thaumic_casing"
+    },
+    "P": {
+      "item": "thaumicomniverse:convenient_essentia_tube"
+    },
+    "J": {
+      "item": "thaumcraft:essentia_jar"
+    }
+  },
+  "vis": {
+    "aqua": 20,
+    "ordo": 20
+  },
+  "result": {
+    "item": "thaumicomniverse:portable_essentia_interface",
+    "count": 2
+  }
+}

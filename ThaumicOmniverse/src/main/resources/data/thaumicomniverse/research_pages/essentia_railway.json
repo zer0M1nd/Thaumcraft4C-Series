@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:ESSENTIA_RAILWAY",
+      "omniverse_requires": [
+        "railcraft"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.essentia_railway"
+          },
+          "id": "thaumicomniverse:ESSENTIA_RAILWAY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:railcraft/thaumium_crowbar"
+            ]
+          },
+          "id": "thaumicomniverse:ESSENTIA_RAILWAY/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:railcraft/void_crowbar"
+            ]
+          },
+          "id": "thaumicomniverse:ESSENTIA_RAILWAY/page/3",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:railcraft/essentia_minecart"
+            ]
+          },
+          "id": "thaumicomniverse:ESSENTIA_RAILWAY/page/4",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:railcraft/essentia_loader",
+              "thaumicomniverse:railcraft/fallback/essentia_loader"
+            ]
+          },
+          "id": "thaumicomniverse:ESSENTIA_RAILWAY/page/5",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:railcraft/essentia_unloader",
+              "thaumicomniverse:railcraft/fallback/essentia_unloader"
+            ]
+          },
+          "id": "thaumicomniverse:ESSENTIA_RAILWAY/page/6",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

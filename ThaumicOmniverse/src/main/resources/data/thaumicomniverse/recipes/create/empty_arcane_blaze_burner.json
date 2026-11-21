@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:ARCANE_BURNER",
+  "pattern": [
+    " V ",
+    "VSV",
+    " V "
+  ],
+  "key": {
+    "V": {
+      "tag": "forge:plates/void"
+    },
+    "S": {
+      "item": "thaumcraft:eldritch_stone"
+    }
+  },
+  "vis": {
+    "ignis": 20,
+    "ordo": 10
+  },
+  "result": {
+    "item": "thaumicomniverse:empty_arcane_blaze_burner",
+    "count": 1
+  }
+}

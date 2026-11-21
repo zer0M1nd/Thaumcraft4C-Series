@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "railcraft"
+    }
+  ],
+  "pattern": [
+    " J ",
+    " M "
+  ],
+  "key": {
+    "J": {
+      "item": "thaumcraft:essentia_jar"
+    },
+    "M": {
+      "item": "minecraft:minecart"
+    }
+  },
+  "result": {
+    "item": "thaumicomniverse:essentia_minecart"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thaumicfutures"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "thaumicfutures:alchemical_brass_ingot"
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "research": "thaumicomniverse:ESSENTIA_TANK_UPGRADE",
+        "result": {
+          "item": "thaumicomniverse:essentia_tank_upgrade"
+        },
+        "pattern": [
+          " T ",
+          "LUR",
+          " B "
+        ],
+        "key": {
+          "T": {
+            "item": "thaumcraft:essentia_jar"
+          },
+          "L": {
+            "item": "thaumcraft:essentia_tube"
+          },
+          "R": {
+            "item": "thaumcraft:essentia_tube"
+          },
+          "B": {
+            "item": "thaumicfutures:alchemical_brass_ingot"
+          },
+          "U": {
+            "item": "sophisticatedbackpacks:upgrade_base"
+          }
+        },
+        "vis": {
+          "aqua": 15,
+          "ordo": 10,
+          "perditio": 10
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/brass"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "research": "thaumicomniverse:ESSENTIA_TANK_UPGRADE",
+        "result": {
+          "item": "thaumicomniverse:essentia_tank_upgrade"
+        },
+        "pattern": [
+          " T ",
+          "LUR",
+          " B "
+        ],
+        "key": {
+          "T": {
+            "item": "thaumcraft:essentia_jar"
+          },
+          "L": {
+            "item": "thaumcraft:essentia_tube"
+          },
+          "R": {
+            "item": "thaumcraft:essentia_tube"
+          },
+          "B": {
+            "tag": "forge:ingots/brass"
+          },
+          "U": {
+            "item": "sophisticatedbackpacks:upgrade_base"
+          }
+        },
+        "vis": {
+          "aqua": 15,
+          "ordo": 10,
+          "perditio": 10
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "research": "thaumicomniverse:ESSENTIA_TANK_UPGRADE",
+        "result": {
+          "item": "thaumicomniverse:essentia_tank_upgrade"
+        },
+        "pattern": [
+          " T ",
+          "LUR",
+          " B "
+        ],
+        "key": {
+          "T": {
+            "item": "thaumcraft:essentia_jar"
+          },
+          "L": {
+            "item": "thaumcraft:essentia_tube"
+          },
+          "R": {
+            "item": "thaumcraft:essentia_tube"
+          },
+          "B": {
+            "item": "minecraft:copper_ingot"
+          },
+          "U": {
+            "item": "sophisticatedbackpacks:upgrade_base"
+          }
+        },
+        "vis": {
+          "aqua": 15,
+          "ordo": 10,
+          "perditio": 10
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
+    }
+  ]
+}

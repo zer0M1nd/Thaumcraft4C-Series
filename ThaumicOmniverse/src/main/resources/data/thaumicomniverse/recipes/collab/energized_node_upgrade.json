@@ -1,0 +1,43 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "VISPOWER",
+  "pattern": [
+    " T ",
+    "RUC",
+    " S "
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:node_converter"
+    },
+    "R": {
+      "item": "thaumcraft:vis_relay"
+    },
+    "U": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "C": {
+      "item": "thaumcraft:workbench_charger"
+    },
+    "S": {
+      "item": "thaumcraft:advanced_node_stabilizer"
+    }
+  },
+  "vis": {
+    "aer": 50,
+    "terra": 50,
+    "ignis": 50,
+    "aqua": 50,
+    "ordo": 50,
+    "perditio": 50
+  },
+  "result": {
+    "item": "thaumicomniverse:energized_node_upgrade"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
+    }
+  ]
+}

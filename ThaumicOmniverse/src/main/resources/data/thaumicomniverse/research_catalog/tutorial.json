@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_THAUMICOMNIVERSE",
+          "category": "TUTORIAL",
+          "displayColumn": 58,
+          "displayRow": -9,
+          "parents": [
+            "TUT_INFUSION_ENCHANT",
+            "INFUSION"
+          ],
+          "icon_item": {
+            "item": "thaumicomniverse:airship_core",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumicomniverse"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "thaumicomniverse:UNIVERSAL_ENCHANTMENTS",
+            "thaumicomniverse:SINISTER_COMPASS",
+            "thaumicomniverse:UNIVERSAL_CLUSTERS",
+            "thaumicomniverse:ARCANE_ASSEMBLY",
+            "thaumicomniverse:AIRSHIPS",
+            "thaumicomniverse:SCANNED_NODE_MAP"
+          ],
+          "pageCount": 10,
+          "parentMirrors": {
+            "INFUSION": "TUT_ADDON_THAUMICOMNIVERSE_PREREQUISITE_1"
+          }
+        },
+        {
+          "key": "TUT_ADDON_THAUMICOMNIVERSE_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 57,
+          "displayRow": -10,
+          "mirrorOf": "INFUSION",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumicomniverse"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

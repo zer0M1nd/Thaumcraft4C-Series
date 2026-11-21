@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:NEURAL_MODELS",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -2,
+          "displayRow": 2,
+          "icon_item": {
+            "item": "thaumicomniverse:outerlands_prediction",
+            "count": 1
+          },
+          "parents": [
+            "BASICARTIFACE",
+            "thaumicomniverse:GUIDE_INDUSTRY"
+          ],
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "cognitio": 4,
+            "machina": 4,
+            "mortuus": 4
+          },
+          "omniverse_requires": [
+            "hostilenetworks"
+          ]
+        }
+      ]
+    }
+  ]
+}

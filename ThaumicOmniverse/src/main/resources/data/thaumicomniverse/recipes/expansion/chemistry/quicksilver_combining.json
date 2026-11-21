@@ -1,0 +1,25 @@
+{
+  "type": "alchemistry:combiner",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alchemistry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chemlib"
+    }
+  ],
+  "group": "thaumicomniverse:fictional_chemistry",
+  "input": [
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "chemlib:mercury"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:quicksilver"
+  }
+}

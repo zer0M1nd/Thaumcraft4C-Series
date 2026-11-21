@@ -1,0 +1,32 @@
+{
+  "weight": 10,
+  "quality": 0,
+  "dimensions": [],
+  "min_rarity": "common",
+  "max_rarity": "ancient",
+  "unique": false,
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "armor",
+        "types": [
+          "helmet",
+          "chestplate",
+          "leggings",
+          "boots"
+        ]
+      },
+      "attribute": "thaumcraft:runic_shield",
+      "operation": "ADDITION",
+      "values": {
+        "common": 1,
+        "uncommon": 2,
+        "rare": 3,
+        "epic": 5,
+        "mythic": 7,
+        "ancient": 10
+      }
+    }
+  ]
+}

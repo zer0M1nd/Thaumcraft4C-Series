@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:VOID_MECHANISMS",
+  "pattern": [
+    "VVV",
+    "VPV",
+    "VVV"
+  ],
+  "key": {
+    "V": {
+      "tag": "forge:nuggets/void"
+    },
+    "P": {
+      "item": "create:sand_paper"
+    }
+  },
+  "vis": {
+    "perditio": 20
+  },
+  "result": {
+    "item": "thaumicomniverse:void_sandpaper",
+    "count": 1
+  }
+}

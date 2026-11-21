@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:ARCANE_MOTOR",
+  "pattern": [
+    "BTB",
+    "CMC",
+    "BGB"
+  ],
+  "key": {
+    "T": {
+      "tag": "forge:plates/thaumium"
+    },
+    "C": {
+      "item": "thaumicomniverse:thaumic_casing"
+    },
+    "M": {
+      "item": "thaumicomniverse:alchemical_mechanism"
+    },
+    "G": {
+      "item": "create:shaft"
+    },
+    "B": {
+      "item": "thaumcraft:balanced_shard"
+    }
+  },
+  "vis": {
+    "ignis": 20,
+    "ordo": 10,
+    "aer": 10
+  },
+  "result": {
+    "item": "thaumicomniverse:arcane_motor",
+    "count": 1
+  }
+}

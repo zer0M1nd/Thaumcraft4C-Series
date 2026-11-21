@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "thaumcraft:salis_mundus"
+    }
+  ],
+  "result": "thaumicomniverse:aura_repair",
+  "level": {
+    "max": 2
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/durability"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "thaumicomniverse:feature",
+      "group": "TINKERS"
+    }
+  ]
+}

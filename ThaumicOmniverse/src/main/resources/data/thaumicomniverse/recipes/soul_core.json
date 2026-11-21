@@ -1,0 +1,16 @@
+{
+  "type":"thaumcraft:infusion",
+  "research":"thaumicomniverse:SOUL_CORE",
+  "instability":5,
+  "center":{"ingredient":{"item":"thaumcraft:brain_jar"}},
+  "components":[
+    {"ingredient":{"item":"minecraft:ender_pearl"}},
+    {"ingredient":{"item":"minecraft:soul_sand"}},
+    {"ingredient":{"item":"minecraft:quartz"}},
+    {"ingredient":{"item":"thaumcraft:order_shard"}},
+    {"ingredient":{"item":"minecraft:quartz"}},
+    {"ingredient":{"item":"minecraft:soul_sand"}}
+  ],
+  "aspects":{"spiritus":32,"cognitio":32,"sensus":16,"praecantatio":16},
+  "result":{"item":"thaumicomniverse:soul_core"}
+}

@@ -1,0 +1,96 @@
+// Create 0.5 and 6 expose incompatible public types. Compile the same gameplay sources
+// against each real host; explicit overrides contain only the differing host contracts.
+def generated = layout.buildDirectory.dir('generated/create051/java')
+def overrides = file('src/create051/java')
+def relocationFile = file('create051-relocations.json')
+tasks.register('generateCreate051Sources') {
+    inputs.dir('src/main/java')
+    inputs.dir(overrides)
+    inputs.file(relocationFile)
+    outputs.dir(generated)
+    doLast {
+        def relocations = new groovy.json.JsonSlurper().parse(relocationFile)
+        project.sync {
+            from('src/main/java') {
+                exclude { details -> new File(overrides, details.path).isFile() }
+                filter { line ->
+                    relocations.each { before, after -> line = line.replace(before, after).replace(before.replace('.', '/'), after.replace('.', '/')) }
+                    ['CachedBuffers':'CachedBufferer', 'CreateLang':'Lang', 'PonderLevel':'PonderWorld'].each { before, after -> line = line.replaceAll('\\b'+before+'\\b', after) }
+                    line = line.replace('import net.createmod.catnip.animation.*;', 'import com.simibubi.create.foundation.utility.AnimationTickHolder;\nimport com.simibubi.create.foundation.utility.animation.LerpedFloat;')
+                    line = line.replace('net.createmod.ponder.api.scene.*', 'com.simibubi.create.foundation.ponder.*')
+                    line = line.replace('net.createmod.catnip.animation.LerpedFloat', 'com.simibubi.create.foundation.utility.animation.LerpedFloat')
+                    line = line.replace('com.simibubi.create.api.contraption.*', 'com.simibubi.create.content.contraptions.*')
+                    line = line.replace('com.simibubi.create.foundation.ponder.CreateSceneBuilder', 'com.simibubi.create.foundation.ponder.SceneBuilder')
+                    line = line.replace('CreateSceneBuilder', 'SceneBuilder').replace('new SceneBuilder(base)', 'base')
+                    line = line.replace('s.world()', 's.world').replace('s.overlay()', 's.overlay').replace('s.effects()', 's.effects')
+                    line = line.replace('u.select()', 'u.select').replace('u.vector()', 'u.vector').replace('u.grid()', 'u.grid')
+                    line = line.replace('net.createmod.catnip.theme.Color', 'com.simibubi.create.foundation.utility.Color')
+                    line = line.replace('net.createmod.ponder.', 'com.simibubi.create.foundation.ponder.')
+                    line = line.replace('com.simibubi.create.foundation.outliner.Outliner.getInstance()', 'com.simibubi.create.CreateClient.OUTLINER')
+                    line = line.replace('Outliner.getInstance()', 'com.simibubi.create.CreateClient.OUTLINER')
+                    line = line.replace('com.simibubi.create.content.contraptions.behaviour.MovingInteractionBehaviour.REGISTRY.register', 'com.simibubi.create.AllInteractionBehaviours.registerBehaviour')
+                    line = line.replace('MovingInteractionBehaviour.REGISTRY.register', 'com.simibubi.create.AllInteractionBehaviours.registerBehaviour')
+                    line = line.replace('com.simibubi.create.content.contraptions.behaviour.MovementBehaviour.REGISTRY.register', 'com.simibubi.create.AllMovementBehaviours.registerBehaviour')
+                    line = line.replace('MovementBehaviour.REGISTRY.register', 'com.simibubi.create.AllMovementBehaviours.registerBehaviour')
+                    line = line.replace('MovementBehaviour.REGISTRY.get(target.state.getBlock())', 'com.simibubi.create.AllMovementBehaviours.getBehaviour(target.state)')
+                    line = line.replace('net.createmod.catnip.animation.AnimationTickHolder', 'com.simibubi.create.foundation.utility.AnimationTickHolder')
+                    line = line.replace('com.simibubi.create.api.contraption.transformable.MovedBlockTransformerRegistries', 'thaumicomniverse.compat.create.LegacyTransforms').replace('MovedBlockTransformerRegistries', 'LegacyTransforms')
+                    line = line.replace('com.simibubi.create.api.schematic.nbt.SafeNbtWriterRegistry', 'thaumicomniverse.compat.create.LegacySafeNbt').replace('SafeNbtWriterRegistry', 'LegacySafeNbt')
+                    line = line.replace('com.simibubi.create.api.schematic.requirement.SchematicRequirementRegistries', 'thaumicomniverse.compat.create.LegacyRequirements').replace('SchematicRequirementRegistries', 'LegacyRequirements')
+                    line = line.replace('com.simibubi.create.api.boiler.BoilerHeater.REGISTRY.register', 'com.simibubi.create.content.fluids.tank.BoilerHeaters.registerHeater')
+                    line = line.replace('context.getItemStorage()', 'thaumicomniverse.compat.create.LegacyMounted.at(context)')
+                    line = line.replace('e.getContraption().getStorage()', 'thaumicomniverse.compat.create.LegacyMounted.of(e.getContraption())')
+                    line = line.replace('structure.getStorage()', 'thaumicomniverse.compat.create.LegacyMounted.of(structure)')
+                    line = line.replace('storage.getAllItemStorages().get(local)', 'storage.item(local)').replace('storage.getFluids().storages.get(local)', 'storage.fluid(local)')
+                    // 0.5 serializes full block NBT for both saves and spawn packets.
+                    // Our writers update that NBT and send live updates over CreateArcaneNetwork.
+                    // Keep this cache local: the host does not have 6.x's updateTags field.
+                    line = line.replace('@Shadow protected Map<BlockPos,CompoundTag> updateTags;', '@Unique private final Map<BlockPos,CompoundTag> updateTags=new java.util.HashMap<>();')
+                    line = line.replace('omniverse$mounted=null;', 'omniverse$mounted=null;updateTags.clear();')
+                    line = line.replace('addBlock(level,pos,capture(level,pos))', 'addBlock(pos,capture(level,pos))')
+                    if(line.contains('STRUCTURES=DeferredRegister.create('))line='// Contraption types use the host 0.5 registry via LegacyContraptionTypes.'
+                    line=line.replace('STRUCTURES.register(bus);','')
+                    line=line.replaceAll('RegistryObject<(?:com.simibubi.create.content.contraptions.)?ContraptionType>', 'java.util.function.Supplier<com.simibubi.create.content.contraptions.ContraptionType>')
+                    line=line.replaceAll('(?:ArcaneCreateContent\\.)?STRUCTURES.register\\("([^"]+)",\\(\\)->new (?:com.simibubi.create.content.contraptions.)?ContraptionType\\(([^)]+)\\)\\)', 'thaumicomniverse.compat.create.LegacyContraptionTypes.register("$1",$2)')
+                    line=line.replaceAll('((?:background|region|speed|AllGuiTextures\\.[A-Z_]+))\\.get(Width|Height|StartX|StartY)\\(\\)', { all, receiver, field -> receiver+'.'+field.substring(0,1).toLowerCase()+field.substring(1) })
+                    line=line.replace('PartialModel.of(', 'new PartialModel(')
+                    line=line.replace('cogs.center()', 'cogs.translate(.5,.5,.5)').replace('model.center()', 'model.translate(.5,.5,.5)').replace('.uncenter()', '.translate(-.5,-.5,-.5)')
+                    line=line.replace('.rotateYDegrees(', '.rotateY(').replace('.rotateXDegrees(', '.rotateX(')
+                    line=line.replace('.useLevelLight(context.world,matrices.getWorld())', '.light(matrices.getWorld())')
+                    // Unlike 6.x, 0.5 defaults custom contraptions to EmptyLighter at world zero.
+                    line=line.replace('extends TranslatingContraption {', 'extends TranslatingContraption {\n    @net.minecraftforge.api.distmarker.OnlyIn(net.minecraftforge.api.distmarker.Dist.CLIENT)\n    @Override public com.simibubi.create.content.contraptions.render.ContraptionLighter<?> makeLighter(){return new thaumicomniverse.compat.create.LegacyMovingLighter(this);}')
+                    line=line.replaceAll('([a-zA-Z]+)\\.clearFanProcessingData\\(\\);', '$1.processedBy=null;$1.processingTime=0;')
+                    line=line.replace('Vec3.atCenterOf(tile.getBlockPos()).add(offset),false)', 'Vec3.atCenterOf(tile.getBlockPos()).add(offset))')
+                    line=line.replace('new ValueSettings(rpm<0?0:1,Math.abs(rpm)),v->{},0)', 'new ValueSettings(rpm<0?0:1,Math.abs(rpm)),v->{})')
+                    // IDrawable is JEI, not the old AllGuiTextures enum.
+                    line=line.replace('background.width/2-13', 'background.getWidth()/2-13')
+                    line=line.replace(' && net.minecraftforge.fml.ModList.get().isLoaded("ponder")', '')
+                    line=line.replace('&& FMLLoader.getLoadingModList().getModFileById("ponder")!=null;', ';')
+                    line=line.replace('new com.simibubi.create.content.logistics.depot.MountedDepotInteractionBehaviour()', 'new thaumicomniverse.compat.create.LegacyDepotInteraction()')
+                    if(line.contains('ActorVisual createVisual('))line='            @Override public boolean hasSpecialInstancedRendering(){return false;}'
+                    // 0.5 dispatches all AbstractContraptionEntity instances through FlwContraption.
+                    if(line.contains('SimpleEntityVisualizer.builder') || line.contains('.factory(com.simibubi.create.content.contraptions.render.ContraptionVisual::new)') || line.contains('.neverSkipVanillaRender().apply();'))line='// Legacy ContraptionRenderDispatcher owns the Flywheel instance.'
+                    if(line.contains('SchematicStateFilterRegistry.REGISTRY.register'))line='// 0.5 uses the existing schematic placement state adapter.'
+                    line
+                }
+            }
+            from(overrides)
+            into(generated)
+        }
+    }
+}
+sourceSets.main.java.setSrcDirs([generated])
+tasks.named('compileJava') { dependsOn 'generateCreate051Sources'; options.compilerArgs += ['-Xmaxerrs', '300'] }
+tasks.named('sourcesJar') { dependsOn 'generateCreate051Sources' }
+tasks.named('jar') { archiveClassifier = 'create051' }
+tasks.named('processResources') {
+    filesMatching('META-INF/mods.toml') { filter { line -> line.replace('versionRange="[6.0.0,)"', 'versionRange="[0.5.1.j,0.6)"') } }
+    doLast {
+        def target = layout.buildDirectory.file('resources/main/thaumicomniverse.mixins.json').get().asFile
+        def config = new groovy.json.JsonSlurper().parse(target)
+        // 0.5 ticks blaze animation unconditionally on the client; no guard to override.
+        config.client.remove('CreateBurnerAnimationMixin')
+        config.mixins.addAll(['Create051StorageAccess','Create051ContraptionAccess','Create051TransformMixin','Create051SafeNbtMixin','Create051RequirementsMixin','Create051MountedInventoryMixin'])
+        target.text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(config))
+    }
+}

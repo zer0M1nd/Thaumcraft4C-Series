@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "duration": 1000,
+  "gasInput": {
+    "amount": 16,
+    "gas": "mekanism:antimatter"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "thaumcraft:void_seed"
+    }
+  },
+  "output": {
+    "item": "thaumcraft:primordial_pearl"
+  }
+}

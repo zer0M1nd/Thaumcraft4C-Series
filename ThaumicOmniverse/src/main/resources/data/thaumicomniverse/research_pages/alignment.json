@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:alignment",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicomniverse.book.alignment.1"
+          },
+          "id": "thaumicomniverse:alignment/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicomniverse.book.alignment.2"
+          },
+          "id": "thaumicomniverse:alignment/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicomniverse.book.alignment.3"
+          },
+          "id": "thaumicomniverse:alignment/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumicomniverse:alignment_core"
+            ]
+          },
+          "id": "thaumicomniverse:alignment/page/4",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumicomniverse:positive_pedestal"
+            ]
+          },
+          "id": "thaumicomniverse:alignment/page/5",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumicomniverse:negative_pedestal"
+            ]
+          },
+          "id": "thaumicomniverse:alignment/page/6",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumicomniverse:stack_positive_pedestal"
+            ]
+          },
+          "id": "thaumicomniverse:alignment/page/7",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumicomniverse:stack_negative_pedestal"
+            ]
+          },
+          "id": "thaumicomniverse:alignment/page/8",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:FOCUS_POUCH_UPGRADE",
+  "result": {
+    "item": "thaumicomniverse:focus_pouch_upgrade"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
+    }
+  ],
+  "pattern": [
+    " T ",
+    "LUR",
+    " B "
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:focus_pouch"
+    },
+    "L": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "R": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "B": {
+      "item": "minecraft:ender_pearl"
+    },
+    "U": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    }
+  },
+  "vis": {
+    "aer": 10,
+    "ordo": 15,
+    "perditio": 10
+  }
+}

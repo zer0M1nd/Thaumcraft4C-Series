@@ -1,0 +1,31 @@
+{
+  "type": "productivebees:advanced_beehive",
+  "ingredient": "thaumicomniverse:void_metal",
+  "results": [
+    {
+      "item": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+          "EntityTag": {
+            "type": "thaumicomniverse:void_metal"
+          }
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumcraft"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:void_ingot"
+    }
+  ]
+}

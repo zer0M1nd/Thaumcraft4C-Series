@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:THAUMATURGE_CERTIFICATE",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 7,
+          "displayRow": 2,
+          "complexity": 3,
+          "isConcealed": true,
+          "isSecondary": true,
+          "parents": [
+            "PRIMPEARL"
+          ],
+          "parentMirrors": {
+            "PRIMPEARL": "thaumicomniverse:M_PRIMPEARL"
+          },
+          "pageCount": 2,
+          "aspects": {
+            "cognitio": 16,
+            "praecantatio": 16
+          },
+          "icon_item": {
+            "item": "thaumicomniverse:thaumaturge_certificate"
+          },
+          "omniverse_requires": [
+            "allthemodium"
+          ]
+        }
+      ]
+    }
+  ]
+}

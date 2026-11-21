@@ -1,0 +1,43 @@
+{
+  "type": "alchemistry:combiner",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alchemistry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chemlib"
+    }
+  ],
+  "group": "thaumicomniverse:fictional_chemistry",
+  "input": [
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "chemlib:silicon"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "chemlib:oxygen"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "chemlib:sulfur"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "chemlib:phosphorus"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:fire_shard"
+  }
+}

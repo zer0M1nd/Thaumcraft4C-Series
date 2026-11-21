@@ -1,0 +1,40 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"core_3": "thaumicomniverse:airship/block/brass_block",
+		"core_4": "thaumicomniverse:airship/block/bogey/top",
+		"core_particle": "thaumicomniverse:airship/block/bogey/particle",
+		"core_top": "thaumicomniverse:airship/block/core_top"
+	},
+	"elements": [
+		{
+			"name": "core_0",
+			"from": [0, 7, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -2, 8]},
+			"faces": {
+				"north": {"uv": [8, 8, 16, 12.5], "texture": "#core_4"},
+				"east": {"uv": [0, 8, 8, 12.5], "texture": "#core_4"},
+				"south": {"uv": [8, 8, 16, 12.5], "texture": "#core_4"},
+				"west": {"uv": [0, 8, 8, 12.5], "texture": "#core_4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#core_top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#core_3"}
+			}
+		},
+		{
+			"name": "core_1",
+			"from": [2, 0, 2],
+			"to": [14, 7, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -16, -144]},
+			"faces": {
+				"north": {"uv": [2, 0, 14, 7], "texture": "#core_particle"},
+				"east": {"uv": [2, 0, 14, 7], "texture": "#core_particle"},
+				"south": {"uv": [2, 0, 14, 7], "texture": "#core_particle"},
+				"west": {"uv": [2, 0, 14, 7], "texture": "#core_particle"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#core_3"}
+			}
+		}
+	]
+}

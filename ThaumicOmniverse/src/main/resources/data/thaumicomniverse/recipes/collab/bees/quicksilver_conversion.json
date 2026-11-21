@@ -1,0 +1,22 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:iron",
+  "result": "thaumicomniverse:quicksilver",
+  "item": {
+    "item": "thaumcraft:quicksilver"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumcraft"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:quicksilver"
+    }
+  ]
+}

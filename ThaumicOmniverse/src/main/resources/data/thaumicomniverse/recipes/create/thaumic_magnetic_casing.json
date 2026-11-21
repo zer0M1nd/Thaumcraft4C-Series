@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft:crucible",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:ARCANE_MAGNET",
+  "catalyst": {
+    "item": "thaumicomniverse:thaumic_casing"
+  },
+  "aspects": {
+    "metallum": 8
+  },
+  "result": {
+    "item": "thaumicomniverse:thaumic_magnetic_casing"
+  }
+}

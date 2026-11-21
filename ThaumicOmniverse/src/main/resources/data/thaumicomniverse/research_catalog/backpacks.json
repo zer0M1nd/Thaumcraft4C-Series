@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:FOCUS_POUCH_UPGRADE",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 4,
+          "displayRow": -2,
+          "complexity": 2,
+          "isConcealed": true,
+          "isSecondary": true,
+          "parents": [
+            "FOCUSPOUCH"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "vacuos": 8,
+            "permutatio": 5,
+            "praecantatio": 5
+          },
+          "icon_item": {
+            "item": "thaumicomniverse:focus_pouch_upgrade"
+          },
+          "omniverse_requires": [
+            "sophisticatedbackpacks"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:ESSENTIA_TANK_UPGRADE",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 6,
+          "displayRow": -2,
+          "complexity": 2,
+          "isConcealed": true,
+          "isSecondary": true,
+          "parents": [
+            "TUBES"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "vacuos": 8,
+            "aqua": 5,
+            "praecantatio": 5
+          },
+          "icon_item": {
+            "item": "thaumicomniverse:essentia_tank_upgrade"
+          },
+          "omniverse_requires": [
+            "sophisticatedbackpacks"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:ESSENTIA_PUMP_UPGRADE",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 8,
+          "displayRow": -2,
+          "complexity": 2,
+          "isConcealed": true,
+          "isSecondary": true,
+          "parents": [
+            "thaumicomniverse:ESSENTIA_TANK_UPGRADE"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "motus": 8,
+            "aqua": 5,
+            "permutatio": 5
+          },
+          "icon_item": {
+            "item": "thaumicomniverse:essentia_pump_upgrade"
+          },
+          "omniverse_requires": [
+            "sophisticatedbackpacks"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:ARCANE_CRAFTING_UPGRADE",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 4,
+          "displayRow": -4,
+          "complexity": 2,
+          "isConcealed": true,
+          "isSecondary": true,
+          "parents": [
+            "BASICTHAUMATURGY"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "fabrico": 8,
+            "praecantatio": 8,
+            "cognitio": 4
+          },
+          "icon_item": {
+            "item": "thaumicomniverse:arcane_crafting_upgrade"
+          },
+          "omniverse_requires": [
+            "sophisticatedbackpacks"
+          ]
+        },
+        {
+          "key": "thaumicomniverse:ENERGIZED_NODE_UPGRADE",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 6,
+          "displayRow": -4,
+          "complexity": 2,
+          "isConcealed": true,
+          "isSecondary": true,
+          "parents": [
+            "VISPOWER"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "auram": 12,
+            "praecantatio": 8,
+            "vacuos": 8
+          },
+          "icon_item": {
+            "item": "thaumicomniverse:energized_node_upgrade"
+          },
+          "omniverse_requires": [
+            "sophisticatedbackpacks"
+          ]
+        }
+      ]
+    }
+  ]
+}

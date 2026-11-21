@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "APS",
+    " R ",
+    " R "
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:thaumium_axe"
+    },
+    "P": {
+      "item": "thaumcraft:thaumium_pickaxe"
+    },
+    "S": {
+      "item": "thaumcraft:thaumium_shovel"
+    },
+    "R": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "thaumicomniverse:thaumium_paxel"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismtools"
+    }
+  ]
+}

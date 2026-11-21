@@ -1,0 +1,43 @@
+{
+  "type": "alchemistry:dissolver",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alchemistry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chemlib"
+    }
+  ],
+  "group": "thaumicomniverse:fictional_chemistry",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "thaumcraft:cinnabar_ore"
+    }
+  },
+  "output": {
+    "groups": [
+      {
+        "probability": 100.0,
+        "results": [
+          {
+            "count": 1,
+            "item": "chemlib:mercury"
+          },
+          {
+            "count": 1,
+            "item": "chemlib:sulfur"
+          },
+          {
+            "count": 1,
+            "item": "chemlib:argon"
+          }
+        ]
+      }
+    ],
+    "rolls": 1,
+    "weighted": false
+  }
+}

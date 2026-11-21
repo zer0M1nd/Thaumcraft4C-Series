@@ -1,0 +1,63 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hostilenetworks"
+    }
+  ],
+  "entity": "thaumcraft:giant_brainy_zombie",
+  "variants": [],
+  "name": "entity.thaumcraft.giant_brainy_zombie",
+  "name_color": "#9E68D0",
+  "gui_scale": 0.9,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "fabricator_drops": [
+    {
+      "item": "minecraft:rotten_flesh",
+      "count": 8
+    },
+    {
+      "item": "thaumcraft:zombie_brain",
+      "count": 8
+    },
+    {
+      "item": "thaumcraft:thaumium_ingot",
+      "count": 8
+    },
+    {
+      "item": "minecraft:carrot",
+      "count": 8
+    },
+    {
+      "item": "minecraft:potato",
+      "count": 8
+    },
+    {
+      "item": "thaumcraft:amber",
+      "count": 8
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

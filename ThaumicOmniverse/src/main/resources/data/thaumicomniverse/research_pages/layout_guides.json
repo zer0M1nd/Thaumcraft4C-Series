@@ -1,0 +1,313 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:GUIDE_OMNIVERSE",
+      "pages": [
+        {
+          "id": "thaumicomniverse:GUIDE_OMNIVERSE/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.guide_omniverse.intro"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicomniverse:GUIDE_OMNIVERSE/index",
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.guide_omniverse.index",
+            "with": [
+              {
+                "research": "thaumicomniverse:UNIVERSAL_CLUSTERS"
+              },
+              {
+                "research": "thaumicomniverse:UNIVERSAL_TRANSMUTATION"
+              },
+              {
+                "research": "CONVENIENTTUBES"
+              },
+              {
+                "research": "thaumicomniverse:SCANNED_NODE_MAP"
+              },
+              {
+                "research": "thaumicomniverse:UNIVERSAL_ENCHANTMENTS"
+              },
+              {
+                "research": "INFUSION"
+              },
+              {
+                "research": "thaumicomniverse:alignment"
+              },
+              {
+                "research": "thaumicomniverse:SINISTER_COMPASS"
+              },
+              {
+                "research": "thaumicomniverse:SOLID_AURA"
+              },
+              {
+                "research": "thaumicomniverse:SOUL_CORE"
+              }
+            ]
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicomniverse:GUIDE_OMNIVERSE/index/create",
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.guide_omniverse.create",
+            "with": [
+              {
+                "research": "thaumicomniverse:GUIDE_CREATE"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "create"
+            }
+          ]
+        },
+        {
+          "id": "thaumicomniverse:GUIDE_OMNIVERSE/index/industry",
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.guide_omniverse.industry",
+            "with": [
+              {
+                "research": "thaumicomniverse:GUIDE_INDUSTRY"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:or",
+              "values": [
+                {
+                  "type": "forge:mod_loaded",
+                  "modid": "gtceu"
+                },
+                {
+                  "type": "forge:mod_loaded",
+                  "modid": "thermal_expansion"
+                },
+                {
+                  "type": "forge:mod_loaded",
+                  "modid": "railcraft"
+                },
+                {
+                  "type": "forge:mod_loaded",
+                  "modid": "hostilenetworks"
+                },
+                {
+                  "type": "forge:mod_loaded",
+                  "modid": "draconicevolution"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:GUIDE_CREATE",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "id": "thaumicomniverse:GUIDE_CREATE/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.guide_create.intro",
+            "with": [
+              {
+                "research": "thaumicomniverse:ARCANE_ASSEMBLY"
+              },
+              {
+                "research": "thaumicomniverse:ARCANE_CONTRAPTIONS"
+              },
+              {
+                "research": "thaumicomniverse:THAUMIC_CASING"
+              }
+            ]
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicomniverse:GUIDE_CREATE/index",
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.guide_create.index",
+            "with": [
+              {
+                "research": "thaumicomniverse:ARCANE_MOTOR"
+              },
+              {
+                "research": "thaumicomniverse:ARCANE_BURNER"
+              },
+              {
+                "research": "thaumicomniverse:THAUMIC_CRANK"
+              },
+              {
+                "research": "thaumicomniverse:WAND_CHARGER"
+              },
+              {
+                "research": "thaumicomniverse:THAUMIC_CRUSHING_WHEEL"
+              },
+              {
+                "research": "thaumicomniverse:ESSENTIA_SPOUT"
+              },
+              {
+                "research": "thaumicomniverse:PORTABLE_ESSENTIA"
+              },
+              {
+                "research": "thaumicomniverse:ESSENTIA_SWITCH"
+              },
+              {
+                "research": "thaumicomniverse:ARCANE_SUSPENSION"
+              },
+              {
+                "research": "thaumicomniverse:ARCANE_MAGNET"
+              },
+              {
+                "research": "thaumicomniverse:FLOATING_DEPOT"
+              },
+              {
+                "research": "thaumicomniverse:KINETIC_FOCUS"
+              },
+              {
+                "research": "thaumicomniverse:RELOCATION_FOCUS"
+              },
+              {
+                "research": "thaumicomniverse:VOID_MECHANISMS"
+              },
+              {
+                "research": "thaumicomniverse:AIRSHIPS"
+              }
+            ]
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:GUIDE_INDUSTRY",
+      "omniverse_requires_any": [
+        "gtceu",
+        "thermal_expansion",
+        "railcraft",
+        "hostilenetworks",
+        "draconicevolution"
+      ],
+      "pages": [
+        {
+          "id": "thaumicomniverse:GUIDE_INDUSTRY/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.guide_industry.intro"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicomniverse:GUIDE_INDUSTRY/intro/gtceu",
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.guide_industry.gtceu",
+            "with": [
+              {
+                "research": "thaumicomniverse:UNIVERSAL_CLUSTERS"
+              },
+              {
+                "research": "thaumicomniverse:GT_MATERIALS"
+              },
+              {
+                "research": "thaumicomniverse:ESSENTIA_ENGINE"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "gtceu"
+            }
+          ]
+        },
+        {
+          "id": "thaumicomniverse:GUIDE_INDUSTRY/intro/thermal",
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.guide_industry.thermal",
+            "with": [
+              {
+                "research": "thaumicomniverse:ESSENTIA_DYNAMO"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thermal_expansion"
+            }
+          ]
+        },
+        {
+          "id": "thaumicomniverse:GUIDE_INDUSTRY/intro/railcraft",
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.guide_industry.railcraft",
+            "with": [
+              {
+                "research": "thaumicomniverse:ESSENTIA_RAILWAY"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "railcraft"
+            }
+          ]
+        },
+        {
+          "id": "thaumicomniverse:GUIDE_INDUSTRY/intro/hostilenetworks",
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.guide_industry.hostilenetworks",
+            "with": [
+              {
+                "research": "thaumicomniverse:NEURAL_MODELS"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "hostilenetworks"
+            }
+          ]
+        },
+        {
+          "id": "thaumicomniverse:GUIDE_INDUSTRY/intro/draconic",
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.guide_industry.draconic",
+            "with": [
+              {
+                "research": "thaumicomniverse:ARCANE_MODULES"
+              }
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "draconicevolution"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

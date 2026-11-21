@@ -1,0 +1,20 @@
+{
+  "primaryColor": "#837db7",
+  "secondaryColor": "#372646",
+  "tertiaryColor": "#d8c8ef",
+  "particleColor": "#837db7",
+  "flowerItem": "thaumicbases:thauminite_ingot",
+  "size": 0.6,
+  "renderer": "default",
+  "selfbreed": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumicbases"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumicbases:thauminite_ingot"
+    }
+  ]
+}

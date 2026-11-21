@@ -1,0 +1,22 @@
+{
+  "type": "create:item_application",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "thaumcraft:greatwood_log"
+    },
+    {
+      "tag": "forge:ingots/thaumium"
+    }
+  ],
+  "results": [
+    {
+      "item": "thaumicomniverse:thaumic_casing"
+    }
+  ]
+}

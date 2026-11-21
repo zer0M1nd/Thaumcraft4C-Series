@@ -1,0 +1,34 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:RESTORED_CRAFTER",
+      "omniverse_requires": [
+        "quark"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.arcane_crafter"
+          },
+          "id": "thaumicomniverse:RESTORED_CRAFTER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:restored/arcane_crafter"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_CRAFTER/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

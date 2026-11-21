@@ -1,0 +1,34 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:THAUMATURGE_CERTIFICATE",
+      "omniverse_requires": [
+        "allthemodium"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.thaumaturge_certificate"
+          },
+          "id": "thaumicomniverse:THAUMATURGE_CERTIFICATE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumicomniverse:THAUMATURGE_CERTIFICATE"
+            ]
+          },
+          "id": "thaumicomniverse:THAUMATURGE_CERTIFICATE/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

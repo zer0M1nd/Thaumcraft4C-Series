@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:ARCANE_MAGNET",
+  "pattern": [
+    "TIT",
+    "CMC",
+    " S "
+  ],
+  "key": {
+    "T": {
+      "tag": "forge:plates/thaumium"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "thaumicomniverse:thaumic_casing"
+    },
+    "M": {
+      "item": "thaumicomniverse:infused_mechanism"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "vis": {
+    "aer": 50,
+    "ordo": 50
+  },
+  "result": {
+    "item": "thaumicomniverse:arcane_kinetic_magnet",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:THAUMIC_CRUSHING_WHEEL",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "id": "thaumicomniverse:THAUMIC_CRUSHING_WHEEL/items",
+          "type": "ITEM",
+          "items": [
+            {
+              "item": "thaumicomniverse:thaumic_crushing_wheel"
+            }
+          ],
+          "size": 32
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.thaumic_crushing_wheel"
+          },
+          "id": "thaumicomniverse:THAUMIC_CRUSHING_WHEEL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

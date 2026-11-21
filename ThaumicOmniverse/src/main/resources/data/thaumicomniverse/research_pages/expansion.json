@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:UNIVERSAL_CLUSTERS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.universal_clusters"
+          },
+          "id": "thaumicomniverse:UNIVERSAL_CLUSTERS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:universal/clusters/iron",
+              "thaumicomniverse:universal/clusters/copper"
+            ]
+          },
+          "id": "thaumicomniverse:UNIVERSAL_CLUSTERS/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:UNIVERSAL_TRANSMUTATION",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.universal_transmutation"
+          },
+          "id": "thaumicomniverse:UNIVERSAL_TRANSMUTATION/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:universal/transmutation/iron",
+              "thaumicomniverse:universal/transmutation/gold"
+            ]
+          },
+          "id": "thaumicomniverse:UNIVERSAL_TRANSMUTATION/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:ARCANE_MODULES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.arcane_modules"
+          },
+          "id": "thaumicomniverse:ARCANE_MODULES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:expansion/item_draconium_arcane"
+            ]
+          },
+          "id": "thaumicomniverse:ARCANE_MODULES/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:expansion/item_wyvern_arcane"
+            ]
+          },
+          "id": "thaumicomniverse:ARCANE_MODULES/page/3",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:expansion/item_draconic_arcane"
+            ]
+          },
+          "id": "thaumicomniverse:ARCANE_MODULES/page/4",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:expansion/item_chaotic_arcane"
+            ]
+          },
+          "id": "thaumicomniverse:ARCANE_MODULES/page/5",
+          "page_break": true
+        }
+      ],
+      "omniverse_requires": [
+        "draconicevolution"
+      ]
+    }
+  ]
+}

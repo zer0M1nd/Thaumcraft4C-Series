@@ -1,0 +1,39 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+  "research": "thaumicomniverse:RESTORED_CRAFTER",
+  "pattern": [
+    "TRT",
+    "WCW",
+    "TGT"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "R": {
+      "item": "thaumicfutures:vis_resonator"
+    },
+    "W": {
+      "item": "thaumcraft:arcane_workbench"
+    },
+    "C": {
+      "item": "quark:crafter"
+    },
+    "G": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "vis": {
+    "ordo": 25,
+    "aer": 15
+  },
+  "result": {
+    "item": "thaumicomniverse:arcane_crafter"
+  }
+}

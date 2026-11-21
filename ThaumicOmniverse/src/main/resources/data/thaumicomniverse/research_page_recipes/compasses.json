@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:SINISTER_COMPASS",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicomniverse:SINISTER_COMPASS",
+        "instability": 4,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:compass",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:sinister_compass",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:sinister_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": [
+          {
+            "aspect": "alienis",
+            "amount": 16
+          },
+          {
+            "aspect": "sensus",
+            "amount": 16
+          },
+          {
+            "aspect": "iter",
+            "amount": 16
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:PRIMAL_COMPASS",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicomniverse:PRIMAL_COMPASS",
+        "instability": 8,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:sinister_compass",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:primal_compass",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primal_charm",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": [
+          {
+            "aspect": "alienis",
+            "amount": 32
+          },
+          {
+            "aspect": "sensus",
+            "amount": 32
+          },
+          {
+            "aspect": "cognitio",
+            "amount": 16
+          },
+          {
+            "aspect": "iter",
+            "amount": 32
+          }
+        ]
+      }
+    }
+  ]
+}

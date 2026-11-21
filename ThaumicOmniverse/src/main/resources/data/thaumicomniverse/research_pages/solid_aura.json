@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:SOLID_AURA",
+      "omniverse_requires": [],
+      "pages": [
+        {
+          "id": "thaumicomniverse:SOLID_AURA/items",
+          "type": "ITEM",
+          "items": [
+            {
+              "item": "thaumicomniverse:solid_aura"
+            }
+          ],
+          "size": 32
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.solid_aura"
+          },
+          "id": "thaumicomniverse:SOLID_AURA/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

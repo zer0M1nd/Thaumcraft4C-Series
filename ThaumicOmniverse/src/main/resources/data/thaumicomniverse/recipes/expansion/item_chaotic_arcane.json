@@ -1,0 +1,67 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "draconicevolution"
+    }
+  ],
+  "research": "thaumicomniverse:ARCANE_MODULES",
+  "instability": 10,
+  "result": {
+    "item": "thaumicomniverse:item_chaotic_arcane"
+  },
+  "aspects": {
+    "praecantatio": 128,
+    "potentia": 128,
+    "cognitio": 64,
+    "machina": 64
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "draconicevolution:chaotic_core"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "draconicevolution:chaotic_core"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "center": {
+    "ingredient": {
+      "item": "thaumicomniverse:item_draconic_arcane"
+    }
+  }
+}

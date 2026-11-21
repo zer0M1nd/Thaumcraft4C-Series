@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:AIRSHIPS",
+  "pattern": [
+    " V ",
+    " C ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/thaumium"
+    },
+    "V": {
+      "tag": "forge:plates/void"
+    },
+    "C": {
+      "item": "thaumicomniverse:thaumic_casing"
+    }
+  },
+  "vis": {
+    "aer": 30,
+    "ordo": 20,
+    "perditio": 10
+  },
+  "result": {
+    "item": "thaumicomniverse:airship_fuel_interface",
+    "count": 1
+  }
+}

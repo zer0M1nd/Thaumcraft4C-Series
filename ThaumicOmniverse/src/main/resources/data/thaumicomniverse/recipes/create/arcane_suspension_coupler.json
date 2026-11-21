@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:ARCANE_SUSPENSION",
+  "pattern": [
+    " A ",
+    "TLT",
+    " C "
+  ],
+  "key": {
+    "T": {
+      "tag": "forge:plates/thaumium"
+    },
+    "L": {
+      "item": "thaumcraft:levitator"
+    },
+    "C": {
+      "item": "thaumicomniverse:thaumic_casing"
+    },
+    "A": {
+      "item": "thaumicomniverse:alchemical_mechanism"
+    }
+  },
+  "vis": {
+    "aer": 40,
+    "ordo": 20
+  },
+  "result": {
+    "item": "thaumicomniverse:arcane_suspension_coupler",
+    "count": 2
+  }
+}

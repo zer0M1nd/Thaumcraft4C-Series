@@ -1,0 +1,298 @@
+{
+  "format_version": "26.3",
+  "credit": "Create contributors; adapted in Blockbench for Thaumic Omniverse (textures remade 1115_01)",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "thaumicomniverse:block/create/andesite_casing",
+    "1": "create:block/piston_bottom",
+    "2": "thaumicomniverse:block/create/gearbox",
+    "5": "thaumicomniverse:block/create/arcane_magnet_front",
+    "6": "thaumicomniverse:block/create/arcane_magnet_side",
+    "particle": "thaumicomniverse:block/create/andesite_casing"
+  },
+  "elements": [
+    {
+      "name": "Bottom",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#6"
+        },
+        "east": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#6"
+        },
+        "south": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#6"
+        },
+        "west": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#6"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "Inner",
+      "from": [
+        2,
+        2,
+        0.95
+      ],
+      "to": [
+        14,
+        12,
+        15.05
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            4,
+            14,
+            14
+          ],
+          "texture": "#6"
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            14,
+            14
+          ],
+          "texture": "#6"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            12,
+            14
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "Side",
+      "from": [
+        0,
+        2,
+        0
+      ],
+      "to": [
+        2,
+        12,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            4,
+            16,
+            14
+          ],
+          "texture": "#6"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            16,
+            14
+          ],
+          "texture": "#6"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            2,
+            14
+          ],
+          "texture": "#6"
+        },
+        "west": {
+          "uv": [
+            0,
+            4,
+            16,
+            14
+          ],
+          "texture": "#6"
+        }
+      }
+    },
+    {
+      "name": "Side2",
+      "from": [
+        14,
+        2,
+        0
+      ],
+      "to": [
+        16,
+        12,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            2,
+            14
+          ],
+          "texture": "#6"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            16,
+            14
+          ],
+          "texture": "#6"
+        },
+        "south": {
+          "uv": [
+            14,
+            4,
+            16,
+            14
+          ],
+          "texture": "#6"
+        },
+        "west": {
+          "uv": [
+            0,
+            4,
+            16,
+            14
+          ],
+          "texture": "#6"
+        }
+      }
+    },
+    {
+      "name": "Top",
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#5"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#2"
+        }
+      }
+    }
+  ]
+}

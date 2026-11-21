@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:GUIDE_OMNIVERSE",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "complexity": 1,
+          "parents": [],
+          "pageCount": 2,
+          "aspects": {},
+          "icon_resource": "thaumicomniverse:textures/gui/research_category.png",
+          "isRound": true,
+          "isSpecial": true,
+          "isStub": true,
+          "isAutoUnlock": true
+        },
+        {
+          "key": "thaumicomniverse:GUIDE_CREATE",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 0,
+          "displayRow": -2,
+          "complexity": 1,
+          "parents": [
+            "thaumicomniverse:GUIDE_OMNIVERSE"
+          ],
+          "pageCount": 2,
+          "aspects": {},
+          "omniverse_requires": [
+            "create"
+          ],
+          "icon_item": {
+            "item": "create:goggles"
+          },
+          "isRound": true,
+          "isStub": true,
+          "isAutoUnlock": true
+        },
+        {
+          "key": "thaumicomniverse:GUIDE_INDUSTRY",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -2,
+          "displayRow": 0,
+          "complexity": 1,
+          "parents": [
+            "thaumicomniverse:GUIDE_OMNIVERSE"
+          ],
+          "pageCount": 1,
+          "aspects": {},
+          "omniverse_requires_any": [
+            "gtceu",
+            "thermal_expansion",
+            "railcraft",
+            "hostilenetworks",
+            "draconicevolution"
+          ],
+          "icon_item": {
+            "item": "thaumcraft:alchemical_construct"
+          },
+          "isRound": true,
+          "isStub": true,
+          "isAutoUnlock": true
+        },
+        {
+          "key": "thaumicomniverse:M_INFUSION",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 0,
+          "displayRow": 5,
+          "pageCount": 0,
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockStoneDevice",
+            "metadata": 2
+          },
+          "mirrorOf": "INFUSION"
+        },
+        {
+          "key": "thaumicomniverse:M_PRIMPEARL",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 5,
+          "displayRow": 1,
+          "pageCount": 0,
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemEldritchObject",
+            "metadata": 3
+          },
+          "mirrorOf": "PRIMPEARL",
+          "omniverse_requires_any": [
+            "avaritia",
+            "endless",
+            "allthemodium"
+          ]
+        }
+      ]
+    }
+  ]
+}

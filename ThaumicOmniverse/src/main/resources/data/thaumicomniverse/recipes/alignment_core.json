@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicomniverse:alignment",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:arcane_pedestal"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ],
+  "aspects": {
+    "praecantatio": 8,
+    "permutatio": 8,
+    "ordo": 8
+  },
+  "instability": 3,
+  "result": {
+    "item": "thaumicomniverse:alignment_core"
+  }
+}

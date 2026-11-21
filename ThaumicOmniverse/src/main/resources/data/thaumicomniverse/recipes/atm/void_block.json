@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "thaumcraft:void_ingot"
+    }
+  },
+  "result": {
+    "item": "thaumicomniverse:void_block"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:BIG_PEARL",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 7,
+          "displayRow": 0,
+          "complexity": 3,
+          "isConcealed": true,
+          "isSecondary": true,
+          "parents": [
+            "PRIMPEARL"
+          ],
+          "parentMirrors": {
+            "PRIMPEARL": "thaumicomniverse:M_PRIMPEARL"
+          },
+          "pageCount": 2,
+          "aspects": {
+            "thaumicomniverse:terminus": 8,
+            "praecantatio": 16
+          },
+          "icon_item": {
+            "item": "thaumicomniverse:extremely_primordial_pearl"
+          },
+          "omniverse_requires_any": ["avaritia", "endless"]
+        },
+        {
+          "key": "thaumicomniverse:AKASHIC",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 9,
+          "displayRow": 0,
+          "complexity": 3,
+          "isConcealed": true,
+          "isSecondary": true,
+          "parents": [
+            "thaumicomniverse:BIG_PEARL"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "thaumicomniverse:terminus": 8,
+            "cognitio": 16
+          },
+          "icon_item": {
+            "item": "thaumicomniverse:akashic_record"
+          },
+          "omniverse_requires_any": ["avaritia", "endless"]
+        }
+      ]
+    }
+  ]
+}

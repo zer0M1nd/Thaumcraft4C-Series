@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:ARCANE_ASSEMBLY",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 0,
+          "displayRow": -4,
+          "icon_item": {
+            "item": "thaumicomniverse:alchemical_mechanism"
+          },
+          "parents": [
+            "INFUSION",
+            "thaumicomniverse:GUIDE_CREATE"
+          ],
+          "complexity": 2,
+          "pageCount": 4,
+          "aspects": {
+            "machina": 8,
+            "praecantatio": 8,
+            "permutatio": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        }
+      ]
+    }
+  ]
+}

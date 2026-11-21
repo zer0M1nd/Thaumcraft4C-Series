@@ -1,0 +1,43 @@
+{
+  "credit": "Made with Blockbench (TC4Revival resource remake 1115_01)",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "hull": "thaumicomniverse:airship/block/hull",
+    "particle": "thaumicomniverse:airship/block/hull"
+  },
+  "elements": [
+    {
+      "name": "Hull",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull"
+        },
+        "east": {
+          "texture": "#hull"
+        },
+        "south": {
+          "texture": "#hull"
+        },
+        "west": {
+          "texture": "#hull"
+        },
+        "up": {
+          "texture": "#hull"
+        },
+        "down": {
+          "texture": "#hull"
+        }
+      }
+    }
+  ]
+}

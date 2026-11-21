@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "center": {
+    "ingredient": {
+      "item": "minecraft:compass"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:sinister_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ],
+  "aspects": {
+    "alienis": 16,
+    "sensus": 16,
+    "iter": 16
+  },
+  "instability": 4,
+  "research": "thaumicomniverse:SINISTER_COMPASS",
+  "result": {
+    "item": "thaumicomniverse:sinister_compass"
+  }
+}

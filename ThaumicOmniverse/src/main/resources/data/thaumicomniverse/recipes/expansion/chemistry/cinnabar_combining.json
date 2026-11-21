@@ -1,0 +1,37 @@
+{
+  "type": "alchemistry:combiner",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alchemistry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chemlib"
+    }
+  ],
+  "group": "thaumicomniverse:fictional_chemistry",
+  "input": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "chemlib:mercury"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "chemlib:sulfur"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "chemlib:argon"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:cinnabar_ore"
+  }
+}

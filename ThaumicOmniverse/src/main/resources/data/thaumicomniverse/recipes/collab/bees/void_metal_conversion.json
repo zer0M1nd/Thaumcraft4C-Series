@@ -1,0 +1,22 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:diamond",
+  "result": "thaumicomniverse:void_metal",
+  "item": {
+    "item": "thaumcraft:void_ingot"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumcraft"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:void_ingot"
+    }
+  ]
+}

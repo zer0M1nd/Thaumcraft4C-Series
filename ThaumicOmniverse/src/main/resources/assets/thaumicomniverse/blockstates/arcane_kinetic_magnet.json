@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "thaumicomniverse:block/create/arcane_kinetic_magnet"
+    },
+    "facing=down": {
+      "model": "thaumicomniverse:block/create/arcane_kinetic_magnet",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "thaumicomniverse:block/create/arcane_kinetic_magnet",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "thaumicomniverse:block/create/arcane_kinetic_magnet",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thaumicomniverse:block/create/arcane_kinetic_magnet",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "thaumicomniverse:block/create/arcane_kinetic_magnet",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

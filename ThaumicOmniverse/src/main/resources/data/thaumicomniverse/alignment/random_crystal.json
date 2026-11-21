@@ -1,0 +1,49 @@
+{
+  "research": "thaumicomniverse:alignment",
+  "center": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "near": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    }
+  ],
+  "result": {
+    "item": "thaumicomniverse:aligned_crystal"
+  },
+  "minimum": 1,
+  "maximum": 16,
+  "risk": 2,
+  "duration": 240,
+  "answer": {
+    "random": {
+      "seed": 20261017,
+      "worldSeed": false,
+      "draws": 3,
+      "minCount": 1,
+      "maxCount": 4,
+      "negative": true,
+      "predicate": {
+        "all": [
+          {
+            "namespace": "minecraft"
+          },
+          {
+            "include": [
+              "minecraft:iron_ingot",
+              "minecraft:gold_ingot",
+              "minecraft:copper_ingot"
+            ]
+          },
+          {
+            "minAspectKinds": 1,
+            "minAspectAmount": 1
+          }
+        ]
+      }
+    }
+  }
+}

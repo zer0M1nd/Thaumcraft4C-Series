@@ -1,0 +1,32 @@
+{
+  "name": "Thaumcraft 6.1.BETA26 (Minecraft 1.12.2)",
+  "legacy_modid": "thaumcraft",
+  "legacy_minecraft_version": "1.12.2",
+  "sha256": "9425f8643581b27ff8845b087c8bc6fc10425a32942f1a3f0e265ce6b38f7b5f",
+  "download": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2629023",
+  "mapping": {
+    "assets/thaumicomniverse/textures/block/tc6/arcane_workbench_top.png": "assets/thaumcraft/textures/blocks/arcane_workbench_top.png",
+    "assets/thaumicomniverse/textures/block/tc6/metal_thaumium.png": "assets/thaumcraft/textures/blocks/metal_thaumium.png",
+    "assets/thaumicomniverse/textures/item/essentia_servo.png": "assets/thaumcraft/textures/misc/gear_brass.png",
+    "assets/thaumicomniverse/textures/item/primordial_fragment.png": "assets/thaumcraft/textures/items/primordial_pearl_nodule.png",
+    "assets/thaumicomniverse/textures/item/primordial_fragment.png.mcmeta": "assets/thaumcraft/textures/items/primordial_pearl_nodule.png.mcmeta"
+  },
+  "additional_sources": [
+    {
+      "name": "Thaumcraft 4.2.3.5 (Minecraft 1.7.10)",
+      "legacy_modid": "Thaumcraft",
+      "legacy_minecraft_version": "1.7.10",
+      "sha256": "3dba9786966974701578a658d1bb369bf35bdf5f363079f5ac9c4910a39113be",
+      "download": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2227552",
+      "resource_namespace_aliases": ["journeymap"],
+      "mapping": {
+        "assets/journeymap/theme/flat/icon/thaumicomniverse_nodes.png": "assets/thaumcraft/textures/aspects/auram.png",
+        "assets/thaumicomniverse/textures/block/brass_pipe_1.png": "assets/thaumcraft/textures/blocks/pipe_1.png",
+        "assets/thaumicomniverse/textures/block/brass_pipe_2.png": "assets/thaumcraft/textures/blocks/pipe_2.png",
+        "assets/thaumicomniverse/textures/block/brass_pipe_3.png": "assets/thaumcraft/textures/blocks/pipe_3.png",
+        "assets/thaumicomniverse/textures/block/brass_pipe_filter.png": "assets/thaumcraft/textures/blocks/pipe_filter.png",
+        "assets/thaumicomniverse/textures/block/brass_pipe_restrict.png": "assets/thaumcraft/textures/blocks/pipe_restrict.png"
+      }
+    }
+  ]
+}

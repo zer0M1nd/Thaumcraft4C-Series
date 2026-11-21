@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:SINISTER_COMPASS",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -2,
+          "displayRow": 6,
+          "pageCount": 2,
+          "complexity": 2,
+          "parents": [
+            "INFUSION"
+          ],
+          "parentMirrors": {
+            "INFUSION": "thaumicomniverse:M_INFUSION"
+          },
+          "aspects": {
+            "alienis": 6,
+            "sensus": 6,
+            "iter": 6
+          },
+          "icon_item": {
+            "item": "thaumicomniverse:sinister_compass"
+          }
+        },
+        {
+          "key": "thaumicomniverse:PRIMAL_COMPASS",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -4,
+          "displayRow": 6,
+          "pageCount": 2,
+          "complexity": 3,
+          "parents": [
+            "thaumicomniverse:SINISTER_COMPASS"
+          ],
+          "aspects": {
+            "alienis": 6,
+            "sensus": 6,
+            "iter": 6
+          },
+          "icon_item": {
+            "item": "thaumicomniverse:primal_compass"
+          }
+        }
+      ]
+    }
+  ]
+}

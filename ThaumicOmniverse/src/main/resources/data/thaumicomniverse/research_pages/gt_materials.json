@@ -1,0 +1,22 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:GT_MATERIALS",
+      "omniverse_requires": [
+        "gtceu"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.gt_materials"
+          },
+          "id": "thaumicomniverse:GT_MATERIALS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

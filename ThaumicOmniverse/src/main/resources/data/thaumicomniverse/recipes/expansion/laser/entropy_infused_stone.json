@@ -1,0 +1,30 @@
+{
+  "type": "industrialforegoing:laser_drill_ore",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ],
+  "catalyst": {
+    "item": "industrialforegoing:laser_lens15"
+  },
+  "output": {
+    "item": "thaumcraft:entropy_infused_stone"
+  },
+  "pointer": 0,
+  "rarity": [
+    {
+      "depth_min": -64,
+      "depth_max": 80,
+      "weight": 8,
+      "blacklist": {
+        "type": "minecraft:dimension",
+        "values": [
+          "minecraft:the_end"
+        ]
+      },
+      "whitelist": {}
+    }
+  ]
+}

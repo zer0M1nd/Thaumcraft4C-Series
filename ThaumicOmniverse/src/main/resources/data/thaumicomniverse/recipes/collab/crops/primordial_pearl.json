@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:omniverse_primordial_pearl_essence"
+    }
+  },
+  "result": {
+    "item": "thaumicomniverse:primordial_fragment",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumcraft"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:primordial_pearl"
+    }
+  ]
+}

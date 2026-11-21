@@ -1,0 +1,149 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
+version = '0.2.46.1'
+group = 'thaumicomniverse'
+base.archivesName = 'ThaumicOmniverse'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.withSourcesJar()
+sourceSets {
+    verification {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath = output + sourceSets.main.runtimeClasspath
+    }
+}
+repositories { flatDir { dirs 'evidence/core-jars', 'evidence/modern-jars', 'evidence/collab-jars' }; maven { url = 'https://maven.theillusivec4.top/' }; maven { url = 'https://api.modrinth.com/maven' }; mavenCentral() }
+if (project.hasProperty('create051')) {
+    layout.buildDirectory = file('build-create051')
+    repositories { flatDir { dirs '../../../References/Projects/ThaumicOmniverse/group-20261027' } }
+}
+repositories { flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.119.3'}" } }
+repositories { flatDir { dirs '../../../References/Projects/ThaumicOmniverse/evidence/expansion-api' } }
+repositories { flatDir { dirs '../../../References/Projects/ThaumicOmniverse/expansion-20261021' } }
+repositories { flatDir { dirs '../../../References/Projects/ThaumicOmniverse/touhou-maid-20261027' } }
+// The combined historical verification mod covers both sides of the split.
+repositories { flatDir { dirs "../../../Data/Dependencies/ThaumicFutures/${findProperty('futuresValidationVersion') ?: '0.2.7'}" } }
+dependencies {
+    compileOnly fg.deobf('local.omniverse:touhoulittlemaid:1.5.3-forge+mc1.20.1')
+    compileOnly fg.deobf('local.expansion:cofh_core:1.20.1-11.0.2.56')
+    compileOnly fg.deobf('local.expansion:thermal_core:1.20.1-11.0.6.24')
+    compileOnly fg.deobf('local.expansion:thermal_expansion:1.20.1-11.0.1.29')
+    compileOnly fg.deobf('local.omniverse:ic2-forge:2.10.33-ex120')
+    ["draconicevolution", "brandonscore", "create_enchantment_industry", "gtceu", "railcraft", "alchemistry", "alchemylib", "chemlib", "ldlib", "configuration", "codechickenlib"].each { name -> compileOnly fg.deobf("local.expansion:${name}:20261018") }
+    compileOnly fg.deobf("local.collab:jei:local")
+    compileOnly fg.deobf("local.collab:placebo:local")
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+    implementation fg.deobf("local.core:Thaumcraft-4-Modern-Port:${findProperty('tc4ValidationVersion') ?: '0.4.119.3'}")
+    compileOnly fg.deobf('local.collab:journeymap_api_v2:local')
+    testRuntimeOnly fg.deobf('local.collab:journeymap_api_v2:local')
+    testRuntimeOnly fg.deobf('local.collab:journeymap:local')
+    if (project.hasProperty('nodeMap')) runtimeOnly fg.deobf('local.collab:journeymap:local')
+    (project.hasProperty('create051') ? ['attributeslib', 'productivelib'] : ['ponder', 'flywheel', 'registrate', 'attributeslib', 'productivelib']).each { name -> compileOnly fg.deobf("local.collab:${name}:local") }
+    if (project.hasProperty('create051')) {
+        compileOnly fg.deobf('local.create051:create:1.20.1-0.5.1.j')
+        compileOnly fg.deobf('local.create051:flywheel-forge-1.20.1:0.6.11-13')
+        compileOnly fg.deobf('local.create051:Registrate-MC1.20:1.3.3')
+    }
+    ['forestry', 'mobees', 'modular_machinery_reborn'].each { name ->
+        if (name != 'create' || !project.hasProperty('create051')) compileOnly fg.deobf("local.collab:${name}:local")
+        if (project.hasProperty('collab')) runtimeOnly fg.deobf("local.collab:${name}:local")
+    }
+    ['avaritia', 'industrialforegoing', 'titanium', 'pamhc2crops', 'botania', 'immersiveengineering', 'farmersdelight', 'mekanismtools', 'mekanism', 'tconstruct', 'mantle', 'jade', 'create', 'apotheosis', 'sophisticatedbackpacks', 'sophisticatedcore', 'mysticalagriculture', 'productivebees', 'evilcraft', 'cyclopscore', 'journeymap'].each { name ->
+        if (name != 'create' || !project.hasProperty('create051')) compileOnly fg.deobf("local.collab:${name}:local")
+        if (project.hasProperty('collab')) runtimeOnly fg.deobf("local.collab:${name}:local")
+    }
+    compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
+    runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
+    runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
+    verificationCompileOnly fg.deobf('local.collab:placebo:local')
+    compileOnly fg.deobf("local.api:ThaumicFutures:${findProperty('futuresValidationVersion') ?: '0.2.7'}")
+    verificationImplementation fg.deobf("local.api:ThaumicFutures:${findProperty('futuresValidationVersion') ?: '0.2.7'}")
+    if (project.hasProperty('collab')) {
+        ['cucumber', 'allthemodium', 'allthetweaks', 'kubejs', 'alltheores', 'architectury', 'attributeslib',
+         'geckolib', 'jei', 'mysticalagradditions', 'patchouli', 'placebo', 'rhino'].each { name ->
+            runtimeOnly fg.deobf("local.collab:${name}:local")
+        }
+    }
+    if (project.hasProperty('compat') || project.hasProperty('full')) {
+        runtimeOnly fg.deobf('local.omniverse:TConstruct:1.20.1-3.11.2.166')
+        runtimeOnly fg.deobf('local.omniverse:Mantle:1.20.1-1.11.104')
+        runtimeOnly fg.deobf('local.omniverse:Re-Avaritia-forge:1.20.1-1.4.2-release')
+        runtimeOnly fg.deobf('local.omniverse:Mekanism:1.20.1-10.4.16.80')
+    }
+    if (project.hasProperty('full')) {
+        runtimeOnly fg.deobf('local.omniverse:gtceu:1.20.1-7.5.3')
+        runtimeOnly fg.deobf('local.omniverse:ldlib-forge:1.20.1-1.0.52.a')
+        runtimeOnly fg.deobf('local.omniverse:configuration-forge:1.20.1-3.1.0')
+        runtimeOnly fg.deobf('local.omniverse:TofuCraftReload:1.20.1-5.18.4.1')
+        runtimeOnly fg.deobf('local.omniverse:bagus_lib:1.20.1-5.6.1')
+    }
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            args '--mixin.config', 'tc4revival.mixins.json', '--mixin.config', 'thaumicomniverse.mixins.json'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+            mods { thaumicomniverse { source sourceSets.main } }
+            if (project.hasProperty('verification')) {
+                mods { thaumicomniverse_verification { source sourceSets.verification } }
+            }
+        }
+        server { workingDirectory file(project.hasProperty('collab') ? 'run-collab-present' : 'run-collab-absent'); args '--nogui'; jvmArgs '-Xmx5G' }
+        client { workingDirectory file('run-client'); jvmArgs '-Xmx3G' }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 17 }
+tasks.named('processResources') {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/mods.toml') { expand version: project.version }
+    // Forge can leave assets from older incremental builds in the runtime JAR.
+    doFirst {
+        def resourceRoots = sourceSets.main.resources.srcDirs
+        fileTree(new File(destinationDir, 'assets')).files.each { output ->
+            def relative = destinationDir.toPath().relativize(output.toPath()).toString()
+            if (!resourceRoots.any { new File(it, relative).isFile() }) {
+                java.nio.file.Files.delete(output.toPath())
+            }
+        }
+    }
+}
+tasks.named('jar') { manifest { attributes 'MixinConfigs': 'thaumicomniverse.mixins.json' }; finalizedBy 'reobfJar' }
+tasks.register('verificationJar', Jar) {
+    from sourceSets.verification.output
+    archiveBaseName = 'ThaumicOmniverseVerification'
+    archiveClassifier = 'server-checks'
+    finalizedBy 'reobfVerificationJar'
+}
+reobf { verificationJar { classpath.from(sourceSets.verification.compileClasspath) } }
+tasks.named('test') { useJUnitPlatform() }
+tasks.withType(JavaExec).configureEach { standardInput = System.in }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }
+
+
+// Isolate binary-incompatible optional GUI bases; both adapters share the same renderer.
+repositories { flatDir { dirs '../../../References/Projects/ThaumicOmniverse/sophisticated-20261024' } }
+sourceSets {
+    modernBackpack {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath.filter { !it.name.startsWith('sophisticatedcore-') }
+    }
+}
+dependencies { modernBackpackCompileOnly fg.deobf('local.sophisticated:sophisticatedcore:1.20.1-1.5.10.2402') }
+tasks.named('jar') { from sourceSets.modernBackpack.output }
+tasks.named('sourcesJar') { from sourceSets.modernBackpack.allSource }
+reobf { jar { classpath.from(sourceSets.modernBackpack.compileClasspath) } }
+minecraft.runs.configureEach { mods { thaumicomniverse { source sourceSets.modernBackpack } } }
+
+if (project.hasProperty('create051')) apply from: 'create051.gradle'
+
+// Resource metadata must be UTF-8 on every build host.
+tasks.withType(ProcessResources).configureEach { filteringCharset = 'UTF-8' }
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+        from('src/main/resources/assets/thaumicomniverse/textures/gui/research_category.png') {
+            rename { 'thaumicomniverse-logo.png' }
+        }
+    }
+}

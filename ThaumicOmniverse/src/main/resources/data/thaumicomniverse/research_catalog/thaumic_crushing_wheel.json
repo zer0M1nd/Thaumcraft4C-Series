@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:THAUMIC_CRUSHING_WHEEL",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -4,
+          "displayRow": -5,
+          "icon_item": {
+            "item": "thaumicomniverse:thaumic_crushing_wheel"
+          },
+          "parents": [
+            "thaumicomniverse:THAUMIC_CASING",
+            "ESSENTIACRYSTAL"
+          ],
+          "complexity": 2,
+          "pageCount": 2,
+          "aspects": {
+            "machina": 8,
+            "perditio": 8,
+            "vitreus": 8
+          },
+          "omniverse_requires": [
+            "create"
+          ]
+        }
+      ]
+    }
+  ]
+}

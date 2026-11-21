@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:SOUL_CORE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.soul_core"
+          },
+          "id": "thaumicomniverse:SOUL_CORE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:soul_core"
+            ]
+          },
+          "id": "thaumicomniverse:SOUL_CORE/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

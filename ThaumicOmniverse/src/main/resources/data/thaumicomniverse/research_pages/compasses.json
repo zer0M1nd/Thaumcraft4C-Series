@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:SINISTER_COMPASS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.sinister_compass"
+          },
+          "id": "thaumicomniverse:SINISTER_COMPASS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumicomniverse:SINISTER_COMPASS"
+            ]
+          },
+          "id": "thaumicomniverse:SINISTER_COMPASS/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:PRIMAL_COMPASS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.primal_compass"
+          },
+          "id": "thaumicomniverse:PRIMAL_COMPASS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "thaumicomniverse:PRIMAL_COMPASS"
+            ]
+          },
+          "id": "thaumicomniverse:PRIMAL_COMPASS/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

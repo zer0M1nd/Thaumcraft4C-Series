@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "CONVENIENTTUBES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.CONVENIENTTUBES.1"
+          },
+          "id": "thaumicomniverse:CONVENIENTTUBES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:arcane/convenient_essentia_tube"
+            ]
+          },
+          "id": "thaumicomniverse:CONVENIENTTUBES/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:arcane/convenient_essentia_filter"
+            ]
+          },
+          "id": "thaumicomniverse:CONVENIENTTUBES/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:arcane/convenient_essentia_restrictor"
+            ]
+          },
+          "id": "thaumicomniverse:CONVENIENTTUBES/page/4",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:arcane/essentia_servo"
+            ]
+          },
+          "id": "thaumicomniverse:CONVENIENTTUBES/page/5",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

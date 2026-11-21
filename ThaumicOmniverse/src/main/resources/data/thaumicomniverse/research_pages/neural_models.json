@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:NEURAL_MODELS",
+      "omniverse_requires": [
+        "hostilenetworks"
+      ],
+      "pages": [
+        {
+          "id": "thaumicomniverse:NEURAL_MODELS/items",
+          "type": "ITEM",
+          "items": [
+            {
+              "item": "thaumicomniverse:outerlands_prediction"
+            }
+          ],
+          "size": 32
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.neural_models"
+          },
+          "id": "thaumicomniverse:NEURAL_MODELS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

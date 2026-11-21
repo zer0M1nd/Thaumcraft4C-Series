@@ -1,0 +1,308 @@
+{
+  "credit": "Made with Blockbench (TC4Revival resource remake 1115_01)",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "brass": "create:block/brass_block",
+    "post": "thaumicomniverse:block/arcane_motor/body",
+    "lamp": "thaumicomniverse:airship/signal_invalid",
+    "particle": "create:block/brass_block"
+  },
+  "elements": [
+    {
+      "name": "Foot",
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        1,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Post",
+      "from": [
+        7,
+        1,
+        7
+      ],
+      "to": [
+        9,
+        8,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#post"
+        },
+        "east": {
+          "texture": "#post"
+        },
+        "south": {
+          "texture": "#post"
+        },
+        "west": {
+          "texture": "#post"
+        }
+      }
+    },
+    {
+      "name": "Lantern base",
+      "from": [
+        5,
+        8,
+        5
+      ],
+      "to": [
+        11,
+        9,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Lamp crystal",
+      "from": [
+        6,
+        9,
+        6
+      ],
+      "to": [
+        10,
+        14,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lamp"
+        },
+        "east": {
+          "texture": "#lamp"
+        },
+        "south": {
+          "texture": "#lamp"
+        },
+        "west": {
+          "texture": "#lamp"
+        }
+      },
+      "forge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    },
+    {
+      "name": "Pillar NW",
+      "from": [
+        5,
+        9,
+        5
+      ],
+      "to": [
+        6,
+        14,
+        6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Pillar NE",
+      "from": [
+        10,
+        9,
+        5
+      ],
+      "to": [
+        11,
+        14,
+        6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Pillar SW",
+      "from": [
+        5,
+        9,
+        10
+      ],
+      "to": [
+        6,
+        14,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Pillar SE",
+      "from": [
+        10,
+        9,
+        10
+      ],
+      "to": [
+        11,
+        14,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Cap",
+      "from": [
+        5,
+        14,
+        5
+      ],
+      "to": [
+        11,
+        15,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        },
+        "down": {
+          "texture": "#brass"
+        }
+      }
+    },
+    {
+      "name": "Finial",
+      "from": [
+        7,
+        15,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass"
+        },
+        "east": {
+          "texture": "#brass"
+        },
+        "south": {
+          "texture": "#brass"
+        },
+        "west": {
+          "texture": "#brass"
+        },
+        "up": {
+          "texture": "#brass"
+        }
+      }
+    }
+  ]
+}

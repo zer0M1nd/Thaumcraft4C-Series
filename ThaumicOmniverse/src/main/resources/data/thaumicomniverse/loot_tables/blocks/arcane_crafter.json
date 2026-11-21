@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block",
+  "omniverse_requires": [
+    "quark"
+  ],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumicomniverse:arcane_crafter"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "research": "thaumicomniverse:AIRSHIPS",
+  "pattern": [
+    "R R",
+    "SPS",
+    " C "
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/thaumium"
+    },
+    "C": {
+      "item": "thaumicomniverse:thaumic_casing"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "vis": {
+    "aer": 30,
+    "ordo": 20,
+    "perditio": 10
+  },
+  "result": {
+    "item": "thaumicomniverse:airship_controls",
+    "count": 1
+  }
+}

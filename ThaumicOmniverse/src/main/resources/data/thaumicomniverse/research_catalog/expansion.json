@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICOMNIVERSE",
+      "icon": "thaumicomniverse:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:UNIVERSAL_CLUSTERS",
+          "omniverse_layout_group": "gtceu",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": -2,
+          "displayRow": -2,
+          "icon_item": {
+            "item": "thaumicomniverse:ore_cluster"
+          },
+          "parents": [
+            "PUREIRON",
+            "thaumicomniverse:GUIDE_OMNIVERSE"
+          ],
+          "aspects": {
+            "metallum": 8,
+            "ordo": 8,
+            "permutatio": 6
+          },
+          "complexity": 3,
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicomniverse:UNIVERSAL_TRANSMUTATION",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 0,
+          "displayRow": 2,
+          "icon_item": {
+            "item": "minecraft:gold_ingot"
+          },
+          "parents": [
+            "TRANSIRON",
+            "thaumicomniverse:GUIDE_OMNIVERSE"
+          ],
+          "aspects": {
+            "metallum": 8,
+            "permutatio": 8,
+            "praecantatio": 6
+          },
+          "complexity": 3,
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicomniverse:ARCANE_MODULES",
+          "category": "THAUMICOMNIVERSE",
+          "displayColumn": 0,
+          "displayRow": 7,
+          "icon_item": {
+            "item": "thaumicomniverse:item_draconium_arcane"
+          },
+          "parents": [
+            "INFUSION"
+          ],
+          "parentMirrors": {
+            "INFUSION": "thaumicomniverse:M_INFUSION"
+          },
+          "aspects": {
+            "potentia": 12,
+            "praecantatio": 12,
+            "machina": 8
+          },
+          "complexity": 3,
+          "pageCount": 5,
+          "omniverse_requires": [
+            "draconicevolution"
+          ]
+        }
+      ]
+    }
+  ]
+}

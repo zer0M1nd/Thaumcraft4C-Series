@@ -1,0 +1,412 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thaumicfutures"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:plates/alchemical_brass"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+          "tag": "forge:plates/alchemical_brass"
+        },
+        "transitionalItem": {
+          "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+        },
+        "loops": 1,
+        "sequence": [
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              },
+              {
+                "item": "thaumcraft:vis_filter"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              },
+              {
+                "item": "thaumicomniverse:convenient_essentia_tube"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "thaumicomniverse:crucible_processing",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ],
+            "research": "thaumicomniverse:ARCANE_ASSEMBLY",
+            "aspects": {
+              "machina": 4,
+              "praecantatio": 8
+            }
+          },
+          {
+            "type": "create:pressing",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ]
+          }
+        ],
+        "results": [
+          {
+            "item": "thaumicomniverse:alchemical_mechanism",
+            "chance": 75
+          },
+          {
+            "item": "minecraft:quartz",
+            "chance": 15
+          },
+          {
+            "item": "minecraft:iron_nugget",
+            "chance": 10
+          }
+        ]
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:plates/brass"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+          "tag": "forge:plates/brass"
+        },
+        "transitionalItem": {
+          "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+        },
+        "loops": 1,
+        "sequence": [
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              },
+              {
+                "item": "thaumcraft:vis_filter"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              },
+              {
+                "item": "thaumicomniverse:convenient_essentia_tube"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "thaumicomniverse:crucible_processing",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ],
+            "research": "thaumicomniverse:ARCANE_ASSEMBLY",
+            "aspects": {
+              "machina": 4,
+              "praecantatio": 8
+            }
+          },
+          {
+            "type": "create:pressing",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ]
+          }
+        ],
+        "results": [
+          {
+            "item": "thaumicomniverse:alchemical_mechanism",
+            "chance": 75
+          },
+          {
+            "item": "minecraft:quartz",
+            "chance": 15
+          },
+          {
+            "item": "minecraft:iron_nugget",
+            "chance": 10
+          }
+        ]
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:item_exists",
+          "item": "create:copper_sheet"
+        }
+      ],
+      "recipe": {
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+          "item": "create:copper_sheet"
+        },
+        "transitionalItem": {
+          "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+        },
+        "loops": 1,
+        "sequence": [
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              },
+              {
+                "item": "thaumcraft:vis_filter"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              },
+              {
+                "item": "thaumicomniverse:convenient_essentia_tube"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "thaumicomniverse:crucible_processing",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ],
+            "research": "thaumicomniverse:ARCANE_ASSEMBLY",
+            "aspects": {
+              "machina": 4,
+              "praecantatio": 8
+            }
+          },
+          {
+            "type": "create:pressing",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ]
+          }
+        ],
+        "results": [
+          {
+            "item": "thaumicomniverse:alchemical_mechanism",
+            "chance": 75
+          },
+          {
+            "item": "minecraft:quartz",
+            "chance": 15
+          },
+          {
+            "item": "minecraft:iron_nugget",
+            "chance": 10
+          }
+        ]
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        }
+      ],
+      "recipe": {
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+          "item": "minecraft:copper_ingot"
+        },
+        "transitionalItem": {
+          "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+        },
+        "loops": 1,
+        "sequence": [
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              },
+              {
+                "item": "thaumcraft:vis_filter"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              },
+              {
+                "item": "thaumicomniverse:convenient_essentia_tube"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "thaumicomniverse:crucible_processing",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ],
+            "research": "thaumicomniverse:ARCANE_ASSEMBLY",
+            "aspects": {
+              "machina": 4,
+              "praecantatio": 8
+            }
+          },
+          {
+            "type": "create:pressing",
+            "ingredients": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ],
+            "results": [
+              {
+                "item": "thaumicomniverse:incomplete_alchemical_mechanism"
+              }
+            ]
+          }
+        ],
+        "results": [
+          {
+            "item": "thaumicomniverse:alchemical_mechanism",
+            "chance": 75
+          },
+          {
+            "item": "minecraft:quartz",
+            "chance": 15
+          },
+          {
+            "item": "minecraft:iron_nugget",
+            "chance": 10
+          }
+        ]
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "thaumicomniverse:feature",
+      "group": "TUBES"
+    }
+  ]
+}

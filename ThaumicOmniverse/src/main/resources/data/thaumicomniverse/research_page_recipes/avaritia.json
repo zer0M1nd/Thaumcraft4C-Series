@@ -1,0 +1,192 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:BIG_PEARL",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "omniverse_requires_any": ["avaritia", "endless"],
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicomniverse:BIG_PEARL",
+        "instability": 12,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:primordial_pearl",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:extremely_primordial_pearl",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": [
+          {
+            "aspect": "alienis",
+            "amount": 64
+          },
+          {
+            "aspect": "praecantatio",
+            "amount": 64
+          },
+          {
+            "aspect": "aqua",
+            "amount": 64
+          },
+          {
+            "aspect": "ignis",
+            "amount": 64
+          },
+          {
+            "aspect": "terra",
+            "amount": 64
+          },
+          {
+            "aspect": "aer",
+            "amount": 64
+          },
+          {
+            "aspect": "ordo",
+            "amount": 64
+          },
+          {
+            "aspect": "perditio",
+            "amount": 64
+          },
+          {
+            "aspect": "thaumicomniverse:terminus",
+            "amount": 32
+          }
+        ]
+      }
+    },
+    {
+      "key": "thaumicomniverse:AKASHIC",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "omniverse_requires_any": ["avaritia", "endless"],
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicomniverse:AKASHIC",
+        "instability": 12,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:knowledge_fragment",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicomniverse:akashic_record",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "avaritia:infinity_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "avaritia:infinity_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "avaritia:infinity_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "avaritia:infinity_ingot",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": [
+          {
+            "aspect": "cognitio",
+            "amount": 64
+          },
+          {
+            "aspect": "praecantatio",
+            "amount": 64
+          },
+          {
+            "aspect": "thaumicomniverse:terminus",
+            "amount": 32
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:ARCANE_CONTRAPTIONS",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.arcane_contraptions"
+          },
+          "id": "thaumicomniverse:ARCANE_CONTRAPTIONS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.arcane_contraptions.actors"
+          },
+          "id": "thaumicomniverse:ARCANE_CONTRAPTIONS/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:THAUMIC_CASING",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "id": "thaumicomniverse:THAUMIC_CASING/items",
+          "type": "ITEM",
+          "items": [
+            {
+              "item": "thaumicomniverse:thaumic_casing"
+            }
+          ],
+          "size": 32
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.thaumic_casing"
+          },
+          "id": "thaumicomniverse:THAUMIC_CASING/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.thaumic_casing.recipe"
+          },
+          "id": "thaumicomniverse:THAUMIC_CASING/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:ARCANE_MOTOR",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.arcane_motor"
+          },
+          "id": "thaumicomniverse:ARCANE_MOTOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/arcane_motor"
+            ]
+          },
+          "id": "thaumicomniverse:ARCANE_MOTOR/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:ARCANE_BURNER",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.arcane_burner"
+          },
+          "id": "thaumicomniverse:ARCANE_BURNER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/empty_arcane_blaze_burner"
+            ]
+          },
+          "id": "thaumicomniverse:ARCANE_BURNER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:THAUMIC_CRANK",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.thaumic_crank"
+          },
+          "id": "thaumicomniverse:THAUMIC_CRANK/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/thaumic_hand_crank"
+            ]
+          },
+          "id": "thaumicomniverse:THAUMIC_CRANK/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:VOID_MECHANISMS",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.void_mechanisms"
+          },
+          "id": "thaumicomniverse:VOID_MECHANISMS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/void_sandpaper"
+            ]
+          },
+          "id": "thaumicomniverse:VOID_MECHANISMS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/void_backtank"
+            ]
+          },
+          "id": "thaumicomniverse:VOID_MECHANISMS/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.magic_hand.recipe"
+          },
+          "id": "thaumicomniverse:VOID_MECHANISMS/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:WAND_CHARGER",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.wand_charger"
+          },
+          "id": "thaumicomniverse:WAND_CHARGER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/wand_charger"
+            ]
+          },
+          "id": "thaumicomniverse:WAND_CHARGER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:ARCANE_SUSPENSION",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.arcane_suspension"
+          },
+          "id": "thaumicomniverse:ARCANE_SUSPENSION/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/arcane_suspension_coupler"
+            ]
+          },
+          "id": "thaumicomniverse:ARCANE_SUSPENSION/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:ARCANE_MAGNET",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.arcane_magnet"
+          },
+          "id": "thaumicomniverse:ARCANE_MAGNET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/arcane_kinetic_magnet"
+            ]
+          },
+          "id": "thaumicomniverse:ARCANE_MAGNET/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/thaumic_magnetic_casing"
+            ]
+          },
+          "id": "thaumicomniverse:ARCANE_MAGNET/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:FLOATING_DEPOT",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.floating_depot"
+          },
+          "id": "thaumicomniverse:FLOATING_DEPOT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/arcane_floating_depot"
+            ]
+          },
+          "id": "thaumicomniverse:FLOATING_DEPOT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:ESSENTIA_SPOUT",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.essentia_spout"
+          },
+          "id": "thaumicomniverse:ESSENTIA_SPOUT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/essentia_spout",
+              "thaumicomniverse:create/fallback/essentia_spout"
+            ]
+          },
+          "id": "thaumicomniverse:ESSENTIA_SPOUT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:ESSENTIA_SWITCH",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.essentia_switch"
+          },
+          "id": "thaumicomniverse:ESSENTIA_SWITCH/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/essentia_stockpile_switch"
+            ]
+          },
+          "id": "thaumicomniverse:ESSENTIA_SWITCH/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:PORTABLE_ESSENTIA",
+      "omniverse_requires": [
+        "create"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.portable_essentia"
+          },
+          "id": "thaumicomniverse:PORTABLE_ESSENTIA/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:create/portable_essentia_interface",
+              "thaumicomniverse:create/fallback/portable_essentia_interface"
+            ]
+          },
+          "id": "thaumicomniverse:PORTABLE_ESSENTIA/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

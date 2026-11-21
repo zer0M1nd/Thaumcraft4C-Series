@@ -1,0 +1,45 @@
+{
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "type": "forge:nbt",
+    "item": "productivebees:configurable_honeycomb",
+    "nbt": {
+      "EntityTag": {
+        "type": "thaumicomniverse:thauminite"
+      }
+    }
+  },
+  "outputs": [
+    {
+      "item": {
+        "item": "thaumicbases:thauminite_ingot"
+      },
+      "chance": 35
+    },
+    {
+      "item": {
+        "tag": "forge:wax"
+      }
+    },
+    {
+      "fluid": {
+        "fluid": "productivebees:honey"
+      },
+      "amount": 50
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumicbases"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumicbases:thauminite_ingot"
+    }
+  ]
+}

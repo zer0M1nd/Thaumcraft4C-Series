@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "thaumicomniverse:feature",
+        "group": "TUBES"
+      }
+    }
+  ],
+  "research": "thaumicomniverse:ESSENTIA_SPOUT",
+  "pattern": [
+    "C",
+    "P",
+    "K"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumicomniverse:thaumic_casing"
+    },
+    "P": {
+      "item": "thaumcraft:essentia_tube"
+    },
+    "K": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "vis": {
+    "aqua": 20,
+    "ordo": 20
+  },
+  "result": {
+    "item": "thaumicomniverse:essentia_spout",
+    "count": 1
+  }
+}

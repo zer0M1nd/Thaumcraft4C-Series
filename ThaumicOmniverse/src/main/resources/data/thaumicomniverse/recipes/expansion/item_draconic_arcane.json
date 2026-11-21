@@ -1,0 +1,67 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "draconicevolution"
+    }
+  ],
+  "research": "thaumicomniverse:ARCANE_MODULES",
+  "instability": 8,
+  "result": {
+    "item": "thaumicomniverse:item_draconic_arcane"
+  },
+  "aspects": {
+    "praecantatio": 96,
+    "potentia": 96,
+    "cognitio": 48,
+    "machina": 48
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "draconicevolution:awakened_core"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "draconicevolution:awakened_core"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "center": {
+    "ingredient": {
+      "item": "thaumicomniverse:item_wyvern_arcane"
+    }
+  }
+}

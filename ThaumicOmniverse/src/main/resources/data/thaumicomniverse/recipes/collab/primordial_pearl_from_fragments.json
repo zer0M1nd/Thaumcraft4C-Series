@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "FFF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "thaumicomniverse:primordial_fragment"
+    }
+  },
+  "result": {
+    "item": "thaumcraft:primordial_pearl"
+  },
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mysticalagriculture"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "productivebees"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:ESSENTIA_ENGINE",
+      "omniverse_requires": [
+        "gtceu"
+      ],
+      "pages": [
+        {
+          "id": "thaumicomniverse:ESSENTIA_ENGINE/items",
+          "type": "ITEM",
+          "items": [
+            {
+              "item": "thaumicomniverse:large_essentia_generator"
+            }
+          ],
+          "size": 32
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.essentia_engine"
+          },
+          "id": "thaumicomniverse:ESSENTIA_ENGINE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

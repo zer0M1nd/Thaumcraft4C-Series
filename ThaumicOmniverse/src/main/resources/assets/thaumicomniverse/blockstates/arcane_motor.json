@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "thaumicomniverse:block/create/arcane_motor_vertical",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "thaumicomniverse:block/create/arcane_motor",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "thaumicomniverse:block/create/arcane_motor",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "thaumicomniverse:block/create/arcane_motor"
+    },
+    "facing=up": {
+      "model": "thaumicomniverse:block/create/arcane_motor_vertical"
+    },
+    "facing=west": {
+      "model": "thaumicomniverse:block/create/arcane_motor",
+      "y": 90
+    }
+  }
+}

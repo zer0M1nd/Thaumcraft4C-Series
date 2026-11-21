@@ -1,0 +1,47 @@
+{
+  "type": "alchemistry:dissolver",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alchemistry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chemlib"
+    }
+  ],
+  "group": "thaumicomniverse:fictional_chemistry",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "thaumcraft:salis_mundus"
+    }
+  },
+  "output": {
+    "groups": [
+      {
+        "probability": 100.0,
+        "results": [
+          {
+            "count": 4,
+            "item": "chemlib:sodium"
+          },
+          {
+            "count": 2,
+            "item": "chemlib:silicon"
+          },
+          {
+            "count": 2,
+            "item": "chemlib:phosphorus"
+          },
+          {
+            "count": 1,
+            "item": "chemlib:xenon"
+          }
+        ]
+      }
+    ],
+    "rolls": 1,
+    "weighted": false
+  }
+}

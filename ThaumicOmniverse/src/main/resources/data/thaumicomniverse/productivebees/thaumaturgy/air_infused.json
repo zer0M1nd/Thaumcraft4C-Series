@@ -1,0 +1,20 @@
+{
+  "primaryColor": "#ffff7e",
+  "secondaryColor": "#372646",
+  "tertiaryColor": "#d8c8ef",
+  "particleColor": "#ffff7e",
+  "flowerItem": "thaumcraft:air_infused_stone",
+  "size": 0.6,
+  "renderer": "default_crystal",
+  "selfbreed": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumcraft"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:air_infused_stone"
+    }
+  ]
+}

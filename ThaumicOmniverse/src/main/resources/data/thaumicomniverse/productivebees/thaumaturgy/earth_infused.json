@@ -1,0 +1,20 @@
+{
+  "primaryColor": "#00a000",
+  "secondaryColor": "#372646",
+  "tertiaryColor": "#d8c8ef",
+  "particleColor": "#00a000",
+  "flowerItem": "thaumcraft:earth_infused_stone",
+  "size": 0.6,
+  "renderer": "default_crystal",
+  "selfbreed": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumcraft"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:earth_infused_stone"
+    }
+  ]
+}

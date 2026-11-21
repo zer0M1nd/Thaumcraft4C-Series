@@ -1,0 +1,26 @@
+{
+	"format_version": "26.3",
+	"credit": "Create contributors; adapted in Blockbench for Thaumic Omniverse",
+	"parent": "minecraft:block/block",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"1": "thaumicomniverse:block/create/depot_side",
+		"3": "thaumicomniverse:block/create/andesite_casing",
+		"particle": "thaumicomniverse:block/create/andesite_casing"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 11, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 10.5, 0.5]},
+			"faces": {
+				"north": {"uv": [0, 5, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 5, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 5, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 5, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		}
+	]
+}
