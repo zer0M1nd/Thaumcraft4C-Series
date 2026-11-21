@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:THAUMOSTATICREFUELER",
+  "vis": {
+    "aer": 35,
+    "ordo": 20,
+    "ignis": 20
+  },
+  "pattern": [
+    "QIQ",
+    "ABA",
+    "QIQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "thaumcraft:air_shard"
+    },
+    "B": {
+      "item": "thaumcraft:essentia_tube"
+    }
+  },
+  "result": {
+    "item": "automagy:thaumostatic_pylon"
+  }
+}

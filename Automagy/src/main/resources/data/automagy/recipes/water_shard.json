@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:SLIVERS",
+  "ingredients": [
+    {
+      "item": "automagy:water_sliver"
+    },
+    {
+      "item": "automagy:water_sliver"
+    },
+    {
+      "item": "automagy:water_sliver"
+    },
+    {
+      "item": "automagy:water_sliver"
+    }
+  ],
+  "vis": {
+    "ordo": 2,
+    "aqua": 2
+  },
+  "result": {
+    "item": "thaumcraft:water_shard"
+  }
+}

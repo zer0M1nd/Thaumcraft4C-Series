@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:ENCHANTEDPAPER",
+  "vis": {
+    "ordo": 1
+  },
+  "ingredients": [
+    {
+      "item": "automagy:white_filter"
+    },
+    {
+      "item": "automagy:black_filter"
+    }
+  ],
+  "result": {
+    "item": "automagy:white_filter"
+  },
+  "result_transform": {
+    "type": "automagy:preserve_filter",
+    "copy": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_AUTOMAGY",
+          "category": "TUTORIAL",
+          "displayColumn": 51,
+          "displayRow": -3,
+          "parents": [
+            "TUT_ESSENTIA_LOGISTICS"
+          ],
+          "icon_item": {
+            "item": "automagy:redcrystal",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "automagy"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "automagy:REDSTONETHEORY",
+            "automagy:REDCRYSTAL",
+            "automagy:VISREADER",
+            "automagy:GREEDYCHEST",
+            "automagy:ESSENTIALOCUS",
+            "automagy:GOLEMWORKBENCH"
+          ],
+          "pageCount": 8
+        }
+      ]
+    }
+  ]
+}

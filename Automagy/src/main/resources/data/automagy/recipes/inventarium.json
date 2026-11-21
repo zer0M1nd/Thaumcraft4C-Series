@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:INVENTARIUM",
+  "instability": 4,
+  "aspects": {
+    "ordo": 40,
+    "cognitio": 24,
+    "sensus": 8,
+    "machina": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "automagy:order_crystal_brain"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "automagy:enchanted_paper"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:item_frame"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:chest"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "automagy:remote_comparator"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:inventarium"
+  }
+}

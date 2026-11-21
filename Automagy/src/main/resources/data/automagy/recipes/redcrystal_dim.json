@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:REDCRYSTAL_DIM",
+  "vis": {
+    "perditio": 2
+  },
+  "ingredients": [
+    {
+      "item": "automagy:redcrystal"
+    },
+    {
+      "item": "automagy:entropy_sliver"
+    },
+    {
+      "item": "automagy:redcrystal"
+    }
+  ],
+  "result": {
+    "item": "automagy:redcrystal_dim",
+    "count": 2
+  }
+}

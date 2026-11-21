@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:ENCHANTEDPAPER",
+  "vis": {
+    "aer": 7,
+    "ignis": 7,
+    "aqua": 7,
+    "terra": 7,
+    "ordo": 7,
+    "perditio": 7
+  },
+  "pattern": [
+    " B ",
+    "GSG",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "tag": "forge:slimeballs"
+    }
+  },
+  "result": {
+    "item": "automagy:enchanted_tome"
+  }
+}

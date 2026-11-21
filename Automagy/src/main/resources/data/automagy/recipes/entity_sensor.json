@@ -1,0 +1,60 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:ENTITYSIGNAL",
+  "instability": 1,
+  "aspects": {
+    "terra": 25,
+    "sensus": 15,
+    "victus": 15
+  },
+  "center": {
+    "ingredient": {
+      "item": "automagy:earth_crystal_brain"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:arcane_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "automagy:redcrystal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:arcane_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:egg"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:arcane_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:arcane_stone"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:entity_sensor"
+  }
+}

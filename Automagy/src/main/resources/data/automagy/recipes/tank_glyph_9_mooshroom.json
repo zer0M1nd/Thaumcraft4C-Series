@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:THIRSTYTANK_GLYPH",
+  "vis": {
+    "aqua": 3,
+    "terra": 15
+  },
+  "pattern": [
+    "i i",
+    "LiL",
+    "sME"
+  ],
+  "key": {
+    "i": {
+      "item": "automagy:aqua_ink"
+    },
+    "s": {
+      "item": "thaumcraft:arcane_stone_slab"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "M": {
+      "item": "minecraft:mushroom_stew"
+    },
+    "E": {
+      "type": "forge:partial_nbt",
+      "item": "automagy:entity_eye",
+      "nbt": "{EntityType:\"minecraft:mooshroom\"}"
+    }
+  },
+  "result": {
+    "item": "automagy:tank_glyph_9"
+  }
+}

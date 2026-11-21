@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:REDCRYSTAL_MIRRORBOUND",
+  "vis": {
+    "ignis": 5,
+    "ordo": 10,
+    "perditio": 5,
+    "aer": 10
+  },
+  "pattern": [
+    " O ",
+    "GRQ",
+    "SSS"
+  ],
+  "key": {
+    "O": {
+      "item": "thaumcraft:order_shard"
+    },
+    "G": {
+      "item": "thaumcraft:mirrored_glass"
+    },
+    "R": {
+      "item": "automagy:redcrystal_res"
+    },
+    "Q": {
+      "item": "thaumcraft:quicksilver"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "result": {
+    "item": "automagy:redcrystal_merc"
+  }
+}

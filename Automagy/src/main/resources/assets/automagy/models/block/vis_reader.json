@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "automagy:block/vis_reader_n",
+    "east": "automagy:block/vis_reader_e",
+    "south": "automagy:block/vis_reader_s",
+    "west": "automagy:block/vis_reader_w",
+    "up": "automagy:block/vis_reader_top",
+    "down": "automagy:block/vis_reader_btm",
+    "particle": "automagy:block/vis_reader_top"
+  }
+}

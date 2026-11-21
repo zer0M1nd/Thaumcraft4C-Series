@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:SLIVERS",
+  "ingredients": [
+    {
+      "item": "automagy:entropy_sliver"
+    },
+    {
+      "item": "automagy:entropy_sliver"
+    },
+    {
+      "item": "automagy:entropy_sliver"
+    },
+    {
+      "item": "automagy:entropy_sliver"
+    }
+  ],
+  "vis": {
+    "ordo": 2,
+    "perditio": 2
+  },
+  "result": {
+    "item": "thaumcraft:entropy_shard"
+  }
+}

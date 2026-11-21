@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:INVENTARIUM_DELIVERY",
+  "instability": 4,
+  "aspects": {
+    "ordo": 30,
+    "cognitio": 20,
+    "humanus": 20,
+    "spiritus": 20,
+    "lucrum": 8,
+    "machina": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "automagy:order_crystal_brain"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:arcane_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:silverwood_planks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:arcane_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "automagy:white_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:silverwood_planks"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:golem_taskmaster"
+  }
+}

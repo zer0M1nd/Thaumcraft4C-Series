@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:SLIVERS",
+  "vis": {
+    "ordo": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "item": "automagy:order_sliver"
+    }
+  ],
+  "result": {
+    "item": "automagy:inversion_torch"
+  }
+}

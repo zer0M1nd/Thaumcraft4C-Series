@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:INVENTARIUM_DELIVERY",
+  "vis": {
+    "terra": 10,
+    "aer": 10,
+    "ordo": 54
+  },
+  "pattern": [
+    " C ",
+    "WBA",
+    "EPE"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumcraft:primal_charm"
+    },
+    "W": {
+      "item": "automagy:white_filter"
+    },
+    "B": {
+      "item": "automagy:enchanted_tome"
+    },
+    "A": {
+      "item": "automagy:avarice_pearl"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "P": {
+      "item": "thaumcraft:arcane_pedestal"
+    }
+  },
+  "result": {
+    "item": "automagy:requisition_tome"
+  }
+}

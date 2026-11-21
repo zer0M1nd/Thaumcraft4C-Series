@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:AUTOHANDMIRROR",
+  "vis": {
+    "ordo": 54,
+    "aer": 25,
+    "perditio": 25
+  },
+  "pattern": [
+    " F ",
+    "tSt",
+    " H "
+  ],
+  "key": {
+    "F": {
+      "item": "automagy:finical_maw"
+    },
+    "t": {
+      "item": "thaumcraft:thaumium_nugget"
+    },
+    "S": {
+      "item": "thaumcraft:salis_mundus"
+    },
+    "H": {
+      "item": "thaumcraft:hand_mirror"
+    }
+  },
+  "result": {
+    "item": "automagy:auto_hand_mirror"
+  }
+}

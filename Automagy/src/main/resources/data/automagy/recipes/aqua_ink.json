@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:THIRSTYTANK_GLYPH",
+  "vis": {
+    "aqua": 1
+  },
+  "ingredients": [
+    {
+      "item": "automagy:water_sliver"
+    },
+    {
+      "item": "automagy:water_sliver"
+    },
+    {
+      "tag": "forge:slimeballs"
+    },
+    {
+      "tag": "forge:dyes/black"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    }
+  ],
+  "result": {
+    "item": "automagy:aqua_ink",
+    "count": 2
+  }
+}

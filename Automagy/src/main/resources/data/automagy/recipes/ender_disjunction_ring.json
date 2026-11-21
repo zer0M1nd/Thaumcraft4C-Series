@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:ENDERDISJUNCTION",
+  "instability": 4,
+  "aspects": {
+    "vinculum": 10,
+    "perditio": 15,
+    "alienis": 2,
+    "telum": 4
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_ring"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "automagy:avarice_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:string"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:tripwire_hook"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:string"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cobweb"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:ender_disjunction_ring"
+  }
+}

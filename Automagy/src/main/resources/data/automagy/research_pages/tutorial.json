@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_AUTOMAGY",
+      "pages": [
+        {
+          "id": "automagy:tut_addon_automagy/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.automagy.tut_addon_automagy.text.1",
+            "with": [
+              [
+                {
+                  "text": "自动化魔法是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "automagy:tut_addon_automagy/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.automagy.tut_addon_automagy.text.2",
+            "with": [
+              [
+                {
+                  "text": "顾名思义，它专注于神秘时代的"
+                },
+                {
+                  "text": "自动化",
+                  "bold": true
+                },
+                {
+                  "text": "：一种以魔力驱动的「红石」——红晶，物品和源质的物流设备，以及傀儡工作台等傀儡工具。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "automagy:tut_addon_automagy/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "automagy:tut_addon_automagy/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.automagy.tut_addon_automagy.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "automagy:tut_addon_automagy/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.automagy.tut_addon_automagy.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "automagy:REDSTONETHEORY"
+                },
+                {
+                  "text": "：红石学，自动解锁。\n· "
+                },
+                {
+                  "research": "automagy:REDCRYSTAL"
+                },
+                {
+                  "text": "：红晶，可放大、减弱、加密的红石信号。\n· "
+                },
+                {
+                  "research": "automagy:VISREADER"
+                },
+                {
+                  "text": "：要素读取器，读取罐子里的源质量输出红石信号（需要"
+                },
+                {
+                  "research": "DISTILESSENTIA"
+                },
+                {
+                  "text": "）。\n· "
+                },
+                {
+                  "research": "automagy:GREEDYCHEST"
+                },
+                {
+                  "text": "：贪婪箱子，饕餮箱子的进阶版。\n· "
+                },
+                {
+                  "research": "automagy:ESSENTIALOCUS"
+                },
+                {
+                  "text": "：源质聚核，隐藏研究。\n· "
+                },
+                {
+                  "research": "automagy:GOLEMWORKBENCH"
+                },
+                {
+                  "text": "：傀儡工作台，配合"
+                },
+                {
+                  "research": "TUT_GOLEM_FIRST"
+                },
+                {
+                  "text": "。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "automagy:tut_addon_automagy/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "automagy:tut_addon_automagy/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "automagy:tut_addon_automagy/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "automagy:REDSTONETHEORY",
+            "automagy:REDCRYSTAL",
+            "automagy:VISREADER",
+            "automagy:GREEDYCHEST",
+            "automagy:ESSENTIALOCUS",
+            "automagy:GOLEMWORKBENCH"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

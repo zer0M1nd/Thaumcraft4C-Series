@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:THIRSTYTANK_GLYPH",
+  "vis": {
+    "aqua": 3,
+    "ignis": 5
+  },
+  "pattern": [
+    " i ",
+    "iAi",
+    "sQ "
+  ],
+  "key": {
+    "i": {
+      "item": "automagy:aqua_ink"
+    },
+    "s": {
+      "item": "thaumcraft:arcane_stone_slab"
+    },
+    "A": {
+      "item": "automagy:avarice_pearl"
+    },
+    "Q": {
+      "item": "thaumcraft:quicksilver"
+    }
+  },
+  "result": {
+    "item": "automagy:tank_glyph_4"
+  }
+}

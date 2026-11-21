@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:TALLYBLOCK",
+  "vis": {
+    "aer": 2,
+    "terra": 2,
+    "ordo": 3
+  },
+  "pattern": [
+    " G ",
+    "WQW",
+    " WR"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "R": {
+      "item": "automagy:redcrystal"
+    }
+  },
+  "result": {
+    "item": "automagy:tally_inventory"
+  }
+}

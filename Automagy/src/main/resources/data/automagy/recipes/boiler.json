@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:ALCHEMYBOILER",
+  "vis": {
+    "aqua": 7,
+    "ignis": 5
+  },
+  "pattern": [
+    "ICI",
+    "IFI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "thaumcraft:crucible"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "automagy:boiler"
+  }
+}

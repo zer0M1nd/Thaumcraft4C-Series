@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:SLIVERS",
+  "ingredients": [
+    {
+      "item": "automagy:order_sliver"
+    },
+    {
+      "item": "automagy:order_sliver"
+    },
+    {
+      "item": "automagy:order_sliver"
+    },
+    {
+      "item": "automagy:order_sliver"
+    }
+  ],
+  "vis": {
+    "ordo": 4
+  },
+  "result": {
+    "item": "thaumcraft:order_shard"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "automagy:block/nether_rune_light"
+    },
+    "active=true": {
+      "model": "automagy:block/nether_rune_light_active"
+    }
+  }
+}

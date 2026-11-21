@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:ENCHANTEDPAPER",
+  "vis": {
+    "perditio": 2
+  },
+  "ingredients": [
+    {
+      "item": "automagy:enchanted_paper"
+    },
+    {
+      "tag": "forge:dyes/black"
+    }
+  ],
+  "result": {
+    "item": "automagy:black_filter"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:GOLEMWORKBENCH",
+  "instability": 3,
+  "aspects": {
+    "fabrico": 10,
+    "humanus": 5,
+    "ordo": 5
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "automagy:white_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:chest"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:golem_workbench"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:NETHERRUNE_WISP",
+  "vis": {
+    "ignis": 40,
+    "aer": 20,
+    "perditio": 10
+  },
+  "pattern": [
+    "DSs",
+    "ERE",
+    "sSD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "s": {
+      "item": "thaumcraft:salis_mundus"
+    },
+    "E": {
+      "item": "thaumcraft:wisp_essence",
+      "type": "forge:partial_nbt",
+      "nbt": "{Aspects:[{key:\"ignis\",amount:2}]}"
+    },
+    "R": {
+      "item": "automagy:runed_obsidian"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "result": {
+    "item": "automagy:nether_rune_wisp"
+  }
+}

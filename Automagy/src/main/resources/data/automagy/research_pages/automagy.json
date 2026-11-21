@@ -1,0 +1,4018 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "automagy:REDSTONETHEORY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDSTONETHEORY.1"
+          },
+          "id": "automagy:REDSTONETHEORY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDSTONETHEORY.2"
+          },
+          "id": "automagy:REDSTONETHEORY/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDSTONETHEORY.3"
+          },
+          "id": "automagy:REDSTONETHEORY/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:inversion_torch"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:inversion_torch",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:REDSTONETHEORY/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDSTONETHEORY.4"
+          },
+          "id": "automagy:REDSTONETHEORY/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "net.minecraftforge.oredict.ShapedOreRecipe",
+            "keys": [
+              "automagy:hourglass"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:hourglass",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:REDSTONETHEORY/page/6",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDSTONETHEORY.5"
+          },
+          "id": "automagy:REDSTONETHEORY/page/7",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:SLIVERS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:SLIVERS.1"
+          },
+          "id": "automagy:SLIVERS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:air_sliver"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:air_sliver",
+            "count": 4,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:SLIVERS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:fire_sliver"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:fire_sliver",
+            "count": 4,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:SLIVERS/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:water_sliver"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:water_sliver",
+            "count": 4,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:SLIVERS/page/4",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:earth_sliver"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:earth_sliver",
+            "count": 4,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:SLIVERS/page/5",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:order_sliver"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:order_sliver",
+            "count": 4,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:SLIVERS/page/6",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:entropy_sliver"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:entropy_sliver",
+            "count": 4,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:SLIVERS/page/7",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:air_shard"
+            ]
+          },
+          "recipeOutput": {
+            "item": "thaumcraft:air_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:SLIVERS/page/8",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:fire_shard"
+            ]
+          },
+          "recipeOutput": {
+            "item": "thaumcraft:fire_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:SLIVERS/page/9",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:water_shard"
+            ]
+          },
+          "recipeOutput": {
+            "item": "thaumcraft:water_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:SLIVERS/page/10",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:earth_shard"
+            ]
+          },
+          "recipeOutput": {
+            "item": "thaumcraft:earth_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:SLIVERS/page/11",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:order_shard"
+            ]
+          },
+          "recipeOutput": {
+            "item": "thaumcraft:order_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:SLIVERS/page/12",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:entropy_shard"
+            ]
+          },
+          "recipeOutput": {
+            "item": "thaumcraft:entropy_shard",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:SLIVERS/page/13",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:REDCRYSTAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDCRYSTAL.1"
+          },
+          "id": "automagy:REDCRYSTAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:redcrystal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:redcrystal",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:REDCRYSTAL/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDCRYSTAL.2"
+          },
+          "id": "automagy:REDCRYSTAL/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:MAGICHOURGLASS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MAGICHOURGLASS.1"
+          },
+          "id": "automagy:MAGICHOURGLASS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:magic_hourglass"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:magic_hourglass",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:MAGICHOURGLASS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MAGICHOURGLASS.2"
+          },
+          "id": "automagy:MAGICHOURGLASS/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MAGICHOURGLASS.3"
+          },
+          "id": "automagy:MAGICHOURGLASS/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:REDCRYSTAL_AMP",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDCRYSTAL_AMP.1"
+          },
+          "id": "automagy:REDCRYSTAL_AMP/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:redcrystal_amp"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:redcrystal_amp",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:REDCRYSTAL_AMP/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:REDCRYSTAL_DIM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDCRYSTAL_DIM.1"
+          },
+          "id": "automagy:REDCRYSTAL_DIM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:redcrystal_dim"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:redcrystal_dim",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:REDCRYSTAL_DIM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:REDCRYSTAL_DENSE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDCRYSTAL_DENSE.1"
+          },
+          "id": "automagy:REDCRYSTAL_DENSE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:redcrystal_dense"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:redcrystal_dense",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:REDCRYSTAL_DENSE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:REDCRYSTAL_RES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDCRYSTAL_RES.1"
+          },
+          "id": "automagy:REDCRYSTAL_RES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:redcrystal_res"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:redcrystal_res",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:REDCRYSTAL_RES/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDCRYSTAL_RES.2"
+          },
+          "id": "automagy:REDCRYSTAL_RES/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:REMOTECOMPARATOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REMOTECOMPARATOR.1"
+          },
+          "id": "automagy:REMOTECOMPARATOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:remote_comparator"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:remote_comparator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:REMOTECOMPARATOR/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REMOTECOMPARATOR.2"
+          },
+          "id": "automagy:REMOTECOMPARATOR/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:crystal_eye"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:crystal_eye",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:REMOTECOMPARATOR/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:VISREADER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:VISREADER.1"
+          },
+          "id": "automagy:VISREADER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:vis_reader"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:vis_reader",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:VISREADER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:VISREADER.2"
+          },
+          "id": "automagy:VISREADER/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:VISREADER.3"
+          },
+          "id": "automagy:VISREADER/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:VISREADER.4"
+          },
+          "id": "automagy:VISREADER/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:VISREADER.5"
+          },
+          "id": "automagy:VISREADER/page/6",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:CRYSTALBRAIN",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:CRYSTALBRAIN.1"
+          },
+          "id": "automagy:CRYSTALBRAIN/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:air_crystal_brain"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:air_crystal_brain",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:CRYSTALBRAIN/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:fire_crystal_brain"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:fire_crystal_brain",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:CRYSTALBRAIN/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:water_crystal_brain"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:water_crystal_brain",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:CRYSTALBRAIN/page/4",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:earth_crystal_brain"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:earth_crystal_brain",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:CRYSTALBRAIN/page/5",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:order_crystal_brain"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:order_crystal_brain",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:CRYSTALBRAIN/page/6",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:entropy_crystal_brain"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:entropy_crystal_brain",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:CRYSTALBRAIN/page/7",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:ENTITYSIGNAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ENTITYSIGNAL.1"
+          },
+          "id": "automagy:ENTITYSIGNAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:entity_sensor"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:entity_sensor",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ENTITYSIGNAL/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ENTITYSIGNAL.2"
+          },
+          "id": "automagy:ENTITYSIGNAL/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ENTITYSIGNAL.3"
+          },
+          "id": "automagy:ENTITYSIGNAL/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:entity_eye"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:entity_eye",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ENTITYSIGNAL/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:ENCHANTEDPAPER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ENCHANTEDPAPER.1"
+          },
+          "id": "automagy:ENCHANTEDPAPER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:enchanted_paper"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:enchanted_paper",
+            "count": 4,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ENCHANTEDPAPER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ENCHANTEDPAPER.2"
+          },
+          "id": "automagy:ENCHANTEDPAPER/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:white_filter"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:white_filter",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ENCHANTEDPAPER/page/4",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:black_filter"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:black_filter",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ENCHANTEDPAPER/page/5",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ENCHANTEDPAPER.3"
+          },
+          "id": "automagy:ENCHANTEDPAPER/page/6",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:enchanted_tome"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:enchanted_tome",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ENCHANTEDPAPER/page/7",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:enchanted_tome_alternate"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:enchanted_tome",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ENCHANTEDPAPER/page/8",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:greatwood_bookshelf"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:greatwood_bookshelf",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ENCHANTEDPAPER/page/9",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:filter_to_white"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:white_filter",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ENCHANTEDPAPER/page/10",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:filter_to_black"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:black_filter",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ENCHANTEDPAPER/page/11",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:TALLYBLOCK",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:TALLYBLOCK.1"
+          },
+          "id": "automagy:TALLYBLOCK/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tally_inventory"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tally_inventory",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:TALLYBLOCK/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:TALLYBLOCK.2"
+          },
+          "id": "automagy:TALLYBLOCK/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:TALLYBLOCK_LENS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:TALLYBLOCK_LENS.1"
+          },
+          "id": "automagy:TALLYBLOCK_LENS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tally_lens_blank"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tally_lens_blank",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:TALLYBLOCK_LENS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:tally_lens_world"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tally_lens_world",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:TALLYBLOCK_LENS/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:tally_lens_drops"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tally_lens_drops",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:TALLYBLOCK_LENS/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:TENACIOUSCHEST",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:TENACIOUSCHEST.1"
+          },
+          "id": "automagy:TENACIOUSCHEST/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tenacious_chest"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tenacious_chest",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:TENACIOUSCHEST/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:TENACIOUSCHEST.2"
+          },
+          "id": "automagy:TENACIOUSCHEST/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:GREEDYCHEST",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:GREEDYCHEST.1"
+          },
+          "id": "automagy:GREEDYCHEST/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:avarice_pearl"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:avarice_pearl",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:GREEDYCHEST/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:GREEDYCHEST.2"
+          },
+          "id": "automagy:GREEDYCHEST/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:greedy_chest"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:greedy_chest",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:GREEDYCHEST/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:GREEDYCHEST.3"
+          },
+          "id": "automagy:GREEDYCHEST/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:EAGERCHEST",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:EAGERCHEST.1"
+          },
+          "id": "automagy:EAGERCHEST/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:mercatus_amalgam"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:mercatus_amalgam",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:EAGERCHEST/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:EAGERCHEST.2"
+          },
+          "id": "automagy:EAGERCHEST/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:eager_chest"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:eager_chest",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:EAGERCHEST/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:AVARICIOUS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:AVARICIOUS.1"
+          },
+          "id": "automagy:AVARICIOUS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:shattered_avarice_pearl"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:shattered_avarice_pearl",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:AVARICIOUS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:AVARICIOUS.2"
+          },
+          "id": "automagy:AVARICIOUS/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:AVARICIOUS.3"
+          },
+          "id": "automagy:AVARICIOUS/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:misers_pearl"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:misers_pearl",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:AVARICIOUS/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:HUNGRYMAW",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:HUNGRYMAW.1"
+          },
+          "id": "automagy:HUNGRYMAW/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "guide.automagy.maw.crafting"
+          },
+          "id": "automagy:HUNGRYMAW/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:HUNGRYMAW.2"
+          },
+          "id": "automagy:HUNGRYMAW/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:FINICALMAW",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:FINICALMAW.1"
+          },
+          "id": "automagy:FINICALMAW/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:finical_maw"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:finical_maw",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:FINICALMAW/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "guide.automagy.maw.filter"
+          },
+          "id": "automagy:FINICALMAW/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:INVENTARIUM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM.1"
+          },
+          "id": "automagy:INVENTARIUM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:inventarium"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:inventarium",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:INVENTARIUM/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM.2"
+          },
+          "id": "automagy:INVENTARIUM/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "guide.automagy.inventarium.structure"
+          },
+          "id": "automagy:INVENTARIUM/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM.3"
+          },
+          "id": "automagy:INVENTARIUM/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:unseen_scribe"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:unseen_scribe",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:INVENTARIUM/page/6",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM.4"
+          },
+          "id": "automagy:INVENTARIUM/page/7",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM.5"
+          },
+          "id": "automagy:INVENTARIUM/page/8",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "guide.automagy.inventarium.view"
+          },
+          "id": "automagy:INVENTARIUM/page/9",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:INVENTARIUM_POINTER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM_POINTER.1"
+          },
+          "id": "automagy:INVENTARIUM_POINTER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:scribe_pointer"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:scribe_pointer",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:INVENTARIUM_POINTER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM_POINTER.2"
+          },
+          "id": "automagy:INVENTARIUM_POINTER/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:INVENTARIUM_EXTRA",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM_EXTRA.1"
+          },
+          "id": "automagy:INVENTARIUM_EXTRA/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:silverwood_bookshelf"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:silverwood_bookshelf",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:INVENTARIUM_EXTRA/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:NITORLIGHT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NITORLIGHT.1"
+          },
+          "id": "automagy:NITORLIGHT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:glowing_amber"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:glowing_amber",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NITORLIGHT/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:glowing_amber_bricks"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:glowing_amber_bricks",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NITORLIGHT/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:GOLEMINHIBITOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:GOLEMINHIBITOR.1"
+          },
+          "id": "automagy:GOLEMINHIBITOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:golem_inhibitor"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:golem_inhibitor",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:GOLEMINHIBITOR/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:GOLEMLINKER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:GOLEMLINKER.1"
+          },
+          "id": "automagy:GOLEMLINKER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:golem_linker"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:golem_linker",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:GOLEMLINKER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:GOLEMLINKER.2"
+          },
+          "id": "automagy:GOLEMLINKER/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:INVENTARIUM_DELIVERY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM_DELIVERY.1"
+          },
+          "id": "automagy:INVENTARIUM_DELIVERY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:golem_taskmaster"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:golem_taskmaster",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:INVENTARIUM_DELIVERY/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM_DELIVERY.2"
+          },
+          "id": "automagy:INVENTARIUM_DELIVERY/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:amber_memory"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:amber_memory",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:INVENTARIUM_DELIVERY/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM_DELIVERY.3"
+          },
+          "id": "automagy:INVENTARIUM_DELIVERY/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM_DELIVERY.4"
+          },
+          "id": "automagy:INVENTARIUM_DELIVERY/page/6",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM_DELIVERY.5"
+          },
+          "id": "automagy:INVENTARIUM_DELIVERY/page/7",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:requisition_tome"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:requisition_tome",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:INVENTARIUM_DELIVERY/page/8",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:INVENTARIUM_DELIVERY.6"
+          },
+          "id": "automagy:INVENTARIUM_DELIVERY/page/9",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "guide.automagy.requisition.delivery"
+          },
+          "id": "automagy:INVENTARIUM_DELIVERY/page/10",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:AUTOHANDMIRROR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:AUTOHANDMIRROR.1"
+          },
+          "id": "automagy:AUTOHANDMIRROR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:auto_hand_mirror"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:auto_hand_mirror",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:AUTOHANDMIRROR/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:AUTOHANDMIRROR.2"
+          },
+          "id": "automagy:AUTOHANDMIRROR/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:REDCRYSTAL_MIRRORBOUND",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDCRYSTAL_MIRRORBOUND.1"
+          },
+          "id": "automagy:REDCRYSTAL_MIRRORBOUND/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:redcrystal_merc"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:redcrystal_merc",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:REDCRYSTAL_MIRRORBOUND/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:REDCRYSTAL_MIRRORBOUND.2"
+          },
+          "id": "automagy:REDCRYSTAL_MIRRORBOUND/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:ESSENTIALOCUS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ESSENTIALOCUS.1"
+          },
+          "id": "automagy:ESSENTIALOCUS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:essentia_locus"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:essentia_locus",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ESSENTIALOCUS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ESSENTIALOCUS.2"
+          },
+          "id": "automagy:ESSENTIALOCUS/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "guide.automagy.locus.structure"
+          },
+          "id": "automagy:ESSENTIALOCUS/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ESSENTIALOCUS.3"
+          },
+          "id": "automagy:ESSENTIALOCUS/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:ESSENTIALOCUSAGGREGATOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ESSENTIALOCUSAGGREGATOR.1"
+          },
+          "id": "automagy:ESSENTIALOCUSAGGREGATOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:locus_aggregator"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:locus_aggregator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ESSENTIALOCUSAGGREGATOR/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ESSENTIALOCUSAGGREGATOR.2"
+          },
+          "id": "automagy:ESSENTIALOCUSAGGREGATOR/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:THIRSTYTANK",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:THIRSTYTANK.1"
+          },
+          "id": "automagy:THIRSTYTANK/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:thirsty_tank"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:thirsty_tank",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THIRSTYTANK/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:THIRSTYTANK.2"
+          },
+          "id": "automagy:THIRSTYTANK/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:THIRSTYTANK_GLYPH",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:THIRSTYTANK_GLYPH.1"
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:aqua_ink"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:aqua_ink",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:THIRSTYTANK_GLYPH.2"
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:THIRSTYTANK_GLYPH.3"
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tank_glyph_1"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tank_glyph_1",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH/page/5",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tank_glyph_2"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tank_glyph_2",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH/page/6",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tank_glyph_3"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tank_glyph_3",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH/page/7",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tank_glyph_4"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tank_glyph_4",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH/page/8",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tank_glyph_5"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tank_glyph_5",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH/page/9",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tank_glyph_6"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tank_glyph_6",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH/page/10",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tank_glyph_7"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tank_glyph_7",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH/page/11",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tank_glyph_8"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tank_glyph_8",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH/page/12",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:THIRSTYTANK_GLYPH_BOVINE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:THIRSTYTANK_GLYPH_BOVINE.1"
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH_BOVINE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tank_glyph_9_cow"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tank_glyph_9",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH_BOVINE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:tank_glyph_9_mooshroom"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:tank_glyph_9",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THIRSTYTANK_GLYPH_BOVINE/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:GOLEMWORKBENCH",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:GOLEMWORKBENCH.1"
+          },
+          "id": "automagy:GOLEMWORKBENCH/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:golem_workbench"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:golem_workbench",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:GOLEMWORKBENCH/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:GOLEMWORKBENCH.2"
+          },
+          "id": "automagy:GOLEMWORKBENCH/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:GOLEMWORKBENCH_UPGRADE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:GOLEMWORKBENCH_UPGRADE.1"
+          },
+          "id": "automagy:GOLEMWORKBENCH_UPGRADE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:workbench_upgrade_0"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:workbench_upgrade_0",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:GOLEMWORKBENCH_UPGRADE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:GOLEMWORKBENCH_UPGRADE.2"
+          },
+          "id": "automagy:GOLEMWORKBENCH_UPGRADE/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:workbench_upgrade_1"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:workbench_upgrade_1",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:GOLEMWORKBENCH_UPGRADE/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:GOLEMWORKBENCH_UPGRADE.3"
+          },
+          "id": "automagy:GOLEMWORKBENCH_UPGRADE/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:workbench_upgrade_3"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:workbench_upgrade_3",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:GOLEMWORKBENCH_UPGRADE/page/6",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:workbench_upgrade_5"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:workbench_upgrade_5",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:GOLEMWORKBENCH_UPGRADE/page/7",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:MOBLURE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MOBLURE.1"
+          },
+          "id": "automagy:MOBLURE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:mob_lure"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:mob_lure",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:MOBLURE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MOBLURE.2"
+          },
+          "id": "automagy:MOBLURE/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MOBLURE.3"
+          },
+          "id": "automagy:MOBLURE/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MOBLURE.4"
+          },
+          "id": "automagy:MOBLURE/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:THAUMOSTATICREFUELER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:THAUMOSTATICREFUELER.1"
+          },
+          "id": "automagy:THAUMOSTATICREFUELER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:thaumostatic_pylon"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:thaumostatic_pylon",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THAUMOSTATICREFUELER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:THAUMOSTATICREFUELER.2"
+          },
+          "id": "automagy:THAUMOSTATICREFUELER/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:thaumostatic_controller"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:thaumostatic_controller",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:THAUMOSTATICREFUELER/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:THAUMOSTATICREFUELER.3"
+          },
+          "id": "automagy:THAUMOSTATICREFUELER/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "automagy.page.thaumostatic_structure"
+          },
+          "aspects": [],
+          "id": "automagy:THAUMOSTATICREFUELER/page/6",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:THAUMOSTATICREFUELER.4"
+          },
+          "id": "automagy:THAUMOSTATICREFUELER/page/7",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:NETHERMIND",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERMIND.1"
+          },
+          "id": "automagy:NETHERMIND/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:runed_obsidian"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:runed_obsidian",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERMIND/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapelessArcaneRecipe",
+            "keys": [
+              "automagy:runed_obsidian_tile"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:runed_obsidian",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERMIND/page/3",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:nethermind"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nethermind",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERMIND/page/4",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERMIND.2"
+          },
+          "id": "automagy:NETHERMIND/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "automagy.page.nethermind_structure"
+          },
+          "aspects": [],
+          "id": "automagy:NETHERMIND/page/6",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERMIND.3"
+          },
+          "id": "automagy:NETHERMIND/page/7",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERMIND.4"
+          },
+          "id": "automagy:NETHERMIND/page/8",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_rock"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_rock",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERMIND/page/9",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERMIND.5"
+          },
+          "id": "automagy:NETHERMIND/page/10",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_lava"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_lava",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERMIND/page/11",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:NETHERRUNE_CRYSTAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERRUNE_CRYSTAL.1"
+          },
+          "id": "automagy:NETHERRUNE_CRYSTAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_crystal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_crystal",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERRUNE_CRYSTAL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:NETHERRUNE_SOUL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERRUNE_SOUL.1"
+          },
+          "id": "automagy:NETHERRUNE_SOUL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_soul"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_soul",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERRUNE_SOUL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:NETHERRUNE_LIGHT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERRUNE_LIGHT.1"
+          },
+          "id": "automagy:NETHERRUNE_LIGHT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_light"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_light",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERRUNE_LIGHT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:NETHERRUNE_CELERITY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERRUNE_CELERITY.1"
+          },
+          "id": "automagy:NETHERRUNE_CELERITY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_celerity"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_celerity",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERRUNE_CELERITY/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:DIMENSIONLURE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:DIMENSIONLURE.1"
+          },
+          "id": "automagy:DIMENSIONLURE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:dimension_lure"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:dimension_lure",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:DIMENSIONLURE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:dimension_lure_book"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:dimension_lure",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:DIMENSIONLURE/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:DIMENSIONLURE.2"
+          },
+          "id": "automagy:DIMENSIONLURE/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "automagy.page.dimension_lure_structure"
+          },
+          "aspects": [],
+          "id": "automagy:DIMENSIONLURE/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:DIMENSIONLURE.3"
+          },
+          "id": "automagy:DIMENSIONLURE/page/6",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:DIMENSIONLURE.4"
+          },
+          "id": "automagy:DIMENSIONLURE/page/7",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:DIMENSIONLURE.5"
+          },
+          "id": "automagy:DIMENSIONLURE/page/8",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_blaze"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_blaze",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:DIMENSIONLURE/page/9",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:DIMENSIONLURE.6"
+          },
+          "id": "automagy:DIMENSIONLURE/page/10",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:NETHERRUNE_ZOMBIE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERRUNE_ZOMBIE.1"
+          },
+          "id": "automagy:NETHERRUNE_ZOMBIE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_zombie"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_zombie",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERRUNE_ZOMBIE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:NETHERRUNE_GHAST",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERRUNE_GHAST.1"
+          },
+          "id": "automagy:NETHERRUNE_GHAST/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_ghast"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_ghast",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERRUNE_GHAST/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERRUNE_GHAST.2"
+          },
+          "id": "automagy:NETHERRUNE_GHAST/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:NETHERRUNE_SKELETON",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERRUNE_SKELETON.1"
+          },
+          "id": "automagy:NETHERRUNE_SKELETON/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_skeleton"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_skeleton",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERRUNE_SKELETON/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:NETHERRUNE_SLIME",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERRUNE_SLIME.1"
+          },
+          "id": "automagy:NETHERRUNE_SLIME/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_slime"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_slime",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERRUNE_SLIME/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:NETHERRUNE_BAT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERRUNE_BAT.1"
+          },
+          "id": "automagy:NETHERRUNE_BAT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_bat"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_bat",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERRUNE_BAT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:NETHERRUNE_WISP",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERRUNE_WISP.1"
+          },
+          "id": "automagy:NETHERRUNE_WISP/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:nether_rune_wisp"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:nether_rune_wisp",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:NETHERRUNE_WISP/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:NETHERRUNE_WISP.2"
+          },
+          "id": "automagy:NETHERRUNE_WISP/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:AMNESIASTONE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:AMNESIASTONE.1"
+          },
+          "id": "automagy:AMNESIASTONE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:amnesiac_stone"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:amnesiac_stone",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:AMNESIASTONE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:AMNESIASTONE.2"
+          },
+          "id": "automagy:AMNESIASTONE/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:XPSTONE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:XPSTONE.1"
+          },
+          "id": "automagy:XPSTONE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:experience_stone"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:experience_stone",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:XPSTONE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:XPSTONE.2"
+          },
+          "id": "automagy:XPSTONE/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:XPSTONE.3"
+          },
+          "id": "automagy:XPSTONE/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:XPSTONE.4"
+          },
+          "id": "automagy:XPSTONE/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:ALCHEMYBOILER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ALCHEMYBOILER.1"
+          },
+          "id": "automagy:ALCHEMYBOILER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:boiler"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:boiler",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ALCHEMYBOILER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:ENDERDISJUNCTION",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:ENDERDISJUNCTION.1"
+          },
+          "id": "automagy:ENDERDISJUNCTION/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:ender_disjunction_ring"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:ender_disjunction_ring",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:ENDERDISJUNCTION/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:MIRRORINPUT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MIRRORINPUT.1"
+          },
+          "id": "automagy:MIRRORINPUT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:melding_mirror"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:melding_mirror",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:MIRRORINPUT/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MIRRORINPUT.2"
+          },
+          "id": "automagy:MIRRORINPUT/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MIRRORINPUT.3"
+          },
+          "id": "automagy:MIRRORINPUT/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:conflux_disc"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:conflux_disc",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:MIRRORINPUT/page/5",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.CrucibleRecipe",
+            "keys": [
+              "automagy:duplicate_conflux_disc"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:conflux_disc",
+            "count": 2,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:MIRRORINPUT/page/6",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "guide.automagy.mirrors"
+          },
+          "id": "automagy:MIRRORINPUT/page/7",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:MIRRORMULTIDEST",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MIRRORMULTIDEST.1"
+          },
+          "id": "automagy:MIRRORMULTIDEST/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "keys": [
+              "automagy:multi_dest_mirror"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:multi_dest_mirror",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:MIRRORMULTIDEST/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MIRRORMULTIDEST.2"
+          },
+          "id": "automagy:MIRRORMULTIDEST/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:MIRRORMULTIDEST.3"
+          },
+          "id": "automagy:MIRRORMULTIDEST/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "guide.automagy.mirrors"
+          },
+          "id": "automagy:MIRRORMULTIDEST/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:FOCUSCRAFTING",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "guide.automagy.focus.open"
+          },
+          "id": "automagy:FOCUSCRAFTING/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
+            "keys": [
+              "automagy:crafting_focus"
+            ]
+          },
+          "recipeOutput": {
+            "item": "automagy:crafting_focus",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "id": "automagy:FOCUSCRAFTING/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:FOCUSCRAFTING.2"
+          },
+          "id": "automagy:FOCUSCRAFTING/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:FOCUSCRAFTING_UPGRADE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:FOCUSCRAFTING_UPGRADE.1"
+          },
+          "id": "automagy:FOCUSCRAFTING_UPGRADE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.automagy:FOCUSCRAFTING_UPGRADE.2"
+          },
+          "id": "automagy:FOCUSCRAFTING_UPGRADE/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:ENTROPICREFINING",
+      "pages": [
+        {
+          "aspects": [],
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.automagy:ENTROPICREFINING.1"
+          },
+          "id": "automagy:ENTROPICREFINING/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "aspects": [],
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "automagy:refining/air"
+            ],
+            "class": "thaumcraft.api.crafting.CrucibleRecipe"
+          },
+          "id": "automagy:ENTROPICREFINING/page/2",
+          "page_break": true
+        },
+        {
+          "aspects": [],
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "automagy:refining/fire"
+            ],
+            "class": "thaumcraft.api.crafting.CrucibleRecipe"
+          },
+          "id": "automagy:ENTROPICREFINING/page/3",
+          "page_break": true
+        },
+        {
+          "aspects": [],
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "automagy:refining/water"
+            ],
+            "class": "thaumcraft.api.crafting.CrucibleRecipe"
+          },
+          "id": "automagy:ENTROPICREFINING/page/4",
+          "page_break": true
+        },
+        {
+          "aspects": [],
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "automagy:refining/earth"
+            ],
+            "class": "thaumcraft.api.crafting.CrucibleRecipe"
+          },
+          "id": "automagy:ENTROPICREFINING/page/5",
+          "page_break": true
+        },
+        {
+          "aspects": [],
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "automagy:refining/order"
+            ],
+            "class": "thaumcraft.api.crafting.CrucibleRecipe"
+          },
+          "id": "automagy:ENTROPICREFINING/page/6",
+          "page_break": true
+        },
+        {
+          "aspects": [],
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "automagy:refining/entropy"
+            ],
+            "class": "thaumcraft.api.crafting.CrucibleRecipe"
+          },
+          "id": "automagy:ENTROPICREFINING/page/7",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "automagy:ADVNODEJAR",
+      "pages": [
+        {
+          "aspects": [],
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.automagy:ADVNODEJAR.1"
+          },
+          "id": "automagy:ADVNODEJAR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "aspects": [],
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.automagy:ADVNODEJAR.2"
+          },
+          "id": "automagy:ADVNODEJAR/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "aspects": [],
+          "type": "COMPOUND_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "automagy:advanced_node_jarring"
+            ],
+            "class": "java.util.Arrays$ArrayList"
+          },
+          "id": "automagy:ADVNODEJAR/page/3",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

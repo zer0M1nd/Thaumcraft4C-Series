@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "automagy:models/brain_order"
+    },
+    {
+      "type": "single",
+      "resource": "automagy:models/brain_water"
+    },
+    {
+      "type": "single",
+      "resource": "automagy:models/golem_inhibitor"
+    },
+    {
+      "type": "single",
+      "resource": "automagy:models/golem_taskmaster"
+    },
+    {
+      "type": "single",
+      "resource": "automagy:models/golem_workbench"
+    },
+    {
+      "type": "single",
+      "resource": "automagy:models/requisition_stand"
+    },
+    {
+      "type": "single",
+      "resource": "automagy:models/scribe_pointer"
+    },
+    {
+      "type": "single",
+      "resource": "automagy:models/scribe_table"
+    },
+    {
+      "type": "single",
+      "resource": "automagy:models/thaumostaticcontroller"
+    },
+    {
+      "type": "single",
+      "resource": "automagy:models/thaumostaticpylon"
+    },
+    {
+      "type": "single",
+      "resource": "automagy:models/thaumostaticspire"
+    },
+    {
+      "type": "single",
+      "resource": "automagy:models/thirsty_tank"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "automagy:item/crafting_focus_depth",
+      "sprite": "automagy:item/crafting_focus_depth"
+    }
+  ]
+}

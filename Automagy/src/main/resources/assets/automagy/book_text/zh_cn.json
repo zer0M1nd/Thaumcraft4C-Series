@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "languages": [
+    "zh_cn"
+  ],
+  "patches": [
+    {
+      "keys": [
+        "Automagy.research_page.DIMENSIONLURE.5"
+      ],
+      "find": "(无消耗那种",
+      "replace": "（无消耗），那种",
+      "count": 1
+    },
+    {
+      "keys": [
+        "Automagy.research_page.NETHERRUNE_CELERITY.1",
+        "tc.research_page.automagy:NETHERRUNE_CELERITY.1"
+      ],
+      "find": "减少.12",
+      "replace": "减少。12",
+      "count": 1
+    }
+  ]
+}

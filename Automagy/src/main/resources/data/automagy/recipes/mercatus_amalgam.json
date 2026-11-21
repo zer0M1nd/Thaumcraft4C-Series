@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:EAGERCHEST",
+  "vis": {
+    "ordo": 2,
+    "perditio": 2
+  },
+  "pattern": [
+    "P",
+    "Q",
+    "B"
+  ],
+  "key": {
+    "P": {
+      "item": "automagy:shattered_avarice_pearl"
+    },
+    "Q": {
+      "item": "thaumcraft:quicksilver"
+    },
+    "B": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "automagy:mercatus_amalgam"
+  }
+}

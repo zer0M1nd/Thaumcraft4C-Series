@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:VISREADER",
+  "vis": {
+    "aer": 3,
+    "ignis": 3,
+    "aqua": 3,
+    "terra": 3,
+    "ordo": 3,
+    "perditio": 3
+  },
+  "pattern": [
+    " T ",
+    "SQS",
+    " SR"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumometer"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "R": {
+      "item": "automagy:redcrystal"
+    }
+  },
+  "result": {
+    "item": "automagy:vis_reader"
+  }
+}

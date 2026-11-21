@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:ENCHANTEDPAPER",
+  "vis": {
+    "aer": 1,
+    "ignis": 1,
+    "aqua": 1,
+    "terra": 1,
+    "ordo": 1,
+    "perditio": 1
+  },
+  "pattern": [
+    "gPg",
+    "PgP",
+    "gPg"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_nugget"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "automagy:enchanted_paper",
+    "count": 4
+  }
+}

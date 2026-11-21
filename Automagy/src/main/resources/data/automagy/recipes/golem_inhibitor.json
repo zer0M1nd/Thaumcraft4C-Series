@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:GOLEMINHIBITOR",
+  "vis": {
+    "perditio": 15,
+    "ordo": 5,
+    "aer": 5,
+    "ignis": 5
+  },
+  "pattern": [
+    "ABQ",
+    "TIT",
+    "IRI"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:air_shard"
+    },
+    "B": {
+      "item": "automagy:entropy_crystal_brain"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "automagy:redcrystal_amp"
+    }
+  },
+  "result": {
+    "item": "automagy:golem_inhibitor"
+  }
+}

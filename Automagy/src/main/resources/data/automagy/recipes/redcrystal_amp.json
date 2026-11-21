@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:REDCRYSTAL_AMP",
+  "vis": {
+    "ignis": 2
+  },
+  "ingredients": [
+    {
+      "item": "automagy:redcrystal"
+    },
+    {
+      "item": "automagy:fire_sliver"
+    },
+    {
+      "item": "automagy:redcrystal"
+    }
+  ],
+  "result": {
+    "item": "automagy:redcrystal_amp",
+    "count": 2
+  }
+}

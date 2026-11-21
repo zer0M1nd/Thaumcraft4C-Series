@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:SLIVERS",
+  "ingredients": [
+    {
+      "item": "automagy:air_sliver"
+    },
+    {
+      "item": "automagy:air_sliver"
+    },
+    {
+      "item": "automagy:air_sliver"
+    },
+    {
+      "item": "automagy:air_sliver"
+    }
+  ],
+  "vis": {
+    "ordo": 2,
+    "aer": 2
+  },
+  "result": {
+    "item": "thaumcraft:air_shard"
+  }
+}

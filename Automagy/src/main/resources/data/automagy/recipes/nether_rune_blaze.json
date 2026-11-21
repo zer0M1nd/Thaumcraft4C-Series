@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:DIMENSIONLURE",
+  "vis": {
+    "ignis": 25,
+    "aer": 10
+  },
+  "pattern": [
+    "PSF",
+    "BRB",
+    "FSP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:blaze_powder"
+    },
+    "F": {
+      "item": "automagy:fire_sliver"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "R": {
+      "item": "automagy:runed_obsidian"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "result": {
+    "item": "automagy:nether_rune_blaze"
+  }
+}

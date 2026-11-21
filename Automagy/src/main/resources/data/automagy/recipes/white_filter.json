@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:ENCHANTEDPAPER",
+  "vis": {
+    "ordo": 2
+  },
+  "ingredients": [
+    {
+      "item": "automagy:enchanted_paper"
+    },
+    {
+      "tag": "forge:dyes/white"
+    }
+  ],
+  "result": {
+    "item": "automagy:white_filter"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "automagy:block/amber_memory"
+    },
+    "active=true": {
+      "model": "automagy:block/amber_memory_active"
+    }
+  }
+}

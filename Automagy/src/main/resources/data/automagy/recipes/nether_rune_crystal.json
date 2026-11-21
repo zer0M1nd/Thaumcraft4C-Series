@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:NETHERRUNE_CRYSTAL",
+  "vis": {
+    "ignis": 30,
+    "terra": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "FSD",
+    "QRQ",
+    "DSO"
+  ],
+  "key": {
+    "F": {
+      "item": "thaumcraft:fire_shard"
+    },
+    "O": {
+      "item": "thaumcraft:order_shard"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "R": {
+      "item": "automagy:runed_obsidian"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "result": {
+    "item": "automagy:nether_rune_crystal"
+  }
+}

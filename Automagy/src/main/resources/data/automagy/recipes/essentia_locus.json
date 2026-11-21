@@ -1,0 +1,42 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "automagy:ESSENTIALOCUS",
+  "instability": 4,
+  "aspects": {
+    "aqua": 32,
+    "praecantatio": 24,
+    "sensus": 16,
+    "cognitio": 8,
+    "ordo": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "automagy:water_crystal_brain"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:vis_filter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:goggles"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_resonator"
+      }
+    }
+  ],
+  "result": {
+    "item": "automagy:essentia_locus"
+  }
+}

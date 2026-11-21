@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "automagy:SLIVERS",
+  "ingredients": [
+    {
+      "item": "automagy:fire_sliver"
+    },
+    {
+      "item": "automagy:fire_sliver"
+    },
+    {
+      "item": "automagy:fire_sliver"
+    },
+    {
+      "item": "automagy:fire_sliver"
+    }
+  ],
+  "vis": {
+    "ordo": 2,
+    "ignis": 2
+  },
+  "result": {
+    "item": "thaumcraft:fire_shard"
+  }
+}

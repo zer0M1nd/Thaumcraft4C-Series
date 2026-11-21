@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:GOLEMWORKBENCH_UPGRADE",
+  "vis": {
+    "terra": 15
+  },
+  "pattern": [
+    "VTN",
+    "TGT",
+    "RTQ"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "N": {
+      "item": "thaumcraft:nitor"
+    },
+    "G": {
+      "item": "thaumcraft:golem_upgrade_earth"
+    },
+    "V": {
+      "item": "minecraft:vine"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result": {
+    "item": "automagy:workbench_upgrade_3"
+  }
+}

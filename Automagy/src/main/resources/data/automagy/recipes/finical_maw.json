@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "automagy:FINICALMAW",
+  "vis": {
+    "ordo": 10,
+    "aer": 4,
+    "perditio": 4,
+    "terra": 4
+  },
+  "pattern": [
+    " Io",
+    "IMI",
+    "oI "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "automagy:hungry_maw"
+    },
+    "o": {
+      "item": "automagy:order_sliver"
+    }
+  },
+  "result": {
+    "item": "automagy:finical_maw"
+  }
+}

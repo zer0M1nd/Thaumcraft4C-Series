@@ -1,0 +1,2353 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "AUTOMAGY",
+      "icon": "automagy:textures/gui/research_icon.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "automagy:REDSTONETHEORY",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "minecraft:redstone",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 0,
+          "displayRow": 0,
+          "pageCount": 7,
+          "complexity": 0,
+          "aspects": [],
+          "isAutoUnlock": true,
+          "isRound": true,
+          "isSecondary": false,
+          "parents": []
+        },
+        {
+          "key": "automagy:SLIVERS",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:air_sliver",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -1,
+          "displayRow": -2,
+          "pageCount": 13,
+          "complexity": 0,
+          "aspects": [],
+          "isAutoUnlock": true,
+          "isRound": true,
+          "isSecondary": false,
+          "parents": []
+        },
+        {
+          "key": "automagy:REDCRYSTAL",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:redcrystal",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 0,
+          "displayRow": 2,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "potentia",
+              "amount": 2
+            },
+            {
+              "aspect": "vitreus",
+              "amount": 2
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:REDSTONETHEORY"
+          ],
+          "siblings": [
+            "automagy:REDCRYSTAL_AMP",
+            "automagy:REDCRYSTAL_DIM",
+            "automagy:REDCRYSTAL_DENSE"
+          ]
+        },
+        {
+          "key": "automagy:MAGICHOURGLASS",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:magic_hourglass",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -3,
+          "displayRow": 1,
+          "pageCount": 4,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "machina",
+              "amount": 2
+            },
+            {
+              "aspect": "potentia",
+              "amount": 2
+            },
+            {
+              "aspect": "motus",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:REDCRYSTAL"
+          ]
+        },
+        {
+          "key": "automagy:REDCRYSTAL_AMP",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:redcrystal_amp",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -2,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "potentia",
+              "amount": 1
+            },
+            {
+              "aspect": "machina",
+              "amount": 1
+            },
+            {
+              "aspect": "vitreus",
+              "amount": 1
+            },
+            {
+              "aspect": "ignis",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": true,
+          "isSecondary": false,
+          "parents": [
+            "automagy:REDCRYSTAL"
+          ],
+          "isConcealed": true,
+          "isStub": true
+        },
+        {
+          "key": "automagy:REDCRYSTAL_DIM",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:redcrystal_dim",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 2,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "potentia",
+              "amount": 1
+            },
+            {
+              "aspect": "machina",
+              "amount": 1
+            },
+            {
+              "aspect": "vitreus",
+              "amount": 1
+            },
+            {
+              "aspect": "perditio",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": true,
+          "isSecondary": false,
+          "parents": [
+            "automagy:REDCRYSTAL"
+          ],
+          "isConcealed": true,
+          "isStub": true
+        },
+        {
+          "key": "automagy:REDCRYSTAL_DENSE",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:redcrystal_dense",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 0,
+          "displayRow": 4,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "potentia",
+              "amount": 1
+            },
+            {
+              "aspect": "machina",
+              "amount": 1
+            },
+            {
+              "aspect": "vitreus",
+              "amount": 1
+            },
+            {
+              "aspect": "terra",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": true,
+          "isSecondary": false,
+          "parents": [
+            "automagy:REDCRYSTAL"
+          ],
+          "isConcealed": true,
+          "isStub": true
+        },
+        {
+          "key": "automagy:REDCRYSTAL_RES",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:redcrystal_res",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -3,
+          "displayRow": 5,
+          "pageCount": 3,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "potentia",
+              "amount": 4
+            },
+            {
+              "aspect": "machina",
+              "amount": 3
+            },
+            {
+              "aspect": "vitreus",
+              "amount": 2
+            },
+            {
+              "aspect": "aer",
+              "amount": 8
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [],
+          "isConcealed": true,
+          "parentsHidden": [
+            "automagy:REDCRYSTAL"
+          ]
+        },
+        {
+          "key": "automagy:REMOTECOMPARATOR",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:remote_comparator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 3,
+          "displayRow": 1,
+          "pageCount": 4,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "potentia",
+              "amount": 2
+            },
+            {
+              "aspect": "machina",
+              "amount": 2
+            },
+            {
+              "aspect": "sensus",
+              "amount": 4
+            },
+            {
+              "aspect": "aer",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:REDCRYSTAL"
+          ]
+        },
+        {
+          "key": "automagy:VISREADER",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:vis_reader",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 3,
+          "displayRow": -1,
+          "pageCount": 6,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "sensus",
+              "amount": 5
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 5
+            },
+            {
+              "aspect": "auram",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:REMOTECOMPARATOR",
+            "DISTILESSENTIA"
+          ]
+        },
+        {
+          "key": "automagy:CRYSTALBRAIN",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:air_crystal_brain",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 7,
+          "displayRow": -1,
+          "pageCount": 7,
+          "complexity": 3,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 5
+            },
+            {
+              "aspect": "aqua",
+              "amount": 1
+            },
+            {
+              "aspect": "aer",
+              "amount": 1
+            },
+            {
+              "aspect": "ordo",
+              "amount": 1
+            },
+            {
+              "aspect": "vitreus",
+              "amount": 5
+            },
+            {
+              "aspect": "ignis",
+              "amount": 1
+            },
+            {
+              "aspect": "terra",
+              "amount": 1
+            },
+            {
+              "aspect": "perditio",
+              "amount": 1
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:REMOTECOMPARATOR"
+          ]
+        },
+        {
+          "key": "automagy:ENTITYSIGNAL",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:entity_sensor",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 9,
+          "displayRow": -4,
+          "pageCount": 5,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "terra",
+              "amount": 10
+            },
+            {
+              "aspect": "sensus",
+              "amount": 5
+            },
+            {
+              "aspect": "victus",
+              "amount": 5
+            },
+            {
+              "aspect": "bestia",
+              "amount": 3
+            },
+            {
+              "aspect": "spiritus",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:CRYSTALBRAIN"
+          ],
+          "isHidden": true,
+          "itemTriggers": [
+            {
+              "item": "automagy:earth_crystal_brain",
+              "count": 1,
+              "metadata": 0,
+              "damageable": false
+            }
+          ]
+        },
+        {
+          "key": "automagy:ENCHANTEDPAPER",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:enchanted_paper",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 5,
+          "displayRow": 7,
+          "pageCount": 11,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "ordo",
+              "amount": 5
+            },
+            {
+              "aspect": "cognitio",
+              "amount": 3
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:GREEDYCHEST"
+          ]
+        },
+        {
+          "key": "automagy:TALLYBLOCK",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:tally_inventory",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 5,
+          "displayRow": 2,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "sensus",
+              "amount": 3
+            },
+            {
+              "aspect": "potentia",
+              "amount": 3
+            },
+            {
+              "aspect": "ordo",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:REMOTECOMPARATOR",
+            "automagy:ENCHANTEDPAPER"
+          ]
+        },
+        {
+          "key": "automagy:TALLYBLOCK_LENS",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:tally_lens_world",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 6,
+          "displayRow": 1,
+          "pageCount": 4,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "sensus",
+              "amount": 3
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 2
+            },
+            {
+              "aspect": "perfodio",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:TALLYBLOCK"
+          ]
+        },
+        {
+          "key": "automagy:TENACIOUSCHEST",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:tenacious_chest",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 6,
+          "displayRow": 11,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "lucrum",
+              "amount": 3
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:AVARICIOUS"
+          ]
+        },
+        {
+          "key": "automagy:GREEDYCHEST",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:greedy_chest",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 3,
+          "displayRow": 8,
+          "pageCount": 5,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "lucrum",
+              "amount": 5
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 3
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "HUNGRYCHEST"
+          ]
+        },
+        {
+          "key": "automagy:EAGERCHEST",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:eager_chest",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 6,
+          "displayRow": 9,
+          "pageCount": 4,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "permutatio",
+              "amount": 5
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 3
+            },
+            {
+              "aspect": "humanus",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:AVARICIOUS",
+            "automagy:ENCHANTEDPAPER"
+          ]
+        },
+        {
+          "key": "automagy:AVARICIOUS",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:misers_pearl",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 4,
+          "displayRow": 10,
+          "pageCount": 5,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "lucrum",
+              "amount": 2
+            },
+            {
+              "aspect": "ordo",
+              "amount": 1
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:GREEDYCHEST"
+          ],
+          "isHidden": true
+        },
+        {
+          "key": "automagy:HUNGRYMAW",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:hungry_maw",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 1,
+          "displayRow": 6,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "fames",
+              "amount": 5
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 3
+            },
+            {
+              "aspect": "tenebrae",
+              "amount": 3
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "HUNGRYCHEST",
+            "FOCUSPORTABLEHOLE"
+          ]
+        },
+        {
+          "key": "automagy:FINICALMAW",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:finical_maw",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 3,
+          "displayRow": 6,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "fames",
+              "amount": 8
+            },
+            {
+              "aspect": "ordo",
+              "amount": 8
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 5
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:HUNGRYMAW",
+            "automagy:ENCHANTEDPAPER"
+          ]
+        },
+        {
+          "key": "automagy:INVENTARIUM",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:unseen_scribe",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 8,
+          "displayRow": 3,
+          "pageCount": 9,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "sensus",
+              "amount": 5
+            },
+            {
+              "aspect": "cognitio",
+              "amount": 5
+            },
+            {
+              "aspect": "ordo",
+              "amount": 5
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:CRYSTALBRAIN",
+            "automagy:TALLYBLOCK"
+          ],
+          "isHidden": true,
+          "parentsHidden": [
+            "VISPOWER"
+          ],
+          "itemTriggers": [
+            {
+              "item": "automagy:order_crystal_brain",
+              "count": 1,
+              "metadata": 0,
+              "damageable": false
+            }
+          ],
+          "siblings": [
+            "automagy:INVENTARIUM_EXTRA"
+          ]
+        },
+        {
+          "key": "automagy:INVENTARIUM_POINTER",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:scribe_pointer",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 7,
+          "displayRow": 4,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "sensus",
+              "amount": 5
+            },
+            {
+              "aspect": "vitreus",
+              "amount": 3
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:INVENTARIUM"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "automagy:INVENTARIUM_EXTRA",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:silverwood_bookshelf",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 10,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 5
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": true,
+          "isSecondary": false,
+          "parents": [
+            "automagy:INVENTARIUM"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "automagy:NITORLIGHT",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:glowing_amber",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -5,
+          "displayRow": 0,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "lux",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [],
+          "parentsHidden": [
+            "NITOR"
+          ]
+        },
+        {
+          "key": "automagy:GOLEMINHIBITOR",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:golem_inhibitor",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 6,
+          "displayRow": -5,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 5
+            },
+            {
+              "aspect": "vinculum",
+              "amount": 8
+            },
+            {
+              "aspect": "machina",
+              "amount": 4
+            },
+            {
+              "aspect": "spiritus",
+              "amount": 2
+            },
+            {
+              "aspect": "humanus",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:CRYSTALBRAIN"
+          ],
+          "isHidden": true,
+          "parentsHidden": [
+            "GOLEMFETTER",
+            "THAUMIUM"
+          ],
+          "itemTriggers": [
+            {
+              "item": "automagy:entropy_crystal_brain",
+              "count": 1,
+              "metadata": 0,
+              "damageable": false
+            }
+          ]
+        },
+        {
+          "key": "automagy:GOLEMLINKER",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:golem_linker",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 7,
+          "displayRow": -5,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "ordo",
+              "amount": 8
+            },
+            {
+              "aspect": "humanus",
+              "amount": 4
+            },
+            {
+              "aspect": "spiritus",
+              "amount": 4
+            },
+            {
+              "aspect": "instrumentum",
+              "amount": 4
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:GOLEMINHIBITOR"
+          ],
+          "isConcealed": true,
+          "parentsHidden": [
+            "INFUSION",
+            "UPGRADEORDER",
+            "GOLEMBELL"
+          ]
+        },
+        {
+          "key": "automagy:INVENTARIUM_DELIVERY",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:requisition_tome",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 10,
+          "displayRow": 5,
+          "pageCount": 10,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "lucrum",
+              "amount": 5
+            },
+            {
+              "aspect": "humanus",
+              "amount": 3
+            },
+            {
+              "aspect": "cognitio",
+              "amount": 5
+            },
+            {
+              "aspect": "spiritus",
+              "amount": 3
+            },
+            {
+              "aspect": "ordo",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:INVENTARIUM"
+          ],
+          "isConcealed": true,
+          "parentsHidden": [
+            "automagy:GOLEMLINKER",
+            "automagy:GOLEMINHIBITOR",
+            "automagy:NITORLIGHT"
+          ]
+        },
+        {
+          "key": "automagy:AUTOHANDMIRROR",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:auto_hand_mirror",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 4,
+          "displayRow": 4,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "fames",
+              "amount": 8
+            },
+            {
+              "aspect": "ordo",
+              "amount": 8
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 5
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:FINICALMAW"
+          ],
+          "isConcealed": true,
+          "parentsHidden": [
+            "MIRRORHAND"
+          ]
+        },
+        {
+          "key": "automagy:REDCRYSTAL_MIRRORBOUND",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:redcrystal_merc",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -5,
+          "displayRow": 4,
+          "pageCount": 3,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "iter",
+              "amount": 8
+            },
+            {
+              "aspect": "potentia",
+              "amount": 5
+            },
+            {
+              "aspect": "tenebrae",
+              "amount": 3
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 5
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:REDCRYSTAL_RES"
+          ],
+          "isConcealed": true,
+          "parentsHidden": [
+            "MIRROR"
+          ]
+        },
+        {
+          "key": "automagy:ESSENTIALOCUS",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:essentia_locus",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 4,
+          "displayRow": -3,
+          "pageCount": 5,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 5
+            },
+            {
+              "aspect": "aqua",
+              "amount": 10
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 8
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:CRYSTALBRAIN",
+            "automagy:VISREADER"
+          ],
+          "isHidden": true,
+          "parentsHidden": [
+            "TUBES",
+            "GOGGLES"
+          ],
+          "itemTriggers": [
+            {
+              "item": "automagy:water_crystal_brain",
+              "count": 1,
+              "metadata": 0,
+              "damageable": false
+            }
+          ]
+        },
+        {
+          "key": "automagy:ESSENTIALOCUSAGGREGATOR",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:locus_aggregator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 2,
+          "displayRow": -4,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "praecantatio",
+              "amount": 5
+            },
+            {
+              "aspect": "limus",
+              "amount": 5
+            },
+            {
+              "aspect": "iter",
+              "amount": 5
+            },
+            {
+              "aspect": "tenebrae",
+              "amount": 5
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:ESSENTIALOCUS"
+          ],
+          "isConcealed": true,
+          "parentsHidden": [
+            "MIRRORESSENTIA",
+            "JARVOID"
+          ]
+        },
+        {
+          "key": "automagy:THIRSTYTANK",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:thirsty_tank",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 0,
+          "displayRow": 9,
+          "pageCount": 3,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "fames",
+              "amount": 8
+            },
+            {
+              "aspect": "aqua",
+              "amount": 5
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 3
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:GREEDYCHEST"
+          ]
+        },
+        {
+          "key": "automagy:THIRSTYTANK_GLYPH",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:aqua_ink",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -1,
+          "displayRow": 8,
+          "pageCount": 12,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "fames",
+              "amount": 3
+            },
+            {
+              "aspect": "aqua",
+              "amount": 3
+            },
+            {
+              "aspect": "machina",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:THIRSTYTANK"
+          ],
+          "parentsHidden": [
+            "automagy:AVARICIOUS"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "automagy:THIRSTYTANK_GLYPH_BOVINE",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:tank_glyph_9",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -2,
+          "displayRow": 8,
+          "pageCount": 3,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "fames",
+              "amount": 2
+            },
+            {
+              "aspect": "aqua",
+              "amount": 2
+            },
+            {
+              "aspect": "bestia",
+              "amount": 3
+            },
+            {
+              "aspect": "messis",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:THIRSTYTANK_GLYPH"
+          ],
+          "parentsHidden": [
+            "automagy:ENTITYSIGNAL"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "automagy:GOLEMWORKBENCH",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:golem_workbench",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 7,
+          "displayRow": 6,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "fabrico",
+              "amount": 8
+            },
+            {
+              "aspect": "ordo",
+              "amount": 3
+            },
+            {
+              "aspect": "humanus",
+              "amount": 5
+            },
+            {
+              "aspect": "spiritus",
+              "amount": 5
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:ENCHANTEDPAPER"
+          ],
+          "parentsHidden": [
+            "COREEMPTY"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "automagy:GOLEMWORKBENCH_UPGRADE",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:workbench_upgrade_0",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 8,
+          "displayRow": 6,
+          "pageCount": 7,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "fabrico",
+              "amount": 5
+            },
+            {
+              "aspect": "humanus",
+              "amount": 1
+            },
+            {
+              "aspect": "spiritus",
+              "amount": 1
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:GOLEMWORKBENCH"
+          ],
+          "isConcealed": true,
+          "parentsHidden": [
+            "UPGRADEAIR",
+            "UPGRADEEARTH",
+            "UPGRADEFIRE",
+            "UPGRADEWATER",
+            "UPGRADEORDER",
+            "UPGRADEENTROPY"
+          ]
+        },
+        {
+          "key": "automagy:MOBLURE",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:mob_lure",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 12,
+          "displayRow": -4,
+          "pageCount": 5,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "ignis",
+              "amount": 5
+            },
+            {
+              "aspect": "cognitio",
+              "amount": 5
+            },
+            {
+              "aspect": "fames",
+              "amount": 5
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:NETHERMIND"
+          ],
+          "parentsHidden": [
+            "automagy:CRYSTALBRAIN"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "automagy:THAUMOSTATICREFUELER",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:thaumostatic_spire",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 10,
+          "displayRow": 1,
+          "pageCount": 7,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 5
+            },
+            {
+              "aspect": "aer",
+              "amount": 5
+            },
+            {
+              "aspect": "volatus",
+              "amount": 5
+            },
+            {
+              "aspect": "potentia",
+              "amount": 5
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:CRYSTALBRAIN"
+          ],
+          "isHidden": true,
+          "itemTriggers": [
+            {
+              "item": "automagy:air_crystal_brain",
+              "count": 1,
+              "metadata": 0,
+              "damageable": false
+            }
+          ],
+          "parentsHidden": [
+            "HOVERHARNESS",
+            "VISPOWER",
+            "THAUMIUM",
+            "DISTILESSENTIA"
+          ]
+        },
+        {
+          "key": "automagy:NETHERMIND",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:nethermind",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 11,
+          "displayRow": -2,
+          "pageCount": 11,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 5
+            },
+            {
+              "aspect": "ignis",
+              "amount": 10
+            },
+            {
+              "aspect": "alienis",
+              "amount": 5
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 5
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:CRYSTALBRAIN"
+          ],
+          "isHidden": true,
+          "itemTriggers": [
+            {
+              "item": "automagy:fire_crystal_brain",
+              "count": 1,
+              "metadata": 0,
+              "damageable": false
+            }
+          ],
+          "parentsHidden": [
+            "automagy:GREEDYCHEST",
+            "VISPOWER",
+            "DISTILESSENTIA"
+          ]
+        },
+        {
+          "key": "automagy:NETHERRUNE_CRYSTAL",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:nether_rune_crystal",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 13,
+          "displayRow": -2,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "vitreus",
+              "amount": 9
+            },
+            {
+              "aspect": "potentia",
+              "amount": 6
+            },
+            {
+              "aspect": "terra",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:NETHERMIND"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "automagy:NETHERRUNE_SOUL",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:nether_rune_soul",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 13,
+          "displayRow": -1,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "spiritus",
+              "amount": 9
+            },
+            {
+              "aspect": "vinculum",
+              "amount": 3
+            },
+            {
+              "aspect": "terra",
+              "amount": 3
+            },
+            {
+              "aspect": "perditio",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:NETHERMIND"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "automagy:NETHERRUNE_LIGHT",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:nether_rune_light",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 13,
+          "displayRow": 0,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "lux",
+              "amount": 9
+            },
+            {
+              "aspect": "sensus",
+              "amount": 6
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:NETHERMIND"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "automagy:NETHERRUNE_CELERITY",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:nether_rune_celerity",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 12,
+          "displayRow": 0,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "alienis",
+              "amount": 9
+            },
+            {
+              "aspect": "iter",
+              "amount": 6
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:NETHERMIND"
+          ],
+          "isConcealed": true,
+          "parentsHidden": [
+            "automagy:GREEDYCHEST"
+          ]
+        },
+        {
+          "key": "automagy:DIMENSIONLURE",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:dimension_lure",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 11,
+          "displayRow": -6,
+          "pageCount": 10,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "ignis",
+              "amount": 5
+            },
+            {
+              "aspect": "alienis",
+              "amount": 5
+            },
+            {
+              "aspect": "fames",
+              "amount": 5
+            },
+            {
+              "aspect": "iter",
+              "amount": 5
+            },
+            {
+              "aspect": "vinculum",
+              "amount": 5
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:MOBLURE",
+            "automagy:ENTITYSIGNAL"
+          ],
+          "isConcealed": true,
+          "parentsHidden": [
+            "automagy:NETHERMIND"
+          ]
+        },
+        {
+          "key": "automagy:NETHERRUNE_ZOMBIE",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:nether_rune_zombie",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 10,
+          "displayRow": -8,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "vinculum",
+              "amount": 3
+            },
+            {
+              "aspect": "lucrum",
+              "amount": 3
+            },
+            {
+              "aspect": "cognitio",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:DIMENSIONLURE"
+          ],
+          "isHidden": true,
+          "parentsHidden": [
+            "TALLOW"
+          ]
+        },
+        {
+          "key": "automagy:NETHERRUNE_GHAST",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:nether_rune_ghast",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 11,
+          "displayRow": -8,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "vinculum",
+              "amount": 3
+            },
+            {
+              "aspect": "spiritus",
+              "amount": 3
+            },
+            {
+              "aspect": "exanimis",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:DIMENSIONLURE"
+          ],
+          "isHidden": true
+        },
+        {
+          "key": "automagy:NETHERRUNE_SKELETON",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:nether_rune_skeleton",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 12,
+          "displayRow": -8,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "vinculum",
+              "amount": 3
+            },
+            {
+              "aspect": "mortuus",
+              "amount": 3
+            },
+            {
+              "aspect": "telum",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:DIMENSIONLURE"
+          ],
+          "isHidden": true
+        },
+        {
+          "key": "automagy:NETHERRUNE_SLIME",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:nether_rune_slime",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 13,
+          "displayRow": -7,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "vinculum",
+              "amount": 3
+            },
+            {
+              "aspect": "limus",
+              "amount": 3
+            },
+            {
+              "aspect": "ignis",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:DIMENSIONLURE"
+          ],
+          "isHidden": true
+        },
+        {
+          "key": "automagy:NETHERRUNE_BAT",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:nether_rune_bat",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 13,
+          "displayRow": -6,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "vinculum",
+              "amount": 3
+            },
+            {
+              "aspect": "bestia",
+              "amount": 3
+            },
+            {
+              "aspect": "ignis",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:DIMENSIONLURE"
+          ],
+          "isHidden": true
+        },
+        {
+          "key": "automagy:NETHERRUNE_WISP",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:nether_rune_wisp",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 13,
+          "displayRow": -8,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "vinculum",
+              "amount": 3
+            },
+            {
+              "aspect": "auram",
+              "amount": 3
+            },
+            {
+              "aspect": "ignis",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:DIMENSIONLURE"
+          ],
+          "isHidden": true
+        },
+        {
+          "key": "automagy:AMNESIASTONE",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:amnesiac_stone",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 5,
+          "displayRow": -7,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 5
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 5
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:GOLEMINHIBITOR",
+            "JARBRAIN"
+          ],
+          "parentsHidden": [
+            "automagy:CRYSTALBRAIN"
+          ],
+          "isConcealed": true
+        },
+        {
+          "key": "automagy:XPSTONE",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:experience_stone",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 4,
+          "displayRow": -7,
+          "pageCount": 5,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "cognitio",
+              "amount": 2
+            },
+            {
+              "aspect": "terra",
+              "amount": 2
+            },
+            {
+              "aspect": "perditio",
+              "amount": 2
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:AMNESIASTONE"
+          ],
+          "warp": 1
+        },
+        {
+          "key": "automagy:ALCHEMYBOILER",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:boiler",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -2,
+          "displayRow": 11,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "praecantatio",
+              "amount": 2
+            },
+            {
+              "aspect": "aqua",
+              "amount": 5
+            },
+            {
+              "aspect": "limus",
+              "amount": 2
+            },
+            {
+              "aspect": "ignis",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [],
+          "parentsHidden": [
+            "DISTILESSENTIA"
+          ]
+        },
+        {
+          "key": "automagy:ENDERDISJUNCTION",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:ender_disjunction_ring",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 2,
+          "displayRow": 11,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "perditio",
+              "amount": 4
+            },
+            {
+              "aspect": "vinculum",
+              "amount": 5
+            },
+            {
+              "aspect": "alienis",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [
+            "automagy:AVARICIOUS"
+          ],
+          "isConcealed": true,
+          "parentsHidden": [
+            "automagy:GREEDYCHEST"
+          ]
+        },
+        {
+          "key": "automagy:MIRRORINPUT",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:melding_mirror",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 9,
+          "displayRow": 8,
+          "pageCount": 7,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "iter",
+              "amount": 4
+            },
+            {
+              "aspect": "alienis",
+              "amount": 2
+            },
+            {
+              "aspect": "tenebrae",
+              "amount": 2
+            },
+            {
+              "aspect": "sensus",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [],
+          "isConcealed": true,
+          "parentsHidden": [
+            "MIRROR",
+            "VOIDMETAL",
+            "automagy:REMOTECOMPARATOR"
+          ]
+        },
+        {
+          "key": "automagy:MIRRORMULTIDEST",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:multi_dest_mirror",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 10,
+          "displayRow": 6,
+          "pageCount": 5,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "iter",
+              "amount": 2
+            },
+            {
+              "aspect": "alienis",
+              "amount": 2
+            },
+            {
+              "aspect": "tenebrae",
+              "amount": 2
+            },
+            {
+              "aspect": "cognitio",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:MIRRORINPUT",
+            "automagy:INVENTARIUM_DELIVERY"
+          ]
+        },
+        {
+          "key": "automagy:FOCUSCRAFTING",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:crafting_focus",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -4,
+          "displayRow": 7,
+          "pageCount": 3,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "fabrico",
+              "amount": 5
+            },
+            {
+              "aspect": "praecantatio",
+              "amount": 5
+            },
+            {
+              "aspect": "instrumentum",
+              "amount": 2
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "parents": [],
+          "parentsHidden": [
+            "FOCUSFIRE"
+          ]
+        },
+        {
+          "key": "automagy:FOCUSCRAFTING_UPGRADE",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:crafting_focus",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -5,
+          "displayRow": 8,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": [
+            {
+              "aspect": "fabrico",
+              "amount": 3
+            },
+            {
+              "aspect": "vacuos",
+              "amount": 3
+            },
+            {
+              "aspect": "alienis",
+              "amount": 3
+            },
+            {
+              "aspect": "permutatio",
+              "amount": 3
+            }
+          ],
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "parents": [
+            "automagy:FOCUSCRAFTING"
+          ],
+          "isConcealed": true,
+          "parentsHidden": [
+            "FOCALMANIPULATION"
+          ]
+        },
+        {
+          "key": "automagy:ENTROPICREFINING",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "automagy:air_sliver",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -5,
+          "displayRow": -2,
+          "complexity": 1,
+          "pageCount": 7,
+          "parentsHidden": [
+            "ENTROPICPROCESSING"
+          ],
+          "aspects": [
+            {
+              "aspect": "praecantatio",
+              "amount": 1
+            },
+            {
+              "aspect": "perditio",
+              "amount": 3
+            },
+            {
+              "aspect": "perfodio",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "key": "automagy:ADVNODEJAR",
+          "category": "AUTOMAGY",
+          "icon_item": {
+            "item": "thaumcraft:node_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -7,
+          "displayRow": 6,
+          "complexity": 3,
+          "pageCount": 3,
+          "parentsHidden": [
+            "NODEJAR",
+            "FOCUSWARDING",
+            "WARDEDARCANA"
+          ],
+          "aspects": [
+            {
+              "aspect": "auram",
+              "amount": 7
+            },
+            {
+              "aspect": "lucrum",
+              "amount": 4
+            },
+            {
+              "aspect": "ordo",
+              "amount": 4
+            },
+            {
+              "aspect": "iter",
+              "amount": 4
+            }
+          ],
+          "isSpecial": true,
+          "isConcealed": true
+        }
+      ]
+    }
+  ]
+}
