@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+issueTrackerURL="https://github.com/zer0M1nd/Thaumcraft4C-Series/issues"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/warptheory/index.html"
+updateJSONURL="http://tc4c.zer0m1nd.me/forge-updates/warptheory.json"
+modId="warptheory"
+version="${version}"
+displayName="Warp Theory"
+authors="zer0M1nd"
+credits="Original Warp Theory by Shukaro and thegreatunclean."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Gain warp from forbidden research and face new apparitions, afflictions and unpredictable events.
+
+-------- Original release --------
+Original credits: All the contributors'''
+
+[[dependencies.warptheory]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.13,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.warptheory]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.warptheory]]
+modId="curios"
+mandatory=true
+versionRange="[5,)"
+ordering="AFTER"
+side="BOTH"

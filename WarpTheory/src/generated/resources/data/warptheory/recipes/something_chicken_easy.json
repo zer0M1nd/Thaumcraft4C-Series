@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft:crucible",
+  "aspects": {
+    "alienis": 8
+  },
+  "catalyst": {
+    "item": "minecraft:chicken"
+  },
+  "conditions": [
+    {
+      "type": "warptheory:easy_recipes",
+      "easy": true
+    }
+  ],
+  "research": "warptheory:WARPSOMETHING",
+  "result": {
+    "item": "warptheory:something"
+  }
+}

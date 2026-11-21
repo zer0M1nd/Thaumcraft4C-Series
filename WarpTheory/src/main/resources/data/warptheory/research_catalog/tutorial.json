@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_WARPTHEORY",
+          "category": "TUTORIAL",
+          "displayColumn": 66,
+          "displayRow": 3,
+          "parents": [
+            "TUT_WARP"
+          ],
+          "icon_item": {
+            "item": "warptheory:pure_tear",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "warptheory"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "warptheory:WARPPAPER",
+            "warptheory:WARPSOMETHING",
+            "warptheory:WARPCLEANSER",
+            "warptheory:WARPAMULET"
+          ],
+          "pageCount": 8
+        }
+      ]
+    }
+  ]
+}

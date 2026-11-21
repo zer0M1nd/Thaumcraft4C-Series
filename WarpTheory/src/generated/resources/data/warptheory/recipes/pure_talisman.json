@@ -1,0 +1,66 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 32,
+    "permutatio": 32,
+    "praecantatio": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_amulet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "warptheory:pure_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "warptheory:pure_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "warptheory:easy_recipes",
+      "easy": false
+    }
+  ],
+  "instability": 10,
+  "research": "warptheory:WARPAMULET",
+  "result": {
+    "item": "warptheory:pure_talisman"
+  }
+}

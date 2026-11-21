@@ -1,0 +1,588 @@
+{
+  "entries": [
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 16,
+          "permutatio": 16
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:ghast_tear"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:quartz"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:ghast_tear"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:quartz"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:nether_star"
+          }
+        },
+        "instability": 5,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:pure_tear"
+          }
+        },
+        "research": "warptheory:WARPCLEANSER"
+      },
+      "key": "warptheory:pure_tear"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 32,
+          "permutatio": 32,
+          "praecantatio": 64
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "warptheory:pure_tear"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "warptheory:pure_tear"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:mundane_amulet"
+          }
+        },
+        "instability": 10,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:pure_talisman"
+          }
+        },
+        "research": "warptheory:WARPAMULET"
+      },
+      "key": "warptheory:pure_talisman"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 16,
+          "permutatio": 8
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:chicken"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:something"
+          }
+        },
+        "research": "warptheory:WARPSOMETHING"
+      },
+      "key": "warptheory:something_chicken"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 16,
+          "permutatio": 8
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:beef"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:something"
+          }
+        },
+        "research": "warptheory:WARPSOMETHING"
+      },
+      "key": "warptheory:something_beef"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 16,
+          "permutatio": 8
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:porkchop"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:something"
+          }
+        },
+        "research": "warptheory:WARPSOMETHING"
+      },
+      "key": "warptheory:something_porkchop"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 16,
+          "permutatio": 8
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:cod"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:something"
+          }
+        },
+        "research": "warptheory:WARPSOMETHING"
+      },
+      "key": "warptheory:something_cod"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aqua": 8
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:paper"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:litmus_paper"
+          }
+        },
+        "research": "warptheory:WARPPAPER"
+      },
+      "key": "warptheory:litmus_paper"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 16,
+          "permutatio": 16
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:quartz"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:quartz"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:ghast_tear"
+          }
+        },
+        "instability": 5,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:pure_tear"
+          }
+        },
+        "research": "warptheory:WARPCLEANSER"
+      },
+      "key": "warptheory:pure_tear_easy"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 32,
+          "permutatio": 32,
+          "praecantatio": 64
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "warptheory:pure_tear"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "warptheory:pure_tear"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:gold_ingot"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "thaumcraft:mundane_amulet"
+          }
+        },
+        "instability": 10,
+        "kind": "infusion",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:pure_talisman"
+          }
+        },
+        "research": "warptheory:WARPAMULET"
+      },
+      "key": "warptheory:pure_talisman_easy"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 8
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:chicken"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:something"
+          }
+        },
+        "research": "warptheory:WARPSOMETHING"
+      },
+      "key": "warptheory:something_chicken_easy"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 8
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:beef"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:something"
+          }
+        },
+        "research": "warptheory:WARPSOMETHING"
+      },
+      "key": "warptheory:something_beef_easy"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 8
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:porkchop"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:something"
+          }
+        },
+        "research": "warptheory:WARPSOMETHING"
+      },
+      "key": "warptheory:something_porkchop_easy"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "alienis": 8
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "minecraft:cod"
+          }
+        },
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:something"
+          }
+        },
+        "research": "warptheory:WARPSOMETHING"
+      },
+      "key": "warptheory:something_cod_easy"
+    },
+    {
+      "class": "modern",
+      "data": {
+        "aspects": {
+          "aqua": 4
+        },
+        "ingredients": {
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "minecraft:paper"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "count": 1,
+                "item": "thaumcraft:salis_mundus"
+              }
+            }
+          ],
+          "kind": "sequence"
+        },
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "count": 1,
+            "item": "warptheory:litmus_paper"
+          }
+        },
+        "research": "warptheory:WARPPAPER"
+      },
+      "key": "warptheory:litmus_paper_easy"
+    }
+  ],
+  "format": 1
+}

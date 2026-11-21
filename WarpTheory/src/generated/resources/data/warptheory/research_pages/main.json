@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "key": "warptheory:WARPCLEANSER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "research.warptheory.warpcleanser"
+          },
+          "id": "warptheory:WARPCLEANSER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "warptheory:recipe",
+          "data": {
+            "recipe_type": "INFUSION_CRAFTING",
+            "recipes": [
+              "warptheory:pure_tear"
+            ]
+          },
+          "id": "warptheory:WARPCLEANSER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "warptheory:WARPAMULET",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "research.warptheory.warpamulet"
+          },
+          "id": "warptheory:WARPAMULET/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "warptheory:recipe",
+          "data": {
+            "recipe_type": "INFUSION_CRAFTING",
+            "recipes": [
+              "warptheory:pure_talisman"
+            ]
+          },
+          "id": "warptheory:WARPAMULET/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "warptheory:WARPPAPER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "research.warptheory.warppaper"
+          },
+          "id": "warptheory:WARPPAPER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "warptheory:recipe",
+          "data": {
+            "recipe_type": "ARCANE_CRAFTING",
+            "recipes": [
+              "warptheory:litmus_paper"
+            ]
+          },
+          "id": "warptheory:WARPPAPER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "warptheory:WARPSOMETHING",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "research.warptheory.warpsomething"
+          },
+          "id": "warptheory:WARPSOMETHING/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "warptheory:recipe",
+          "data": {
+            "recipe_type": "CRUCIBLE_CRAFTING",
+            "recipes": [
+              "warptheory:something_chicken",
+              "warptheory:something_beef",
+              "warptheory:something_porkchop",
+              "warptheory:something_cod"
+            ]
+          },
+          "id": "warptheory:WARPSOMETHING/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ],
+  "format": 1
+}
