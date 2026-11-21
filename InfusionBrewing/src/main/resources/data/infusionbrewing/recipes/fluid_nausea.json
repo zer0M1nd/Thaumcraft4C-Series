@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "IB_FLUID_POTION",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:pufferfish"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_wart"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:fermented_spider_eye"
+      }
+    }
+  ],
+  "aspects": {
+    "vinculum": 16,
+    "perditio": 12,
+    "herba": 8
+  },
+  "result": {
+    "item": "infusionbrewing:nausea_bucket"
+  }
+}

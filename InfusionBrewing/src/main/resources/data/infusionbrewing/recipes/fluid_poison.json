@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "IB_FLUID_POTION",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:poisonous_potato"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_wart"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:spider_eye"
+      }
+    }
+  ],
+  "aspects": {
+    "venenum": 16,
+    "perditio": 12,
+    "herba": 8
+  },
+  "result": {
+    "item": "infusionbrewing:poison_bucket"
+  }
+}

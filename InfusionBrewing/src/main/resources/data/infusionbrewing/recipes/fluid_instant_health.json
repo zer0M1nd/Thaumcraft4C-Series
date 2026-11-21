@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "IB_FLUID_POTION",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_wart"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cookie"
+      }
+    }
+  ],
+  "aspects": {
+    "sano": 16,
+    "ordo": 12,
+    "herba": 8
+  },
+  "result": {
+    "item": "infusionbrewing:instant_health_bucket"
+  }
+}

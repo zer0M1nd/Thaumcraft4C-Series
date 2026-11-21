@@ -1,0 +1,71 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "IB_SPAWNER_SPEED",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "item": "infusionbrewing:spawner_speed_1"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "type": "infusionbrewing:potion",
+        "effect": 1,
+        "amplifier": 1
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "infusionbrewing:potion",
+        "effect": 9,
+        "amplifier": 0
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "infusionbrewing:potion",
+        "effect": 17,
+        "amplifier": 1
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    }
+  ],
+  "aspects": {
+    "motus": 24,
+    "exanimis": 16,
+    "bestia": 32,
+    "iter": 24,
+    "aer": 32
+  },
+  "result": {
+    "item": "infusionbrewing:spawner_speed_2"
+  }
+}

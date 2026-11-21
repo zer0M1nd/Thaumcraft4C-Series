@@ -1,0 +1,44 @@
+{
+  "type": "infusionbrewing:brewing",
+  "research": "IB_POTION_FOCUS",
+  "instability": 8,
+  "center": {
+    "ingredient": {
+      "item": "minecraft:splash_potion"
+    },
+    "nbt": "{CustomPotionEffects:[{Id:1b,Duration:19200,Amplifier:0b}]}"
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    }
+  ],
+  "aspects": {
+    "ignis": 24,
+    "praecantatio": 16,
+    "potentia": 32,
+    "perditio": 24
+  },
+  "result": {
+    "item": "infusionbrewing:potion_focus",
+    "nbt": "{CustomPotionEffects:[{Id:1b,Duration:19200,Amplifier:0b}]}"
+  },
+  "mode": "focus"
+}

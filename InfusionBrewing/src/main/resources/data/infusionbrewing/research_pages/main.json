@@ -1,0 +1,681 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "IB_MAGIC_BOTTLE",
+      "pages": [
+        {
+          "id": "infusionbrewing:magic_bottle/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.research.MAGIC_BOTTLE.body"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "infusionbrewing:magic_bottle/magic_bottle",
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:magic_bottle"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "IB_MAGIC_BUCKET",
+      "pages": [
+        {
+          "id": "infusionbrewing:magic_bucket/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.research.MAGIC_BUCKET.body"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "infusionbrewing:magic_bucket/modern_note",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.note.magic_bucket"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:magic_bucket/magic_bucket",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:magic_bucket"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:magic_bucket/unmake_magic_bucket",
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:unmake_magic_bucket"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "IB_FLUID_POTION",
+      "pages": [
+        {
+          "id": "infusionbrewing:fluid_potion/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.research.FLUID_POTION.body"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_speed",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_speed"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_slowness",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_slowness"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_haste",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_haste"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_mining_fatigue",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_mining_fatigue"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_strength",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_strength"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_instant_health",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_instant_health"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_instant_damage",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_instant_damage"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_jump_boost",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_jump_boost"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_nausea",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_nausea"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_regeneration",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_regeneration"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_resistance",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_resistance"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_fire_resistance",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_fire_resistance"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_water_breathing",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_water_breathing"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_invisibility",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_invisibility"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_blindness",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_blindness"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_night_vision",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_night_vision"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_hunger",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_hunger"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_weakness",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_weakness"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_poison",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_poison"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_wither",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_wither"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_health_boost",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_health_boost"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_absorption",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_absorption"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:fluid_potion/fluid_saturation",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:fluid_saturation"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "IB_DURATION",
+      "pages": [
+        {
+          "id": "infusionbrewing:duration/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.research.DURATION.body"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "infusionbrewing:duration/modern_note",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.note.duration"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:duration/duration",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:duration"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "IB_AMPLIFIER",
+      "pages": [
+        {
+          "id": "infusionbrewing:amplifier/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.research.AMPLIFIER.body"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "infusionbrewing:amplifier/amplifier",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:amplifier"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "IB_SPLASH",
+      "pages": [
+        {
+          "id": "infusionbrewing:splash/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.research.SPLASH.body"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "infusionbrewing:splash/splash",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:splash"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "IB_POTION_AMULET",
+      "pages": [
+        {
+          "id": "infusionbrewing:potion_amulet/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.research.POTION_AMULET.body"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "infusionbrewing:potion_amulet/potion_amulet",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:potion_amulet"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "IB_POTION_RING",
+      "pages": [
+        {
+          "id": "infusionbrewing:potion_ring/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.research.POTION_RING.body"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "infusionbrewing:potion_ring/potion_ring",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:potion_ring"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "IB_POTION_BELT",
+      "pages": [
+        {
+          "id": "infusionbrewing:potion_belt/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.research.POTION_BELT.body"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "infusionbrewing:potion_belt/potion_belt",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:potion_belt"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "IB_POTION_FOCUS",
+      "pages": [
+        {
+          "id": "infusionbrewing:potion_focus/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.research.POTION_FOCUS.body"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "infusionbrewing:potion_focus/potion_focus",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:potion_focus"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "IB_SPAWNER_POWER",
+      "pages": [
+        {
+          "id": "infusionbrewing:spawner_power/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.research.SPAWNER_POWER.body"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "infusionbrewing:spawner_power/spawner_power_1",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:spawner_power_1"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:spawner_power/spawner_power_2",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:spawner_power_2"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:spawner_power/spawner_power_3",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:spawner_power_3"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:spawner_power/spawner_power_4",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:spawner_power_4"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "IB_SPAWNER_SPEED",
+      "pages": [
+        {
+          "id": "infusionbrewing:spawner_speed/text",
+          "type": "TEXT",
+          "text": {
+            "translate": "infusionbrewing.research.SPAWNER_SPEED.body"
+          },
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "id": "infusionbrewing:spawner_speed/spawner_speed_1",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:spawner_speed_1"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:spawner_speed/spawner_speed_2",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:spawner_speed_2"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:spawner_speed/spawner_speed_3",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:spawner_speed_3"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        },
+        {
+          "id": "infusionbrewing:spawner_speed/spawner_speed_4",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "infusionbrewing:spawner_speed_4"
+            ],
+            "class": "modern"
+          },
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

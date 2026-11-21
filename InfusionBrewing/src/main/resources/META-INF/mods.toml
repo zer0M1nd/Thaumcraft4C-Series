@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+issueTrackerURL="https://github.com/zer0M1nd/Thaumcraft4C-Series/issues"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/infusionbrewing/index.html"
+updateJSONURL="http://tc4c.zer0m1nd.me/forge-updates/infusionbrewing.json"
+modId="infusionbrewing"
+version="${version}"
+displayName="Infusion Brewing: Continuation"
+authors="zer0M1nd"
+credits="Original Infusion Brewing by mariri."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Brew potions into fluids, strengthen them through infusion and channel their effects through baubles and a wand focus.'''
+
+[[dependencies.infusionbrewing]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.0,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.infusionbrewing]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.infusionbrewing]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.infusionbrewing]]
+modId="curios"
+mandatory=true
+versionRange="[5.0,)"
+ordering="AFTER"
+side="BOTH"
