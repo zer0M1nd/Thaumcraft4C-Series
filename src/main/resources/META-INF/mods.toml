@@ -22,7 +22,7 @@ Original credits: Azanor, Tombenpotter, TehNut, the IC2 guys and the forge guys!
 [[dependencies.emt]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.20.1,1.20.2)"
+versionRange="[1.20.1]"
 ordering="NONE"
 side="BOTH"
 [[dependencies.emt]]
@@ -37,4 +37,11 @@ modId="ic2"
 mandatory=true
 versionRange="[2.10.33,)"
 ordering="AFTER"
+side="BOTH"
+
+[[dependencies.emt]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.13,)"
+ordering="NONE"
 side="BOTH"
