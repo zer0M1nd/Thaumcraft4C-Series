@@ -23,7 +23,10 @@ public final class ReviewStore {
     private final Map<String, Set<String>> ignored = new LinkedHashMap<>();
 
     public ReviewStore(Path game) throws IOException {
-        root = game.resolve(".thaumcraftupdater");
+        this(game, UpdaterConfig.DEFAULT_BASELINE);
+    }
+    ReviewStore(Path game, String baseline) throws IOException {
+        root = UpdaterConfig.stateDirectory(game, baseline);
         Files.createDirectories(root);
         JsonElement saved = read(root.resolve("approved.json"));
         if (saved != null) for (JsonElement element : saved.getAsJsonArray()) {

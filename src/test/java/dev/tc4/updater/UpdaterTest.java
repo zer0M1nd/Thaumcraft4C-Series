@@ -260,6 +260,79 @@ class UpdaterTest {
         item.add("latest_stable", stable); item.add("latest_testing", testing); catalog.add(item); return item;
     }
     private UpdateEngine.Result run() { return engine().run(game, CONTEXT); }
+    private String namedCatalog(String name, JsonObject... stableRows) {
+        var root = new JsonObject();
+        root.addProperty("schema", 2); root.addProperty("baseline", name);
+        var ids = new JsonArray(); var mods = new JsonArray();
+        for (var row : stableRows) {
+            String id = row.get("modid").getAsString();
+            ids.add(id);
+            var mod = new JsonObject(); mod.addProperty("modid", id); mod.add("latest_stable", row); mods.add(mod);
+        }
+        root.add("managed_modids", ids); root.add("mods", mods);
+        return root.toString();
+    }
+
+    @Test void namedWildcardInstallsFutureMembersAndIgnoresNewerDefaultReleases() throws Exception {
+        Path cfg=game.resolve("config/thaumcraftupdater.toml");
+        Files.createDirectories(cfg.getParent());
+        Files.writeString(cfg,"baseline='atm9tc'\ninstallOnce=['*']\n");
+        var pinned=release("automagy","0.1.2");
+        publish("automagy",release("automagy","0.1.9"),null);
+        publish("emt",release("emt","0.1.8"),null);
+        String path="/baselines/atm9tc.json";
+        downloads.put(path,namedCatalog("atm9tc",pinned).getBytes(StandardCharsets.UTF_8));
+        assertEquals(1,engine().run(game,CLIENT).updated());
+        assertTrue(Files.exists(game.resolve("mods/automagy-0.1.2.jar")));
+        assertEquals(List.of("*"),UpdaterConfig.read(game).installOnce());
+        assertEquals(0,engine().run(game,CLIENT).updated());
+        downloads.put(path,namedCatalog("atm9tc",pinned,release("gadomancy","0.1.5")).getBytes(StandardCharsets.UTF_8));
+        assertEquals(1,engine().run(game,CLIENT).updated());
+        assertTrue(Files.exists(game.resolve("mods/gadomancy-0.1.5.jar")));
+        assertFalse(Files.exists(game.resolve("mods/emt-0.1.8.jar")));
+        assertFalse(Files.exists(game.resolve("mods/automagy-0.1.9.jar")));
+        assertEquals(List.of("*"),UpdaterConfig.forLaunch(game).installOnce());
+        Files.writeString(cfg,"baseline='default'\ninstallOnce=['*']\n");
+        assertEquals(1,engine().run(game,CLIENT).updated());
+        assertFalse(Files.exists(game.resolve("mods/emt-0.1.8.jar")));
+    }
+
+    @Test void unavailableOrMislabeledNamedBaselineCannotUseDefaultOrClearWildcard() throws Exception {
+        Files.createDirectories(game.resolve("config"));
+        Files.writeString(game.resolve("config/thaumcraftupdater.toml"),"baseline='atm9tc'\ninstallOnce='*'\n");
+        var newer=release("automagy","0.2.0"); publish("automagy",newer,null);
+        assertThrows(IOException.class,()->api.snapshot("atm9tc",false));
+        downloads.put("/baselines/atm9tc.json",namedCatalog("default",newer).getBytes(StandardCharsets.UTF_8));
+        assertThrows(IOException.class,()->api.snapshot("atm9tc",false));
+        assertThrows(UpdateTransaction.StartupBlocked.class,()->new UpdateEngine(api,logs::add,null).run(game,CONTEXT));
+        assertEquals(List.of("*"),UpdaterConfig.forLaunch(game).installOnce());
+        assertFalse(Files.exists(game.resolve("mods/automagy-0.2.0.jar")));
+    }
+
+    @Test void skippedWildcardRetriesNextLaunchAndRequestsStayWithTheirBaseline() throws Exception {
+        Path cfg=game.resolve("config/thaumcraftupdater.toml"); Files.createDirectories(cfg.getParent());
+        Files.writeString(cfg,"baseline='atm9tc'\ninstallOnce=['*','gadomancy']\n");
+        var release=release("gadomancy","0.1.5");
+        downloads.put("/baselines/atm9tc.json",namedCatalog("atm9tc",release).getBytes(StandardCharsets.UTF_8));
+        var skip = new UpdateEngine(api,logs::add,(queue,commit)->{
+            assertEquals(1, rows(queue).size());
+            synchronized (queue) {
+                queue.action("shown", "");
+                queue.action("skip", "");
+            }
+            assertTrue(queue.needsConfirmation());
+            commit.run();
+        });
+        assertEquals(0,skip.run(game,CLIENT).updated());
+        assertEquals(List.of("*"),UpdaterConfig.read(game).installOnce());
+        assertEquals(1,engine().run(game,CLIENT).updated());
+        Files.writeString(cfg,"baseline='atm9tc'\ninstallOnce=['emt']\n");
+        assertEquals(List.of("emt"),UpdaterConfig.forLaunch(game).installOnce());
+        Files.writeString(cfg,"installOnce=[]\n");
+        assertTrue(UpdaterConfig.forLaunch(game).installOnce().isEmpty());
+        Files.writeString(cfg,"baseline='atm9tc'\ninstallOnce=[]\n");
+        assertEquals(List.of("emt"),UpdaterConfig.forLaunch(game).installOnce());
+    }
     private void unstable() throws IOException {
         Files.createDirectories(game.resolve("config"));
         Files.writeString(game.resolve("config/thaumcraftupdater.toml"), "includeUnstable = true\n");
@@ -275,7 +348,9 @@ class UpdaterTest {
     @Test void configurationDefaultsToAskMajorYesStableNoTestingAndEmptyInstallList() throws Exception {
         var defaults = new UpdaterConfig(UpdateMode.ASK, UpdateMode.YES, UpdateMode.NO, List.of());
         assertEquals(defaults, UpdaterConfig.read(game));
-        assertEquals(4, Files.readAllLines(game.resolve("config/thaumcraftupdater.toml")).stream().filter(line -> line.contains("=")).count());
+        var parsed = new com.electronwill.nightconfig.toml.TomlParser().parse(Files.readString(game.resolve("config/thaumcraftupdater.toml")));
+        assertEquals(Set.of("baseline","majorUpdates","stableUpdates","testingUpdates","installOnce"),parsed.valueMap().keySet());
+        assertEquals("default",parsed.get("baseline"));
         assertEquals(defaults, UpdaterConfig.read(game));
     }
     @ParameterizedTest @ValueSource(booleans={false, true})
