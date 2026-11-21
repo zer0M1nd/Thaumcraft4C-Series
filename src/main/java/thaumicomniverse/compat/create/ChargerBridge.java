@@ -78,7 +78,7 @@ public final class ChargerBridge extends SmartBlockEntity implements thaumcraft.
         var payment=stored.getCompound(PAYMENT);
         boolean ready=true,changed=false;
         for(var entry:costs.entrySet()){
-            int total=entry.getValue()*100,paid=Math.max(0,payment.getInt(entry.getKey().tag()));
+            int total=tc4revival.content.ArcaneRecipe.hundredths(costs,entry.getKey()),paid=Math.max(0,payment.getInt(entry.getKey().tag()));
             int amount=source.consumeVis(entry.getKey(),Math.min(5,Math.max(0,total-paid)));
             if(amount>0){paid+=amount;payment.putInt(entry.getKey().tag(),paid);changed=true;}
             ready&=paid>=total;
@@ -90,7 +90,7 @@ public final class ChargerBridge extends SmartBlockEntity implements thaumcraft.
         for(var remainder:recipe.getRemainingItems(grid))if(!remainder.isEmpty()){
             var extra=input.copy();extra.stack=remainder;extra.clearFanProcessingData();outputs.add(extra);
         }
-        for(var entry:costs.entrySet())payment.putInt(entry.getKey().tag(),payment.getInt(entry.getKey().tag())-entry.getValue()*100);
+        for(var entry:costs.entrySet())payment.putInt(entry.getKey().tag(),payment.getInt(entry.getKey().tag())-tc4revival.content.ArcaneRecipe.hundredths(costs,entry.getKey()));
         source.setChanged();
         input.stack.shrink(1);
         if(input.stack.hasTag()){input.stack.getTag().remove(PAYMENT);if(input.stack.getTag().isEmpty())input.stack.setTag(null);}

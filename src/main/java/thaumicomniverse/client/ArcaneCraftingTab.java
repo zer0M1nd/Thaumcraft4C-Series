@@ -54,7 +54,7 @@ public final class ArcaneCraftingTab extends UpgradeSettingsTab<ArcaneCraftingCo
             tc4revival.client.AspectTooltips.draw(graphics,minecraft.font,new tc4revival.client.AspectTooltips.Cell(entry.getKey().tag(),""),left,top);
             var stack = getContainer().wand();
             var wand = stack.getItem() instanceof tc4revival.content.CastingWandItem value ? value : null;
-            float cost = entry.getValue() * (wand == null ? 1 : wand.consumptionModifier(stack, minecraft.player, entry.getKey(), true));
+            float cost = tc4revival.content.ArcaneRecipe.hundredths(getContainer().visCost(),entry.getKey())/100f * (wand == null ? 1 : wand.consumptionModifier(stack, minecraft.player, entry.getKey(), true));
             boolean enough = wand != null && wand.vis(stack, entry.getKey()) >= cost * 100;
             graphics.drawString(minecraft.font, new java.text.DecimalFormat("0.##").format(cost),
                     left + 18, top + 4, enough ? 0xff000000 : 0xffa00000, false);

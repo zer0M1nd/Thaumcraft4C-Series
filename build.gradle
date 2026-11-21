@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.2.45.3'
+version = '0.2.46'
 group = 'thaumicomniverse'
 base.archivesName = 'ThaumicOmniverse'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -15,7 +15,7 @@ if (project.hasProperty('create051')) {
     layout.buildDirectory = file('build-create051')
     repositories { flatDir { dirs '../../../References/Projects/ThaumicOmniverse/group-20261027' } }
 }
-repositories { flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" } }
+repositories { flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.119.3'}" } }
 repositories { flatDir { dirs '../../../References/Projects/ThaumicOmniverse/evidence/expansion-api' } }
 repositories { flatDir { dirs '../../../References/Projects/ThaumicOmniverse/expansion-20261021' } }
 repositories { flatDir { dirs '../../../References/Projects/ThaumicOmniverse/touhou-maid-20261027' } }
@@ -31,7 +31,7 @@ dependencies {
     compileOnly fg.deobf("local.collab:jei:local")
     compileOnly fg.deobf("local.collab:placebo:local")
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
-    implementation fg.deobf("local.core:Thaumcraft-4-Modern-Port:${findProperty('tc4ValidationVersion') ?: '0.4.114'}")
+    implementation fg.deobf("local.core:Thaumcraft-4-Modern-Port:${findProperty('tc4ValidationVersion') ?: '0.4.119.3'}")
     compileOnly fg.deobf('local.collab:journeymap_api_v2:local')
     testRuntimeOnly fg.deobf('local.collab:journeymap_api_v2:local')
     testRuntimeOnly fg.deobf('local.collab:journeymap:local')
