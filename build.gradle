@@ -1,6 +1,6 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
 group='tmmodern'
-version = '0.1.12'
+version = '0.1.12.1'
 base.archivesName='Tainted-Magic-Modern-Port'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
 java.withSourcesJar()
