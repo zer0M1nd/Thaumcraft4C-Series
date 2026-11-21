@@ -1,0 +1,24 @@
+[
+  {
+    "tag": "taintedmagic:warpwood",
+    "item": "taintedmagic:wand_rod_warpwood",
+    "capacity": 250,
+    "craftCost": 16,
+    "texture": "taintedmagic:textures/models/modelwand_rod_warpwood.png",
+    "staff": false,
+    "runes": false,
+    "glowing": false,
+    "research": "taintedmagic:ROD_warpwood"
+  },
+  {
+    "tag": "taintedmagic:warpwood_staff",
+    "item": "taintedmagic:wand_rod_warpwood_staff",
+    "capacity": 500,
+    "craftCost": 20,
+    "texture": "taintedmagic:textures/models/modelwand_rod_warpwood.png",
+    "staff": true,
+    "runes": true,
+    "glowing": true,
+    "research": "taintedmagic:ROD_warpwood_staff"
+  }
+]

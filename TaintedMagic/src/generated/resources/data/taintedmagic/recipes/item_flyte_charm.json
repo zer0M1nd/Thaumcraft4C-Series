@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:FLYTECHARM",
+  "instability": 7,
+  "aspects": {
+    "volatus": 86,
+    "auram": 56,
+    "sensus": 25,
+    "praecantatio": 48,
+    "potentia": 65
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primal_arrow_air"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:shard_of_creation"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:flyte_charm",
+    "count": 1
+  }
+}

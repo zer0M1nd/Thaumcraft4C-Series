@@ -1,0 +1,83 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:ELDRITCHFOCUS",
+  "instability": 6,
+  "aspects": {
+    "alienis": 64,
+    "tenebrae": 32,
+    "praecantatio": 32,
+    "mortuus": 32,
+    "vacuos": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_portable_hole"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:warped_unbalanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:warped_unbalanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:liquid_death_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:warped_unbalanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:warped_unbalanced_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:focus_dark_matter",
+    "count": 1
+  }
+}

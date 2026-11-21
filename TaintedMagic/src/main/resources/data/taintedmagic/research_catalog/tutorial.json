@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_TAINTEDMAGIC",
+          "category": "TUTORIAL",
+          "displayColumn": 72,
+          "displayRow": 3,
+          "parents": [
+            "TUT_CRIMSON",
+            "ELDRITCHMINOR"
+          ],
+          "icon_item": {
+            "item": "taintedmagic:shadowmetal_ingot",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "taintedmagic"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "taintedmagic:TAINTEDMAGIC",
+            "taintedmagic:SHADOWMETAL",
+            "taintedmagic:CRIMSONROBES",
+            "taintedmagic:ROD_warpwood",
+            "taintedmagic:PRIMALBLADE"
+          ],
+          "pageCount": 8,
+          "parentMirrors": {
+            "ELDRITCHMINOR": "TUT_ADDON_TAINTEDMAGIC_PREREQUISITE_1"
+          }
+        },
+        {
+          "key": "TUT_ADDON_TAINTEDMAGIC_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 71,
+          "displayRow": 2,
+          "mirrorOf": "ELDRITCHMINOR",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "taintedmagic"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

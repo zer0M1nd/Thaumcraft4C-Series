@@ -1,0 +1,83 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:VOIDSASH",
+  "instability": 7,
+  "aspects": {
+    "vacuos": 56,
+    "praecantatio": 40,
+    "tutamen": 76,
+    "iter": 16,
+    "volatus": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:runic_girdle"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:primordial_mote"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadow_imbued_cloth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadow_imbued_cloth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:voidwalker_sash",
+    "count": 1
+  }
+}

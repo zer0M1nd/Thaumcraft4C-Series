@@ -1,0 +1,22 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumcraft:cultist_boots",
+    "count": 1
+  },
+  "research": "taintedmagic:CRIMSONROBES",
+  "vis": {
+    "ignis": 5,
+    "perditio": 5
+  },
+  "mode": "shaped",
+  "pattern": [
+    "A A",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "taintedmagic:crimson_stained_cloth"
+    }
+  }
+}

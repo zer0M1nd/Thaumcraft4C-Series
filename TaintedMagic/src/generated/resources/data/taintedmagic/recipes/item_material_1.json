@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "taintedmagic:shadow_imbued_cloth",
+    "count": 1
+  },
+  "research": "taintedmagic:SHADOWMETAL",
+  "vis": {
+    "ordo": 10,
+    "perditio": 10
+  },
+  "mode": "shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "taintedmagic:shadowmetal_nugget"
+    },
+    "B": {
+      "item": "thaumcraft:enchanted_fabric"
+    }
+  }
+}

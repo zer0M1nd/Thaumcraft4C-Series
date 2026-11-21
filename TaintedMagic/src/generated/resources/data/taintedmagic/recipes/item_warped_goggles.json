@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:WARPEDGOGGLES",
+  "instability": 3,
+  "aspects": {
+    "alienis": 35,
+    "tenebrae": 12,
+    "praecantatio": 16,
+    "tutamen": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:goggles"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver_drop"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:warped_goggles",
+    "count": 1
+  }
+}

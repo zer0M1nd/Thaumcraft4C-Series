@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:CRIMSONBLADE",
+  "instability": 7,
+  "aspects": {
+    "telum": 32,
+    "metallum": 16,
+    "perditio": 8,
+    "alienis": 18,
+    "vacuos": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_sword"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:crimson_blood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:crimson_blood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:crimson_blood"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:crimson_sword",
+    "count": 1
+  }
+}

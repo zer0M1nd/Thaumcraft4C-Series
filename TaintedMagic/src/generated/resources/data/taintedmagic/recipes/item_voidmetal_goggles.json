@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:VOIDGOGGLES",
+  "instability": 5,
+  "aspects": {
+    "vacuos": 40,
+    "sensus": 35,
+    "tutamen": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "taintedmagic:warped_goggles"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver_drop"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:voidmetal_goggles",
+    "count": 1
+  }
+}

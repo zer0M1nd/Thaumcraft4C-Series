@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_TAINTEDMAGIC",
+      "pages": [
+        {
+          "id": "taintedmagic:tut_addon_taintedmagic/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.taintedmagic.tut_addon_taintedmagic.text.1",
+            "with": [
+              [
+                {
+                  "text": "污秽魔法是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "taintedmagic:tut_addon_taintedmagic/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.taintedmagic.tut_addon_taintedmagic.text.2",
+            "with": [
+              [
+                {
+                  "text": "污秽魔法是"
+                },
+                {
+                  "text": "后期、高扭曲",
+                  "bold": true
+                },
+                {
+                  "text": "的扩展，建立在邪术和元始珍珠之上：暗影金属与暗影要塞甲、扭曲之木杖柄、血腥教徒护甲、刻印武士刀、虚空旅行者之靴，最高阶是用创世碎片制作的元始之刃。\n研究在"
+                },
+                {
+                  "text": "朦胧暗影",
+                  "bold": true
+                },
+                {
+                  "text": "分页中。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "taintedmagic:tut_addon_taintedmagic/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "taintedmagic:tut_addon_taintedmagic/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.taintedmagic.tut_addon_taintedmagic.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "taintedmagic:tut_addon_taintedmagic/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.taintedmagic.tut_addon_taintedmagic.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "taintedmagic:TAINTEDMAGIC"
+                },
+                {
+                  "text": "：一个令人不安的发现，自动解锁。\n· "
+                },
+                {
+                  "research": "taintedmagic:SHADOWMETAL"
+                },
+                {
+                  "text": "：暗影锭。\n· "
+                },
+                {
+                  "research": "taintedmagic:CRIMSONROBES"
+                },
+                {
+                  "text": "：血腥工艺。\n· "
+                },
+                {
+                  "research": "taintedmagic:ROD_warpwood"
+                },
+                {
+                  "text": "：扭曲之木杖柄。\n· "
+                },
+                {
+                  "research": "taintedmagic:PRIMALBLADE"
+                },
+                {
+                  "text": "：元始之刃，需要元始珍珠。\n做好承受大量扭曲的准备，参考"
+                },
+                {
+                  "research": "TUT_WARP"
+                },
+                {
+                  "text": "。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "taintedmagic:tut_addon_taintedmagic/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "taintedmagic:tut_addon_taintedmagic/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "taintedmagic:tut_addon_taintedmagic/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "taintedmagic:TAINTEDMAGIC",
+            "taintedmagic:SHADOWMETAL",
+            "taintedmagic:CRIMSONROBES",
+            "taintedmagic:ROD_warpwood",
+            "taintedmagic:PRIMALBLADE"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

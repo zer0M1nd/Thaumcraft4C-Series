@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "taintedmagic:focus_lumos",
+    "count": 1
+  },
+  "research": "taintedmagic:FOCUSLUMOS",
+  "vis": {
+    "aer": 52,
+    "ignis": 56,
+    "ordo": 28
+  },
+  "mode": "shaped",
+  "pattern": [
+    "BDC",
+    "DAD",
+    "CDB"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:quicksilver"
+    },
+    "B": {
+      "item": "thaumcraft:nitor"
+    },
+    "C": {
+      "item": "thaumcraft:balanced_shard"
+    },
+    "D": {
+      "item": "minecraft:glowstone_dust"
+    }
+  }
+}

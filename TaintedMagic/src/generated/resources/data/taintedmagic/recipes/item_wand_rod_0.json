@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:ROD_warpwood",
+  "instability": 8,
+  "aspects": {
+    "alienis": 65,
+    "tenebrae": 30,
+    "arbor": 12,
+    "praecantatio": 45,
+    "auram": 35
+  },
+  "center": {
+    "ingredient": {
+      "item": "taintedmagic:warpwood_log"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:primordial_nodule"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:warped_unbalanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:warped_unbalanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:wand_rod_warpwood",
+    "count": 1
+  }
+}

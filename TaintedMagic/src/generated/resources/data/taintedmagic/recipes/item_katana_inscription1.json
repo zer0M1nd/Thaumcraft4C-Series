@@ -1,0 +1,58 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:INSCRIPTIONTHUNDER",
+  "instability": 8,
+  "aspects": {
+    "aer": 64,
+    "tempestas": 64,
+    "telum": 16
+  },
+  "center": {
+    "ingredient": [
+      {
+        "item": "taintedmagic:thaumium_katana"
+      },
+      {
+        "item": "taintedmagic:voidmetal_katana"
+      },
+      {
+        "item": "taintedmagic:shadowmetal_katana"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:focus_shockwave"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:tnt"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gunpowder"
+      }
+    }
+  ],
+  "result": {
+    "patch": "{inscription:1}"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:TAINTFOCUS",
+  "instability": 4,
+  "aspects": {
+    "vitium": 45,
+    "victus": 24,
+    "motus": 24,
+    "praecantatio": 16,
+    "mortuus": 37
+  },
+  "center": {
+    "ingredient": {
+      "item": "taintedmagic:focus_vis_shard"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:tainted_unbalanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:taint_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:tainted_unbalanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:tainted_unbalanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:taint_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:tainted_unbalanced_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:focus_taint_swarm",
+    "count": 1
+  }
+}

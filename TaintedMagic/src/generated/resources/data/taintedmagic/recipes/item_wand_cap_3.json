@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "taintedmagic:wand_cap_shadowcloth",
+    "count": 1
+  },
+  "research": "taintedmagic:CAP_shadowcloth",
+  "vis": {
+    "terra": 55,
+    "ignis": 55,
+    "perditio": 55,
+    "ordo": 55
+  },
+  "mode": "shaped",
+  "pattern": [
+    "AAA",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "taintedmagic:shadow_imbued_cloth"
+    },
+    "B": {
+      "item": "thaumcraft:salis_mundus"
+    }
+  }
+}

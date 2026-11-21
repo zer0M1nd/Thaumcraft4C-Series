@@ -1,0 +1,58 @@
+[
+  {
+    "key": "taintedmagic:sanity",
+    "texture": "taintedmagic:textures/foci/iconsanity.png",
+    "name": "focus.upgrade.sanity.name",
+    "description": "focus.upgrade.sanity.text",
+    "aspects": [
+      "cognitio",
+      "sano"
+    ]
+  },
+  {
+    "key": "taintedmagic:antibody",
+    "texture": "taintedmagic:textures/foci/iconantibody.png",
+    "name": "focus.upgrade.antibody.name",
+    "description": "focus.upgrade.antibody.text",
+    "aspects": [
+      "vitium",
+      "sano"
+    ]
+  },
+  {
+    "key": "taintedmagic:corrosive",
+    "texture": "taintedmagic:textures/foci/iconcorrosive.png",
+    "name": "focus.upgrade.corrosive.name",
+    "description": "focus.upgrade.corrosive.text",
+    "aspects": [
+      "vitium",
+      "venenum"
+    ]
+  },
+  {
+    "key": "taintedmagic:persistent",
+    "texture": "taintedmagic:textures/foci/iconpersistent.png",
+    "name": "focus.upgrade.persistent.name",
+    "description": "focus.upgrade.persistent.text",
+    "aspects": [
+      "tutamen",
+      "motus",
+      "potentia"
+    ]
+  },
+  {
+    "key": "taintedmagic:diffusion",
+    "texture": "taintedmagic:textures/foci/icondiffusion.png",
+    "name": "focus.upgrade.diffusion.name",
+    "description": "focus.upgrade.diffusion.text",
+    "aspects": [
+      "tenebrae",
+      "alienis",
+      "alienis",
+      "auram",
+      "auram",
+      "auram",
+      "auram"
+    ]
+  }
+]

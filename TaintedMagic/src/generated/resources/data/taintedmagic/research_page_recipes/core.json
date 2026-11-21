@@ -1,0 +1,5735 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "taintedmagic:item_shadowmetal_pick",
+      "class": "modern",
+      "data": {
+        "kind": "crafting_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadowmetal_pick",
+            "count": 1
+          }
+        },
+        "aspects": {},
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            null,
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            null
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_shadowmetal_axe",
+      "class": "modern",
+      "data": {
+        "kind": "crafting_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadowmetal_axe",
+            "count": 1
+          }
+        },
+        "aspects": {},
+        "width": 2,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_shadowmetal_spade",
+      "class": "modern",
+      "data": {
+        "kind": "crafting_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadowmetal_spade",
+            "count": 1
+          }
+        },
+        "aspects": {},
+        "width": 1,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_shadowmetal_hoe",
+      "class": "modern",
+      "data": {
+        "kind": "crafting_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadowmetal_hoe",
+            "count": 1
+          }
+        },
+        "aspects": {},
+        "width": 2,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_shadowmetal_sword",
+      "class": "modern",
+      "data": {
+        "kind": "crafting_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadowmetal_sword",
+            "count": 1
+          }
+        },
+        "aspects": {},
+        "width": 1,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_focus_shockwave",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:FOCUSSHOCKWAVE",
+        "instability": 6,
+        "aspects": {
+          "aer": 35,
+          "motus": 42,
+          "potentia": 42,
+          "praecantatio": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:focus_shock",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:focus_shockwave",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:tnt",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gunpowder",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:tnt",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gunpowder",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_primal_blade",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:PRIMALBLADE",
+        "instability": 8,
+        "aspects": {
+          "telum": 65,
+          "alienis": 46,
+          "tenebrae": 16,
+          "metallum": 60,
+          "vacuos": 56
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:void_sword",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:primal_blade",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shard_of_creation",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:fire_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:water_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:earth_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:order_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_shard",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_focus_mage_mace",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:MACEFOCUS",
+        "instability": 3,
+        "aspects": {
+          "telum": 32,
+          "metallum": 8,
+          "perditio": 18,
+          "praecantatio": 26
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:iron_block",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:focus_mage_mace",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_sword",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_sword",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_sword_crimson",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:CRIMSONBLADE",
+        "instability": 7,
+        "aspects": {
+          "telum": 32,
+          "metallum": 16,
+          "perditio": 8,
+          "alienis": 18,
+          "vacuos": 32
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:void_sword",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:crimson_sword",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_blood",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_blood",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_blood",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_voidwalker_sash",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:VOIDSASH",
+        "instability": 7,
+        "aspects": {
+          "vacuos": 56,
+          "praecantatio": 40,
+          "tutamen": 76,
+          "iter": 16,
+          "volatus": 10
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:runic_girdle",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:voidwalker_sash",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:primordial_mote",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadow_imbued_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadow_imbued_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_material_5",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:CREATIONSHARD",
+        "instability": 8,
+        "aspects": {
+          "aer": 55,
+          "terra": 55,
+          "ignis": 55,
+          "aqua": 55,
+          "ordo": 55,
+          "perditio": 55
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:balanced_shard",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shard_of_creation",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:fire_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:water_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:nether_star",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:earth_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:order_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_shard",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_wand_rod_0",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:ROD_warpwood",
+        "instability": 8,
+        "aspects": {
+          "alienis": 65,
+          "tenebrae": 30,
+          "arbor": 12,
+          "praecantatio": 45,
+          "auram": 35
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:warpwood_log",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:wand_rod_warpwood",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:primordial_nodule",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:warped_unbalanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:warped_unbalanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_void_fortress_helmet_goggles",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "HELMGOGGLES",
+        "instability": 5,
+        "aspects": {
+          "sensus": 32,
+          "auram": 16,
+          "tutamen": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:void_fortress_helmet",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:void_fortress_helmet",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:slime_ball",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:goggles",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_void_fortress_helmet_mask0",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "MASKGRINNINGDEVIL",
+        "instability": 8,
+        "aspects": {
+          "cognitio": 64,
+          "sano": 64,
+          "tutamen": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:void_fortress_helmet",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:void_fortress_helmet",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "forge:dyes/black"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:black_dye",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:shimmerleaf",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_void_fortress_helmet_mask1",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "MASKANGRYGHOST",
+        "instability": 8,
+        "aspects": {
+          "perditio": 64,
+          "mortuus": 64,
+          "tutamen": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:void_fortress_helmet",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:void_fortress_helmet",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:bone_meal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:poisonous_potato",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:wither_skeleton_skull",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_void_fortress_helmet_mask2",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "MASKSIPPINGFIEND",
+        "instability": 8,
+        "aspects": {
+          "exanimis": 64,
+          "victus": 64,
+          "tutamen": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:void_fortress_helmet",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:void_fortress_helmet",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:red_dye",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ghast_tear",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:milk_bucket",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_void_fortress_helmet",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:VOIDFORTRESS",
+        "instability": 6,
+        "aspects": {
+          "metallum": 24,
+          "tutamen": 16,
+          "praecantatio": 8,
+          "alienis": 16,
+          "vacuos": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:void_helmet",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:void_fortress_helmet",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:emerald",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_void_fortress_chestplate",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:VOIDFORTRESS",
+        "instability": 6,
+        "aspects": {
+          "metallum": 24,
+          "tutamen": 24,
+          "praecantatio": 8,
+          "alienis": 16,
+          "vacuos": 24
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:void_chestplate",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:void_fortress_chestplate",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_void_fortress_leggings",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:VOIDFORTRESS",
+        "instability": 6,
+        "aspects": {
+          "metallum": 24,
+          "tutamen": 20,
+          "praecantatio": 8,
+          "alienis": 16,
+          "vacuos": 20
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:void_leggings",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:void_fortress_leggings",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_warped_goggles",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:WARPEDGOGGLES",
+        "instability": 3,
+        "aspects": {
+          "alienis": 35,
+          "tenebrae": 12,
+          "praecantatio": 16,
+          "tutamen": 8
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:goggles"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:warped_goggles",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver_drop",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_wand_cap_0",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:CAP_shadowmetal",
+        "instability": 8,
+        "aspects": {
+          "alienis": 55,
+          "tenebrae": 47,
+          "praecantatio": 52,
+          "metallum": 45,
+          "vacuos": 55
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:wand_cap_void",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:wand_cap_shadowmetal",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:warped_unbalanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:primordial_nodule",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_focus_taint_swarm",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:TAINTFOCUS",
+        "instability": 4,
+        "aspects": {
+          "vitium": 45,
+          "victus": 24,
+          "motus": 24,
+          "praecantatio": 16,
+          "mortuus": 37
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:focus_vis_shard",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:focus_taint_swarm",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:tainted_goo",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:tainted_unbalanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:taint_bottle",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:tainted_unbalanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:tainted_goo",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:tainted_unbalanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:taint_bottle",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:tainted_unbalanced_shard",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_focus_dark_matter",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:ELDRITCHFOCUS",
+        "instability": 6,
+        "aspects": {
+          "alienis": 64,
+          "tenebrae": 32,
+          "praecantatio": 32,
+          "mortuus": 32,
+          "vacuos": 32
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:focus_portable_hole",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:focus_dark_matter",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:warped_unbalanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:warped_unbalanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:liquid_death_bucket",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:warped_unbalanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:warped_unbalanced_shard",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_material_7",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:KNIGHTROBES",
+        "instability": 2,
+        "aspects": {
+          "fames": 4,
+          "metallum": 8,
+          "praecantatio": 6
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:iron_block",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:crimson_alloy_plate",
+            "count": 9
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_blood",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_nugget",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_blood",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_nugget",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_blood",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_nugget",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_blood",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_nugget",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_voidwalker_boots",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:VOIDWALKERBOOTS",
+        "instability": 8,
+        "aspects": {
+          "tenebrae": 42,
+          "vacuos": 56,
+          "alienis": 38,
+          "tutamen": 60,
+          "iter": 45
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:traveller_boots",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:voidwalker_boots",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:primordial_mote",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadow_imbued_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadow_imbued_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_eye",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadow_imbued_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadow_imbued_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_salis_0",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:SKYSALT",
+        "instability": 7,
+        "aspects": {
+          "auram": 20,
+          "tempestas": 30,
+          "aqua": 30
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:salis_mundus",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:salis_tempestas",
+            "count": 3
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:fragment_of_creation",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver_drop",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_salis_1",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:TIMESALT",
+        "instability": 7,
+        "aspects": {
+          "auram": 20,
+          "lux": 30,
+          "tenebrae": 30
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:salis_mundus",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:salis_aevus",
+            "count": 3
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:fragment_of_creation",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_nugget",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_thaumic_disassembler",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:THAUMICDISASSEMBLER",
+        "instability": 3,
+        "aspects": {
+          "metallum": 22,
+          "instrumentum": 24,
+          "telum": 14,
+          "machina": 12
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:thaumic_alloy_plate",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:thaumic_disassembler",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:primordial_mote",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_pickaxe",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_shovel",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_sword",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_axe",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_shadow_fortress_helmet_goggles",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "HELMGOGGLES",
+        "instability": 5,
+        "aspects": {
+          "sensus": 32,
+          "auram": 16,
+          "tutamen": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadow_fortress_helmet",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadow_fortress_helmet",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:slime_ball",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:goggles",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_shadow_fortress_helmet_mask0",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "MASKGRINNINGDEVIL",
+        "instability": 8,
+        "aspects": {
+          "cognitio": 64,
+          "sano": 64,
+          "tutamen": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadow_fortress_helmet",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadow_fortress_helmet",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "forge:dyes/black"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:black_dye",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:shimmerleaf",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_shadow_fortress_helmet_mask1",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "MASKANGRYGHOST",
+        "instability": 8,
+        "aspects": {
+          "perditio": 64,
+          "mortuus": 64,
+          "tutamen": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadow_fortress_helmet",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadow_fortress_helmet",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:bone_meal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:poisonous_potato",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:wither_skeleton_skull",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_shadow_fortress_helmet_mask2",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "MASKSIPPINGFIEND",
+        "instability": 8,
+        "aspects": {
+          "exanimis": 64,
+          "victus": 64,
+          "tutamen": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadow_fortress_helmet",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadow_fortress_helmet",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:red_dye",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ghast_tear",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:milk_bucket",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_shadow_fortress_helmet",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:SHADOWFORTRESS",
+        "instability": 7,
+        "aspects": {
+          "metallum": 28,
+          "tutamen": 20,
+          "praecantatio": 12,
+          "tenebrae": 30,
+          "vacuos": 22
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:void_helmet",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadow_fortress_helmet",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:emerald",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_shadow_fortress_chestplate",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:SHADOWFORTRESS",
+        "instability": 7,
+        "aspects": {
+          "metallum": 38,
+          "tutamen": 26,
+          "praecantatio": 18,
+          "tenebrae": 34,
+          "vacuos": 26
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:void_chestplate",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadow_fortress_chestplate",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_shadow_fortress_leggings",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:SHADOWFORTRESS",
+        "instability": 7,
+        "aspects": {
+          "metallum": 32,
+          "tutamen": 24,
+          "praecantatio": 16,
+          "tenebrae": 32,
+          "vacuos": 24
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:void_leggings",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadow_fortress_leggings",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_katana_0",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:THAUMIUMKATANA",
+        "instability": 3,
+        "aspects": {
+          "metallum": 42,
+          "telum": 45,
+          "praecantatio": 22
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:thaumium_sword",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:thaumium_katana",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:obsidian",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:emerald",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:obsidian",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:emerald",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_katana_1",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:VOIDMETALKATANA",
+        "instability": 6,
+        "aspects": {
+          "metallum": 52,
+          "telum": 55,
+          "praecantatio": 32,
+          "vacuos": 46,
+          "alienis": 12
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:void_sword",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:voidmetal_katana",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:obsidian",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:emerald",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:obsidian",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:emerald",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_katana_2",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:SHADOWMETALKATANA",
+        "instability": 7,
+        "aspects": {
+          "metallum": 62,
+          "telum": 65,
+          "praecantatio": 42,
+          "vacuos": 16,
+          "tenebrae": 46
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadowmetal_sword",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadowmetal_katana",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:obsidian",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:emerald",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:obsidian",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:emerald",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_flyte_charm",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:FLYTECHARM",
+        "instability": 7,
+        "aspects": {
+          "volatus": 86,
+          "auram": 56,
+          "sensus": 25,
+          "praecantatio": 48,
+          "potentia": 65
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:primal_arrow_air",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:flyte_charm",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shard_of_creation",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_gate_key",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:GATEKEY",
+        "instability": 7,
+        "aspects": {
+          "motus": 40,
+          "auram": 20,
+          "iter": 25,
+          "praecantatio": 30
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:gold_ingot",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:gate_key",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:fragment_of_creation",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_pearl",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:ender_pearl",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_voidmetal_goggles",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:VOIDGOGGLES",
+        "instability": 5,
+        "aspects": {
+          "vacuos": 40,
+          "sensus": 35,
+          "tutamen": 20
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:warped_goggles",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:voidmetal_goggles",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver_drop",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_lumos_ring",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:LUMOSRING",
+        "instability": 1,
+        "aspects": {
+          "lux": 35,
+          "sensus": 25,
+          "auram": 10
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:mundane_ring",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:lumos_ring",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:focus_lumos",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:amber",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:amber",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_katana_thaumium_inscription0",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:INSCRIPTIONFIRE",
+        "instability": 8,
+        "aspects": {
+          "ignis": 64,
+          "potentia": 64,
+          "telum": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:thaumium_katana",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:thaumium_katana",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:focus_fire",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:coal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:netherrack",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:fire_charge",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:blaze_powder",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_katana_thaumium_inscription1",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:INSCRIPTIONTHUNDER",
+        "instability": 8,
+        "aspects": {
+          "aer": 64,
+          "tempestas": 64,
+          "telum": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:thaumium_katana",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:thaumium_katana",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:focus_shockwave",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:tnt",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gunpowder",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_katana_thaumium_inscription2",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:INSCRIPTIONHEAL",
+        "instability": 8,
+        "aspects": {
+          "sano": 64,
+          "exanimis": 64,
+          "telum": 16
+        },
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:thaumium_katana",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:thaumium_katana",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:focus_pech",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:bone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:rotten_flesh",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:fermented_spider_eye",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:bath_salts",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_katana_inscription0",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:INSCRIPTIONFIRE",
+        "instability": 8,
+        "aspects": {
+          "ignis": 64,
+          "potentia": 64,
+          "telum": 16
+        },
+        "input": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:thaumium_katana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:voidmetal_katana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_katana"
+              }
+            }
+          ]
+        },
+        "output": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:thaumium_katana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:voidmetal_katana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_katana"
+              }
+            }
+          ]
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:focus_fire",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:coal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:netherrack",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:fire_charge",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:blaze_powder",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_katana_inscription1",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:INSCRIPTIONTHUNDER",
+        "instability": 8,
+        "aspects": {
+          "aer": 64,
+          "tempestas": 64,
+          "telum": 16
+        },
+        "input": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:thaumium_katana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:voidmetal_katana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_katana"
+              }
+            }
+          ]
+        },
+        "output": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:thaumium_katana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:voidmetal_katana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_katana"
+              }
+            }
+          ]
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:focus_shockwave",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:tnt",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gunpowder",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_katana_inscription2",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "taintedmagic:INSCRIPTIONHEAL",
+        "instability": 8,
+        "aspects": {
+          "sano": 64,
+          "exanimis": 64,
+          "telum": 16
+        },
+        "input": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:thaumium_katana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:voidmetal_katana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_katana"
+              }
+            }
+          ]
+        },
+        "output": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:thaumium_katana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:voidmetal_katana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_katana"
+              }
+            }
+          ]
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:focus_pech",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:bone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:rotten_flesh",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:fermented_spider_eye",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:bath_salts",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_material_2",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:crimson_stained_cloth",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ignis": 5,
+          "perditio": 5
+        },
+        "research": "taintedmagic:CRIMSONROBES",
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_blood",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:enchanted_fabric",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_nugget",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_warp_fertilizer",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:warp_fertilizer",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 150
+        },
+        "research": "taintedmagic:WARPTREE",
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:warped_unbalanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:bone_meal",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_material_6",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:thaumic_alloy_plate",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ordo": 50,
+          "perditio": 50
+        },
+        "research": "taintedmagic:THAUMICDISASSEMBLER",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_helmet_cultist_robe",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:cultist_robe_helmet",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ignis": 5,
+          "perditio": 5
+        },
+        "research": "taintedmagic:CRIMSONROBES",
+        "width": 3,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_chest_cultist_robe",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:cultist_robe_chestplate",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ignis": 10,
+          "perditio": 10
+        },
+        "research": "taintedmagic:CRIMSONROBES",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_legs_cultist_robe",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:cultist_robe_leggings",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ignis": 8,
+          "perditio": 8
+        },
+        "research": "taintedmagic:CRIMSONROBES",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_boots_cultist",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:cultist_boots",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ignis": 5,
+          "perditio": 5
+        },
+        "research": "taintedmagic:CRIMSONROBES",
+        "width": 3,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_wand_rod_1",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:wand_rod_warpwood_staff",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aer": 120,
+          "terra": 120,
+          "ignis": 120,
+          "aqua": 120,
+          "ordo": 120,
+          "perditio": 120
+        },
+        "research": "taintedmagic:ROD_warpwood_staff",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            null,
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:wand_rod_warpwood",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:wand_rod_warpwood",
+                "count": 1
+              }
+            },
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_helmet_cultist_plate",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:cultist_plate_helmet",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "terra": 5,
+          "ignis": 5,
+          "perditio": 5
+        },
+        "research": "taintedmagic:KNIGHTROBES",
+        "width": 3,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_chest_cultist_plate",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:cultist_plate_chestplate",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "terra": 10,
+          "ignis": 10,
+          "perditio": 10
+        },
+        "research": "taintedmagic:KNIGHTROBES",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_legs_cultist_plate",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:cultist_plate_leggings",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "terra": 8,
+          "ignis": 8,
+          "perditio": 8
+        },
+        "research": "taintedmagic:KNIGHTROBES",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            null
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_helmet_cultist_leader_plate",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:cultist_leader_helmet",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ordo": 15,
+          "perditio": 15,
+          "ignis": 15
+        },
+        "research": "taintedmagic:PRAETORARMOR",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:cultist_plate_helmet",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_chest_cultist_leader_plate",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:cultist_leader_chestplate",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ordo": 25,
+          "perditio": 25,
+          "ignis": 25
+        },
+        "research": "taintedmagic:PRAETORARMOR",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:cultist_plate_chestplate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_legs_cultist_leader_plate",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:cultist_leader_leggings",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ordo": 20,
+          "perditio": 20,
+          "ignis": 20
+        },
+        "research": "taintedmagic:PRAETORARMOR",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:cultist_plate_leggings",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_alloy_plate",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_material_1",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadow_imbued_cloth",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ordo": 10,
+          "perditio": 10
+        },
+        "research": "taintedmagic:SHADOWMETAL",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_nugget",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_nugget",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:enchanted_fabric",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_nugget",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadowmetal_nugget",
+                "count": 1
+              }
+            },
+            null
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_magic_funguar",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:magic_funguar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aer": 1,
+          "terra": 1,
+          "ignis": 1,
+          "aqua": 1,
+          "ordo": 1,
+          "perditio": 1
+        },
+        "research": "taintedmagic:MAGICFUNGUAR",
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:vishroom",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:air_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:fire_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:water_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:earth_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:order_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:entropy_shard"
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:balanced_shard"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glowstone_dust",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_hollow_dagger",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:hollow_dagger",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 85
+        },
+        "research": "taintedmagic:HOLLOWDAGGER",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            null,
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wand_rod_bone",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_log",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_nugget",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick",
+                "count": 1
+              }
+            },
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_wand_cap_1",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:wand_cap_cloth",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "terra": 10,
+          "ignis": 10,
+          "perditio": 10,
+          "ordo": 10
+        },
+        "research": "taintedmagic:CAP_cloth",
+        "width": 3,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:enchanted_fabric",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:enchanted_fabric",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:enchanted_fabric",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:enchanted_fabric",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:enchanted_fabric",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_wand_cap_2",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:wand_cap_crimsoncloth",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ignis": 25,
+          "perditio": 25,
+          "ordo": 25
+        },
+        "research": "taintedmagic:CAP_crimsoncloth",
+        "width": 3,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_stained_cloth",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_wand_cap_3",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:wand_cap_shadowcloth",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "terra": 55,
+          "ignis": 55,
+          "perditio": 55,
+          "ordo": 55
+        },
+        "research": "taintedmagic:CAP_shadowcloth",
+        "width": 3,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadow_imbued_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadow_imbued_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadow_imbued_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadow_imbued_cloth",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shadow_imbued_cloth",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_focus_vis_shard",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:focus_vis_shard",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aer": 46,
+          "perditio": 38,
+          "ordo": 22
+        },
+        "research": "taintedmagic:FOCUSSHARD",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:tainted_unbalanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:tainted_unbalanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_focus_lumos",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:focus_lumos",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aer": 52,
+          "ignis": 56,
+          "ordo": 28
+        },
+        "research": "taintedmagic:FOCUSLUMOS",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glowstone_dust",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glowstone_dust",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glowstone_dust",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glowstone_dust",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_material_9",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:primordial_nodule",
+            "count": 3
+          }
+        },
+        "aspects": {
+          "perditio": 25
+        },
+        "research": "taintedmagic:BREAKPEARL",
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_material_10",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:primordial_mote",
+            "count": 3
+          }
+        },
+        "aspects": {
+          "perditio": 15
+        },
+        "research": "taintedmagic:BREAKPEARL",
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:primordial_nodule",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_material_11",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:fragment_of_creation",
+            "count": 9
+          }
+        },
+        "aspects": {
+          "perditio": 99
+        },
+        "research": "taintedmagic:CREATIONSHARD",
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:shard_of_creation",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_void_blood",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:void_blood",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ordo": 35,
+          "perditio": 25
+        },
+        "research": "taintedmagic:VOIDBLOOD",
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:primordial_mote",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_seed",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "taintedmagic:crimson_blood",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_seed",
+                "count": 1
+              }
+            },
+            null,
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:wisp_essence"
+              }
+            },
+            null
+          ]
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_material_3",
+      "class": "modern",
+      "data": {
+        "kind": "crucible",
+        "research": "taintedmagic:UNBALANCEDSHARDS",
+        "aspects": {
+          "alienis": 4
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:balanced_shard",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:warped_unbalanced_shard",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_material_4",
+      "class": "modern",
+      "data": {
+        "kind": "crucible",
+        "research": "taintedmagic:UNBALANCEDSHARDS",
+        "aspects": {
+          "vitium": 4
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:balanced_shard",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:tainted_unbalanced_shard",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:item_material_0",
+      "class": "modern",
+      "data": {
+        "kind": "crucible",
+        "research": "taintedmagic:SHADOWMETAL",
+        "aspects": {
+          "tenebrae": 3,
+          "metallum": 7,
+          "praecantatio": 2
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:iron_ingot",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "taintedmagic:shadowmetal_ingot",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:vishroom_brown",
+      "class": "modern",
+      "data": {
+        "kind": "crucible",
+        "research": "taintedmagic:VISHROOMCRAFT",
+        "aspects": {
+          "praecantatio": 3,
+          "venenum": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:brown_mushroom",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:vishroom",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "taintedmagic:vishroom_red",
+      "class": "modern",
+      "data": {
+        "kind": "crucible",
+        "research": "taintedmagic:VISHROOMCRAFT",
+        "aspects": {
+          "praecantatio": 3,
+          "venenum": 1
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:red_mushroom",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:vishroom",
+            "count": 1
+          }
+        }
+      }
+    }
+  ]
+}

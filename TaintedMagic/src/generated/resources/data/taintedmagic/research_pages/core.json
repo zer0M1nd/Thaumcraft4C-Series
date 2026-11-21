@@ -1,0 +1,1556 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "taintedmagic:TAINTEDMAGIC",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.TAINTEDMAGIC.1"
+          },
+          "id": "taintedmagic:TAINTEDMAGIC/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.TAINTEDMAGIC.2"
+          },
+          "id": "taintedmagic:TAINTEDMAGIC/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:SHADOWMETAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.SHADOWMETAL.1"
+          },
+          "id": "taintedmagic:SHADOWMETAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_material_0"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:SHADOWMETAL/page/2",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_shadowmetal_pick"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:SHADOWMETAL/page/3",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_shadowmetal_spade"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:SHADOWMETAL/page/4",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_shadowmetal_axe"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:SHADOWMETAL/page/5",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_shadowmetal_hoe"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:SHADOWMETAL/page/6",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_shadowmetal_sword"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:SHADOWMETAL/page/7",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:CAP_shadowmetal",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CAP_shadowmetal.1"
+          },
+          "id": "taintedmagic:CAP_shadowmetal/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_wand_cap_0"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:CAP_shadowmetal/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:SHADOWCLOTH",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.SHADOWCLOTH.1"
+          },
+          "id": "taintedmagic:SHADOWCLOTH/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_material_1"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:SHADOWCLOTH/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:ROD_warpwood",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.ROD_warpwood.1"
+          },
+          "id": "taintedmagic:ROD_warpwood/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_wand_rod_0"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:ROD_warpwood/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:ROD_warpwood_staff",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.ROD_warpwood_staff.1"
+          },
+          "id": "taintedmagic:ROD_warpwood_staff/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_wand_rod_1"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:ROD_warpwood_staff/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:UNBALANCEDSHARDS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.UNBALANCEDSHARDS.1"
+          },
+          "id": "taintedmagic:UNBALANCEDSHARDS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_material_4"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:UNBALANCEDSHARDS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_material_3"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:UNBALANCEDSHARDS/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:WARPTREE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.WARPTREE.1"
+          },
+          "id": "taintedmagic:WARPTREE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_warp_fertilizer"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:WARPTREE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:CRIMSONROBES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CRIMSONROBES.1"
+          },
+          "id": "taintedmagic:CRIMSONROBES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_material_2"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:CRIMSONROBES/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_helmet_cultist_robe"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:CRIMSONROBES/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_chest_cultist_robe"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:CRIMSONROBES/page/4",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_legs_cultist_robe"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:CRIMSONROBES/page/5",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_boots_cultist"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:CRIMSONROBES/page/6",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:VOIDFORTRESS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.VOIDFORTRESS.1"
+          },
+          "id": "taintedmagic:VOIDFORTRESS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_void_fortress_helmet"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:VOIDFORTRESS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_void_fortress_chestplate"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:VOIDFORTRESS/page/3",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_void_fortress_leggings"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:VOIDFORTRESS/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:WARPEDGOGGLES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.WARPEDGOGGLES.1"
+          },
+          "id": "taintedmagic:WARPEDGOGGLES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_warped_goggles"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:WARPEDGOGGLES/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:KNIGHTROBES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.KNIGHTROBES.1"
+          },
+          "id": "taintedmagic:KNIGHTROBES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_material_7"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:KNIGHTROBES/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_helmet_cultist_plate"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:KNIGHTROBES/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_chest_cultist_plate"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:KNIGHTROBES/page/4",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_legs_cultist_plate"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:KNIGHTROBES/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:PRAETORARMOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.PRAETORARMOR.1"
+          },
+          "id": "taintedmagic:PRAETORARMOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_helmet_cultist_leader_plate"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:PRAETORARMOR/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_chest_cultist_leader_plate"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:PRAETORARMOR/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_legs_cultist_leader_plate"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:PRAETORARMOR/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:VOIDBLOOD",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.VOIDBLOOD.1"
+          },
+          "id": "taintedmagic:VOIDBLOOD/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_void_blood"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:VOIDBLOOD/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:VOIDWALKERBOOTS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.VOIDWALKERBOOTS.1"
+          },
+          "id": "taintedmagic:VOIDWALKERBOOTS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_voidwalker_boots"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:VOIDWALKERBOOTS/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:BREAKPEARL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.BREAKPEARL.1"
+          },
+          "id": "taintedmagic:BREAKPEARL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_material_9"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:BREAKPEARL/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_material_10"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:BREAKPEARL/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:CREATIONSHARD",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CREATIONSHARD.1"
+          },
+          "id": "taintedmagic:CREATIONSHARD/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_material_5"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:CREATIONSHARD/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_material_11"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:CREATIONSHARD/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:CREATION",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CREATION.1"
+          },
+          "id": "taintedmagic:CREATION/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CREATION.2"
+          },
+          "id": "taintedmagic:CREATION/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CREATION.3"
+          },
+          "id": "taintedmagic:CREATION/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CREATION.4"
+          },
+          "id": "taintedmagic:CREATION/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CREATION.5"
+          },
+          "id": "taintedmagic:CREATION/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CREATION.6"
+          },
+          "id": "taintedmagic:CREATION/page/6",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:SKYSALT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.SKYSALT.1"
+          },
+          "id": "taintedmagic:SKYSALT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_salis_0"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:SKYSALT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:TIMESALT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.TIMESALT.1"
+          },
+          "id": "taintedmagic:TIMESALT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_salis_1"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:TIMESALT/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:THAUMICDISASSEMBLER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.THAUMICDISASSEMBLER.1"
+          },
+          "id": "taintedmagic:THAUMICDISASSEMBLER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_thaumic_disassembler"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:THAUMICDISASSEMBLER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_material_6"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:THAUMICDISASSEMBLER/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.THAUMICDISASSEMBLER.2"
+          },
+          "id": "taintedmagic:THAUMICDISASSEMBLER/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:VOIDSASH",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.VOIDSASH.1"
+          },
+          "id": "taintedmagic:VOIDSASH/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_voidwalker_sash"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:VOIDSASH/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:MAGICFUNGUAR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.MAGICFUNGUAR.1"
+          },
+          "id": "taintedmagic:MAGICFUNGUAR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_magic_funguar"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:MAGICFUNGUAR/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:VISHROOMCRAFT",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.VISHROOMCRAFT.1"
+          },
+          "id": "taintedmagic:VISHROOMCRAFT/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:vishroom_red"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:VISHROOMCRAFT/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:vishroom_brown"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:VISHROOMCRAFT/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:HOLLOWDAGGER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.HOLLOWDAGGER.1"
+          },
+          "id": "taintedmagic:HOLLOWDAGGER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_hollow_dagger"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:HOLLOWDAGGER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:CRIMSONBLADE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CRIMSONBLADE.1"
+          },
+          "id": "taintedmagic:CRIMSONBLADE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_sword_crimson"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:CRIMSONBLADE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:SHADOWFORTRESS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.SHADOWFORTRESS.1"
+          },
+          "id": "taintedmagic:SHADOWFORTRESS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_shadow_fortress_helmet"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:SHADOWFORTRESS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_shadow_fortress_chestplate"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:SHADOWFORTRESS/page/3",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_shadow_fortress_leggings"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:SHADOWFORTRESS/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:CAP_cloth",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CAP_cloth.1"
+          },
+          "id": "taintedmagic:CAP_cloth/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_wand_cap_1"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:CAP_cloth/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:CAP_crimsoncloth",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CAP_crimsoncloth.1"
+          },
+          "id": "taintedmagic:CAP_crimsoncloth/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_wand_cap_2"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:CAP_crimsoncloth/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:CAP_shadowcloth",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.CAP_shadowcloth.1"
+          },
+          "id": "taintedmagic:CAP_shadowcloth/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_wand_cap_3"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:CAP_shadowcloth/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:PRIMALBLADE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.PRIMALBLADE.1"
+          },
+          "id": "taintedmagic:PRIMALBLADE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_primal_blade"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:PRIMALBLADE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:THAUMIUMKATANA",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.THAUMIUMKATANA.1"
+          },
+          "id": "taintedmagic:THAUMIUMKATANA/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_katana_0"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:THAUMIUMKATANA/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:VOIDMETALKATANA",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.VOIDMETALKATANA.1"
+          },
+          "id": "taintedmagic:VOIDMETALKATANA/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_katana_1"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:VOIDMETALKATANA/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:SHADOWMETALKATANA",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.SHADOWMETALKATANA.1"
+          },
+          "id": "taintedmagic:SHADOWMETALKATANA/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_katana_2"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:SHADOWMETALKATANA/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:INSCRIPTIONFIRE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.INSCRIPTIONFIRE.1"
+          },
+          "id": "taintedmagic:INSCRIPTIONFIRE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_katana_thaumium_inscription0"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:INSCRIPTIONFIRE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:INSCRIPTIONTHUNDER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.INSCRIPTIONTHUNDER.1"
+          },
+          "id": "taintedmagic:INSCRIPTIONTHUNDER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_katana_thaumium_inscription1"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:INSCRIPTIONTHUNDER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:INSCRIPTIONHEAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.INSCRIPTIONHEAL.1"
+          },
+          "id": "taintedmagic:INSCRIPTIONHEAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_katana_thaumium_inscription2"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:INSCRIPTIONHEAL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:VOIDGOGGLES",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.VOIDGOGGLES.1"
+          },
+          "id": "taintedmagic:VOIDGOGGLES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_voidmetal_goggles"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:VOIDGOGGLES/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:ELDRITCHFOCUS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.ELDRITCHFOCUS.1"
+          },
+          "id": "taintedmagic:ELDRITCHFOCUS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_focus_dark_matter"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:ELDRITCHFOCUS/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:DIFFUSIONUPGRADE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.DIFFUSIONUPGRADE.1"
+          },
+          "id": "taintedmagic:DIFFUSIONUPGRADE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:MACEFOCUS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.MACEFOCUS.1"
+          },
+          "id": "taintedmagic:MACEFOCUS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_focus_mage_mace"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:MACEFOCUS/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:FOCUSSHOCKWAVE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.FOCUSSHOCKWAVE.1"
+          },
+          "id": "taintedmagic:FOCUSSHOCKWAVE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_focus_shockwave"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:FOCUSSHOCKWAVE/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:FOCUSSHARD",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.FOCUSSHARD.1"
+          },
+          "id": "taintedmagic:FOCUSSHARD/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_focus_vis_shard"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:FOCUSSHARD/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:TAINTFOCUS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.TAINTFOCUS.1"
+          },
+          "id": "taintedmagic:TAINTFOCUS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_focus_taint_swarm"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:TAINTFOCUS/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:FOCUSLUMOS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.FOCUSLUMOS.1"
+          },
+          "id": "taintedmagic:FOCUSLUMOS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_focus_lumos"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:FOCUSLUMOS/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:LUMOSRING",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.LUMOSRING.1"
+          },
+          "id": "taintedmagic:LUMOSRING/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_lumos_ring"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:LUMOSRING/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:FLYTECHARM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.FLYTECHARM.1"
+          },
+          "id": "taintedmagic:FLYTECHARM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_flyte_charm"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:FLYTECHARM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "taintedmagic:GATEKEY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tm.text.GATEKEY.1"
+          },
+          "id": "taintedmagic:GATEKEY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "taintedmagic:item_gate_key"
+            ],
+            "class": "modern"
+          },
+          "id": "taintedmagic:GATEKEY/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumcraft:cultist_leader_helmet",
+    "count": 1
+  },
+  "research": "taintedmagic:PRAETORARMOR",
+  "vis": {
+    "ordo": 15,
+    "perditio": 15,
+    "ignis": 15
+  },
+  "mode": "shaped",
+  "pattern": [
+    "BCB",
+    "DAD",
+    "BCB"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:cultist_plate_helmet"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "taintedmagic:crimson_alloy_plate"
+    },
+    "D": {
+      "item": "minecraft:gold_ingot"
+    }
+  }
+}

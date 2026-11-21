@@ -1,0 +1,83 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:VOIDWALKERBOOTS",
+  "instability": 8,
+  "aspects": {
+    "tenebrae": 42,
+    "vacuos": 56,
+    "alienis": 38,
+    "tutamen": 60,
+    "iter": 45
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:traveller_boots"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:primordial_mote"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadow_imbued_cloth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadow_imbued_cloth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:eldritch_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadow_imbued_cloth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadow_imbued_cloth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:voidwalker_boots",
+    "count": 1
+  }
+}

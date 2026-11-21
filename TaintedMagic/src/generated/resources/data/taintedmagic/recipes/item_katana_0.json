@@ -1,0 +1,81 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:THAUMIUMKATANA",
+  "instability": 3,
+  "aspects": {
+    "metallum": 42,
+    "telum": 45,
+    "praecantatio": 22
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_sword"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:thaumium_katana",
+    "count": 1
+  }
+}

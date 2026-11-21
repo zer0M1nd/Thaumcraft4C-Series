@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "taintedmagic:magic_funguar",
+    "count": 1
+  },
+  "research": "taintedmagic:MAGICFUNGUAR",
+  "vis": {
+    "aer": 1,
+    "terra": 1,
+    "ignis": 1,
+    "aqua": 1,
+    "ordo": 1,
+    "perditio": 1
+  },
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "thaumcraft:vishroom"
+    },
+    [
+      {
+        "item": "thaumcraft:air_shard"
+      },
+      {
+        "item": "thaumcraft:fire_shard"
+      },
+      {
+        "item": "thaumcraft:water_shard"
+      },
+      {
+        "item": "thaumcraft:earth_shard"
+      },
+      {
+        "item": "thaumcraft:order_shard"
+      },
+      {
+        "item": "thaumcraft:entropy_shard"
+      },
+      {
+        "item": "thaumcraft:balanced_shard"
+      }
+    ],
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ]
+}

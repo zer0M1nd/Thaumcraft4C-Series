@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:CAP_shadowmetal",
+  "instability": 8,
+  "aspects": {
+    "alienis": 55,
+    "tenebrae": 47,
+    "praecantatio": 52,
+    "metallum": 45,
+    "vacuos": 55
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_cap_void"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "taintedmagic:warped_unbalanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:primordial_nodule"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:shadowmetal_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:wand_cap_shadowmetal",
+    "count": 1
+  }
+}

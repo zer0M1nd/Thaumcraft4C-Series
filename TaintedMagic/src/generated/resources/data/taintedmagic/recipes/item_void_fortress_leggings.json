@@ -1,0 +1,48 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "taintedmagic:VOIDFORTRESS",
+  "instability": 6,
+  "aspects": {
+    "metallum": 24,
+    "tutamen": 20,
+    "praecantatio": 8,
+    "alienis": 16,
+    "vacuos": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:void_leggings"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    }
+  ],
+  "result": {
+    "item": "taintedmagic:void_fortress_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:blocks/blocknightshadebush"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:blocks/blockwarpwoodleaves_opaque"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:blocks/blockwarpwoodleaves_transparent"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:blocks/blockwarpwoodlog_knot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:blocks/blockwarpwoodlog_side"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:blocks/blockwarpwoodlog_top"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:blocks/blockwarpwoodplanks"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:blocks/blockwarpwoodsapling"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemcrimsonblood"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemflytecharm"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemfocusdarkmatter"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemfocusdarkmatter_depth"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemfocuslumos"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemfocusmagemace"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemfocusmagemace_orn"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemfocusshockwave"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemfocusshockwave_depth"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemfocustaintswarm"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemfocustaintswarm_depth"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemfocusvisshard"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemgatekey"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemgatekey_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemhollowdagger"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemlumosring"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmagicfunguar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmaterial0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmaterial1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmaterial10"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmaterial11"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmaterial2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmaterial3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmaterial4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmaterial5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmaterial6"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmaterial7"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmaterial8"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemmaterial9"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemnightshadeberries"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemprimalblade"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemsalis0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemsalis1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemshadowfortresschestplate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemshadowfortresshelmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemshadowfortressleggings"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemshadowmetalaxe"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemshadowmetalhoe"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemshadowmetalpick"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemshadowmetalspade"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemshadowmetalsword"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemthaumicdisassembler"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemvoidblood"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemvoidfortresschestplate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemvoidfortresshelmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemvoidfortressleggings"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemvoidmetalgoggles"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemvoidwalkerboots"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemvoidwalkersash"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemwandcap0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemwandcap1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemwandcap2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemwandcap3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemwandrod0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemwandrod1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemwarpedgoggles"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "taintedmagic:items/itemwarpfertilizer"
+    }
+  ]
+}

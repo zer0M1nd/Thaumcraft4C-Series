@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "taintedmagic:wand_cap_crimsoncloth",
+    "count": 1
+  },
+  "research": "taintedmagic:CAP_crimsoncloth",
+  "vis": {
+    "ignis": 25,
+    "perditio": 25,
+    "ordo": 25
+  },
+  "mode": "shaped",
+  "pattern": [
+    "AAA",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "taintedmagic:crimson_stained_cloth"
+    },
+    "B": {
+      "item": "thaumcraft:salis_mundus"
+    }
+  }
+}
