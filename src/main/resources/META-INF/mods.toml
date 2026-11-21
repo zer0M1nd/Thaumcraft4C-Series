@@ -17,12 +17,12 @@ Convert local resource packs made for older Thaumcraft versions and addons into 
 [[dependencies.thaumcraftresourceadapter]]
 modId="forge"
 mandatory=true
-versionRange="[47.4,)"
+versionRange="[47.4.0,)"
 ordering="NONE"
 side="CLIENT"
 [[dependencies.thaumcraftresourceadapter]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.20.1,1.20.2)"
+versionRange="[1.20.1]"
 ordering="NONE"
 side="CLIENT"
