@@ -246,14 +246,34 @@ class UpdaterTest {
     }
     private JsonObject release(String id, String version) throws IOException { return release(id, version, jar(id, version, "", false)); }
     private JsonObject release(String id, String version, byte[] bytes) {
-        String filename = id + "-" + version + ".jar";
+        return release(id, version, bytes, id + "-" + version + ".jar");
+    }
+    private JsonObject release(String id, String version, byte[] bytes, String filename) {
         String path = "/download/files/releases/" + id + "/" + version + "/" + filename;
         downloads.put(path, bytes);
         JsonObject row = new JsonObject();
         row.addProperty("modid", id); row.addProperty("version", version); row.addProperty("filename", filename);
         row.addProperty("sha256", FilesSupport.sha256(bytes)); row.addProperty("size", bytes.length);
-        row.addProperty("channel", Version.parse(version).stable() ? "stable" : "testing"); row.addProperty("url", path);
+        row.addProperty("channel", Version.parse(version).stable() ? "stable" : "testing");
+        row.addProperty("url", path.replace("[", "%5B").replace("]", "%5D"));
         return row;
+    }
+    @Test void installsSeriesJarFromPercentEncodedUrl() throws Exception {
+        policies("yes", "yes", "yes");
+        Path previous = install("emt", "0.1.1");
+        String name = "[TC4Continuation]Electro-Magic-Tools-0.1.2.jar";
+        byte[] bytes = jar("emt", "0.1.2", "", false);
+        publish("emt", release("emt", "0.1.2", bytes, name), null);
+        assertEquals(1, engine().run(game, CLIENT).updated());
+        assertArrayEquals(bytes, Files.readAllBytes(game.resolve("mods").resolve(name)));
+        assertFalse(Files.exists(previous));
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {"[TC4Continuation]Two Words-1.0.0.jar", "[Other]Thing-1.0.0.jar",
+                            "[TC4Continuation]a/b.jar", "[TC4Continuation]a[b].jar"})
+    void rejectsMalformedSeriesFilename(String name) {
+        assertThrows(IOException.class, () -> FilesSupport.filename(name));
     }
     private JsonObject publish(String id, JsonObject stable, JsonObject testing) {
         JsonObject item = new JsonObject(); item.addProperty("modid", id);

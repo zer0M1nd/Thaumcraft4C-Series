@@ -40,7 +40,7 @@ public final class FilesSupport {
         Files.move(temporary, target, StandardCopyOption.ATOMIC_MOVE, StandardCopyOption.REPLACE_EXISTING);
     }
     public static String filename(String name) throws IOException {
-        if (name == null || name.length() > 200 || !name.matches("[A-Za-z0-9][A-Za-z0-9_.+\\-]*\\.jar"))
+        if (name == null || name.length() > 200 || !name.matches("(?:\\[TC4Continuation\\])?[A-Za-z0-9][A-Za-z0-9_.+\\-]*\\.jar"))
             throw new IOException("Invalid JAR filename: " + name);
         return name;
     }
