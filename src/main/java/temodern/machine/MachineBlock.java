@@ -31,6 +31,15 @@ public final class MachineBlock extends BaseEntityBlock {
     }
     @Override public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
         if (level.getBlockEntity(pos) instanceof NetworkMachine machine) {
+            if(kind.equals("infusion_provider") && player.isShiftKeyDown() && appeng.util.InteractionUtil.canWrenchDisassemble(player.getItemInHand(hand))){
+                if(level.isClientSide)return InteractionResult.SUCCESS;
+                if(!(player instanceof net.minecraft.server.level.ServerPlayer server) || !level.mayInteract(player,pos)
+                        || !player.mayUseItemAt(pos,hit.getDirection(),player.getItemInHand(hand))
+                        || !appeng.util.Platform.hasPermissions(new appeng.api.util.DimensionalBlockPos(level,pos),player)
+                        || net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(level,server.gameMode.getGameModeForPlayer(),server,pos)<0)
+                    return InteractionResult.FAIL;
+                return level.destroyBlock(pos,!player.getAbilities().instabuild,player)?InteractionResult.CONSUME:InteractionResult.FAIL;
+            }
             if(machine.memoryCard(player,player.getItemInHand(hand)))return InteractionResult.sidedSuccess(level.isClientSide);
             if(kind.equals("vis_interface") && player.isShiftKeyDown() && player.getItemInHand(hand).isEmpty()){
                 if(!level.isClientSide){machine.toggleVisOutput();player.displayClientMessage(net.minecraft.network.chat.Component.translatable(machine.visOutput()?"gui.thaumicenergistics.vis_output":"gui.thaumicenergistics.vis_input"),true);}

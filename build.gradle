@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.2.29.1'
+version = '0.2.30'
 group='temodern'
 base.archivesName='Thaumic-Energistics-Modern-Port'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
@@ -8,7 +8,7 @@ java.withSourcesJar()
 sourceSets.main.resources.srcDir('../../../Docs/Licenses/ThaumicEnergistics')
 repositories { flatDir { dirs 'libs' }; maven { url=uri('local-maven'); content { includeGroup 'local.te' } }; mavenCentral() }
 repositories {
-    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
+    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.119.3'}" }
     maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
 }
 dependencies {
@@ -16,7 +16,7 @@ dependencies {
  minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
  implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
   ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
-  : 'local.revival:Thaumcraft-4-Modern-Port:0.4.114')
+  : 'local.revival:Thaumcraft-4-Modern-Port:0.4.119.3')
  runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
  implementation fg.deobf('local.te:ae2:15.4.10')
  runtimeOnly fg.deobf('local.te:jei:15.59.0.211')

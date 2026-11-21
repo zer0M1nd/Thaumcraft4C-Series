@@ -161,7 +161,7 @@ public class Workstation implements ICraftingMachine, appeng.api.networking.craf
             return paid;
         }
         if(player!=null)return false;
-        var costs=new LinkedHashMap<Aspect,Integer>();plan.cost.forEach((aspect,amount)->costs.put(aspect,(int)(Math.multiplyExact(amount,100)*(host.kind().equals("arcane_assembler")?modifier(aspect):1f))));
+        var costs=new LinkedHashMap<Aspect,Integer>();plan.cost.forEach((aspect,amount)->costs.put(aspect,(int)(tc4revival.content.ArcaneRecipe.hundredths(plan.cost,aspect)*(host.kind().equals("arcane_assembler")?modifier(aspect):1f))));
         return host.consumeNetworkVis(costs,!commit);
     }
     private ItemStack craftingWand(Plan plan,ServerPlayer player) {
@@ -178,7 +178,7 @@ public class Workstation implements ICraftingMachine, appeng.api.networking.craf
         if(plan==null)return new ManualPreview(ItemStack.EMPTY,Map.of());
         var costs=new LinkedHashMap<Aspect,Integer>();
         var wand=craftingWand(plan,player);
-        plan.cost.forEach((aspect,amount)->costs.put(aspect,(int)(amount*100f*
+        plan.cost.forEach((aspect,amount)->costs.put(aspect,(int)(tc4revival.content.ArcaneRecipe.hundredths(plan.cost,aspect)*
                 (wand.getItem() instanceof CastingWandItem item?item.consumptionModifier(wand,player,aspect,true):1f))));
         return new ManualPreview(host.active()&&pay(plan,player,false)?plan.result.copy():ItemStack.EMPTY,costs);
     }

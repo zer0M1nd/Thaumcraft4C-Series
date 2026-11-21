@@ -30,9 +30,9 @@ public final class WrenchFocus extends ItemFocusBasic {
             player.setItemInHand(hand, tool);
             var context = new UseOnContext(player, hand, hit);
             InteractionResult result = appeng.hooks.WrenchHook.onPlayerUseBlock(player,level,hand,hit);
-            if (!result.consumesAction()) result=tool.getItem().onItemUseFirst(tool, context);
-            if (!result.consumesAction()) result = level.getBlockState(hit.getBlockPos()).use(level, player, hand, hit);
-            if (!result.consumesAction()) result = tool.useOn(context);
+            if (result==InteractionResult.PASS) result=tool.getItem().onItemUseFirst(tool, context);
+            if (result==InteractionResult.PASS) result = level.getBlockState(hit.getBlockPos()).use(level, player, hand, hit);
+            if (result==InteractionResult.PASS) result = tool.useOn(context);
             if(result.consumesAction()){wandItem.consumeForPlayer(wand,player,costs(wand),false,false,true);effect(player,hit);}
             return new InteractionResultHolder<>(result, wand);
         } finally { player.setItemInHand(hand, original); }
