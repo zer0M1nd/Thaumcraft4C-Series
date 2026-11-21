@@ -1,0 +1,257 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicinfusion:chiseled_essentia",
+      "class": "modern",
+      "data": {
+        "research": "thaumicinfusion:ESSENTIABLOCKS",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicinfusion:chiseled_essentia",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 4
+        },
+        "kind": "arcane_shaped",
+        "width": 2,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicinfusion:essentia_bricks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicinfusion:essentia_bricks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicinfusion:essentia_bricks",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicinfusion:essentia_bricks",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicinfusion:essentia_block",
+      "class": "modern",
+      "data": {
+        "research": "thaumicinfusion:ESSENTIABLOCKS",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicinfusion:essentia_block",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 4
+        },
+        "kind": "arcane_shaped",
+        "width": 2,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicinfusion:essentia_bricks",
+      "class": "modern",
+      "data": {
+        "research": "thaumicinfusion:ESSENTIABLOCKS",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicinfusion:essentia_bricks",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 4
+        },
+        "kind": "arcane_shaped",
+        "width": 2,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicinfusion:essentia_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicinfusion:essentia_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicinfusion:essentia_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicinfusion:essentia_block",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "thaumicinfusion:focus_infusion",
+      "class": "modern",
+      "data": {
+        "research": "thaumicinfusion:FOCUSINFUSION",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicinfusion:focus_infusion",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "terra": 25,
+          "tutamen": 25,
+          "ordo": 25,
+          "cognitio": 10
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:focus_warding",
+            "count": 1
+          }
+        },
+        "instability": 4,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:earth_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:order_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:earth_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:order_shard",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

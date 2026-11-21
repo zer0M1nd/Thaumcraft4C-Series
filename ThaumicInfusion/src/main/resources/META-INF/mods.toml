@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+issueTrackerURL="https://github.com/zer0M1nd/Thaumcraft4C-Series/issues"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/thaumicinfusion/index.html"
+updateJSONURL="http://tc4c.zer0m1nd.me/forge-updates/thaumicinfusion.json"
+modId="thaumicinfusion"
+version="${version}"
+displayName="Thaumic Infusion"
+authors="zer0M1nd"
+credits="Original Thaumic Infusion by DrunkMafia."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Infuse ordinary blocks with aspects to give your buildings and contraptions magical properties.
+
+-------- Original release --------
+Allows alteration of the properties and purpose of a block through the use of Thaumcraft Aspects.
+
+Original credits: ImAWizardHagrid - English Localization'''
+
+[[dependencies.thaumicinfusion]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+

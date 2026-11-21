@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_THAUMICINFUSION",
+      "pages": [
+        {
+          "id": "thaumicinfusion:tut_addon_thaumicinfusion/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicinfusion.tut_addon_thaumicinfusion.text.1",
+            "with": [
+              [
+                {
+                  "text": "神秘注魔是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:tut_addon_thaumicinfusion/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicinfusion.tut_addon_thaumicinfusion.text.2",
+            "with": [
+              [
+                {
+                  "text": "它只有两条研究，但玩法很开放：用"
+                },
+                {
+                  "research": "thaumicinfusion:FOCUSINFUSION"
+                },
+                {
+                  "text": "（法杖核心：注魔）把"
+                },
+                {
+                  "text": "要素注入世界中的方块",
+                  "bold": true
+                },
+                {
+                  "text": "，让方块获得与要素相关的效果。研究页里详细列出了 32 种要素效果。\n另一条研究"
+                },
+                {
+                  "research": "thaumicinfusion:ESSENTIABLOCKS"
+                },
+                {
+                  "text": "（源质方块）提供用源质制作的方块。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:tut_addon_thaumicinfusion/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicinfusion:tut_addon_thaumicinfusion/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicinfusion.tut_addon_thaumicinfusion.text.4",
+            "with": [
+              [
+                {
+                  "text": "建议\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:tut_addon_thaumicinfusion/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicinfusion.tut_addon_thaumicinfusion.text.5",
+            "with": [
+              [
+                {
+                  "text": "多准备几种源质，在不重要的方块上试验，看看不同要素会产生什么效果。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:tut_addon_thaumicinfusion/text/6",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicinfusion.tut_addon_thaumicinfusion.text.6",
+            "with": [
+              [
+                {
+                  "text": "安装了禁忌魔法：还会出现 Infernus 要素的注魔效果。\n"
+                }
+              ]
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "forbidden_magic"
+            }
+          ]
+        },
+        {
+          "id": "thaumicinfusion:tut_addon_thaumicinfusion/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicinfusion:tut_addon_thaumicinfusion/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "thaumicinfusion:tut_addon_thaumicinfusion/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "thaumicinfusion:FOCUSINFUSION",
+            "thaumicinfusion:ESSENTIABLOCKS"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

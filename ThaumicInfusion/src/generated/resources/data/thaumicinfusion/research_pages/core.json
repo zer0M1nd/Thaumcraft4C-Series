@@ -1,0 +1,1827 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicinfusion:FOCUSINFUSION",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.FOCUSINFUSION.1"
+          },
+          "import_legacy": true,
+          "id": "thaumicinfusion:FOCUSINFUSION/page/1",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicinfusion:focus_infusion"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicinfusion:FOCUSINFUSION/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.FOCUSINFUSION.2"
+          },
+          "import_legacy": true,
+          "id": "thaumicinfusion:FOCUSINFUSION/page/3",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.FOCUSINFUSION.3"
+          },
+          "import_legacy": true,
+          "id": "thaumicinfusion:FOCUSINFUSION/page/4",
+          "page_break": true
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/usage",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "translate": "ti.book.usage"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effects",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "translate": "ti.book.effects"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/linking",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "translate": "ti.book.linking",
+            "with": [
+              {
+                "aspect": "iter"
+              },
+              {
+                "aspect": "machina"
+              },
+              {
+                "aspect": "permutatio"
+              },
+              {
+                "aspect": "iter"
+              },
+              {
+                "aspect": "machina"
+              },
+              {
+                "aspect": "permutatio"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/aer",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "aer"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  2
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/aer/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.AER"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/aer/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.AER"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/alienis",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "alienis"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  1
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/alienis/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.ALIENIS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/alienis/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.ALIENIS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/bestia",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "bestia"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  4
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/bestia/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.BESTIA"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/bestia/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.BESTIA"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/cognitio",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "cognitio"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  1
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/cognitio/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.COGNITIO"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/cognitio/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.COGNITIO"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/exanimis",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "exanimis"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  4
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/exanimis/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.EXANIMIS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/exanimis/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.EXANIMIS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/fabrico",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "fabrico"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  4
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/fabrico/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.FABRICO"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/fabrico/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.FABRICO"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/gelum",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "gelum"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  1
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/gelum/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.GELUM"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/gelum/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.GELUM"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/humanus",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "humanus"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  8
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/humanus/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.HUMANUS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/humanus/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.HUMANUS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/ignis",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "ignis"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  1
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/ignis/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.IGNIS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/ignis/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.IGNIS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/infernus",
+          "type": "TEXT",
+          "page_break": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "forbidden_magic"
+            }
+          ],
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "forbidden_magic:infernus"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  4
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/infernus/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "forbidden_magic"
+            }
+          ],
+          "text": {
+            "translate": "ti.effect_info.INFERNUS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/infernus/details",
+          "type": "TEXT",
+          "page_break": false,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "forbidden_magic"
+            }
+          ],
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.INFERNUS",
+                "with": [
+                  {
+                    "aspect": "forbidden_magic:infernus"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/iter",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "iter"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  8
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/iter/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.ITER"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/iter/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.ITER",
+                "with": [
+                  {
+                    "aspect": "iter"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/lucrum",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "lucrum"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  4
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/lucrum/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.LUCRUM"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/lucrum/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.LUCRUM"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/lux",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "lux"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  1
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/lux/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.LUX"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/lux/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.LUX"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/machina",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "machina"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  2
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/machina/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.MACHINA"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/machina/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.MACHINA",
+                "with": [
+                  {
+                    "aspect": "machina"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/messis",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "messis"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  1
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/messis/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.MESSIS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/messis/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.MESSIS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/mortuus",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "mortuus"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  8
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/mortuus/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.MORTUUS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/mortuus/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.MORTUUS",
+                "with": [
+                  {
+                    "aspect": "mortuus"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/ordo",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "ordo"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  2
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/ordo/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.ORDO"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/ordo/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.ORDO"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/pannus",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "pannus"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  1
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/pannus/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.PANNUS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/pannus/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.PANNUS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/perditio",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "perditio"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  4
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/perditio/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.PERDITIO"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/perditio/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.PERDITIO",
+                "with": [
+                  {
+                    "aspect": "perditio"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/permutatio",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "permutatio"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  8
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/permutatio/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.PERMUTATIO"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/permutatio/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.PERMUTATIO",
+                "with": [
+                  {
+                    "aspect": "permutatio"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/potentia",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "potentia"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  1
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/potentia/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.POTENTIA"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/potentia/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.POTENTIA"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/praecantatio",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "praecantatio"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  1
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/praecantatio/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.PRAECANTATIO"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/praecantatio/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.PRAECANTATIO"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/sano",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "sano"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  1
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/sano/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.SANO"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/sano/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.SANO"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/sensus",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "sensus"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  4
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/sensus/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.SENSUS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/sensus/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.SENSUS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/spiritus",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "spiritus"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  4
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/spiritus/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.SPIRITUS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/spiritus/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.SPIRITUS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/tempestas",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "tempestas"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  1
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/tempestas/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.TEMPESTAS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/tempestas/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.TEMPESTAS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/terra",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "terra"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  2
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/terra/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.TERRA"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/terra/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.TERRA"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/venenum",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "venenum"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  4
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/venenum/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.VENENUM"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/venenum/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.VENENUM"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/victus",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "victus"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  8
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/victus/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.VICTUS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/victus/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.VICTUS",
+                "with": [
+                  {
+                    "aspect": "victus"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/vinculum",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "vinculum"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  4
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/vinculum/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.VINCULUM"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/vinculum/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.VINCULUM"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/vitreus",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "vitreus"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  2
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/vitreus/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.VITREUS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/vitreus/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.VITREUS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/volatus",
+          "type": "TEXT",
+          "page_break": true,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "aspect": "volatus"
+              },
+              {
+                "text": "\n\n"
+              },
+              {
+                "translate": "ti.book.cost",
+                "with": [
+                  8
+                ]
+              },
+              {
+                "text": "\n\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/volatus/original",
+          "type": "TEXT",
+          "page_break": false,
+          "import_legacy": true,
+          "text": {
+            "translate": "ti.effect_info.VOLATUS"
+          }
+        },
+        {
+          "id": "thaumicinfusion:FOCUSINFUSION/effect/volatus/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "text": "",
+            "extra": [
+              {
+                "translate": "ti.book.details",
+                "italic": true
+              },
+              {
+                "translate": "ti.effect_detail.VOLATUS",
+                "with": [
+                  {
+                    "aspect": "volatus"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "thaumicinfusion:ESSENTIABLOCKS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.ESSENTIABLOCKS.1"
+          },
+          "import_legacy": true,
+          "id": "thaumicinfusion:ESSENTIABLOCKS/page/1",
+          "page_break": true
+        },
+        {
+          "id": "thaumicinfusion:ESSENTIABLOCKS/details",
+          "type": "TEXT",
+          "page_break": false,
+          "text": {
+            "translate": "ti.book.essentia_details",
+            "with": [
+              {
+                "aspect": "perditio"
+              },
+              {
+                "aspect": "perditio"
+              }
+            ]
+          }
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicinfusion:essentia_block",
+              "thaumicinfusion:essentia_bricks",
+              "thaumicinfusion:chiseled_essentia"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumicinfusion:ESSENTIABLOCKS/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}
