@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "camouflaged=false,facing=north": {
+      "model": "thaumic_tinkerer:block/transvector_dislocator",
+      "x": 0,
+      "y": 0
+    },
+    "camouflaged=false,facing=south": {
+      "model": "thaumic_tinkerer:block/transvector_dislocator",
+      "x": 0,
+      "y": 180
+    },
+    "camouflaged=false,facing=west": {
+      "model": "thaumic_tinkerer:block/transvector_dislocator",
+      "x": 0,
+      "y": 270
+    },
+    "camouflaged=false,facing=east": {
+      "model": "thaumic_tinkerer:block/transvector_dislocator",
+      "x": 0,
+      "y": 90
+    },
+    "camouflaged=false,facing=up": {
+      "model": "thaumic_tinkerer:block/transvector_dislocator",
+      "x": 270,
+      "y": 0
+    },
+    "camouflaged=false,facing=down": {
+      "model": "thaumic_tinkerer:block/transvector_dislocator",
+      "x": 90,
+      "y": 0
+    },
+    "camouflaged=true": {
+      "model": "thaumic_tinkerer:block/interface_camouflaged"
+    }
+  }
+}

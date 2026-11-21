@@ -1,0 +1,59 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:SUMMON",
+  "instability": 4,
+  "aspects": {
+    "metallum": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:condensed_soul_metallum"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_metallum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_metallum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_metallum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_metallum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_metallum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_metallum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_metallum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_metallum"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:infused_soul_metallum",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IBI",
+    "III"
+  ],
+  "key": {
+    "I": [
+      {"item": "minecraft:ink_sac"},
+      {"tag": "forge:dyes/black"}
+    ],
+    "B": {
+      "item": "thaumic_tinkerer:infused_inkwell"
+    }
+  },
+  "result": {
+    "item": "thaumic_tinkerer:infused_inkwell",
+    "count": 1
+  }
+}

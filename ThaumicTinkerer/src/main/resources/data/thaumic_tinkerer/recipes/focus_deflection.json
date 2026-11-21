@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:FOCUS_DEFLECT",
+  "instability": 5,
+  "aspects": {
+    "aer": 15,
+    "tutamen": 5,
+    "ordo": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:focus_flight"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:mirrored_glass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mirrored_glass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:obsidian_totem"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:focus_deflection",
+    "count": 1
+  }
+}

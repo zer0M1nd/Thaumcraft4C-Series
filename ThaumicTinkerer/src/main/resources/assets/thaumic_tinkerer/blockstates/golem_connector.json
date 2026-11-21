@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "camouflaged=false": {
+      "model": "thaumic_tinkerer:block/golem_connector"
+    },
+    "camouflaged=true": {
+      "model": "thaumic_tinkerer:block/interface_camouflaged"
+    }
+  }
+}

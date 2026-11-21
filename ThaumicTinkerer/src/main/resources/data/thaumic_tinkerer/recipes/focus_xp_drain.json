@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:FOCUS_XP_DRAIN",
+  "instability": 12,
+  "aspects": {
+    "cognitio": 65,
+    "vitium": 16,
+    "praecantatio": 50,
+    "auram": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "thaumic_tinkerer:empty_xp_talisman"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:enchanting_table"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:focus_xp_drain",
+    "count": 1
+  }
+}

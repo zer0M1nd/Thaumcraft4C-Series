@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:ICHOR",
+  "instability": 7,
+  "aspects": {
+    "humanus": 32,
+    "lux": 32,
+    "spiritus": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ender_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:nether_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:ichor",
+    "count": 8
+  }
+}

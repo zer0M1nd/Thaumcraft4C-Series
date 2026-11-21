@@ -1,0 +1,42 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:XP_TALISMAN",
+  "instability": 6,
+  "aspects": {
+    "lucrum": 20,
+    "permutatio": 10,
+    "bestia": 10,
+    "machina": 5
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:xp_talisman",
+    "count": 1
+  }
+}

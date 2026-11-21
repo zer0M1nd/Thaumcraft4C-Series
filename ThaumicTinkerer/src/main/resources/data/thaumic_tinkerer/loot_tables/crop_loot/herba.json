@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:saplings",
+          "weight": 1,
+          "expand": true
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:grass",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

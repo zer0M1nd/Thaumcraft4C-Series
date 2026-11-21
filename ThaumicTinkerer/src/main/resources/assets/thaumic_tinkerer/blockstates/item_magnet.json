@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "pulling=true": {
+      "model": "thaumic_tinkerer:block/item_magnet_pull"
+    },
+    "pulling=false": {
+      "model": "thaumic_tinkerer:block/item_magnet_push"
+    }
+  }
+}

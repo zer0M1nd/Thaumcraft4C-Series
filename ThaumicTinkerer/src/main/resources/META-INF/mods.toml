@@ -1,0 +1,52 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+issueTrackerURL="https://github.com/zer0M1nd/Thaumcraft4C-Series/issues"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/thaumic_tinkerer/index.html"
+updateJSONURL="http://tc4c.zer0m1nd.me/forge-updates/thaumic_tinkerer.json"
+modId="thaumic_tinkerer"
+version="${version}"
+displayName="Thaumic Tinkerer"
+authors="zer0M1nd"
+credits="Original Thaumic Tinkerer by Vazkii, pixlepix and nekosune."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Craft specialized tools and enchantments, then progress through infusion to unlock Ichor equipment.
+
+-------- Original release --------
+An addon to Thaumcraft 4, implementing new content. This mod is a spiritual successor to Elemental Tinkerer. Researches that come from this mod are prefixed by [TT].
+
+Original credits: Azanor, TheAtlanticCraft, MartysGames, TheWhiteWolves, mDiyo, theFlaxbeard. The original preloader also credits nekosune and Pixlepix and gives special thanks to Vazkii.'''
+
+[[dependencies.thaumic_tinkerer]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.thaumic_tinkerer]]
+modId="enderstorage"
+mandatory=false
+versionRange="[2.11.0.188,2.12)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.thaumic_tinkerer]]
+modId="computercraft"
+mandatory=false
+versionRange="[1.116.1,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.thaumic_tinkerer]]
+modId="jei"
+mandatory=false
+versionRange="[15.20.0.106,16)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.thaumic_tinkerer]]
+modId="jade"
+mandatory=false
+versionRange="[11.13.1,12)"
+ordering="AFTER"
+side="BOTH"

@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:TTENCH_POUNCE",
+  "enchantment": "thaumic_tinkerer:pounce",
+  "instability": 4,
+  "base_xp": 5,
+  "aspects": {
+    "terra": 8,
+    "aer": 8,
+    "praecantatio": 12
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_leggings"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

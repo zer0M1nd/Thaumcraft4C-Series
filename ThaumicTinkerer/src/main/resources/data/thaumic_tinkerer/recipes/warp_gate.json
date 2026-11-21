@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:WARP_GATE",
+  "instability": 8,
+  "aspects": {
+    "iter": 64,
+    "alienis": 50,
+    "volatus": 50
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:travel_paving_stone"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ender_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:transvector_dislocator"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:nether_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:warp_gate",
+    "count": 1
+  }
+}

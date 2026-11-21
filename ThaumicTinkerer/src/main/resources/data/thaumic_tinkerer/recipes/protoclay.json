@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:PROTOCLAY",
+  "instability": 4,
+  "aspects": {
+    "perfodio": 16,
+    "instrumentum": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:dirt"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:oak_log"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ender_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:protoclay",
+    "count": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:BLOCK_TALISMAN",
+  "instability": 9,
+  "aspects": {
+    "vacuos": 65,
+    "tenebrae": 32,
+    "praecantatio": 50,
+    "alienis": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_portable_hole"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_chest"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_jar"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:block_talisman",
+    "count": 1
+  }
+}

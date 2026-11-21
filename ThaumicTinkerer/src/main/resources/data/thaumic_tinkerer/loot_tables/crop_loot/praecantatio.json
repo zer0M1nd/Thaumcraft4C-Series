@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:air_shard",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:fire_shard",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:water_shard",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:earth_shard",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:order_shard",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:entropy_shard",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:balanced_shard",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

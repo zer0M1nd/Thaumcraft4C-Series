@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:PLACEMENT_MIRROR",
+  "instability": 12,
+  "aspects": {
+    "fabrico": 65,
+    "vitreus": 32,
+    "praecantatio": 50,
+    "cognitio": 32
+  },
+  "center": {
+    "ingredient": {
+      "type": "thaumic_tinkerer:empty_block_talisman"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:dropper"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:placement_mirror",
+    "count": 1
+  }
+}

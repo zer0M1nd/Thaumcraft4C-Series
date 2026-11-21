@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumic_tinkerer:FOCUS_ENDER_CHEST",
+  "pattern": [
+    "M",
+    "E",
+    "P"
+  ],
+  "key": {
+    "M": {
+      "item": "thaumcraft:item_mirror"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "P": {
+      "item": "thaumcraft:focus_portable_hole"
+    }
+  },
+  "vis": {
+    "ordo": 10,
+    "perditio": 10
+  },
+  "result": {
+    "item": "thaumic_tinkerer:focus_ender_chest",
+    "count": 1
+  }
+}

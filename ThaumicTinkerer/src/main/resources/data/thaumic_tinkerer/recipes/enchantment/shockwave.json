@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:TTENCH_SHOCKWAVE",
+  "enchantment": "thaumic_tinkerer:shockwave",
+  "instability": 4,
+  "base_xp": 5,
+  "aspects": {
+    "terra": 8,
+    "aer": 8,
+    "praecantatio": 12
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:tnt"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_boots"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

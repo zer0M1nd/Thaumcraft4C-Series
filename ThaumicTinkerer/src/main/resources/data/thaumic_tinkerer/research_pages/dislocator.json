@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "conditions": [],
+  "entries": [
+    {
+      "key": "thaumic_tinkerer:DISLOCATOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.thaumic_tinkerer:DISLOCATOR.0"
+          },
+          "id": "thaumic_tinkerer:DISLOCATOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumic_tinkerer:transvector_dislocator"
+            ],
+            "class": "modern"
+          },
+          "id": "thaumic_tinkerer:DISLOCATOR/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

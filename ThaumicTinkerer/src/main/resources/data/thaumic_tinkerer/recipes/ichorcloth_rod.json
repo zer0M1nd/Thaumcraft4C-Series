@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:ROD_ICHORCLOTH",
+  "instability": 9,
+  "aspects": {
+    "praecantatio": 100,
+    "lux": 32,
+    "instrumentum": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_rod_silverwood"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor_cloth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor_cloth"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:ichorcloth_rod",
+    "count": 1
+  }
+}

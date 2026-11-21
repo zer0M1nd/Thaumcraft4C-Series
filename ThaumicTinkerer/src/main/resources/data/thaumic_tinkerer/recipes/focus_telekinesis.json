@@ -1,0 +1,57 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:FOCUS_TELEKINESIS",
+  "instability": 5,
+  "aspects": {
+    "motus": 10,
+    "aer": 20,
+    "perditio": 20,
+    "cognitio": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:focus_telekinesis",
+    "count": 1
+  }
+}

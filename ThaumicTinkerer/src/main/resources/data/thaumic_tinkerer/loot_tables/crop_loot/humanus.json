@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:golem_core_blank",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:golem_core_gather",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:golem_core_fill",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:golem_core_empty",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:golem_core_harvest",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:golem_core_guard",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:golem_core_butcher",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:golem_core_liquid",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:golem_core_sorting",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:golem_core_lumber",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:golem_core_use",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:golem_core_essentia",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

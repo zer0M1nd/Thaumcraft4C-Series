@@ -1,0 +1,53 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:ICHOR_POUCH",
+  "instability": 9,
+  "aspects": {
+    "vacuos": 64,
+    "humanus": 32,
+    "pannus": 32,
+    "alienis": 32,
+    "aer": 64
+  },
+  "center": {
+    "ingredient": {
+      "type": "thaumic_tinkerer:empty_focus_pouch"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor_cloth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_portable_hole"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor_cloth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:hungry_chest"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_jar"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:ichor_pouch",
+    "count": 1
+  }
+}

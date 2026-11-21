@@ -1,0 +1,17 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumic_tinkerer:SPELL_CLOTH",
+  "legacy_order": 10040,
+  "catalyst": {
+    "item": "thaumcraft:enchanted_fabric"
+  },
+  "aspects": {
+    "praecantatio": 10,
+    "perditio": 6,
+    "permutatio": 4
+  },
+  "result": {
+    "item": "thaumic_tinkerer:spell_cloth",
+    "count": 1
+  }
+}

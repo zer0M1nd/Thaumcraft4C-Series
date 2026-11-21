@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:TTENCH_FINAL",
+  "enchantment": "thaumic_tinkerer:final_strike",
+  "instability": 4,
+  "base_xp": 5,
+  "aspects": {
+    "perditio": 8,
+    "ignis": 8,
+    "praecantatio": 12
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

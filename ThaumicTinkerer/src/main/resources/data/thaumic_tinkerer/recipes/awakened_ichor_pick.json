@@ -1,0 +1,85 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:ICHOR_PICK_GEM",
+  "instability": 15,
+  "aspects": {
+    "ignis": 50,
+    "perfodio": 64,
+    "metallum": 32,
+    "terra": 32,
+    "meto": 32,
+    "lucrum": 16,
+    "sensus": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:ichor_pick"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichorium"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_pickaxe"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_excavation"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:tnt"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:cinnabar_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:iron_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:gold_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_excavation"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_pickaxe"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor_cloth"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:awakened_ichor_pick",
+    "count": 1
+  }
+}

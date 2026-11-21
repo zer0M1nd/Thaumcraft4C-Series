@@ -1,0 +1,59 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:SUMMON",
+  "instability": 4,
+  "aspects": {
+    "bestia": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:condensed_soul_bestia"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_bestia"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_bestia"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_bestia"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_bestia"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_bestia"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_bestia"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_bestia"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_bestia"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:infused_soul_bestia",
+    "count": 1
+  }
+}

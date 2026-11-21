@@ -1,0 +1,17 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumic_tinkerer:FIRE_AQUA",
+  "legacy_order": 10102,
+  "aspects": {
+    "ignis": 5,
+    "praecantatio": 5,
+    "aqua": 5
+  },
+  "catalyst": {
+    "item": "thaumcraft:water_shard"
+  },
+  "result": {
+    "item": "thaumic_tinkerer:fire_aqua",
+    "count": 1
+  }
+}

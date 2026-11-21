@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    "WFW",
+    "sIs",
+    "WFW"
+  ],
+  "key": {
+    "W": {
+      "item": "thaumcraft:greatwood_log"
+    },
+    "F": {
+      "item": "minecraft:redstone_block"
+    },
+    "s": {
+      "item": "minecraft:ender_pearl"
+    },
+    "I": {
+      "item": "thaumcraft:golem_bell"
+    }
+  },
+  "result": {
+    "item": "thaumic_tinkerer:golem_connector",
+    "count": 1
+  },
+  "research": "thaumic_tinkerer:GOLEM_CONNECTOR",
+  "vis": {
+    "aer": 20,
+    "ordo": 5,
+    "perditio": 15
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "computercraft"
+    }
+  ]
+}

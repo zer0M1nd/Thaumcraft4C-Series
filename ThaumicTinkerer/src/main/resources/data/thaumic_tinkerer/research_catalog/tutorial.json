@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_THAUMIC_TINKERER",
+          "category": "TUTORIAL",
+          "displayColumn": 36,
+          "displayRow": 9,
+          "parents": [
+            "TUT_GADGETS"
+          ],
+          "icon_item": {
+            "item": "thaumic_tinkerer:ichor",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumic_tinkerer"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "thaumic_tinkerer:DARK_QUARTZ",
+            "thaumic_tinkerer:REVEALING_HELM",
+            "thaumic_tinkerer:INTERFACE",
+            "thaumic_tinkerer:ENCHANTER",
+            "thaumic_tinkerer:ICHOR"
+          ],
+          "pageCount": 10
+        }
+      ]
+    }
+  ]
+}

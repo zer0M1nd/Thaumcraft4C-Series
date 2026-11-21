@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumic_tinkerer:INFUSED_POTIONS",
+  "legacy_order": 10200,
+  "aspects": {
+    "auram": 5,
+    "aer": 5
+  },
+  "catalyst": {
+    "item": "thaumic_tinkerer:infused_grain_aer"
+  },
+  "result": {
+    "item": "thaumic_tinkerer:infused_potion_aer",
+    "count": 1
+  }
+}

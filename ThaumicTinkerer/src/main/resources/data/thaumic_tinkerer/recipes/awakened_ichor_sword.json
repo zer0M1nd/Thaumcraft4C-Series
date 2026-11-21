@@ -1,0 +1,85 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:ICHOR_SWORD_GEM",
+  "instability": 15,
+  "aspects": {
+    "aer": 50,
+    "fames": 64,
+    "spiritus": 32,
+    "telum": 32,
+    "potentia": 32,
+    "ordo": 16,
+    "vitreus": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:ichor_sword"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichorium"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_frost"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cactus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:cinnabar_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:iron_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:gold_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_frost"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor_cloth"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:awakened_ichor_sword",
+    "count": 1
+  }
+}

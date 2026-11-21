@@ -1,0 +1,59 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:SUMMON",
+  "instability": 4,
+  "aspects": {
+    "aqua": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:condensed_soul_aqua"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_aqua"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_aqua"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_aqua"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_aqua"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_aqua"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_aqua"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_aqua"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_aqua"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:infused_soul_aqua",
+    "count": 1
+  }
+}

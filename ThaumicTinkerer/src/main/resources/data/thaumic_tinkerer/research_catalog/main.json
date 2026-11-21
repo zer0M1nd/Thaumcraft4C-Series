@@ -1,0 +1,1699 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TT_CATEGORY",
+      "icon": "thaumic_tinkerer:textures/misc/r_enchanting.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumic_tinkerer:DARK_QUARTZ",
+          "category": "TT_CATEGORY",
+          "displayColumn": -2,
+          "displayRow": 2,
+          "pageCount": 7,
+          "icon_item": {
+            "item": "thaumic_tinkerer:dark_quartz",
+            "count": 1
+          },
+          "isAutoUnlock": true,
+          "isStub": true,
+          "isRound": true
+        },
+        {
+          "key": "thaumic_tinkerer:GASEOUS_LIGHT",
+          "category": "TT_CATEGORY",
+          "displayColumn": 0,
+          "displayRow": -3,
+          "complexity": 1,
+          "aspects": {
+            "lux": 2,
+            "aer": 1
+          },
+          "parents": [
+            "NITOR"
+          ],
+          "parentsHidden": [],
+          "isSecondary": false,
+          "isConcealed": false,
+          "isRound": false,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:gaseous_light",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:GASEOUS_SHADOW",
+          "category": "TT_CATEGORY",
+          "displayColumn": -1,
+          "displayRow": -5,
+          "complexity": 2,
+          "aspects": {
+            "tenebrae": 2,
+            "aer": 1,
+            "motus": 4
+          },
+          "parents": [
+            "thaumic_tinkerer:GASEOUS_LIGHT"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": false,
+          "isRound": false,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:gaseous_shadow",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:BRIGHT_NITOR",
+          "category": "TT_CATEGORY",
+          "displayColumn": 1,
+          "displayRow": -5,
+          "complexity": 2,
+          "aspects": {
+            "lux": 2,
+            "ignis": 1,
+            "potentia": 1,
+            "aer": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:GASEOUS_LIGHT"
+          ],
+          "parentsHidden": [],
+          "isSecondary": true,
+          "isConcealed": true,
+          "isRound": false,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:bright_nitor",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:GAS_REMOVER",
+          "category": "TT_CATEGORY",
+          "displayColumn": -2,
+          "displayRow": -7,
+          "complexity": 0,
+          "aspects": {
+            "tenebrae": 2,
+            "lux": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:GASEOUS_SHADOW"
+          ],
+          "parentsHidden": [],
+          "isSecondary": false,
+          "isConcealed": false,
+          "isRound": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:gas_remover",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FUNNEL",
+          "category": "TT_CATEGORY",
+          "displayColumn": 0,
+          "displayRow": -7,
+          "complexity": 1,
+          "aspects": {
+            "instrumentum": 1,
+            "iter": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:BRIGHT_NITOR"
+          ],
+          "parentsHidden": [
+            "DISTILESSENTIA"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "isRound": false,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:essentia_funnel",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:REPAIRER",
+          "category": "TT_CATEGORY",
+          "displayColumn": -1,
+          "displayRow": -9,
+          "complexity": 3,
+          "aspects": {
+            "instrumentum": 2,
+            "fabrico": 1,
+            "ordo": 1,
+            "praecantatio": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:FUNNEL"
+          ],
+          "parentsHidden": [
+            "THAUMIUM",
+            "ENCHFABRIC"
+          ],
+          "isSecondary": false,
+          "isConcealed": true,
+          "isRound": false,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:restorer",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:INTERFACE",
+          "category": "TT_CATEGORY",
+          "displayColumn": -4,
+          "displayRow": 2,
+          "complexity": 1,
+          "aspects": {
+            "perditio": 4,
+            "ordo": 4
+          },
+          "parents": [
+            "thaumic_tinkerer:DARK_QUARTZ"
+          ],
+          "pageCount": 5,
+          "icon_item": {
+            "item": "thaumic_tinkerer:transvector_interface",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FOCUS_SMELT",
+          "category": "TT_CATEGORY",
+          "displayColumn": -2,
+          "displayRow": -2,
+          "complexity": 2,
+          "aspects": {
+            "ignis": 2,
+            "potentia": 1,
+            "praecantatio": 1
+          },
+          "parents": [
+            "FOCUSEXCAVATION"
+          ],
+          "isConcealed": true,
+          "isSecondary": false,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:focus_smelting",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FOCUS_FLIGHT",
+          "category": "TT_CATEGORY",
+          "displayColumn": -3,
+          "displayRow": -4,
+          "complexity": 2,
+          "aspects": {
+            "motus": 1,
+            "praecantatio": 1,
+            "aer": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:FOCUS_SMELT"
+          ],
+          "isConcealed": true,
+          "isSecondary": false,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:focus_flight",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FOCUS_TELEKINESIS",
+          "category": "TT_CATEGORY",
+          "displayColumn": -4,
+          "displayRow": -6,
+          "complexity": 2,
+          "aspects": {
+            "alienis": 2,
+            "praecantatio": 1,
+            "motus": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:FOCUS_FLIGHT"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:focus_telekinesis",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:MAGNETS",
+          "category": "TT_CATEGORY",
+          "displayColumn": -6,
+          "displayRow": 3,
+          "complexity": 3,
+          "aspects": {
+            "machina": 2,
+            "motus": 1,
+            "sensus": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:INTERFACE"
+          ],
+          "parentsHidden": [
+            "thaumic_tinkerer:FOCUS_TELEKINESIS"
+          ],
+          "isConcealed": true,
+          "pageCount": 5,
+          "icon_item": {
+            "item": "thaumic_tinkerer:item_magnet",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ANIMATION_TABLET",
+          "category": "TT_CATEGORY",
+          "displayColumn": -8,
+          "displayRow": 2,
+          "complexity": 3,
+          "warp": 1,
+          "aspects": {
+            "machina": 2,
+            "metallum": 1,
+            "motus": 1,
+            "potentia": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:MAGNETS"
+          ],
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:dynamism_tablet",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FOCUS_DEFLECT",
+          "category": "TT_CATEGORY",
+          "displayColumn": -4,
+          "displayRow": -3,
+          "complexity": 3,
+          "warp": 0,
+          "aspects": {
+            "motus": 2,
+            "aer": 1,
+            "ordo": 1,
+            "mortuus": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:FOCUS_SMELT"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:focus_deflection",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FOCUS_ENDER_CHEST",
+          "category": "TT_CATEGORY",
+          "displayColumn": -6,
+          "displayRow": -2,
+          "complexity": 2,
+          "warp": 1,
+          "aspects": {
+            "alienis": 2,
+            "vacuos": 1,
+            "praecantatio": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:FOCUS_DEFLECT"
+          ],
+          "isConcealed": true,
+          "isSecondary": false,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:focus_ender_chest",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FOCUS_DISLOCATION",
+          "category": "TT_CATEGORY",
+          "displayColumn": -5,
+          "displayRow": -5,
+          "complexity": 2,
+          "warp": 0,
+          "aspects": {
+            "alienis": 2,
+            "praecantatio": 1,
+            "permutatio": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:FOCUS_FLIGHT"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "thaumic_tinkerer:focus_dislocation",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FOCUS_HEAL",
+          "category": "TT_CATEGORY",
+          "displayColumn": -6,
+          "displayRow": -4,
+          "complexity": 2,
+          "warp": 0,
+          "aspects": {
+            "sano": 2,
+            "spiritus": 1,
+            "praecantatio": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:FOCUS_DEFLECT"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:focus_healing",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:SPELL_CLOTH",
+          "category": "TT_CATEGORY",
+          "displayColumn": 3,
+          "displayRow": 2,
+          "complexity": 2,
+          "aspects": {
+            "praecantatio": 2,
+            "pannus": 1
+          },
+          "parents": [],
+          "parentsHidden": [
+            "ENCHFABRIC"
+          ],
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:spell_cloth",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ENCHANTER",
+          "category": "TT_CATEGORY",
+          "displayColumn": 5,
+          "displayRow": 4,
+          "complexity": 3,
+          "aspects": {
+            "praecantatio": 2,
+            "auram": 1,
+            "alienis": 1,
+            "tenebrae": 1,
+            "cognitio": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:SPELL_CLOTH"
+          ],
+          "parentsHidden": [],
+          "pageCount": 4,
+          "icon_item": {
+            "item": "thaumic_tinkerer:osmotic_enchanter",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_ASCENT_BOOST",
+          "category": "TT_CATEGORY",
+          "displayColumn": 6,
+          "displayRow": 2,
+          "complexity": 2,
+          "aspects": {
+            "aer": 1,
+            "motus": 1,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:ENCHANTER"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/ascentboost.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_SLOW_FALL",
+          "category": "TT_CATEGORY",
+          "displayColumn": 7,
+          "displayRow": 3,
+          "complexity": 2,
+          "aspects": {
+            "aer": 1,
+            "motus": 1,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:ENCHANTER"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/slowfall.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_AUTO_SMELT",
+          "category": "TT_CATEGORY",
+          "displayColumn": 7,
+          "displayRow": 5,
+          "complexity": 2,
+          "aspects": {
+            "ignis": 1,
+            "perditio": 1,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:ENCHANTER"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/autosmelt.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_DESINTEGRATE",
+          "category": "TT_CATEGORY",
+          "displayColumn": 6,
+          "displayRow": 6,
+          "complexity": 2,
+          "aspects": {
+            "perditio": 1,
+            "vacuos": 1,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:ENCHANTER"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/desintegrate.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_QUICK_DRAW",
+          "category": "TT_CATEGORY",
+          "displayColumn": 4,
+          "displayRow": 6,
+          "complexity": 2,
+          "aspects": {
+            "sensus": 1,
+            "telum": 1,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:ENCHANTER"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/quickdraw.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_VAMPIRISM",
+          "category": "TT_CATEGORY",
+          "displayColumn": 3,
+          "displayRow": 5,
+          "complexity": 2,
+          "aspects": {
+            "fames": 1,
+            "telum": 1,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:ENCHANTER"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/vamprisim.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_FOCUSED",
+          "category": "TT_CATEGORY",
+          "displayColumn": 2,
+          "displayRow": 7,
+          "complexity": 2,
+          "aspects": {
+            "ordo": 1,
+            "telum": 1,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:TTENCH_VAMPIRISM"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/focusedstrikes.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_DISPERSED",
+          "category": "TT_CATEGORY",
+          "displayColumn": 1,
+          "displayRow": 6,
+          "complexity": 2,
+          "aspects": {
+            "perditio": 1,
+            "telum": 1,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:TTENCH_VAMPIRISM"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/dispersedstrikes.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_FINAL",
+          "category": "TT_CATEGORY",
+          "displayColumn": 0,
+          "displayRow": 8,
+          "complexity": 2,
+          "aspects": {
+            "perditio": 3,
+            "ordo": 3,
+            "telum": 3,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:TTENCH_FOCUSED",
+            "thaumic_tinkerer:TTENCH_DISPERSED"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/finalstrike.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_POUNCE",
+          "category": "TT_CATEGORY",
+          "displayColumn": 7,
+          "displayRow": 0,
+          "complexity": 2,
+          "aspects": {
+            "aer": 3,
+            "ordo": 3,
+            "tutamen": 3,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:TTENCH_ASCENT_BOOST"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/pounce.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_SHATTER",
+          "category": "TT_CATEGORY",
+          "displayColumn": 5,
+          "displayRow": 8,
+          "complexity": 2,
+          "aspects": {
+            "terra": 3,
+            "perditio": 3,
+            "instrumentum": 1,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:TTENCH_DESINTEGRATE"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/shatter.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_SHOCKWAVE",
+          "category": "TT_CATEGORY",
+          "displayColumn": 9,
+          "displayRow": 2,
+          "complexity": 2,
+          "aspects": {
+            "aer": 3,
+            "perditio": 3,
+            "tutamen": 1,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:TTENCH_SLOW_FALL"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/shockwave.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_TUNNEL",
+          "category": "TT_CATEGORY",
+          "displayColumn": 9,
+          "displayRow": 6,
+          "complexity": 2,
+          "aspects": {
+            "terra": 3,
+            "ordo": 3,
+            "instrumentum": 1,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:TTENCH_AUTO_SMELT"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/tunnel.png"
+        },
+        {
+          "key": "thaumic_tinkerer:TTENCH_VALIANCE",
+          "category": "TT_CATEGORY",
+          "displayColumn": 1,
+          "displayRow": 4,
+          "complexity": 2,
+          "aspects": {
+            "telum": 3,
+            "sano": 3,
+            "praecantatio": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:TTENCH_VAMPIRISM"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_resource": "thaumic_tinkerer:textures/enchantments/valiance.png"
+        },
+        {
+          "key": "thaumic_tinkerer:XP_TALISMAN",
+          "category": "TT_CATEGORY",
+          "displayColumn": 4,
+          "displayRow": -1,
+          "complexity": 2,
+          "aspects": {
+            "lucrum": 1,
+            "praecantatio": 1,
+            "humanus": 1
+          },
+          "parents": [
+            "JARBRAIN",
+            "thaumic_tinkerer:SPELL_CLOTH"
+          ],
+          "isConcealed": true,
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:xp_talisman",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:CLEANSING_TALISMAN",
+          "category": "TT_CATEGORY",
+          "displayColumn": -3,
+          "displayRow": 4,
+          "complexity": 3,
+          "aspects": {
+            "sano": 2,
+            "ordo": 1,
+            "venenum": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:DARK_QUARTZ"
+          ],
+          "isConcealed": false,
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:cleansing_talisman",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:BLOOD_SWORD",
+          "category": "TT_CATEGORY",
+          "displayColumn": -4,
+          "displayRow": 6,
+          "complexity": 3,
+          "warp": 1,
+          "aspects": {
+            "fames": 2,
+            "telum": 1,
+            "corpus": 1,
+            "spiritus": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:CLEANSING_TALISMAN"
+          ],
+          "isSecondary": true,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "thaumic_tinkerer:blood_sword",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:SUMMON",
+          "category": "TT_CATEGORY",
+          "displayColumn": -5,
+          "displayRow": 8,
+          "complexity": 3,
+          "warp": 3,
+          "aspects": {
+            "telum": 1,
+            "bestia": 3,
+            "praecantatio": 3
+          },
+          "parents": [
+            "thaumic_tinkerer:BLOOD_SWORD"
+          ],
+          "isSecondary": false,
+          "pageCount": 5,
+          "icon_item": {
+            "item": "thaumic_tinkerer:summoning_tablet",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:REVEALING_HELM",
+          "category": "TT_CATEGORY",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "complexity": 1,
+          "aspects": {
+            "auram": 2,
+            "tutamen": 1
+          },
+          "parents": [
+            "GOGGLES"
+          ],
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:revealing_helm",
+            "count": 1
+          },
+          "parentsHidden": [
+            "THAUMIUM"
+          ]
+        },
+        {
+          "key": "thaumic_tinkerer:SHARE_TOME",
+          "category": "TT_CATEGORY",
+          "displayColumn": 0,
+          "displayRow": -1,
+          "complexity": 0,
+          "aspects": {},
+          "parents": [],
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:share_book",
+            "count": 1
+          },
+          "isAutoUnlock": true,
+          "isStub": true,
+          "isRound": true
+        },
+        {
+          "key": "thaumic_tinkerer:INFUSED_INKWELL",
+          "category": "TT_CATEGORY",
+          "displayColumn": -3,
+          "displayRow": 0,
+          "complexity": 1,
+          "aspects": {
+            "vacuos": 1,
+            "tenebrae": 1
+          },
+          "parents": [
+            "RESEARCH"
+          ],
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:infused_inkwell",
+            "count": 1
+          },
+          "isSecondary": true
+        },
+        {
+          "key": "thaumic_tinkerer:PLATFORM",
+          "category": "TT_CATEGORY",
+          "displayColumn": -2,
+          "displayRow": 6,
+          "complexity": 3,
+          "aspects": {
+            "sensus": 2,
+            "arbor": 1,
+            "motus": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:CLEANSING_TALISMAN"
+          ],
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:platform",
+            "count": 1
+          },
+          "isSecondary": true,
+          "isConcealed": true
+        },
+        {
+          "key": "thaumic_tinkerer:FIRE_AER",
+          "category": "TT_CATEGORY",
+          "displayColumn": 3,
+          "displayRow": -7,
+          "complexity": 2,
+          "aspects": {
+            "ignis": 5,
+            "aer": 5
+          },
+          "parents": [
+            "thaumic_tinkerer:BRIGHT_NITOR"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:fire_aer",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FIRE_IGNIS",
+          "category": "TT_CATEGORY",
+          "displayColumn": 4,
+          "displayRow": -4,
+          "complexity": 2,
+          "aspects": {
+            "ignis": 10
+          },
+          "parents": [
+            "thaumic_tinkerer:BRIGHT_NITOR"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:fire_ignis",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FIRE_AQUA",
+          "category": "TT_CATEGORY",
+          "displayColumn": 2,
+          "displayRow": -2,
+          "complexity": 2,
+          "aspects": {
+            "ignis": 5,
+            "aqua": 5
+          },
+          "parents": [
+            "thaumic_tinkerer:BRIGHT_NITOR"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:fire_aqua",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FIRE_TERRA",
+          "category": "TT_CATEGORY",
+          "displayColumn": 4,
+          "displayRow": -6,
+          "complexity": 2,
+          "aspects": {
+            "ignis": 5,
+            "terra": 5
+          },
+          "parents": [
+            "thaumic_tinkerer:BRIGHT_NITOR"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:fire_terra",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FIRE_ORDO",
+          "category": "TT_CATEGORY",
+          "displayColumn": 3,
+          "displayRow": -3,
+          "complexity": 2,
+          "aspects": {
+            "ignis": 5,
+            "ordo": 5
+          },
+          "parents": [
+            "thaumic_tinkerer:BRIGHT_NITOR"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:fire_ordo",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FIRE_PERDITIO",
+          "category": "TT_CATEGORY",
+          "displayColumn": 2,
+          "displayRow": -8,
+          "complexity": 3,
+          "aspects": {
+            "ignis": 5,
+            "perditio": 5
+          },
+          "parents": [
+            "thaumic_tinkerer:BRIGHT_NITOR"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:fire_perditio",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:INFUSED_POTIONS",
+          "category": "TT_CATEGORY",
+          "displayColumn": 7,
+          "displayRow": -5,
+          "complexity": 2,
+          "aspects": {
+            "aqua": 5,
+            "perditio": 5
+          },
+          "parents": [
+            "thaumic_tinkerer:FIRE_AER",
+            "thaumic_tinkerer:FIRE_IGNIS",
+            "thaumic_tinkerer:FIRE_AQUA",
+            "thaumic_tinkerer:FIRE_TERRA",
+            "thaumic_tinkerer:FIRE_ORDO",
+            "thaumic_tinkerer:FIRE_PERDITIO"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "pageCount": 11,
+          "icon_item": {
+            "item": "thaumic_tinkerer:infused_seeds",
+            "count": 1,
+            "nbt": "{Aspect:\"ignis\"}"
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:LEVITATOR_LOCOMOTIVE",
+          "category": "TT_CATEGORY",
+          "displayColumn": -7,
+          "displayRow": 5,
+          "complexity": 3,
+          "aspects": {
+            "motus": 2,
+            "ordo": 2
+          },
+          "parents": [
+            "thaumic_tinkerer:MAGNETS"
+          ],
+          "isSecondary": true,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "thaumic_tinkerer:mobilizer",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:DIMENSION_SHARDS",
+          "category": "TT_CATEGORY",
+          "displayColumn": 7,
+          "displayRow": 8,
+          "complexity": 0,
+          "aspects": {},
+          "parents": [],
+          "parentsHidden": [],
+          "warp": 0,
+          "isConcealed": true,
+          "pageCount": 1,
+          "icon_item": {
+            "item": "thaumic_tinkerer:ender_shard",
+            "count": 1
+          },
+          "isAutoUnlock": true,
+          "isStub": true,
+          "isRound": true
+        },
+        {
+          "key": "thaumic_tinkerer:ICHOR",
+          "category": "TT_CATEGORY",
+          "displayColumn": 9,
+          "displayRow": 8,
+          "complexity": 3,
+          "aspects": {
+            "humanus": 1,
+            "lux": 2,
+            "spiritus": 1,
+            "vitium": 1
+          },
+          "parents": [],
+          "parentsHidden": [],
+          "warp": 5,
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:ichor",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHOR_CLOTH",
+          "category": "TT_CATEGORY",
+          "displayColumn": 11,
+          "displayRow": 7,
+          "complexity": 3,
+          "aspects": {
+            "pannus": 2,
+            "lux": 1,
+            "fabrico": 1,
+            "sensus": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHOR"
+          ],
+          "parentsHidden": [],
+          "warp": 0,
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:ichor_cloth",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHORIUM",
+          "category": "TT_CATEGORY",
+          "displayColumn": 11,
+          "displayRow": 9,
+          "complexity": 3,
+          "aspects": {
+            "metallum": 2,
+            "lux": 1,
+            "fabrico": 1,
+            "instrumentum": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHOR"
+          ],
+          "parentsHidden": [
+            "thaumic_tinkerer:ICHOR_CLOTH"
+          ],
+          "warp": 0,
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:ichorium",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:CAP_ICHOR",
+          "category": "TT_CATEGORY",
+          "displayColumn": 11,
+          "displayRow": 11,
+          "complexity": 3,
+          "aspects": {
+            "instrumentum": 2,
+            "metallum": 1,
+            "lux": 1,
+            "praecantatio": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHORIUM"
+          ],
+          "parentsHidden": [],
+          "warp": 2,
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:ichor_cap",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ROD_ICHORCLOTH",
+          "category": "TT_CATEGORY",
+          "displayColumn": 14,
+          "displayRow": 2,
+          "complexity": 3,
+          "aspects": {
+            "instrumentum": 2,
+            "pannus": 1,
+            "lux": 1,
+            "praecantatio": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHOR_CLOTH"
+          ],
+          "parentsHidden": [
+            "thaumic_tinkerer:CAP_ICHOR"
+          ],
+          "warp": 1,
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:ichorcloth_rod",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHOR_TOOLS",
+          "category": "TT_CATEGORY",
+          "displayColumn": 13,
+          "displayRow": 12,
+          "complexity": 3,
+          "aspects": {
+            "instrumentum": 2,
+            "telum": 1,
+            "metallum": 1,
+            "fabrico": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHORIUM"
+          ],
+          "parentsHidden": [
+            "thaumic_tinkerer:ROD_ICHORCLOTH"
+          ],
+          "warp": 2,
+          "isConcealed": true,
+          "pageCount": 5,
+          "icon_item": {
+            "item": "thaumic_tinkerer:ichor_pick",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHORCLOTH_ARMOR",
+          "category": "TT_CATEGORY",
+          "displayColumn": 17,
+          "displayRow": 5,
+          "complexity": 3,
+          "aspects": {
+            "tutamen": 2,
+            "pannus": 1,
+            "lux": 1,
+            "fabrico": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHOR_CLOTH"
+          ],
+          "parentsHidden": [],
+          "warp": 4,
+          "isConcealed": true,
+          "pageCount": 5,
+          "icon_item": {
+            "item": "thaumic_tinkerer:ichorcloth_helm",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHOR_PICK_GEM",
+          "category": "TT_CATEGORY",
+          "displayColumn": 13,
+          "displayRow": 15,
+          "complexity": 3,
+          "aspects": {
+            "ignis": 2,
+            "instrumentum": 1,
+            "perfodio": 1,
+            "terra": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHOR_TOOLS"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "thaumic_tinkerer:awakened_ichor_pick",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHOR_SHOVEL_GEM",
+          "category": "TT_CATEGORY",
+          "displayColumn": 15,
+          "displayRow": 15,
+          "complexity": 3,
+          "aspects": {
+            "terra": 3,
+            "instrumentum": 1,
+            "perfodio": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHOR_TOOLS"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:awakened_ichor_shovel",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHOR_AXE_GEM",
+          "category": "TT_CATEGORY",
+          "displayColumn": 16,
+          "displayRow": 14,
+          "complexity": 3,
+          "aspects": {
+            "aqua": 2,
+            "instrumentum": 1,
+            "arbor": 1,
+            "messis": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHOR_TOOLS"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:awakened_ichor_axe",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHOR_SWORD_GEM",
+          "category": "TT_CATEGORY",
+          "displayColumn": 16,
+          "displayRow": 12,
+          "complexity": 3,
+          "aspects": {
+            "aer": 2,
+            "telum": 1,
+            "spiritus": 1,
+            "fames": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHOR_TOOLS"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "thaumic_tinkerer:awakened_ichor_sword",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHORCLOTH_HELM_GEM",
+          "category": "TT_CATEGORY",
+          "displayColumn": 18,
+          "displayRow": 3,
+          "complexity": 3,
+          "aspects": {
+            "aqua": 2,
+            "sano": 1,
+            "fames": 1,
+            "auram": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHORCLOTH_ARMOR"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:awakened_ichorcloth_helm",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHORCLOTH_CHEST_GEM",
+          "category": "TT_CATEGORY",
+          "displayColumn": 17,
+          "displayRow": 7,
+          "complexity": 3,
+          "aspects": {
+            "aer": 2,
+            "motus": 1,
+            "volatus": 1,
+            "alienis": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHORCLOTH_ARMOR"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:awakened_ichorcloth_chest",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHORCLOTH_LEGS_GEM",
+          "category": "TT_CATEGORY",
+          "displayColumn": 17,
+          "displayRow": 9,
+          "complexity": 3,
+          "aspects": {
+            "ignis": 2,
+            "sano": 1,
+            "lucrum": 1,
+            "potentia": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHORCLOTH_ARMOR"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "thaumic_tinkerer:awakened_ichorcloth_legs",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHORCLOTH_BOOTS_GEM",
+          "category": "TT_CATEGORY",
+          "displayColumn": 15,
+          "displayRow": 10,
+          "complexity": 3,
+          "aspects": {
+            "terra": 2,
+            "iter": 1,
+            "perfodio": 1,
+            "herba": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHORCLOTH_ARMOR"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:awakened_ichorcloth_boots",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:CAT_AMULET",
+          "category": "TT_CATEGORY",
+          "displayColumn": 13,
+          "displayRow": 10,
+          "complexity": 3,
+          "aspects": {
+            "cognitio": 2,
+            "ordo": 1,
+            "tenebrae": 1,
+            "mortuus": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHORIUM"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:cat_amulet",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:PROTOCLAY",
+          "category": "TT_CATEGORY",
+          "displayColumn": 12,
+          "displayRow": 17,
+          "complexity": 3,
+          "aspects": {
+            "instrumentum": 2,
+            "perfodio": 1,
+            "humanus": 1,
+            "machina": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHOR_PICK_GEM"
+          ],
+          "parentsHidden": [
+            "thaumic_tinkerer:ICHOR_SHOVEL_GEM"
+          ],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:protoclay",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ICHOR_POUCH",
+          "category": "TT_CATEGORY",
+          "displayColumn": 13,
+          "displayRow": 6,
+          "complexity": 3,
+          "aspects": {
+            "vacuos": 2,
+            "pannus": 1,
+            "alienis": 1,
+            "humanus": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHOR_CLOTH"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "thaumic_tinkerer:ichor_pouch",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:BLOCK_TALISMAN",
+          "category": "TT_CATEGORY",
+          "displayColumn": 14,
+          "displayRow": 17,
+          "complexity": 3,
+          "aspects": {
+            "vacuos": 2,
+            "tenebrae": 1,
+            "alienis": 1,
+            "praecantatio": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHOR_PICK_GEM",
+            "thaumic_tinkerer:ICHOR_SHOVEL_GEM"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:block_talisman",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:WARP_GATE",
+          "category": "TT_CATEGORY",
+          "displayColumn": 19,
+          "displayRow": 6,
+          "complexity": 3,
+          "aspects": {
+            "iter": 2,
+            "alienis": 1,
+            "volatus": 1,
+            "machina": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ICHORCLOTH_CHEST_GEM"
+          ],
+          "parentsHidden": [
+            "thaumic_tinkerer:ICHORCLOTH_BOOTS_GEM"
+          ],
+          "isConcealed": true,
+          "pageCount": 4,
+          "icon_item": {
+            "item": "thaumic_tinkerer:warp_gate",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:PLACEMENT_MIRROR",
+          "category": "TT_CATEGORY",
+          "displayColumn": 17,
+          "displayRow": 16,
+          "complexity": 3,
+          "aspects": {
+            "fabrico": 2,
+            "vitreus": 1,
+            "alienis": 1,
+            "cognitio": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:BLOCK_TALISMAN"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "thaumic_tinkerer:placement_mirror",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FOCUS_XP_DRAIN",
+          "category": "TT_CATEGORY",
+          "displayColumn": 12,
+          "displayRow": 3,
+          "complexity": 3,
+          "aspects": {
+            "cognitio": 2,
+            "praecantatio": 1,
+            "auram": 1,
+            "humanus": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ROD_ICHORCLOTH"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 3,
+          "icon_item": {
+            "item": "thaumic_tinkerer:focus_xp_drain",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FOCUS_RECALL",
+          "category": "TT_CATEGORY",
+          "displayColumn": 20,
+          "displayRow": 8,
+          "complexity": 3,
+          "aspects": {
+            "iter": 2,
+            "alienis": 1,
+            "volatus": 1,
+            "praecantatio": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:WARP_GATE"
+          ],
+          "parentsHidden": [
+            "thaumic_tinkerer:ROD_ICHORCLOTH"
+          ],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:focus_recall",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:FOCUS_SHADOWBEAM",
+          "category": "TT_CATEGORY",
+          "displayColumn": 14,
+          "displayRow": 4,
+          "complexity": 3,
+          "aspects": {
+            "tenebrae": 2,
+            "praecantatio": 1,
+            "alienis": 1,
+            "vitium": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:ROD_ICHORCLOTH"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:focus_shadowbeam",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:PERIPHERALS",
+          "category": "TT_CATEGORY",
+          "displayColumn": -1,
+          "displayRow": 0,
+          "complexity": 0,
+          "aspects": {},
+          "isAutoUnlock": true,
+          "isRound": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "minecraft:redstone",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:ASPECT_ANALYZER",
+          "category": "TT_CATEGORY",
+          "displayColumn": 0,
+          "displayRow": 1,
+          "complexity": 2,
+          "aspects": {
+            "machina": 2,
+            "sensus": 1,
+            "cognitio": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:PERIPHERALS"
+          ],
+          "parentsHidden": [
+            "GOGGLES",
+            "THAUMIUM"
+          ],
+          "isConcealed": true,
+          "isRound": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumic_tinkerer:aspect_analyzer",
+            "count": 1
+          }
+        },
+        {
+          "key": "thaumic_tinkerer:GOLEM_CONNECTOR",
+          "category": "TT_CATEGORY",
+          "displayColumn": 1,
+          "displayRow": 0,
+          "complexity": 0,
+          "aspects": {
+            "ordo": 1,
+            "iter": 2,
+            "instrumentum": 1
+          },
+          "parents": [
+            "thaumic_tinkerer:PERIPHERALS"
+          ],
+          "parentsHidden": [
+            "GOLEMBELL"
+          ],
+          "isConcealed": true,
+          "isRound": true,
+          "pageCount": 6,
+          "icon_item": {
+            "item": "thaumic_tinkerer:golem_connector",
+            "count": 1
+          }
+        }
+      ]
+    }
+  ]
+}

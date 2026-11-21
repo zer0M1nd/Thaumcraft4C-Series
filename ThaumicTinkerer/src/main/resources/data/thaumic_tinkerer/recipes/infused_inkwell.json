@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:INFUSED_INKWELL",
+  "instability": 2,
+  "aspects": {
+    "vacuos": 8,
+    "tenebrae": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:scribing_tools"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:infused_inkwell",
+    "count": 1
+  }
+}

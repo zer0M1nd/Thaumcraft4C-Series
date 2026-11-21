@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:TTENCH_VAMPIRISM",
+  "enchantment": "thaumic_tinkerer:vampirism",
+  "instability": 4,
+  "base_xp": 5,
+  "aspects": {
+    "perditio": 4,
+    "ignis": 5,
+    "aqua": 5,
+    "praecantatio": 12
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:fermented_spider_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

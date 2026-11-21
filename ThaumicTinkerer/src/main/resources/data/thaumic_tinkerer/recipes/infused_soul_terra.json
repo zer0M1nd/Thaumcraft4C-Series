@@ -1,0 +1,59 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:SUMMON",
+  "instability": 4,
+  "aspects": {
+    "terra": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:condensed_soul_terra"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_terra"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_terra"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_terra"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_terra"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_terra"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_terra"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_terra"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:condensed_soul_terra"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:infused_soul_terra",
+    "count": 1
+  }
+}

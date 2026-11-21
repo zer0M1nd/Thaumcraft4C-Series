@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:TTENCH_TUNNEL",
+  "enchantment": "thaumic_tinkerer:tunnel",
+  "instability": 4,
+  "base_xp": 5,
+  "aspects": {
+    "terra": 8,
+    "ordo": 8,
+    "praecantatio": 12
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

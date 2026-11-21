@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "conditions": [],
+  "entries": [
+    {
+      "key": "thaumic_tinkerer:transvector_dislocator",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "thaumic_tinkerer:DISLOCATOR",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "terra": 5,
+          "perditio": 5
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumic_tinkerer:transvector_dislocator",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:mirrored_glass",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumic_tinkerer:transvector_interface",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:comparator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

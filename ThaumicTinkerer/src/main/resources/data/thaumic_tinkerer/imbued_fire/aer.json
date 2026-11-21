@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "aspect": "aer",
+  "entries": [
+    {
+      "from": "minecraft:oak_log",
+      "to": "minecraft:sand"
+    },
+    {
+      "from": "minecraft:spruce_log",
+      "to": "minecraft:sand"
+    },
+    {
+      "from": "minecraft:birch_log",
+      "to": "minecraft:sand"
+    },
+    {
+      "from": "minecraft:jungle_log",
+      "to": "minecraft:sand"
+    },
+    {
+      "from": "minecraft:acacia_log",
+      "to": "minecraft:sand"
+    },
+    {
+      "from": "minecraft:dark_oak_log",
+      "to": "minecraft:sand"
+    },
+    {
+      "from": "minecraft:oak_leaves",
+      "to": "minecraft:sandstone"
+    },
+    {
+      "from": "minecraft:spruce_leaves",
+      "to": "minecraft:sandstone"
+    },
+    {
+      "from": "minecraft:birch_leaves",
+      "to": "minecraft:sandstone"
+    },
+    {
+      "from": "minecraft:jungle_leaves",
+      "to": "minecraft:sandstone"
+    },
+    {
+      "from": "minecraft:acacia_leaves",
+      "to": "minecraft:sandstone"
+    },
+    {
+      "from": "minecraft:dark_oak_leaves",
+      "to": "minecraft:sandstone"
+    },
+    {
+      "from": "minecraft:ice",
+      "to": "minecraft:glass"
+    },
+    {
+      "from": "minecraft:water",
+      "to": "minecraft:cake",
+      "cake": true
+    },
+    {
+      "from": "minecraft:dirt",
+      "to": "minecraft:sand"
+    },
+    {
+      "from": "minecraft:grass_block",
+      "to": "minecraft:sand"
+    }
+  ]
+}

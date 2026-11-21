@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:TTENCH_SLOW_FALL",
+  "enchantment": "thaumic_tinkerer:slow_fall",
+  "instability": 4,
+  "base_xp": 5,
+  "aspects": {
+    "ordo": 4,
+    "aer": 5,
+    "praecantatio": 12
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ]
+}

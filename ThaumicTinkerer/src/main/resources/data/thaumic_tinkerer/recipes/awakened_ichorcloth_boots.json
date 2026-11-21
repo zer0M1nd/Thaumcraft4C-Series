@@ -1,0 +1,85 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumic_tinkerer:ICHORCLOTH_BOOTS_GEM",
+  "instability": 13,
+  "aspects": {
+    "terra": 50,
+    "tutamen": 32,
+    "perfodio": 32,
+    "motus": 32,
+    "lux": 64,
+    "herba": 16,
+    "iter": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:ichorcloth_boots"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumonomicon"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_primal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_boots"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:grass_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:arcane_bore"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:growth_lamp"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:wheat_seeds"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:white_wool"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:lead"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumic_tinkerer:awakened_ichorcloth_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    " I ",
+    " R ",
+    " R "
+  ],
+  "key": {
+    "I": {
+      "item": "thaumic_tinkerer:ichorium"
+    },
+    "R": {
+      "item": "thaumcraft:wand_rod_silverwood"
+    }
+  },
+  "result": {
+    "item": "thaumic_tinkerer:ichor_shovel",
+    "count": 1
+  },
+  "research": "thaumic_tinkerer:ICHOR_TOOLS",
+  "vis": {
+    "terra": 75
+  }
+}
