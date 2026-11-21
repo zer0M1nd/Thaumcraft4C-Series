@@ -1,0 +1,76 @@
+[
+  {
+    "key": "thaumicbases:aquatic",
+    "aspects": [
+      "aqua",
+      "ordo"
+    ],
+    "texture": "thaumicbases:textures/items/foci/drain/aquatic.png",
+    "name": "tb.foci.aquatic.name",
+    "description": "tb.foci.aquatic.desc"
+  },
+  {
+    "key": "thaumicbases:netheric",
+    "aspects": [
+      "ignis",
+      "perditio"
+    ],
+    "texture": "thaumicbases:textures/items/foci/drain/netheric.png",
+    "name": "tb.foci.netheric.name",
+    "description": "tb.foci.netheric.desc"
+  },
+  {
+    "key": "thaumicbases:decomposing",
+    "aspects": [
+      "perditio",
+      "terra"
+    ],
+    "texture": "thaumicbases:textures/items/foci/experience/decomposing.png",
+    "name": "tb.foci.decomposing.name",
+    "description": "tb.foci.decomposing.desc"
+  },
+  {
+    "key": "thaumicbases:vaporizing",
+    "aspects": [
+      "perditio",
+      "ordo",
+      "aer"
+    ],
+    "texture": "thaumicbases:textures/items/foci/experience/vaporizing.png",
+    "name": "tb.foci.vaporizing.name",
+    "description": "tb.foci.vaporizing.desc"
+  },
+  {
+    "key": "thaumicbases:warping",
+    "aspects": [
+      "perditio",
+      "ignis",
+      "aer"
+    ],
+    "texture": "thaumicbases:textures/items/foci/flux/warping.png",
+    "name": "tb.foci.warping.name",
+    "description": "tb.foci.warping.desc"
+  },
+  {
+    "key": "thaumicbases:crystalization",
+    "aspects": [
+      "ordo",
+      "terra",
+      "aqua"
+    ],
+    "texture": "thaumicbases:textures/items/foci/flux/crystalization.png",
+    "name": "tb.foci.crystalization.name",
+    "description": "tb.foci.crystalization.desc"
+  },
+  {
+    "key": "thaumicbases:calming",
+    "aspects": [
+      "aqua",
+      "ordo",
+      "terra"
+    ],
+    "texture": "thaumicbases:textures/items/foci/flux/calming.png",
+    "name": "tb.foci.calming.name",
+    "description": "tb.foci.calming.desc"
+  }
+]

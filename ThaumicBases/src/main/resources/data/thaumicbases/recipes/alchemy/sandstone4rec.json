@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "TB.MasterEntropy",
+  "legacy_order": 10004,
+  "result": {
+    "item": "minecraft:sand",
+    "count": 4
+  },
+  "catalyst": [
+    {
+      "item": "minecraft:sandstone"
+    },
+    {
+      "item": "minecraft:chiseled_sandstone"
+    },
+    {
+      "item": "minecraft:cut_sandstone"
+    }
+  ],
+  "aspects": {
+    "perditio": 1,
+    "fabrico": 1
+  }
+}

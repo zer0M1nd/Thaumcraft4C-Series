@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.MagicTouch",
+  "enchantment": "thaumicbases:magic_touch",
+  "instability": 2,
+  "aspects": {
+    "praecantatio": 8,
+    "auram": 8,
+    "telum": 8
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:paper"
+      },
+      "damage": -1
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.NodeFoci.Taint",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primal_charm"
+    },
+    "damage": -1
+  },
+  "instability": 5,
+  "aspects": {
+    "auram": 64,
+    "vitium": 64,
+    "perditio": 16
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_tainted"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:knose_fragment_tainted"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_tainted"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:knose_fragment_tainted"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:node_focus_taint"
+  }
+}

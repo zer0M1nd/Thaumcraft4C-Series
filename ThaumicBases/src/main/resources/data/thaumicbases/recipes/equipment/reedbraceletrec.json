@@ -1,0 +1,45 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Bracelet.Reed",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_rod_reed"
+    },
+    "damage": -1
+  },
+  "instability": 2,
+  "aspects": {
+    "aer": 24,
+    "motus": 12,
+    "praecantatio": 8
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:bracelet_reed"
+  }
+}

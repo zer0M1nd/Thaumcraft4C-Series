@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver.EldritchBane",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "type": "thaumicbases:revolver_upgrade",
+      "upgrade": "thaumicbases:bane_of_eldritch",
+      "level": 1
+    },
+    "damage": -1,
+    "display": [
+      {
+        "item": "thaumicbases:revolver",
+        "nbt": "{\"tbUpgrade:thaumicbases:bane_of_eldritch\": 1}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "mortuus": 16,
+    "alienis": 16
+  },
+  "result": {
+    "patch": "{\"tbUpgrade:thaumicbases:bane_of_eldritch\": 2}"
+  }
+}

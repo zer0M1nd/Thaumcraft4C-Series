@@ -1,0 +1,58 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver.Efficiency",
+  "instability": 4,
+  "center": {
+    "ingredient": {
+      "type": "thaumicbases:revolver_upgrade",
+      "upgrade": "thaumicbases:efficiency",
+      "level": 1
+    },
+    "damage": -1,
+    "display": [
+      {
+        "item": "thaumicbases:revolver",
+        "nbt": "{\"tbUpgrade:thaumicbases:efficiency\": 1}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:enchanted_book"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "ordo": 16,
+    "permutatio": 16
+  },
+  "result": {
+    "patch": "{\"tbUpgrade:thaumicbases:efficiency\": 2}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "bloody=false": {
+      "model": "thaumicbases:block/spike_thaumic"
+    },
+    "bloody=true": {
+      "model": "thaumicbases:block/spike_thaumic_bloody"
+    }
+  }
+}

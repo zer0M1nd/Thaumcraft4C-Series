@@ -1,0 +1,83 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.NodeMan",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:node_converter"
+    },
+    "damage": -1
+  },
+  "instability": 6,
+  "aspects": {
+    "machina": 32,
+    "auram": 32,
+    "praecantatio": 16,
+    "potentia": 64,
+    "vacuos": 16
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:advanced_node_stabilizer"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:item_mirror"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_mirror"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:flux_scrubber"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:advanced_node_stabilizer"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:item_mirror"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_mirror"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:flux_scrubber"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:node_manipulator"
+  }
+}

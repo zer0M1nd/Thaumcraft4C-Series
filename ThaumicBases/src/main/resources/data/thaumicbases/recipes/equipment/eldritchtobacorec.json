@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Tobacco.Eldritch",
+  "center": {
+    "ingredient": {
+      "item": "thaumicbases:tobacco_pile"
+    },
+    "damage": -1
+  },
+  "instability": 1,
+  "aspects": {
+    "alienis": 4,
+    "mortuus": 1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:arrow"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:tobacco_eldritch"
+  }
+}

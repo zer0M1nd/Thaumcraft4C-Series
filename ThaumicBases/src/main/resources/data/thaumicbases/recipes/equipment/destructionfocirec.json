@@ -1,0 +1,69 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.NodeFoci.Destr",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primal_charm"
+    },
+    "damage": -1
+  },
+  "instability": 5,
+  "aspects": {
+    "auram": 64,
+    "vacuos": 16,
+    "mortuus": 32
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_tainted"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_crystallizer"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_excavation"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_tainted"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_crystallizer"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_excavation"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:node_focus_destruction"
+  }
+}

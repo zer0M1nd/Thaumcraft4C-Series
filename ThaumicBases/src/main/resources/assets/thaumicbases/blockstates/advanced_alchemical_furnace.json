@@ -1,0 +1,68 @@
+{
+  "variants": {
+    "facing=north,lit=false,contents=false": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_0_0",
+      "y": 0
+    },
+    "facing=east,lit=false,contents=false": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_0_0",
+      "y": 90
+    },
+    "facing=south,lit=false,contents=false": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_0_0",
+      "y": 180
+    },
+    "facing=west,lit=false,contents=false": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_0_0",
+      "y": 270
+    },
+    "facing=north,lit=false,contents=true": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_0_1",
+      "y": 0
+    },
+    "facing=east,lit=false,contents=true": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_0_1",
+      "y": 90
+    },
+    "facing=south,lit=false,contents=true": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_0_1",
+      "y": 180
+    },
+    "facing=west,lit=false,contents=true": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_0_1",
+      "y": 270
+    },
+    "facing=north,lit=true,contents=false": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_1_0",
+      "y": 0
+    },
+    "facing=east,lit=true,contents=false": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_1_0",
+      "y": 90
+    },
+    "facing=south,lit=true,contents=false": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_1_0",
+      "y": 180
+    },
+    "facing=west,lit=true,contents=false": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_1_0",
+      "y": 270
+    },
+    "facing=north,lit=true,contents=true": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_1_1",
+      "y": 0
+    },
+    "facing=east,lit=true,contents=true": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_1_1",
+      "y": 90
+    },
+    "facing=south,lit=true,contents=true": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_1_1",
+      "y": 180
+    },
+    "facing=west,lit=true,contents=true": {
+      "model": "thaumicbases:block/advanced_alchemical_furnace_1_1",
+      "y": 270
+    }
+  }
+}

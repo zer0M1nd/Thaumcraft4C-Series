@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "CAP_thauminite",
+  "mode": "shaped",
+  "pattern": [
+    "###",
+    "#@#",
+    "@@@"
+  ],
+  "key": {
+    "#": {
+      "item": "thaumicbases:thauminite_nugget"
+    },
+    "@": {
+      "item": "thaumcraft:salis_mundus"
+    }
+  },
+  "vis": {
+    "aer": 25,
+    "ignis": 25,
+    "aqua": 25,
+    "terra": 25,
+    "ordo": 25,
+    "perditio": 25
+  },
+  "result": {
+    "item": "thaumicbases:thauminite_wand_cap",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Thauminite",
+  "mode": "shaped",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "thaumicbases:thauminite_ingot"
+    }
+  },
+  "vis": {
+    "aer": 25,
+    "ignis": 25,
+    "aqua": 25,
+    "terra": 25,
+    "ordo": 25,
+    "perditio": 25
+  },
+  "result": {
+    "item": "thaumicbases:thauminite_helmet",
+    "count": 1
+  }
+}

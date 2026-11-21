@@ -1,0 +1,39 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "TB.Knose",
+  "legacy_order": 10043,
+  "result": {
+    "item": "thaumcraft:knowledge_fragment",
+    "count": 1
+  },
+  "catalyst": [
+    {
+      "item": "thaumicbases:knose_fragment_air"
+    },
+    {
+      "item": "thaumicbases:knose_fragment_fire"
+    },
+    {
+      "item": "thaumicbases:knose_fragment_water"
+    },
+    {
+      "item": "thaumicbases:knose_fragment_earth"
+    },
+    {
+      "item": "thaumicbases:knose_fragment_order"
+    },
+    {
+      "item": "thaumicbases:knose_fragment_entropy"
+    },
+    {
+      "item": "thaumicbases:knose_fragment_mixed"
+    },
+    {
+      "item": "thaumicbases:knose_fragment_tainted"
+    }
+  ],
+  "aspects": {
+    "ordo": 1,
+    "permutatio": 1
+  }
+}

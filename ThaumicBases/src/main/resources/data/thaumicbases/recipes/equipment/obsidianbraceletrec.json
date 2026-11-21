@@ -1,0 +1,45 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Bracelet.Obsidian",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_rod_obsidian"
+    },
+    "damage": -1
+  },
+  "instability": 2,
+  "aspects": {
+    "terra": 24,
+    "tenebrae": 12,
+    "praecantatio": 8
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:bracelet_obsidian"
+  }
+}

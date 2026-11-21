@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Bracelet.Gold",
+  "mode": "shaped",
+  "pattern": [
+    "CIC",
+    "N N"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumcraft:wand_cap_gold"
+    },
+    "I": {
+      "tag": "forge:ingots/gold"
+    },
+    "N": {
+      "tag": "forge:nuggets/gold"
+    }
+  },
+  "vis": {
+    "aer": 5,
+    "ignis": 5,
+    "aqua": 5,
+    "terra": 5,
+    "ordo": 5,
+    "perditio": 5
+  },
+  "result": {
+    "item": "thaumicbases:bracelet_gold",
+    "count": 1
+  }
+}

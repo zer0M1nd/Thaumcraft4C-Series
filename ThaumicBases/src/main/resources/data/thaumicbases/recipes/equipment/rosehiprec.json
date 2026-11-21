@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Briar",
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "thaumcraft:empty_phial"
+    },
+    {
+      "item": "thaumicbases:briar_seedbag"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "vis": {
+    "ignis": 3,
+    "aqua": 5
+  },
+  "result": {
+    "item": "thaumicbases:rosehip_syrup"
+  }
+}

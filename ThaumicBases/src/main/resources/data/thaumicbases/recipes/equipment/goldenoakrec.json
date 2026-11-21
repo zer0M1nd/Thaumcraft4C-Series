@@ -1,0 +1,44 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.GoldenOak",
+  "center": {
+    "ingredient": {
+      "item": "minecraft:oak_sapling"
+    },
+    "damage": -1
+  },
+  "instability": 2,
+  "aspects": {
+    "herba": 16,
+    "lucrum": 64
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:apple"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:apple"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_apple"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_apple"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:golden_oak_sapling"
+  }
+}

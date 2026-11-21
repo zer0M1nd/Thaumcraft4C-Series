@@ -1,0 +1,70 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver.Piercing",
+  "instability": 12,
+  "center": {
+    "ingredient": {
+      "type": "thaumicbases:revolver_upgrade",
+      "upgrade": "thaumicbases:piercing",
+      "level": 0
+    },
+    "damage": -1,
+    "display": [
+      {
+        "item": "thaumicbases:revolver",
+        "nbt": "{\"tbUpgrade:thaumicbases:piercing\": 0}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_arrow_air"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_arrow_fire"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_arrow_water"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_sword"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_arrow_earth"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_arrow_order"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_arrow_entropy"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "telum": 32,
+    "aer": 64
+  },
+  "result": {
+    "patch": "{\"tbUpgrade:thaumicbases:piercing\": 1}"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver.Dueling",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "type": "thaumicbases:revolver_upgrade",
+      "upgrade": "thaumicbases:dueling",
+      "level": 1
+    },
+    "damage": -1,
+    "display": [
+      {
+        "item": "thaumicbases:revolver",
+        "nbt": "{\"tbUpgrade:thaumicbases:dueling\": 1}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:red_bed"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "mortuus": 16,
+    "humanus": 16
+  },
+  "result": {
+    "patch": "{\"tbUpgrade:thaumicbases:dueling\": 2}"
+  }
+}

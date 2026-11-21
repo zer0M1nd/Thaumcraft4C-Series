@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_THAUMICBASES",
+      "pages": [
+        {
+          "id": "thaumicbases:tut_addon_thaumicbases/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicbases.tut_addon_thaumicbases.text.1",
+            "with": [
+              [
+                {
+                  "text": "神秘基础学是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicbases:tut_addon_thaumicbases/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicbases.tut_addon_thaumicbases.text.2",
+            "with": [
+              [
+                {
+                  "text": "神秘基础学是一个覆盖面很广的"
+                },
+                {
+                  "text": "中期补充包",
+                  "bold": true
+                },
+                {
+                  "text": "：新的炼金配方、装饰方块、魔法作物与树苗、新材料「秘晶」、新的杖柄杖端、施法手镯、节点调节器等。\n研究在"
+                },
+                {
+                  "text": "神秘基础学",
+                  "bold": true
+                },
+                {
+                  "text": "分页中。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicbases:tut_addon_thaumicbases/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicbases:tut_addon_thaumicbases/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicbases.tut_addon_thaumicbases.text.4",
+            "with": [
+              [
+                {
+                  "text": "推荐顺序\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicbases:tut_addon_thaumicbases/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicbases.tut_addon_thaumicbases.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "TB.DecoBlocks"
+                },
+                {
+                  "text": "：装饰方块，自动解锁。\n· "
+                },
+                {
+                  "research": "TB.BasicPlants"
+                },
+                {
+                  "text": "：神秘自然，魔法作物与树苗。\n· "
+                },
+                {
+                  "research": "TB.Thauminite"
+                },
+                {
+                  "text": "：秘晶锭，介于神秘锭和虚空金属之间的材料。\n· "
+                },
+                {
+                  "research": "TB.AdvAlc"
+                },
+                {
+                  "text": "：高级炼金炉，更快的源质蒸馏。\n· "
+                },
+                {
+                  "research": "TB.Bracelet.Iron"
+                },
+                {
+                  "text": "：奥术手镯，一种不同于法杖的施法道具。\n· "
+                },
+                {
+                  "research": "TB.NodeMan"
+                },
+                {
+                  "text": "：节点调节器。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicbases:tut_addon_thaumicbases/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicbases:tut_addon_thaumicbases/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "thaumicbases:tut_addon_thaumicbases/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "TB.DecoBlocks",
+            "TB.Thauminite",
+            "TB.BasicPlants",
+            "TB.AdvAlc",
+            "TB.Bracelet.Iron",
+            "TB.NodeMan"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "TB.Pyrofluid",
+  "legacy_order": 10022,
+  "result": {
+    "item": "thaumicbases:pyrofluid_bucket",
+    "count": 1
+  },
+  "catalyst": {
+    "item": "minecraft:lava_bucket"
+  },
+  "aspects": {
+    "ignis": 24,
+    "praecantatio": 8
+  }
+}

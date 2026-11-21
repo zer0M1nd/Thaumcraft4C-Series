@@ -1,0 +1,93 @@
+[
+  {
+    "id": "iron",
+    "capacity": 10,
+    "rod": "wood",
+    "cap": "iron",
+    "texture": "thaumcraft:textures/block/metalbase.png"
+  },
+  {
+    "id": "gold",
+    "capacity": 15,
+    "rod": "wood",
+    "cap": "gold",
+    "texture": "minecraft:textures/block/gold_block.png"
+  },
+  {
+    "id": "greatwood",
+    "capacity": 17,
+    "rod": "greatwood",
+    "cap": "gold",
+    "texture": "thaumcraft:textures/block/planks_greatwood.png"
+  },
+  {
+    "id": "thaumium",
+    "capacity": 20,
+    "rod": "thaumicbases:tbthaumium",
+    "cap": "thaumicbases:thauminite",
+    "texture": "thaumcraft:textures/block/thaumiumblock.png"
+  },
+  {
+    "id": "silverwood",
+    "capacity": 23,
+    "rod": "silverwood",
+    "cap": "thaumium",
+    "texture": "thaumcraft:textures/block/planks_silverwood.png"
+  },
+  {
+    "id": "reed",
+    "capacity": 23,
+    "rod": "reed",
+    "cap": "thaumium",
+    "texture": "thaumicbases:textures/blocks/sugarcaneblock.png"
+  },
+  {
+    "id": "bone",
+    "capacity": 25,
+    "rod": "bone",
+    "cap": "thaumium",
+    "texture": "thaumicbases:textures/blocks/boneblock.png"
+  },
+  {
+    "id": "obsidian",
+    "capacity": 25,
+    "rod": "obsidian",
+    "cap": "thaumium",
+    "texture": "minecraft:textures/block/obsidian.png"
+  },
+  {
+    "id": "blaze",
+    "capacity": 25,
+    "rod": "blaze",
+    "cap": "thaumium",
+    "texture": "thaumicbases:textures/blocks/blazeblock.png"
+  },
+  {
+    "id": "ice",
+    "capacity": 25,
+    "rod": "ice",
+    "cap": "thaumium",
+    "texture": "minecraft:textures/block/packed_ice.png"
+  },
+  {
+    "id": "quartz",
+    "capacity": 25,
+    "rod": "quartz",
+    "cap": "thaumium",
+    "texture": "minecraft:textures/block/quartz_block_bottom.png"
+  },
+  {
+    "id": "void",
+    "capacity": 27,
+    "rod": "thaumicbases:tbvoid",
+    "cap": "thaumium",
+    "texture": "thaumicbases:textures/blocks/voidblock.png"
+  },
+  {
+    "id": "primal",
+    "capacity": 30,
+    "rod": "primal_staff",
+    "cap": "void",
+    "texture": "thaumcraft:textures/block/deco_3.png"
+  }
+]

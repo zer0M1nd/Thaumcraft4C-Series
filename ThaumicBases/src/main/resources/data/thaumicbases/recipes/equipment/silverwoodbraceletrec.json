@@ -1,0 +1,73 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Bracelet.Silverwood",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_rod_silverwood"
+    },
+    "damage": -1
+  },
+  "instability": 5,
+  "aspects": {
+    "aer": 17,
+    "ignis": 17,
+    "aqua": 17,
+    "terra": 17,
+    "ordo": 17,
+    "perditio": 17,
+    "praecantatio": 17
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:silverwood_log"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:silverwood_log"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:bracelet_silverwood"
+  }
+}

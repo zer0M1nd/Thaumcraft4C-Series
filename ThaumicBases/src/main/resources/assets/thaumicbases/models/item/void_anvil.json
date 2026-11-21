@@ -1,0 +1,17 @@
+{
+  "parent": "thaumicbases:block/void_anvil_0",
+  "overrides": [
+    {
+      "predicate": {
+        "thaumicbases:anvil_damage": 1
+      },
+      "model": "thaumicbases:item/void_anvil_1"
+    },
+    {
+      "predicate": {
+        "thaumicbases:anvil_damage": 2
+      },
+      "model": "thaumicbases:item/void_anvil_2"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.NodeFoci.Efficiency",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:primal_charm"
+    },
+    "damage": -1
+  },
+  "instability": 1,
+  "aspects": {
+    "auram": 64,
+    "vacuos": 16,
+    "mortuus": 32
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:node_focus_efficiency"
+  }
+}

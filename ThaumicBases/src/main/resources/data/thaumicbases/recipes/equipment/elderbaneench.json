@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Eldritchbane",
+  "enchantment": "thaumicbases:eldritch_bane",
+  "instability": 2,
+  "aspects": {
+    "mortuus": 8,
+    "alienis": 8,
+    "telum": 8
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    }
+  ]
+}

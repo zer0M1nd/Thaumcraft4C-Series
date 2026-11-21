@@ -1,0 +1,71 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "ROD_tbvoid",
+  "center": {
+    "ingredient": {
+      "item": "thaumicbases:thaumium_wand_core"
+    },
+    "damage": -1
+  },
+  "instability": 6,
+  "aspects": {
+    "alienis": 64,
+    "vacuos": 64,
+    "praecantatio": 64,
+    "auram": 24,
+    "potentia": 24
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_tainted"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_tainted"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:void_wand_core"
+  }
+}

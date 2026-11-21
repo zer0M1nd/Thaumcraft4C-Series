@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "thaumicbases:block/relocator",
+      "x": 0,
+      "y": 0
+    },
+    "facing=down": {
+      "model": "thaumicbases:block/relocator",
+      "x": 180,
+      "y": 0
+    },
+    "facing=north": {
+      "model": "thaumicbases:block/relocator",
+      "x": 90,
+      "y": 0
+    },
+    "facing=south": {
+      "model": "thaumicbases:block/relocator",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thaumicbases:block/relocator",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "thaumicbases:block/relocator",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

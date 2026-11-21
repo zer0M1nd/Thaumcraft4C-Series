@@ -1,0 +1,58 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver.Void",
+  "instability": 8,
+  "center": {
+    "ingredient": {
+      "type": "thaumicbases:revolver_upgrade",
+      "upgrade": "thaumicbases:void",
+      "level": 1
+    },
+    "damage": -1,
+    "display": [
+      {
+        "item": "thaumicbases:revolver",
+        "nbt": "{\"tbUpgrade:thaumicbases:void\": 1}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "vacuos": 16,
+    "instrumentum": 16
+  },
+  "result": {
+    "patch": "{\"tbUpgrade:thaumicbases:void\": 2}"
+  }
+}

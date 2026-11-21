@@ -1,0 +1,142 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/silver"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:infusion",
+        "research": "TB.Revolver.Silver",
+        "instability": 6,
+        "center": {
+          "ingredient": {
+            "type": "thaumicbases:revolver_upgrade",
+            "upgrade": "thaumicbases:silver",
+            "level": 2
+          },
+          "damage": -1,
+          "display": [
+            {
+              "item": "thaumicbases:revolver",
+              "nbt": "{\"tbUpgrade:thaumicbases:silver\": 2}"
+            }
+          ]
+        },
+        "components": [
+          {
+            "ingredient": {
+              "item": "thaumcraft:salis_mundus"
+            },
+            "damage": -1
+          },
+          {
+            "ingredient": {
+              "item": "thaumcraft:quicksilver"
+            },
+            "damage": -1
+          },
+          {
+            "ingredient": {
+              "tag": "forge:ingots/silver"
+            },
+            "damage": -1
+          },
+          {
+            "ingredient": {
+              "item": "thaumcraft:quicksilver"
+            },
+            "damage": -1
+          },
+          {
+            "ingredient": {
+              "item": "thaumcraft:salis_mundus"
+            },
+            "damage": -1
+          }
+        ],
+        "aspects": {
+          "mortuus": 32,
+          "bestia": 32,
+          "exanimis": 32
+        },
+        "result": {
+          "patch": "{\"tbUpgrade:thaumicbases:silver\": 3}"
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/silver"
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:infusion",
+        "research": "TB.Revolver.Silver",
+        "instability": 6,
+        "center": {
+          "ingredient": {
+            "type": "thaumicbases:revolver_upgrade",
+            "upgrade": "thaumicbases:silver",
+            "level": 2
+          },
+          "damage": -1,
+          "display": [
+            {
+              "item": "thaumicbases:revolver",
+              "nbt": "{\"tbUpgrade:thaumicbases:silver\": 2}"
+            }
+          ]
+        },
+        "components": [
+          {
+            "ingredient": {
+              "item": "thaumcraft:salis_mundus"
+            },
+            "damage": -1
+          },
+          {
+            "ingredient": {
+              "item": "thaumcraft:quicksilver"
+            },
+            "damage": -1
+          },
+          {
+            "ingredient": {
+              "item": "thaumcraft:primal_charm"
+            },
+            "damage": -1
+          },
+          {
+            "ingredient": {
+              "item": "thaumcraft:quicksilver"
+            },
+            "damage": -1
+          },
+          {
+            "ingredient": {
+              "item": "thaumcraft:salis_mundus"
+            },
+            "damage": -1
+          }
+        ],
+        "aspects": {
+          "mortuus": 32,
+          "bestia": 32,
+          "exanimis": 32
+        },
+        "result": {
+          "patch": "{\"tbUpgrade:thaumicbases:silver\": 3}"
+        }
+      }
+    }
+  ]
+}

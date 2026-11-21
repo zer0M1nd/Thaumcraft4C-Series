@@ -1,0 +1,99 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Overchanter",
+  "center": {
+    "ingredient": {
+      "item": "minecraft:enchanting_table"
+    },
+    "damage": -1
+  },
+  "instability": 4,
+  "aspects": {
+    "aer": 32,
+    "ignis": 32,
+    "aqua": 32,
+    "terra": 32,
+    "ordo": 32,
+    "perditio": 32,
+    "praecantatio": 32,
+    "machina": 32,
+    "cognitio": 16
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_air"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_fire"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_water"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_earth"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_order"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_entropy"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_mixed"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:crystal_mixed"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumicbases:salis_mundus_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_block"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_block"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:overchanter"
+  }
+}

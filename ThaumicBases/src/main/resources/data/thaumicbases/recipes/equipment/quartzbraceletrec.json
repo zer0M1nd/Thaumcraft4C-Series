@@ -1,0 +1,45 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Bracelet.Quartz",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_rod_quartz"
+    },
+    "damage": -1
+  },
+  "instability": 2,
+  "aspects": {
+    "ordo": 24,
+    "potentia": 12,
+    "praecantatio": 8
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:bracelet_quartz"
+  }
+}

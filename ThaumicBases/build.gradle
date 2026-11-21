@@ -1,0 +1,81 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
+version = '0.1.27.1'
+group='tbmodern'
+base.archivesName='Thaumic-Bases-Modern-Port'
+java.toolchain.languageVersion=JavaLanguageVersion.of(17)
+java.withSourcesJar()
+sourceSets {
+ serverTest {
+  compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+  runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+ }
+}
+repositories { flatDir { dirs 'libs' }; flatDir { dirs '.deps' }; maven { url='https://maven.theillusivec4.top/' }; mavenCentral() }
+repositories {
+    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
+    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+}
+dependencies {
+    runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
+ minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+ implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
+        ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
+        : 'local.revival:Thaumcraft-4-Modern-Port:0.4.114')
+ compileOnly files('.deps/automagy-0.1.4.jar')
+ if(project.hasProperty('addonAcceptance')) {
+  runtimeOnly fg.deobf('local:automagy:0.1.4')
+  runtimeOnly fg.deobf('local:forbidden-magic:0.1.2')
+  runtimeOnly fg.deobf('local:thaumic-tinkerer:0.1.14')
+ }
+ compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
+ runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
+ testImplementation files('.deps/junit/junit-platform-console-standalone-1.10.2.jar')
+}
+minecraft {
+ mappings channel:'official',version:'1.20.1'
+ runs {
+  configureEach {
+   args '--mixin.config','tc4revival.mixins.json'
+   property 'mixin.env.remapRefMap','true'
+   property 'mixin.env.refMapRemappingFile',layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+   mods { thaumicbases { source sourceSets.main; if(project.hasProperty('acceptance'))source sourceSets.serverTest } }
+  }
+  server {
+   workingDirectory project.file('run-server'); args '--nogui'; jvmArgs '-Xmx2G'
+   if(project.hasProperty('acceptance')) {
+    property 'thaumicbases.acceptance','true'
+    args '--world', project.hasProperty('addonAcceptance') ? 'acceptance-addons' : 'acceptance-base-only'
+   }
+  }
+ }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding='UTF-8'; options.release=17 }
+tasks.named('test') { useJUnitPlatform() }
+tasks.register('generateItemAspects',JavaExec) {
+ dependsOn 'classes'
+ classpath=sourceSets.main.runtimeClasspath
+ mainClass='tbmodern.data.GenerateItemAspects'
+ workingDir=projectDir
+}
+tasks.named('jar') {
+ manifest { attributes 'Implementation-Title': 'Thaumic Bases', 'Implementation-Version': project.version }
+ finalizedBy 'reobfJar'
+}
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps=false; reproducibleFileOrder=true }
+tasks.register('verifyDistribution') {
+ dependsOn 'jar','reobfJar','sourcesJar'
+ doLast { ['jar','sourcesJar'].each { name -> new java.util.zip.ZipFile(tasks.named(name).get().archiveFile.get().asFile).withCloseable { zip -> zip.entries().each { entry ->
+  if(entry.name==~ /.*\.(png|ogg|lang|obj)/)throw new GradleException('Bundled legacy asset: '+entry.name)
+  if(entry.name.startsWith('tc4revival/')||entry.name.startsWith('thaumcraft/')||entry.name.startsWith('DummyCore/'))throw new GradleException('Bundled foreign implementation: '+entry.name)
+  if(entry.name.startsWith('tbmodern/acceptance/'))throw new GradleException('Bundled server test harness: '+entry.name)
+ } } } }
+}
+
+// Resource metadata must be UTF-8 on every build host.
+tasks.withType(ProcessResources).configureEach { filteringCharset = 'UTF-8' }
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+    }
+}

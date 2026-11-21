@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Brazier",
+  "mode": "shaped",
+  "pattern": [
+    "SCS",
+    " V ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:arcane_stone_slab"
+    },
+    "C": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "V": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "vis": {
+    "ignis": 5,
+    "perditio": 3
+  },
+  "result": {
+    "item": "thaumicbases:brazier",
+    "count": 1
+  }
+}

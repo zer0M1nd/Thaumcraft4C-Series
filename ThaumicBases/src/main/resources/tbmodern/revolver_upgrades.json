@@ -1,0 +1,175 @@
+[
+  {
+    "key": "thaumicbases:power",
+    "name": "revolverUpgrade.POWER.name",
+    "maximum": 5,
+    "instability": 2,
+    "conflicts": [
+      "thaumicbases:bane_of_arthropods",
+      "thaumicbases:bane_of_eldritch",
+      "thaumicbases:dueling",
+      "thaumicbases:eldritch",
+      "thaumicbases:silver"
+    ]
+  },
+  {
+    "key": "thaumicbases:accuracy",
+    "name": "revolverUpgrade.ACCURACY.name",
+    "maximum": 3,
+    "instability": 1,
+    "conflicts": [
+      "thaumicbases:efficiency",
+      "thaumicbases:speed"
+    ]
+  },
+  {
+    "key": "thaumicbases:silver",
+    "name": "revolverUpgrade.SILVER.name",
+    "maximum": 5,
+    "instability": 3,
+    "conflicts": [
+      "thaumicbases:bane_of_arthropods",
+      "thaumicbases:bane_of_eldritch",
+      "thaumicbases:dueling",
+      "thaumicbases:eldritch",
+      "thaumicbases:power"
+    ]
+  },
+  {
+    "key": "thaumicbases:poisoned",
+    "name": "revolverUpgrade.POISONED.name",
+    "maximum": 3,
+    "instability": 1,
+    "conflicts": [
+      "thaumicbases:knowledge",
+      "thaumicbases:primal",
+      "thaumicbases:tainted"
+    ]
+  },
+  {
+    "key": "thaumicbases:bane_of_arthropods",
+    "name": "revolverUpgrade.BANE_OF_ATROPODS.name",
+    "maximum": 5,
+    "instability": 3,
+    "conflicts": [
+      "thaumicbases:bane_of_eldritch",
+      "thaumicbases:dueling",
+      "thaumicbases:eldritch",
+      "thaumicbases:power",
+      "thaumicbases:silver"
+    ]
+  },
+  {
+    "key": "thaumicbases:bane_of_eldritch",
+    "name": "revolverUpgrade.BANE_OF_ELDRITCH.name",
+    "maximum": 5,
+    "instability": 3,
+    "conflicts": [
+      "thaumicbases:bane_of_arthropods",
+      "thaumicbases:dueling",
+      "thaumicbases:eldritch",
+      "thaumicbases:power",
+      "thaumicbases:silver"
+    ]
+  },
+  {
+    "key": "thaumicbases:piercing",
+    "name": "revolverUpgrade.PIERCING.name",
+    "maximum": 1,
+    "instability": 12,
+    "conflicts": []
+  },
+  {
+    "key": "thaumicbases:dueling",
+    "name": "revolverUpgrade.DUELING.name",
+    "maximum": 5,
+    "instability": 3,
+    "conflicts": [
+      "thaumicbases:bane_of_arthropods",
+      "thaumicbases:bane_of_eldritch",
+      "thaumicbases:eldritch",
+      "thaumicbases:power",
+      "thaumicbases:silver"
+    ]
+  },
+  {
+    "key": "thaumicbases:tainted",
+    "name": "revolverUpgrade.TAINTED.name",
+    "maximum": 3,
+    "instability": 5,
+    "conflicts": [
+      "thaumicbases:knowledge",
+      "thaumicbases:poisoned",
+      "thaumicbases:primal"
+    ]
+  },
+  {
+    "key": "thaumicbases:primal",
+    "name": "revolverUpgrade.PRIMAL.name",
+    "maximum": 1,
+    "instability": 12,
+    "conflicts": [
+      "thaumicbases:knowledge",
+      "thaumicbases:poisoned",
+      "thaumicbases:tainted"
+    ]
+  },
+  {
+    "key": "thaumicbases:speed",
+    "name": "revolverUpgrade.SPEED.name",
+    "maximum": 5,
+    "instability": 2,
+    "conflicts": [
+      "thaumicbases:accuracy",
+      "thaumicbases:efficiency"
+    ]
+  },
+  {
+    "key": "thaumicbases:efficiency",
+    "name": "revolverUpgrade.EFFICIENCY.name",
+    "maximum": 5,
+    "instability": 4,
+    "conflicts": [
+      "thaumicbases:accuracy",
+      "thaumicbases:speed"
+    ]
+  },
+  {
+    "key": "thaumicbases:eldritch",
+    "name": "revolverUpgrade.ELDRITCH.name",
+    "maximum": 2,
+    "instability": 7,
+    "conflicts": [
+      "thaumicbases:bane_of_arthropods",
+      "thaumicbases:bane_of_eldritch",
+      "thaumicbases:dueling",
+      "thaumicbases:power",
+      "thaumicbases:silver"
+    ]
+  },
+  {
+    "key": "thaumicbases:void",
+    "name": "revolverUpgrade.VOID.name",
+    "maximum": 3,
+    "instability": 4,
+    "conflicts": []
+  },
+  {
+    "key": "thaumicbases:knowledge",
+    "name": "revolverUpgrade.KNOWLEDGE.name",
+    "maximum": 5,
+    "instability": 1,
+    "conflicts": [
+      "thaumicbases:poisoned",
+      "thaumicbases:primal",
+      "thaumicbases:tainted"
+    ]
+  },
+  {
+    "key": "thaumicbases:heavy",
+    "name": "revolverUpgrade.HEAVY.name",
+    "maximum": 5,
+    "instability": 1,
+    "conflicts": []
+  }
+]

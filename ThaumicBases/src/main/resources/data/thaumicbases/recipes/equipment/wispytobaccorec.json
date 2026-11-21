@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Tobacco.Wispy",
+  "center": {
+    "ingredient": {
+      "item": "thaumicbases:tobacco_pile"
+    },
+    "damage": -1
+  },
+  "instability": 1,
+  "aspects": {
+    "auram": 4,
+    "praecantatio": 6
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essence_crystal"
+      },
+      "damage": -1
+    }
+  ],
+  "result": {
+    "item": "thaumicbases:tobacco_wispy"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver.Primal",
+  "instability": 12,
+  "center": {
+    "ingredient": {
+      "type": "thaumicbases:revolver_upgrade",
+      "upgrade": "thaumicbases:primal",
+      "level": 0
+    },
+    "damage": -1,
+    "display": [
+      {
+        "item": "thaumicbases:revolver",
+        "nbt": "{\"tbUpgrade:thaumicbases:primal\": 0}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "telum": 64,
+    "aer": 64,
+    "ignis": 64,
+    "aqua": 64,
+    "terra": 64,
+    "ordo": 64,
+    "perditio": 64,
+    "praecantatio": 64
+  },
+  "result": {
+    "patch": "{\"tbUpgrade:thaumicbases:primal\": 1}"
+  }
+}

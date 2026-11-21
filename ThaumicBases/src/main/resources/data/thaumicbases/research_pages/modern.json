@@ -1,0 +1,3692 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TB.DecoBlocks",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.decoBlocks.page.0"
+          },
+          "id": "thaumicbases:TB.DecoBlocks/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:quicksilver_block"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.DecoBlocks/page/2",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:quicksilver_from_quicksilver_block"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.DecoBlocks/page/3",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:quicksilver_brick"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.DecoBlocks/page/4",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:machines/eldritchark"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.DecoBlocks/page/5",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:machines/irongreatwood"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.DecoBlocks/page/6",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:machines/oldrec_0",
+              "thaumicbases:machines/oldrec_1",
+              "thaumicbases:machines/oldrec_2",
+              "thaumicbases:machines/oldrec_3",
+              "thaumicbases:machines/oldrec_4",
+              "thaumicbases:machines/oldrec_5",
+              "thaumicbases:machines/oldrec_6",
+              "thaumicbases:machines/oldrec_7"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.DecoBlocks/page/7",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:crystal_air_slab",
+              "thaumicbases:crystal_earth_slab",
+              "thaumicbases:crystal_entropy_slab",
+              "thaumicbases:crystal_fire_slab",
+              "thaumicbases:crystal_mixed_slab",
+              "thaumicbases:crystal_order_slab",
+              "thaumicbases:crystal_tainted_slab",
+              "thaumicbases:crystal_water_slab",
+              "thaumicbases:eldritch_ark_slab",
+              "thaumicbases:old_brick_slab",
+              "thaumicbases:old_cobble_slab",
+              "thaumicbases:old_diamond_slab",
+              "thaumicbases:old_gold_slab",
+              "thaumicbases:old_iron_slab",
+              "thaumicbases:old_lapis_slab",
+              "thaumicbases:old_mossy_cobble_slab"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.DecoBlocks/page/8",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.AdvancedEntropy",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.advEntr.page.0"
+          },
+          "id": "thaumicbases:TB.AdvancedEntropy/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/wool3rec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.AdvancedEntropy/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/sandstone3rec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.AdvancedEntropy/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/blaze3rec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.AdvancedEntropy/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.AlchemyRestoration",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.alcRest.page.0"
+          },
+          "id": "thaumicbases:TB.AlchemyRestoration/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/chiseledbricks"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.AlchemyRestoration/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/gravel2cobble"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.AlchemyRestoration/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/icepacking"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.AlchemyRestoration/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Pyrofluid",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.pyrofluid.page.0"
+          },
+          "id": "thaumicbases:TB.Pyrofluid/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/pyrofluidrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Pyrofluid/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.CrystalBlocks",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.cBlocks.page.0"
+          },
+          "id": "thaumicbases:TB.CrystalBlocks/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/cblocks_air",
+              "thaumicbases:alchemy/cblocks_fire",
+              "thaumicbases:alchemy/cblocks_water",
+              "thaumicbases:alchemy/cblocks_earth",
+              "thaumicbases:alchemy/cblocks_order",
+              "thaumicbases:alchemy/cblocks_entropy",
+              "thaumicbases:alchemy/cblocks_mixed"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.CrystalBlocks/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/ctaintedblocks_air",
+              "thaumicbases:alchemy/ctaintedblocks_fire",
+              "thaumicbases:alchemy/ctaintedblocks_water",
+              "thaumicbases:alchemy/ctaintedblocks_earth",
+              "thaumicbases:alchemy/ctaintedblocks_order",
+              "thaumicbases:alchemy/ctaintedblocks_entropy",
+              "thaumicbases:alchemy/ctaintedblocks_mixed"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.CrystalBlocks/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Backprocessing",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.backProc.page.0"
+          },
+          "id": "thaumicbases:TB.Backprocessing/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/blazepowderrest"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Backprocessing/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/bonerest"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Backprocessing/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/sugarrest"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Backprocessing/page/4",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/cactirest"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Backprocessing/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.MasterEntropy",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.mastEntr.page.0"
+          },
+          "id": "thaumicbases:TB.MasterEntropy/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/wool4rec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.MasterEntropy/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/sandstone4rec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.MasterEntropy/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/blaze4rec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.MasterEntropy/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.StrongEntropy",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.strEntr.page.0"
+          },
+          "id": "thaumicbases:TB.StrongEntropy/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/glasssand"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.StrongEntropy/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/gravelsand"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.StrongEntropy/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/barsiron"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.StrongEntropy/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.SimpleDublication",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.simDup.page.0"
+          },
+          "id": "thaumicbases:TB.SimpleDublication/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/arrows"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.SimpleDublication/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/snowball"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.SimpleDublication/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/redstone"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.SimpleDublication/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Amber",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.amber.page.0"
+          },
+          "id": "thaumicbases:TB.Amber/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/amber"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Amber/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Quicksilver",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.cinnabar.page.0"
+          },
+          "id": "thaumicbases:TB.Quicksilver/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/cinnabar"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Quicksilver/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Thauminite",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.thauminite.page.0"
+          },
+          "id": "thaumicbases:TB.Thauminite/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/thauminiterec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Thauminite/page/2",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:thauminite_ingot"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Thauminite/page/3",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:thauminite_nugget_from_thauminite_ingot"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Thauminite/page/4",
+          "page_break": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:thauminite_block"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Thauminite/page/5",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/toolsrec_0",
+              "thaumicbases:equipment/toolsrec_1",
+              "thaumicbases:equipment/toolsrec_2",
+              "thaumicbases:equipment/toolsrec_3",
+              "thaumicbases:equipment/toolsrec_4",
+              "thaumicbases:equipment/toolsrec_5",
+              "thaumicbases:equipment/toolsrec_6",
+              "thaumicbases:equipment/toolsrec_7",
+              "thaumicbases:equipment/toolsrec_8",
+              "thaumicbases:equipment/toolsrec_9"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Thauminite/page/6",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "ROD_tbthaumium",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.thaumRod.page.0"
+          },
+          "id": "thaumicbases:ROD_tbthaumium/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/thaumicwandcore"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:ROD_tbthaumium/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "ROD_tbvoid",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.voidRod.page.0"
+          },
+          "id": "thaumicbases:ROD_tbvoid/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/voidrodrecipe"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:ROD_tbvoid/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "CAP_thauminite",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.capthauminite.page.0"
+          },
+          "id": "thaumicbases:CAP_thauminite/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/thauminitecaps"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:CAP_thauminite/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.SM",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.sm.page.0"
+          },
+          "id": "thaumicbases:TB.SM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/salismundis"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.SM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.SMB",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.smb.page.0"
+          },
+          "id": "thaumicbases:TB.SMB/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/salismundusblockrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.SMB/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.OreDestruction",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.oreDestr.page.0"
+          },
+          "id": "thaumicbases:TB.OreDestruction/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/shards_air",
+              "thaumicbases:alchemy/shards_fire",
+              "thaumicbases:alchemy/shards_water",
+              "thaumicbases:alchemy/shards_earth",
+              "thaumicbases:alchemy/shards_order",
+              "thaumicbases:alchemy/shards_entropy"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.OreDestruction/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.ElderKnowledge",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.enchantments.ewisdom"
+          },
+          "id": "thaumicbases:TB.ElderKnowledge/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/elderknowledgeench"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.ElderKnowledge/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.EldritchBane",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.enchantments.ebane"
+          },
+          "id": "thaumicbases:TB.EldritchBane/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/elderbaneench"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.EldritchBane/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.MagicTouch",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.enchantments.magictouched"
+          },
+          "id": "thaumicbases:TB.MagicTouch/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/magictouchench"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.MagicTouch/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Vaporising",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.enchantments.vaporising"
+          },
+          "id": "thaumicbases:TB.Vaporising/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/vaporisingench"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Vaporising/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Tainted",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.enchantments.taint"
+          },
+          "id": "thaumicbases:TB.Tainted/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_ENCHANTMENT",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/taintedench"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tainted/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Foci.Drain",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.drainFoci.page.0"
+          },
+          "id": "thaumicbases:TB.Foci.Drain/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/drainfocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Foci.Drain/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.drainFoci.page.1"
+          },
+          "id": "thaumicbases:TB.Foci.Drain/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.drainFoci.page.2"
+          },
+          "id": "thaumicbases:TB.Foci.Drain/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Foci.Experience",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.expFoci.page.0"
+          },
+          "id": "thaumicbases:TB.Foci.Experience/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/expfocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Foci.Experience/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.expFoci.page.1"
+          },
+          "id": "thaumicbases:TB.Foci.Experience/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.expFoci.page.2"
+          },
+          "id": "thaumicbases:TB.Foci.Experience/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Foci.Flux",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.fluxFoci.page.0"
+          },
+          "id": "thaumicbases:TB.Foci.Flux/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/fluxfocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Foci.Flux/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.fluxFoci.page.1"
+          },
+          "id": "thaumicbases:TB.Foci.Flux/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.fluxFoci.page.2"
+          },
+          "id": "thaumicbases:TB.Foci.Flux/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.fluxFoci.page.3"
+          },
+          "id": "thaumicbases:TB.Foci.Flux/page/5",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Foci.Activation",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.actFoci.page.0"
+          },
+          "id": "thaumicbases:TB.Foci.Activation/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/activationfocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Foci.Activation/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.actFoci.page.1"
+          },
+          "id": "thaumicbases:TB.Foci.Activation/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "TB.AdvAlc",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.advAlc.page.0"
+          },
+          "id": "thaumicbases:TB.AdvAlc/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:machines/advfurnacerecipe"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.AdvAlc/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.CryingObs",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.cryingObs.page.0"
+          },
+          "id": "thaumicbases:TB.CryingObs/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:machines/cryingobsidianrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.CryingObs/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Overchanter",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.overchanter.page.0"
+          },
+          "id": "thaumicbases:TB.Overchanter/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.overchanter.page.1"
+          },
+          "id": "thaumicbases:TB.Overchanter/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.overchanter.page.2"
+          },
+          "id": "thaumicbases:TB.Overchanter/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.overchanter.page.3"
+          },
+          "id": "thaumicbases:TB.Overchanter/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:machines/overchanterrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Overchanter/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Relocator",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.relocator.page.0"
+          },
+          "id": "thaumicbases:TB.Relocator/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:machines/relocatorrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Relocator/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:machines/irelocatorrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Relocator/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.ThaumicAnvil",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.thaumicAnvil.page.0"
+          },
+          "id": "thaumicbases:TB.ThaumicAnvil/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:machines/thaumicanvilrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.ThaumicAnvil/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.VoidAnvil",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.voidAnvil.page.0"
+          },
+          "id": "thaumicbases:TB.VoidAnvil/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.voidAnvil.page.1"
+          },
+          "id": "thaumicbases:TB.VoidAnvil/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:machines/voidanvilrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.VoidAnvil/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Campfire",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.campfire.page.0"
+          },
+          "id": "thaumicbases:TB.Campfire/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:machines/campfirerec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Campfire/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Brazier",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.brazier.page.0"
+          },
+          "id": "thaumicbases:TB.Brazier/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:machines/brazierrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Brazier/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Tobacco",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.tobacco.page.0"
+          },
+          "id": "thaumicbases:TB.Tobacco/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/tobaccoseedrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tobacco/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.tobacco.page.1"
+          },
+          "id": "thaumicbases:TB.Tobacco/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/piperecipe"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tobacco/page/4",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/pestlerecipe"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tobacco/page/5",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/gentobaccorec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tobacco/page/6",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.tobacco.page.2"
+          },
+          "id": "thaumicbases:TB.Tobacco/page/7",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "TB.SilverwoodPipe",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.silverPipe.page.0"
+          },
+          "id": "thaumicbases:TB.SilverwoodPipe/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/silverwoodpiperec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.SilverwoodPipe/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Tobacco.Eldritch",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.etobacco.page.0"
+          },
+          "id": "thaumicbases:TB.Tobacco.Eldritch/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/eldritchtobacorec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tobacco.Eldritch/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Tobacco.Wispy",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.wtobacco.page.0"
+          },
+          "id": "thaumicbases:TB.Tobacco.Wispy/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/wispytobaccorec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tobacco.Wispy/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Tobacco.Angry",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.atobacco.page.0"
+          },
+          "id": "thaumicbases:TB.Tobacco.Angry/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/angrytobaccorec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tobacco.Angry/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Tobacco.Mining",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.mtobacco.page.0"
+          },
+          "id": "thaumicbases:TB.Tobacco.Mining/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/miningtobaccorec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tobacco.Mining/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Tobacco.Wisdom",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.witobacco.page.0"
+          },
+          "id": "thaumicbases:TB.Tobacco.Wisdom/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/wisdomtobaccorec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tobacco.Wisdom/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Tobacco.Tainted",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.ttobacco.page.0"
+          },
+          "id": "thaumicbases:TB.Tobacco.Tainted/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/tainttobaccorec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tobacco.Tainted/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Tobacco.Saturating",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.stobacco.page.0"
+          },
+          "id": "thaumicbases:TB.Tobacco.Saturating/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/saturatingtobaccorec",
+              "thaumicbases:equipment/saturatingtobaccorecm"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tobacco.Saturating/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Tobacco.Sanity",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.satobacco.page.0"
+          },
+          "id": "thaumicbases:TB.Tobacco.Sanity/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/sanitytobaccorec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Tobacco.Sanity/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Spike.Iron",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.spikeIron.page.0"
+          },
+          "id": "thaumicbases:TB.Spike.Iron/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/ironspikerec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Spike.Iron/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/cleanefabricrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Spike.Iron/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Spike.Thaumic",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.spikeThaumic.page.0"
+          },
+          "id": "thaumicbases:TB.Spike.Thaumic/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/thaumiumspikerec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Spike.Thaumic/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.BloodyRobes",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bloodyRobes.page.0"
+          },
+          "id": "thaumicbases:TB.BloodyRobes/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/bloodychestrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.BloodyRobes/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/bloodylegsrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.BloodyRobes/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/bloodybootsrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.BloodyRobes/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Spike.Void",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.spikeVoid.page.0"
+          },
+          "id": "thaumicbases:TB.Spike.Void/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/voidspikerec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Spike.Void/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Iron",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.iron.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Iron/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.iron.page.1"
+          },
+          "id": "thaumicbases:TB.Bracelet.Iron/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.iron.page.2"
+          },
+          "id": "thaumicbases:TB.Bracelet.Iron/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/ironbraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Iron/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Gold",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.gold.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Gold/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/goldbraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Gold/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Greatwood",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.greatwood.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Greatwood/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/greatwoodbraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Greatwood/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Thaumium",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.thaumium.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Thaumium/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/thaumiumbraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Thaumium/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Silverwood",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.silverwood.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Silverwood/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/silverwoodbraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Silverwood/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Void",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.void.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Void/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/voidbraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Void/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Reed",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.reed.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Reed/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/reedbraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Reed/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Blaze",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.blaze.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Blaze/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/blazebraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Blaze/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Obsidian",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.obsidian.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Obsidian/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/obsidianbraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Obsidian/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Ice",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.ice.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Ice/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/icebraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Ice/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Quartz",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.quartz.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Quartz/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/quartzbraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Quartz/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Bone",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.bone.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Bone/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/bonebraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Bone/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Bracelet.Primal",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.bracelet.primal.page.0"
+          },
+          "id": "thaumicbases:TB.Bracelet.Primal/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/primalbraceletrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Bracelet.Primal/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.BasicPlants",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.basicPlants.page.0"
+          },
+          "id": "thaumicbases:TB.BasicPlants/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/sweedrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.BasicPlants/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Plax",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.plax.page.0"
+          },
+          "id": "thaumicbases:TB.Plax/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/plaxrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Plax/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Briar",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.briar.page.0"
+          },
+          "id": "thaumicbases:TB.Briar/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/briarrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Briar/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/rosehiprec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Briar/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Aurelia",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.aurelia.page.0"
+          },
+          "id": "thaumicbases:TB.Aurelia/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.aurelia.page.1"
+          },
+          "id": "thaumicbases:TB.Aurelia/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/aureliarec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Aurelia/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Knose",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.knose.page.0"
+          },
+          "id": "thaumicbases:TB.Knose/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.knose.page.1"
+          },
+          "id": "thaumicbases:TB.Knose/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/knoserec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Knose/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/knowledgefragmentrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Knose/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Ashroom",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.ashroom.page.0"
+          },
+          "id": "thaumicbases:TB.Ashroom/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/aspectshroomrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Ashroom/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Glieonia",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.glieonia.page.0"
+          },
+          "id": "thaumicbases:TB.Glieonia/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/glieoniarec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Glieonia/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Flaxium",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.flaxium.page.0"
+          },
+          "id": "thaumicbases:TB.Flaxium/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/flaxiumrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Flaxium/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Metalleat",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.metalleat.page.0"
+          },
+          "id": "thaumicbases:TB.Metalleat/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/metalleatrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Metalleat/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Lazullia",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.lazullia.page.0"
+          },
+          "id": "thaumicbases:TB.Lazullia/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/lazulliarec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Lazullia/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.RainbowCacti",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.rainCacti.page.0"
+          },
+          "id": "thaumicbases:TB.RainbowCacti/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/rainbowcactirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.RainbowCacti/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Lucrite",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.lucrite.page.0"
+          },
+          "id": "thaumicbases:TB.Lucrite/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/lucriterec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Lucrite/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Redlon",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.redlon.page.0"
+          },
+          "id": "thaumicbases:TB.Redlon/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:alchemy/redlonrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Redlon/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.VoidSeed",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.voidSeed.page.0"
+          },
+          "id": "thaumicbases:TB.VoidSeed/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/voidseedrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.VoidSeed/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.GoldenOak",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.goldenOak.page.0"
+          },
+          "id": "thaumicbases:TB.GoldenOak/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/goldenoakrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.GoldenOak/page/2",
+          "page_break": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.goldenOak.page.1"
+          },
+          "id": "thaumicbases:TB.GoldenOak/page/3",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "TB.PeacefulSapling",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.peacefulTree.page.0"
+          },
+          "id": "thaumicbases:TB.PeacefulSapling/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/peacefulsaplingrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.PeacefulSapling/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NetherSapling",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.netherTree.page.0"
+          },
+          "id": "thaumicbases:TB.NetherSapling/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/nethersaplingrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NetherSapling/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.EnderSapling",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.enderTree.page.0"
+          },
+          "id": "thaumicbases:TB.EnderSapling/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/endersaplingrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.EnderSapling/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NodeMan",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.nodeMan.page.0"
+          },
+          "id": "thaumicbases:TB.NodeMan/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.nodeMan.page.1"
+          },
+          "id": "thaumicbases:TB.NodeMan/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.nodeMan.page.2"
+          },
+          "id": "thaumicbases:TB.NodeMan/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.nodeMan.page.3"
+          },
+          "id": "thaumicbases:TB.NodeMan/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/nodemanipulatorrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NodeMan/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NodeFoci.Bright",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.foci.bright.page.0"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Bright/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/brightfocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Bright/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NodeFoci.Destr",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.foci.destr.page.0"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Destr/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/destructionfocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Destr/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NodeFoci.Efficiency",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.foci.efficiency.page.0"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Efficiency/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/efficiencyfocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Efficiency/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NodeFoci.Hunger",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.foci.hunger.page.0"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Hunger/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/hungerfocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Hunger/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NodeFoci.Unstable",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.foci.unstable.page.0"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Unstable/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/unstablefocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Unstable/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NodeFoci.Purity",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.foci.pure.page.0"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Purity/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/purefocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Purity/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NodeFoci.Sinister",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.foci.sinister.page.0"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Sinister/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/sinisterfocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Sinister/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NodeFoci.Speed",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.foci.speed.page.0"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Speed/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/speedfocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Speed/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NodeFoci.Stability",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.foci.stability.page.0"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Stability/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/stabilityfocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Stability/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NodeFoci.Taint",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.foci.taint.page.0"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Taint/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/taintfocirec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NodeFoci.Taint/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.NodeLinker",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.nodeLink.page.0"
+          },
+          "id": "thaumicbases:TB.NodeLinker/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.nodeLink.page.1"
+          },
+          "id": "thaumicbases:TB.NodeLinker/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.nodeLink.page.2"
+          },
+          "id": "thaumicbases:TB.NodeLinker/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/nodelinkrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.NodeLinker/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.page.1"
+          },
+          "id": "thaumicbases:TB.Revolver/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.page.2"
+          },
+          "id": "thaumicbases:TB.Revolver/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/revolverrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Accuracy",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.acc.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Accuracy/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/accuracy_1",
+              "thaumicbases:revolver/accuracy_2",
+              "thaumicbases:revolver/accuracy_3"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Accuracy/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Atropods",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.atr.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Atropods/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/bane_of_arthropods_1",
+              "thaumicbases:revolver/bane_of_arthropods_2",
+              "thaumicbases:revolver/bane_of_arthropods_3",
+              "thaumicbases:revolver/bane_of_arthropods_4",
+              "thaumicbases:revolver/bane_of_arthropods_5"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Atropods/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.EldritchBane",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.elb.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.EldritchBane/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/bane_of_eldritch_1",
+              "thaumicbases:revolver/bane_of_eldritch_2",
+              "thaumicbases:revolver/bane_of_eldritch_3",
+              "thaumicbases:revolver/bane_of_eldritch_4",
+              "thaumicbases:revolver/bane_of_eldritch_5"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.EldritchBane/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Dueling",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.duel.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Dueling/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/dueling_1",
+              "thaumicbases:revolver/dueling_2",
+              "thaumicbases:revolver/dueling_3",
+              "thaumicbases:revolver/dueling_4",
+              "thaumicbases:revolver/dueling_5"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Dueling/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Efficiency",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.eff.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Efficiency/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/efficiency_1",
+              "thaumicbases:revolver/efficiency_2",
+              "thaumicbases:revolver/efficiency_3",
+              "thaumicbases:revolver/efficiency_4",
+              "thaumicbases:revolver/efficiency_5"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Efficiency/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Eldritch",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.eld.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Eldritch/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/eldritch_1",
+              "thaumicbases:revolver/eldritch_2"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Eldritch/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Heavy",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.hev.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Heavy/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/heavy_1",
+              "thaumicbases:revolver/heavy_2",
+              "thaumicbases:revolver/heavy_3",
+              "thaumicbases:revolver/heavy_4",
+              "thaumicbases:revolver/heavy_5"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Heavy/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Knowledge",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.kno.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Knowledge/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/knowledge_1",
+              "thaumicbases:revolver/knowledge_2",
+              "thaumicbases:revolver/knowledge_3",
+              "thaumicbases:revolver/knowledge_4",
+              "thaumicbases:revolver/knowledge_5"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Knowledge/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Piercing",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.pir.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Piercing/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/piercing_1"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Piercing/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Power",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.pow.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Power/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/power_1",
+              "thaumicbases:revolver/power_2",
+              "thaumicbases:revolver/power_3",
+              "thaumicbases:revolver/power_4",
+              "thaumicbases:revolver/power_5"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Power/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Primal",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.primal.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Primal/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/primal_1"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Primal/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Silver",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.sil.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Silver/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/silver_1",
+              "thaumicbases:revolver/silver_2",
+              "thaumicbases:revolver/silver_3",
+              "thaumicbases:revolver/silver_4",
+              "thaumicbases:revolver/silver_5"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Silver/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Speed",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.spe.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Speed/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/speed_1",
+              "thaumicbases:revolver/speed_2",
+              "thaumicbases:revolver/speed_3",
+              "thaumicbases:revolver/speed_4",
+              "thaumicbases:revolver/speed_5"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Speed/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Tainted",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.tai.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Tainted/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/tainted_1",
+              "thaumicbases:revolver/tainted_2",
+              "thaumicbases:revolver/tainted_3"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Tainted/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Revolver.Void",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.revolver.void.page.0"
+          },
+          "id": "thaumicbases:TB.Revolver.Void/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:revolver/void_1",
+              "thaumicbases:revolver/void_2",
+              "thaumicbases:revolver/void_3"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.Revolver.Void/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.EntityDec",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.eDec.page.0"
+          },
+          "id": "thaumicbases:TB.EntityDec/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/entitydeconstructorrec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.EntityDec/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "TB.EntityDecAdv",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.eDeca.page.0"
+          },
+          "id": "thaumicbases:TB.EntityDecAdv/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.eDeca.page.1"
+          },
+          "id": "thaumicbases:TB.EntityDecAdv/page/2",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "TB.Enchantments",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.enchantments.page.0"
+          },
+          "id": "thaumicbases:TB.Enchantments/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.enchantments.page.1"
+          },
+          "id": "thaumicbases:TB.Enchantments/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.enchantments.page.2"
+          },
+          "id": "thaumicbases:TB.Enchantments/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.enchantments.page.3"
+          },
+          "id": "thaumicbases:TB.Enchantments/page/4",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.enchantments.page.4"
+          },
+          "id": "thaumicbases:TB.Enchantments/page/5",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.enchantments.page.5"
+          },
+          "id": "thaumicbases:TB.Enchantments/page/6",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "TB.TaintMinor",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.minorTaint.page.0"
+          },
+          "id": "thaumicbases:TB.TaintMinor/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "TB.HerobrinesScythe",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.hScythe.page.0"
+          },
+          "id": "thaumicbases:TB.HerobrinesScythe/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tb.rec.hScythe.page.1"
+          },
+          "id": "thaumicbases:TB.HerobrinesScythe/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "thaumicbases:equipment/herobrinesscytherec"
+            ],
+            "class": "thaumicbases.modern.RecipeDisplay"
+          },
+          "id": "thaumicbases:TB.HerobrinesScythe/page/3",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

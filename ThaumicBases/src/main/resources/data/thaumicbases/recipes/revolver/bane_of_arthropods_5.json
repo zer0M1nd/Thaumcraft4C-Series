@@ -1,0 +1,53 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver.Atropods",
+  "instability": 13,
+  "center": {
+    "ingredient": {
+      "type": "thaumicbases:revolver_upgrade",
+      "upgrade": "thaumicbases:bane_of_arthropods",
+      "level": 4
+    },
+    "damage": -1,
+    "display": [
+      {
+        "item": "thaumicbases:revolver",
+        "nbt": "{\"tbUpgrade:thaumicbases:bane_of_arthropods\": 4}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:spider_eye"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:fermented_spider_eye"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:spider_eye"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "mortuus": 128,
+    "bestia": 128,
+    "pannus": 128
+  },
+  "result": {
+    "patch": "{\"tbUpgrade:thaumicbases:bane_of_arthropods\": 5}"
+  }
+}

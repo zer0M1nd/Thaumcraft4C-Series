@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TB.Revolver.Speed",
+  "instability": 8,
+  "center": {
+    "ingredient": {
+      "type": "thaumicbases:revolver_upgrade",
+      "upgrade": "thaumicbases:speed",
+      "level": 3
+    },
+    "damage": -1,
+    "display": [
+      {
+        "item": "thaumicbases:revolver",
+        "nbt": "{\"tbUpgrade:thaumicbases:speed\": 3}"
+      }
+    ]
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      },
+      "damage": -1
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      },
+      "damage": -1
+    }
+  ],
+  "aspects": {
+    "motus": 64,
+    "aer": 64
+  },
+  "result": {
+    "patch": "{\"tbUpgrade:thaumicbases:speed\": 4}"
+  }
+}

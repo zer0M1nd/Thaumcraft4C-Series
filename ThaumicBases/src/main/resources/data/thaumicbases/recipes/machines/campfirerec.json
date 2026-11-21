@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TB.Campfire",
+  "mode": "shaped",
+  "pattern": [
+    "SSS",
+    "COC",
+    "GGG"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "C": {
+      "tag": "forge:cobblestone"
+    },
+    "O": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "G": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "vis": {
+    "ignis": 5,
+    "perditio": 3
+  },
+  "result": {
+    "item": "thaumicbases:campfire",
+    "count": 1
+  }
+}
