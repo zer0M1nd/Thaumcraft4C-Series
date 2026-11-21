@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.2.11.2'
+version = '0.2.12'
 group = 'thaumicfutures'
 base.archivesName = 'ThaumicFutures'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)

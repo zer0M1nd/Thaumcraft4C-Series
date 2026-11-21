@@ -40,6 +40,31 @@ public class RestoredSmelter extends AlchemyFurnaceBlockEntity {
     }
     @Override public net.minecraft.network.chat.Component getDisplayName(){return net.minecraft.network.chat.Component.translatable(getBlockState().getBlock().getDescriptionId());}
     public static class Device extends AlchemyFurnaceBlock {
+        private static final net.minecraft.world.level.block.state.properties.DirectionProperty FACING=
+                net.minecraft.world.level.block.HorizontalDirectionalBlock.FACING;
+        public Device(){registerDefaultState(defaultBlockState().setValue(FACING,net.minecraft.core.Direction.NORTH));}
+        @Override protected void createBlockStateDefinition(net.minecraft.world.level.block.state.StateDefinition.Builder<net.minecraft.world.level.block.Block,BlockState> builder){
+            super.createBlockStateDefinition(builder);builder.add(FACING);
+        }
+        @Override public BlockState getStateForPlacement(net.minecraft.world.item.context.BlockPlaceContext context){
+            return defaultBlockState().setValue(FACING,context.getHorizontalDirection().getOpposite());
+        }
+        @Override public BlockState rotate(BlockState state,net.minecraft.world.level.block.Rotation rotation){
+            return state.setValue(FACING,rotation.rotate(state.getValue(FACING)));
+        }
+        @Override public BlockState mirror(BlockState state,net.minecraft.world.level.block.Mirror mirror){
+            return rotate(state,mirror.getRotation(state.getValue(FACING)));
+        }
+        @Override public void animateTick(BlockState state,Level level,BlockPos pos,net.minecraft.util.RandomSource random){
+            if(!state.getValue(LIT))return;
+            var front=state.getValue(FACING);
+            double lateral=random.nextDouble()*.5-.25;
+            double x=pos.getX()+.5+front.getStepX()*.52+front.getStepZ()*lateral;
+            double z=pos.getZ()+.5+front.getStepZ()*.52-front.getStepX()*lateral;
+            double y=pos.getY()+.2+random.nextDouble()*5/16;
+            level.addParticle(net.minecraft.core.particles.ParticleTypes.SMOKE,x,y,z,0,0,0);
+            level.addParticle(net.minecraft.core.particles.ParticleTypes.FLAME,x,y,z,0,0,0);
+        }
         @Override public BlockEntity newBlockEntity(BlockPos pos,BlockState state){return new RestoredSmelter(pos,state);}
         @Override public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level,BlockState state,BlockEntityType<T> type){
             return level.isClientSide?null:createTickerHelper(type,RestoredContent.SMELTER_ENTITY.get(),(world,pos,block,entity)->entity.tick());
