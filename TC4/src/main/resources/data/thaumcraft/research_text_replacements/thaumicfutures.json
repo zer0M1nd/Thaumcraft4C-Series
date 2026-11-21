@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicfutures:undying_health_unit",
+      "research": "thaumicomniverse:RESTORED_CHARMS",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "keys": [
+        "omniverse.page.restored_charms"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "一颗生命值",
+          "replace": {
+            "text": "1点生命值（半颗心）"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:node_upgrade_hands",
+      "research": "thaumicomniverse:ENERGIZED_NODE_UPGRADE",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "backpacks",
+          "scope": "server",
+          "value": true
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "sophisticatedbackpacks"
+        }
+      ],
+      "keys": [
+        "omniverse.page.energized_node_upgrade"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "为奥术合成槽和背包内的魔杖充能",
+          "replace": {
+            "text": "为奥术合成槽、背包内和持有者双手的魔杖充能"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "across the arcane crafting wand and stored wands",
+          "replace": {
+            "text": " across the arcane crafting wand, stored wands and the holder’s hand-held wands"
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

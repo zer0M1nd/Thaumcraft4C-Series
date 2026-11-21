@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "A": {
+      "item": "thaumcraft:alembic"
+    },
+    "C": {
+      "item": "thaumcraft:alchemical_construct"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "T": {
+      "item": "thaumcraft:essentia_tube"
+    }
+  },
+  "pattern": [
+    " T ",
+    "ACP",
+    " T "
+  ],
+  "research": "CENTRIFUGE",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:alchemy_centrifuge"
+  },
+  "vis": {
+    "aqua": 5,
+    "ordo": 5,
+    "perditio": 5
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "cognitio": 8,
+    "sensus": 8,
+    "victus": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:golem_straw"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    }
+  ],
+  "instability": 3,
+  "legacy_order": 7,
+  "research": "ADVANCEDGOLEM",
+  "result": {
+    "patch": "{advanced:1b}"
+  }
+}

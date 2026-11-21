@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "C": {
+      "item": "thaumcraft:air_shard"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "NCN",
+    "NNN"
+  ],
+  "research": "UPGRADEAIR",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:golem_upgrade_air"
+  },
+  "vis": {
+    "aer": 10
+  }
+}

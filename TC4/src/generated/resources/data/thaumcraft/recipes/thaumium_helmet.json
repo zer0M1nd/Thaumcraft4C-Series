@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/thaumium"
+    }
+  },
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "result": {
+    "item": "thaumcraft:thaumium_helmet"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:arcane",
+  "ingredients": [
+    {
+      "tag": "forge:quicksilver"
+    },
+    {
+      "tag": "forge:glass_panes/colorless"
+    }
+  ],
+  "mode": "shapeless",
+  "research": "BASICARTIFACE",
+  "result": {
+    "item": "thaumcraft:mirrored_glass"
+  },
+  "vis": {
+    "ignis": 10,
+    "terra": 10
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 8,
+    "cognitio": 24,
+    "sensus": 24
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumometer"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:mirrored_glass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    }
+  ],
+  "instability": 4,
+  "legacy_order": 0,
+  "research": "SANITYCHECK",
+  "result": {
+    "item": "thaumcraft:sanity_checker"
+  }
+}

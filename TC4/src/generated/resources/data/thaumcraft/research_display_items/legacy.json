@@ -1,0 +1,7451 @@
+{
+  "entries": [
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemInkwell",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:scribing_tools",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCustomOre",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:cinnabar_ore"
+        },
+        {
+          "item": "thaumcraft:air_infused_stone"
+        },
+        {
+          "item": "thaumcraft:fire_infused_stone"
+        },
+        {
+          "item": "thaumcraft:water_infused_stone"
+        },
+        {
+          "item": "thaumcraft:earth_infused_stone"
+        },
+        {
+          "item": "thaumcraft:order_infused_stone"
+        },
+        {
+          "item": "thaumcraft:entropy_infused_stone"
+        },
+        {
+          "item": "thaumcraft:amber_ore"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 9
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:knowledge_fragment"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEldritchObject",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:crimson_rites"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:BlockJarNodeItem",
+        "metadata": 0,
+        "nbt": "{nodetype:0,Aspects:[0:{amount:40,key:\"aer\",},1:{amount:40,key:\"ignis\",},2:{amount:40,key:\"aqua\",},3:{amount:40,key:\"terra\",},],nodeid:\"\",}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:node_jar",
+          "tag": "{Aspects:[{amount:40,key:\"aer\"},{amount:40,key:\"ignis\"},{amount:40,key:\"aqua\"},{amount:40,key:\"terra\"}],nodeid:\"\",nodetype:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTable",
+        "metadata": 14
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:deconstruction_table"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemThaumonomicon",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumonomicon"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCustomPlant",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:greatwood_sapling"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockStoneDevice",
+        "metadata": 9
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:node_stabilizer"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockStoneDevice",
+        "metadata": 8
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_pedestal_focus"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 7
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_rod_bone"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandCasting",
+        "metadata": 0,
+        "nbt": "{cap:\"iron\",rod:\"wood\",}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:casting_wand",
+          "tag": "{cap:\"iron\",rod:\"wood\",tc4_metadata:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:FocusExcavation",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:focus_excavation"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandCasting",
+        "metadata": 81,
+        "nbt": "{cap:\"thaumium\",rod:\"silverwood\",sceptre:1b,}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:casting_wand",
+          "tag": "{cap:\"thaumium\",rod:\"silverwood\",sceptre:1b,tc4_metadata:81}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 54
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:staff_rod_quartz"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:FocusHellbat",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:focus_hellbat"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMetalDevice",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:workbench_charger"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_rod_ice"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_rod_reed"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 50
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:staff_rod_greatwood"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 52
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:staff_rod_silverwood"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:FocusFrost",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:focus_frost"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemAmuletVis",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:vis_amulet"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockStoneDevice",
+        "metadata": 13
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:focal_manipulator"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:FocusFire",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:focus_fire"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandCap",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_cap_gold"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_rod_silverwood"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockStoneDevice",
+        "metadata": 11
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:node_converter"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:FocusPouch",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:focus_pouch"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandCap",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_cap_copper"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 55
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:staff_rod_reed"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:FocusShock",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:focus_shock"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_rod_quartz"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:FocusWarding",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:focus_warding"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_rod_obsidian"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:FocusPortableHole",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:focus_portable_hole"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandCap",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_cap_thaumium"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_rod_greatwood"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_rod_blaze"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 57
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:staff_rod_bone"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 51
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:staff_rod_obsidian"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:FocusTrade",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:focus_trade"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 53
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:staff_rod_ice"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockStoneDevice",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_pedestal"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 56
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:staff_rod_blaze"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:alumentum"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemBathSalts",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:bath_salts"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMetalDevice",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:crucible"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemNugget",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:iron_nugget"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemBucketDeath",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:liquid_death_bucket"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTube",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_tube"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemSanitySoap",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:sanity_soap"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCustomPlant",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:ethereal_bloom"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:magic_tallow"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemNugget",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:copper_nugget"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTube",
+        "metadata": 7
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_crystallizer"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockStoneDevice",
+        "metadata": 12
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_spa"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTube",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:alchemy_centrifuge"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemNugget",
+        "metadata": 16
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:iron_cluster"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockJar",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_jar"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:nitor"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemBottleTaint",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:taint_bottle"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemNugget",
+        "metadata": 31
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:gold_cluster"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMetalDevice",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:alembic"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:empty_phial"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTube",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_filter"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumium_ingot"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:gold_nugget",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:gold_nugget"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemNugget",
+        "metadata": 17
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:copper_cluster"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockJar",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_jar"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemAmuletRunic",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:runic_amulet_emergency"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGoggles",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:goggles",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 7
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:enchanted_fabric"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemPickaxeElemental",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:elemental_pickaxe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemAxeElemental",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:elemental_axe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTable",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:table"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:10b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:10b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemShovelElemental",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:elemental_shovel",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockLifter",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:levitator"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGirdleHover",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:hover_girdle"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemArcaneDoor",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_door"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 15
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:primal_charm"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockStoneDevice",
+        "metadata": 14
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:flux_scrubber"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemThaumometer",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumometer"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:BootsTraveller",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:traveller_boots",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTable",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:research_table"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMirror",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_mirror",
+          "tag": "{tc4_metadata:6}"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:PrimalArrow",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:primal_arrow_air"
+        },
+        {
+          "item": "thaumcraft:primal_arrow_fire"
+        },
+        {
+          "item": "thaumcraft:primal_arrow_water"
+        },
+        {
+          "item": "thaumcraft:primal_arrow_earth"
+        },
+        {
+          "item": "thaumcraft:primal_arrow_order"
+        },
+        {
+          "item": "thaumcraft:primal_arrow_entropy"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_ear"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMetalDevice",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:metal_grate"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemRingRunic",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:runic_ring_charged"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemRingRunic",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:runic_ring_regen"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:HoverHarness",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:hover_harness",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMirror",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:item_mirror",
+          "tag": "{tc4_metadata:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:ender_pearl",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:ender_pearl"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:portal",
+        "metadata": 32767
+      },
+      "missing": "NO_MODERN_ITEM_FORM",
+      "variants": []
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:end_portal",
+        "metadata": 32767
+      },
+      "missing": "NO_MODERN_ITEM_FORM",
+      "variants": []
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:end_portal_frame",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:end_portal_frame"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMetalDevice",
+        "metadata": 8
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:growth_lamp"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemHoeElemental",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:elemental_hoe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:HandMirror",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:hand_mirror"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTable",
+        "metadata": 15
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_workbench"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockStoneDevice",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:infusion_matrix"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGirdleRunic",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:runic_girdle_kinetic"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCosmeticSolid",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:warding_paving_stone"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMetalDevice",
+        "metadata": 7
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_lamp"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemHelmetFortress",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:fortress_helmet",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:bellows"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemRingRunic",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:runic_ring"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMetalDevice",
+        "metadata": 13
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:fertility_lamp"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemBowBone",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:bone_bow",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "minecraft:bow",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:bow",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:bone",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:bone"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCosmeticSolid",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_stone"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemCompassStone",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:sinister_stone",
+          "tag": "{LegacyActive:1b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemSwordElemental",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:elemental_sword",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCosmeticSolid",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:travel_paving_stone"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockJar",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:brain_jar"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:quicksilver"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_bore"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemPlacer",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_clay"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemUpgrade",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_upgrade_water"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockChestHungry",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:hungry_chest"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemPlacer",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_tallow"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemPlacer",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_wood"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemPlacer",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_flesh"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemUpgrade",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_upgrade_earth"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemDecoration",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_decoration_dart"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemUpgrade",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_upgrade_fire"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemUpgrade",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_upgrade_entropy"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 8
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_use"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemDecoration",
+        "metadata": 7
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_decoration_mace"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:TrunkSpawner",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:traveling_trunk"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemDecoration",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_decoration_bowtie"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:white_wool"
+        },
+        {
+          "item": "minecraft:orange_wool"
+        },
+        {
+          "item": "minecraft:magenta_wool"
+        },
+        {
+          "item": "minecraft:light_blue_wool"
+        },
+        {
+          "item": "minecraft:yellow_wool"
+        },
+        {
+          "item": "minecraft:lime_wool"
+        },
+        {
+          "item": "minecraft:pink_wool"
+        },
+        {
+          "item": "minecraft:gray_wool"
+        },
+        {
+          "item": "minecraft:light_gray_wool"
+        },
+        {
+          "item": "minecraft:cyan_wool"
+        },
+        {
+          "item": "minecraft:purple_wool"
+        },
+        {
+          "item": "minecraft:blue_wool"
+        },
+        {
+          "item": "minecraft:brown_wool"
+        },
+        {
+          "item": "minecraft:green_wool"
+        },
+        {
+          "item": "minecraft:red_wool"
+        },
+        {
+          "item": "minecraft:black_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:GolemBell",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_bell"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 10
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_sorting"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemPlacer",
+        "metadata": 7
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_thaumium"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemDecoration",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_decoration_hat"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemDecoration",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_decoration_fez"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 7
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_lumber"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemDecoration",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_decoration_glasses"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemDecoration",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_decoration_visor"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemUpgrade",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_upgrade_air"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 11
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_fish"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_gather"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_harvest"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 9
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_butcher"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_guard"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemPlacer",
+        "metadata": 32767,
+        "nbt": "{advanced:1b,}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_straw",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_wood",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_tallow",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_clay",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_flesh",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_stone",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_iron",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_thaumium",
+          "tag": "{advanced:1b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemDecoration",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_decoration_armor"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_fill"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCosmeticSolid",
+        "metadata": 9
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_fetter"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemPlacer",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_straw"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_essentia"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemPlacer",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_stone"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemPlacer",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_iron"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_liquid"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_empty"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemUpgrade",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_upgrade_order"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMetalDevice",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:advanced_alchemical_construct"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemHelmetVoidFortress",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_robe_helmet",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:FocusPrimal",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:focus_primal"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockEssentiaReservoir",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_reservoir"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemSanityChecker",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:sanity_checker"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandRod",
+        "metadata": 100
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:staff_rod_primal"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEldritchObject",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:eldritch_eye"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockEldritch",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:eldritch_glyphed_stone"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockEldritch",
+        "metadata": 10
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:eldritch_rune_trap"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemPrimalCrusher",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:primal_crusher",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEldritchObject",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:primordial_pearl"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandCap",
+        "metadata": 7
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_cap_void"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 16
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_ingot"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResearchNotes",
+        "metadata": 42
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:unknown_research_notes"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:greatwood_planks"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 7
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:silverwood_planks"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandCap",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_cap_iron"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandCasting",
+        "metadata": 1,
+        "nbt": "{cap:\"iron\",rod:\"wood\",sceptre:1b,}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:casting_wand",
+          "tag": "{cap:\"iron\",rod:\"wood\",sceptre:1b,tc4_metadata:1}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:stick",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:stick"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandCasting",
+        "metadata": 13,
+        "nbt": "{cap:\"gold\",rod:\"greatwood\",sceptre:1b,}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:casting_wand",
+          "tag": "{cap:\"gold\",rod:\"greatwood\",sceptre:1b,tc4_metadata:13}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockStoneDevice",
+        "metadata": 10
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:advanced_node_stabilizer"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMetalDevice",
+        "metadata": 14
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:vis_relay"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandCap",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_cap_thaumium_inert"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 14
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:salis_mundus"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemShard",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:balanced_shard"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:stonebrick",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "minecraft:cracked_stone_bricks"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:dye",
+        "metadata": 15
+      },
+      "variants": [
+        {
+          "item": "minecraft:bone_meal"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMetalDevice",
+        "metadata": 12
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:mnemonic_matrix"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:web",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:cobweb"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:mossy_cobblestone",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:mossy_cobblestone"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:ice",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:ice"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTube",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_valve"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResonator",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_resonator"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCandle",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:tallow_candle_0"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTube",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_buffer"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:gunpowder",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:slime_ball",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:slime_ball"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:clay_ball",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:clay_ball"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:glowstone_dust",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:glowstone_dust"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:dye",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:ink_sac"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockStoneDevice",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:alchemy_furnace"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 8
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:vis_filter"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMetalDevice",
+        "metadata": 9
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:alchemical_construct"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTube",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_restrictor"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTube",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_oneway"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemAxeThaumium",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumium_axe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemSwordThaumium",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumium_sword",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemPickThaumium",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumium_pickaxe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemShovelThaumium",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumium_shovel",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemHoeThaumium",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumium_hoe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemHelmetThaumium",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumium_helmet",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemChestplateThaumium",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumium_chestplate",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemLeggingsThaumium",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumium_leggings",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemBootsThaumium",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumium_boots",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemChestplateRobe",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:robe_chest",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemLeggingsRobe",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:robe_legs",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemBootsRobe",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:robe_boots",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ArcaneDoorKey",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:iron_key"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ArcaneDoorKey",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:gold_key"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_pressure_plate"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCosmeticOpaque",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:warded_glass"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemBaubleBlanks",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:mundane_amulet"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemBaubleBlanks",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:mundane_ring"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemBaubleBlanks",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:mundane_belt"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 10
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:mirrored_glass"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "Thaumcraft:ItemHelmetFortress",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:fortress_helmet",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockStoneDevice",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_pedestal"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemChestplateFortress",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:fortress_chestplate",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemLeggingsFortress",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:fortress_leggings",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemAmuletRunic",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:runic_amulet"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGirdleRunic",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:runic_girdle"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemChestplateRobe",
+        "metadata": 0,
+        "nbt": "{RS.HARDEN:1b,}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:robe_chest",
+          "tag": "{Damage:0,RS.HARDEN:1b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:diamond",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:diamond"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemChestplateRobe",
+        "metadata": 0,
+        "nbt": "{RS.HARDEN:2b,}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:robe_chest",
+          "tag": "{Damage:0,RS.HARDEN:2b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemChestplateRobe",
+        "metadata": 0,
+        "nbt": "{RS.HARDEN:3b,}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:robe_chest",
+          "tag": "{Damage:0,RS.HARDEN:3b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemChestplateRobe",
+        "metadata": 0,
+        "nbt": "{RS.HARDEN:4b,}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:robe_chest",
+          "tag": "{Damage:0,RS.HARDEN:4b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemChestplateRobe",
+        "metadata": 0,
+        "nbt": "{RS.HARDEN:5b,}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:robe_chest",
+          "tag": "{Damage:0,RS.HARDEN:5b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCosmeticSolid",
+        "metadata": 7
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_stone_bricks"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockStairsArcaneStone",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_stone_stairs"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCosmeticSlabStone",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_stone_slab"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemCompassStone",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:sinister_stone"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:arcane_bore_base"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCosmeticSolid",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:tallow_block"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockTaint",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:flesh_block"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCosmeticSolid",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumium_block"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemCore",
+        "metadata": 100
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_core_blank"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemPlacer",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_straw"
+        },
+        {
+          "item": "thaumcraft:golem_wood"
+        },
+        {
+          "item": "thaumcraft:golem_tallow"
+        },
+        {
+          "item": "thaumcraft:golem_clay"
+        },
+        {
+          "item": "thaumcraft:golem_flesh"
+        },
+        {
+          "item": "thaumcraft:golem_stone"
+        },
+        {
+          "item": "thaumcraft:golem_iron"
+        },
+        {
+          "item": "thaumcraft:golem_thaumium"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemChestplateVoidFortress",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_robe_chestplate",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemLeggingsVoidFortress",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_robe_leggings",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 17
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_seed"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:WandCap",
+        "metadata": 8
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:wand_cap_void_inert"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemAxeVoid",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_axe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemSwordVoid",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_sword",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemPickVoid",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_pickaxe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemShovelVoid",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_shovel",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemHoeVoid",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_hoe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemHelmetVoid",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_helmet",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemChestplateVoid",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_chestplate",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemLeggingsVoid",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_leggings",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemBootsVoid",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_boots",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockHole",
+        "metadata": 15
+      },
+      "missing": "ITEM_NOT_IMPLEMENTED",
+      "variants": []
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:redstone",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:redstone"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemZombieBrain",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:zombie_brain"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:furnace",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:furnace"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:iron_ingot",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:gold_ingot",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:gold_ingot"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:bucket",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:bucket"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:stonebrick",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:stone_bricks"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:snow",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:snow_block"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:cobblestone",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:string",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:string"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:coal",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:coal"
+        },
+        {
+          "item": "minecraft:charcoal"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:piston",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:piston"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:diamond_pickaxe",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:diamond_pickaxe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:diamond_shovel",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:diamond_shovel",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemShard",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:air_shard"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemShard",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:earth_shard"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:dispenser",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:dispenser"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:daylight_detector",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:daylight_detector"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCosmeticOpaque",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:amber_block"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:quartz_block",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:quartz_block"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:iron_bars",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:iron_bars"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:stone",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:stone"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemShard",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:air_shard"
+        },
+        {
+          "item": "thaumcraft:fire_shard"
+        },
+        {
+          "item": "thaumcraft:water_shard"
+        },
+        {
+          "item": "thaumcraft:earth_shard"
+        },
+        {
+          "item": "thaumcraft:order_shard"
+        },
+        {
+          "item": "thaumcraft:entropy_shard"
+        },
+        {
+          "item": "thaumcraft:balanced_shard"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemShard",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:fire_shard"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemShard",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:water_shard"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemShard",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:order_shard"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemShard",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:entropy_shard"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:0b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:0b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:white_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wooden_slab",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:oak_slab"
+        },
+        {
+          "item": "minecraft:spruce_slab"
+        },
+        {
+          "item": "minecraft:birch_slab"
+        },
+        {
+          "item": "minecraft:jungle_slab"
+        },
+        {
+          "item": "minecraft:acacia_slab"
+        },
+        {
+          "item": "minecraft:dark_oak_slab"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCosmeticSlabWood",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:greatwood_slab"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCosmeticSlabWood",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:silverwood_slab"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:1b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:1b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "minecraft:orange_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 10
+      },
+      "variants": [
+        {
+          "item": "minecraft:purple_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:11b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:11b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 11
+      },
+      "variants": [
+        {
+          "item": "minecraft:blue_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:12b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:12b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 12
+      },
+      "variants": [
+        {
+          "item": "minecraft:brown_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:13b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:13b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 13
+      },
+      "variants": [
+        {
+          "item": "minecraft:green_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:14b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:14b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 14
+      },
+      "variants": [
+        {
+          "item": "minecraft:red_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:15b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:15b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 15
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:2b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:2b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "minecraft:magenta_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:3b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:3b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "minecraft:light_blue_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:4b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:4b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "minecraft:yellow_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:5b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:5b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "minecraft:lime_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:6b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:6b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "minecraft:pink_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:7b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:7b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 7
+      },
+      "variants": [
+        {
+          "item": "minecraft:gray_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:8b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:8b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 8
+      },
+      "variants": [
+        {
+          "item": "minecraft:light_gray_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockWoodenDevice",
+        "metadata": 8,
+        "nbt": "{color:9b,}"
+      },
+      "variants": [
+        {
+          "item": "minecraft:black_banner",
+          "tag": "{color:9b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wool",
+        "metadata": 9
+      },
+      "variants": [
+        {
+          "item": "minecraft:cyan_wool"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:planks",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:oak_planks"
+        },
+        {
+          "item": "minecraft:spruce_planks"
+        },
+        {
+          "item": "minecraft:birch_planks"
+        },
+        {
+          "item": "minecraft:jungle_planks"
+        },
+        {
+          "item": "minecraft:acacia_planks"
+        },
+        {
+          "item": "minecraft:dark_oak_planks"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:leather",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:leather"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:rotten_flesh",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:rotten_flesh"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:leather_boots",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:leather_boots",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:feather",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:feather"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:fish",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:cod"
+        },
+        {
+          "item": "minecraft:salmon"
+        },
+        {
+          "item": "minecraft:tropical_fish"
+        },
+        {
+          "item": "minecraft:pufferfish"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"vitium\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"vitium\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCrystal",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:air_crystal_cluster"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCrystal",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:fire_crystal_cluster"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCrystal",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:water_crystal_cluster"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCrystal",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:earth_crystal_cluster"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCrystal",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:order_crystal_cluster"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCrystal",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:entropy_crystal_cluster"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCrystal",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:mixed_crystal_cluster"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:potion",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:potion",
+          "tag": "{Potion:\"minecraft:water\"}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:brick",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:brick"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:fishing_rod",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:fishing_rod",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:fish",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:cod"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:fish",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "minecraft:pufferfish"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:fish",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "minecraft:salmon"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:iron_axe",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:iron_axe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:comparator",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:comparator"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:paper",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:paper"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:flint_and_steel",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:flint_and_steel",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:shears",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:shears",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:lever",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:lever"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:cauldron",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:cauldron"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:golden_axe",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:golden_axe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:golden_pickaxe",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:golden_pickaxe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:ender_eye",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:ender_eye"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMagicalLog",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:greatwood_log"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:string",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:string"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:dispenser",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:dispenser"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockCustomPlant",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:shimmerleaf"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:quartz",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:quartz"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:emerald",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:emerald"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:fire_charge",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:fire_charge"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:magma_cream",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:magma_cream"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:potato",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:potato"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:nether_star",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:nether_star"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:brick_block",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:bricks"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:redstone_block",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:redstone_block"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:iron_block",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:iron_block"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:hay_block",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:hay_block"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:trapdoor",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:oak_trapdoor"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "Thaumcraft:ItemGoggles",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:goggles",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:leather_chestplate",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:leather_chestplate",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:trapdoor",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:oak_trapdoor"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:iron_sword",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:iron_sword",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:amber"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:blaze_powder",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:blaze_powder"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:iron_pickaxe",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:iron_pickaxe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:obsidian",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:obsidian"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:bow",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:bow",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:arrow",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:arrow"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:reeds",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:sugar_cane"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:deadbush",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:dead_bush"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:anvil",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:anvil"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:nether_brick",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:nether_bricks"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:lava",
+        "metadata": 0
+      },
+      "missing": "NO_MODERN_ITEM_FORM",
+      "variants": []
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:spider_eye",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:spider_eye"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:water_bucket",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:water_bucket"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"aer\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"aer\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"aer\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"aer\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"terra\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"terra\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"terra\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"terra\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"gelum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"gelum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"gelum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"gelum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"vitreus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"vitreus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"vitreus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"vitreus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"victus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"victus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"victus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"victus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"venenum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"venenum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"venenum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"venenum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"potentia\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"potentia\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"potentia\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"potentia\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"permutatio\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"permutatio\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"permutatio\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"permutatio\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"metallum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"metallum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"metallum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"metallum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"mortuus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"mortuus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"mortuus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"mortuus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"volatus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"volatus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"volatus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"volatus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"tenebrae\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"tenebrae\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"tenebrae\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"tenebrae\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"ignis\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"ignis\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"ignis\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"ignis\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"spiritus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"spiritus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"spiritus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"spiritus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"sano\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"sano\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"sano\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"sano\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"iter\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"iter\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"iter\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"iter\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"alienis\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"alienis\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"alienis\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"alienis\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"praecantatio\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"praecantatio\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"praecantatio\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"praecantatio\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"auram\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"auram\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"auram\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"auram\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"vitium\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"vitium\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"limus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"limus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"limus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"limus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"herba\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"herba\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"herba\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"herba\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"arbor\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"arbor\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"arbor\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"arbor\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"aqua\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"aqua\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"aqua\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"aqua\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"bestia\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"bestia\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"bestia\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"bestia\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"corpus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"corpus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"corpus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"corpus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"exanimis\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"exanimis\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"exanimis\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"exanimis\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"cognitio\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"cognitio\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"cognitio\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"cognitio\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"sensus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"sensus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"sensus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"sensus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"humanus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"humanus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"humanus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"humanus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"messis\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"messis\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"messis\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"messis\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"perfodio\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"perfodio\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"perfodio\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"perfodio\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"instrumentum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"instrumentum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"instrumentum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"instrumentum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"meto\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"meto\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"meto\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"meto\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"ordo\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"ordo\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"ordo\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"ordo\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"telum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"telum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"telum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"telum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"tutamen\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"tutamen\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"tutamen\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"tutamen\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"fames\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"fames\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"fames\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"fames\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"lucrum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"lucrum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"lucrum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"lucrum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"fabrico\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"fabrico\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"fabrico\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"fabrico\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"pannus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"pannus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"pannus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"pannus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"machina\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"machina\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"machina\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"machina\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"vinculum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"vinculum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"vinculum\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"vinculum\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"perditio\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"perditio\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"perditio\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"perditio\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"vacuos\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"vacuos\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"vacuos\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"vacuos\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"lux\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"lux\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"lux\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"lux\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"tempestas\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"tempestas\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"tempestas\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"tempestas\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:0,key:\"motus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:0,key:\"motus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemEssence",
+        "metadata": 1,
+        "nbt": "{Aspects:[0:{amount:8,key:\"motus\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:essentia_phial",
+          "tag": "{Aspects:[{amount:8,key:\"motus\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemResource",
+        "metadata": 13,
+        "nbt": "{Aspects:[0:{amount:1,key:\"aqua\",},],}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:jar_label",
+          "tag": "{Aspects:[{amount:1,key:\"aqua\"}]}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:obsidian",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:obsidian"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wheat",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:wheat"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:carrot",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:carrot"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:poisonous_potato",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:poisonous_potato"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:skull",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "minecraft:wither_skeleton_skull"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:dye",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "minecraft:red_dye"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:ghast_tear",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:ghast_tear"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:milk_bucket",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:milk_bucket"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:glass_pane",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:glass_pane"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:compass",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:compass"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:map",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:map"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:glass",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:glass"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockAiry",
+        "metadata": 5
+      },
+      "missing": "ITEM_NOT_IMPLEMENTED",
+      "variants": []
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:glass",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:glass"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:blockMagicalLog",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:silverwood_log"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:PrimalArrow",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:primal_arrow_air"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:PrimalArrow",
+        "metadata": 1
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:primal_arrow_fire"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:PrimalArrow",
+        "metadata": 2
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:primal_arrow_water"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:PrimalArrow",
+        "metadata": 3
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:primal_arrow_earth"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:PrimalArrow",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:primal_arrow_order"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:PrimalArrow",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:primal_arrow_entropy"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "Thaumcraft:ItemPickVoid",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_pickaxe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "Thaumcraft:ItemShovelVoid",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_shovel",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "Thaumcraft:ItemPickaxeElemental",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:elemental_pickaxe",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "Thaumcraft:ItemShovelElemental",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:elemental_shovel",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "tc4baselineprobe:copper_ore",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:copper_ore"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:gold_ore",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:gold_ore"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:iron_ore",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:iron_ore"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:potion",
+        "metadata": 8233
+      },
+      "variants": [
+        {
+          "item": "minecraft:potion",
+          "tag": "{Potion:\"minecraft:strong_strength\"}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:potion",
+        "metadata": 16428
+      },
+      "variants": [
+        {
+          "item": "minecraft:splash_potion",
+          "tag": "{Potion:\"minecraft:strong_harming\"}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:potion",
+        "metadata": 8226
+      },
+      "variants": [
+        {
+          "item": "minecraft:potion",
+          "tag": "{Potion:\"minecraft:strong_swiftness\"}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:potion",
+        "metadata": 8257
+      },
+      "variants": [
+        {
+          "item": "minecraft:potion",
+          "tag": "{Potion:\"minecraft:long_regeneration\"}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:glass_bottle",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:glass_bottle"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "Thaumcraft:ItemInkwell",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:scribing_tools",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:flint",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:flint"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:bookshelf",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:bookshelf"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "minecraft:iron_chestplate",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:iron_chestplate",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "minecraft:iron_helmet",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:iron_helmet",
+          "tag": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemNugget",
+        "metadata": 5
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:quicksilver_drop"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:dye",
+        "metadata": 4
+      },
+      "variants": [
+        {
+          "item": "minecraft:lapis_lazuli"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:wheat_seeds",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:wheat_seeds"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemNugget",
+        "metadata": 6
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:thaumium_nugget"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemNugget",
+        "metadata": 7
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:void_nugget"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:blaze_rod",
+        "metadata": 0
+      },
+      "variants": [
+        {
+          "item": "minecraft:blaze_rod"
+        }
+      ]
+    },
+    {
+      "cycle_count": false,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "minecraft:glass_pane",
+        "metadata": 32767
+      },
+      "variants": [
+        {
+          "item": "minecraft:glass_pane"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": false,
+      "legacy": {
+        "item": "Thaumcraft:ItemGolemPlacer",
+        "metadata": 32767,
+        "nbt": "{advanced:1b}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:golem_straw",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_wood",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_tallow",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_clay",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_flesh",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_stone",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_iron",
+          "tag": "{advanced:1b}"
+        },
+        {
+          "item": "thaumcraft:golem_thaumium",
+          "tag": "{advanced:1b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "Thaumcraft:ItemHelmetFortress",
+        "metadata": 32767,
+        "nbt": "{goggles:1b}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:fortress_helmet",
+          "tag": "{Damage:0,goggles:1b}"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "Thaumcraft:ItemHelmetFortress",
+        "metadata": 32767,
+        "nbt": "{mask:1}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:fortress_helmet",
+          "tag": "{Damage:0,mask:1}"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "Thaumcraft:ItemHelmetFortress",
+        "metadata": 32767,
+        "nbt": "{mask:0}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:fortress_helmet",
+          "tag": "{Damage:0,mask:0}"
+        }
+      ]
+    },
+    {
+      "cycle_count": true,
+      "cycle_damage": true,
+      "legacy": {
+        "item": "Thaumcraft:ItemHelmetFortress",
+        "metadata": 32767,
+        "nbt": "{mask:2}"
+      },
+      "variants": [
+        {
+          "item": "thaumcraft:fortress_helmet",
+          "tag": "{Damage:0,mask:2}"
+        }
+      ]
+    }
+  ],
+  "format": 1
+}

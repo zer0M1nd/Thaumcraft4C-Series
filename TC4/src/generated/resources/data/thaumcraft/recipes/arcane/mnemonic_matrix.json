@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "A": {
+      "item": "thaumcraft:amber"
+    },
+    "B": {
+      "item": "thaumcraft:zombie_brain"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "IAI",
+    "ABA",
+    "IAI"
+  ],
+  "research": "THAUMATORIUM",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:mnemonic_matrix"
+  },
+  "vis": {
+    "aqua": 5,
+    "ignis": 5,
+    "ordo": 5
+  }
+}

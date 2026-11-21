@@ -1,0 +1,64 @@
+[
+  {
+    "tag": "iron",
+    "metadata": 0,
+    "craftCost": 1,
+    "cost": 1.1,
+    "texture": "thaumcraft:textures/models/wand_cap_iron.png",
+    "research": "CAP_iron",
+    "aspectCosts": {}
+  },
+  {
+    "tag": "gold",
+    "metadata": 1,
+    "craftCost": 3,
+    "cost": 1.0,
+    "texture": "thaumcraft:textures/models/wand_cap_gold.png",
+    "research": "CAP_gold",
+    "aspectCosts": {}
+  },
+  {
+    "tag": "thaumium",
+    "metadata": 2,
+    "craftCost": 6,
+    "cost": 0.9,
+    "texture": "thaumcraft:textures/models/wand_cap_thaumium.png",
+    "research": "CAP_thaumium",
+    "aspectCosts": {}
+  },
+  {
+    "tag": "void",
+    "metadata": 7,
+    "craftCost": 9,
+    "cost": 0.8,
+    "texture": "thaumcraft:textures/models/wand_cap_void.png",
+    "research": "CAP_void",
+    "aspectCosts": {}
+  },
+  {
+    "tag": "copper",
+    "metadata": 3,
+    "craftCost": 2,
+    "cost": 1.1,
+    "texture": "thaumcraft:textures/models/wand_cap_copper.png",
+    "research": "CAP_copper",
+    "aspectCosts": {
+      "ordo": 1,
+      "perditio": 1
+    }
+  },
+  {
+    "tag": "silver",
+    "metadata": 4,
+    "craftCost": 4,
+    "cost": 1.0,
+    "texture": "thaumcraft:textures/models/wand_cap_silver.png",
+    "research": "CAP_silver",
+    "aspectCosts": {
+      "aer": 0.95,
+      "terra": 0.95,
+      "ignis": 0.95,
+      "aqua": 0.95
+    }
+  }
+]

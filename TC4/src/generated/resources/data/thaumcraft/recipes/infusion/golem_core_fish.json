@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aqua": 16,
+    "bestia": 16,
+    "meto": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:golem_core_harvest"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cod"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:pufferfish"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:salmon"
+      }
+    }
+  ],
+  "instability": 3,
+  "legacy_order": 18,
+  "research": "COREFISHING",
+  "result": {
+    "item": "thaumcraft:golem_core_fish"
+  }
+}

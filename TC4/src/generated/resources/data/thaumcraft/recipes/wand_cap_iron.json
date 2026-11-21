@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "N N"
+  ],
+  "result": {
+    "item": "thaumcraft:wand_cap_iron"
+  },
+  "show_notification": true
+}

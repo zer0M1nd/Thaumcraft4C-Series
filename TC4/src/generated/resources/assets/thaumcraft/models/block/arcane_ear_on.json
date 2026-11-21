@@ -1,0 +1,334 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "to": [
+        16.0,
+        3.0,
+        16.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        4.0,
+        3.0,
+        4.0
+      ],
+      "to": [
+        12.0,
+        16.0,
+        12.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bell_top"
+        },
+        "east": {
+          "texture": "#bell_side"
+        },
+        "north": {
+          "texture": "#bell_side"
+        },
+        "south": {
+          "texture": "#bell_side"
+        },
+        "up": {
+          "texture": "#bell_top"
+        },
+        "west": {
+          "texture": "#bell_side"
+        }
+      },
+      "from": [
+        4.0,
+        8.0,
+        1.0
+      ],
+      "to": [
+        12.0,
+        16.0,
+        3.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bell_top"
+        },
+        "east": {
+          "texture": "#bell_side"
+        },
+        "north": {
+          "texture": "#bell_side"
+        },
+        "south": {
+          "texture": "#bell_side"
+        },
+        "up": {
+          "texture": "#bell_top"
+        },
+        "west": {
+          "texture": "#bell_side"
+        }
+      },
+      "from": [
+        5.0,
+        8.0,
+        3.0
+      ],
+      "to": [
+        11.0,
+        15.0,
+        4.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bell_top"
+        },
+        "east": {
+          "texture": "#bell_side"
+        },
+        "north": {
+          "texture": "#bell_side"
+        },
+        "south": {
+          "texture": "#bell_side"
+        },
+        "up": {
+          "texture": "#bell_top"
+        },
+        "west": {
+          "texture": "#bell_side"
+        }
+      },
+      "from": [
+        1.0,
+        8.0,
+        4.0
+      ],
+      "to": [
+        3.0,
+        16.0,
+        12.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bell_top"
+        },
+        "east": {
+          "texture": "#bell_side"
+        },
+        "north": {
+          "texture": "#bell_side"
+        },
+        "south": {
+          "texture": "#bell_side"
+        },
+        "up": {
+          "texture": "#bell_top"
+        },
+        "west": {
+          "texture": "#bell_side"
+        }
+      },
+      "from": [
+        3.0,
+        8.0,
+        5.0
+      ],
+      "to": [
+        4.0,
+        15.0,
+        11.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bell_top"
+        },
+        "east": {
+          "texture": "#bell_side"
+        },
+        "north": {
+          "texture": "#bell_side"
+        },
+        "south": {
+          "texture": "#bell_side"
+        },
+        "up": {
+          "texture": "#bell_top"
+        },
+        "west": {
+          "texture": "#bell_side"
+        }
+      },
+      "from": [
+        4.0,
+        8.0,
+        13.0
+      ],
+      "to": [
+        12.0,
+        16.0,
+        15.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bell_top"
+        },
+        "east": {
+          "texture": "#bell_side"
+        },
+        "north": {
+          "texture": "#bell_side"
+        },
+        "south": {
+          "texture": "#bell_side"
+        },
+        "up": {
+          "texture": "#bell_top"
+        },
+        "west": {
+          "texture": "#bell_side"
+        }
+      },
+      "from": [
+        5.0,
+        8.0,
+        12.0
+      ],
+      "to": [
+        11.0,
+        15.0,
+        13.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bell_top"
+        },
+        "east": {
+          "texture": "#bell_side"
+        },
+        "north": {
+          "texture": "#bell_side"
+        },
+        "south": {
+          "texture": "#bell_side"
+        },
+        "up": {
+          "texture": "#bell_top"
+        },
+        "west": {
+          "texture": "#bell_side"
+        }
+      },
+      "from": [
+        13.0,
+        8.0,
+        4.0
+      ],
+      "to": [
+        15.0,
+        16.0,
+        12.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bell_top"
+        },
+        "east": {
+          "texture": "#bell_side"
+        },
+        "north": {
+          "texture": "#bell_side"
+        },
+        "south": {
+          "texture": "#bell_side"
+        },
+        "up": {
+          "texture": "#bell_top"
+        },
+        "west": {
+          "texture": "#bell_side"
+        }
+      },
+      "from": [
+        12.0,
+        8.0,
+        5.0
+      ],
+      "to": [
+        13.0,
+        15.0,
+        11.0
+      ]
+    }
+  ],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bell_side": "thaumcraft:block/arcaneearbellside",
+    "bell_top": "thaumcraft:block/arcaneearbelltop",
+    "bottom": "thaumcraft:block/arcaneearbottom",
+    "particle": "thaumcraft:block/arcaneearsideon",
+    "side": "thaumcraft:block/arcaneearsideon",
+    "top": "thaumcraft:block/arcaneeartopon"
+  }
+}

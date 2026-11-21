@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "thaumcraft:legacy_mob_bonus/champion_0"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "thaumcraft:legacy_mob_bonus/champion_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "thaumcraft:legacy_mob_bonus/champion_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "thaumcraft:legacy_mob_bonus/champion_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "thaumcraft:legacy_mob_bonus/champion_4"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "thaumcraft:legacy_mob_bonus/champion_5"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "thaumcraft:legacy_mob_bonus/champion_6"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "thaumcraft:legacy_mob_bonus/champion_7"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "thaumcraft:legacy_mob_bonus/champion_8"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

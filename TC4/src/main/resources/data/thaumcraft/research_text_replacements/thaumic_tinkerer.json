@@ -1,0 +1,1259 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumic_tinkerer:cap_discount_text",
+      "research": "thaumic_tinkerer:CAP_ICHOR",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:CAP_ICHOR.0",
+        "ttresearch.page.CAP_ICHOR.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "20%",
+          "replace": {
+            "text": "30%"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:remedium_effects_text",
+      "research": "thaumic_tinkerer:CLEANSING_TALISMAN",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:CLEANSING_TALISMAN.0",
+        "ttresearch.page.CLEANSING_TALISMAN.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "抵挡大多数类型的伤害",
+          "replace": {
+            "text": "清除多数有害状态效果及燃烧"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchanter_pillars_text",
+      "research": "thaumic_tinkerer:ENCHANTER",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:ENCHANTER.1",
+        "ttresearch.page.ENCHANTER.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "需要在附近立起6个4个方块的柱子",
+          "replace": {
+            "text": "需要在水平四格范围内立起六根柱子"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchanter_wand_text",
+      "research": "thaumic_tinkerer:ENCHANTER",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:ENCHANTER.2",
+        "ttresearch.page.ENCHANTER.2"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "the enchanter will cease to function with iron or copper capped wands, due to them being too rustic and basic for the complex infusions required",
+          "replace": {
+            "text": " the enchanter accepts iron- and copper-capped wands, but not staves"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:deflect_projectiles_text",
+      "research": "thaumic_tinkerer:FOCUS_DEFLECT",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:FOCUS_DEFLECT.0",
+        "ttresearch.page.FOCUS_DEFLECT.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "防护你免遭来袭的火球伤害",
+          "replace": {
+            "text": "防护你免遭普通投射物伤害"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:shadow_reflection_text",
+      "research": "thaumic_tinkerer:FOCUS_SHADOWBEAM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:FOCUS_SHADOWBEAM.0",
+        "ttresearch.page.FOCUS_SHADOWBEAM.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "在镜面方块上进行反射",
+          "replace": {
+            "text": "在命中的方块表面反射"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:robes_eternal_text",
+      "research": "thaumic_tinkerer:ICHORCLOTH_CHEST_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:ICHORCLOTH_CHEST_GEM.0",
+        "ttresearch.page.ICHORCLOTH_CHEST_GEM.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "背后生长出燃烧的羽翼,能够让你在短时间内(5分钟内)飞上天任意遨游",
+          "replace": {
+            "text": "获得不会燃尽的羽翼，能够持续自由飞行"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:robes_projectiles_text",
+      "research": "thaumic_tinkerer:ICHORCLOTH_CHEST_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:ICHORCLOTH_CHEST_GEM.0",
+        "ttresearch.page.ICHORCLOTH_CHEST_GEM.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "箭矢火球等抛射物",
+          "replace": {
+            "text": "箭矢等普通投射物（不包括火球）"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:armor_key_ichorcloth_helm_gem",
+      "research": "thaumic_tinkerer:ICHORCLOTH_HELM_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:ICHORCLOTH_HELM_GEM.0",
+        "ttresearch.page.ICHORCLOTH_HELM_GEM.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "按U",
+          "replace": {
+            "text": "按控制设置中绑定的护甲能力键"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Pressing U",
+          "replace": {
+            "text": " Pressing the armor-toggle key assigned in Controls"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:armor_key_ichorcloth_chest_gem",
+      "research": "thaumic_tinkerer:ICHORCLOTH_CHEST_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:ICHORCLOTH_CHEST_GEM.0",
+        "ttresearch.page.ICHORCLOTH_CHEST_GEM.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "按U",
+          "replace": {
+            "text": "按控制设置中绑定的护甲能力键"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Pressing U",
+          "replace": {
+            "text": " Pressing the armor-toggle key assigned in Controls"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:armor_key_ichorcloth_legs_gem",
+      "research": "thaumic_tinkerer:ICHORCLOTH_LEGS_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:ICHORCLOTH_LEGS_GEM.0",
+        "ttresearch.page.ICHORCLOTH_LEGS_GEM.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "按U",
+          "replace": {
+            "text": "按控制设置中绑定的护甲能力键"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Pressing U",
+          "replace": {
+            "text": " Pressing the armor-toggle key assigned in Controls"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:armor_key_ichorcloth_boots_gem",
+      "research": "thaumic_tinkerer:ICHORCLOTH_BOOTS_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:ICHORCLOTH_BOOTS_GEM.0",
+        "ttresearch.page.ICHORCLOTH_BOOTS_GEM.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "按U",
+          "replace": {
+            "text": "按控制设置中绑定的护甲能力键"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Pressing U",
+          "replace": {
+            "text": " Pressing the armor-toggle key assigned in Controls"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:leggings_toggle_text",
+      "research": "thaumic_tinkerer:ICHORCLOTH_LEGS_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:ICHORCLOTH_LEGS_GEM.1",
+        "ttresearch.page.ICHORCLOTH_LEGS_GEM.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "关闭它的照明功能",
+          "replace": {
+            "text": "关闭这件护腿的特殊能力（包括照明）"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "toggle on or off the light feature",
+          "replace": {
+            "text": " toggle all of this pair’s special abilities, including light"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:sword_area_targets_text",
+      "research": "thaumic_tinkerer:ICHOR_SWORD_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:ICHOR_SWORD_GEM.0",
+        "ttresearch.page.ICHOR_SWORD_GEM.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "三格范围的所有生物",
+          "replace": {
+            "text": "三格范围内的同类生物"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:pouch_focus_space_text",
+      "research": "thaumic_tinkerer:ICHOR_POUCH",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:ICHOR_POUCH.0",
+        "ttresearch.page.ICHOR_POUCH.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "具有普通核心手袋两倍的核心容纳空间",
+          "replace": {
+            "text": "兼具普通核心手袋的功能"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:inkwell_dye_text",
+      "research": "thaumic_tinkerer:INFUSED_INKWELL",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:INFUSED_INKWELL.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "八个墨囊",
+          "replace": {
+            "text": "八个任意黑色染料"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "eight ink sacs",
+          "replace": {
+            "text": " eight black dyes"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:interface_power_text",
+      "research": "thaumic_tinkerer:INTERFACE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:INTERFACE.0",
+        "ttresearch.page.INTERFACE.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "能量(BuildCraft(建筑)与IC2(工业)的能量)",
+          "replace": {
+            "text": "现代Forge能量（FE；装有兼容IC2时也支持EU）"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "BuildCraft, TE3 and IC2 power",
+          "replace": {
+            "text": " Forge Energy (and EU with a compatible IC2 installed)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:interface_bind_order_text",
+      "research": "thaumic_tinkerer:INTERFACE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:INTERFACE.1",
+        "ttresearch.page.INTERFACE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "右击目标方块之后右击接口",
+          "replace": {
+            "text": "先右击接口，再右击目标方块"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:interface_bc_note_text",
+      "research": "thaumic_tinkerer:INTERFACE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:INTERFACE.1",
+        "ttresearch.page.INTERFACE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "(注意：建筑模组的管道需要在绑定后拆掉再装才能有效)",
+          "replace": {
+            "text": "（目标须在各坐标轴四格范围内。）"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "(Note: buildcraft pipes need to be broken and replaced to work)",
+          "replace": {
+            "text": " (Connections follow the current target and its available capabilities.)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:mirror_bind_text",
+      "research": "thaumic_tinkerer:PLACEMENT_MIRROR",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:PLACEMENT_MIRROR.0",
+        "ttresearch.page.PLACEMENT_MIRROR.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "拿着这枚透镜右击某种方块",
+          "replace": {
+            "text": "拿着这枚透镜潜行右击某种方块"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:restorer_display_text",
+      "research": "thaumic_tinkerer:REPAIRER",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:REPAIRER.0",
+        "ttresearch.page.REPAIRER.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "完全修复该物品还需要多少要素源质",
+          "replace": {
+            "text": "该物品还损失多少耐久"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:restorer_aspects_text",
+      "research": "thaumic_tinkerer:REPAIRER",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:REPAIRER.0",
+        "ttresearch.page.REPAIRER.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "修复物品需要消耗Instrumentum要素",
+          "replace": {
+            "text": "每点Instrumentum、Fabrico或Ordo分别修复8、5或3点耐久"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "The essentia that will repair, items is Instrumentum",
+          "replace": {
+            "text": " One unit of Instrumentum, Fabrico or Ordo repairs 8, 5 or 3 durability respectively"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:share_offline_text",
+      "research": "thaumic_tinkerer:SHARE_TOME",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:SHARE_TOME.0",
+        "ttresearch.page.SHARE_TOME.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "当你在线时将它交给其他人阅读",
+          "replace": {
+            "text": "将它交给其他人阅读，即使你已离线"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:slow_fall_sneak_text",
+      "research": "thaumic_tinkerer:TTENCH_SLOW_FALL",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:TTENCH_SLOW_FALL.0",
+        "ttresearch.page.TTENCH_SLOW_FALL.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "在下落的时候按住shift就能缓慢掉落,如果不在乎掉落伤害,则可以不主动激活该功能",
+          "replace": {
+            "text": "下落时自动减速；按住潜行键会暂时关闭效果，恢复正常下落"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:vampirism_amount_text",
+      "research": "thaumic_tinkerer:TTENCH_VAMPIRISM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:TTENCH_VAMPIRISM.0",
+        "ttresearch.page.TTENCH_VAMPIRISM.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "将伤害数值的一部分作为生命值返回给使用者",
+          "replace": {
+            "text": "按附魔等级为使用者恢复等量生命值"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "a chunk of the damage dealt to a living thing using that sword will be given back to the wielder",
+          "replace": {
+            "text": " the wielder heals one health point per enchantment level when dealing damage"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:dispersed_first_text",
+      "research": "thaumic_tinkerer:TTENCH_DISPERSED",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:TTENCH_DISPERSED.0",
+        "ttresearch.page.TTENCH_DISPERSED.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "威力会翻倍",
+          "replace": {
+            "text": "伤害会增加（倍率取决于附魔等级）"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:shockwave_damage_text",
+      "research": "thaumic_tinkerer:TTENCH_SHOCKWAVE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:TTENCH_SHOCKWAVE.0",
+        "ttresearch.page.TTENCH_SHOCKWAVE.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "杀死附近的怪物或玩家",
+          "replace": {
+            "text": "伤害附近的怪物或玩家"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:pounce_leap_text",
+      "research": "thaumic_tinkerer:TTENCH_POUNCE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:TTENCH_POUNCE.0",
+        "ttresearch.page.TTENCH_POUNCE.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "骑到敌人身上",
+          "replace": {
+            "text": "跃向敌人时增强攻击"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:tool_durability_ttench_auto_smelt",
+      "research": "thaumic_tinkerer:TTENCH_AUTO_SMELT",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:TTENCH_AUTO_SMELT.0",
+        "ttresearch.page.TTENCH_AUTO_SMELT.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "耐久会双倍地减少",
+          "replace": {
+            "text": "成功挖掘时按工具正常消耗耐久"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "takes double durability damage",
+          "replace": {
+            "text": " takes normal tool durability damage on successful mining"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:tool_durability_ttench_desintegrate",
+      "research": "thaumic_tinkerer:TTENCH_DESINTEGRATE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:TTENCH_DESINTEGRATE.0",
+        "ttresearch.page.TTENCH_DESINTEGRATE.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "耐久双倍减少",
+          "replace": {
+            "text": "成功挖掘时按工具正常消耗耐久"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "takes double durability damage",
+          "replace": {
+            "text": " takes normal tool durability damage on successful mining"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ring_capacity_text",
+      "research": "thaumic_tinkerer:BLOCK_TALISMAN",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:BLOCK_TALISMAN.0",
+        "ttresearch.page.BLOCK_TALISMAN.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "2百万",
+          "replace": {
+            "text": "20亿"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ring_toggle_text",
+      "research": "thaumic_tinkerer:BLOCK_TALISMAN",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:BLOCK_TALISMAN.0",
+        "ttresearch.page.BLOCK_TALISMAN.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "此后按住右键",
+          "replace": {
+            "text": "此后潜行右击启用并装备到饰品栏"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "when enabled via right click",
+          "replace": {
+            "text": " when enabled via sneak-right-click and worn in a Curios slot"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ring_deposit_text",
+      "research": "thaumic_tinkerer:BLOCK_TALISMAN",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:BLOCK_TALISMAN.0",
+        "ttresearch.page.BLOCK_TALISMAN.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "右击可以放回物品栏",
+          "replace": {
+            "text": "右击可以存入容器"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ring_rebind_text",
+      "research": "thaumic_tinkerer:BLOCK_TALISMAN",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:BLOCK_TALISMAN.0",
+        "ttresearch.page.BLOCK_TALISMAN.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "空置时按住shift右击",
+          "replace": {
+            "text": "空置时直接右击另一种方块"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "shift right clicked into another block",
+          "replace": {
+            "text": " right clicked into another block without sneaking"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:peripherals_docs_text",
+      "research": "thaumic_tinkerer:PERIPHERALS",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "computercraft"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:PERIPHERALS.0",
+        "ttresearch.page.PERIPHERALS.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "使用这些外设的文档放置在网上以供查询.按下回车可以访问对应的页面",
+          "replace": {
+            "text": "分析仪和傀儡连接器的现用方法见本手册对应研究"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "the method documentation for these peripherals is in an external webpage. Pressing ENTER right now will take you to it.",
+          "replace": {
+            "text": " the current analyzer and golem connector methods are documented in their research entries."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:peripherals_url_text",
+      "research": "thaumic_tinkerer:PERIPHERALS",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "computercraft"
+        }
+      ],
+      "keys": [
+        "tc.research_page.thaumic_tinkerer:PERIPHERALS.0",
+        "ttresearch.page.PERIPHERALS.0"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "Sadly, this does not work on some systems. If that is the case, type in \"vazkii.us/tt/docs.php\" in your browser.",
+          "replace": {
+            "text": " The old website describes the legacy version and is not the current API reference."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ichor_cloth_payment",
+      "research": "thaumic_tinkerer:ICHOR_CLOTH",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "ttresearch.page.ICHOR_CLOTH.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "你不仅需要手持完全充能的你之前研究出的最好的法杖,并且还必须身着全套神秘使法袍,只有如此才能提高足够的能量完成注魔",
+          "replace": {
+            "text": "基础费用为每种原始要素125 vis；使用可支付折扣后费用的法杖即可"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "you require not only the best wand you ever designed to be fully charged, but you must also be wearing a full set of thaumaturge's robes, in order to convey enough energy for the creation",
+          "replace": {
+            "text": " the base cost is 125 vis of each primal aspect; any wand able to pay the discounted cost is sufficient"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:soul_heart_unit",
+      "research": "thaumic_tinkerer:ICHOR_SWORD_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "keys": [
+        "ttresearch.page.ICHOR_SWORD_GEM.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "增加一颗魂心",
+          "replace": {
+            "text": "增加半颗魂心（1点生命值）"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "a Soul Heart",
+          "replace": {
+            "text": " half a Soul Heart (1 health point)"
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

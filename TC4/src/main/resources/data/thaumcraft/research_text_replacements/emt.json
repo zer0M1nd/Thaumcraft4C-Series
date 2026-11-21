@@ -1,0 +1,428 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "emt:prospecting_text",
+      "research": "emt:rockbreaker_drill",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Drill of the Rockbreaker"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "通过右击找出",
+          "replace": {
+            "text": "通过潜行右击找出"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:earth_solar_text",
+      "research": "emt:earth_solar",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Earth Infused Solar Panels"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "在Y=10层以下的地方工作",
+          "replace": {
+            "text": "在Y≤10时发电量更高"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "under Y = 10",
+          "replace": {
+            "text": " at or below Y = 10"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:air_solar_text",
+      "research": "emt:air_solar",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Air Infused Solar Panels"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "Y=160层以上",
+          "replace": {
+            "text": "Y≥160"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "over Y = 160",
+          "replace": {
+            "text": " at or above Y = 160"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:fire_solar_text",
+      "research": "emt:fire_solar",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Fire Infused Solar Panels"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "这些太阳能在主世界正常工作,但放在下界也能发电",
+          "replace": {
+            "text": "这些太阳能仅在下界发电,产能为基础值的两倍"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "work like normal in the Overworld, but also produce more energy when they are located in the Nether",
+          "replace": {
+            "text": " produce energy only in the Nether, at twice their base output"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:fall_payment_text",
+      "research": "emt:electric_traveller_boots",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Electric Boots of the Traveller"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "免疫一切掉落伤害(不消耗电力)",
+          "replace": {
+            "text": "每次支付100 EU来免疫掉落伤害"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "negate all fall damage",
+          "replace": {
+            "text": " negate fall damage when they can pay 100 EU"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:hoe_charge_text",
+      "research": "emt:electric_growth_hoe",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Electric Hoe of Growth"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "在它用坏前你还会有几次使用的次数,它是可充电的",
+          "replace": {
+            "text": "它消耗电量,耗尽后可充电继续使用"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "still has a limited number of uses before it breaks, but is rechargeable",
+          "replace": {
+            "text": " uses stored EU and can be recharged when empty; it does not break from use"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:charge_armor_text",
+      "research": "emt:wand_charge_focus",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Wand Focus: Wand Charging"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "需要一整套符文护甲",
+          "replace": {
+            "text": "需要能支付电量的电力护腿"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "need a full set of Electric Armor",
+          "replace": {
+            "text": " need powered electric leggings"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:solar_output_text",
+      "research": "emt:solar_goggles",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Solar Helmet of Revealing"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "在白天以128EU/t功率发电, 夜晚不发电",
+          "replace": {
+            "text": "露天晴朗白天发电256 EU/t,其他露天时段128 EU/t;先为护甲充电,再为背包物品充电"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "recharge your chest armor! It generates 128 EU/t during the day, and nothing at night",
+          "replace": {
+            "text": " recharge armor, then inventory items! With an open sky it generates 256 EU/t on dry days and 128 EU/t otherwise"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:nano_fall_text",
+      "research": "emt:nano_wings",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Nanosuit Wings"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "75%",
+          "replace": {
+            "text": "80%"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "75%",
+          "replace": {
+            "text": " 80%"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:quantum_descent_text",
+      "research": "emt:quantum_wings",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Quantum Wings"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "你的下降会完全停止",
+          "replace": {
+            "text": "你的下降会进一步减缓"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Your fall will be completely stopped",
+          "replace": {
+            "text": " Your fall will be slowed further"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:thaumium_descent_text",
+      "research": "emt:thaumium_wings",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Thaumium Reinforced Wings"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "潜行则会快速下降",
+          "replace": {
+            "text": "潜行会进一步减缓下降"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:shearing_text",
+      "research": "emt:thaumium_chainsaw",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Thaumium Chainsaw"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "伤害动物的能力",
+          "replace": {
+            "text": "为动物剪毛的能力"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:quantum_feeding_zh",
+      "research": "emt:quantum_goggles",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Quantum Goggles of Revealing"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "夜视和自动补充饱食度",
+          "replace": {
+            "text": "夜视与水下补气"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:quantum_feeding_zh_end",
+      "research": "emt:quantum_goggles",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Quantum Goggles of Revealing"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "有了它再也不用夜视药水和补充食物了.",
+          "replace": {
+            "text": "夜视可在配置中关闭；它不会自动补充饱食度。"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "emt:quantum_feeding_en",
+      "research": "emt:quantum_goggles",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "keys": [
+        "emt.text.Quantum Goggles of Revealing"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "This will prevent you from turning off the night vision and feeding features.",
+          "replace": {
+            "text": " Night vision can be disabled in configuration; automatic feeding is not provided."
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

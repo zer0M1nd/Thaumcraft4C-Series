@@ -1,0 +1,410 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "forbidden_magic:sin_events",
+      "research": "forbidden_magic:NETHERSHARDS",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "碎片掉落已修正：欲望碎片只在真正繁殖时产生；愤怒条件读取现代攻击属性。",
+          "en_us": "Shard drops now require actual breeding for Lust and use modern attack attributes for Wrath."
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:educational_events",
+      "research": "forbidden_magic:EDUCATIONAL",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "general.enchantments",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "general.enchantments",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "教育附魔适配新版：额外经验遵守经验掉落事件及其取消规则。",
+          "en_us": "Educational bonus XP respects modern experience-drop events and cancellation."
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:cake_collision",
+      "research": "forbidden_magic:ARCANECAKE",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "general.gluttony",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "general.gluttony",
+          "value": 1,
+          "operator": "ne",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "蛋糕碰撞已修正：最后一片也可正常选中食用。",
+          "en_us": "Cake collision is corrected so the final slice remains selectable and edible."
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:consuming_filter",
+      "research": "forbidden_magic:CONSUMING",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "general.enchantments",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "general.enchantments",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "挥霍附魔已修正：连续的垃圾掉落物都会移除；垃圾列表使用物品或标签，可由配置调整。",
+          "en_us": "Consuming removes every matching drop, including consecutive matches; its configurable trash list accepts items and tags."
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:morph_state",
+      "research": "forbidden_magic:MORPHTOOLS",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "避役工具已修正：三组附魔各自保存，采掘方向不再被其他玩家的操作覆盖。",
+          "en_us": "Chameleon Tools keep independent enchantment sets and no longer share mining direction between players."
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:wrath_storage",
+      "research": "forbidden_magic:WRATHCAGE",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "general.wrathCage",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "general.wrathCage",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "暴怒之笼已修正：每种源质独立容纳64点，拒绝无效注入，存档使用真实实体标识。",
+          "en_us": "Wrath Cages independently store 64 of each essentia, reject invalid input and save actual entity identifiers."
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:modern_mobs",
+      "research": "forbidden_magic:WRATHCAGE",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "general.wrathCage",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "general.wrathCage",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "forge:or",
+          "values": [
+            {
+              "type": "forge:and",
+              "values": [
+                {
+                  "type": "forge:mod_loaded",
+                  "modid": "twilightforest"
+                },
+                {
+                  "type": "thaumcraft:config",
+                  "modid": "forbidden_magic",
+                  "key": "compatibility.twilightForest",
+                  "value": true,
+                  "operator": "eq",
+                  "scope": "common"
+                }
+              ]
+            },
+            {
+              "type": "forge:and",
+              "values": [
+                {
+                  "type": "forge:mod_loaded",
+                  "modid": "specialmobs"
+                },
+                {
+                  "type": "thaumcraft:config",
+                  "modid": "forbidden_magic",
+                  "key": "compatibility.specialMobs",
+                  "value": true,
+                  "operator": "eq",
+                  "scope": "common"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "生物联动适配新版：暮色森林及特殊生物按当前实体对应；已移除的旧品种不再提供。",
+          "en_us": "Mob integration uses current Twilight Forest and Special Mobs entities; removed legacy variants are unavailable."
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:fire_payment",
+      "research": "forbidden_magic:HELLFIRE",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "点火费用已修正：成功点火会实际消耗法杖魔力。",
+          "en_us": "Successful Hellfire ignition now actually consumes wand vis."
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:blink_payment",
+      "research": "forbidden_magic:FOCUSBLINK",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "闪烁费用已修正：先确认安全落点，失败时不扣魔力。",
+          "en_us": "Blink checks for a safe destination before charging vis; failed attempts cost nothing."
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:modern_blood",
+      "research": "forbidden_magic:BLOODMAGIC",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "compatibility.bloodMagic",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "bloodmagic"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.bloodMagic",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "血魔法适配新版：祭坛最高有效层级为5；理智仪式改用4个坚定恶魔意志，普通／升级范围为15／45格。",
+          "en_us": "Blood Magic uses its current maximum altar tier of 5. The sanity ritual uses four Steadfast Demonic Wills, with normal/upgraded ranges of 15/45 blocks."
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:modern_orb",
+      "research": "forbidden_magic:ELDRITCHORB",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "compatibility.bloodMagic",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "bloodmagic"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.bloodMagic",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "气血宝珠适配新版：以大魔导师气血宝珠制作，绑定与8000万LP容量使用现代灵魂网络。",
+          "en_us": "The Eldritch Orb is made from an Archmage Blood Orb, using modern Soul Network binding and an 80-million-LP capacity."
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:modern_ink",
+      "research": "forbidden_magic:BLOODWELL",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "configuration": "compatibility.bloodMagic",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "bloodmagic"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.enabled",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "forbidden_magic",
+          "key": "compatibility.bloodMagic",
+          "value": true,
+          "operator": "eq",
+          "scope": "common"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "血腥之笔与墨适配新版：通过现代炼金阵列、试剂与药瓶制作和补充。",
+          "en_us": "Bloody Scrivener’s Tools use modern Alchemy Arrays, reagents and vials for crafting and refilling."
+        }
+      }
+    },
+    {
+      "id": "forbidden_magic:heretic_profession",
+      "research": "forbidden_magic:WRATHCAGE",
+      "kind": "continuation",
+      "provider": "forbidden_magic",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "禁忌魔法",
+          "en_us": "Forbidden Magic"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "异端村民交易适配新版：以暴怒之笼为工作站，采用原版五级职业、补货和价格折扣。",
+          "en_us": "Heretic villagers use Cages of Wrath as job sites, with vanilla five-level progression, restocking and discounts."
+        }
+      }
+    }
+  ]
+}

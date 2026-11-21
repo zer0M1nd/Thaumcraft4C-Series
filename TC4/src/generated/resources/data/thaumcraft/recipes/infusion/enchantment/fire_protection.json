@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "ignis": 4,
+    "praecantatio": 4,
+    "tutamen": 4
+  },
+  "base_xp": 3,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:magma_cream"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:fire_protection",
+  "instability": 1,
+  "legacy_order": 72,
+  "research": "INFUSIONENCHANTMENT"
+}

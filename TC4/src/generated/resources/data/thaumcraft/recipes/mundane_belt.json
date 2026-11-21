@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    " L ",
+    "L L",
+    " I "
+  ],
+  "result": {
+    "item": "thaumcraft:mundane_belt"
+  },
+  "show_notification": true
+}

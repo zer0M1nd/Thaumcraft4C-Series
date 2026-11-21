@@ -1,0 +1,147 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "thaumcraft:inventory",
+          "chance": 0.88,
+          "source": "pech_pack"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "amount": 1,
+                "aspect": "aer",
+                "operation": "aspect"
+              }
+            }
+          ],
+          "name": "thaumcraft:mana_bean"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "amount": 1,
+                "aspect": "terra",
+                "operation": "aspect"
+              }
+            }
+          ],
+          "name": "thaumcraft:mana_bean"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "amount": 1,
+                "aspect": "ignis",
+                "operation": "aspect"
+              }
+            }
+          ],
+          "name": "thaumcraft:mana_bean"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "amount": 1,
+                "aspect": "aqua",
+                "operation": "aspect"
+              }
+            }
+          ],
+          "name": "thaumcraft:mana_bean"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "amount": 1,
+                "aspect": "ordo",
+                "operation": "aspect"
+              }
+            }
+          ],
+          "name": "thaumcraft:mana_bean"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "amount": 1,
+                "aspect": "perditio",
+                "operation": "aspect"
+              }
+            }
+          ],
+          "name": "thaumcraft:mana_bean"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": {
+          "type": "thaumcraft:looting",
+          "base": 1.0,
+          "multiplier": 1.0
+        },
+        "p": 0.5
+      }
+    },
+    {
+      "conditions": [
+        {
+          "chance": 0.1,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.1
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:common_loot_bag"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:knowledge_fragment"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

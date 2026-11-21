@@ -1,0 +1,144 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glowstone_dust",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glass_bottle",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_nugget",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:fire_charge",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:skeleton_skull",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:knowledge_fragment",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:alumentum",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:nitor",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:thaumium_ingot",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:thaumonomicon",
+          "weight": 20
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8,
+        "min": 4
+      }
+    }
+  ]
+}

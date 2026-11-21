@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "minecraft:quartz"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "I I",
+    "INI",
+    " S "
+  ],
+  "research": "TUBES",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:essentia_resonator"
+  },
+  "vis": {
+    "aer": 5,
+    "aqua": 5
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 10,
+    "iter": 25,
+    "perditio": 25,
+    "permutatio": 10
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    }
+  ],
+  "instability": 3,
+  "legacy_order": 64,
+  "research": "FOCUSPORTABLEHOLE",
+  "result": {
+    "item": "thaumcraft:focus_portable_hole"
+  }
+}

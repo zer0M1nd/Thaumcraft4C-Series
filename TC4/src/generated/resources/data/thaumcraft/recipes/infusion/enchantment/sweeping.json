@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 8,
+    "praecantatio": 8,
+    "telum": 16
+  },
+  "base_xp": 4,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:sweeping",
+  "instability": 3,
+  "legacy_order": 98,
+  "research": "INFUSIONENCHANTMENT"
+}

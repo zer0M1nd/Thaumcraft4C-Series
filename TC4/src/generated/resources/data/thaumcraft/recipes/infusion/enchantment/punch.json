@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "motus": 3,
+    "praecantatio": 4,
+    "telum": 3
+  },
+  "base_xp": 4,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:punch",
+  "instability": 2,
+  "legacy_order": 90,
+  "research": "INFUSIONENCHANTMENT"
+}

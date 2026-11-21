@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 8,
+    "aqua": 8,
+    "praecantatio": 4
+  },
+  "base_xp": 3,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:sugar_cane"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:respiration",
+  "instability": 2,
+  "legacy_order": 76,
+  "research": "INFUSIONENCHANTMENT"
+}

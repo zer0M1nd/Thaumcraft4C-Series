@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "thaumcraft:legacy_container",
+          "rarity": 0
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "thaumcraft:blocks/loot_urn_0"
+}

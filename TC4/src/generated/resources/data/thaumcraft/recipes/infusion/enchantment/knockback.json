@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "motus": 3,
+    "praecantatio": 4,
+    "telum": 3
+  },
+  "base_xp": 1,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:knockback",
+  "instability": 1,
+  "legacy_order": 82,
+  "research": "INFUSIONENCHANTMENT"
+}

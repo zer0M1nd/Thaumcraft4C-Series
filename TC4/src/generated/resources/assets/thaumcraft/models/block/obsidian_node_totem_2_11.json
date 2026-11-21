@@ -1,0 +1,52 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#down"
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#east"
+        },
+        "north": {
+          "cullface": "north",
+          "texture": "#north"
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#south"
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#up"
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#west"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    }
+  ],
+  "textures": {
+    "down": "thaumcraft:block/obsidiantile",
+    "east": "thaumcraft:block/obsidiantotem4",
+    "north": "thaumcraft:block/obsidiantotem1",
+    "particle": "thaumcraft:block/obsidiantile",
+    "south": "thaumcraft:block/obsidiantotem2",
+    "up": "thaumcraft:block/obsidiantile",
+    "west": "thaumcraft:block/obsidiantotem3"
+  }
+}

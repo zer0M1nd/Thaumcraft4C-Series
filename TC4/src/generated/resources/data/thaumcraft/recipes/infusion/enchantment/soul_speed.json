@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "iter": 16,
+    "praecantatio": 16,
+    "spiritus": 24
+  },
+  "base_xp": 8,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:golden_boots"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:soul_speed",
+  "instability": 5,
+  "legacy_order": 96,
+  "research": "INFUSIONENCHANTMENT"
+}

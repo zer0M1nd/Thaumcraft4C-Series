@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "levels": {
+    "1": [
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:gold_coin"
+          ],
+          "max": 22,
+          "min": 20
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 2
+      },
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:quicksilver"
+          ],
+          "max": 6,
+          "min": 4
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 2
+      },
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:chicken_nugget"
+          ],
+          "max": 31,
+          "min": 24
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 2
+      },
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:beef_nugget"
+          ],
+          "max": 31,
+          "min": 24
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 2
+      }
+    ],
+    "2": [
+      {
+        "buy": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "thaumcraft:alumentum"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 5
+      },
+      {
+        "buy": {
+          "items": [
+            "thaumcraft:amber"
+          ],
+          "max": 6,
+          "min": 4
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 5
+      },
+      {
+        "buy": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "max_uses": 16,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "thaumcraft:nitor"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 5
+      }
+    ],
+    "3": [
+      {
+        "buy": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "thaumcraft:knowledge_fragment"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 10
+      },
+      {
+        "buy": {
+          "items": [
+            "minecraft:book"
+          ],
+          "max": 6,
+          "min": 4
+        },
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "thaumcraft:knowledge_fragment"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 10
+      },
+      {
+        "buy": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "sell": {
+          "items": [
+            "thaumcraft:air_shard",
+            "thaumcraft:fire_shard",
+            "thaumcraft:water_shard",
+            "thaumcraft:earth_shard",
+            "thaumcraft:order_shard",
+            "thaumcraft:entropy_shard"
+          ],
+          "max": 3,
+          "min": 2
+        },
+        "xp": 10
+      }
+    ],
+    "4": [
+      {
+        "buy": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "max_uses": 12,
+        "price_multiplier": 0.2,
+        "sell": {
+          "items": [
+            "thaumcraft:mana_bean"
+          ],
+          "max": 2,
+          "min": 1
+        },
+        "xp": 15
+      },
+      {
+        "buy": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 7,
+          "min": 5
+        },
+        "max_uses": 12,
+        "price_multiplier": 0.2,
+        "sell": {
+          "items": [
+            "thaumcraft:bath_salts"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 15
+      }
+    ],
+    "5": [
+      {
+        "buy": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 7,
+          "min": 5
+        },
+        "max_uses": 3,
+        "price_multiplier": 0.2,
+        "sell": {
+          "items": [
+            "thaumcraft:runic_ring_lesser"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 30
+      },
+      {
+        "buy": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 7,
+          "min": 5
+        },
+        "max_uses": 3,
+        "price_multiplier": 0.2,
+        "sell": {
+          "items": [
+            "thaumcraft:lesser_vis_amulet"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 30
+      },
+      {
+        "buy": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "max": 7,
+          "min": 5
+        },
+        "max_uses": 3,
+        "price_multiplier": 0.2,
+        "sell": {
+          "items": [
+            "thaumcraft:air_ring",
+            "thaumcraft:earth_ring",
+            "thaumcraft:fire_ring",
+            "thaumcraft:water_ring",
+            "thaumcraft:order_ring",
+            "thaumcraft:entropy_ring"
+          ],
+          "max": 1,
+          "min": 1
+        },
+        "xp": 30
+      }
+    ]
+  }
+}

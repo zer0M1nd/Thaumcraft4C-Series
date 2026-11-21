@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 4,
+    "praecantatio": 4,
+    "volatus": 4
+  },
+  "base_xp": 1,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:feather_falling",
+  "instability": 1,
+  "legacy_order": 75,
+  "research": "INFUSIONENCHANTMENT"
+}

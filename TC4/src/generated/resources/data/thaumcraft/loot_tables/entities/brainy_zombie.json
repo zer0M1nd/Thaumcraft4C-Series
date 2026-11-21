@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 3,
+        "p": 0.5
+      }
+    },
+    {
+      "conditions": [
+        {
+          "chance": 0.5,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.1
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:zombie_brain"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

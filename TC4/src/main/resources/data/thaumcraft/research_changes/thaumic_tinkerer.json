@@ -1,0 +1,1891 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumic_tinkerer:restorer_intake",
+      "research": "thaumic_tinkerer:REPAIRER",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "修复台已修正：从管道实际存有的源质取料，每10刻最多修复一次，外部灌入不能绕过速度限制。",
+          "en_us": "Restorers draw the actual essentia present in a tube and repair at most once every ten ticks; external insertion cannot bypass that limit."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:funnel_amount",
+      "research": "thaumic_tinkerer:FUNNEL",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "源质漏斗已修正：仅按目标实际接收量扣除来源，满罐或标签不符不会吞掉源质。",
+          "en_us": "Funnels deduct only the amount accepted by the destination; full or mismatched labeled jars do not lose essentia."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:interface_modern",
+      "research": "thaumic_tinkerer:INTERFACE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "矢量接口适配新版：支持负高度坐标及现代物品、流体和 FE 能量接口；不能将另一矢量接口作为目标。",
+          "en_us": "Transvector Interfaces support negative heights and modern item, fluid and FE interfaces. Another Transvector Interface cannot be the target."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:dislocator_limits",
+      "research": "thaumic_tinkerer:DISLOCATOR",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "矢量转位已修正：黑名单与不可破坏方块确实被禁止搬移。",
+          "en_us": "Dislocators now enforce their blacklist and unbreakable-block restrictions."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:smelt_continuity",
+      "research": "thaumic_tinkerer:FOCUS_SMELT",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "熔炼核心已修正：换目标、换维度或停止施法会重置进度；受保护或无法支付时保留原方块。",
+          "en_us": "Smelting progress resets when its target or dimension changes or casting stops. Protected or unpaid conversions preserve the original block."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:flight_upgrades",
+      "research": "thaumic_tinkerer:FOCUS_FLIGHT",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableFlight",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableFlight",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "升腾核心已修正：从当前核心读取升级，已安装升级可正常影响推进。",
+          "en_us": "Uprising reads upgrades from the attached focus so installed upgrades affect its impulse."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:magnet_range",
+      "research": "thaumic_tinkerer:MAGNETS",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "奥术磁铁已修正：作用范围为红石强度的一半，奇数强度也保留半格，最高7.5格。",
+          "en_us": "Attractor range is half the redstone strength, including half-block increments, up to 7.5 blocks."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:tablet_modern",
+      "research": "thaumic_tinkerer:ANIMATION_TABLET",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "活化工具台适配新版：使用现代工具属性、完整攻击强度、掉落与保护规则；换工具或目标时重置挖掘进度，高处放置使用正确坐标。",
+          "en_us": "Dynamism Tablets use modern tool stats, full attack strength, drops and protection. Tool or target changes reset mining, and placements at height use correct coordinates."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:dislocation_transaction",
+      "research": "thaumic_tinkerer:FOCUS_DISLOCATION",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "转移核心已修正：放置失败保留携带方块；不能单独搬走门、床或双格植物的一半。",
+          "en_us": "Dislocation preserves carried blocks when placement fails and cannot move only half a door, bed or tall plant."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:deflection_modern",
+      "research": "thaumic_tinkerer:FOCUS_DEFLECT",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "扭曲核心适配新版：使用现代弹体判定，数据包标签可定义不受偏转影响的弹体。",
+          "en_us": "Distortion uses modern projectile handling; a data-pack tag defines projectiles immune to deflection."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:heal_continuity",
+      "research": "thaumic_tinkerer:FOCUS_HEAL",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "愈合核心已修正：松开施法会重置治疗进度。",
+          "en_us": "Mending progress resets when casting stops."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ender_menu",
+      "research": "thaumic_tinkerer:FOCUS_ENDER_CHEST",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "末影裂痕已修正：远离原箱子不会自动关闭远程界面，打开成功后才扣魔力。",
+          "en_us": "Ender Rift menus remain open away from the original chest, and vis is charged only when opening succeeds."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchanter_compounds",
+      "research": "thaumic_tinkerer:ENCHANTER",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "渗透附魔消耗已修正：复合要素费用拆为基础要素并实际扣除，饵钓等附魔不再漏付。",
+          "en_us": "Osmotic enchantments break compound costs into primals and charge them correctly, including costs previously missed by Lure."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchanter_modern",
+      "research": "thaumic_tinkerer:ENCHANTER",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "渗透附魔适配新版：加入15种新版原版附魔，并按当前附魔的物品限制和互斥关系判定。",
+          "en_us": "Osmotic enchanting adds 15 modern vanilla enchantments and respects current item eligibility and enchantment incompatibilities."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchanter_feedback",
+      "research": "thaumic_tinkerer:ENCHANTER",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "渗透附魔新增提示：未选附魔或六柱结构不完整时，启动按钮会说明缺少的条件。",
+          "en_us": "The start button now explains missing enchantment selections or an incomplete six-pillar structure."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:focused_combo",
+      "research": "thaumic_tinkerer:TTENCH_FOCUSED",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "单杀连击已修正：计数最多5次，换目标重置；首击为基础伤害的一半，不再无限叠加。",
+          "en_us": "Focused Strikes cap the combo counter at five and reset it on a new target. The first strike deals half base damage; the bonus cannot grow indefinitely."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:dispersed_combo",
+      "research": "thaumic_tinkerer:TTENCH_DISPERSED",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "群战连击已修正：重复命中计数最多5次，换目标重置，不再无界累积。",
+          "en_us": "Dispersed Strikes cap repeated-hit tracking at five and reset it on a new target."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:cloth_durability",
+      "research": "thaumic_tinkerer:SPELL_CLOTH",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "祛魔之布已修正：使用35次后耗尽；一次只处理一件装备并保留其余物品数据。",
+          "en_us": "Spellbinding Cloth is exhausted after 35 uses and processes one equipment item at a time while preserving its other data."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:xp_orb_count",
+      "research": "thaumic_tinkerer:XP_TALISMAN",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "汇魔护身符已修正：按实际吸收经验扣除经验球，未吸收部分留在世界，不会因合并经验球而丢失。",
+          "en_us": "The Talisman of Withhold removes only absorbed XP from merged orbs, leaving the remainder in the world."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:cleansing_state",
+      "research": "thaumic_tinkerer:CLEANSING_TALISMAN",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "防身护身符已修正：停用或卸下会清除旧净化进度，效果移除被阻止时不扣耐久。",
+          "en_us": "Remedium progress resets when disabled or removed; a blocked effect removal does not spend durability."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:blood_sword_players",
+      "research": "thaumic_tinkerer:BLOOD_SWORD",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "咒灵之剑已修正：不同使用者的反噬和格挡状态互不影响。",
+          "en_us": "Cursed Spirit’s Blades track blood costs and blocking separately for each wielder."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:summoning_cost",
+      "research": "thaumic_tinkerer:SUMMON",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "召唤消耗已修正：每个基座只消耗一份灵魂，不清空整叠；多座祭坛及跨维度共用1200刻冷却。",
+          "en_us": "Summoning consumes one soul from each pedestal, not its whole stack. Tablets share a 1200-tick cooldown across dimensions."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:inkwell_research",
+      "research": "thaumic_tinkerer:INFUSED_INKWELL",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "灌注笔墨已修正：补齐研究入口，生存模式可正常解锁制作。",
+          "en_us": "Infused Scribing Tools now have a working survival research entry."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:inkwell_black",
+      "research": "thaumic_tinkerer:INFUSED_INKWELL",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "笔墨补充适配新版：八个墨囊可换成任意黑色染料。",
+          "en_us": "Infused inkwell refilling accepts any black dye in place of the eight ink sacs."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:share_uuid",
+      "research": "thaumic_tinkerer:SHARE_TOME",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "知识分享已修正：按玩家身份绑定，改名或离线仍可分享；重复阅读不重复获得扭曲。",
+          "en_us": "Knowledge tomes remain linked when their owner renames or logs out. Repeated reading does not add warp repeatedly."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ignis_gold",
+      "research": "thaumic_tinkerer:FIRE_IGNIS",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableImbuedFire",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableImbuedFire",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "离火转换已修正：黄金块转成金矿石，不再错误变成石英矿石。",
+          "en_us": "Ignis fire turns gold blocks into gold ore rather than quartz ore."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ordo_tags",
+      "research": "thaumic_tinkerer:FIRE_ORDO",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableImbuedFire",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableImbuedFire",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "秩序之焰适配新版：按现代矿石标签与熔炼配方转换；不转换有方块实体或不可破坏的方块。",
+          "en_us": "Ordo fire uses modern ore tags and smelting recipes and excludes block entities and unbreakable blocks."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:crop_harvest",
+      "research": "thaumic_tinkerer:INFUSED_POTIONS",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "蕴魔作物已修正：实际收获才向土壤留下要素，查询产物不会重复施肥；倾向交换与种植遵守保护规则。",
+          "en_us": "Infused crops leave residue only on actual harvest, not when drops are queried. Tendency transfer and planting respect protection."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:mobilizer_pair",
+      "research": "thaumic_tinkerer:LEVITATOR_LOCOMOTIVE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "悬浮平台已修正：中继器与最近可用的同轴端点成对连接；移动失败时完整还原方块及内容。",
+          "en_us": "Levitator relays pair with the nearest available aligned endpoint. Failed transfers restore blocks and their contents."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ichor_old_research",
+      "research": "thaumic_tinkerer:ICHOR",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "灵液解锁适配新版：只检查原版TC4与工匠的239项旧研究；现代新增和其他附属研究不增加门槛，禁用的旧可选项跳过。",
+          "en_us": "Ichor checks only the 239 legacy TC4 and Tinkerer research entries. Modern additions and other addons do not raise the requirement; disabled optional legacy entries are skipped."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:pick_generated_ores",
+      "research": "thaumic_tinkerer:ICHOR_PICK_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "觉醒灵宝镐已增强：在基岩矿界中，对该维度会生成的矿石一刻即可挖下。",
+          "en_us": "The Awakened Ichorium Pickaxe breaks ores generated by the Bedrock Dimension in one tick while there."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:pick_portal",
+      "research": "thaumic_tinkerer:ICHOR_PICK_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "基岩通行适配新版：左击主世界底部或基岩矿界顶部的基岩开启单格门户；返程寻找安全落点，关闭新进入后仍可离开。",
+          "en_us": "Left-click bottom Overworld bedrock or the Bedrock Dimension’s ceiling to open a one-block portal. Return travel finds a safe landing and remains available when new entry is disabled."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:pick_line",
+      "research": "thaumic_tinkerer:ICHOR_PICK_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "直线挖掘已修正：含起点共10格；首块被保护阻止时不挖周围方块。",
+          "en_us": "Line mining breaks ten blocks including its starting block. Protected initial breaks do not trigger additional mining."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:axe_protection",
+      "research": "thaumic_tinkerer:ICHOR_AXE_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "连锁伐木已修正：受保护方块不会造成无限循环，不会为砍树强制加载远处区块。",
+          "en_us": "Tree felling stops safely at protected blocks and does not force-load distant chunks."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:sword_soul_cost",
+      "research": "thaumic_tinkerer:ICHOR_SWORD_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "觉醒灵宝剑已修正：成功造成伤害才获得魂心，零碎伤害也扣除对应护盾；范围攻击不重复命中主目标。",
+          "en_us": "Awakened swords grant Soul Hearts only after damage is dealt. Fractional damage consumes shield charge, and area attacks do not strike the main target twice."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:armor_disable",
+      "research": "thaumic_tinkerer:ICHORCLOTH_CHEST_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "觉醒护甲已修正：关闭能力会停止相应治疗与防摔；撤销飞行只撤销本护甲授予的飞行。",
+          "en_us": "Disabling awakened armor stops its healing and fall protection; removing its flight preserves flight granted by other sources."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:boots_step",
+      "research": "thaumic_tinkerer:ICHORCLOTH_BOOTS_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "地平线之靴适配新版：卸下后保留其他来源的步高；草地效果遵守方块保护。",
+          "en_us": "Removing Horizontal Shield Boots preserves step height from other sources. Their grass effect respects block protection."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:cat_ignition",
+      "research": "thaumic_tinkerer:CAT_AMULET",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "猫神护身符已修正：按实际佩戴和距离生效，也能解除苦力怕被手动点燃的状态。",
+          "en_us": "Feline Amulets use actual equipment and range checks and can clear manually ignited creepers."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:clay_selection",
+      "research": "thaumic_tinkerer:PROTOCLAY",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "息壤已修正：挖土优先选铲，切换保留工具数据；缺少适用工具时不拦截原操作。",
+          "en_us": "Protoclay prefers shovels for dirt, preserves tool data and leaves the original action intact when no suitable tool is available."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ring_transactions",
+      "research": "thaumic_tinkerer:BLOCK_TALISMAN",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "黑洞指环已修正：存入或放置成功后才扣储量，不混合数据不同的方块；用于升级前必须清空。",
+          "en_us": "Black Hole Rings spend stored blocks only on successful transfers and keep differently tagged blocks separate. Empty the ring before upgrading."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:gateway_coordinates",
+      "research": "thaumic_tinkerer:WARP_GATE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "仙域之门适配新版：支持负高度坐标，并验证目标锁定与安全落点；固定保留十个目的地槽。",
+          "en_us": "Celestial Gateways support negative heights, validate destination locks and safe landings, and retain ten destination slots."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:xp_drain_payment",
+      "research": "thaumic_tinkerer:FOCUS_XP_DRAIN",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "经验核心已修正：按实际充入魔力收取经验点，法杖已满不扣费；升级前需清空经验护符。",
+          "en_us": "Experience Drain charges XP points for actual vis restored and charges nothing for a full wand. Empty the XP talisman before upgrading."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:recall_safety",
+      "research": "thaumic_tinkerer:FOCUS_RECALL",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "仙域召唤适配新版：支持负高度目的地，验证安全落点，传送失败不扣魔力。",
+          "en_us": "Celestial Recall supports negative-height destinations and charges vis only after a safe teleport succeeds."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:gas_gaseous_light",
+      "research": "thaumic_tinkerer:GASEOUS_LIGHT",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "气瓶使用已修正：通过保护检查且放置成功后才消耗，负坐标放置位置正确。",
+          "en_us": "Gas phials are consumed only after protected placement succeeds, with correct positioning at negative coordinates."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:gas_gaseous_shadow",
+      "research": "thaumic_tinkerer:GASEOUS_SHADOW",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "气瓶使用已修正：通过保护检查且放置成功后才消耗，负坐标放置位置正确。",
+          "en_us": "Gas phials are consumed only after protected placement succeeds, with correct positioning at negative coordinates."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:interface_eu",
+      "research": "thaumic_tinkerer:INTERFACE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ic2"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "工业能源转接已修正：只转接目标实际支持的EU方向，未使用的输入能量返还。",
+          "en_us": "IC2 bridging exposes only the target’s supported EU directions and returns unaccepted input energy."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchant_incompat_ttench_final",
+      "research": "thaumic_tinkerer:TTENCH_FINAL",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "附魔互斥已修正：不能与节肢杀手同时存在。",
+          "en_us": "Enchantment incompatibility is corrected: Bane of Arthropods cannot be combined with this enchantment."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchant_incompat_ttench_valiance",
+      "research": "thaumic_tinkerer:TTENCH_VALIANCE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "附魔互斥已修正：不能与节肢杀手同时存在。",
+          "en_us": "Enchantment incompatibility is corrected: Bane of Arthropods cannot be combined with this enchantment."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:mining_durability_ttench_shatter",
+      "research": "thaumic_tinkerer:TTENCH_SHATTER",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "挖掘附魔已修正：成功破坏方块才按正常流程扣耐久，查询速度不再反复消耗耐久。",
+          "en_us": "Mining enchantments spend durability on successful block breaks; speed queries no longer consume durability repeatedly."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:mining_durability_ttench_tunnel",
+      "research": "thaumic_tinkerer:TTENCH_TUNNEL",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "挖掘附魔已修正：成功破坏方块才按正常流程扣耐久，查询速度不再反复消耗耐久。",
+          "en_us": "Mining enchantments spend durability on successful block breaks; speed queries no longer consume durability repeatedly."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchant_unlock_focused",
+      "research": "thaumic_tinkerer:TTENCH_FOCUSED",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "渗透附魔入口已扩展：完成本研究或旧版的吸血研究，均可在渗透附魔台使用此附魔。",
+          "en_us": "Osmotic enchanting accepts this research or the legacy Vampirism research as an unlock for this enchantment."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchant_unlock_dispersed",
+      "research": "thaumic_tinkerer:TTENCH_DISPERSED",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "渗透附魔入口已扩展：完成本研究或旧版的吸血研究，均可在渗透附魔台使用此附魔。",
+          "en_us": "Osmotic enchanting accepts this research or the legacy Vampirism research as an unlock for this enchantment."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchant_unlock_valiance",
+      "research": "thaumic_tinkerer:TTENCH_VALIANCE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "渗透附魔入口已扩展：完成本研究或旧版的吸血研究，均可在渗透附魔台使用此附魔。",
+          "en_us": "Osmotic enchanting accepts this research or the legacy Vampirism research as an unlock for this enchantment."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchant_unlock_final",
+      "research": "thaumic_tinkerer:TTENCH_FINAL",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "渗透附魔入口已扩展：完成本研究或旧版的吸血研究，均可在渗透附魔台使用此附魔。",
+          "en_us": "Osmotic enchanting accepts this research or the legacy Vampirism research as an unlock for this enchantment."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchant_unlock_tunnel",
+      "research": "thaumic_tinkerer:TTENCH_TUNNEL",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "渗透附魔入口已扩展：完成本研究或旧版的吸血研究，均可在渗透附魔台使用此附魔。",
+          "en_us": "Osmotic enchanting accepts this research or the legacy Vampirism research as an unlock for this enchantment."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchant_unlock_shatter",
+      "research": "thaumic_tinkerer:TTENCH_SHATTER",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "渗透附魔入口已扩展：完成本研究或旧版的吸血研究，均可在渗透附魔台使用此附魔。",
+          "en_us": "Osmotic enchanting accepts this research or the legacy Vampirism research as an unlock for this enchantment."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchant_unlock_shockwave",
+      "research": "thaumic_tinkerer:TTENCH_SHOCKWAVE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "渗透附魔入口已扩展：完成本研究或旧版的吸血研究，均可在渗透附魔台使用此附魔。",
+          "en_us": "Osmotic enchanting accepts this research or the legacy Vampirism research as an unlock for this enchantment."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:enchant_unlock_pounce",
+      "research": "thaumic_tinkerer:TTENCH_POUNCE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "渗透附魔入口已扩展：完成本研究或旧版的吸血研究，均可在渗透附魔台使用此附魔。",
+          "en_us": "Osmotic enchanting accepts this research or the legacy Vampirism research as an unlock for this enchantment."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ichor_enchant_ichor_tools",
+      "research": "thaumic_tinkerer:ICHOR_TOOLS",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "灵宝装备已增强：可正常附魔并保持不可损坏；耐久、修复等依赖耐久的附魔仍不适用。",
+          "en_us": "Ichorium equipment can be enchanted while remaining unbreakable; durability-related enchantments remain unavailable."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ichor_enchant_ichorcloth_armor",
+      "research": "thaumic_tinkerer:ICHORCLOTH_ARMOR",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "灵宝装备已增强：可正常附魔并保持不可损坏；耐久、修复等依赖耐久的附魔仍不适用。",
+          "en_us": "Ichorium equipment can be enchanted while remaining unbreakable; durability-related enchantments remain unavailable."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ichor_enchant_ichor_pick_gem",
+      "research": "thaumic_tinkerer:ICHOR_PICK_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "灵宝装备已增强：可正常附魔并保持不可损坏；耐久、修复等依赖耐久的附魔仍不适用。",
+          "en_us": "Ichorium equipment can be enchanted while remaining unbreakable; durability-related enchantments remain unavailable."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ichor_enchant_ichor_shovel_gem",
+      "research": "thaumic_tinkerer:ICHOR_SHOVEL_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "灵宝装备已增强：可正常附魔并保持不可损坏；耐久、修复等依赖耐久的附魔仍不适用。",
+          "en_us": "Ichorium equipment can be enchanted while remaining unbreakable; durability-related enchantments remain unavailable."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ichor_enchant_ichor_axe_gem",
+      "research": "thaumic_tinkerer:ICHOR_AXE_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "灵宝装备已增强：可正常附魔并保持不可损坏；耐久、修复等依赖耐久的附魔仍不适用。",
+          "en_us": "Ichorium equipment can be enchanted while remaining unbreakable; durability-related enchantments remain unavailable."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ichor_enchant_ichor_sword_gem",
+      "research": "thaumic_tinkerer:ICHOR_SWORD_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "灵宝装备已增强：可正常附魔并保持不可损坏；耐久、修复等依赖耐久的附魔仍不适用。",
+          "en_us": "Ichorium equipment can be enchanted while remaining unbreakable; durability-related enchantments remain unavailable."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ichor_enchant_ichorcloth_helm_gem",
+      "research": "thaumic_tinkerer:ICHORCLOTH_HELM_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "灵宝装备已增强：可正常附魔并保持不可损坏；耐久、修复等依赖耐久的附魔仍不适用。",
+          "en_us": "Ichorium equipment can be enchanted while remaining unbreakable; durability-related enchantments remain unavailable."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ichor_enchant_ichorcloth_chest_gem",
+      "research": "thaumic_tinkerer:ICHORCLOTH_CHEST_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "灵宝装备已增强：可正常附魔并保持不可损坏；耐久、修复等依赖耐久的附魔仍不适用。",
+          "en_us": "Ichorium equipment can be enchanted while remaining unbreakable; durability-related enchantments remain unavailable."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ichor_enchant_ichorcloth_legs_gem",
+      "research": "thaumic_tinkerer:ICHORCLOTH_LEGS_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "灵宝装备已增强：可正常附魔并保持不可损坏；耐久、修复等依赖耐久的附魔仍不适用。",
+          "en_us": "Ichorium equipment can be enchanted while remaining unbreakable; durability-related enchantments remain unavailable."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:ichor_enchant_ichorcloth_boots_gem",
+      "research": "thaumic_tinkerer:ICHORCLOTH_BOOTS_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "灵宝装备已增强：可正常附魔并保持不可损坏；耐久、修复等依赖耐久的附魔仍不适用。",
+          "en_us": "Ichorium equipment can be enchanted while remaining unbreakable; durability-related enchantments remain unavailable."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:armor_discount_ichorcloth_helm_gem",
+      "research": "thaumic_tinkerer:ICHORCLOTH_HELM_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "觉醒护甲减免已调整：每件减免7%魔力消耗，全套共28%。",
+          "en_us": "Each awakened armor piece grants a 7% vis discount, for 28% with the full set."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:armor_discount_ichorcloth_chest_gem",
+      "research": "thaumic_tinkerer:ICHORCLOTH_CHEST_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "觉醒护甲减免已调整：每件减免7%魔力消耗，全套共28%。",
+          "en_us": "Each awakened armor piece grants a 7% vis discount, for 28% with the full set."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:armor_discount_ichorcloth_legs_gem",
+      "research": "thaumic_tinkerer:ICHORCLOTH_LEGS_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "觉醒护甲减免已调整：每件减免7%魔力消耗，全套共28%。",
+          "en_us": "Each awakened armor piece grants a 7% vis discount, for 28% with the full set."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:armor_discount_ichorcloth_boots_gem",
+      "research": "thaumic_tinkerer:ICHORCLOTH_BOOTS_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "觉醒护甲减免已调整：每件减免7%魔力消耗，全套共28%。",
+          "en_us": "Each awakened armor piece grants a 7% vis discount, for 28% with the full set."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:curios_bright_nitor",
+      "research": "thaumic_tinkerer:BRIGHT_NITOR",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "curios"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "饰品携带已扩展：可放入任意Curios饰品栏，并保持原有功能。",
+          "en_us": "This item works from any Curios slot, freeing a normal inventory slot."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:curios_protoclay",
+      "research": "thaumic_tinkerer:PROTOCLAY",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "curios"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "饰品携带已扩展：可放入任意Curios饰品栏，并保持原有功能。",
+          "en_us": "This item works from any Curios slot, freeing a normal inventory slot."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:cc_peripherals",
+      "research": "thaumic_tinkerer:PERIPHERALS",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "computercraft"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "电脑联动适配新版：支持CC: Tweaked；傀儡标记从1编号，维度使用资源ID。",
+          "en_us": "Computer integration uses CC: Tweaked. Golem markers use one-based indices and dimension resource IDs."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:cc_golem_connector",
+      "research": "thaumic_tinkerer:GOLEM_CONNECTOR",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "computercraft"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "电脑联动适配新版：支持CC: Tweaked；傀儡标记从1编号，维度使用资源ID。",
+          "en_us": "Computer integration uses CC: Tweaked. Golem markers use one-based indices and dimension resource IDs."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:cc_aspect_analyzer",
+      "research": "thaumic_tinkerer:ASPECT_ANALYZER",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "computercraft"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "电脑联动适配新版：支持CC: Tweaked；傀儡标记从1编号，维度使用资源ID。",
+          "en_us": "Computer integration uses CC: Tweaked. Golem markers use one-based indices and dimension resource IDs."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:microblock_materials",
+      "research": "thaumic_tinkerer:DARK_QUARTZ",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cb_microblock"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "微型方块联动已补全：支持现代CB Microblock，并补上银树、烟黑石英柱和奥术石砖材料。",
+          "en_us": "Modern CB Microblock support includes the formerly missing Silverwood, Smokey Quartz Pillar and Arcane Stone Brick materials."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:leggings_light",
+      "research": "thaumic_tinkerer:ICHORCLOTH_LEGS_GEM",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "shouldKamiLegsDoLightFeature",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "shouldKamiLegsDoLightFeature",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        },
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "护腿照明已修正：只在能力有效时维持光源，前方光源按实际位置采样1–5格。",
+          "en_us": "Leggings maintain light only while their ability is active; forward lights sample one to five blocks from the wearer’s actual position."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:light_priority",
+      "research": "thaumic_tinkerer:BRIGHT_NITOR",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "随身照明已修正：不会压低觉醒护腿已有的较亮光源，死亡或旁观时不再维持光源。",
+          "en_us": "Carried Nitor preserves brighter leggings light and stops maintaining light for dead or spectator players."
+        }
+      }
+    },
+    {
+      "id": "thaumic_tinkerer:gateway_jade",
+      "research": "thaumic_tinkerer:WARP_GATE",
+      "kind": "continuation",
+      "provider": "thaumic_tinkerer",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘工匠",
+          "en_us": "Thaumic Tinkerer"
+        }
+      },
+      "configuration": "enableKami",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumic_tinkerer",
+          "key": "enableKami",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "Jade提示已修正：准确显示仙域之门是否允许其他门连接。",
+          "en_us": "Jade now correctly reports whether the Celestial Gateway accepts incoming connections."
+        }
+      },
+      "client_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "jade"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicbases:linker_integrity",
+      "research": "TB.NodeLinker",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "configuration": "modules.enableNodeTools",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableNodeTools",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "节点连接已修正：跨维度、自连接和零容量转移被拒绝；目标区块卸载时暂停，不再凭旧数据恢复已损失的容量。",
+          "en_us": "Node Linking rejects cross-dimensional, self and zero-capacity transfers. Unloaded targets pause transfer, and stale data cannot restore lost capacity."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:destruction_target",
+      "research": "TB.NodeFoci.Destr",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "configuration": "modules.enableNodeTools",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableNodeTools",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "湮灭核心已修正：最后摧毁的是凋零节点，节点调节器保留。",
+          "en_us": "The Destruction Focus now destroys the fading node at the final stage and leaves its manipulator intact."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:bloody_knockback",
+      "research": "TB.BloodyRobes",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "configuration": "modules.enableBloodyMess",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableBloodyMess",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "血腥护腿已修正：提供固定 +0.5 击退抗性，基础抗性为零时也能生效。",
+          "en_us": "Bloody leggings grant a flat +0.5 knockback resistance, including when base resistance is zero."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:deconstructor_crystals",
+      "research": "TB.EntityDecAdv",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "实体解构器已修正：安装四或五种水晶时也能正常产出知识，不再因跳过进度终点而停滞。",
+          "en_us": "Entity Deconstructors with four or five crystals now produce knowledge instead of stalling when progress skips the completion point."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:crying_obsidian",
+      "research": "TB.CryingObs",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "重生方尖碑适配新版：使用两块原版哭泣黑曜石；拆开后还原为原版方块。",
+          "en_us": "Respawn obelisks use two vanilla Crying Obsidian blocks and revert to vanilla blocks when dismantled."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:overchanter_fluids",
+      "research": "TB.Overchanter",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "超吟附魔台适配新版：可从附近流体容器吸取经验，默认每 20 mB 折算 1 点经验，其他比例由流体适配决定。",
+          "en_us": "Overchanting supports nearby experience-fluid tanks, normally at 20 mB per XP; fluid adapters may define other ratios."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:overchanter_transaction",
+      "research": "TB.Overchanter",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "超吟附魔台已修正：每次需要 825 点经验；换料会取消原进度和预付经验，缺经验时不继续浪费源质。附魔等级最高为 255。",
+          "en_us": "Each overchant requires 825 XP. Replacing the item cancels progress and prepaid XP; waiting for XP does not waste more essentia. Enchantment levels are capped at 255."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:anvil_state_thaumicanvil",
+      "research": "TB.ThaumicAnvil",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "铁砧适配新版：破损程度随掉落物保存，重新放置后不会被重置。",
+          "en_us": "Anvils preserve their damage state when dropped and placed again."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:anvil_state_voidanvil",
+      "research": "TB.VoidAnvil",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "铁砧适配新版：破损程度随掉落物保存，重新放置后不会被重置。",
+          "en_us": "Anvils preserve their damage state when dropped and placed again."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:tree_shape_goldenoak",
+      "research": "TB.GoldenOak",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "configuration": "modules.enableFlora",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableFlora",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔法树木适配新版：使用新版树木生长与树叶衰败规则，树冠形状会有所变化；生长失败时保留树苗。",
+          "en_us": "Magical trees use modern growth and leaf-decay rules, so canopy shapes may differ. Failed growth preserves the sapling."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:tree_shape_peacefulsapling",
+      "research": "TB.PeacefulSapling",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "configuration": "modules.enableFlora",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableFlora",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔法树木适配新版：使用新版树木生长与树叶衰败规则，树冠形状会有所变化；生长失败时保留树苗。",
+          "en_us": "Magical trees use modern growth and leaf-decay rules, so canopy shapes may differ. Failed growth preserves the sapling."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:tree_shape_nethersapling",
+      "research": "TB.NetherSapling",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "configuration": "modules.enableFlora",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableFlora",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔法树木适配新版：使用新版树木生长与树叶衰败规则，树冠形状会有所变化；生长失败时保留树苗。",
+          "en_us": "Magical trees use modern growth and leaf-decay rules, so canopy shapes may differ. Failed growth preserves the sapling."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:tree_shape_endersapling",
+      "research": "TB.EnderSapling",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "configuration": "modules.enableFlora",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableFlora",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔法树木适配新版：使用新版树木生长与树叶衰败规则，树冠形状会有所变化；生长失败时保留树苗。",
+          "en_us": "Magical trees use modern growth and leaf-decay rules, so canopy shapes may differ. Failed growth preserves the sapling."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:pyrofluid_placement",
+      "research": "TB.Pyrofluid",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "魔力熔岩已修正：放置时遵守方块替换与保护规则；异常的掉落数量配置不再导致收获失败。",
+          "en_us": "Pyrofluid respects block replacement and protection rules; invalid drop ranges no longer break harvesting."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:campfire_remainders",
+      "research": "TB.Campfire",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "营火燃料已修正：使用桶装燃料后返还空桶。",
+          "en_us": "Campfire fuel now returns empty buckets and other containers."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:brazier_payment",
+      "research": "TB.Brazier",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "火盆消耗已修正：源质只扣一次，不再因客户端与服务端同时抽取而重复消耗。",
+          "en_us": "Braziers deduct essentia once, preventing duplicate client and server consumption."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:advanced_furnace_automation",
+      "research": "TB.AdvAlc",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "高级炼金炉新增自动化：可用容器界面、漏斗及物品管道添加原料和燃料，也可取出空桶。",
+          "en_us": "Advanced Alchemical Furnaces support menus, hoppers and item pipes for input, fuel and empty-bucket extraction."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:experience_targets",
+      "research": "TB.Foci.Experience",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "经验核心已修正：分解不作用于玩家、首领或黑名单生物；只有实际击杀才产生额外经验。",
+          "en_us": "Experience Focus decomposition excludes players, bosses and blacklisted creatures. Bonus XP is awarded only after an actual kill."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:revolver_inventory",
+      "research": "TB.Revolver",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "configuration": "modules.enableRevolver",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableRevolver",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "源质左轮已修正：装填即时保存，升级保留源质；射出的子弹使用开火时的武器属性，被保护取消的伤害不再附加毒性或知识奖励。",
+          "en_us": "Revolver loading saves immediately and upgrades retain essentia. Bullets keep the weapon’s firing-time stats; blocked damage cannot add poison or knowledge rewards."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:void_crop_golem",
+      "research": "TB.VoidSeed",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "configuration": "modules.enableFlora",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableFlora",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "虚空作物收获已修正：傀儡按实际成熟阶段收获，不再等待无法达到的生长阶段。",
+          "en_us": "Golems harvest Void Crops at their actual mature stage instead of waiting for an unreachable age."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:briar_golem",
+      "research": "TB.Briar",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "configuration": "modules.enableFlora",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableFlora",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "治愈草收获已修正：傀儡只从双格植物底部收获，并检查两格保护；补种失败不消耗种子。",
+          "en_us": "Golems harvest Briar from its bottom half, respect protection on both halves, and do not consume seeds when replanting fails."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:scythe_chain",
+      "research": "TB.HerobrinesScythe",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "白瞳者之镰适配新版：连锁攻击遵守现代战斗、附魔与保护规则，每次连锁不会重复命中同一目标。",
+          "en_us": "Scythe chains respect modern combat, enchantment and protection rules and do not hit the same target twice in one chain."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:decoration_tags",
+      "research": "TB.DecoBlocks",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "装饰方块配方适配新版：石砖原料接受普通、苔、裂纹和錾制石砖。",
+          "en_us": "Decorative recipes accept regular, mossy, cracked and chiseled stone bricks."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:infused_ore_tags",
+      "research": "TB.Backprocessing",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "蕴魔矿石加工适配新版：按各元素的矿石标签识别原料，数据包加入的对应矿石也可使用。",
+          "en_us": "Infused-ore processing accepts each element’s ore tag, including matching ores added by data packs."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:thauminite_cost",
+      "research": "TB.Thauminite",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "秘晶炼成配方已调整：神秘锭仍产出 8 个秘晶粒；源质改为金属 4、水晶 8、魔法 2。",
+          "en_us": "Thauminite transmutation still yields 8 nuggets per Thaumium Ingot; its cost is now 4 Metallum, 8 Vitreus and 2 Praecantatio."
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:packed_ice_cost",
+      "research": "TB.AlchemyRestoration",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "浮冰炼成配方已调整：每块冰需要大地 1 与寒冷 3，产出一块浮冰。",
+          "en_us": "Packed Ice transmutation costs 1 Terra and 3 Gelum per ice block and yields one Packed Ice."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "iter": 16,
+    "machina": 32,
+    "potentia": 32,
+    "volatus": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:leather_chestplate"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_planks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_planks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:comparator"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    }
+  ],
+  "instability": 6,
+  "legacy_order": 28,
+  "research": "HOVERHARNESS",
+  "result": {
+    "item": "thaumcraft:hover_harness"
+  }
+}

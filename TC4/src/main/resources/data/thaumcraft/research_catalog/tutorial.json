@@ -1,0 +1,2722 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_WELCOME",
+          "category": "TUTORIAL",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "parents": [],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isAutoUnlock": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "RESEARCH",
+            "ASPECTS",
+            "NODES",
+            "WARP"
+          ],
+          "pageCount": 17,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemThaumonomicon",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemThaumonomicon",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_CONTINUATION",
+          "category": "TUTORIAL",
+          "displayColumn": 0,
+          "displayRow": -3,
+          "parents": [
+            "TUT_WELCOME"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "THAUMONOMICON",
+            "REVIVAL_RESEARCH_ASSISTANCE",
+            "REVIVAL_LISTENING_GUIDANCE"
+          ],
+          "pageCount": 13,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemThaumonomicon",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemThaumonomicon",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_BOOK",
+          "category": "TUTORIAL",
+          "displayColumn": 3,
+          "displayRow": 0,
+          "parents": [
+            "TUT_WELCOME"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "THAUMONOMICON",
+            "RESEARCH"
+          ],
+          "pageCount": 14,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemThaumonomicon",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemThaumonomicon",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_BOOK_UI",
+          "category": "TUTORIAL",
+          "displayColumn": 3,
+          "displayRow": -3,
+          "parents": [
+            "TUT_BOOK"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "THAUMONOMICON"
+          ],
+          "pageCount": 16,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemInkwell",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemInkwell",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_ORE",
+          "category": "TUTORIAL",
+          "displayColumn": 3,
+          "displayRow": 3,
+          "parents": [
+            "TUT_BOOK"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ORE"
+          ],
+          "pageCount": 12,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockCustomOre",
+                "metadata": 32767
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockCustomOre",
+            "metadata": 32767
+          }
+        },
+        {
+          "key": "TUT_PLANTS",
+          "category": "TUTORIAL",
+          "displayColumn": 6,
+          "displayRow": 3,
+          "parents": [
+            "TUT_ORE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "PLANTS"
+          ],
+          "pageCount": 11,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockCustomPlant",
+                "metadata": 0,
+                "ore": "treeSapling"
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockCustomPlant",
+            "metadata": 0,
+            "ore": "treeSapling"
+          }
+        },
+        {
+          "key": "TUT_BIOMES",
+          "category": "TUTORIAL",
+          "displayColumn": 9,
+          "displayRow": 3,
+          "parents": [
+            "TUT_PLANTS"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "PECH",
+            "KNOWFRAG",
+            "NODES"
+          ],
+          "pageCount": 12,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockCustomPlant",
+                "metadata": 0,
+                "ore": "treeSapling"
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemEldritchObject",
+                "metadata": 1
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockCustomPlant",
+            "metadata": 0,
+            "ore": "treeSapling"
+          }
+        },
+        {
+          "key": "TUT_FIRST_WAND",
+          "category": "TUTORIAL",
+          "displayColumn": 6,
+          "displayRow": 0,
+          "parents": [
+            "TUT_BOOK"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "BASICTHAUMATURGY"
+          ],
+          "pageCount": 14,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandCasting",
+                "metadata": 0,
+                "nbt": "{cap:\"iron\",rod:\"wood\",}"
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:WandCasting",
+            "metadata": 0,
+            "nbt": "{cap:\"iron\",rod:\"wood\",}"
+          }
+        },
+        {
+          "key": "TUT_WAND_CONVERT",
+          "category": "TUTORIAL",
+          "displayColumn": 9,
+          "displayRow": 0,
+          "parents": [
+            "TUT_FIRST_WAND"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "THAUMONOMICON",
+            "ARCTABLE",
+            "CRUCIBLE"
+          ],
+          "pageCount": 16,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemThaumonomicon",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockMetalDevice",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemThaumonomicon",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_VIS_BASICS",
+          "category": "TUTORIAL",
+          "displayColumn": 12,
+          "displayRow": 0,
+          "parents": [
+            "TUT_WAND_CONVERT"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "NODES",
+            "NODETAPPER1"
+          ],
+          "pageCount": 13,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:BlockJarNodeItem",
+                "metadata": 0,
+                "nbt": "{nodetype:0,Aspects:[0:{amount:40,key:\"aer\",},1:{amount:40,key:\"ignis\",},2:{amount:40,key:\"aqua\",},3:{amount:40,key:\"terra\",},],nodeid:\"\",}"
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:BlockJarNodeItem",
+            "metadata": 0,
+            "nbt": "{nodetype:0,Aspects:[0:{amount:40,key:\"aer\",},1:{amount:40,key:\"ignis\",},2:{amount:40,key:\"aqua\",},3:{amount:40,key:\"terra\",},],nodeid:\"\",}"
+          }
+        },
+        {
+          "key": "TUT_NODE_TYPES",
+          "category": "TUTORIAL",
+          "displayColumn": 12,
+          "displayRow": -3,
+          "parents": [
+            "TUT_VIS_BASICS"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "NODES",
+            "NODESTABILIZER"
+          ],
+          "pageCount": 12,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:BlockJarNodeItem",
+                "metadata": 0,
+                "nbt": "{nodetype:0,Aspects:[0:{amount:40,key:\"aer\",},1:{amount:40,key:\"ignis\",},2:{amount:40,key:\"aqua\",},3:{amount:40,key:\"terra\",},],nodeid:\"\",}"
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:BlockJarNodeItem",
+            "metadata": 0,
+            "nbt": "{nodetype:0,Aspects:[0:{amount:40,key:\"aer\",},1:{amount:40,key:\"ignis\",},2:{amount:40,key:\"aqua\",},3:{amount:40,key:\"terra\",},],nodeid:\"\",}"
+          }
+        },
+        {
+          "key": "TUT_NODE_TAP",
+          "category": "TUTORIAL",
+          "displayColumn": 12,
+          "displayRow": -6,
+          "parents": [
+            "TUT_NODE_TYPES"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "NODETAPPER1",
+            "NODETAPPER2",
+            "NODEPRESERVE"
+          ],
+          "pageCount": 9,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandCasting",
+                "metadata": 0,
+                "nbt": "{cap:\"iron\",rod:\"wood\",}"
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:BlockJarNodeItem",
+                "metadata": 0,
+                "nbt": "{nodetype:0,Aspects:[0:{amount:40,key:\"aer\",},1:{amount:40,key:\"ignis\",},2:{amount:40,key:\"aqua\",},3:{amount:40,key:\"terra\",},],nodeid:\"\",}"
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:WandCasting",
+            "metadata": 0,
+            "nbt": "{cap:\"iron\",rod:\"wood\",}"
+          }
+        },
+        {
+          "key": "TUT_THAUMOMETER",
+          "category": "TUTORIAL",
+          "displayColumn": 15,
+          "displayRow": 0,
+          "parents": [
+            "TUT_VIS_BASICS"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "THAUMOMETER",
+            "RESEARCH"
+          ],
+          "pageCount": 12,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemThaumometer",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemThaumometer",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_SCAN",
+          "category": "TUTORIAL",
+          "displayColumn": 18,
+          "displayRow": 0,
+          "parents": [
+            "TUT_THAUMOMETER"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "RESEARCH",
+            "KNOWFRAG"
+          ],
+          "pageCount": 12,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemThaumometer",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemThaumometer",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_ASPECTS",
+          "category": "TUTORIAL",
+          "displayColumn": 21,
+          "displayRow": 0,
+          "parents": [
+            "TUT_SCAN"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ASPECTS"
+          ],
+          "pageCount": 16,
+          "icons": [
+            {
+              "resource": "thaumcraft:textures/misc/r_aspects.png"
+            }
+          ],
+          "icon_resource": "thaumcraft:textures/misc/r_aspects.png"
+        },
+        {
+          "key": "TUT_RESEARCH_TABLE",
+          "category": "TUTORIAL",
+          "displayColumn": 24,
+          "displayRow": 0,
+          "parents": [
+            "TUT_ASPECTS"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "RESTABLE",
+            "TABLE"
+          ],
+          "pageCount": 17,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemInkwell",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemInkwell",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_COMBINE",
+          "category": "TUTORIAL",
+          "displayColumn": 27,
+          "displayRow": 0,
+          "parents": [
+            "TUT_RESEARCH_TABLE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "RESEARCHER1",
+            "RESEARCHER2"
+          ],
+          "pageCount": 18,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemInkwell",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemInkwell",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_NOTES_GET",
+          "category": "TUTORIAL",
+          "displayColumn": 30,
+          "displayRow": 0,
+          "parents": [
+            "TUT_COMBINE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "RESEARCH"
+          ],
+          "pageCount": 13,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemInkwell",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemInkwell",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_NOTES_SOLVE",
+          "category": "TUTORIAL",
+          "displayColumn": 33,
+          "displayRow": 0,
+          "parents": [
+            "TUT_NOTES_GET"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "RESEARCHER1",
+            "RESEARCHER2",
+            "REVIVAL_ASPECT_RELATIONS"
+          ],
+          "pageCount": 16,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemInkwell",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemInkwell",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_RESEARCH_TYPES",
+          "category": "TUTORIAL",
+          "displayColumn": 33,
+          "displayRow": -3,
+          "parents": [
+            "TUT_NOTES_SOLVE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "KNOWFRAG",
+            "REVIVAL_LISTENING_GUIDANCE"
+          ],
+          "pageCount": 10,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemResource",
+                "metadata": 9
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemResource",
+            "metadata": 9
+          }
+        },
+        {
+          "key": "TUT_FRAGMENTS",
+          "category": "TUTORIAL",
+          "displayColumn": 33,
+          "displayRow": -6,
+          "parents": [
+            "TUT_RESEARCH_TYPES"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "KNOWFRAG",
+            "DECONSTRUCTOR"
+          ],
+          "pageCount": 9,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemResource",
+                "metadata": 9
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockTable",
+                "metadata": 14
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemResource",
+            "metadata": 9
+          }
+        },
+        {
+          "key": "TUT_RESEARCH_SKILLS",
+          "category": "TUTORIAL",
+          "displayColumn": 33,
+          "displayRow": 3,
+          "parents": [
+            "TUT_NOTES_SOLVE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "RESEARCHER1",
+            "RESEARCHER2",
+            "REVIVAL_RESEARCH_ASSISTANCE",
+            "REVIVAL_ASPECT_RELATIONS",
+            "RESEARCHDUPE"
+          ],
+          "pageCount": 9,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemInkwell",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemInkwell",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_ARCANE",
+          "category": "TUTORIAL",
+          "displayColumn": 36,
+          "displayRow": 0,
+          "parents": [
+            "TUT_NOTES_SOLVE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ARCTABLE",
+            "BASICARTIFACE",
+            "ARCANESTONE"
+          ],
+          "pageCount": 13,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandCasting",
+                "metadata": 0,
+                "nbt": "{cap:\"iron\",rod:\"wood\",}"
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:WandCasting",
+            "metadata": 0,
+            "nbt": "{cap:\"iron\",rod:\"wood\",}"
+          }
+        },
+        {
+          "key": "TUT_GOGGLES",
+          "category": "TUTORIAL",
+          "displayColumn": 36,
+          "displayRow": -3,
+          "parents": [
+            "TUT_ARCANE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "GOGGLES",
+            "ARCANEEAR",
+            "SINSTONE"
+          ],
+          "pageCount": 10,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemGoggles",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemGoggles",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_PRIMAL_CHARM",
+          "category": "TUTORIAL",
+          "displayColumn": 36,
+          "displayRow": 3,
+          "parents": [
+            "TUT_ARCANE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "BASICARTIFACE",
+            "ARCANESTONE"
+          ],
+          "pageCount": 9,
+          "icons": [
+            {
+              "item": {
+                "item": "thaumcraft:primal_charm"
+              }
+            }
+          ],
+          "icon_item": {
+            "item": "thaumcraft:primal_charm"
+          }
+        },
+        {
+          "key": "TUT_GADGETS",
+          "category": "TUTORIAL",
+          "displayColumn": 36,
+          "displayRow": 6,
+          "parents": [
+            "TUT_PRIMAL_CHARM"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "HUNGRYCHEST",
+            "GRATE",
+            "ARCANELAMP",
+            "LEVITATOR",
+            "WARDEDARCANA",
+            "ARCANEEAR"
+          ],
+          "pageCount": 6,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockChestHungry",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockWoodenDevice",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockChestHungry",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_GOLD_WAND",
+          "category": "TUTORIAL",
+          "displayColumn": 39,
+          "displayRow": 0,
+          "parents": [
+            "TUT_ARCANE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "CAP_gold",
+            "ROD_greatwood",
+            "CAP_copper",
+            "BASICTHAUMATURGY"
+          ],
+          "pageCount": 19,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandRod",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandCap",
+                "metadata": 1
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:WandRod",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_FOCUS",
+          "category": "TUTORIAL",
+          "displayColumn": 39,
+          "displayRow": -3,
+          "parents": [
+            "TUT_GOLD_WAND"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "FOCUSFIRE"
+          ],
+          "pageCount": 12,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:FocusFire",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:FocusFire",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_FOCUS_MORE",
+          "category": "TUTORIAL",
+          "displayColumn": 39,
+          "displayRow": -6,
+          "parents": [
+            "TUT_FOCUS"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "FOCUSSHOCK",
+            "FOCUSFROST",
+            "FOCUSEXCAVATION",
+            "FOCUSTRADE",
+            "FOCUSPOUCH",
+            "FOCUSPORTABLEHOLE"
+          ],
+          "pageCount": 10,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:FocusExcavation",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:FocusShock",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:FocusFrost",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:FocusPouch",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:FocusExcavation",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_ROBES",
+          "category": "TUTORIAL",
+          "displayColumn": 39,
+          "displayRow": 3,
+          "parents": [
+            "TUT_GOLD_WAND"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ENCHFABRIC",
+            "GOGGLES"
+          ],
+          "pageCount": 14,
+          "icons": [
+            {
+              "item": {
+                "item": "thaumcraft:robe_chest"
+              }
+            },
+            {
+              "item": {
+                "item": "thaumcraft:robe_legs"
+              }
+            },
+            {
+              "item": {
+                "item": "thaumcraft:robe_boots"
+              }
+            }
+          ],
+          "icon_item": {
+            "item": "thaumcraft:robe_chest"
+          }
+        },
+        {
+          "key": "TUT_CRUCIBLE",
+          "category": "TUTORIAL",
+          "displayColumn": 42,
+          "displayRow": 0,
+          "parents": [
+            "TUT_GOLD_WAND"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "CRUCIBLE"
+          ],
+          "pageCount": 11,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockMetalDevice",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockMetalDevice",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_CRUCIBLE_RECIPE",
+          "category": "TUTORIAL",
+          "displayColumn": 45,
+          "displayRow": 0,
+          "parents": [
+            "TUT_CRUCIBLE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "NITOR",
+            "ALUMENTUM",
+            "TALLOW"
+          ],
+          "pageCount": 15,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemResource",
+                "metadata": 1
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemResource",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemResource",
+            "metadata": 1
+          }
+        },
+        {
+          "key": "TUT_CRUCIBLE_MORE",
+          "category": "TUTORIAL",
+          "displayColumn": 45,
+          "displayRow": -3,
+          "parents": [
+            "TUT_CRUCIBLE_RECIPE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "TALLOW",
+            "ALCHEMICALDUPLICATION",
+            "ALCHEMICALMANUFACTURE",
+            "ENTROPICPROCESSING",
+            "PHIAL"
+          ],
+          "pageCount": 12,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemResource",
+                "metadata": 4
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemResource",
+                "metadata": 2,
+                "ore": "ingotThaumium"
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemResource",
+            "metadata": 4
+          }
+        },
+        {
+          "key": "TUT_FLUX",
+          "category": "TUTORIAL",
+          "displayColumn": 42,
+          "displayRow": 3,
+          "parents": [
+            "TUT_CRUCIBLE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "WARP",
+            "FLUXSCRUB"
+          ],
+          "pageCount": 8,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemBucketDeath",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemBucketDeath",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_TAINT",
+          "category": "TUTORIAL",
+          "displayColumn": 42,
+          "displayRow": 6,
+          "parents": [
+            "TUT_FLUX"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ETHEREALBLOOM",
+            "BOTTLETAINT"
+          ],
+          "pageCount": 11,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemBottleTaint",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemBottleTaint",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_GOLEM_FIRST",
+          "category": "TUTORIAL",
+          "displayColumn": 45,
+          "displayRow": 3,
+          "parents": [
+            "TUT_CRUCIBLE_RECIPE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "HUNGRYCHEST",
+            "GOLEMSTRAW",
+            "GOLEMBELL",
+            "COREGATHER"
+          ],
+          "pageCount": 11,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemGolemPlacer",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemGolemPlacer",
+                "metadata": 1
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemGolemPlacer",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_GOLEM_CORES",
+          "category": "TUTORIAL",
+          "displayColumn": 45,
+          "displayRow": 6,
+          "parents": [
+            "TUT_GOLEM_FIRST"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "COREHARVEST",
+            "COREFILL",
+            "COREEMPTY",
+            "COREGUARD",
+            "CORELIQUID",
+            "COREUSE",
+            "CORESORTING"
+          ],
+          "pageCount": 9,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemGolemCore",
+                "metadata": 3
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemGolemCore",
+                "metadata": 2
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemGolemCore",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemGolemCore",
+                "metadata": 1
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemGolemCore",
+            "metadata": 3
+          }
+        },
+        {
+          "key": "TUT_GOLEM_UPGRADE",
+          "category": "TUTORIAL",
+          "displayColumn": 45,
+          "displayRow": 9,
+          "parents": [
+            "TUT_GOLEM_CORES"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "GOLEMWOOD",
+            "GOLEMCLAY",
+            "GOLEMSTONE",
+            "GOLEMIRON",
+            "UPGRADEAIR",
+            "ADVANCEDGOLEM"
+          ],
+          "pageCount": 9,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemGolemUpgrade",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemGolemUpgrade",
+                "metadata": 1
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemGolemUpgrade",
+                "metadata": 4
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemGolemUpgrade",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_THAUMIUM",
+          "category": "TUTORIAL",
+          "displayColumn": 48,
+          "displayRow": 0,
+          "parents": [
+            "TUT_CRUCIBLE_RECIPE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "THAUMIUM"
+          ],
+          "pageCount": 14,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemResource",
+                "metadata": 2,
+                "ore": "ingotThaumium"
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemResource",
+            "metadata": 2,
+            "ore": "ingotThaumium"
+          }
+        },
+        {
+          "key": "TUT_TRANSMUTE",
+          "category": "TUTORIAL",
+          "displayColumn": 48,
+          "displayRow": -3,
+          "parents": [
+            "TUT_THAUMIUM"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "PUREIRON",
+            "PUREGOLD",
+            "TRANSIRON",
+            "TRANSGOLD",
+            "TRANSCOPPER"
+          ],
+          "pageCount": 9,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemNugget",
+                "metadata": 0,
+                "ore": "nuggetIron"
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemNugget",
+            "metadata": 0,
+            "ore": "nuggetIron"
+          }
+        },
+        {
+          "key": "TUT_THAUMIUM_GEAR",
+          "category": "TUTORIAL",
+          "displayColumn": 48,
+          "displayRow": 3,
+          "parents": [
+            "TUT_THAUMIUM"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "THAUMIUM",
+            "ELEMENTALPICK",
+            "ARMORFORTRESS"
+          ],
+          "pageCount": 10,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemResource",
+                "metadata": 2,
+                "ore": "ingotThaumium"
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemResource",
+            "metadata": 2,
+            "ore": "ingotThaumium"
+          }
+        },
+        {
+          "key": "TUT_ELEMENTAL_TOOLS",
+          "category": "TUTORIAL",
+          "displayColumn": 51,
+          "displayRow": 3,
+          "parents": [
+            "TUT_THAUMIUM_GEAR"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ELEMENTALPICK",
+            "ELEMENTALAXE",
+            "ELEMENTALSHOVEL",
+            "ELEMENTALSWORD",
+            "ELEMENTALHOE"
+          ],
+          "pageCount": 8,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemPickaxeElemental",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemAxeElemental",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemShovelElemental",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemSwordElemental",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemPickaxeElemental",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_FORTRESS",
+          "category": "TUTORIAL",
+          "displayColumn": 48,
+          "displayRow": 6,
+          "parents": [
+            "TUT_THAUMIUM_GEAR"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ARMORFORTRESS",
+            "HELMGOGGLES",
+            "MASKGRINNINGDEVIL"
+          ],
+          "pageCount": 8,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemHelmetFortress",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemHelmetFortress",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_DISTILL",
+          "category": "TUTORIAL",
+          "displayColumn": 51,
+          "displayRow": 0,
+          "parents": [
+            "TUT_THAUMIUM"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "DISTILESSENTIA"
+          ],
+          "pageCount": 15,
+          "icons": [
+            {
+              "item": {
+                "item": "thaumcraft:alchemy_furnace"
+              }
+            },
+            {
+              "item": {
+                "item": "thaumcraft:alembic"
+              }
+            }
+          ],
+          "icon_item": {
+            "item": "thaumcraft:alchemy_furnace"
+          }
+        },
+        {
+          "key": "TUT_JARS",
+          "category": "TUTORIAL",
+          "displayColumn": 54,
+          "displayRow": 0,
+          "parents": [
+            "TUT_DISTILL"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "JARLABEL",
+            "TUBES",
+            "PHIAL"
+          ],
+          "pageCount": 16,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockJar",
+                "metadata": 3
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockJar",
+            "metadata": 3
+          }
+        },
+        {
+          "key": "TUT_ESSENTIA_LOGISTICS",
+          "category": "TUTORIAL",
+          "displayColumn": 54,
+          "displayRow": -3,
+          "parents": [
+            "TUT_JARS"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "TUBEFILTER",
+            "CENTRIFUGE",
+            "ESSENTIACRYSTAL",
+            "JARVOID"
+          ],
+          "pageCount": 9,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockTube",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockTube",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_THAUMATORIUM",
+          "category": "TUTORIAL",
+          "displayColumn": 54,
+          "displayRow": -6,
+          "parents": [
+            "TUT_ESSENTIA_LOGISTICS"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "THAUMATORIUM"
+          ],
+          "pageCount": 8,
+          "icons": [
+            {
+              "resource": "thaumcraft:textures/blocks/alchemyblock.png"
+            }
+          ],
+          "icon_resource": "thaumcraft:textures/blocks/alchemyblock.png"
+        },
+        {
+          "key": "TUT_NODE_JAR",
+          "category": "TUTORIAL",
+          "displayColumn": 54,
+          "displayRow": 3,
+          "parents": [
+            "TUT_JARS"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "NODEPRESERVE",
+            "NODEJAR"
+          ],
+          "pageCount": 11,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:BlockJarNodeItem",
+                "metadata": 0,
+                "nbt": "{nodetype:0,Aspects:[0:{amount:40,key:\"aer\",},1:{amount:40,key:\"ignis\",},2:{amount:40,key:\"aqua\",},3:{amount:40,key:\"terra\",},],nodeid:\"\",}"
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:BlockJarNodeItem",
+            "metadata": 0,
+            "nbt": "{nodetype:0,Aspects:[0:{amount:40,key:\"aer\",},1:{amount:40,key:\"ignis\",},2:{amount:40,key:\"aqua\",},3:{amount:40,key:\"terra\",},],nodeid:\"\",}"
+          }
+        },
+        {
+          "key": "TUT_INFUSION_ALTAR",
+          "category": "TUTORIAL",
+          "displayColumn": 57,
+          "displayRow": 0,
+          "parents": [
+            "TUT_JARS"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "INFUSION"
+          ],
+          "pageCount": 15,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockStoneDevice",
+                "metadata": 2
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockStoneDevice",
+            "metadata": 2
+          }
+        },
+        {
+          "key": "TUT_INFUSION_RUN",
+          "category": "TUTORIAL",
+          "displayColumn": 60,
+          "displayRow": 0,
+          "parents": [
+            "TUT_INFUSION_ALTAR"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "INFUSION",
+            "BOOTSTRAVELLER",
+            "ROD_silverwood",
+            "CAP_thaumium"
+          ],
+          "pageCount": 16,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:BootsTraveller",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:BootsTraveller",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_INSTABILITY",
+          "category": "TUTORIAL",
+          "displayColumn": 60,
+          "displayRow": -3,
+          "parents": [
+            "TUT_INFUSION_RUN"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "INFUSION",
+            "TALLOW"
+          ],
+          "pageCount": 10,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockStoneDevice",
+                "metadata": 2
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockStoneDevice",
+            "metadata": 2
+          }
+        },
+        {
+          "key": "TUT_INFUSION_ENCHANT",
+          "category": "TUTORIAL",
+          "displayColumn": 60,
+          "displayRow": -6,
+          "parents": [
+            "TUT_INSTABILITY"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "JARBRAIN",
+            "INFUSIONENCHANTMENT"
+          ],
+          "pageCount": 9,
+          "icons": [
+            {
+              "resource": "thaumcraft:textures/misc/r_enchant.png"
+            }
+          ],
+          "icon_resource": "thaumcraft:textures/misc/r_enchant.png"
+        },
+        {
+          "key": "TUT_TRAVEL_GEAR",
+          "category": "TUTORIAL",
+          "displayColumn": 57,
+          "displayRow": -3,
+          "parents": [
+            "TUT_INFUSION_ALTAR"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "BOOTSTRAVELLER",
+            "HOVERHARNESS",
+            "HOVERGIRDLE",
+            "MIRROR"
+          ],
+          "pageCount": 9,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:HoverHarness",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:BootsTraveller",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:HoverHarness",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_RUNIC",
+          "category": "TUTORIAL",
+          "displayColumn": 57,
+          "displayRow": -6,
+          "parents": [
+            "TUT_TRAVEL_GEAR"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "RUNICARMOR",
+            "RUNICCHARGED",
+            "RUNICHEALING",
+            "RUNICKINETIC",
+            "RUNICEMERGENCY",
+            "RUNICAUGMENTATION"
+          ],
+          "pageCount": 8,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemRingRunic",
+                "metadata": 1
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemRingRunic",
+            "metadata": 1
+          }
+        },
+        {
+          "key": "TUT_SILVER_WAND",
+          "category": "TUTORIAL",
+          "displayColumn": 63,
+          "displayRow": 0,
+          "parents": [
+            "TUT_INFUSION_RUN"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ROD_silverwood",
+            "CAP_thaumium",
+            "SCEPTRE",
+            "ENCHFABRIC",
+            "GOGGLES"
+          ],
+          "pageCount": 24,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandRod",
+                "metadata": 2
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandCap",
+                "metadata": 2
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:WandRod",
+            "metadata": 2
+          }
+        },
+        {
+          "key": "TUT_SCEPTRE",
+          "category": "TUTORIAL",
+          "displayColumn": 63,
+          "displayRow": -3,
+          "parents": [
+            "TUT_SILVER_WAND"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "SCEPTRE",
+            "BASICARTIFACE"
+          ],
+          "pageCount": 10,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandCasting",
+                "metadata": 81,
+                "nbt": "{cap:\"thaumium\",rod:\"silverwood\",sceptre:1b,}"
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:WandCasting",
+            "metadata": 81,
+            "nbt": "{cap:\"thaumium\",rod:\"silverwood\",sceptre:1b,}"
+          }
+        },
+        {
+          "key": "TUT_SPECIAL_RODS",
+          "category": "TUTORIAL",
+          "displayColumn": 63,
+          "displayRow": 3,
+          "parents": [
+            "TUT_SILVER_WAND"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ROD_greatwood_staff",
+            "ROD_silverwood_staff",
+            "ROD_blaze",
+            "ROD_obsidian",
+            "ROD_ice",
+            "ROD_quartz",
+            "ROD_reed",
+            "ROD_bone"
+          ],
+          "pageCount": 7,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandRod",
+                "metadata": 50
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandRod",
+                "metadata": 57
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandRod",
+                "metadata": 56
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandRod",
+                "metadata": 53
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:WandRod",
+            "metadata": 50
+          }
+        },
+        {
+          "key": "TUT_NODE_STABILIZER",
+          "category": "TUTORIAL",
+          "displayColumn": 57,
+          "displayRow": 3,
+          "parents": [
+            "TUT_NODE_JAR"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "NODESTABILIZER",
+            "NODESTABILIZERADV"
+          ],
+          "pageCount": 9,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockStoneDevice",
+                "metadata": 9
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockStoneDevice",
+            "metadata": 9
+          }
+        },
+        {
+          "key": "TUT_ENERGIZED_NODE",
+          "category": "TUTORIAL",
+          "displayColumn": 57,
+          "displayRow": 6,
+          "parents": [
+            "TUT_NODE_STABILIZER"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "VISPOWER",
+            "VISCHARGERELAY",
+            "INFERNALFURNACE"
+          ],
+          "pageCount": 17,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockStoneDevice",
+                "metadata": 11
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockStoneDevice",
+            "metadata": 11
+          }
+        },
+        {
+          "key": "TUT_WAND_PEDESTAL",
+          "category": "TUTORIAL",
+          "displayColumn": 60,
+          "displayRow": 3,
+          "parents": [
+            "TUT_INFUSION_RUN",
+            "TUT_NODE_STABILIZER"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "WANDPED",
+            "WANDPEDFOC",
+            "VISAMULET",
+            "VISCHARGERELAY"
+          ],
+          "pageCount": 13,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockStoneDevice",
+                "metadata": 5
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockStoneDevice",
+            "metadata": 5
+          }
+        },
+        {
+          "key": "TUT_FOCAL_MANIP",
+          "category": "TUTORIAL",
+          "displayColumn": 60,
+          "displayRow": 6,
+          "parents": [
+            "TUT_ENERGIZED_NODE"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "FOCALMANIPULATION"
+          ],
+          "pageCount": 8,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:blockStoneDevice",
+                "metadata": 13
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:blockStoneDevice",
+            "metadata": 13
+          }
+        },
+        {
+          "key": "TUT_WARP",
+          "category": "TUTORIAL",
+          "displayColumn": 66,
+          "displayRow": 0,
+          "parents": [
+            "TUT_SILVER_WAND"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "WARP",
+            "BATHSALTS",
+            "ELDRITCHMINOR"
+          ],
+          "pageCount": 13,
+          "icons": [
+            {
+              "resource": "thaumcraft:textures/misc/r_warp.png"
+            }
+          ],
+          "icon_resource": "thaumcraft:textures/misc/r_warp.png"
+        },
+        {
+          "key": "TUT_WARP_CONTROL",
+          "category": "TUTORIAL",
+          "displayColumn": 66,
+          "displayRow": -3,
+          "parents": [
+            "TUT_WARP"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "BATHSALTS",
+            "SANESOAP",
+            "ARCANESPA",
+            "SANITYCHECK"
+          ],
+          "pageCount": 11,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemBathSalts",
+                "metadata": 0
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemSanityChecker",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemBathSalts",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_ELDRITCH_MINOR",
+          "category": "TUTORIAL",
+          "displayColumn": 69,
+          "displayRow": 0,
+          "parents": [
+            "TUT_WARP"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ELDRITCHMINOR",
+            "VOIDMETAL",
+            "SANITYCHECK",
+            "FOCUSPRIMAL"
+          ],
+          "pageCount": 10,
+          "icons": [
+            {
+              "resource": "thaumcraft:textures/misc/r_eldritchminor.png"
+            }
+          ],
+          "icon_resource": "thaumcraft:textures/misc/r_eldritchminor.png"
+        },
+        {
+          "key": "TUT_VOID_GEAR",
+          "category": "TUTORIAL",
+          "displayColumn": 69,
+          "displayRow": -3,
+          "parents": [
+            "TUT_ELDRITCH_MINOR"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "VOIDMETAL",
+            "CAP_void",
+            "ESSENTIARESERVOIR"
+          ],
+          "pageCount": 11,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemResource",
+                "metadata": 16,
+                "ore": "ingotVoid"
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:WandCap",
+                "metadata": 7
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemResource",
+            "metadata": 16,
+            "ore": "ingotVoid"
+          }
+        },
+        {
+          "key": "TUT_VOID_ROBES",
+          "category": "TUTORIAL",
+          "displayColumn": 69,
+          "displayRow": -6,
+          "parents": [
+            "TUT_VOID_GEAR"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ARMORVOIDFORTRESS"
+          ],
+          "pageCount": 7,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemHelmetVoidFortress",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemHelmetVoidFortress",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_CRIMSON",
+          "category": "TUTORIAL",
+          "displayColumn": 72,
+          "displayRow": 0,
+          "parents": [
+            "TUT_ELDRITCH_MINOR"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "CRIMSON"
+          ],
+          "pageCount": 10,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemEldritchObject",
+                "metadata": 1
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemEldritchObject",
+            "metadata": 1
+          }
+        },
+        {
+          "key": "TUT_OCULUS",
+          "category": "TUTORIAL",
+          "displayColumn": 75,
+          "displayRow": 0,
+          "parents": [
+            "TUT_CRIMSON"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "OCULUS",
+            "ELDRITCHMAJOR"
+          ],
+          "pageCount": 13,
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemEldritchObject",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemEldritchObject",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_OUTER",
+          "category": "TUTORIAL",
+          "displayColumn": 78,
+          "displayRow": 0,
+          "parents": [
+            "TUT_OCULUS",
+            "ELDRITCHMINOR"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ENTEROUTER",
+            "OUTERREV"
+          ],
+          "pageCount": 11,
+          "parentMirrors": {
+            "ELDRITCHMINOR": "TUT_OUTER_PREREQUISITE_1"
+          },
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemEldritchObject",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemEldritchObject",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_OUTER_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 77,
+          "displayRow": -1,
+          "mirrorOf": "ELDRITCHMINOR",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0
+        },
+        {
+          "key": "TUT_BOSS",
+          "category": "TUTORIAL",
+          "displayColumn": 81,
+          "displayRow": 0,
+          "parents": [
+            "TUT_OUTER",
+            "ELDRITCHMINOR"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "PRIMPEARL",
+            "PRIMNODE"
+          ],
+          "pageCount": 7,
+          "parentMirrors": {
+            "ELDRITCHMINOR": "TUT_BOSS_PREREQUISITE_1"
+          },
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": false,
+                "item": "Thaumcraft:ItemEldritchObject",
+                "metadata": 3
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": false,
+            "item": "Thaumcraft:ItemEldritchObject",
+            "metadata": 3
+          }
+        },
+        {
+          "key": "TUT_BOSS_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 80,
+          "displayRow": -1,
+          "mirrorOf": "ELDRITCHMINOR",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0
+        },
+        {
+          "key": "TUT_GRADUATE",
+          "category": "TUTORIAL",
+          "displayColumn": 84,
+          "displayRow": 0,
+          "parents": [
+            "TUT_BOSS",
+            "PRIMPEARL"
+          ],
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "isTutorial": true,
+          "suggestedResearch": [
+            "PRIMALCRUSHER",
+            "ROD_primal_staff",
+            "PRIMNODE",
+            "ADVALCHEMYFURNACE",
+            "ESSENTIARESERVOIR",
+            "REVIVAL_RESEARCH_CONNECTIONS"
+          ],
+          "pageCount": 9,
+          "parentMirrors": {
+            "PRIMPEARL": "TUT_GRADUATE_PREREQUISITE_1"
+          },
+          "icons": [
+            {
+              "item": {
+                "count": 1,
+                "damageable": true,
+                "item": "Thaumcraft:ItemPrimalCrusher",
+                "metadata": 0
+              }
+            }
+          ],
+          "icon_item": {
+            "count": 1,
+            "damageable": true,
+            "item": "Thaumcraft:ItemPrimalCrusher",
+            "metadata": 0
+          }
+        },
+        {
+          "key": "TUT_GRADUATE_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 83,
+          "displayRow": -1,
+          "mirrorOf": "PRIMPEARL",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0
+        }
+      ]
+    }
+  ]
+}

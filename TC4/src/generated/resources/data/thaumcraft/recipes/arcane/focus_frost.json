@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "thaumcraft:water_shard"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "CQC",
+    "Q#Q",
+    "CQC"
+  ],
+  "research": "FOCUSFROST",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:focus_frost"
+  },
+  "vis": {
+    "aqua": 10,
+    "ordo": 10,
+    "perditio": 10
+  }
+}

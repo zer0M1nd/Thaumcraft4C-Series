@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "W": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    "GWG",
+    "G G",
+    "GGG"
+  ],
+  "research": "DISTILESSENTIA",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:essentia_jar"
+  },
+  "vis": {
+    "aqua": 1
+  }
+}

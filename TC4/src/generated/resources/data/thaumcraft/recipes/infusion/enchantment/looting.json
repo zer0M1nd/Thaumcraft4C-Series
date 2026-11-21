@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "lucrum": 8,
+    "praecantatio": 4,
+    "telum": 4
+  },
+  "base_xp": 5,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:looting",
+  "instability": 3,
+  "legacy_order": 84,
+  "research": "INFUSIONENCHANTMENT"
+}

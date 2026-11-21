@@ -1,0 +1,126 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#base"
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#base"
+        },
+        "north": {
+          "cullface": "north",
+          "texture": "#base"
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#base"
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#base"
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#base"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#backing"
+        },
+        "east": {
+          "texture": "#backing"
+        },
+        "north": {
+          "texture": "#backing"
+        },
+        "south": {
+          "texture": "#backing"
+        },
+        "up": {
+          "texture": "#backing"
+        },
+        "west": {
+          "texture": "#backing"
+        }
+      },
+      "from": [
+        0.09,
+        0.09,
+        0.09
+      ],
+      "to": [
+        15.91,
+        15.91,
+        15.91
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#overlay",
+          "tintindex": 0
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#overlay",
+          "tintindex": 0
+        },
+        "north": {
+          "cullface": "north",
+          "texture": "#overlay",
+          "tintindex": 0
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#overlay",
+          "tintindex": 0
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#overlay",
+          "tintindex": 0
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#overlay",
+          "tintindex": 0
+        }
+      },
+      "from": [
+        0.08,
+        0.08,
+        0.08
+      ],
+      "to": [
+        15.92,
+        15.92,
+        15.92
+      ]
+    }
+  ],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "backing": "minecraft:block/stone",
+    "base": "thaumcraft:block/infusedorestone",
+    "overlay": "thaumcraft:block/infusedore",
+    "particle": "#base"
+  }
+}

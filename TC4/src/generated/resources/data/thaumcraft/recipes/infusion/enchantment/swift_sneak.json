@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "motus": 24,
+    "praecantatio": 16,
+    "sensus": 16
+  },
+  "base_xp": 8,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:sculk"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:swift_sneak",
+  "instability": 5,
+  "legacy_order": 97,
+  "research": "INFUSIONENCHANTMENT"
+}

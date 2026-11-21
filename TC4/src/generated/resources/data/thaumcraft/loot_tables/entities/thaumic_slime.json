@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "chance": 0.33333334,
+          "condition": "minecraft:random_chance"
+        },
+        {
+          "condition": "thaumcraft:entity_state",
+          "state": "small_slime"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:tainted_goo"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

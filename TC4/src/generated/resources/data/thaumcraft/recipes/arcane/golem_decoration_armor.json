@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "I I",
+    "IAI"
+  ],
+  "research": "TINYARMOR",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:golem_decoration_armor"
+  },
+  "vis": {
+    "terra": 8
+  }
+}

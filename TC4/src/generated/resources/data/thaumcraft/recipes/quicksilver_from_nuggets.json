@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "thaumcraft:quicksilver_drop"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "result": {
+    "item": "thaumcraft:quicksilver"
+  },
+  "show_notification": true
+}

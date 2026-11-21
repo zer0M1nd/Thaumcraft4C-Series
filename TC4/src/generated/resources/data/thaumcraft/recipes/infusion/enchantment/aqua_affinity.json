@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aqua": 8,
+    "motus": 8,
+    "praecantatio": 4
+  },
+  "base_xp": 1,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:sugar_cane"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:aqua_affinity",
+  "instability": 2,
+  "legacy_order": 77,
+  "research": "INFUSIONENCHANTMENT"
+}

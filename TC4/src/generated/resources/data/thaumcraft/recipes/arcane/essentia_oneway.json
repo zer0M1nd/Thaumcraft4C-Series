@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "ingredients": [
+    {
+      "item": "thaumcraft:essentia_tube"
+    },
+    {
+      "tag": "forge:dyes/blue"
+    }
+  ],
+  "mode": "shapeless",
+  "research": "TUBEFILTER",
+  "result": {
+    "item": "thaumcraft:essentia_oneway"
+  },
+  "vis": {
+    "aqua": 5,
+    "ordo": 8,
+    "perditio": 8
+  }
+}

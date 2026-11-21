@@ -1,0 +1,197 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'net.minecraftforge.gradle' version '6.0.42'
+}
+
+version = mod_version
+group = mod_group_id
+base.archivesName = 'Thaumcraft-4-Modern-Port'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.withSourcesJar()
+
+apply from: 'gradle/external-resource-isolation.gradle'
+
+// Keep a running manual-test client independent of subsequent server/resource builds.
+if (providers.gradleProperty('tc4BuildDirectory').isPresent()) {
+    layout.buildDirectory.set(file(providers.gradleProperty('tc4BuildDirectory').get()))
+}
+
+minecraft {
+    mappings channel: mapping_channel, version: mapping_version
+    copyIdeResources = true
+    runs {
+        configureEach {
+            args '--mixin.config', 'tc4revival.mixins.json'
+            property 'forge.logging.console.level', 'info'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+            mods {
+                thaumcraft { source sourceSets.main }
+            }
+        }
+        client {
+            workingDirectory project.file(providers.gradleProperty('tc4ClientDirectory').getOrElse('run-client'))
+            args '--username', 'TC4Tester', '--width', '1280', '--height', '720'
+            jvmArgs '-Xmx3G'
+        }
+        server {
+            workingDirectory project.file(providers.gradleProperty('tc4ServerDirectory').getOrElse('run-server'))
+            args '--nogui'
+            jvmArgs "-Xmx${providers.gradleProperty('tc4ServerHeap').getOrElse('2G')}"
+            if (providers.gradleProperty('tc4ServerClassLog').isPresent()) {
+                jvmArgs "-Xlog:class+load=info:file=${providers.gradleProperty('tc4ServerClassLog').get()}"
+            }
+        }
+        gameTestServer {
+            workingDirectory project.file('run-gametest')
+            property 'forge.enabledGameTestNamespaces', mod_id
+        }
+        data {
+            workingDirectory project.file('run-data')
+            property 'tc4revival.legacyBaseline', file('docs/legacy-baseline/2026-09-08').absolutePath
+            property 'tc4revival.researchBaseline', file('docs/legacy-baseline/2026-09-09-copper').absolutePath
+            property 'tc4revival.legacyResources', file('references/resources').absolutePath
+            args '--mod', mod_id, '--all', '--output', file('src/generated/resources'),
+                    '--existing', file('src/main/resources')
+        }
+    }
+}
+
+// Pinned source distribution from ThaumcraftUpdater: both tools ship the same native screen and
+// queue, including when installed independently. Relocation avoids Forge split packages.
+def startupDownloads = tasks.register('prepareStartupDownloadSources', Sync) {
+    from(zipTree(file('libs/startup-download-sources.zip'))) {
+        include '**/*.java'
+        eachFile { it.path = it.path.replace('dev/tc4/download','tc4revival/download') }
+        filter { line -> line.replace('dev.tc4.download','tc4revival.download') }
+    }
+    filteringCharset = 'UTF-8'
+    includeEmptyDirs = false
+    into layout.buildDirectory.dir('generated/startupDownloads')
+}
+sourceSets.main.java.srcDir(startupDownloads)
+
+sourceSets.main.resources {
+    srcDir 'src/generated/resources'
+    exclude '.cache/**'
+}
+sourceSets.test.resources {
+    srcDir 'docs/legacy-baseline/2026-09-08'
+    exclude 'research-catalog.json', 'research-pages.json', 'research-page-recipes.json'
+}
+tasks.named('processTestResources') {
+    from('docs/legacy-baseline/2026-09-09-copper') {
+        include 'research-catalog.json', 'research-pages.json', 'research-page-recipes.json'
+    }
+}
+
+repositories {
+    maven {
+        name = 'Modrinth'
+        url = 'https://api.modrinth.com/maven'
+        content { includeGroup 'maven.modrinth' }
+    }
+    maven {
+        name = 'Curios'
+        url = 'https://maven.theillusivec4.top/'
+        content { includeGroup 'top.theillusivec4.curios' }
+    }
+}
+
+dependencies {
+    // Official Forge 1.20.1 / TerraBlender 3.0.1.7 release; not embedded in our jar.
+    implementation fg.deobf("maven.modrinth:terrablender:${terrablender_version_id}")
+    compileOnly files('libs/jei-1.20.1-common-api-15.20.0.106.jar','libs/jei-1.20.1-forge-api-15.20.0.106.jar')
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api")
+    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
+    testImplementation platform('org.junit:junit-bom:5.10.3')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation files('libs/jei-1.20.1-common-api-15.20.0.106.jar')
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('processResources', ProcessResources) {
+    filteringCharset = 'UTF-8'
+    def metadata = [mod_id: mod_id, mod_name: mod_name, mod_version: mod_version]
+    inputs.properties metadata
+    filesMatching('META-INF/mods.toml') { expand metadata }
+    duplicatesStrategy = DuplicatesStrategy.FAIL
+    exclude '.cache/**'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+}
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+tasks.named('test', Test) {
+    useJUnitPlatform()
+    testLogging { events 'passed', 'skipped', 'failed' }
+}
+tasks.named('jar', Jar) {
+    manifest.attributes('Implementation-Title': mod_name, 'Implementation-Version': mod_version, 'MixinConfigs': 'tc4revival.mixins.json')
+    finalizedBy 'reobfJar'
+}
+
+// Fail before packaging if manual assets and generated data claim the same path.
+tasks.register('verifyResourceIsolation') {
+    inputs.dir 'src/main/resources'
+    inputs.dir 'src/generated/resources'
+    doLast {
+        def manualRoot = file('src/main/resources').toPath()
+        def generatedRoot = file('src/generated/resources').toPath()
+        def manualPaths = fileTree(manualRoot).files.collect { manualRoot.relativize(it.toPath()).toString() }.toSet()
+        def collisions = fileTree(generatedRoot).matching { exclude '.cache/**' }.files
+                .collect { generatedRoot.relativize(it.toPath()).toString() }.findAll { manualPaths.contains(it) }
+        if (!collisions.empty) { throw new GradleException("Resource paths overlap: ${collisions}") }
+    }
+}
+tasks.named('processResources') { dependsOn 'verifyResourceIsolation' }
+tasks.named('check') { dependsOn 'verifyResourceIsolation' }
+
+// Validate the shipped (reobfuscated) artifact, including inner classes used only by client effects.
+tasks.register('verifyDistributionClasses') {
+    dependsOn 'jar', 'reobfJar'
+    doLast {
+        new java.util.zip.ZipFile(tasks.named('jar').get().archiveFile.get().asFile).withCloseable { zip ->
+            sourceSets.main.output.classesDirs.files.each { root ->
+                fileTree(root).matching { include '**/*.class' }.files.each { compiled ->
+                    def name=root.toPath().relativize(compiled.toPath()).toString().replace('\\','/')
+                    if (zip.getEntry(name)==null) throw new GradleException("Compiled class missing from distribution: ${name}")
+                }
+            }
+            fileTree('src/main/java').matching { include '**/*.java' }.files.each { source ->
+                def name=file('src/main/java').toPath().relativize(source.toPath()).toString().replace('\\','/').replaceFirst('\\.java$', '.class')
+                if (zip.getEntry(name)==null) throw new GradleException("Source class missing from distribution: ${name}")
+            }
+        }
+    }
+}
+tasks.named('verifyExternalResourceArchives') { dependsOn 'verifyDistributionClasses' }
+
+// JavaExec otherwise gives the dedicated server an empty console input stream.
+tasks.withType(JavaExec).configureEach {
+    if (name == 'runServer') { standardInput = System.in }
+}
+
+// Opt-in real addon fixture. Never enters the production mod or source artifact.
+if (providers.gradleProperty('tc4AddonFixture').isPresent()) {
+    sourceSets {
+        addonFixture {
+            compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+            runtimeClasspath += output + compileClasspath
+        }
+    }
+    minecraft.runs.server.mods { example_addon { source sourceSets.addonFixture } }
+}
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+    }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 64,
+    "praecantatio": 55,
+    "tutamen": 33
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:runic_girdle"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:splash_potion"
+      },
+      "nbt": "{Potion:\"minecraft:strong_harming\"}"
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    }
+  ],
+  "instability": 7,
+  "legacy_order": 52,
+  "research": "RUNICKINETIC",
+  "result": {
+    "item": "thaumcraft:runic_girdle_kinetic"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "permutatio": 16,
+    "praecantatio": 12,
+    "telum": 16
+  },
+  "base_xp": 6,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:arrow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:arrow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:multishot",
+  "instability": 4,
+  "legacy_order": 107,
+  "research": "INFUSIONENCHANTMENT"
+}

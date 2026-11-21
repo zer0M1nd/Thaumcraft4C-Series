@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "cognitio": 32,
+    "fabrico": 24,
+    "praecantatio": 32
+  },
+  "base_xp": 10,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:anvil"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:mending",
+  "instability": 6,
+  "legacy_order": 99,
+  "research": "INFUSIONENCHANTMENT"
+}

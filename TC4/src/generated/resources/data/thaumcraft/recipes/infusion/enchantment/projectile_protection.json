@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "praecantatio": 4,
+    "tutamen": 4,
+    "volatus": 4
+  },
+  "base_xp": 1,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:arrow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:projectile_protection",
+  "instability": 1,
+  "legacy_order": 74,
+  "research": "INFUSIONENCHANTMENT"
+}

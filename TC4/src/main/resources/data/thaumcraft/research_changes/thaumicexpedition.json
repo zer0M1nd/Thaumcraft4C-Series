@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicexpedition:hidden_aspects",
+      "research": "ASPECTS",
+      "kind": "integration",
+      "provider": "thaumicexpedition",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘远征",
+          "en_us": "Thaumic Expedition"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "来自神秘远征的修改：隐藏要素在完成对应认知研究前不可见；常规源质生产和随机原始要素选择排除隐藏要素。",
+          "en_us": "Thaumic Expedition hides special aspects until their recognition research is complete and excludes them from ordinary essentia production and random primal selection."
+        }
+      }
+    },
+    {
+      "id": "thaumicexpedition:incremental_scan",
+      "research": "THAUMOMETER",
+      "kind": "integration",
+      "provider": "thaumicexpedition",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘远征",
+          "en_us": "Thaumic Expedition"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "来自神秘远征的修改：解锁隐藏要素后需重新扫描目标；奖励逐要素记录，不会重复获得已扫描要素的点数。",
+          "en_us": "Thaumic Expedition requires rescanning after hidden-aspect recognition; rewards are tracked per aspect without repeating previously awarded points."
+        }
+      }
+    },
+    {
+      "id": "thaumicexpedition:node_visible_aspect",
+      "research": "ORE",
+      "kind": "integration",
+      "provider": "thaumicexpedition",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘远征",
+          "en_us": "Thaumic Expedition"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "来自神秘远征的修改：自然节点若只含隐藏要素，会补入可见的风要素。",
+          "en_us": "Thaumic Expedition adds visible Aer to natural nodes that would otherwise contain only hidden aspects."
+        }
+      }
+    },
+    {
+      "id": "thaumicexpedition:hidden_production",
+      "research": "DISTILESSENTIA",
+      "kind": "integration",
+      "provider": "thaumicexpedition",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘远征",
+          "en_us": "Thaumic Expedition"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "来自神秘远征的修改：常规源质生产不会产出隐藏要素；其获取遵守远征的独立机制。",
+          "en_us": "Thaumic Expedition excludes hidden aspects from ordinary essentia production; they follow Expedition’s separate acquisition rules."
+        }
+      }
+    }
+  ]
+}

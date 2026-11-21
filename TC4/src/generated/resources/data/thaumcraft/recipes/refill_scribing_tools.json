@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "thaumcraft:scribing_tools"
+    },
+    [
+      {
+        "tag": "forge:dyes/black"
+      },
+      {
+        "item": "minecraft:ink_sac"
+      }
+    ]
+  ],
+  "result": {
+    "item": "thaumcraft:scribing_tools"
+  }
+}

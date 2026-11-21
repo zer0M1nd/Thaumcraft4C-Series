@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "automagy:mirror_binding_text",
+      "research": "automagy:AUTOHANDMIRROR",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "Automagy.research_page.AUTOHANDMIRROR.2",
+        "tc.research_page.automagy:AUTOHANDMIRROR.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "一旦连接完成,符文名单就不能放入了",
+          "replace": {
+            "text": "只有完成连接后,才能放入符文名单"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "automagy:lure_distance_text",
+      "research": "automagy:DIMENSIONLURE",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "Automagy.research_page.DIMENSIONLURE.2",
+        "tc.research_page.automagy:DIMENSIONLURE.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "6~8格",
+          "replace": {
+            "text": "6~10格"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "automagy:lure_runes_text",
+      "research": "automagy:DIMENSIONLURE",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "Automagy.research_page.DIMENSIONLURE.2",
+        "tc.research_page.automagy:DIMENSIONLURE.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "至少四个该种类型的符文",
+          "replace": {
+            "text": "各种生物符文合计至少四个"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "automagy:lure_random_text",
+      "research": "automagy:DIMENSIONLURE",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "Automagy.research_page.DIMENSIONLURE.2",
+        "tc.research_page.automagy:DIMENSIONLURE.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "倘若不指定目标,就只会随机吸引生物而来",
+          "replace": {
+            "text": "必须指定目标,不能随机吸引任意生物"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "automagy:dense_threshold_text",
+      "research": "automagy:REDCRYSTAL_DENSE",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "Automagy.research_page.REDCRYSTAL_DENSE.1",
+        "tc.research_page.automagy:REDCRYSTAL_DENSE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "小于等于",
+          "replace": {
+            "text": "大于等于"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "automagy:sensor_signal_text",
+      "research": "automagy:ENTITYSIGNAL",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "Automagy.research_page.ENTITYSIGNAL.1",
+        "tc.research_page.automagy:ENTITYSIGNAL.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "最强为15",
+          "replace": {
+            "text": "普通红石最高为15,红晶可以读取更高强度"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "automagy:gratis_text",
+      "research": "automagy:FOCUSCRAFTING_UPGRADE",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "Automagy.research_page.FOCUSCRAFTING_UPGRADE.1",
+        "tc.research_page.automagy:FOCUSCRAFTING_UPGRADE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "打开合成栏以及合成物品时都不会消耗额外的魔力",
+          "replace": {
+            "text": "打开合成栏免费,奥术合成仍支付配方本身的魔力"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "automagy:maw_optional_text",
+      "research": "automagy:HUNGRYMAW",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "Automagy.research_page.HUNGRYMAW.1",
+        "tc.research_page.automagy:HUNGRYMAW.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "然后将另三个黑曜石放置在箱子侧面",
+          "replace": {
+            "text": "还可在箱子侧面额外放置至多三个黑曜石"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "automagy:delivery_destinations_text",
+      "research": "automagy:INVENTARIUM_DELIVERY",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "Automagy.research_page.INVENTARIUM_DELIVERY.3",
+        "tc.research_page.automagy:INVENTARIUM_DELIVERY.3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "这些傀儡必须绑定到同一个卸货点",
+          "replace": {
+            "text": "这些傀儡不必绑定到同一个卸货点"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "automagy:delivery_memory_text",
+      "research": "automagy:INVENTARIUM_DELIVERY",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "Automagy.research_page.INVENTARIUM_DELIVERY.4",
+        "tc.research_page.automagy:INVENTARIUM_DELIVERY.4"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "至少1个",
+          "replace": {
+            "text": "至少2个（指示器与申请台各占一个）"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "automagy:celerity_text",
+      "research": "automagy:NETHERRUNE_CELERITY",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "Automagy.research_page.NETHERRUNE_CELERITY.1",
+        "tc.research_page.automagy:NETHERRUNE_CELERITY.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "每4个迅捷符文也会减少",
+          "replace": {
+            "text": "前4个迅捷符文中的每一个都会减少"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "automagy:wisp_rift_text",
+      "research": "automagy:NETHERRUNE_WISP",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "Automagy.research_page.NETHERRUNE_WISP.1",
+        "tc.research_page.automagy:NETHERRUNE_WISP.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "其中大部分都能通过",
+          "replace": {
+            "text": "其中大部分都无法安全通过"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "automagy:scribe_search_direction",
+      "research": "automagy:INVENTARIUM",
+      "kind": "continuation",
+      "provider": "automagy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "自动化魔法",
+          "en_us": "Automagy"
+        }
+      },
+      "keys": [
+        "tc.research_page.automagy:INVENTARIUM.3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "它面前",
+          "replace": {
+            "text": "设备放置时朝向玩家的一侧"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "behind the device",
+          "replace": {
+            "text": " along the device’s facing (toward the player when placed)"
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

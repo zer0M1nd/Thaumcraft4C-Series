@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "#": {
+      "item": "thaumcraft:quicksilver"
+    },
+    "C": {
+      "item": "thaumcraft:balanced_shard"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "CQC",
+    "Q#Q",
+    "CQC"
+  ],
+  "research": "FOCUSTRADE",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:focus_trade"
+  },
+  "vis": {
+    "ordo": 15,
+    "perditio": 15,
+    "terra": 10
+  }
+}

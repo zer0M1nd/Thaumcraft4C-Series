@@ -1,0 +1,1060 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:iron_axe",
+          "weight": 25062165
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:leather_boots",
+          "weight": 25062165
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:leather_leggings",
+          "weight": 25062165
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:leather_chestplate",
+          "weight": 25062165
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:leather_helmet",
+          "weight": 25062165
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:iron_sword",
+          "weight": 43796796
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:golden_boots",
+          "weight": 43796796
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:golden_leggings",
+          "weight": 43796796
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:golden_chestplate",
+          "weight": 43796796
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:golden_helmet",
+          "weight": 43796796
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:golden_axe",
+          "weight": 24132644
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:chainmail_boots",
+          "weight": 24132644
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:chainmail_leggings",
+          "weight": 24132644
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 24132644
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:chainmail_helmet",
+          "weight": 24132644
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:golden_sword",
+          "weight": 6150788
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:iron_boots",
+          "weight": 6150788
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:iron_leggings",
+          "weight": 6150788
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:iron_chestplate",
+          "weight": 6150788
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:iron_helmet",
+          "weight": 6150788
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "thaumcraft:thaumium_sword",
+          "weight": 803838
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "thaumcraft:thaumium_boots",
+          "weight": 803838
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "thaumcraft:thaumium_leggings",
+          "weight": 803838
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "thaumcraft:thaumium_chestplate",
+          "weight": 803838
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "thaumcraft:thaumium_helmet",
+          "weight": 803838
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:diamond_sword",
+          "weight": 52416
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:diamond_boots",
+          "weight": 52416
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:diamond_leggings",
+          "weight": 52416
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:diamond_chestplate",
+          "weight": 52416
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:diamond_helmet",
+          "weight": 52416
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "thaumcraft:void_sword",
+          "weight": 1354
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "thaumcraft:void_boots",
+          "weight": 1354
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "thaumcraft:void_leggings",
+          "weight": 1354
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "thaumcraft:void_chestplate",
+          "weight": 1354
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0.8333333333333334
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 0.75,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "thaumcraft:void_helmet",
+          "weight": 1354
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

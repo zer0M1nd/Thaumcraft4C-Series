@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "perfodio": 8,
+    "praecantatio": 8,
+    "telum": 16
+  },
+  "base_xp": 4,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:arrow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:piercing",
+  "instability": 3,
+  "legacy_order": 109,
+  "research": "INFUSIONENCHANTMENT"
+}

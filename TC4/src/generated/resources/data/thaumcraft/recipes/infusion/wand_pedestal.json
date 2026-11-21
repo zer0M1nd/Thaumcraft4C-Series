@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "auram": 10,
+    "permutatio": 15,
+    "praecantatio": 15
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:arcane_pedestal"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/gold"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    }
+  ],
+  "instability": 3,
+  "legacy_order": 66,
+  "research": "WANDPED",
+  "result": {
+    "item": "thaumcraft:wand_pedestal"
+  }
+}

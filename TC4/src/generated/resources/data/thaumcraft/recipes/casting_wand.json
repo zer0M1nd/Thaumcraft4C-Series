@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "thaumcraft:wand_cap_iron"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "  I",
+    " S ",
+    "I  "
+  ],
+  "result": {
+    "item": "thaumcraft:casting_wand"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "P": {
+      "item": "thaumcraft:empty_phial"
+    },
+    "R": {
+      "item": "thaumcraft:essentia_restrictor"
+    },
+    "T": {
+      "item": "thaumcraft:essentia_tube"
+    },
+    "V": {
+      "item": "thaumcraft:essentia_valve"
+    }
+  },
+  "pattern": [
+    "PVP",
+    "T T",
+    "PRP"
+  ],
+  "research": "CENTRIFUGE",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:essentia_buffer"
+  },
+  "vis": {
+    "aqua": 5,
+    "ordo": 5
+  }
+}

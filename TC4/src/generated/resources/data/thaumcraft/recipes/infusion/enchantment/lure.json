@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aqua": 8,
+    "bestia": 8,
+    "praecantatio": 8
+  },
+  "base_xp": 3,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:tropical_fish"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:lure",
+  "instability": 2,
+  "legacy_order": 102,
+  "research": "INFUSIONENCHANTMENT"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "A": {
+      "item": "minecraft:arrow"
+    },
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "AIA",
+    "ADA",
+    "AIA"
+  ],
+  "research": "TINYDART",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:golem_decoration_dart"
+  },
+  "vis": {
+    "aer": 4,
+    "ignis": 4
+  }
+}

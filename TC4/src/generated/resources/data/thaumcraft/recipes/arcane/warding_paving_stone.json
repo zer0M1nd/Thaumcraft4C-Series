@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "A": {
+      "item": "thaumcraft:fire_shard"
+    },
+    "B": {
+      "item": "thaumcraft:order_shard"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone_bricks"
+    }
+  },
+  "pattern": [
+    "SAS",
+    "SBS"
+  ],
+  "research": "PAVEWARD",
+  "result": {
+    "count": 4,
+    "item": "thaumcraft:warding_paving_stone"
+  },
+  "vis": {
+    "ignis": 10,
+    "ordo": 10
+  }
+}

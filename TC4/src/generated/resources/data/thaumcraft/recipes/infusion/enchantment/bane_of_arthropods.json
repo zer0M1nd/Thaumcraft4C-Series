@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "bestia": 4,
+    "praecantatio": 4,
+    "telum": 4
+  },
+  "base_xp": 1,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:bane_of_arthropods",
+  "instability": 2,
+  "legacy_order": 81,
+  "research": "INFUSIONENCHANTMENT"
+}

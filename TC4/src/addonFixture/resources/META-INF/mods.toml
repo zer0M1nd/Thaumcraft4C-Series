@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Private test fixture"
+[[mods]]
+modId="example_addon"
+version="1.0"
+displayName="Addon API Server Fixture"
+[[dependencies.example_addon]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.4,)"
+ordering="AFTER"
+side="BOTH"

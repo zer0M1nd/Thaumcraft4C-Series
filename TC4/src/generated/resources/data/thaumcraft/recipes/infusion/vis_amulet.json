@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "auram": 24,
+    "potentia": 64,
+    "praecantatio": 64,
+    "vacuos": 24
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_amulet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    }
+  ],
+  "instability": 6,
+  "legacy_order": 45,
+  "research": "VISAMULET",
+  "result": {
+    "item": "thaumcraft:vis_amulet"
+  }
+}

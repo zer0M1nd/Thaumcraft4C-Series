@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "potentia": 32,
+    "praecantatio": 16,
+    "tutamen": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:goggles"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "instability": 5,
+  "legacy_order": 53,
+  "mode": "runic_augmentation",
+  "research": "RUNICAUGMENTATION",
+  "result": {
+    "item": "thaumcraft:goggles"
+  }
+}

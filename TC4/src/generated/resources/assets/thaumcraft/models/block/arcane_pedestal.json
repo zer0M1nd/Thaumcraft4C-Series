@@ -1,0 +1,107 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        4,
+        4,
+        4
+      ],
+      "to": [
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      },
+      "from": [
+        2,
+        12,
+        2
+      ],
+      "to": [
+        14,
+        16,
+        14
+      ]
+    }
+  ],
+  "textures": {
+    "bottom": "thaumcraft:block/pedestal_top",
+    "particle": "thaumcraft:block/pedestal_side",
+    "side": "thaumcraft:block/pedestal_side",
+    "top": "thaumcraft:block/pedestal_top"
+  }
+}

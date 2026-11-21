@@ -1,0 +1,369 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "witchinggadgets:cloak_controls",
+      "research": "witchinggadgets:CLOAK",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "keys": [
+        "witchinggadgets_research_page.CLOAK.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "它可以装备在旅行者装备栏中,默认的键位是'数字键7'.高级斗篷的特殊能力也能激活.只需要使用旅行者装备栏的'激活能力'菜单.默认的键位是'R'.",
+          "replace": {
+            "text": "它可以装备在Curios披风槽。高级披风使用“激活披风”按键，默认V，可在控制设置中修改。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "To be equipped in the Traveller's Gear inventory, the default keybinding is 'Numpad 7'. Certain abilities of the advanced cloaks can be activated. This is done via the 'Active Abilities'-menu of Traveller's Gear. The default keybinding is 'R'.",
+          "replace": {
+            "text": " Equip in the Curios cloak slot. Advanced cloak abilities use the Activate Cloak key, default V, configurable in Controls."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:kama_warning",
+      "research": "witchinggadgets:CLOAKKAMA",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "keys": [
+        "witchinggadgets_research_page.CLOAKKAMA.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "警告: 由于未知的错误,shift点击取出合成台的合成物会丢失NBT数据.如果想要保留斗篷的附魔,染色及其内容物,请确保以正常的点击取出合成品.",
+          "replace": {
+            "text": "普通和Shift取出合成结果均保留披风的附魔、染色及储存物品。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "WARNING: Due to an unknown error, shift clicking the result out of the crafting table will result in a loss of NBT-data. In order to preserve enchantments on the cloak, its colouration and items stored inside it, make sure to take the Kama out of the slot with a normal click.",
+          "replace": {
+            "text": " Normal and Shift-click crafting both preserve enchantments, colour and stored items."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:raven_controls",
+      "research": "witchinggadgets:CLOAK_RAVEN",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "twilightforest"
+        }
+      ],
+      "keys": [
+        "witchinggadgets_research_page.CLOAK_RAVEN.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "ActiveAbility菜单",
+          "replace": {
+            "text": "对应的披风或卡玛短袍激活按键"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "the ActiveAbility menu",
+          "replace": {
+            "text": " the corresponding cloak or kama activation key"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:primordial_controls",
+      "research": "witchinggadgets:PRIMORDIALARMOR",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "keys": [
+        "witchinggadgets_research_page.PRIMORDIALARMOR.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "这些效果也能在激活能力的菜单中开关.(默认键位:R)",
+          "replace": {
+            "text": "这些效果可用各装备部位的切换按键选择；按键默认未绑定，请在控制设置中绑定。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "which you can switch in the active ability menu. (Default Hotkey: R)",
+          "replace": {
+            "text": " which you can cycle with the key for each armor slot. These keys are unbound by default; assign them in Controls."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:instability_ceiling",
+      "research": "witchinggadgets:CALCULATOR",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "keys": [
+        "witchinggadgets_research_page.CALCULATOR.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "已知最高的注魔风险来自*咳*神秘工匠*咳*,不稳定性高达15.将你的祭坛稳定性控制在那之上将会显得毫无意义.",
+          "replace": {
+            "text": "所需稳定性取决于当前注魔配方和附魔等级，应以本次注魔的计算结果为准。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "The highest infusion instability known to man *cough*Thaumic Tinkerer*cough* is 15. Stabilizing your altar beyond that is pointless.",
+          "replace": {
+            "text": " The stability needed depends on the current infusion recipe and enchantment level. Use the calculation for the current infusion."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:wearables_slots",
+      "research": "witchinggadgets:WGBAUBLES",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "keys": [
+        "witchinggadgets_research_page.WGBAUBLES.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "所有的这些都可在Baubles或Traveller's Gear的装备栏中装备.TG默认的键位是'数字键7'.",
+          "replace": {
+            "text": "这些装备放入对应的Curios饰品槽。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "All of these are to be equipped in Baubles or Traveller's Gear slots. The default keybinding for the TG inventory is 'Numpad 7'.",
+          "replace": {
+            "text": " Equip each piece in its matching Curios slot."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:sniper_translation",
+      "research": "witchinggadgets:WGBAUBLES",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "keys": [
+        "witchinggadgets_research_page.WGBAUBLES.5"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "贪婪指环:\n幸运万岁!但没人能一直保持好运气.你想出了一个办法来增加自己的运气,给戒指镶上一枚金币然后施以魔法.\n戴着这个指环时你的时运和抢夺等级就会提升2级.\n制作金币的附魔书所带的附魔种类不限.",
+          "replace": {
+            "text": "狙击指环：拉弓时移动更快；持弓搭箭时潜行，可放大远处的视野。"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:unveiling_translation",
+      "research": "witchinggadgets:ENCH_UNVEILING",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "keys": [
+        "witchinggadgets_research_page.ENCH_UNVEILING.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "其次,被其他人使用时会失效,装备了幽灵斗篷的人则会显示得更清晰.",
+          "replace": {
+            "text": "此外，你能看穿其他人的幻影附魔，也能更清楚地看见幽灵斗篷的使用者。"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:stealth_alert",
+      "research": "witchinggadgets:ENCH_STEALTH",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "keys": [
+        "witchinggadgets_research_page.ENCH_STEALTH.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "如果你被发现了,那么5格以内的所有敌人都会注意到你.",
+          "replace": {
+            "text": "若5格内已有非Boss生物以你为目标，还会阻止本次新的锁定。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Should you be discovered, all enemies in a 5 block radius will be notified.",
+          "replace": {
+            "text": " An existing non-boss attacker within five blocks also prevents this new target acquisition."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:knockback_attribute",
+      "research": "witchinggadgets:WGPOTIONS",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "keys": [
+        "witchinggadgets_research_page.WGPOTIONS.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "赋予你抵挡击退效果的能力,每级抵挡几率增加33%.",
+          "replace": {
+            "text": "每级增加34%击退抗性，最高100%。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Grants the afflicted a chance to resist knockback, with a chance of 33% per level.",
+          "replace": {
+            "text": " Adds 34% knockback resistance per level, up to 100%."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:biome_cell_text",
+      "research": "witchinggadgets:TERRAFORMER",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "keys": [
+        "witchinggadgets_research_page.TERRAFORMER.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "某一处的生物群系",
+          "replace": {
+            "text": "一个水平4×4格的完整群系柱"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "the biome of a nearby coordinate",
+          "replace": {
+            "text": " a full-height 4×4 biome column"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:enviromine_unavailable",
+      "research": "witchinggadgets:SAUNASTOVE",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "keys": [
+        "witchinggadgets_research_page.SAUNASTOVE.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "如果你安装了EnviroMine,桑拿会使你口渴以及轻微的过热,但它也有助于保持神智清醒!",
+          "replace": {
+            "text": "此版本不包含旧版EnviroMine的口渴、体温与理智联动。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "If you are a user of EnviroMine, the Sauna will also leave you thirsty and slightly overheated, but it as great effects on your sanity!",
+          "replace": {
+            "text": " The legacy EnviroMine thirst, temperature and sanity integration is not included in this version."
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

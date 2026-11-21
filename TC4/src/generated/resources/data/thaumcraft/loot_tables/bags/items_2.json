@@ -1,0 +1,1326 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 3,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:gold_coin",
+          "weight": 2000
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:primordial_pearl",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:nether_star",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ender_pearl",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:knowledge_fragment",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:air_ring",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:earth_ring",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:fire_ring",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:water_ring",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:order_ring",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:entropy_ring",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "maximum": 4,
+                "operation": "charge"
+              }
+            }
+          ],
+          "name": "thaumcraft:lesser_vis_amulet",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thaumcraft:runic_ring_lesser",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:experience_bottle",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_apple",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "thaumcraft:item_state",
+              "settings": {
+                "base": 5,
+                "bound": 18,
+                "multiplier": 1.5,
+                "operation": "enchant"
+              }
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:regeneration\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:900,Id:10,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:regeneration\"}],tc4_legacy_potion_metadata:8193}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_regeneration\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:450,Id:10,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:regeneration\"}],tc4_legacy_potion_metadata:8225}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_regeneration\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:2400,Id:10,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:regeneration\"}],tc4_legacy_potion_metadata:8257}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:regeneration\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:676,Id:10,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:regeneration\"}],tc4_legacy_potion_metadata:16385}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_regeneration\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:338,Id:10,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:regeneration\"}],tc4_legacy_potion_metadata:16417}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_regeneration\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1801,Id:10,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:regeneration\"}],tc4_legacy_potion_metadata:16449}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:swiftness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:3600,Id:1,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:speed\"}],tc4_legacy_potion_metadata:8194}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_swiftness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1800,Id:1,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:speed\"}],tc4_legacy_potion_metadata:8226}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_swiftness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:9600,Id:1,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:speed\"}],tc4_legacy_potion_metadata:8258}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:swiftness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:2701,Id:1,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:speed\"}],tc4_legacy_potion_metadata:16386}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_swiftness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1351,Id:1,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:speed\"}],tc4_legacy_potion_metadata:16418}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_swiftness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:7201,Id:1,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:speed\"}],tc4_legacy_potion_metadata:16450}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:fire_resistance\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:3600,Id:12,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:fire_resistance\"}],tc4_legacy_potion_metadata:8195}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:fire_resistance\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:3600,Id:12,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:fire_resistance\"}],tc4_legacy_potion_metadata:8227}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_fire_resistance\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:9600,Id:12,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:fire_resistance\"}],tc4_legacy_potion_metadata:8259}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:fire_resistance\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:2701,Id:12,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:fire_resistance\"}],tc4_legacy_potion_metadata:16387}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:fire_resistance\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:2701,Id:12,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:fire_resistance\"}],tc4_legacy_potion_metadata:16419}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_fire_resistance\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:7201,Id:12,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:fire_resistance\"}],tc4_legacy_potion_metadata:16451}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:poison\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:900,Id:19,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:poison\"}],tc4_legacy_potion_metadata:8196}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_poison\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:450,Id:19,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:poison\"}],tc4_legacy_potion_metadata:8228}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_poison\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:2400,Id:19,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:poison\"}],tc4_legacy_potion_metadata:8260}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:poison\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:676,Id:19,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:poison\"}],tc4_legacy_potion_metadata:16388}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_poison\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:338,Id:19,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:poison\"}],tc4_legacy_potion_metadata:16420}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_poison\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1801,Id:19,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:poison\"}],tc4_legacy_potion_metadata:16452}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:healing\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:6,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_health\"}],tc4_legacy_potion_metadata:8197}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_healing\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:6,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_health\"}],tc4_legacy_potion_metadata:8229}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:healing\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:6,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_health\"}],tc4_legacy_potion_metadata:8261}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:healing\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:6,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_health\"}],tc4_legacy_potion_metadata:16389}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_healing\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:6,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_health\"}],tc4_legacy_potion_metadata:16421}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:healing\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:6,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_health\"}],tc4_legacy_potion_metadata:16453}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:night_vision\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:3600,Id:16,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:night_vision\"}],tc4_legacy_potion_metadata:8198}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:night_vision\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:3600,Id:16,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:night_vision\"}],tc4_legacy_potion_metadata:8230}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_night_vision\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:9600,Id:16,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:night_vision\"}],tc4_legacy_potion_metadata:8262}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:night_vision\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:2701,Id:16,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:night_vision\"}],tc4_legacy_potion_metadata:16390}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:night_vision\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:2701,Id:16,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:night_vision\"}],tc4_legacy_potion_metadata:16422}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_night_vision\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:7201,Id:16,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:night_vision\"}],tc4_legacy_potion_metadata:16454}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:weakness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1800,Id:18,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:weakness\"}],tc4_legacy_potion_metadata:8200}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:weakness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1800,Id:18,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:weakness\"}],tc4_legacy_potion_metadata:8232}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_weakness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:4800,Id:18,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:weakness\"}],tc4_legacy_potion_metadata:8264}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:weakness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1351,Id:18,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:weakness\"}],tc4_legacy_potion_metadata:16392}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:weakness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1351,Id:18,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:weakness\"}],tc4_legacy_potion_metadata:16424}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_weakness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:3601,Id:18,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:weakness\"}],tc4_legacy_potion_metadata:16456}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strength\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:3600,Id:5,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:strength\"}],tc4_legacy_potion_metadata:8201}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_strength\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1800,Id:5,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:strength\"}],tc4_legacy_potion_metadata:8233}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_strength\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:9600,Id:5,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:strength\"}],tc4_legacy_potion_metadata:8265}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strength\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:2701,Id:5,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:strength\"}],tc4_legacy_potion_metadata:16393}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_strength\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1351,Id:5,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:strength\"}],tc4_legacy_potion_metadata:16425}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_strength\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:7201,Id:5,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:strength\"}],tc4_legacy_potion_metadata:16457}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:slowness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1800,Id:2,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:slowness\"}],tc4_legacy_potion_metadata:8202}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:slowness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1800,Id:2,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:slowness\"}],tc4_legacy_potion_metadata:8234}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_slowness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:4800,Id:2,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:slowness\"}],tc4_legacy_potion_metadata:8266}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:slowness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1351,Id:2,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:slowness\"}],tc4_legacy_potion_metadata:16394}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:slowness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1351,Id:2,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:slowness\"}],tc4_legacy_potion_metadata:16426}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_slowness\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:3601,Id:2,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:slowness\"}],tc4_legacy_potion_metadata:16458}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:harming\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:7,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_damage\"}],tc4_legacy_potion_metadata:8204}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_harming\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:7,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_damage\"}],tc4_legacy_potion_metadata:8236}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:harming\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:7,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_damage\"}],tc4_legacy_potion_metadata:8268}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:harming\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:7,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_damage\"}],tc4_legacy_potion_metadata:16396}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_harming\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:7,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_damage\"}],tc4_legacy_potion_metadata:16428}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:harming\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:7,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_damage\"}],tc4_legacy_potion_metadata:16460}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water_breathing\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:3600,Id:13,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:water_breathing\"}],tc4_legacy_potion_metadata:8205}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water_breathing\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:3600,Id:13,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:water_breathing\"}],tc4_legacy_potion_metadata:8237}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_water_breathing\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:9600,Id:13,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:water_breathing\"}],tc4_legacy_potion_metadata:8269}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water_breathing\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:2701,Id:13,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:water_breathing\"}],tc4_legacy_potion_metadata:16397}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water_breathing\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:2701,Id:13,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:water_breathing\"}],tc4_legacy_potion_metadata:16429}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_water_breathing\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:7201,Id:13,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:water_breathing\"}],tc4_legacy_potion_metadata:16461}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:invisibility\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:3600,Id:14,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:invisibility\"}],tc4_legacy_potion_metadata:8206}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:invisibility\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:3600,Id:14,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:invisibility\"}],tc4_legacy_potion_metadata:8238}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_invisibility\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:9600,Id:14,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:invisibility\"}],tc4_legacy_potion_metadata:8270}"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:invisibility\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:2701,Id:14,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:invisibility\"}],tc4_legacy_potion_metadata:16398}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:invisibility\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:2701,Id:14,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:invisibility\"}],tc4_legacy_potion_metadata:16430}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_invisibility\",tc4_legacy_potion_effects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:7201,Id:14,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:invisibility\"}],tc4_legacy_potion_metadata:16462}"
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 3
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

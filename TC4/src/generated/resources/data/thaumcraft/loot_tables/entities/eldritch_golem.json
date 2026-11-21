@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:primordial_pearl"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft:rare_loot_bag"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

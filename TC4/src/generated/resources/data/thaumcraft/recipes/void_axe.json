@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/void"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "II",
+    "SI",
+    "S "
+  ],
+  "result": {
+    "item": "thaumcraft:void_axe"
+  },
+  "show_notification": true
+}

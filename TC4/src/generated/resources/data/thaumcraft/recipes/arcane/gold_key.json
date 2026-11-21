@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "NNI",
+    "N  "
+  ],
+  "requires_warded_stone": true,
+  "research": "WARDEDARCANA",
+  "result": {
+    "count": 2,
+    "item": "thaumcraft:gold_key"
+  },
+  "vis": {
+    "aqua": 5,
+    "ordo": 5
+  }
+}

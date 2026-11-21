@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/thaumium"
+    }
+  },
+  "pattern": [
+    "III",
+    "I I",
+    "I I"
+  ],
+  "result": {
+    "item": "thaumcraft:thaumium_leggings"
+  },
+  "show_notification": true
+}

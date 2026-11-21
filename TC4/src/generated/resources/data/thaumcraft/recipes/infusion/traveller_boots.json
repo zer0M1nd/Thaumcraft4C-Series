@@ -1,0 +1,50 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "iter": 25,
+    "volatus": 25
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:leather_boots"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "forge:raw_fishes"
+      }
+    }
+  ],
+  "instability": 1,
+  "legacy_order": 30,
+  "research": "BOOTSTRAVELLER",
+  "result": {
+    "item": "thaumcraft:traveller_boots"
+  }
+}

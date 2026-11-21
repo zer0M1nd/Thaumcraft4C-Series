@@ -1,0 +1,845 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "entity": "minecraft:allay",
+      "variant": "any",
+      "legacy_name": "allay",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 1
+        },
+        {
+          "aspect": "alienis",
+          "amount": 2
+        },
+        {
+          "aspect": "volatus",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:axolotl",
+      "variant": "any",
+      "legacy_name": "axolotl",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 3
+        },
+        {
+          "aspect": "bestia",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:bee",
+      "variant": "any",
+      "legacy_name": "bee",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 1
+        },
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "volatus",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:camel",
+      "variant": "any",
+      "legacy_name": "camel",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:cod",
+      "variant": "any",
+      "legacy_name": "cod",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 2
+        },
+        {
+          "aspect": "bestia",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:dolphin",
+      "variant": "any",
+      "legacy_name": "dolphin",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 3
+        },
+        {
+          "aspect": "bestia",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:drowned",
+      "variant": "any",
+      "legacy_name": "drowned",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 2
+        },
+        {
+          "aspect": "exanimis",
+          "amount": 2
+        },
+        {
+          "aspect": "humanus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:elder_guardian",
+      "variant": "any",
+      "legacy_name": "elder_guardian",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 5
+        },
+        {
+          "aspect": "bestia",
+          "amount": 4
+        },
+        {
+          "aspect": "perditio",
+          "amount": 4
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 3
+        },
+        {
+          "aspect": "tenebrae",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:endermite",
+      "variant": "any",
+      "legacy_name": "endermite",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "alienis",
+          "amount": 2
+        },
+        {
+          "aspect": "bestia",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:evoker",
+      "variant": "any",
+      "legacy_name": "evoker",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "alienis",
+          "amount": 1
+        },
+        {
+          "aspect": "humanus",
+          "amount": 3
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:fox",
+      "variant": "any",
+      "legacy_name": "fox",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "perditio",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:frog",
+      "variant": "any",
+      "legacy_name": "frog",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 2
+        },
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "iter",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:glow_squid",
+      "variant": "any",
+      "legacy_name": "glow_squid",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 2
+        },
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "lux",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:goat",
+      "variant": "any",
+      "legacy_name": "goat",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "motus",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:guardian",
+      "variant": "any",
+      "legacy_name": "guardian",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 2
+        },
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:hoglin",
+      "variant": "any",
+      "legacy_name": "hoglin",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "ignis",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:husk",
+      "variant": "any",
+      "legacy_name": "husk",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "exanimis",
+          "amount": 2
+        },
+        {
+          "aspect": "humanus",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:illusioner",
+      "variant": "any",
+      "legacy_name": "illusioner",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "humanus",
+          "amount": 3
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        },
+        {
+          "aspect": "tenebrae",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:llama",
+      "variant": "any",
+      "legacy_name": "llama",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:panda",
+      "variant": "any",
+      "legacy_name": "panda",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:parrot",
+      "variant": "any",
+      "legacy_name": "parrot",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 1
+        },
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "volatus",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:phantom",
+      "variant": "any",
+      "legacy_name": "phantom",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 1
+        },
+        {
+          "aspect": "exanimis",
+          "amount": 2
+        },
+        {
+          "aspect": "volatus",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:piglin",
+      "variant": "any",
+      "legacy_name": "piglin",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "humanus",
+          "amount": 2
+        },
+        {
+          "aspect": "ignis",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:piglin_brute",
+      "variant": "any",
+      "legacy_name": "piglin_brute",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "humanus",
+          "amount": 3
+        },
+        {
+          "aspect": "ignis",
+          "amount": 2
+        },
+        {
+          "aspect": "telum",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:pillager",
+      "variant": "any",
+      "legacy_name": "pillager",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "humanus",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 1
+        },
+        {
+          "aspect": "telum",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:polar_bear",
+      "variant": "any",
+      "legacy_name": "polar_bear",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "perditio",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:pufferfish",
+      "variant": "any",
+      "legacy_name": "pufferfish",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 2
+        },
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "venenum",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:rabbit",
+      "variant": "any",
+      "legacy_name": "rabbit",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "motus",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:ravager",
+      "variant": "any",
+      "legacy_name": "ravager",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 4
+        },
+        {
+          "aspect": "perditio",
+          "amount": 3
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:salmon",
+      "variant": "any",
+      "legacy_name": "salmon",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 2
+        },
+        {
+          "aspect": "bestia",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:shulker",
+      "variant": "any",
+      "legacy_name": "shulker",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "alienis",
+          "amount": 3
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        },
+        {
+          "aspect": "tutamen",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:sniffer",
+      "variant": "any",
+      "legacy_name": "sniffer",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "terra",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:stray",
+      "variant": "any",
+      "legacy_name": "stray",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "exanimis",
+          "amount": 3
+        },
+        {
+          "aspect": "gelum",
+          "amount": 2
+        },
+        {
+          "aspect": "humanus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:strider",
+      "variant": "any",
+      "legacy_name": "strider",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "ignis",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:tadpole",
+      "variant": "any",
+      "legacy_name": "tadpole",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 2
+        },
+        {
+          "aspect": "bestia",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:trader_llama",
+      "variant": "any",
+      "legacy_name": "trader_llama",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 2
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:tropical_fish",
+      "variant": "any",
+      "legacy_name": "tropical_fish",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 2
+        },
+        {
+          "aspect": "bestia",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:turtle",
+      "variant": "any",
+      "legacy_name": "turtle",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 2
+        },
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "tutamen",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:vex",
+      "variant": "any",
+      "legacy_name": "vex",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "alienis",
+          "amount": 3
+        },
+        {
+          "aspect": "telum",
+          "amount": 1
+        },
+        {
+          "aspect": "volatus",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:vindicator",
+      "variant": "any",
+      "legacy_name": "vindicator",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "humanus",
+          "amount": 3
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "telum",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:wandering_trader",
+      "variant": "any",
+      "legacy_name": "wandering_trader",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "humanus",
+          "amount": 3
+        },
+        {
+          "aspect": "iter",
+          "amount": 3
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:warden",
+      "variant": "any",
+      "legacy_name": "warden",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "alienis",
+          "amount": 8
+        },
+        {
+          "aspect": "bestia",
+          "amount": 5
+        },
+        {
+          "aspect": "perditio",
+          "amount": 4
+        },
+        {
+          "aspect": "sensus",
+          "amount": 3
+        },
+        {
+          "aspect": "tenebrae",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "entity": "minecraft:zoglin",
+      "variant": "any",
+      "legacy_name": "zoglin",
+      "legacy_qualifier": "",
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "exanimis",
+          "amount": 3
+        },
+        {
+          "aspect": "ignis",
+          "amount": 2
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "A": {
+      "item": "thaumcraft:amber_block"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "thaumcraft:nitor"
+    },
+    "S": {
+      "item": "minecraft:daylight_detector"
+    }
+  },
+  "pattern": [
+    " S ",
+    "IAI",
+    " N "
+  ],
+  "research": "ARCANELAMP",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:arcane_lamp"
+  },
+  "vis": {
+    "aer": 8,
+    "aqua": 4,
+    "ignis": 8,
+    "perditio": 4
+  }
+}

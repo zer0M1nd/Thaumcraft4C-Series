@@ -1,0 +1,477 @@
+{
+  "professions": [
+    [
+      {
+        "stack": {
+          "item": "thaumcraft:mana_bean"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:iron_cluster"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:gold_cluster"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:cinnabar_cluster"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:copper_cluster"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "minecraft:blaze_rod"
+        },
+        "value": 2
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:greatwood_sapling"
+        },
+        "value": 2
+      },
+      {
+        "stack": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:strength\"}"
+        },
+        "value": 2
+      },
+      {
+        "stack": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:swiftness\"}"
+        },
+        "value": 2
+      },
+      {
+        "stack": {
+          "item": "minecraft:experience_bottle"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:knowledge_fragment"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "minecraft:golden_apple"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:long_strength\"}"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:long_night_vision\"}"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "minecraft:enchanted_golden_apple"
+        },
+        "value": 5
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:thaumium_pickaxe"
+        },
+        "value": 4
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:silverwood_sapling"
+        },
+        "value": 5
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:silverwood_sapling"
+        },
+        "value": 5
+      }
+    ],
+    [
+      {
+        "stack": {
+          "item": "thaumcraft:mana_bean"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:air_shard"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:fire_shard"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:water_shard"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:earth_shard"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:order_shard"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:entropy_shard"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:knowledge_fragment"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:knowledge_fragment"
+        },
+        "value": 2
+      },
+      {
+        "stack": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:regeneration\"}"
+        },
+        "value": 2
+      },
+      {
+        "stack": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:healing\"}"
+        },
+        "value": 2
+      },
+      {
+        "stack": {
+          "item": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[{id:\"thaumcraft:haste\",lvl:1s}]}"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "minecraft:golden_apple"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:strong_healing\"}"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:air_crystal_cluster"
+        },
+        "value": 4
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:fire_crystal_cluster"
+        },
+        "value": 4
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:water_crystal_cluster"
+        },
+        "value": 4
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:earth_crystal_cluster"
+        },
+        "value": 4
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:order_crystal_cluster"
+        },
+        "value": 4
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:entropy_crystal_cluster"
+        },
+        "value": 4
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:mixed_crystal_cluster"
+        },
+        "value": 4
+      },
+      {
+        "stack": {
+          "item": "minecraft:enchanted_golden_apple"
+        },
+        "value": 5
+      },
+      {
+        "stack": {
+          "item": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[{id:\"thaumcraft:repair\",lvl:1s}]}"
+        },
+        "value": 5
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:focus_pouch"
+        },
+        "value": 5
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:focus_pech"
+        },
+        "value": 5
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:lesser_vis_amulet"
+        },
+        "value": 5
+      }
+    ],
+    [
+      {
+        "stack": {
+          "item": "thaumcraft:mana_bean"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_0"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_1"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_2"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_3"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_4"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_5"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_6"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_7"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_8"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_9"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_10"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_11"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_12"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_13"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:tallow_candle_14"
+        },
+        "value": 1
+      },
+      {
+        "stack": {
+          "item": "minecraft:ghast_tear"
+        },
+        "value": 2
+      },
+      {
+        "stack": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:swiftness\"}"
+        },
+        "value": 2
+      },
+      {
+        "stack": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:strength\"}"
+        },
+        "value": 2
+      },
+      {
+        "stack": {
+          "item": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+        },
+        "value": 2
+      },
+      {
+        "stack": {
+          "item": "minecraft:experience_bottle"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:knowledge_fragment"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:long_invisibility\"}"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "minecraft:golden_apple"
+        },
+        "value": 3
+      },
+      {
+        "stack": {
+          "item": "minecraft:enchanted_golden_apple"
+        },
+        "value": 5
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:thaumium_boots"
+        },
+        "value": 4
+      },
+      {
+        "stack": {
+          "item": "thaumcraft:runic_ring_lesser"
+        },
+        "value": 5
+      },
+      {
+        "stack": {
+          "item": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:flame\",lvl:1s}]}"
+        },
+        "value": 5
+      },
+      {
+        "stack": {
+          "item": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:infinity\",lvl:1s}]}"
+        },
+        "value": 5
+      }
+    ]
+  ]
+}

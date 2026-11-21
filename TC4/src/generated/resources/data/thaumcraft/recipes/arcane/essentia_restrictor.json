@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:arcane",
+  "ingredients": [
+    {
+      "item": "thaumcraft:essentia_tube"
+    },
+    {
+      "tag": "forge:stone"
+    }
+  ],
+  "mode": "shapeless",
+  "research": "TUBEFILTER",
+  "result": {
+    "item": "thaumcraft:essentia_restrictor"
+  },
+  "vis": {
+    "aqua": 5,
+    "terra": 16
+  }
+}

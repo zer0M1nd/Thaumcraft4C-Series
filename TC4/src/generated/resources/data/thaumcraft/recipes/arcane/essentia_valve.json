@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:arcane",
+  "ingredients": [
+    {
+      "item": "thaumcraft:essentia_tube"
+    },
+    {
+      "item": "minecraft:lever"
+    }
+  ],
+  "mode": "shapeless",
+  "research": "TUBES",
+  "result": {
+    "item": "thaumcraft:essentia_valve"
+  },
+  "vis": {
+    "aqua": 5,
+    "ordo": 5
+  }
+}

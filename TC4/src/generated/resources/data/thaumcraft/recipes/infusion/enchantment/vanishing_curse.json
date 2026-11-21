@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "mortuus": 8,
+    "praecantatio": 12,
+    "vacuos": 16
+  },
+  "base_xp": 5,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:vanishing_curse",
+  "instability": 4,
+  "legacy_order": 100,
+  "research": "INFUSIONENCHANTMENT"
+}

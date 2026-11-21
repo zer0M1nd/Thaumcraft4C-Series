@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "praecantatio": 4,
+    "tutamen": 8
+  },
+  "base_xp": 1,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:protection",
+  "instability": 1,
+  "legacy_order": 71,
+  "research": "INFUSIONENCHANTMENT"
+}

@@ -1,0 +1,269 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicdyes:passive_a10",
+      "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "keys": [
+        "tc.research_page.TD.RUNICARMORUPGRADES.a10"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "类型：主动",
+          "replace": {
+            "text": "类型：被动"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:passive_a2",
+      "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "keys": [
+        "tc.research_page.TD.RUNICARMORUPGRADES.a2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "类型：主动",
+          "replace": {
+            "text": "类型：被动"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:passive_a7",
+      "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "keys": [
+        "tc.research_page.TD.RUNICARMORUPGRADES.a7"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "类型:主动",
+          "replace": {
+            "text": "类型：被动"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:passive_a9",
+      "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "keys": [
+        "tc.research_page.TD.RUNICARMORUPGRADES.a9"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "类型：主动",
+          "replace": {
+            "text": "类型：被动"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:breach_type_3",
+      "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "keys": [
+        "tc.research_page.TD.RUNICARMORUPGRADES.a3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "类型：主动",
+          "replace": {
+            "text": "类型：破盾触发"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:breach_type_4",
+      "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "keys": [
+        "tc.research_page.TD.RUNICARMORUPGRADES.a4"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "类型：被动",
+          "replace": {
+            "text": "类型：破盾触发"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:breach_type_6",
+      "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "keys": [
+        "tc.research_page.TD.RUNICARMORUPGRADES.a6"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "类型：被动",
+          "replace": {
+            "text": "类型：破盾触发"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:hardened_text",
+      "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "keys": [
+        "tc.research_page.TD.RUNICARMORUPGRADES.a5"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "T类型:主动\n这个升级每提升一级，符文护甲将增加最大符文护盾强度。\n这个升级增加了符文护甲的应用，如果可能的话，能获得额外的叠加效果。",
+          "replace": {
+            "text": "类型：被动\n提高普通护甲值：基础符文护甲翻倍，强化符文护甲增加1点。每件只生效一次；深渊套获得实体形态以承载附魔。"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:haste_text",
+      "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "keys": [
+        "tc.research_page.TD.RUNICARMORUPGRADES.a9"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "它将给予穿戴者急迫II效果。",
+          "replace": {
+            "text": "它提高移动速度，仅可用于靴子。"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:iron_fire_protection",
+      "research": "thaumicdyes:TD.IRONFORTRESS",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "keys": [
+        "tc.research_page.TD.ironFortress.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "对火的免疫",
+          "replace": {
+            "text": "对火的额外抗性"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicdyes:voidboots_leap",
+      "research": "thaumicdyes:TD.VOIDBOOTS",
+      "kind": "continuation",
+      "provider": "thaumicdyes",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘染色",
+          "en_us": "Thaumic Dyes"
+        }
+      },
+      "keys": [
+        "tc.research_page.TD.voidboots.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "它将使你飞跃原本无法飞跃的高楼大厦",
+          "replace": {
+            "text": "它仍不能让你跃过高楼"
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

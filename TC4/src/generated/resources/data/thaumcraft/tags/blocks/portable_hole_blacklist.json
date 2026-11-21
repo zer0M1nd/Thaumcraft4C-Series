@@ -1,0 +1,58 @@
+{
+  "values": [
+    "thaumcraft:eldritch_altar",
+    "thaumcraft:eldritch_obelisk",
+    "thaumcraft:eldritch_obelisk_segment",
+    "thaumcraft:eldritch_cap",
+    "thaumcraft:eldritch_glowing_stone",
+    "thaumcraft:eldritch_glyphed_stone",
+    "thaumcraft:eldritch_carved_stone",
+    "thaumcraft:eldritch_door_frame",
+    "thaumcraft:eldritch_lock",
+    "thaumcraft:eldritch_crab_spawner",
+    "thaumcraft:eldritch_rune_trap",
+    "thaumcraft:infernal_furnace",
+    "#minecraft:beds",
+    "#minecraft:doors",
+    "minecraft:piston",
+    "minecraft:sticky_piston",
+    "minecraft:piston_head",
+    "minecraft:moving_piston",
+    {
+      "id": "thaumcraft:eldritch",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:eldritch_portal",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:flux_goo",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:flux_gas",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:arcane_furnace",
+      "required": false
+    },
+    {
+      "id": "twilightforest:giant_obsidian",
+      "required": false
+    },
+    {
+      "id": "twilightforest:giant_cobblestone",
+      "required": false
+    },
+    {
+      "id": "twilightforest:giant_log",
+      "required": false
+    },
+    {
+      "id": "twilightforest:giant_leaves",
+      "required": false
+    }
+  ]
+}

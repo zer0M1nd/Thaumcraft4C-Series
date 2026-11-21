@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "thaumcraft:block/growth_lamp_off"
+    },
+    "active=true": {
+      "model": "thaumcraft:block/growth_lamp_on"
+    }
+  }
+}

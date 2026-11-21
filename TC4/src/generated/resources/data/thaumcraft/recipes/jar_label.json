@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "tag": "forge:dyes/black"
+      },
+      {
+        "item": "minecraft:ink_sac"
+      }
+    ],
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "thaumcraft:jar_label"
+  }
+}

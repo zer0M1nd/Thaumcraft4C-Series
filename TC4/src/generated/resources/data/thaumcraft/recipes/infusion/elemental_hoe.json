@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "herba": 8,
+    "meto": 8,
+    "terra": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_hoe"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_log"
+      }
+    }
+  ],
+  "instability": 1,
+  "legacy_order": 23,
+  "research": "ELEMENTALHOE",
+  "result": {
+    "item": "thaumcraft:elemental_hoe"
+  }
+}

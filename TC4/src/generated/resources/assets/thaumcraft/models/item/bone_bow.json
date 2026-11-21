@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/bow",
+  "overrides": [
+    {
+      "model": "thaumcraft:item/bone_bow_pulling_0",
+      "predicate": {
+        "thaumcraft:bone_pull": 1.0
+      }
+    },
+    {
+      "model": "thaumcraft:item/bone_bow_pulling_1",
+      "predicate": {
+        "thaumcraft:bone_pull": 2.0
+      }
+    },
+    {
+      "model": "thaumcraft:item/bone_bow_pulling_2",
+      "predicate": {
+        "thaumcraft:bone_pull": 3.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "thaumcraft:item/bonebow"
+  }
+}

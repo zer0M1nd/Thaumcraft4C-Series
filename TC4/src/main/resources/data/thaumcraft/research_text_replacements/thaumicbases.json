@@ -1,0 +1,1233 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicbases:activation_action_text",
+      "research": "TB.Foci.Activation",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.actFoci.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "之后你只需要简单右击储存的坐标你就会回到那里了",
+          "replace": {
+            "text": "之后右击法杖就相当于在所记录的方块上右击"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:activation_range_text",
+      "research": "TB.Foci.Activation",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.actFoci.page.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "能效升级",
+          "replace": {
+            "text": "潜能升级"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:activation_potency_text",
+      "research": "TB.Foci.Activation",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.actFoci.page.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "这个升级会增加核心10距离的限制",
+          "replace": {
+            "text": "每级潜能增加32格作用距离"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "increase the range of interaction up by 10 blocks",
+          "replace": {
+            "text": " increase the interaction range by 32 blocks per level"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:drain_updates_text",
+      "research": "TB.Foci.Drain",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.drainFoci.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "它也可以让方块被放置在不流动的水的旁边",
+          "replace": {
+            "text": "在不流动的水旁放置方块也会让水重新流动"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:drain_lava_cost_text",
+      "research": "TB.Foci.Drain",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.drainFoci.page.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "3点Ignis灵气",
+          "replace": {
+            "text": "0.03点Ignis灵气"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "3 Ignis essentia",
+          "replace": {
+            "text": " 0.03 Ignis vis"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:experience_potency_text",
+      "research": "TB.Foci.Experience",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.expFoci.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "瑰宝附魔等级",
+          "replace": {
+            "text": "潜能等级"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:decompose_targets_text",
+      "research": "TB.Foci.Experience",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.expFoci.page.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "活着的物体",
+          "replace": {
+            "text": "符合条件的非玩家、非首领生物"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "any living entity",
+          "replace": {
+            "text": " eligible non-player, non-boss living entities"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:vaporize_aspects_text",
+      "research": "TB.Foci.Experience",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.expFoci.page.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "然而在分解一些含有非常多要素的贵重方块时却不会掉落任何晶化源质.",
+          "replace": {
+            "text": "仅没有可解析要素的方块不会提供晶化源质。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Some very essentia-rich blocks will not drop it.",
+          "replace": {
+            "text": " Blocks with no resolvable aspects do not provide crystals."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:node_aspects_pure",
+      "research": "TB.NodeFoci.Purity",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableNodeTools",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tb.rec.foci.pure.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "节点会缓慢吸收纯净节点中需要的要素",
+          "replace": {
+            "text": "节点不会自动获得纯净节点常见的要素"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:node_aspects_taint",
+      "research": "TB.NodeFoci.Taint",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableNodeTools",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tb.rec.foci.taint.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "节点会缓慢吸收污染节点中需要的要素",
+          "replace": {
+            "text": "节点不会自动获得污染节点常见的要素"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:node_speed_text",
+      "research": "TB.NodeFoci.Speed",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableNodeTools",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tb.rec.foci.speed.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "将节点储存魔力的速度提升5倍",
+          "replace": {
+            "text": "每秒有20%的概率为节点的每种要素补充1点魔力"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "increases the speed at which node restores it's aspects 5 times",
+          "replace": {
+            "text": " has a 20% chance each second to restore one point of each aspect in the node"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:node_stability_time_text",
+      "research": "TB.NodeFoci.Stability",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableNodeTools",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tb.rec.foci.stability.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "让节点消除不稳定特性需要7分钟时间",
+          "replace": {
+            "text": "让节点消除不稳定特性需要3分30秒"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Removing the Unstable modifier takes 7 minutes",
+          "replace": {
+            "text": " Removing the Unstable modifier takes 3 minutes 30 seconds"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:node_normal_text",
+      "research": "TB.NodeMan",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableNodeTools",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tb.rec.nodeMan.page.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "你的设备由于对节点充能时功率太大而不能对通常的节点使用",
+          "replace": {
+            "text": "你的设备只能处理普通灵气节点，不能处理充能节点"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:node_progress_text",
+      "research": "TB.NodeMan",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableNodeTools",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tb.rec.nodeMan.page.3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "令人惊讶的是它竟然会记录核心工作的进度",
+          "replace": {
+            "text": "取下或更换核心会重置工作进度"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "it is even possible to actually save the progress that way",
+          "replace": {
+            "text": " removing or changing the focus resets its progress"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:overchant_once_text",
+      "research": "TB.Overchanter",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.overchanter.page.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "用法杖点击附魔台2次",
+          "replace": {
+            "text": "用法杖点击附魔台一次"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "using your wand on the table twice",
+          "replace": {
+            "text": " using your wand on the table once"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:overchant_limit_text",
+      "research": "TB.Overchanter",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.overchanter.page.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "这个设备还没有制作出锋利VII那样强力的能力",
+          "replace": {
+            "text": "同一附魔只能由此设备提升一次；已有的高等级附魔也可提升，但最高为255级"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "the device is not quite powerfull enough to do thinks like Sharpness VII",
+          "replace": {
+            "text": " this table can raise each enchantment only once, including an existing high-level enchantment, up to level 255"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:overchant_xp_text",
+      "research": "TB.Overchanter",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.overchanter.page.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "这个附魔台也需要有一个玩家在附近,由于这个附魔过程中会从玩家身上抽取30级经验",
+          "replace": {
+            "text": "附魔优先从八格内的经验容器支付825点经验；不足部分再向附近一名等级足够的玩家收取，完全由玩家支付时为30级"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "The table also requires a player nearby, since in the middle of the process it will use 30 levels from the player in range of 6 blocks!",
+          "replace": {
+            "text": " The table first draws 825 XP from experience containers within eight blocks. Any remainder is charged to one sufficiently levelled nearby player; without container XP, this costs 30 levels."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:overchant_player_min_text",
+      "research": "TB.Overchanter",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.overchanter.page.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "等级没有达到30级的玩家",
+          "replace": {
+            "text": "未达到剩余经验对应等级的玩家"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "players with level before 30",
+          "replace": {
+            "text": " players below the level required for the remaining XP"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:void_anvil_cost_text",
+      "research": "TB.VoidAnvil",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.voidAnvil.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "7级",
+          "replace": {
+            "text": "3级"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "7 levels",
+          "replace": {
+            "text": " 3 levels"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:void_anvil_repair_text",
+      "research": "TB.VoidAnvil",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.voidAnvil.page.0"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "should you cause a block update right next to it",
+          "replace": {
+            "text": " during random block ticks"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:glowstone_count_text",
+      "research": "TB.Glieonia",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableFlora",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tb.rec.glieonia.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "2份萤石粉",
+          "replace": {
+            "text": "1份萤石粉（时运可增加）"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "2 Glowstone dust",
+          "replace": {
+            "text": " 1 Glowstone dust, increased by Fortune"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:plax_count_text",
+      "research": "TB.Plax",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableFlora",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tb.rec.plax.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "3根线",
+          "replace": {
+            "text": "1根线（时运可增加）"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "3 string",
+          "replace": {
+            "text": " 1 string, increased by Fortune"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:lucrite_bonemeal_text",
+      "research": "TB.Lucrite",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableFlora",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tb.rec.lucrite.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "使用7次骨粉才能让它从幼苗成熟",
+          "replace": {
+            "text": "使用7次骨粉达到可收获阶段，最后一个生长阶段需自然完成"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "taking 7 bonemeal to grow",
+          "replace": {
+            "text": " taking 7 bonemeal to reach harvestable age; its final growth stage must occur naturally"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:cactus_dyes_text",
+      "research": "TB.RainbowCacti",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableFlora",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tb.rec.rainCacti.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "特殊的染料比如骨粉和青金石",
+          "replace": {
+            "text": "白色、蓝色、棕色和黑色染料"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "certain dye types, like bonemeal and Lapis",
+          "replace": {
+            "text": " white, blue, brown or black dye"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:revolver_efficiency_text",
+      "research": "TB.Revolver.Efficiency",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableRevolver",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tb.rec.revolver.eff.page.0"
+      ],
+      "translations": {
+        "en_us": {
+          "find": "decrease the consumption by 1 unit of essentia",
+          "replace": {
+            "text": " add one normal shot per unit of essentia; at level V, Primal shots cost one unit instead of two"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:revolver_primal_cost_text",
+      "research": "TB.Revolver.Primal",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumicbases",
+          "key": "modules.enableRevolver",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tb.rec.revolver.primal.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "现在每次射击需要2点源质",
+          "replace": {
+            "text": "每次射击需要2点源质，效率V时降为1点"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "2 essentia per shot",
+          "replace": {
+            "text": " 2 essentia per shot, or 1 with Efficiency V"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:scythe_chain_text",
+      "research": "TB.HerobrinesScythe",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.hScythe.page.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "无限反弹,从一个跳到另一个,直到无人生还",
+          "replace": {
+            "text": "逐个传递，每个目标只命中一次，直到附近没有未命中的敌人"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "bounce infinitely to the nearby enemies - from one to another, untill there is noone left",
+          "replace": {
+            "text": " chain through nearby enemies, hitting each at most once, until none remain unvisited"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:void_spike_damage_text",
+      "research": "TB.Spike.Void",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.spikeVoid.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "甚至可以瞬间杀死任何它们上方的生物",
+          "replace": {
+            "text": "每次命中造成20点基础伤害"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "they can almost instantly kill whoever walks over them",
+          "replace": {
+            "text": " each hit deals 20 base damage"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:void_spike_immunity_text",
+      "research": "TB.Spike.Void",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.spikeVoid.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "被虚空金属所保护的生物",
+          "replace": {
+            "text": "穿着本体虚空靴的玩家"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "The spikes however can't hurt void metal, since they are made of it",
+          "replace": {
+            "text": " The spikes do not hurt players wearing Thaumcraft Void Boots"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:furnace_speed_scope",
+      "research": "TB.AdvAlc",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.advAlc.page.0"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "但是它有普通2倍的速度",
+          "replace": {
+            "text": "它按配置加速向蒸馏器输出源质，不直接倍增熔炼速度"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "but 2 times faster! It,however, is only achievable if the furnace runs on the Alumentum",
+          "replace": {
+            "text": " with a configurable acceleration of essentia output to alembics, rather than a direct multiplier to smelting speed. Whether acceleration requires alumentum is also configurable"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:focus_insertion_zh",
+      "research": "TB.NodeMan",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.nodeMan.page.3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "必须镶嵌在设备顶端",
+          "replace": {
+            "text": "通过右击设备装入"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:missing_tb.rec.enchantments.ewisdom",
+      "research": "TB.ElderKnowledge",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.enchantments.ewisdom"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "tb.rec.enchantments.ewisdom",
+          "replace": {
+            "text": "使用睿智附魔的武器在击杀了它的敌人之后会有一定概率掉落它的敌人的知识."
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "tb.rec.enchantments.ewisdom",
+          "replace": {
+            "text": " Weapons, enchanted with Elder Wisdom will have a chance to provide the thaumaturge using them with some knowledge of object he slays."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:missing_tb.rec.enchantments.ebane",
+      "research": "TB.EldritchBane",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.enchantments.ebane"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "tb.rec.enchantments.ebane",
+          "replace": {
+            "text": "使用异域杀手附魔的武器在面对末影人和邪术生物时会造成更多伤害."
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "tb.rec.enchantments.ebane",
+          "replace": {
+            "text": " Weapons, enchanted with Eldritch bane will deal more damage to endermen and eldritch creatures."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:missing_tb.rec.enchantments.magictouched",
+      "research": "TB.MagicTouch",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.enchantments.magictouched"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "tb.rec.enchantments.magictouched",
+          "replace": {
+            "text": "使用魔法之触附魔的武器在击杀了它的敌人之后会掉落更多的原始要素球."
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "tb.rec.enchantments.magictouched",
+          "replace": {
+            "text": " Weapons, enchanted with Magic Touched will provide thaumaturge using them with more primal aspects from enemies he kills."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:missing_tb.rec.enchantments.vaporising",
+      "research": "TB.Vaporising",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.enchantments.vaporising"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "tb.rec.enchantments.vaporising",
+          "replace": {
+            "text": "使用蒸发附魔的武器在击杀了它的敌人之后会有一定概率掉落对应类型的晶化源质."
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "tb.rec.enchantments.vaporising",
+          "replace": {
+            "text": " Weapons, enchanted with Vaporising enchantment will have a chance to provide the thaumaturge using them with some crystallized life essentia of creatures he slays."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:missing_tb.rec.enchantments.taint",
+      "research": "TB.Tainted",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.enchantments.taint"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "tb.rec.enchantments.taint",
+          "replace": {
+            "text": "使用污染附魔的武器攻击敌人时会造成额外的咒波伤害.也会对敌人造成污染中毒的效果.但是面对污染生物时这个附魔效果会降低.如果要给一个武器进行污染附魔,你需要将武器扔进一个污染节点让武器被污染节点的魔力所辐射.这个附魔的附魔等级是完全随机的,但是你能达到的最高等级为3."
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "tb.rec.enchantments.taint",
+          "replace": {
+            "text": " Weapons, infused with Taint will deal additional tainted damage upon hit. They will also apply Taint Poison to their target. They will be weaker against tainted creatures. To infuse a weapon with taint a thaumaturge should drop the weapon into a center of a tainted node and wait for the node to radiate the weapon with taint. Level of the enchantment is completely random, and can get up to 3."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:missing_tb.rec.goldenOak.page.1",
+      "research": "TB.GoldenOak",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.goldenOak.page.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "tb.rec.goldenOak.page.1",
+          "replace": {
+            "text": "金橡树叶可掉落金苹果和树苗。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "tb.rec.goldenOak.page.1",
+          "replace": {
+            "text": " Golden Oak leaves can drop golden apples and saplings."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumicbases:missing_tb.rec.overchanter.page.3",
+      "research": "TB.Overchanter",
+      "kind": "continuation",
+      "provider": "thaumicbases",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘基础学",
+          "en_us": "Thaumic Bases"
+        }
+      },
+      "keys": [
+        "tb.rec.overchanter.page.3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "tb.rec.overchanter.page.3",
+          "replace": {
+            "text": "每种附魔只能由超吟台强化一次。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "tb.rec.overchanter.page.3",
+          "replace": {
+            "text": " Each enchantment can be boosted by the Overchanter only once."
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}

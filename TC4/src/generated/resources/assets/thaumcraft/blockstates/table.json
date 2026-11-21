@@ -1,0 +1,48 @@
+{
+  "variants": {
+    "facing=east,part=extension": {
+      "model": "thaumcraft:block/table"
+    },
+    "facing=east,part=master": {
+      "model": "thaumcraft:block/table_master"
+    },
+    "facing=east,part=single": {
+      "model": "thaumcraft:block/table_single",
+      "y": 90
+    },
+    "facing=north,part=extension": {
+      "model": "thaumcraft:block/table",
+      "y": 270
+    },
+    "facing=north,part=master": {
+      "model": "thaumcraft:block/table_master",
+      "y": 270
+    },
+    "facing=north,part=single": {
+      "model": "thaumcraft:block/table_single"
+    },
+    "facing=south,part=extension": {
+      "model": "thaumcraft:block/table",
+      "y": 90
+    },
+    "facing=south,part=master": {
+      "model": "thaumcraft:block/table_master",
+      "y": 90
+    },
+    "facing=south,part=single": {
+      "model": "thaumcraft:block/table_single"
+    },
+    "facing=west,part=extension": {
+      "model": "thaumcraft:block/table",
+      "y": 180
+    },
+    "facing=west,part=master": {
+      "model": "thaumcraft:block/table_master",
+      "y": 180
+    },
+    "facing=west,part=single": {
+      "model": "thaumcraft:block/table_single",
+      "y": 90
+    }
+  }
+}

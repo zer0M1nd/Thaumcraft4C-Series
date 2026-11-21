@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "praecantatio": 4,
+    "telum": 8
+  },
+  "base_xp": 1,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:bow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:power",
+  "instability": 2,
+  "legacy_order": 89,
+  "research": "INFUSIONENCHANTMENT"
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Aspects:[{amount:1,key:\"herba\"}]}"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "ops": [
+                {
+                  "op": "replace",
+                  "source": "aspect",
+                  "target": "Aspects[0].key"
+                }
+              ],
+              "source": "block_entity"
+            }
+          ],
+          "name": "thaumcraft:mana_bean"
+        }
+      ],
+      "rolls": {
+        "type": "thaumcraft:mana_pod_count"
+      }
+    }
+  ],
+  "random_sequence": "thaumcraft:blocks/mana_pod"
+}

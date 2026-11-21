@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_candle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thaumcraft:tallow_candle_0"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thaumcraft:tallow_candle_15"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_candle",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thaumcraft:tallow_candle_15"
+    ]
+  },
+  "sends_telemetry_event": false
+}

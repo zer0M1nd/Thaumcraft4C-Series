@@ -1,0 +1,2584 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumcraft:random_notes",
+      "research": "RESEARCH",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.research.randomized_notes",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "research.randomized_notes",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "研究笔记新增随机布局：新笔记的初始要素顺序与角度会变化，已有笔记不变。",
+          "en_us": "New research notes randomize the order and angle of their initial aspects; existing notes are unchanged."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:book_search",
+      "research": "THAUMONOMICON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.book.search",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "book.search",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增名称搜索：选择结果或按回车即可定位研究。",
+          "en_us": "The Thaumonomicon adds name search: select a result or press Enter to locate its research."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:book_size",
+      "research": "THAUMONOMICON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.book.resizing",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "book.resizing",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增尺寸切换：可最大化研究树，并记住浏览位置和尺寸偏好。",
+          "en_us": "The Thaumonomicon adds a maximized research tree and remembers browsing position and size preferences."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:table_keys",
+      "research": "RESTABLE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.research_table.basic_shortcuts",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "research_table.basic_shortcuts",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "研究台新增快捷操作：滚轮切换要素列，数字1–5选择和放置要素。",
+          "en_us": "Research Tables support mouse-wheel column selection and number keys 1–5 for choosing and placing aspects."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:table_sorting",
+      "research": "RESTABLE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.research_table.sorting",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "research_table.sorting",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "研究台新增排序：可按默认、阶数或数量正反排序。",
+          "en_us": "Research Tables can sort aspects by default order, tier or quantity, in either direction."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:aspect_search",
+      "research": "REVIVAL_RESEARCH_ASSISTANCE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.research_table.aspect_search",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "research_table.aspect_search",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自承续版的新特性：可按原名、译名或两者搜索要素；点击搜索框后输入。",
+          "en_us": "A Continuation feature: search aspects by original name, translated name or both, after clicking the search box."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:auto_refill",
+      "research": "REVIVAL_RESEARCH_ASSISTANCE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.research_table.auto_refill",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "research_table.auto_refill",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "研究笔记新增自动装填：勾选后自动学习完成笔记，并补充下一张笔记与墨水，仍消耗纸墨。",
+          "en_us": "Opt-in note refilling learns completed notes and supplies the next note and ink, with normal material costs."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:random_research",
+      "research": "REVIVAL_RESEARCH_ASSISTANCE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.research_table.random_research",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "research_table.random_research",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自承续版的新特性：随机取得当前可研究且不重复的笔记，仍消耗纸墨。",
+          "en_us": "A Continuation feature: obtain a random eligible, non-duplicate research note, paying its paper and ink cost."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:related_search",
+      "research": "REVIVAL_ASPECT_RELATIONS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.research_table.related_search",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "research_table.related_search",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自承续版的新特性：中键或~前缀查找关联要素，结果也包含目标自身。",
+          "en_us": "A Continuation feature: middle-click or prefix a search with ~ to find related aspects, including the selected aspect."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:auto_connect",
+      "research": "REVIVAL_RESEARCH_CONNECTIONS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.research_table.auto_connect",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "research_table.auto_connect",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自承续版的新特性：中键拖动预览可支付的连线，松开逐格放置；仍消耗研究点，避开障碍与负片。",
+          "en_us": "A Continuation feature: middle-drag previews affordable connections and releases them cell by cell, paying research points and avoiding obstacles and negative aspects."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:listening",
+      "research": "REVIVAL_LISTENING_GUIDANCE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.research.listening_guidance",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "research.listening_guidance",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自承续版的新特性：点击缺前置的研究，消耗要素点揭示一项可执行指引；完成前不会重复收费，同页可研究的直接前置免费显示。",
+          "en_us": "A Continuation feature: click research with missing prerequisites to buy one actionable clue with aspect points. It is not charged again until completed; eligible direct prerequisites on the same tab are shown freely."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:expanded_ores",
+      "research": "ORE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.world_generation.expanded_ores",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "world_generation.expanded_ores",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "矿物生成适配新版：朱砂和蕴魔石扩展至负高度并提供深板岩变体，琥珀覆盖地表下48格；只影响新生成区域。",
+          "en_us": "Ore generation extends cinnabar and infused stone below Y=0 with deepslate variants, and amber to 48 blocks below the surface. Existing terrain is unchanged."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:ocean_nodes",
+      "research": "ORE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.world_generation.underwater_nodes",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "world_generation.underwater_nodes",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "节点生成已扩展：海洋增加水下节点尝试，每区块仍至多一个自然节点。",
+          "en_us": "Node generation adds underwater ocean attempts, still limited to one natural node per chunk."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:dimension_nodes",
+      "research": "ORE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.world_generation.additional_dimensions",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "world_generation.additional_dimensions",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "节点生成已扩展：可在更多维度生成，使用独立维度倍率；倍率0禁止该维度的新自然节点。",
+          "en_us": "Natural nodes can generate in additional dimensions with individual multipliers; zero disables new natural nodes in that dimension."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:batch_focus",
+      "research": "FOCALMANIPULATION",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.focal_manipulator.batch_upgrades",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "focal_manipulator.batch_upgrades",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "镶饰台新增批量升级：可按顺序选取最多五项，统一检查并付费。",
+          "en_us": "Focal Manipulators can queue up to five ordered upgrades, validating and paying for the entire batch."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:label_selection",
+      "research": "JARLABEL",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.alchemy.label_selection",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "alchemy.label_selection",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "标签新增要素预选：右击打开选择页，左击标记一张、潜行左击标记整叠；生存仅可选已知要素。",
+          "en_us": "Labels gain aspect selection: right-click to open, left-click to mark one, or sneak-left-click for the stack. Survival selection is limited to known aspects."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:inventory_scan",
+      "research": "THAUMOMETER",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.scanning.inventory",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "scanning.inventory",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "透镜新增物品栏扫描：悬停物品或玩家模型即可扫描；无要素目标也会记住扫描状态。",
+          "en_us": "Thaumometers can scan hovered inventory items and the player model, remembering scans even when no aspects are present."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:repeat_infusion",
+      "research": "INFUSION",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.infusion.repeat_placement",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "infusion.repeat_placement",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "注魔新增材料重摆：空手右击矩阵，从背包重摆最近成功配方所需物品。",
+          "en_us": "Empty-hand right-clicking a matrix places ingredients for the last successful infusion from your inventory."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:ordered_infusion",
+      "research": "INFUSION",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.infusion.ordered_ingredients",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "infusion.ordered_ingredients",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "注魔顺序已调整：外围材料必须按俯视顺时针循环摆放，允许整体旋转；矩阵正上、下方不计入。",
+          "en_us": "Infusion ingredients require clockwise cyclic order from above, allowing rotation. Pedestals directly above or below the matrix do not participate."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:enhanced_enchanting",
+      "research": "INFUSIONENCHANTMENT",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.infusion.enhanced_enchanting",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "infusion.enhanced_enchanting",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "注魔法附魔已增强：免经验；每个独立世界盐基座可多升一级并增加源质消耗，超限最后一级还需虚空种子。无外部上限时通常最多超一级，单级附魔除修补外不超限。",
+          "en_us": "Infusion enchanting costs no XP. Separate salis mundus pedestals add levels and essentia cost; the final over-cap level also needs a void seed. Without an external cap, most enchantments gain at most one extra level; single-level enchantments except Mending cannot exceed their cap."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:goggles_curios",
+      "research": "GOGGLES",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.equipment.goggles_head_slot",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "equipment.goggles_head_slot",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "护目镜新增装备位置：可放入Curios头饰槽，提供揭示与外观，但不提供该槽的魔力减免。",
+          "en_us": "Goggles fit the Curios head slot, providing revealing and appearance but no vis discount from that slot."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:fortress_toughness",
+      "research": "ARMORFORTRESS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.equipment.armor_toughness",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "equipment.armor_toughness",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "护甲已增强：神秘要塞甲胄额外提供3点韧性。",
+          "en_us": "Thaumium Fortress armor gains 3 toughness."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:void_toughness",
+      "research": "VOIDMETAL",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.equipment.armor_toughness",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "equipment.armor_toughness",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "护甲已增强：虚空金属护甲额外提供2点韧性。",
+          "en_us": "Void Metal armor gains 2 toughness."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:voidrobes_toughness",
+      "research": "ARMORVOIDFORTRESS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.equipment.armor_toughness",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "equipment.armor_toughness",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "护甲已增强：虚空神秘使法袍额外提供2点韧性。",
+          "en_us": "Void Thaumaturge robes gain 2 toughness."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:leader_toughness",
+      "research": "CRIMSON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.equipment.armor_toughness",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "equipment.armor_toughness",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "护甲已增强：血腥主教护甲额外提供1点韧性。",
+          "en_us": "Crimson Praetor armor gains 1 toughness."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:knowledge_int",
+      "research": "RESEARCH",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "研究点储存已修正：不再在32767后溢出，不足时整笔拒绝扣款；已完成研究不追溯缺失祖先。",
+          "en_us": "Research points no longer overflow past 32,767, insufficient payments fail atomically, and completed research does not recheck missing ancestors."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:note_generation",
+      "research": "RESEARCH",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "研究笔记生成已修正：挖空时保留正要素之间的连接通路，避开负片；先扫描后满足前置也会补授线索。",
+          "en_us": "Note generation preserves connecting paths around negative aspects. Earlier scans also award their clues when prerequisites are later met."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:note_extensions",
+      "research": "RESEARCH",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "研究笔记格式已扩展：可包含内侧或不可删除的负片要素，也可采用作者指定的固定布局；负片接入初始网络会阻止完成。",
+          "en_us": "Research notes support inner aspects, fixed negative aspects and authored layouts. Connecting negative aspects to the initial network prevents completion."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:dupe_bounds",
+      "research": "RESEARCHDUPE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "笔记拷贝已修正：最多堆叠64张，并由服务器检查研究拷贝权限。",
+          "en_us": "Copied notes stack to at most 64, and the server verifies duplication research."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:zero_warp",
+      "research": "WARP",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "扭曲事件已调整：总扭曲为0时不触发本体事件，包括已排队事件；清空知识也会清空事件计数。",
+          "en_us": "At zero total warp, core warp events—including queued events—do not trigger. Clearing knowledge also clears their counter."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:pech_returns",
+      "research": "PECH",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "岩精交易已修正：奖励按堆叠上限装入，超出交易格的部分进入背包或掉落。",
+          "en_us": "Pech trade rewards respect stack limits; overflow goes to your inventory or drops safely."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:enchant_cost",
+      "research": "ENCHANT",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "附魔费用已修正：最高费用按本附魔最低费用加50计算。",
+          "en_us": "Enchantment maximum costs are calculated from that enchantment’s minimum cost plus 50."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:modern_plants",
+      "research": "PLANTS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "植物适配新版：沿用现代土壤、生长与树叶腐烂规则；魔法树叶可含水。魔豆缺少有效要素时会初始化，不重抽已有要素。",
+          "en_us": "Plants use modern soil, growth and leaf-decay rules; magical leaves can be waterlogged. Beans initialize missing aspects without rerolling existing ones."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:world_height",
+      "research": "ORE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "世界生成适配新版：魔豆使用实际建造高度，魔法森林采用现代巨型蘑菇与土壤规则；每棵大树独立选择高度。",
+          "en_us": "World generation uses actual build heights for beans and modern giant-mushroom and soil rules in magical forests. Large trees choose heights independently."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:ore_density",
+      "research": "ORE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "蕴魔石生成新增倍率设置：默认1，0关闭，支持小数；只改变生成尝试次数，不改变矿脉长度或高度。",
+          "en_us": "Infused-stone generation has an attempt multiplier: 1 by default, 0 to disable, with fractional values supported. Vein length and height remain unchanged."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:book_components",
+      "research": "THAUMONOMICON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "魔导手册新增正文链接：研究、物品与要素可点击跳转；未揭示研究显示???。支持现代字体、双语排版、图文混排与页内定位。",
+          "en_us": "Thaumonomicon prose links research, items and aspects, with ??? for unrevealed research. Pages use modern fonts, bilingual typography, mixed illustrations and anchors."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:book_progress",
+      "research": "THAUMONOMICON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "研究浏览已扩展：镜像入口跳至原研究，不重复计算进度；创造模式可中键完成研究及前置，完成通知使用原版Toast。",
+          "en_us": "Mirror entries navigate to their original research without separate progress. Creative middle-click completes research and prerequisites; completion uses vanilla toasts."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:bookshelf_tags",
+      "research": "THAUMONOMICON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "手册制作适配新版：法杖可点化书架标签中的方块，数据包可扩展可用书架。",
+          "en_us": "Wands transform blocks in the bookshelf tag into Thaumonomicons; data packs can extend eligible bookshelves."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:recursive_aspects",
+      "research": "RESEARCHER2",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "要素合成新增递归操作：Shift点击已知复合要素可合成1点，优先使用现有中间要素；不足时不扣点。",
+          "en_us": "Shift-clicking a known compound aspect synthesizes one point recursively, spending existing intermediates first and nothing if resources are insufficient."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:auto_collect",
+      "research": "DECONSTRUCTOR",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "解构工作台已增强：打开界面时自动领取产出的研究点。",
+          "en_us": "Deconstruction Table research points are collected automatically while its screen is open."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:modern_aspects",
+      "research": "ASPECTS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "要素适配新版：现代物品、实体、标签、NBT和新增附魔均可定义要素；明确的空定义不会被配方推断覆盖。",
+          "en_us": "Modern items, entities, tags, NBT and enchantments support aspect definitions. Explicit empty definitions are never overwritten by recipe inference."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:node_water",
+      "research": "NODES",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "节点适配新版：节点可含水；节点改变群系时按现代三维群系单元处理，不再改写整列地表。",
+          "en_us": "Nodes can be waterlogged and modify modern three-dimensional biome cells rather than whole surface columns."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:node_collision",
+      "research": "NODEJAR",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "节点罐碰撞已调整：按罐体外形碰撞，不再占满整个立方体。",
+          "en_us": "Node Jar collision follows the jar’s shape rather than a full cube."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:offhand_wands",
+      "research": "BASICTHAUMATURGY",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "法杖适配副手：可副手施法；魔力球先查热栏，再为副手法杖充能。装备属性仅按实际生效槽计算。",
+          "en_us": "Wands cast from the offhand. Vis orbs check the hotbar before the offhand; equipment attributes use their actual active slots."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:wand_keys",
+      "research": "BASICTHAUMATURGY",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "法杖默认操作已调整：更换核心为V，功能切换为B；均可在按键设置修改。",
+          "en_us": "Default wand keys are V to change focus and B to toggle functions; both are rebindable."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:craft_payment",
+      "research": "BASICTHAUMATURGY",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "奥术合成扣费已修正：实际魔力付款失败时不交付产物，Shift连续合成也逐次结算。",
+          "en_us": "Arcane crafting delivers no output when actual vis payment fails; shift-crafting settles each craft separately."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:excavation_cost",
+      "research": "FOCUSEXCAVATION",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "采掘核心费用已修正：读取当前核心的升级，不再受其他核心先前使用的升级影响。",
+          "en_us": "Excavation costs read the current focus’s upgrades without inheriting another focus’s cached costs."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:shock_copper",
+      "research": "FOCUSSHOCK",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "震击新增铜除锈：命中铜方块时降低一级氧化，保留形态、朝向与涂蜡状态，仍消耗施法魔力。",
+          "en_us": "Shock removes one oxidation stage from copper, preserving shape, direction and wax, at the normal casting cost."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:focus_swap",
+      "research": "FOCUSFIRE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "核心切换已修正：旧核心优先放回原槽，无法完整交换时回滚；施法费用读取真正装入的核心升级。",
+          "en_us": "Focus swapping returns the old focus to its original slot first and rolls back failed exchanges. Casting costs read the installed focus’s upgrades."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:rod_cap",
+      "research": "ROD_bone",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "特殊杖柄回魔已修正：最后一次只补足到10%上限，不再因零头越界。",
+          "en_us": "Special rod regeneration fills only the remaining space up to its 10% limit, without overshooting fractional vis."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:silver_tags",
+      "research": "CAP_silver",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "银杖端适配新版：按银材料标签开放研究与配方，缺银时隐藏，支持数据包重载。",
+          "en_us": "Silver Caps use material tags to enable research and recipes, hiding when silver is absent and updating on data reload."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:focus_xp",
+      "research": "FOCALMANIPULATION",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "镶饰台经验已调整：一次升级1–5项分别花费280／612／910／1186／1395点经验；费用只看本次项数，不直接扣玩家等级。单项始终为280点。",
+          "en_us": "Upgrading 1–5 choices costs 280/612/910/1186/1395 XP points, based only on this batch’s size rather than subtracting player levels. A single choice always costs 280 XP."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:focus_storage",
+      "research": "FOCALMANIPULATION",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "镶饰台新增空闲蓄魔：未放入核心时也可存储每种原始要素最多200点魔力。",
+          "en_us": "Focal Manipulators store up to 200 vis of each primal aspect even without an inserted focus."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:charger_budget",
+      "research": "VISCHARGERELAY",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "充能器供给已统一：同一刻的每种要素共用0.05 vis预算，外部容器、修复与移动结构不能重复领取。",
+          "en_us": "Charger consumers share a 0.05-vis budget per aspect per tick; external containers, repairs and moving structures cannot each claim an extra budget."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:soul_heat",
+      "research": "CRUCIBLE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "坩埚新增灵魂热源：灵魂火与点燃的灵魂营火使升温加倍，开始挥发后的流失速度为5倍；普通营火和岩浆块也可供热。",
+          "en_us": "Soul fire and lit soul campfires double crucible heating and quintuple losses after evaporation begins. Ordinary lit campfires and magma blocks also provide heat."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:fluid_containers",
+      "research": "CRUCIBLE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "坩埚补水适配新版：支持流体容器并保留余液；水瓶按250 mB计，创造模式不消耗容器。已有水时整桶倒入可溢水填满。",
+          "en_us": "Crucibles accept fluid containers while preserving leftovers, count water bottles as 250 mB and preserve creative containers. A whole bucket can overflow a partly filled crucible to fill it."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:crucible_input",
+      "research": "CRUCIBLE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "坩埚新增自动化接口：物品接受槽和只进不出的源质入口可由外部设备使用；坩埚仍不主动抽取管道源质。",
+          "en_us": "Crucibles expose item acceptance and input-only essentia interfaces for automation, without actively drawing from suction tubes."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:crucible_batch",
+      "research": "CRUCIBLE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "坩埚处理已修正：整叠物品逐份处理并付费；伤害按实体计时，比较器信号限制为0–15。",
+          "en_us": "Crucibles process and pay for every item in a stack. Damage is timed per entity and comparator signals stay within 0–15."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:jar_filter",
+      "research": "JARLABEL",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "标签过滤已修正：所有源质插入入口都遵守标签指定的要素。",
+          "en_us": "Every essentia insertion path respects the jar’s label filter."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:centrifuge_io",
+      "research": "CENTRIFUGE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "离心机已修正：输入输出检查方向与数量，读档继续剩余加工时间。",
+          "en_us": "Centrifuges check input/output sides and quantities and preserve remaining processing time across reloads."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:modern_tools",
+      "research": "THAUMIUM",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "工具适配新版：剑支持攻击冷却与横扫；无特殊右击的斧、铲支持现代去皮、去蜡和草径动作。",
+          "en_us": "Tools use modern combat cooldowns and sword sweeps. Axes and shovels without special right-click actions support modern stripping, wax removal and paths."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:soap_use",
+      "research": "SANESOAP",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "祛邪肥皂使用已调整：采用刷洗动作，不再提供旧剑式格挡减伤；创造模式不消耗。",
+          "en_us": "Sanitizing Soap uses a brushing action without old sword-style blocking and is not consumed in creative mode."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:iron_nugget",
+      "research": "TRANSIRON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "炼铁材料适配新版：统一使用原版铁粒与铁粒标签。",
+          "en_us": "Iron transmutation uses vanilla iron nuggets and their material tag."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:vanilla_copper",
+      "research": "TRANSCOPPER",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "铜嬗变适配新版：原版铜即可开放研究；粗矿按一份冶炼产物处理，矿石走双份矿簇路线，兼容深板岩矿石。",
+          "en_us": "Vanilla copper enables transmutation. Raw ore uses one smelting-output unit; ore blocks use the double-cluster route, including deepslate ores."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:copper_processing",
+      "research": "ENTROPICPROCESSING",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "铜加工新增配方：1点混沌使铜氧化一级并保留蜡，1点水可去蜡。",
+          "en_us": "Copper processing adds one-stage oxidation for 1 Perditio while preserving wax, or wax removal for 1 Aqua."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:modern_scan",
+      "research": "THAUMOMETER",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "透镜扫描适配新版：支持副手与真实方块轮廓，潜行可穿透流体选中水下目标；重复扫描不能再次领取研究点。",
+          "en_us": "Thaumometers support the offhand and actual block shapes. Sneaking scans through fluids; repeated scans cannot award research points again."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:modern_bellows",
+      "research": "BELLOWS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "奥术风箱适配新版：按实际朝向和烹饪时间加速，支持高炉与烟熏炉。",
+          "en_us": "Bellows follow their actual facing and recipe cooking time, supporting blast furnaces and smokers."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:brain_capacity",
+      "research": "JARBRAIN",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "缸中之脑已修正：按剩余容量吸收经验，合并经验球也正确计数，装不下的经验留在世界。",
+          "en_us": "Brains in Jars absorb only their remaining capacity, correctly count merged XP orbs and leave excess XP in the world."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:infusion_preview",
+      "research": "INFUSION",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "注魔新增预览：护目镜显示环境稳定性、最近匹配配方的缺料与多余物，以及可抽取源质的现有／需求量；空祭坛也能查看稳定性。",
+          "en_us": "Goggles show altar stability, missing and excess items for the closest recipe, and available versus required essentia. Empty altars also show stability."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:infusion_materials",
+      "research": "INFUSION",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "注魔材料匹配已修正：统一分配可替代材料，避免宽泛材料抢占专用材料；每次只取一份并保留容器剩余物。稳定方块可由标签扩展。",
+          "en_us": "Infusion allocates alternative ingredients together so broad matches do not consume specialized inputs, taking one item and preserving container remainders. Tags can extend stabilizers."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:modern_enchantments",
+      "research": "INFUSIONENCHANTMENT",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "注魔法附魔已扩展：增加17种原版附魔配方，覆盖现代移动、三叉戟、弩、诅咒与修补等附魔，也补入旧版已有的海之眷顾和饵钓。适用物品和互斥按当前附魔规则。",
+          "en_us": "Infusion adds 17 vanilla enchantment recipes, covering modern movement, tridents, crossbows, curses and Mending, plus the previously omitted Luck of the Sea and Lure. Applicability and conflicts follow current enchantment rules."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:modern_arrows",
+      "research": "PRIMALARROW",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "元始之矢适配新版：支持弩、双手弹药选择和落地回收；无限附魔完全免耗，创造也不耗箭。",
+          "en_us": "Primal Arrows support crossbows, ammunition from either hand and recovery from the ground. Infinity prevents consumption entirely, as does creative mode."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:bonebow_arrows",
+      "research": "BONEBOW",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "骨弓适配新版：支持副手弹药、药箭和其他现代箭矢，保留快拉弓与原额外伤害。",
+          "en_us": "The Bone Bow supports offhand ammunition, tipped arrows and other modern arrows, retaining fast draw and its original damage bonus."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:table_environment",
+      "research": "RESTABLE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "研究台环境适配新版：识别现代方块标签、流体和附魔能量来源，支持负高度；每600刻只为缺少的要素生成奖励。",
+          "en_us": "Research Tables recognize modern block tags, fluids and enchanting sources, including negative heights. Every 600 ticks, random bonuses target missing aspects."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:table_validation",
+      "research": "RESTABLE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "研究台操作已修正：服务器检查真实菜单、距离、固定格和余额，不能免费放置或覆盖固定要素。",
+          "en_us": "Research Table actions verify the real menu, distance, fixed cells and point balance, preventing free placement or overwriting fixed aspects."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:ear_instruments",
+      "research": "ARCANEEAR",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "奥术之耳适配新版：支持全部现代音符盒音色，加载后按实际支撑方块更新。",
+          "en_us": "Arcane Ears support all modern note-block instruments and update from their actual supporting block after loading."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:key_dimension",
+      "research": "WARDEDARCANA",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "守护钥匙绑定已修正：绑定同时包含维度，不再误开其他维度同坐标的设备。",
+          "en_us": "Warded keys include the dimension in their binding and cannot unlock devices at matching coordinates in other dimensions."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:hoe_native",
+      "research": "ELEMENTALHOE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "句芒锄适配新版：3×3逐格使用原版锄地规则，支持粗泥土、缠根泥土等现代方块，保留催生。",
+          "en_us": "The Hoe of Growth uses vanilla hoe actions for each cell of its 3×3 area, supporting coarse and rooted dirt while retaining growth magic."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:mirror_boundaries",
+      "research": "MIRRORESSENTIA",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "源质镜已修正：不会递归向其他镜子重复查源质；对端区块必须已加载，卸载时暂停链接并定期重试。",
+          "en_us": "Essentia Mirrors preserve mirror-exclusion during searches. Their destination chunk must be loaded; unloaded links pause and retry periodically."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:shield_precision",
+      "research": "RUNICARMOR",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "符文护盾已修正：玩家独立冷却，按游戏刻计时；保留小数护盾，不超容量。Shift可查看当前／上限，第一人称特效不遮住自身视野。",
+          "en_us": "Runic Shields use per-player, game-tick cooldowns and retain fractional charge without overfilling. Shift shows current/max charge; the first-person effect does not obstruct your view."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:shovel_permissions",
+      "research": "ELEMENTALSHOVEL",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "后土铲铺设已修正：3×3中的每个位置独立检查加载与建筑权限。",
+          "en_us": "The Shovel of the Earthmover checks loaded chunks and building permissions for each position in its 3×3 placement."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:axe_native",
+      "research": "ELEMENTALAXE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "生长之斧适配新版：保留伐木、吸物功能，并可作为原生斧参与现代工具动作和砧板加工。",
+          "en_us": "The Axe of the Stream retains tree felling and item attraction while supporting modern axe actions and cutting-board processing."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_combat",
+      "research": "COREGUARD",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "守卫傀儡适配新版：使用原生追击、射击与寻敌；近战冷却为20刻，保留射程与升级效果。",
+          "en_us": "Guard golems use native pursuit, ranged combat and targeting, with a 20-tick melee cooldown and their existing range and upgrades."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_stats",
+      "research": "GOLEMSTRAW",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "傀儡已增强：默认移动速度×1.5、运载量×2、交互距离+1格，均可配置；液体容量也直接乘运载倍率。",
+          "en_us": "Golems default to 1.5× movement speed, 2× carrying capacity and +1 block interaction reach, all configurable. Liquid capacity uses the full carrying multiplier."
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:or",
+          "values": [
+            {
+              "type": "thaumcraft:config",
+              "modid": "thaumcraft",
+              "key": "general.golem_speed_multiplier",
+              "value": 1,
+              "operator": "ne",
+              "scope": "server"
+            },
+            {
+              "type": "thaumcraft:config",
+              "modid": "thaumcraft",
+              "key": "general.golem_carry_multiplier",
+              "value": 1,
+              "operator": "ne",
+              "scope": "server"
+            },
+            {
+              "type": "thaumcraft:config",
+              "modid": "thaumcraft",
+              "key": "general.golem_interaction_bonus",
+              "value": 0,
+              "operator": "ne",
+              "scope": "server"
+            }
+          ]
+        }
+      ],
+      "configuration": "general.golem_speed_multiplier / general.golem_carry_multiplier / general.golem_interaction_bonus"
+    },
+    {
+      "id": "thaumcraft:golem_navigation",
+      "research": "GOLEMSTRAW",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "傀儡寻路已调整：可上一格台阶，偏好道路并避开已登记危险；可选轴向行走，长期停滞时保留货物安全回家。",
+          "en_us": "Golems step up one block, prefer roads and avoid registered hazards. Optional axis-aligned movement and safe return after prolonged stalls preserve carried goods."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_cookie",
+      "research": "GOLEMSTRAW",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "饼干加速已修正：消耗实际使用手中的饼干并在服务器生效，创造免耗；每次增加600刻，最多2400刻，并治疗傀儡。",
+          "en_us": "Cookies boost golems on the server using the actual hand-held cookie, free in creative. Each adds 600 ticks up to 2,400 and heals the golem."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_containers",
+      "research": "COREFILL",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "填充傀儡适配新版：使用侧面物品接口，合并双箱并正确利用空槽。",
+          "en_us": "Fill golems use sided item handlers, treat double chests as one inventory and correctly fill empty slots."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_gather",
+      "research": "COREGATHER",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "聚集傀儡路线已调整：出发时规划同物品与NBT的整批目标，到点拾取附近1格内的合适物品，遵守拾取延迟。",
+          "en_us": "Gather golems plan a batch of matching items and NBT at departure, collect eligible items within one block of each stop and respect pickup delay."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_fishing",
+      "research": "COREFISHING",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "垂钓傀儡适配新版：采用现代100–600刻基础等待及天气修正，并从原版鱼、垃圾、宝藏战利品表取物；仍按傀儡升级与水质决定类别。",
+          "en_us": "Fishing golems use modern 100–600-tick base waits and weather modifiers, drawing from vanilla fish, junk and treasure tables while retaining golem upgrade and water-quality probabilities."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:bell_paths",
+      "research": "GOLEMBELL",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "傀儡铃铛新增路线显示：选中后显示实际后续路径；零长度和异常连线不会产生无效绘制。",
+          "en_us": "Golem Bells show the selected golem’s actual remaining path and safely skip zero-length or invalid links."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_harvest",
+      "research": "COREHARVEST",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "收获傀儡路线已调整：按整趟任务规划，保留种子、存活和权限检查，不因每个新目标反复重算。",
+          "en_us": "Harvest golems plan complete trips, retaining seed, survival and permission checks without replanning for every new target."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_use",
+      "research": "COREUSE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "使用傀儡路线已调整：按整趟任务执行，长期停滞时可安全返回绑定位置。",
+          "en_us": "Use golems follow complete task routes and can safely return to their binding after prolonged stalls."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_essentia",
+      "research": "COREALCHEMY",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "炼金傀儡搬运已扩展：可连接通用源质储存与接收接口，无需目标吸力；过滤槽接受标签、安瓿或罐子，秩序升级支持颜色标记。",
+          "en_us": "Alchemy golems use general essentia storage and receiver interfaces without requiring suction. Labels, phials or jars set the filter; Order upgrades support colored markers."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_contact",
+      "research": "GOLEMSTONE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "硬材质傀儡已增强：石、铁和神秘傀儡免疫仙人掌、甜浆果及登记的同类接触伤害。",
+          "en_us": "Stone, iron and thaumium golems resist cactus, berry-bush and registered equivalent contact damage."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_effects",
+      "research": "GOLEMTHAUMIUM",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "神秘傀儡已增强：免疫负面状态效果。",
+          "en_us": "Thaumium golems are immune to harmful status effects."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:advanced_furnace",
+      "research": "ADVALCHEMYFURNACE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "荒古炼金炉已修正：充能不越过容量、热量不为负，并保存加工冷却；已有超容存量保留。",
+          "en_us": "Advanced Alchemical Furnaces do not overcharge or produce negative heat and preserve processing cooldowns, retaining existing excess energy."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:crusher_hands",
+      "research": "PRIMALCRUSHER",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "元始杵适配新版：仅主手增加2扭曲；各玩家独立记录采掘面，不相互干扰。",
+          "en_us": "The Primal Crusher adds 2 warp only in the main hand, and each player tracks their own mining face."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:primal_projectile",
+      "research": "FOCUSPRIMAL",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "元始光球已修正：追踪按归一化方向转向，使用真实命中点与负坐标，排除队友和旁观者。",
+          "en_us": "Primal projectiles steer using normalized directions, use actual hit positions and correct negative coordinates, and exclude teammates and spectators."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:void_repair",
+      "research": "VOIDMETAL",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "虚空工具适配新版：遵循现代工具属性和右击动作，修理统一使用虚空金属锭。",
+          "en_us": "Void tools follow modern tool attributes and right-click actions and repair with Void Metal ingots."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:outer_guardian",
+      "research": "ENTEROUTER",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "邪术守卫光球适配新版：可被盾牌格挡，实际伤害成功后才施加虚弱。",
+          "en_us": "Eldritch Guardian orbs can be blocked by shields and apply Weakness only after successful damage."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:outer_boss",
+      "research": "ORE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "外域入口生成已调整：天然方尖碑生成时确定对应Boss，并提供四种可定位目标；不必进入后才知道Boss。",
+          "en_us": "Natural obelisks select their Outer Lands boss when generated and expose four distinct locatable targets."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:outer_generation",
+      "research": "ORE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "外域迷宫生成已修正：特殊房间按初始剩余死路的一半布置，迷宫完成生成后才开放入口。",
+          "en_us": "Outer Lands place special rooms in half the initial remaining dead ends and open entry only after generation finishes."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:reservoir_storage",
+      "research": "ESSENTIARESERVOIR",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "源质库读档已修正：保留超容库存供提取，仅清理负值要素，不再连带清空全部内容。",
+          "en_us": "Essentia Reservoirs preserve over-capacity contents for extraction and remove only invalid negative entries instead of clearing everything."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:primal_potency",
+      "research": "ROD_primal_staff",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "元始手杖潜能适配新版：+1潜能改用可叠加装备属性，支持双手与小数；整数效果按概率舍入。",
+          "en_us": "Primal Staff +1 Potency uses a stackable equipment attribute supporting both hands and fractional values, with probabilistic rounding for integer effects."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:sanity_offhand",
+      "research": "SANITYCHECK",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "神智检测仪适配副手：持于副手也能读取扭曲。",
+          "en_us": "Sanity Checkers also read warp while held in the offhand."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:aspect_inference",
+      "research": "ASPECTS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "advanced_aspect_inference",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumcraft",
+          "key": "advanced_aspect_inference",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "要素推断已扩展：可推断现代机器配方；默认指数压缩的软上限32、硬上限256、最多10种要素，明确设置的要素不裁剪。",
+          "en_us": "Aspect inference supports modern machine recipes, defaulting to exponential scaling with soft limit 32, hard limit 256 and ten aspect types. Explicit definitions are not trimmed."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:aspect_icons",
+      "research": "ASPECTS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.tooltips.aspect_icons",
+      "client_conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "tooltips.aspect_icons",
+          "scope": "client",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "要素提示新增图标显示：图标角标表示数量，按Shift切回文字。",
+          "en_us": "Aspect tooltips show icons with quantity counters; hold Shift for text."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:jei_queries",
+      "research": "THAUMONOMICON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.jei.research_queries",
+      "conditions": [],
+      "client_conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "jei.research_queries",
+          "scope": "client",
+          "value": true
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "jei"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "JEI新增研究查询：R/U按键可查研究与前置，Ctrl+左击研究返回手册；完成状态随知识更新。",
+          "en_us": "JEI supports research and prerequisite queries with R/U; Ctrl-left-click returns to the Thaumonomicon. Completion state follows your knowledge."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:pinyin_search",
+      "research": "THAUMONOMICON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "搜索新增拼音联动：安装通用拼音搜索后，手册与研究台可用拼音查找。",
+          "en_us": "With Just Enough Characters, book and Research Table searches accept pinyin."
+        }
+      },
+      "client_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "jecharacters"
+        }
+      ]
+    },
+    {
+      "id": "thaumcraft:feature_profiles",
+      "research": "THAUMONOMICON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "新增玩法可按全局模式选择：EVERYTHING 全部启用，EASIEST 偏向便利，HARDEST 偏向挑战，VANILLA 关闭新增玩法；逐项 TRUE/FALSE 优先，附属默认 FOLLOW_CORE。必要的新版适配仍保留。",
+          "en_us": "New features follow the global profile: EVERYTHING enables all, EASIEST favors benefits, HARDEST favors challenges, and VANILLA disables additions. Per-feature TRUE/FALSE overrides it; addons default to FOLLOW_CORE. Necessary modern adaptations remain."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:modern_loot_enchantments",
+      "research": "ENCHANT",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "战利品附魔适配新版：采用现代附魔池、适用条件、权重与互斥规则；每次抽中的附魔书分别生成。",
+          "en_us": "Loot enchantments use modern enchantments, eligibility, weights and compatibility rules. Each selected enchanted book is generated separately."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:loot_container_insertion",
+      "research": "ORE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "遗迹宝箱已修正：按物品堆叠上限填充，满箱时停止，不覆盖已有物品。",
+          "en_us": "Ruin chests fill up to normal stack limits and stop when full, preserving existing items."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:loot_amulet_roll",
+      "research": "NODETAPPER2",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护符战利品已修正：宝箱、战利品袋和佩克交易每次抽中护符时分别随机充能。",
+          "en_us": "Amulet loot is fixed: chests, treasure bags and Pech trades roll stored vis separately for each selected amulet."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:modern_zombie_brains",
+      "research": "JARBRAIN",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "僵尸脑掉落适配新版：尸壳、溺尸等僵尸家族也可掉落僵尸脑。",
+          "en_us": "Zombie Brain drops include modern zombie relatives such as husks and drowned."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:taint_melee",
+      "research": "BOTTLETAINT",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "腐化生物近战适配新版：沿用现代寻路，基础攻击间隔由10刻改为20刻。",
+          "en_us": "Tainted creatures use modern melee pathfinding, with a base attack interval of 20 ticks instead of 10."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:wizard_profession",
+      "research": "BASICTHAUMATURGY",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "巫师交易适配新版：以奥术工作台为工作站，使用原版五级职业、补货和价格折扣；旧村庄不会自动补建工作站。",
+          "en_us": "Wizard trades use Arcane Workbenches as job sites, with vanilla five-level progression, restocking and discounts. Existing villages do not gain workstations automatically."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:banker_profession",
+      "research": "WANDPED",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "银行家交易适配新版：以法杖充能基座为工作站，使用原版五级职业、补货和价格折扣。",
+          "en_us": "Bankers use Wand Recharge Pedestals as job sites, with vanilla five-level progression, restocking and discounts."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:modern_climate_structures",
+      "research": "ORE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "世界生成适配新版：魔法森林与腐化之地接入现代气候分布，保留原版河流、海洋和地下群系；凶险地牢、图腾与外域入口可由原版定位命令查找。",
+          "en_us": "World generation uses modern climate placement for Magical Forests and Tainted Lands while retaining vanilla river, ocean and underground biomes. Barrows, totems and Outer Lands entrances support vanilla structure location."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:totem_clearance",
+      "research": "ORE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "黑曜石图腾生成已修正：顶部障碍不会被强行覆盖，穿过树叶寻找地面时采用世界实际最低高度。",
+          "en_us": "Obsidian Totems preserve obstructions above the column and use the world’s actual minimum height when searching through leaves for ground."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:modern_banners",
+      "research": "CRIMSON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "旗帜适配新版：旧旗帜研究及自定义旗帜由原版旗帜替代，血腥教徒旗使用可在织布机应用的血腥纹样。",
+          "en_us": "Vanilla banners replace the old banner research and custom banners. Crimson Cult banners use the Crimson pattern that can be applied with a loom."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:homing_orb",
+      "research": "CRIMSON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "敌方追踪光球已调整：转向按单位方向计算，仅追踪活目标；保存重载后保留目标、红色状态和已飞行时间。",
+          "en_us": "Hostile homing orbs steer along a normalized direction and track living targets only. Their target, red state and flight age persist across saves."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:creative_magic_box",
+      "research": "HUNGRYCHEST",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "隐藏魔法箱已修正：共享库存正确计数、稳定排序并支持27格分页，拆除保留完整物品；此箱仍无生存配方。",
+          "en_us": "Hidden Magic Boxes count shared storage correctly, sort consistently and page through it in groups of 27 slots. Breaking them preserves all contents; they still have no survival recipe."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:crystal_cluster_shape",
+      "research": "INFUSION",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "小水晶簇碰撞适配新版：碰撞范围随朝向收窄，不再占满整个方块。",
+          "en_us": "Small crystal clusters have narrower, facing-dependent collision shapes instead of occupying a full cube."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:node_dimension_defaults",
+      "research": "ORE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.world_generation.additional_dimensions",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "world_generation.additional_dimensions",
+          "scope": "server",
+          "value": true
+        },
+        {
+          "type": "forge:or",
+          "values": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "twilightforest"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "ad_astra"
+            }
+          ]
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "额外维度节点遵守倍率表：暮色森林默认2倍，Ad Astra行星和轨道默认不生成，可在服务器配置调整。",
+          "en_us": "Additional-dimension node rates follow the multiplier table: Twilight Forest defaults to 2×; Ad Astra planets and orbits default to no natural nodes, configurable on the server."
+        }
+      }
+    }
+  ]
+}

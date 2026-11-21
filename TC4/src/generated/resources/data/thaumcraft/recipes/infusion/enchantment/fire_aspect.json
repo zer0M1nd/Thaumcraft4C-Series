@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "ignis": 8,
+    "praecantatio": 4,
+    "telum": 4
+  },
+  "base_xp": 3,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:fire_aspect",
+  "instability": 3,
+  "legacy_order": 83,
+  "research": "INFUSIONENCHANTMENT"
+}

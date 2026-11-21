@@ -1,0 +1,285 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "witchinggadgets:spinning_matching",
+      "research": "witchinggadgets:SPINNINGWHEEL",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "纺车配方已修正：重复材料分别计数，不同附魔或数据的产物不会混合堆叠。",
+          "en_us": "Spinning recipes count repeated ingredients separately and keep outputs with different enchantments or data separate."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:cutting_transactions",
+      "research": "witchinggadgets:GEMCUTTING",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "宝石切割已修正：Shift取出只消耗背包实际收下的份数；重载后重新检查配方。",
+          "en_us": "Shift-clicking cut gems consumes only the amount actually received. Recipes are checked again after a reload."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:modern_cloak_slots",
+      "research": "witchinggadgets:CLOAK",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "披风适配新版：装备于Curios披风槽；使用“激活披风”按键，默认V。重新登录后仍可正常激活。",
+          "en_us": "Cloaks use the Curios cloak slot and the Activate Cloak key, default V. Activation remains available after relogging."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:kama_data",
+      "research": "witchinggadgets:CLOAKKAMA",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "卡玛短袍合成已修正：普通和Shift取出均保留披风的物品、染色与附魔；装备于Curios腰带槽，默认B激活。",
+          "en_us": "Kama crafting preserves stored items, dyes and enchantments on normal and Shift-click extraction. Equip in the Curios belt slot; activate with B by default."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:spectral_unequip",
+      "research": "witchinggadgets:CLOAK_SPECTRAL",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "幽灵斗篷已修正：卸下即结束隐身，再次装备需重新激活并支付魔力。",
+          "en_us": "Removing a Spectral Mantle ends its spectral state; re-equipping requires activation and a new vis payment."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:temporary_light_lifetime",
+      "research": "witchinggadgets:GEMCUTTING",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "火宝石光源已修正：保存并重载后继续原有剩余寿命。",
+          "en_us": "Ignis gem lights retain their remaining lifetime across save and reload."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:pump_accounting",
+      "research": "witchinggadgets:MIRRORPUMP",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumcraft",
+          "key": "general.allow_mirrors",
+          "value": true,
+          "operator": "eq",
+          "scope": "server"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "源质泵已修正：提取量与存量一致，不再因异常提取请求增加源质。",
+          "en_us": "Essentia Pumps account for actual stored and extracted amounts; invalid extraction requests cannot create essentia."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:thread_limit",
+      "research": "witchinggadgets:LABYRINTHSTRING",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "引路线卷已设上限：最多记录8192个转折点；达到上限后保留原路线，停止追加。",
+          "en_us": "Guiding Threads record up to 8,192 turns, retaining the existing trail when the limit is reached."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:label_preview",
+      "research": "witchinggadgets:LABELLIB",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "要素标记库已修正：预览标签不能被漏斗抽取，也不会作为真实物品掉落。",
+          "en_us": "Aspect Library previews cannot be extracted by hoppers or dropped as real items."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:modern_fluids",
+      "research": "witchinggadgets:CRYSTALCAPSULE",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "水晶容器适配新版：可与支持Forge流体接口的容器及流体交互。",
+          "en_us": "Crystal Capsules work with containers and fluids supporting modern Forge fluid handling."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:modern_metals",
+      "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "矿簇适配新版：按Forge矿物标签识别金属，联动熔炼量随宿主的材料单位换算。",
+          "en_us": "Clusters identify metals through Forge tags; integration smelting amounts follow the host mod’s material units."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:modern_biome_columns",
+      "research": "witchinggadgets:TERRAFORMER",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "群系转化适配新版：每次改动一个水平4×4格的完整群系柱，不强制加载远处区块。",
+          "en_us": "Terraforming updates one full-height 4×4 biome column at a time without forcing distant chunks to load."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:mixed_armor",
+      "research": "witchinggadgets:PRIMORDIALARMOR",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "元始护甲适配新版：与其他特殊护甲混穿时统一结算防护，避免相互覆盖。",
+          "en_us": "Primordial Armor combines protection with other special armor sets in a single damage calculation."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:primordial_black_dye",
+      "research": "MASKGRINNINGDEVIL",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "元始头盔面具配方已放宽：接受任意黑色染料。",
+          "en_us": "Primordial helmet faceplates accept any black dye."
+        }
+      }
+    },
+    {
+      "id": "witchinggadgets:creative_puzzle_safety",
+      "research": "witchinggadgets:LABYRINTHSTRING",
+      "kind": "continuation",
+      "provider": "witchinggadgets",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "巫师宝具",
+          "en_us": "Witching Gadgets"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "创造机关已修正：拼图由服务器校验相邻移动；石棺只拆除自身三格，库存仅掉落一次，放置检查空间和权限。它们仍是创造模式机关。",
+          "en_us": "Creative puzzle blocks validate adjacent moves on the server. Sarcophagi remove only their own three blocks, drop inventories once and check placement space and permissions. These remain creative-only devices."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "emt:solar_state",
+      "research": "emt:solar_goggles",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "太阳能护目镜已修正：每顶独立判断环境，不再被其他玩家的天气与发电状态干扰。",
+          "en_us": "Solar helmets are fixed: each helmet tracks its own environment, without sharing another player's weather or output."
+        }
+      }
+    },
+    {
+      "id": "emt:electric_toggle",
+      "research": "emt:electric_traveller_boots",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "加速切换已修正：组合键每次按下只切换一次，每双靴子独立保存状态。",
+          "en_us": "Boost toggling is fixed: each press toggles once, and each pair of boots keeps its own state."
+        }
+      }
+    },
+    {
+      "id": "emt:nano_toggle",
+      "research": "emt:nano_traveller_boots",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "加速切换已修正：组合键每次按下只切换一次，每双靴子独立保存状态。",
+          "en_us": "Boost toggling is fixed: each press toggles once, and each pair of boots keeps its own state."
+        }
+      }
+    },
+    {
+      "id": "emt:quantum_toggle",
+      "research": "emt:quantum_traveller_boots",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "加速切换已修正：组合键每次按下只切换一次，每双靴子独立保存状态。",
+          "en_us": "Boost toggling is fixed: each press toggles once, and each pair of boots keeps its own state."
+        }
+      }
+    },
+    {
+      "id": "emt:charger_eu",
+      "research": "emt:wand_charger",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "法杖充电站已修正：保存电量，法杖充满后不再空耗 EU。",
+          "en_us": "Wand chargers now save stored EU and stop wasting power on fully charged wands."
+        }
+      }
+    },
+    {
+      "id": "emt:ring_player_data",
+      "research": "emt:one_ring",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "至尊戒指已修正：只维护自身的佩戴记录，不再重写玩家及其他模组的数据。",
+          "en_us": "The One Ring now updates only its own wear-time record, preserving player data belonging to other systems."
+        }
+      }
+    },
+    {
+      "id": "emt:armor_stand",
+      "research": "emt:infused_quantum_chestplate",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "注魔量子胸甲适配新版：可安全展示在盔甲架上。",
+          "en_us": "Infused quantum chestplates support modern armor-stand displays."
+        }
+      }
+    },
+    {
+      "id": "emt:charge_potency",
+      "research": "emt:charge_focus",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "充电核心已增强：每次充电量乘以 1.1^潜能，计算核心与施法者的总潜能；基础量默认 64 EU。",
+          "en_us": "Charging is enhanced: each pulse multiplies the configured base output (default 64 EU) by 1.1^potency, using the focus and caster's total potency."
+        }
+      }
+    },
+    {
+      "id": "emt:explosion_potency",
+      "research": "emt:explosion_focus",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "爆破核心已增强：爆炸强度按核心与施法者的总潜能计算，为 1+0.5×潜能。",
+          "en_us": "Explosions are enhanced: strength uses the focus and caster's total potency, at 1+0.5×potency."
+        }
+      }
+    },
+    {
+      "id": "emt:wand_potency",
+      "research": "emt:wand_charge_focus",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "法杖充能已增强：每次充入量按核心与施法者的总潜能计算，为 1.1^潜能 vis。",
+          "en_us": "Wand charging is enhanced: each transfer supplies 1.1^potency vis, using the focus and caster's total potency."
+        }
+      }
+    },
+    {
+      "id": "emt:modern_ic2",
+      "research": "emt:foundation",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "工业联动适配新版：使用 IC2 Refactored 的电力与配方，饰品使用 Curios 槽位。",
+          "en_us": "Industrial integration uses IC2 Refactored power and recipes, with Curios slots for accessories."
+        }
+      }
+    },
+    {
+      "id": "emt:outputs_command",
+      "research": "emt:potentia_generator",
+      "kind": "continuation",
+      "provider": "emt",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "电力魔法工具",
+          "en_us": "Electro-Magic Tools"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "源质发电查询适配新版：/emt_outputs 按完整行分页，支持变化后的要素列表，仍可由任何玩家使用。",
+          "en_us": "The /emt_outputs command paginates complete lines and supports changing aspect lists; it remains available to every player."
+        }
+      }
+    }
+  ]
+}

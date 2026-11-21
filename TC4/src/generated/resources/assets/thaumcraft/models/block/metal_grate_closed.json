@@ -1,0 +1,212 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#all"
+        },
+        "east": {
+          "texture": "#all"
+        },
+        "north": {
+          "texture": "#all"
+        },
+        "south": {
+          "texture": "#all"
+        },
+        "up": {
+          "texture": "#all"
+        },
+        "west": {
+          "texture": "#all"
+        }
+      },
+      "from": [
+        0,
+        13,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "east": {
+          "texture": "#inside"
+        }
+      },
+      "from": [
+        2.968,
+        13,
+        0
+      ],
+      "to": [
+        2.968,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "west": {
+          "texture": "#inside"
+        }
+      },
+      "from": [
+        13.032,
+        13,
+        0
+      ],
+      "to": [
+        13.032,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "south": {
+          "texture": "#inside"
+        }
+      },
+      "from": [
+        0,
+        13,
+        2.968
+      ],
+      "to": [
+        16,
+        16,
+        2.968
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#inside"
+        }
+      },
+      "from": [
+        0,
+        13,
+        13.032
+      ],
+      "to": [
+        16,
+        16,
+        13.032
+      ]
+    },
+    {
+      "faces": {
+        "east": {
+          "texture": "#inside"
+        }
+      },
+      "from": [
+        8.968,
+        13,
+        0
+      ],
+      "to": [
+        8.968,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "west": {
+          "texture": "#inside"
+        }
+      },
+      "from": [
+        7.0319996,
+        13,
+        0
+      ],
+      "to": [
+        7.0319996,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "south": {
+          "texture": "#inside"
+        }
+      },
+      "from": [
+        0,
+        13,
+        8.968
+      ],
+      "to": [
+        16,
+        16,
+        8.968
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#inside"
+        }
+      },
+      "from": [
+        0,
+        13,
+        7.0319996
+      ],
+      "to": [
+        16,
+        16,
+        7.0319996
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#hatch"
+        },
+        "east": {
+          "texture": "#hatch"
+        },
+        "north": {
+          "texture": "#hatch"
+        },
+        "south": {
+          "texture": "#hatch"
+        },
+        "up": {
+          "texture": "#hatch"
+        },
+        "west": {
+          "texture": "#hatch"
+        }
+      },
+      "from": [
+        1,
+        14,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        15
+      ]
+    }
+  ],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "all": "thaumcraft:block/grate",
+    "hatch": "thaumcraft:block/grate_hatch",
+    "inside": "thaumcraft:block/metalbase",
+    "particle": "#all"
+  }
+}

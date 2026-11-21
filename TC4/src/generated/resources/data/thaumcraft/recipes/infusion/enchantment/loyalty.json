@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "motus": 12,
+    "praecantatio": 8,
+    "vinculum": 12
+  },
+  "base_xp": 4,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:lead"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:loyalty",
+  "instability": 3,
+  "legacy_order": 103,
+  "research": "INFUSIONENCHANTMENT"
+}

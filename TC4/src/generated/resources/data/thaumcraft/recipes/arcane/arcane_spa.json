@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "J": {
+      "item": "thaumcraft:essentia_jar"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    }
+  },
+  "pattern": [
+    "QIQ",
+    "SJS",
+    "SPS"
+  ],
+  "research": "ARCANESPA",
+  "result": {
+    "count": 1,
+    "item": "thaumcraft:arcane_spa"
+  },
+  "vis": {
+    "aqua": 16,
+    "ordo": 8,
+    "terra": 4
+  }
+}

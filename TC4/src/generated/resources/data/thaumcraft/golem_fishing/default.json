@@ -1,0 +1,198 @@
+{
+  "fish": [
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:cod"
+      },
+      "weight": 60
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:salmon"
+      },
+      "weight": 25
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:tropical_fish"
+      },
+      "weight": 2
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:pufferfish"
+      },
+      "weight": 13
+    }
+  ],
+  "junk": [
+    {
+      "damage": 0.9,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:leather_boots"
+      },
+      "weight": 10
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:leather"
+      },
+      "weight": 10
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:bone"
+      },
+      "weight": 10
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:potion",
+        "nbt": "{Potion:\"minecraft:water\"}"
+      },
+      "weight": 10
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:string"
+      },
+      "weight": 5
+    },
+    {
+      "damage": 0.9,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:fishing_rod"
+      },
+      "weight": 2
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:bowl"
+      },
+      "weight": 10
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:stick"
+      },
+      "weight": 5
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 10,
+        "item": "minecraft:ink_sac"
+      },
+      "weight": 5
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:tripwire_hook"
+      },
+      "weight": 10
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:rotten_flesh"
+      },
+      "weight": 10
+    }
+  ],
+  "treasure": [
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:lily_pad"
+      },
+      "weight": 1
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:name_tag"
+      },
+      "weight": 1
+    },
+    {
+      "damage": 0.0,
+      "enchant": false,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:saddle"
+      },
+      "weight": 1
+    },
+    {
+      "damage": 0.25,
+      "enchant": true,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:bow"
+      },
+      "weight": 1
+    },
+    {
+      "damage": 0.25,
+      "enchant": true,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:fishing_rod"
+      },
+      "weight": 1
+    },
+    {
+      "damage": 0.0,
+      "enchant": true,
+      "stack": {
+        "count": 1,
+        "item": "minecraft:book"
+      },
+      "weight": 1
+    }
+  ]
+}

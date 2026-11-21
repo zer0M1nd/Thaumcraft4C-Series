@@ -1,0 +1,185 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "gadomancy:dropper_transfer",
+      "research": "gadomancy:arcane_dropper",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "奥术投掷器适配新版：支持物品管道接口；模拟提取不会拿走物品，重复查询不会复制物品。",
+          "en_us": "Arcane Droppers support modern item pipes. Simulated transfers leave items in place and cannot duplicate them."
+        }
+      }
+    },
+    {
+      "id": "gadomancy:core_costs",
+      "research": "gadomancy:aura_core",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "魔灵核心注魔已修正：随机成本在开工时确定并保存，查看预览或重载不会重新抽取。",
+          "en_us": "Aura Core infusion is fixed: random costs are chosen and saved when work starts; previews and reloads do not reroll them."
+        }
+      }
+    },
+    {
+      "id": "gadomancy:sticky_transport",
+      "research": "gadomancy:sticky_jar",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "黏性罐传输已修正：侧放与倒置后，源质接口随罐子朝向转动。",
+          "en_us": "Sticky Jar transfer is fixed: essentia connections follow the jar when placed sideways or upside down."
+        }
+      }
+    },
+    {
+      "id": "gadomancy:protector_dimensions",
+      "research": "gadomancy:block_protector",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "保护范围已修正：力场只影响所在维度，不再保护其他维度的同坐标区域。",
+          "en_us": "Protection fields now affect only their own dimension, not matching coordinates in other dimensions."
+        }
+      }
+    },
+    {
+      "id": "gadomancy:remote_jar_network",
+      "research": "gadomancy:remote_jar",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "镜像罐网络已修正：满罐也可首次加入供给网络；不同存档的网络不会串联，平衡时遵守标签过滤。",
+          "en_us": "Mirrored Jar networks are fixed: full jars can join a supply network, saves remain separate, and balancing respects labels."
+        }
+      }
+    },
+    {
+      "id": "gadomancy:disguise_return",
+      "research": "gadomancy:armor_disguise",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "护甲伪装已修正：必须完成研究才能注魔；清洗只返还实际消耗的一件伪装物品。",
+          "en_us": "Armor Disguise is fixed: infusion requires its research, and cleansing returns only the one disguise item consumed."
+        }
+      }
+    },
+    {
+      "id": "gadomancy:familiar_upgrade_color",
+      "research": "gadomancy:ethereal_familiar",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "使魔升级已修正：注魔正确匹配升级颜色，避免误认升级配方。",
+          "en_us": "Familiar infusion now matches upgrade colours correctly."
+        }
+      }
+    },
+    {
+      "id": "gadomancy:claw_owner",
+      "research": "gadomancy:infusion_claw",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "注魔之爪已修正：使用主人实际掌握的研究；不同设备不再串用位置或知识。",
+          "en_us": "Infusion Claws use their owner’s actual research. Separate claws no longer share positions or knowledge."
+        }
+      }
+    },
+    {
+      "id": "gadomancy:aura_world",
+      "research": "gadomancy:aura_effects",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "灵气效果已修正：光明源质的阻止生成范围只作用于本世界；灵魂护甲选择不会因装备池异常而卡住。",
+          "en_us": "Aura effects are fixed: Lux spawn protection stays in its world, and Spiritus armour selection cannot hang on an unsuitable equipment pool."
+        }
+      }
+    },
+    {
+      "id": "gadomancy:compressor_capacity",
+      "research": "gadomancy:essentia_compressor",
+      "kind": "continuation",
+      "provider": "gadomancy",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "魔像秘经",
+          "en_us": "Gadomancy"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "源质冷凝器已修正：各部件共用主体的实际容量，满载时拒绝多余源质，避免溢出或复制。",
+          "en_us": "Essentia Condensers use their main block’s actual capacity and reject excess essentia when full, preventing overflow or duplication."
+        }
+      }
+    }
+  ]
+}

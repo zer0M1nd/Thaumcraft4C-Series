@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "permutatio": 16,
+    "praecantatio": 8,
+    "telum": 16,
+    "vacuos": 16
+  },
+  "base_xp": 6,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:bow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:arrow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:infinity",
+  "instability": 5,
+  "legacy_order": 92,
+  "research": "INFUSIONENCHANTMENT"
+}

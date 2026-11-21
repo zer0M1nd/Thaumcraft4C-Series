@@ -1,0 +1,493 @@
+{
+  "entries": [
+    {
+      "aspects": [
+        {
+          "amount": 1,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 1,
+          "aspect": "terra"
+        }
+      ],
+      "entity": "thaumcraft:taint_spider",
+      "legacy_name": "Thaumcraft.TaintSpider",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 2,
+          "aspect": "aer"
+        }
+      ],
+      "entity": "thaumcraft:taint_spore",
+      "legacy_name": "Thaumcraft.TaintSpore",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "humanus"
+        },
+        {
+          "amount": 2,
+          "aspect": "praecantatio"
+        },
+        {
+          "amount": 2,
+          "aspect": "permutatio"
+        },
+        {
+          "amount": 2,
+          "aspect": "lucrum"
+        }
+      ],
+      "entity": "thaumcraft:pech",
+      "legacy_name": "Thaumcraft.Pech",
+      "legacy_qualifier": "PechType0",
+      "variant": "pech_forager"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "humanus"
+        },
+        {
+          "amount": 2,
+          "aspect": "praecantatio"
+        },
+        {
+          "amount": 2,
+          "aspect": "permutatio"
+        },
+        {
+          "amount": 2,
+          "aspect": "telum"
+        }
+      ],
+      "entity": "thaumcraft:pech",
+      "legacy_name": "Thaumcraft.Pech",
+      "legacy_qualifier": "PechType1",
+      "variant": "pech_mage"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "humanus"
+        },
+        {
+          "amount": 4,
+          "aspect": "praecantatio"
+        },
+        {
+          "amount": 2,
+          "aspect": "permutatio"
+        }
+      ],
+      "entity": "thaumcraft:pech",
+      "legacy_name": "Thaumcraft.Pech",
+      "legacy_qualifier": "PechType2",
+      "variant": "pech_archer"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 5,
+          "aspect": "aer"
+        },
+        {
+          "amount": 10,
+          "aspect": "perditio"
+        },
+        {
+          "amount": 10,
+          "aspect": "praecantatio"
+        },
+        {
+          "amount": 10,
+          "aspect": "potentia"
+        }
+      ],
+      "entity": "thaumcraft:primal_orb",
+      "legacy_name": "Thaumcraft.PrimalOrb",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "limus"
+        },
+        {
+          "amount": 1,
+          "aspect": "praecantatio"
+        },
+        {
+          "amount": 1,
+          "aspect": "aqua"
+        }
+      ],
+      "entity": "thaumcraft:thaumic_slime",
+      "legacy_name": "Thaumcraft.ThaumSlime",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 2,
+          "aspect": "aer"
+        }
+      ],
+      "entity": "thaumcraft:taint_hive",
+      "legacy_name": "Thaumcraft.TaintSwarmer",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 3,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 3,
+          "aspect": "aer"
+        }
+      ],
+      "entity": "thaumcraft:taint_swarm",
+      "legacy_name": "Thaumcraft.TaintSwarm",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 2,
+          "aspect": "volatus"
+        },
+        {
+          "amount": 1,
+          "aspect": "aer"
+        }
+      ],
+      "entity": "thaumcraft:tainted_chicken",
+      "legacy_name": "Thaumcraft.TaintedChicken",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 3,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 3,
+          "aspect": "terra"
+        }
+      ],
+      "entity": "thaumcraft:tainted_cow",
+      "legacy_name": "Thaumcraft.TaintedCow",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 2,
+          "aspect": "terra"
+        }
+      ],
+      "entity": "thaumcraft:tainted_pig",
+      "legacy_name": "Thaumcraft.TaintedPig",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 2,
+          "aspect": "terra"
+        }
+      ],
+      "entity": "thaumcraft:tainted_sheep",
+      "legacy_name": "Thaumcraft.TaintedSheep",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 3,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 2,
+          "aspect": "aer"
+        }
+      ],
+      "entity": "thaumcraft:tainted_villager",
+      "legacy_name": "Thaumcraft.TaintedVillager",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 2,
+          "aspect": "ignis"
+        }
+      ],
+      "entity": "thaumcraft:tainted_creeper",
+      "legacy_name": "Thaumcraft.TaintedCreeper",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 3,
+          "aspect": "exanimis"
+        },
+        {
+          "amount": 1,
+          "aspect": "humanus"
+        },
+        {
+          "amount": 1,
+          "aspect": "cognitio"
+        },
+        {
+          "amount": 1,
+          "aspect": "terra"
+        }
+      ],
+      "entity": "thaumcraft:brainy_zombie",
+      "legacy_name": "Thaumcraft.BrainyZombie",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 4,
+          "aspect": "exanimis"
+        },
+        {
+          "amount": 2,
+          "aspect": "humanus"
+        },
+        {
+          "amount": 1,
+          "aspect": "cognitio"
+        },
+        {
+          "amount": 2,
+          "aspect": "terra"
+        }
+      ],
+      "entity": "thaumcraft:giant_brainy_zombie",
+      "legacy_name": "Thaumcraft.GiantBrainyZombie",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "aer"
+        },
+        {
+          "amount": 2,
+          "aspect": "terra"
+        },
+        {
+          "amount": 2,
+          "aspect": "praecantatio"
+        }
+      ],
+      "entity": "thaumcraft:golem",
+      "legacy_name": "Thaumcraft.Golem",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 3,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 2,
+          "aspect": "aqua"
+        }
+      ],
+      "entity": "thaumcraft:taintacle",
+      "legacy_name": "Thaumcraft.Taintacle",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 1,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 1,
+          "aspect": "aqua"
+        }
+      ],
+      "entity": "thaumcraft:taintacle_small",
+      "legacy_name": "Thaumcraft.TaintacleTiny",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "bestia"
+        },
+        {
+          "amount": 1,
+          "aspect": "volatus"
+        },
+        {
+          "amount": 2,
+          "aspect": "ignis"
+        }
+      ],
+      "entity": "thaumcraft:fire_bat",
+      "legacy_name": "Thaumcraft.Firebat",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "vitium"
+        },
+        {
+          "amount": 2,
+          "aspect": "ignis"
+        }
+      ],
+      "entity": "thaumcraft:mind_spider",
+      "legacy_name": "Thaumcraft.MindSpider",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 4,
+          "aspect": "alienis"
+        },
+        {
+          "amount": 2,
+          "aspect": "mortuus"
+        },
+        {
+          "amount": 4,
+          "aspect": "exanimis"
+        }
+      ],
+      "entity": "thaumcraft:eldritch_guardian",
+      "legacy_name": "Thaumcraft.EldritchGuardian",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 2,
+          "aspect": "alienis"
+        },
+        {
+          "amount": 2,
+          "aspect": "mortuus"
+        }
+      ],
+      "entity": "thaumcraft:eldritch_orb",
+      "legacy_name": "Thaumcraft.EldritchOrb",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 1,
+          "aspect": "alienis"
+        },
+        {
+          "amount": 2,
+          "aspect": "humanus"
+        },
+        {
+          "amount": 1,
+          "aspect": "perditio"
+        }
+      ],
+      "entity": "thaumcraft:cultist_knight",
+      "legacy_name": "Thaumcraft.CultistKnight",
+      "legacy_qualifier": "",
+      "variant": "any"
+    },
+    {
+      "aspects": [
+        {
+          "amount": 1,
+          "aspect": "alienis"
+        },
+        {
+          "amount": 2,
+          "aspect": "humanus"
+        },
+        {
+          "amount": 1,
+          "aspect": "perditio"
+        }
+      ],
+      "entity": "thaumcraft:cultist_cleric",
+      "legacy_name": "Thaumcraft.CultistCleric",
+      "legacy_qualifier": "",
+      "variant": "any"
+    }
+  ],
+  "format": 1
+}

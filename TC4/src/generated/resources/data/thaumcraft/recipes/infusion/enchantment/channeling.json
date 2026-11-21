@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "potentia": 32,
+    "praecantatio": 16,
+    "tempestas": 16
+  },
+  "base_xp": 8,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "minecraft:channeling",
+  "instability": 5,
+  "legacy_order": 106,
+  "research": "INFUSIONENCHANTMENT"
+}

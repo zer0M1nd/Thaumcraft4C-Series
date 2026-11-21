@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 32,
+    "iter": 16,
+    "potentia": 32,
+    "volatus": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_belt"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    }
+  ],
+  "instability": 8,
+  "legacy_order": 29,
+  "research": "HOVERGIRDLE",
+  "result": {
+    "item": "thaumcraft:hover_girdle"
+  }
+}

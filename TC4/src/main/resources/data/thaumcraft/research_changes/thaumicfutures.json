@@ -1,0 +1,966 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicfutures:autocaster_wand",
+      "research": "thaumicfutures:FOCUSTURRET",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "施法器资源已调整：安装整根法杖或大型法杖，使用其真实魔力与核心升级；由附近中继器充能。",
+          "en_us": "Autocasters use an entire wand or staff, drawing its stored vis and applying its focus upgrades. Nearby relays recharge it."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:autocaster_emt",
+      "research": "thaumicfutures:FOCUSTURRET",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "emt"
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "施法器新增电力魔法工具联动：电球每发消耗独立电池槽中的5120 EU。",
+          "en_us": "Autocasters support Electro-Magic Tools energy balls, spending 5,120 EU per shot from the separate battery slot."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:autocaster_recipe",
+      "research": "thaumicfutures:FOCUSTURRET",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "施法器配方适配四代：用缸中之脑替代五代的僵尸之脑。",
+          "en_us": "The Autocaster recipe uses TC4’s Brain in a Jar in place of TC5’s Zombie Brain."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:shard_survival",
+      "research": "thaumicfutures:FOCUSSHARD",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "魔力碎片核心新增生存路线：完成震击后的研究即可制作，接入四代法杖减耗与升级。",
+          "en_us": "Vis Shard foci gain a survival research and crafting route after Shock, using TC4 wand discounts and upgrades."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:grapple_modern",
+      "research": "thaumicfutures:FOCUSGRAPPLE",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "锚钩适配四代：使用法杖魔力与核心升级；锚定方块消失时断开牵引。",
+          "en_us": "Grapples use TC4 wand vis and focus upgrades, detaching when their anchor block disappears."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:builder_cost",
+      "research": "thaumicfutures:FOCUSBUILDER",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "建筑核心扣费已修正：只为成功放置的方块支付一次魔力。容器、多方块和受保护位置不会被直接覆盖。",
+          "en_us": "Builder foci charge once for each successful placement. Containers, multi-block structures and protected positions are not overwritten."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:dioptra_nodes",
+      "research": "thaumicfutures:DIOPTRA",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "屈光仪已改为节点测绘：显示13×13区块内、全高度的四代节点；可按碎片筛选并旋转、缩放查看。未加载区块只读取已有存档。",
+          "en_us": "The Dioptra surveys TC4 nodes across 13×13 chunks and the full build height. Filter with shards, rotate and zoom; unloaded chunks are read from existing saves."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:crafter_custom_grid",
+      "research": "thaumicfutures:ARCANEPATTERNCRAFTER",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "奥术组装器新增自定义布局：持杖连续设置九格，普通点击启用、潜行点击禁用；第九次统一提交，编辑期间暂停合成。",
+          "en_us": "Pattern Crafters add custom grids: set nine cells with a wand, ordinary click to enable and sneak-click to disable. The ninth click commits the layout; crafting pauses while editing."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:crafter_remainders",
+      "research": "thaumicfutures:ARCANEPATTERNCRAFTER",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "奥术组装器输出已修正：同时预留产物和容器返还物的空间，避免共用空槽导致丢失。",
+          "en_us": "Pattern Crafters reserve output space for both products and container remainders, preventing them from competing for the same empty slot."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:turret_modern",
+      "research": "thaumicfutures:BASICTURRET",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "自动十字弩适配新版：可用药箭、光灵箭及其他现代箭矢，命中时也保护主人、友方并遵守PvP设置。",
+          "en_us": "Automated Crossbows accept tipped, spectral and other modern arrows. Impacts protect owners and allies and respect server PvP rules."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:turret_materials",
+      "research": "thaumicfutures:BASICTURRET",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "自动十字弩配方适配四代：发条心智改为空白傀儡核心；缺少黄铜齿轮时使用炼金黄铜锭。",
+          "en_us": "Crossbow recipes replace Clockwork Minds with blank golem cores, and use alchemical brass ingots when brass gears are unavailable."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:crystal_nodes",
+      "research": "thaumicomniverse:RESTORED_CRYSTALS",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "碎片培育已改用四代节点：在对应蕴魔矿上种植，消耗附近节点的魔力生长；低储量时衰退返还魔力，保留最后的孤立种晶。",
+          "en_us": "Crystal cultivation uses TC4 nodes: plant on matching infused ore, consume nearby node vis to grow, and return vis when shrinking. The last isolated seed survives."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:urn_boost",
+      "research": "thaumicomniverse:RESTORED_URN",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "无尽之瓮新增魔力加速：1 cv/t水魔力使产水和供水加快100倍；储存与目标均满时不扣费。",
+          "en_us": "Everfull Urns gain vis boosting: 1 cv/t Aqua increases water generation and delivery by 100×, spending nothing when the urn and recipients are full."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:voidseer_vis",
+      "research": "thaumicomniverse:RESTORED_VOIDSEER",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "虚空预言者适配四代：永久扭曲提供法杖魔力减耗，最高10%；多颗珍珠不叠加。",
+          "en_us": "Voidseer Pearls convert permanent warp into TC4 wand vis discounts, up to 10%, without stacking multiple pearls."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:paradox_scope",
+      "research": "thaumicomniverse:RESTORED_PARADOX",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "悖论物质当前仅保留碰撞爆炸，没有六代的后续持续效果。",
+          "en_us": "Paradox Matter currently retains only its impact explosion, without TC6’s subsequent persistent effects."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:celestial_points",
+      "research": "thaumicomniverse:RESTORED_CELESTIAL",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "天象观测适配四代研究：首次观察及阅读笔记奖励要素研究点，不产生六代观察或理论知识；观察必须带纸。",
+          "en_us": "Celestial observations and notes reward TC4 aspect research points instead of TC6 observation or theory knowledge. Observing requires paper."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:curio_points",
+      "research": "thaumicomniverse:RESTORED_CURIOS",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "珍品奖励适配四代：每种珍品给予三种要素各1–8点研究点，包含一种特有的元始要素。",
+          "en_us": "Curiosities reward 1–8 TC4 research points in each of three aspects, including a distinct primal aspect."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:ancient_altar_rules",
+      "research": "thaumicomniverse:RESTORED_ANCIENT_ALTAR",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "荒古祭坛适配四代：周期缩短10%、不稳定性+1；祭坛与基座提供名义减耗，超过10%后递减，最高40%。",
+          "en_us": "Ancient altars use TC4 rules: 10% shorter cycles and +1 instability. Altar and pedestal discounts diminish above 10%, capped at 40%."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:eldritch_altar_rules",
+      "research": "thaumicomniverse:RESTORED_ELDRITCH_ALTAR",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "邪术祭坛适配四代：周期缩短30%、源质消耗+5%、不稳定性−2；每个基座消耗+0.25%，每对对称基座提供1稳定性。",
+          "en_us": "Eldritch altars use TC4 rules: 30% shorter cycles, +5% essentia cost and −2 instability. Each pedestal adds 0.25% cost; each symmetric pair adds 1 stability."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:regulator_rules",
+      "research": "thaumicomniverse:RESTORED_INFUSION_STONES",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "调节石适配四代：加速石每块周期−10%、消耗+1%；效能石周期+10%、名义减耗2%，共同遵守40%减耗上限。",
+          "en_us": "Regulators use TC4 rules: each speed stone gives −10% cycle time and +1% cost; each efficiency stone gives +10% time and 2% nominal discount, within the shared 40% cap."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:smelter_columns",
+      "research": "thaumicomniverse:RESTORED_SMELTER",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "精炼源质适配四代：两种炼金炉支持十个蒸馏器，粘浆泵可为各类炼金炉扩展蒸馏列。",
+          "en_us": "Refined alchemy supports ten alembics per furnace; auxiliary pumps add alembic columns to alchemical furnaces."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:charm_curios",
+      "research": "thaumicomniverse:RESTORED_CHARMS",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "保命饰物适配新版：使用Curios饰品槽；不死护符消耗后恢复1点生命，并给予恢复与伤害吸收。",
+          "en_us": "Protective charms use Curios slots. The Charm of Undying is consumed to restore one health with regeneration and absorption."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:backpack_host",
+      "research": "thaumicomniverse:ARCANE_CRAFTING_UPGRADE",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.backpacks",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "sophisticatedbackpacks"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "backpacks",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "奥术合成背包适配新版：由精妙背包升级提供九格合成和真实法杖槽，材料、魔力与容器返还物按工作台规则结算。",
+          "en_us": "Arcane backpack crafting uses a Sophisticated Backpacks upgrade with nine cells and a real wand slot, following workbench rules for ingredients, vis and remainders."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:modern_machine_ports",
+      "research": "thaumicomniverse:MACHINE_ASPECT_PORTS",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.machinery_ports",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "modularmachinery"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "machinery_ports",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "神秘机器接口适配新版：接入Modular Machinery Reborn，提供16级源质与魔力输入、输出端口；魔力以厘点计量。",
+          "en_us": "Thaumic machine interfaces target Modular Machinery Reborn, with sixteen tiers of essentia and centivis input/output ports."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:modern_magic_bees",
+      "research": "thaumicomniverse:MAGIC_BEES",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.forestry_bees",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "forestry"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "forestry_bees",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "神秘养蜂适配新版：旧Magic Bees神秘蜂种与谱系接入现代Forestry及Mo’Bees，节点效果使用四代永久节点状态。",
+          "en_us": "Legacy Magic Bees thaumic species and breeding use modern Forestry and Mo’Bees, with node effects applied to permanent TC4 node state."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:modern_ex_astris",
+      "research": "thaumicfutures:EX_SHARDS",
+      "kind": "continuation",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.ex_deorum",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "exdeorum"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "ex_deorum",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "空岛路线适配新版：旧Ex Astris神秘内容改用Ex Deorum的锤、筛网、桶与热源系统。",
+          "en_us": "Legacy Ex Astris thaumic progression uses Ex Deorum hammers, meshes, barrels and heat sources."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:colored_nitor_heat",
+      "research": "CRUCIBLE",
+      "kind": "integration",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自未来的修改：六代染色闪耀之光也可为坩埚供热。",
+          "en_us": "Thaumic Futures integration: TC6 colored nitor also heats crucibles."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:auxiliary_columns",
+      "research": "DISTILESSENTIA",
+      "kind": "integration",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.thaumcraft6",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "thaumcraft6",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自未来的修改：辅助粘浆泵可为本体炼金炉扩展蒸馏列。",
+          "en_us": "Thaumic Futures integration: auxiliary slurry pumps add alembic columns to core alchemical furnaces."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:if_harvest",
+      "research": "PLANTS",
+      "kind": "integration",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.industrial_foregoing",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "industrialforegoing"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "industrial_foregoing",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自工业先锋的联动：采收器可处理成熟魔豆、水银花、烈焰花和魔菇，保留魔豆要素及保护检查。",
+          "en_us": "Industrial Foregoing integration: harvesters handle mature mana beans, shimmerleaf, cinderpearl and vishrooms, preserving bean aspects and protection checks."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:ie_heat",
+      "research": "DISTILESSENTIA",
+      "kind": "integration",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.external_heat",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "external_heat",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自沉浸工程的联动：外部加热器可加热炼金炉，费用采用宿主熔炉默认值。",
+          "en_us": "Immersive Engineering integration: external heaters heat alchemical furnaces at the host’s default furnace energy cost."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:ie_death",
+      "research": "LIQUIDDEATH",
+      "kind": "integration",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.chemthrower",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "chemthrower",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自沉浸工程的联动：化学喷射器可喷射死亡之水，造成4点溶解伤害。",
+          "en_us": "Immersive Engineering integration: chemthrowers spray Liquid Death for 4 dissolution damage."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:ie_purifying",
+      "research": "BATHSALTS",
+      "kind": "integration",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.chemthrower",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "chemthrower",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自沉浸工程的联动：喷射净化浴液提供100刻扭曲守护。",
+          "en_us": "Immersive Engineering integration: sprayed purifying fluid grants 100 ticks of Warp Ward."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:pam_crops",
+      "research": "COREHARVEST",
+      "kind": "integration",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.food_integrations",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "food_integrations",
+          "scope": "server",
+          "value": true
+        },
+        {
+          "type": "forge:or",
+          "values": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "pamhc2crops"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "pamhc2trees"
+            }
+          ]
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自潘马斯的联动：收获傀儡可处理HarvestCraft 2作物及果树。",
+          "en_us": "Pam’s integration: harvest golems support HarvestCraft 2 crops and fruit trees."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:botania_shields",
+      "research": "RUNICARMOR",
+      "kind": "integration",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.botania",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "botania",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自植物魔法的联动：现代Botania饰品通过Curios接入符文护盾。",
+          "en_us": "Botania integration: modern Botania accessories contribute runic shielding through Curios."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:botania_revealing",
+      "research": "GOGGLES",
+      "kind": "integration",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.botania",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "botania",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自植物魔法的联动：魔力钢、泰拉钢和源质钢揭示头盔接入节点与设备信息显示。",
+          "en_us": "Botania integration: manasteel, terrasteel and elementium revealing helmets show node and device information."
+        }
+      }
+    },
+    {
+      "id": "thaumicfutures:tinkers_thaumium",
+      "research": "THAUMIUM",
+      "kind": "integration",
+      "provider": "thaumicfutures",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代：未来",
+          "en_us": "Thaumic Futures"
+        }
+      },
+      "configuration": "revival_features.tinkers",
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+        },
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumicfutures",
+          "key": "tinkers",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "text": {
+        "localized": {
+          "zh_cn": "来自匠魂的联动：神秘金属材料及额外强化槽接入TConstruct 3。",
+          "en_us": "Tinkers’ integration: thaumium material and extra modifier slots use TConstruct 3."
+        }
+      }
+    }
+  ]
+}

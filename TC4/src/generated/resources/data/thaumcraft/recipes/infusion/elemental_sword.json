@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 8,
+    "motus": 8,
+    "potentia": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_sword"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:greatwood_log"
+      }
+    }
+  ],
+  "instability": 1,
+  "legacy_order": 20,
+  "research": "ELEMENTALSWORD",
+  "result": {
+    "item": "thaumcraft:elemental_sword"
+  }
+}

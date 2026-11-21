@@ -1,0 +1,202 @@
+[
+  {
+    "tag": "wood",
+    "metadata": -1,
+    "capacity": 25,
+    "craftCost": 1,
+    "regenerates": null,
+    "staff": false,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_wood.png"
+  },
+  {
+    "tag": "greatwood",
+    "metadata": 0,
+    "capacity": 50,
+    "craftCost": 3,
+    "regenerates": null,
+    "staff": false,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_greatwood.png"
+  },
+  {
+    "tag": "obsidian",
+    "metadata": 1,
+    "capacity": 75,
+    "craftCost": 6,
+    "regenerates": "terra",
+    "staff": false,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_obsidian.png"
+  },
+  {
+    "tag": "blaze",
+    "metadata": 6,
+    "capacity": 75,
+    "craftCost": 6,
+    "regenerates": "ignis",
+    "staff": false,
+    "runes": false,
+    "glowing": true,
+    "texture": "thaumcraft:textures/models/wand_rod_blaze.png"
+  },
+  {
+    "tag": "ice",
+    "metadata": 3,
+    "capacity": 75,
+    "craftCost": 6,
+    "regenerates": "aqua",
+    "staff": false,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_ice.png"
+  },
+  {
+    "tag": "quartz",
+    "metadata": 4,
+    "capacity": 75,
+    "craftCost": 6,
+    "regenerates": "ordo",
+    "staff": false,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_quartz.png"
+  },
+  {
+    "tag": "bone",
+    "metadata": 7,
+    "capacity": 75,
+    "craftCost": 6,
+    "regenerates": "perditio",
+    "staff": false,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_bone.png"
+  },
+  {
+    "tag": "reed",
+    "metadata": 5,
+    "capacity": 75,
+    "craftCost": 6,
+    "regenerates": "aer",
+    "staff": false,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_reed.png"
+  },
+  {
+    "tag": "silverwood",
+    "metadata": 2,
+    "capacity": 100,
+    "craftCost": 9,
+    "regenerates": null,
+    "staff": false,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_silverwood.png"
+  },
+  {
+    "tag": "greatwood_staff",
+    "metadata": 50,
+    "capacity": 125,
+    "craftCost": 8,
+    "regenerates": null,
+    "staff": true,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_greatwood.png"
+  },
+  {
+    "tag": "obsidian_staff",
+    "metadata": 51,
+    "capacity": 175,
+    "craftCost": 14,
+    "regenerates": "terra",
+    "staff": true,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_obsidian.png"
+  },
+  {
+    "tag": "blaze_staff",
+    "metadata": 56,
+    "capacity": 175,
+    "craftCost": 14,
+    "regenerates": "ignis",
+    "staff": true,
+    "runes": false,
+    "glowing": true,
+    "texture": "thaumcraft:textures/models/wand_rod_blaze.png"
+  },
+  {
+    "tag": "ice_staff",
+    "metadata": 53,
+    "capacity": 175,
+    "craftCost": 14,
+    "regenerates": "aqua",
+    "staff": true,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_ice.png"
+  },
+  {
+    "tag": "quartz_staff",
+    "metadata": 54,
+    "capacity": 175,
+    "craftCost": 14,
+    "regenerates": "ordo",
+    "staff": true,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_quartz.png"
+  },
+  {
+    "tag": "bone_staff",
+    "metadata": 57,
+    "capacity": 175,
+    "craftCost": 14,
+    "regenerates": "perditio",
+    "staff": true,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_bone.png"
+  },
+  {
+    "tag": "reed_staff",
+    "metadata": 55,
+    "capacity": 175,
+    "craftCost": 14,
+    "regenerates": "aer",
+    "staff": true,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_reed.png"
+  },
+  {
+    "tag": "silverwood_staff",
+    "metadata": 52,
+    "capacity": 250,
+    "craftCost": 24,
+    "regenerates": null,
+    "staff": true,
+    "runes": false,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_silverwood.png"
+  },
+  {
+    "tag": "primal_staff",
+    "metadata": 100,
+    "capacity": 250,
+    "craftCost": 32,
+    "regenerates": null,
+    "staff": true,
+    "runes": true,
+    "glowing": false,
+    "texture": "thaumcraft:textures/models/wand_rod_primal.png",
+    "regenerateAll": true,
+    "regenerationInterval": 50
+  }
+]

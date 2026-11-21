@@ -1,0 +1,1813 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumcraft:advanced_duplicates",
+      "research": "ADVANCEDGOLEM",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.ADVANCEDGOLEM.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "不能重复安装两次同类型的升级",
+          "replace": {
+            "text": "同类型升级最多安装两次"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:bore_wand_text",
+      "research": "ARCANEBORE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.ARCANEBORE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "再提供一个法杖供能",
+          "replace": {
+            "text": "使用法杖调整朝向"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:aspect_display_text",
+      "research": "ASPECTS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.tooltips.aspect_icons",
+      "client_conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "tooltips.aspect_icons",
+          "scope": "client",
+          "value": true
+        }
+      ],
+      "keys": [
+        "tc.research_page.ASPECTS.3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "需要在选中物品时按下潜行键(默认shift)",
+          "replace": {
+            "text": "将鼠标悬停于物品；默认显示要素图标，按Shift切回文字"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "simply hover your cursor over the item and press sneak (shift)",
+          "replace": {
+            "text": " hover over the item for aspect icons, or hold Shift for text"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:bellows_redstone_text",
+      "research": "BELLOWS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.BELLOWS.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "按住Shift点击罐子或者蒸馏器能够清空它们.",
+          "replace": {
+            "text": "红石信号可停用风箱。"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:buffer_suction_text",
+      "research": "CENTRIFUGE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.CENTRIFUGE.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "64",
+          "replace": {
+            "text": "32"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:buffer_use_text",
+      "research": "CENTRIFUGE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.CENTRIFUGE.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "内置大量容纳空间的设备中的源质意义甚微",
+          "replace": {
+            "text": "可能存有多种源质的设备中的源质非常有用"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_liquid_text",
+      "research": "CORELIQUID",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.CORELIQUID.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "尽管移液傀儡常常被指示去用水桶盛装世界中的流体方块,但受限于材料允许,每样物品,它们仅仅能携带100mb的液体.",
+          "replace": {
+            "text": "移液容量为原始搬运量平方根向下取整×1000 mB，再乘服务器搬运倍率；世界中的液体按整桶取用。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "A decanting golem can only carry 100mb of liquid per item its material type is normally allowed to carry, though they will always carry a full buckets worth if instructed to pick up liquids blocks in the world.",
+          "replace": {
+            "text": " Liquid capacity is floor(sqrt(unscaled carrying capacity)) × 1000 mB, multiplied by the server cargo multiplier. World fluids are collected in whole buckets."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:sorting_direction_text",
+      "research": "CORESORTING",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.CORESORTING.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "只有当某物品已经存在于某个和傀儡绑定的了的容器中时,它才会从目标容器中取出物品放入该容器",
+          "replace": {
+            "text": "只有标记容器中已有该物品时，才会将其从绑定容器搬往标记容器"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:use_sneaking_text",
+      "research": "COREUSE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.COREUSE.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "你可以在潜行时设定它使用左击还是右击",
+          "replace": {
+            "text": "你可以设定左击或右击，也可以让傀儡模拟潜行点击"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:alembic_phial_text",
+      "research": "DISTILESSENTIA",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.DISTILESSENTIA.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "取出炼金炉中的要素",
+          "replace": {
+            "text": "取出蒸馏器中的要素"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:sword_sweep_text",
+      "research": "ELEMENTALSWORD",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.ELEMENTALSWORD.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "可以触发连锁闪电特性,弹射的电弧将会波及次要目标",
+          "replace": {
+            "text": "会横扫附近的其他敌人"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:sword_use_text",
+      "research": "ELEMENTALSWORD",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.ELEMENTALSWORD.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "格挡",
+          "replace": {
+            "text": "持续使用"
+          },
+          "count": 2
+        },
+        "en_us": {
+          "find": "blocking",
+          "replace": {
+            "text": " using the sword"
+          },
+          "count": 2
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:repair_source_text",
+      "research": "ENCHANT",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.ENCHANT.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "从灵气中吸取魔力",
+          "replace": {
+            "text": "从物品栏中的法杖吸取魔力"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:focal_cost_text",
+      "research": "FOCALMANIPULATION",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.FOCALMANIPULATION.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "每次升级都会显著提高升级的消耗.",
+          "replace": {
+            "text": "单次选择1–5项升级分别消耗280、612、910、1186、1395点经验；只按本次项数计费。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "but each rank is doubles the cost.",
+          "replace": {
+            "text": " The cost depends only on the current batch: 280, 612, 910, 1186 or 1395 XP points for 1–5 upgrades."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:focus_controls_text",
+      "research": "FOCUSFIRE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.FOCUSFIRE.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "按下F按键,就能安装上你携带的核心.长按F能够切换你携带的不同核心.",
+          "replace": [
+            {
+              "text": "按下"
+            },
+            {
+              "keybind": "key.thaumcraft.change_focus"
+            },
+            {
+              "text": "打开选择菜单，再点击核心；潜行时按该键可卸下核心。"
+            }
+          ],
+          "count": 1
+        },
+        "en_us": {
+          "find": "press F",
+          "replace": [
+            {
+              "text": " "
+            },
+            [
+              {
+                "text": "press "
+              },
+              {
+                "keybind": "key.thaumcraft.change_focus"
+              }
+            ]
+          ],
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:frost_ability_text",
+      "research": "FOCUSFROST",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.FOCUSFROST.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "四溅的霜星有时可能会打坏一些脆弱的物品.注意不要在脆弱的建筑附近使用它,此外,霜星能够化水为冰",
+          "replace": {
+            "text": "冰片会在实心表面反弹，可绕过拐角或击中多个敌人；不会将水结冰"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:pouch_return_text",
+      "research": "FOCUSPOUCH",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.FOCUSPOUCH.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "且卸除的核心也会优先放置在手袋内",
+          "replace": {
+            "text": "且换下的核心优先返回原槽，失败时再尝试手袋与背包"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "and any foci that get removed will be placed inside it first",
+          "replace": {
+            "text": " and replaced foci return to their original slot first, then available pouch or inventory space"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:bell_key_text",
+      "research": "GOLEMBELL",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.GOLEMBELL.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "F键",
+          "replace": {
+            "keybind": "key.thaumcraft.change_focus"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "pressing F",
+          "replace": [
+            {
+              "text": " "
+            },
+            [
+              {
+                "text": "pressing "
+              },
+              {
+                "keybind": "key.thaumcraft.change_focus"
+              }
+            ]
+          ],
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:bell_pickup_text",
+      "research": "GOLEMBELL",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.GOLEMBELL.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "完好无损地卸载当前安装的全部升级",
+          "replace": {
+            "text": "完整拾起傀儡，保留升级与设置"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_pickup_text",
+      "research": "GOLEMSTRAW",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.GOLEMSTRAW.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "对其使用法杖能够将其回收",
+          "replace": {
+            "text": "使用傀儡使铃铛左击可以将其回收"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_place_text",
+      "research": "GOLEMSTRAW",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.GOLEMSTRAW.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "右击(或左击)",
+          "replace": {
+            "text": "右击（或潜行右击）"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:tallow_strength_text",
+      "research": "GOLEMTALLOW",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.GOLEMTALLOW.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "力量: 低",
+          "replace": {
+            "text": "力量: 一般"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:harness_fuel_text",
+      "research": "HOVERHARNESS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.HOVERHARNESS.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "当穿戴着缰绳的时候右击盛满的罐子来灌注要素",
+          "replace": {
+            "text": "手持缰绳右击打开界面，放入装有Potentia的罐子"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:harness_key_text",
+      "research": "HOVERHARNESS",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.HOVERHARNESS.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "\"F\"",
+          "replace": {
+            "keybind": "key.thaumcraft.hover"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "'H'",
+          "replace": [
+            {
+              "text": " "
+            },
+            {
+              "keybind": "key.thaumcraft.hover"
+            }
+          ],
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:enhanced_no_xp_text",
+      "research": "INFUSIONENCHANTMENT",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.infusion.enhanced_enchanting",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "infusion.enhanced_enchanting",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "keys": [
+        "tc.research_page.INFUSIONENCHANTMENT.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "这种附魔同样需要提供经验形式的生命源质,但需求量远低于普通附魔所需.这些经验将从注魔坛附近的任意玩家身上抽取,因此使用时需要当心.",
+          "replace": {
+            "text": "增强模式无需经验；以下源质费用仍须支付。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "It also requires some life essence in the form of experience, but much less than would be normally required to enchant something. This experience is drawn from anyone near the infusion altar so care should be taken.",
+          "replace": {
+            "text": " Enhanced mode requires no XP; the essentia costs below still apply."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:enhanced_cost_words",
+      "research": "INFUSIONENCHANTMENT",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.infusion.enhanced_enchanting",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "infusion.enhanced_enchanting",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "keys": [
+        "tc.research_page.INFUSIONENCHANTMENT.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "I级附魔所消耗的源质和经验",
+          "replace": {
+            "text": "每提升一级所需的源质"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "The essentia and experience costs listed in following recipes are for the first level of enchantment.",
+          "replace": {
+            "text": " The following recipes list the essentia cost for each level gained."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:enhanced_scaling_text",
+      "research": "INFUSIONENCHANTMENT",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.infusion.enhanced_enchanting",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "infusion.enhanced_enchanting",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "keys": [
+        "tc.research_page.INFUSIONENCHANTMENT.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "根据附魔等级不同,所消耗的源质和经验也将会有所不同,就比方说II级附魔将消耗I级附魔两倍的资源.",
+          "replace": {
+            "text": "消耗只乘本次增加的等级数；每个独立世界盐基座增加一级。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Essentia and experience cost are multiplied by the level of enchantment you are performing, so a level II enchant costs twice as much as a level I.",
+          "replace": {
+            "text": " Essentia cost is multiplied only by the levels gained in this operation; each separate salis mundus pedestal adds one level."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:enhanced_other_cost_text",
+      "research": "INFUSIONENCHANTMENT",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "revival_features.infusion.enhanced_enchanting",
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "infusion.enhanced_enchanting",
+          "scope": "server",
+          "value": true
+        }
+      ],
+      "keys": [
+        "tc.research_page.INFUSIONENCHANTMENT.3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "如若物品已包含你当前进行附魔类型外的附魔,可能会需要更多的消耗.每一级其他的附魔将会使得当前进行的附魔多消耗10%.例如,对一把亡灵杀手III的剑进行火焰附加I附魔,会额外消耗30%的源质和经验.",
+          "replace": {
+            "text": "已有附魔不会额外增加源质或经验消耗。"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Additional costs might is also required if the item already contains enchants other than the one you are currently performing. This cost is usually around 10% per level of enchantment. So enchanting a sword with Fire Aspect I that already contains Smite III will cost 30% more.",
+          "replace": {
+            "text": " Existing enchantments do not add essentia or XP costs."
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:classic_other_cost_text",
+      "research": "INFUSIONENCHANTMENT",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "conditions": [
+        {
+          "type": "thaumcraft:feature",
+          "modid": "thaumcraft",
+          "key": "infusion.enhanced_enchanting",
+          "scope": "server",
+          "value": false
+        }
+      ],
+      "keys": [
+        "tc.research_page.INFUSIONENCHANTMENT.3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "源质和经验",
+          "replace": {
+            "text": "源质（经验只按本次目标附魔等级计算）"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "will cost 30% more",
+          "replace": {
+            "text": " will cost 30% more essentia, without extra XP for the other enchantments"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:void_jar_suction_text",
+      "research": "JARVOID",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.JARVOID.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "标签罐子>标签虚空罐子>虚空罐子>罐子",
+          "replace": {
+            "text": "未满时：标签罐子>标签虚空罐子>普通罐子=无标签虚空罐子；虚空罐满后吸力下降"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:fertility_feed_text",
+      "research": "LAMPFERTILITY",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.LAMPFERTILITY.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "既可以将要素罐子放于附近,又可以直接将育种灯安附在要素源质管道系统中",
+          "replace": {
+            "text": "将育种灯接入源质管道系统即可供给"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:mirror_vis_text",
+      "research": "MIRROR",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.MIRROR.3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "源质",
+          "replace": {
+            "text": "魔力"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:essentia_mirror_loss_text",
+      "research": "MIRRORESSENTIA",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.MIRRORESSENTIA.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "远距离抽取像源质这么不稳定的东西并非毫无风险,有时会造成少量源质流失.",
+          "replace": {
+            "text": "传输不会随机损失源质；对端区块必须保持加载。"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:nitor_heat_text",
+      "research": "NITOR",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.NITOR.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "并不产热,因此无法用作燃料",
+          "replace": {
+            "text": "能为上方坩埚提供热量，但不能作为普通熔炉燃料"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:paving_material_text",
+      "research": "PAVETRAVEL",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.PAVETRAVEL.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "石英方块",
+          "replace": {
+            "text": "奥术石材"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:phial_reuse_text",
+      "research": "PHIAL",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.PHIAL.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "液相的要素源质难以收集,且会彻底污染盛放它的玻璃安瓿,因此玻璃安瓿只能作为一种一次性使用的消耗品.",
+          "replace": {
+            "text": "倒出源质后会返还空安瓿，可再次装填。"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:arrow_recovery_text",
+      "research": "PRIMALARROW",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.PRIMALARROW.3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "无法从地上拾起来,且即使是无限附魔也只有1/3的几率可以减免元始之矢的消耗",
+          "replace": {
+            "text": "可在落地后拾取；无限附魔可完全免除射箭消耗"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "cannot be picked up from the ground and the Infinity enchantment has only a 1 in 3 chance of preventing a primal arrow from being consumed",
+          "replace": {
+            "text": " can be recovered from the ground, and Infinity fully prevents ammunition consumption"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:research_scan_text",
+      "research": "RESEARCH",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.RESEARCH.3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "否则你只能通过复合其他两种要素来得到它",
+          "replace": {
+            "text": "或已知其组成要素，扫描时便能发现它"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:primary_research_text",
+      "research": "RESEARCH",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.RESEARCH.8"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "前置的研究",
+          "replace": {
+            "text": "需要笔记的主要研究"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:research_title_text",
+      "research": "RESEARCH",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.RESEARCH.9"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "若你能看到其名称(而非只是些怪异的符文)",
+          "replace": {
+            "text": "若该研究已满足前置并可研究"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "If you can read their title (instead of seeing strange runes)",
+          "replace": {
+            "text": " If the research prerequisites are met and it is available to research"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:blaze_environment_text",
+      "research": "ROD_blaze",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.ROD_blaze.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "在炎热环境中",
+          "replace": {
+            "text": ""
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:ice_environment_text",
+      "research": "ROD_ice",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.ROD_ice.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "且在寒冷环境中",
+          "replace": {
+            "text": ""
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:staff_ratio_text",
+      "research": "ROD_greatwood_staff",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.ROD_greatwood_staff.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "2倍",
+          "replace": {
+            "text": "2.5倍"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:empty_shield_text",
+      "research": "RUNICARMOR",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.RUNICARMOR.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "但即使是耗尽状态也至少会为佩戴者提供基本上相当于皮革装备的防护",
+          "replace": {
+            "text": "耗尽时护盾自身不再减免伤害"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:charged_delay_text",
+      "research": "RUNICCHARGED",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.RUNICCHARGED.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "充能时间比符文护盾多1/4",
+          "replace": {
+            "text": "每次充能间隔缩短0.5秒（默认间隔的1/4）"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "increases the recharge time of runic shielding by 25%",
+          "replace": {
+            "text": " reduces the recharge interval by 0.5 seconds (25% of the default interval)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:charged_pair_text",
+      "research": "RUNICCHARGED",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.RUNICCHARGED.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "这会让正常充能时间减半",
+          "replace": {
+            "text": "两只合计缩短1秒（默认间隔的一半）"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "effectively halving the normal recharge time",
+          "replace": {
+            "text": " reducing the interval by a total of one second for two rings (half the default interval)"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:sceptre_discount_text",
+      "research": "SCEPTRE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.SCEPTRE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "5%",
+          "replace": {
+            "text": "10%"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:golem_tags_text",
+      "research": "UPGRADEENTROPY",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.UPGRADEENTROPY.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "矿物辞典",
+          "replace": {
+            "text": "物品标签"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "ore dictionary",
+          "replace": {
+            "text": " item tags"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:fire_slots_text",
+      "research": "UPGRADEFIRE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.UPGRADEFIRE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "两个格子的物品栏空间",
+          "replace": {
+            "text": "过滤槽（增加数量取决于基础槽位数）"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:charger_direction_text",
+      "research": "VISCHARGERELAY",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.VISCHARGERELAY.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "从中继器或者放在合成台里的法杖抽取魔力",
+          "replace": {
+            "text": "从中继网络抽取魔力，为台内法杖充能"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:stabilizer_text",
+      "research": "VISPOWER",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.VISPOWER.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "为保证这一点你需要制作",
+          "replace": {
+            "text": "先将节点稳定器放在节点下方，再制作"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:relay_text",
+      "research": "VISPOWER",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.VISPOWER.3"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "充能节点附件8格内能够安置任意数量的节点,节点之间也能互相传到魔力",
+          "replace": {
+            "text": "充能节点附近8格内可安放任意数量的中继器，中继器之间也能互相传导魔力"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:directional_suction_text",
+      "research": "TUBEFILTER",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.TUBEFILTER.2"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "只接受某个方向上抽取来的源质,蓝色标记指示了它接受抽取物的方向",
+          "replace": {
+            "text": "只接受一个方向传来的吸力，蓝色标记指示接受吸力的一侧"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:temporary_warp_text",
+      "research": "WARP",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "keys": [
+        "tc.research_page.WARP.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "目前尚未有摆脱这种效果的方法",
+          "replace": {
+            "text": "临时扭曲会随时间消退；永久扭曲尚无已知的消除方法"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:carry_text_golemwood",
+      "research": "GOLEMWOOD",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "general.golem_carry_multiplier",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumcraft",
+          "key": "general.golem_carry_multiplier",
+          "value": 1,
+          "operator": "ne",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.GOLEMWOOD.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "运载量: 4",
+          "replace": {
+            "text": "运载量：基础4，乘服务器搬运倍率"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Carry Limit: 4",
+          "replace": {
+            "text": " Carry Limit: base 4 × server cargo multiplier"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:carry_text_golemtallow",
+      "research": "GOLEMTALLOW",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "general.golem_carry_multiplier",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumcraft",
+          "key": "general.golem_carry_multiplier",
+          "value": 1,
+          "operator": "ne",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.GOLEMTALLOW.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "运载量: 8",
+          "replace": {
+            "text": "运载量：基础8，乘服务器搬运倍率"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Carry Limit: 8",
+          "replace": {
+            "text": " Carry Limit: base 8 × server cargo multiplier"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:carry_text_golemclay",
+      "research": "GOLEMCLAY",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "general.golem_carry_multiplier",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumcraft",
+          "key": "general.golem_carry_multiplier",
+          "value": 1,
+          "operator": "ne",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.GOLEMCLAY.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "运载量: 8",
+          "replace": {
+            "text": "运载量：基础8，乘服务器搬运倍率"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Carry Limit: 8",
+          "replace": {
+            "text": " Carry Limit: base 8 × server cargo multiplier"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:carry_text_golemflesh",
+      "research": "GOLEMFLESH",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "general.golem_carry_multiplier",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumcraft",
+          "key": "general.golem_carry_multiplier",
+          "value": 1,
+          "operator": "ne",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.GOLEMFLESH.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "运载量: 4",
+          "replace": {
+            "text": "运载量：基础4，乘服务器搬运倍率"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Carry Limit: 4",
+          "replace": {
+            "text": " Carry Limit: base 4 × server cargo multiplier"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:carry_text_golemstone",
+      "research": "GOLEMSTONE",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "general.golem_carry_multiplier",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumcraft",
+          "key": "general.golem_carry_multiplier",
+          "value": 1,
+          "operator": "ne",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.GOLEMSTONE.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "运载量: 16",
+          "replace": {
+            "text": "运载量：基础16，乘服务器搬运倍率"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Carry Limit: 16",
+          "replace": {
+            "text": " Carry Limit: base 16 × server cargo multiplier"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:carry_text_golemiron",
+      "research": "GOLEMIRON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "general.golem_carry_multiplier",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumcraft",
+          "key": "general.golem_carry_multiplier",
+          "value": 1,
+          "operator": "ne",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.GOLEMIRON.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "运载量: 32",
+          "replace": {
+            "text": "运载量：基础32，乘服务器搬运倍率"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Carry Limit: 32",
+          "replace": {
+            "text": " Carry Limit: base 32 × server cargo multiplier"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:carry_text_golemthaumium",
+      "research": "GOLEMTHAUMIUM",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "configuration": "general.golem_carry_multiplier",
+      "conditions": [
+        {
+          "type": "thaumcraft:config",
+          "modid": "thaumcraft",
+          "key": "general.golem_carry_multiplier",
+          "value": 1,
+          "operator": "ne",
+          "scope": "server"
+        }
+      ],
+      "keys": [
+        "tc.research_page.GOLEMTHAUMIUM.1"
+      ],
+      "translations": {
+        "zh_cn": {
+          "find": "运载量: 32",
+          "replace": {
+            "text": "运载量：基础32，乘服务器搬运倍率"
+          },
+          "count": 1
+        },
+        "en_us": {
+          "find": "Carry Limit: 32",
+          "replace": {
+            "text": " Carry Limit: base 32 × server cargo multiplier"
+          },
+          "count": 1
+        }
+      }
+    }
+  ]
+}
