@@ -1,0 +1,367 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "nodalmechanics:matrix",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shaped",
+        "research": "NODECATALYZATION",
+        "width": 3,
+        "height": 3,
+        "aspects": {
+          "ordo": 20,
+          "perditio": 20
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "nodalmechanics:matrix",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_log",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_log",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_log",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_log",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "nodalmechanics:attune_mixed",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shapeless",
+        "research": "NODECATALYZATION",
+        "aspects": {
+          "ordo": 10
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "nodalmechanics:matrix",
+            "count": 1,
+            "nbt": "{aspects:\"aer,terra,ignis,aqua,ordo,perditio\"}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "nodalmechanics:matrix",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"aer\",amount:8}]}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"terra\",amount:8}]}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"ignis\",amount:8}]}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"aqua\",amount:8}]}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"ordo\",amount:8}]}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"perditio\",amount:8}]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "nodalmechanics:attune_single",
+      "class": "modern",
+      "data": {
+        "kind": "arcane_shapeless",
+        "research": "NODECATALYZATION",
+        "aspects": {
+          "ordo": 10
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "nodalmechanics:matrix",
+            "count": 1,
+            "nbt": "{aspects:\"ignis,ignis,ignis,ignis,ignis,ignis,ignis,ignis\"}"
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "nodalmechanics:matrix",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"ignis\",amount:8}]}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"ignis\",amount:8}]}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"ignis\",amount:8}]}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"ignis\",amount:8}]}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"ignis\",amount:8}]}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"ignis\",amount:8}]}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"ignis\",amount:8}]}"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_phial",
+                "count": 1,
+                "nbt": "{Aspects:[{key:\"ignis\",amount:8}]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "nodalmechanics:node_mixed",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "NODECATALYZATION",
+        "instability": 10,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "nodalmechanics:matrix",
+            "count": 1,
+            "nbt": "{aspects:\"aer,terra,ignis,aqua,ordo,perditio\"}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:node_jar",
+            "count": 1,
+            "nbt": "{Aspects:[{key:\"aer\",amount:15},{key:\"terra\",amount:15},{key:\"ignis\",amount:15},{key:\"aqua\",amount:15},{key:\"ordo\",amount:15},{key:\"perditio\",amount:15}]}"
+          }
+        },
+        "aspects": {
+          "aer": 150,
+          "terra": 150,
+          "ignis": 150,
+          "aqua": 150,
+          "ordo": 150,
+          "perditio": 150
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "nodalmechanics:node_single",
+      "class": "modern",
+      "data": {
+        "kind": "infusion",
+        "research": "NODECATALYZATION",
+        "instability": 10,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "nodalmechanics:matrix",
+            "count": 1,
+            "nbt": "{aspects:\"ignis,ignis,ignis,ignis,ignis,ignis,ignis,ignis\"}"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:node_jar",
+            "count": 1,
+            "nbt": "{Aspects:[{key:\"ignis\",amount:120}]}"
+          }
+        },
+        "aspects": {
+          "ignis": 1200
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

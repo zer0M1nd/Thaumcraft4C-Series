@@ -1,0 +1,52 @@
+{
+  "name": "Nodal Mechanics 1.7-1.0-7",
+  "legacy_modid": "NodalMechanics",
+  "sha256": "538ca06dd04eabaab530bbdedabe435c981547add5c6b20bb688863444f34efb",
+  "download": "https://www.curseforge.com/minecraft/mc-mods/nodal-mechanics/files/2213742",
+  "mapping": {
+    "assets/nodalmechanics/textures/item/matrix.png": "assets/nodalmechanics/textures/items/itemMatrix.png",
+    "assets/nodalmechanics/lang/en_us.json": "assets/nodalmechanics/lang/en_US.lang",
+    "assets/nodalmechanics/lang/zh_cn.json": "assets/nodalmechanics/lang/zh_CN.lang",
+    "assets/nodalmechanics/lang/ru_ru.json": "assets/nodalmechanics/lang/ru_RU.lang"
+  },
+  "languages": {
+    "assets/nodalmechanics/lang/en_us.json": {
+      "item.nodalmechanics.matrix.attuned": "item.nodalmechanics.matrix.attuned.name",
+      "item.nodalmechanics.matrix.attuned.name": "item.nodalmechanics.matrix.attuned.name",
+      "item.nodalmechanics.matrix.unattuned": "item.nodalmechanics.matrix.unattuned.name",
+      "item.nodalmechanics.matrix.unattuned.name": "item.nodalmechanics.matrix.unattuned.name",
+      "itemGroup.NodalMechanics": "itemGroup.nodalmechanics.tab",
+      "itemGroup.nodalmechanics.tab": "itemGroup.nodalmechanics.tab",
+      "nodalmechanics.nodecatalyzation.research": "nodalmechanics.nodecatalyzation.research",
+      "tc.research_name.NODECATALYZATION": "tc.research_name.NODECATALYZATION",
+      "tc.research_page.NODECATALYZATION.0": "nodalmechanics.nodecatalyzation.research",
+      "tc.research_text.NODECATALYZATION": "tc.research_text.NODECATALYZATION",
+      "tooltip.nodalmechanics.matrix.attuned": "tooltip.nodalmechanics.matrix.attuned",
+      "tooltip.nodalmechanics.matrix.unattuned": "tooltip.nodalmechanics.matrix.unattuned"
+    },
+    "assets/nodalmechanics/lang/zh_cn.json": {
+      "item.nodalmechanics.matrix.attuned": "item.nodalmechanics.matrix.attuned.name",
+      "item.nodalmechanics.matrix.attuned.name": "item.nodalmechanics.matrix.attuned.name",
+      "item.nodalmechanics.matrix.unattuned": "item.nodalmechanics.matrix.unattuned.name",
+      "item.nodalmechanics.matrix.unattuned.name": "item.nodalmechanics.matrix.unattuned.name",
+      "itemGroup.NodalMechanics": "itemGroup.nodalmechanics.tab",
+      "itemGroup.nodalmechanics.tab": "itemGroup.nodalmechanics.tab",
+      "nodalmechanics.nodecatalyzation.research": "nodalmechanics.nodecatalyzation.research",
+      "tc.research_name.NODECATALYZATION": "tc.research_name.NODECATALYZATION",
+      "tc.research_page.NODECATALYZATION.0": "nodalmechanics.nodecatalyzation.research",
+      "tc.research_text.NODECATALYZATION": "tc.research_text.NODECATALYZATION",
+      "tooltip.nodalmechanics.matrix.attuned": "tooltip.nodalmechanics.matrix.attuned",
+      "tooltip.nodalmechanics.matrix.unattuned": "tooltip.nodalmechanics.matrix.unattuned"
+    },
+    "assets/nodalmechanics/lang/ru_ru.json": {
+      "item.nodalmechanics.matrix.attuned": "item.nodalmechanics.matrix.attuned.name",
+      "item.nodalmechanics.matrix.unattuned": "item.nodalmechanics.matrix.unattuned.name",
+      "tooltip.nodalmechanics.matrix.attuned": "tooltip.nodalmechanics.matrix.attuned",
+      "tooltip.nodalmechanics.matrix.unattuned": "tooltip.nodalmechanics.matrix.unattuned",
+      "tc.research_name.NODECATALYZATION": "tc.research_name.NODECATALYZATION",
+      "tc.research_text.NODECATALYZATION": "tc.research_text.NODECATALYZATION",
+      "itemGroup.NodalMechanics": "itemGroup.nodalmechanics.tab",
+      "tc.research_page.NODECATALYZATION.0": "nodalmechanics.nodecatalyzation.research"
+    }
+  }
+}

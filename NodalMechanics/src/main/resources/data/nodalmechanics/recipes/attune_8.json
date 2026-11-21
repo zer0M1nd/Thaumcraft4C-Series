@@ -1,0 +1,43 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "NODECATALYZATION",
+  "ingredients": [
+    {
+      "item": "nodalmechanics:matrix"
+    },
+    {
+      "item": "thaumcraft:essentia_phial"
+    },
+    {
+      "item": "thaumcraft:essentia_phial"
+    },
+    {
+      "item": "thaumcraft:essentia_phial"
+    },
+    {
+      "item": "thaumcraft:essentia_phial"
+    },
+    {
+      "item": "thaumcraft:essentia_phial"
+    },
+    {
+      "item": "thaumcraft:essentia_phial"
+    },
+    {
+      "item": "thaumcraft:essentia_phial"
+    },
+    {
+      "item": "thaumcraft:essentia_phial"
+    }
+  ],
+  "vis": {
+    "ordo": 10
+  },
+  "result": {
+    "item": "nodalmechanics:matrix"
+  },
+  "result_transform": {
+    "type": "nodalmechanics:attune"
+  }
+}

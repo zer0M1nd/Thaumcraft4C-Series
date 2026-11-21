@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "NODECATALYZATION",
+  "pattern": [
+    "XYX",
+    "YZY",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "thaumcraft:salis_mundus"
+    },
+    "Y": {
+      "item": "thaumcraft:greatwood_log"
+    },
+    "Z": {
+      "item": "thaumcraft:essentia_jar"
+    }
+  },
+  "vis": {
+    "ordo": 20,
+    "perditio": 20
+  },
+  "result": {
+    "item": "nodalmechanics:matrix"
+  }
+}
