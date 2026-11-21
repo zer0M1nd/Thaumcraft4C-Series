@@ -1,7 +1,7 @@
 plugins { id 'java' }
 
 group = 'dev.tc4.updater'
-version = '0.2.6'
+version = '0.2.6.1'
 base.archivesName = 'ThaumcraftUpdater'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
