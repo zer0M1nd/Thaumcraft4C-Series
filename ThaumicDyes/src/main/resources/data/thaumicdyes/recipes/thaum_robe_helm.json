@@ -1,0 +1,54 @@
+{
+  "research": "thaumicdyes:TD.THAUMIUMROBE",
+  "legacy_order": 200,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:thaumium_robe_helm",
+    "count": 1
+  },
+  "instability": 4,
+  "aspects": {
+    "metallum": 16,
+    "sensus": 16,
+    "tutamen": 16,
+    "pannus": 16,
+    "praecantatio": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_helmet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:goggles"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    }
+  ]
+}

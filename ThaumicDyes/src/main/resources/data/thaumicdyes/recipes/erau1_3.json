@@ -1,0 +1,51 @@
+{
+  "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+  "legacy_order": 27,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{upgrade:1b}"
+  },
+  "instability": 6,
+  "aspects": {
+    "telum": 120,
+    "praecantatio": 50,
+    "ignis": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:item_runic_boots_enhanced"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    }
+  ]
+}

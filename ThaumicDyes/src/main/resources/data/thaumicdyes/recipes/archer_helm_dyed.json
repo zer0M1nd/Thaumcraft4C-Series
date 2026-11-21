@@ -1,0 +1,43 @@
+{
+  "research": "thaumicdyes:TD.DYEDARCHER",
+  "legacy_order": 181,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:cultist_archer_helm_dyed",
+    "count": 1
+  },
+  "instability": 5,
+  "aspects": {
+    "tutamen": 16,
+    "praecantatio": 16,
+    "pannus": 8,
+    "metallum": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:cultist_archer_helm"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    }
+  ]
+}

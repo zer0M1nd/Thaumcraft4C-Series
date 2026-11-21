@@ -1,0 +1,53 @@
+{
+  "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+  "legacy_order": 118,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{upgrade:8b}"
+  },
+  "instability": 6,
+  "aspects": {
+    "victus": 320,
+    "praecantatio": 64,
+    "humanus": 80,
+    "permutatio": 40,
+    "spiritus": 40
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:item_runic_legs"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:silverwood_sapling"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:golem_flesh"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:silverwood_sapling"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    }
+  ]
+}

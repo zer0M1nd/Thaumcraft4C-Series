@@ -1,0 +1,32 @@
+{
+  "research": "thaumicdyes:TD.RUNICBOOTSTRAVELLER",
+  "legacy_order": 9,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:item_runic_boots_traveller",
+    "count": 1
+  },
+  "instability": 4,
+  "aspects": {
+    "praecantatio": 25,
+    "permutatio": 25
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:traveller_boots"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumicdyes:item_runic_boots"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:slime_ball"
+      }
+    }
+  ]
+}

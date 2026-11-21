@@ -1,0 +1,29 @@
+{
+  "research": "thaumicdyes:TD.CRIMSON",
+  "legacy_order": 148,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumicdyes:item_resource_fabric",
+    "count": 1
+  },
+  "vis": {
+    "perditio": 2,
+    "ordo": 5
+  },
+  "pattern": [
+    "R",
+    "F",
+    "V"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "F": {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    "V": {
+      "item": "thaumcraft:void_seed"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_THAUMICDYES",
+      "pages": [
+        {
+          "id": "thaumicdyes:tut_addon_thaumicdyes/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicdyes.tut_addon_thaumicdyes.text.1",
+            "with": [
+              [
+                {
+                  "text": "神秘染料是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicdyes:tut_addon_thaumicdyes/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicdyes.tut_addon_thaumicdyes.text.2",
+            "with": [
+              [
+                {
+                  "text": "神秘染料是一个"
+                },
+                {
+                  "text": "护甲与外观",
+                  "bold": true
+                },
+                {
+                  "text": "扩展：可以制作并染色血腥教徒护甲，还提供可染色的要塞甲、神秘使长袍、旅行者护甲、虚空护甲，以及从基础到元始的一整套符文护甲。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicdyes:tut_addon_thaumicdyes/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicdyes:tut_addon_thaumicdyes/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicdyes.tut_addon_thaumicdyes.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicdyes:tut_addon_thaumicdyes/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.thaumicdyes.tut_addon_thaumicdyes.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "thaumicdyes:TD.CRIMSON"
+                },
+                {
+                  "text": "：血腥护甲锻造，失落研究，需要"
+                },
+                {
+                  "research": "CRIMSON"
+                },
+                {
+                  "text": "与魔力布匹，扫描血腥教徒护甲可以发现。\n· "
+                },
+                {
+                  "research": "thaumicdyes:TD.THAUMIUMROBE"
+                },
+                {
+                  "text": "：神秘使长袍。\n· "
+                },
+                {
+                  "research": "thaumicdyes:TD.DYEDFORTRESS"
+                },
+                {
+                  "text": "：强化要塞护甲。\n· "
+                },
+                {
+                  "research": "thaumicdyes:TD.RUNICARMOR"
+                },
+                {
+                  "text": "：符文护甲。\n· "
+                },
+                {
+                  "research": "thaumicdyes:TD.PRIMALRUNICARMOR"
+                },
+                {
+                  "text": "：深渊符文护甲。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "thaumicdyes:tut_addon_thaumicdyes/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "thaumicdyes:tut_addon_thaumicdyes/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "thaumicdyes:tut_addon_thaumicdyes/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "thaumicdyes:TD.CRIMSON",
+            "thaumicdyes:TD.THAUMIUMROBE",
+            "thaumicdyes:TD.DYEDFORTRESS",
+            "thaumicdyes:TD.RUNICARMOR",
+            "thaumicdyes:TD.PRIMALRUNICARMOR"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "research": "thaumicdyes:TD.RUNICGOGGLES",
+  "legacy_order": 8,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:item_runic_goggles",
+    "count": 1
+  },
+  "instability": 4,
+  "aspects": {
+    "praecantatio": 25,
+    "permutatio": 25
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:goggles"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumicdyes:item_runic_helmet"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:slime_ball"
+      }
+    }
+  ]
+}

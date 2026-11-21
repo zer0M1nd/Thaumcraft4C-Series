@@ -1,0 +1,55 @@
+{
+  "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+  "legacy_order": 96,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{upgrade:6b}"
+  },
+  "instability": 6,
+  "aspects": {
+    "tutamen": 40,
+    "praecantatio": 56,
+    "terra": 32,
+    "potentia": 80
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:item_runic_legs_enhanced"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:partial_nbt",
+        "item": "minecraft:potion",
+        "nbt": "{Potion:\"minecraft:strong_strength\"}"
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    }
+  ]
+}

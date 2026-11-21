@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+issueTrackerURL="https://github.com/zer0M1nd/Thaumcraft4C-Series/issues"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/thaumicdyes/index.html"
+updateJSONURL="http://tc4c.zer0m1nd.me/forge-updates/thaumicdyes.json"
+modId="thaumicdyes"
+version="${version}"
+displayName="Thaumic Dyes"
+authors="zer0M1nd"
+credits="Original Thaumic Dyes by KryptonCaptain and Amerem."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Dye and wash thaumaturge armor, then upgrade it with runic protection and specialized masks.
+
+-------- Original release --------
+This mod adds in upgrades and dyeable variants of Thaumcraft's armor!
+
+Original credits: Azanor for TC, D95 for amazing models, and ColdWind for CN translation. Hiyori provided the Russian translation.'''
+
+[[dependencies.thaumicdyes]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.thaumicdyes]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.thaumicdyes]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"

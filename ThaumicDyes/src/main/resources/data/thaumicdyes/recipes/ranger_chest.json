@@ -1,0 +1,30 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONRANGER",
+  "legacy_order": 162,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumicdyes:cultist_ranger_chest",
+    "count": 1
+  },
+  "vis": {
+    "terra": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "c",
+    "C",
+    "R"
+  ],
+  "key": {
+    "C": {
+      "item": "thaumcraft:cultist_robe_chestplate"
+    },
+    "c": {
+      "item": "minecraft:chest"
+    },
+    "R": {
+      "item": "thaumicdyes:item_resource_fabric"
+    }
+  }
+}

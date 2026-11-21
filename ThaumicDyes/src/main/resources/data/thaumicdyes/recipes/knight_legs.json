@@ -1,0 +1,30 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONKNIGHT",
+  "legacy_order": 156,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumcraft:cultist_plate_leggings",
+    "count": 1
+  },
+  "vis": {
+    "ignis": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "IGI",
+    "IRI",
+    "I I"
+  ],
+  "key": {
+    "R": {
+      "item": "thaumicdyes:item_resource_fabric"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  }
+}

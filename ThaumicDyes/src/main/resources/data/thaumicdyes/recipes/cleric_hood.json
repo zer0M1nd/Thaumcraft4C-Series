@@ -1,0 +1,24 @@
+{
+  "research": "thaumicdyes:TD.CRIMSONCLERIC",
+  "legacy_order": 151,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumcraft:cultist_robe_helmet",
+    "count": 1
+  },
+  "vis": {
+    "aqua": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "RRR",
+    "R R",
+    "   "
+  ],
+  "key": {
+    "R": {
+      "item": "thaumicdyes:item_resource_fabric"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "research": "thaumicdyes:TD.RUNICARMORUPGRADES",
+  "legacy_order": 111,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{upgrade:7b}"
+  },
+  "instability": 6,
+  "aspects": {
+    "tutamen": 24,
+    "praecantatio": 32,
+    "motus": 40,
+    "perditio": 60
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:item_runic_boots_enhanced"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:warding_paving_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "research": "thaumicdyes:TD.THAUMIUMROBE",
+  "legacy_order": 202,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:thaumium_robe_legs",
+    "count": 1
+  },
+  "instability": 4,
+  "aspects": {
+    "metallum": 20,
+    "tutamen": 20,
+    "pannus": 20,
+    "praecantatio": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_leggings"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:robe_legs"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "research": "thaumicdyes:TD.IRONFORTRESS",
+  "legacy_order": 192,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:iron_fortress_legs",
+    "count": 1
+  },
+  "instability": 1,
+  "aspects": {
+    "tutamen": 8,
+    "metallum": 8,
+    "fabrico": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:iron_leggings"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    }
+  ]
+}

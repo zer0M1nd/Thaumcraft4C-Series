@@ -1,0 +1,66 @@
+{
+  "research": "thaumicdyes:TD.ENHANCEDRUNICARMOR",
+  "legacy_order": 12,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:item_runic_legs_enhanced",
+    "count": 1
+  },
+  "instability": 8,
+  "aspects": {
+    "tutamen": 40,
+    "praecantatio": 160,
+    "potentia": 80,
+    "alienis": 20,
+    "pannus": 24,
+    "vitreus": 16,
+    "permutatio": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:item_runic_legs"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber"
+      }
+    }
+  ]
+}

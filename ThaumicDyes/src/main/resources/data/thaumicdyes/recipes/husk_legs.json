@@ -1,0 +1,43 @@
+{
+  "research": "thaumicdyes:TD.INHABITEDPLATE",
+  "legacy_order": 188,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "item": "thaumicdyes:inhabited_plate_legs",
+    "count": 1
+  },
+  "instability": 3,
+  "aspects": {
+    "perditio": 16,
+    "alienis": 20,
+    "metallum": 20,
+    "tutamen": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:cultist_plate_leggings"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    }
+  ]
+}

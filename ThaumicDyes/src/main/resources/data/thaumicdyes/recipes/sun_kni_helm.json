@@ -1,0 +1,29 @@
+{
+  "research": "thaumicdyes:TD.SUNNYD",
+  "legacy_order": 184,
+  "type": "thaumcraft:arcane",
+  "result": {
+    "item": "thaumicdyes:sun_knight_helm",
+    "count": 1
+  },
+  "vis": {
+    "ignis": 20,
+    "aer": 20
+  },
+  "pattern": [
+    " g ",
+    "nHn",
+    " g "
+  ],
+  "key": {
+    "H": {
+      "item": "thaumicdyes:cultist_plate_helm"
+    },
+    "g": {
+      "item": "minecraft:gray_dye"
+    },
+    "n": {
+      "tag": "forge:nuggets/iron"
+    }
+  }
+}

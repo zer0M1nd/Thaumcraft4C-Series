@@ -1,0 +1,31 @@
+{
+  "research": "thaumicdyes:TD.IRONHELMAESTHETICS",
+  "legacy_order": 195,
+  "type": "thaumcraft:infusion",
+  "result": {
+    "patch": "{mask:1}"
+  },
+  "instability": 2,
+  "aspects": {
+    "fabrico": 8,
+    "tutamen": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicdyes:iron_fortress_helm"
+    },
+    "damage": -1
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:cultist_leader_helmet"
+      }
+    }
+  ]
+}
