@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "IMI",
+    "CAC"
+  ],
+  "key": {
+    "T": {
+      "item": "thermal:fluid_cell"
+    },
+    "I": {
+      "item": "technomancy:sacrificial_ingot"
+    },
+    "M": {
+      "item": "thermal:machine_frame"
+    },
+    "C": {
+      "item": "technomancy:life_coil"
+    },
+    "A": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "technomancy:blood_fabricator"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thermal:machine_frame"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    "GG",
+    "GG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "technomancy:quantized_glass",
+    "count": 4
+  },
+  "research": "technomancy:QUANTUMJARS",
+  "vis": {
+    "ordo": 5,
+    "ignis": 5
+  }
+}

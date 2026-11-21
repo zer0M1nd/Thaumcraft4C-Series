@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "technomancy:FLUXLAMP",
+  "instability": 10,
+  "aspects": {
+    "machina": 45,
+    "vitium": 45,
+    "ordo": 45,
+    "lux": 45
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:arcane_lamp"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    }
+  ],
+  "result": {
+    "item": "technomancy:orderly_lamp"
+  }
+}

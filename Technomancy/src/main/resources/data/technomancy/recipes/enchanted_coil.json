@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  N",
+    " T ",
+    "N  "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:redstone"
+    },
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    }
+  },
+  "result": {
+    "item": "technomancy:enchanted_coil"
+  }
+}

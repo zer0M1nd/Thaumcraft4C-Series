@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "technomancy:NODEGENERATOR",
+  "instability": 20,
+  "aspects": {
+    "auram": 75,
+    "potentia": 75,
+    "vitium": 75,
+    "praecantatio": 75
+  },
+  "center": {
+    "ingredient": {
+      "item": "technomancy:node_dynamo"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "technomancy:enchanted_coil"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "technomancy:quantum_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "technomancy:quantum_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thermal:energy_cell"
+      }
+    }
+  ],
+  "result": {
+    "item": "technomancy:node_fabricator"
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "thermal:machine_frame"
+    }
+  ]
+}

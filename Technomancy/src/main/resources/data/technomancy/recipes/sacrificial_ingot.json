@@ -1,0 +1,19 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "minecraft:iron_ingot"
+  },
+  "output": {
+    "item": "technomancy:sacrificial_ingot"
+  },
+  "upgradeLevel": 1,
+  "altarSyphon": 1000,
+  "consumptionRate": 100,
+  "drainRate": 100,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    }
+  ]
+}

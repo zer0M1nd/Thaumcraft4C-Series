@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    " N ",
+    " C ",
+    "TBT"
+  ],
+  "key": {
+    "N": {
+      "item": "technomancy:neutronized_metal"
+    },
+    "C": {
+      "item": "technomancy:enchanted_coil"
+    },
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "B": {
+      "item": "thaumcraft:essentia_buffer"
+    }
+  },
+  "result": {
+    "item": "technomancy:essentia_coil"
+  },
+  "research": "technomancy:TESLACOIL",
+  "vis": {
+    "aer": 20,
+    "terra": 20,
+    "ignis": 20,
+    "aqua": 20,
+    "ordo": 20,
+    "perditio": 20
+  }
+}

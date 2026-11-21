@@ -1,0 +1,59 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "technomancy:CONDENSER",
+  "instability": 8,
+  "aspects": {
+    "potentia": 100,
+    "machina": 50,
+    "permutatio": 25,
+    "ordo": 25
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:infusion_matrix"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "mekanism:steel_casing"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "technomancy:enchanted_coil"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "technomancy:enchanted_coil"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_block"
+      }
+    }
+  ],
+  "result": {
+    "item": "technomancy:energy_condenser"
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:item_exists",
+        "item": "thermal:machine_frame"
+      }
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

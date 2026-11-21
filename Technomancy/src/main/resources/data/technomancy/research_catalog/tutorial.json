@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_TECHNOMANCY",
+          "category": "TUTORIAL",
+          "displayColumn": 57,
+          "displayRow": 9,
+          "parents": [
+            "TUT_ENERGIZED_NODE"
+          ],
+          "icon_item": {
+            "item": "technomancy:quantum_jar",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "technomancy"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "technomancy:TECHNOBASICS",
+            "technomancy:DYNAMO",
+            "technomancy:QUANTUMJARS",
+            "technomancy:CONDENSER",
+            "technomancy:NODEGENERATOR",
+            "technomancy:PROCESSOR"
+          ],
+          "pageCount": 10
+        }
+      ]
+    }
+  ]
+}

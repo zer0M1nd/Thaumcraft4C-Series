@@ -1,0 +1,73 @@
+{
+  "width": 64,
+  "height": 64,
+  "texture": "flowerdynamo",
+  "parts": [
+    {
+      "name": "Shape1",
+      "pivot": [
+        0,
+        16,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -8,
+            0,
+            -8
+          ],
+          "size": [
+            16,
+            8,
+            16
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "Shape2",
+      "pivot": [
+        0,
+        8,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -4,
+            0,
+            -4
+          ],
+          "size": [
+            8,
+            8,
+            8
+          ],
+          "uv": [
+            0,
+            24
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    }
+  ]
+}

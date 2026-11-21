@@ -1,0 +1,436 @@
+{
+  "width": 64,
+  "height": 32,
+  "texture": "fluxlamp",
+  "parts": [
+    {
+      "name": "Core",
+      "pivot": [
+        0,
+        16,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -4,
+            -6,
+            -4
+          ],
+          "size": [
+            8,
+            12,
+            8
+          ],
+          "uv": [
+            0,
+            12
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "TopPost",
+      "pivot": [
+        0,
+        9,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -1.5,
+            0,
+            -1.5
+          ],
+          "size": [
+            3.0,
+            1,
+            3.0
+          ],
+          "uv": [
+            25,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "TopFlat",
+      "pivot": [
+        0,
+        8,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -2,
+            0,
+            -2
+          ],
+          "size": [
+            4,
+            1,
+            4
+          ],
+          "uv": [
+            3,
+            6
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "BottomPost",
+      "pivot": [
+        0,
+        22,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -1.5,
+            0,
+            -1.5
+          ],
+          "size": [
+            3.0,
+            1,
+            3.0
+          ],
+          "uv": [
+            25,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "BottomFlat",
+      "pivot": [
+        0,
+        23,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -2.5,
+            0,
+            -2.5
+          ],
+          "size": [
+            5.0,
+            1,
+            5.0
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "FrontPost",
+      "pivot": [
+        0,
+        16,
+        -7
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -2,
+            -2,
+            0
+          ],
+          "size": [
+            4,
+            4,
+            3
+          ],
+          "uv": [
+            24,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "RightPost",
+      "pivot": [
+        4,
+        16,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        1.5707959777290461,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -2,
+            -2,
+            0
+          ],
+          "size": [
+            4,
+            4,
+            3
+          ],
+          "uv": [
+            24,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "LeftPost",
+      "pivot": [
+        -7,
+        16,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        1.5707959777290461,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -2,
+            -2,
+            0
+          ],
+          "size": [
+            4,
+            4,
+            3
+          ],
+          "uv": [
+            24,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "BackPost",
+      "pivot": [
+        0,
+        16,
+        4
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -2,
+            -2,
+            0
+          ],
+          "size": [
+            4,
+            4,
+            3
+          ],
+          "uv": [
+            24,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "FrontFlat",
+      "pivot": [
+        0,
+        16,
+        -8
+      ],
+      "rotation": [
+        1.5707959777290461,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -2.5,
+            0,
+            -2.5
+          ],
+          "size": [
+            5.0,
+            1,
+            5.0
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "RightFlat",
+      "pivot": [
+        7,
+        16,
+        0
+      ],
+      "rotation": [
+        1.5707959777290461,
+        1.5707959777290461,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -2.5,
+            0,
+            -2.5
+          ],
+          "size": [
+            5.0,
+            1,
+            5.0
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "LeftFlat",
+      "pivot": [
+        -8,
+        16,
+        0
+      ],
+      "rotation": [
+        1.5707959777290461,
+        1.5707959777290461,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -2.5,
+            0,
+            -2.5
+          ],
+          "size": [
+            5.0,
+            1,
+            5.0
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "BackFlat",
+      "pivot": [
+        0,
+        16,
+        7
+      ],
+      "rotation": [
+        1.5707959777290461,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -2.5,
+            0,
+            -2.5
+          ],
+          "size": [
+            5.0,
+            1,
+            5.0
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    }
+  ]
+}

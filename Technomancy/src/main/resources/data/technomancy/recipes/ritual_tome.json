@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RI",
+    "IS"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:book"
+    },
+    "I": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "S": {
+      "tag": "forge:dyes/black"
+    }
+  },
+  "result": {
+    "item": "technomancy:ritual_tome"
+  }
+}

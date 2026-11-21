@@ -1,0 +1,480 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TECHNOMANCY",
+      "icon": "technomancy:textures/misc/technomancycategory.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "technomancy:TECHNOBASICS",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:neutronized_metal",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 0,
+          "displayRow": 0,
+          "pageCount": 5,
+          "complexity": 0,
+          "aspects": {},
+          "parents": [],
+          "isAutoUnlock": true,
+          "isRound": true,
+          "isStub": true
+        },
+        {
+          "key": "technomancy:DYNAMO",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:node_dynamo",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 2,
+          "displayRow": 2,
+          "pageCount": 7,
+          "complexity": 3,
+          "aspects": {
+            "machina": 5,
+            "potentia": 5,
+            "praecantatio": 5
+          },
+          "parents": [
+            "technomancy:TECHNOBASICS"
+          ],
+          "isSecondary": true
+        },
+        {
+          "key": "technomancy:QUANTUMJARS",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:quantum_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 1,
+          "displayRow": -2,
+          "pageCount": 3,
+          "complexity": 0,
+          "aspects": {
+            "ordo": 5,
+            "vacuos": 5,
+            "praecantatio": 5
+          },
+          "parents": [
+            "technomancy:TECHNOBASICS"
+          ],
+          "isSecondary": true
+        },
+        {
+          "key": "technomancy:NODEGENERATOR",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:node_fabricator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 4,
+          "displayRow": 3,
+          "pageCount": 5,
+          "complexity": 3,
+          "aspects": {
+            "machina": 5,
+            "potentia": 5,
+            "vitium": 5,
+            "auram": 5
+          },
+          "parents": [
+            "technomancy:CONDENSER"
+          ],
+          "isSpecial": true
+        },
+        {
+          "key": "technomancy:PEN",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:pen",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 4,
+          "displayRow": -4,
+          "pageCount": 3,
+          "complexity": 0,
+          "aspects": {},
+          "parents": [],
+          "isAutoUnlock": true
+        },
+        {
+          "key": "technomancy:BIOMEMORPHER",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:ecologic_transmuter",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -3,
+          "displayRow": 0,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "permutatio": 5,
+            "vitium": 5,
+            "auram": 5,
+            "terra": 5
+          },
+          "parents": [
+            "technomancy:PROCESSOR"
+          ],
+          "isSecondary": true
+        },
+        {
+          "key": "technomancy:TESLACOIL",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:essentia_coil",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 3,
+          "displayRow": -3,
+          "pageCount": 7,
+          "complexity": 3,
+          "aspects": {
+            "permutatio": 5,
+            "alienis": 5,
+            "machina": 5,
+            "auram": 5
+          },
+          "parents": [
+            "technomancy:QUANTUMJARS"
+          ],
+          "isRound": true
+        },
+        {
+          "key": "technomancy:FLUXLAMP",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:orderly_lamp",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -4,
+          "displayRow": -1,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "ordo": 5,
+            "machina": 5,
+            "permutatio": 5,
+            "aqua": 5
+          },
+          "parents": [
+            "technomancy:PROCESSOR"
+          ],
+          "isRound": true
+        },
+        {
+          "key": "technomancy:ROD_electric",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:energized_wand_core",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -1,
+          "displayRow": 2,
+          "pageCount": 3,
+          "complexity": 3,
+          "aspects": {
+            "instrumentum": 5,
+            "praecantatio": 5,
+            "potentia": 5,
+            "permutatio": 5
+          },
+          "parents": [
+            "technomancy:TECHNOBASICS"
+          ],
+          "itemTriggers": [
+            {
+              "item": "thaumcraft:wand_rod_silverwood",
+              "count": 1,
+              "metadata": 0,
+              "damageable": false
+            }
+          ],
+          "isHidden": true
+        },
+        {
+          "key": "technomancy:TECHNOTURGESCEPTER",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:technoturge_scepter",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -1,
+          "displayRow": 3,
+          "pageCount": 3,
+          "complexity": 3,
+          "aspects": {
+            "instrumentum": 5,
+            "praecantatio": 5,
+            "potentia": 5,
+            "permutatio": 5
+          },
+          "parents": [
+            "technomancy:ROD_electric"
+          ],
+          "itemTriggers": [
+            {
+              "item": "technomancy:energized_wand_core",
+              "count": 1,
+              "metadata": 0,
+              "damageable": false
+            }
+          ],
+          "isHidden": true
+        },
+        {
+          "key": "technomancy:ELECTRICBELLOWS",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:galvanized_bellows",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -3,
+          "displayRow": -2,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "potentia": 5,
+            "aer": 5,
+            "ignis": 5
+          },
+          "parents": [
+            "technomancy:PROCESSOR",
+            "BELLOWS"
+          ]
+        },
+        {
+          "key": "technomancy:CONDENSER",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:energy_condenser",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 2,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "potentia": 5,
+            "ordo": 5,
+            "permutatio": 5
+          },
+          "parents": [
+            "technomancy:DYNAMO"
+          ]
+        },
+        {
+          "key": "technomancy:PROCESSOR",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:ignis_incinerator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -2,
+          "displayRow": -1,
+          "pageCount": 3,
+          "complexity": 3,
+          "aspects": {
+            "ignis": 5,
+            "permutatio": 5,
+            "perditio": 5
+          },
+          "parents": [
+            "technomancy:TECHNOBASICS"
+          ]
+        },
+        {
+          "key": "technomancy:ELDRITCHCONSUMER",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:eldritch_consumer",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 3,
+          "displayRow": -1,
+          "pageCount": 3,
+          "complexity": 3,
+          "aspects": {
+            "machina": 10,
+            "permutatio": 10,
+            "motus": 10,
+            "perfodio": 10
+          },
+          "parents": [
+            "technomancy:TESLACOIL"
+          ],
+          "isRound": true
+        },
+        {
+          "key": "technomancy:ADVDECONTABLE",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:advanced_deconstruction_table",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 1,
+          "displayRow": -1,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "machina": 10,
+            "permutatio": 10,
+            "praecantatio": 10,
+            "instrumentum": 10,
+            "fabrico": 10
+          },
+          "parents": [
+            "technomancy:TECHNOBASICS",
+            "DECONSTRUCTOR"
+          ],
+          "isRound": true
+        },
+        {
+          "key": "technomancy:ESSENTIAFUSOR",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:essentia_fusor",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": -2,
+          "displayRow": -4,
+          "pageCount": 3,
+          "complexity": 3,
+          "aspects": {
+            "machina": 10,
+            "permutatio": 10,
+            "praecantatio": 10,
+            "fabrico": 10
+          },
+          "parents": [
+            "technomancy:TECHNOBASICS"
+          ],
+          "isRound": true,
+          "itemTriggers": [
+            {
+              "item": "thaumcraft:alchemy_centrifuge",
+              "count": 1,
+              "metadata": 0,
+              "damageable": false
+            }
+          ],
+          "isHidden": true
+        },
+        {
+          "key": "technomancy:RITUALS",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:ritual_tome",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 0,
+          "displayRow": 5,
+          "pageCount": 12,
+          "complexity": 0,
+          "aspects": {},
+          "parents": [
+            "technomancy:TECHNOBASICS"
+          ],
+          "isAutoUnlock": true
+        },
+        {
+          "key": "technomancy:EXISTENCE",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:existence_gem",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 2,
+          "displayRow": 5,
+          "pageCount": 10,
+          "complexity": 0,
+          "aspects": {},
+          "parents": [
+            "technomancy:TECHNOBASICS"
+          ],
+          "isAutoUnlock": true
+        },
+        {
+          "key": "technomancy:BOTANIA",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:mana_fabricator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 5,
+          "displayRow": 0,
+          "pageCount": 6,
+          "complexity": 0,
+          "aspects": {},
+          "parents": [
+            "technomancy:TECHNOBASICS"
+          ],
+          "isAutoUnlock": true
+        },
+        {
+          "key": "technomancy:BLOODMAGIC",
+          "category": "TECHNOMANCY",
+          "icon_item": {
+            "item": "technomancy:blood_fabricator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "displayColumn": 5,
+          "displayRow": 1,
+          "pageCount": 3,
+          "complexity": 0,
+          "aspects": {},
+          "parents": [
+            "technomancy:TECHNOBASICS"
+          ],
+          "isAutoUnlock": true
+        }
+      ]
+    }
+  ]
+}

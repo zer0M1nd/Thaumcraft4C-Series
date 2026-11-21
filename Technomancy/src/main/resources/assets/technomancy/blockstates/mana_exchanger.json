@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "reversed=false,lit=false": {
+      "model": "technomancy:block/mana_exchanger"
+    },
+    "reversed=false,lit=true": {
+      "model": "technomancy:block/mana_exchanger_active"
+    },
+    "reversed=true,lit=false": {
+      "model": "technomancy:block/mana_exchanger_out"
+    },
+    "reversed=true,lit=true": {
+      "model": "technomancy:block/mana_exchanger_out_active"
+    }
+  }
+}

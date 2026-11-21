@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BMB",
+    "ICI"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "bloodmagic:blankrune"
+    },
+    "M": {
+      "item": "thermal:machine_frame"
+    },
+    "I": {
+      "item": "technomancy:sacrificial_ingot"
+    },
+    "C": {
+      "item": "technomancy:life_coil"
+    }
+  },
+  "result": {
+    "item": "technomancy:sanguine_infuser"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thermal:machine_frame"
+    }
+  ]
+}

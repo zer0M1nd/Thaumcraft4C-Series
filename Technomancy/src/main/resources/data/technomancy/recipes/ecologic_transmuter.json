@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    " E ",
+    "TOB",
+    "GCG"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "T": {
+      "item": "thaumcraft:tainted_goo"
+    },
+    "O": {
+      "item": "thaumcraft:obsidian_totem"
+    },
+    "B": {
+      "item": "thaumcraft:ethereal_bloom"
+    },
+    "G": {
+      "item": "technomancy:neutronized_gear"
+    },
+    "C": {
+      "item": "technomancy:enchanted_coil"
+    }
+  },
+  "result": {
+    "item": "technomancy:ecologic_transmuter"
+  },
+  "research": "technomancy:BIOMEMORPHER",
+  "vis": {
+    "terra": 30,
+    "ordo": 30,
+    "aqua": 30
+  }
+}

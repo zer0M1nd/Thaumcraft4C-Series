@@ -1,0 +1,51 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+issueTrackerURL="https://github.com/zer0M1nd/Thaumcraft4C-Series/issues"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/technomancy/index.html"
+updateJSONURL="http://tc4c.zer0m1nd.me/forge-updates/technomancy.json"
+modId="technomancy"
+version="${version}"
+displayName="Technomancy: Continuation"
+authors="zer0M1nd"
+credits="Original Technomancy by Democretes, theflogat, and Mordenkainen."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Combine essentia and energy to build machines that purify ores, manufacture nodes and fuel rituals.
+
+-------- Original release --------
+Science and magic. What could go wrong?
+
+Original credits: Azanor for Thaumcraft, CoFH for Thermal Expansion, FTB forums for support and ideas.'''
+
+[[dependencies.technomancy]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.technomancy]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.technomancy]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.technomancy]]
+modId="botania"
+mandatory=false
+versionRange="[1.20.1-450,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.technomancy]]
+modId="bloodmagic"
+mandatory=false
+versionRange="[3.3.8,)"
+ordering="AFTER"
+side="BOTH"

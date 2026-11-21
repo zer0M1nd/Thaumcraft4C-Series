@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "GIG",
+    "IWI"
+  ],
+  "key": {
+    "C": {
+      "item": "technomancy:mana_coil"
+    },
+    "G": {
+      "item": "technomancy:manasteel_gear"
+    },
+    "I": {
+      "tag": "forge:ingots/manasteel"
+    },
+    "W": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "technomancy:hippie_dynamo"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

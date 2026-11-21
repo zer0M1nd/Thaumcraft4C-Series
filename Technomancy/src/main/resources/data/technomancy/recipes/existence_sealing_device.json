@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OFO",
+    "FGF",
+    "OFO"
+  ],
+  "key": {
+    "G": {
+      "type": "forge:partial_nbt",
+      "item": "technomancy:existence_gem",
+      "nbt": "{Damage:0}"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "F": {
+      "item": "minecraft:flint_and_steel"
+    }
+  },
+  "result": {
+    "item": "technomancy:existence_sealing_device"
+  }
+}

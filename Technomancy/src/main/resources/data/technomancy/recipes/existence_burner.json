@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "A"
+  ],
+  "key": {
+    "E": {
+      "type": "forge:partial_nbt",
+      "item": "technomancy:existence_gem",
+      "nbt": "{Damage:0}"
+    },
+    "A": {
+      "item": "minecraft:anvil"
+    }
+  },
+  "result": {
+    "item": "technomancy:existence_burner"
+  }
+}

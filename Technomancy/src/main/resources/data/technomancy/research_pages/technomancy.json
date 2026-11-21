@@ -1,0 +1,1443 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "technomancy:TECHNOBASICS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:TECHNOBASICS.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:TECHNOBASICS/page/1"
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:neutronized_metal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:neutronized_metal",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:TECHNOBASICS/page/2"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:enchanted_coil"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:enchanted_coil",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:TECHNOBASICS/page/3"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:neutronized_gear"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:neutronized_gear",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:TECHNOBASICS/page/4"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "book.technomancy.technobasics"
+          },
+          "page_break": true,
+          "id": "technomancy:TECHNOBASICS/page/5"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:DYNAMO",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:DYNAMO.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:DYNAMO/page/1"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:DYNAMO.2"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:DYNAMO/page/2"
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:essentia_dynamo"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:essentia_dynamo",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:DYNAMO/page/3"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:DYNAMO.3"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:DYNAMO/page/4"
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:node_dynamo"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:node_dynamo",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:DYNAMO/page/5"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:DYNAMO.4"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:DYNAMO/page/6"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:potency_gem"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:potency_gem",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:DYNAMO/page/7"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:QUANTUMJARS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:QUANTUMJARS.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:QUANTUMJARS/page/1"
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:quantum_jar"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:quantum_jar",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:QUANTUMJARS/page/2"
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:quantized_glass"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:quantized_glass",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:QUANTUMJARS/page/3"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:NODEGENERATOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:NODEGENERATOR.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:NODEGENERATOR/page/1"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:NODEGENERATOR.2"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:NODEGENERATOR/page/2"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:NODEGENERATOR.3"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:NODEGENERATOR/page/3"
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:node_fabricator_base",
+              "technomancy:node_fabricator_thermal",
+              "technomancy:node_fabricator_mekanism"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:node_fabricator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:NODEGENERATOR/page/4"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "book.technomancy.nodegenerator"
+          },
+          "page_break": true,
+          "id": "technomancy:NODEGENERATOR/page/5"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:PEN",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:PEN.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:PEN/page/1"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:pen"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:pen",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:PEN/page/2"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:pen_core"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:pen_core",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:PEN/page/3"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:BIOMEMORPHER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:BIOMEMORPHER.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:BIOMEMORPHER/page/1"
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:ecologic_transmuter"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:ecologic_transmuter",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:BIOMEMORPHER/page/2"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:TESLACOIL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:TESLACOIL.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:TESLACOIL/page/1"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:TESLACOIL.2"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:TESLACOIL/page/2"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:TESLACOIL.3"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:TESLACOIL/page/3"
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:essentia_coil"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:essentia_coil",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:TESLACOIL/page/4"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:coil_coupler"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:coil_coupler",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:TESLACOIL/page/5"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:item_coil"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:item_coil",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:TESLACOIL/page/6"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "book.technomancy.teslacoil"
+          },
+          "page_break": true,
+          "id": "technomancy:TESLACOIL/page/7"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:FLUXLAMP",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:FLUXLAMP.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:FLUXLAMP/page/1"
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:orderly_lamp"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:orderly_lamp",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:FLUXLAMP/page/2"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:ROD_electric",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:ROD_electric.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:ROD_electric/page/1"
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:energized_wand_core_base",
+              "technomancy:energized_wand_core_thermal",
+              "technomancy:energized_wand_core_mekanism"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:energized_wand_core",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:ROD_electric/page/2"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "book.technomancy.rod_electric"
+          },
+          "page_break": true,
+          "id": "technomancy:ROD_electric/page/3"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:TECHNOTURGESCEPTER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:TECHNOTURGESCEPTER.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:TECHNOTURGESCEPTER/page/1"
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:technoturge_scepter_core"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:technoturge_scepter_core",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:TECHNOTURGESCEPTER/page/2"
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:technoturge_scepter_iron",
+              "technomancy:technoturge_scepter_gold",
+              "technomancy:technoturge_scepter_thaumium"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:technoturge_scepter",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:TECHNOTURGESCEPTER/page/3"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:ELECTRICBELLOWS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:ELECTRICBELLOWS.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:ELECTRICBELLOWS/page/1"
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:galvanized_bellows_base",
+              "technomancy:galvanized_bellows_thermal",
+              "technomancy:galvanized_bellows_mekanism"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:galvanized_bellows",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:ELECTRICBELLOWS/page/2"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:CONDENSER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:CONDENSER.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:CONDENSER/page/1"
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:energy_condenser_base",
+              "technomancy:energy_condenser_thermal",
+              "technomancy:energy_condenser_mekanism"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:energy_condenser",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:CONDENSER/page/2"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:PROCESSOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:PROCESSOR.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:PROCESSOR/page/1"
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:ignis_incinerator_base",
+              "technomancy:ignis_incinerator_thermal",
+              "technomancy:ignis_incinerator_mekanism"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:ignis_incinerator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:PROCESSOR/page/2"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "book.technomancy.processor"
+          },
+          "page_break": true,
+          "id": "technomancy:PROCESSOR/page/3"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:ELDRITCHCONSUMER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:ELDRITCHCONSUMER.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:ELDRITCHCONSUMER/page/1"
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:eldritch_consumer_base",
+              "technomancy:eldritch_consumer_thermal",
+              "technomancy:eldritch_consumer_mekanism"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:eldritch_consumer",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:ELDRITCHCONSUMER/page/2"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "book.technomancy.eldritchconsumer"
+          },
+          "page_break": true,
+          "id": "technomancy:ELDRITCHCONSUMER/page/3"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:ADVDECONTABLE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:ADVDECONTABLE.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:ADVDECONTABLE/page/1"
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:advanced_deconstruction_table"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:advanced_deconstruction_table",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:ADVDECONTABLE/page/2"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:ESSENTIAFUSOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:ESSENTIAFUSOR.1"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:ESSENTIAFUSOR/page/1"
+        },
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "tc.research_page.technomancy:ESSENTIAFUSOR.2"
+          },
+          "page_break": true,
+          "import_legacy": true,
+          "id": "technomancy:ESSENTIAFUSOR/page/2"
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:essentia_fusor"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:essentia_fusor",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:ESSENTIAFUSOR/page/3"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:RITUALS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "book.technomancy.rituals"
+          },
+          "page_break": true,
+          "id": "technomancy:RITUALS/page/1"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:ritual_tome"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:ritual_tome",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:RITUALS/page/2"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:earth_crystal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:earth_crystal",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:RITUALS/page/3"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:earth_catalyst"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:earth_catalyst",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:RITUALS/page/4"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:fire_crystal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:fire_crystal",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:RITUALS/page/5"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:fire_catalyst"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:fire_catalyst",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:RITUALS/page/6"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:water_crystal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:water_crystal",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:RITUALS/page/7"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:water_catalyst"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:water_catalyst",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:RITUALS/page/8"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:light_crystal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:light_crystal",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:RITUALS/page/9"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:light_catalyst"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:light_catalyst",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:RITUALS/page/10"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:dark_crystal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:dark_crystal",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:RITUALS/page/11"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:dark_catalyst"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:dark_catalyst",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:RITUALS/page/12"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:EXISTENCE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "book.technomancy.existence"
+          },
+          "page_break": true,
+          "id": "technomancy:EXISTENCE/page/1"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:existence_gem"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:existence_gem",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:EXISTENCE/page/2"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:existence_burner"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:existence_burner",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:EXISTENCE/page/3"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:dynamic_existence_burner_base",
+              "technomancy:dynamic_existence_burner_thermal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:dynamic_existence_burner",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:EXISTENCE/page/4"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:existence_pylon_1"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:existence_pylon_1",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:EXISTENCE/page/5"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:existence_pylon_2"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:existence_pylon_2",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:EXISTENCE/page/6"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:existence_pylon_3"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:existence_pylon_3",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:EXISTENCE/page/7"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:existence_crop_fertiliser"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:existence_crop_fertiliser",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:EXISTENCE/page/8"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:existence_crop_harvester"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:existence_crop_harvester",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:EXISTENCE/page/9"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:existence_sealing_device"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:existence_sealing_device",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:EXISTENCE/page/10"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:BOTANIA",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "book.technomancy.botania"
+          },
+          "page_break": true,
+          "id": "technomancy:BOTANIA/page/1"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:manasteel_gear"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:manasteel_gear",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:BOTANIA/page/2"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:hippie_dynamo"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:hippie_dynamo",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:BOTANIA/page/3"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:mana_fabricator_base",
+              "technomancy:mana_fabricator_thermal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:mana_fabricator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:BOTANIA/page/4"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:botanical_purifier_base",
+              "technomancy:botanical_purifier_thermal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:botanical_purifier",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:BOTANIA/page/5"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:mana_exchanger_base",
+              "technomancy:mana_exchanger_thermal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:mana_exchanger",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:BOTANIA/page/6"
+        }
+      ]
+    },
+    {
+      "key": "technomancy:BLOODMAGIC",
+      "pages": [
+        {
+          "type": "TEXT",
+          "aspects": [],
+          "text": {
+            "translate": "book.technomancy.bloodmagic"
+          },
+          "page_break": true,
+          "id": "technomancy:BLOODMAGIC/page/1"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:blood_fabricator_base",
+              "technomancy:blood_fabricator_thermal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:blood_fabricator",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:BLOODMAGIC/page/2"
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "aspects": [],
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "technomancy:sanguine_infuser_base",
+              "technomancy:sanguine_infuser_thermal"
+            ]
+          },
+          "recipeOutput": {
+            "item": "technomancy:sanguine_infuser",
+            "count": 1,
+            "metadata": 0,
+            "damageable": false
+          },
+          "page_break": true,
+          "id": "technomancy:BLOODMAGIC/page/3"
+        }
+      ]
+    }
+  ]
+}

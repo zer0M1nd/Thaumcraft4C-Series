@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "technomancy:ELDRITCHCONSUMER",
+  "instability": 16,
+  "aspects": {
+    "permutatio": 256,
+    "perfodio": 128,
+    "potentia": 64,
+    "motus": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:alchemical_construct"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_pickaxe"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thermal:rf_coil"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_pickaxe"
+      }
+    }
+  ],
+  "result": {
+    "item": "technomancy:eldritch_consumer"
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "thermal:machine_frame"
+    }
+  ]
+}

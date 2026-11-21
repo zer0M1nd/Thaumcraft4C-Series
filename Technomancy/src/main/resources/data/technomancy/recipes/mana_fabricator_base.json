@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CDC",
+    "IDI",
+    " P "
+  ],
+  "key": {
+    "C": {
+      "item": "technomancy:manasteel_gear"
+    },
+    "D": {
+      "item": "botania:mana_diamond"
+    },
+    "I": {
+      "tag": "forge:ingots/manasteel"
+    },
+    "P": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "technomancy:mana_fabricator"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:item_exists",
+        "item": "thermal:machine_frame"
+      }
+    }
+  ]
+}

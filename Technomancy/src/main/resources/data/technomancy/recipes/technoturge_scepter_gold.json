@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "pattern": [
+    " TF",
+    " RT",
+    "T  "
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:wand_cap_gold"
+    },
+    "R": {
+      "item": "technomancy:technoturge_scepter_core"
+    },
+    "F": {
+      "item": "thaumcraft:primal_charm"
+    }
+  },
+  "result": {
+    "item": "technomancy:technoturge_scepter",
+    "nbt": "{rod:\"technomancy:technoturge\",cap:\"gold\",sceptre:1b}"
+  },
+  "research": "technomancy:TECHNOTURGESCEPTER",
+  "vis": {
+    "aer": 49,
+    "terra": 49,
+    "ignis": 49,
+    "aqua": 49,
+    "ordo": 49,
+    "perditio": 49
+  }
+}

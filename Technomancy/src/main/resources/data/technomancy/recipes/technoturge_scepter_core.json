@@ -1,0 +1,57 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "technomancy:TECHNOTURGESCEPTER",
+  "instability": 20,
+  "aspects": {
+    "potentia": 64,
+    "praecantatio": 64,
+    "machina": 64,
+    "permutatio": 64,
+    "aer": 32,
+    "terra": 32,
+    "ignis": 32,
+    "aqua": 32,
+    "ordo": 32,
+    "perditio": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_rod_silverwood"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "technomancy:energized_wand_core"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "technomancy:enchanted_coil"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "technomancy:energized_wand_core"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "technomancy:enchanted_coil"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "technomancy:energized_wand_core"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "technomancy:enchanted_coil"
+      }
+    }
+  ],
+  "result": {
+    "item": "technomancy:technoturge_scepter_core"
+  }
+}

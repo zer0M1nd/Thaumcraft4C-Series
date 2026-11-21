@@ -1,0 +1,1327 @@
+{
+  "width": 64,
+  "height": 32,
+  "texture": "fountain",
+  "parts": [
+    {
+      "name": "fountain_0",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -10,
+            -8,
+            15
+          ],
+          "size": [
+            1,
+            8,
+            2
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_1",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -11,
+            -8,
+            13
+          ],
+          "size": [
+            1,
+            8,
+            2
+          ],
+          "uv": [
+            2,
+            2
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_2",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -11,
+            -8,
+            17
+          ],
+          "size": [
+            1,
+            8,
+            2
+          ],
+          "uv": [
+            2,
+            2
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_3",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -23,
+            -8,
+            15
+          ],
+          "size": [
+            1,
+            8,
+            2
+          ],
+          "uv": [
+            10,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_4",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -22,
+            -8,
+            13
+          ],
+          "size": [
+            1,
+            8,
+            2
+          ],
+          "uv": [
+            12,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_5",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -22,
+            -8,
+            17
+          ],
+          "size": [
+            1,
+            8,
+            2
+          ],
+          "uv": [
+            12,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_6",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -17,
+            -8,
+            22
+          ],
+          "size": [
+            2,
+            8,
+            1
+          ],
+          "uv": [
+            4,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_7",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -19,
+            -8,
+            21
+          ],
+          "size": [
+            2,
+            8,
+            1
+          ],
+          "uv": [
+            6,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_8",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -15,
+            -8,
+            21
+          ],
+          "size": [
+            2,
+            8,
+            1
+          ],
+          "uv": [
+            8,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_9",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -17,
+            -8,
+            9
+          ],
+          "size": [
+            2,
+            8,
+            1
+          ],
+          "uv": [
+            4,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_10",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -19,
+            -8,
+            10
+          ],
+          "size": [
+            2,
+            8,
+            1
+          ],
+          "uv": [
+            6,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_11",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -15,
+            -8,
+            10
+          ],
+          "size": [
+            2,
+            8,
+            1
+          ],
+          "uv": [
+            8,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_12",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -20,
+            -8,
+            11
+          ],
+          "size": [
+            1,
+            8,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_13",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -21,
+            -8,
+            12
+          ],
+          "size": [
+            1,
+            8,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_14",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -13,
+            -8,
+            11
+          ],
+          "size": [
+            1,
+            8,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_15",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -12,
+            -8,
+            12
+          ],
+          "size": [
+            1,
+            8,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_16",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -13,
+            -8,
+            20
+          ],
+          "size": [
+            1,
+            8,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_17",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -12,
+            -8,
+            19
+          ],
+          "size": [
+            1,
+            8,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_18",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -20,
+            -8,
+            20
+          ],
+          "size": [
+            1,
+            8,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_19",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -21,
+            -8,
+            19
+          ],
+          "size": [
+            1,
+            8,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_20",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -20,
+            0,
+            12
+          ],
+          "size": [
+            8,
+            1,
+            8
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_21",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -19,
+            0,
+            11
+          ],
+          "size": [
+            6,
+            1,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_22",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -19,
+            0,
+            20
+          ],
+          "size": [
+            6,
+            1,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_23",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -12,
+            0,
+            13
+          ],
+          "size": [
+            1,
+            1,
+            6
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_24",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -21,
+            0,
+            13
+          ],
+          "size": [
+            1,
+            1,
+            6
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_25",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -17,
+            0,
+            10
+          ],
+          "size": [
+            2,
+            1,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_26",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -17,
+            0,
+            21
+          ],
+          "size": [
+            2,
+            1,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_27",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -11,
+            0,
+            15
+          ],
+          "size": [
+            1,
+            1,
+            2
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_28",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -22,
+            0,
+            15
+          ],
+          "size": [
+            1,
+            1,
+            2
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_29",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -17,
+            -1,
+            15
+          ],
+          "size": [
+            2,
+            6,
+            2
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "fountain_30",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -20,
+            7,
+            12
+          ],
+          "size": [
+            8,
+            1,
+            8
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "liquid_0",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -20,
+            -8,
+            12
+          ],
+          "size": [
+            8,
+            1,
+            8
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "liquid_1",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -19,
+            -8,
+            11
+          ],
+          "size": [
+            6,
+            1,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "liquid_2",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -19,
+            -8,
+            20
+          ],
+          "size": [
+            6,
+            1,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "liquid_3",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -12,
+            -8,
+            13
+          ],
+          "size": [
+            1,
+            1,
+            6
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "liquid_4",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -21,
+            -8,
+            13
+          ],
+          "size": [
+            1,
+            1,
+            6
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "liquid_5",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -17,
+            -8,
+            10
+          ],
+          "size": [
+            2,
+            1,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "liquid_6",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -17,
+            -8,
+            21
+          ],
+          "size": [
+            2,
+            1,
+            1
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "liquid_7",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -11,
+            -8,
+            15
+          ],
+          "size": [
+            1,
+            1,
+            2
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "liquid_8",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "position": [
+            -22,
+            -8,
+            15
+          ],
+          "size": [
+            1,
+            1,
+            2
+          ],
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "inflate": 0
+        }
+      ]
+    }
+  ]
+}
