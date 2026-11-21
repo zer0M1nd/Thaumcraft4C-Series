@@ -1,7 +1,7 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
 group = 'dev.tc4.resourceadapter'
 version = '1.1.0.1'
-base.archivesName = 'ThaumcraftResourceAdapter'
+base.archivesName = '[TC4Continuation]ThaumcraftResourceAdapter'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
 minecraft { mappings channel: 'official', version: '1.20.1' }
