@@ -91,7 +91,7 @@ public  class ResearchCraftingArtwork {
             liveItem(reader,g,List.of(row.output()),start+48,y+(arcane?22:32),mx,my,time,false);
             int width=row.width()==0?3:row.width();
             for(int i=0;i<Math.min(9,inputs.size());i++)liveItem(reader,g,inputs.get(i),start+16+i%width*32,y+(arcane?66:76)+i/width*32,mx,my,time,true);
-            if(arcane)for(var glyph:ResearchAspectLayout.grid(row.aspects(),6,start+4,y+172))aspect(reader,g,glyph.aspect(),glyph.amount(),glyph.x(),glyph.y(),mx,my);
+            if(arcane)for(var glyph:ResearchAspectLayout.grid(row.aspects(),6,start+4,y+172))aspect(reader,g,glyph.aspect(),tc4revival.content.ArcaneRecipe.formatHundredths(glyph.amount()),glyph.x(),glyph.y(),mx,my);
         } else if(type==ResearchPage.Type.CRUCIBLE_CRAFTING) {
             label(g,"recipe.type.crucible",start+56,y);overlay(g,start,y+28,0,0,0,3,56,17);overlay(g,start,y+92,0,0,0,20,56,48);overlay(g,start+42,y+76,0,0,100,84,11,13);
             liveItem(reader,g,List.of(row.output()),start+48,y+36,mx,my,time,false);
@@ -103,7 +103,7 @@ public  class ResearchCraftingArtwork {
         } else {
             boolean enchant=type==ResearchPage.Type.INFUSION_ENCHANTMENT;
             label(g,enchant?"recipe.type.infusionenchantment":"recipe.type.infusion",start+56,y);
-            instability(g,row.instability(),start+56,y+194);overlay(g,start,y+58,0,0,200,77,60,44);
+            instability(g,row.instability(),start+56,y+(enchant?58:48));overlay(g,start,y+58,0,0,200,77,60,44);
             if(enchant) {
                 var enchantments=net.minecraft.world.item.enchantment.EnchantmentHelper.getEnchantments(row.output());
                 var name=enchantments.isEmpty()?row.output().getHoverName():Component.translatable(enchantments.keySet().iterator().next().getDescriptionId());
@@ -139,14 +139,16 @@ public  class ResearchCraftingArtwork {
                 Component.translatable("tc.inst." + Math.max(0, Math.min(5, value / 2)))), center, y, 0x505050);
     }
     private static void aspect(ResearchReaderScreen reader, GuiGraphics g, String tag, int amount, int x, int y, int mx, int my) {
+        aspect(reader,g,tag,amount>0?Integer.toString(amount):"",x,y,mx,my);
+    }
+    private static void aspect(ResearchReaderScreen reader, GuiGraphics g, String tag, String text, int x, int y, int mx, int my) {
         var aspect = tc4revival.aspect.TCAspects.catalog().require(tag);
         int color = thaumcraft.api.client.ClientAspectViews.view(aspect).color();
         g.setColor((color >> 16 & 255) / 255f, (color >> 8 & 255) / 255f, (color & 255) / 255f, 1);
         LegacyGui.blit(g,thaumcraft.api.client.ClientAspectViews.view(aspect).texture(), x, y, 16, 16, 0, 0, 16, 16, 16, 16);
         g.setColor(1, 1, 1, 1);
-        if (amount > 0) {
+        if (!text.isEmpty()) {
             var font = Minecraft.getInstance().font;
-            var text = Integer.toString(amount);
             g.drawString(font, text, x + 17 - font.width(text), y + 10, 0xFFFFFF);
         }
         if (mx >= x && mx < x + 16 && my >= y && my < y + 16) reader.aspectTooltip(g, aspect, mx, my);

@@ -64,7 +64,11 @@ public final class ShaderPackMagicRendering {
         if (event.getStage() != RenderLevelStageEvent.Stage.AFTER_LEVEL) return;
         boolean vanilla = vanillaWorld;
         vanillaWorld = false;
-        if (pending.isEmpty()) return;
+        if (!pending.isEmpty()) drawPending(vanilla);
+        EldritchMist.renderShaderPackFog(event.getProjectionMatrix());
+    }
+
+    private static void drawPending(boolean vanilla) {
         var modelView = RenderSystem.getModelViewStack();
         var projection = new Matrix4f(RenderSystem.getProjectionMatrix());
         var sorting = RenderSystem.getVertexSorting();

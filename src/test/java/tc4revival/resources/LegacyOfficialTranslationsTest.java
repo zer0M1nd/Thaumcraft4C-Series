@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class LegacyOfficialTranslationsTest {
     @TempDir Path game;
     static final String URL="https://raw.githubusercontent.com/GTNewHorizons/Example/"+"a".repeat(40)+"/src/main/resources/assets/legacy/lang/zh_CN.lang";
-    @Test void cachedSourcesUseOnlyExplicitKeysAndRejectTampering() throws Exception {
+    @Test void cachedSourcesUseOnlyExplicitKeysIncludingManualVariants() throws Exception {
         byte[] bytes="old=已有中文\nother=未声明的键\n".getBytes(StandardCharsets.UTF_8);
         String hash=OriginalResources.sha256(bytes);
         var source=new LegacyOfficialTranslations.Source("example",URI.create(URL),hash,Map.of("item.example.modern","old"),Map.of());
@@ -23,7 +23,7 @@ class LegacyOfficialTranslationsTest {
         var prepared=LegacyLocalization.prepare(game,result);
         assertEquals(Set.of("pack.mcmeta","assets/example/lang/zh_cn.json"),prepared.allowed());
         Files.writeString(file,"old=替换过的文件");
-        assertTrue(LegacyOfficialTranslations.load(game,List.of(source),false).isEmpty());
+        assertEquals("替换过的文件",LegacyOfficialTranslations.load(game,List.of(source),false).get("example").get("item.example.modern"));
         assertEquals("old=替换过的文件",Files.readString(file),"Offline cache inspection must not rewrite files or fetch the network");
     }
     @Test void supplementsRequirePinnedChineseSourceAndHash() throws Exception {

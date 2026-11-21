@@ -19,6 +19,10 @@ import tc4revival.resources.ResearchSubtitleLocalization;
 public  class ResearchNodeTooltip {
     private record Text(List<FormattedCharSequence> lines, int color) {}
     private ResearchNodeTooltip() {}
+    private static AspectTooltips.Cell cell(ResearchBookHint.Cost cost) {
+        return new AspectTooltips.Cell(cost.known()?cost.aspect():"",cost.owned()+"/"+cost.amount(),
+                cost.enough()?0xff55ff55:0xffff5555,!cost.enough());
+    }
     /** Native tooltip providers receive one component for every explicit line. */
     public static List<Component> textLines(FormattedText text) {
         var lines = text.getString().contains("\n") ? net.minecraft.client.Minecraft.getInstance().font.getSplitter()
@@ -36,7 +40,7 @@ public  class ResearchNodeTooltip {
     /** Book links use vanilla's tooltip container while keeping the research tree's text colours. */
     public static void drawNative(GuiGraphics g,Font font,ResearchBrowser.Node node,ResearchBookHint hint,
             int mouseX,int mouseY,int screenWidth) {
-        g.renderComponentTooltipFromElements(font,nativeElements(node,hint,screenWidth),mouseX,mouseY,net.minecraft.world.item.ItemStack.EMPTY);
+        g.renderComponentTooltipFromElements(font,new ArrayList<>(nativeElements(node,hint,screenWidth)),mouseX,mouseY,net.minecraft.world.item.ItemStack.EMPTY);
     }
     public static List<com.mojang.datafixers.util.Either<net.minecraft.network.chat.FormattedText,net.minecraft.world.inventory.tooltip.TooltipComponent>> nativeElements(
             ResearchBrowser.Node node,ResearchBookHint hint,int screenWidth) {
@@ -70,8 +74,7 @@ public  class ResearchNodeTooltip {
         elements.add(com.mojang.datafixers.util.Either.left(description.withStyle(s->s.applyTo(net.minecraft.network.chat.Style.EMPTY.withColor((locked?-9416624:-7302913)&0xffffff)))));
         if(!locked&&node.research().warp()>0)elements.add(com.mojang.datafixers.util.Either.left(forbidden(node.research().warp())));
         if(!costs.isEmpty())elements.add(com.mojang.datafixers.util.Either.right(new AspectTooltips.Data(List.of(
-                new AspectTooltips.Row(Component.empty(),costs.stream().map(cost->new AspectTooltips.Cell(
-                        cost.known()?cost.aspect():"",cost.known()?Integer.toString(cost.amount()):"")).toList())),Math.max(24,Math.min(240,screenWidth-24)))));
+                new AspectTooltips.Row(Component.empty(),costs.stream().map(ResearchNodeTooltip::cell).toList())),Math.max(24,Math.min(240,screenWidth-24)))));
         if(bookControls&&(!locked||node.research().mirror()||node.original().tutorial())&&!hint.message().isEmpty()) {
             int color=hint.message().equals("tc.research.hasnote")?16753920:hint.requestable()?8900331:14423100;
             elements.add(com.mojang.datafixers.util.Either.left(Component.translatable(hint.message()).withStyle(s->s.withColor(color))));
@@ -117,7 +120,7 @@ public  class ResearchNodeTooltip {
         if((!locked || node.research().mirror() || node.original().tutorial()) && !hint.message().isEmpty())width=Math.max(width,(int)Math.ceil(font.width(Component.translatable(hint.message()))*scale));
         if(!locked && node.research().warp()>0)width=Math.max(width,(int)Math.ceil(font.width(forbidden(node.research().warp()))*scale));
         if(modName.isPresent())width=Math.max(width,(int)Math.ceil(font.width(modName.get())*scale));
-        width = Math.max(width, costs.size() * 16);
+        width = Math.max(width, costs.stream().map(ResearchNodeTooltip::cell).mapToInt(c -> AspectTooltips.cellWidth(font,c)).sum());
         width = Math.max(32, Math.min(width, Math.max(32, screenWidth - 12)));
         var titleLines = font.split(title, width);
         int textWidth = (int)(width/scale);
@@ -148,20 +151,11 @@ public  class ResearchNodeTooltip {
                 small(g, font, text.lines(), x, cursor, text.color());
                 cursor += (int)Math.ceil(text.lines().size() * font.lineHeight * scale) + 4;
             }
-            for (int i = 0; i < costs.size(); i++) {
-                var cost = costs.get(i); int gx = x + i * 16;
-                if (!cost.known()) {
-                    g.flush();g.setColor(.5f, .5f, .5f, .5f);
-                    LegacyGui.blit(g,ResourceLocation.parse("thaumcraft:textures/aspects/_unknown.png"), gx, cursor, 16, 16, 0, 0, 16, 16, 16, 16);
-                } else {
-                    var aspect = TCAspects.catalog().require(cost.aspect()); int color = thaumcraft.api.client.ClientAspectViews.view(aspect).color();
-                    float alpha = cost.enough() ? 1 : (float) (Math.sin(Math.floorMod(milliseconds, 600) / 600.0 * Math.PI * 2) * .25 + .75);
-                    g.flush();g.setColor((color >> 16 & 255) / 255f, (color >> 8 & 255) / 255f, (color & 255) / 255f, alpha);
-                    LegacyGui.blit(g,thaumcraft.api.client.ClientAspectViews.view(aspect).texture(), gx, cursor, 16, 16, 0, 0, 16, 16, 16, 16);
-                    g.setColor(1, 1, 1, 1);
-                    g.drawString(font, Integer.toString(cost.amount()), gx + 8, cursor + 10, ((int) (alpha * 255) << 24) | 0xFFFFFF);
-                }
-                g.setColor(1, 1, 1, 1);
+            int costX=x;
+            for (var cost : costs) {
+                var cell=cell(cost);
+                AspectTooltips.draw(g,font,cell,costX,cursor);
+                costX+=AspectTooltips.cellWidth(font,cell);
             }
             int hintColor = hint.message().equals("tc.research.hasnote") ? 16753920 : hint.requestable() ? 8900331 : 14423100;
             small(g, font, hintLines, x, cursor + costHeight, hintColor);

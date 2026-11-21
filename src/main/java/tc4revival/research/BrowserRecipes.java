@@ -168,7 +168,7 @@ public class BrowserRecipes {
         if(recipe.matches(grid,level))addArcane(out,recipe,level,grid,choices,research,0);
     }
     private static void addArcane(List<BrowserRecipe> out,ArcaneRecipe r,Level level,TransientCraftingContainer grid,List<List<ItemStack>> choices,String research,int n){
-        var costs=new LinkedHashMap<String,Integer>();r.visCost(grid).forEach((a,v)->costs.put(a.tag(),v));
+        var costs=new LinkedHashMap<String,Integer>();var amounts=r.visCost(grid); amounts.forEach((a,v)->costs.put(a.tag(),ArcaneRecipe.hundredths(amounts,a)));
         out.add(new BrowserRecipe("arcane",r.getId()+"/"+n,research,choices,r.assemble(grid,level.registryAccess()),costs,Map.of(),0,0,false));
     }
     private static ItemStack legacy(String item,int metadata,LegacyItemIdentity identity){

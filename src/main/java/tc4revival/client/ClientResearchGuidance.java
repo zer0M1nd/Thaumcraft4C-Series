@@ -37,7 +37,7 @@ public class ClientResearchGuidance {
         if(!bookControls||options.paths().isEmpty())return EMPTY;
         var costs = ResearchGuidance.cost(research).stream().map(tag -> {
             var aspect = TCAspects.catalog().require(tag);
-            return new ResearchBookHint.Cost(tag, 1, knowledge.knows(aspect), knowledge.poolAmount(aspect) >= 1);
+            return new ResearchBookHint.Cost(tag, 1, knowledge.knows(aspect), knowledge.poolAmount(aspect));
         }).toList();
         return new View(List.of(Component.translatable("thaumcraft.guidance.listen")), costs, null);
     }

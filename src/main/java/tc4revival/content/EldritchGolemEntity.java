@@ -16,6 +16,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.AABB;
 
 /** Armored first phase followed by a regenerating, headless homing-shot phase. */
 public  class EldritchGolemEntity extends ThaumcraftBossEntity implements EldritchMob,RangedAttackMob {
@@ -91,6 +92,20 @@ public  class EldritchGolemEntity extends ThaumcraftBossEntity implements Eldrit
         if (!level().isClientSide) {
             var pos=BlockPos.containing(getX()+motion.x,getBoundingBox().minY,getZ()+motion.z); var state=level().getBlockState(pos); float hardness=state.getDestroySpeed(level(),pos);
             if (hardness>=0 && hardness<=.15f) level().destroyBlock(pos,true,this);
+            if (getTarget()!=null && tickCount%5==0) breakLootAtFeet();
+        }
+    }
+
+    private void breakLootAtFeet() {
+        // A 1.75-block-wide construct collides with a narrow urn before its centre enters the urn's block.
+        var body = getBoundingBox();
+        var feet = new AABB(body.minX, body.minY - 1.0 / 16, body.minZ,
+                body.maxX, body.minY + 1, body.maxZ).inflate(1.0 / 16, 0, 1.0 / 16);
+        for (var pos : BlockPos.betweenClosed(BlockPos.containing(feet.minX, feet.minY, feet.minZ),
+                BlockPos.containing(feet.maxX, feet.maxY, feet.maxZ))) {
+            var state = level().getBlockState(pos);
+            if (state.getBlock() instanceof EldritchLootBlock && state.getCollisionShape(level(), pos).bounds().move(pos).intersects(feet))
+                level().destroyBlock(pos, true, this);
         }
     }
     @Override public void tick() {

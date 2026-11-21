@@ -24,7 +24,10 @@ import tc4revival.research.*;
 /** JEI discovers this class only when installed; dedicated/common startup never links it. */
 @JeiPlugin
 public class ThaumcraftJei implements IModPlugin {
-    public record AspectValue(String tag,int amount) {}
+    public record AspectValue(String tag,int amount,boolean vis) {
+        public AspectValue(String tag,int amount) { this(tag,amount,false); }
+        public String displayAmount() { return vis?ArcaneRecipe.formatHundredths(amount):Integer.toString(amount); }
+    }
     public static final IIngredientType<AspectValue> ASPECTS=()->AspectValue.class;
     public static final Map<String,RecipeType<BrowserRecipe>> TYPES=new LinkedHashMap<>();
     static {for(var kind:List.of("arcane","crucible","infusion","infusion_enchantment","aspect_combine","item_aspects"))TYPES.put(kind,RecipeType.create("thaumcraft",kind,BrowserRecipe.class));}
@@ -38,14 +41,17 @@ public class ThaumcraftJei implements IModPlugin {
     private boolean emiRefreshFailed;
     private BrowserRecipes.Catalog localCatalog;
     private int sentAt;
-    private final ClientQueryCache<net.minecraft.nbt.CompoundTag,ItemStack,BrowserRecipe> queries=new ClientQueryCache<>();
-    private final ClientQueryCache<net.minecraft.nbt.CompoundTag,ItemStack,BrowserRecipe> dynamicQueries=new ClientQueryCache<>();
+    private record QueryStack(ItemStack stack, boolean catalog) {}
+    private int catalogQueriesPending;
+    private final ClientQueryCache<net.minecraft.nbt.CompoundTag,QueryStack,BrowserRecipe> queries=new ClientQueryCache<>();
+    private final ClientQueryCache<net.minecraft.nbt.CompoundTag,QueryStack,BrowserRecipe> dynamicQueries=new ClientQueryCache<>();
     private List<InfusionRecipe> dynamicDefinitions=List.of();
-    private ItemStack dynamicStack=ItemStack.EMPTY;
+    private QueryStack dynamicStack;
     private int dynamicAt;
     private final Map<String,BrowserRecipe> registered=new LinkedHashMap<>();
     private final Set<BrowserRecipe> visible=Collections.newSetFromMap(new IdentityHashMap<>());
     private final Deque<BrowserRecipe> incoming=new ArrayDeque<>();
+    private final Deque<BrowserRecipe> catalogRows=new ArrayDeque<>();
     private final Set<String> visibleAspects=new HashSet<>();
     private String projectionRevision="";
     private List<ItemStack> projectedHiddenItems=List.of();
@@ -73,8 +79,12 @@ public class ThaumcraftJei implements IModPlugin {
                 .forEach(e->r.registerSubtypeInterpreter(e.getValue(),(stack,context)->BrowserQueryStacks.recipeKey(stack).toString()));
     }
     @Override public void registerIngredients(IModIngredientRegistration r){
-        r.register(ASPECTS,List.of(),new AspectHelper(),new AspectRenderer());
-        r.register(JeiResearch.TYPE,List.of(),new JeiResearch.Helper(),new JeiResearch.Renderer());
+        var aspects=registrationOnly()?TCAspects.catalog().all().stream()
+                .filter(a->thaumcraft.api.client.RecipeViewerProjection.aspect(a.tag())).map(a->new AspectValue(a.tag(),1)).toList():List.<AspectValue>of();
+        var research=registrationOnly() && BookRecipeViewer.enabled()?ResearchCatalogs.bundled().all().stream()
+                .filter(ResearchCatalogs::enabled).filter(row->!row.mirror()).map(row->new JeiResearch.Value(row.key())).toList():List.<JeiResearch.Value>of();
+        r.register(ASPECTS,aspects,new AspectHelper(),new AspectRenderer());
+        r.register(JeiResearch.TYPE,research,new JeiResearch.Helper(),new JeiResearch.Renderer());
     }
     @Override public void registerAdvanced(IAdvancedRegistration r){
         r.addTypedRecipeManagerPlugin(TYPES.get("infusion_enchantment"),new EnchantmentRecipeLookup(()->List.copyOf(visible)));
@@ -84,15 +94,47 @@ public class ThaumcraftJei implements IModPlugin {
         r.addRecipeCategories(new JeiResearchCategory(r.getJeiHelpers().getGuiHelper()));
         r.addRecipeCategories(new JeiBookCreation(r.getJeiHelpers().getGuiHelper()));
     }
-    @Override public void registerRecipes(IRecipeRegistration r) { r.addRecipes(JeiBookCreation.TYPE, List.of(new JeiBookCreation.Page())); }
+    private static boolean registrationOnly() { return net.minecraftforge.fml.ModList.get().isLoaded("toomanyrecipeviewers"); }
+    @Override public void registerRecipes(IRecipeRegistration r) {
+        r.addRecipes(JeiBookCreation.TYPE,List.of(new JeiBookCreation.Page()));
+        if (!registrationOnly()) return;
+        var level=Minecraft.getInstance().level;
+        var calculation=ClientItemAspects.calculation();
+        if (level==null || calculation==null) return;
+        appliedAspectVersion=ClientItemAspects.version();
+        var catalog=BrowserRecipes.catalog(level,calculation.identity());
+        while (!catalog.done()) {
+            var rows=catalog.drain(512,Long.MAX_VALUE).stream().map(thaumcraft.api.client.RecipeViewerProjection::recipe)
+                    .flatMap(Optional::stream).collect(java.util.stream.Collectors.groupingBy(BrowserRecipe::kind));
+            rows.forEach((kind,recipes)->r.addRecipes(TYPES.get(kind),recipes));
+        }
+        var cache=new tc4revival.aspect.item.ItemAspectCache(calculation);
+        var items=new ArrayList<BrowserRecipe>();
+        for(var stack:r.getIngredientManager().getAllIngredients(mezz.jei.api.constants.VanillaTypes.ITEM_STACK)) {
+            if (stack.isEmpty() || !thaumcraft.api.client.RecipeViewerProjection.item(stack)) continue;
+            isolated(stack,()->{
+                var entry=cache.resolve(stack);
+                thaumcraft.api.client.RecipeViewerProjection.recipe(BrowserRecipes.item(stack,entry.identity(),entry.amounts())).ifPresent(items::add);
+            });
+        }
+        r.addRecipes(TYPES.get("item_aspects"),items);
+        if (BookRecipeViewer.enabled()) {
+            // TMRV can register on its indexer. The player knowledge ledger and the
+            // research guidance cache belong to the client thread.
+            var research=Minecraft.getInstance().submit(()->ResearchCatalogs.bundled().all().stream()
+                    .filter(ResearchCatalogs::enabled).filter(row->!row.mirror()).map(JeiResearchRecipe::create).toList()).join();
+            r.addRecipes(JeiResearch.RECIPES,research);
+        }
+    }
     @Override public void registerRecipeCatalysts(IRecipeCatalystRegistration r){
         r.addRecipeCatalyst(new ItemStack(TCItems.THAUMONOMICON.get()),JeiResearch.RECIPES);
-        r.addRecipeCatalyst(new ItemStack(TCArcane.BLOCK.get()),TYPES.get("arcane"));
+        r.addRecipeCatalyst(new ItemStack(TCArcane.BLOCK.get()),TYPES.get("arcane"),mezz.jei.api.constants.RecipeTypes.CRAFTING);
         r.addRecipeCatalyst(new ItemStack(TCArcane.CRUCIBLE.get()),TYPES.get("crucible"));
         r.addRecipeCatalyst(new ItemStack(TCItems.THAUMOMETER.get()),TYPES.get("item_aspects"));
         r.addRecipeCatalyst(new ItemStack(TCArcane.INFUSION_MATRIX.get()),TYPES.get("infusion"),TYPES.get("infusion_enchantment"));
     }
     @Override public void registerRecipeTransferHandlers(IRecipeTransferRegistration r){
+        r.addRecipeTransferHandler(ArcaneWorkbenchMenu.class,TCArcane.MENU.get(),mezz.jei.api.constants.RecipeTypes.CRAFTING,2,9,11,36);
         r.addRecipeTransferHandler(new InfusionInventoryTransfer(),TYPES.get("infusion"));
         var info=new mezz.jei.api.recipe.transfer.IRecipeTransferInfo<ArcaneWorkbenchMenu,BrowserRecipe>(){
             public Class<ArcaneWorkbenchMenu> getContainerClass(){return ArcaneWorkbenchMenu.class;}
@@ -122,7 +164,7 @@ public class ThaumcraftJei implements IModPlugin {
             finally{filter.setFilterText(previous);}
         };
     }
-    @Override public void onRuntimeUnavailable(){restoreProjectedItems();projectionRevision="";researchBookClick=false;researchQueries.stop();JeiInferenceExport.runtime(null);tc4revival.client.EditorSearch.search=null;MinecraftForge.EVENT_BUS.unregister(this);ClientBrowserRecipes.receiver=p->{};runtime=null;queries.clear();failures.clear();dynamicQueries.clear();dynamicDefinitions=List.of();dynamicStack=ItemStack.EMPTY;registered.clear();visible.clear();incoming.clear();visibleAspects.clear();connectionIdentity=null;appliedDataVersion=-1;}
+    @Override public void onRuntimeUnavailable(){restoreProjectedItems();projectionRevision="";researchBookClick=false;researchQueries.stop();JeiInferenceExport.runtime(null);tc4revival.client.EditorSearch.search=null;MinecraftForge.EVENT_BUS.unregister(this);ClientBrowserRecipes.receiver=p->{};runtime=null;clearQueries();dynamicDefinitions=List.of();registered.clear();visible.clear();emiRefreshAt=-1;visibleAspects.clear();connectionIdentity=null;appliedDataVersion=-1;}
     @SubscribeEvent public void reload(net.minecraftforge.client.event.RecipesUpdatedEvent e){dataVersion++;}
     @SubscribeEvent(priority=net.minecraftforge.eventbus.api.EventPriority.HIGHEST)
     public void researchClick(net.minecraftforge.client.event.ScreenEvent.MouseButtonPressed.Pre event) {
@@ -140,8 +182,12 @@ public class ThaumcraftJei implements IModPlugin {
         researchBookClick=false;restoreProjectedItems();projectionRevision="";
         researchQueries.clear();
         if(runtime!=null)hideAll();
-        queries.clear();failures.clear();incoming.clear();pendingCatalog=false;connectionIdentity=null;
-        dynamicQueries.clear();dynamicStack=ItemStack.EMPTY;dynamicDefinitions=List.of();
+        clearQueries();connectionIdentity=null;dynamicDefinitions=List.of();
+    }
+    private void clearQueries(){
+        queries.clear();dynamicQueries.clear();failures.clear();
+        incoming.clear();catalogRows.clear();catalogQueriesPending=0;
+        dynamicStack=null;localCatalog=null;pendingCatalog=false;
     }
     private void hideAll(){
         for(var type:TYPES.values())runtime.getRecipeManager().hideRecipes(type,visible.stream().filter(v->TYPES.get(v.kind())==type).toList());
@@ -163,13 +209,21 @@ public class ThaumcraftJei implements IModPlugin {
     private void offerChecked(ItemStack stack,boolean priority){
         var key=ClientItemAspects.key(stack);
         if(key.sizeInBytes()>262144)return;
-        queries.offerLazy(presentationKey(stack,key),()->stack.copyWithCount(1),priority);
+        queries.offerLazy(presentationKey(stack,key),()->newQuery(stack,priority),priority);
         // Only equipment can have the remaining dynamic infusion upgrades.
         // Keep this independent of aspect keys: runic state affects recipes.
         if(!dynamicDefinitions.isEmpty()&&(stack.isDamageableItem()||stack.getItem() instanceof RunicGear)
                 &&stack.hasTag()&&BrowserQueryStacks.eligible(stack))
-            dynamicQueries.offerLazy(BrowserQueryStacks.key(stack),()->stack.copyWithCount(1),priority);
+            dynamicQueries.offerLazy(BrowserQueryStacks.key(stack),()->newQuery(stack,priority),priority);
     }
+    private QueryStack newQuery(ItemStack stack,boolean priority){
+        // Only the initial JEI ingredient enumeration uses background priority.
+        // A later inventory lookup may promote that same entry in the queue.
+        var query=new QueryStack(stack.copyWithCount(1),!priority);
+        if(query.catalog())catalogQueriesPending++;
+        return query;
+    }
+    private Deque<BrowserRecipe> rowsFor(QueryStack query){return query.catalog()?catalogRows:incoming;}
     private net.minecraft.nbt.CompoundTag presentationKey(ItemStack stack,net.minecraft.nbt.CompoundTag aspects){
         // JEI may distinguish variants with equal aspects (e.g. a wand's attached focus).
         // Such variants need a display row, but share the same calculation table entry.
@@ -181,8 +235,7 @@ public class ThaumcraftJei implements IModPlugin {
         researchEnabled=BookRecipeViewer.enabled();
         appliedDataVersion=dataVersion;appliedDefinitionsVersion=ClientBrowserRecipes.dataVersion;appliedAspectVersion=ClientItemAspects.version();
         connectionIdentity=mc.getConnection();catalogRequest++;sentAt=ticks;
-        hideAll();incoming.clear();queries.clear();failures.clear();pendingCatalog=true;
-        dynamicQueries.clear();dynamicStack=ItemStack.EMPTY;
+        hideAll();clearQueries();pendingCatalog=true;
         dynamicDefinitions=BrowserRecipes.dynamicDefinitions(mc.level);
         updateAspects();
         runtime.getIngredientManager().getAllIngredients(mezz.jei.api.constants.VanillaTypes.ITEM_STACK).forEach(s->offer(s,false));
@@ -191,6 +244,16 @@ public class ThaumcraftJei implements IModPlugin {
     @SubscribeEvent public void tick(TickEvent.ClientTickEvent e){
         if(e.phase!=TickEvent.Phase.END||runtime==null)return;
         var mc=Minecraft.getInstance();if(mc.player==null||mc.level==null||mc.getConnection()==null)return;ticks++;
+        if(registrationOnly()){
+            // TMRV locks both registries after registration. Rebuild its snapshot once
+            // when synchronized aspect data arrives after the initial EMI index.
+            if(ClientItemAspects.ready() && appliedAspectVersion!=ClientItemAspects.version()){
+                appliedAspectVersion=ClientItemAspects.version();
+                scheduleEmiRefresh();
+            }
+            refreshEmiWhenReady();
+            return;
+        }
         if(ticks%2!=0)return;
         refreshProjection();
         researchQueries.refresh(dataVersion);
@@ -209,14 +272,14 @@ public class ThaumcraftJei implements IModPlugin {
         if(ticks%10==0)flushIncoming();
         refreshEmiWhenReady();
         if(pendingCatalog){
-            if(incoming.size()<512)incoming.addAll(localCatalog.drain(32,2_000_000L));
+            if(catalogRows.size()<512)catalogRows.addAll(localCatalog.drain(32,2_000_000L));
             if(localCatalog.done()){pendingCatalog=false;localCatalog=null;}
             return;
         }
         long started=System.nanoTime();
-        for(int i=0;i<32&&incoming.size()<512;i++){
+        for(int i=0;i<32&&incoming.size()+catalogRows.size()<512;i++){
             var batch=queries.begin(1);if(batch.values().isEmpty())break;
-            var stack=batch.values().get(0);
+            var query=batch.values().get(0);var stack=query.stack();
             var aspectKey=new net.minecraft.nbt.CompoundTag[1];
             if(!isolated(stack,()->{
                 var key=ClientItemAspects.key(stack);aspectKey[0]=key;
@@ -225,26 +288,28 @@ public class ThaumcraftJei implements IModPlugin {
                 var value=ClientItemAspects.resolve(stack,key).orElseThrow();
                 var row=BrowserRecipes.item(stack,value.identity(),value.amounts());
                 queries.complete(batch.id(),List.of(row),r->displayKey);
-                incoming.add(row);
+                rowsFor(query).add(row);
             })){
                 queries.discard(batch.id());
                 if(aspectKey[0]!=null)ClientItemAspects.discard(aspectKey[0]);
             }
+            if(query.catalog())catalogQueriesPending--;
             if(System.nanoTime()-started>=2_000_000L)break;
         }
         // Do not run the entire dynamic recipe set as one unbudgeted stack operation.
-        for(int i=0;i<32&&incoming.size()<512&&System.nanoTime()-started<2_000_000L;i++){
-            if(dynamicStack.isEmpty()){
+        for(int i=0;i<32&&incoming.size()+catalogRows.size()<512&&System.nanoTime()-started<2_000_000L;i++){
+            if(dynamicStack==null){
                 var batch=dynamicQueries.begin(1);if(batch.values().isEmpty())break;
                 dynamicStack=batch.values().get(0);dynamicAt=0;
             }
-            if(!isolated(dynamicStack,()->incoming.addAll(BrowserRecipes.dynamicItem(mc.level,dynamicStack,dynamicDefinitions.get(dynamicAt++))))){
-                dynamicQueries.discard(dynamicQueries.current().id());dynamicStack=ItemStack.EMPTY;
-                continue;
-            }
-            if(dynamicAt==dynamicDefinitions.size()){
-                dynamicQueries.complete(dynamicQueries.current().id(),List.of(),r->null);dynamicStack=ItemStack.EMPTY;
-            }
+            var query=dynamicStack;
+            boolean success=isolated(query.stack(),()->rowsFor(query).addAll(
+                    BrowserRecipes.dynamicItem(mc.level,query.stack(),dynamicDefinitions.get(dynamicAt++))));
+            if(success && dynamicAt<dynamicDefinitions.size())continue;
+            if(success)dynamicQueries.complete(dynamicQueries.current().id(),List.of(),r->null);
+            else dynamicQueries.discard(dynamicQueries.current().id());
+            if(query.catalog())catalogQueriesPending--;
+            dynamicStack=null;
         }
     }
     private void updateAspects(){
@@ -259,30 +324,31 @@ public class ThaumcraftJei implements IModPlugin {
         for(var g:r.inputs()){s.append('|');for(var i:g)s.append(i.save(new net.minecraft.nbt.CompoundTag()));}return s.append(r.output().save(new net.minecraft.nbt.CompoundTag())).toString();}
     private void receive(BrowserRecipesPacket p){
         if(runtime==null||!p.catalog()||!pendingCatalog||p.request()!=catalogRequest)return;
-        incoming.addAll(p.recipes());sentAt=ticks;
+        catalogRows.addAll(p.recipes());sentAt=ticks;
         if(p.last())pendingCatalog=false;
     }
     private void flushIncoming(){
         var additions=new HashMap<String,List<BrowserRecipe>>();var restored=new HashMap<String,List<BrowserRecipe>>();
-        for(int i=0;i<128&&!incoming.isEmpty();i++){
-            var projected=thaumcraft.api.client.RecipeViewerProjection.recipe(incoming.removeFirst());if(projected.isEmpty())continue;var row=projected.get();
+        for(int i=0;i<128;i++){
+            var next=catalogRows.isEmpty()?incoming.pollFirst():catalogRows.removeFirst();
+            if(next==null)break;
+            var projected=thaumcraft.api.client.RecipeViewerProjection.recipe(next);if(projected.isEmpty())continue;var row=projected.get();
             var key=signature(row);var old=registered.get(key);var type=TYPES.get(row.kind());
             if(old==null){registered.put(key,row);additions.computeIfAbsent(row.kind(),k->new ArrayList<>()).add(row);visible.add(row);}
             else if(!visible.contains(old)){restored.computeIfAbsent(row.kind(),k->new ArrayList<>()).add(old);visible.add(old);}
         }
         additions.forEach((kind,rows)->runtime.getRecipeManager().addRecipes(TYPES.get(kind),rows));
         restored.forEach((kind,rows)->runtime.getRecipeManager().unhideRecipes(TYPES.get(kind),rows));
-        if(additions.keySet().stream().anyMatch(kind->!kind.equals("item_aspects"))
-                ||restored.keySet().stream().anyMatch(kind->!kind.equals("item_aspects")))scheduleEmiRefresh();
     }
     private void scheduleEmiRefresh(){
         if(!emiRefreshFailed&&net.minecraftforge.fml.ModList.get().isLoaded("emi"))emiRefreshAt=ticks+20;
     }
     private void refreshEmiWhenReady(){
-        if(pendingCatalog||emiRefreshAt<0||ticks<emiRefreshAt)return;
+        if(emiRefreshAt<0||ticks<emiRefreshAt||pendingCatalog||catalogQueriesPending>0||!catalogRows.isEmpty())return;
         try{
             // EMI's JEI bridge takes a snapshot before our login-time catalog is ready.
-            // Coalesce recipe batches; per-stack aspect lookups must not reload the index.
+            // Once all catalog rows reach JEI, rebuild that snapshot. Inventory-specific
+            // aspect and infusion lookups continue to be registered with JEI independently.
             var manager=Class.forName("dev.emi.emi.runtime.EmiReloadManager");
             if(!Boolean.TRUE.equals(manager.getMethod("isLoaded").invoke(null)))return;
             emiRefreshAt=-1;
@@ -308,8 +374,8 @@ public class ThaumcraftJei implements IModPlugin {
         private boolean known(AspectValue a){if(!thaumcraft.api.client.ClientAspectViews.visible(a.tag()))return false;var mc=Minecraft.getInstance();return ClientKnowledge.knownAspectTags().contains(a.tag())||(mc.isSameThread()&&mc.player!=null&&mc.player.isCreative());}
         public void render(GuiGraphics g,AspectValue a){
             if(!thaumcraft.api.client.ClientAspectViews.visible(a.tag())){AspectTooltips.draw(g,Minecraft.getInstance().font,new AspectTooltips.Cell("",""),0,0);return;}
-            boolean known=known(a);AspectTooltips.draw(g,Minecraft.getInstance().font,new AspectTooltips.Cell(known?a.tag():"",""),0,0); var font=Minecraft.getInstance().font; String count=Integer.toString(a.amount()); g.pose().pushPose(); g.pose().translate(0,0,200); g.drawString(font,count,17-font.width(count),9,0xFFFFFF,true); g.pose().popPose();}
-        public List<Component> getTooltip(AspectValue a,TooltipFlag flag){if(!known(a))return List.of(Component.literal("?"));var aspect=TCAspects.catalog().require(a.tag());return List.of(Component.translatable("thaumcraft.jei.aspect_name",thaumcraft.api.client.ClientAspectViews.view(aspect).displayName()),Component.translatable(thaumcraft.api.client.ClientAspectViews.view(aspect).descriptionKey()),Component.translatable("thaumcraft.jei.amount",a.amount()));}
+            boolean known=known(a);AspectTooltips.draw(g,Minecraft.getInstance().font,new AspectTooltips.Cell(known?a.tag():"",""),0,0); var font=Minecraft.getInstance().font; String count=a.displayAmount(); g.pose().pushPose(); g.pose().translate(0,0,200); g.drawString(font,count,17-font.width(count),9,0xFFFFFF,true); g.pose().popPose();}
+        public List<Component> getTooltip(AspectValue a,TooltipFlag flag){if(!known(a))return List.of(Component.literal("?"));var aspect=TCAspects.catalog().require(a.tag());return List.of(Component.translatable("thaumcraft.jei.aspect_name",thaumcraft.api.client.ClientAspectViews.view(aspect).displayName()),Component.translatable(thaumcraft.api.client.ClientAspectViews.view(aspect).descriptionKey()),Component.translatable("thaumcraft.jei.amount",a.displayAmount()));}
     }
     public static class Category implements mezz.jei.api.recipe.category.IRecipeCategory<BrowserRecipe>{
         private final String kind;private final mezz.jei.api.gui.drawable.IDrawable background,icon;
@@ -340,10 +406,10 @@ public class ThaumcraftJei implements IModPlugin {
             }
             int i=0;for(var a:new TreeMap<>(r.aspectInputs()).entrySet()){
                 var pos=JeiRecipeLayout.cost(kind,i++,r.aspectInputs().size());
-                b.addSlot(RecipeIngredientRole.INPUT,pos.x(),pos.y()).setSlotName("cost/"+(i-1)).addIngredient(ASPECTS,new AspectValue(a.getKey(),a.getValue()));
+                b.addSlot(RecipeIngredientRole.INPUT,pos.x(),pos.y()).setSlotName("cost/"+(i-1)).addIngredient(ASPECTS,new AspectValue(a.getKey(),a.getValue(),kind.equals("arcane")));
             }
             i=0;for(var a:new TreeMap<>(r.aspectOutputs()).entrySet()){
-                b.addSlot(RecipeIngredientRole.OUTPUT,kind.equals("aspect_combine")?132:54,24).setSlotName("aspects/"+i++).addIngredient(ASPECTS,new AspectValue(a.getKey(),a.getValue()));
+                b.addSlot(RecipeIngredientRole.OUTPUT,kind.equals("aspect_combine")?132:54,24).setSlotName("aspects/"+i++).addIngredient(ASPECTS,new AspectValue(a.getKey(),a.getValue(),kind.equals("arcane")));
             }
         }
         @Override public void createRecipeExtras(mezz.jei.api.gui.widgets.IRecipeExtrasBuilder b,BrowserRecipe r,IFocusGroup focus){

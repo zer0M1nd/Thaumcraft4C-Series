@@ -38,7 +38,7 @@ public  class WandVis {
         var costs = new LinkedHashMap<Aspect, Integer>();
         requested.forEach((aspect, amount) -> {
             if (!aspect.isPrimal() || amount < 0) throw new IllegalArgumentException("Invalid wand cost");
-            int raw = wholeVis ? Math.multiplyExact(amount, 100) : amount;
+            int raw = wholeVis ? ArcaneRecipe.hundredths(requested,aspect) : amount;
             float modifier = (float) modifiers.applyAsDouble(aspect);
             if (!Float.isFinite(modifier) || modifier < .1f) throw new IllegalArgumentException("Invalid wand modifier");
             float cost = raw * modifier;

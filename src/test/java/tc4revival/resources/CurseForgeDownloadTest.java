@@ -33,6 +33,15 @@ class CurseForgeDownloadTest {
         for(var uri:List.of("http://edge.forgecdn.net/a.jar","https://www.curseforge.com.evil.test/a.jar","https://localhost/a.jar","file:///tmp/file.jar"))
             assertFalse(CurseForgeDownload.allowed(URI.create(uri)));
     }
+    @Test void manualOnlyDeclarationDoesNotDiscardWorkingMirrors() throws Exception {
+        String raw="https://raw.githubusercontent.com/Ilya3point999K/ThaumicConcilium/96439af167c40dd89cf4df4db865b38916b72b24/deps/1.7.10_AM2-1.4.0.009.jar";
+        String manual="https://www.mcmod.cn/download/1034.html";
+        var attempts=CurseForgeDownload.attempts(List.of(manual,raw));
+        assertEquals("mediafilez.forgecdn.net",attempts.get(0).getHost());
+        assertTrue(attempts.contains(URI.create("https://mod.mcimirror.top/files/2280/862/1.7.10_AM2-1.4.0.009.jar")));
+        assertTrue(attempts.contains(URI.create(raw))); assertTrue(attempts.contains(URI.create(manual)));
+        assertFalse(CurseForgeDownload.allowed(URI.create(manual)));
+    }
     @Test void transportFollowsAllowedRedirectAndRejectsErrorsHtmlSizeAndLoops() throws Exception {
         var server=HttpServer.create(new InetSocketAddress("127.0.0.1",0),0);
         byte[] bytes={0x50,0x4b,3,4,1,2};

@@ -33,12 +33,12 @@ class InfusionBrewingOriginalIdentityTest {
     @Test void acceptsVerifiedLegacyAnnotationWithoutExecutingClass() throws Exception {
         assertArrayEquals(new byte[]{1,2,3},read(archive("InfusionBrewing","1.7.10-1.3a","required-after:Thaumcraft"),"1.7.10").resources().get(ASSET));
     }
-    @Test void rejectsOtherModVersionAndHash() throws Exception {
+    @Test void rejectsOtherModOrVersionButAcceptsHashVariants() throws Exception {
         for(var fields:List.of(new String[]{"unrelated","1.7.10-1.3a","required-after:Thaumcraft"},
                 new String[]{"InfusionBrewing","1.12.2-1.3a","required-after:Thaumcraft"}))
             assertThrows(IOException.class,()->read(archive(fields[0],fields[1],fields[2]),"1.7.10"));
         var valid=archive("InfusionBrewing","1.7.10-1.3a","required-after:Thaumcraft");
-        assertThrows(IOException.class,()->OriginalResources.read(valid,Map.of("assets/infusionbrewing/test.png",ASSET),"InfusionBrewing","1.7.10",false,new OriginalResources.AnnotationIdentity(ENTRY,"1.7.10-1.3a","0".repeat(64))));
+        assertArrayEquals(new byte[]{1,2,3},OriginalResources.read(valid,Map.of("assets/infusionbrewing/test.png",ASSET),"InfusionBrewing","1.7.10",false,new OriginalResources.AnnotationIdentity(ENTRY,"1.7.10-1.3a","0".repeat(64))).resources().get(ASSET));
         assertThrows(IllegalArgumentException.class,()->new OriginalResources.AnnotationIdentity("../Bad.class","1","0".repeat(64)));
     }
     @Test void readsCompleteActualAuthorArchive() throws Exception {

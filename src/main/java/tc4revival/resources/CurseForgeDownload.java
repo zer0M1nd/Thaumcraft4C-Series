@@ -3,7 +3,8 @@ package tc4revival.resources;
 import java.io.*;
 import java.net.*;
 import java.nio.file.*;
-import java.util.Set;
+import java.util.*;
+import tc4revival.download.DownloadQueue;
 import java.util.function.Predicate;
 
 /** Verified CurseForge CDN files first, then the project's bounded original-resource proxy.
@@ -22,7 +23,7 @@ public class CurseForgeDownload {
             var uri = URI.create(filePage);
             if(VERIFIED_ALIASES.containsKey(filePage))return URI.create(VERIFIED_ALIASES.get(filePage));
             if(VERIFIED_ALIASES.containsValue(filePage))return uri;
-            if(allowed(uri)&&uri.getHost().endsWith(".forgecdn.net")&&uri.getPath().endsWith(".jar"))return uri;
+            if (allowed(uri) && uri.getPath().endsWith(".jar")) return uri;
             if (!"https".equals(uri.getScheme()) || !Set.of("www.curseforge.com", "curseforge.com").contains(uri.getHost())
                     || uri.getPort() != -1 || uri.getUserInfo() != null || uri.getQuery() != null || uri.getFragment() != null)
                 throw new IllegalArgumentException("Not a CurseForge file page");
@@ -40,36 +41,81 @@ public class CurseForgeDownload {
                 }
             }
             return URI.create("https://www.curseforge.com/minecraft/mc-mods/" + match.group(1) + "/download/" + match.group(2) + "/file");
-        } catch (IllegalArgumentException failure) { throw new IOException("Invalid CurseForge download declaration: " + filePage, failure); }
+        } catch (RuntimeException failure) { throw new IOException("Invalid CurseForge download declaration: " + filePage, failure); }
     }
     static boolean allowed(URI uri) {
         boolean github=VERIFIED_ALIASES.containsValue(uri.toString())
                 ||uri.getHost()!=null&&Set.of("release-assets.githubusercontent.com","objects.githubusercontent.com").contains(uri.getHost());
-        return "https".equals(uri.getScheme()) && (HOSTS.contains(uri.getHost())||github) && uri.getUserInfo() == null
+        String host=uri.getHost(), path=uri.getPath();
+        if(host==null || !uri.normalize().equals(uri)) return false;
+        boolean mirror=host.equals("mod.mcimirror.top") && (path.matches("/files/[0-9]+/[0-9]+/[^/]+\\.jar")
+                || path.matches("/data/[A-Za-z0-9]+/versions/[A-Za-z0-9]+/[^/]+\\.jar"));
+        boolean modrinth=host.equals("cdn.modrinth.com") && path.matches("/data/[A-Za-z0-9]+/versions/[A-Za-z0-9]+/[^/]+\\.jar");
+        boolean raw=host.equals("raw.githubusercontent.com") && path.matches("/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+/[0-9a-f]{40}/[^?#]+\\.jar");
+        boolean jsdelivr=host.equals("cdn.jsdelivr.net") && path.matches("/gh/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+@[0-9a-f]{40}/[^?#]+\\.jar");
+        return "https".equals(uri.getScheme()) && (HOSTS.contains(host)||github||mirror||modrinth||raw||jsdelivr) && uri.getUserInfo() == null
                 && (uri.getPort() == -1 || uri.getPort() == 443);
     }
     public static final URI PROXY=URI.create("http://sn.zer0m1nd.me:42003/api/legacy-resource");
     /** Direct CDN sources precede every proxy attempt; website fallbacks come last. */
     static java.util.List<URI> attempts(java.util.List<String> sources) throws IOException {
-        var direct=new java.util.LinkedHashSet<URI>();var websites=new java.util.LinkedHashSet<URI>();
-        for(String source:sources){var url=endpoint(source);if(direct(url))direct.add(url);else websites.add(url);}
-        var result=new java.util.ArrayList<URI>(direct);
-        for(var url:direct)if(url.getHost().endsWith(".forgecdn.net"))result.add(URI.create(PROXY+"?url="+URLEncoder.encode(url.toString(),java.nio.charset.StandardCharsets.UTF_8)));
-        for(String source:sources)if(!direct(endpoint(source)))result.add(URI.create(PROXY+"?url="+URLEncoder.encode(source,java.nio.charset.StandardCharsets.UTF_8)));
-        result.addAll(websites);return java.util.List.copyOf(result);
+        var direct=new LinkedHashSet<URI>(); var proxy=new LinkedHashSet<URI>(); var mirrors=new LinkedHashSet<URI>(); var manual=new LinkedHashSet<URI>();
+        var expanded=new LinkedHashSet<String>();
+        for (String source:sources) {
+            // The upstream dependency repository carries this same CurseForge release (file 2280862).
+            if(source.equals("https://raw.githubusercontent.com/Ilya3point999K/ThaumicConcilium/96439af167c40dd89cf4df4db865b38916b72b24/deps/1.7.10_AM2-1.4.0.009.jar"))
+                expanded.add("https://mediafilez.forgecdn.net/files/2280/862/1.7.10_AM2-1.4.0.009.jar");
+            expanded.add(source);
+        }
+        for (String source:expanded) {
+            URI url;
+            try { url=endpoint(source); }
+            catch (IOException bad) {
+                // A publisher may only provide a manual landing page; it must not hide the remaining mirrors.
+                try {
+                    var page=URI.create(source);
+                    if (webLink(page)) manual.add(page);
+                } catch (IllegalArgumentException ignored) {}
+                continue;
+            }
+            String host=url.getHost(), raw=url.getRawPath();
+            if (host.endsWith(".forgecdn.net")) {
+                direct.add(url);
+                proxy.add(URI.create(PROXY+"?url="+URLEncoder.encode(url.toASCIIString(),java.nio.charset.StandardCharsets.UTF_8)));
+                mirrors.add(URI.create("https://mod.mcimirror.top"+raw));
+            } else if (host.equals("cdn.modrinth.com")) {
+                direct.add(url); mirrors.add(URI.create("https://mod.mcimirror.top"+raw));
+            } else if (host.equals("raw.githubusercontent.com")) {
+                direct.add(url); var parts=raw.substring(1).split("/",4);
+                if(!raw.endsWith("/1.7.10_AM2-1.4.0.009.jar")) mirrors.add(URI.create("https://cdn.jsdelivr.net/gh/"+parts[0]+"/"+parts[1]+"@"+parts[2]+"/"+parts[3]));
+            } else if (VERIFIED_ALIASES.containsValue(url.toString())) direct.add(url);
+            else {
+                proxy.add(URI.create(PROXY+"?url="+URLEncoder.encode(source,java.nio.charset.StandardCharsets.UTF_8)));
+                manual.add(url);
+            }
+        }
+        direct.addAll(proxy); direct.addAll(mirrors); direct.addAll(manual);
+        return List.copyOf(direct);
     }
-    private static boolean direct(URI uri) {
-        return uri.getHost().endsWith(".forgecdn.net")||VERIFIED_ALIASES.containsValue(uri.toString());
+    static boolean webLink(URI uri) {
+        return Set.of("https","http").contains(Objects.toString(uri.getScheme(),"")) && uri.getHost()!=null && uri.getUserInfo()==null;
     }
     private static boolean proxy(URI uri) {
         return PROXY.getScheme().equals(uri.getScheme())&&PROXY.getHost().equals(uri.getHost())&&PROXY.getPort()==uri.getPort()
             &&PROXY.getPath().equals(uri.getPath())&&uri.getUserInfo()==null&&uri.getFragment()==null;
     }
     public static void fetch(URI url, Path file) throws IOException {
-        transfer(url,file,uri->allowed(uri)||proxy(uri),OriginalResources.MAX_JAR_BYTES,10000,60000);
+        fetch(url,file,(n,total)->{});
+    }
+    public static void fetch(URI url, Path file, DownloadQueue.Progress progress) throws IOException {
+        if(!allowed(url) && !proxy(url)) throw new IOException("请在浏览器中打开此地址 / Browser download required");
+        transfer(url,file,uri->allowed(uri)||proxy(uri),OriginalResources.MAX_JAR_BYTES,7000,60000,progress);
     }
     // Separate transport policy enables deterministic local HTTP tests without relaxing production hosts.
     static void transfer(URI url, Path file, Predicate<URI> allowed, long limit, int timeoutMillis, int totalMillis) throws IOException {
+        transfer(url,file,allowed,limit,timeoutMillis,totalMillis,(n,total)->{});
+    }
+    static void transfer(URI url, Path file, Predicate<URI> allowed, long limit, int timeoutMillis, int totalMillis, DownloadQueue.Progress progress) throws IOException {
         long deadline = System.nanoTime() + totalMillis * 1000000L;
         for (int redirects = 0; redirects <= 5; redirects++) {
             if (!allowed.test(url)) throw new IOException("Download redirect is not a permitted CurseForge HTTPS host: " + url);
@@ -104,6 +150,7 @@ public class CurseForgeDownload {
                         int count = input.read(buffer); if (count == -1) break;
                         total += count; if (total > limit) throw new IOException("Download exceeds size limit");
                         output.write(buffer, 0, count);
+                        long before=System.nanoTime(); progress.bytes(total,connection.getContentLengthLong()); deadline+=System.nanoTime()-before;
                     }
                     if (connection.getContentLengthLong() >= 0 && total != connection.getContentLengthLong()) throw new IOException("Incomplete download");
                 }

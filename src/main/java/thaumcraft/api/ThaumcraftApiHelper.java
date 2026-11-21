@@ -21,7 +21,13 @@ public  class ThaumcraftApiHelper {
         return KnowledgeSavedData.get(player.server).update(player.getUUID(),player.getRandom()::nextInt,k->ResearchCatalogs.progression().completeTrusted(k,key,tc4revival.config.TCConfig.SERVER.disableWarp.get()).isPresent());
     }
     public static void addResearchPoints(ServerPlayer player,Aspect aspect,short amount) {
-        KnowledgeSavedData.get(player.server).update(player.getUUID(),player.getRandom()::nextInt,k->{k.changePool(aspect.unwrap(),amount);return null;});
+        var reward=KnowledgeSavedData.get(player.server).update(player.getUUID(),player.getRandom()::nextInt,k->{
+            var value=aspect.unwrap(); boolean discovered=!k.knows(value); int before=k.poolAmount(value);
+            k.changePool(value,amount);
+            return new tc4revival.network.ScanFeedbackPacket.Reward(value.tag(),Math.max(0,k.poolAmount(value)-before),discovered);
+        });
+        if (reward.gainedAmount()>0) tc4revival.network.TCNetwork.send(player,new tc4revival.network.ScanFeedbackPacket(
+                tc4revival.research.ScanRules.Status.SUCCESS,"",java.util.List.of(reward)));
     }
     public static void addWarpToPlayer(ServerPlayer player,int amount,boolean temporary) { addWarp(player,amount,temporary?PlayerKnowledge.WarpKind.TEMPORARY:PlayerKnowledge.WarpKind.PERMANENT); }
     public static void addStickyWarpToPlayer(ServerPlayer player,int amount) { addWarp(player,amount,PlayerKnowledge.WarpKind.STICKY); }

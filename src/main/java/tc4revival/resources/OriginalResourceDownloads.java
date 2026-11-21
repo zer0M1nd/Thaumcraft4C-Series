@@ -51,9 +51,16 @@ public class OriginalResourceDownloads {
         }
     }
     public record Result(String owner,Path downloaded,String warning,String failure) {}
-    @FunctionalInterface interface Transfer { void fetch(URI url,Path target) throws IOException; }
     public static List<Result> obtainMissing(Path game,List<Target> targets,Consumer<String> progress) {
-        return obtainMissing(game,targets,progress,CurseForgeDownload::fetch);
+        var results=new ArrayList<Result>();
+        for (var target:grouped(targets)) try {
+            var task=new OriginalArchiveTask(game,target);
+            try (var local=task.local()) {
+                if(local==null) results.add(new Result(target.owner(),null,"","Waiting for the startup download window: "+target.name()));
+                else { String warning=local.apply(); if(!warning.isBlank()) results.add(new Result(target.owner(),game.resolve("thaumcraft").resolve(task.item().id()),warning,"")); }
+            }
+        } catch(IOException e) { results.add(new Result(target.owner(),null,"",e.getMessage())); }
+        return List.copyOf(results);
     }
     /** Union all owners before extraction, so none loses resources when the original JAR is deleted. */
     static List<Target> grouped(List<Target> targets) {
@@ -62,70 +69,13 @@ public class OriginalResourceDownloads {
             String key=ProcessedOriginalResources.directoryName(target.legacyModId(),target.minecraftVersion());
             var old=grouped.get(key);
             if(old==null){grouped.put(key,target);continue;}
-            if(!old.sha256().equals(target.sha256())||!old.legacyModId().equals(target.legacyModId()))throw new IllegalArgumentException("Conflicting original versions: "+key);
-            if(old.annotationIdentity()!=null&&target.annotationIdentity()!=null&&!old.annotationIdentity().equals(target.annotationIdentity()))throw new IllegalArgumentException("Conflicting original annotation identities: "+key);
+            if(!old.legacyModId().equals(target.legacyModId())) throw new IllegalArgumentException("Conflicting original identities: "+key);
+            if(!old.sha256().equals(target.sha256())) ResourceLoadingState.warning(key+" · different reference SHA-256 values; using "+old.sha256());
+            if(old.annotationIdentity()!=null&&target.annotationIdentity()!=null&&(!old.annotationIdentity().classFile().equals(target.annotationIdentity().classFile()) || !old.annotationIdentity().version().equals(target.annotationIdentity().version())))throw new IllegalArgumentException("Conflicting original annotation identities: "+key);
             var paths=new LinkedHashSet<>(old.requiredResources());paths.addAll(old.mapping().values());paths.addAll(target.requiredResources());paths.addAll(target.mapping().values());
-            var urls=new LinkedHashSet<>(old.downloads());urls.addAll(target.downloads());
+            var urls=new LinkedHashSet<>(old.downloads());urls.addAll(target.downloads());urls.add(old.page());urls.add(target.page());
             grouped.put(key,new Target(old.owner(),old.name(),old.legacyModId(),old.sha256(),old.page(),old.mapping(),old.baseLanguages()||target.baseLanguages(),false,old.minecraftVersion(),List.copyOf(urls),List.copyOf(paths),old.annotationIdentity()!=null?old.annotationIdentity():target.annotationIdentity()));
         }
         return List.copyOf(grouped.values());
-    }
-    static List<Result> obtainMissing(Path game,List<Target> targets,Consumer<String> progress,Transfer transfer) {
-        return obtainMissing(game, targets, Set.of(), progress, transfer);
-    }
-    static List<Result> obtainMissing(Path game,List<Target> targets,Set<String> logoSources,Consumer<String> progress,Transfer transfer) {
-        var results=new ArrayList<Result>();
-        for(var target:grouped(targets)) {
-            Path temporary=null;
-            OriginalResources.Snapshot previous=null;
-            try {
-                var directory=game.resolve("thaumcraft");
-                OriginalResources.Snapshot selected=null;
-                for(var candidate:OriginalResources.candidates(directory)) {
-                    try {
-                        var snapshot=target.read(candidate);
-                        if (Files.isDirectory(candidate) && logoSources.contains(ProcessedOriginalResources.directoryName(target.legacyModId(), target.minecraftVersion()))
-                                && !ProcessedOriginalResources.logoChecked(candidate)) {
-                            previous = snapshot;
-                            continue;
-                        }
-                        if(selected==null||snapshot.sha256().equals(target.sha256()))selected=snapshot;
-                        if(snapshot.sha256().equals(target.sha256()))break;
-                    }catch(IOException ignored){ /* Unrelated or incomplete originals are not candidates. */ }
-                }
-                if (previous != null && selected == null && !previous.sha256().equals(target.sha256())) {
-                    results.add(new Result(target.owner(),previous.file(),"Supply the same original JAR to recover its optional logo.",""));
-                    continue;
-                }
-                if(selected!=null) {
-                    Path prepared=selected.file();
-                    if(!Files.isDirectory(prepared))prepared=ProcessedOriginalResources.store(game,target,selected);
-                    if(!selected.sha256().equals(target.sha256()))results.add(new Result(target.owner(),prepared,"SHA-256 differs from reference: "+selected.sha256(),""));
-                    continue;
-                }
-                progress.accept("Downloading legacy resources: "+target.name());
-                temporary=Files.createTempFile(directory,".tc4-download-",".part");
-                var failures=new ArrayList<String>();
-                for(URI url:CurseForgeDownload.attempts(target.downloads())) {
-                    try {
-                        transfer.fetch(url,temporary);
-                        var snapshot=target.read(temporary);
-                        if (previous != null && !snapshot.sha256().equals(previous.sha256()))
-                            throw new IOException("Downloaded archive differs from the existing original resource cache");
-                        selected=snapshot;break;
-                    }catch(IOException|RuntimeException failure){failures.add(url+": "+failure.getMessage());progress.accept("Original resource source failed: "+url.getHost());}
-                }
-                if(selected==null)throw new IOException(String.join("\n",failures));
-                Path prepared=ProcessedOriginalResources.store(game,target,selected);
-                String warning=selected.sha256().equals(target.sha256())?"":"SHA-256 differs from reference: "+selected.sha256();
-                results.add(new Result(target.owner(),prepared,warning,""));
-            }catch(IOException|RuntimeException failure) {
-                if (previous != null) results.add(new Result(target.owner(),previous.file(),"Optional logo unavailable: "+failure.getMessage(),""));
-                else results.add(new Result(target.owner(),null,"",target.name()+": "+failure.getMessage()+"\n"+target.page()));
-            }finally {
-                if(temporary!=null)try{Files.deleteIfExists(temporary);}catch(IOException ignored){ /* Never treated as a complete original. */ }
-            }
-        }
-        return List.copyOf(results);
     }
 }

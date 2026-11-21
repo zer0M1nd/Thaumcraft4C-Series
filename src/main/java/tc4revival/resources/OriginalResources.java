@@ -19,8 +19,8 @@ public  class OriginalResources {
         public boolean reference() { return REFERENCE_SHA256.equals(sha256); }
     }
 
-    /** A declaration for originals with absent or stale mcmod.info. The exact archive hash anchors the
-     * declared Minecraft version; @Mod is inspected as data and is never loaded as a class. */
+    /** A declaration for originals with absent or stale mcmod.info. The declared legacy class and version identify the release family.
+     * @Mod is inspected as data and is never loaded as a class. */
     public record AnnotationIdentity(String classFile,String version,String sha256) {
         public AnnotationIdentity {
             if(classFile==null||!classFile.matches("(?:[A-Za-z_$][A-Za-z0-9_$]*/)*[A-Za-z_$][A-Za-z0-9_$]*\\.class")
@@ -80,7 +80,6 @@ public  class OriginalResources {
     private static Snapshot read(Path file, Map<String,String> mapping, String modId, String minecraftVersion, boolean baseLanguages, boolean metadataRequired,AnnotationIdentity identity) throws IOException {
         if(Files.isDirectory(file,LinkOption.NOFOLLOW_LINKS)){
             var result=ProcessedOriginalResources.read(file,mapping,modId,minecraftVersion,baseLanguages);
-            if(identity!=null&&!identity.sha256().equals(result.sha256()))throw new IOException("Different annotated original archive hash");
             return result;
         }
         String identityPath=identity==null?identityClass(modId):identity.classFile();
@@ -95,7 +94,7 @@ public  class OriginalResources {
         // This is only a prefilter: accepted files still undergo the complete bounded snapshot check below.
         if (Files.size(file) > MAX_JAR_BYTES) throw new IOException("JAR exceeds 128 MiB");
         try (var index = new java.util.zip.ZipFile(file.toFile())) {
-            // An explicit, hash-pinned identity also covers archives with stale mcmod.info.
+            // An explicitly declared identity also covers archives with stale mcmod.info.
             // Automatic historical fallbacks remain limited to archives without that file.
             // Inspect @Mod only as data; never load or execute the original classes.
             if(metadataRequired && identityPath!=null && (identity!=null || index.getEntry("mcmod.info")==null)) {
@@ -148,8 +147,7 @@ public  class OriginalResources {
             if(identity==null)verifyAnnotationIdentity(found.get(identityPath),modId,minecraftVersion);
             else {
                 var values=annotationValues(found.get(identityPath));
-                if(!modId.equals(values.get("modid"))||!identity.version().equals(values.get("version"))
-                        ||!identity.sha256().equals(sha256(archive)))throw new IOException("Different declared legacy annotation identity or archive hash");
+                if(!modId.equals(values.get("modid"))||!identity.version().equals(values.get("version")))throw new IOException("Different declared legacy annotation identity");
             }
         } else if (metadataRequired) try {
             var metadata=com.google.gson.JsonParser.parseString(new String(found.get("mcmod.info"),StandardCharsets.UTF_8));

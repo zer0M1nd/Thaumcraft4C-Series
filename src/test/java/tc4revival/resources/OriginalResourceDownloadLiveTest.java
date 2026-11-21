@@ -27,13 +27,13 @@ class OriginalResourceDownloadLiveTest {
             }
         }
         assertEquals(16,OriginalResourceDownloads.grouped(targets).size());
-        var results=OriginalResourceDownloads.obtainMissing(game,targets,System.out::println);
+        var results=ArchiveDownloadFixture.obtainMissing(game,targets,System.out::println,CurseForgeDownload::fetch);
         assertEquals(16,results.size());
         for(var result:results){assertEquals("",result.failure(),result.owner());assertTrue(Files.isDirectory(result.downloaded()));}
-        assertTrue(OriginalResourceDownloads.obtainMissing(game,targets,t->{},(u,p)->fail("Intact resources avoid network")).isEmpty());
+        assertTrue(ArchiveDownloadFixture.obtainMissing(game,targets,t->{},(u,p)->fail("Intact resources avoid network")).isEmpty());
         var tc6=targets.stream().filter(t->t.minecraftVersion().equals("1.12.2")).findFirst().orElseThrow();
         var directory=game.resolve("thaumcraft/thaumcraft_1_12_2");Files.delete(directory.resolve(tc6.mapping().values().iterator().next()));
-        var repaired=OriginalResourceDownloads.obtainMissing(game,targets,System.out::println);
+        var repaired=ArchiveDownloadFixture.obtainMissing(game,targets,System.out::println,CurseForgeDownload::fetch);
         assertEquals(1,repaired.size());assertEquals("",repaired.get(0).failure());assertNotNull(tc6.read(directory));
         try(var files=Files.list(game.resolve("thaumcraft"))){assertTrue(files.allMatch(Files::isDirectory));}
     }

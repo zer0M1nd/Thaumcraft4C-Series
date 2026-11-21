@@ -345,7 +345,7 @@ public  class TableResources extends BlockStateProvider {
                 if (block instanceof tc4revival.content.CrystalClusterBlock) continue;
                 if (block instanceof tc4revival.content.MagicalLeavesBlock leaves) {
                     var pending=net.minecraft.advancements.critereon.StatePropertiesPredicate.Builder.properties().hasProperty(tc4revival.content.MagicalLeavesBlock.CHECK_DECAY,true).hasProperty(tc4revival.content.MagicalLeavesBlock.PERSISTENT,false);
-                    var shears=net.minecraft.world.level.storage.loot.predicates.MatchTool.toolMatches(net.minecraft.advancements.critereon.ItemPredicate.Builder.item().of(net.minecraft.world.item.Items.SHEARS));
+                    var shears=net.minecraftforge.common.loot.CanToolPerformAction.canToolPerformAction(net.minecraftforge.common.ToolActions.SHEARS_DIG);
                     add(block,net.minecraft.world.level.storage.loot.LootTable.lootTable()
                             .withPool(net.minecraft.world.level.storage.loot.LootPool.lootPool().when(shears)
                                     .add(net.minecraft.world.level.storage.loot.entries.LootItem.lootTableItem(block)))

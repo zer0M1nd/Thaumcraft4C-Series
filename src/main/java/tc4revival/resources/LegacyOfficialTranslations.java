@@ -37,24 +37,16 @@ public final class LegacyOfficialTranslations {
         }
         return List.copyOf(result);
     }
-    private static boolean allowed(URI url) {
+    static boolean allowed(URI url) {
         return "https".equals(url.getScheme())&&"raw.githubusercontent.com".equals(url.getHost())&&url.getPort()==-1
                 &&url.getUserInfo()==null&&url.getQuery()==null&&url.getFragment()==null
                 &&url.getPath().matches("/GTNewHorizons/[A-Za-z0-9_-]+/[0-9a-f]{40}/src/main/resources/assets/[a-z0-9_]+/lang/zh_CN\\.lang");
     }
-    public static Map<String,Map<String,String>> load(Path game,List<Source> sources,boolean download) {
+    public static Map<String,Map<String,String>> load(Path game,List<Source> sources,boolean unused) {
         var result=new TreeMap<String,Map<String,String>>();
         for(var source:sources)try {
             Path root=game.resolve("resources/thaumcraft-localization/official"),file=root.resolve(source.sha256()+".lang");
-            boolean valid=Files.isRegularFile(file)&&Files.size(file)<=8*1024*1024&&OriginalResources.sha256(Files.readAllBytes(file)).equals(source.sha256());
-            if(!valid&&download) {
-                Files.createDirectories(root);Path temp=Files.createTempFile(root,".language-",".part");
-                try {
-                    CurseForgeDownload.transfer(source.url(),temp,LegacyOfficialTranslations::allowed,8*1024*1024,10000,30000);
-                    if(!OriginalResources.sha256(Files.readAllBytes(temp)).equals(source.sha256()))throw new IOException("Legacy language checksum mismatch");
-                    Files.move(temp,file,StandardCopyOption.REPLACE_EXISTING);valid=true;
-                }finally{Files.deleteIfExists(temp);}
-            }
+            boolean valid=Files.isRegularFile(file,LinkOption.NOFOLLOW_LINKS)&&Files.size(file)<=8*1024*1024;
             if(!valid)continue;
             var old=LegacyLocalization.parse(Files.readAllBytes(file));var target=result.computeIfAbsent(source.owner(),key->new TreeMap<>());
             source.keys().forEach((modern,legacy)->{var value=old.get(legacy);if(value!=null&&!value.isBlank())target.put(modern,tc4revival.research.ResearchText.remapPictures(value,source.pictures()));});

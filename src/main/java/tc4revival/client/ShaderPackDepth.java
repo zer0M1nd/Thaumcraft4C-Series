@@ -20,19 +20,21 @@ final class ShaderPackDepth {
     private ShaderPackDepth() {}
 
     static boolean bind() {
-        if (ACCESS == null) return false;
+        int texture = opaqueTexture();
+        return texture > 0 && bindTexture(texture);
+    }
+
+    static int opaqueTexture() {
+        if (ACCESS == null) return 0;
         try {
             var pipeline = ACCESS.pipeline().invoke(ACCESS.manager().invoke(null));
-            if (!ACCESS.pipelineType().isInstance(pipeline)) return false;
+            if (!ACCESS.pipelineType().isInstance(pipeline)) return 0;
             var depth = ACCESS.opaqueDepth().invoke(ACCESS.targets().get(pipeline));
-            int texture = (int) ACCESS.textureId().invoke(depth);
-            if (texture <= 0) return false;
-            return bindTexture(texture);
+            return (int) ACCESS.textureId().invoke(depth);
         } catch (ReflectiveOperationException | RuntimeException failure) {
-            Minecraft.getInstance().getMainRenderTarget().bindWrite(false);
             warn(failure);
+            return 0;
         }
-        return false;
     }
 
     static void startFrame() { vanillaCaptured = false; }

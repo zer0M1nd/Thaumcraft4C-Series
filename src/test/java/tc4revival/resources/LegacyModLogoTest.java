@@ -65,7 +65,7 @@ class LegacyModLogoTest {
         var root=game.resolve("thaumcraft");Files.createDirectories(root);
         Files.write(root.resolve("example.jar"),bytes);
         var sources=Set.of("example_1_7_10");
-        assertTrue(OriginalResourceDownloads.obtainMissing(game,List.of(target),sources,ignored->{},(u,p)->fail()).isEmpty());
+        assertTrue(ArchiveDownloadFixture.obtainMissing(game,List.of(target),sources,ignored->{},(u,p)->fail()).isEmpty());
         var cache=root.resolve("example_1_7_10");
         assertArrayEquals(PNG,target.read(cache).resources().get(LegacyModLogo.CACHE_FILE));
         // Reproduce a pre-logo manifest after its source JAR was removed by the original loader.
@@ -73,12 +73,12 @@ class LegacyModLogoTest {
         var old=JsonParser.parseString(Files.readString(file)).getAsJsonObject();
         old.remove("logo_checked");old.getAsJsonObject("files").remove(LegacyModLogo.CACHE_FILE);
         Files.writeString(file,old.toString());Files.delete(cache.resolve(LegacyModLogo.CACHE_FILE));
-        var offline=OriginalResourceDownloads.obtainMissing(game,List.of(target),sources,ignored->{},(u,p)->{throw new java.io.IOException("offline");});
+        var offline=ArchiveDownloadFixture.obtainMissing(game,List.of(target),sources,ignored->{},(u,p)->{throw new java.io.IOException("offline");});
         assertTrue(offline.get(0).failure().isEmpty());assertFalse(offline.get(0).warning().isEmpty());
         assertArrayEquals(new byte[]{42},target.read(cache).resources().get("assets/example/data.txt"));
-        var recovered=OriginalResourceDownloads.obtainMissing(game,List.of(target),sources,ignored->{},(u,p)->Files.write(p,bytes));
+        var recovered=ArchiveDownloadFixture.obtainMissing(game,List.of(target),sources,ignored->{},(u,p)->Files.write(p,bytes));
         assertTrue(recovered.get(0).failure().isEmpty());
         assertArrayEquals(PNG,target.read(cache).resources().get(LegacyModLogo.CACHE_FILE));
-        assertTrue(OriginalResourceDownloads.obtainMissing(game,List.of(target),sources,ignored->{},(u,p)->fail()).isEmpty());
+        assertTrue(ArchiveDownloadFixture.obtainMissing(game,List.of(target),sources,ignored->{},(u,p)->fail()).isEmpty());
     }
 }

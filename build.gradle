@@ -58,6 +58,20 @@ minecraft {
     }
 }
 
+// Pinned source distribution from ThaumcraftUpdater: both tools ship the same native screen and
+// queue, including when installed independently. Relocation avoids Forge split packages.
+def startupDownloads = tasks.register('prepareStartupDownloadSources', Sync) {
+    from(zipTree(file('libs/startup-download-sources.zip'))) {
+        include '**/*.java'
+        eachFile { it.path = it.path.replace('dev/tc4/download','tc4revival/download') }
+        filter { line -> line.replace('dev.tc4.download','tc4revival.download') }
+    }
+    filteringCharset = 'UTF-8'
+    includeEmptyDirs = false
+    into layout.buildDirectory.dir('generated/startupDownloads')
+}
+sourceSets.main.java.srcDir(startupDownloads)
+
 sourceSets.main.resources {
     srcDir 'src/generated/resources'
     exclude '.cache/**'

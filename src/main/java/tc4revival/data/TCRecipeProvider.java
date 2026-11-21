@@ -49,7 +49,7 @@ public  class TCRecipeProvider extends RecipeProvider {
         }
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC,TCItems.EMPTY_PHIAL.get(),8).pattern(" C ").pattern("G G").pattern(" G ")
                 .define('C',Items.CLAY_BALL).define('G',Items.GLASS).unlockedBy("has_glass",has(Items.GLASS)).save(writer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,TCItems.JAR_LABEL.get(),4).requires(net.minecraftforge.common.Tags.Items.DYES_BLACK).requires(Items.SLIME_BALL).requires(Items.PAPER,4)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,TCItems.JAR_LABEL.get(),4).requires(net.minecraftforge.common.crafting.CompoundIngredient.of(net.minecraft.world.item.crafting.Ingredient.of(net.minecraftforge.common.Tags.Items.DYES_BLACK),net.minecraft.world.item.crafting.Ingredient.of(Items.INK_SAC))).requires(Items.SLIME_BALL).requires(Items.PAPER,4)
                 .unlockedBy("has_paper",has(Items.PAPER)).save(writer);
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS,TCItems.FLESH_BLOCK.get()).pattern("FFF").pattern("FFF").pattern("FFF")
                 .define('F',Items.ROTTEN_FLESH).unlockedBy("has_rotten_flesh",has(Items.ROTTEN_FLESH)).save(writer);

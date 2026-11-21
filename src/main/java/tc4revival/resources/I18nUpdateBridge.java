@@ -12,14 +12,13 @@ import java.util.zip.ZipFile;
 public class I18nUpdateBridge {
     private static final org.slf4j.Logger LOGGER=com.mojang.logging.LogUtils.getLogger();
     private final Class<?> config;
-    private final Method download, getString;
+    private final Method getString;
     private static final String INDEX = "downloaded.json";
     private static final long MAX_ARCHIVE = 128L * 1024 * 1024;
 
     private I18nUpdateBridge(Class<?> config) throws ReflectiveOperationException {
         this.config = config;
         var assets = Class.forName("i18nupdatemod.util.AssetUtil", false, config.getClassLoader());
-        download = assets.getMethod("download", String.class, Path.class);
         getString = assets.getMethod("getString", String.class);
         config.getMethod("getAssetDetail", String.class, String.class);
     }
@@ -65,44 +64,49 @@ public class I18nUpdateBridge {
         } catch (RuntimeException error) { throw new IOException("Invalid legacy localization cache index", error); }
     }
 
-    public List<Path> update(Path game) throws Exception {
-        Path root = cache(game); Files.createDirectories(root);
-        Object detail = config.getMethod("getAssetDetail",String.class,String.class).invoke(null,"1.7.10","Forge");
-        var downloads = (List<?>) detail.getClass().getField("downloads").get(detail);
-        if (downloads.isEmpty()) throw new IOException("I18nUpdateMod returned no 1.7.10 downloads");
-        var index = new JsonObject(); index.addProperty("minecraft_version","1.7.10");
-        var entries = new JsonArray(); var files = new ArrayList<Path>();
-        for (Object asset : downloads) {
-            Class<?> type = asset.getClass();
-            String name = (String) type.getField("fileName").get(asset);
-            String url = (String) type.getField("fileUrl").get(asset);
-            String md5Url = (String) type.getField("md5Url").get(asset);
-            String version = (String) type.getField("targetVersion").get(asset);
-            Path file = child(root,name);
-            String expected = ((String)invokeDownload(getString,md5Url)).strip().toLowerCase(Locale.ROOT);
-            if (!expected.matches("[0-9a-f]{32}")) throw new IOException("Invalid I18nUpdateMod download checksum");
-            if (!Files.isRegularFile(file) || Files.size(file)>MAX_ARCHIVE || !md5(file).equals(expected)) {
-                Path temp = Files.createTempFile(root,".download-",".part");
-                try {
-                    invokeDownload(download,url,temp);
-                    validateZip(temp);
-                    if (!md5(temp).equals(expected)) throw new IOException("Legacy translation download checksum mismatch");
-                    Files.move(temp,file,StandardCopyOption.REPLACE_EXISTING);
-                } finally { Files.deleteIfExists(temp); }
-            }
-            validateZip(file);
-            var entry = new JsonObject(); entry.addProperty("file",name); entry.addProperty("url",url);
-            entry.addProperty("upstream_version",version); entry.addProperty("md5",expected);
-            entry.addProperty("sha256",OriginalResources.sha256(Files.readAllBytes(file)));
-            entries.add(entry); files.add(file);
+    public record Asset(String name, java.net.URI url, String md5, String version) {}
+    List<Asset> assets() throws Exception {
+        Object detail=config.getMethod("getAssetDetail",String.class,String.class).invoke(null,"1.7.10","Forge");
+        var result=new ArrayList<Asset>();
+        for(Object asset:(List<?>)detail.getClass().getField("downloads").get(detail)) {
+            Class<?> type=asset.getClass();
+            String name=(String)type.getField("fileName").get(asset);
+            child(Path.of("."),name);
+            var uri=java.net.URI.create((String)type.getField("fileUrl").get(asset));
+            if(!CurseForgeDownload.webLink(uri)) throw new IOException("Invalid I18n archive link");
+            String md5Url=(String)type.getField("md5Url").get(asset);
+            String expected=((String)invokeDownload(getString,md5Url)).strip().toLowerCase(Locale.ROOT);
+            if(!expected.matches("[0-9a-f]{32}")) throw new IOException("Invalid I18n archive checksum");
+            result.add(new Asset(name,uri,expected,(String)type.getField("targetVersion").get(asset)));
         }
-        index.add("downloads",entries);
-        Path temp = Files.createTempFile(root,".index-",".tmp");
+        return List.copyOf(result);
+    }
+    static boolean stale(Path game,Asset asset,Path file) throws IOException {
+        Path index=cache(game).resolve(INDEX);
+        if(!Files.isRegularFile(index)) return false;
         try {
-            Files.writeString(temp,new GsonBuilder().setPrettyPrinting().create().toJson(index));
-            Files.move(temp,root.resolve(INDEX),StandardCopyOption.REPLACE_EXISTING);
-        } finally { Files.deleteIfExists(temp); }
-        return List.copyOf(files);
+            for(var elem:JsonParser.parseString(Files.readString(index)).getAsJsonObject().getAsJsonArray("downloads")) {
+                var entry=elem.getAsJsonObject();
+                if(asset.name().equals(entry.get("file").getAsString()) && !asset.md5().equals(entry.get("md5").getAsString())
+                        && OriginalResources.sha256(Files.readAllBytes(file)).equals(entry.get("sha256").getAsString())) return true;
+            }
+        } catch(RuntimeException ignored) {}
+        return false;
+    }
+    static synchronized void record(Path game,Asset asset,Path file) throws IOException {
+        Path index=cache(game).resolve(INDEX);
+        var entries=new JsonArray();
+        if(Files.isRegularFile(index)) try {
+            for(var row:JsonParser.parseString(Files.readString(index)).getAsJsonObject().getAsJsonArray("downloads"))
+                if(!row.getAsJsonObject().get("file").getAsString().equals(asset.name())) entries.add(row);
+        } catch(RuntimeException ignored) {}
+        var entry=new JsonObject();entry.addProperty("file",asset.name());entry.addProperty("url",asset.url().toString());
+        entry.addProperty("upstream_version",asset.version());entry.addProperty("md5",asset.md5());
+        entry.addProperty("sha256",OriginalResources.sha256(Files.readAllBytes(file)));entries.add(entry);
+        var json=new JsonObject();json.addProperty("minecraft_version","1.7.10");json.add("downloads",entries);
+        Path temp=Files.createTempFile(index.getParent(),".index-",".part");
+        try { Files.writeString(temp,json.toString()); Files.move(temp,index,StandardCopyOption.REPLACE_EXISTING); }
+        finally { Files.deleteIfExists(temp); }
     }
     /** Retry only transport errors; a bad checksum or incompatible API is not a retryable download. */
     static Object invokeDownload(Method method,Object... arguments) throws Exception {
@@ -117,13 +121,14 @@ public class I18nUpdateBridge {
         if (!name.matches("[A-Za-z0-9._-]+\\.zip")) throw new IOException("Invalid legacy archive filename");
         return root.resolve(name);
     }
-    private static void validateZip(Path file) throws IOException {
+    static void validateZip(Path file) throws IOException {
         if (!Files.isRegularFile(file) || Files.size(file)>MAX_ARCHIVE) throw new IOException("Invalid legacy translation archive");
         try (var zip = new ZipFile(file.toFile())) {
             if (zip.getEntry("pack.mcmeta")==null) throw new IOException("Legacy translation pack metadata missing");
         }
     }
-    private static String md5(Path file) throws Exception {
-        return HexFormat.of().formatHex(MessageDigest.getInstance("MD5").digest(Files.readAllBytes(file)));
+    static String md5(Path file) throws IOException {
+        try { return HexFormat.of().formatHex(MessageDigest.getInstance("MD5").digest(Files.readAllBytes(file))); }
+        catch(java.security.NoSuchAlgorithmException impossible) { throw new AssertionError(impossible); }
     }
 }

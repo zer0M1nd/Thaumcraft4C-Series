@@ -8,8 +8,17 @@ public class GeneratedAspectLimit {
         return apply(source,catalog,InferenceLimits.server());
     }
     public static AspectAmounts apply(AspectAmounts source,AspectCatalog catalog,InferenceLimits limits) {
+        var result=limitTypes(source,catalog,limits.types());
+        var capped=new AspectAmounts();
+        result.view().forEach((a,n)->capped.add(a,Math.min(n,limits.maximum())));
+        return capped;
+    }
+
+    /** Apply the TC4 culling weights without changing quantities on authored or stored aspects. */
+    public static AspectAmounts limitTypes(AspectAmounts source,AspectCatalog catalog,int maximumTypes) {
+        if (source.size() <= maximumTypes) return source;
         var result=source.copy();
-        while(result.size()>limits.types()) {
+        while(result.size()>maximumTypes) {
             Aspect lowest=null;float weight=Float.POSITIVE_INFINITY;
             for(var aspect:result.aspects()) {
                 float candidate=result.amount(aspect);
@@ -25,8 +34,6 @@ public class GeneratedAspectLimit {
             }
             result.remove(lowest);
         }
-        var capped=new AspectAmounts();
-        result.view().forEach((a,n)->capped.add(a,Math.min(n,limits.maximum())));
-        return capped;
+        return result;
     }
 }

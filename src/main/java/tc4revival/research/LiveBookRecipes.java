@@ -105,7 +105,10 @@ public class LiveBookRecipes {
         // Some addon pages describe their own machines (e.g. vat infusions), outside RecipeManager.
         // Preserve those server-synchronised presentations; never fall back for bound TC4 recipes.
         List<List<ItemStack>> inputs;Map<String,Integer> aspects;int width=0,instability=0;
-        if(definition instanceof ResearchPageRecipes.Crafting d){inputs=displayInputs(d.ingredients());aspects=d.aspects();width=d.width();}
+        if(definition instanceof ResearchPageRecipes.Crafting d){inputs=displayInputs(d.ingredients());aspects=d.aspects();width=d.width();
+            if(type==ResearchPage.Type.ARCANE_CRAFTING) {
+                var exact=new LinkedHashMap<String,Integer>();aspects.forEach((tag,n)->exact.put(tag,Math.multiplyExact(n,100)));aspects=exact;
+            }}
         else if(definition instanceof ResearchPageRecipes.Crucible d){inputs=List.of(displayChoices(d.catalyst()));aspects=d.aspects();}
         else if(definition instanceof ResearchPageRecipes.Infusion d){inputs=new ArrayList<>();inputs.add(displayChoices(d.input()));inputs.addAll(displayInputs(d.ingredients()));aspects=d.aspects();instability=d.instability();}
         else return List.of();
@@ -172,7 +175,7 @@ public class LiveBookRecipes {
                 for(int i=0;i<inputs.size();i++)if(!inputs.get(i).isEmpty())grid.setItem(i%w+3*(i/w),inputs.get(i).get(0).copy());
             }
             if(inputs.stream().anyMatch(group->group.isEmpty())&&width==0)return;
-            var costs=new LinkedHashMap<String,Integer>();arcane.visCost(grid).forEach((a,v)->costs.put(a.tag(),v));
+            var costs=new LinkedHashMap<String,Integer>();var amounts=arcane.visCost(grid); amounts.forEach((a,v)->costs.put(a.tag(),ArcaneRecipe.hundredths(amounts,a)));
             if(!arcane.matches(grid,level))return;
             var result=arcane.assemble(grid,level.registryAccess());
             String key=id+(example==null?"":"/"+result.toString()+result.getTag());

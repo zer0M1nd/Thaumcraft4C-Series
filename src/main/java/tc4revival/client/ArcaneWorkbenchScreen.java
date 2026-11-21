@@ -30,7 +30,7 @@ public  class ArcaneWorkbenchScreen extends AbstractContainerScreen<ArcaneWorkbe
         var stack = menu.wand(); var wand = stack.getItem() instanceof CastingWandItem value ? value : null;
         int index = 0; boolean enough = true;
         for (var aspect : TCAspects.catalog().primals()) {
-            float cost = menu.visCost().getOrDefault(aspect, 0);
+            float cost = tc4revival.content.ArcaneRecipe.hundredths(menu.visCost(),aspect)/100f;
             int x = leftPos + POSITIONS[index][0] - 8, y = topPos + POSITIONS[index][1] - 8;
             if (cost > 0) {
                 if (wand != null) cost *= wand.consumptionModifier(stack, minecraft.player, aspect, true);

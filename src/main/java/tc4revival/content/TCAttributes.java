@@ -77,9 +77,15 @@ public  class TCAttributes {
     }
     @SubscribeEvent public static void curio(CurioAttributeModifierEvent event) {
         var context=event.getSlotContext();
-        if(!List.of("necklace","ring","belt").contains(context.identifier()) || context.cosmetic())return;
-        int limit=context.identifier().equals("ring")?2:1;if(context.index()>=limit)return;
+        if(context.cosmetic())return;
         var stack=event.getItemStack();
+        if(context.identifier().equals("head") && stack.getItem() instanceof GogglesItem goggles) {
+            if(goggles.canEquip(context,stack))
+                modifier(event::addModifier,"curio:head:"+context.index(),RUNIC_SHIELD.get(),RunicGear.charge(stack));
+            return;
+        }
+        if(!List.of("necklace","ring","belt").contains(context.identifier()))return;
+        int limit=context.identifier().equals("ring")?2:1;if(context.index()>=limit)return;
         equipment(stack,context.entity() instanceof Player player?player:null,"curio:"+context.identifier()+":"+context.index(),true,true,(attribute,modifier)->{
             if(attribute!=WARP.get()||!(stack.getItem() instanceof WarpingGear gear)||gear.warpAppliesInSlot(stack,EquipmentSlot.CHEST))event.addModifier(attribute,modifier);
         });

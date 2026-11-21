@@ -27,7 +27,7 @@ public  class ArcaneRecipe implements Recipe<CraftingContainer> {
     private final String mode, research;
     private final boolean requiresWardedStone;
     private final CraftingRecipe crafting;
-    private final Map<String, Integer> costs;
+    private final Map<String, Integer> costHundredths;
     private final JsonObject definition;
     private final java.util.Set<ResourceLocation> undamaged = new java.util.HashSet<>();
     public ArcaneRecipe(ResourceLocation id, JsonObject definition) {
@@ -44,12 +44,12 @@ public  class ArcaneRecipe implements Recipe<CraftingContainer> {
         };
         var amounts = new LinkedHashMap<String, Integer>();
         if (definition.has("vis")) definition.getAsJsonObject("vis").entrySet().forEach(entry -> {
-            int value = entry.getValue().getAsInt();
-            if (!TCAspects.catalog().require(entry.getKey()).isPrimal() || value < 0 || value > Integer.MAX_VALUE / 100)
+            int value = entry.getValue().getAsBigDecimal().movePointRight(2).intValueExact();
+            if (!TCAspects.catalog().require(entry.getKey()).isPrimal() || value < 0)
                 throw new IllegalArgumentException("Invalid arcane vis cost");
             amounts.put(entry.getKey(), value);
         });
-        costs = java.util.Collections.unmodifiableMap(amounts);
+        costHundredths = java.util.Collections.unmodifiableMap(amounts);
     }
     private Optional<WandAssembly.Result> assembly(CraftingContainer grid, Predicate<String> knowledge) {
         if (grid.getWidth() != 3 || grid.getHeight() != 3) return Optional.empty();
@@ -79,9 +79,34 @@ public  class ArcaneRecipe implements Recipe<CraftingContainer> {
     public JsonObject displayDefinition() { return definition.deepCopy(); }
     public Map<Aspect, Integer> visCost(CraftingContainer grid) {
         var result = new LinkedHashMap<Aspect, Integer>();
-        if (crafting != null) costs.forEach((key, amount) -> result.put(TCAspects.catalog().require(key), amount));
+        if (crafting != null) {
+            var exact = new LinkedHashMap<Aspect,Integer>();
+            costHundredths.forEach((key, amount) -> {
+                var aspect = TCAspects.catalog().require(key);
+                exact.put(aspect,amount);
+                result.put(aspect,amount/100+(amount%100==0?0:1));
+            });
+            if (exact.values().stream().anyMatch(n -> n%100 != 0)) return new FractionalCosts(result,exact);
+        }
         else assembly(grid, key -> true).ifPresent(value -> thaumcraft.api.aspects.AspectSelection.select(TCAspects.catalog(),thaumcraft.api.aspects.AspectSelection.WAND_ASSEMBLY_COST).forEach(aspect -> result.put(aspect, value.costPerPrimal())));
         return result;
+    }
+    /** Older whole-vis readers see the minimum whole balance sufficient to craft. */
+    private static final class FractionalCosts extends java.util.AbstractMap<Aspect,Integer> {
+        private final Map<Aspect,Integer> whole;
+        private final Map<Aspect,Integer> exact;
+        FractionalCosts(Map<Aspect,Integer> whole,Map<Aspect,Integer> exact) {
+            this.whole=Map.copyOf(whole);
+            this.exact=Map.copyOf(exact);
+        }
+        @Override public java.util.Set<Entry<Aspect,Integer>> entrySet() { return whole.entrySet(); }
+    }
+    public static int hundredths(Map<Aspect,Integer> costs,Aspect aspect) {
+        return costs instanceof FractionalCosts f ? f.exact.getOrDefault(aspect,0)
+                : Math.multiplyExact(costs.getOrDefault(aspect,0),100);
+    }
+    public static String formatHundredths(int amount) {
+        return java.math.BigDecimal.valueOf(amount,2).stripTrailingZeros().toPlainString();
     }
     @Override public boolean matches(CraftingContainer grid, Level level) {
         if(!thaumcraft.api.research.ResearchCategories.enabled(research))return false;

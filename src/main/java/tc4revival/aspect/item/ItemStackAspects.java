@@ -37,6 +37,9 @@ public  class ItemStackAspects {
     /** Scan rewards exclude mutable bulk contents without erasing part, enchantment or aspect-rule NBT. */
     public static Optional<AspectAmounts> resolveForScan(ItemStack stack) { return resolve(stack,ItemAspectAccess.SERVER,true); }
     public static Optional<AspectAmounts> resolve(ItemStack stack,ItemAspectAccess access,boolean scanning) {
+        return resolveUncapped(stack,access,scanning).map(a -> tc4revival.aspect.recipe.GeneratedAspectLimit.limitTypes(a,access.catalog(),10));
+    }
+    private static Optional<AspectAmounts> resolveUncapped(ItemStack stack,ItemAspectAccess access,boolean scanning) {
         var extension=thaumcraft.api.aspects.ItemAspectProviders.resolve(new thaumcraft.api.aspects.ItemAspectProviders.Query(stack,access,scanning));
         if(extension.handled())return extension.aspects();
         if(!stack.isEmpty()){
@@ -98,7 +101,7 @@ public  class ItemStackAspects {
         return access.direct().contains(id) || !enchantments(stack).isEmpty() ? OptionalInt.of((id + ":-1").hashCode()) : OptionalInt.empty();
     }
     public static Optional<AspectAmounts> ordinary(ItemStack stack) { return ordinary(stack,ItemAspectAccess.SERVER); }
-    public static Optional<AspectAmounts> ordinary(ItemStack stack,ItemAspectAccess access) { return ordinary(stack,access,false); }
+    public static Optional<AspectAmounts> ordinary(ItemStack stack,ItemAspectAccess access) { return ordinary(stack,access,false).map(a -> tc4revival.aspect.recipe.GeneratedAspectLimit.limitTypes(a,access.catalog(),10)); }
     private static Optional<AspectAmounts> ordinary(ItemStack stack,ItemAspectAccess access,boolean scanning) {
         if (stack.isEmpty()) return Optional.empty();
         var current = access.equipment();

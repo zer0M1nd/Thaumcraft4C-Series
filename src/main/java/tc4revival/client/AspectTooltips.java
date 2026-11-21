@@ -21,7 +21,10 @@ import tc4revival.content.*;
 /** Shared native tooltip component. Each row wraps inside the available tooltip width. */
 @Mod.EventBusSubscriber(modid="thaumcraft",value=Dist.CLIENT)
 public  class AspectTooltips {
-    public record Cell(String tag,String amount,int amountColor) { public Cell(String tag,String amount) { this(tag, amount, 0xffffffff); } }
+    public record Cell(String tag,String amount,int amountColor,boolean blink) {
+        public Cell(String tag,String amount,int amountColor) { this(tag,amount,amountColor,false); }
+        public Cell(String tag,String amount) { this(tag,amount,0xffffffff); }
+    }
     public record Row(Component caption,List<Cell> cells) { public Row { cells=List.copyOf(cells); } }
     public record Data(List<Row> rows,int width) implements TooltipComponent { public Data { rows=List.copyOf(rows); } }
     private AspectTooltips() {}
@@ -90,7 +93,7 @@ public  class AspectTooltips {
                 }
                 int x=0;
                 for(var cell:row.cells()) {
-                    int w=Math.max(22,(font.width(cell.amount())+1)/2+9);
+                    int w=cellWidth(font,cell);
                     if(x>0 && x+w>data.width()){y+=18;x=0;}
                     cells.add(new Placed(cell,x,y+1,w));x+=w;width=Math.max(width,x);
                 }
@@ -107,16 +110,19 @@ public  class AspectTooltips {
             for(var placed:cells)draw(graphics,font,placed.cell(),x+placed.x(),y+placed.y());
         }
     }
+    public static int cellWidth(Font font,Cell cell) { return Math.max(22,(font.width(cell.amount())+1)/2+9); }
     public static void draw(GuiGraphics g,Font font,Cell cell,int x,int y) {
-        if(!thaumcraft.api.client.ClientAspectViews.visible(cell.tag()))cell=new Cell("","");
+        if(!cell.tag().isEmpty() && !thaumcraft.api.client.ClientAspectViews.visible(cell.tag()))cell=new Cell("","");
         var aspect=TCAspects.catalog().find(cell.tag()).orElse(null);int color=aspect==null?0xdddde8:aspect.color();
         String path=aspect==null?(cell.tag().equals(tc4revival.research.ScanIdentity.EMPTY_ICON)?"_empty":"_unknown"):aspect.tag();
         // Text is buffered, whereas the tinted icon is immediate. Flush before changing tint.
         g.flush();
-        g.setColor((color>>16&255)/255f,(color>>8&255)/255f,(color&255)/255f,1);
+        float alpha=cell.blink() ? (float)(.6+.4*Math.cos(net.minecraft.Util.getMillis()*Math.PI/300.0)) : 1;
+        if(cell.blink()) com.mojang.blaze3d.systems.RenderSystem.enableBlend();
+        g.setColor((color>>16&255)/255f,(color>>8&255)/255f,(color&255)/255f,alpha);
         LegacyGui.blit(g,path.startsWith("_")?ResourceLocation.parse("thaumcraft:textures/aspects/"+path+".png"):thaumcraft.api.client.ClientAspectViews.texture(path),x,y,0,0,16,16,16,16);g.setColor(1,1,1,1);
         if(!cell.amount().isEmpty()) {
-            g.pose().pushPose();g.pose().translate(x+18,y+16,0);g.pose().scale(.5f,.5f,1);
+            g.pose().pushPose();g.pose().translate(x+cellWidth(font,cell)-4,y+16,0);g.pose().scale(.5f,.5f,1);
             g.drawString(font,cell.amount(),-font.width(cell.amount()),-font.lineHeight,cell.amountColor(),true);g.pose().popPose();
         }
     }

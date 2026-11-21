@@ -33,10 +33,12 @@ class ThaumicExplorationOriginalIdentityTest {
         assertThrows(IOException.class,()->OriginalResources.read(file,MAPPING,"ThaumicExploration","1.7.10",false));
         assertArrayEquals("item.example.name=Example".getBytes(),OriginalResources.read(file,MAPPING,"ThaumicExploration","1.7.10",false,identity).resources().get(ASSET));
     }
-    @Test void validMcmodInfoCannotBypassDeclaredHashClassModidOrVersion() throws Exception {
+    @Test void annotatedIdentityChecksClassModidAndVersionAndAcceptsDifferentArchiveBytes() throws Exception {
         var file=fixture("[{\"modid\":\"ThaumicExploration\",\"mcversion\":\"1.7.10\"}]");
         var hash=OriginalResources.sha256(Files.readAllBytes(file));
-        for(var identity:java.util.List.of(new OriginalResources.AnnotationIdentity(CLASS,"0.6.0","0".repeat(64)),new OriginalResources.AnnotationIdentity(CLASS,"wrong",hash),new OriginalResources.AnnotationIdentity("wrong/Main.class","0.6.0",hash)))
+        assertEquals(hash,OriginalResources.read(file,MAPPING,"ThaumicExploration","1.7.10",false,
+                new OriginalResources.AnnotationIdentity(CLASS,"0.6.0","0".repeat(64))).sha256());
+        for(var identity:java.util.List.of(new OriginalResources.AnnotationIdentity(CLASS,"wrong",hash),new OriginalResources.AnnotationIdentity("wrong/Main.class","0.6.0",hash)))
             assertThrows(IOException.class,()->OriginalResources.read(file,MAPPING,"ThaumicExploration","1.7.10",false,identity));
         assertThrows(IOException.class,()->OriginalResources.read(file,MAPPING,"wrong-modid","1.7.10",false,new OriginalResources.AnnotationIdentity(CLASS,"0.6.0",hash)));
     }
