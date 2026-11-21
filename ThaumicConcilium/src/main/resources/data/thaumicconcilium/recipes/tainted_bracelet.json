@@ -1,0 +1,71 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumicbases"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "forbidden_magic:wand_rod_tainted"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:wand_cap_thaumium"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "forbidden_magic:taint_shard"
+    }
+  ],
+  "research": "thaumicconcilium:TAINTEDBRACELET",
+  "instability": 5,
+  "aspects": {
+    "instrumentum": 32,
+    "vitium": 128,
+    "perditio": 64,
+    "praecantatio": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "forbidden_magic:wand_rod_tainted"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:tainted_bracelet",
+    "count": 1,
+    "nbt": "{\"rod\": \"forbidden_magic:tainted\", \"cap\": \"thaumium\"}"
+  }
+}

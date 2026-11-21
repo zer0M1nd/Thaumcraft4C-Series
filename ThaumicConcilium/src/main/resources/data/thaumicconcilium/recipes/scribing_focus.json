@@ -1,0 +1,64 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:SCRIBINGFOCI",
+  "instability": 15,
+  "aspects": {
+    "tutamen": 256,
+    "potentia": 128,
+    "praecantatio": 192,
+    "humanus": 32,
+    "instrumentum": 64,
+    "permutatio": 128
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_warding"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:bright_nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:crystalwell"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glowstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:knowledge_fragment"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:dark_quartz"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:scribing_focus",
+    "count": 1
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "manaCost": 3000.0,
+  "burnout": 300.0,
+  "affinities": {
+    "arsmagicalegacy:ender": 0.01,
+    "arsmagicalegacy:arcane": 0.01
+  },
+  "reagents": [],
+  "recipe": [
+    {
+      "type": "arsmagicalegacy:ingredient",
+      "count": 1,
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "type": "arsmagicalegacy:ingredient",
+      "count": 1,
+      "ingredient": {
+        "item": "thaumcraft:crimson_rites"
+      }
+    },
+    {
+      "type": "arsmagicalegacy:ingredient",
+      "count": 1,
+      "ingredient": {
+        "item": "thaumcraft:focus_portable_hole"
+      }
+    },
+    {
+      "type": "arsmagicalegacy:ingredient",
+      "count": 1,
+      "ingredient": {
+        "item": "thaumicconcilium:crimson_annales"
+      }
+    },
+    {
+      "type": "arsmagicalegacy:ingredient",
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:black_banner"
+      }
+    },
+    {
+      "type": "arsmagicalegacy:ingredient",
+      "count": 1,
+      "ingredient": {
+        "type": "forge:partial_nbt",
+        "item": "arsmagicalegacy:affinity_essence",
+        "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:ender\"}"
+      }
+    },
+    {
+      "type": "arsmagicalegacy:ingredient",
+      "count": 1,
+      "ingredient": {
+        "type": "forge:partial_nbt",
+        "item": "arsmagicalegacy:affinity_essence",
+        "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:arcane\"}"
+      }
+    },
+    {
+      "type": "arsmagicalegacy:ingredient",
+      "count": 1,
+      "ingredient": {
+        "type": "forge:partial_nbt",
+        "item": "arsmagicalegacy:affinity_essence",
+        "nbt": "{\"arsmagicalegacy:affinity\": \"arsmagicalegacy:life\"}"
+      }
+    },
+    {
+      "type": "arsmagicalegacy:etherium",
+      "amount": 10000,
+      "types": [
+        "DARK"
+      ]
+    }
+  ]
+}

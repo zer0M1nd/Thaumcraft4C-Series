@@ -1,0 +1,132 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:TIGHTBELT",
+  "instability": 8,
+  "aspects": {
+    "vitium": 96,
+    "tutamen": 96,
+    "venenum": 128,
+    "humanus": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:hover_girdle"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumicconcilium:thick_taint_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicconcilium:thick_taint_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicconcilium:thick_taint_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicconcilium:thick_taint_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicconcilium:thick_taint_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicconcilium:thick_taint_bottle"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:tight_belt",
+    "count": 1
+  }
+}

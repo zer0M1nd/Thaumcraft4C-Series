@@ -1,0 +1,68 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumicbases"
+    }
+  ],
+  "research": "thaumicconcilium:WITCHWOODBRACELET",
+  "instability": 5,
+  "aspects": {
+    "instrumentum": 32,
+    "potentia": 128,
+    "auram": 64,
+    "praecantatio": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicconcilium:witchwood_staff"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumicconcilium:vinteum_cap"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "arsmagicalegacy:moonstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicconcilium:vinteum_cap"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "arsmagicalegacy:moonstone"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:witchwood_bracelet",
+    "count": 1,
+    "nbt": "{\"rod\": \"thaumicconcilium:witchwood_staff\", \"cap\": \"thaumicconcilium:vinteum\"}"
+  }
+}

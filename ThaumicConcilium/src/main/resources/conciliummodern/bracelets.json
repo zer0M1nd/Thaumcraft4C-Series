@@ -1,0 +1,74 @@
+[
+  {
+    "name": "livingwood",
+    "capacity": 30,
+    "rod": "forbidden_magic:livingwood",
+    "cap": "forbidden_magic:manasteel",
+    "material": "botania:textures/block/livingwood_log.png",
+    "mod": "botania",
+    "research": "LIVINGWOODBRACELET"
+  },
+  {
+    "name": "dreamwood",
+    "capacity": 50,
+    "rod": "forbidden_magic:dreamwood_staff",
+    "cap": "forbidden_magic:elementium",
+    "material": "botania:textures/block/dreamwood_log.png",
+    "mod": "botania",
+    "research": "DREAMWOODBRACELET"
+  },
+  {
+    "name": "alchemist",
+    "capacity": 50,
+    "rod": "forbidden_magic:blood_staff",
+    "cap": "forbidden_magic:alchemical",
+    "material": "bloodmagic:textures/block/largebloodstonebrick.png",
+    "mod": "bloodmagic",
+    "research": "BLOODBRACELET"
+  },
+  {
+    "name": "witchwood",
+    "capacity": 50,
+    "rod": "thaumicconcilium:witchwood_staff",
+    "cap": "thaumicconcilium:vinteum",
+    "material": "arsmagicalegacy:textures/block/witchwood_log.png",
+    "mod": "arsmagicalegacy",
+    "research": "WITCHWOODBRACELET"
+  },
+  {
+    "name": "infernal",
+    "capacity": 35,
+    "rod": "forbidden_magic:infernal",
+    "cap": "thaumium",
+    "material": "minecraft:textures/block/netherrack.png",
+    "mod": "",
+    "research": "INFERNALBRACELET"
+  },
+  {
+    "name": "tainted",
+    "capacity": 35,
+    "rod": "forbidden_magic:tainted",
+    "cap": "thaumium",
+    "material": "thaumcraft:textures/block/taint_crust.png",
+    "mod": "",
+    "research": "TAINTEDBRACELET"
+  },
+  {
+    "name": "warpwood",
+    "capacity": 90,
+    "rod": "taintedmagic:warpwood",
+    "cap": "taintedmagic:shadowmetal",
+    "material": "taintedmagic:textures/blocks/blockwarpwoodlog_side.png",
+    "mod": "taintedmagic",
+    "research": "WARPWOODBRACELET"
+  },
+  {
+    "name": "terrasteel",
+    "capacity": 50,
+    "rod": "thaumicconcilium:terrasteel",
+    "cap": "forbidden_magic:terrasteel",
+    "material": "botania:textures/block/terrasteel_block.png",
+    "mod": "botania",
+    "research": "TERRASTEELBRACELET"
+  }
+]

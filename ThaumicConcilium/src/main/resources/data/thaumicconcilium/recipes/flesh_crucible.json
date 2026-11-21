@@ -1,0 +1,69 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "taintedmagic"
+    }
+  ],
+  "research": "thaumicconcilium:FLESHCRUCIBLE",
+  "instability": 10,
+  "aspects": {
+    "corpus": 256,
+    "ignis": 128,
+    "forbidden_magic:gula": 64,
+    "forbidden_magic:infernus": 128,
+    "fames": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumicconcilium:quicksilver_crucible"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:nether_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:crimson_alloy_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:crimson_alloy_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:crimson_alloy_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:bright_nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:primordial_mote"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:primordial_mote"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "taintedmagic:primordial_mote"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:flesh_crucible",
+    "count": 1
+  }
+}

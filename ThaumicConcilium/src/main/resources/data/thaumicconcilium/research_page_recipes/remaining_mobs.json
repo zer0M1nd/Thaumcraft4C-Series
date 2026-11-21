@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicconcilium:dope_squid",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicconcilium:DOPESQUID",
+        "instability": 4,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicconcilium:entity_icon_squid",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicconcilium:entity_icon_dope_squid",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "herba": 64,
+          "praecantatio": 64,
+          "humanus": 32,
+          "volatus": 64
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:air_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicbases:tobacco_eldritch",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicbases:tobacco_fighting",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicbases:tobacco_hunger",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicbases:tobacco_knowledge",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:fire_shard",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicbases:tobacco_mining",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicbases:tobacco_sanity",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicbases:tobacco_tainted",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumicbases:tobacco_wispy",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

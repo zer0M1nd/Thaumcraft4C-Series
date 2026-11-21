@@ -1,0 +1,50 @@
+{
+  "research": "thaumicconcilium:DOPESQUID",
+  "instability": 4,
+  "target": {
+    "kind": "entity",
+    "id": "minecraft:squid"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:air_shard"
+    },
+    {
+      "item": "thaumicbases:tobacco_eldritch"
+    },
+    {
+      "item": "thaumicbases:tobacco_fighting"
+    },
+    {
+      "item": "thaumicbases:tobacco_hunger"
+    },
+    {
+      "item": "thaumicbases:tobacco_knowledge"
+    },
+    {
+      "item": "thaumcraft:fire_shard"
+    },
+    {
+      "item": "thaumicbases:tobacco_mining"
+    },
+    {
+      "item": "thaumicbases:tobacco_sanity"
+    },
+    {
+      "item": "thaumicbases:tobacco_tainted"
+    },
+    {
+      "item": "thaumicbases:tobacco_wispy"
+    }
+  ],
+  "aspects": {
+    "herba": 64,
+    "praecantatio": 64,
+    "humanus": 32,
+    "volatus": 64
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumicconcilium:dope_squid"
+  }
+}

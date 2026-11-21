@@ -1,0 +1,28 @@
+[
+  {
+    "tag": "thaumicconcilium:terrasteel",
+    "capacity": 50,
+    "craftCost": 99,
+    "staff": true,
+    "texture": "thaumcraft:textures/models/wand_rod_obsidian.png",
+    "research": ""
+  },
+  {
+    "tag": "thaumicconcilium:witchwood",
+    "item": "thaumicconcilium:witchwood_rod",
+    "capacity": 100,
+    "craftCost": 12,
+    "staff": false,
+    "texture": "thaumicconcilium:textures/models/wand_rod_witchwood.png",
+    "research": "thaumicconcilium:ROD_witchwood"
+  },
+  {
+    "tag": "thaumicconcilium:witchwood_staff",
+    "item": "thaumicconcilium:witchwood_staff",
+    "capacity": 50,
+    "craftCost": 24,
+    "staff": true,
+    "texture": "thaumicconcilium:textures/models/wand_rod_witchwood.png",
+    "research": "thaumicconcilium:ROD_witchwood_staff"
+  }
+]

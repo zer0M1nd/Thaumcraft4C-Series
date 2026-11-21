@@ -1,0 +1,45 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "thaumicconcilium:DESTCRYSTAL",
+  "ingredients": [
+    {
+      "item": "thaumcraft:essence_crystal"
+    },
+    {
+      "item": "thaumcraft:essence_crystal"
+    },
+    {
+      "item": "thaumcraft:essence_crystal"
+    },
+    {
+      "item": "thaumcraft:essence_crystal"
+    },
+    {
+      "item": "thaumcraft:essence_crystal"
+    },
+    {
+      "item": "thaumcraft:essence_crystal"
+    },
+    {
+      "item": "thaumcraft:essence_crystal"
+    },
+    {
+      "item": "thaumcraft:essence_crystal"
+    },
+    {
+      "item": "thaumcraft:essence_crystal"
+    }
+  ],
+  "vis": {
+    "aer": 50,
+    "terra": 50,
+    "ignis": 50,
+    "aqua": 50,
+    "ordo": 50,
+    "perditio": 50
+  },
+  "result": {
+    "item": "thaumicconcilium:destabilized_crystal"
+  }
+}

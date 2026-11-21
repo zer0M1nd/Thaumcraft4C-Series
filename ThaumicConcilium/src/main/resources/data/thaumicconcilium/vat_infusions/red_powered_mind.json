@@ -1,0 +1,56 @@
+{
+  "research": "thaumicconcilium:REDPOWEREDMIND",
+  "instability": 10,
+  "target": {
+    "kind": "entity",
+    "id": "thaumicconcilium:mad_thaumaturge"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:liquid_death_bucket"
+    },
+    {
+      "item": "minecraft:repeater"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "thaumcraft:liquid_death_bucket"
+    },
+    {
+      "item": "thaumcraft:void_seed"
+    },
+    {
+      "item": "thaumcraft:liquid_death_bucket"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:comparator"
+    }
+  ],
+  "aspects": {
+    "vitreus": 64,
+    "cognitio": 64,
+    "sensus": 32,
+    "machina": 32
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumicconcilium:red_powered_mind"
+  }
+}

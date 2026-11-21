@@ -1,0 +1,69 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+issueTrackerURL="https://github.com/zer0M1nd/Thaumcraft4C-Series/issues"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/thaumicconcilium/index.html"
+updateJSONURL="http://tc4c.zer0m1nd.me/forge-updates/thaumicconcilium.json"
+modId="thaumicconcilium"
+version="${version}"
+displayName="Thaumic Concilium"
+authors="zer0M1nd"
+credits="Original Thaumic Concilium by Ilya3000 and BreadX22."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Study rifts and incorporeal beings to craft foci, bracelets and devices for solo or cooperative play.
+
+-------- Original release --------
+Addon for Thaumcraft about devices to assist in solo and coop gameplay
+
+Original credits: Fantasy5hark for zh_CN.lang'''
+
+[[dependencies.thaumicconcilium]]
+modId="thaumicdyes"
+mandatory=false
+versionRange="[0.1.0.1,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.thaumicconcilium]]
+modId="arsmagicalegacy"
+mandatory=false
+versionRange="[1.20.1-1.5.0,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.thaumicconcilium]]
+modId="witchery"
+mandatory=false
+versionRange="[0.1.3.32-port,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.thaumicconcilium]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.thaumicconcilium]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.thaumicconcilium]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.thaumicconcilium]]
+modId="forbidden_magic"
+mandatory=true
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.thaumicconcilium]]
+modId="thaumic_tinkerer"
+mandatory=true
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"

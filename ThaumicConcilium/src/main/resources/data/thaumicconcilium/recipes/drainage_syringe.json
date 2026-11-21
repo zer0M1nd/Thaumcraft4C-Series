@@ -1,0 +1,67 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumichorizons"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    }
+  ],
+  "research": "thaumicconcilium:DRAINAGESYRINGE",
+  "instability": 10,
+  "aspects": {
+    "instrumentum": 64,
+    "victus": 128,
+    "fames": 64,
+    "vacuos": 128,
+    "limus": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumichorizons:injector"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_reservoir"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_oneway"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumichorizons:human_blood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:lever"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:drainage_syringe",
+    "count": 1
+  }
+}

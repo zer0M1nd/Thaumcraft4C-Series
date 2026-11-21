@@ -1,0 +1,119 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:THAUMDRUM",
+  "instability": 10,
+  "aspects": {
+    "sensus": 128,
+    "victus": 64,
+    "auram": 96,
+    "instrumentum": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:note_block"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"victus\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"auram\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:string"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:arcane_pedestal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:string"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"praecantatio\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"alienis\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:enchanted_fabric"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:thaumaturge_drum"
+  }
+}

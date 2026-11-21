@@ -1,0 +1,10 @@
+{
+  "type": "thaumicconcilium:terra_gem_binding",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gadomancy"
+    }
+  ]
+}

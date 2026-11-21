@@ -1,0 +1,73 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:RUNICWINDINGS",
+  "instability": 10,
+  "aspects": {
+    "alienis": 64,
+    "tutamen": 128,
+    "praecantatio": 32,
+    "potentia": 64,
+    "cognitio": 128
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:paper"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:discovery"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:discovery"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:crystalwell"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:discovery"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:discovery"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mixed_crystal_cluster"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:runic_legs_windings",
+    "count": 1
+  }
+}

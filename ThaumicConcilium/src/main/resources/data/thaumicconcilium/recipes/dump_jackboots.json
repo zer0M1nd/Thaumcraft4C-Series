@@ -1,0 +1,82 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:DUMPJACKBOOTS",
+  "instability": 5,
+  "aspects": {
+    "terra": 128,
+    "tutamen": 16,
+    "forbidden_magic:desidia": 64,
+    "machina": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:traveller_boots"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_shovel"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:sloth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:sloth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_shovel"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:bellows"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_shovel"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:sloth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:sloth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_shovel"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:dump_jackboots",
+    "count": 1
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:VISCONDUCTOR",
+  "instability": 20,
+  "aspects": {
+    "permutatio": 128,
+    "potentia": 64,
+    "praecantatio": 128,
+    "humanus": 256,
+    "instrumentum": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:node_converter"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:infusion_matrix"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_pedestal_focus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:infusion_matrix"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_pedestal_focus"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:vis_conductor_focus",
+    "count": 1
+  }
+}

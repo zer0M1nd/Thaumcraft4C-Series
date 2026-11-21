@@ -1,0 +1,360 @@
+[
+  {
+    "key": "thaumicconcilium:refreeze",
+    "name": "focus.upgrade.refreeze.name",
+    "description": "focus.upgrade.refreeze.text",
+    "aspects": [
+      "gelum",
+      "permutatio"
+    ],
+    "texture": "thaumicconcilium:textures/misc/refreeze.png",
+    "foci": [
+      "thaumicconcilium:cooling_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:wisp_launcher",
+    "name": "focus.upgrade.wispLauncher.name",
+    "description": "focus.upgrade.wispLauncher.text",
+    "aspects": [
+      "aer",
+      "auram"
+    ],
+    "texture": "thaumicconcilium:textures/misc/wisp_launcher.png",
+    "foci": [
+      "thaumicconcilium:vis_conductor_focus"
+    ],
+    "ranks": [
+      1
+    ]
+  },
+  {
+    "key": "thaumicconcilium:dematerialization",
+    "name": "focus.upgrade.dematerialization.name",
+    "description": "focus.upgrade.dematerialization.text",
+    "aspects": [
+      "perditio",
+      "corpus",
+      "auram"
+    ],
+    "texture": "thaumicconcilium:textures/misc/dematerialization.png",
+    "foci": [
+      "thaumicconcilium:vis_conductor_focus"
+    ],
+    "ranks": [
+      1
+    ]
+  },
+  {
+    "key": "thaumicconcilium:oblivion",
+    "name": "focus.upgrade.oblivion.name",
+    "description": "focus.upgrade.oblivion.text",
+    "aspects": [
+      "cognitio",
+      "alienis"
+    ],
+    "texture": "thaumicconcilium:textures/misc/oblivion.png",
+    "foci": [
+      "thaumicconcilium:reflection_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:fulfillment",
+    "name": "focus.upgrade.fulfillment.name",
+    "description": "focus.upgrade.fulfillment.text",
+    "aspects": [
+      "ordo",
+      "tutamen"
+    ],
+    "texture": "thaumicconcilium:textures/misc/fulfillment.png",
+    "foci": [
+      "thaumicconcilium:positive_burst_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:vitaminize",
+    "name": "focus.upgrade.vitaminize.name",
+    "description": "focus.upgrade.vitaminize.text",
+    "aspects": [
+      "ordo",
+      "sano"
+    ],
+    "texture": "thaumicconcilium:textures/misc/vitaminize.png",
+    "foci": [
+      "thaumicconcilium:positive_burst_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:large_ball",
+    "name": "focus.upgrade.largeBall.name",
+    "description": "focus.upgrade.largeBall.text",
+    "aspects": [
+      "aer",
+      "potentia"
+    ],
+    "texture": "thaumicconcilium:textures/misc/large_ball.png",
+    "foci": [
+      "thaumicconcilium:signal_focus"
+    ],
+    "ranks": [
+      1
+    ]
+  },
+  {
+    "key": "thaumicconcilium:star",
+    "name": "focus.upgrade.star.name",
+    "description": "focus.upgrade.star.text",
+    "aspects": [
+      "aer",
+      "alienis"
+    ],
+    "texture": "thaumicconcilium:textures/misc/star.png",
+    "foci": [
+      "thaumicconcilium:signal_focus"
+    ],
+    "ranks": [
+      1
+    ]
+  },
+  {
+    "key": "thaumicconcilium:creeper",
+    "name": "focus.upgrade.creeper.name",
+    "description": "focus.upgrade.creeper.text",
+    "aspects": [
+      "aer",
+      "bestia"
+    ],
+    "texture": "thaumicconcilium:textures/misc/creeper.png",
+    "foci": [
+      "thaumicconcilium:signal_focus"
+    ],
+    "ranks": [
+      1
+    ]
+  },
+  {
+    "key": "thaumicconcilium:amorphic",
+    "name": "focus.upgrade.amorphic.name",
+    "description": "focus.upgrade.amorphic.text",
+    "aspects": [
+      "aer",
+      "perditio"
+    ],
+    "texture": "thaumicconcilium:textures/misc/amorphic.png",
+    "foci": [
+      "thaumicconcilium:signal_focus"
+    ],
+    "ranks": [
+      1
+    ]
+  },
+  {
+    "key": "thaumicconcilium:random_bang",
+    "name": "focus.upgrade.randomBang.name",
+    "description": "focus.upgrade.randomBang.text",
+    "aspects": [
+      "aer",
+      "perditio"
+    ],
+    "texture": "thaumicconcilium:textures/misc/random_bang.png",
+    "foci": [
+      "thaumicconcilium:signal_focus"
+    ],
+    "ranks": [
+      1
+    ]
+  },
+  {
+    "key": "thaumicconcilium:flashbang",
+    "name": "focus.upgrade.flashbang.name",
+    "description": "focus.upgrade.flashbang.text",
+    "aspects": [
+      "aer",
+      "lux"
+    ],
+    "texture": "thaumicconcilium:textures/misc/flashbang.png",
+    "foci": [
+      "thaumicconcilium:signal_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:vacuum",
+    "name": "focus.upgrade.vacuum.name",
+    "description": "focus.upgrade.vacuum.text",
+    "aspects": [
+      "aer",
+      "vinculum",
+      "vacuos"
+    ],
+    "texture": "thaumicconcilium:textures/misc/vacuum.png",
+    "foci": [
+      "thaumicconcilium:impulse_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:pneumo_strike",
+    "name": "focus.upgrade.pneumoStrike.name",
+    "description": "focus.upgrade.pneumoStrike.text",
+    "aspects": [
+      "aer",
+      "volatus"
+    ],
+    "texture": "thaumicconcilium:textures/misc/pneumo.png",
+    "foci": [
+      "thaumicconcilium:impulse_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:warming_up",
+    "name": "focus.upgrade.warmingUp.name",
+    "description": "focus.upgrade.warmingUp.text",
+    "aspects": [
+      "sano",
+      "ignis"
+    ],
+    "texture": "thaumicconcilium:textures/misc/warming_up.png",
+    "foci": [
+      "thaumicconcilium:spotlight_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:taint_purification",
+    "name": "focus.upgrade.taintPurification.name",
+    "description": "focus.upgrade.taintPurification.text",
+    "aspects": [
+      "sano",
+      "vitium"
+    ],
+    "texture": "thaumicconcilium:textures/misc/taint_purification.png",
+    "foci": [
+      "thaumicconcilium:spotlight_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:mass_hysteria",
+    "name": "focus.upgrade.massHysteria.name",
+    "description": "focus.upgrade.massHysteria.text",
+    "aspects": [
+      "cognitio",
+      "perditio",
+      "alienis"
+    ],
+    "texture": "thaumicconcilium:textures/misc/mass_hysteria.png",
+    "foci": [
+      "thaumicconcilium:warp_extraction_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:self_flagellation",
+    "name": "focus.upgrade.selfFlagellation.name",
+    "description": "focus.upgrade.selfFlagellation.text",
+    "aspects": [
+      "humanus",
+      "vitium",
+      "sano"
+    ],
+    "texture": "thaumicconcilium:textures/misc/self_flagellation.png",
+    "foci": [
+      "thaumicconcilium:warp_extraction_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:burnout",
+    "name": "focus.upgrade.burnout.name",
+    "description": "focus.upgrade.burnout.text",
+    "aspects": [
+      "cognitio",
+      "ignis",
+      "perditio"
+    ],
+    "texture": "thaumicconcilium:textures/misc/burnout.png",
+    "foci": [
+      "thaumicconcilium:wrath_attraction_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:thought_manifestation",
+    "name": "focus.upgrade.thoughtManifestation.name",
+    "description": "focus.upgrade.thoughtManifestation.text",
+    "aspects": [
+      "cognitio",
+      "vitium"
+    ],
+    "texture": "thaumicconcilium:textures/misc/thought_manifestation.png",
+    "foci": [
+      "thaumicconcilium:taint_animation_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:flux_vaporization",
+    "name": "focus.upgrade.fluxVaporization.name",
+    "description": "focus.upgrade.fluxVaporization.text",
+    "aspects": [
+      "ignis",
+      "vitium"
+    ],
+    "texture": "thaumicconcilium:textures/misc/flux_vaporization.png",
+    "foci": [
+      "thaumicconcilium:taint_animation_focus"
+    ],
+    "ranks": [
+      5
+    ]
+  },
+  {
+    "key": "thaumicconcilium:primal_essence",
+    "name": "focus.upgrade.primalEssence.name",
+    "description": "focus.upgrade.primalEssence.text",
+    "aspects": [
+      "fabrico",
+      "ignis",
+      "auram"
+    ],
+    "texture": "thaumicconcilium:textures/misc/primal_essence.png",
+    "foci": [
+      "thaumicconcilium:alchemist_spree_focus"
+    ],
+    "ranks": [
+      3
+    ]
+  }
+]

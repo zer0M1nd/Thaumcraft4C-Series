@@ -1,0 +1,56 @@
+{
+  "research": "thaumicconcilium:BUFFGOLEM",
+  "instability": 10,
+  "target": {
+    "kind": "entity",
+    "id": "thaumicconcilium:mad_thaumaturge"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:golem_thaumium"
+    },
+    {
+      "item": "thaumichorizons:golem_powder"
+    },
+    {
+      "item": "thaumcraft:thaumium_block"
+    },
+    {
+      "item": "thaumcraft:tallow_block"
+    },
+    {
+      "item": "thaumcraft:thaumium_block"
+    },
+    {
+      "item": "thaumcraft:golem_thaumium"
+    },
+    {
+      "item": "thaumcraft:golem_fetter"
+    },
+    {
+      "item": "thaumcraft:golem_thaumium"
+    },
+    {
+      "item": "thaumcraft:thaumium_block"
+    },
+    {
+      "item": "thaumcraft:tallow_block"
+    },
+    {
+      "item": "thaumcraft:thaumium_block"
+    },
+    {
+      "item": "thaumichorizons:golem_powder"
+    }
+  ],
+  "aspects": {
+    "potentia": 64,
+    "metallum": 128,
+    "forbidden_magic:superbia": 32,
+    "perditio": 128
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumicconcilium:golem_bydlo"
+  }
+}

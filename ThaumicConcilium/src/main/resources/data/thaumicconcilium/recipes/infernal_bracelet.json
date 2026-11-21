@@ -1,0 +1,71 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thaumicbases"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "forbidden_magic:wand_rod_infernal"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumcraft:wand_cap_thaumium"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "forbidden_magic:pride_shard"
+    }
+  ],
+  "research": "thaumicconcilium:INFERNALBRACELET",
+  "instability": 5,
+  "aspects": {
+    "instrumentum": 32,
+    "forbidden_magic:infernus": 128,
+    "forbidden_magic:superbia": 64,
+    "forbidden_magic:ira": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "forbidden_magic:wand_rod_infernal"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:pride_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_cap_thaumium"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:pride_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:infernal_bracelet",
+    "count": 1,
+    "nbt": "{\"rod\": \"forbidden_magic:infernal\", \"cap\": \"thaumium\"}"
+  }
+}

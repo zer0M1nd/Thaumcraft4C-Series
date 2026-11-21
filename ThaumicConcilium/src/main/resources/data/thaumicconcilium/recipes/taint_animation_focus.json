@@ -1,0 +1,131 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:TAINTANIMATION",
+  "instability": 20,
+  "aspects": {
+    "vitium": 256,
+    "telum": 64,
+    "victus": 96,
+    "corpus": 64,
+    "instrumentum": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:focus_hellbat"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"vitium\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"vitium\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"vitium\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_goo"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"vitium\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:taint_shard"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:taint_animation_focus",
+    "count": 1
+  }
+}

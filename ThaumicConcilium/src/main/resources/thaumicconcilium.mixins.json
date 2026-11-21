@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "conciliummodern.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CoatedItemFireMixin",
+    "CoatedEntityFireMixin",
+    "EtherealMoveMixin",
+    "EtherealFloatingMixin",
+    "ConciliumRecipeInputMixin",
+    "BurningSiteJigsawMixin",
+    "WitcheryImpDealMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:SPOTLIGHTFOCI",
+  "instability": 20,
+  "aspects": {
+    "lux": 512,
+    "potentia": 512,
+    "praecantatio": 64,
+    "ordo": 128,
+    "telum": 96
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:focus_shadowbeam"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:bright_nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:bright_nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:bright_nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:bright_nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:bright_nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicconcilium:primordial_life"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "thaumicconcilium:focus_pattern",
+        "item": "thaumcraft:focus_fire",
+        "upgrades": [
+          "thaumcraft:potency",
+          "thaumcraft:potency",
+          "thaumcraft:firebeam",
+          "thaumcraft:potency",
+          "thaumcraft:potency"
+        ]
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "thaumicconcilium:focus_pattern",
+        "item": "thaumcraft:focus_fire",
+        "upgrades": [
+          "thaumcraft:potency",
+          "thaumcraft:potency",
+          "thaumcraft:firebeam",
+          "thaumcraft:potency",
+          "thaumcraft:potency"
+        ]
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "thaumicconcilium:focus_pattern",
+        "item": "thaumcraft:focus_fire",
+        "upgrades": [
+          "thaumcraft:potency",
+          "thaumcraft:potency",
+          "thaumcraft:firebeam",
+          "thaumcraft:potency",
+          "thaumcraft:potency"
+        ]
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "thaumicconcilium:focus_pattern",
+        "item": "thaumcraft:focus_fire",
+        "upgrades": [
+          "thaumcraft:potency",
+          "thaumcraft:potency",
+          "thaumcraft:firebeam",
+          "thaumcraft:potency",
+          "thaumcraft:potency"
+        ]
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "type": "thaumicconcilium:focus_pattern",
+        "item": "thaumcraft:focus_fire",
+        "upgrades": [
+          "thaumcraft:potency",
+          "thaumcraft:potency",
+          "thaumcraft:firebeam",
+          "thaumcraft:potency",
+          "thaumcraft:potency"
+        ]
+      },
+      "exact": true
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:spotlight_focus",
+    "count": 1
+  }
+}

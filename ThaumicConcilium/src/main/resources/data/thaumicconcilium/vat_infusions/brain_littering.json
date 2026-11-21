@@ -1,0 +1,31 @@
+{
+  "research": "thaumicconcilium:BRAINLITTERING",
+  "instability": 10,
+  "target": {
+    "kind": "entity",
+    "id": "thaumicconcilium:thaumaturge"
+  },
+  "ingredients": [
+    {
+      "item": "thaumcraft:knowledge_fragment"
+    },
+    {
+      "item": "forbidden_magic:taint_shard"
+    },
+    {
+      "item": "thaumcraft:zombie_brain"
+    },
+    {
+      "item": "forbidden_magic:taint_shard"
+    }
+  ],
+  "aspects": {
+    "perditio": 64,
+    "alienis": 64,
+    "cognitio": 64
+  },
+  "output": {
+    "kind": "entity",
+    "id": "thaumicconcilium:mad_thaumaturge"
+  }
+}

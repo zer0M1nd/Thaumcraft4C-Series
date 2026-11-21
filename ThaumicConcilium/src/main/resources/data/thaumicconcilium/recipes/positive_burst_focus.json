@@ -1,0 +1,83 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:POSITIVEBURSTFOCI",
+  "instability": 15,
+  "aspects": {
+    "sano": 256,
+    "humanus": 128,
+    "instrumentum": 64,
+    "auram": 64,
+    "forbidden_magic:desidia": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumic_tinkerer:focus_healing"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_crystallizer"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:positive_burst_focus",
+    "count": 1
+  }
+}

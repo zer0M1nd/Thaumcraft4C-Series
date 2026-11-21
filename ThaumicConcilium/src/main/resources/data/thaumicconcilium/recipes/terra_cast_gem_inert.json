@@ -1,0 +1,108 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gadomancy"
+    }
+  ],
+  "research": "thaumicconcilium:TERRACAST",
+  "instability": 10,
+  "aspects": {
+    "vitreus": 64,
+    "terra": 64,
+    "iter": 96,
+    "auram": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "gadomancy:aura_core_terra"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:iron_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_infused_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:warded_glass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_infused_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:cinnabar_ore"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_charm"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:amber_ore"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_infused_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:warded_glass"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_infused_stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:gold_cluster"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:terra_cast_gem_inert",
+    "count": 1
+  }
+}

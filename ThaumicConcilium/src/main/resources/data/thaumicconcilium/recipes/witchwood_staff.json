@@ -1,0 +1,39 @@
+{
+  "type": "thaumcraft:arcane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    }
+  ],
+  "research": "thaumicconcilium:ROD_witchwood_staff",
+  "result": {
+    "item": "thaumicconcilium:witchwood_staff"
+  },
+  "vis": {
+    "perditio": 26,
+    "ignis": 26,
+    "aqua": 26,
+    "aer": 26,
+    "terra": 26,
+    "ordo": 26
+  },
+  "pattern": [
+    "  D",
+    " B ",
+    "B  "
+  ],
+  "key": {
+    "B": {
+      "item": "thaumicconcilium:witchwood_rod"
+    },
+    "D": {
+      "item": "thaumicconcilium:pure_essence"
+    }
+  }
+}

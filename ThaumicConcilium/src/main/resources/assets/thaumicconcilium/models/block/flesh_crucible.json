@@ -1,0 +1,213 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "thaumicconcilium:block/flesh_crucible1",
+    "1": "thaumicconcilium:block/flesh_crucible2",
+    "2": "thaumicconcilium:block/flesh_crucible3",
+    "3": "thaumicconcilium:block/flesh_crucible5",
+    "4": "thaumicconcilium:block/flesh_crucible6",
+    "particle": "thaumicconcilium:block/flesh_crucible3"
+  },
+  "elements": [
+    {
+      "name": "crucible_0",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "crucible_1",
+      "from": [
+        0,
+        0,
+        14.032
+      ],
+      "to": [
+        16,
+        16,
+        14.032
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#3"
+        }
+      }
+    },
+    {
+      "name": "crucible_2",
+      "from": [
+        1.968,
+        0,
+        0
+      ],
+      "to": [
+        1.968,
+        16,
+        16
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#3"
+        }
+      }
+    },
+    {
+      "name": "crucible_3",
+      "from": [
+        0,
+        0,
+        1.968
+      ],
+      "to": [
+        16,
+        16,
+        1.968
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#3"
+        }
+      }
+    },
+    {
+      "name": "crucible_4",
+      "from": [
+        14.032,
+        0,
+        0
+      ],
+      "to": [
+        14.032,
+        16,
+        16
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#3"
+        }
+      }
+    },
+    {
+      "name": "crucible_5",
+      "from": [
+        0,
+        4,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#4"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#4"
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
+}

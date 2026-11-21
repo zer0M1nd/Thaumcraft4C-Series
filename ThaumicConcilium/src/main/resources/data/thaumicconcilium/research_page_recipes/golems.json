@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicconcilium:buff_golem",
+      "class": "thaumcraft.api.crafting.InfusionRecipe",
+      "data": {
+        "kind": "infusion",
+        "research": "thaumicconcilium:BUFFGOLEM",
+        "instability": 10,
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicconcilium:entity_icon_mad_thaumaturge",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicconcilium:entity_icon_golem_bydlo",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "potentia": 64,
+          "metallum": 128,
+          "forbidden_magic:superbia": 32,
+          "perditio": 128
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_thaumium",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:golem_powder",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:tallow_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_thaumium",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_fetter",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:golem_thaumium",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:tallow_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_block",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumichorizons:golem_powder",
+                "count": 1,
+                "metadata": 0,
+                "damageable": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

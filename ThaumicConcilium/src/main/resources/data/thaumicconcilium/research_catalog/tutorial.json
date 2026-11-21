@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_THAUMICCONCILIUM",
+          "category": "TUTORIAL",
+          "displayColumn": 72,
+          "displayRow": -3,
+          "parents": [
+            "TUT_CRIMSON"
+          ],
+          "icon_item": {
+            "item": "thaumicconcilium:vis_conductor_focus",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumicconcilium"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "thaumicconcilium:BOTTLEWATER",
+            "thaumicconcilium:XYLOGRAPHY",
+            "thaumicconcilium:THAUMATURGES",
+            "thaumicconcilium:SIGNALFOCI",
+            "thaumicconcilium:VISCONDUCTOR",
+            "thaumicconcilium:CRIMSONPONTIFEX"
+          ],
+          "pageCount": 8
+        }
+      ]
+    }
+  ]
+}

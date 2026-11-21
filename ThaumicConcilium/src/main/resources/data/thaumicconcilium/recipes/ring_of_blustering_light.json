@@ -1,0 +1,143 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicconcilium:RINGOFBLUSTERINGLIGHT",
+  "instability": 25,
+  "aspects": {
+    "potentia": 512,
+    "lux": 512,
+    "tutamen": 64,
+    "praecantatio": 256,
+    "permutatio": 32,
+    "ordo": 96,
+    "forbidden_magic:superbia": 96
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:runic_ring_charged"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"forbidden_magic:superbia\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:bright_nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:bright_nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:bright_nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"forbidden_magic:superbia\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicconcilium:primordial_life"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"forbidden_magic:superbia\",amount:2}]}"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:gaseous_shadow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:gaseous_shadow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:gaseous_shadow"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:pride_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:greed_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumic_tinkerer:ichor"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "thaumcraft:wisp_essence",
+        "nbt": "{Aspects:[{key:\"forbidden_magic:superbia\",amount:2}]}"
+      }
+    }
+  ],
+  "result": {
+    "item": "thaumicconcilium:ring_of_blustering_light",
+    "count": 1
+  }
+}
