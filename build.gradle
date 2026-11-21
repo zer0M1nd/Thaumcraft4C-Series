@@ -1,7 +1,7 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
 group='timodern'
 version = '0.1.10.1'
-base.archivesName='Thaumic-Infusion-Modern-Port'
+base.archivesName='[TC4Continuation]Thaumic-Infusion'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
 java.withSourcesJar()
 tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps=false; reproducibleFileOrder=true }
