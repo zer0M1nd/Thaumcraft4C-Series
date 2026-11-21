@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicomniverse:thaumium_sheet",
+      "research": "THAUMIUM",
+      "position": "end",
+      "components": [
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "id": "thaumicomniverse:thaumium_sheet/crucible",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:universal/thaumium_sheet"
+            ]
+          },
+          "recipeOutput": {
+            "item": "thaumicomniverse:thaumium_sheet"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "type": "thaumicomniverse:feature",
+          "group": "UNIVERSAL"
+        }
+      ]
+    },
+    {
+      "id": "thaumicomniverse:void_sheet",
+      "research": "VOIDMETAL",
+      "position": "end",
+      "components": [
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "id": "thaumicomniverse:void_sheet/crucible",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicomniverse:universal/void_sheet"
+            ]
+          },
+          "recipeOutput": {
+            "item": "thaumicomniverse:void_sheet"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "type": "thaumicomniverse:feature",
+          "group": "UNIVERSAL"
+        }
+      ]
+    }
+  ]
+}

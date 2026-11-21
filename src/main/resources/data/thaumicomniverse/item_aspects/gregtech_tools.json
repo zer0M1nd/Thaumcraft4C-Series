@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": ["*"],
+      "required_tag": "thaumicomniverse:gregtech_tools/thaumium",
+      "aspects": [
+        {"aspect": "metallum", "amount": 3},
+        {"aspect": "praecantatio", "amount": 1}
+      ]
+    },
+    {
+      "items": ["*"],
+      "required_tag": "thaumicomniverse:gregtech_tools/void",
+      "aspects": [
+        {"aspect": "metallum", "amount": 3},
+        {"aspect": "vacuos", "amount": 1}
+      ]
+    }
+  ]
+}

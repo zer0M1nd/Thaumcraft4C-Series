@@ -25,6 +25,7 @@ public final class ArcaneGT implements IGTAddon {
             })));
 
         ArcaneMaterials.register(bus);
+        bus.addListener(RepairableToolPack::register);
         net.minecraftforge.common.MinecraftForge.EVENT_BUS.addListener(ArcaneMaterials::missingMappings);
         bus.addGenericListener(com.gregtechceu.gtceu.api.recipe.GTRecipeType.class,
                 (com.gregtechceu.gtceu.api.GTCEuAPI.RegisterEvent<ResourceLocation,com.gregtechceu.gtceu.api.recipe.GTRecipeType> event)->ArcaneMachines.registerRecipeType());
