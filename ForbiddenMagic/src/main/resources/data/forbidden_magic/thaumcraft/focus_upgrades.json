@@ -1,0 +1,20 @@
+[
+  {
+    "key": "forbidden_magic:hellfire",
+    "aspects": [
+      "forbidden_magic:infernus"
+    ],
+    "texture": "forbidden_magic:textures/misc/hellfire.png",
+    "name": "forbidden.upgrade.hellfire.name",
+    "description": "forbidden.upgrade.hellfire.text"
+  },
+  {
+    "key": "forbidden_magic:pandemonium",
+    "aspects": [
+      "tenebrae"
+    ],
+    "texture": "forbidden_magic:textures/misc/pandemonium.png",
+    "name": "forbidden.upgrade.pandemonium.name",
+    "description": "forbidden.upgrade.pandemonium.text"
+  }
+]

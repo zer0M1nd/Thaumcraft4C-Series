@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "forbidden_magic:BLOODWELL",
+  "result": {
+    "item": "forbidden_magic:bloodwell",
+    "count": 1
+  },
+  "vis": {
+    "aqua": 10,
+    "terra": 10
+  },
+  "mode": "shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "bloodmagic:life_essence_bucket"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "bloodmagic:weakbloodorb"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "bloodmagic",
+      "expected": true
+    }
+  ]
+}

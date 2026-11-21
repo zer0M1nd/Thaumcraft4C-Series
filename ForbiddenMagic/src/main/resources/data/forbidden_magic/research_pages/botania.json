@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "forbidden_magic:BOTANY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.BOTANY.1"
+          },
+          "id": "forbidden_magic:BOTANY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:ROD_livingwood",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.ROD_livingwood.1"
+          },
+          "id": "forbidden_magic:ROD_livingwood/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:botania/livingwood_rod"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:ROD_livingwood/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:CAP_manasteel",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.CAP_manasteel.1"
+          },
+          "id": "forbidden_magic:CAP_manasteel/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:botania/manasteel_cap"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:CAP_manasteel/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:ROD_dreamwood_staff",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.ROD_dreamwood_staff.1"
+          },
+          "id": "forbidden_magic:ROD_dreamwood_staff/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:botania/dreamwood_staff"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:ROD_dreamwood_staff/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:botania/dreamwood_rod"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:ROD_dreamwood_staff/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:ROD_dreamwood",
+      "pages": []
+    },
+    {
+      "key": "forbidden_magic:CAP_elementium",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.CAP_elementium.1"
+          },
+          "id": "forbidden_magic:CAP_elementium/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:botania/elementium_cap_inert"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:CAP_elementium/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:botania/elementium_cap"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:CAP_elementium/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:CAP_terrasteel",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.CAP_terrasteel.1"
+          },
+          "id": "forbidden_magic:CAP_terrasteel/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:botania/terrasteel_cap"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:CAP_terrasteel/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:EUCLIDAISY",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.EUCLIDAISY.1"
+          },
+          "id": "forbidden_magic:EUCLIDAISY/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:botania/euclid"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:EUCLIDAISY/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:WHISPERWEED",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.WHISPERWEED.1"
+          },
+          "id": "forbidden_magic:WHISPERWEED/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:botania/whispercraft"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:WHISPERWEED/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "forbidden_magic:TAINTHISTLE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "forbidden.research_page.TAINTHISTLE.1"
+          },
+          "id": "forbidden_magic:TAINTHISTLE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "forbidden_magic:botania/thistlecraft"
+            ],
+            "class": "modern"
+          },
+          "id": "forbidden_magic:TAINTHISTLE/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

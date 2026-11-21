@@ -1,0 +1,135 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forbidden_magic:config",
+          "option": "food_enabled",
+          "expected": true
+        },
+        {
+          "type": "forbidden_magic:config",
+          "option": "food_hard",
+          "expected": true
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:infusion",
+        "research": "forbidden_magic:ARCANECAKE",
+        "instability": 3,
+        "aspects": {
+          "forbidden_magic:gula": 12,
+          "fames": 24,
+          "fabrico": 24
+        },
+        "center": {
+          "ingredient": {
+            "item": "minecraft:cake"
+          }
+        },
+        "components": [
+          {
+            "ingredient": {
+              "item": "thaumcraft:salis_mundus"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "forbidden_magic:nether_star_block"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "forbidden_magic:nether_star_block"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "minecraft:egg"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "forbidden_magic:gluttony_shard"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "forbidden_magic:gluttony_shard"
+            }
+          }
+        ],
+        "result": {
+          "item": "forbidden_magic:arcane_cake",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forbidden_magic:config",
+          "option": "food_enabled",
+          "expected": true
+        },
+        {
+          "type": "forbidden_magic:config",
+          "option": "food_hard",
+          "expected": false
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:infusion",
+        "research": "forbidden_magic:ARCANECAKE",
+        "instability": 3,
+        "aspects": {
+          "forbidden_magic:gula": 12,
+          "fames": 24,
+          "fabrico": 24
+        },
+        "center": {
+          "ingredient": {
+            "item": "minecraft:cake"
+          }
+        },
+        "components": [
+          {
+            "ingredient": {
+              "item": "thaumcraft:salis_mundus"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "minecraft:egg"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "minecraft:milk_bucket"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "minecraft:egg"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "forbidden_magic:gluttony_shard"
+            }
+          },
+          {
+            "ingredient": {
+              "item": "forbidden_magic:gluttony_shard"
+            }
+          }
+        ],
+        "result": {
+          "item": "forbidden_magic:arcane_cake",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3211 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "forbidden_magic:bloodmagic/blood_recipe",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:ROD_blood",
+        "aspects": {
+          "victus": 32,
+          "praecantatio": 12,
+          "aqua": 16
+        },
+        "instability": 2,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:arcaneashes"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:infusedslate"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:infusedslate"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:reagentvoid"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:reagentbloodlight"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:reagentwater"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:reagentlava"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:reagentgrowth"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:reagentair"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "bloodmagic:masterbloodorb"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_rod_blood_inert",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:bloodmagic/blood_staff",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:ROD_blood_staff",
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_rod_blood_staff",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 26,
+          "ignis": 26,
+          "aqua": 26,
+          "aer": 26,
+          "terra": 26,
+          "ordo": 26
+        },
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:dungeon_metal"
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wand_rod_blood"
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wand_rod_blood"
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:bloodmagic/alchemical_recipe",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:CAP_alchemical",
+        "aspects": {
+          "victus": 12,
+          "aqua": 6
+        },
+        "instability": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:arcaneashes"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:arcaneashes"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:arcaneashes"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:wand_cap_gold"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_cap_alchemical",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:bloodmagic/bloodwell_recipe",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:BLOODWELL",
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:bloodwell",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aqua": 10,
+          "terra": 10
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:life_essence_bucket"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glass_bottle"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "bloodmagic:weakbloodorb"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:bloodmagic/blood_rapier",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:BLOODRAPIER",
+        "aspects": {
+          "victus": 18,
+          "fames": 32,
+          "telum": 8
+        },
+        "instability": 8,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:tainted_tendril"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wrath_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:gluttony_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:amber"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:void_sword"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:blood_rapier",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:bloodmagic/eldritch_orb",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:ELDRITCHORB",
+        "aspects": {
+          "victus": 64,
+          "alienis": 48,
+          "tenebrae": 32,
+          "vacuos": 64
+        },
+        "instability": 2,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_eye"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:nether_star"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:eldritch_eye"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "bloodmagic:archmagebloodorb"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:eldritch_orb",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:botania/livingwood_rod",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:ROD_livingwood",
+        "aspects": {
+          "praecantatio": 16,
+          "arbor": 32,
+          "victus": 16,
+          "sensus": 8,
+          "herba": 8
+        },
+        "instability": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:mana_diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_mana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_water"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_fire"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_earth"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_air"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_spring"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_summer"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_autumn"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_winter"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "botania:livingwood_log"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_rod_livingwood_inert",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:botania/manasteel_cap",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:CAP_manasteel",
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_cap_manasteel_inert",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 6,
+          "ignis": 6,
+          "aqua": 6,
+          "aer": 6,
+          "terra": 6,
+          "ordo": 6
+        },
+        "width": 3,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "botania:manasteel_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:manasteel_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "botania:manasteel_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:manasteel_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "botania:manasteel_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:manasteel_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "botania:manasteel_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:manasteel_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "botania:manasteel_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:manasteel_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:botania/dreamwood_staff",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:ROD_dreamwood_staff",
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_rod_dreamwood_staff",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 26,
+          "ignis": 26,
+          "aqua": 26,
+          "aer": 26,
+          "terra": 26,
+          "ordo": 26
+        },
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:dreamwood_twig"
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wand_rod_dreamwood"
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wand_rod_dreamwood"
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:botania/dreamwood_rod",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:ROD_dreamwood",
+        "aspects": {
+          "praecantatio": 16,
+          "arbor": 32,
+          "victus": 16,
+          "sensus": 8,
+          "herba": 8
+        },
+        "instability": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:mana_diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_mana"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_water"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_fire"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_earth"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_air"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_spring"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_summer"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_autumn"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_winter"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "botania:dreamwood_log"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_rod_dreamwood_inert",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:botania/elementium_cap_inert",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:CAP_elementium",
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_cap_elementium_inert",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 27,
+          "ignis": 27,
+          "aqua": 27,
+          "aer": 27,
+          "terra": 27,
+          "ordo": 27
+        },
+        "width": 3,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "botania:elementium_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:elementium_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "botania:elementium_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:elementium_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "botania:elementium_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:elementium_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "botania:elementium_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:elementium_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "botania:elementium_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:elementium_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:botania/elementium_cap",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:CAP_elementium",
+        "aspects": {
+          "terra": 18,
+          "ignis": 18,
+          "aqua": 18,
+          "aer": 18
+        },
+        "instability": 1,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:pixie_dust"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_water"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_fire"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_earth"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_air"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_cap_elementium_inert"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_cap_elementium",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:botania/terrasteel_cap",
+      "class": "modern",
+      "data": {
+        "research": "",
+        "kind": "crafting_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_cap_terrasteel",
+            "count": 1
+          }
+        },
+        "aspects": {},
+        "width": 3,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "botania:terrasteel_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:terrasteel_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "botania:terrasteel_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:terrasteel_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "botania:terrasteel_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:terrasteel_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "botania:terrasteel_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:terrasteel_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "botania:terrasteel_nuggets"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "botania:terrasteel_nugget",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:botania/euclid",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:EUCLIDAISY",
+        "aspects": {
+          "auram": 8,
+          "alienis": 10,
+          "praecantatio": 8
+        },
+        "instability": 8,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:mana_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:dragonstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:pink_petal"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:pink_petal"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_sloth"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_greed"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "botania:pink_mystical_flower"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:euclidaisy",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:botania/whispercraft",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:WHISPERWEED",
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:whisperweed",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ignis": 10,
+          "aqua": 10,
+          "terra": 10,
+          "aer": 10,
+          "ordo": 10,
+          "perditio": 10
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:grass"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:mana_diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:dragonstone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:knowledge_fragment"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:gray_petal"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:purple_petal"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_envy"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:amber"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:botania/thistlecraft",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:TAINTHISTLE",
+        "aspects": {
+          "vitium": 8,
+          "fames": 4,
+          "aer": 4,
+          "aqua": 4
+        },
+        "instability": 4,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:purple_petal"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:purple_petal"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:purple_petal"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_gluttony"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "botania:rune_mana"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:tainted_tendril"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:tainthistle",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:crystalwell",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:CRYSTALWELL",
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:crystalwell",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aqua": 1,
+          "ordo": 1
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:scribing_tools"
+              }
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:dyes/black"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:black_dye",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "forbidden_magic:black_dye",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:mixed_crystal_cluster"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:primewell",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:PRIMEWELL",
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:primewell",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aqua": 50,
+          "terra": 50,
+          "ignis": 50,
+          "aer": 50,
+          "ordo": 50,
+          "perditio": 50
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:primordial_pearl"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glass_bottle"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:trans_emerald",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:TRANSEMERALD",
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:emerald_nugget",
+            "count": 4
+          }
+        },
+        "catalyst": {
+          "kind": "ore",
+          "names": [
+            "forge:nuggets/emerald"
+          ],
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:emerald_nugget",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "vitreus": 2,
+          "lucrum": 2
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:black_flower",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:BLACKFLOWER",
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:umbral_bush",
+            "count": 1
+          }
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:rose_bush"
+          }
+        },
+        "aspects": {
+          "tenebrae": 8,
+          "victus": 5
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:black_ink",
+      "class": "modern",
+      "data": {
+        "research": "",
+        "kind": "crafting_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:black_dye",
+            "count": 2
+          }
+        },
+        "aspects": {},
+        "width": 1,
+        "height": 1,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:ink_flower"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:riding_crop",
+      "class": "modern",
+      "data": {
+        "research": "",
+        "kind": "crafting_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:riding_crop",
+            "count": 1
+          }
+        },
+        "aspects": {},
+        "width": 1,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:leather"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stick"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:consuming",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:CONSUMING",
+        "aspects": {
+          "vacuos": 8,
+          "instrumentum": 8,
+          "fames": 8
+        },
+        "instability": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_pickaxe"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:lava_bucket"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            }
+          ]
+        },
+        "kind": "infusion_enchantment",
+        "output": null,
+        "enchantment": {
+          "id": -1,
+          "name": "enchantment.forbidden_magic.consuming",
+          "max_level": 1
+        },
+        "recipeXP": 1
+      }
+    },
+    {
+      "key": "forbidden_magic:educational",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:EDUCATIONAL",
+        "aspects": {
+          "praecantatio": 4,
+          "telum": 4,
+          "cognitio": 8
+        },
+        "instability": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:zombie_brain"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:book"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            }
+          ]
+        },
+        "kind": "infusion_enchantment",
+        "output": null,
+        "enchantment": {
+          "id": -1,
+          "name": "enchantment.forbidden_magic.educational",
+          "max_level": 5
+        },
+        "recipeXP": 1
+      }
+    },
+    {
+      "key": "forbidden_magic:sub_collar",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:SUBCOLLAR",
+        "aspects": {
+          "forbidden_magic:luxuria": 8,
+          "vinculum": 8,
+          "forbidden_magic:infernus": 4,
+          "corpus": 4
+        },
+        "instability": 1,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:lust_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:lust_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:lust_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:lead"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:mundane_belt"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:vis_amulet"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:pain_collar",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:skull_axe",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:SKULLAXE",
+        "aspects": {
+          "forbidden_magic:ira": 8,
+          "telum": 8,
+          "forbidden_magic:infernus": 8
+        },
+        "instability": 1,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wrath_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wrath_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:wither_skeleton_skull"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:thaumium_axe"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:skull_axe",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:ring_food",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:RINGFOOD",
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:ring_nutrition",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 10,
+          "aqua": 20,
+          "terra": 20
+        },
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:gluttony_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:mundane_ring"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:gluttony_shard"
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:gluttony_shard"
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:arcane_cake",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:ARCANECAKE",
+        "aspects": {
+          "forbidden_magic:gula": 12,
+          "fames": 24,
+          "fabrico": 24
+        },
+        "instability": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:egg"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:milk_bucket"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:egg"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:gluttony_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:gluttony_shard"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:cake"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:arcane_cake",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:focus_blink",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:FOCUSBLINK",
+        "aspects": {
+          "iter": 25,
+          "forbidden_magic:infernus": 10,
+          "forbidden_magic:desidia": 10,
+          "perditio": 25
+        },
+        "instability": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:sloth_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:sloth_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:sloth_shard"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:ender_pearl"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:focus_blink",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:morph_pick",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:MORPHTOOLS",
+        "aspects": {
+          "permutatio": 32,
+          "forbidden_magic:invidia": 16,
+          "instrumentum": 16
+        },
+        "instability": 6,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:silverwood_log"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:thaumium_pickaxe"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:morph_pickaxe",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:morph_sword",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:MORPHTOOLS",
+        "aspects": {
+          "permutatio": 32,
+          "forbidden_magic:invidia": 16,
+          "telum": 16
+        },
+        "instability": 6,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:silverwood_log"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:thaumium_sword"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:morph_sword",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:morph_shovel",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:MORPHTOOLS",
+        "aspects": {
+          "permutatio": 32,
+          "forbidden_magic:invidia": 16,
+          "instrumentum": 16
+        },
+        "instability": 6,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:silverwood_log"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:thaumium_shovel"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:morph_shovel",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:morph_axe",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:MORPHTOOLS",
+        "aspects": {
+          "permutatio": 32,
+          "forbidden_magic:invidia": 16,
+          "instrumentum": 16
+        },
+        "instability": 6,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:quicksilver"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:silverwood_log"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:thaumium_axe"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:morph_axe",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:wand_rod_infernal",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:ROD_infernal",
+        "aspects": {
+          "forbidden_magic:infernus": 32,
+          "praecantatio": 12,
+          "forbidden_magic:superbia": 12
+        },
+        "instability": 5,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:pride_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:pride_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:soul_sand"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:wither_skeleton_skull"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:blaze_powder"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:blaze_rod"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_rod_infernal",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:wrath",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:WRATH",
+        "aspects": {
+          "forbidden_magic:ira": 16,
+          "telum": 16,
+          "forbidden_magic:infernus": 8
+        },
+        "instability": 8,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond_sword"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wrath_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wrath_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wrath_shard"
+              }
+            }
+          ]
+        },
+        "kind": "infusion_enchantment",
+        "output": null,
+        "enchantment": {
+          "id": -1,
+          "name": "enchantment.forbidden_magic.wrath",
+          "max_level": 5
+        },
+        "recipeXP": 1
+      }
+    },
+    {
+      "key": "forbidden_magic:greedy",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:GREEDY",
+        "aspects": {
+          "forbidden_magic:infernus": 16,
+          "telum": 8,
+          "lucrum": 16
+        },
+        "instability": 4,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:golden_sword"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:greed_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:greed_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            }
+          ]
+        },
+        "kind": "infusion_enchantment",
+        "output": null,
+        "enchantment": {
+          "id": -1,
+          "name": "enchantment.forbidden_magic.greedy",
+          "max_level": 1
+        },
+        "recipeXP": 6
+      }
+    },
+    {
+      "key": "forbidden_magic:corrupting",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:CORRUPTING",
+        "aspects": {
+          "forbidden_magic:infernus": 16,
+          "permutatio": 16,
+          "vitreus": 8
+        },
+        "instability": 4,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:nether_wart"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:soul_sand"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            }
+          ]
+        },
+        "kind": "infusion_enchantment",
+        "output": null,
+        "enchantment": {
+          "id": -1,
+          "name": "enchantment.forbidden_magic.corrupting",
+          "max_level": 1
+        },
+        "recipeXP": 6
+      }
+    },
+    {
+      "key": "forbidden_magic:cluster",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:CLUSTER",
+        "aspects": {
+          "ignis": 4,
+          "metallum": 4,
+          "lucrum": 4
+        },
+        "instability": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:elemental_pickaxe"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            }
+          ]
+        },
+        "kind": "infusion_enchantment",
+        "output": null,
+        "enchantment": {
+          "id": -1,
+          "name": "enchantment.forbidden_magic.cluster",
+          "max_level": 4
+        },
+        "recipeXP": 1
+      }
+    },
+    {
+      "key": "forbidden_magic:impact",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:IMPACT",
+        "aspects": {
+          "perditio": 16,
+          "perfodio": 16
+        },
+        "instability": 4,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:elemental_shovel"
+              }
+            }
+          ]
+        },
+        "kind": "infusion_enchantment",
+        "output": null,
+        "enchantment": {
+          "id": -1,
+          "name": "enchantment.forbidden_magic.impact",
+          "max_level": 1
+        },
+        "recipeXP": 10
+      }
+    },
+    {
+      "key": "forbidden_magic:voidtouched",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:VOIDTOUCHED",
+        "aspects": {
+          "vacuos": 16,
+          "tenebrae": 16,
+          "forbidden_magic:invidia": 24,
+          "alienis": 16
+        },
+        "instability": 8,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:void_ingot"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:envy_shard"
+              }
+            }
+          ]
+        },
+        "kind": "infusion_enchantment",
+        "output": null,
+        "enchantment": {
+          "id": -1,
+          "name": "enchantment.forbidden_magic.voidtouched",
+          "max_level": 1
+        },
+        "recipeXP": 10
+      }
+    },
+    {
+      "key": "forbidden_magic:fork",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:FORK",
+        "aspects": {
+          "forbidden_magic:infernus": 8,
+          "machina": 8,
+          "potentia": 8
+        },
+        "instability": 1,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:quartz"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:thaumium_sword"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:diabolist_fork",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:wrath_cage",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:WRATHCAGE",
+        "aspects": {
+          "forbidden_magic:ira": 32,
+          "praecantatio": 32,
+          "bestia": 32,
+          "machina": 16
+        },
+        "instability": 10,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wrath_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wrath_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wrath_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:wrath_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:thaumium_block"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wrath_cage",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:mob_crystal",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:WRATHCAGE",
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:mob_crystal",
+            "count": 1
+          }
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:diamond"
+          }
+        },
+        "aspects": {
+          "cognitio": 10,
+          "potentia": 10
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:taint_shovel",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:TAINTSHOVEL",
+        "aspects": {
+          "sano": 8,
+          "vitreus": 24,
+          "perfodio": 12
+        },
+        "instability": 5,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:order_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:amber"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:silverwood_log"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:thaumium_shovel"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:taint_shovel",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:taint_pick",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:TAINTPICK",
+        "aspects": {
+          "perditio": 8,
+          "perfodio": 8,
+          "vitium": 12
+        },
+        "instability": 1,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_log"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:thaumium_pickaxe"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:taint_pickaxe",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:wand_rod_tainted",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:ROD_tainted",
+        "aspects": {
+          "vitium": 24,
+          "praecantatio": 12,
+          "perditio": 12
+        },
+        "instability": 5,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:salis_mundus"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_shard"
+              }
+            }
+          ]
+        },
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:tainted_tendril"
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:wand_rod_tainted",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:taint_tree",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:TAINTTREE",
+        "kind": "crucible",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:taint_sapling",
+            "count": 1
+          }
+        },
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:oak_sapling"
+          }
+        },
+        "aspects": {
+          "vitium": 10,
+          "venenum": 4
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:taint_plank",
+      "class": "modern",
+      "data": {
+        "research": "",
+        "kind": "crafting_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:taint_planks",
+            "count": 4
+          }
+        },
+        "aspects": {},
+        "width": 1,
+        "height": 1,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_log"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:taint_stone",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:TAINTSTONE",
+        "kind": "arcane_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:taint_stone",
+            "count": 9
+          }
+        },
+        "aspects": {
+          "perditio": 2,
+          "ordo": 1
+        },
+        "width": 3,
+        "height": 3,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stone"
+              }
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forbidden_magic:taint_materials"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "forbidden_magic:taint_shard",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "thaumcraft:tainted_goo",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:stone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:taint_brick",
+      "class": "modern",
+      "data": {
+        "research": "",
+        "kind": "crafting_shaped",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:taint_bricks",
+            "count": 4
+          }
+        },
+        "aspects": {},
+        "width": 2,
+        "height": 2,
+        "mirrored": true,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_stone"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "forbidden_magic:taint_stone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "forbidden_magic:crystalwell_easy_display",
+      "class": "modern",
+      "data": {
+        "research": "forbidden_magic:CRYSTALWELL",
+        "kind": "arcane_shapeless",
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "forbidden_magic:crystalwell",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aqua": 1,
+          "ordo": 1
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:scribing_tools"
+              }
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:dyes/black"
+              ],
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:black_dye",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "forbidden_magic:black_dye",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard"
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:balanced_shard"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

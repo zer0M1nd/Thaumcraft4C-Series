@@ -1,0 +1,45 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "forbidden_magic:ROD_dreamwood_staff",
+  "result": {
+    "item": "forbidden_magic:wand_rod_dreamwood_staff",
+    "count": 1
+  },
+  "vis": {
+    "perditio": 26,
+    "ignis": 26,
+    "aqua": 26,
+    "aer": 26,
+    "terra": 26,
+    "ordo": 26
+  },
+  "pattern": [
+    "  D",
+    " B ",
+    "B  "
+  ],
+  "key": {
+    "B": {
+      "item": "forbidden_magic:wand_rod_dreamwood"
+    },
+    "D": {
+      "item": "botania:dreamwood_twig"
+    }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "botania",
+      "expected": true
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    }
+  ]
+}

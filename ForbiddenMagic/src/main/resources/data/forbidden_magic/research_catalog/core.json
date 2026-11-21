@@ -1,0 +1,705 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "FORBIDDEN",
+      "icon": "forbidden_magic:textures/misc/forbidden.png",
+      "background": "forbidden_magic:textures/misc/runecircle.png",
+      "research": [
+        {
+          "key": "forbidden_magic:CRYSTALWELL",
+          "category": "FORBIDDEN",
+          "displayColumn": -2,
+          "displayRow": -8,
+          "complexity": 1,
+          "aspects": {
+            "cognitio": 3,
+            "vitreus": 2,
+            "praecantatio": 1
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:crystalwell",
+            "count": 1
+          },
+          "parents": [
+            "RESEARCH"
+          ],
+          "pageCount": 4
+        },
+        {
+          "key": "forbidden_magic:PRIMEWELL",
+          "category": "FORBIDDEN",
+          "displayColumn": 2,
+          "displayRow": -8,
+          "complexity": 1,
+          "aspects": {
+            "cognitio": 3,
+            "alienis": 6,
+            "fabrico": 1
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:primewell",
+            "count": 1
+          },
+          "parents": [
+            "PRIMPEARL"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:TRANSEMERALD",
+          "category": "FORBIDDEN",
+          "displayColumn": 0,
+          "displayRow": -6,
+          "complexity": 3,
+          "aspects": {
+            "vitreus": 2,
+            "permutatio": 5,
+            "lucrum": 4
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:emerald_nugget",
+            "count": 1
+          },
+          "parents": [
+            "TRANSGOLD"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:BLACKFLOWER",
+          "category": "FORBIDDEN",
+          "displayColumn": -2,
+          "displayRow": -6,
+          "complexity": 1,
+          "aspects": {
+            "herba": 3,
+            "sensus": 2,
+            "tenebrae": 4
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:ink_flower",
+            "count": 1
+          },
+          "aspectTriggers": [
+            "sensus"
+          ],
+          "pageCount": 3
+        },
+        {
+          "key": "forbidden_magic:RIDINGCROP",
+          "category": "FORBIDDEN",
+          "displayColumn": 0,
+          "displayRow": -8,
+          "complexity": 0,
+          "aspects": {},
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:riding_crop",
+            "count": 1
+          },
+          "isRound": true,
+          "isStub": true,
+          "isAutoUnlock": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:CONSUMING",
+          "category": "FORBIDDEN",
+          "displayColumn": -4,
+          "displayRow": -8,
+          "complexity": 1,
+          "aspects": {
+            "vacuos": 4,
+            "perditio": 3,
+            "praecantatio": 2
+          },
+          "warp": 0,
+          "icon_resource": "forbidden_magic:textures/misc/consuming.png",
+          "parents": [
+            "INFUSIONENCHANTMENT"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:EDUCATIONAL",
+          "category": "FORBIDDEN",
+          "displayColumn": -4,
+          "displayRow": -7,
+          "complexity": 2,
+          "aspects": {
+            "cognitio": 5,
+            "telum": 1,
+            "praecantatio": 3
+          },
+          "warp": 0,
+          "icon_resource": "forbidden_magic:textures/misc/educational.png",
+          "parents": [
+            "INFUSIONENCHANTMENT"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:SCHOOLS",
+          "category": "FORBIDDEN",
+          "displayColumn": -1,
+          "displayRow": 1,
+          "complexity": 0,
+          "aspects": {},
+          "warp": 0,
+          "icon_item": {
+            "item": "minecraft:enchanting_table",
+            "count": 1
+          },
+          "isRound": true,
+          "isStub": true,
+          "isAutoUnlock": true,
+          "pageCount": 1
+        },
+        {
+          "key": "forbidden_magic:NETHERSHARDS",
+          "category": "FORBIDDEN",
+          "displayColumn": -8,
+          "displayRow": -5,
+          "complexity": 0,
+          "aspects": {},
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:wrath_shard",
+            "count": 1
+          },
+          "isRound": true,
+          "isStub": true,
+          "isAutoUnlock": true,
+          "pageCount": 3
+        },
+        {
+          "key": "forbidden_magic:HELLFIRE",
+          "category": "FORBIDDEN",
+          "displayColumn": -8,
+          "displayRow": -8,
+          "complexity": 1,
+          "aspects": {
+            "ignis": 3,
+            "forbidden_magic:infernus": 4,
+            "iter": 2
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "minecraft:fire_charge",
+            "count": 1
+          },
+          "parents": [
+            "forbidden_magic:NETHERSHARDS"
+          ],
+          "aspectTriggers": [
+            "forbidden_magic:infernus"
+          ],
+          "isRound": true,
+          "isHidden": true,
+          "pageCount": 1
+        },
+        {
+          "key": "forbidden_magic:ROD_profane",
+          "category": "FORBIDDEN",
+          "displayColumn": -9,
+          "displayRow": -8,
+          "complexity": 0,
+          "aspects": {},
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:wand_rod_profane",
+            "count": 1
+          },
+          "parents": [
+            "forbidden_magic:NETHERSHARDS"
+          ],
+          "isRound": true,
+          "isStub": true,
+          "isHidden": true,
+          "pageCount": 1
+        },
+        {
+          "key": "forbidden_magic:SUBCOLLAR",
+          "category": "FORBIDDEN",
+          "displayColumn": -11,
+          "displayRow": -5,
+          "complexity": 2,
+          "aspects": {
+            "auram": 3,
+            "forbidden_magic:luxuria": 8,
+            "praecantatio": 3,
+            "vinculum": 6,
+            "corpus": 4
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:pain_collar",
+            "count": 1
+          },
+          "parents": [
+            "forbidden_magic:NETHERSHARDS",
+            "VISAMULET",
+            "INFUSION"
+          ],
+          "aspectTriggers": [
+            "forbidden_magic:luxuria"
+          ],
+          "isHidden": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:SKULLAXE",
+          "category": "FORBIDDEN",
+          "displayColumn": -11,
+          "displayRow": -7,
+          "complexity": 2,
+          "aspects": {
+            "telum": 3,
+            "forbidden_magic:ira": 4,
+            "forbidden_magic:infernus": 1
+          },
+          "warp": 1,
+          "icon_item": {
+            "item": "forbidden_magic:skull_axe",
+            "count": 1
+          },
+          "parents": [
+            "forbidden_magic:NETHERSHARDS",
+            "THAUMIUM",
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:RINGFOOD",
+          "category": "FORBIDDEN",
+          "displayColumn": -11,
+          "displayRow": -6,
+          "complexity": 2,
+          "aspects": {
+            "forbidden_magic:gula": 4,
+            "fames": 3,
+            "victus": 2
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:ring_nutrition",
+            "count": 1
+          },
+          "parents": [
+            "forbidden_magic:NETHERSHARDS"
+          ],
+          "pageCount": 3
+        },
+        {
+          "key": "forbidden_magic:ARCANECAKE",
+          "category": "FORBIDDEN",
+          "displayColumn": -12,
+          "displayRow": -6,
+          "complexity": 2,
+          "aspects": {
+            "forbidden_magic:gula": 6,
+            "fames": 3,
+            "fabrico": 2
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:arcane_cake",
+            "count": 1
+          },
+          "parents": [
+            "forbidden_magic:NETHERSHARDS",
+            "INFUSION"
+          ],
+          "aspectTriggers": [
+            "forbidden_magic:gula"
+          ],
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "forbidden_magic:FOCUSBLINK",
+          "category": "FORBIDDEN",
+          "displayColumn": -11,
+          "displayRow": -3,
+          "complexity": 2,
+          "aspects": {
+            "iter": 3,
+            "perditio": 3,
+            "forbidden_magic:infernus": 3,
+            "forbidden_magic:desidia": 6
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:focus_blink",
+            "count": 1
+          },
+          "parents": [
+            "forbidden_magic:NETHERSHARDS",
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:MORPHTOOLS",
+          "category": "FORBIDDEN",
+          "displayColumn": -9,
+          "displayRow": -3,
+          "complexity": 3,
+          "aspects": {
+            "instrumentum": 2,
+            "forbidden_magic:invidia": 3,
+            "permutatio": 2
+          },
+          "warp": 4,
+          "icon_item": {
+            "item": "forbidden_magic:morph_pickaxe",
+            "count": 1
+          },
+          "parents": [
+            "forbidden_magic:NETHERSHARDS"
+          ],
+          "parentsHidden": [
+            "THAUMIUM",
+            "INFUSIONENCHANTMENT"
+          ],
+          "isConcealed": true,
+          "pageCount": 5
+        },
+        {
+          "key": "forbidden_magic:ROD_infernal",
+          "category": "FORBIDDEN",
+          "displayColumn": -11,
+          "displayRow": -4,
+          "complexity": 3,
+          "aspects": {
+            "forbidden_magic:infernus": 4,
+            "ignis": 3,
+            "instrumentum": 1
+          },
+          "warp": 2,
+          "icon_item": {
+            "item": "forbidden_magic:wand_rod_infernal",
+            "count": 1
+          },
+          "parents": [
+            "ROD_silverwood",
+            "INFUSION",
+            "forbidden_magic:NETHERSHARDS"
+          ],
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "forbidden_magic:WRATH",
+          "category": "FORBIDDEN",
+          "displayColumn": -6,
+          "displayRow": -3,
+          "complexity": 3,
+          "aspects": {
+            "forbidden_magic:ira": 16,
+            "telum": 20,
+            "praecantatio": 10
+          },
+          "warp": 3,
+          "icon_resource": "forbidden_magic:textures/misc/wrath.png",
+          "parents": [
+            "forbidden_magic:NETHERSHARDS",
+            "INFUSIONENCHANTMENT"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:GREEDY",
+          "category": "FORBIDDEN",
+          "displayColumn": -6,
+          "displayRow": -5,
+          "complexity": 2,
+          "aspects": {
+            "praecantatio": 2,
+            "telum": 1,
+            "lucrum": 3
+          },
+          "warp": 0,
+          "icon_resource": "forbidden_magic:textures/misc/greedy.png",
+          "parents": [
+            "forbidden_magic:NETHERSHARDS",
+            "INFUSIONENCHANTMENT"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:CORRUPTING",
+          "category": "FORBIDDEN",
+          "displayColumn": -6,
+          "displayRow": -4,
+          "complexity": 1,
+          "aspects": {
+            "forbidden_magic:infernus": 5,
+            "vitreus": 2,
+            "permutatio": 1
+          },
+          "warp": 0,
+          "icon_resource": "forbidden_magic:textures/misc/corrupting.png",
+          "parents": [
+            "forbidden_magic:NETHERSHARDS",
+            "INFUSIONENCHANTMENT"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:CLUSTER",
+          "category": "FORBIDDEN",
+          "displayColumn": -10,
+          "displayRow": -1,
+          "complexity": 3,
+          "aspects": {
+            "metallum": 1,
+            "ignis": 4,
+            "forbidden_magic:invidia": 3
+          },
+          "warp": 0,
+          "icon_resource": "forbidden_magic:textures/misc/lucrative.png",
+          "parents": [
+            "forbidden_magic:MORPHTOOLS",
+            "ELEMENTALPICK"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:IMPACT",
+          "category": "FORBIDDEN",
+          "displayColumn": -9,
+          "displayRow": -1,
+          "complexity": 3,
+          "aspects": {
+            "perditio": 8,
+            "instrumentum": 10,
+            "perfodio": 16,
+            "forbidden_magic:invidia": 10
+          },
+          "warp": 0,
+          "icon_resource": "forbidden_magic:textures/misc/impact.png",
+          "parents": [
+            "forbidden_magic:MORPHTOOLS",
+            "ELEMENTALSHOVEL"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:VOIDTOUCHED",
+          "category": "FORBIDDEN",
+          "displayColumn": -8,
+          "displayRow": -1,
+          "complexity": 3,
+          "aspects": {
+            "alienis": 16,
+            "instrumentum": 10,
+            "fabrico": 8,
+            "forbidden_magic:invidia": 32
+          },
+          "warp": 3,
+          "icon_resource": "forbidden_magic:textures/misc/voidtouched.png",
+          "parents": [
+            "forbidden_magic:MORPHTOOLS",
+            "VOIDMETAL"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:FORK",
+          "category": "FORBIDDEN",
+          "displayColumn": -6,
+          "displayRow": -7,
+          "complexity": 0,
+          "aspects": {
+            "forbidden_magic:infernus": 3,
+            "machina": 1,
+            "instrumentum": 1
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:diabolist_fork",
+            "count": 1
+          },
+          "parents": [
+            "INFUSION",
+            "forbidden_magic:NETHERSHARDS",
+            "THAUMIUM"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "forbidden_magic:WRATHCAGE",
+          "category": "FORBIDDEN",
+          "displayColumn": -6,
+          "displayRow": -9,
+          "complexity": 3,
+          "aspects": {
+            "forbidden_magic:ira": 5,
+            "machina": 3,
+            "bestia": 2
+          },
+          "warp": 3,
+          "icon_item": {
+            "item": "forbidden_magic:wrath_cage",
+            "count": 1
+          },
+          "parents": [
+            "forbidden_magic:FORK"
+          ],
+          "parentsHidden": [
+            "INFUSION",
+            "THAUMIUM",
+            "DISTILESSENTIA"
+          ],
+          "isConcealed": true,
+          "pageCount": 5
+        },
+        {
+          "key": "forbidden_magic:TAINTSHOVEL",
+          "category": "FORBIDDEN",
+          "displayColumn": -8,
+          "displayRow": 1,
+          "complexity": 2,
+          "aspects": {
+            "vitreus": 3,
+            "vitium": 2,
+            "instrumentum": 1
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:taint_shovel",
+            "count": 1
+          },
+          "parents": [
+            "THAUMIUM",
+            "INFUSION",
+            "ETHEREALBLOOM"
+          ],
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "forbidden_magic:TAINTPICK",
+          "category": "FORBIDDEN",
+          "displayColumn": -10,
+          "displayRow": 1,
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 2,
+            "vitium": 4,
+            "perditio": 3
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:taint_pickaxe",
+            "count": 1
+          },
+          "parents": [
+            "THAUMIUM",
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:ROD_tainted",
+          "category": "FORBIDDEN",
+          "displayColumn": -8,
+          "displayRow": 3,
+          "complexity": 3,
+          "aspects": {
+            "praecantatio": 4,
+            "vitium": 5,
+            "instrumentum": 2
+          },
+          "warp": 2,
+          "icon_item": {
+            "item": "forbidden_magic:wand_rod_tainted",
+            "count": 1
+          },
+          "parents": [
+            "ROD_silverwood",
+            "forbidden_magic:TAINTSHOVEL",
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:TAINTTREE",
+          "category": "FORBIDDEN",
+          "displayColumn": -11,
+          "displayRow": 3,
+          "complexity": 3,
+          "aspects": {
+            "arbor": 4,
+            "vitium": 6,
+            "venenum": 2,
+            "herba": 3
+          },
+          "warp": 1,
+          "icon_item": {
+            "item": "forbidden_magic:taint_sapling",
+            "count": 1
+          },
+          "parents": [
+            "THAUMIUM",
+            "INFUSION",
+            "ETHEREALBLOOM"
+          ],
+          "isConcealed": true,
+          "pageCount": 4
+        },
+        {
+          "key": "forbidden_magic:TAINTSTONE",
+          "category": "FORBIDDEN",
+          "displayColumn": -10,
+          "displayRow": 3,
+          "complexity": 2,
+          "aspects": {
+            "terra": 4,
+            "vitium": 6,
+            "ordo": 2
+          },
+          "warp": 0,
+          "icon_item": {
+            "item": "forbidden_magic:taint_bricks",
+            "count": 1
+          },
+          "parents": [
+            "THAUMIUM",
+            "INFUSION",
+            "ETHEREALBLOOM"
+          ],
+          "isConcealed": true,
+          "pageCount": 3
+        }
+      ]
+    }
+  ]
+}

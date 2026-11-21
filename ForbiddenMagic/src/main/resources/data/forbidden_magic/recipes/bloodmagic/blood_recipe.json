@@ -1,0 +1,82 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:ROD_blood",
+  "result": {
+    "item": "forbidden_magic:wand_rod_blood_inert",
+    "count": 1
+  },
+  "instability": 2,
+  "aspects": {
+    "victus": 32,
+    "praecantatio": 12,
+    "aqua": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "bloodmagic:masterbloodorb"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "bloodmagic:arcaneashes"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "bloodmagic:infusedslate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "bloodmagic:infusedslate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "bloodmagic:reagentvoid"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "bloodmagic:reagentbloodlight"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "bloodmagic:reagentwater"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "bloodmagic:reagentlava"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "bloodmagic:reagentgrowth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "bloodmagic:reagentair"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "bloodmagic",
+      "expected": true
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    }
+  ]
+}

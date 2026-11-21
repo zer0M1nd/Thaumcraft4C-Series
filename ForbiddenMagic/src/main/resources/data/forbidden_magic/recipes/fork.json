@@ -1,0 +1,48 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:FORK",
+  "instability": 1,
+  "aspects": {
+    "forbidden_magic:infernus": 8,
+    "machina": 8,
+    "potentia": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_sword"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    }
+  ],
+  "result": {
+    "item": "forbidden_magic:diabolist_fork",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forbidden_magic:config",
+      "option": "cage",
+      "expected": true
+    }
+  ]
+}

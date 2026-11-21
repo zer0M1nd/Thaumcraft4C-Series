@@ -1,0 +1,177 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "FORBIDDEN",
+      "icon": "forbidden_magic:textures/misc/forbidden.png",
+      "background": "forbidden_magic:textures/misc/runecircle.png",
+      "research": [
+        {
+          "key": "forbidden_magic:BLOODMAGIC",
+          "category": "FORBIDDEN",
+          "displayColumn": -1,
+          "displayRow": -1,
+          "complexity": 0,
+          "aspects": {},
+          "icon_item": {
+            "item": "bloodmagic:sacrificialdagger",
+            "count": 1
+          },
+          "warp": 0,
+          "parents": [
+            "forbidden_magic:SCHOOLS"
+          ],
+          "isRound": true,
+          "isStub": true,
+          "isAutoUnlock": true,
+          "pageCount": 1
+        },
+        {
+          "key": "forbidden_magic:ROD_blood",
+          "category": "FORBIDDEN",
+          "displayColumn": -1,
+          "displayRow": -3,
+          "complexity": 3,
+          "aspects": {
+            "victus": 5,
+            "aqua": 4,
+            "telum": 3
+          },
+          "icon_item": {
+            "item": "forbidden_magic:wand_rod_blood",
+            "count": 1
+          },
+          "warp": 2,
+          "parents": [
+            "ROD_silverwood",
+            "INFUSION",
+            "forbidden_magic:BLOODMAGIC"
+          ],
+          "isConcealed": true,
+          "pageCount": 3
+        },
+        {
+          "key": "forbidden_magic:ROD_blood_staff",
+          "category": "FORBIDDEN",
+          "displayColumn": -3,
+          "displayRow": -2,
+          "complexity": 2,
+          "aspects": {
+            "victus": 8,
+            "aqua": 7,
+            "telum": 6
+          },
+          "icon_item": {
+            "item": "forbidden_magic:wand_rod_blood_staff",
+            "count": 1
+          },
+          "warp": 0,
+          "parents": [
+            "ROD_silverwood_staff",
+            "forbidden_magic:ROD_blood"
+          ],
+          "isConcealed": true,
+          "isSpecial": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:CAP_alchemical",
+          "category": "FORBIDDEN",
+          "displayColumn": -3,
+          "displayRow": -3,
+          "complexity": 2,
+          "aspects": {
+            "victus": 4,
+            "instrumentum": 1,
+            "aqua": 3
+          },
+          "icon_item": {
+            "item": "forbidden_magic:wand_cap_alchemical",
+            "count": 1
+          },
+          "warp": 0,
+          "parents": [
+            "forbidden_magic:ROD_blood",
+            "CAP_gold"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:BLOODWELL",
+          "category": "FORBIDDEN",
+          "displayColumn": 1,
+          "displayRow": -1,
+          "complexity": 1,
+          "aspects": {
+            "victus": 5,
+            "cognitio": 4,
+            "sensus": 3
+          },
+          "icon_item": {
+            "item": "forbidden_magic:bloodwell",
+            "count": 1
+          },
+          "warp": 0,
+          "parents": [
+            "forbidden_magic:BLOODMAGIC"
+          ],
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:BLOODRAPIER",
+          "category": "FORBIDDEN",
+          "displayColumn": 1,
+          "displayRow": -2,
+          "complexity": 3,
+          "aspects": {
+            "victus": 16,
+            "fames": 12,
+            "telum": 12,
+            "praecantatio": 12
+          },
+          "icon_item": {
+            "item": "forbidden_magic:blood_rapier",
+            "count": 1
+          },
+          "warp": 2,
+          "parents": [
+            "forbidden_magic:BLOODMAGIC",
+            "INFUSION",
+            "VOIDMETAL"
+          ],
+          "isConcealed": true,
+          "pageCount": 2
+        },
+        {
+          "key": "forbidden_magic:ELDRITCHORB",
+          "category": "FORBIDDEN",
+          "displayColumn": 1,
+          "displayRow": -3,
+          "complexity": 3,
+          "aspects": {
+            "victus": 24,
+            "vacuos": 32,
+            "vitreus": 24,
+            "alienis": 12
+          },
+          "icon_item": {
+            "item": "forbidden_magic:eldritch_orb",
+            "count": 1
+          },
+          "warp": 3,
+          "parents": [
+            "forbidden_magic:BLOODMAGIC",
+            "INFUSION",
+            "PRIMPEARL",
+            "VOIDMETAL"
+          ],
+          "isConcealed": true,
+          "isSpecial": true,
+          "pageCount": 2
+        }
+      ]
+    }
+  ]
+}

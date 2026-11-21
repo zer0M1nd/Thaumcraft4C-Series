@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "entity": "twilightforest:carminite_ghastling",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:infernus": 1,
+        "forbidden_magic:ira": 1
+      },
+      "optional": true
+    },
+    {
+      "entity": "twilightforest:ur_ghast",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:infernus": 10,
+        "forbidden_magic:ira": 10
+      },
+      "optional": true
+    },
+    {
+      "entity": "twilightforest:carminite_ghastguard",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:infernus": 3,
+        "forbidden_magic:ira": 3
+      },
+      "optional": true
+    },
+    {
+      "entity": "twilightforest:lich",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:superbia": 10
+      },
+      "optional": true
+    },
+    {
+      "entity": "twilightforest:king_spider",
+      "operation": "add",
+      "aspects": {
+        "forbidden_magic:superbia": 4
+      },
+      "optional": true
+    }
+  ]
+}

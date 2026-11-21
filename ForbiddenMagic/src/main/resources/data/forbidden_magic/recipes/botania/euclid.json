@@ -1,0 +1,67 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:EUCLIDAISY",
+  "result": {
+    "item": "forbidden_magic:euclidaisy",
+    "count": 1
+  },
+  "instability": 8,
+  "aspects": {
+    "auram": 8,
+    "alienis": 10,
+    "praecantatio": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "botania:pink_mystical_flower"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:dragonstone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:pink_petal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:pink_petal"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_sloth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "botania:rune_greed"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "botania",
+      "expected": true
+    }
+  ]
+}

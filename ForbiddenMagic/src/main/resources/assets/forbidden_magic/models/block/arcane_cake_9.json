@@ -1,0 +1,43 @@
+{
+  "textures": {
+    "top": "forbidden_magic:block/cake_top",
+    "bottom": "forbidden_magic:block/cake_bottom",
+    "side": "forbidden_magic:block/cake_side",
+    "inner": "forbidden_magic:block/cake_inner",
+    "particle": "forbidden_magic:block/cake_side"
+  },
+  "elements": [
+    {
+      "from": [
+        11.5,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        8,
+        15
+      ],
+      "faces": {
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "texture": "#bottom"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#inner"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        }
+      }
+    }
+  ]
+}

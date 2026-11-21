@@ -1,0 +1,45 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:WRATH",
+  "enchantment": "forbidden_magic:wrath",
+  "instability": 8,
+  "aspects": {
+    "forbidden_magic:ira": 16,
+    "telum": 16,
+    "forbidden_magic:infernus": 8
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forbidden_magic:config",
+      "option": "enchantments",
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forbidden_magic:config",
+          "option": "easy_research",
+          "expected": true
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "research": "forbidden_magic:CRYSTALWELL",
+        "result": {
+          "item": "forbidden_magic:crystalwell",
+          "count": 1
+        },
+        "vis": {
+          "aqua": 1,
+          "ordo": 1
+        },
+        "mode": "shapeless",
+        "ingredients": [
+          {
+            "item": "thaumcraft:scribing_tools"
+          },
+          {
+            "tag": "forge:dyes/black"
+          },
+          {
+            "item": "thaumcraft:balanced_shard"
+          },
+          {
+            "item": "thaumcraft:balanced_shard"
+          }
+        ]
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forbidden_magic:config",
+          "option": "easy_research",
+          "expected": false
+        }
+      ],
+      "recipe": {
+        "type": "thaumcraft:arcane",
+        "research": "forbidden_magic:CRYSTALWELL",
+        "result": {
+          "item": "forbidden_magic:crystalwell",
+          "count": 1
+        },
+        "vis": {
+          "aqua": 1,
+          "ordo": 1
+        },
+        "mode": "shapeless",
+        "ingredients": [
+          {
+            "item": "thaumcraft:scribing_tools"
+          },
+          {
+            "tag": "forge:dyes/black"
+          },
+          {
+            "item": "thaumcraft:mixed_crystal_cluster"
+          },
+          {
+            "item": "thaumcraft:balanced_shard"
+          },
+          {
+            "item": "thaumcraft:balanced_shard"
+          },
+          {
+            "item": "thaumcraft:balanced_shard"
+          }
+        ]
+      }
+    }
+  ]
+}

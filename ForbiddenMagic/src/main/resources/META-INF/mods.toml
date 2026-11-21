@@ -1,0 +1,60 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+issueTrackerURL="https://github.com/zer0M1nd/Thaumcraft4C-Series/issues"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/forbidden_magic/index.html"
+updateJSONURL="http://tc4c.zer0m1nd.me/forge-updates/forbidden_magic.json"
+modId="forbidden_magic"
+version="${version}"
+displayName="Forbidden Magic"
+authors="zer0M1nd"
+credits="Original Forbidden Magic by SpitefulFox."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Investigate the seven deadly sins and turn forbidden knowledge into wand parts, tools and enchantments.
+
+-------- Original release --------
+Forbidden Magic is an addon to add many dark-themed things to Thaumcraft.
+
+Original credits: Azanor, joshiejack, Killajoke, LycaonX, Nieue, Succubism, Vazkii, Dylan4ever, Nekosune, Kihira'''
+
+[[dependencies.forbidden_magic]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.0,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.forbidden_magic]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.forbidden_magic]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.forbidden_magic]]
+modId="curios"
+mandatory=true
+versionRange="[5.14.1,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.forbidden_magic]]
+modId="bloodmagic"
+mandatory=false
+versionRange="[3.3.3-45,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.forbidden_magic]]
+modId="botania"
+mandatory=false
+versionRange="[1.20.1-450-FORGE,)"
+ordering="AFTER"
+side="BOTH"
+

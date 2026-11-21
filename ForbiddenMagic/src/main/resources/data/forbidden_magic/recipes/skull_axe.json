@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:SKULLAXE",
+  "instability": 1,
+  "aspects": {
+    "forbidden_magic:ira": 8,
+    "telum": 8,
+    "forbidden_magic:infernus": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_axe"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:wrath_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    }
+  ],
+  "result": {
+    "item": "forbidden_magic:skull_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "forbidden_magic:TAINTSTONE",
+  "result": {
+    "item": "forbidden_magic:taint_stone",
+    "count": 9
+  },
+  "vis": {
+    "perditio": 2,
+    "ordo": 1
+  },
+  "pattern": [
+    "SSS",
+    "SXS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "X": {
+      "tag": "forbidden_magic:taint_materials"
+    }
+  }
+}

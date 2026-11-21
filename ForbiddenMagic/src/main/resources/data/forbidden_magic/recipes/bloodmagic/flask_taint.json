@@ -1,0 +1,27 @@
+{
+  "type": "bloodmagic:flask_potioneffect",
+  "input": [
+    {
+      "item": "bloodmagic:simplecatalyst"
+    },
+    {
+      "item": "thaumcraft:tainted_goo"
+    }
+  ],
+  "effect": "thaumcraft:flux_taint",
+  "baseDuration": 450,
+  "syphon": 500,
+  "ticks": 200,
+  "upgradeLevel": 1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "bloodmagic",
+      "expected": true
+    }
+  ]
+}

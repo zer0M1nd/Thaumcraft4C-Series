@@ -1,0 +1,24 @@
+{
+  "type": "bloodmagic:array",
+  "baseinput": {
+    "item": "forbidden_magic:crystalwell"
+  },
+  "addedinput": {
+    "item": "bloodmagic:reagentbinding"
+  },
+  "output": {
+    "item": "forbidden_magic:boundwell"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/bindingarray.png",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "bloodmagic",
+      "expected": true
+    }
+  ]
+}

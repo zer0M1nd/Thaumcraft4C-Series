@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "forbidden_magic:MORPHTOOLS",
+  "instability": 6,
+  "aspects": {
+    "permutatio": 32,
+    "forbidden_magic:invidia": 16,
+    "instrumentum": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:thaumium_pickaxe"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "forbidden_magic:envy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:silverwood_log"
+      }
+    }
+  ],
+  "result": {
+    "item": "forbidden_magic:morph_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "forbidden_magic:wand_rod_blood_inert"
+  },
+  "output": {
+    "item": "forbidden_magic:wand_rod_blood"
+  },
+  "upgradeLevel": 3,
+  "altarSyphon": 20000,
+  "consumptionRate": 15,
+  "drainRate": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "bloodmagic",
+      "expected": true
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    }
+  ]
+}

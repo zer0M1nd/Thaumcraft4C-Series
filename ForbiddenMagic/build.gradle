@@ -1,0 +1,68 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
+group='fmmodern'
+version = '0.1.21.1'
+base.archivesName='Forbidden-Magic-Modern-Port'
+java.toolchain.languageVersion=JavaLanguageVersion.of(17)
+java.withSourcesJar()
+repositories { flatDir { dirs 'libs' }; maven { url='https://maven.theillusivec4.top/' }; mavenCentral() }
+repositories {
+    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
+    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+}
+dependencies {
+    runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
+ minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+ implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
+        ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
+        : 'local.revival:Thaumcraft-4-Modern-Port:0.4.114')
+ compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
+ runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
+ compileOnly fg.deobf('local:botania:455')
+ compileOnly fg.deobf('local:bloodmagic:3.3.8-50')
+ compileOnly fg.deobf('local:patchouli:85')
+ if (providers.gradleProperty('withIntegrations').isPresent()) {
+  runtimeOnly fg.deobf('local:botania:455')
+  runtimeOnly fg.deobf('local:bloodmagic:3.3.8-50')
+  runtimeOnly fg.deobf('local:patchouli:85')
+ }
+ testImplementation files('libs/junit-platform-console-standalone-1.10.2.jar')
+}
+minecraft {
+ mappings channel:'official',version:'1.20.1'
+ runs {
+  configureEach {
+   args '--mixin.config','tc4revival.mixins.json'
+   property 'mixin.env.remapRefMap','true'
+   property 'mixin.env.refMapRemappingFile',layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
+   mods { forbidden_magic { source sourceSets.main } }
+  }
+  server { workingDirectory file('run-server');args '--nogui';jvmArgs '-Xmx2G' }
+  gameTestServer { workingDirectory file('run-server');property 'forge.enabledGameTestNamespaces','forbidden_magic';jvmArgs '-Xmx3G' }
+ }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding='UTF-8';options.release=17 }
+test { useJUnitPlatform() }
+tasks.named('jar') { finalizedBy 'reobfJar' }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps=false;reproducibleFileOrder=true }
+tasks.register('verifyArchives') {
+ dependsOn 'jar','reobfJar','sourcesJar'
+ doLast {
+  ['jar','sourcesJar'].each { name -> new java.util.zip.ZipFile(tasks.named(name).get().archiveFile.get().asFile).withCloseable { zip ->
+   zip.entries().each { entry ->
+    if(entry.name ==~ /.*\.(png|ogg|lang|obj)/ || entry.name.startsWith('tc4revival/') || entry.name.startsWith('thaumcraft/api/')) throw new GradleException('Foreign resource/class bundled: '+entry.name)
+   }
+  } }
+ }
+}
+
+
+tasks.named("processResources") { inputs.property "version",project.version; filesMatching("META-INF/mods.toml") { expand version:project.version } }
+
+// Resource metadata must be UTF-8 on every build host.
+tasks.withType(ProcessResources).configureEach { filteringCharset = 'UTF-8' }
+
+['processResources', 'sourcesJar'].each { taskName ->
+    tasks.named(taskName) {
+        from('LICENSE', 'NOTICE')
+    }
+}

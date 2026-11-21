@@ -1,0 +1,41 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "forbidden_magic:CAP_manasteel",
+  "result": {
+    "item": "forbidden_magic:wand_cap_manasteel_inert",
+    "count": 1
+  },
+  "vis": {
+    "perditio": 6,
+    "ignis": 6,
+    "aqua": 6,
+    "aer": 6,
+    "terra": 6,
+    "ordo": 6
+  },
+  "pattern": [
+    "NNN",
+    "N N"
+  ],
+  "key": {
+    "N": {
+      "tag": "botania:manasteel_nuggets"
+    }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "botania",
+      "expected": true
+    },
+    {
+      "type": "forbidden_magic:config",
+      "option": "conversion_wands",
+      "expected": true
+    }
+  ]
+}
