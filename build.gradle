@@ -6,7 +6,7 @@ plugins {
 
 version = mod_version
 group = mod_group_id
-base.archivesName = 'Thaumcraft-4-Modern-Port'
+base.archivesName = '[TC4Continuation]Thaumcraft'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
 
