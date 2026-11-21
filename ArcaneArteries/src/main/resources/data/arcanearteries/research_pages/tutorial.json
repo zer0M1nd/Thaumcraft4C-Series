@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_ARCANEARTERIES",
+      "pages": [
+        {
+          "id": "arcanearteries:tut_addon_arcanearteries/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.arcanearteries.tut_addon_arcanearteries.text.1",
+            "with": [
+              [
+                {
+                  "text": "奥法献祭学是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "arcanearteries:tut_addon_arcanearteries/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.arcanearteries.tut_addon_arcanearteries.text.2",
+            "with": [
+              [
+                {
+                  "text": "这是神秘时代与"
+                },
+                {
+                  "text": "血魔法",
+                  "bold": true
+                },
+                {
+                  "text": "（Blood Magic）之间的桥梁。你可以用法杖里的魔力代替自己的生命，为血魔法支付生命源质，也可以用神秘匕首献祭怪物。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "arcanearteries:tut_addon_arcanearteries/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "arcanearteries:tut_addon_arcanearteries/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.arcanearteries.tut_addon_arcanearteries.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "arcanearteries:tut_addon_arcanearteries/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.arcanearteries.tut_addon_arcanearteries.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "arcanearteries:DAGGER"
+                },
+                {
+                  "text": "：神秘采血术，用魔力代替生命值采血。\n· "
+                },
+                {
+                  "research": "arcanearteries:SACRIFICEDAGGER"
+                },
+                {
+                  "text": "：怪物之血，更高效的献祭。\n· "
+                },
+                {
+                  "research": "arcanearteries:SLATE"
+                },
+                {
+                  "text": "、"
+                },
+                {
+                  "research": "arcanearteries:RUNE"
+                },
+                {
+                  "text": "：神秘石板与神秘符文，为血之祭坛提供新的材料和符文。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "arcanearteries:tut_addon_arcanearteries/text/6",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.arcanearteries.tut_addon_arcanearteries.text.6",
+            "with": [
+              [
+                {
+                  "text": "安装了植物魔法时，还可以使用以魔力（mana）为代价的版本。\n"
+                }
+              ]
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "botania"
+            }
+          ]
+        },
+        {
+          "id": "arcanearteries:tut_addon_arcanearteries/text/7",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.arcanearteries.tut_addon_arcanearteries.text.7",
+            "with": [
+              [
+                {
+                  "text": "安装了 EvilCraft 时，还可以使用以血液为代价的版本。\n"
+                }
+              ]
+            ]
+          },
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "evilcraft"
+            }
+          ]
+        },
+        {
+          "id": "arcanearteries:tut_addon_arcanearteries/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "arcanearteries:tut_addon_arcanearteries/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "arcanearteries:tut_addon_arcanearteries/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "arcanearteries:DAGGER",
+            "arcanearteries:SACRIFICEDAGGER",
+            "arcanearteries:SLATE",
+            "arcanearteries:RUNE"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

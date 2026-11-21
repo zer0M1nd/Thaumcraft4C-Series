@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "arcanearteries:DAGGER",
+      "pages": [
+        {
+          "id": "arcanearteries:DAGGER/text",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "aa.research_page.DAGGER"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "arcanearteries:DAGGER/recipe",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcanearteries:thaumic_knife"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "arcanearteries:DAGGERH",
+      "pages": [
+        {
+          "id": "arcanearteries:DAGGERH/text",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "aa.research_page.DAGGERH"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "arcanearteries:DAGGERH/recipe",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcanearteries:thaumic_knife_hard"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "arcanearteries:SACRIFICEDAGGER",
+      "pages": [
+        {
+          "id": "arcanearteries:SACRIFICEDAGGER/text",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "aa.research_page.SACRIFICEDAGGER"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "arcanearteries:SACRIFICEDAGGER/recipe",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcanearteries:thaumic_sacrifice"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "arcanearteries:SACRIFICEDAGGERH",
+      "pages": [
+        {
+          "id": "arcanearteries:SACRIFICEDAGGERH/text",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "aa.research_page.SACRIFICEDAGGERH"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "arcanearteries:SACRIFICEDAGGERH/recipe",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcanearteries:thaumic_sacrifice_hard"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "arcanearteries:SLATE",
+      "pages": [
+        {
+          "id": "arcanearteries:SLATE/text",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "aa.research_page.SLATE"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "arcanearteries:SLATE/recipe",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcanearteries:thaumic_slate"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    },
+    {
+      "key": "arcanearteries:RUNE",
+      "pages": [
+        {
+          "id": "arcanearteries:RUNE/text",
+          "page_break": true,
+          "type": "TEXT",
+          "text": {
+            "translate": "aa.research_page.Rune"
+          },
+          "import_legacy": true
+        },
+        {
+          "id": "arcanearteries:RUNE/recipe",
+          "page_break": true,
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "arcanearteries:thaumic_rune"
+            ],
+            "class": "modern"
+          }
+        }
+      ]
+    }
+  ]
+}

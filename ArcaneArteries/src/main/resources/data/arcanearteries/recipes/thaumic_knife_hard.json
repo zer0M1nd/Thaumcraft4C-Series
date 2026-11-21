@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "arcanearteries:feature",
+      "feature": "thaumic_self",
+      "hard": true
+    }
+  ],
+  "research": "arcanearteries:DAGGERH",
+  "center": {
+    "ingredient": {
+      "item": "bloodmagic:sacrificialdagger"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_ingot"
+      }
+    }
+  ],
+  "result": {
+    "item": "arcanearteries:thaumic_knife"
+  },
+  "aspects": {
+    "praecantatio": 15,
+    "victus": 13
+  },
+  "instability": 7
+}

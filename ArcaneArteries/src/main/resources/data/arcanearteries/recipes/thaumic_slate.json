@@ -1,0 +1,47 @@
+{
+  "type": "thaumcraft:infusion",
+  "conditions": [
+    {
+      "type": "arcanearteries:feature",
+      "feature": "slates",
+      "hard": false
+    }
+  ],
+  "research": "arcanearteries:SLATE",
+  "center": {
+    "ingredient": {
+      "item": "minecraft:stone"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:stone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:stone"
+      }
+    }
+  ],
+  "result": {
+    "item": "arcanearteries:thaumic_slate",
+    "count": 3
+  },
+  "aspects": {
+    "praecantatio": 4,
+    "victus": 2
+  },
+  "instability": 2
+}
