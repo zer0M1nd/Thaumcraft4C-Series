@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "block": "enchanted:belladonna",
+      "aspects": {
+        "herba": 2,
+        "messis": 1,
+        "mortuus": 4,
+        "venenum": 4,
+        "victus": 1
+      }
+    },
+    {
+      "block": "enchanted:mandrake",
+      "aspects": {
+        "herba": 2,
+        "humanus": 1,
+        "messis": 1,
+        "victus": 1
+      }
+    },
+    {
+      "block": "enchanted:snowbell",
+      "aspects": {
+        "gelum": 2,
+        "herba": 2,
+        "messis": 1,
+        "victus": 1
+      }
+    },
+    {
+      "block": "enchanted:wolfsbane",
+      "aspects": {
+        "herba": 1,
+        "victus": 1
+      }
+    }
+  ],
+  "required_any_mods": [
+    "enchanted"
+  ]
+}

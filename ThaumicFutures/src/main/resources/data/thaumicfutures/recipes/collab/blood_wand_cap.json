@@ -1,0 +1,20 @@
+{
+  "type": "evilcraft:blood_infuser",
+  "item": "thaumcraft:wand_cap_gold",
+  "fluid": {
+    "fluid": "evilcraft:blood",
+    "amount": 2500
+  },
+  "result": {
+    "item": "thaumicfutures:blood_wand_cap"
+  },
+  "duration": 500,
+  "xp": 3,
+  "tier": 1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evilcraft"
+    }
+  ]
+}

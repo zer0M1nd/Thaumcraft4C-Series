@@ -1,0 +1,305 @@
+{
+  "replace": false,
+  "values": [
+    "thaumicfutures:essentia_extractor",
+    "thaumicfutures:essentia_injector",
+    "thaumicfutures:ancient_pillar",
+    "thaumicfutures:ancient_pillar_top",
+    "thaumicfutures:eldritch_pillar",
+    "thaumicfutures:eldritch_pillar_top",
+    {
+      "id": "thaumicfutures:alchemical_brass_block",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_1",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_2",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_3",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_4",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_5",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_6",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_7",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_8",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_9",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_10",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_11",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_12",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_13",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_14",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_15",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_input_16",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_1",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_2",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_3",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_4",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_5",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_6",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_7",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_8",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_9",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_10",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_11",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_12",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_13",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_14",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_15",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_essentia_output_16",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_1",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_2",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_3",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_4",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_5",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_6",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_7",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_8",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_9",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_10",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_11",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_12",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_13",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_14",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_15",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_input_16",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_1",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_2",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_3",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_4",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_5",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_6",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_7",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_8",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_9",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_10",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_11",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_12",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_13",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_14",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_15",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_output_16",
+      "required": false
+    },
+    {
+      "id": "thaumicfutures:machine_vis_bridge",
+      "required": false
+    },
+    "thaumicfutures:quartz_ore",
+    "thaumicfutures:deepslate_quartz_ore",
+    "thaumicfutures:alchemical_brass_block",
+    "thaumicfutures:thaumium_smelter",
+    "thaumicfutures:void_smelter",
+    "thaumicfutures:slurry_pump",
+    "thaumicfutures:everfull_urn",
+    "thaumicfutures:ancient_stone",
+    "thaumicfutures:ancient_stone_bricks",
+    "thaumicfutures:ancient_pedestal",
+    "thaumicfutures:ancient_matrix",
+    "thaumicfutures:eldritch_stone",
+    "thaumicfutures:eldritch_stone_bricks",
+    "thaumicfutures:eldritch_pedestal",
+    "thaumicfutures:eldritch_matrix",
+    "thaumicfutures:infusion_speed_stone",
+    "thaumicfutures:infusion_efficiency_stone",
+    "thaumicfutures:ancient_stone_stairs",
+    "thaumicfutures:ancient_stone_slab",
+    "thaumicfutures:eldritch_stone_stairs",
+    "thaumicfutures:eldritch_stone_slab",
+    "thaumicfutures:ancient_glyphed_stone",
+    "thaumicfutures:ancient_doorway",
+    "thaumicfutures:ancient_rock",
+    {
+      "id": "thaumicfutures:thaumium_barrel",
+      "required": false
+    },
+    "thaumicfutures:dioptra",
+    "thaumicfutures:arcane_pattern_crafter"
+  ]
+}

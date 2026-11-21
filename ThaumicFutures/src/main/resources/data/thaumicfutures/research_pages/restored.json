@@ -1,0 +1,327 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:RESTORED_MATERIALS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_materials"
+          },
+          "id": "thaumicomniverse:RESTORED_MATERIALS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/morphic_resonator"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_MATERIALS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/vis_resonator"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_MATERIALS/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RESTORED_SPONGE",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_sponge"
+          },
+          "id": "thaumicomniverse:RESTORED_SPONGE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/thaumic_sponge"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_SPONGE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/dry_sponge"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_SPONGE/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RESTORED_URN",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_urn"
+          },
+          "id": "thaumicomniverse:RESTORED_URN/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/everfull_urn"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_URN/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RESTORED_SMELTER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_smelter"
+          },
+          "id": "thaumicomniverse:RESTORED_SMELTER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/thaumium_smelter"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_SMELTER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/void_smelter"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_SMELTER/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/slurry_pump"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_SMELTER/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RESTORED_TRANSCEIVER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_transceiver"
+          },
+          "id": "thaumicomniverse:RESTORED_TRANSCEIVER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/essentia_extractor"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_TRANSCEIVER/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/essentia_injector"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_TRANSCEIVER/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RESTORED_CHARMS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_charms"
+          },
+          "id": "thaumicomniverse:RESTORED_CHARMS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/cloud_ring"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_CHARMS/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/undying_charm"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_CHARMS/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RESTORED_VOIDSEER",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_voidseer"
+          },
+          "id": "thaumicomniverse:RESTORED_VOIDSEER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/voidseer_pearl"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_VOIDSEER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RESTORED_PARADOX",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_paradox"
+          },
+          "id": "thaumicomniverse:RESTORED_PARADOX/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/paradox_matter"
+            ]
+          },
+          "id": "thaumicomniverse:RESTORED_PARADOX/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RESTORED_CELESTIAL",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_celestial"
+          },
+          "id": "thaumicomniverse:RESTORED_CELESTIAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RESTORED_NITOR",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_nitor"
+          },
+          "id": "thaumicomniverse:RESTORED_NITOR/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicomniverse:RESTORED_CURIOS",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.restored_curios"
+          },
+          "id": "thaumicomniverse:RESTORED_CURIOS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}

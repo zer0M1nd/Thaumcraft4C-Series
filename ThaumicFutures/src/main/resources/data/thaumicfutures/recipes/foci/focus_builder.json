@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "thaumicfutures:FOCUSBUILDER",
+  "pattern": [
+    "AQE",
+    "QDQ",
+    "EQA"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:air_shard"
+    },
+    "E": {
+      "item": "thaumcraft:earth_shard"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "D": {
+      "item": "thaumcraft:amber"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:focus_builder"
+  },
+  "vis": {
+    "aer": 12.5,
+    "terra": 18.75,
+    "ordo": 18.75
+  }
+}

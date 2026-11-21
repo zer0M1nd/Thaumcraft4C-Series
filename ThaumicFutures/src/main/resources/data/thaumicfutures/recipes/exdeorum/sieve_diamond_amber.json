@@ -1,0 +1,23 @@
+{
+  "type": "exdeorum:sieve",
+  "ingredient": {
+    "item": "minecraft:sand"
+  },
+  "mesh": "exdeorum:diamond_mesh",
+  "result": "thaumcraft:amber",
+  "result_amount": {
+    "type": "minecraft:binomial",
+    "n": 1,
+    "p": 0.0078125
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

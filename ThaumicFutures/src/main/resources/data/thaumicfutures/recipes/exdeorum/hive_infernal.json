@@ -1,0 +1,78 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicfutures:EX_ADVANCED_HIVES",
+  "center": {
+    "ingredient": {
+      "item": "thaumicfutures:infused_bee_trap"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:nether_bricks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_bricks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_bricks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_bricks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_bricks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_bricks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_bricks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_bricks"
+      }
+    }
+  ],
+  "aspects": {
+    "praecantatio": 64,
+    "bestia": 64,
+    "ignis": 32
+  },
+  "instability": 12,
+  "result": {
+    "item": "thaumicfutures:bee_hive_infernal"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

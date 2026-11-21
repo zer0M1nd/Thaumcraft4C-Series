@@ -1,0 +1,363 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICFUTURES",
+      "icon": "thaumicfutures:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicfutures:EX_SHARDS",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 2,
+          "displayRow": 0,
+          "complexity": 1,
+          "parents": [
+            "thaumicfutures:GUIDE_FUTURES"
+          ],
+          "pageCount": 1,
+          "aspects": {},
+          "omniverse_requires": [
+            "exdeorum"
+          ],
+          "icon_item": {
+            "item": "thaumcraft:air_shard"
+          },
+          "isAutoUnlock": true,
+          "isRound": true,
+          "isStub": true
+        },
+        {
+          "key": "thaumicfutures:EX_BARREL",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 9,
+          "displayRow": 1,
+          "complexity": 1,
+          "parents": [
+            "THAUMIUM"
+          ],
+          "parentMirrors": {
+            "THAUMIUM": "thaumicfutures:M_EX_THAUMIUM"
+          },
+          "pageCount": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "aqua": 10,
+            "praecantatio": 10,
+            "fabrico": 10
+          },
+          "omniverse_requires": [
+            "exdeorum"
+          ],
+          "icon_item": {
+            "item": "thaumicfutures:thaumium_barrel"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_HAMMER",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 9,
+          "displayRow": -1,
+          "complexity": 1,
+          "parents": [
+            "THAUMIUM"
+          ],
+          "parentMirrors": {
+            "THAUMIUM": "thaumicfutures:M_EX_THAUMIUM"
+          },
+          "pageCount": 2,
+          "aspects": {
+            "instrumentum": 10,
+            "praecantatio": 10
+          },
+          "omniverse_requires": [
+            "exdeorum"
+          ],
+          "icon_item": {
+            "item": "thaumicfutures:thaumium_hammer"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_DOLL",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 11,
+          "displayRow": 0,
+          "complexity": 1,
+          "parents": [
+            "thaumicfutures:EX_BARREL"
+          ],
+          "pageCount": 3,
+          "aspects": {
+            "spiritus": 10,
+            "lucrum": 10,
+            "praecantatio": 10
+          },
+          "omniverse_requires": [
+            "exdeorum"
+          ],
+          "icon_item": {
+            "item": "thaumicfutures:pech_doll"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_FREEZING_DOLL",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 11,
+          "displayRow": 2,
+          "complexity": 1,
+          "parents": [
+            "thaumicfutures:EX_BARREL"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "gelum": 2,
+            "spiritus": 2
+          },
+          "omniverse_requires": [
+            "exdeorum",
+            "thermal"
+          ],
+          "icon_item": {
+            "item": "thaumicfutures:freezing_doll"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_FILTER",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 4,
+          "displayRow": 1,
+          "complexity": 1,
+          "parents": [
+            "thaumicfutures:EX_SHARDS"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "ordo": 10,
+            "aqua": 10
+          },
+          "omniverse_requires": [
+            "exdeorum"
+          ],
+          "icon_item": {
+            "item": "thaumcraft:vis_filter"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_MATRIX",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 13,
+          "displayRow": -1,
+          "complexity": 1,
+          "parents": [
+            "INFUSION"
+          ],
+          "parentMirrors": {
+            "INFUSION": "thaumicfutures:M_EX_INFUSION"
+          },
+          "pageCount": 2,
+          "aspects": {
+            "praecantatio": 10,
+            "fabrico": 10
+          },
+          "omniverse_requires": [
+            "exdeorum"
+          ],
+          "icon_item": {
+            "item": "thaumcraft:infusion_matrix"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_SHIMMERLEAF",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 11,
+          "displayRow": -5,
+          "complexity": 1,
+          "parents": [
+            "CRUCIBLE"
+          ],
+          "parentMirrors": {
+            "CRUCIBLE": "thaumicfutures:M_EX_CRUCIBLE"
+          },
+          "pageCount": 2,
+          "aspects": {
+            "herba": 10,
+            "permutatio": 10
+          },
+          "omniverse_requires": [
+            "exdeorum"
+          ],
+          "icon_item": {
+            "item": "thaumcraft:shimmerleaf"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_CINDERPEARL",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 11,
+          "displayRow": -3,
+          "complexity": 1,
+          "parents": [
+            "CRUCIBLE"
+          ],
+          "parentMirrors": {
+            "CRUCIBLE": "thaumicfutures:M_EX_CRUCIBLE"
+          },
+          "pageCount": 2,
+          "aspects": {
+            "herba": 10,
+            "ignis": 10
+          },
+          "omniverse_requires": [
+            "exdeorum"
+          ],
+          "icon_item": {
+            "item": "thaumcraft:cinderpearl"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_VISHROOM",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 9,
+          "displayRow": -6,
+          "complexity": 1,
+          "parents": [
+            "CRUCIBLE"
+          ],
+          "parentMirrors": {
+            "CRUCIBLE": "thaumicfutures:M_EX_CRUCIBLE"
+          },
+          "pageCount": 2,
+          "aspects": {
+            "herba": 10,
+            "venenum": 10
+          },
+          "omniverse_requires": [
+            "exdeorum"
+          ],
+          "icon_item": {
+            "item": "thaumcraft:vishroom"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_GREATWOOD",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 15,
+          "displayRow": 2,
+          "complexity": 1,
+          "parents": [
+            "INFUSION"
+          ],
+          "parentMirrors": {
+            "INFUSION": "thaumicfutures:M_EX_INFUSION"
+          },
+          "pageCount": 2,
+          "aspects": {
+            "arbor": 10,
+            "herba": 20,
+            "praecantatio": 10
+          },
+          "omniverse_requires": [
+            "exdeorum"
+          ],
+          "icon_item": {
+            "item": "thaumcraft:greatwood_sapling"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_SILVERWOOD",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 15,
+          "displayRow": 4,
+          "complexity": 1,
+          "parents": [
+            "thaumicfutures:EX_GREATWOOD"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "praecantatio": 20,
+            "arbor": 20,
+            "ordo": 20,
+            "vacuos": 20
+          },
+          "omniverse_requires": [
+            "exdeorum"
+          ],
+          "icon_item": {
+            "item": "thaumcraft:silverwood_sapling"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_PORTAL",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 4,
+          "displayRow": -1,
+          "complexity": 1,
+          "parents": [
+            "VOIDMETAL",
+            "thaumicfutures:EX_SHARDS"
+          ],
+          "pageCount": 2,
+          "aspects": {
+            "praecantatio": 20,
+            "vacuos": 20,
+            "auram": 20,
+            "instrumentum": 20
+          },
+          "omniverse_requires": [
+            "exdeorum"
+          ],
+          "icon_item": {
+            "item": "thaumicfutures:eldritch_portal_spawner"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_HIVES",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 9,
+          "displayRow": 3,
+          "complexity": 1,
+          "parents": [
+            "thaumicfutures:EX_BARREL"
+          ],
+          "pageCount": 5,
+          "aspects": {
+            "bestia": 10,
+            "praecantatio": 10
+          },
+          "omniverse_requires": [
+            "exdeorum",
+            "forestry",
+            "mobees"
+          ],
+          "icon_item": {
+            "item": "thaumicfutures:infused_bee_trap"
+          }
+        },
+        {
+          "key": "thaumicfutures:EX_ADVANCED_HIVES",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 8,
+          "displayRow": 5,
+          "complexity": 1,
+          "parents": [
+            "thaumicfutures:EX_HIVES",
+            "INFUSION"
+          ],
+          "pageCount": 4,
+          "aspects": {
+            "bestia": 20,
+            "praecantatio": 20
+          },
+          "omniverse_requires": [
+            "exdeorum",
+            "forestry",
+            "mobees"
+          ],
+          "icon_item": {
+            "item": "thaumicfutures:bee_hive_deep"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicfutures:EX_SHARDS",
+      "omniverse_requires": [
+        "exdeorum"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_shards"
+          },
+          "id": "thaumicfutures:EX_SHARDS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_BARREL",
+      "omniverse_requires": [
+        "exdeorum"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_barrel"
+          },
+          "id": "thaumicfutures:EX_BARREL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/thaumium_barrel"
+            ]
+          },
+          "id": "thaumicfutures:EX_BARREL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_HAMMER",
+      "omniverse_requires": [
+        "exdeorum"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_hammer"
+          },
+          "id": "thaumicfutures:EX_HAMMER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/thaumium_hammer"
+            ]
+          },
+          "id": "thaumicfutures:EX_HAMMER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_DOLL",
+      "omniverse_requires": [
+        "exdeorum"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_doll"
+          },
+          "id": "thaumicfutures:EX_DOLL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/porcelain_doll"
+            ]
+          },
+          "id": "thaumicfutures:EX_DOLL/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/pech_doll"
+            ]
+          },
+          "id": "thaumicfutures:EX_DOLL/page/3",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_FREEZING_DOLL",
+      "omniverse_requires": [
+        "exdeorum",
+        "thermal"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_freezing_doll"
+          },
+          "id": "thaumicfutures:EX_FREEZING_DOLL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/freezing_doll"
+            ]
+          },
+          "id": "thaumicfutures:EX_FREEZING_DOLL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_FILTER",
+      "omniverse_requires": [
+        "exdeorum"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_filter"
+          },
+          "id": "thaumicfutures:EX_FILTER/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/vis_filter"
+            ]
+          },
+          "id": "thaumicfutures:EX_FILTER/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_MATRIX",
+      "omniverse_requires": [
+        "exdeorum"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_matrix"
+          },
+          "id": "thaumicfutures:EX_MATRIX/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/matrix"
+            ]
+          },
+          "id": "thaumicfutures:EX_MATRIX/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_SHIMMERLEAF",
+      "omniverse_requires": [
+        "exdeorum"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_shimmerleaf"
+          },
+          "id": "thaumicfutures:EX_SHIMMERLEAF/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/shimmerleaf"
+            ]
+          },
+          "id": "thaumicfutures:EX_SHIMMERLEAF/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_CINDERPEARL",
+      "omniverse_requires": [
+        "exdeorum"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_cinderpearl"
+          },
+          "id": "thaumicfutures:EX_CINDERPEARL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/cinderpearl"
+            ]
+          },
+          "id": "thaumicfutures:EX_CINDERPEARL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_VISHROOM",
+      "omniverse_requires": [
+        "exdeorum"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_vishroom"
+          },
+          "id": "thaumicfutures:EX_VISHROOM/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/vishroom"
+            ]
+          },
+          "id": "thaumicfutures:EX_VISHROOM/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_GREATWOOD",
+      "omniverse_requires": [
+        "exdeorum"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_greatwood"
+          },
+          "id": "thaumicfutures:EX_GREATWOOD/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/greatwood"
+            ]
+          },
+          "id": "thaumicfutures:EX_GREATWOOD/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_SILVERWOOD",
+      "omniverse_requires": [
+        "exdeorum"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_silverwood"
+          },
+          "id": "thaumicfutures:EX_SILVERWOOD/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/silverwood"
+            ]
+          },
+          "id": "thaumicfutures:EX_SILVERWOOD/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_PORTAL",
+      "omniverse_requires": [
+        "exdeorum"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_portal"
+          },
+          "id": "thaumicfutures:EX_PORTAL/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/eldritch_portal_spawner"
+            ]
+          },
+          "id": "thaumicfutures:EX_PORTAL/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_HIVES",
+      "omniverse_requires": [
+        "exdeorum",
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_hives"
+          },
+          "id": "thaumicfutures:EX_HIVES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/bee_trap"
+            ]
+          },
+          "id": "thaumicfutures:EX_HIVES/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/hive_curious"
+            ]
+          },
+          "id": "thaumicfutures:EX_HIVES/page/3",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/hive_unusual"
+            ]
+          },
+          "id": "thaumicfutures:EX_HIVES/page/4",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/hive_resonant"
+            ]
+          },
+          "id": "thaumicfutures:EX_HIVES/page/5",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:EX_ADVANCED_HIVES",
+      "omniverse_requires": [
+        "exdeorum",
+        "forestry",
+        "mobees"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "futures.page.ex_advanced_hives"
+          },
+          "id": "thaumicfutures:EX_ADVANCED_HIVES/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/hive_deep"
+            ]
+          },
+          "id": "thaumicfutures:EX_ADVANCED_HIVES/page/2",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/hive_infernal"
+            ]
+          },
+          "id": "thaumicfutures:EX_ADVANCED_HIVES/page/3",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:exdeorum/hive_oblivion"
+            ]
+          },
+          "id": "thaumicfutures:EX_ADVANCED_HIVES/page/4",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

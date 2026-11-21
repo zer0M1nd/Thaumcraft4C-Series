@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "modular_machinery_reborn"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "thaumicfutures:machine_vis_input_11"
+    },
+    {
+      "item": "thaumcraft:thaumium_ingot"
+    }
+  ],
+  "result": {
+    "item": "thaumicfutures:machine_vis_input_12"
+  }
+}

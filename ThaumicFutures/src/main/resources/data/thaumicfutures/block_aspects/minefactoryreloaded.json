@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "block": "industrialforegoing:biofuel",
+      "aspects": {
+        "aqua": 2,
+        "herba": 4,
+        "potentia": 2
+      }
+    },
+    {
+      "block": "industrialforegoing:essence",
+      "aspects": {
+        "aqua": 2,
+        "cognitio": 2,
+        "praecantatio": 4
+      }
+    },
+    {
+      "block": "industrialforegoing:meat",
+      "aspects": {
+        "aqua": 2,
+        "bestia": 2,
+        "corpus": 6
+      }
+    },
+    {
+      "block": "industrialforegoing:pink_slime",
+      "aspects": {
+        "aqua": 2,
+        "corpus": 4,
+        "limus": 4
+      }
+    },
+    {
+      "block": "industrialforegoing:sewage",
+      "aspects": {
+        "aqua": 2,
+        "bestia": 2,
+        "venenum": 4,
+        "vitium": 1
+      }
+    },
+    {
+      "block": "industrialforegoing:sludge",
+      "aspects": {
+        "aqua": 2,
+        "mortuus": 1,
+        "terra": 2,
+        "venenum": 4
+      }
+    }
+  ],
+  "required_any_mods": [
+    "industrialforegoing"
+  ]
+}

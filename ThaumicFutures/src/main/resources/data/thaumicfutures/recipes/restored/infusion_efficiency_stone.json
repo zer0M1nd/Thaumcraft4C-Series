@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:RESTORED_INFUSION_STONES",
+  "result": {
+    "item": "thaumicfutures:infusion_efficiency_stone"
+  },
+  "pattern": [
+    "SAS",
+    "AGA",
+    "SAS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "A": {
+      "item": "thaumcraft:alumentum"
+    },
+    "G": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "vis": {
+    "aer": 10,
+    "aqua": 10,
+    "perditio": 10
+  }
+}

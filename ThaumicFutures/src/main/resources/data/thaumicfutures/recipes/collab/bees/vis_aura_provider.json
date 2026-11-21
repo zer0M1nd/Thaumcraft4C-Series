@@ -1,0 +1,42 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:MB_VIS_AURA_PROVIDER",
+  "pattern": [
+    "ngn",
+    "gvg",
+    "npn"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:gold_nugget"
+    },
+    "g": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "v": {
+      "item": "thaumcraft:vis_relay"
+    },
+    "p": {
+      "item": "thaumicfutures:bee_pollen_unusual"
+    }
+  },
+  "vis": {
+    "ordo": 60,
+    "aer": 60,
+    "perditio": 60,
+    "aqua": 60
+  },
+  "result": {
+    "item": "thaumicfutures:vis_aura_provider"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

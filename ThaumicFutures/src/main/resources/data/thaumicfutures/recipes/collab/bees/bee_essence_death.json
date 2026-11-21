@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicomniverse:MB_ESSENCE_DEATH",
+  "catalyst": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "aspects": {
+    "mortuus": 4,
+    "perditio": 4
+  },
+  "result": {
+    "item": "thaumicfutures:bee_essence_death"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

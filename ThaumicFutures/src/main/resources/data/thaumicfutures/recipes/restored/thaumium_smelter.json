@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:RESTORED_SMELTER",
+  "result": {
+    "item": "thaumicfutures:thaumium_smelter"
+  },
+  "pattern": [
+    "BFB",
+    "IGI",
+    "III"
+  ],
+  "key": {
+    "B": {
+      "type": "thaumicfutures:preferred_material",
+      "tag": "forge:plates/alchemical_brass",
+      "fallback": {
+        "item": "thaumicfutures:alchemical_brass_ingot"
+      }
+    },
+    "F": {
+      "item": "thaumcraft:alchemy_furnace"
+    },
+    "I": {
+      "type": "thaumicfutures:preferred_material",
+      "tag": "forge:plates/thaumium",
+      "fallback": {
+        "item": "thaumcraft:thaumium_ingot"
+      }
+    },
+    "G": {
+      "item": "thaumcraft:alchemical_construct"
+    }
+  },
+  "vis": {
+    "ignis": 15
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicfutures:DIOPTRA",
+      "pages": [
+        {
+          "id": "thaumicfutures:DIOPTRA/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.dioptra.1"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:DIOPTRA/operation",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.dioptra.2"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:DIOPTRA/recipe",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:dioptra"
+            ]
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:ARCANEPATTERNCRAFTER",
+      "pages": [
+        {
+          "id": "thaumicfutures:ARCANEPATTERNCRAFTER/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.arcane_pattern_crafter.1"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:ARCANEPATTERNCRAFTER/operation",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.arcane_pattern_crafter.2"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:ARCANEPATTERNCRAFTER/recipe",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:arcane_pattern_crafter"
+            ]
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:BASICTURRET",
+      "pages": [
+        {
+          "id": "thaumicfutures:BASICTURRET/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.automated_crossbow.1"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:BASICTURRET/operation",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.automated_crossbow.2"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:BASICTURRET/recipe",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:automated_crossbow"
+            ]
+          },
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

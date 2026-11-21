@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:MB_SCOOP",
+  "pattern": [
+    "sWs",
+    "sTs",
+    " T "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    }
+  },
+  "vis": {
+    "ordo": 2
+  },
+  "result": {
+    "item": "thaumicfutures:thaumium_scoop"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "thaumicfutures:bee_pollen_unusual"
+    },
+    {
+      "item": "thaumicfutures:bee_pollen_unusual"
+    },
+    {
+      "item": "thaumicfutures:bee_drop_enchanted"
+    },
+    {
+      "item": "thaumicfutures:bee_drop_enchanted"
+    },
+    {
+      "item": "forestry:apiary"
+    }
+  ],
+  "result": {
+    "item": "thaumicfutures:magic_apiary"
+  }
+}

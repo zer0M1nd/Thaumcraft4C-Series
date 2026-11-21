@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:BRASS_EXCHANGE",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumicfutures:alchemical_brass_nugget"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "create:brass_nugget"
+    }
+  ],
+  "pattern": [
+    "N"
+  ],
+  "key": {
+    "N": {
+      "item": "thaumicfutures:alchemical_brass_nugget"
+    }
+  },
+  "vis": {
+    "ordo": 2,
+    "perditio": 2
+  },
+  "result": {
+    "item": "create:brass_nugget",
+    "count": 1
+  }
+}

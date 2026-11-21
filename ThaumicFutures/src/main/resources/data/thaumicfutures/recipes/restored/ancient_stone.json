@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:RESTORED_ANCIENT_ALTAR",
+  "result": {
+    "item": "thaumicfutures:ancient_stone",
+    "count": 8
+  },
+  "pattern": [
+    "SSS",
+    "SRS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "R": {
+      "item": "thaumcraft:thaumium_ingot"
+    }
+  },
+  "vis": {
+    "terra": 4,
+    "ordo": 2
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": [
+        "extrautilitiesreborn:chandelier"
+      ],
+      "aspects": [
+        {
+          "aspect": "lux",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "items": [
+        "extrautilitiesreborn:trash_can"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 4
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "items": [
+        "extrautilitiesreborn:unstable_ingot"
+      ],
+      "aspects": [
+        {
+          "aspect": "alienis",
+          "amount": 6
+        },
+        {
+          "aspect": "fabrico",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 4
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 3
+        },
+        {
+          "aspect": "potentia",
+          "amount": 16
+        },
+        {
+          "aspect": "spiritus",
+          "amount": 6
+        }
+      ]
+    }
+  ],
+  "required_any_mods": [
+    "extrautilitiesreborn"
+  ]
+}

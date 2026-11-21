@@ -1,0 +1,27 @@
+{
+  "type": "forestry:centrifuge",
+  "input": {
+    "item": "thaumicfutures:bee_comb_legacy_molten"
+  },
+  "time": 20,
+  "products": [
+    {
+      "item": "forestry:refractory_wax",
+      "chance": 0.86
+    },
+    {
+      "item": "forestry:honey_drop",
+      "chance": 0.087
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

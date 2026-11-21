@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicomniverse:MB_ESSENCE_UNSTABLE",
+  "catalyst": {
+    "item": "minecraft:netherrack"
+  },
+  "aspects": {
+    "perditio": 8,
+    "permutatio": 5
+  },
+  "result": {
+    "item": "thaumicfutures:bee_essence_unstable"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

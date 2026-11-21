@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:RESTORED_MATERIALS",
+  "result": {
+    "item": "thaumicfutures:morphic_resonator"
+  },
+  "pattern": [
+    " G ",
+    "BSB",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes"
+    },
+    "B": {
+      "type": "thaumicfutures:preferred_material",
+      "tag": "forge:plates/alchemical_brass",
+      "fallback": {
+        "item": "thaumicfutures:alchemical_brass_ingot"
+      }
+    },
+    "S": {
+      "item": "thaumicfutures:rare_earth"
+    }
+  },
+  "vis": {
+    "aer": 2,
+    "ignis": 2
+  }
+}

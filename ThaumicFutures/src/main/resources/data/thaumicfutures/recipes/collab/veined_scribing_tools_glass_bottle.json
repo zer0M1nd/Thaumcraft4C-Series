@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "evilcraft:blood_orb_filled"
+    }
+  ],
+  "result": {
+    "item": "thaumicfutures:veined_scribing_tools"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evilcraft"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": [
+        "totemic:cedar_leaves"
+      ],
+      "aspects": [
+        {
+          "aspect": "herba",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "totemic:cedar_log"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "totemic:cedar_planks"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "required_any_mods": [
+    "totemic"
+  ]
+}

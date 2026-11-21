@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "thaumicomniverse:BRASS_EXCHANGE",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thaumicfutures:alchemical_brass_nugget"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "create:brass_nugget"
+    }
+  ],
+  "pattern": [
+    "N"
+  ],
+  "key": {
+    "N": {
+      "item": "create:brass_nugget"
+    }
+  },
+  "vis": {
+    "aer": 1,
+    "aqua": 1,
+    "terra": 1,
+    "ignis": 1
+  },
+  "result": {
+    "item": "thaumicfutures:alchemical_brass_nugget",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicomniverse:RESTORED_CHARMS",
+  "result": {
+    "item": "thaumicfutures:cloud_ring"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_ring"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    }
+  ],
+  "aspects": {
+    "aer": 50
+  },
+  "instability": 1
+}

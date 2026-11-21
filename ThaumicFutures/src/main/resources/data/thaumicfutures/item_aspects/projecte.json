@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": [
+        "projecte:high_covalence_dust"
+      ],
+      "aspects": [
+        {
+          "aspect": "permutatio",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "items": [
+        "projecte:low_covalence_dust"
+      ],
+      "aspects": [
+        {
+          "aspect": "permutatio",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "projecte:medium_covalence_dust"
+      ],
+      "aspects": [
+        {
+          "aspect": "permutatio",
+          "amount": 3
+        }
+      ]
+    }
+  ],
+  "required_any_mods": [
+    "projecte"
+  ]
+}

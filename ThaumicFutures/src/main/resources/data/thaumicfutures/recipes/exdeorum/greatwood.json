@@ -1,0 +1,74 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicfutures:EX_GREATWOOD",
+  "center": {
+    "ingredient": {
+      "item": "minecraft:jungle_sapling"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "exdeorum:witch_water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "exdeorum:witch_water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:cinderpearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "exdeorum:witch_water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "exdeorum:witch_water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "exdeorum:witch_water_bucket"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:shimmerleaf"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "exdeorum:witch_water_bucket"
+      }
+    }
+  ],
+  "aspects": {
+    "arbor": 128,
+    "aer": 64,
+    "terra": 64,
+    "ignis": 64,
+    "aqua": 64,
+    "ordo": 64,
+    "perditio": 64
+  },
+  "instability": 10,
+  "result": {
+    "item": "thaumcraft:greatwood_sapling"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicfutures:EX_CINDERPEARL",
+  "catalyst": {
+    "item": "minecraft:dandelion"
+  },
+  "aspects": {
+    "praecantatio": 4,
+    "herba": 4,
+    "ignis": 4
+  },
+  "result": {
+    "item": "thaumcraft:cinderpearl"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

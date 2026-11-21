@@ -1,0 +1,100 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "down": "false"
+      },
+      "apply": {
+        "model": "thaumicfutures:block/machine_vis_output_15_down_off"
+      }
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": {
+        "model": "thaumicfutures:block/machine_vis_output_15_down_on"
+      }
+    },
+    {
+      "when": {
+        "up": "false"
+      },
+      "apply": {
+        "model": "thaumicfutures:block/machine_vis_output_15_up_off"
+      }
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "thaumicfutures:block/machine_vis_output_15_up_on"
+      }
+    },
+    {
+      "when": {
+        "north": "false"
+      },
+      "apply": {
+        "model": "thaumicfutures:block/machine_vis_output_15_north_off"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "thaumicfutures:block/machine_vis_output_15_north_on"
+      }
+    },
+    {
+      "when": {
+        "south": "false"
+      },
+      "apply": {
+        "model": "thaumicfutures:block/machine_vis_output_15_south_off"
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "thaumicfutures:block/machine_vis_output_15_south_on"
+      }
+    },
+    {
+      "when": {
+        "west": "false"
+      },
+      "apply": {
+        "model": "thaumicfutures:block/machine_vis_output_15_west_off"
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "thaumicfutures:block/machine_vis_output_15_west_on"
+      }
+    },
+    {
+      "when": {
+        "east": "false"
+      },
+      "apply": {
+        "model": "thaumicfutures:block/machine_vis_output_15_east_off"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "thaumicfutures:block/machine_vis_output_15_east_on"
+      }
+    }
+  ]
+}

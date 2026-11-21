@@ -1,0 +1,27 @@
+{
+  "type": "forestry:centrifuge",
+  "input": {
+    "item": "thaumicfutures:bee_comb_legacy_firey"
+  },
+  "time": 20,
+  "products": [
+    {
+      "item": "thaumicfutures:bee_wax_magic",
+      "chance": 1.0
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "chance": 0.6
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicfutures:FOCUSSHARD",
+      "pages": [
+        {
+          "id": "thaumicfutures:FOCUSSHARD/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.focus_shard.1"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:FOCUSSHARD/recipe",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:foci/focus_shard"
+            ]
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:FOCUSSHARD/details",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.focus_shard.2"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:FOCUSGRAPPLE",
+      "pages": [
+        {
+          "id": "thaumicfutures:FOCUSGRAPPLE/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.focus_grapple.1"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:FOCUSGRAPPLE/recipe",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:foci/focus_grapple"
+            ]
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:FOCUSGRAPPLE/details",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.focus_grapple.2"
+          },
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "thaumicfutures:FOCUSBUILDER",
+      "pages": [
+        {
+          "id": "thaumicfutures:FOCUSBUILDER/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.focus_builder.1"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:FOCUSBUILDER/recipe",
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:foci/focus_builder"
+            ]
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:FOCUSBUILDER/details",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.focus_builder.2"
+          },
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicfutures:bee_dust_chaos"
+    },
+    {
+      "item": "thaumicfutures:bee_dust_chaos"
+    },
+    {
+      "item": "thaumicfutures:bee_dust_chaos"
+    },
+    {
+      "item": "thaumicfutures:bee_dust_chaos"
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:entropy_shard"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

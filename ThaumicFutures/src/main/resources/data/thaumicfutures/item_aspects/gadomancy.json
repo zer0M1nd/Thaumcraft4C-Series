@@ -1,0 +1,235 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": [
+        "gadomancy:arcane_package"
+      ],
+      "aspects": [
+        {
+          "aspect": "bestia",
+          "amount": 2
+        },
+        {
+          "aspect": "pannus",
+          "amount": 2
+        },
+        {
+          "aspect": "tutamen",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "gadomancy:arcane_packager"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 10
+        },
+        {
+          "aspect": "auram",
+          "amount": 12
+        },
+        {
+          "aspect": "fabrico",
+          "amount": 8
+        },
+        {
+          "aspect": "machina",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "items": [
+        "gadomancy:aura_core_aer"
+      ],
+      "aspects": [
+        {
+          "aspect": "aer",
+          "amount": 26
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "items": [
+        "gadomancy:aura_core_aqua"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 26
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "items": [
+        "gadomancy:aura_core_blank"
+      ],
+      "aspects": [
+        {
+          "aspect": "praecantatio",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "items": [
+        "gadomancy:aura_core_ignis"
+      ],
+      "aspects": [
+        {
+          "aspect": "ignis",
+          "amount": 26
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "items": [
+        "gadomancy:aura_core_ordo"
+      ],
+      "aspects": [
+        {
+          "aspect": "ordo",
+          "amount": 26
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "items": [
+        "gadomancy:aura_core_perditio"
+      ],
+      "aspects": [
+        {
+          "aspect": "perditio",
+          "amount": 26
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "items": [
+        "gadomancy:aura_core_terra"
+      ],
+      "aspects": [
+        {
+          "aspect": "praecantatio",
+          "amount": 6
+        },
+        {
+          "aspect": "terra",
+          "amount": 26
+        }
+      ]
+    },
+    {
+      "items": [
+        "gadomancy:aura_pylon"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 10
+        },
+        {
+          "aspect": "machina",
+          "amount": 4
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 12
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "gadomancy:aura_pylon_cap"
+      ],
+      "aspects": [
+        {
+          "aspect": "auram",
+          "amount": 12
+        },
+        {
+          "aspect": "ignis",
+          "amount": 10
+        },
+        {
+          "aspect": "lux",
+          "amount": 4
+        },
+        {
+          "aspect": "machina",
+          "amount": 4
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "items": [
+        "gadomancy:disguised_package"
+      ],
+      "aspects": [
+        {
+          "aspect": "pannus",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "gadomancy:knowledge_book"
+      ],
+      "aspects": [
+        {
+          "aspect": "cognitio",
+          "amount": 8
+        },
+        {
+          "aspect": "machina",
+          "amount": 4
+        },
+        {
+          "aspect": "ordo",
+          "amount": 4
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 6
+        }
+      ]
+    }
+  ],
+  "required_any_mods": [
+    "gadomancy"
+  ]
+}

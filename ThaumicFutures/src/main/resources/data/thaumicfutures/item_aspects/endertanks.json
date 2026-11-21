@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": [
+        "endertanks:ender_bucket"
+      ],
+      "aspects": [
+        {
+          "aspect": "alienis",
+          "amount": 5
+        },
+        {
+          "aspect": "instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "pannus",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 3
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "items": [
+        "endertanks:ender_tank"
+      ],
+      "aspects": [
+        {
+          "aspect": "alienis",
+          "amount": 5
+        },
+        {
+          "aspect": "machina",
+          "amount": 3
+        },
+        {
+          "aspect": "metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "pannus",
+          "amount": 1
+        },
+        {
+          "aspect": "permutatio",
+          "amount": 3
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 5
+        }
+      ]
+    }
+  ],
+  "required_any_mods": [
+    "endertanks"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicfutures:EX_VISHROOM",
+  "catalyst": {
+    "item": "minecraft:brown_mushroom"
+  },
+  "aspects": {
+    "praecantatio": 4,
+    "herba": 4,
+    "venenum": 4
+  },
+  "result": {
+    "item": "thaumcraft:vishroom"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

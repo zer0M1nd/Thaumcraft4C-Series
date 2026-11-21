@@ -1,0 +1,640 @@
+[
+  {
+    "name": "attuned",
+    "legacy_name": "Attuned",
+    "latin": "similis",
+    "genus": "veiled",
+    "colors": [
+      34472,
+      16743462
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": false,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_mundane",
+        "chance": 0.15,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "infernal",
+    "legacy_name": "Infernal",
+    "latin": "infernales",
+    "genus": "abominable",
+    "colors": [
+      16718876,
+      9834240
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "HELLISH",
+    "humidity": "ARID",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_molten",
+        "chance": 0.12,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "eldritch",
+    "legacy_name": "Eldritch",
+    "latin": "prodigiosus",
+    "genus": "veiled",
+    "colors": [
+      9270688,
+      16743462
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_mundane",
+        "chance": 0.15,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "charmed",
+    "legacy_name": "Charmed",
+    "latin": "larvatus",
+    "genus": "supernatural",
+    "colors": [
+      4779756,
+      16751968
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_otherworldly",
+        "chance": 0.18,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "enchanted",
+    "legacy_name": "Enchanted",
+    "latin": "cantatus",
+    "genus": "supernatural",
+    "colors": [
+      1632038,
+      16751968
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_otherworldly",
+        "chance": 0.2,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "supernatural",
+    "legacy_name": "Supernatural",
+    "latin": "coeleste",
+    "genus": "supernatural",
+    "colors": [
+      22036,
+      16751968
+    ],
+    "glint": true,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_otherworldly",
+        "chance": 0.25,
+        "specialty": false
+      },
+      {
+        "item": "thaumicfutures:bee_pollen_unusual",
+        "chance": 0.08,
+        "specialty": true
+      }
+    ]
+  },
+  {
+    "name": "ethereal",
+    "legacy_name": "Ethereal",
+    "latin": "diaphanum",
+    "genus": "magical",
+    "colors": [
+      12204859,
+      15726847
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_occult",
+        "chance": 0.1,
+        "specialty": false
+      },
+      {
+        "item": "thaumicfutures:bee_comb_legacy_otherworldly",
+        "chance": 0.1,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "windy",
+    "legacy_name": "Windy",
+    "latin": "ventosum",
+    "genus": "magical",
+    "colors": [
+      16776634,
+      16743462
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_airy",
+        "chance": 0.25,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "firey",
+    "legacy_name": "Firey",
+    "latin": "ardens",
+    "genus": "magical",
+    "colors": [
+      13848857,
+      16743462
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_firey",
+        "chance": 0.25,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "watery",
+    "legacy_name": "Watery",
+    "latin": "aquatilis",
+    "genus": "magical",
+    "colors": [
+      3226718,
+      16743462
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_watery",
+        "chance": 0.25,
+        "specialty": false
+      },
+      {
+        "item": "minecraft:ice",
+        "chance": 0.025,
+        "specialty": true
+      }
+    ]
+  },
+  {
+    "name": "earthy",
+    "legacy_name": "Earthen",
+    "latin": "fictili",
+    "genus": "magical",
+    "colors": [
+      7897645,
+      16743462
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_earthy",
+        "chance": 0.25,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "skulking",
+    "legacy_name": "Skulking",
+    "latin": "malevolens",
+    "genus": "skulking",
+    "colors": [
+      5392423,
+      14766646
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_furtive",
+        "chance": 0.1,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "batty",
+    "legacy_name": "TCBatty",
+    "latin": "chiroptera",
+    "genus": "fleshy",
+    "colors": [
+      5982251,
+      2562831
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_furtive",
+        "chance": 0.1,
+        "specialty": false
+      },
+      {
+        "item": "minecraft:string",
+        "chance": 1e-05,
+        "specialty": true
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "chance": 0.04,
+        "specialty": true
+      }
+    ]
+  },
+  {
+    "name": "ghastly",
+    "legacy_name": "Ghastly",
+    "latin": "pallens",
+    "genus": "skulking",
+    "colors": [
+      13421806,
+      12552060
+    ],
+    "glint": false,
+    "dominant": false,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_furtive",
+        "chance": 0.08,
+        "specialty": false
+      },
+      {
+        "item": "minecraft:ghast_tear",
+        "chance": 0.099,
+        "specialty": true
+      }
+    ]
+  },
+  {
+    "name": "bigbad",
+    "legacy_name": "BigBad",
+    "latin": "magnumalum",
+    "genus": "skulking",
+    "colors": [
+      11088971,
+      4535606
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": false,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_furtive",
+        "chance": 0.18,
+        "specialty": false
+      },
+      {
+        "item": "minecraft:beef",
+        "chance": 0.12,
+        "specialty": false
+      },
+      {
+        "item": "minecraft:chicken",
+        "chance": 0.12,
+        "specialty": false
+      },
+      {
+        "item": "minecraft:melon_slice",
+        "chance": 0.2,
+        "specialty": true
+      }
+    ]
+  },
+  {
+    "name": "mutable",
+    "legacy_name": "Mutable",
+    "latin": "mutable",
+    "genus": "transmuting",
+    "colors": [
+      14398028,
+      14734758
+    ],
+    "glint": false,
+    "dominant": false,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "forestry:bee_comb_parched",
+        "chance": 0.3,
+        "specialty": false
+      },
+      {
+        "item": "thaumicfutures:bee_comb_legacy_transmuted",
+        "chance": 0.1,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "transmuting",
+    "legacy_name": "Transmuting",
+    "latin": "transmuting",
+    "genus": "transmuting",
+    "colors": [
+      14398028,
+      10670808
+    ],
+    "glint": false,
+    "dominant": false,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "forestry:bee_comb_parched",
+        "chance": 0.1,
+        "specialty": false
+      },
+      {
+        "item": "thaumicfutures:bee_comb_legacy_transmuted",
+        "chance": 0.3,
+        "specialty": false
+      },
+      {
+        "item": "forestry:bee_comb_silky",
+        "chance": 0.05,
+        "specialty": false
+      },
+      {
+        "item": "forestry:bee_comb_simmering",
+        "chance": 0.05,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "brainy",
+    "legacy_name": "TCBrainy",
+    "latin": "cerebrum",
+    "genus": "skulking",
+    "colors": [
+      8650608,
+      14766646
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_furtive",
+        "chance": 0.1,
+        "specialty": false
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "chance": 0.06,
+        "specialty": false
+      },
+      {
+        "item": "thaumcraft:zombie_brain",
+        "chance": 0.02,
+        "specialty": true
+      }
+    ]
+  },
+  {
+    "name": "chicken",
+    "legacy_name": "TCChicken",
+    "latin": "pullus",
+    "genus": "fleshy",
+    "colors": [
+      16711680,
+      13882323
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_furtive",
+        "chance": 0.23,
+        "specialty": false
+      },
+      {
+        "item": "minecraft:feather",
+        "chance": 0.08,
+        "specialty": true
+      },
+      {
+        "item": "minecraft:egg",
+        "chance": 0.08,
+        "specialty": true
+      },
+      {
+        "item": "thaumcraft:chicken_nugget",
+        "chance": 0.09,
+        "specialty": true
+      }
+    ]
+  },
+  {
+    "name": "beef",
+    "legacy_name": "TCBeef",
+    "latin": "bubulae",
+    "genus": "fleshy",
+    "colors": [
+      12040119,
+      4141092
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_furtive",
+        "chance": 0.25,
+        "specialty": false
+      },
+      {
+        "item": "minecraft:leather",
+        "chance": 0.165,
+        "specialty": true
+      },
+      {
+        "item": "thaumcraft:beef_nugget",
+        "chance": 0.09,
+        "specialty": true
+      }
+    ]
+  },
+  {
+    "name": "pork",
+    "legacy_name": "TCPork",
+    "latin": "porcina",
+    "genus": "fleshy",
+    "colors": [
+      15838892,
+      14648443
+    ],
+    "glint": false,
+    "dominant": true,
+    "secret": true,
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_furtive",
+        "chance": 0.1,
+        "specialty": false
+      },
+      {
+        "item": "minecraft:carrot",
+        "chance": 0.165,
+        "specialty": true
+      },
+      {
+        "item": "thaumcraft:pork_nugget",
+        "chance": 0.09,
+        "specialty": true
+      }
+    ]
+  },
+  {
+    "name": "mystical",
+    "legacy_name": "Mystical",
+    "latin": "mysticum",
+    "genus": "veiled",
+    "colors": [
+      11534263,
+      16743462
+    ],
+    "temperature": "NORMAL",
+    "humidity": "NORMAL",
+    "secret": false,
+    "dominant": true,
+    "glint": false,
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_mundane",
+        "chance": 0.15,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "sorcerous",
+    "legacy_name": "Sorcerous",
+    "latin": "fascinatio",
+    "genus": "veiled",
+    "colors": [
+      15375002,
+      16743462
+    ],
+    "temperature": "HOT",
+    "humidity": "ARID",
+    "secret": false,
+    "dominant": true,
+    "glint": false,
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_mundane",
+        "chance": 0.15,
+        "specialty": false
+      }
+    ]
+  },
+  {
+    "name": "oblivion",
+    "legacy_name": "Oblivion",
+    "latin": "oblivioni",
+    "genus": "extrinsic",
+    "colors": [
+      14009317,
+      16160511
+    ],
+    "temperature": "COLD",
+    "humidity": "NORMAL",
+    "secret": true,
+    "dominant": false,
+    "glint": false,
+    "products": [
+      {
+        "item": "thaumicfutures:bee_comb_legacy_forgotten",
+        "chance": 0.14,
+        "specialty": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicomniverse:RESTORED_PARADOX",
+  "result": {
+    "item": "thaumicfutures:paradox_matter"
+  },
+  "center": {
+    "ingredient": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumicfutures:morphic_resonator"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "thaumicfutures:nitor"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumicfutures:vis_resonator"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:alumentum"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "thaumicfutures:nitor"
+      }
+    }
+  ],
+  "aspects": {
+    "alienis": 50,
+    "vitium": 50
+  },
+  "instability": 8
+}

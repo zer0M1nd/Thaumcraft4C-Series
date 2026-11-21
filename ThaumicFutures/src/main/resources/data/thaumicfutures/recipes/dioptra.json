@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "thaumicfutures:DIOPTRA",
+  "pattern": [
+    "APA",
+    "IGI",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "P": {
+      "item": "thaumcraft:arcane_stone_slab"
+    },
+    "G": {
+      "item": "thaumcraft:goggles"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:dioptra"
+  },
+  "vis": {
+    "aer": 6.25,
+    "terra": 6.25,
+    "ordo": 6.25
+  }
+}

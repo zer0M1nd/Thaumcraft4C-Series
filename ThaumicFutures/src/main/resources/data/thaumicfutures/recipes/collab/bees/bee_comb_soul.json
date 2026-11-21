@@ -1,0 +1,27 @@
+{
+  "type": "forestry:centrifuge",
+  "input": {
+    "item": "thaumicfutures:bee_comb_soul"
+  },
+  "time": 20,
+  "products": [
+    {
+      "item": "thaumicfutures:bee_wax_soul",
+      "chance": 0.95
+    },
+    {
+      "item": "forestry:honeydew",
+      "chance": 0.26
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

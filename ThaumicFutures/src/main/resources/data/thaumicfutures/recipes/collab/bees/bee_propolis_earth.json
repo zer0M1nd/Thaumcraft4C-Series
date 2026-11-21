@@ -1,0 +1,27 @@
+{
+  "type": "forestry:centrifuge",
+  "input": {
+    "item": "thaumicfutures:bee_propolis_earth"
+  },
+  "time": 8,
+  "products": [
+    {
+      "item": "forestry:propolis_normal",
+      "chance": 1.0
+    },
+    {
+      "item": "thaumicfutures:bee_dust_earth",
+      "chance": 0.9
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

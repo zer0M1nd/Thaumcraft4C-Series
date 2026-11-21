@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "thaumicfutures:EX_DOLL",
+  "catalyst": {
+    "item": "thaumicfutures:porcelain_doll"
+  },
+  "aspects": {
+    "praecantatio": 8,
+    "spiritus": 8,
+    "lucrum": 8
+  },
+  "result": {
+    "item": "thaumicfutures:pech_doll"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

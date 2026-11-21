@@ -1,0 +1,71 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicfutures:EX_SILVERWOOD",
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:greatwood_sapling"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mana_bean"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mana_bean"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mana_bean"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:mana_bean"
+      }
+    }
+  ],
+  "aspects": {
+    "permutatio": 64,
+    "praecantatio": 64,
+    "vitreus": 64,
+    "arbor": 128
+  },
+  "instability": 12,
+  "result": {
+    "item": "thaumcraft:silverwood_sapling"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "thaumicfutures:feature",
+      "group": "EX_DEORUM"
+    }
+  ]
+}

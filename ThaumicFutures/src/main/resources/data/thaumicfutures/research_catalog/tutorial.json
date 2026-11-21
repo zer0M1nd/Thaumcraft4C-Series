@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_THAUMICFUTURES",
+          "category": "TUTORIAL",
+          "displayColumn": 42,
+          "displayRow": -3,
+          "parents": [
+            "TUT_CRUCIBLE",
+            "CRUCIBLE"
+          ],
+          "icon_item": {
+            "item": "thaumicfutures:alchemical_brass_ingot",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumicfutures"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "ALCHEMICALBRASS",
+            "thaumicfutures:FOCUSTURRET",
+            "thaumicfutures:FOCUSGRAPPLE",
+            "thaumicomniverse:RESTORED_ANCIENT_ALTAR"
+          ],
+          "pageCount": 9,
+          "parentMirrors": {
+            "CRUCIBLE": "TUT_ADDON_THAUMICFUTURES_PREREQUISITE_1"
+          }
+        },
+        {
+          "key": "TUT_ADDON_THAUMICFUTURES_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 41,
+          "displayRow": -4,
+          "mirrorOf": "CRUCIBLE",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "thaumicfutures"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

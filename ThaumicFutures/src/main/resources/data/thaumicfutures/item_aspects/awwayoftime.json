@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": [
+        "bloodmagic:apprenticebloodorb"
+      ],
+      "aspects": [
+        {
+          "aspect": "praecantatio",
+          "amount": 4
+        },
+        {
+          "aspect": "victus",
+          "amount": 4
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "bloodmagic:archmagebloodorb"
+      ],
+      "aspects": [
+        {
+          "aspect": "forbidden_magic:infernus",
+          "amount": 4
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 8
+        },
+        {
+          "aspect": "victus",
+          "amount": 32
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "bloodmagic:life_essence_bucket"
+      ],
+      "aspects": [
+        {
+          "aspect": "metallum",
+          "amount": 8
+        },
+        {
+          "aspect": "vacuos",
+          "amount": 1
+        },
+        {
+          "aspect": "victus",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "bloodmagic:magicianbloodorb"
+      ],
+      "aspects": [
+        {
+          "aspect": "praecantatio",
+          "amount": 6
+        },
+        {
+          "aspect": "victus",
+          "amount": 6
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "bloodmagic:masterbloodorb"
+      ],
+      "aspects": [
+        {
+          "aspect": "praecantatio",
+          "amount": 8
+        },
+        {
+          "aspect": "victus",
+          "amount": 16
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "items": [
+        "bloodmagic:weakbloodorb"
+      ],
+      "aspects": [
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        },
+        {
+          "aspect": "victus",
+          "amount": 2
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 4
+        }
+      ]
+    }
+  ],
+  "required_any_mods": [
+    "bloodmagic"
+  ]
+}

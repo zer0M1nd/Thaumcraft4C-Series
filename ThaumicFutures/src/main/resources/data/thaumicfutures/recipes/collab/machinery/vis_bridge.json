@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "modular_machinery_reborn"
+    }
+  ],
+  "pattern": [
+    "TRT",
+    "ROR",
+    "TRT"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "R": {
+      "item": "thaumcraft:vis_relay"
+    },
+    "O": {
+      "item": "thaumicfutures:machine_vis_output_1"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:machine_vis_bridge"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicomniverse:RESTORED_VOIDSEER",
+  "result": {
+    "item": "thaumicfutures:voidseer_pearl"
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_amulet"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:zombie_brain"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primordial_pearl"
+      }
+    }
+  ],
+  "aspects": {
+    "cognitio": 150,
+    "vacuos": 150,
+    "praecantatio": 100
+  },
+  "instability": 8
+}

@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "block": "automagy:milk_fluid",
+      "aspects": {
+        "aqua": 2,
+        "fames": 2,
+        "sano": 2
+      }
+    },
+    {
+      "block": "automagy:mushroom_fluid",
+      "aspects": {
+        "aqua": 1,
+        "fames": 3,
+        "herba": 1,
+        "tenebrae": 1
+      }
+    },
+    {
+      "block": "automagy:vishroom_fluid",
+      "aspects": {
+        "aqua": 1,
+        "fames": 3,
+        "herba": 1,
+        "praecantatio": 2,
+        "tenebrae": 1,
+        "venenum": 1
+      }
+    }
+  ],
+  "required_any_mods": [
+    "automagy"
+  ]
+}

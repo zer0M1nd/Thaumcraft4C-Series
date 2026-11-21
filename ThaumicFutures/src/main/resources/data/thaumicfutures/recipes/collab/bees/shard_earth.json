@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicfutures:bee_dust_earth"
+    },
+    {
+      "item": "thaumicfutures:bee_dust_earth"
+    },
+    {
+      "item": "thaumicfutures:bee_dust_earth"
+    },
+    {
+      "item": "thaumicfutures:bee_dust_earth"
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:earth_shard"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": [
+        "salt:rock_salt_ore"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "lux",
+          "amount": 1
+        },
+        {
+          "aspect": "pannus",
+          "amount": 1
+        },
+        {
+          "aspect": "terra",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "items": [
+        "salt:salt"
+      ],
+      "aspects": [
+        {
+          "aspect": "aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "lux",
+          "amount": 1
+        },
+        {
+          "aspect": "pannus",
+          "amount": 1
+        },
+        {
+          "aspect": "perditio",
+          "amount": 1
+        },
+        {
+          "aspect": "vitreus",
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "required_any_mods": [
+    "salt"
+  ]
+}

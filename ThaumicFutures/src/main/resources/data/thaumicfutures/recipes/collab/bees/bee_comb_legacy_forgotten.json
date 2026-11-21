@@ -1,0 +1,31 @@
+{
+  "type": "forestry:centrifuge",
+  "input": {
+    "item": "thaumicfutures:bee_comb_legacy_forgotten"
+  },
+  "time": 20,
+  "products": [
+    {
+      "item": "thaumicfutures:bee_wax_amnesic",
+      "chance": 0.5
+    },
+    {
+      "item": "forestry:propolis_pulsating",
+      "chance": 0.5
+    },
+    {
+      "item": "forestry:honey_drop",
+      "chance": 0.4
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

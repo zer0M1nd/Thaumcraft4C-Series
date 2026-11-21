@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:BRASS_EXCHANGE",
+      "omniverse_requires": [
+        "create"
+      ],
+      "omniverse_items": [
+        "thaumicfutures:alchemical_brass_nugget",
+        "create:brass_nugget"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.brass_exchange"
+          },
+          "id": "thaumicomniverse:BRASS_EXCHANGE/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/alchemical_to_create_brass_nugget"
+            ]
+          },
+          "id": "thaumicomniverse:BRASS_EXCHANGE/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:restored/create_to_alchemical_brass_nugget"
+            ]
+          },
+          "id": "thaumicomniverse:BRASS_EXCHANGE/page/3",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

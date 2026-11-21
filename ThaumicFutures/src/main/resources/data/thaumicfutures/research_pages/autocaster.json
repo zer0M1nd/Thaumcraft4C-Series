@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicfutures:FOCUSTURRET",
+      "pages": [
+        {
+          "id": "thaumicfutures:FOCUSTURRET/intro",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.autocaster.intro"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:FOCUSTURRET/supply",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.autocaster.supply"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:FOCUSTURRET/targets",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumicfutures.page.autocaster.targets"
+          },
+          "page_break": true
+        },
+        {
+          "id": "thaumicfutures:FOCUSTURRET/recipe",
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:autocaster"
+            ]
+          },
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

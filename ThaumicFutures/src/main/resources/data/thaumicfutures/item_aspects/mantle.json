@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "items": [
+        "mantle:mantle_book"
+      ],
+      "aspects": [
+        {
+          "aspect": "arbor",
+          "amount": 3
+        },
+        {
+          "aspect": "cognitio",
+          "amount": 6
+        },
+        {
+          "aspect": "praecantatio",
+          "amount": 2
+        }
+      ]
+    }
+  ],
+  "required_any_mods": [
+    "mantle"
+  ]
+}

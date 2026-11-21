@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hostilenetworks"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "thaumcraft:eldritch_stone"
+    },
+    {
+      "tag": "forge:dyes/black"
+    },
+    {
+      "item": "thaumicomniverse:outerlands_prediction"
+    }
+  ],
+  "result": {
+    "item": "thaumcraft:eldritch_glyphed_stone",
+    "count": 4
+  }
+}

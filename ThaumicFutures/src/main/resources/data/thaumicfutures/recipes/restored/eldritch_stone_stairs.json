@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "SS ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumicfutures:eldritch_stone"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:eldritch_stone_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "AlchemicalBrass",
+      "class": "thaumcraft.api.crafting.CrucibleRecipe",
+      "data": {
+        "kind": "crucible",
+        "research": "ALCHEMICALBRASS",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:copper_ingot",
+            "count": 1
+          }
+        },
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumicfutures:alchemical_brass_ingot",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "instrumentum": 6
+        }
+      }
+    }
+  ]
+}

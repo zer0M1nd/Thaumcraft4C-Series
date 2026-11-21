@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICFUTURES",
+      "icon": "thaumicfutures:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicomniverse:RESTORED_MATERIALS",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -10,
+          "displayRow": -4,
+          "icon_item": {
+            "item": "thaumicfutures:vis_resonator"
+          },
+          "parents": [
+            "ALCHEMICALBRASS"
+          ],
+          "complexity": 2,
+          "aspects": {
+            "metallum": 3,
+            "praecantatio": 3
+          },
+          "pageCount": 3,
+          "future_layout_group": "create"
+        },
+        {
+          "key": "thaumicomniverse:RESTORED_SPONGE",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -9,
+          "displayRow": 0,
+          "icon_item": {
+            "item": "thaumicfutures:thaumic_sponge"
+          },
+          "parents": [
+            "CRUCIBLE"
+          ],
+          "parentMirrors": {
+            "CRUCIBLE": "thaumicfutures:M_TC6_CRUCIBLE"
+          },
+          "complexity": 2,
+          "aspects": {
+            "aqua": 3,
+            "vitium": 3,
+            "permutatio": 3
+          },
+          "pageCount": 3
+        },
+        {
+          "key": "thaumicomniverse:RESTORED_URN",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -7,
+          "displayRow": 1,
+          "icon_item": {
+            "item": "thaumicfutures:everfull_urn"
+          },
+          "parents": [
+            "CRUCIBLE"
+          ],
+          "parentMirrors": {
+            "CRUCIBLE": "thaumicfutures:M_TC6_CRUCIBLE"
+          },
+          "complexity": 2,
+          "aspects": {
+            "aqua": 4,
+            "vacuos": 3
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicomniverse:RESTORED_SMELTER",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -4,
+          "displayRow": 1,
+          "icon_item": {
+            "item": "thaumicfutures:thaumium_smelter"
+          },
+          "parents": [
+            "DISTILESSENTIA",
+            "thaumicfutures:GUIDE_TC6"
+          ],
+          "complexity": 2,
+          "aspects": {
+            "ignis": 4,
+            "metallum": 4,
+            "permutatio": 3
+          },
+          "pageCount": 4
+        },
+        {
+          "key": "thaumicomniverse:RESTORED_TRANSCEIVER",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -2,
+          "displayRow": -4,
+          "icon_item": {
+            "item": "thaumicfutures:essentia_extractor"
+          },
+          "parents": [
+            "INFUSION",
+            "TUBEFILTER"
+          ],
+          "parentMirrors": {
+            "INFUSION": "thaumicfutures:M_TC6_INFUSION"
+          },
+          "complexity": 2,
+          "aspects": {
+            "aqua": 3,
+            "motus": 4,
+            "praecantatio": 3
+          },
+          "pageCount": 3
+        },
+        {
+          "key": "thaumicomniverse:RESTORED_CHARMS",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -2,
+          "displayRow": -6,
+          "icon_item": {
+            "item": "thaumicfutures:cloud_ring"
+          },
+          "parents": [
+            "INFUSION"
+          ],
+          "parentMirrors": {
+            "INFUSION": "thaumicfutures:M_TC6_INFUSION"
+          },
+          "complexity": 2,
+          "aspects": {
+            "volatus": 4,
+            "victus": 4,
+            "praecantatio": 3
+          },
+          "pageCount": 3
+        },
+        {
+          "key": "thaumicomniverse:RESTORED_VOIDSEER",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -10,
+          "displayRow": -7,
+          "icon_item": {
+            "item": "thaumicfutures:voidseer_pearl"
+          },
+          "parents": [
+            "ELDRITCHMAJOR"
+          ],
+          "parentMirrors": {
+            "ELDRITCHMAJOR": "thaumicfutures:M_TC6_ELDRITCHMAJOR"
+          },
+          "complexity": 2,
+          "aspects": {
+            "alienis": 5,
+            "praecantatio": 4,
+            "vacuos": 4
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicomniverse:RESTORED_PARADOX",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -8,
+          "displayRow": -8,
+          "icon_item": {
+            "item": "thaumicfutures:paradox_matter"
+          },
+          "parents": [
+            "ELDRITCHMAJOR"
+          ],
+          "parentMirrors": {
+            "ELDRITCHMAJOR": "thaumicfutures:M_TC6_ELDRITCHMAJOR"
+          },
+          "complexity": 2,
+          "aspects": {
+            "alienis": 4,
+            "perditio": 4
+          },
+          "pageCount": 2
+        },
+        {
+          "key": "thaumicomniverse:RESTORED_CELESTIAL",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -9,
+          "displayRow": 3,
+          "icon_item": {
+            "item": "thaumicfutures:celestial_notes_sun"
+          },
+          "parents": [
+            "THAUMOMETER"
+          ],
+          "parentMirrors": {
+            "THAUMOMETER": "thaumicfutures:M_TC6_THAUMOMETER"
+          },
+          "complexity": 2,
+          "aspects": {
+            "sensus": 3,
+            "cognitio": 3,
+            "lux": 3
+          },
+          "pageCount": 1
+        },
+        {
+          "key": "thaumicomniverse:RESTORED_NITOR",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -4,
+          "displayRow": -1,
+          "icon_item": {
+            "item": "thaumicfutures:purple_nitor"
+          },
+          "parents": [
+            "NITOR",
+            "thaumicfutures:GUIDE_TC6"
+          ],
+          "complexity": 2,
+          "aspects": {
+            "lux": 3,
+            "sensus": 3
+          },
+          "pageCount": 1
+        },
+        {
+          "key": "thaumicomniverse:RESTORED_CURIOS",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -9,
+          "displayRow": 5,
+          "icon_item": {
+            "item": "thaumicfutures:curio_arcane"
+          },
+          "parents": [
+            "THAUMOMETER"
+          ],
+          "parentMirrors": {
+            "THAUMOMETER": "thaumicfutures:M_TC6_THAUMOMETER"
+          },
+          "complexity": 2,
+          "aspects": {
+            "cognitio": 4,
+            "sensus": 3
+          },
+          "pageCount": 1
+        }
+      ]
+    }
+  ]
+}

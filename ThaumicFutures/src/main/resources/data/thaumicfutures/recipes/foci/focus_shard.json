@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "thaumicfutures:FOCUSSHARD",
+  "pattern": [
+    "AQE",
+    "QDQ",
+    "FQP"
+  ],
+  "key": {
+    "A": {
+      "item": "thaumcraft:air_shard"
+    },
+    "E": {
+      "item": "thaumcraft:entropy_shard"
+    },
+    "F": {
+      "item": "thaumcraft:fire_shard"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "thaumicfutures:focus_shard"
+  },
+  "vis": {
+    "ignis": 12.5,
+    "perditio": 12.5,
+    "aer": 12.5
+  }
+}

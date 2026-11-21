@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "THAUMICFUTURES",
+      "icon": "thaumicfutures:textures/gui/research_category.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "thaumicfutures:FOCUSSHARD",
+          "category": "THAUMICFUTURES",
+          "displayColumn": -1,
+          "displayRow": -8,
+          "icon_item": {
+            "item": "thaumicfutures:focus_shard"
+          },
+          "parents": [
+            "FOCUSSHOCK"
+          ],
+          "parentMirrors": {
+            "FOCUSSHOCK": "thaumicfutures:M_TC5_FOCUSSHOCK"
+          },
+          "complexity": 2,
+          "aspects": {
+            "praecantatio": 4,
+            "telum": 4,
+            "motus": 4
+          },
+          "pageCount": 3,
+          "future_layout_group": "tc5"
+        },
+        {
+          "key": "thaumicfutures:FOCUSGRAPPLE",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 1,
+          "displayRow": -8,
+          "icon_item": {
+            "item": "thaumicfutures:focus_grapple"
+          },
+          "parents": [
+            "FOCUSSHOCK"
+          ],
+          "parentMirrors": {
+            "FOCUSSHOCK": "thaumicfutures:M_TC5_FOCUSSHOCK"
+          },
+          "complexity": 1,
+          "aspects": {
+            "motus": 6,
+            "aer": 3,
+            "aqua": 3
+          },
+          "pageCount": 3,
+          "future_layout_group": "tc5"
+        },
+        {
+          "key": "thaumicfutures:FOCUSBUILDER",
+          "category": "THAUMICFUTURES",
+          "displayColumn": 3,
+          "displayRow": -8,
+          "icon_item": {
+            "item": "thaumicfutures:focus_builder"
+          },
+          "parents": [
+            "FOCUSTRADE"
+          ],
+          "parentMirrors": {
+            "FOCUSTRADE": "thaumicfutures:M_TC5_FOCUSTRADE"
+          },
+          "complexity": 2,
+          "aspects": {
+            "instrumentum": 6,
+            "terra": 3,
+            "ordo": 3,
+            "motus": 3
+          },
+          "pageCount": 3,
+          "future_layout_group": "tc5"
+        }
+      ]
+    }
+  ]
+}

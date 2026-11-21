@@ -1,0 +1,26 @@
+{
+  "textures": {
+    "face": "thaumicfutures:block/machine_essentia_output_7_on",
+    "particle": "thaumicfutures:block/machine_essentia_output_7_on"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#face",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "thaumicomniverse:MACHINE_ASPECT_PORTS",
+      "omniverse_requires": [
+        "modular_machinery_reborn"
+      ],
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.machine_ports.0"
+          },
+          "id": "thaumicomniverse:MACHINE_ASPECT_PORTS/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.machine_ports.1"
+          },
+          "id": "thaumicomniverse:MACHINE_ASPECT_PORTS/page/2",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.machine_ports.2"
+          },
+          "id": "thaumicomniverse:MACHINE_ASPECT_PORTS/page/3",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "omniverse.page.machine_ports.3"
+          },
+          "id": "thaumicomniverse:MACHINE_ASPECT_PORTS/page/4",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    }
+  ]
+}
