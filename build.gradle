@@ -1,7 +1,7 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
 version=mod_version
 group='gadomancymodern'
-base.archivesName='Gadomancy-Modern-Port'
+base.archivesName='[TC4Continuation]Gadomancy'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
 java.withSourcesJar()
 sourceSets.main.resources.srcDir 'src/generated/resources'
