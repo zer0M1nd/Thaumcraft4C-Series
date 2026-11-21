@@ -10,26 +10,26 @@ sourceSets {
   runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
  }
 }
-repositories { flatDir { dirs 'libs' }; flatDir { dirs '.deps' }; maven { url='https://maven.theillusivec4.top/' }; mavenCentral() }
 repositories {
-    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
-    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    flatDir { dirs 'dependencies/jars' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    mavenCentral()
 }
+
 dependencies {
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
  minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
- implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
-        ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
-        : 'local.revival:Thaumcraft-4-Modern-Port:0.4.114')
- compileOnly files('.deps/automagy-0.1.4.jar')
+ implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
+ compileOnly files("dependencies/jars/automagy-${findProperty('automagyValidationVersion') ?: '0.1.22'}.jar")
  if(project.hasProperty('addonAcceptance')) {
-  runtimeOnly fg.deobf('local:automagy:0.1.4')
-  runtimeOnly fg.deobf('local:forbidden-magic:0.1.2')
-  runtimeOnly fg.deobf('local:thaumic-tinkerer:0.1.14')
+  runtimeOnly fg.deobf("local:automagy:${findProperty('automagyValidationVersion') ?: '0.1.22'}")
+  runtimeOnly fg.deobf("local:forbidden-magic:${findProperty('forbiddenMagicValidationVersion') ?: '0.1.21'}")
+  runtimeOnly fg.deobf("local:thaumic-tinkerer:${findProperty('tinkererValidationVersion') ?: '0.1.46'}")
  }
  compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
  runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
- testImplementation files('.deps/junit/junit-platform-console-standalone-1.10.2.jar')
+ testImplementation files('dependencies/jars/junit-platform-console-standalone-1.10.2.jar')
 }
 minecraft {
  mappings channel:'official',version:'1.20.1'
