@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "emt:compressed_solar",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "emt:compressed_solar"
+    }
+  },
+  "vis": {
+    "aer": 8,
+    "aqua": 8,
+    "ignis": 8,
+    "terra": 8,
+    "ordo": 8,
+    "perditio": 8
+  },
+  "result": {
+    "item": "emt:double_compressed_solar"
+  }
+}

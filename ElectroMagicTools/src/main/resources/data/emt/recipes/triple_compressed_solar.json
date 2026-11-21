@@ -1,0 +1,63 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:compressed_solar",
+  "instability": 2,
+  "aspects": {
+    "aer": 8,
+    "aqua": 8,
+    "ignis": 8,
+    "terra": 8,
+    "ordo": 8,
+    "perditio": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:double_compressed_solar"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "emt:double_compressed_solar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:double_compressed_solar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:double_compressed_solar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:double_compressed_solar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:double_compressed_solar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:double_compressed_solar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:double_compressed_solar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:double_compressed_solar"
+      }
+    }
+  ],
+  "result": {
+    "item": "emt:triple_compressed_solar"
+  }
+}

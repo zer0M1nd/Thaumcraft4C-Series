@@ -1,0 +1,57 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:mjolnir",
+  "instability": 7,
+  "aspects": {
+    "telum": 48,
+    "tempestas": 48,
+    "alienis": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:tainted_mjolnir"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "emt:lightning_summoner"
+      },
+      "damage": 0
+    },
+    {
+      "ingredient": {
+        "item": "emt:lightning_summoner"
+      },
+      "damage": 0
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_sword"
+      },
+      "damage": 0
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:nitor"
+      },
+      "damage": 0
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_shock"
+      },
+      "damage": 0
+    },
+    {
+      "ingredient": {
+        "item": "ic2:rubber"
+      },
+      "damage": 0
+    }
+  ],
+  "result": {
+    "item": "emt:mjolnir"
+  }
+}

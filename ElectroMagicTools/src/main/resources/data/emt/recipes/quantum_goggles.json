@@ -1,0 +1,64 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:quantum_goggles",
+  "instability": 6,
+  "aspects": {
+    "tutamen": 25,
+    "sensus": 25,
+    "potentia": 25
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:nano_goggles"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:milk_bucket"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:quantum_helmet"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:iridium"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:advanced_circuit"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:quantum_goggles",
+    "nbt": "{charge:10.0d}"
+  }
+}

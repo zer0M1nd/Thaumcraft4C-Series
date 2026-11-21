@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "Z",
+    "Y"
+  ],
+  "key": {
+    "X": {
+      "item": "ic2:chainsaw"
+    },
+    "Z": {
+      "item": "ic2:iron_plate"
+    },
+    "Y": {
+      "item": "ic2:drill"
+    }
+  },
+  "result": {
+    "item": "emt:iron_omnitool",
+    "nbt": "{charge:10.0d}"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:wand_charger",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Industrial Wand Charging Station"
+          },
+          "id": "emt:wand_charger/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:wand_charger"
+            ]
+          },
+          "id": "emt:wand_charger/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:charge_focus",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Wand Focus: Charging"
+          },
+          "id": "emt:charge_focus/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:charge_focus"
+            ]
+          },
+          "id": "emt:charge_focus/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:wand_charge_focus",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Wand Focus: Wand Charging"
+          },
+          "id": "emt:wand_charge_focus/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:wand_charge_focus"
+            ]
+          },
+          "id": "emt:wand_charge_focus/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

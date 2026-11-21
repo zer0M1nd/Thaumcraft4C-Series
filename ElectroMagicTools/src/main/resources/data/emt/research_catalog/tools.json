@@ -1,0 +1,183 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:foundation",
+          "category": "EMT",
+          "displayColumn": 0,
+          "displayRow": 0,
+          "pageCount": 1,
+          "isAutoUnlock": true,
+          "isRound": true,
+          "icon": "emt:textures/misc/emt.png"
+        },
+        {
+          "key": "emt:thaumium_drill",
+          "category": "EMT",
+          "displayColumn": -1,
+          "displayRow": -2,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "potentia": 5,
+            "instrumentum": 6,
+            "perfodio": 4
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "isAutoUnlock": false,
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:thaumium_drill"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "emt:diamond_chainsaw",
+          "category": "EMT",
+          "displayColumn": 5,
+          "displayRow": -6,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {},
+          "parents": [
+            "emt:foundation"
+          ],
+          "isAutoUnlock": true,
+          "isSecondary": false,
+          "isConcealed": false,
+          "icon_item": {
+            "item": "emt:diamond_chainsaw"
+          },
+          "parentsHidden": []
+        },
+        {
+          "key": "emt:thaumium_chainsaw",
+          "category": "EMT",
+          "displayColumn": -2,
+          "displayRow": -2,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "potentia": 5,
+            "telum": 6,
+            "instrumentum": 4
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "isAutoUnlock": false,
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:thaumium_chainsaw"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "emt:iron_omnitool",
+          "category": "EMT",
+          "displayColumn": -2,
+          "displayRow": 0,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {},
+          "parents": [
+            "emt:foundation"
+          ],
+          "isAutoUnlock": true,
+          "isSecondary": false,
+          "isConcealed": false,
+          "icon_item": {
+            "item": "emt:iron_omnitool"
+          },
+          "parentsHidden": []
+        },
+        {
+          "key": "emt:diamond_omnitool",
+          "category": "EMT",
+          "displayColumn": -4,
+          "displayRow": 0,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "potentia": 2,
+            "instrumentum": 3,
+            "perfodio": 2,
+            "telum": 2
+          },
+          "parents": [
+            "emt:iron_omnitool"
+          ],
+          "isAutoUnlock": false,
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:diamond_omnitool"
+          },
+          "parentsHidden": []
+        },
+        {
+          "key": "emt:thaumium_omnitool",
+          "category": "EMT",
+          "displayColumn": -6,
+          "displayRow": 0,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "potentia": 5,
+            "instrumentum": 6,
+            "perfodio": 4,
+            "telum": 6
+          },
+          "parents": [
+            "emt:diamond_omnitool"
+          ],
+          "isAutoUnlock": false,
+          "isSecondary": false,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:thaumium_omnitool"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "emt:electric_scribing_tools",
+          "category": "EMT",
+          "displayColumn": -6,
+          "displayRow": -5,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "potentia": 5,
+            "tenebrae": 3,
+            "fabrico": 1
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "isAutoUnlock": false,
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:electric_scribing_tools"
+          },
+          "parentsHidden": []
+        }
+      ]
+    }
+  ]
+}

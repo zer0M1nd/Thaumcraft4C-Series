@@ -1,0 +1,485 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:compressed_solar",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Compressed Solars"
+          },
+          "id": "emt:compressed_solar/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:compressed_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:compressed_solar/page/2",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:double_compressed_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:compressed_solar/page/3",
+          "page_break": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:triple_compressed_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:compressed_solar/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:water_solar",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Water Infused Solar Panels"
+          },
+          "id": "emt:water_solar/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:water_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:water_solar/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:double_water_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:water_solar/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:triple_water_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:water_solar/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:dark_solar",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Entropy Infused Solar Panels"
+          },
+          "id": "emt:dark_solar/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:dark_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:dark_solar/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:double_dark_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:dark_solar/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:triple_dark_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:dark_solar/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:order_solar",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Order Infused Solar Panels"
+          },
+          "id": "emt:order_solar/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:order_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:order_solar/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:double_order_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:order_solar/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:triple_order_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:order_solar/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:fire_solar",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Fire Infused Solar Panels"
+          },
+          "id": "emt:fire_solar/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:fire_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:fire_solar/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:double_fire_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:fire_solar/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:triple_fire_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:fire_solar/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:air_solar",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Air Infused Solar Panels"
+          },
+          "id": "emt:air_solar/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:air_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:air_solar/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:double_air_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:air_solar/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:triple_air_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:air_solar/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:earth_solar",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Earth Infused Solar Panels"
+          },
+          "id": "emt:earth_solar/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:earth_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:earth_solar/page/2",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:double_earth_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:earth_solar/page/3",
+          "page_break": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:triple_earth_solar"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:earth_solar/page/4",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:potentia_generator",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Potentia Generator"
+          },
+          "id": "emt:potentia_generator/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:potentia_generator"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:potentia_generator/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:ignis_generator",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Ignis Generator"
+          },
+          "id": "emt:ignis_generator/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:ignis_generator"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:ignis_generator/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:auram_generator",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Auram Generator"
+          },
+          "id": "emt:auram_generator/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:auram_generator"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:auram_generator/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:arbor_generator",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Arbor Generator"
+          },
+          "id": "emt:arbor_generator/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:arbor_generator"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:arbor_generator/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:aer_generator",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Aer Generator"
+          },
+          "id": "emt:aer_generator/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "keys": [
+              "emt:aer_generator"
+            ],
+            "class": "modern"
+          },
+          "id": "emt:aer_generator/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

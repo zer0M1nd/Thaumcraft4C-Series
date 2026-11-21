@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:electric_growth_hoe",
+          "category": "EMT",
+          "displayColumn": -1,
+          "displayRow": -4,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "potentia": 4,
+            "herba": 4,
+            "messis": 5,
+            "praecantatio": 4
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:electric_growth_hoe"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        }
+      ]
+    }
+  ]
+}

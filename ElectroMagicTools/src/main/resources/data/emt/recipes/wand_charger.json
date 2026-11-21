@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:wand_charger",
+  "instability": 6,
+  "aspects": {
+    "potentia": 48,
+    "fabrico": 48,
+    "permutatio": 48,
+    "lucrum": 64
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:wand_pedestal"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "ic2:replicator"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:iridium"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:glowstone"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:wand_charger"
+  }
+}

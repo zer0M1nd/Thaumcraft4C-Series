@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:feather_wings",
+          "category": "EMT",
+          "displayColumn": 0,
+          "displayRow": 2,
+          "pageCount": 3,
+          "complexity": 0,
+          "aspects": {},
+          "parents": [
+            "emt:foundation"
+          ],
+          "isConcealed": false,
+          "isAutoUnlock": true,
+          "isRound": true,
+          "isSecondary": false,
+          "icon_item": {
+            "item": "emt:feather_wings"
+          }
+        },
+        {
+          "key": "emt:thaumium_wings",
+          "category": "EMT",
+          "displayColumn": 0,
+          "displayRow": 4,
+          "pageCount": 3,
+          "complexity": 0,
+          "aspects": {
+            "volatus": 5,
+            "aer": 5,
+            "machina": 8
+          },
+          "parents": [
+            "emt:feather_wings"
+          ],
+          "isConcealed": true,
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": true,
+          "icon_item": {
+            "item": "emt:thaumium_wings"
+          }
+        },
+        {
+          "key": "emt:nano_wings",
+          "category": "EMT",
+          "displayColumn": 0,
+          "displayRow": 6,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "volatus": 5,
+            "aer": 5,
+            "machina": 8,
+            "potentia": 4
+          },
+          "parents": [
+            "emt:thaumium_wings"
+          ],
+          "isConcealed": true,
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "icon_item": {
+            "item": "emt:nano_wings"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "key": "emt:quantum_wings",
+          "category": "EMT",
+          "displayColumn": 0,
+          "displayRow": 8,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "volatus": 5,
+            "aer": 5,
+            "machina": 8,
+            "potentia": 4
+          },
+          "parents": [
+            "emt:nano_wings"
+          ],
+          "isConcealed": true,
+          "isAutoUnlock": false,
+          "isRound": false,
+          "isSecondary": false,
+          "icon_item": {
+            "item": "emt:quantum_wings"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:supercharged_mjolnir",
+  "instability": 10,
+  "aspects": {
+    "telum": 48,
+    "potentia": 64,
+    "bestia": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:mjolnir"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "emt:lightning_summoner"
+      },
+      "damage": 0
+    },
+    {
+      "ingredient": {
+        "item": "emt:lightning_summoner"
+      },
+      "damage": 0
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:tnt"
+      },
+      "damage": 0
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_hellbat"
+      },
+      "damage": 0
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:elemental_sword"
+      },
+      "damage": 0
+    },
+    {
+      "ingredient": {
+        "item": "ic2:lapotron_crystal"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:iridium"
+      },
+      "damage": 0
+    },
+    {
+      "ingredient": {
+        "item": "ic2:iridium"
+      },
+      "damage": 0
+    },
+    {
+      "ingredient": {
+        "item": "ic2:nano_saber"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:supercharged_mjolnir",
+    "nbt": "{charge:10.0d}"
+  }
+}

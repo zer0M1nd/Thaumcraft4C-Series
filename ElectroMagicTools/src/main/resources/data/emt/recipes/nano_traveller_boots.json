@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:nano_traveller_boots",
+  "instability": 2,
+  "aspects": {
+    "potentia": 25,
+    "tutamen": 32,
+    "motus": 48
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:electric_traveller_boots"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:nano_boots"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:energy_crystal"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:nano_traveller_boots",
+    "nbt": "{charge:10.0d}"
+  }
+}

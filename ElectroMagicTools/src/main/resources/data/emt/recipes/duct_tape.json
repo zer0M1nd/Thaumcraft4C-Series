@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "YYY",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "emt:glue"
+    },
+    "Y": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "emt:duct_tape"
+  }
+}

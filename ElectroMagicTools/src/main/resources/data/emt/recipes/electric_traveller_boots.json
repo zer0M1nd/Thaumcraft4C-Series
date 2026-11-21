@@ -1,0 +1,52 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:electric_traveller_boots",
+  "instability": 2,
+  "aspects": {
+    "potentia": 16,
+    "tutamen": 32,
+    "motus": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:traveller_boots"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:electric_motor"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:coil"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:rubber_boots"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:advanced_re_battery"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:electric_traveller_boots",
+    "nbt": "{charge:10.0d}"
+  }
+}

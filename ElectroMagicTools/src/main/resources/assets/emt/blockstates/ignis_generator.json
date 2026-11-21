@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "emt:block/ignis_generator",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "emt:block/ignis_generator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "emt:block/ignis_generator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "emt:block/ignis_generator",
+      "y": 270
+    }
+  }
+}

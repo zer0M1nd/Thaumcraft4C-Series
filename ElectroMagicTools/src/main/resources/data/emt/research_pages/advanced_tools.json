@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:rockbreaker_drill",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Drill of the Rockbreaker"
+          },
+          "id": "emt:rockbreaker_drill/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:rockbreaker_drill"
+            ]
+          },
+          "id": "emt:rockbreaker_drill/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:stream_chainsaw",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Chainsaw of the Stream"
+          },
+          "id": "emt:stream_chainsaw/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:stream_chainsaw"
+            ]
+          },
+          "id": "emt:stream_chainsaw/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

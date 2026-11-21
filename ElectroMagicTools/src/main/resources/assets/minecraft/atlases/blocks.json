@@ -1,0 +1,568 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/amber_bricks"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/electric_cloud"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/empty"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/aerfront"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/arborfront"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/arborfront_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/auramfront"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/auramfront_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/front_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/ignisfront"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/ignisfront_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/potentiafront"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/potentiafront_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/saxumfront"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/saxumfront_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/side"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/top"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/top_aer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/top_arbor"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/top_auram"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/top_ignis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/essentiagenerator/top_potentia"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/bottom"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmacerator"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratorfront"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratorfront_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratorfront_alt2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratorfront_alt3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratorfront_alt4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratorfrontactive"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratorfrontactive_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratorfrontactive_alt2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratorfrontactive_alt3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratorfrontactive_alt4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratortop"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratortop_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratortopactive"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/etherealmaceratortopactive_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/side"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/top"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/top_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/top_alt2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/machines/wandcharger"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/portablenode"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/raindispeller"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/shield"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/air/airside"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/bottom"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/bottom32"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/dark/darkside"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/doublesolartop"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/doublesolartop32"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/earth/earthside"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/fire/fireside"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/order/orderside"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/side"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/side32"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/solartop"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/solartop32"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/triplesolartop"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/triplesolartop32"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:blocks/solars/water/waterside"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/armor_quantum_chest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/armor_quantum_chest_jetpack"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/armor_quantum_chest_wing_n"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/armor_quantum_chest_wing_q"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/armor_quantum_chest_wing_t"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/boots_electric"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/boots_electric_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/boots_nano"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/boots_quantum"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/goggles_electric"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/goggles_electric_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/goggles_nano"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/goggles_nano_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/goggles_quantum"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/goggles_quantum_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/goggles_solar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/goggles_solar_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/goggles_solar_alt2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/goggles_solar_alt3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/wing_feather"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/wing_nano"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/wing_quantum"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armor/wing_thaumium"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/armoreumaker"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/focus_charge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/focus_chargewand"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/focus_christmas"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/focus_energyball"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/focus_explosion"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/focus_shield"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/focus_shieldalt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/hammer/electricthorhammer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/hammer/electricthorhammer_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/hammer/hammerstages/electric01"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/hammer/hammerstages/electric02"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/hammer/hammerstages/electric03"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/hammer/hammerstages/electric04"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/hammer/taintedthorhammer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/hammer/taintedthorhammer_long"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/hammer/taintedthorhammer_short"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/hammer/thorhammer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/inventoryeumaker"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/legacy_tin_nugget"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/cardboard"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/cardboardsheet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/clusteruranium"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/crushedamber"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/crushedcinnabar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/ducttape"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/feathermesh"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/glue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/lightningsummoner"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/lightningsummoner_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/purifiedamber"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/purifiedcinnabar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/rubberball"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/taintedfeather"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/thaumiumplate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/thaumiumwing"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/materials/uumatterdrop"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/onering"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/chainsaw_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/chainsaw_stream"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/chainsaw_thaumium"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/chainsaw_thaumium_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/drill_rockbreaker"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/drill_thaumium"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/drill_thaumium_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/drill_thaumium_alt2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/hoe_growth"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/hoe_growth2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/omnitool_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/omnitool_diamond_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/omnitool_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/omnitool_thaumium"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/omnitool_thaumium_alt"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "emt:items/tools/omnitool_thaumium_alt2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "ic2:item/tool/electric/electric_hoe"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumcraft:item/inkwell"
+    }
+  ]
+}

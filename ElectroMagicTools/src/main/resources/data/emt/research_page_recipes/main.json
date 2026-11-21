@@ -1,0 +1,5420 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:aer_generator",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:aer_generator",
+            "count": 1
+          }
+        },
+        "research": "emt:aer_generator",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:potentia_generator",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aer": 8,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:air_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:air_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:air_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aer": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:amber_bricks",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:amber_bricks",
+            "count": 4
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 2,
+        "height": 2,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:amber_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:amber_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:amber_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:amber_block",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:amber_bricks_unpack",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:amber",
+            "count": 4
+          }
+        },
+        "research": "",
+        "kind": "crafting_shapeless",
+        "aspects": {},
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:amber_bricks",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:arbor_generator",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:arbor_generator",
+            "count": 1
+          }
+        },
+        "research": "emt:arbor_generator",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:potentia_generator",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "arbor": 16,
+          "permutatio": 8
+        }
+      }
+    },
+    {
+      "key": "emt:armor_charging_ring",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:armor_charging_ring",
+            "count": 1
+          }
+        },
+        "research": "emt:armor_charging_ring",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:mundane_ring",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:electric_traveller_boots",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:geo_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:solar_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:wind_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:water_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:nuclear_reactor",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "potentia": 64,
+          "tutamen": 32,
+          "praecantatio": 48
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "emt:auram_generator",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:auram_generator",
+            "count": 1
+          }
+        },
+        "research": "emt:auram_generator",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:potentia_generator",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "auram": 16,
+          "permutatio": 8
+        }
+      }
+    },
+    {
+      "key": "emt:cardboard",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:cardboard",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:paper",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:paper",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:paper",
+                "count": 1
+              }
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "minecraft:logs"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "minecraft:logs"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "minecraft:logs"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:paper",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:paper",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:paper",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:charge_focus",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:charge_focus",
+            "count": 1
+          }
+        },
+        "research": "emt:charge_focus",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:advanced_re_battery",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:batbox",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "emt:all_shards"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "emt:all_shards"
+              ],
+              "elements": []
+            }
+          ]
+        },
+        "aspects": {
+          "permutatio": 25,
+          "potentia": 32,
+          "machina": 32
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:christmas_focus",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:christmas_focus",
+            "count": 1
+          }
+        },
+        "research": "emt:christmas_focus",
+        "kind": "arcane_shaped",
+        "aspects": {
+          "ordo": 20,
+          "aer": 20
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:snow_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:pumpkin",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:snow_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:pumpkin",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:focus_frost",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:pumpkin",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:snow_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:pumpkin",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:snow_block",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:compressed_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:compressed_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:compressed_solar",
+        "kind": "arcane_shaped",
+        "aspects": {
+          "aer": 8,
+          "aqua": 8,
+          "ignis": 8,
+          "terra": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:solar_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:solar_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:solar_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:solar_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:solar_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:solar_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:solar_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:solar_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:solar_generator",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:dark_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:dark_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:dark_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:diamond_chainsaw",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:diamond_chainsaw",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 3,
+        "height": 2,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:chainsaw",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:diamond_omnitool",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:diamond_omnitool",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:diamond_omnitool",
+        "kind": "arcane_shapeless",
+        "aspects": {
+          "aer": 15,
+          "ordo": 15
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:diamond_chainsaw",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:diamond_drill",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:diamond_omnitool_upgrade",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:diamond_omnitool",
+            "count": 1
+          }
+        },
+        "research": "emt:diamond_omnitool",
+        "kind": "arcane_shaped",
+        "aspects": {
+          "aer": 15,
+          "ordo": 15
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:advanced_circuit",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:iron_omnitool",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:advanced_circuit",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:double_air_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_air_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:air_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aer": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:double_compressed_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_compressed_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:compressed_solar",
+        "kind": "arcane_shaped",
+        "aspects": {
+          "aer": 8,
+          "aqua": 8,
+          "ignis": 8,
+          "terra": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:compressed_solar",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:double_dark_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_dark_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:dark_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:double_earth_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_earth_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:earth_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "terra": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:double_fire_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_fire_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:fire_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ignis": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:double_order_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_order_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:order_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ordo": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:double_water_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_water_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:water_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aqua": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:duct_tape",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:duct_tape",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:glue",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:glue",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:glue",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:paper",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:paper",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:paper",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:glue",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:glue",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:glue",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:earth_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:earth_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:earth_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "terra": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:electric_goggles",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:electric_goggles",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:electric_goggles",
+        "kind": "arcane_shaped",
+        "aspects": {
+          "aer": 20,
+          "ordo": 20,
+          "aqua": 20
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond_helmet",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:re_battery",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:goggles",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:re_battery",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:repeater",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:circuit",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:repeater",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:electric_growth_hoe",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:electric_growth_hoe",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:electric_growth_hoe",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:elemental_hoe",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:lapotron_crystal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:industrial_electric_hoe",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:bone_meal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:electric_motor",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:coil",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": [
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:oak_sapling",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:spruce_sapling",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:birch_sapling",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:jungle_sapling",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:acacia_sapling",
+                    "count": 1
+                  }
+                },
+                {
+                  "kind": "stack",
+                  "stack": {
+                    "item": "minecraft:dark_oak_sapling",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "aspects": {
+          "potentia": 32,
+          "herba": 25,
+          "messis": 32,
+          "praecantatio": 48
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:electric_scribing_tools",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:electric_scribing_tools",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:electric_scribing_tools",
+        "kind": "arcane_shaped",
+        "aspects": {
+          "aer": 16,
+          "ordo": 16,
+          "perditio": 16
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:circuit",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:scribing_tools",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:circuit",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:scribing_tools",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:energy_crystal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:scribing_tools",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:circuit",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:scribing_tools",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:circuit",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:electric_traveller_boots",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:electric_traveller_boots",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:electric_traveller_boots",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:traveller_boots",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:electric_motor",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:coil",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:rubber_boots",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:advanced_re_battery",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "potentia": 16,
+          "tutamen": 32,
+          "motus": 32
+        },
+        "instability": 2
+      }
+    },
+    {
+      "key": "emt:energy_ball_focus",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:energy_ball_focus",
+            "count": 1
+          }
+        },
+        "research": "emt:legacy_wand_focus_energy_ball",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:focus_shock",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:tnt",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:advanced_re_battery",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:advanced_re_battery",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:advanced_re_battery",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "potentia": 10,
+          "praecantatio": 5,
+          "victus": 6
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:ethereal_processor",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:ethereal_processor",
+            "count": 1
+          }
+        },
+        "research": "emt:ethereal_processor",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:macerator",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:electric_furnace",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:alchemical_construct",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:end_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:end_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:iron_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "machina": 16,
+          "praecantatio": 16,
+          "fabrico": 16
+        },
+        "instability": 3
+      }
+    },
+    {
+      "key": "emt:explosion_focus",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:explosion_focus",
+            "count": 1
+          }
+        },
+        "research": "emt:explosion_focus",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:focus_hellbat",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:mining_laser",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:arrow",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gunpowder",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:firework_star",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 30,
+          "motus": 16,
+          "telum": 30,
+          "mortuus": 16
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "emt:feather_mesh",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:feather_mesh",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:duct_tape",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:duct_tape",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:duct_tape",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:duct_tape",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:feather_wings",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:feather_wings",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:feather_wing_component",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:feather_wing_component",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:feather_wing_component",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:feather_wing_component",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:feather_mesh",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:glue",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:cardboard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:feather_mesh",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:glue",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:cardboard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:feather_mesh",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:glue",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:cardboard",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:fire_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:fire_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:fire_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ignis": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:ignis_generator",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:ignis_generator",
+            "count": 1
+          }
+        },
+        "research": "emt:ignis_generator",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:potentia_generator",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ignis": 16,
+          "permutatio": 8
+        }
+      }
+    },
+    {
+      "key": "emt:industrial_electric_hoe",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:industrial_electric_hoe",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 2,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "forge:plates/iron"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:plates/iron"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:plates/iron"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:small_power_unit",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:infused_quantum_chestplate",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:infused_quantum_chestplate",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:infused_quantum_chestplate",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:quantum_chestplate",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:shield",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:shield",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "volatus": 48,
+          "aer": 32,
+          "machina": 48,
+          "potentia": 32,
+          "tutamen": 48
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "emt:inventory_charging_ring",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:inventory_charging_ring",
+            "count": 1
+          }
+        },
+        "research": "emt:inventory_charging_ring",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:mundane_ring",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_drill",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:geo_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:solar_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:wind_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:water_generator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:nuclear_reactor",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "potentia": 64,
+          "vitreus": 32,
+          "praecantatio": 48
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "emt:iron_omnitool",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:iron_omnitool",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:chainsaw",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iron_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:drill",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:legacy_tin_ingot",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:tin_ingot",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/tin"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/tin"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/tin"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/tin"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/tin"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/tin"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/tin"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/tin"
+              ],
+              "elements": []
+            },
+            {
+              "kind": "ore",
+              "names": [
+                "forge:nuggets/tin"
+              ],
+              "elements": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:legacy_tin_nuggets",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:legacy_tin_nugget",
+            "count": 9
+          }
+        },
+        "research": "",
+        "kind": "crafting_shapeless",
+        "aspects": {},
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "ore",
+              "names": [
+                "forge:ingots/tin"
+              ],
+              "elements": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:mjolnir",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:mjolnir",
+            "count": 1
+          }
+        },
+        "research": "emt:mjolnir",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:tainted_mjolnir",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:lightning_summoner",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:lightning_summoner",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:elemental_sword",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:focus_shock",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:rubber",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "telum": 48,
+          "tempestas": 48,
+          "alienis": 32
+        },
+        "instability": 7
+      }
+    },
+    {
+      "key": "emt:nano_goggles",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:nano_goggles",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:nano_goggles",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:electric_goggles",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:gold_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:nano_helmet",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:carbon_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:circuit",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "tutamen": 16,
+          "sensus": 16,
+          "potentia": 16
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "emt:nano_traveller_boots",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:nano_traveller_boots",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:nano_traveller_boots",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:electric_traveller_boots",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:nano_boots",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:energy_crystal",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "potentia": 25,
+          "tutamen": 32,
+          "motus": 48
+        },
+        "instability": 2
+      }
+    },
+    {
+      "key": "emt:nano_wings",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:nano_wings",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:nano_wings",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:thaumium_wings",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:carbon_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:carbon_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:carbon_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:nano_chestplate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "volatus": 48,
+          "aer": 32,
+          "machina": 48,
+          "potentia": 32
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:order_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:order_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:order_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ordo": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:portable_node",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:portable_node",
+            "count": 1
+          }
+        },
+        "research": "emt:portable_node",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:node_jar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "praecantatio": 32,
+          "auram": 32,
+          "lucrum": 32
+        }
+      }
+    },
+    {
+      "key": "emt:potentia_generator",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:potentia_generator",
+            "count": 1
+          }
+        },
+        "research": "emt:potentia_generator",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:semifluid_generator",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:focus_trade",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:hopper",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:mv_transformer",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:advanced_machine",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:ore_washing_plant",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:scrap",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "potentia": 32,
+          "praecantatio": 32,
+          "metallum": 32,
+          "permutatio": 32
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "emt:quantum_goggles",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:quantum_goggles",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:quantum_goggles",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:nano_goggles",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:milk_bucket",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:quantum_helmet",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:advanced_circuit",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "tutamen": 25,
+          "sensus": 25,
+          "potentia": 25
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "emt:quantum_traveller_boots",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:quantum_traveller_boots",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:quantum_traveller_boots",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:nano_traveller_boots",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:redstone_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:quantum_boots",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:lapotron_crystal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "potentia": 32,
+          "tutamen": 32,
+          "motus": 64
+        },
+        "instability": 2
+      }
+    },
+    {
+      "key": "emt:quantum_wings",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:quantum_wings",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:quantum_wings",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:nano_wings",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:quantum_chestplate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:nitor",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "volatus": 48,
+          "aer": 32,
+          "machina": 48,
+          "potentia": 32,
+          "tutamen": 48
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "emt:rockbreaker_drill",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:rockbreaker_drill",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:rockbreaker_drill",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:thaumium_drill",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:flint_and_steel",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:fire_charge",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:elemental_pickaxe",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:elemental_shovel",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:lapotron_crystal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:reinforced_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:overclocker_upgrade",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "instrumentum": 32,
+          "potentia": 48,
+          "perfodio": 32
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "emt:rubber_ball",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:rubber_ball",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 2,
+        "height": 2,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:rubber",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:rubber",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:rubber",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:rubber",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:shield",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:shield",
+            "count": 6
+          }
+        },
+        "research": "emt:shield",
+        "kind": "arcane_shaped",
+        "aspects": {
+          "ordo": 1,
+          "perditio": 1
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glass",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:obsidian",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glass",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glass",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glass",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glass",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:obsidian",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glass",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:shield_focus",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:shield_focus",
+            "count": 1
+          }
+        },
+        "research": "emt:shield_focus",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:focus_portable_hole",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:reinforced_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:reinforced_glass",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:reinforced_stone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:reinforced_glass",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond_block",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:obsidian",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:obsidian",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "aer": 16,
+          "tutamen": 20,
+          "vitreus": 16,
+          "vinculum": 20,
+          "victus": 16
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:solar_goggles",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:solar_goggles",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:solar_goggles",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:quantum_goggles",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:double_compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:glass_fibre_cable",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:lapotron_crystal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:order_shard",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "potentia": 32,
+          "aer": 32,
+          "lux": 25
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "emt:stream_chainsaw",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:stream_chainsaw",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:stream_chainsaw",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:thaumium_chainsaw",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:water_bucket",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:elemental_axe",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:greatwood_log",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:lapotron_crystal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:overclocker_upgrade",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "potentia": 48,
+          "arbor": 48,
+          "instrumentum": 32,
+          "aqua": 32
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "emt:supercharged_mjolnir",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:supercharged_mjolnir",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:supercharged_mjolnir",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:mjolnir",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:lightning_summoner",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:lightning_summoner",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:tnt",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:focus_hellbat",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:elemental_sword",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:lapotron_crystal",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:nano_saber",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "telum": 48,
+          "potentia": 64,
+          "bestia": 32
+        },
+        "instability": 10
+      }
+    },
+    {
+      "key": "emt:tainted_feather",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:tainted_feather",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:tainted_goo",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:tainted_goo",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:feather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:tainted_goo",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:tainted_goo",
+                "count": 1
+              }
+            },
+            {
+              "kind": "sequence",
+              "elements": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:thaumium_chainsaw",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:thaumium_chainsaw",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:thaumium_chainsaw",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:diamond_chainsaw",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:dense_iron_plate",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "instrumentum": 16,
+          "telum": 16,
+          "potentia": 16
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "emt:thaumium_drill",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:thaumium_drill",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:thaumium_drill",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:diamond_drill",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:diamond",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:dense_iron_plate",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "instrumentum": 16,
+          "perfodio": 16,
+          "potentia": 16
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "emt:thaumium_omnitool",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:thaumium_omnitool",
+            "nbt": "{charge:10.0d}",
+            "count": 1
+          }
+        },
+        "research": "emt:thaumium_omnitool",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:thaumium_chainsaw",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_drill",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:carbon_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:obsidian_plate",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "instrumentum": 25,
+          "telum": 25,
+          "potentia": 25,
+          "perfodio": 25
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "emt:thaumium_plate",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:thaumium_plate",
+            "count": 1
+          }
+        },
+        "research": "",
+        "kind": "crafting_shaped",
+        "aspects": {},
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:forge_hammer",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:thaumium_ingot",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:obsidian",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:thaumium_wings",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:thaumium_wings",
+            "count": 1
+          }
+        },
+        "research": "emt:thaumium_wings",
+        "kind": "arcane_shaped",
+        "aspects": {
+          "aer": 48,
+          "ignis": 48,
+          "aqua": 48,
+          "terra": 48,
+          "ordo": 48,
+          "perditio": 48
+        },
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_wing_component",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_wing_component",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:thaumium_wing_component",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:thaumium_wing_component",
+            "count": 1
+          }
+        },
+        "research": "emt:thaumium_wings",
+        "kind": "arcane_shaped",
+        "aspects": {
+          "aer": 48,
+          "ignis": 48,
+          "aqua": 48,
+          "terra": 48,
+          "ordo": 48,
+          "perditio": 48
+        },
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:tainted_feather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iron_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:tainted_feather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iron_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:tainted_feather",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:thaumium_plate",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iron_plate",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:tiny_uranium",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:small_uranium_235",
+            "count": 7
+          }
+        },
+        "research": "emt:tiny_uranium",
+        "kind": "arcane_shapeless",
+        "aspects": {
+          "aer": 1,
+          "aqua": 1,
+          "ignis": 1,
+          "terra": 1,
+          "ordo": 1,
+          "perditio": 1
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:uranium_238",
+                "count": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "emt:triple_air_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_air_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:air_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aer": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:triple_compressed_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_compressed_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:compressed_solar",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:double_compressed_solar",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:double_compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:double_compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:double_compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:double_compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:double_compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:double_compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:double_compressed_solar",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:double_compressed_solar",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "aer": 8,
+          "aqua": 8,
+          "ignis": 8,
+          "terra": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "instability": 2
+      }
+    },
+    {
+      "key": "emt:triple_dark_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_dark_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:dark_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "perditio": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:triple_earth_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_earth_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:earth_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "terra": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:triple_fire_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_fire_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:fire_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ignis": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:triple_order_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_order_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:order_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "ordo": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:triple_water_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_water_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:water_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:triple_compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aqua": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    },
+    {
+      "key": "emt:uu_amber_block_to_lead_ore",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:crushed_lead",
+            "count": 32
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:amber_block",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 8,
+          "aqua": 8,
+          "aer": 8,
+          "terra": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_amber_bricks_to_uranium_ore",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:uranium_ore",
+            "count": 8
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:amber_bricks",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 16,
+          "aqua": 16,
+          "aer": 16,
+          "terra": 16,
+          "ordo": 16,
+          "perditio": 16
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_arcane_stone_bricks_to_tin_ore",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:crushed_tin",
+            "count": 32
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:arcane_stone_bricks",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 8,
+          "aqua": 8,
+          "aer": 8,
+          "terra": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_arcane_stone_to_copper_ore",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:crushed_copper",
+            "count": 32
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:arcane_stone",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 8,
+          "aqua": 8,
+          "aer": 8,
+          "terra": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_charcoal_to_coal",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:coal",
+            "count": 16
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:charcoal",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 8,
+          "aqua": 8,
+          "aer": 8,
+          "terra": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_diamond_to_uranium",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:uranium_238",
+            "count": 2
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:diamond",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 16,
+          "aqua": 16,
+          "aer": 16,
+          "terra": 16,
+          "ordo": 16,
+          "perditio": 16
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_glowstone_dust_to_block",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:glowstone",
+            "count": 1
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:glowstone_dust",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 4,
+          "aqua": 4,
+          "aer": 4,
+          "terra": 4,
+          "ordo": 4,
+          "perditio": 4
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_gold_to_diamond",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:diamond",
+            "count": 1
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:gold_ingot",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 8,
+          "aqua": 8,
+          "aer": 8,
+          "terra": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_iron_to_gold",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:gold_ingot",
+            "count": 2
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:iron_ingot",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 4,
+          "aqua": 4,
+          "aer": 4,
+          "terra": 4,
+          "ordo": 4,
+          "perditio": 4
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_matter_drop",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:uu_matter_drop",
+            "count": 1
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:uu_matter_cell",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "vitreus": 8,
+          "gelum": 8,
+          "praecantatio": 8
+        }
+      }
+    },
+    {
+      "key": "emt:uu_shard_to_lapis",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:lapis_lazuli",
+            "count": 8
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "ore",
+          "names": [
+            "thaumcraft:shards"
+          ],
+          "elements": []
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 8,
+          "aqua": 8,
+          "aer": 8,
+          "terra": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_shard_to_redstone",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:redstone",
+            "count": 24
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "ore",
+          "names": [
+            "thaumcraft:shards"
+          ],
+          "elements": []
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 8,
+          "aqua": 8,
+          "aer": 8,
+          "terra": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_shard_to_resin",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:resin",
+            "count": 21
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "ore",
+          "names": [
+            "thaumcraft:shards"
+          ],
+          "elements": []
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 8,
+          "aqua": 8,
+          "aer": 8,
+          "terra": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_stone_bricks_to_iron_ore",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:iron_ore",
+            "count": 16
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "minecraft:stone_bricks",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 8,
+          "aqua": 8,
+          "aer": 8,
+          "terra": 8,
+          "ordo": 8,
+          "perditio": 8
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:uu_uranium_to_iridium",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:iridium_ore",
+            "count": 2
+          }
+        },
+        "research": "emt:uu_matter_infusion",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "ic2:uranium_238",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:uu_matter_drop",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "ignis": 32,
+          "aqua": 32,
+          "aer": 32,
+          "terra": 32,
+          "ordo": 32,
+          "perditio": 32
+        },
+        "instability": 4
+      }
+    },
+    {
+      "key": "emt:wand_charger",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:wand_charger",
+            "count": 1
+          }
+        },
+        "research": "emt:wand_charger",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "thaumcraft:wand_pedestal",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:replicator",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "minecraft:glowstone",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:entropy_shard",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "thaumcraft:essentia_jar",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "potentia": 48,
+          "fabrico": 48,
+          "permutatio": 48,
+          "lucrum": 64
+        },
+        "instability": 6
+      }
+    },
+    {
+      "key": "emt:wand_charge_focus",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:wand_charge_focus",
+            "count": 1
+          }
+        },
+        "research": "emt:wand_charge_focus",
+        "kind": "infusion",
+        "input": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:wand_charger",
+            "count": 1
+          }
+        },
+        "ingredients": {
+          "kind": "sequence",
+          "elements": [
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "emt:charge_focus",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:energy_pack",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            },
+            {
+              "kind": "stack",
+              "stack": {
+                "item": "ic2:iridium",
+                "count": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "potentia": 48,
+          "auram": 32,
+          "permutatio": 48,
+          "lucrum": 64
+        },
+        "instability": 5
+      }
+    },
+    {
+      "key": "emt:water_solar",
+      "class": "modern",
+      "data": {
+        "output": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:water_solar",
+            "count": 1
+          }
+        },
+        "research": "emt:water_solar",
+        "kind": "crucible",
+        "catalyst": {
+          "kind": "stack",
+          "stack": {
+            "item": "emt:compressed_solar",
+            "count": 1
+          }
+        },
+        "aspects": {
+          "aqua": 16,
+          "praecantatio": 16,
+          "permutatio": 16
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:electric_goggles",
+          "category": "EMT",
+          "displayColumn": 1,
+          "displayRow": -2,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "tutamen": 8,
+            "potentia": 5,
+            "sensus": 6
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "parentsHidden": [],
+          "isConcealed": true,
+          "isSecondary": true,
+          "icon_item": {
+            "item": "emt:electric_goggles"
+          }
+        },
+        {
+          "key": "emt:nano_goggles",
+          "category": "EMT",
+          "displayColumn": 2,
+          "displayRow": -2,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "potentia": 5,
+            "sensus": 8,
+            "tutamen": 6
+          },
+          "parents": [
+            "emt:electric_goggles"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "isSecondary": false,
+          "icon_item": {
+            "item": "emt:nano_goggles"
+          }
+        },
+        {
+          "key": "emt:quantum_goggles",
+          "category": "EMT",
+          "displayColumn": 3,
+          "displayRow": -2,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "tutamen": 8,
+            "potentia": 4,
+            "sensus": 6
+          },
+          "parents": [
+            "emt:nano_goggles"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "isSecondary": false,
+          "icon_item": {
+            "item": "emt:quantum_goggles"
+          }
+        },
+        {
+          "key": "emt:solar_goggles",
+          "category": "EMT",
+          "displayColumn": -2,
+          "displayRow": -5,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "potentia": 5,
+            "aer": 2,
+            "lux": 4
+          },
+          "parents": [
+            "emt:compressed_solar"
+          ],
+          "parentsHidden": [
+            "emt:quantum_goggles",
+            "INFUSION"
+          ],
+          "isConcealed": false,
+          "isSecondary": true,
+          "icon_item": {
+            "item": "emt:solar_goggles"
+          }
+        }
+      ]
+    }
+  ]
+}

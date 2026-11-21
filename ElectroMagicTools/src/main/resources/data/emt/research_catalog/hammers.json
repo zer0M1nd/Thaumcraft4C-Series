@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:the_legend",
+          "category": "EMT",
+          "displayColumn": 5,
+          "displayRow": -5,
+          "pageCount": 1,
+          "complexity": 0,
+          "aspects": {},
+          "isRound": true,
+          "isAutoUnlock": true,
+          "icon_item": {
+            "item": "emt:tainted_mjolnir"
+          }
+        },
+        {
+          "key": "emt:mjolnir",
+          "category": "EMT",
+          "displayColumn": -5,
+          "displayRow": 5,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "telum": 3,
+            "tempestas": 4,
+            "alienis": 3
+          },
+          "parentsHidden": [
+            "INFUSION",
+            "emt:foundation"
+          ],
+          "icon_item": {
+            "item": "emt:mjolnir"
+          },
+          "isConcealed": true
+        },
+        {
+          "key": "emt:supercharged_mjolnir",
+          "category": "EMT",
+          "displayColumn": -6,
+          "displayRow": 6,
+          "pageCount": 2,
+          "complexity": 3,
+          "aspects": {
+            "telum": 4,
+            "potentia": 6,
+            "bestia": 4
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "icon_item": {
+            "item": "emt:supercharged_mjolnir"
+          },
+          "parents": [
+            "emt:mjolnir"
+          ]
+        }
+      ]
+    }
+  ]
+}

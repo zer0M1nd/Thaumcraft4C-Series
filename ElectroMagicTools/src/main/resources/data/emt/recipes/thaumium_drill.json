@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:thaumium_drill",
+  "instability": 5,
+  "aspects": {
+    "instrumentum": 16,
+    "perfodio": 16,
+    "potentia": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "ic2:diamond_drill"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:dense_iron_plate"
+      }
+    }
+  ],
+  "result": {
+    "item": "emt:thaumium_drill",
+    "nbt": "{charge:10.0d}"
+  }
+}

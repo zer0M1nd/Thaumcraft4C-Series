@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:electric_growth_hoe",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Electric Hoe of Growth"
+          },
+          "id": "emt:electric_growth_hoe/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:electric_growth_hoe"
+            ]
+          },
+          "id": "emt:electric_growth_hoe/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

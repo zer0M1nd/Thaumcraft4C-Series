@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:portable_node",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Portable Node"
+          },
+          "id": "emt:portable_node/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:portable_node"
+            ]
+          },
+          "id": "emt:portable_node/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "emt:electric_goggles",
+  "pattern": [
+    " Y ",
+    "AZA",
+    "BXB"
+  ],
+  "key": {
+    "Y": {
+      "item": "minecraft:diamond_helmet"
+    },
+    "A": {
+      "item": "ic2:re_battery"
+    },
+    "Z": {
+      "item": "thaumcraft:goggles"
+    },
+    "B": {
+      "item": "minecraft:repeater"
+    },
+    "X": {
+      "item": "ic2:circuit"
+    }
+  },
+  "vis": {
+    "aer": 20,
+    "ordo": 20,
+    "aqua": 20
+  },
+  "result": {
+    "item": "emt:electric_goggles",
+    "nbt": "{charge:10.0d}"
+  }
+}

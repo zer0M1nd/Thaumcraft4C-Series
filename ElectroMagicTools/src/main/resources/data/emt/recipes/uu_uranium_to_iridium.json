@@ -1,0 +1,84 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:uu_matter_infusion",
+  "instability": 4,
+  "aspects": {
+    "ignis": 32,
+    "aqua": 32,
+    "aer": 32,
+    "terra": 32,
+    "ordo": 32,
+    "perditio": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "ic2:uranium_238"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:uu_matter_drop"
+      }
+    }
+  ],
+  "result": {
+    "item": "ic2:iridium_ore",
+    "count": 2
+  }
+}

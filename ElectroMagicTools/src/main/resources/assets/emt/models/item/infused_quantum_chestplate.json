@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "emt:items/armor/armor_quantum_chest"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "emt:attachment": 1
+      },
+      "model": "emt:item/infused_quantum_chestplate_jetpack"
+    },
+    {
+      "predicate": {
+        "emt:attachment": 2
+      },
+      "model": "emt:item/infused_quantum_chestplate_wing_t"
+    },
+    {
+      "predicate": {
+        "emt:attachment": 3
+      },
+      "model": "emt:item/infused_quantum_chestplate_wing_n"
+    },
+    {
+      "predicate": {
+        "emt:attachment": 4
+      },
+      "model": "emt:item/infused_quantum_chestplate_wing_q"
+    }
+  ]
+}

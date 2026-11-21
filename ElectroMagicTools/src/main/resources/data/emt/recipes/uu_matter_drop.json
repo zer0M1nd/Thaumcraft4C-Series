@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "emt:uu_matter_infusion",
+  "catalyst": {
+    "item": "ic2:uu_matter_cell"
+  },
+  "aspects": {
+    "vitreus": 8,
+    "gelum": 8,
+    "praecantatio": 8
+  },
+  "result": {
+    "item": "emt:uu_matter_drop",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:solar_goggles",
+  "instability": 5,
+  "aspects": {
+    "potentia": 32,
+    "aer": 32,
+    "lux": 25
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:quantum_goggles"
+    },
+    "damage": 32767
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "emt:double_compressed_solar"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:glass_fibre_cable"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "ic2:lapotron_crystal"
+      },
+      "damage": 32767
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      },
+      "damage": 32767
+    }
+  ],
+  "result": {
+    "item": "emt:solar_goggles",
+    "nbt": "{charge:10.0d}"
+  }
+}

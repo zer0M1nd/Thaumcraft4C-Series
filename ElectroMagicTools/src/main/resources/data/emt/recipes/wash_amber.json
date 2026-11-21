@@ -1,0 +1,21 @@
+{
+  "type": "ic2:ore_washer",
+  "ingredient": {
+    "item": "emt:crushed_amber"
+  },
+  "amount": 1000,
+  "result": [
+    {
+      "item": "emt:purified_amber",
+      "count": 1
+    },
+    {
+      "item": "ic2:small_copper_dust",
+      "count": 2
+    },
+    {
+      "item": "ic2:stone_dust",
+      "count": 1
+    }
+  ]
+}

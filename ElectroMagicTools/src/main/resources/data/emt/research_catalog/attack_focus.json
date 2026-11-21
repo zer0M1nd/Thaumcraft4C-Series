@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:explosion_focus",
+          "category": "EMT",
+          "displayColumn": 2,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "ignis": 3,
+            "mortuus": 2,
+            "telum": 3
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:explosion_focus"
+          }
+        },
+        {
+          "key": "emt:energy_ball_focus",
+          "category": "EMT",
+          "displayColumn": 1,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "potentia": 10,
+            "praecantatio": 5,
+            "victus": 6
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:energy_ball_focus"
+          }
+        },
+        {
+          "key": "emt:christmas_focus",
+          "category": "EMT",
+          "displayColumn": 3,
+          "displayRow": 3,
+          "pageCount": 2,
+          "complexity": 1,
+          "aspects": {
+            "gelum": 2,
+            "bestia": 5,
+            "victus": 6,
+            "mortuus": 2
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "isSecondary": true,
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:christmas_focus"
+          }
+        }
+      ]
+    }
+  ]
+}

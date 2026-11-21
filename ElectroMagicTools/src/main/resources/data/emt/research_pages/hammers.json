@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:the_legend",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.The Legend"
+          },
+          "id": "emt:the_legend/page/1",
+          "page_break": true,
+          "import_legacy": true
+        }
+      ]
+    },
+    {
+      "key": "emt:mjolnir",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Mjolnir"
+          },
+          "id": "emt:mjolnir/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:mjolnir"
+            ]
+          },
+          "id": "emt:mjolnir/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:supercharged_mjolnir",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Supercharged Mjolnir"
+          },
+          "id": "emt:supercharged_mjolnir/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:supercharged_mjolnir"
+            ]
+          },
+          "id": "emt:supercharged_mjolnir/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

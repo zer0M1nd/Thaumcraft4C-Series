@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "emt:tiny_uranium",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Tiny Uranium"
+          },
+          "id": "emt:tiny_uranium/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:tiny_uranium"
+            ]
+          },
+          "id": "emt:tiny_uranium/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "emt:thaumium_plate",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "emt.text.Thaumium Plate"
+          },
+          "id": "emt:thaumium_plate/page/1",
+          "page_break": true,
+          "import_legacy": true
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "emt:thaumium_plate"
+            ]
+          },
+          "id": "emt:thaumium_plate/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

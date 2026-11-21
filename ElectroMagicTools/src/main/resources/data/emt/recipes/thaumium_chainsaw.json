@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:thaumium_chainsaw",
+  "instability": 5,
+  "aspects": {
+    "instrumentum": 16,
+    "telum": 16,
+    "potentia": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "emt:diamond_chainsaw"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "emt:thaumium_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:dense_iron_plate"
+      }
+    }
+  ],
+  "result": {
+    "item": "emt:thaumium_chainsaw",
+    "nbt": "{charge:10.0d}"
+  }
+}

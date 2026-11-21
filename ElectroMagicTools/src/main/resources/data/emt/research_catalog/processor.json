@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "EMT",
+      "icon": "emt:textures/misc/emt.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "emt:ethereal_processor",
+          "category": "EMT",
+          "displayColumn": -1,
+          "displayRow": 2,
+          "pageCount": 2,
+          "complexity": 2,
+          "aspects": {
+            "machina": 3,
+            "praecantatio": 4,
+            "fabrico": 5
+          },
+          "parents": [
+            "emt:foundation"
+          ],
+          "isConcealed": true,
+          "icon_item": {
+            "item": "emt:ethereal_processor"
+          },
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        }
+      ]
+    }
+  ]
+}

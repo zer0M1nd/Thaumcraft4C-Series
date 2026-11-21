@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "emt:christmas_focus",
+  "pattern": [
+    "XYX",
+    "YZY",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:snow_block"
+    },
+    "Y": {
+      "item": "minecraft:pumpkin"
+    },
+    "Z": {
+      "item": "thaumcraft:focus_frost"
+    }
+  },
+  "vis": {
+    "ordo": 20,
+    "aer": 20
+  },
+  "result": {
+    "item": "emt:christmas_focus"
+  }
+}

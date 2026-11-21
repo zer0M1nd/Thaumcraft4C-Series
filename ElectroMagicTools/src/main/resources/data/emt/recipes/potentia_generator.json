@@ -1,0 +1,61 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "emt:potentia_generator",
+  "instability": 6,
+  "aspects": {
+    "potentia": 32,
+    "praecantatio": 32,
+    "metallum": 32,
+    "permutatio": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "ic2:semifluid_generator"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_trade"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:hopper"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_jar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:mv_transformer"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:advanced_machine"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:ore_washing_plant"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ic2:scrap"
+      }
+    }
+  ],
+  "result": {
+    "item": "emt:potentia_generator"
+  }
+}

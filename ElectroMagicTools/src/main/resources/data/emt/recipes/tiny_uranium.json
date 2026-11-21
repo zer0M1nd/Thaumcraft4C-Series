@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shapeless",
+  "research": "emt:tiny_uranium",
+  "ingredients": [
+    {
+      "item": "ic2:uranium_238",
+      "count": 1
+    }
+  ],
+  "vis": {
+    "aer": 1,
+    "aqua": 1,
+    "ignis": 1,
+    "terra": 1,
+    "ordo": 1,
+    "perditio": 1
+  },
+  "result": {
+    "item": "ic2:small_uranium_235",
+    "count": 7
+  }
+}
