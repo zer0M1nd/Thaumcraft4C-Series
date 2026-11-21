@@ -1,7 +1,7 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
 version = '0.2.30.1'
 group='temodern'
-base.archivesName='Thaumic-Energistics-Modern-Port'
+base.archivesName='[TC4Continuation]Thaumic-Energistics'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
 java.withSourcesJar()
 // Human-readable notices live with workspace documentation; preserve their original JAR paths.
