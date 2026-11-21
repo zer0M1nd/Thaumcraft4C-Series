@@ -10,11 +10,13 @@ sourceSets {
         runtimeClasspath = output + sourceSets.main.runtimeClasspath
     }
 }
-repositories { flatDir { dirs '../../../References/Projects/ThaumicOmniverse/evidence/core-jars', '../../../References/Projects/ThaumicOmniverse/evidence/modern-jars', '../../../References/Projects/ThaumicOmniverse/evidence/collab-jars' }; maven { url = 'https://maven.theillusivec4.top/' }; maven { url = 'https://api.modrinth.com/maven' }; mavenCentral() }
-repositories { flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" } }
-repositories { flatDir { dirs '../../../References/Projects/ThaumicOmniverse/evidence/expansion-api' } }
-repositories { flatDir { dirs '../../../References/Projects/ThaumicOmniverse/expansion-20261021' } }
-repositories { flatDir { dirs '../../../References/Projects/ThaumicFutures' } }
+repositories {
+    flatDir { dirs 'dependencies/jars' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    mavenCentral()
+}
+
 dependencies {
     compileOnly fg.deobf('local.futures:exdeorum:1.53')
     compileOnly fg.deobf('local.expansion:cofh_core:1.20.1-11.0.2.56')
@@ -25,7 +27,7 @@ dependencies {
     compileOnly fg.deobf("local.collab:jei:local")
     compileOnly fg.deobf("local.collab:placebo:local")
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
-    implementation fg.deobf("local.core:Thaumcraft-4-Modern-Port:${findProperty('tc4ValidationVersion') ?: '0.4.114'}")
+    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
     compileOnly fg.deobf('local.collab:journeymap_api_v2:local')
     testRuntimeOnly fg.deobf('local.collab:journeymap_api_v2:local')
     testRuntimeOnly fg.deobf('local.collab:journeymap:local')
