@@ -15,7 +15,7 @@ public class GrappleFocusItem extends thaumcraft.api.wands.ItemFocusBasic {
     @Override public int color(ItemStack focus) { return 0x1515ff; }
     @Override public String sortingPrefix() { return "FGR"; }
     @Override public int cooldownMillis(ItemStack focus) { return 250; }
-    @Override public Map<Aspect,Integer> costs(ItemStack focus) { var a=TCAspects.catalog();return Map.of(a.require("aer"),100,a.require("aqua"),100); }
+    @Override public Map<Aspect,Integer> costs(ItemStack focus) { var a=TCAspects.catalog();return Map.of(a.require("aer"),20,a.require("aqua"),20); }
     @Override public List<FocusUpgrade> upgradesForRank(ItemStack focus,int rank) {
         return rank==3 ? List.of(FocusUpgrade.FRUGAL,FocusUpgrade.POTENCY,sticky())
                 : rank>=1 && rank<=5 ? List.of(FocusUpgrade.FRUGAL,FocusUpgrade.POTENCY) : List.of();

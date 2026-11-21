@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "id": "thaumicfutures:alchemical_brass_sheet",
+      "research": "ALCHEMICALBRASS",
+      "position": "end",
+      "components": [
+        {
+          "type": "CRUCIBLE_CRAFTING",
+          "id": "thaumicfutures:alchemical_brass_sheet/crucible",
+          "page_break": true,
+          "recipe": {
+            "kind": "reference",
+            "class": "modern",
+            "keys": [
+              "thaumicfutures:crucible/alchemical_brass_sheet"
+            ]
+          },
+          "recipeOutput": {
+            "item": "thaumicfutures:alchemical_brass_sheet"
+          }
+        }
+      ]
+    }
+  ]
+}

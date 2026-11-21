@@ -19,8 +19,8 @@ public class ShardFocusItem extends thaumcraft.api.wands.ItemFocusBasic {
     @Override public Map<Aspect,Integer> costs(ItemStack focus) {
         var a = TCAspects.catalog();
         return upgradeLevel(focus, persistent().id) > 0
-                ? Map.of(a.require("ignis"),10,a.require("perditio"),10,a.require("aer"),10,a.require("aqua"),10)
-                : Map.of(a.require("ignis"),10,a.require("perditio"),10,a.require("aer"),10);
+                ? Map.of(a.require("ignis"),5,a.require("perditio"),5,a.require("aer"),5,a.require("aqua"),5)
+                : Map.of(a.require("ignis"),5,a.require("perditio"),5,a.require("aer"),5);
     }
     @Override public List<FocusUpgrade> upgradesForRank(ItemStack focus,int rank) {
         return rank == 5 ? List.of(FocusUpgrade.FRUGAL,FocusUpgrade.POTENCY,persistent())

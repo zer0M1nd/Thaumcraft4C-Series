@@ -16,7 +16,7 @@ public class BuilderFocusItem extends thaumcraft.api.wands.ItemFocusBasic {
     @Override public int color(ItemStack focus) { return 8776595; }
     @Override public String sortingPrefix() { return "FBU"; }
     @Override public int cooldownMillis(ItemStack focus) { return 250; }
-    @Override public Map<Aspect,Integer> costs(ItemStack focus) { var a=TCAspects.catalog();return Map.of(a.require("aer"),10,a.require("terra"),10,a.require("ordo"),10); }
+    @Override public Map<Aspect,Integer> costs(ItemStack focus) { var a=TCAspects.catalog();return Map.of(a.require("aer"),5,a.require("terra"),5,a.require("ordo"),5); }
     @Override public List<FocusUpgrade> upgradesForRank(ItemStack focus,int rank) {
         return rank>=1 && rank<=5 ? List.of(FocusUpgrade.FRUGAL,FocusUpgrade.ENLARGE) : List.of();
     }
