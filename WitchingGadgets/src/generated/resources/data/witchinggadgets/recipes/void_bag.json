@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 16,
+    "perditio": 32,
+    "vacuos": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "witchinggadgets:bag"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "witchinggadgets:cloth_space"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "witchinggadgets:cloth_space"
+      }
+    }
+  ],
+  "instability": 4,
+  "research": "witchinggadgets:VOIDBAG",
+  "result": {
+    "item": "witchinggadgets:void_bag"
+  }
+}

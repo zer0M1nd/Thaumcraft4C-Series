@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "B": {
+      "item": "minecraft:grass_block"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "S": {
+      "item": "thaumcraft:balanced_shard"
+    },
+    "T": {
+      "item": "thaumcraft:essentia_tube"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    " S ",
+    "IBI",
+    "ITI"
+  ],
+  "research": "witchinggadgets:TERRAFORMER",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:terraform_focus_plains"
+  },
+  "vis": {
+    "terra": 10
+  }
+}

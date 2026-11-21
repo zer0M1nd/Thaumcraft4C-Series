@@ -1,0 +1,136 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#all"
+        },
+        "east": {
+          "texture": "#all"
+        },
+        "north": {
+          "texture": "#all"
+        },
+        "south": {
+          "texture": "#all"
+        },
+        "up": {
+          "texture": "#all"
+        },
+        "west": {
+          "texture": "#all"
+        }
+      },
+      "from": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "to": [
+        3.0,
+        2.0,
+        1.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#all"
+        },
+        "east": {
+          "texture": "#all"
+        },
+        "north": {
+          "texture": "#all"
+        },
+        "south": {
+          "texture": "#all"
+        },
+        "up": {
+          "texture": "#all"
+        },
+        "west": {
+          "texture": "#all"
+        }
+      },
+      "from": [
+        3.0,
+        2.0,
+        0.0
+      ],
+      "to": [
+        4.0,
+        3.0,
+        1.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#all"
+        },
+        "east": {
+          "texture": "#all"
+        },
+        "north": {
+          "texture": "#all"
+        },
+        "south": {
+          "texture": "#all"
+        },
+        "up": {
+          "texture": "#all"
+        },
+        "west": {
+          "texture": "#all"
+        }
+      },
+      "from": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "to": [
+        6.0,
+        3.0,
+        1.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#all"
+        },
+        "east": {
+          "texture": "#all"
+        },
+        "north": {
+          "texture": "#all"
+        },
+        "south": {
+          "texture": "#all"
+        },
+        "up": {
+          "texture": "#all"
+        },
+        "west": {
+          "texture": "#all"
+        }
+      },
+      "from": [
+        6.0,
+        3.0,
+        0.0
+      ],
+      "to": [
+        7.0,
+        5.0,
+        1.0
+      ]
+    }
+  ],
+  "textures": {
+    "all": "witchinggadgets:blocks/rosevineblock",
+    "particle": "witchinggadgets:blocks/rosevineblock"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "platinum"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/platinum"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_platinum"
+  },
+  "temperature": 550,
+  "time": 110
+}

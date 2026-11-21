@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "s": {
+      "item": "minecraft:string"
+    },
+    "w": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "pattern": [
+    " s ",
+    "www",
+    "www"
+  ],
+  "result": {
+    "item": "witchinggadgets:cloak_plain",
+    "nbt": "{display:{color:15066419}}"
+  }
+}

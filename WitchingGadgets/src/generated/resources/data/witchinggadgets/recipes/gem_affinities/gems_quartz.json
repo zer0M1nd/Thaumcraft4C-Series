@@ -1,0 +1,15 @@
+{
+  "type": "witchinggadgets:gem_affinity",
+  "affinities": [
+    "perditio",
+    "ignis"
+  ],
+  "aversions": [
+    "ordo",
+    "aqua"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/quartz"
+  },
+  "priority": 1000
+}

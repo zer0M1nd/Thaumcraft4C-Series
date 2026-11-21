@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 4,
+    "praecantatio": 4,
+    "vacuos": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "witchinggadgets:bag"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_chest"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "witchinggadgets:cloth_bewitched"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "witchinggadgets:cloth_bewitched"
+      }
+    }
+  ],
+  "instability": 3,
+  "research": "witchinggadgets:ENDERBAG",
+  "result": {
+    "item": "witchinggadgets:ender_bag"
+  }
+}

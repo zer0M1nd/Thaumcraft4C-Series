@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "L": {
+      "item": "thaumcraft:jar_label"
+    },
+    "T": {
+      "item": "thaumcraft:table"
+    },
+    "W": {
+      "item": "thaumcraft:scribing_tools"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    "BLW",
+    " T "
+  ],
+  "research": "witchinggadgets:LABELLIB",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:label_library"
+  },
+  "vis": {
+    "ordo": 30
+  }
+}

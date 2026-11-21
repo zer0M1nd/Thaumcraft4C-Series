@@ -1,0 +1,16 @@
+{
+  "type": "witchinggadgets:metal_crucible",
+  "aspects": {
+    "metallum": 1,
+    "ordo": 1
+  },
+  "catalyst": {
+    "tag": "forge:raw_materials/midasium"
+  },
+  "metal": "midasium",
+  "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS",
+  "result": {
+    "item": "witchinggadgets:midasium_cluster"
+  },
+  "transmutation": false
+}

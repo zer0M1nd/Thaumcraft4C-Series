@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "TUT_ADDON_WITCHINGGADGETS",
+      "pages": [
+        {
+          "id": "witchinggadgets:tut_addon_witchinggadgets/text/1",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.witchinggadgets.tut_addon_witchinggadgets.text.1",
+            "with": [
+              [
+                {
+                  "text": "巫师宝具是什么\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "witchinggadgets:tut_addon_witchinggadgets/text/2",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.witchinggadgets.tut_addon_witchinggadgets.text.2",
+            "with": [
+              [
+                {
+                  "text": "巫师宝具提供大量"
+                },
+                {
+                  "text": "小玩意和装备",
+                  "bold": true
+                },
+                {
+                  "text": "：用纺车织出魔法布料，做成各式斗篷和奇术口袋；饰品、宝石雕琢、炼狱高炉、群系转化器和新附魔。终局是用元始珍珠制作的元始武器和护甲。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "witchinggadgets:tut_addon_witchinggadgets/divider/3",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "witchinggadgets:tut_addon_witchinggadgets/text/4",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.witchinggadgets.tut_addon_witchinggadgets.text.4",
+            "with": [
+              [
+                {
+                  "text": "从哪里开始\n",
+                  "bold": true
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "witchinggadgets:tut_addon_witchinggadgets/text/5",
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.tutorial.witchinggadgets.tut_addon_witchinggadgets.text.5",
+            "with": [
+              [
+                {
+                  "text": "· "
+                },
+                {
+                  "research": "witchinggadgets:SPINNINGWHEEL"
+                },
+                {
+                  "text": "：纺织工艺，无需前置。\n· "
+                },
+                {
+                  "research": "witchinggadgets:CLOAK"
+                },
+                {
+                  "text": "：斗篷。\n· "
+                },
+                {
+                  "research": "witchinggadgets:BAGOFTRICKS"
+                },
+                {
+                  "text": "：奇术口袋。\n· "
+                },
+                {
+                  "research": "witchinggadgets:WGBAUBLES"
+                },
+                {
+                  "text": "：巫师装备。\n· "
+                },
+                {
+                  "research": "witchinggadgets:INFERNALBLASTFURNACE"
+                },
+                {
+                  "text": "：炼狱高炉。\n· "
+                },
+                {
+                  "research": "witchinggadgets:PRIMORDIALGEARSET"
+                },
+                {
+                  "text": "：元始启示录，需要虚空金属与元始珍珠。\n"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "witchinggadgets:tut_addon_witchinggadgets/recommended/divider",
+          "type": "DIVIDER"
+        },
+        {
+          "id": "witchinggadgets:tut_addon_witchinggadgets/recommended/title",
+          "type": "TEXT",
+          "text": {
+            "translate": "thaumcraft.tutorial.recommended"
+          }
+        },
+        {
+          "id": "witchinggadgets:tut_addon_witchinggadgets/recommended/icons",
+          "type": "ITEM",
+          "research_links": [
+            "witchinggadgets:SPINNINGWHEEL",
+            "witchinggadgets:CLOAK",
+            "witchinggadgets:BAGOFTRICKS",
+            "witchinggadgets:WGBAUBLES",
+            "witchinggadgets:INFERNALBLASTFURNACE",
+            "witchinggadgets:PRIMORDIALGEARSET"
+          ],
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

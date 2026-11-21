@@ -1,0 +1,50 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "ordo": 16,
+    "permutatio": 8,
+    "terra": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:alchemical_construct"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:balanced_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_tube"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:silverwood_sapling"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:essentia_tube"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    }
+  ],
+  "instability": 3,
+  "research": "witchinggadgets:TERRAFORMER",
+  "result": {
+    "item": "witchinggadgets:terraformer"
+  }
+}

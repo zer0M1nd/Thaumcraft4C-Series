@@ -1,0 +1,40 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "cognitio": 6,
+    "instrumentum": 2,
+    "iter": 4
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:greatwood_log"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "witchinggadgets:thread_simple"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "witchinggadgets:thread_simple"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "witchinggadgets:thread_simple"
+      }
+    }
+  ],
+  "instability": 2,
+  "research": "witchinggadgets:LABYRINTHSTRING",
+  "result": {
+    "item": "witchinggadgets:guiding_string"
+  }
+}

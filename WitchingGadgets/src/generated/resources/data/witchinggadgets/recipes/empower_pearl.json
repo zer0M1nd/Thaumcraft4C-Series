@@ -1,0 +1,53 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 16,
+    "aqua": 16,
+    "ignis": 16,
+    "ordo": 16,
+    "perditio": 16,
+    "terra": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "witchinggadgets:powerless_pearl"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:earth_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:water_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    }
+  ],
+  "instability": 3,
+  "research": "witchinggadgets:EMPOWERPEARL",
+  "result": {
+    "item": "thaumcraft:primordial_pearl"
+  }
+}

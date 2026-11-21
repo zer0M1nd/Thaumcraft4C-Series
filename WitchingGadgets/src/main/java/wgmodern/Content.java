@@ -1,0 +1,100 @@
+package wgmodern;
+
+import java.util.*;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.inventory.MenuType;
+import net.minecraft.world.item.crafting.*;
+import net.minecraft.network.chat.Component;
+import net.minecraftforge.registries.*;
+import net.minecraftforge.common.extensions.IForgeMenuType;
+
+public class Content {
+    public static final DeferredRegister<Item> ITEMS=DeferredRegister.create(ForgeRegistries.ITEMS,"witchinggadgets");
+    public static final DeferredRegister<Block> BLOCKS=DeferredRegister.create(ForgeRegistries.BLOCKS,"witchinggadgets");
+    public static final DeferredRegister<BlockEntityType<?>> TILES=DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES,"witchinggadgets");
+    public static final DeferredRegister<MenuType<?>> MENUS=DeferredRegister.create(ForgeRegistries.MENU_TYPES,"witchinggadgets");
+    public static final DeferredRegister<RecipeType<?>> RECIPES=DeferredRegister.create(Registries.RECIPE_TYPE,"witchinggadgets");
+    public static final DeferredRegister<RecipeSerializer<?>> SERIALIZERS=DeferredRegister.create(ForgeRegistries.RECIPE_SERIALIZERS,"witchinggadgets");
+    public static final DeferredRegister<CreativeModeTab> TABS=DeferredRegister.create(Registries.CREATIVE_MODE_TAB,"witchinggadgets");
+    public static final Map<String,RegistryObject<Item>> MATERIALS=new LinkedHashMap<>();
+    public static final Map<String,String> LEGACY_MATERIALS=new LinkedHashMap<>();
+    static {for(String pair:List.of("thread_simple:threadSimple","thread_gold:threadGold","thread_thaumium:threadThaumium","cloth_space:clothSpace","cloth_golden:clothGolden","cloth_bewitched:clothBewitched","wolf_pelt:wolfPelt","gemstone_dust:gemstoneDust")){var bits=pair.split(":");LEGACY_MATERIALS.put(bits[0],bits[1]);MATERIALS.put(bits[0],ITEMS.register(bits[0],()->new NamedItem("item.WG_Material."+bits[1],new Item.Properties())));}}
+    public static final RegistryObject<Item> SWEETWART=ITEMS.register("sweetwart",()->new MagicFood("sweetwart",2,.4f)),NETHERCAKE=ITEMS.register("nethercake",()->new MagicFood("nethercake",6,1.5f)),BRAINJERKY=ITEMS.register("brainjerky",()->new MagicFood("brainjerky",6,1f));
+    public static final RegistryObject<Item> BAG=ITEMS.register("bag",()->new BagItem("normal"));
+    public static final RegistryObject<Item> VOID_BAG=ITEMS.register("void_bag",()->new BagItem("void"));
+    public static final RegistryObject<Item> ENDER_BAG=ITEMS.register("ender_bag",()->new BagItem("ender"));
+    public static final RegistryObject<Item> HUNGRY_BAG=ITEMS.register("hungry_bag",()->new BagItem("hungry"));
+    public static final RegistryObject<Item> ROBE_CHEST=ITEMS.register("advanced_robe_chest",()->new AdvancedRobe(ArmorItem.Type.CHESTPLATE));
+    public static final RegistryObject<Item> ROBE_LEGS=ITEMS.register("advanced_robe_legs",()->new AdvancedRobe(ArmorItem.Type.LEGGINGS));
+    public static final RegistryObject<Item> THAUMIUM_SHEARS=ITEMS.register("thaumium_shears",ThaumiumShears::new);
+    public static final Map<String,RegistryObject<Item>> CLOAKS=new LinkedHashMap<>(),GEAR=new LinkedHashMap<>();
+    static{for(String kind:List.of("standard","spectral","storage","wolf","raven"))for(boolean kama:List.of(false,true)){String id=(kama?"kama_":"cloak_")+kind;CLOAKS.put(id,ITEMS.register(id,()->net.minecraftforge.fml.ModList.get().isLoaded("botania")?BotaniaCompat.cloak(kind,kama):new CloakItem(kind,kama)));}CLOAKS.put("cloak_plain",ITEMS.register("cloak_plain",()->net.minecraftforge.fml.ModList.get().isLoaded("botania")?BotaniaCompat.cloak("plain",false):new CloakItem("plain",false)));WGAccessories.TYPES.forEach((id,legacy)->GEAR.put(id,ITEMS.register(id,()->net.minecraftforge.fml.ModList.get().isLoaded("botania")?BotaniaCompat.gear(id):new WGAccessories.Gear(id))));}
+    public static final RegistryObject<Block> ROSE=BLOCKS.register("rose_vines",RoseVines::new);
+    public static final RegistryObject<Item> ROSE_ITEM=ITEMS.register("rose_vines",()->new BlockItem(ROSE.get(),new Item.Properties()){@Override public String getDescriptionId(){return "tile.WG_RoseVine";}});
+    public static final RegistryObject<Item> CALCULATOR=ITEMS.register("calculator",ArcaneCalculator::new); public static final RegistryObject<Item> GUIDING_STRING=ITEMS.register("guiding_string",LabyrinthString::new);
+    public static final RegistryObject<Item> CAMERA=ITEMS.register("scan_camera",ScanCamera::new),PLATE=ITEMS.register("photo_plate",()->new ScanCamera.Photograph(false)),PHOTO=ITEMS.register("developed_photo",()->new ScanCamera.Photograph(true));
+    public static final RegistryObject<Block> BLAST=BLOCKS.register("infernal_blast_furnace",BlastFurnace::new);
+    public static final RegistryObject<Block> TERRAFORMER=BLOCKS.register("terraformer",Terraformer::new);
+    public static final RegistryObject<Item> TERRAFORMER_ITEM=ITEMS.register("terraformer",()->new Terraformer.RenderedItem(TERRAFORMER.get()));
+    public static final RegistryObject<BlockEntityType<Terraformer.Tile>> TERRAFORMER_TILE=TILES.register("terraformer",()->BlockEntityType.Builder.of(Terraformer.Tile::new,TERRAFORMER.get()).build(null));
+    public static final RegistryObject<BlockEntityType<Terraformer.FocusTile>> TERRAFORM_FOCUS_TILE=TILES.register("terraform_focus",()->BlockEntityType.Builder.of(Terraformer.FocusTile::new,Terraformer.FOCI.values().stream().map(RegistryObject::get).toArray(Block[]::new)).build(null));
+    public static final RegistryObject<BlockEntityType<BlastFurnace.Tile>> BLAST_TILE=TILES.register("infernal_blast_furnace",()->BlockEntityType.Builder.of(BlastFurnace.Tile::new,BLAST.get()).build(null));
+    public static final RegistryObject<RecipeType<BlastRecipe>> BLAST_RECIPES=RECIPES.register("blast_furnace",()->new RecipeType<BlastRecipe>(){});
+    public static final RegistryObject<RecipeSerializer<BlastRecipe>> BLAST_SERIALIZER=SERIALIZERS.register("blast_furnace",BlastRecipe.Serializer::new);
+    public static final RegistryObject<RecipeSerializer<MetalCrucibleRecipe>> METAL_CRUCIBLE=SERIALIZERS.register("metal_crucible",MetalCrucibleRecipe.Serializer::new);
+    public static final RegistryObject<RecipeSerializer<MetalBonusRecipe>> METAL_BONUS=SERIALIZERS.register("metal_bonus",MetalBonusRecipe.Serializer::new);
+    public static final RegistryObject<RecipeSerializer<ClusterSmeltingRecipe>> CLUSTER_SMELTING=SERIALIZERS.register("cluster_smelting",ClusterSmeltingRecipe.Serializer::new);
+    public static final RegistryObject<RecipeType<GemAffinityRecipe>> GEM_AFFINITIES=RECIPES.register("gem_affinity",()->new RecipeType<GemAffinityRecipe>(){});
+    public static final RegistryObject<RecipeSerializer<GemAffinityRecipe>> GEM_AFFINITY_SERIALIZER=SERIALIZERS.register("gem_affinity",GemAffinityRecipe.Serializer::new);
+    public static final RegistryObject<RecipeSerializer<PhotoDevelopingRecipe>> PHOTO_RECIPE=SERIALIZERS.register("photo_developing",PhotoDevelopingRecipe.Serializer::new);
+    public static final RegistryObject<Item> CAPSULE=ITEMS.register("crystal_capsule",CrystalCapsule::new);
+    public static final RegistryObject<Item> INFUSED_GEM=ITEMS.register("infused_gem",InfusedGem::new);
+    public static final RegistryObject<Item> CUTTING_TOOLS=ITEMS.register("cutting_tools",()->new NamedItem("item.WG_Material.cuttingTools",new Item.Properties()){@Override public net.minecraft.world.InteractionResult useOn(net.minecraft.world.item.context.UseOnContext c){var l=c.getLevel();var p=c.getPlayer();if(!(l.getBlockState(c.getClickedPos()).getBlock() instanceof tc4revival.content.TableBlock)||l.getBlockState(c.getClickedPos()).getValue(tc4revival.content.TableBlock.PART)!=tc4revival.content.TableBlock.Part.SINGLE||p==null)return net.minecraft.world.InteractionResult.PASS;if(!l.mayInteract(p,c.getClickedPos())||!p.mayUseItemAt(c.getClickedPos(),c.getClickedFace(),c.getItemInHand()))return net.minecraft.world.InteractionResult.FAIL;if(!l.isClientSide)l.setBlockAndUpdate(c.getClickedPos(),CUTTING.get().defaultBlockState().setValue(SpinningWheel.FACING,p.getDirection().getOpposite()));return net.minecraft.world.InteractionResult.sidedSuccess(l.isClientSide);}});
+    public static final RegistryObject<Block> PUMP=BLOCKS.register("mirror_pump",MirrorPump::new);
+    public static final RegistryObject<Item> PUMP_ITEM=ITEMS.register("mirror_pump",()->new BlockItem(PUMP.get(),new Item.Properties()){@Override public String getDescriptionId(){return "tile.WG_MetalDevice.essentiaPump";}@Override public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.extensions.common.IClientItemExtensions> c){c.accept(new net.minecraftforge.client.extensions.common.IClientItemExtensions(){private net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer renderer;public net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer getCustomRenderer(){if(renderer==null)renderer=new WGClient.ItemRenderer();return renderer;}});}});
+    public static final RegistryObject<BlockEntityType<MirrorPump.Tile>> PUMP_TILE=TILES.register("mirror_pump",()->BlockEntityType.Builder.of(MirrorPump.Tile::new,PUMP.get()).build(null));
+    public static final RegistryObject<Block> LABEL=BLOCKS.register("label_library",LabelLibrary::new);
+    public static final RegistryObject<Item> LABEL_ITEM=ITEMS.register("label_library",()->new BlockItem(LABEL.get(),new Item.Properties()){@Override public String getDescriptionId(){return "tile.WG_WoodenDevice.labelLibrary";}@Override public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.extensions.common.IClientItemExtensions> c){c.accept(new net.minecraftforge.client.extensions.common.IClientItemExtensions(){private net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer renderer;public net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer getCustomRenderer(){if(renderer==null)renderer=new WGClient.ItemRenderer();return renderer;}});}});
+    public static final RegistryObject<BlockEntityType<LabelLibrary.Tile>> LABEL_TILE=TILES.register("label_library",()->BlockEntityType.Builder.of(LabelLibrary.Tile::new,LABEL.get()).build(null));
+    public static final RegistryObject<MenuType<LabelMenu>> LABEL_MENU=MENUS.register("label_library",()->IForgeMenuType.create((id,inv,buf)->new LabelMenu(id,inv,buf.readBlockPos())));
+    public static final RegistryObject<Block> CUTTING=BLOCKS.register("cutting_table",CuttingTable::new);
+    public static final RegistryObject<Item> CUTTING_ITEM=ITEMS.register("cutting_table",()->new BlockItem(CUTTING.get(),new Item.Properties()){@Override public String getDescriptionId(){return "tile.WG_WoodenDevice.cuttingTable";}@Override public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.extensions.common.IClientItemExtensions> c){c.accept(new net.minecraftforge.client.extensions.common.IClientItemExtensions(){private net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer renderer;public net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer getCustomRenderer(){if(renderer==null)renderer=new WGClient.ItemRenderer();return renderer;}});}});
+    public static final RegistryObject<BlockEntityType<CuttingTable.Tile>> CUTTING_TILE=TILES.register("cutting_table",()->BlockEntityType.Builder.of(CuttingTable.Tile::new,CUTTING.get()).build(null));
+    public static final RegistryObject<Block> LIGHT=BLOCKS.register("temporary_light",TemporaryLight::new);
+    public static final RegistryObject<BlockEntityType<TemporaryLight.Tile>> LIGHT_TILE=TILES.register("temporary_light",()->BlockEntityType.Builder.of(TemporaryLight.Tile::new,LIGHT.get()).build(null));
+    public static final RegistryObject<MenuType<CuttingMenu>> CUTTING_MENU=MENUS.register("cutting_table",()->IForgeMenuType.create((id,inv,buf)->new CuttingMenu(id,inv,buf.readBlockPos())));
+    public static final RegistryObject<Block> SAUNA=BLOCKS.register("sauna_stove",SaunaStove::new);
+    public static final RegistryObject<Item> SAUNA_ITEM=ITEMS.register("sauna_stove",()->new BlockItem(SAUNA.get(),new Item.Properties()));
+    public static final RegistryObject<BlockEntityType<SaunaStove.Tile>> SAUNA_TILE=TILES.register("sauna_stove",()->BlockEntityType.Builder.of(SaunaStove.Tile::new,SAUNA.get()).build(null));
+    public static final RegistryObject<Block> ETHEREAL_WALL=BLOCKS.register("ethereal_wall",EtherealWall::new);
+    public static final RegistryObject<Item> ETHEREAL_ITEM=ITEMS.register("ethereal_wall",()->new BlockItem(ETHEREAL_WALL.get(),new Item.Properties()));
+    public static final RegistryObject<BlockEntityType<EtherealWall.Tile>> ETHEREAL_TILE=TILES.register("ethereal_wall",()->BlockEntityType.Builder.of(EtherealWall.Tile::new,ETHEREAL_WALL.get()).build(null));
+    public static final RegistryObject<Block> LOCK=BLOCKS.register("magic_tile_lock",TileLock::new),OBSIDIAN_PLATE=BLOCKS.register("obsidian_plate",()->new Block(Block.Properties.copy(net.minecraft.world.level.block.Blocks.STONE).strength(-1,999).isValidSpawn((state,level,pos,type)->false).noOcclusion()){@Override public String getDescriptionId(){return "tile.WG_StoneDevice.obsidianPlate";}}),OBSIDIAN_DECORATION=BLOCKS.register("obsidian_decoration",Sarcophagus.Decoration::new),SARCOPHAGUS=BLOCKS.register("sarcophagus",Sarcophagus::new);
+    static{for(var block:List.of(LOCK,OBSIDIAN_PLATE,OBSIDIAN_DECORATION,SARCOPHAGUS))ITEMS.register(block.getId().getPath(),()->new BlockItem(block.get(),new Item.Properties()));}
+    public static final RegistryObject<BlockEntityType<TileLock.Tile>> LOCK_TILE=TILES.register("magic_tile_lock",()->BlockEntityType.Builder.of(TileLock.Tile::new,LOCK.get()).build(null));
+    public static final RegistryObject<MenuType<TileLock.Menu>> LOCK_MENU=MENUS.register("magic_tile_lock",()->IForgeMenuType.create((id,inv,buf)->new TileLock.Menu(id,inv,buf.readBlockPos())));
+    public static final RegistryObject<BlockEntityType<Sarcophagus.Tile>> SARCOPHAGUS_TILE=TILES.register("sarcophagus",()->BlockEntityType.Builder.of(Sarcophagus.Tile::new,SARCOPHAGUS.get()).build(null));
+    public static final RegistryObject<Block> AGEING_STONE=BLOCKS.register("ageing_stone",StoneDevices.Ageing::new);
+    public static final RegistryObject<Item> AGEING_ITEM=ITEMS.register("ageing_stone",()->new BlockItem(AGEING_STONE.get(),new Item.Properties()));
+    public static final RegistryObject<BlockEntityType<StoneDevices.AgeingTile>> AGEING_TILE=TILES.register("ageing_stone",()->BlockEntityType.Builder.of(StoneDevices.AgeingTile::new,AGEING_STONE.get()).build(null));
+    public static final RegistryObject<Block> EXTRUDER=BLOCKS.register("stone_extruder",StoneDevices.Extruder::new);
+    public static final RegistryObject<Item> EXTRUDER_ITEM=ITEMS.register("stone_extruder",()->new BlockItem(EXTRUDER.get(),new Item.Properties()){@Override public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.extensions.common.IClientItemExtensions> c){c.accept(new net.minecraftforge.client.extensions.common.IClientItemExtensions(){private net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer renderer;public net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer getCustomRenderer(){if(renderer==null)renderer=new WGClient.ItemRenderer();return renderer;}});}});
+    public static final RegistryObject<BlockEntityType<StoneDevices.ExtruderTile>> EXTRUDER_TILE=TILES.register("stone_extruder",()->BlockEntityType.Builder.of(StoneDevices.ExtruderTile::new,EXTRUDER.get()).build(null));
+    public static final RegistryObject<Block> SPINNING_WHEEL=BLOCKS.register("spinning_wheel",SpinningWheel::new);
+    public static final RegistryObject<Item> SPINNING_ITEM=ITEMS.register("spinning_wheel",()->new BlockItem(SPINNING_WHEEL.get(),new Item.Properties()){@Override public String getDescriptionId(){return "tile.WG_WoodenDevice.spinningWheel";}@Override public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.extensions.common.IClientItemExtensions> c){c.accept(new net.minecraftforge.client.extensions.common.IClientItemExtensions(){private net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer renderer;public net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer getCustomRenderer(){if(renderer==null)renderer=new WGClient.ItemRenderer();return renderer;}});}});
+    public static final RegistryObject<BlockEntityType<SpinningWheel.Tile>> SPINNING_TILE=TILES.register("spinning_wheel",()->BlockEntityType.Builder.of(SpinningWheel.Tile::new,SPINNING_WHEEL.get()).build(null));
+    public static final RegistryObject<MenuType<SpinningMenu>> SPINNING_MENU=MENUS.register("spinning_wheel",()->IForgeMenuType.create((id,inv,buf)->new SpinningMenu(id,inv,buf.readBlockPos())));
+    public static final RegistryObject<MenuType<EquippedPouchMenu>> EQUIPPED_POUCH_MENU=MENUS.register("equipped_focus_pouch",()->IForgeMenuType.create((id,inv,buf)->new EquippedPouchMenu(id,inv,buf.readUtf(80),buf.readVarInt())));
+    public static final RegistryObject<MenuType<BagMenu>> BAG_MENU=MENUS.register("bag",()->IForgeMenuType.create((id,inv,buf)->new BagMenu(id,inv,buf.readBoolean())));
+    public static final RegistryObject<MenuType<CloakMenu>> CLOAK_MENU=MENUS.register("cloak",()->IForgeMenuType.create((id,inv,buf)->new CloakMenu(id,inv,buf.readUtf(),buf.readVarInt())));
+    public static final RegistryObject<RecipeType<SpinningRecipe>> SPINNING=RECIPES.register("spinning",()->new RecipeType<SpinningRecipe>(){});
+    public static final RegistryObject<RecipeSerializer<SpinningRecipe>> SPINNING_SERIALIZER=SERIALIZERS.register("spinning",SpinningRecipe.Serializer::new);
+    public static final RegistryObject<RecipeSerializer<DyeRecipe>> DYE_SERIALIZER=SERIALIZERS.register("dye_bag",()->new SimpleCraftingRecipeSerializer<>(DyeRecipe::new));
+    public static final RegistryObject<RecipeSerializer<AccessoryEnchantRecipe>> GEAR_ENCHANTMENT=SERIALIZERS.register("gear_enchantment",AccessoryEnchantRecipe.Serializer::new);
+    public static final RegistryObject<CreativeModeTab> TAB=TABS.register("main",()->CreativeModeTab.builder().title(Component.translatable("itemGroup.witchinggadgets")).icon(()->new ItemStack(BAG.get())).displayItems((params,out)->{ITEMS.getEntries().forEach(x->{if(x!=WallMirror.ITEM&&x!=INFUSED_GEM&&(x!=BRAINJERKY||net.minecraftforge.fml.ModList.get().isLoaded("rackitup"))&&(!(x.get() instanceof Metallurgy.Cluster cluster)||Metallurgy.enabled(cluster.metal)))out.accept(x.get());});for(var fluid:ForgeRegistries.FLUIDS)if(fluid!=net.minecraft.world.level.material.Fluids.EMPTY&&fluid.isSource(fluid.defaultFluidState())){var capsule=new ItemStack(CAPSULE.get());net.minecraftforge.fluids.FluidUtil.getFluidHandler(capsule).ifPresent(handler->handler.fill(new net.minecraftforge.fluids.FluidStack(fluid,1000),net.minecraftforge.fluids.capability.IFluidHandler.FluidAction.EXECUTE));out.accept(capsule);}out.accept(InfusedGem.create("",0));for(var aspect:GemRules.PRIMALS)for(int cut=0;cut<2;cut++)out.accept(InfusedGem.create(aspect,cut));}).build());
+    public static class NamedItem extends Item {private final String name;public NamedItem(String name,Properties p){super(p);this.name=name;}@Override public String getDescriptionId(){return name;}}
+    public static class ThaumiumShears extends ShearsItem implements thaumcraft.api.IRepairable {public ThaumiumShears(){super(new Properties().durability(400));}@Override public String getDescriptionId(){return "item.WG_ThaumiumShears";}}
+}

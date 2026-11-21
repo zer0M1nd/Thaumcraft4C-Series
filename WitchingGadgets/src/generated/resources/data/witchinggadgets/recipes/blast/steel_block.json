@@ -1,0 +1,12 @@
+{
+  "type": "witchinggadgets:blast_furnace",
+  "duration": 1200,
+  "ingredient": {
+    "tag": "forge:storage_blocks/iron"
+  },
+  "result": {
+    "fallback_count": 9,
+    "fallback_tag": "forge:ingots/steel",
+    "tag": "forge:storage_blocks/steel"
+  }
+}

@@ -1,0 +1,1348 @@
+{
+  "categories": [
+    {
+      "background": "witchinggadgets:textures/gui/research/wgresearchback.png",
+      "icon": "witchinggadgets:textures/gui/research/wgicon.png",
+      "key": "WITCHGADG",
+      "research": [
+        {
+          "aspects": {
+            "aqua": 3,
+            "ignis": 3,
+            "machina": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -1,
+          "displayRow": -1,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:sauna_stove"
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:SAUNASTOVE",
+          "pageCount": 3,
+          "parentMirrors": {
+            "BATHSALTS": "witchinggadgets:WGFAKEBATHSALTS"
+          },
+          "parents": [
+            "BATHSALTS"
+          ]
+        },
+        {
+          "aspects": {
+            "alienis": 2,
+            "machina": 2,
+            "terra": 4
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": -1,
+          "displayRow": -6,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:ethereal_wall"
+          },
+          "isSecondary": true,
+          "key": "witchinggadgets:ETHEREALWALL",
+          "pageCount": 3,
+          "parentMirrors": {
+            "ARCANESTONE": "witchinggadgets:WGFAKEARCANESTONE"
+          },
+          "parents": [
+            "ARCANESTONE"
+          ]
+        },
+        {
+          "aspects": {
+            "machina": 3,
+            "victus": 3
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": -1,
+          "displayRow": -7,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:ageing_stone"
+          },
+          "isSecondary": true,
+          "key": "witchinggadgets:AGEINGSTONE",
+          "pageCount": 2,
+          "parentMirrors": {
+            "ARCANESTONE": "witchinggadgets:WGFAKEARCANESTONE"
+          },
+          "parents": [
+            "ARCANESTONE"
+          ],
+          "warp": 1
+        },
+        {
+          "aspects": {
+            "instrumentum": 1,
+            "machina": 1,
+            "terra": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -1,
+          "displayRow": -5,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:stone_extruder"
+          },
+          "key": "witchinggadgets:STONEEXTRUDER",
+          "pageCount": 2,
+          "parentMirrors": {
+            "ARCANESTONE": "witchinggadgets:WGFAKEARCANESTONE"
+          },
+          "parents": [
+            "ARCANESTONE",
+            "THAUMIUM"
+          ]
+        },
+        {
+          "aspects": {
+            "pannus": 3,
+            "praecantatio": 4,
+            "vitium": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 3,
+          "displayColumn": 9,
+          "displayRow": 2,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:cloth_bewitched"
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:ADVANCEDROBES",
+          "pageCount": 4,
+          "parentMirrors": {
+            "ENCHFABRIC": "witchinggadgets:WGFAKEENCHFABRIC"
+          },
+          "parents": [
+            "ENCHFABRIC",
+            "witchinggadgets:SPINNINGWHEEL"
+          ]
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 0,
+          "displayColumn": 8,
+          "displayRow": 4,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:spinning_wheel"
+          },
+          "isAutoUnlock": true,
+          "isRound": true,
+          "key": "witchinggadgets:SPINNINGWHEEL",
+          "pageCount": 6,
+          "parents": []
+        },
+        {
+          "aspects": {
+            "fames": 2,
+            "pannus": 2,
+            "vacuos": 2
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 7,
+          "displayRow": 2,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:bag"
+          },
+          "isConcealed": true,
+          "key": "witchinggadgets:BAGOFTRICKS",
+          "pageCount": 3,
+          "parents": [
+            "witchinggadgets:SPINNINGWHEEL"
+          ]
+        },
+        {
+          "aspects": {
+            "fames": 3,
+            "pannus": 2,
+            "vacuos": 3
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 6,
+          "displayRow": 1,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:hungry_bag"
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:HUNGERBAG",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:BAGOFTRICKS",
+            "HUNGRYCHEST"
+          ]
+        },
+        {
+          "aspectTriggers": [
+            "alienis"
+          ],
+          "aspects": {
+            "alienis": 3,
+            "pannus": 2,
+            "vacuos": 3
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 7,
+          "displayRow": 4,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:ender_bag"
+          },
+          "isHidden": true,
+          "isSecondary": true,
+          "itemTriggers": [
+            {
+              "count": 1,
+              "item": "minecraft:ender_chest"
+            }
+          ],
+          "key": "witchinggadgets:ENDERBAG",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:BAGOFTRICKS",
+            "INFUSION"
+          ]
+        },
+        {
+          "aspects": {
+            "alienis": 3,
+            "pannus": 2,
+            "perditio": 5,
+            "vacuos": 3
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 2,
+          "displayRow": 2,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:void_bag"
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:VOIDBAG",
+          "pageCount": 2,
+          "parentMirrors": {
+            "ELDRITCHMINOR": "witchinggadgets:WGFAKEELDRITCHMINOR"
+          },
+          "parents": [
+            "witchinggadgets:BAGOFTRICKS",
+            "ELDRITCHMINOR"
+          ]
+        },
+        {
+          "aspects": {
+            "aer": 1,
+            "pannus": 1,
+            "praecantatio": 1,
+            "tutamen": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 8,
+          "displayRow": -2,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:cloak_standard"
+          },
+          "isConcealed": true,
+          "key": "witchinggadgets:CLOAK",
+          "pageCount": 2,
+          "parents": [],
+          "parentsHidden": [
+            "ENCHFABRIC"
+          ]
+        },
+        {
+          "aspects": {
+            "iter": 2,
+            "pannus": 4,
+            "spiritus": 2,
+            "tenebrae": 4
+          },
+          "category": "WITCHGADG",
+          "complexity": 3,
+          "displayColumn": 10,
+          "displayRow": -1,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:cloak_spectral"
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:CLOAK_SPECTRAL",
+          "pageCount": 3,
+          "parents": [
+            "witchinggadgets:CLOAK"
+          ],
+          "parentsHidden": [
+            "INFUSION"
+          ]
+        },
+        {
+          "aspects": {
+            "fames": 4,
+            "pannus": 4,
+            "vacuos": 6
+          },
+          "category": "WITCHGADG",
+          "complexity": 3,
+          "displayColumn": 10,
+          "displayRow": -3,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:cloak_storage"
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:CLOAK_STORAGE",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:CLOAK"
+          ],
+          "parentsHidden": [
+            "witchinggadgets:BAGOFTRICKS"
+          ]
+        },
+        {
+          "aspects": {
+            "bestia": 4,
+            "fames": 4,
+            "pannus": 4
+          },
+          "category": "WITCHGADG",
+          "complexity": 3,
+          "displayColumn": 6,
+          "displayRow": -1,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:cloak_wolf"
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:CLOAK_WOLF",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:CLOAK"
+          ]
+        },
+        {
+          "aspects": {
+            "pannus": 2,
+            "tutamen": 2
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 9,
+          "displayRow": -5,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:kama_standard"
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:CLOAKKAMA",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:WGBAUBLES",
+            "witchinggadgets:CLOAK"
+          ]
+        },
+        {
+          "aspects": {
+            "aer": 4,
+            "iter": 2,
+            "pannus": 4,
+            "volatus": 4
+          },
+          "category": "WITCHGADG",
+          "complexity": 3,
+          "displayColumn": 6,
+          "displayRow": -3,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:cloak_raven"
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:CLOAK_RAVEN",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:CLOAK"
+          ]
+        },
+        {
+          "aspects": {
+            "pannus": 1,
+            "praecantatio": 1,
+            "tutamen": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 7,
+          "displayRow": -5,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:vambrace_strength"
+          },
+          "key": "witchinggadgets:WGBAUBLES",
+          "pageCount": 13,
+          "parents": [
+            "THAUMIUM"
+          ]
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 0,
+          "displayColumn": 8,
+          "displayRow": 0,
+          "icon_resource": "witchinggadgets:textures/gui/research/icon_potioneffects.png",
+          "isAutoUnlock": true,
+          "isRound": true,
+          "key": "witchinggadgets:WGPOTIONS",
+          "pageCount": 2
+        },
+        {
+          "aspects": {
+            "praecantatio": 2,
+            "tenebrae": 4,
+            "vitreus": 4
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": -10,
+          "displayRow": 1,
+          "icon_resource": "witchinggadgets:textures/gui/research/icon_ench_invisgear.png",
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:ENCH_INVISIBLEGEAR",
+          "pageCount": 2,
+          "parentMirrors": {
+            "INFUSIONENCHANTMENT": "witchinggadgets:WGFAKEINFUSIONENCHANTMENT"
+          },
+          "parents": [
+            "INFUSIONENCHANTMENT"
+          ]
+        },
+        {
+          "aspects": {
+            "lux": 4,
+            "praecantatio": 2,
+            "sensus": 4
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": -10,
+          "displayRow": 2,
+          "icon_resource": "witchinggadgets:textures/gui/research/icon_ench_unveiling.png",
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:ENCH_UNVEILING",
+          "pageCount": 2,
+          "parentMirrors": {
+            "INFUSIONENCHANTMENT": "witchinggadgets:WGFAKEINFUSIONENCHANTMENT"
+          },
+          "parents": [
+            "INFUSIONENCHANTMENT"
+          ]
+        },
+        {
+          "aspects": {
+            "motus": 4,
+            "praecantatio": 2,
+            "tenebrae": 4
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": -9,
+          "displayRow": 3,
+          "icon_resource": "witchinggadgets:textures/gui/research/icon_ench_stealth.png",
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:ENCH_STEALTH",
+          "pageCount": 2,
+          "parentMirrors": {
+            "INFUSIONENCHANTMENT": "witchinggadgets:WGFAKEINFUSIONENCHANTMENT"
+          },
+          "parents": [
+            "INFUSIONENCHANTMENT"
+          ]
+        },
+        {
+          "aspects": {
+            "praecantatio": 2,
+            "telum": 4,
+            "tenebrae": 4
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": -11,
+          "displayRow": 4,
+          "icon_resource": "witchinggadgets:textures/gui/research/icon_ench_backstab.png",
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:ENCH_BACKSTAB",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:ENCH_STEALTH"
+          ]
+        },
+        {
+          "aspects": {
+            "praecantatio": 2,
+            "tutamen": 4,
+            "vinculum": 4
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": -11,
+          "displayRow": 0,
+          "icon_resource": "witchinggadgets:textures/gui/research/icon_ench_rideprotect.png",
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:ENCH_RIDEPROTECT",
+          "pageCount": 2,
+          "parentMirrors": {
+            "INFUSIONENCHANTMENT": "witchinggadgets:WGFAKEINFUSIONENCHANTMENT"
+          },
+          "parents": [
+            "INFUSIONENCHANTMENT"
+          ]
+        },
+        {
+          "aspects": {
+            "ordo": 2,
+            "vacuos": 4,
+            "vitreus": 3
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 2,
+          "displayRow": -2,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:crystal_capsule"
+          },
+          "isSecondary": true,
+          "key": "witchinggadgets:CRYSTALCAPSULE",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:GEMCUTTING"
+          ]
+        },
+        {
+          "aspects": {
+            "fabrico": 1,
+            "ordo": 1,
+            "praecantatio": 1,
+            "vitreus": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 1,
+          "displayRow": -2,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:cutting_table"
+          },
+          "key": "witchinggadgets:GEMCUTTING",
+          "pageCount": 11,
+          "parents": []
+        },
+        {
+          "aspects": {
+            "aer": 3,
+            "herba": 2,
+            "perditio": 2
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -6,
+          "displayRow": -5,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:rose_vines"
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:ROSEVINE",
+          "pageCount": 2,
+          "parentMirrors": {
+            "ALCHEMICALMANUFACTURE": "witchinggadgets:WGFAKEALCHEMICALMANUFACTURE"
+          },
+          "parents": [
+            "ALCHEMICALMANUFACTURE"
+          ]
+        },
+        {
+          "aspects": {
+            "aqua": 2,
+            "herba": 4,
+            "victus": 2
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -6,
+          "displayRow": -4,
+          "icon_item": {
+            "count": 1,
+            "item": "minecraft:grass_block"
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:ALCHEMICALTRANSMOGRIFY",
+          "pageCount": 5,
+          "parentMirrors": {
+            "ALCHEMICALMANUFACTURE": "witchinggadgets:WGFAKEALCHEMICALMANUFACTURE"
+          },
+          "parents": [
+            "ALCHEMICALMANUFACTURE"
+          ]
+        },
+        {
+          "aspects": {
+            "cognitio": 4,
+            "instrumentum": 2,
+            "sensus": 4
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 4,
+          "displayRow": -3,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:label_library"
+          },
+          "isSecondary": true,
+          "key": "witchinggadgets:LABELLIB",
+          "pageCount": 2,
+          "parentMirrors": {
+            "JARLABEL": "witchinggadgets:WGFAKEJARLABEL"
+          },
+          "parents": [
+            "JARLABEL"
+          ]
+        },
+        {
+          "aspects": {
+            "aqua": 1,
+            "instrumentum": 1,
+            "iter": 1,
+            "limus": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 2,
+          "displayRow": -8,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:mirror_pump"
+          },
+          "key": "witchinggadgets:MIRRORPUMP",
+          "pageCount": 2,
+          "parentMirrors": {
+            "MIRRORESSENTIA": "witchinggadgets:WGFAKEMIRRORESSENTIA"
+          },
+          "parents": [
+            "MIRRORESSENTIA"
+          ]
+        },
+        {
+          "aspects": {
+            "cognitio": 1,
+            "sensus": 1,
+            "spiritus": 1,
+            "vitreus": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 2,
+          "displayRow": -4,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:scan_camera"
+          },
+          "key": "witchinggadgets:SCANCAMERA",
+          "pageCount": 5,
+          "parents": []
+        },
+        {
+          "aspects": {
+            "cognitio": 1,
+            "instrumentum": 1,
+            "machina": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 1,
+          "displayRow": -5,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "key": "witchinggadgets:CALCULATOR",
+          "pageCount": 2,
+          "parents": [
+            "INFUSION"
+          ]
+        },
+        {
+          "aspects": {
+            "cognitio": 1,
+            "instrumentum": 1,
+            "iter": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 2,
+          "displayRow": -6,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:guiding_string"
+          },
+          "key": "witchinggadgets:LABYRINTHSTRING",
+          "pageCount": 2,
+          "parents": [
+            "INFUSION"
+          ]
+        },
+        {
+          "aspects": {
+            "fabrico": 1,
+            "ignis": 2,
+            "metallum": 1,
+            "tenebrae": 1,
+            "vitium": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 4,
+          "displayRow": -7,
+          "icon_resource": "witchinggadgets:textures/gui/research/icon_blastfurnace.png",
+          "isConcealed": true,
+          "key": "witchinggadgets:INFERNALBLASTFURNACE",
+          "pageCount": 4,
+          "parentMirrors": {
+            "INFERNALFURNACE": "witchinggadgets:WGFAKEINFERNALFURNACE"
+          },
+          "parents": [
+            "INFERNALFURNACE"
+          ],
+          "warp": 3
+        },
+        {
+          "aspects": {
+            "metallum": 5,
+            "ordo": 1,
+            "venenum": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -6,
+          "displayRow": -3,
+          "icon_item": {
+            "count": 1,
+            "item": "thaumcraft:cinnabar_cluster"
+          },
+          "isConcealed": true,
+          "isSecondary": true,
+          "key": "witchinggadgets:PURECINNABAR",
+          "pageCount": 2,
+          "parentMirrors": {
+            "PUREIRON": "witchinggadgets:WGFAKEPUREIRON"
+          },
+          "parents": [
+            "PUREIRON"
+          ]
+        },
+        {
+          "aspects": {
+            "metallum": 20,
+            "ordo": 10,
+            "vitreus": 10
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -6,
+          "displayRow": -1,
+          "icon_resource": "witchinggadgets:textures/gui/research/icon_mp_cluster.png",
+          "isConcealed": true,
+          "isSecondary": true,
+          "isSpecial": true,
+          "key": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS",
+          "pageCount": 32,
+          "parentMirrors": {
+            "PUREIRON": "witchinggadgets:WGFAKEPUREIRON"
+          },
+          "parents": [
+            "PUREIRON",
+            "PUREGOLD",
+            "witchinggadgets:PURECINNABAR"
+          ]
+        },
+        {
+          "aspects": {
+            "metallum": 20,
+            "ordo": 10,
+            "permutatio": 10
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -3,
+          "displayRow": -1,
+          "icon_resource": "witchinggadgets:textures/gui/research/icon_mp_trans.png",
+          "isConcealed": true,
+          "isSecondary": true,
+          "isSpecial": true,
+          "key": "witchinggadgets:METALLURGICPERFECTION_TRANSMUTATION",
+          "pageCount": 32,
+          "parentMirrors": {
+            "TRANSIRON": "witchinggadgets:WGFAKETRANSIRON"
+          },
+          "parents": [
+            "TRANSIRON",
+            "TRANSGOLD"
+          ]
+        },
+        {
+          "aspects": {
+            "gelum": 8,
+            "ordo": 4,
+            "permutatio": 2,
+            "potentia": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 6,
+          "displayRow": -9,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_cold_taiga"
+          },
+          "isSecondary": true,
+          "key": "witchinggadgets:TERRAFORMFOCUS_COLDTAIGA",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:TERRAFORMER"
+          ]
+        },
+        {
+          "aspects": {
+            "ignis": 4,
+            "perditio": 8,
+            "permutatio": 2,
+            "potentia": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 5,
+          "displayRow": -8,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_desert"
+          },
+          "isSecondary": true,
+          "key": "witchinggadgets:TERRAFORMFOCUS_DESERT",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:TERRAFORMER"
+          ]
+        },
+        {
+          "aspects": {
+            "arbor": 8,
+            "herba": 4,
+            "permutatio": 2,
+            "potentia": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 7,
+          "displayRow": -9,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_jungle"
+          },
+          "isSecondary": true,
+          "key": "witchinggadgets:TERRAFORMFOCUS_JUNGLE",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:TERRAFORMER"
+          ]
+        },
+        {
+          "aspects": {
+            "ignis": 4,
+            "permutatio": 2,
+            "potentia": 1,
+            "tenebrae": 8
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 8,
+          "displayRow": -9,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_hell"
+          },
+          "isSecondary": true,
+          "key": "witchinggadgets:TERRAFORMFOCUS_HELL",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:TERRAFORMER"
+          ],
+          "warp": 2
+        },
+        {
+          "aspects": {
+            "permutatio": 2,
+            "potentia": 1,
+            "praecantatio": 4,
+            "vitium": 8
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 9,
+          "displayRow": -7,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_taint"
+          },
+          "isSecondary": true,
+          "key": "witchinggadgets:TERRAFORMFOCUS_TAINT",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:TERRAFORMER",
+            "BOTTLETAINT"
+          ],
+          "warp": 3
+        },
+        {
+          "aspects": {
+            "herba": 8,
+            "permutatio": 2,
+            "potentia": 1,
+            "terra": 4
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 9,
+          "displayRow": -8,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:terraform_focus_mushroom"
+          },
+          "isSecondary": true,
+          "key": "witchinggadgets:TERRAFORMFOCUS_MUSHROOM",
+          "pageCount": 2,
+          "parents": [
+            "witchinggadgets:TERRAFORMER"
+          ]
+        },
+        {
+          "aspects": {
+            "ordo": 1,
+            "perditio": 1,
+            "permutatio": 1,
+            "potentia": 1,
+            "terra": 2
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 6,
+          "displayRow": -7,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:terraformer"
+          },
+          "key": "witchinggadgets:TERRAFORMER",
+          "pageCount": 4,
+          "parentMirrors": {
+            "CENTRIFUGE": "witchinggadgets:WGFAKECENTRIFUGE"
+          },
+          "parents": [
+            "CENTRIFUGE"
+          ]
+        },
+        {
+          "aspects": {
+            "aer": 1,
+            "aqua": 1,
+            "ignis": 1,
+            "ordo": 1,
+            "perditio": 1,
+            "potentia": 1,
+            "praecantatio": 1,
+            "terra": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 3,
+          "displayColumn": -2,
+          "displayRow": 3,
+          "icon_resource": "witchinggadgets:textures/gui/research/icon_primordialgear.png",
+          "key": "witchinggadgets:PRIMORDIALGEARSET",
+          "pageCount": 2,
+          "parentMirrors": {
+            "PRIMPEARL": "witchinggadgets:WGFAKEPRIMPEARL"
+          },
+          "parents": [
+            "VOIDMETAL",
+            "PRIMPEARL"
+          ]
+        },
+        {
+          "aspects": {
+            "potentia": 4,
+            "praecantatio": 8,
+            "vacuos": 4,
+            "vitreus": 4
+          },
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -3,
+          "displayRow": 5,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:powerless_pearl"
+          },
+          "isHidden": true,
+          "isSecondary": true,
+          "itemTriggers": [
+            {
+              "count": 1,
+              "item": "witchinggadgets:powerless_pearl"
+            }
+          ],
+          "key": "witchinggadgets:EMPOWERPEARL",
+          "pageCount": 2,
+          "parentMirrors": {
+            "PRIMPEARL": "witchinggadgets:WGFAKEPRIMPEARL"
+          },
+          "parents": [
+            "PRIMPEARL"
+          ]
+        },
+        {
+          "aspects": {
+            "aer": 1,
+            "aqua": 1,
+            "ignis": 1,
+            "instrumentum": 1,
+            "ordo": 1,
+            "perditio": 1,
+            "praecantatio": 1,
+            "terra": 1,
+            "vitreus": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 2,
+          "displayColumn": 2,
+          "displayRow": 0,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:primordial_glove"
+          },
+          "isConcealed": true,
+          "key": "witchinggadgets:PRIMORDIALGLOVE",
+          "pageCount": 3,
+          "parentMirrors": {
+            "PRIMPEARL": "witchinggadgets:WGFAKEPRIMPEARL"
+          },
+          "parents": [
+            "VOIDMETAL",
+            "witchinggadgets:PRIMORDIALGEARSET",
+            "PRIMPEARL"
+          ]
+        },
+        {
+          "aspects": {
+            "aer": 1,
+            "aqua": 1,
+            "ignis": 1,
+            "instrumentum": 1,
+            "ordo": 1,
+            "perditio": 1,
+            "praecantatio": 2,
+            "telum": 1,
+            "terra": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 3,
+          "displayColumn": -4,
+          "displayRow": 2,
+          "icon_resource": "witchinggadgets:textures/gui/research/icon_primordialweaponry.png",
+          "isConcealed": true,
+          "key": "witchinggadgets:PRIMORDIALWEAPONRY",
+          "pageCount": 6,
+          "parents": [
+            "witchinggadgets:PRIMORDIALGEARSET"
+          ]
+        },
+        {
+          "aspects": {
+            "aer": 1,
+            "aqua": 1,
+            "ignis": 1,
+            "ordo": 1,
+            "perditio": 1,
+            "praecantatio": 1,
+            "terra": 1,
+            "tutamen": 1
+          },
+          "category": "WITCHGADG",
+          "complexity": 3,
+          "displayColumn": -1,
+          "displayRow": 5,
+          "icon_resource": "witchinggadgets:textures/gui/research/icon_primordialarmor.png",
+          "isConcealed": true,
+          "key": "witchinggadgets:PRIMORDIALARMOR",
+          "pageCount": 6,
+          "parents": [
+            "witchinggadgets:PRIMORDIALGEARSET",
+            "ARMORFORTRESS"
+          ]
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 10,
+          "displayRow": 1,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": false,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKEENCHFABRIC",
+          "mirrorOf": "ENCHFABRIC",
+          "pageCount": 0,
+          "parents": []
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -3,
+          "displayRow": -5,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": false,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKEARCANESTONE",
+          "mirrorOf": "ARCANESTONE",
+          "pageCount": 0,
+          "parents": []
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -1,
+          "displayRow": -3,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": false,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKEBATHSALTS",
+          "mirrorOf": "BATHSALTS",
+          "pageCount": 0,
+          "parents": []
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 4,
+          "displayRow": -1,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": false,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKEJARLABEL",
+          "mirrorOf": "JARLABEL",
+          "pageCount": 0,
+          "parents": []
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 1,
+          "displayRow": -7,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": false,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKEMIRRORESSENTIA",
+          "mirrorOf": "MIRRORESSENTIA",
+          "pageCount": 0,
+          "parents": []
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -4,
+          "displayRow": -4,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": false,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKEALCHEMICALMANUFACTURE",
+          "mirrorOf": "ALCHEMICALMANUFACTURE",
+          "pageCount": 0,
+          "parents": []
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -5,
+          "displayRow": -2,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": false,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKEPUREIRON",
+          "mirrorOf": "PUREIRON",
+          "pageCount": 0,
+          "parents": []
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -4,
+          "displayRow": -2,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": false,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKETRANSIRON",
+          "mirrorOf": "TRANSIRON",
+          "pageCount": 0,
+          "parents": []
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 3,
+          "displayRow": -5,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": false,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKEINFERNALFURNACE",
+          "mirrorOf": "INFERNALFURNACE",
+          "pageCount": 0,
+          "parents": []
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 5,
+          "displayRow": -5,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": false,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKECENTRIFUGE",
+          "mirrorOf": "CENTRIFUGE",
+          "pageCount": 0,
+          "parents": []
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": -8,
+          "displayRow": 1,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": false,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKEINFUSIONENCHANTMENT",
+          "mirrorOf": "INFUSIONENCHANTMENT",
+          "pageCount": 0,
+          "parents": []
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 1,
+          "displayRow": 3,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": true,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKEELDRITCHMINOR",
+          "mirrorOf": "ELDRITCHMINOR",
+          "pageCount": 0,
+          "parents": []
+        },
+        {
+          "aspects": {},
+          "category": "WITCHGADG",
+          "complexity": 1,
+          "displayColumn": 0,
+          "displayRow": 1,
+          "icon_item": {
+            "count": 1,
+            "item": "witchinggadgets:calculator"
+          },
+          "isSpecial": true,
+          "isStub": true,
+          "key": "witchinggadgets:WGFAKEPRIMPEARL",
+          "mirrorOf": "PRIMPEARL",
+          "pageCount": 0,
+          "parents": []
+        }
+      ]
+    }
+  ],
+  "format": 1
+}

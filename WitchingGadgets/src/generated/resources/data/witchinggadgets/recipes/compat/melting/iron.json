@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "iron"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/iron"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_iron"
+  },
+  "temperature": 600,
+  "time": 120
+}

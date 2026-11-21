@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "s": {
+      "tag": "forge:shards"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    " s ",
+    "SCS",
+    " s "
+  ],
+  "research": "witchinggadgets:AGEINGSTONE",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:ageing_stone"
+  },
+  "vis": {
+    "ordo": 10,
+    "perditio": 10
+  }
+}

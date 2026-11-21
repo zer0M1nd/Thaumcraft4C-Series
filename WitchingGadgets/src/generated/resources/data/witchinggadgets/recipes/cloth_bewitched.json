@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:arcane",
+  "ingredients": [
+    {
+      "item": "witchinggadgets:thread_simple"
+    },
+    {
+      "item": "witchinggadgets:thread_thaumium"
+    },
+    {
+      "item": "witchinggadgets:thread_thaumium"
+    },
+    {
+      "item": "witchinggadgets:thread_gold"
+    }
+  ],
+  "mode": "shapeless",
+  "research": "witchinggadgets:ADVANCEDROBES",
+  "result": {
+    "item": "witchinggadgets:cloth_bewitched"
+  },
+  "vis": {
+    "ordo": 5,
+    "perditio": 5
+  }
+}

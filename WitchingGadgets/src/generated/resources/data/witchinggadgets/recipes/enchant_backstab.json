@@ -1,0 +1,30 @@
+{
+  "type": "witchinggadgets:gear_enchantment",
+  "aspects": {
+    "praecantatio": 4,
+    "telum": 12,
+    "tenebrae": 8
+  },
+  "base_xp": 1,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:potion"
+      },
+      "nbt": "{Potion:\"minecraft:invisibility\"}"
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "witchinggadgets:backstab",
+  "instability": 3,
+  "research": "witchinggadgets:ENCH_BACKSTAB"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "ignatius"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/ignatius"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_ignatius"
+  },
+  "temperature": 550,
+  "time": 110
+}

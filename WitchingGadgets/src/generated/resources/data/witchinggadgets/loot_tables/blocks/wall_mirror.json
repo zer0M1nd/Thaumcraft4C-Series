@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "block": "witchinggadgets:wall_mirror",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "half": "lower"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "witchinggadgets:wall_mirror"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

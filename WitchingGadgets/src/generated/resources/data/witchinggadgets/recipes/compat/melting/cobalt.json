@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "cobalt"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/cobalt"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_cobalt"
+  },
+  "temperature": 650,
+  "time": 130
+}

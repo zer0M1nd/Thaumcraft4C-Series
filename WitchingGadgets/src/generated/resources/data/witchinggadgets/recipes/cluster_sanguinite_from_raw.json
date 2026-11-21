@@ -1,0 +1,16 @@
+{
+  "type": "witchinggadgets:metal_crucible",
+  "aspects": {
+    "metallum": 1,
+    "ordo": 1
+  },
+  "catalyst": {
+    "tag": "forge:raw_materials/sanguinite"
+  },
+  "metal": "sanguinite",
+  "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS",
+  "result": {
+    "item": "witchinggadgets:sanguinite_cluster"
+  },
+  "transmutation": false
+}

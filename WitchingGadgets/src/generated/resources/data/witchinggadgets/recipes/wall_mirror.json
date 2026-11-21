@@ -1,0 +1,51 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "alienis": 20,
+    "iter": 20,
+    "vacuos": 20,
+    "vitreus": 20
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:item_mirror"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:focus_portable_hole"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:entropy_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:chiseled_quartz_block"
+      }
+    }
+  ],
+  "instability": 8,
+  "research": "witchinggadgets:WALLMIRROR",
+  "result": {
+    "item": "witchinggadgets:wall_mirror"
+  }
+}

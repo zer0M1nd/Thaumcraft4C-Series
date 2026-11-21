@@ -1,0 +1,18 @@
+package wgmodern;
+import net.minecraft.client.gui.GuiGraphics;import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;import net.minecraft.client.renderer.*;import net.minecraft.client.renderer.blockentity.*;import net.minecraft.network.chat.Component;import net.minecraft.resources.ResourceLocation;import net.minecraft.world.entity.player.Inventory;import com.mojang.blaze3d.vertex.*;
+public class TileLockClient {
+ public static class Screen extends AbstractContainerScreen<TileLock.Menu>{
+  private static final ResourceLocation TEXTURE=new ResourceLocation("witchinggadgets","textures/gui/tilelock.png");private int[] previous=new int[9];private int animate=-1,from,to,frames;
+  public Screen(TileLock.Menu menu,Inventory inv,Component title){super(menu,inv,title);imageWidth=imageHeight=128;java.util.Arrays.fill(previous,-1);}
+  @Override protected void renderBg(GuiGraphics g,float pt,int mx,int my){tc4revival.client.LegacyGui.blit(g,TEXTURE,leftPos,topPos,0,0,128,128);if(menu.data.get(9)==0)g.setColor(.1f,0,.2f,1);tc4revival.client.LegacyGui.blit(g,TEXTURE,leftPos+19,topPos+19,128,30,90,90);g.setColor(1,1,1,1);
+   for(int i=0;i<9;i++){int id=menu.data.get(i);if(id==8)continue;for(int j=0;j<9;j++)if(previous[j]==id&&j!=i){animate=id;from=j;to=i;frames=15;}}
+   for(int i=0;i<9;i++){int id=menu.data.get(i);previous[i]=id;if(id==8)continue;int x=leftPos+19+i%3*30,y=topPos+19+i/3*30;if(id==animate&&frames>0){x+=(from%3-to%3)*frames*2;y+=(from/3-to/3)*frames*2;}tc4revival.client.LegacyGui.blit(g,TEXTURE,x,y,128,0,30,30);tc4revival.client.LegacyGui.blit(g,TEXTURE,x,y,128+id%3*30,30+id/3*30,30,30);}if(frames>0)frames--;if(menu.data.get(9)!=0)g.drawCenteredString(font,Component.translatable("wg.gui.tilelock.unlocked"),leftPos+64,topPos+6,0xffffff);}
+  @Override protected void renderLabels(GuiGraphics g,int x,int y){}
+  @Override public boolean mouseClicked(double x,double y,int button){if(button==0&&frames==0&&menu.data.get(9)==0&&x>=leftPos+19&&y>=topPos+19&&x<leftPos+109&&y<topPos+109){minecraft.gameMode.handleInventoryButtonClick(menu.containerId,((int)y-topPos-19)/30*3+((int)x-leftPos-19)/30);return true;}return super.mouseClicked(x,y,button);}
+ }
+ public static class Renderer implements BlockEntityRenderer<TileLock.Tile>{
+  static final ResourceLocation WHITE=new ResourceLocation("witchinggadgets","textures/blocks/white.png");public Renderer(BlockEntityRendererProvider.Context c){}
+  @Override public void render(TileLock.Tile t,float partial,PoseStack p,MultiBufferSource b,int light,int overlay){var out=b.getBuffer(RenderType.entityTranslucent(WHITE));for(int i=0;i<9;i++)if(t.board[i]!=8){double c=i%3,r=i/3;cube(p,out,(1.5+c)/6,0,(1.5+r)/6,overlay);cube(p,out,(1.5+c)/6,5d/6,(1.5+r)/6,overlay);cube(p,out,0,(3.5-c)/6,(1.5+r)/6,overlay);cube(p,out,5d/6,(3.5-c)/6,(3.5-r)/6,overlay);cube(p,out,(3.5-r)/6,(3.5-c)/6,0,overlay);cube(p,out,(1.5+r)/6,(3.5-c)/6,5d/6,overlay);}}
+  static void cube(PoseStack p,VertexConsumer out,double x,double y,double z,int overlay){float[][][] f={{{0,0,0},{0,1,0},{1,1,0},{1,0,0}},{{1,0,1},{1,1,1},{0,1,1},{0,0,1}},{{0,0,1},{0,1,1},{0,1,0},{0,0,0}},{{1,0,0},{1,1,0},{1,1,1},{1,0,1}},{{0,0,0},{1,0,0},{1,0,1},{0,0,1}},{{0,1,1},{1,1,1},{1,1,0},{0,1,0}}};int[][] normals={{0,0,-1},{0,0,1},{-1,0,0},{1,0,0},{0,-1,0},{0,1,0}};for(int side=0;side<6;side++)for(int n=0;n<4;n++){var v=f[side][n];out.vertex(p.last().pose(),(float)x+v[0]/6,(float)y+v[1]/6,(float)z+v[2]/6).color(.125f,0,.1875f,.5f).uv(n<2?0:1,n==0||n==3?1:0).overlayCoords(overlay).uv2(LightTexture.FULL_BRIGHT).normal(p.last().normal(),normals[side][0],normals[side][1],normals[side][2]).endVertex();}}
+ }
+}

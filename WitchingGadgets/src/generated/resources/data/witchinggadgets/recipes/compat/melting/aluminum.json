@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "aluminum"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/aluminum"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_aluminum"
+  },
+  "temperature": 350,
+  "time": 70
+}

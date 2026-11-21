@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "astral_silver"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/astral_silver"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_astral_silver"
+  },
+  "temperature": 550,
+  "time": 110
+}

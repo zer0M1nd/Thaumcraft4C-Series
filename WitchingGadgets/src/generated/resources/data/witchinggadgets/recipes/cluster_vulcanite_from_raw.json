@@ -1,0 +1,16 @@
+{
+  "type": "witchinggadgets:metal_crucible",
+  "aspects": {
+    "metallum": 1,
+    "ordo": 1
+  },
+  "catalyst": {
+    "tag": "forge:raw_materials/vulcanite"
+  },
+  "metal": "vulcanite",
+  "research": "witchinggadgets:METALLURGICPERFECTION_CLUSTERS",
+  "result": {
+    "item": "witchinggadgets:vulcanite_cluster"
+  },
+  "transmutation": false
+}

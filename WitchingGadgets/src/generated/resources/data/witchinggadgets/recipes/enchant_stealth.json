@@ -1,0 +1,25 @@
+{
+  "type": "witchinggadgets:gear_enchantment",
+  "aspects": {
+    "motus": 6,
+    "praecantatio": 8,
+    "tenebrae": 8
+  },
+  "base_xp": 1,
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:potion"
+      },
+      "nbt": "{Potion:\"minecraft:invisibility\"}"
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:salis_mundus"
+      }
+    }
+  ],
+  "enchantment": "witchinggadgets:stealth",
+  "instability": 2,
+  "research": "witchinggadgets:ENCH_STEALTH"
+}

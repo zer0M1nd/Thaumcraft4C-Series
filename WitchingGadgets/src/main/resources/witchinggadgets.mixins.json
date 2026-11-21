@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "wgmodern.mixin",
+  "refmap": "witchinggadgets.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "RenderTextureMixin",
+    "StateTextureMixin",
+    "TextureShardMixin",
+    "SpectralPlayerMixin",
+    "InvisibleArmorMixin",
+    "ResearchAliasLanguageMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "BotaniaCosmeticReturnMixin",
+    "PrimordialPotionMixin",
+    "PrimordialBlockingMixin"
+  ]
+}

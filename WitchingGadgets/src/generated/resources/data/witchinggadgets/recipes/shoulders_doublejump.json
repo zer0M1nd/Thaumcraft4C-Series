@@ -1,0 +1,54 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 16,
+    "motus": 8,
+    "volatus": 16
+  },
+  "center": {
+    "ingredient": {
+      "item": "witchinggadgets:shoulders_base"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "witchinggadgets:tag_or_item",
+        "fallback": "minecraft:iron_ingot",
+        "tag": "forge:ingots/silver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:air_shard"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "witchinggadgets:tag_or_item",
+        "fallback": "minecraft:iron_ingot",
+        "tag": "forge:ingots/silver"
+      }
+    }
+  ],
+  "instability": 2,
+  "research": "witchinggadgets:WGBAUBLES",
+  "result": {
+    "item": "witchinggadgets:shoulders_doublejump"
+  }
+}

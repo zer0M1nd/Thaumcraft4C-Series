@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:spinning",
+  "duration": 120,
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "tag": "forge:nuggets/thaumium"
+    },
+    {
+      "tag": "forge:nuggets/thaumium"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "witchinggadgets:thread_thaumium"
+  }
+}

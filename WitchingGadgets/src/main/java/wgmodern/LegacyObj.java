@@ -1,0 +1,14 @@
+package wgmodern;
+import java.util.*;import java.io.*;import net.minecraft.client.Minecraft;import net.minecraft.resources.ResourceLocation;import net.minecraft.world.phys.Vec3;import com.mojang.blaze3d.vertex.*;
+/** Small external OBJ reader preserving original named parts, texture coordinates and winding. */
+public class LegacyObj {
+ public record Point(Vec3 xyz,float u,float v){} public record Face(Point a,Point b,Point c,Vec3 normal){}
+ private static final Map<ResourceLocation,LegacyObj> CACHE=new HashMap<>();private final Map<String,List<Face>> parts=new LinkedHashMap<>();
+ public static void clear(){CACHE.clear();}
+ public static LegacyObj get(ResourceLocation path){return CACHE.computeIfAbsent(path,LegacyObj::new);}
+ private LegacyObj(ResourceLocation path){var vertices=new ArrayList<Vec3>();var uvs=new ArrayList<float[]>();String part="";try(var r=new BufferedReader(new InputStreamReader(Minecraft.getInstance().getResourceManager().open(path),java.nio.charset.StandardCharsets.UTF_8))){for(String line;(line=r.readLine())!=null;){String[] b=line.trim().split("\\s+");if(b.length<2)continue;switch(b[0]){case "v"->vertices.add(new Vec3(Double.parseDouble(b[1]),Double.parseDouble(b[2]),Double.parseDouble(b[3])));case "vt"->uvs.add(new float[]{Float.parseFloat(b[1]),1-Float.parseFloat(b[2])});case "g","o"->part=b[1];case "f"->{var list=parts.computeIfAbsent(part,k->new ArrayList<>());var a=point(vertices,uvs,b[1]);for(int i=2;i<b.length-1;i++){var q=point(vertices,uvs,b[i]);var z=point(vertices,uvs,b[i+1]);list.add(new Face(a,q,z,q.xyz.subtract(a.xyz).cross(z.xyz.subtract(a.xyz)).normalize()));}}}}}catch(IOException|RuntimeException ex){org.slf4j.LoggerFactory.getLogger("WitchingGadgets").error("Cannot read original external model {}",path,ex);}}
+ private static int index(String value,int size){int i=Integer.parseInt(value);return i>0?i-1:size+i;}
+ private static Point point(List<Vec3> vertices,List<float[]> uvs,String token){var b=token.split("/");var uv=b.length>1&&!b[1].isEmpty()?uvs.get(index(b[1],uvs.size())):new float[]{0,0};return new Point(vertices.get(index(b[0],vertices.size())),uv[0],uv[1]);}
+ public void draw(String part,PoseStack pose,VertexConsumer out,int light,int overlay,int rgb,float alpha){for(var f:parts.getOrDefault(part,List.of())){vertex(f.a,f.normal,pose,out,light,overlay,rgb,alpha);vertex(f.b,f.normal,pose,out,light,overlay,rgb,alpha);vertex(f.c,f.normal,pose,out,light,overlay,rgb,alpha);vertex(f.c,f.normal,pose,out,light,overlay,rgb,alpha);}}
+ private static void vertex(Point p,Vec3 normal,PoseStack pose,VertexConsumer out,int light,int overlay,int rgb,float alpha){out.vertex(pose.last().pose(),(float)p.xyz.x,(float)p.xyz.y,(float)p.xyz.z).color((rgb>>16&255)/255f,(rgb>>8&255)/255f,(rgb&255)/255f,alpha).uv(p.u,p.v).overlayCoords(overlay).uv2(light).normal(pose.last().normal(),(float)normal.x,(float)normal.y,(float)normal.z).endVertex();}
+}

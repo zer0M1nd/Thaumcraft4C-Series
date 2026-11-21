@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "P": {
+      "item": "thaumcraft:thaumium_pickaxe"
+    },
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "w": {
+      "item": "thaumcraft:greatwood_planks"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    " P ",
+    "WSL",
+    "wSw"
+  ],
+  "research": "witchinggadgets:STONEEXTRUDER",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:stone_extruder"
+  },
+  "vis": {
+    "perditio": 4,
+    "terra": 8
+  }
+}

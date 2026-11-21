@@ -1,0 +1,66 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "instrumentum": 16,
+    "lucrum": 32
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:gold_coin"
+    },
+    "nbt": "{Enchantments:[{id:\"minecraft:fortune\",lvl:1s},{id:\"minecraft:looting\",lvl:1s}]}"
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "witchinggadgets:tag_or_item",
+        "fallback": "minecraft:iron_ingot",
+        "tag": "forge:ingots/silver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "witchinggadgets:tag_or_item",
+        "fallback": "minecraft:iron_ingot",
+        "tag": "forge:ingots/silver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "ingredient": {
+        "type": "witchinggadgets:tag_or_item",
+        "fallback": "minecraft:iron_ingot",
+        "tag": "forge:ingots/silver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    }
+  ],
+  "instability": 3,
+  "research": "witchinggadgets:WGBAUBLES",
+  "result": {
+    "item": "witchinggadgets:ring_luck"
+  }
+}

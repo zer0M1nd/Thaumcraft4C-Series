@@ -1,0 +1,50 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 16,
+    "ordo": 8,
+    "telum": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:mundane_ring"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_arrow_air"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_arrow_fire"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_arrow_water"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_arrow_earth"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_arrow_order"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:primal_arrow_entropy"
+      }
+    }
+  ],
+  "instability": 2,
+  "research": "witchinggadgets:WGBAUBLES",
+  "result": {
+    "item": "witchinggadgets:ring_sniper"
+  }
+}

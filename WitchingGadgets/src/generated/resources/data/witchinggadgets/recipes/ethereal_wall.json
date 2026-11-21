@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "S": {
+      "item": "thaumcraft:arcane_stone"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "s": {
+      "tag": "forge:shards"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    "SsS",
+    "STS",
+    "S S"
+  ],
+  "research": "witchinggadgets:ETHEREALWALL",
+  "result": {
+    "count": 6,
+    "item": "witchinggadgets:ethereal_wall"
+  },
+  "vis": {
+    "ordo": 5,
+    "terra": 3
+  }
+}

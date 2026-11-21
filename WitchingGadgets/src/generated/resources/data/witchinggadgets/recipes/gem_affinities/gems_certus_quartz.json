@@ -1,0 +1,15 @@
+{
+  "type": "witchinggadgets:gem_affinity",
+  "affinities": [
+    "ordo",
+    "aer"
+  ],
+  "aversions": [
+    "perditio",
+    "ignis"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/certus_quartz"
+  },
+  "priority": 1000
+}

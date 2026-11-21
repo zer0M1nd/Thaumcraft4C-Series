@@ -1,0 +1,54 @@
+{
+  "entries": [
+    {
+      "aspects": {
+        "aer": 25,
+        "ordo": 20,
+        "perditio": 15
+      },
+      "enchantment": "witchinggadgets:invisible_gear",
+      "icon": "witchinggadgets:textures/gui/research/icon_ench_invisgear.png",
+      "research": "witchinggadgets:ENCH_INVISIBLEGEAR"
+    },
+    {
+      "aspects": {
+        "aer": 25,
+        "aqua": 10,
+        "ordo": 20
+      },
+      "enchantment": "witchinggadgets:unveiling",
+      "icon": "witchinggadgets:textures/gui/research/icon_ench_unveiling.png",
+      "research": "witchinggadgets:ENCH_UNVEILING"
+    },
+    {
+      "aspects": {
+        "aer": 10,
+        "ordo": 20,
+        "terra": 10
+      },
+      "enchantment": "witchinggadgets:stealth",
+      "icon": "witchinggadgets:textures/gui/research/icon_ench_stealth.png",
+      "research": "witchinggadgets:ENCH_STEALTH"
+    },
+    {
+      "aspects": {
+        "aer": 20,
+        "ignis": 20,
+        "perditio": 20
+      },
+      "enchantment": "witchinggadgets:backstab",
+      "icon": "witchinggadgets:textures/gui/research/icon_ench_backstab.png",
+      "research": "witchinggadgets:ENCH_BACKSTAB"
+    },
+    {
+      "aspects": {
+        "aer": 20,
+        "ordo": 20,
+        "perditio": 20
+      },
+      "enchantment": "witchinggadgets:ride_protect",
+      "icon": "witchinggadgets:textures/gui/research/icon_ench_rideprotect.png",
+      "research": "witchinggadgets:ENCH_RIDEPROTECT"
+    }
+  ]
+}

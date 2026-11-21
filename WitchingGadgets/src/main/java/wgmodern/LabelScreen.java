@@ -1,0 +1,12 @@
+package wgmodern;
+import java.util.*;import net.minecraft.client.gui.GuiGraphics;import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;import net.minecraft.world.entity.player.Inventory;import net.minecraft.network.chat.Component;import net.minecraft.resources.ResourceLocation;
+public class LabelScreen extends AbstractContainerScreen<LabelMenu>{
+ private static final ResourceLocation BG=new ResourceLocation("witchinggadgets","textures/gui/labellibrary.png");
+ public LabelScreen(LabelMenu m,Inventory i,Component t){super(m,i,t);imageWidth=176;imageHeight=166;}
+ private List<tc4revival.aspect.Aspect> known(){var knowledge=tc4revival.client.ClientKnowledge.snapshot();return tc4revival.aspect.TCAspects.catalog().all().stream().filter(a->knowledge.map(k->k.knows(a)).orElse(false)).toList();}
+ private void icon(GuiGraphics g,tc4revival.aspect.Aspect a,int x,int y,boolean selected){if(a==null)return;com.mojang.blaze3d.systems.RenderSystem.enableBlend();com.mojang.blaze3d.systems.RenderSystem.defaultBlendFunc();if(selected)g.fill(x-1,y-1,x+17,y+17,0x55ffffff);int rgb=a.color();g.setColor((rgb>>16&255)/255f,(rgb>>8&255)/255f,(rgb&255)/255f,1);tc4revival.client.LegacyGui.blit(g,a.texture(),x,y,0,0,16,16,16,16);g.setColor(1,1,1,1);com.mojang.blaze3d.systems.RenderSystem.disableBlend();}
+ @Override protected void renderBg(GuiGraphics g,float partial,int x,int y){tc4revival.client.LegacyGui.blit(g,BG,leftPos,topPos-5,0,0,194,171);g.pose().pushPose();g.pose().scale(.65f,.65f,1);int i=0,bx=(int)Math.floor((leftPos+36)/.65f),by=(int)Math.floor((topPos+8)/.65f);for(var a:known()){icon(g,a,bx+17*(i%12),by+17*(i/12),a.tag().equals(menu.tile.aspect));i++;}g.pose().popPose();icon(g,tc4revival.aspect.TCAspects.catalog().find(menu.tile.aspect).orElse(null),leftPos+8,topPos+30,false);}
+ @Override protected void renderLabels(GuiGraphics g,int x,int y){}
+ @Override public boolean mouseClicked(double x,double y,int button){double rx=x-leftPos-36,ry=y-topPos-8;var list=known();if(button==0&&rx>=0&&ry>=0&&rx<132){int index=(int)(rx/11)+12*(int)(ry/11);if(index<list.size()){var a=list.get(index);menu.tile.aspect=a.tag();minecraft.gameMode.handleInventoryButtonClick(menu.containerId,tc4revival.aspect.TCAspects.catalog().all().indexOf(a));return true;}}return super.mouseClicked(x,y,button);}
+ @Override public void render(GuiGraphics g,int x,int y,float partial){renderBackground(g);super.render(g,x,y,partial);renderTooltip(g,x,y);}
+}

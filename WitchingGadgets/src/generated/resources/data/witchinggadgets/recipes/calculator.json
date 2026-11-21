@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "b": {
+      "tag": "forge:dyes/blue"
+    },
+    "g": {
+      "tag": "forge:dyes/green"
+    },
+    "r": {
+      "tag": "forge:dyes/red"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    "srs",
+    "sbs",
+    "sgs"
+  ],
+  "research": "witchinggadgets:CALCULATOR",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:calculator"
+  },
+  "vis": {
+    "ordo": 10
+  }
+}

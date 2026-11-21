@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "mithril"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/mithril"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_mithril"
+  },
+  "temperature": 550,
+  "time": 110
+}

@@ -1,0 +1,42 @@
+{
+  "type": "thaumcraft:infusion",
+  "aspects": {
+    "aer": 8,
+    "instrumentum": 4,
+    "motus": 4,
+    "perfodio": 8
+  },
+  "center": {
+    "ingredient": {
+      "item": "witchinggadgets:vambrace_base"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:sugar"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:potion"
+      },
+      "nbt": "{Potion:\"minecraft:swiftness\"}"
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:sugar"
+      }
+    }
+  ],
+  "instability": 2,
+  "research": "witchinggadgets:WGBAUBLES",
+  "result": {
+    "item": "witchinggadgets:vambrace_haste"
+  }
+}

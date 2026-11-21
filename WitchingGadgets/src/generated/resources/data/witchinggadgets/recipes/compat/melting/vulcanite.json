@@ -1,0 +1,22 @@
+{
+  "type": "witchinggadgets:cluster_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "witchinggadgets:cluster_melting",
+      "metal": "vulcanite"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:clusters/vulcanite"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_vulcanite"
+  },
+  "temperature": 550,
+  "time": 110
+}

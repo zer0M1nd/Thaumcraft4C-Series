@@ -1,0 +1,15 @@
+{
+  "type": "witchinggadgets:gem_affinity",
+  "affinities": [
+    "terra",
+    "aqua"
+  ],
+  "aversions": [
+    "perditio",
+    "ignis"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/malachite"
+  },
+  "priority": 1000
+}

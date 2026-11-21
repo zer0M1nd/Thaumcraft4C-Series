@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "m": {
+      "item": "thaumcraft:mirrored_glass"
+    },
+    "p": {
+      "item": "minecraft:glass_pane"
+    },
+    "t": {
+      "item": "thaumcraft:thaumometer"
+    },
+    "w": {
+      "item": "thaumcraft:greatwood_planks"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    "wl ",
+    "pmt",
+    "wl "
+  ],
+  "research": "witchinggadgets:SCANCAMERA",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:scan_camera"
+  },
+  "vis": {
+    "aer": 20,
+    "ordo": 10,
+    "terra": 20
+  }
+}

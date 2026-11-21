@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:arcane",
+  "key": {
+    "B": {
+      "item": "minecraft:ice"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "S": {
+      "item": "thaumcraft:balanced_shard"
+    },
+    "T": {
+      "item": "thaumcraft:essentia_tube"
+    }
+  },
+  "mode": "shaped",
+  "pattern": [
+    " S ",
+    "IBI",
+    "ITI"
+  ],
+  "research": "witchinggadgets:TERRAFORMFOCUS_COLDTAIGA",
+  "result": {
+    "count": 1,
+    "item": "witchinggadgets:terraform_focus_cold_taiga"
+  },
+  "vis": {
+    "aqua": 10,
+    "ordo": 10
+  }
+}

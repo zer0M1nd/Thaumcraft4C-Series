@@ -1,0 +1,24 @@
+{
+  "type": "witchinggadgets:photo_developing",
+  "ingredients": [
+    {
+      "item": "witchinggadgets:photo_plate"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "forge:dyes/black"
+    }
+  ],
+  "mode": "shapeless",
+  "research": "witchinggadgets:SCANCAMERA",
+  "result": {
+    "item": "witchinggadgets:developed_photo"
+  },
+  "vis": {
+    "aer": 5,
+    "aqua": 5,
+    "ordo": 5
+  }
+}
