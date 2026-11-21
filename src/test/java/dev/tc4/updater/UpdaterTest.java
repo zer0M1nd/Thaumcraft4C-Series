@@ -1,6 +1,7 @@
 package dev.tc4.updater;
 
 import com.google.gson.*;
+import dev.tc4.download.DownloadQueue;
 import com.sun.net.httpserver.HttpServer;
 import java.io.*;
 import java.net.*;
@@ -36,11 +37,46 @@ class UpdaterTest {
         Files.createDirectories(game.resolve("config"));
         Files.writeString(game.resolve("config/thaumcraftupdater.toml"),"majorUpdates = '"+major+"'\nstableUpdates = '"+stable+"'\ntestingUpdates = '"+testing+"'\ninstallOnce = []\n");
     }
-    private JsonObject decide(UpdateReview review,String action,String id) {
-        JsonObject input=new JsonObject(); input.addProperty("action",action); input.addProperty("modid",id);
-        return JsonParser.parseString(review.handle(input.toString())).getAsJsonObject();
+    private static List<JsonObject> rows(DownloadQueue queue) {
+        var result=new ArrayList<JsonObject>();
+        JsonParser.parseString(queue.snapshot()).getAsJsonObject().getAsJsonArray("rows").forEach(e->result.add(e.getAsJsonObject()));
+        return result;
     }
-    private void approve(UpdateReview review,String id) { assertEquals("",decide(review,"update",id).get("error").getAsString()); }
+    private static void waitUntil(java.util.function.BooleanSupplier condition) throws IOException {
+        long deadline=System.nanoTime()+java.time.Duration.ofSeconds(12).toNanos();
+        while(!condition.getAsBoolean()) {
+            if(System.nanoTime()>deadline) throw new IOException("Timed out waiting for download state");
+            try { Thread.sleep(5); } catch(InterruptedException ex) { throw new InterruptedIOException(); }
+        }
+    }
+    private void visibleWindow(DownloadQueue q,UpdateEngine.Commit commit) throws IOException {
+        q.action("shown","");
+        waitUntil(()->q.ready()||rows(q).stream().anyMatch(r->r.get("state").getAsString().equals("FAILED")));
+        if(!q.ready()) {
+            rows(q).forEach(r->logs.add(r.get("message").getAsString())); q.reject("Batch cancelled"); q.action("skip","");
+        }
+        try { commit.run(); } catch(IOException e) {
+            logs.add(e.getMessage()); q.reject(e.getMessage()); q.action("skip",""); commit.run();
+        }
+    }
+    private UpdateEngine engine() { return new UpdateEngine(api,logs::add,this::visibleWindow); }
+    private void seedApproval(String id) throws Exception {
+        var release=api.latest(false).get(id);
+        var old=new ArrayList<ModMetadata>();
+        try(var files=Files.list(game.resolve("mods"))) {
+            for(var f:files.toList()) { var m=ModMetadata.read(f); if(m.mods().containsKey(id)) old.add(m); }
+        }
+        old.sort((a,b)->Version.parse(b.mods().get(id)).compareTo(Version.parse(a.mods().get(id))));
+        var originals=new ArrayList<UpdateTransaction.Original>();
+        for(var m:old) originals.add(new UpdateTransaction.Original(m.file().getFileName().toString(),FilesSupport.sha256(m.file())));
+        // A pre-upgrade approval on disk is migration input.
+        var store=new ReviewStore(game); var first=originals.remove(0);
+        var approval=new ReviewStore.Approval(id,first.filename(),first.hash(),release,originals);
+        Path staged=store.staged(approval); Files.createDirectories(staged.getParent());
+        api.download(release,release.url(),staged,(bytes,total)->{});
+        FilesSupport.writeAtomic(game.resolve(".thaumcraftupdater/approved.json"),new Gson().toJson(List.of(approval)).getBytes(StandardCharsets.UTF_8));
+        FilesSupport.writeAtomic(game.resolve(".thaumcraftupdater/managed-modids.json"),new Gson().toJson(managed).getBytes(StandardCharsets.UTF_8));
+    }
     static java.util.stream.Stream<org.junit.jupiter.params.provider.Arguments> policyCases() {
         var result=new ArrayList<org.junit.jupiter.params.provider.Arguments>();
         for(String major:List.of("是","否","询问")) for(String channel:List.of("是","否","询问"))
@@ -56,63 +92,74 @@ class UpdaterTest {
         Path old=install("thaumcraft","0.1.0");
         String version="0."+(crossMajor?2:1)+".1"+(testing?".1":"");
         var release=release("thaumcraft",version); publish("thaumcraft",testing?null:release,testing?release:null);
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) {
-            assertEquals(mode.equals("是")?1:0,session.result().updated());
-            assertEquals(mode.equals("询问"),session.review()!=null);
-            assertEquals(!mode.equals("是"),Files.exists(old));
-            assertEquals(mode.equals("是")?1:0,downloadRequests.size());
-        }
+        AtomicInteger opened=new AtomicInteger();
+        var engine=new UpdateEngine(api,logs::add,(queue,commit)->{
+            opened.incrementAndGet(); assertTrue(downloadRequests.isEmpty()); visibleWindow(queue,commit);
+        });
+        boolean eligible=!mode.equals("否");
+        assertEquals(eligible?1:0,engine.run(game,CLIENT).updated());
+        assertEquals(eligible?1:0,opened.get()); assertEquals(!eligible,Files.exists(old));
     }
-    @Test void askReviewContainsAutomaticRowsAndLeavesLoadedFilesUntouched() throws Exception {
-        policies("询问","是","否"); Path core=install("thaumcraft","0.1.0"); install("automagy","0.1.0");
-        publish("thaumcraft",release("thaumcraft","0.2.0"),null); publish("automagy",release("automagy","0.1.1"),null);
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) {
-            assertEquals(0,session.result().updated()); assertNotNull(session.review()); assertTrue(downloadRequests.isEmpty());
-            var state=decide(session.review(),"snapshot",""); assertEquals(2,state.getAsJsonArray("offers").size());
-            approve(session.review(),"thaumcraft");
-            assertEquals("",decide(session.review(),"skip","automagy").get("error").getAsString());
-            // Bulk remaining actions cannot overwrite an earlier approval.
-            assertEquals("update",decide(session.review(),"ignore","thaumcraft").getAsJsonObject("choices").get("thaumcraft").getAsString());
-            assertTrue(Files.exists(core)); assertEquals(1,new ReviewStore(game).approvals().size());
-        }
-        assertEquals(2,run().updated()); // Explicit approval plus the automatic non-major update.
-        assertEquals(0,new ReviewStore(game).approvals().size()); assertNoTransactions();
-        try(var files=Files.list(game.resolve(".thaumcraftupdater/approved"))) { assertEquals(0,files.count()); }
+    @Test void dedicatedServerDefersBothAskAndYesAndPreservesMissingInstallRequests() throws Exception {
+        policies("询问","是","否"); Path core=install("thaumcraft","0.1.0");
+        request("automagy"); publish("thaumcraft",release("thaumcraft","0.2.0"),null); publish("automagy",release("automagy","0.1.1"),null);
+        assertThrows(UpdateTransaction.StartupBlocked.class,()->new UpdateEngine(api,logs::add,null).run(game,CONTEXT));
+        assertTrue(Files.exists(core)); assertTrue(downloadRequests.isEmpty());
+        assertTrue(UpdaterConfig.read(game).installOnce().contains("automagy"));
     }
-    @Test void serverSkipsAskButAppliesIndependentYes() throws Exception {
-        policies("询问","是","否"); Path core=install("thaumcraft","0.1.0"); install("automagy","0.1.0");
-        publish("thaumcraft",release("thaumcraft","0.2.0"),null); publish("automagy",release("automagy","0.1.1"),null);
-        assertEquals(1,run().updated()); assertTrue(Files.exists(core)); assertTrue(logs.toString().contains("ASK update skipped"));
-    }
-    @Test void ignorePersistsOnlyTheExactVersionWhileSkipExpires() throws Exception {
+    @Test void skipExpiresAndExistingIgnoredVersionIsRespected() throws Exception {
         policies("否","询问","否"); install("thaumcraft","0.1.0"); install("automagy","0.1.0");
-        var core=publish("thaumcraft",release("thaumcraft","0.1.1"),null); publish("automagy",release("automagy","0.1.1"),null);
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) {
-            decide(session.review(),"ignore","thaumcraft"); decide(session.review(),"skip","automagy");
-        }
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) {
-            var offers=decide(session.review(),"snapshot","").getAsJsonArray("offers");
-            assertEquals(1,offers.size()); assertEquals("automagy",offers.get(0).getAsJsonObject().get("modid").getAsString());
-        }
-        core.add("latest_stable",release("thaumcraft","0.1.2"));
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) { assertEquals(2,decide(session.review(),"snapshot","").getAsJsonArray("offers").size()); }
+        publish("thaumcraft",release("thaumcraft","0.1.1"),null); publish("automagy",release("automagy","0.1.1"),null);
+        Files.createDirectories(game.resolve(".thaumcraftupdater"));
+        Files.writeString(game.resolve(".thaumcraftupdater/ignored-versions.json"),"{\"thaumcraft\":[\"0.1.1\"]}");
+        var skip=new UpdateEngine(api,logs::add,(q,c)->{
+            assertEquals(1,rows(q).size()); q.action("shown",""); q.action("skip",""); assertFalse(q.needsConfirmation()); c.run();
+        });
+        assertEquals(0,skip.run(game,CLIENT).updated()); assertEquals(1,engine().run(game,CLIENT).updated());
+    }
+    @Test void fiveSecondCheckAcceptsManualTargetVersionAndUsesItsActualBytes() throws Exception {
+        Path old=install("thaumcraft","0.1.0");
+        var release=release("thaumcraft","0.1.1"); publish("thaumcraft",release,null);
+        downloads.clear(); byte[] manual=jar("thaumcraft","0.1.1","# player copy",false);
+        var engine=new UpdateEngine(api,logs::add,(q,c)->{
+            q.action("shown",""); waitUntil(()->rows(q).get(0).get("state").getAsString().equals("FAILED"));
+            Files.write(game.resolve("mods/drop.jar"),manual);
+            waitUntil(q::ready);
+            var view=JsonParser.parseString(q.snapshot()).getAsJsonObject();
+            assertFalse(view.get("auto").getAsBoolean()); assertTrue(rows(q).get(0).get("message").getAsString().contains("SHA-256"));
+            c.run();
+        });
+        assertEquals(1,engine.run(game,CLIENT).updated()); assertFalse(Files.exists(old));
+        assertArrayEquals(manual,Files.readAllBytes(game.resolve("mods/thaumcraft-0.1.1.jar")));
+        assertFalse(Files.exists(game.resolve("mods/drop.jar"))); assertNoTransactions();
+    }
+    @Test void skippingAnUpdateNeedsNoConfirmationButSkippingAnInstallDoes() throws Exception {
+        request("automagy"); install("thaumcraft","0.1.0");
+        publish("thaumcraft",release("thaumcraft","0.1.1"),null); publish("automagy",release("automagy","0.1.1"),null);
+        var engine=new UpdateEngine(api,logs::add,(q,c)->{
+            assertFalse(q.ready()); assertTrue(downloadRequests.isEmpty()); q.action("shown","");
+            q.action("skip","thaumcraft"); assertFalse(q.needsConfirmation());
+            q.action("skip","automagy"); assertTrue(q.ready()); assertTrue(q.needsConfirmation());
+            assertFalse(JsonParser.parseString(q.snapshot()).getAsJsonObject().get("auto").getAsBoolean()); c.run();
+        });
+        assertEquals(0,engine.run(game,CLIENT).updated()); assertEquals(List.of("automagy"),UpdaterConfig.read(game).installOnce());
     }
     @Test void approvedDownloadsApplyOfflineAndAreNotDownloadedAgain() throws Exception {
         policies("否","询问","否"); install("thaumcraft","0.1.0"); publish("thaumcraft",release("thaumcraft","0.1.1"),null);
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) { approve(session.review(),"thaumcraft"); }
+        seedApproval("thaumcraft");
         apiStatus=503; assertEquals(1,run().updated()); assertEquals(1,downloadRequests.size()); assertNoTransactions();
         assertTrue(new ReviewStore(game).approvals().isEmpty());
     }
     @Test void deploymentBanSuspendsAnAlreadyApprovedDownload() throws Exception {
         policies("否","询问","否"); Path old=install("thaumcraft","0.1.0"); var item=publish("thaumcraft",release("thaumcraft","0.1.1"),null);
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) { approve(session.review(),"thaumcraft"); }
+        seedApproval("thaumcraft");
         item.addProperty("deployment_allowed",false); assertEquals(0,run().updated()); assertTrue(Files.exists(old));
         assertEquals(1,new ReviewStore(game).approvals().size());
     }
     @ParameterizedTest @ValueSource(booleans={false,true})
     void changedOriginalOrApprovalIsRejectedBeforeReplacement(boolean changeOriginal) throws Exception {
         policies("否","询问","否"); Path old=install("thaumcraft","0.1.0"); publish("thaumcraft",release("thaumcraft","0.1.1"),null);
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) { approve(session.review(),"thaumcraft"); }
+        seedApproval("thaumcraft");
         var store=new ReviewStore(game); Path target=changeOriginal?old:store.staged(store.approvals().get(0));
         Files.write(target,jar("thaumcraft","0.1.0","# altered",false));
         assertEquals(0,run().updated()); assertTrue(Files.exists(old)); assertFalse(Files.exists(game.resolve("mods/thaumcraft-0.1.1.jar")));
@@ -120,20 +167,22 @@ class UpdaterTest {
     @Test void failedReviewDownloadCanRetryWithoutRecordingAChoice() throws Exception {
         policies("否","询问","否"); install("thaumcraft","0.1.0"); var row=release("thaumcraft","0.1.1"); publish("thaumcraft",row,null);
         String url=row.get("url").getAsString(); byte[] bytes=downloads.remove(url);
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) {
-            var state=decide(session.review(),"update","thaumcraft"); assertFalse(state.get("error").getAsString().isEmpty()); assertEquals(0,state.getAsJsonObject("choices").size());
-            downloads.put(url,bytes); approve(session.review(),"thaumcraft");
-        }
+        var engine=new UpdateEngine(api,logs::add,(q,c)->{
+            q.action("shown",""); waitUntil(()->rows(q).get(0).get("state").getAsString().equals("FAILED"));
+            assertFalse(q.ready()); downloads.put(url,bytes); q.action("retry","thaumcraft");
+            waitUntil(q::ready); assertFalse(JsonParser.parseString(q.snapshot()).getAsJsonObject().get("auto").getAsBoolean()); c.run();
+        });
+        assertEquals(1,engine.run(game,CLIENT).updated());
     }
     @Test void approvedUpdatesStillValidateDependenciesBeforeCommit() throws Exception {
         policies("否","询问","否"); Path old=install("automagy","0.1.0");
         publish("automagy",release("automagy","0.1.1",jar("automagy","0.1.1",dependency("automagy","thaumcraft","[0.1.1,)","BOTH"),false)),null);
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) { approve(session.review(),"automagy"); }
+        seedApproval("automagy");
         assertEquals(0,run().updated()); assertTrue(Files.exists(old)); assertTrue(logs.toString().contains("Missing required dependency")); assertNoTransactions();
     }
     @Test void interruptedApprovalCleanupRecognizesAlreadyCommittedJar() throws Exception {
         policies("否","询问","否"); Path old=install("thaumcraft","0.1.0"); publish("thaumcraft",release("thaumcraft","0.1.1"),null);
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) { approve(session.review(),"thaumcraft"); }
+        seedApproval("thaumcraft");
         var store=new ReviewStore(game); var approval=store.approvals().get(0); Files.delete(old);
         Files.copy(store.staged(approval),game.resolve("mods/"+approval.release().filename()));
         assertEquals(0,run().updated()); assertTrue(new ReviewStore(game).approvals().isEmpty()); assertFalse(Files.exists(store.staged(approval)));
@@ -151,7 +200,7 @@ class UpdaterTest {
         server.createContext("/", exchange -> {
             byte[] body;
             int status = 200;
-            if (exchange.getRequestURI().getPath().equals("/api/v2/mods")) {
+            if (Set.of("/api/v2/mods","/latest.json").contains(exchange.getRequestURI().getPath())) {
                 status = apiStatus;
                 JsonObject root = new JsonObject(); root.addProperty("schema", 2); root.add("mods", catalog);
                 if (includeWhitelist) root.add("managed_modids", new Gson().toJsonTree(managed));
@@ -210,7 +259,7 @@ class UpdaterTest {
         JsonObject item = new JsonObject(); item.addProperty("modid", id);
         item.add("latest_stable", stable); item.add("latest_testing", testing); catalog.add(item); return item;
     }
-    private UpdateEngine.Result run() { return new UpdateEngine(api, logs::add).run(game, CONTEXT); }
+    private UpdateEngine.Result run() { return engine().run(game, CONTEXT); }
     private void unstable() throws IOException {
         Files.createDirectories(game.resolve("config"));
         Files.writeString(game.resolve("config/thaumcraftupdater.toml"), "includeUnstable = true\n");
@@ -271,21 +320,13 @@ class UpdaterTest {
         assertEquals(UpdateMode.parse(value),UpdaterConfig.read(game).majorUpdates());
         assertEquals(original,Files.readString(config));
     }
-    @Test void freshDefaultAsksBeforeCrossMajorDownloadAndAppliesOnlyAfterApprovalOnNextLaunch() throws Exception {
-        Path old = install("thaumcraft","0.1.0"); publish("thaumcraft",release("thaumcraft","0.2.0"),null);
-        try (var session = new UpdateEngine(api,logs::add).start(game,CLIENT)) {
-            assertEquals(0,session.result().updated()); assertNotNull(session.review()); assertTrue(downloadRequests.isEmpty());
-            assertTrue(Files.exists(old)); approve(session.review(),"thaumcraft"); assertTrue(Files.exists(old));
-        }
-        try (var session = new UpdateEngine(api,logs::add).start(game,CLIENT)) {
-            assertEquals(1,session.result().updated()); assertNull(session.review()); assertFalse(Files.exists(old));
-        }
-        assertEquals(1,downloadRequests.size()); assertTrue(Files.exists(game.resolve("mods/thaumcraft-0.2.0.jar"))); assertNoTransactions();
-    }
-    @Test void freshDefaultServerSkipsMajorWithoutDownload() throws Exception {
-        Path old = install("thaumcraft","0.1.0"); publish("thaumcraft",release("thaumcraft","0.2.0"),null);
-        assertEquals(0,run().updated()); assertTrue(Files.exists(old)); assertTrue(downloadRequests.isEmpty());
-        assertTrue(logs.toString().contains("ASK update skipped on dedicated server"));
+    @Test void firstVisibleFrameStartsDefaultMajorDownloadForSameLaunch() throws Exception {
+        Path old=install("thaumcraft","0.1.0"); publish("thaumcraft",release("thaumcraft","0.2.0"),null);
+        var engine=new UpdateEngine(api,logs::add,(q,c)->{
+            assertTrue(downloadRequests.isEmpty()); assertFalse(q.ready()); assertTrue(Files.exists(old));
+            visibleWindow(q,c);
+        });
+        assertEquals(1,engine.run(game,CLIENT).updated()); assertFalse(Files.exists(old)); assertNoTransactions();
     }
     @ParameterizedTest @CsvSource({"false,false", "false,true", "true,false", "true,true"})
     void explicitConfigurationIsPreserved(boolean unstable, boolean major) throws Exception {
@@ -342,6 +383,7 @@ class UpdaterTest {
         assertTrue(Files.exists(old)); assertTrue(downloadRequests.isEmpty());
     }
     @Test void blockedMajorUpdateDoesNotBlockIndependentSameXUpdate() throws Exception {
+        policies("no","yes","no");
         Path blocked = install("thaumcraft", "0.1.0");
         install("automagy", "0.1.0");
         publish("thaumcraft", release("thaumcraft", "0.2.0"), null);
@@ -353,6 +395,7 @@ class UpdaterTest {
         assertTrue(downloadRequests.get(0).contains("/automagy/"));
     }
     @Test void blockedMajorDependencyIsNotPulledInForAnotherUpdate() throws Exception {
+        policies("no","yes","no");
         Path core = install("thaumcraft", "0.1.0"), addon = install("automagy", "0.1.0");
         publish("thaumcraft", release("thaumcraft", "0.2.0"), null);
         publish("automagy", release("automagy", "0.1.1",
@@ -480,7 +523,7 @@ class UpdaterTest {
 
     @Test void productionSessionKeepsLoadedJarsProtectedUntilShutdown() throws Exception {
         install("thaumcraft", "0.1.0"); publish("thaumcraft", release("thaumcraft", "0.1.1"), null);
-        try (var session = new UpdateEngine(api, logs::add).start(game, CONTEXT)) {
+        try (var session = engine().start(game, CONTEXT)) {
             assertEquals(1, session.result().updated());
             assertThrows(UpdateTransaction.StartupBlocked.class, this::run);
         }
@@ -635,16 +678,16 @@ class UpdaterTest {
         assertEquals(0, run().updated()); assertConsumed(); assertTrue(downloadRequests.isEmpty());
         try (var files = Files.list(game.resolve("mods"))) { assertEquals(0, files.count()); }
     }
-    @Test void noReleaseStillConsumesRequest() throws Exception {
+    @Test void unpublishedReleaseCanBeSkippedForThisLaunch() throws Exception {
         request("nodalmechanics");
         publish("nodalmechanics", null, release("nodalmechanics", "0.1.3.1"));
-        assertEquals(0, run().updated()); assertConsumed(); assertTrue(downloadRequests.isEmpty());
+        assertEquals(0, run().updated()); assertEquals(List.of("nodalmechanics"),UpdaterConfig.read(game).installOnce()); assertTrue(downloadRequests.isEmpty());
     }
-    @Test void networkFailureStillConsumesRequest() throws Exception {
+    @Test void networkFailurePreservesInstallRequest() throws Exception {
         request("nodalmechanics"); apiStatus = 503;
-        assertEquals(0, run().updated()); assertConsumed();
+        assertEquals(0,run().updated());
         apiStatus = 200; publish("nodalmechanics", release("nodalmechanics", "0.1.3"), null);
-        assertEquals(0, run().updated()); assertTrue(downloadRequests.isEmpty());
+        assertEquals(1, run().updated()); assertConsumed();
     }
     @Test void scanFailureStillConsumesRequest() throws Exception {
         request("nodalmechanics"); install("thaumcraft", "broken-version");
@@ -681,7 +724,7 @@ class UpdaterTest {
         request("automagy");
         publish("thaumcraft", release("thaumcraft", "0.1.1"), null);
         publish("automagy", release("automagy", "0.1.1", jar("automagy", "0.1.1", dependency("automagy", "thaumcraft", "[0.1.1]", "BOTH"), false)), null);
-        assertEquals(0, run().updated()); assertConsumed(); assertNoTransactions();
+        assertEquals(0, run().updated()); assertEquals(List.of("automagy"),UpdaterConfig.read(game).installOnce()); assertNoTransactions();
         try (var files = Files.list(game.resolve("mods"))) { assertEquals(0, files.count()); }
     }
     @Test void additionsAndReplacementsShareDependencyValidation() throws Exception {
@@ -694,13 +737,13 @@ class UpdaterTest {
         Path old = install("thaumcraft", "0.1.0"); request("automagy");
         publish("thaumcraft", release("thaumcraft", "0.1.1"), null);
         JsonObject bad = release("automagy", "0.1.1"); bad.addProperty("sha256", "0".repeat(64)); publish("automagy", bad, null);
-        assertEquals(0, run().updated()); assertTrue(Files.exists(old)); assertConsumed(); assertNoTransactions();
+        assertEquals(0, run().updated()); assertTrue(Files.exists(old)); assertEquals(List.of("automagy"),UpdaterConfig.read(game).installOnce()); assertNoTransactions();
     }
     @Test void installDestinationCollisionLeavesOtherFileUntouched() throws Exception {
         Path other = game.resolve("mods/nodalmechanics-0.1.3.jar");
         Files.write(other, jar("unrelated", "1.0.0", "", false)); String hash = FilesSupport.sha256(other);
         request("nodalmechanics"); publish("nodalmechanics", release("nodalmechanics", "0.1.3"), null);
-        assertEquals(0, run().updated()); assertEquals(hash, FilesSupport.sha256(other)); assertConsumed(); assertNoTransactions();
+        assertEquals(0, run().updated()); assertEquals(hash, FilesSupport.sha256(other)); assertEquals(List.of("nodalmechanics"),UpdaterConfig.read(game).installOnce()); assertNoTransactions();
     }
     private UpdateTransaction.Entry prepareInstall(Path batch, int index, String id) throws IOException {
         Path staged = UpdateTransaction.staged(batch,index); Files.write(staged,jar(id,"0.1.1","",false));
@@ -907,18 +950,14 @@ class UpdaterTest {
     @Test void duplicateApprovalUsesHighestVersionAndCleansAllOriginalsOnNextLaunch() throws Exception {
         policies("否","询问","否"); install("thaumcraft","0.1.9");install("thaumcraft","0.1.10");
         publish("thaumcraft",release("thaumcraft","0.1.11"),null);var before=modHashes();
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) {
-            var snapshot=JsonParser.parseString(session.review().handle("{\"action\":\"snapshot\"}")).getAsJsonObject();
-            assertEquals("0.1.10",snapshot.getAsJsonArray("offers").get(0).getAsJsonObject().get("currentVersion").getAsString());
-            approve(session.review(),"thaumcraft");assertEquals(before,modHashes());
-        }
+        seedApproval("thaumcraft"); assertEquals(before,modHashes());
         assertEquals(1,run().updated());assertEquals(Set.of("thaumcraft-0.1.11.jar"),modHashes().keySet());assertNoTransactions();
     }
     @ParameterizedTest @ValueSource(strings={"add","change","remove"})
     void externallyChangedDuplicateSetInvalidatesApproval(String action) throws Exception {
         policies("否","询问","否");Path first=install("thaumcraft","0.1.0");install("thaumcraft","0.1.1");
         publish("thaumcraft",release("thaumcraft","0.1.2"),null);
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)){approve(session.review(),"thaumcraft");}
+        seedApproval("thaumcraft");
         if(action.equals("add")) Files.write(game.resolve("mods/extra.jar"),jar("thaumcraft","0.1.0","# extra",false));
         if(action.equals("change")) Files.write(first,jar("thaumcraft","0.1.0","# changed",false));
         if(action.equals("remove")) Files.delete(first);
@@ -964,10 +1003,8 @@ class UpdaterTest {
         policies("询问","询问","否");Files.write(game.resolve("mods/self.jar"),jar("thaumcraftupdater","0.2.3","",true));
         publish("thaumcraftupdater",release("thaumcraftupdater","0.2.4",jar("thaumcraftupdater","0.2.4","",true)),null);
         var before=modHashes();
-        try(var session=new UpdateEngine(api,logs::add).start(game,CLIENT)) {
-            assertFalse(Files.exists(SelfUpdateHelper.pending(game)));approve(session.review(),"thaumcraftupdater");
-            assertTrue(Files.exists(SelfUpdateHelper.pending(game)));assertEquals(before,modHashes());
-        }
+        assertFalse(Files.exists(SelfUpdateHelper.pending(game)));
+        engine().run(game,CLIENT); assertTrue(Files.exists(SelfUpdateHelper.pending(game))); assertEquals(before,modHashes());
         SelfUpdateHelper.apply(game);assertEquals(Set.of("thaumcraftupdater-0.2.4.jar"),modHashes().keySet());
         assertEquals(0,run().updated());assertTrue(new ReviewStore(game).approvals().isEmpty());
     }

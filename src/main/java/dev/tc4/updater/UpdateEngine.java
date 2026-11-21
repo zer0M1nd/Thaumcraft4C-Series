@@ -1,6 +1,7 @@
 package dev.tc4.updater;
 
 import com.google.gson.*;
+import dev.tc4.download.DownloadQueue;
 import org.apache.maven.artifact.versioning.DefaultArtifactVersion;
 import org.apache.maven.artifact.versioning.VersionRange;
 import java.io.IOException;
@@ -15,7 +16,7 @@ public final class UpdateEngine {
     public static boolean validModid(String id) { return id != null && id.matches("[a-z][a-z0-9_]{1,63}"); }
     public record Context(String minecraft, String forge, String side) {}
     public record Result(int updated, String message) {}
-    public record Session(Result result, UpdateTransaction.Guard guard, UpdateReview review) implements AutoCloseable {
+    public record Session(Result result, UpdateTransaction.Guard guard) implements AutoCloseable {
         @Override public void close() throws IOException { guard.close(); }
     }
     private record Installed(ModMetadata newest, List<ModMetadata> all) {
@@ -31,8 +32,10 @@ public final class UpdateEngine {
     private record Planned(Installed installed, ReleaseApi.Release release, List<UpdateTransaction.Original> originals, Path prepared) {}
     private final ReleaseApi api;
     private final Consumer<String> log;
-    private UpdateReview review;
-    public UpdateEngine(ReleaseApi api, Consumer<String> log) { this.api = api; this.log = log; }
+    @FunctionalInterface public interface Commit { void run() throws IOException; }
+    @FunctionalInterface public interface Window { void show(DownloadQueue queue, Commit commit) throws IOException; }
+    private final Window window;
+    public UpdateEngine(ReleaseApi api, Consumer<String> log, Window window) { this.api = api; this.log = log; this.window = window; }
     public Result run(Path gameDirectory, Context context) {
         try (Session session = start(gameDirectory, context)) { return session.result; }
         catch (IOException error) { throw new UpdateTransaction.StartupBlocked("Cannot release updater lock", error); }
@@ -41,21 +44,22 @@ public final class UpdateEngine {
         UpdateTransaction transaction = new UpdateTransaction(gameDirectory);
         UpdateTransaction.Guard guard = null;
         try {
-            review = null; guard = transaction.lock();
+            guard = transaction.lock();
             UpdaterConfig config = null; IOException configError = null;
-            try { config = UpdaterConfig.read(gameDirectory); }
+            try { config = UpdaterConfig.forLaunch(gameDirectory); }
             catch (IOException error) { configError = error; }
             transaction.recover(); transaction.cleanupCompleted(log);
             Result result;
             try {
                 if (configError != null) throw configError;
                 result = update(gameDirectory, context, transaction, config);
+                UpdaterConfig.finishRequests(gameDirectory);
             } catch (UpdateTransaction.StartupBlocked error) { throw error; }
             catch (IOException | RuntimeException error) {
                 String reason = "Update skipped; original mods retained: " + error.getMessage();
                 log.accept(reason); result = new Result(0, reason);
             }
-            return new Session(result, guard, review);
+            return new Session(result, guard);
         } catch (IOException | RuntimeException error) {
             if (guard != null) try { guard.close(); } catch (IOException closeError) { error.addSuppressed(closeError); }
             if (error instanceof UpdateTransaction.StartupBlocked blocked) throw blocked;
@@ -65,18 +69,76 @@ public final class UpdateEngine {
 
     private Result update(Path game, Context context, UpdateTransaction transaction, UpdaterConfig config) throws IOException {
         ReviewStore store = new ReviewStore(game);
+        if (config.stableUpdates()==UpdateMode.NO && config.testingUpdates()==UpdateMode.NO
+                && config.installOnce().isEmpty() && store.approvals().isEmpty()) {
+            return new Result(0,"Automatic updates are disabled");
+        }
         Map<String, ReleaseApi.Channels> catalog;
         Set<String> managed;
         log.accept("Checking server-managed modids and releases before Forge mod scanning");
         try {
             var snapshot = api.snapshot(config.testingUpdates() != UpdateMode.NO);
             managed = snapshot.managed(); catalog = snapshot.releases();
+            var versions=new TreeMap<String,String>();
+            catalog.forEach((id,channels)->{ if(channels.stable()!=null) versions.put(id,channels.stable().version()); });
+            FilesSupport.writeAtomic(game.resolve(".thaumcraftupdater/stable-versions.json"),
+                    new Gson().toJson(versions).getBytes(StandardCharsets.UTF_8));
             FilesSupport.writeAtomic(game.resolve(".thaumcraftupdater/managed-modids.json"),
                     new Gson().toJson(managed.stream().sorted().toList()).getBytes(StandardCharsets.UTF_8));
         } catch (IOException error) {
-            if (store.approvals().isEmpty()) throw error;
-            managed = cachedManaged(game); catalog = Map.of();
-            log.accept("Release check failed; applying previously approved downloads only with the last server whitelist: " + error.getMessage());
+            if (!store.approvals().isEmpty()) {
+                managed = cachedManaged(game); catalog = Map.of();
+                log.accept("Release check failed; applying previously approved downloads only with the last server whitelist: " + error.getMessage());
+            } else if (window!=null && !config.installOnce().isEmpty()) {
+                var requested=config.installOnce().stream().filter(id->validModid(id)&&!EXCLUDED.contains(id)).distinct().toList();
+                var recovered=new java.util.concurrent.atomic.AtomicReference<ReleaseApi.Catalog>();
+                var knownVersions=new JsonObject();
+                Path cached=game.resolve(".thaumcraftupdater/stable-versions.json");
+                if(Files.isRegularFile(cached,LinkOption.NOFOLLOW_LINKS)) try(var input=Files.newInputStream(cached)) {
+                    knownVersions=JsonParser.parseString(new String(FilesSupport.readBounded(input,65536),StandardCharsets.UTF_8)).getAsJsonObject();
+                } catch(IOException | RuntimeException invalid) { log.accept("Cannot read cached release versions: "+invalid.getMessage()); }
+                var reference=knownVersions;
+                var waiting=new ArrayList<DownloadQueue.Task>();
+                for (String id:requested) waiting.add(new DownloadQueue.Task() {
+                    public DownloadQueue.Item item() {
+                        return new DownloadQueue.Item(id,id,"等待版本清单 / Waiting for release catalog",game.resolve("mods").toString(),
+                                DownloadQueue.Kind.INSTALL,api.manualPages(id));
+                    }
+                    public DownloadQueue.Prepared local() throws IOException {
+                        if (!reference.has(id) || !Files.isDirectory(game.resolve("mods"))) return null;
+                        String expected=reference.get(id).getAsString();
+                        try(var paths=Files.list(game.resolve("mods"))) {
+                            for(Path path:paths.filter(p->p.getFileName().toString().endsWith(".jar")).toList())
+                                if(expected.equals(ModMetadata.scan(path,Set.of()).mods().get(id))) return ()->"";
+                        }
+                        return null;
+                    }
+                    public DownloadQueue.Prepared download(java.net.URI page,DownloadQueue.Progress progress) throws IOException {
+                        var snapshot=recovered.get();
+                        if(snapshot==null) snapshot=api.catalogForPage(page,config.testingUpdates()!=UpdateMode.NO);
+                        var found=snapshot; return ()->{ recovered.set(found); return ""; };
+                    }
+                });
+                var skip=new LinkedHashSet<String>();
+                if(!waiting.isEmpty()) try(var queue=new DownloadQueue(waiting)) {
+                    window.show(queue,()->{
+                        if(!queue.ready()) throw new IOException("Version check is incomplete");
+                        requested.stream().filter(queue::skipped).forEach(skip::add);
+                    });
+                } catch(IOException|UpdateTransaction.StartupBlocked ex) {
+                    UpdaterConfig.restoreRequests(game,requested); throw new UpdateTransaction.StartupBlocked("Release catalog check interrupted",ex);
+                }
+                UpdaterConfig.restoreRequests(game,skip);
+                var snapshot=recovered.get();
+                if(snapshot==null) return new Result(0,"Manual or skipped first installs");
+                var allowed=new HashSet<>(snapshot.managed()); allowed.removeAll(skip);
+                managed=Set.copyOf(allowed); catalog=snapshot.releases();
+            } else {
+                UpdaterConfig.restoreRequests(game,config.installOnce());
+                if(window==null && config.installOnce().stream().anyMatch(id->validModid(id)&&!EXCLUDED.contains(id)))
+                    throw new UpdateTransaction.StartupBlocked("Cannot resolve required first installs without the release catalog",error);
+                throw error;
+            }
         }
         Set<String> requested = new LinkedHashSet<>();
         for (String id : config.installOnce()) {
@@ -86,12 +148,13 @@ public final class UpdateEngine {
         Path modsDirectory = game.resolve("mods");
         if (!Files.exists(modsDirectory) && !requested.isEmpty()) Files.createDirectory(modsDirectory);
         if (!Files.isDirectory(modsDirectory)) return new Result(0, "No mods directory");
+        var installedFiles=new ModDownload.InstalledFiles(modsDirectory);
         Map<String, List<ModMetadata>> candidates = new LinkedHashMap<>();
         Map<String, String> externalVersions = new HashMap<>();
         Set<String> present = new HashSet<>();
         try (var files = Files.list(modsDirectory)) {
             for (Path jar : files.filter(path -> path.getFileName().toString().toLowerCase(Locale.ROOT).endsWith(".jar")).sorted().toList()) {
-                ModMetadata metadata = ModMetadata.scan(jar, managed);
+                ModMetadata metadata = installedFiles.scan(jar, managed);
                 present.addAll(metadata.mods().keySet()); present.addAll(metadata.embeddedMods().keySet());
                 metadata.embeddedMods().forEach((id, version) -> newestExternal(externalVersions, id, version));
                 for (var mod : metadata.mods().entrySet()) {
@@ -120,8 +183,7 @@ public final class UpdateEngine {
                 log.accept("Previously approved update suspended by server whitelist: " + approval.modid()); continue;
             }
             Installed old = owners.get(approval.modid());
-            if (old != null && old.newest.mods().equals(Map.of(approval.modid(), approval.release().version()))
-                    && FilesSupport.sha256(old.newest.file()).equals(approval.release().sha256())) {
+            if (old != null && old.newest.mods().equals(Map.of(approval.modid(), approval.release().version()))) {
                 store.remove(List.of(approval.modid())); continue;
             }
             if (old == null || !old.originals().equals(approval.originals())
@@ -132,8 +194,7 @@ public final class UpdateEngine {
             if (!FilesSupport.sha256(prepared).equals(approval.release().sha256())) throw new IOException("Approved download checksum mismatch");
             updates.add(new Planned(old, approval.release(), approval.originals(), prepared)); approvedIds.add(approval.modid());
         }
-        List<Planned> automatic = new ArrayList<>(); List<UpdateReview.Offer> offers = new ArrayList<>();
-        boolean needsReview = false;
+        List<Planned> offered = new ArrayList<>();
         for (var entry : owners.entrySet()) {
             String id = entry.getKey(); Installed old = entry.getValue();
             ReleaseApi.Channels channels = catalog.get(id);
@@ -143,33 +204,107 @@ public final class UpdateEngine {
             if (channels.stable() != null) releases.add(channels.stable());
             if (channels.testing() != null) releases.add(channels.testing());
             releases.sort((a, b) -> Version.parse(b.version()).compareTo(Version.parse(a.version())));
-            ReleaseApi.Release release = null; UpdateMode mode = UpdateMode.NO;
+            ReleaseApi.Release release = null;
             for (var candidate : releases) {
                 Version version = Version.parse(candidate.version());
                 if (version.compareTo(current) <= 0 || store.ignored(id, candidate.version())) continue;
                 UpdateMode candidateMode = config.mode(current, version);
                 if (candidateMode == UpdateMode.NO) { log.accept("Skipping update by configured policy: " + id + " " + candidate.version()); continue; }
-                release = candidate; mode = candidateMode; break;
+                release = candidate; break;
             }
             if (release == null) continue;
             requireReplaceable(id, old);
-            var originals = old.originals(); var first = originals.get(0);
-            offers.add(new UpdateReview.Offer(id, channels.name(), old.newest.mods().get(id), release.version(), channels.changelog().toString(),
-                    first.filename(), first.hash(), release, originals.subList(1, originals.size())));
-            if (mode == UpdateMode.ASK) {
-                needsReview = true;
-                if (!context.side.equals("CLIENT")) log.accept("ASK update skipped on dedicated server: " + id + " " + release.version());
-            } else automatic.add(new Planned(old, release, originals, null));
+            offered.add(new Planned(old,release,old.originals(),null));
         }
-        if (needsReview && context.side.equals("CLIENT")) review = new UpdateReview(game, api, store, offers, context);
-        else updates.addAll(automatic);
+        var unavailable=new ArrayList<String>();
         for (String id : requested) {
-            var channels = catalog.get(id); var release = channels == null ? null : channels.stable();
-            if (release == null) log.accept("No eligible release for installOnce modid: " + id);
-            else updates.add(new Planned(null, release, List.of(), null));
+            var channels=catalog.get(id);
+            if (channels!=null && channels.stable()!=null) offered.add(new Planned(null,channels.stable(),List.of(),null));
+            else { unavailable.add(id); log.accept("No eligible stable release for installOnce modid: "+id); }
         }
-        if (updates.isEmpty()) return new Result(0, review == null ? "No eligible updates for the configured policy"
-                : "Awaiting startup update review; selected downloads apply on the next launch");
+        if ((!offered.isEmpty() || !unavailable.isEmpty()) && window == null) {
+            for (var plan:offered) log.accept("A download requires the startup GUI: "+plan.release.modid()+" "+api.links(plan.release));
+            if (!requested.isEmpty()) {
+                UpdaterConfig.restoreRequests(game,requested);
+                throw new UpdateTransaction.StartupBlocked("Required first installs need a client download window or manual installation in "
+                        +modsDirectory+": "+String.join(", ",requested));
+            }
+            offered.clear(); unavailable.clear();
+        }
+        if (offered.isEmpty() && unavailable.isEmpty()) {
+            if (updates.isEmpty()) return new Result(0,"No downloads for this launch");
+            return apply(game,context,transaction,store,owners,externalVersions,approvedIds,updates);
+        }
+        Path work = Files.createTempDirectory(game.resolve(".thaumcraftupdater"),"download-");
+        try {
+            var tasks=new LinkedHashMap<Planned,ModDownload>();
+            for (var plan:offered) {
+                var release=plan.release;
+                var task=new ModDownload(api,release,catalog.get(release.modid()).name(),
+                        plan.installed==null?null:plan.installed.newest.mods().get(release.modid()),work,installedFiles,log);
+                tasks.put(plan,task);
+            }
+            var rows=new ArrayList<DownloadQueue.Task>(tasks.values());
+            for(String id:unavailable) rows.add(new DownloadQueue.Task() {
+                public DownloadQueue.Item item() { return new DownloadQueue.Item(id,id,"暂无稳定版 / No stable release",modsDirectory.toString(),DownloadQueue.Kind.INSTALL,api.manualPages(id)); }
+                public DownloadQueue.Prepared local() throws IOException {
+                    try(var paths=Files.list(modsDirectory)) {
+                        for(Path p:paths.filter(f->f.getFileName().toString().endsWith(".jar")).toList()) {
+                            var version=ModMetadata.scan(p,Set.of()).mods().get(id);
+                            if(version!=null && Version.parse(version).stable()) return ()->"";
+                        }
+                    }
+                    return null;
+                }
+                public DownloadQueue.Prepared download(java.net.URI uri,DownloadQueue.Progress progress) throws IOException {
+                    throw new IOException("No published stable version for "+id);
+                }
+            });
+            var queue=new DownloadQueue(rows);
+            try (queue) {
+                Result[] result={null};
+                window.show(queue,()->{
+                    if (!queue.ready()) throw new IOException("Downloads are incomplete");
+                    var accepted=new ArrayList<>(updates);
+                    for (var pair:tasks.entrySet()) {
+                        var plan=pair.getKey(); var task=pair.getValue(); var release=plan.release;
+                        if (queue.skipped(release.modid())) continue;
+                        var originals=new ArrayList<>(plan.originals);
+                        if (task.manual()!=null) {
+                            String filename=task.manual().getFileName().toString();
+                            // Manual replacement can remove the old JAR or overwrite it in place.
+                            originals.removeIf(old->old.filename().equals(filename) || !Files.exists(modsDirectory.resolve(old.filename())));
+                            originals.add(new UpdateTransaction.Original(filename,task.hash()));
+                            release=new ReleaseApi.Release(release.modid(),release.version(),release.filename(),task.hash(),Files.size(task.staged()),release.url());
+                        }
+                        accepted.add(new Planned(plan.installed,release,List.copyOf(originals),task.staged()));
+                    }
+                    var deferred=new LinkedHashSet<String>();
+                    unavailable.stream().filter(queue::skipped).forEach(deferred::add);
+                    for (var plan:tasks.keySet()) if (plan.installed==null && queue.skipped(plan.release.modid())) deferred.add(plan.release.modid());
+                    UpdaterConfig.restoreRequests(game,deferred);
+                    result[0]=accepted.isEmpty()?new Result(0,"Downloads skipped for this launch"):
+                            apply(game,context,transaction,store,owners,externalVersions,approvedIds,accepted);
+                });
+                if (result[0]==null) throw new UpdateTransaction.StartupBlocked("Startup download window closed before continuing");
+                return result[0];
+            } finally { queue.awaitWorkers(); }
+        } catch (UpdateTransaction.StartupBlocked e) {
+            UpdaterConfig.restoreRequests(game,requested); throw e;
+        } catch (IOException e) {
+            UpdaterConfig.restoreRequests(game,requested);
+            throw new UpdateTransaction.StartupBlocked("Cannot complete startup downloads",e);
+        } finally {
+            try (var paths=Files.list(work)) {
+                for (var file:paths.toList()) if(Files.isRegularFile(file,LinkOption.NOFOLLOW_LINKS)) Files.deleteIfExists(file);
+            }
+            Files.deleteIfExists(work);
+        }
+    }
+
+    private Result apply(Path game, Context context, UpdateTransaction transaction, ReviewStore store,
+                         Map<String,Installed> owners, Map<String,String> externalVersions, Set<String> approvedIds,
+                         List<Planned> updates) throws IOException {
         updates.sort(Comparator.comparing(update -> update.release.modid().equals(SELF)));
         Path batch = transaction.newBatch();
         List<UpdateTransaction.Entry> entries = new ArrayList<>();
@@ -179,11 +314,8 @@ public final class UpdateEngine {
         try {
             for (int i = 0; i < updates.size(); i++) {
                 Planned update = updates.get(i); Path staged = UpdateTransaction.staged(batch, i);
-                if (update.prepared == null) { log.accept("Downloading " + update.release.modid() + " " + update.release.version()); api.download(update.release, staged); }
-                else {
-                    Files.copy(update.prepared, staged);
-                    if (!FilesSupport.sha256(staged).equals(update.release.sha256())) throw new IOException("Approved copy checksum mismatch");
-                }
+                Files.copy(update.prepared, staged);
+                if (!FilesSupport.sha256(staged).equals(update.release.sha256())) throw new IOException("Prepared file changed before commit");
                 ModMetadata candidate = ModMetadata.read(staged);
                 requireCandidate(candidate, update.release);
                 var entry = transactionEntry(update.originals, update.release);

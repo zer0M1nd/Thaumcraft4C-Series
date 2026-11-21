@@ -17,7 +17,11 @@ public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, U
         return candidate.parts().get(1).equals(installed.parts().get(1)) ? channel : UpdateMode.combine(channel, majorUpdates);
     }
     /** Requests are consumed while the instance lock is held, before recovery/scanning/network work. */
-    public static UpdaterConfig read(Path game) throws IOException {
+    public static UpdaterConfig read(Path game) throws IOException { return read(game,false); }
+    static UpdaterConfig forLaunch(Path game) throws IOException { return read(game,true); }
+    private static Path pendingFile(Path game) { return game.resolve(".thaumcraftupdater/install-pending.json"); }
+    static void finishRequests(Path game) throws IOException { Files.deleteIfExists(pendingFile(game)); }
+    private static UpdaterConfig read(Path game,boolean launch) throws IOException {
         Path file = game.resolve("config/thaumcraftupdater.toml");
         if (!Files.exists(file)) {
             Files.createDirectories(file.getParent());
@@ -27,6 +31,20 @@ public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, U
         try {
             var parsed = new TomlParser().parse(Files.readString(file, StandardCharsets.UTF_8));
             Object requested = parsed.getOrElse("installOnce", List.of());
+            var journaled=new LinkedHashSet<String>();
+            if (launch) {
+                Path pending=pendingFile(game);
+                if (Files.exists(pending,LinkOption.NOFOLLOW_LINKS)) {
+                    FilesSupport.regularFile(pending);
+                    try(var in=Files.newInputStream(pending)) {
+                        for(var id:com.google.gson.JsonParser.parseString(new String(FilesSupport.readBounded(in,65536),StandardCharsets.UTF_8)).getAsJsonArray())
+                            if(UpdateEngine.validModid(id.getAsString())) journaled.add(id.getAsString());
+                    }
+                }
+                if(requested instanceof List<?> list) for(var entry:list)
+                    if(entry instanceof String id && UpdateEngine.validModid(id)) journaled.add(id);
+                if(!journaled.isEmpty()) FilesSupport.writeAtomic(pending,new com.google.gson.Gson().toJson(journaled).getBytes(StandardCharsets.UTF_8));
+            }
             if (parsed.contains("installOnce") && (!(requested instanceof List<?> values) || !values.isEmpty())) {
                 parsed.set("installOnce", List.of());
                 FilesSupport.writeAtomic(file, new TomlWriter().writeToString(parsed).getBytes(StandardCharsets.UTF_8));
@@ -52,8 +70,17 @@ public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, U
                 parsed.setComment("installOnce", "一次性安装缺失的系列 modid，只选最新稳定版；运行即清空。");
                 FilesSupport.writeAtomic(file, new TomlWriter().writeToString(parsed).getBytes(StandardCharsets.UTF_8));
             }
-            return new UpdaterConfig(major, stable, testing, ((List<?>) requested).stream().map(String.class::cast).distinct().toList());
+            return new UpdaterConfig(major, stable, testing, launch?List.copyOf(journaled):((List<?>) requested).stream().map(String.class::cast).distinct().toList());
         } catch (RuntimeException error) { throw new IOException("Invalid updater configuration: " + file, error); }
+    }
+    static void restoreRequests(Path game, Collection<String> pending) throws IOException {
+        if (pending.isEmpty()) return;
+        Path file=game.resolve("config/thaumcraftupdater.toml");
+        var config=new TomlParser().parse(Files.readString(file,StandardCharsets.UTF_8));
+        List<String> existing=config.getOrElse("installOnce",List.of());
+        var ids=new LinkedHashSet<>(existing); ids.addAll(pending);
+        config.set("installOnce",List.copyOf(ids));
+        FilesSupport.writeAtomic(file,new TomlWriter().writeToString(config).getBytes(StandardCharsets.UTF_8));
     }
     private static boolean legacyBoolean(Object value) throws IOException {
         if (value == null) return false;

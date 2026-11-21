@@ -13,10 +13,6 @@ public final class UpdaterService implements ITransformationService {
     private static final System.Logger LOG = System.getLogger("ThaumcraftUpdater");
     static Path gameDirectory;
     private static UpdateEngine.Session session;
-    public static java.util.function.Function<String,String> clientBridge() {
-        return request -> session != null && session.review() != null ? session.review().handle(request)
-                : "{\"offers\":[],\"choices\":{},\"error\":\"\"}";
-    }
     @Override public String name() { return "thaumcraftupdater"; }
     @Override public void onLoad(IEnvironment environment, Set<String> otherServices) {}
     @Override public void initialize(IEnvironment environment) {
@@ -33,7 +29,8 @@ public final class UpdaterService implements ITransformationService {
         var context = new UpdateEngine.Context("1.20.1", loaderVersion.substring("1.20.1-".length()),
                 target.equals("forgeclient") ? "CLIENT" : "SERVER");
         log("EARLY_UPDATE_BEGIN");
-        session = new UpdateEngine(new ReleaseApi(ReleaseApi.PUBLIC_SERVER), UpdaterService::log).start(gameDirectory, context);
+        session = new UpdateEngine(new ReleaseApi(), UpdaterService::log,
+                target.equals("forgeclient")?new StartupWindow(gameDirectory,environment,context.forge()):null).start(gameDirectory, context);
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
             try { session.close(); }
             catch (java.io.IOException error) { log("Could not release updater lock: " + error.getMessage()); }

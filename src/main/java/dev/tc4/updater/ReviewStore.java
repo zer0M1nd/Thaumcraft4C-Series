@@ -76,36 +76,11 @@ public final class ReviewStore {
     }
     public List<Approval> approvals() { return List.copyOf(approvals.values()); }
     public boolean ignored(String id, String version) { return ignored.getOrDefault(id, Set.of()).contains(version); }
-    public void ignore(String id, String version) throws IOException {
-        Version.parse(version);
-        if (!UpdateEngine.validModid(id) || UpdateEngine.EXCLUDED.contains(id)) throw new IOException("Unsupported ignore modid");
-        Map<String, Set<String>> updated = new LinkedHashMap<>(ignored);
-        Set<String> versions = new LinkedHashSet<>(updated.getOrDefault(id, Set.of())); versions.add(version); updated.put(id, versions);
-        FilesSupport.writeAtomic(root.resolve("ignored-versions.json"), JSON.toJson(updated).getBytes(StandardCharsets.UTF_8));
-        ignored.clear(); ignored.putAll(updated);
-    }
     public Path staged(Approval approval) throws IOException {
         validate(approval);
         Path directory = root.resolve("approved");
         if (Files.isSymbolicLink(directory)) throw new IOException("Unsafe approved directory");
         return directory.resolve(approval.release.sha256() + ".jar");
-    }
-    public void approve(Approval approval, ReleaseApi api) throws IOException {
-        validate(approval);
-        Path path = staged(approval); Files.createDirectories(path.getParent());
-        if (Files.exists(path, LinkOption.NOFOLLOW_LINKS)) {
-            FilesSupport.regularFile(path);
-            if (!FilesSupport.sha256(path).equals(approval.release.sha256())) throw new IOException("Approved download was modified");
-        } else {
-            try { api.download(approval.release, path); }
-            catch (IOException | RuntimeException error) { Files.deleteIfExists(path); throw error; }
-        }
-        ModMetadata candidate = ModMetadata.read(path);
-        try { UpdateEngine.requireCandidate(candidate, approval.release); }
-        catch (IOException error) { Files.delete(path); throw new IOException("Approved JAR identity mismatch", error); }
-        Map<String, Approval> updated = new LinkedHashMap<>(approvals); updated.put(approval.modid, approval);
-        FilesSupport.writeAtomic(root.resolve("approved.json"), JSON.toJson(updated.values()).getBytes(StandardCharsets.UTF_8));
-        approvals.clear(); approvals.putAll(updated);
     }
     public void remove(Collection<String> ids) throws IOException {
         List<Approval> removed = approvals.values().stream().filter(a -> ids.contains(a.modid)).toList();
