@@ -5,20 +5,17 @@ base.archivesName='[TC4Continuation]Warp-Theory'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
 java.withSourcesJar()
 tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps=false; reproducibleFileOrder=true }
-repositories { maven { url=uri('.tooling/maven') }; maven { url='https://maven.theillusivec4.top/' }; mavenCentral() }
 repositories {
-    flatDir { dirs project.hasProperty('tc4ValidationVersion') ? '../../TC4/build/libs' : '../../../Data/Dependencies/TC4/0.4.107.1' }
-    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    flatDir { dirs 'dependencies/jars' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    mavenCentral()
 }
-def validationVersion = findProperty('tc4ValidationVersion')
-def validationArtifact = file("../../TC4/build/libs/[TC4Continuation]Thaumcraft-${validationVersion}.jar").isFile()
-        ? '[TC4Continuation]Thaumcraft' : 'Thaumcraft-4-Modern-Port'
+
 dependencies {
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
  minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
- implementation fg.deobf(validationVersion
-        ? "local.validation:${validationArtifact}:${validationVersion}"
-        : 'local.revival:Thaumcraft-4-Modern-Port:0.4.107.1')
+ implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
  implementation fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
  testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
 }
