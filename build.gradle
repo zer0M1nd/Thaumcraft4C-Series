@@ -1,7 +1,7 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
 version = mod_version
 group = 'automagy.modern'
-base.archivesName = 'Automagy-Modern-Port'
+base.archivesName = '[TC4Continuation]Automagy'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
 repositories { flatDir { dirs 'libs' };
