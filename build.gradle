@@ -4,16 +4,17 @@ group = 'arcane_engineering'
 base.archivesName = '[TC4Continuation]Arcane-Engineering'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
+sourceSets { verification { compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath; runtimeClasspath += sourceSets.main.runtimeClasspath } }
 repositories {
-    flatDir { dirs '../../../Data/Dependencies/TC4/0.4.114', '../../../References/Projects/ThaumicOmniverse/evidence/collab-jars' }
+    flatDir { dirs 'dependencies/jars' }
     maven { url = 'https://maven.theillusivec4.top/' }
-    maven { url = 'https://api.modrinth.com/maven' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
     mavenCentral()
 }
-sourceSets { verification { compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath; runtimeClasspath += sourceSets.main.runtimeClasspath } }
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
-    implementation fg.deobf('local.revival:Thaumcraft-4-Modern-Port:0.4.114')
+    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
     implementation fg.deobf('local.collab:immersiveengineering:local')
     compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
     runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
@@ -30,8 +31,8 @@ minecraft {
             mods { arcane_engineering { source sourceSets.main } }
             if (project.hasProperty('verification')) mods { arcane_engineering_validation { source sourceSets.verification } }
         }
-        server { workingDirectory file('../../../Data/Verification/20261114-01a1d90d-arcane-engineering/server'); args '--nogui'; jvmArgs '-Xmx2G' }
-        client { workingDirectory file('../../../Data/Verification/20261114-01a1d90d-arcane-engineering/client'); jvmArgs '-Xmx3G' }
+        server { workingDirectory file('run-server'); args '--nogui'; jvmArgs '-Xmx2G' }
+        client { workingDirectory file('run-client'); jvmArgs '-Xmx3G' }
     }
 }
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 17 }
