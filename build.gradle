@@ -1,7 +1,7 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
 version = '0.1.3.1'
 group = 'thaumicexploration'
-base.archivesName = 'Thaumic-Exploration-Modern-Port'
+base.archivesName = '[TC4Continuation]Thaumic-Exploration'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
 sourceSets { verification { compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath; runtimeClasspath += sourceSets.main.runtimeClasspath } }
