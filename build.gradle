@@ -11,34 +11,25 @@ sourceSets {
     }
 }
 repositories {
-    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
-    flatDir { dirs '../ForbiddenMagic/build/libs', '../ThaumicTinkerer/build/libs', '../Gadomancy/build/libs' }
-    flatDir { dirs '../ForbiddenMagic/libs' }
-    flatDir { dirs '../../../References/Projects/ThaumicConcilium/witchery-modern-doomcat' }
-    flatDir { dirs '../../../References/Projects/ThaumicConcilium/ars-magica-legacy' }
+    flatDir { dirs 'dependencies/jars' }
     maven { url = 'https://maven.theillusivec4.top/' }
     maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
     mavenCentral()
 }
-// The other add-ons may have been built before or after the distribution rename.
-def addonDependency = { String module, String archiveName, String version ->
-    def current = "[TC4Continuation]${archiveName}"
-    def artifact = file("../${module}/build/libs/${current}-${version}.jar").isFile() ? current : archiveName + '-Modern-Port'
-    "local.validation:${artifact}:${version}"
-}
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
-    implementation fg.deobf("local.validation:Thaumcraft-4-Modern-Port:${findProperty('tc4ValidationVersion') ?: '0.4.114'}")
+    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
     compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
     compileOnly fg.deobf('local:botania:455')
     compileOnly fg.deobf('local:bloodmagic:3.3.8-50')
     compileOnly fg.deobf('local:witchery-1.20.1-port:0.1.3.32-9376998')
     compileOnly fg.deobf('local:arsmagicalegacy:1.20.1-1.5.0')
-    compileOnly fg.deobf(addonDependency('Gadomancy', 'Gadomancy', findProperty('gadomancyValidationVersion') ?: '0.1.11.2'))
+    compileOnly fg.deobf("local.validation:Gadomancy:${findProperty('gadomancyValidationVersion') ?: '0.1.15'}")
     runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
-    implementation fg.deobf(addonDependency('ForbiddenMagic', 'Forbidden-Magic', findProperty('forbiddenMagicValidationVersion') ?: '0.1.16.1'))
-    implementation fg.deobf(addonDependency('ThaumicTinkerer', 'Thaumic-Tinkerer', findProperty('tinkererValidationVersion') ?: '0.1.38.2'))
+    implementation fg.deobf("local.validation:Forbidden-Magic:${findProperty('forbiddenMagicValidationVersion') ?: '0.1.21'}")
+    implementation fg.deobf("local.validation:Thaumic-Tinkerer:${findProperty('tinkererValidationVersion') ?: '0.1.46'}")
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
 }
 minecraft {
@@ -53,7 +44,7 @@ minecraft {
         server { workingDirectory file('run-server'); args '--nogui' }
         client { workingDirectory file('run-client') }
         gameTestServer {
-            workingDirectory file(findProperty('conciliumGameTestDirectory') ?: '../../../Data/Verification/20261031-01a19066-concilium/gametest-isolated')
+            workingDirectory file(findProperty('conciliumGameTestDirectory') ?: 'run-gametest-isolated')
             property 'forge.enabledGameTestNamespaces', 'thaumicconcilium'
             property 'forge.logging.console.level', 'info'
             mods { thaumicconcilium { source sourceSets.serverTest } }
