@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "advancedthaumaturgy:MERCURIALROD",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_rod_silverwood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_rod_silverwood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_rod_silverwood"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:quicksilver"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:wand_rod_silverwood"
+      }
+    }
+  ],
+  "aspects": {
+    "metallum": 256,
+    "ignis": 256,
+    "praecantatio": 256,
+    "arbor": 256,
+    "vitreus": 256
+  },
+  "result": {
+    "item": "advancedthaumaturgy:mercurial_rod"
+  }
+}

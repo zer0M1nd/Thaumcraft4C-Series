@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "advancedthaumaturgy:MINILITHFROST",
+  "pattern": [
+    " O ",
+    " B "
+  ],
+  "key": {
+    "O": {
+      "item": "advancedthaumaturgy:crystal_frost"
+    },
+    "B": {
+      "item": "advancedthaumaturgy:microlith_base"
+    }
+  },
+  "vis": {
+    "perditio": 50
+  },
+  "result": {
+    "item": "advancedthaumaturgy:frost_microlith"
+  }
+}

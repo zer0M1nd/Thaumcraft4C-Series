@@ -1,0 +1,48 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "advancedthaumaturgy:ETHEREALJAR",
+  "pattern": [
+    "SSS",
+    "JQJ",
+    "JCJ"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:silverwood_log"
+    },
+    "J": {
+      "item": "thaumcraft:essentia_jar"
+    },
+    "Q": {
+      "item": "thaumcraft:quicksilver"
+    },
+    "C": [
+      {
+        "item": "thaumcraft:air_crystal_cluster"
+      },
+      {
+        "item": "thaumcraft:fire_crystal_cluster"
+      },
+      {
+        "item": "thaumcraft:water_crystal_cluster"
+      },
+      {
+        "item": "thaumcraft:earth_crystal_cluster"
+      },
+      {
+        "item": "thaumcraft:order_crystal_cluster"
+      },
+      {
+        "item": "thaumcraft:entropy_crystal_cluster"
+      }
+    ]
+  },
+  "vis": {
+    "aer": 25,
+    "perditio": 25
+  },
+  "result": {
+    "item": "advancedthaumaturgy:ethereal_jar"
+  }
+}

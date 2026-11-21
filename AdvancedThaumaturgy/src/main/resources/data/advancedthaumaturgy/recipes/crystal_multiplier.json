@@ -1,0 +1,62 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "advancedthaumaturgy:UPGRADEDRAIN",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "item": "advancedthaumaturgy:crystal_inert"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:magma_cream"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:poisonous_potato"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    }
+  ],
+  "aspects": {
+    "tutamen": 10,
+    "mortuus": 10,
+    "herba": 10,
+    "gelum": 10,
+    "limus": 20
+  },
+  "result": {
+    "item": "advancedthaumaturgy:crystal_multiplier"
+  }
+}

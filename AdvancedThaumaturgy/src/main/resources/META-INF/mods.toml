@@ -1,0 +1,51 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LicenseRef-TC4Revival-Noncommercial-1.0 (PolyForm Noncommercial License 1.0.0 with no resale of original JARs or sale in paid modpacks)"
+issueTrackerURL="https://github.com/zer0M1nd/Thaumcraft4C-Series/issues"
+[[mods]]
+displayURL="http://tc4c.zer0m1nd.me/mods/advancedthaumaturgy/index.html"
+updateJSONURL="http://tc4c.zer0m1nd.me/forge-updates/advancedthaumaturgy.json"
+modId="advancedthaumaturgy"
+version="${version}"
+displayName="Advanced Thaumaturgy"
+authors="zer0M1nd"
+credits="Original Advanced Thaumaturgy by Lycaon (IGN: LycaonX). Original Advanced Thaumaturgy 2 by MonzterAssassin, Nekosune and ToFam."
+description='''
+This mod is part of the Thaumcraft 4: Continuation series.
+Fit a mercurial wand with crystal upgrades, reshape aura nodes and turn essentia into power.
+
+-------- Original release --------
+Extending the endgame of Thaumcraft!
+
+Original credits: Azanor, for Thaumcrft. Vazkii for inspiration. XanderGryphon, LordIllyohs for support. The AT2 team also credited Caligator for textures and concept art, Mojang for Minecraft, and Vazkii and Flaxbeard for community support. The AT2 project page also lists gaeakat as an author.'''
+
+[[dependencies.advancedthaumaturgy]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.advancedthaumaturgy]]
+modId="computercraft"
+mandatory=false
+versionRange="[1.116.1,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.advancedthaumaturgy]]
+modId="opencomputers"
+mandatory=false
+versionRange="[1.9.0,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.advancedthaumaturgy]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.advancedthaumaturgy]]
+modId="thaumcraft"
+mandatory=true
+versionRange="[0.4.116.2,)"
+ordering="AFTER"
+side="BOTH"

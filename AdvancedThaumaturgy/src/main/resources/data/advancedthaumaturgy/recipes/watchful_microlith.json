@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "advancedthaumaturgy:MINILITHWATCHFUL",
+  "pattern": [
+    " O ",
+    " B "
+  ],
+  "key": {
+    "O": {
+      "item": "advancedthaumaturgy:crystal_watchful"
+    },
+    "B": {
+      "item": "advancedthaumaturgy:microlith_base"
+    }
+  },
+  "vis": {
+    "perditio": 50
+  },
+  "result": {
+    "item": "advancedthaumaturgy:watchful_microlith"
+  }
+}

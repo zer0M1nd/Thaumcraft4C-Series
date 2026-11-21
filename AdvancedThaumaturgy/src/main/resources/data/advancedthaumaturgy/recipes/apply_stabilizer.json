@@ -1,0 +1,24 @@
+{
+  "type": "advancedthaumaturgy:wand_upgrade",
+  "research": "advancedthaumaturgy:UPGRADESTABILIZER",
+  "instability": 4,
+  "center": {
+    "ingredient": {
+      "item": "advancedthaumaturgy:mercurial_wand"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "advancedthaumaturgy:crystal_stabilizer"
+      }
+    }
+  ],
+  "aspects": {
+    "praecantatio": 8
+  },
+  "result": {
+    "item": "advancedthaumaturgy:mercurial_wand"
+  },
+  "upgrade": "stabilizer"
+}

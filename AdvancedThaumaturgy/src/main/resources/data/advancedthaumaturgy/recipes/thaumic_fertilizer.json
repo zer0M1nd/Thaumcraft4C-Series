@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane",
+  "mode": "shaped",
+  "research": "advancedthaumaturgy:FERTILIZER",
+  "pattern": [
+    "BSB",
+    "SJS",
+    "BSB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "S": {
+      "item": "thaumcraft:water_shard"
+    },
+    "J": {
+      "item": "thaumcraft:essentia_jar"
+    }
+  },
+  "vis": {
+    "aqua": 16,
+    "aer": 16
+  },
+  "result": {
+    "item": "advancedthaumaturgy:thaumic_fertilizer"
+  }
+}

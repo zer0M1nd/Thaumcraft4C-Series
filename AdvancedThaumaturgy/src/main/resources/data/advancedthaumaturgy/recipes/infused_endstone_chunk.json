@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ESE",
+    "SCS",
+    "ESE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "S": {
+      "item": "minecraft:end_stone"
+    },
+    "C": [
+      {
+        "item": "thaumcraft:air_shard"
+      },
+      {
+        "item": "thaumcraft:fire_shard"
+      },
+      {
+        "item": "thaumcraft:water_shard"
+      },
+      {
+        "item": "thaumcraft:earth_shard"
+      },
+      {
+        "item": "thaumcraft:order_shard"
+      },
+      {
+        "item": "thaumcraft:entropy_shard"
+      }
+    ]
+  },
+  "result": {
+    "item": "advancedthaumaturgy:infused_endstone_chunk"
+  }
+}

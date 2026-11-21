@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "advancedthaumaturgy:MINILITHHEAL",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "item": "advancedthaumaturgy:crystal_inert"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:golden_apple"
+      }
+    }
+  ],
+  "aspects": {
+    "sano": 32,
+    "victus": 64
+  },
+  "result": {
+    "item": "advancedthaumaturgy:crystal_healing"
+  }
+}

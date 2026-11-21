@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "TUTORIAL",
+      "icon": "thaumcraft:textures/gui/research_tutorial.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "TUT_ADDON_ADVANCEDTHAUMATURGY",
+          "category": "TUTORIAL",
+          "displayColumn": 63,
+          "displayRow": -6,
+          "parents": [
+            "TUT_SCEPTRE",
+            "INFUSION"
+          ],
+          "icon_item": {
+            "item": "advancedthaumaturgy:mercurial_wand",
+            "count": 1
+          },
+          "complexity": 1,
+          "aspects": [],
+          "isRound": true,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "advancedthaumaturgy"
+            }
+          ],
+          "isTutorial": true,
+          "suggestedResearch": [
+            "advancedthaumaturgy:MERCURIALROD",
+            "advancedthaumaturgy:MERCURIALWAND",
+            "advancedthaumaturgy:WANDBENCH",
+            "advancedthaumaturgy:NODEMODIFIER",
+            "advancedthaumaturgy:ESSENTIAENGINE",
+            "advancedthaumaturgy:MINILITHBASE"
+          ],
+          "pageCount": 8,
+          "parentMirrors": {
+            "INFUSION": "TUT_ADDON_ADVANCEDTHAUMATURGY_PREREQUISITE_1"
+          }
+        },
+        {
+          "key": "TUT_ADDON_ADVANCEDTHAUMATURGY_PREREQUISITE_1",
+          "category": "TUTORIAL",
+          "displayColumn": 62,
+          "displayRow": -7,
+          "mirrorOf": "INFUSION",
+          "tutorialMirror": true,
+          "complexity": 1,
+          "pageCount": 0,
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "advancedthaumaturgy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

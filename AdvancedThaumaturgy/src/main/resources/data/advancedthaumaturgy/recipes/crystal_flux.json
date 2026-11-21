@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "advancedthaumaturgy:MINILITHFLUX",
+  "instability": 5,
+  "center": {
+    "ingredient": {
+      "item": "advancedthaumaturgy:crystal_inert"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "thaumcraft:order_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:tainted_tendril"
+      }
+    }
+  ],
+  "aspects": {
+    "vacuos": 64,
+    "vitium": 16
+  },
+  "result": {
+    "item": "advancedthaumaturgy:crystal_flux"
+  }
+}

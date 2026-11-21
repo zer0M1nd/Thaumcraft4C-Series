@@ -1,0 +1,61 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "advancedthaumaturgy:ESSENTIAENGINE",
+  "instability": 3,
+  "center": {
+    "ingredient": {
+      "item": "thaumcraft:alchemy_furnace"
+    }
+  },
+  "components": [
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_crystal_cluster"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "thaumcraft:fire_crystal_cluster"
+      }
+    }
+  ],
+  "aspects": {
+    "terra": 64,
+    "ignis": 64,
+    "praecantatio": 64,
+    "arbor": 64
+  },
+  "result": {
+    "item": "advancedthaumaturgy:essentia_engine"
+  }
+}

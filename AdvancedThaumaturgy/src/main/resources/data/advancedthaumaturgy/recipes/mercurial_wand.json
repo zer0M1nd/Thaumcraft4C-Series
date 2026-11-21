@@ -1,0 +1,30 @@
+{
+  "type": "advancedthaumaturgy:mercurial_assembly",
+  "mode": "shaped",
+  "research": "advancedthaumaturgy:MERCURIALWAND",
+  "pattern": [
+    "  C",
+    " R ",
+    "C  "
+  ],
+  "key": {
+    "C": {
+      "item": "thaumcraft:wand_cap_thaumium"
+    },
+    "R": {
+      "item": "advancedthaumaturgy:mercurial_rod"
+    }
+  },
+  "vis": {
+    "aer": 16,
+    "terra": 16,
+    "ignis": 16,
+    "aqua": 16,
+    "ordo": 16,
+    "perditio": 16
+  },
+  "result": {
+    "item": "advancedthaumaturgy:mercurial_wand",
+    "nbt": "{rod:\"advancedthaumaturgy:mercurial\",cap:\"thaumium\"}"
+  }
+}
