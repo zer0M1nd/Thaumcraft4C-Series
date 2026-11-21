@@ -4,17 +4,17 @@ version = '0.1.21.1'
 base.archivesName='[TC4Continuation]Forbidden-Magic'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
 java.withSourcesJar()
-repositories { flatDir { dirs 'libs' }; maven { url='https://maven.theillusivec4.top/' }; mavenCentral() }
 repositories {
-    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
-    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    flatDir { dirs 'dependencies/jars' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    mavenCentral()
 }
+
 dependencies {
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
  minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
- implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
-        ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
-        : 'local.revival:Thaumcraft-4-Modern-Port:0.4.114')
+ implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
  compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
  runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
  compileOnly fg.deobf('local:botania:455')
@@ -25,7 +25,7 @@ dependencies {
   runtimeOnly fg.deobf('local:bloodmagic:3.3.8-50')
   runtimeOnly fg.deobf('local:patchouli:85')
  }
- testImplementation files('libs/junit-platform-console-standalone-1.10.2.jar')
+ testImplementation files('dependencies/jars/junit-platform-console-standalone-1.10.2.jar')
 }
 minecraft {
  mappings channel:'official',version:'1.20.1'

@@ -28,7 +28,7 @@ side="BOTH"
 [[dependencies.forbidden_magic]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.20.1,1.20.2)"
+versionRange="[1.20.1]"
 ordering="NONE"
 side="BOTH"
 [[dependencies.forbidden_magic]]
@@ -58,3 +58,9 @@ versionRange="[1.20.1-450-FORGE,)"
 ordering="AFTER"
 side="BOTH"
 
+[[dependencies.forbidden_magic]]
+modId="twilightforest"
+mandatory=false
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
