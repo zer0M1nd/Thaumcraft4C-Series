@@ -6,6 +6,7 @@ build-*/
 /.deps/
 /local-maven/
 *.jar
+/dependencies/jars/
 !/gradle/wrapper/gradle-wrapper.jar
 /run
 /run-*
