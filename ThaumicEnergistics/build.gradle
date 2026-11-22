@@ -1,22 +1,20 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.2.30.1'
+version = '0.2.31'
 group='temodern'
-base.archivesName='Thaumic-Energistics-Modern-Port'
+base.archivesName='[TC4Continuation]Thaumic-Energistics'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
 java.withSourcesJar()
-// Human-readable notices live with workspace documentation; preserve their original JAR paths.
-sourceSets.main.resources.srcDir('../../../Docs/Licenses/ThaumicEnergistics')
-repositories { flatDir { dirs 'libs' }; maven { url=uri('local-maven'); content { includeGroup 'local.te' } }; mavenCentral() }
 repositories {
-    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.119.3'}" }
-    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    flatDir { dirs 'dependencies/jars' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    mavenCentral()
 }
+
 dependencies {
- compileOnly files('../../TC4/libs/jei-1.20.1-common-api-15.20.0.106.jar','../../TC4/libs/jei-1.20.1-forge-api-15.20.0.106.jar')
+ compileOnly files('dependencies/jars/jei-1.20.1-common-api-15.20.0.106.jar','dependencies/jars/jei-1.20.1-forge-api-15.20.0.106.jar')
  minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
- implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
-  ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
-  : 'local.revival:Thaumcraft-4-Modern-Port:0.4.119.3')
+ implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.121'}")
  runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
  implementation fg.deobf('local.te:ae2:15.4.10')
  runtimeOnly fg.deobf('local.te:jei:15.59.0.211')
