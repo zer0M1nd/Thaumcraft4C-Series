@@ -1,7 +1,7 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.1.3.1'
+version = '0.1.4'
 group = 'forgottenrelics'
-base.archivesName = 'Forgotten-Relics-Modern-Port'
+base.archivesName = '[TC4Continuation]Forgotten-Relics'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
 sourceSets {
@@ -11,14 +11,15 @@ sourceSets {
     }
 }
 repositories {
-    flatDir { dirs '../../../Data/Dependencies/TC4/0.4.114', '../ForbiddenMagic/libs' }
+    flatDir { dirs 'dependencies/jars' }
     maven { url = 'https://maven.theillusivec4.top/' }
     maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
     mavenCentral()
 }
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
-    implementation fg.deobf('local.validation:Thaumcraft-4-Modern-Port:0.4.114')
+    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.121'}")
     implementation fg.deobf('local:botania:455')
     runtimeOnly fg.deobf('local:patchouli:85')
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
@@ -35,13 +36,13 @@ minecraft {
             mods { forgottenrelics { source sourceSets.main } }
         }
         gameTestServer {
-            workingDirectory file('../../../Data/Verification/20261114-01a1d90b-forgotten-relics/gametest')
+            workingDirectory file('run-gametest')
             property 'forge.enabledGameTestNamespaces', 'forgottenrelics'
             mods { forgottenrelics { source sourceSets.serverTest } }
             jvmArgs '-Xmx1408m', '-XX:ActiveProcessorCount=2'
         }
         server {
-            workingDirectory file('../../../Data/Verification/20261114-01a1d90b-forgotten-relics/server')
+            workingDirectory file('run-server')
             args '--nogui'
             property 'forge.enabledGameTestNamespaces', 'forgottenrelics'
             mods { forgottenrelics { source sourceSets.serverTest } }
