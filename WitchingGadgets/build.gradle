@@ -1,24 +1,24 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
 version=mod_version
 group='wgmodern'
-base.archivesName='Witching-Gadgets-Modern-Port'
+base.archivesName='[TC4Continuation]Witching-Gadgets'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
 java.withSourcesJar()
 tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps=false; reproducibleFileOrder=true }
-repositories { flatDir { dirs '../ForbiddenMagic/libs','.tooling/compat-libs' }; maven { url=uri('.tooling/maven') }; maven { url='https://maven.theillusivec4.top/' }; mavenCentral() }
 repositories {
-    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
-    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    flatDir { dirs 'dependencies/jars' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    mavenCentral()
 }
+
 dependencies {
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
  minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
- implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
-        ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
-        : 'local.revival:Thaumcraft-4-Modern-Port:0.4.114')
+ implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.121'}")
  implementation fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
  compileOnly fg.deobf('local:botania:455')
- compileOnly files('../../TC4/libs/jei-1.20.1-common-api-15.20.0.106.jar','../../TC4/libs/jei-1.20.1-forge-api-15.20.0.106.jar')
+ compileOnly files('dependencies/jars/jei-1.20.1-common-api-15.20.0.106.jar','dependencies/jars/jei-1.20.1-forge-api-15.20.0.106.jar')
  compileOnly fg.deobf('local:cbmultipart:3.3.0.159')
  compileOnly fg.deobf('local:codechickenlib:4.4.0.528')
  if (project.hasProperty('withWGIntegrations')) { runtimeOnly fg.deobf('local:cbmultipart:3.3.0.159'); runtimeOnly fg.deobf('local:codechickenlib:4.4.0.528'); runtimeOnly fg.deobf('local:botania:455'); runtimeOnly fg.deobf('local:patchouli:85'); runtimeOnly fg.deobf('local:tconstruct:3.12.1.231'); runtimeOnly fg.deobf('local:mantle:1.11.117'); runtimeOnly fg.deobf('local:rackitup:1.3.6') }

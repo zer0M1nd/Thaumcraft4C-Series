@@ -73,3 +73,16 @@ versionRange="[0,)"
 ordering="AFTER"
 side="BOTH"
 
+[[dependencies.witchinggadgets]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.witchinggadgets]]
+modId="jei"
+mandatory=false
+versionRange="[0,)"
+ordering="NONE"
+side="CLIENT"
