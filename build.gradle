@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.1.5.1'
+version = '0.1.6'
 group = 'thaumicdyes'
 base.archivesName = '[TC4Continuation]Thaumic-Dyes'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
-    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
+    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.121'}")
     compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
     runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
