@@ -11,6 +11,8 @@ import java.util.function.Predicate;
  * Unknown versions retain the public website fallback; no challenge scraping.
  */
 public class CurseForgeDownload {
+    static final URI HEARTWORK_FIX = URI.create(
+            "http://tc4c.zer0m1nd.me/download/files/original-resources/heartwork/HeartWork_FIX_MC1.7.10.jar");
     // The author's GitHub release has the exact SHA-256 declared by tc4auto.
     // Resolve this fixed share link without scraping a file-hosting web page.
     private static final java.util.Map<String,String> VERIFIED_ALIASES = java.util.Map.of(
@@ -44,6 +46,7 @@ public class CurseForgeDownload {
         } catch (RuntimeException failure) { throw new IOException("Invalid CurseForge download declaration: " + filePage, failure); }
     }
     static boolean allowed(URI uri) {
+        if (HEARTWORK_FIX.equals(uri)) return true;
         boolean github=VERIFIED_ALIASES.containsValue(uri.toString())
                 ||uri.getHost()!=null&&Set.of("release-assets.githubusercontent.com","objects.githubusercontent.com").contains(uri.getHost());
         String host=uri.getHost(), path=uri.getPath();
@@ -88,7 +91,7 @@ public class CurseForgeDownload {
             } else if (host.equals("raw.githubusercontent.com")) {
                 direct.add(url); var parts=raw.substring(1).split("/",4);
                 if(!raw.endsWith("/1.7.10_AM2-1.4.0.009.jar")) mirrors.add(URI.create("https://cdn.jsdelivr.net/gh/"+parts[0]+"/"+parts[1]+"@"+parts[2]+"/"+parts[3]));
-            } else if (VERIFIED_ALIASES.containsValue(url.toString())) direct.add(url);
+            } else if (HEARTWORK_FIX.equals(url) || VERIFIED_ALIASES.containsValue(url.toString())) direct.add(url);
             else {
                 proxy.add(URI.create(PROXY+"?url="+URLEncoder.encode(source,java.nio.charset.StandardCharsets.UTF_8)));
                 manual.add(url);
@@ -109,7 +112,8 @@ public class CurseForgeDownload {
     }
     public static void fetch(URI url, Path file, DownloadQueue.Progress progress) throws IOException {
         if(!allowed(url) && !proxy(url)) throw new IOException("请在浏览器中打开此地址 / Browser download required");
-        transfer(url,file,uri->allowed(uri)||proxy(uri),OriginalResources.MAX_JAR_BYTES,7000,60000,progress);
+        Predicate<URI> permitted = HEARTWORK_FIX.equals(url) ? HEARTWORK_FIX::equals : uri -> allowed(uri) || proxy(uri);
+        transfer(url,file,permitted,OriginalResources.MAX_JAR_BYTES,7000,60000,progress);
     }
     // Separate transport policy enables deterministic local HTTP tests without relaxing production hosts.
     static void transfer(URI url, Path file, Predicate<URI> allowed, long limit, int timeoutMillis, int totalMillis) throws IOException {

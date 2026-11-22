@@ -80,7 +80,7 @@ final class OriginalArchiveTask implements DownloadQueue.Task {
     @Override
     public DownloadQueue.Prepared download(URI uri, DownloadQueue.Progress progress)
             throws IOException {
-        return prepareDownload(file -> CurseForgeDownload.fetch(uri, file, progress));
+        return prepareDownload(uri, file -> CurseForgeDownload.fetch(uri, file, progress));
     }
 
     @FunctionalInterface
@@ -88,12 +88,14 @@ final class OriginalArchiveTask implements DownloadQueue.Task {
         void write(Path temporary) throws IOException;
     }
 
-    DownloadQueue.Prepared prepareDownload(Fetch fetch) throws IOException {
+    DownloadQueue.Prepared prepareDownload(URI uri, Fetch fetch) throws IOException {
         Files.createDirectories(directory);
         Path temporary = Files.createTempFile(directory, ".tc4-download-", ".part");
         try {
             fetch.write(temporary);
             var snapshot = target.read(temporary);
+            if (CurseForgeDownload.HEARTWORK_FIX.equals(uri) && !target.sha256().equals(snapshot.sha256()))
+                throw new IOException("Heartwork FIX download failed SHA-256 verification");
             return new DownloadQueue.Prepared() {
                 public String apply() throws IOException {
                     return prepare(snapshot);

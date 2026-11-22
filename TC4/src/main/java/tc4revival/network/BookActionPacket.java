@@ -27,6 +27,11 @@ public record BookActionPacket(UUID token, long sequence, Action action, String 
         return BookResultPacket.from(token, sequence, registry.request(player, token, sequence, key, action == Action.CREATIVE_COMPLETE, action == Action.LISTEN));
     }
     public void handle(ServerPlayer player) {
-        if (player != null) TCNetwork.send(player, dispatch(player, ResearchBookSessions.LIVE));
+        if (player == null) return;
+        var result = dispatch(player, ResearchBookSessions.LIVE);
+        if (result.status() == BookResultPacket.Status.NOTE_CREATED) {
+            player.playNotifySound(tc4revival.content.TCSounds.LEARN.get(), net.minecraft.sounds.SoundSource.PLAYERS, 0.75f, 1.0f);
+        }
+        TCNetwork.send(player, result);
     }
 }

@@ -6,7 +6,7 @@ plugins {
 
 version = mod_version
 group = mod_group_id
-base.archivesName = 'Thaumcraft-4-Modern-Port'
+base.archivesName = '[TC4Continuation]Thaumcraft'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
 
@@ -102,13 +102,13 @@ repositories {
 dependencies {
     // Official Forge 1.20.1 / TerraBlender 3.0.1.7 release; not embedded in our jar.
     implementation fg.deobf("maven.modrinth:terrablender:${terrablender_version_id}")
-    compileOnly files('libs/jei-1.20.1-common-api-15.20.0.106.jar','libs/jei-1.20.1-forge-api-15.20.0.106.jar')
+    compileOnly files('dependencies/jars/jei-1.20.1-common-api-15.20.0.106.jar','dependencies/jars/jei-1.20.1-forge-api-15.20.0.106.jar')
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api")
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
     testImplementation platform('org.junit:junit-bom:5.10.3')
     testImplementation 'org.junit.jupiter:junit-jupiter'
-    testImplementation files('libs/jei-1.20.1-common-api-15.20.0.106.jar')
+    testImplementation files('dependencies/jars/jei-1.20.1-common-api-15.20.0.106.jar')
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 

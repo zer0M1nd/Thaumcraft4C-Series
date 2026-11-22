@@ -43,7 +43,7 @@ side="CLIENT"
 [[dependencies.${mod_id}]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.20.1,1.20.2)"
+versionRange="[1.20.1]"
 ordering="NONE"
 side="BOTH"
 
@@ -52,4 +52,18 @@ modId="curios"
 mandatory=true
 versionRange="[5.14.1,6)"
 ordering="AFTER"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="agricraft"
+mandatory=false
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="patchouli"
+mandatory=false
+versionRange="[0,)"
+ordering="NONE"
 side="BOTH"

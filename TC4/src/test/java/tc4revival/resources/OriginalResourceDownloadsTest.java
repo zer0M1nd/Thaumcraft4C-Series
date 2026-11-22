@@ -89,6 +89,17 @@ class OriginalResourceDownloadsTest {
         var reused=ArchiveDownloadFixture.obtainMissing(game,List.of(target),t->{},(u,p)->fail("Do not download a usable variant again")).get(0);
         assertFalse(reused.warning().isEmpty());assertTrue(reused.failure().isEmpty());
     }
+    @Test void hostedFixRejectsIncorrectBytesBeforeExtraction() throws Exception {
+        var reference = target(jar("1.12.2"), "example", "1.7.10", A);
+        var task = new OriginalArchiveTask(game, reference);
+        var different = jar("1.7.10");
+        var failure = assertThrows(IOException.class, () -> task.prepareDownload(
+                CurseForgeDownload.HEARTWORK_FIX, file -> Files.write(file, different)));
+        assertTrue(failure.getMessage().contains("SHA-256"));
+        try (var remaining = Files.list(game.resolve("thaumcraft"))) {
+            assertEquals(0, remaining.count());
+        }
+    }
     @Test void hashMismatchFromManualOriginalWarnsWithoutDownloading() throws Exception {
         var data=jar("1.7.10");var target=target(jar("1.12.2"),"example","1.7.10",A);
         Files.createDirectories(game.resolve("thaumcraft"));
