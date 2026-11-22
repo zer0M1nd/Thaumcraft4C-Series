@@ -42,6 +42,12 @@ def source_builds(directory, modids):
                 if modid not in modids:
                     continue
                 version = mod["version"]
+                if version == "${file.jarVersion}":
+                    # Forge substitutes the main manifest version for Thaumic Bases.
+                    manifest = archive.read("META-INF/MANIFEST.MF").decode("utf-8").replace("\r\n", "\n")
+                    main_section = manifest.split("\n\n", 1)[0].replace("\n ", "")
+                    version = next((line.partition(": ")[2] for line in main_section.splitlines()
+                                    if line.lower().startswith("implementation-version: ")), "")
                 if not re.fullmatch(r"[0-9]+(?:\.[0-9]+){2,3}", version):
                     raise ValueError(f"Expected a built series version in {path}: {version}")
                 if modid in found:
