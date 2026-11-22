@@ -15,7 +15,7 @@ repositories {
 dependencies {
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
  minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
- implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
+ implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.121'}")
     implementation fg.deobf('local.revival:ic2:2.10.33-ex120')
  implementation fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
  testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
