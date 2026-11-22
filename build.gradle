@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.1.27.1'
+version = '0.1.28'
 group='tbmodern'
 base.archivesName='[TC4Continuation]Thaumic-Bases'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
@@ -20,12 +20,12 @@ repositories {
 dependencies {
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
  minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
- implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
- compileOnly files("dependencies/jars/automagy-${findProperty('automagyValidationVersion') ?: '0.1.22'}.jar")
+ implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.121'}")
+ compileOnly files("dependencies/jars/automagy-${findProperty('automagyValidationVersion') ?: '0.1.23'}.jar")
  if(project.hasProperty('addonAcceptance')) {
-  runtimeOnly fg.deobf("local:automagy:${findProperty('automagyValidationVersion') ?: '0.1.22'}")
-  runtimeOnly fg.deobf("local:forbidden-magic:${findProperty('forbiddenMagicValidationVersion') ?: '0.1.21'}")
-  runtimeOnly fg.deobf("local:thaumic-tinkerer:${findProperty('tinkererValidationVersion') ?: '0.1.46'}")
+  runtimeOnly fg.deobf("local:automagy:${findProperty('automagyValidationVersion') ?: '0.1.23'}")
+  runtimeOnly fg.deobf("local:forbidden-magic:${findProperty('forbiddenMagicValidationVersion') ?: '0.1.22'}")
+  runtimeOnly fg.deobf("local:thaumic-tinkerer:${findProperty('tinkererValidationVersion') ?: '0.1.47'}")
  }
  compileOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api')
  runtimeOnly fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
