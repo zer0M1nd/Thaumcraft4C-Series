@@ -1,11 +1,15 @@
 package thmodern.boat;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.tags.DamageTypeTags;
 import net.minecraft.tags.FluidTags;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.*;
 import net.minecraft.world.entity.*;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.vehicle.Boat;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.FluidState;
@@ -27,6 +31,13 @@ public final class HorizonsBoat extends Boat {
     public int hurtDirection(){return getHurtDir();}
     public Item dropItem(){return getDropItem();}
     @Override public Item getDropItem(){return (metal?Horizons.THAUMIUM_BOAT_ITEM:Horizons.GREATWOOD_BOAT_ITEM).get();}
+    @Override public boolean isInvulnerableTo(DamageSource source) {
+        return (metal && source.is(DamageTypeTags.IS_EXPLOSION)) || super.isInvulnerableTo(source);
+    }
+    @Override protected void destroy(DamageSource source) {
+        if (source.getEntity() instanceof Player player && player.getInventory().add(new ItemStack(getDropItem()))) return;
+        super.destroy(source);
+    }
     @Override public boolean canBoatInFluid(FluidState state){return metal&&state.is(FluidTags.LAVA)||super.canBoatInFluid(state);}
     @Override public boolean canBoatInFluid(FluidType type){return metal&&type==ForgeMod.LAVA_TYPE.get()||super.canBoatInFluid(type);}
     @Override public boolean shouldUpdateFluidWhileRiding(FluidState state,Entity rider){
