@@ -19,11 +19,11 @@ class LegacyEnchantmentRulesTest {
         assertEquals(0, LegacyEnchantmentRules.hasteAcceleration(3, false, false, false, false));
         assertEquals(0, LegacyEnchantmentRules.hasteAcceleration(3, true, true, false, false));
     }
-    @Test void repairRoundsBeforeMultiplyingAndCapsCommandLevels() {
+    @Test void repairRoundsBeforeMultiplyingByTheActualLevel() {
         var primals = Map.of("aer", 7, "ordo", 2);
         assertEquals(Map.of("aer", 3, "ordo", 2), LegacyEnchantmentRules.repairCost(primals, 1));
         assertEquals(Map.of("aer", 6, "ordo", 4), LegacyEnchantmentRules.repairCost(primals, 2));
-        assertEquals(LegacyEnchantmentRules.repairCost(primals, 2), LegacyEnchantmentRules.repairCost(primals, 10));
+        assertEquals(Map.of("aer", 30, "ordo", 20), LegacyEnchantmentRules.repairCost(primals, 10));
         assertTrue(LegacyEnchantmentRules.repairCost(primals, 0).isEmpty());
         assertEquals(Map.of("aer", 7, "ordo", 2), primals);
     }

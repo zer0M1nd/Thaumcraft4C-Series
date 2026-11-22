@@ -14,6 +14,9 @@ public class GolemDoorNavigation extends GroundPathNavigation {
     private PathFinder routeFinder;
     /** Plan a later leg without moving the entity or replacing its current navigation. */
     public Path planFrom(BlockPos start,BlockPos destination,int accuracy) {
+        return planFrom(start,java.util.Set.of(destination),accuracy);
+    }
+    public Path planFrom(BlockPos start,java.util.Set<BlockPos> destinations,int accuracy) {
         float range=(float)mob.getAttributeValue(net.minecraft.world.entity.ai.attributes.Attributes.FOLLOW_RANGE);
         int radius=(int)Math.ceil(range)+8;
         var region=new PathNavigationRegion(level,start.offset(-radius,-radius,-radius),start.offset(radius,radius,radius));
@@ -22,7 +25,7 @@ public class GolemDoorNavigation extends GroundPathNavigation {
             plannedStart=start;
             // Calling navigation.createPath here would change the active target and stuck timer.
             // Center the region on this leg, rather than the golem's current physical location.
-            return routeFinder.findPath(region,mob,java.util.Set.of(destination),range,accuracy,1.0f);
+            return routeFinder.findPath(region,mob,destinations,range,accuracy,1.0f);
         } finally { plannedStart=previousStart; }
     }
     public static final net.minecraft.tags.TagKey<Block> AVOID=BlockTags.create(net.minecraft.resources.ResourceLocation.parse("thaumcraft:golem_path_hazards"));

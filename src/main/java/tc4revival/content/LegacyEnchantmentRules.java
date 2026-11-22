@@ -24,12 +24,14 @@ public  class LegacyEnchantmentRules {
         if (water) bonus /= 2;
         return bonus;
     }
+    static int primalRepairCost(int amount, int level) {
+        return (int) Math.min(Integer.MAX_VALUE, (long) Math.sqrt(amount * 2.0) * level);
+    }
     /** Input must already be reduced to primal aspects by the aspect system. No inventory is debited here. */
     public static Map<String, Integer> repairCost(Map<String, Integer> primals, int enchantmentLevel) {
         if (enchantmentLevel <= 0) return Map.of();
-        int level = Math.min(2, enchantmentLevel);
         var costs = new LinkedHashMap<String, Integer>();
-        primals.forEach((aspect, amount) -> costs.put(aspect, (int) Math.sqrt(amount * 2) * level));
+        primals.forEach((aspect, amount) -> costs.put(aspect, primalRepairCost(amount, enchantmentLevel)));
         return java.util.Collections.unmodifiableMap(costs);
     }
 }

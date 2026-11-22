@@ -17,15 +17,30 @@ import thaumcraft.api.golems.GolemCropRegistry;
 /** Native crop ages and item placement preserve mod-specific soils, seeds and loot. */
 public class ModernCropHarvest {
     public static final TagKey<Block> PICK=BlockTags.create(ResourceLocation.parse("thaumcraft:golem_harvest_by_use"));
+    private static final TagKey<Block> EARLY_PICK=BlockTags.create(ResourceLocation.parse("thaumcraft:golem_harvest_before_max_age"));
     public static final TagKey<Block> GROWTH_STAGE=BlockTags.create(ResourceLocation.parse("thaumcraft:golem_non_harvestable_growth_stages"));
+    public static boolean pickedByUse(BlockState state) {
+        return state.is(PICK) || state.getBlock() instanceof SweetBerryBushBlock
+                || state.hasProperty(BlockStateProperties.BERRIES);
+    }
     public static boolean mature(BlockState state) {
         if(state.is(GROWTH_STAGE)||state.getBlock() instanceof StemBlock||state.getBlock() instanceof AttachedStemBlock)return false;
-        if(state.getBlock() instanceof CropBlock crop)return crop.isMaxAge(state);
-        if(!state.is(BlockTags.CROPS)&&!state.is(PICK))return false;
+        if(state.getBlock() instanceof SweetBerryBushBlock && state.hasProperty(SweetBerryBushBlock.AGE))
+            return state.getValue(SweetBerryBushBlock.AGE)>=2;
         if(state.hasProperty(BlockStateProperties.BERRIES))return state.getValue(BlockStateProperties.BERRIES);
-        for(var property:state.getProperties())if(property instanceof IntegerProperty age&&age.getName().equals("age"))
-            return state.getValue(age).equals(java.util.Collections.max(age.getPossibleValues()));
-        return false;
+        if(state.getBlock() instanceof CropBlock crop)return crop.isMaxAge(state);
+        if(!state.is(BlockTags.CROPS)&&!pickedByUse(state))return false;
+        for(var property:state.getProperties()) {
+            if(property instanceof IntegerProperty age&&age.getName().equals("age")) {
+                int lastStage=java.util.Collections.max(age.getPossibleValues());
+                return state.getValue(age)>=lastStage-(state.is(EARLY_PICK)?1:0);
+            }
+            if(state.is(PICK)&&property instanceof BooleanProperty ripe
+                    && (ripe.getName().equals("mature") || ripe.getName().startsWith("has_") && ripe.getName().endsWith("berries")))
+                return state.getValue(ripe);
+        }
+        // Some pickable plants use separate blocks for the fruiting and bare forms.
+        return state.is(PICK);
     }
     public static boolean plantable(ItemStack stack) {
         if(stack.is(net.minecraftforge.common.Tags.Items.SEEDS))return true;

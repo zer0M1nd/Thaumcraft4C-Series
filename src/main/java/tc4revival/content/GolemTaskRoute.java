@@ -14,6 +14,9 @@ public final class GolemTaskRoute {
         return plan(candidates,1);
     }
     public boolean plan(Collection<BlockPos> candidates,int accuracy) {
+        return plan(candidates,accuracy,pos->Set.of(pos));
+    }
+    public boolean plan(Collection<BlockPos> candidates,int accuracy,java.util.function.Function<BlockPos,Set<BlockPos>> approaches) {
         legs.clear();
         if (!(host.mob().getNavigation() instanceof GolemDoorNavigation navigation)) return false;
         var remaining=new ArrayList<>(new LinkedHashSet<>(candidates));
@@ -25,7 +28,7 @@ public final class GolemTaskRoute {
             var next=remaining.stream().min(Comparator.comparingDouble(origin::distSqr)).orElseThrow();
             remaining.remove(next);
             if (!host.mob().level().hasChunkAt(next)) continue;
-            var path=navigation.planFrom(start,next,accuracy);
+            var path=navigation.planFrom(start,approaches.apply(next),accuracy);
             if (path==null || !path.canReach() || path.getNodeCount()==0) continue;
             legs.add(new Leg(next.immutable(),path));nodes+=path.getNodeCount();
             start=path.getEndNode().asBlockPos();

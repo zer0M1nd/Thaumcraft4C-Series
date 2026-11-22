@@ -24,7 +24,7 @@ public  class VisRepair {
     }
     public static void repair(ItemStack stack, ServerPlayer player) {
         if (!stack.is(LegacyRepairEnchantment.REPAIRABLE) || !stack.isDamaged()) return;
-        int level = Math.min(2, stack.getEnchantmentLevel(TCEnchantments.REPAIR.get())); if (level <= 0) return;
+        int level = stack.getEnchantmentLevel(TCEnchantments.REPAIR.get()); if (level <= 0) return;
         // TC4 uses object tags here, without equipment or enchantment scan bonuses.
         var base = ItemAspects.baseSession().base(ForgeRegistries.ITEMS.getKey(stack.getItem()).toString()).orElse(null);
         if (base == null || base.isEmpty()) return;
@@ -35,8 +35,7 @@ public  class VisRepair {
     public static AspectAmounts costs(AspectCatalog catalog, AspectAmounts base, int level) {
         var result = new AspectAmounts();
         if (level <= 0) return result;
-        int repairLevel = Math.min(2, level);
-        catalog.toPrimals(base, AspectCatalog.Reduction.SUM).view().forEach((aspect, amount) -> result.merge(aspect, (int) Math.sqrt(amount * 2.0) * repairLevel));
+        catalog.toPrimals(base, AspectCatalog.Reduction.SUM).view().forEach((aspect, amount) -> result.merge(aspect, LegacyEnchantmentRules.primalRepairCost(amount, level)));
         return result;
     }
 }

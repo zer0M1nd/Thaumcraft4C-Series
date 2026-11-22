@@ -30,7 +30,7 @@ public  class ArcaneBoreRepair {
         pick.inventoryTick(level,worker,0,true);
     }
     private void repair(ItemStack pick,ServerPlayer worker,Runnable changed) {
-        int rank=Math.min(2,pick.getEnchantmentLevel(TCEnchantments.REPAIR.get()));
+        int rank=pick.getEnchantmentLevel(TCEnchantments.REPAIR.get());
         if (rank<=0) return;
         if (!(pick.getItem() instanceof RepairableItem repairable)) { cost=new AspectAmounts(); return; }
         var base=ItemAspects.baseSession().base(ForgeRegistries.ITEMS.getKey(pick.getItem()).toString()).orElse(null);
