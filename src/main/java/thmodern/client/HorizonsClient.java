@@ -34,6 +34,7 @@ public final class HorizonsClient {
         event.registerBlockEntityRenderer(thmodern.plane.GatewayBlocks.SLOT_ENTITY.get(),GatewaySlotRenderer::new);
         event.registerBlockEntityRenderer(Horizons.VORTEX_ENTITY.get(),VortexRenderer::new);
         event.registerBlockEntityRenderer(Horizons.SOUL_BEACON_ENTITY.get(),SoulBeaconRenderer::new);
+        event.registerBlockEntityRenderer(Horizons.LIGHT_ENTITY.get(),LightOrbRenderer::new);
         event.registerBlockEntityRenderer(Horizons.INSPIRATRON_ENTITY.get(),SoulDeviceRenderer::new);
         event.registerBlockEntityRenderer(Horizons.SOULFORGE_ENTITY.get(),SoulDeviceRenderer::new);
         event.registerBlockEntityRenderer(Horizons.SOUL_EXTRACTOR_ENTITY.get(),SoulDeviceRenderer::new);

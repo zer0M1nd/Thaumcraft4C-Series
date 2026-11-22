@@ -32,6 +32,7 @@ public final class Horizons {
  public static final RegistryObject<Block> ALCHEMITE=BLOCKS.register("alchemite",thmodern.alchemy.AlchemiteBlock::new);
  static {ITEMS.register("alchemite",()->new BlockItem(ALCHEMITE.get(),new Item.Properties()));}
  public static final RegistryObject<Block> LIGHT=BLOCKS.register("light",()->new thmodern.focus.LightBlock(false)),SOLAR_LIGHT=BLOCKS.register("solar_light",()->new thmodern.focus.LightBlock(true));
+ public static final RegistryObject<BlockEntityType<thmodern.focus.LightBlock.Orb>> LIGHT_ENTITY=ENTITIES.register("light_orb",()->BlockEntityType.Builder.of(thmodern.focus.LightBlock.Orb::new,LIGHT.get(),SOLAR_LIGHT.get()).build(null));
  public static final RegistryObject<Item> GREATWOOD_BOAT_ITEM=ITEMS.register("boat_greatwood",()->new thmodern.boat.HorizonsBoatItem(false)),THAUMIUM_BOAT_ITEM=ITEMS.register("boat_thaumium",()->new thmodern.boat.HorizonsBoatItem(true));
  public static final RegistryObject<Item> KEYSTONE=ITEMS.register("keystone",thmodern.plane.KeystoneItem::new);
  public static final RegistryObject<Item> VOID_PUTTY=ITEMS.register("void_putty",()->new Item(new Item.Properties().stacksTo(16)));
