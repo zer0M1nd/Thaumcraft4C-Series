@@ -28,7 +28,7 @@ side="BOTH"
 [[dependencies.thaumicbases]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.20.1,1.20.2)"
+versionRange="[1.20.1]"
 ordering="NONE"
 side="BOTH"
 [[dependencies.thaumicbases]]
@@ -36,4 +36,11 @@ modId="thaumcraft"
 mandatory=true
 versionRange="[0.4.116.2,)"
 ordering="AFTER"
+side="BOTH"
+
+[[dependencies.thaumicbases]]
+modId="automagy"
+mandatory=false
+versionRange="[0,)"
+ordering="NONE"
 side="BOTH"
