@@ -47,7 +47,7 @@ final class ArchiveDownloadFixture {
                 IOException last = null;
                 for (URI uri : task.item().links()) {
                     progress.accept(uri.toString());
-                    try (var downloaded = task.prepareDownload(file -> transfer.fetch(uri, file))) {
+                    try (var downloaded = task.prepareDownload(uri, file -> transfer.fetch(uri, file))) {
                         results.add(new Result(target.owner(), cache, downloaded.apply(), ""));
                         last = null;
                         break;

@@ -33,6 +33,14 @@ class CurseForgeDownloadTest {
         for(var uri:List.of("http://edge.forgecdn.net/a.jar","https://www.curseforge.com.evil.test/a.jar","https://localhost/a.jar","file:///tmp/file.jar"))
             assertFalse(CurseForgeDownload.allowed(URI.create(uri)));
     }
+    @Test void hostedFixHasOneDirectSource() throws Exception {
+        URI source = CurseForgeDownload.HEARTWORK_FIX;
+        assertEquals(source, CurseForgeDownload.endpoint(source.toString()));
+        assertEquals(List.of(source), CurseForgeDownload.attempts(List.of(source.toString())));
+        assertTrue(CurseForgeDownload.allowed(source));
+        assertFalse(CurseForgeDownload.allowed(source.resolve("other.jar")));
+        assertFalse(CurseForgeDownload.allowed(URI.create(source + "?mirror=1")));
+    }
     @Test void manualOnlyDeclarationDoesNotDiscardWorkingMirrors() throws Exception {
         String raw="https://raw.githubusercontent.com/Ilya3point999K/ThaumicConcilium/96439af167c40dd89cf4df4db865b38916b72b24/deps/1.7.10_AM2-1.4.0.009.jar";
         String manual="https://www.mcmod.cn/download/1034.html";
