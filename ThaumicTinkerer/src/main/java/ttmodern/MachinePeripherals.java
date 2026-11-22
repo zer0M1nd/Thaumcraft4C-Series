@@ -5,20 +5,69 @@ import dan200.computercraft.api.lua.*;
 import dan200.computercraft.api.peripheral.IPeripheral;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraftforge.common.capabilities.Capability;
+import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.common.util.LazyOptional;
+import net.minecraftforge.event.AttachCapabilitiesEvent;
+import net.minecraft.resources.ResourceLocation;
 import tc4revival.content.*;
 
 /** Read-only machine access, except for the ear's existing pitch-change operation. */
 public final class MachinePeripherals {
-    private static final Map<BlockEntity,LazyOptional<IPeripheral>> handles=new IdentityHashMap<>();
-    public static void setup(){net.minecraftforge.common.MinecraftForge.EVENT_BUS.addGenericListener(BlockEntity.class,MachinePeripherals::attach);}
-    private static void attach(net.minecraftforge.event.AttachCapabilitiesEvent<BlockEntity> event){event.addListener(()->{LazyOptional<IPeripheral> handle; synchronized(handles){handle=handles.remove(event.getObject());}if(handle!=null)handle.invalidate();});}
-    public static LazyOptional<IPeripheral> lookup(BlockEntity entity){
-        if(entity==null||entity.isRemoved())return LazyOptional.empty();
-        synchronized(handles){var cached=handles.get(entity);if(cached!=null)return cached;}
-        IPeripheral peripheral=entity instanceof TabletEntity tablet?new Tablet(tablet):entity instanceof MagnetEntity magnet?(magnet.mob()?new MobMagnet(magnet):new Magnet(magnet)):entity instanceof BrainJarBlockEntity jar?new Brain(jar):entity instanceof DeconstructionTableBlockEntity table?new Deconstructor(table):entity instanceof ArcaneEarBlockEntity ear?new Ear(ear):entity instanceof ArcaneBoreBlockEntity bore?new Bore(bore):entity instanceof EssentiaTransport&&!(entity instanceof EssentiaSource)&&!(entity instanceof EssentiaVessel)?new Transport(entity):entity instanceof RevealedAspectContainer?new Container(entity):entity instanceof EssentiaTransport?new Transport(entity):null;
-        if(peripheral==null)return LazyOptional.empty();var result=LazyOptional.of(()->peripheral);synchronized(handles){handles.put(entity,result);}return result;
+    private static final ResourceLocation PERIPHERAL_ID = ResourceLocation.fromNamespaceAndPath(Tinkerer.ID, "machine_peripheral");
+
+    public static void setup() {
+        net.minecraftforge.common.MinecraftForge.EVENT_BUS.addGenericListener(BlockEntity.class, MachinePeripherals::attach);
     }
+
+    private static void attach(AttachCapabilitiesEvent<BlockEntity> event) {
+        Machine machine = machineFor(event.getObject());
+        if (machine == null) return;
+
+        PeripheralProvider provider = new PeripheralProvider(machine);
+        event.addCapability(PERIPHERAL_ID, provider);
+        event.addListener(provider::invalidate);
+    }
+
+    private static Machine machineFor(BlockEntity entity) {
+        if (entity instanceof TabletEntity tablet) return new Tablet(tablet);
+        if (entity instanceof MagnetEntity magnet) return magnet.mob() ? new MobMagnet(magnet) : new Magnet(magnet);
+        if (entity instanceof BrainJarBlockEntity jar) return new Brain(jar);
+        if (entity instanceof DeconstructionTableBlockEntity table) return new Deconstructor(table);
+        if (entity instanceof ArcaneEarBlockEntity ear) return new Ear(ear);
+        if (entity instanceof ArcaneBoreBlockEntity bore) return new Bore(bore);
+        if (entity instanceof EssentiaTransport && !(entity instanceof EssentiaSource) && !(entity instanceof EssentiaVessel))
+            return new Transport(entity);
+        if (entity instanceof RevealedAspectContainer) return new Container(entity);
+        if (entity instanceof EssentiaTransport) return new Transport(entity);
+        return null;
+    }
+
+    private static final class PeripheralProvider implements ICapabilityProvider {
+        private final Machine machine;
+        private LazyOptional<IPeripheral> handle = LazyOptional.empty();
+
+        PeripheralProvider(Machine machine) {
+            this.machine = machine;
+        }
+
+        @Override
+        public <T> LazyOptional<T> getCapability(Capability<T> capability, Direction side) {
+            if (capability != ComputerIntegration.PERIPHERAL || machine.entity.isRemoved()
+                    || machine.entity.getBlockState().is(ComputerIntegration.DISABLED)) return LazyOptional.empty();
+            if (!handle.isPresent()) handle = LazyOptional.of(() -> machine);
+            return handle.cast();
+        }
+
+        void invalidate() {
+            handle.invalidate();
+        }
+    }
+
+    public static LazyOptional<IPeripheral> lookup(BlockEntity entity) {
+        return entity == null || entity.isRemoved() ? LazyOptional.empty() : entity.getCapability(ComputerIntegration.PERIPHERAL);
+    }
+
     public abstract static class Machine implements IPeripheral {
         protected final BlockEntity entity;private final String type;
         Machine(BlockEntity entity,String type){this.entity=entity;this.type=type;}

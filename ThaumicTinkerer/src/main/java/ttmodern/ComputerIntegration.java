@@ -6,8 +6,8 @@ import net.minecraftforge.common.util.LazyOptional;
 
 /** Loaded only after the optional ComputerCraft mod has been identified. */
 public final class ComputerIntegration {
-    private static final net.minecraft.tags.TagKey<net.minecraft.world.level.block.Block> DISABLED=net.minecraft.tags.BlockTags.create(net.minecraft.resources.ResourceLocation.parse(Tinkerer.ID+":peripheral_disabled"));
-    private static final net.minecraftforge.common.capabilities.Capability<IPeripheral> PERIPHERAL=net.minecraftforge.common.capabilities.CapabilityManager.get(new net.minecraftforge.common.capabilities.CapabilityToken<IPeripheral>(){});
+    static final net.minecraft.tags.TagKey<net.minecraft.world.level.block.Block> DISABLED=net.minecraft.tags.BlockTags.create(net.minecraft.resources.ResourceLocation.parse(Tinkerer.ID+":peripheral_disabled"));
+    static final net.minecraftforge.common.capabilities.Capability<IPeripheral> PERIPHERAL=net.minecraftforge.common.capabilities.CapabilityManager.get(new net.minecraftforge.common.capabilities.CapabilityToken<IPeripheral>(){});
     public static void setup(){MachinePeripherals.setup();dan200.computercraft.api.ForgeComputerCraftAPI.registerPeripheralProvider((world,pos,side)->lookup(world.getBlockEntity(pos),side));}
     public static LazyOptional<IPeripheral> lookup(net.minecraft.world.level.block.entity.BlockEntity entity,net.minecraft.core.Direction side){
         if(entity==null||entity.isRemoved()||entity.getBlockState().is(DISABLED))return LazyOptional.empty();
@@ -23,7 +23,7 @@ public final class ComputerIntegration {
             return result;
         }
         if(entity instanceof GolemConnectorEntity connector){LazyOptional<IPeripheral> result=LazyOptional.of(()->new Golem(connector));connector.onInvalidated(result::invalidate);return result;}
-        if(!(entity instanceof AspectAnalyzerEntity analyzer))return MachinePeripherals.lookup(entity);
+        if(!(entity instanceof AspectAnalyzerEntity analyzer))return entity.getCapability(PERIPHERAL, side);
         LazyOptional<IPeripheral> result=LazyOptional.of(()->new Analyzer(analyzer));analyzer.getCapability(net.minecraftforge.common.capabilities.ForgeCapabilities.ITEM_HANDLER,side).addListener(ignored->result.invalidate());return result;
     }
     public static final class Golem implements IPeripheral {

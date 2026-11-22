@@ -3,5 +3,5 @@
   "file": "thaumcraft-0.4.11.jar",
   "sha256": "b50271b7570bc3c528a296e67b2ce9818595aca68fca8e1c0f98f74d9efa3c45",
   "source": "../../TC4/build/libs/Thaumcraft-4-Modern-Port-0.4.11.jar",
-  "policy": "Frozen binary dependency. Do not rebuild or modify base project."
+  "policy": "Historical compatibility fixture for 0.4.11. The current build uses the series dependency declared in dependencies/artifacts.json."
 }

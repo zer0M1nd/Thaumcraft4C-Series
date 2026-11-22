@@ -1,31 +1,31 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.1.46.1'
+version = '0.1.47'
 group = 'ttmodern'
-base.archivesName = 'Thaumic-Tinkerer-Modern-Port'
+base.archivesName = '[TC4Continuation]Thaumic-Tinkerer'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
-repositories { maven { url = uri('.tooling/cached-maven') }; flatDir { dirs 'libs' }; maven { url = 'https://maven.theillusivec4.top/' }; mavenCentral() }
 repositories {
-    flatDir { dirs "../../../Data/Dependencies/TC4/${findProperty('tc4ValidationVersion') ?: '0.4.114'}" }
-    maven { url='https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    flatDir { dirs 'dependencies/jars' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    mavenCentral()
 }
+
 dependencies {
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    implementation fg.deobf(project.hasProperty('tc4ValidationVersion')
-        ? "local.validation:Thaumcraft-4-Modern-Port:${project.property('tc4ValidationVersion')}"
-        : 'local.revival:Thaumcraft-4-Modern-Port:0.4.114')
-    compileOnly files('libs/thaumicbases-0.1.2.jar')
+    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.121'}")
+    compileOnly files("dependencies/jars/thaumicbases-${findProperty('thaumicBasesValidationVersion') ?: '0.1.28'}.jar")
     compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api")
-    compileOnly files('libs/cc-tweaked-1.20.1-core-api-1.120.2.jar')
-    compileOnly files('libs/cc-tweaked-1.20.1-forge-api-1.120.2.jar')
-    compileOnly files('libs/jei-1.20.1-common-api-15.20.0.106.jar', 'libs/jei-1.20.1-forge-api-15.20.0.106.jar')
-    compileOnly files('libs/Jade-1.20.1-Forge-11.13.1.jar')
+    compileOnly files('dependencies/jars/cc-tweaked-1.20.1-core-api-1.120.2.jar')
+    compileOnly files('dependencies/jars/cc-tweaked-1.20.1-forge-api-1.120.2.jar')
+    compileOnly files('dependencies/jars/jei-1.20.1-common-api-15.20.0.106.jar', 'dependencies/jars/jei-1.20.1-forge-api-15.20.0.106.jar')
+    compileOnly files('dependencies/jars/Jade-1.20.1-Forge-11.13.1.jar')
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
     if (providers.gradleProperty('ttIntegrations').isPresent()) {
         def selected = providers.gradleProperty('ttIntegrations').get().split(',').toList()
-        new groovy.json.JsonSlurper().parse(file('.tooling/integration-runtime/resolved.json')).each { dependency ->
+        new groovy.json.JsonSlurper().parse(file('dependencies/artifacts.json')).findAll { it.coordinate }.each { dependency ->
             if (selected.contains(dependency.coordinate.split(':')[1])) runtimeOnly fg.deobf(dependency.coordinate)
         }
     }
@@ -36,8 +36,8 @@ minecraft {
         configureEach {
             property 'forge.enableGameTest', 'true'
             property 'ttmodern.workspace', rootProject.projectDir.absolutePath
-            property 'ttmodern.legacyJar', rootProject.file('../references/ThaumicTinkerer-2.5-1.7.10-164.jar').absolutePath
-            property 'ttmodern.baseLegacyJar', rootProject.file('../../TC4/references/Thaumcraft-1.7.10-4.2.3.5.jar').absolutePath
+            property 'ttmodern.legacyJar', rootProject.file(providers.gradleProperty('ttLegacyJar').getOrElse('references/ThaumicTinkerer-2.5-1.7.10-164.jar')).absolutePath
+            property 'ttmodern.baseLegacyJar', rootProject.file(providers.gradleProperty('ttBaseLegacyJar').getOrElse('references/Thaumcraft-1.7.10-4.2.3.5.jar')).absolutePath
             args '--mixin.config', 'tc4revival.mixins.json'
             property 'mixin.env.remapRefMap', 'true'
             property 'mixin.env.refMapRemappingFile', layout.buildDirectory.file('createSrgToMcp/output.srg').get().asFile.absolutePath
@@ -81,11 +81,17 @@ tasks.register('verifyNoBundledLegacyAssets') {
 tasks.named("test") { useJUnitPlatform() }
 
 tasks.register('verifyFrozenBase') {
-    inputs.file('libs/BASELINE.json'); inputs.file('libs/thaumcraft-0.4.11.jar')
+    def version = findProperty('tc4ValidationVersion') ?: '0.4.121'
+    def base = file("dependencies/jars/Thaumcraft-${version}.jar")
+    def lock = file('dependencies/artifacts.json')
+    inputs.files(base, lock)
+    inputs.property 'validationHash', findProperty('tc4ValidationSha256') ?: ''
     doLast {
-        def baseline = new groovy.json.JsonSlurper().parse(file('libs/BASELINE.json'))
-        def actual = java.security.MessageDigest.getInstance('SHA-256').digest(file('libs/' + baseline.file).bytes).encodeHex().toString()
-        if (actual != baseline.sha256) throw new GradleException('Frozen base JAR changed; do not rebuild or silently replace the base dependency.')
+        def pinned = new groovy.json.JsonSlurper().parse(lock).find { it.file == base.name }
+        def expected = pinned?.sha256 ?: findProperty('tc4ValidationSha256')
+        if (expected && java.security.MessageDigest.getInstance('SHA-256').digest(base.bytes).encodeHex().toString() != expected) {
+            throw new GradleException("SHA-256 mismatch for ${base.name}")
+        }
     }
 }
 tasks.named('compileJava') { dependsOn 'verifyFrozenBase' }
