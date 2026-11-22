@@ -25,14 +25,12 @@ public class ExternalResourceLoading {
     private static void discover(Path game,Consumer<Pack> consumer) {
         LegacyLocalizationLoading.discover(game,consumer);
         var logos = new HashMap<String,byte[]>();
-        logos.put("thaumcraft", null);
         try {
             var mapping=OriginalResources.mappings();
             var scan=OriginalResourceSelection.scan(game,mapping);
             var source=scan.automatic();
             if(source==null)ResourceLoadingState.failure("Thaumcraft 4.2.3.5: required resources are missing or damaged.\nhttps://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2227552");
             else {
-                logos.put("thaumcraft", source.resources().get(LegacyModLogo.CACHE_FILE));
                 if(!source.reference())ResourceLoadingState.warning("Thaumcraft 4: SHA-256 differs from reference: "+source.sha256());
                 var cache=ExternalResourceCache.prepare(game,source,mapping);
                 var allowed=new HashSet<>(mapping.keySet());allowed.addAll(DeepslateOreTextures.paths());

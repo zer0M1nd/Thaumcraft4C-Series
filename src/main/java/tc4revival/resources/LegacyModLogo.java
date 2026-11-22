@@ -31,7 +31,7 @@ final class LegacyModLogo {
 
     static boolean usesPrimarySource(String owner, IConfigurable declaration) {
         return switch (owner) {
-            case "thaumicomniverse" -> false;
+            case "thaumcraft", "thaumicomniverse" -> false;
             case "thaumicfutures" -> declaration.<String>getConfigElement("logoFile").filter(path -> !path.isBlank()).isEmpty();
             default -> true;
         };
