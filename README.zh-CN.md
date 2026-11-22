@@ -8,13 +8,13 @@
 
 适用于 Minecraft 1.20.1，最低要求为 Forge 47.4.23（47.x）。
 
-必装模组为神秘时代 4：承续版 `0.4.116.2+`。
+必装模组为神秘时代 4：承续版 `0.4.121+`。
 
 本体还需要 Curios API 和 TerraBlender。
 
 可选联动包括SlashBlade: Resharped `[1.9.65,1.10)`、Industrial Craft 2 `[2.10.33-ex120,2.11)`、Botania `[1.20.1-456,1.20.2)`、exparmory。 [完整的 Forge 依赖声明](src/main/resources/META-INF/mods.toml)
 
-**首次启动需要手动提供心血结晶 FIX 原包。** 从原作下载页取得 1.7.10 FIX 版。出现资源提示时，把 `HeartWork_FIX_MC1.7.10.jar` 放进当前游戏实例的 `thaumcraft/` 文件夹，回到提示界面点**重试**。本体验证并提取资源后会清理导入的 JAR，可另外保存下载的原件。[原作下载页](https://www.mcmod.cn/download/1034.html)
+**首次启动时，资源下载界面会从项目官网下载原作 1.7.10 FIX 包。** 本体校验 SHA-256 后提取所需资源。也可以手动下载，将 JAR 放入当前实例的 `thaumcraft/` 文件夹，然后在资源界面点**重试**。提取成功后会清理导入的 JAR。[下载心血结晶 FIX 原作资源包](http://tc4c.zer0m1nd.me/download/files/original-resources/heartwork/HeartWork_FIX_MC1.7.10.jar)
 
 ## 构建
 
