@@ -15,7 +15,7 @@ repositories {
 dependencies {
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
  minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
- implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.120'}")
+ implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.121'}")
  implementation fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
  compileOnly fg.deobf('local:botania:455')
  compileOnly files('dependencies/jars/jei-1.20.1-common-api-15.20.0.106.jar','dependencies/jars/jei-1.20.1-forge-api-15.20.0.106.jar')
