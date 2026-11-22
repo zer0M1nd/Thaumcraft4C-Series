@@ -1,6 +1,6 @@
 package temodern.client;
 
-import appeng.client.gui.me.common.MEStorageScreen;
+import appeng.client.gui.me.items.CraftingTermScreen;
 import appeng.client.gui.style.StyleManager;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;
@@ -8,17 +8,11 @@ import net.minecraft.client.gui.components.Tooltip;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.inventory.ClickType;
-import net.minecraft.world.inventory.Slot;
 import temodern.crafting.ArcaneTerminalMenu;
 
-public class ArcaneTerminalScreen extends MEStorageScreen<ArcaneTerminalMenu> {
+public class ArcaneTerminalScreen extends CraftingTermScreen<ArcaneTerminalMenu> {
     public ArcaneTerminalScreen(ArcaneTerminalMenu menu,Inventory player,Component title){
         super(menu,player,title,StyleManager.loadStyleDoc("/screens/terminals/thaumicenergistics_arcane.json"));
-        var clear=new appeng.client.gui.widgets.ActionButton(appeng.api.config.ActionItems.STASH,b->menu.clearGrid(hasShiftDown()));
-        clear.setHalfSize(true);widgets.add("clearCraftingGrid",clear);
-        var take=new appeng.client.gui.widgets.ActionButton(appeng.api.config.ActionItems.STASH_TO_PLAYER_INV,b->menu.clearGrid(true));
-        take.setHalfSize(true);widgets.add("clearToPlayerInv",take);
         var swap=new Button(0,0,8,8,Component.translatable("gui.thaumicenergistics.swap_armor"),b->menu.swapArmor(),message->message.get()){
             @Override public void renderWidget(GuiGraphics g,int mx,int my,float partial){
                 g.pose().pushPose();g.pose().translate(getX(),getY(),0);g.pose().scale(.5f,.5f,1);
@@ -41,14 +35,6 @@ public class ArcaneTerminalScreen extends MEStorageScreen<ArcaneTerminalMenu> {
             };
             toggle.setStyle(appeng.client.gui.widgets.TabButton.Style.BOX);addToLeftToolbar(toggle);
         }
-    }
-    @Override protected void slotClicked(Slot slot,int index,int mouseButton,ClickType clickType){
-        if(slot==menu.resultSlot()){
-            if(clickType==ClickType.QUICK_MOVE)menu.takeResult("inventory");
-            else if(clickType==ClickType.PICKUP)menu.takeResult(hasControlDown()?"stack":"one");
-            return;
-        }
-        super.slotClicked(slot,index,mouseButton,clickType);
     }
     @Override public void drawBG(GuiGraphics g,int x,int y,int mx,int my,float partial){
         super.drawBG(g,x,y,mx,my,partial);

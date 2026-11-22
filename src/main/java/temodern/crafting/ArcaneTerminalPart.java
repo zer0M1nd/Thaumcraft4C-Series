@@ -23,6 +23,9 @@ public class ArcaneTerminalPart extends ItemTerminalPart implements WorkHost, ap
     private java.util.UUID linkedVis;
     public ArcaneTerminalPart(IPartItem<?> item){super(item);getMainNode().addService(appeng.api.networking.ticking.IGridTickable.class,this);}
     @Override public net.minecraft.world.level.Level workLevel(){return getLevel();}
+    @Override public appeng.api.inventories.InternalInventory getSubInventory(ResourceLocation id){
+        return appeng.parts.reporting.CraftingTerminalPart.INV_CRAFTING.equals(id)?work.craftingMatrix:super.getSubInventory(id);
+    }
     @Override public Workstation workstation(){return work;}
     @Override public String kind(){return "arcane_terminal";}
     @Override public net.minecraft.core.BlockPos workPosition(){return getBlockEntity().getBlockPos();}

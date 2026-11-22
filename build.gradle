@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.2.31'
+version = '0.2.31.1'
 group='temodern'
 base.archivesName='[TC4Continuation]Thaumic-Energistics'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
