@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.2.47'
+version = '0.2.47.1'
 group = 'thaumicomniverse'
 base.archivesName = '[TC4Continuation]Thaumic-Omniverse'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)

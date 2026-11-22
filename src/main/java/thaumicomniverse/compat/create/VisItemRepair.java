@@ -15,7 +15,7 @@ import tc4revival.content.*;
 /** Repair credit belongs to the device, never to an item that can be split or copied. */
 public final class VisItemRepair {
     public static boolean needsRepair(ItemStack stack){return AuraFilling.repairable(stack)&&!costs(stack).isEmpty();}
-    private static int tier(ItemStack stack){return Math.min(2,stack.getEnchantmentLevel(TCEnchantments.REPAIR.get()));}
+    private static int tier(ItemStack stack){return stack.getEnchantmentLevel(TCEnchantments.REPAIR.get());}
     private static AspectAmounts costs(ItemStack stack){
         var base=ItemAspects.baseSession().base(ForgeRegistries.ITEMS.getKey(stack.getItem()).toString()).orElse(null);
         return base==null?new AspectAmounts():VisRepair.costs(TCAspects.catalog(),base,tier(stack));
