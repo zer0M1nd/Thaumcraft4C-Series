@@ -22,7 +22,7 @@ Original credits: To HellFirePvP and makeo for making this mod. The original tex
 [[dependencies.gadomancy]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.20.1,1.20.2)"
+versionRange="[1.20.1]"
 ordering="NONE"
 side="BOTH"
 [[dependencies.gadomancy]]
@@ -32,3 +32,23 @@ versionRange="[0.4.116.2,)"
 ordering="AFTER"
 side="BOTH"
 
+[[dependencies.gadomancy]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.13,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.gadomancy]]
+modId="automagy"
+mandatory=false
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.gadomancy]]
+modId="thaumic_tinkerer"
+mandatory=false
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
