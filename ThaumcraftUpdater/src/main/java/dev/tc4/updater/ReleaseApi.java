@@ -44,12 +44,24 @@ public final class ReleaseApi {
     }
 
     public Catalog snapshot(boolean includeTesting) throws IOException {
+        return snapshot(UpdaterConfig.DEFAULT_BASELINE, includeTesting);
+    }
+
+    static String catalogPath(String baseline) throws IOException {
+        return UpdaterConfig.DEFAULT_BASELINE.equals(UpdaterConfig.baselineName(baseline)) ? "/latest.json" : "/baselines/" + baseline + ".json";
+    }
+    public List<URI> catalogLinks(String baseline) throws IOException {
+        String path = catalogPath(baseline);
+        return sites.stream().map(site -> site.resolve(path)).toList();
+    }
+    public Catalog snapshot(String baseline, boolean includeTesting) throws IOException {
+        String path = catalogPath(baseline);
         IOException failure = new IOException("No release catalog available");
         for (URI site : sites) {
-            try { return snapshot(site, "/latest.json", includeTesting); }
+            try { return snapshot(site, path, baseline, includeTesting); }
             catch (IOException ex) { failure.addSuppressed(ex); }
-            if (site.equals(PUBLIC_SERVER) || sites.size() == 1) {
-                try { return snapshot(site, "/api/v2/mods", includeTesting); }
+            if (UpdaterConfig.DEFAULT_BASELINE.equals(baseline) && (site.equals(PUBLIC_SERVER) || sites.size() == 1)) {
+                try { return snapshot(site, "/api/v2/mods", baseline, includeTesting); }
                 catch (IOException ex) { failure.addSuppressed(ex); }
             }
         }
@@ -62,14 +74,19 @@ public final class ReleaseApi {
         return sites.stream().map(site->site.resolve("/mods/"+id+"/index.html")).toList();
     }
     public Catalog catalogForPage(URI page,boolean testing) throws IOException {
-        requireOrigin(page); return snapshot(page.resolve("/"),"/latest.json",testing);
+        return catalogForPage(page, UpdaterConfig.DEFAULT_BASELINE, testing);
     }
-    private Catalog snapshot(URI server, String path, boolean includeTesting) throws IOException {
+    public Catalog catalogForPage(URI page, String baseline, boolean testing) throws IOException {
+        requireOrigin(page); return snapshot(page.resolve("/"), catalogPath(baseline), baseline, testing);
+    }
+    private Catalog snapshot(URI server, String path, String baseline, boolean includeTesting) throws IOException {
         ByteArrayOutputStream data = new ByteArrayOutputStream();
         transfer(server.resolve(path), data, 4 * 1024 * 1024, Duration.ofSeconds(20), (n,total)->{});
         try {
             JsonObject root = JsonParser.parseString(data.toString(StandardCharsets.UTF_8)).getAsJsonObject();
             if (root.get("schema").getAsInt() != 2) throw new IOException("Unsupported release API schema");
+            String actual = root.has("baseline") ? root.get("baseline").getAsString() : UpdaterConfig.DEFAULT_BASELINE;
+            if (!baseline.equals(actual)) throw new IOException("Expected release baseline " + baseline + ", received " + actual);
             if (!root.has("managed_modids") || !root.get("managed_modids").isJsonArray())
                 throw new IOException("Release API is missing the managed_modids whitelist");
             Set<String> managed = new LinkedHashSet<>();
@@ -94,6 +111,8 @@ public final class ReleaseApi {
                 // Construct the trusted same-origin link; never open arbitrary URLs supplied in a catalog label.
                 releases.put(id, new Channels(name, server.resolve("/docs/changelogs/" + id + ".html"), stable, testing));
             }
+            if (!UpdaterConfig.DEFAULT_BASELINE.equals(baseline) && !releases.keySet().equals(managed))
+                throw new IOException("Incomplete release baseline: " + baseline);
             return new Catalog(Set.copyOf(managed), Map.copyOf(releases));
         } catch (RuntimeException error) {
             throw new IOException("Malformed release API response", error);

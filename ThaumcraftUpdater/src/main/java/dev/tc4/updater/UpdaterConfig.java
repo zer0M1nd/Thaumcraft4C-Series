@@ -7,8 +7,12 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.util.*;
 
-public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, UpdateMode testingUpdates, List<String> installOnce) {
+public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, UpdateMode testingUpdates, List<String> installOnce, String baseline) {
+    public static final String DEFAULT_BASELINE = "default";
     public UpdaterConfig { installOnce = List.copyOf(installOnce); }
+    public UpdaterConfig(UpdateMode major, UpdateMode stable, UpdateMode testing, List<String> installOnce) {
+        this(major, stable, testing, installOnce, DEFAULT_BASELINE);
+    }
     public UpdaterConfig(boolean unstable, boolean major) {
         this(major ? UpdateMode.YES : UpdateMode.NO, UpdateMode.YES, unstable ? UpdateMode.YES : UpdateMode.NO, List.of());
     }
@@ -19,21 +23,41 @@ public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, U
     /** Requests are consumed while the instance lock is held, before recovery/scanning/network work. */
     public static UpdaterConfig read(Path game) throws IOException { return read(game,false); }
     static UpdaterConfig forLaunch(Path game) throws IOException { return read(game,true); }
-    private static Path pendingFile(Path game) { return game.resolve(".thaumcraftupdater/install-pending.json"); }
-    static void finishRequests(Path game) throws IOException { Files.deleteIfExists(pendingFile(game)); }
+    static String baselineName(Object value) throws IOException {
+        if (!(value instanceof String name) || !name.matches("[a-z][a-z0-9_-]{0,47}")
+                || name.matches("con|prn|aux|nul|com[1-9]|lpt[1-9]")) throw new IOException("Invalid release baseline: " + value);
+        return name;
+    }
+    static Path stateDirectory(Path game, String baseline) {
+        Path root = game.resolve(".thaumcraftupdater");
+        return DEFAULT_BASELINE.equals(baseline) ? root : root.resolve("baseline-" + baseline);
+    }
+    boolean installAll() { return !DEFAULT_BASELINE.equals(baseline) && installOnce.contains("*"); }
+    void finishRequests(Path game) throws IOException {
+        Path pending = stateDirectory(game, baseline).resolve("install-pending.json");
+        if (Files.exists(pending)) {
+            var current = new TomlParser().parse(Files.readString(game.resolve("config/thaumcraftupdater.toml")));
+            if (baseline.equals(current.getOrElse("baseline", DEFAULT_BASELINE))) Files.deleteIfExists(pending);
+        }
+    }
     private static UpdaterConfig read(Path game,boolean launch) throws IOException {
         Path file = game.resolve("config/thaumcraftupdater.toml");
         if (!Files.exists(file)) {
             Files.createDirectories(file.getParent());
-            Files.writeString(file, "# 取值：yes / no / ask；兼容旧值 是 / 否 / 询问。\n# 是否更新大版本（第二段 x 变化）；与通道同时适用，否优先。\nmajorUpdates = \"ask\"\n# 是否更新稳定版（三段版本）。\nstableUpdates = \"yes\"\n# 是否更新测试版（四段版本）。\ntestingUpdates = \"no\"\n\n# 一次性安装缺失模组，仅最新稳定版；运行即清空。\ninstallOnce = []\n", StandardCharsets.UTF_8, StandardOpenOption.CREATE_NEW);
+            Files.writeString(file, "# 版本基线，省略时使用 default。\nbaseline = \"default\"\n# 取值：yes / no / ask；兼容旧值 是 / 否 / 询问。\n# 是否更新大版本（第二段 x 变化）；与通道同时适用，否优先。\nmajorUpdates = \"ask\"\n# 是否更新稳定版（三段版本）。\nstableUpdates = \"yes\"\n# 是否更新测试版（四段版本）。\ntestingUpdates = \"no\"\n\n# 一次性安装缺失的模组。命名基线可用 [\"*\"]，每次启动补齐该基线。\ninstallOnce = []\n", StandardCharsets.UTF_8, StandardOpenOption.CREATE_NEW);
         }
         FilesSupport.regularFile(file);
         try {
             var parsed = new TomlParser().parse(Files.readString(file, StandardCharsets.UTF_8));
-            Object requested = parsed.getOrElse("installOnce", List.of());
+            String baseline = baselineName(parsed.getOrElse("baseline", DEFAULT_BASELINE));
+            Object setting = parsed.getOrElse("installOnce", List.of());
+            Object requested = "*".equals(setting) ? List.of("*") : setting;
+            boolean all = !DEFAULT_BASELINE.equals(baseline) && requested instanceof List<?> list && list.contains("*");
+            List<String> retained = all ? List.of("*") : List.of();
             var journaled=new LinkedHashSet<String>();
             if (launch) {
-                Path pending=pendingFile(game);
+                Path pending=stateDirectory(game,baseline).resolve("install-pending.json");
+                Files.createDirectories(pending.getParent());
                 if (Files.exists(pending,LinkOption.NOFOLLOW_LINKS)) {
                     FilesSupport.regularFile(pending);
                     try(var in=Files.newInputStream(pending)) {
@@ -44,12 +68,13 @@ public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, U
                 if(requested instanceof List<?> list) for(var entry:list)
                     if(entry instanceof String id && UpdateEngine.validModid(id)) journaled.add(id);
                 if(!journaled.isEmpty()) FilesSupport.writeAtomic(pending,new com.google.gson.Gson().toJson(journaled).getBytes(StandardCharsets.UTF_8));
+                if (all) journaled.add("*");
             }
-            if (parsed.contains("installOnce") && (!(requested instanceof List<?> values) || !values.isEmpty())) {
-                parsed.set("installOnce", List.of());
+            if (parsed.contains("installOnce") && !retained.equals(requested)) {
+                parsed.set("installOnce", retained);
                 FilesSupport.writeAtomic(file, new TomlWriter().writeToString(parsed).getBytes(StandardCharsets.UTF_8));
             }
-            Set<String> allowed = Set.of("majorUpdates", "stableUpdates", "testingUpdates", "installOnce", "includeUnstable", "allowMajorUpdates");
+            Set<String> allowed = Set.of("baseline", "majorUpdates", "stableUpdates", "testingUpdates", "installOnce", "includeUnstable", "allowMajorUpdates");
             if (!allowed.containsAll(parsed.valueMap().keySet()) || !(requested instanceof List<?> values)
                     || values.stream().anyMatch(value -> !(value instanceof String))) throw new IOException("Invalid updater settings/installOnce list");
             boolean legacyTesting = legacyBoolean(parsed.get("includeUnstable"));
@@ -63,22 +88,27 @@ public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, U
             if (migrate) {
                 parsed.remove("includeUnstable"); parsed.remove("allowMajorUpdates");
                 parsed.set("majorUpdates", major.configValue()); parsed.set("stableUpdates", stable.configValue()); parsed.set("testingUpdates", testing.configValue());
-                parsed.set("installOnce", List.of());
+                parsed.set("installOnce", retained);
                 parsed.setComment("majorUpdates", "是否更新 x 变化的大版本：yes / no / ask（兼容 是 / 否 / 询问）。与稳定/测试通道同时适用，no 优先。");
                 parsed.setComment("stableUpdates", "是否更新三段稳定版：yes / no / ask（兼容 是 / 否 / 询问）。");
                 parsed.setComment("testingUpdates", "是否更新四段测试版：yes / no / ask（兼容 是 / 否 / 询问）。");
-                parsed.setComment("installOnce", "一次性安装缺失的系列 modid，只选最新稳定版；运行即清空。");
+                parsed.setComment("installOnce", "一次性安装缺失的系列 modid。命名基线可用 [\"*\"]，每次启动补齐该基线。");
                 FilesSupport.writeAtomic(file, new TomlWriter().writeToString(parsed).getBytes(StandardCharsets.UTF_8));
             }
-            return new UpdaterConfig(major, stable, testing, launch?List.copyOf(journaled):((List<?>) requested).stream().map(String.class::cast).distinct().toList());
+            return new UpdaterConfig(major, stable, testing, launch?List.copyOf(journaled):((List<?>) requested).stream()
+                    .map(String.class::cast).filter(id -> all || !id.equals("*")).distinct().toList(), baseline);
         } catch (RuntimeException error) { throw new IOException("Invalid updater configuration: " + file, error); }
     }
-    static void restoreRequests(Path game, Collection<String> pending) throws IOException {
+    void restoreRequests(Path game, Collection<String> pending) throws IOException {
         if (pending.isEmpty()) return;
         Path file=game.resolve("config/thaumcraftupdater.toml");
         var config=new TomlParser().parse(Files.readString(file,StandardCharsets.UTF_8));
-        List<String> existing=config.getOrElse("installOnce",List.of());
-        var ids=new LinkedHashSet<>(existing); ids.addAll(pending);
+        if (!baseline.equals(config.getOrElse("baseline", DEFAULT_BASELINE))) return;
+        Object existing = config.getOrElse("installOnce", List.of());
+        if (!DEFAULT_BASELINE.equals(baseline) && ("*".equals(existing) || existing instanceof List<?> list && list.contains("*"))) return;
+        var ids=new LinkedHashSet<String>();
+        if (existing instanceof List<?> list) for (Object item : list) if (item instanceof String id) ids.add(id);
+        pending.stream().filter(UpdateEngine::validModid).forEach(ids::add);
         config.set("installOnce",List.copyOf(ids));
         FilesSupport.writeAtomic(file,new TomlWriter().writeToString(config).getBytes(StandardCharsets.UTF_8));
     }

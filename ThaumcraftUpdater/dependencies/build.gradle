@@ -1,0 +1,18 @@
+dependencies {
+    selfHelper 'com.google.code.gson:gson:2.10'
+    // All runtime libraries are supplied by Forge's BOOT layer. Never shade them.
+    compileOnly('cpw.mods:modlauncher:10.0.9') { transitive = false }
+    compileOnly('net.minecraftforge:fmlloader:1.20.1-47.4.23') { transitive = false }
+    compileOnly('net.minecraftforge:forgespi:7.0.1') { transitive = false }
+    compileOnly 'com.electronwill.night-config:toml:3.6.4'
+    compileOnly 'com.google.code.gson:gson:2.10'
+    compileOnly 'org.apache.maven:maven-artifact:3.8.5'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
+    testImplementation 'com.electronwill.night-config:toml:3.6.4'
+    testImplementation 'com.google.code.gson:gson:2.10'
+    testImplementation 'org.apache.maven:maven-artifact:3.8.5'
+    constraints {
+        compileOnly 'org.apache.commons:commons-lang3:3.12.0'
+        testImplementation 'org.apache.commons:commons-lang3:3.12.0'
+    }
+}
