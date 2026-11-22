@@ -22,8 +22,8 @@ public class ArcaneCreateContent {
     public static final RegistryObject<RelocationFocusItem> RELOCATION_FOCUS=ThaumicOmniverse.ITEMS.register("focus_relocation",RelocationFocusItem::new);
     public static final RegistryObject<Block> CASING=BLOCKS.register("thaumic_casing",()->new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(3,6).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> MAGNETIC_CASING=BLOCKS.register("thaumic_magnetic_casing",()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3,6).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Item> THAUMIUM_SHEET=ThaumicOmniverse.ITEMS.register("thaumium_sheet",()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> VOID_SHEET=ThaumicOmniverse.ITEMS.register("void_sheet",()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> THAUMIUM_SHEET=ThaumicOmniverse.THAUMIUM_SHEET;
+    public static final RegistryObject<Item> VOID_SHEET=ThaumicOmniverse.VOID_SHEET;
     public static final RegistryObject<ThaumicCrushingWheel> CRUSHING_WHEEL=BLOCKS.register("thaumic_crushing_wheel",ThaumicCrushingWheel::new);
     public static final RegistryObject<BlockEntityType<ThaumicCrushingWheel.WheelTile>> CRUSHING_WHEEL_TILE=TILES.register("thaumic_crushing_wheel",()->BlockEntityType.Builder.of(ThaumicCrushingWheel.WheelTile::new,CRUSHING_WHEEL.get()).build(null));
     public static final RegistryObject<ThaumicCrushingWheel.Controller> CRUSHING_CONTROLLER=BLOCKS.register("thaumic_crushing_controller",ThaumicCrushingWheel.Controller::new);

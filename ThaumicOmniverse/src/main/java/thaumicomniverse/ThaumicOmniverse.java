@@ -5,6 +5,10 @@ public final class ThaumicOmniverse {
     public static final String MOD_ID = "thaumicomniverse";
     public static final net.minecraftforge.registries.DeferredRegister<net.minecraft.world.item.Item> ITEMS =
             net.minecraftforge.registries.DeferredRegister.create(net.minecraftforge.registries.ForgeRegistries.ITEMS, MOD_ID);
+    public static final net.minecraftforge.registries.RegistryObject<net.minecraft.world.item.Item> THAUMIUM_SHEET =
+            ITEMS.register("thaumium_sheet", () -> new net.minecraft.world.item.Item(new net.minecraft.world.item.Item.Properties()));
+    public static final net.minecraftforge.registries.RegistryObject<net.minecraft.world.item.Item> VOID_SHEET =
+            ITEMS.register("void_sheet", () -> new net.minecraft.world.item.Item(new net.minecraft.world.item.Item.Properties()));
     private static final net.minecraftforge.registries.DeferredRegister<net.minecraft.world.item.CreativeModeTab> TABS =
             net.minecraftforge.registries.DeferredRegister.create(net.minecraft.core.registries.Registries.CREATIVE_MODE_TAB, MOD_ID);
     public static final net.minecraftforge.registries.RegistryObject<thaumicomniverse.content.SoulCoreItem> SOUL_CORE = ITEMS.register("soul_core",thaumicomniverse.content.SoulCoreItem::new);

@@ -190,7 +190,7 @@ public final class RevivalFeatures {
         if(name.equals("outerlands_prediction"))return Group.NEURAL;
         if(name.equals("essentia_dynamo"))return Group.THERMAL;
         if(name.equals("alchemical_brass_sheet"))return Group.CREATE;
-        if(java.util.Set.of("thaumic_casing","thaumic_magnetic_casing","thaumium_sheet","void_sheet","arcane_motor","thaumic_hand_crank","empty_arcane_blaze_burner","arcane_blaze_burner","void_sandpaper","portable_essentia_interface","wand_charger","magic_hand","void_backtank","void_backtank_placeable","essentia_stockpile_switch","arcane_suspension_coupler","arcane_kinetic_magnet","arcane_floating_depot","essentia_spout","incomplete_essentia_infusion").contains(name))return Group.CREATE;
+        if(java.util.Set.of("thaumic_casing","thaumic_magnetic_casing","arcane_motor","thaumic_hand_crank","empty_arcane_blaze_burner","arcane_blaze_burner","void_sandpaper","portable_essentia_interface","wand_charger","magic_hand","void_backtank","void_backtank_placeable","essentia_stockpile_switch","arcane_suspension_coupler","arcane_kinetic_magnet","arcane_floating_depot","essentia_spout","incomplete_essentia_infusion").contains(name))return Group.CREATE;
         if(name.equals("soul_core"))return Group.SOUL;
         if(name.equals("ore_cluster"))return Group.UNIVERSAL;
         if(name.contains("essentia_input_hatch")||name.equals("arcane_machine_casing")||name.equals("large_essentia_generator"))return Group.GREGTECH;

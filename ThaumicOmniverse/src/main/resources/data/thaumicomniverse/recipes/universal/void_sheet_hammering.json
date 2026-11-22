@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "gtceu"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:ingots/void"
+    },
+    {
+      "tag": "thaumicomniverse:plate_hammers"
+    }
+  ],
+  "result": {
+    "item": "thaumicomniverse:void_sheet"
+  }
+}
