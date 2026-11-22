@@ -29,7 +29,7 @@ public final class ThaumicFutures {
             LegacyContent.ITEMS.register("thaumium_crowbar",()->new thaumicfutures.compat.railcraft.ArcaneCrowbar(false));
             LegacyContent.ITEMS.register("void_crowbar",()->new thaumicfutures.compat.railcraft.ArcaneCrowbar(true));
         }
-        if(mods.isLoaded("create"))LegacyContent.ITEMS.register("alchemical_brass_sheet",()->new net.minecraft.world.item.Item(new net.minecraft.world.item.Item.Properties()));
+        LegacyContent.ITEMS.register("alchemical_brass_sheet",()->new net.minecraft.world.item.Item(new net.minecraft.world.item.Item.Properties()));
         if(mods.isLoaded("gtceu"))LegacyBrassMaterials.register(bus);
         LegacyContent.ITEMS.register(bus);
         var tabs=net.minecraftforge.registries.DeferredRegister.create(net.minecraft.core.registries.Registries.CREATIVE_MODE_TAB,"thaumicfutures");
