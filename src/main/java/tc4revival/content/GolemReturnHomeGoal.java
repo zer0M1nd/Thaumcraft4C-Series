@@ -7,7 +7,7 @@ public class GolemReturnHomeGoal extends GolemMoveToGoal {
     public GolemReturnHomeGoal(GolemWorkHost host) { super(host); }
     @Override protected BlockPos destination() { return host.home(); }
     @Override protected boolean arrived() {
-        return super.arrived() && (host.configuration().core() != GolemCoreType.ESSENTIA || host.essentiaAmount() > 0
+        return GolemWorkRange.reaches(host, host.home(), 5) && (host.configuration().core() != GolemCoreType.ESSENTIA || host.essentiaAmount() > 0
                 || GolemWorkRange.reaches(host, host.homeInventory(), 6));
     }
 }

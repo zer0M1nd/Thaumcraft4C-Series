@@ -62,6 +62,7 @@ public  class TCConfig {
     }
 
     public enum ResearchObfuscation { DEFAULT, NEVER, ALWAYS, DISTANCE }
+    public enum LegacyTextMode { HIDDEN, HIGHLIGHT, ALL }
     public enum SearchStrategy { DEFAULT, ORIGINAL, TRANSLATED, BOTH }
 
     public static  class Server {
@@ -201,6 +202,7 @@ public  class TCConfig {
         public final RevivalConfig.Option aspectIconTooltips;
         public final RevivalConfig.Option researchTableShortcuts, researchTableAutoConnect;
         public final RevivalConfig.Option maximumResearchBrowser;
+        public final ForgeConfigSpec.EnumValue<LegacyTextMode> legacyTextMode;
         public final RevivalConfig.Option jeiResearch;
         public final ForgeConfigSpec.EnumValue<SearchStrategy> researchTableSearchStrategy;
         public final IntValue researchTableColumn;
@@ -218,6 +220,8 @@ public  class TCConfig {
             var localPreference = new RevivalConfig.Defaults(true, true, true, true);
             researchTableShortcuts = revival.feature("research_table.shortcuts", "允许基础快捷操作；仍受服务端对应功能配置控制。", "Allow basic shortcuts; the corresponding server feature must also be enabled.", localPreference);
             researchTableAutoConnect = revival.feature("research_table.auto_connect", "允许自动连线；仍受服务端功能及研究门槛控制。", "Allow auto-connect; server feature and research requirements still apply.", localPreference);
+            legacyTextMode = builder.comment("手册旧版文本变更显示方式。","Display of revised legacy book text: HIDDEN, HIGHLIGHT, ALL.")
+                    .defineEnum("revival_features.book.legacy_text_changes", LegacyTextMode.HIDDEN);
             researchObfuscation=builder.comment("研究标题混淆：DEFAULT 在 Everything/Easiest 为 NEVER，在 Hardest/Vanilla 为 ALWAYS；DISTANCE 使用距离阈值。", "Title obfuscation: DEFAULT is NEVER in Everything/Easiest, ALWAYS in Hardest/Vanilla; DISTANCE uses the threshold.", "初始 DEFAULT；可选 DEFAULT/NEVER/DISTANCE/ALWAYS；重开界面生效 / Default DEFAULT; allowed DEFAULT/NEVER/DISTANCE/ALWAYS; reopen the screen.").defineEnum("revival_features.book.research_obfuscation",ResearchObfuscation.DEFAULT);
             builder.push("visuals");
             nativeResearchTooltips = builder.comment("研究图标和分页使用原版物品样式提示框；默认开启，关闭后研究图标恢复旧样式。",

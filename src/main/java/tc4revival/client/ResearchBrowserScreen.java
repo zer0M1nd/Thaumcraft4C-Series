@@ -14,7 +14,7 @@ public  class ResearchBrowserScreen extends Screen {
     private final UUID opening;
     private final ResearchBookNavigation navigation;
     private final ReaderFactory reader;
-    private boolean transferring, dragging;
+    private boolean transferring, dragging, settingsOpen;
     private int left, top, categoryPage;
     private ResearchBrowserLayout layout=ResearchBrowserLayout.NORMAL;
     private String tabSelection="";
@@ -57,7 +57,29 @@ public  class ResearchBrowserScreen extends Screen {
     }
     /** Addons which originally provided book search can retain it independently of the core addition. */
     protected boolean searchEnabled() { return thaumcraft.api.research.ResearchPresentation.searchEnabled(TCConfig.SERVER.revival.bookSearch.get()); }
-    private boolean overSizeButton(double x,double y){return TCConfig.SERVER.revival.bookSize.get() && x>=left+layout.width()-66&&x<left+layout.width()-20&&y>=top+2&&y<top+16;}
+    private boolean overSettingsButton(double x,double y){return x>=left+layout.width()-66&&x<left+layout.width()-20&&y>=top+2&&y<top+16;}
+    private static final int SETTINGS_WIDTH = 170, ROW_HEIGHT = 18;
+    private int settingsLeft() { return left + layout.width() - 20 - SETTINGS_WIDTH; }
+    private int settingsRow(double x, double y) {
+        if (x < settingsLeft() || x >= settingsLeft()+SETTINGS_WIDTH || y < top+16) return -1;
+        int row = (int)(y-top-16)/ROW_HEIGHT;
+        return row < 2 ? row : -1;
+    }
+    private void drawSettings(GuiGraphics graphics, int mouseX, int mouseY) {
+        var size = Component.translatable(TCConfig.CLIENT.maximumResearchBrowser.get() && TCConfig.SERVER.revival.bookSize.get()
+                ? "thaumcraft.research.size.maximum" : "thaumcraft.research.size.normal");
+        var mode = TCConfig.CLIENT.legacyTextMode.get();
+        var changes = Component.translatable("thaumcraft.book.changes."+mode.name().toLowerCase(java.util.Locale.ROOT));
+        var rows = List.of(Component.translatable("thaumcraft.book.size",size), Component.translatable("thaumcraft.book.changes",changes));
+        graphics.pose().pushPose(); graphics.pose().translate(0,0,500);
+        for (int i=0; i<rows.size(); i++) {
+            int y=top+16+i*ROW_HEIGHT;
+            boolean enabled=i!=0 || TCConfig.SERVER.revival.bookSize.get();
+            ResearchWidgets.smallButton(graphics,settingsLeft(),y,SETTINGS_WIDTH,ROW_HEIGHT,enabled && settingsRow(mouseX,mouseY)==i);
+            graphics.drawString(font,rows.get(i),settingsLeft()+6,y+5,enabled?0xfff3e4bb:0xff999999,false);
+        }
+        graphics.pose().popPose();
+    }
     private String shortSearchLabel(Component label) {
         String value=label.getString();int available=SEARCH_WIDTH-8;
         return font.width(value)<=available?value:font.plainSubstrByWidth(value,available-font.width("…"))+"…";
@@ -126,7 +148,7 @@ public  class ResearchBrowserScreen extends Screen {
                             .ifPresent(stack -> ResearchMirrorItems.draw(g,stack,x,y)),layout);
             drawSuggestions(graphics,view,mouseX,mouseY);
             view.hit(mouseX - left - 16, mouseY - top - 17, navigation.panX(), navigation.panY()).ifPresent(node -> {
-                if(!overSearchResults(mouseX,mouseY) && suggestionLinks.stream().noneMatch(link -> link.hit(mouseX,mouseY)))hint(node).ifPresent(value -> ResearchNodeTooltip.draw(graphics, font, node, value,
+                if(!settingsOpen && !overSearchResults(mouseX,mouseY) && suggestionLinks.stream().noneMatch(link -> link.hit(mouseX,mouseY)))hint(node).ifPresent(value -> ResearchNodeTooltip.draw(graphics, font, node, value,
                         mouseX, mouseY, width, height, System.currentTimeMillis(),obfuscate(node,view)));
             });
         });
@@ -138,9 +160,11 @@ public  class ResearchBrowserScreen extends Screen {
         }
         if(search!=null)graphics.fill(search.getX()-4,search.getY()-3,search.getX()-4+SEARCH_WIDTH,search.getY()+11,0xC0000000);
         super.render(graphics, mouseX, mouseY, partialTick);
-        if(TCConfig.SERVER.revival.bookSize.get()) {
-            ResearchWidgets.smallButton(graphics,left+layout.width()-66,top+2,46,14,overSizeButton(mouseX,mouseY));
-            graphics.drawCenteredString(font,Component.translatable(TCConfig.CLIENT.maximumResearchBrowser.get()?"thaumcraft.research.size.maximum":"thaumcraft.research.size.normal"),left+layout.width()-43,top+5,0xfff3e4bb);
+        ResearchWidgets.smallButton(graphics,left+layout.width()-66,top+2,46,14,overSettingsButton(mouseX,mouseY));
+        graphics.drawCenteredString(font,Component.translatable("thaumcraft.book.settings"),left+layout.width()-43,top+5,0xfff3e4bb);
+        if (settingsOpen) {
+            drawSettings(graphics,mouseX,mouseY);
+            return;
         }
         if(search!=null&&search.isFocused()&&!search.getValue().isBlank()) {
             graphics.pose().pushPose();graphics.pose().translate(0,0,500);int x=search.getX()-4,y=search.getY()+12;
@@ -227,11 +251,27 @@ public  class ResearchBrowserScreen extends Screen {
     }
     @Override public boolean mouseClicked(double x, double y, int button) {
         if (!ClientBookSession.active(opening)) return false;
+        if (button==0 && overSettingsButton(x,y)) {
+            settingsOpen=!settingsOpen; dragging=false;
+            if (search!=null) search.setFocused(false);
+            return true;
+        }
+        if (settingsOpen) {
+            int row=settingsRow(x,y);
+            if (button==0 && row==0 && TCConfig.SERVER.revival.bookSize.get()) {
+                var size=TCConfig.CLIENT.maximumResearchBrowser; size.set(!size.get());
+                TCConfig.CLIENT_SPEC.save(); rebuildWidgets();
+            } else if (button==0 && row==1) {
+                var modes=TCConfig.LegacyTextMode.values();
+                var mode=TCConfig.CLIENT.legacyTextMode;
+                mode.set(modes[(mode.get().ordinal()+1)%modes.length]); TCConfig.CLIENT_SPEC.save();
+            } else if (row<0) settingsOpen=false;
+            return true;
+        }
         if(button==0)for(var link:suggestionLinks)if(link.hit(x,y)) {
             dragging=false;suggestedTutorial="";navigation.focusExternal(link.key());return true;
         }
         if(queryJei(x,y,com.mojang.blaze3d.platform.InputConstants.Type.MOUSE.getOrCreate(button)))return true;
-        if(button==0&&overSizeButton(x,y)){TCConfig.CLIENT.maximumResearchBrowser.set(!TCConfig.CLIENT.maximumResearchBrowser.get());TCConfig.CLIENT_SPEC.save();rebuildWidgets();return true;}
         if(search!=null) {
             if(overSearchResults(x,y)) {dragging=false;chooseSearch((int)(y-search.getY()-12)/SEARCH_ROW);return true;}
             if(super.mouseClicked(x,y,button)) {dragging=false;return true;}
@@ -335,6 +375,7 @@ public  class ResearchBrowserScreen extends Screen {
         transferring=false;return false;
     }
     @Override public boolean keyPressed(int key, int scan, int modifiers) {
+        if (settingsOpen && key==org.lwjgl.glfw.GLFW.GLFW_KEY_ESCAPE) { settingsOpen=false; return true; }
         double x=minecraft.mouseHandler.xpos()*width/minecraft.getWindow().getScreenWidth();
         double y=minecraft.mouseHandler.ypos()*height/minecraft.getWindow().getScreenHeight();
         if(queryJei(x,y,com.mojang.blaze3d.platform.InputConstants.getKey(key,scan)))return true;

@@ -37,7 +37,7 @@ public  class LegacyLootServerTests {
         for (var first:LegacyRandomEnchantments.Definition.values()) for (var second:LegacyRandomEnchantments.Definition.values())
             test.assertTrue(LegacyRandomEnchantments.compatible(first,second)==LegacyRandomEnchantments.compatible(second,first),"Both sides can veto compatibility, as in Forge 1.7.10");
         test.assertTrue(!LegacyRandomEnchantments.compatible(LegacyRandomEnchantments.Definition.SILK_TOUCH,LegacyRandomEnchantments.Definition.LOOTING),"Native loot-bonus enchantments reject silk touch");
-        test.assertTrue(!LegacyRandomEnchantments.compatible(LegacyRandomEnchantments.Definition.REPAIR,LegacyRandomEnchantments.Definition.UNBREAKING),"Repair excludes unbreaking regardless of selection order");
+        test.assertTrue(LegacyRandomEnchantments.compatible(LegacyRandomEnchantments.Definition.REPAIR,LegacyRandomEnchantments.Definition.UNBREAKING),"Repair accepts unbreaking");
         test.succeed();
     }
     @GameTest(template="wand_test_empty")

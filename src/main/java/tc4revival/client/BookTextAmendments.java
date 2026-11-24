@@ -6,6 +6,7 @@ import java.util.function.*;
 import net.minecraft.network.chat.*;
 import net.minecraft.util.StringDecomposer;
 import tc4revival.research.ResearchAmendments;
+import tc4revival.config.TCConfig.LegacyTextMode;
 
 /** Exact, counted amendments to visible text; never searches tooltip or click payloads. */
 public final class BookTextAmendments {
@@ -16,6 +17,11 @@ public final class BookTextAmendments {
 
     public static List<Component> apply(List<Component> input, JsonArray rules, String key, String locale,
             Function<JsonElement, Component> decode, BiConsumer<String, String> warning) {
+        return apply(input, rules, key, locale, decode, warning, LegacyTextMode.ALL);
+    }
+
+    public static List<Component> apply(List<Component> input, JsonArray rules, String key, String locale,
+            Function<JsonElement, Component> decode, BiConsumer<String, String> warning, LegacyTextMode mode) {
         // Every rule is planned against the same original text. Inserted corrections
         // must never become another rule's input (or shift its original coordinates).
         var flattened = input.stream().map(BookTextAmendments::runs).toList();
@@ -50,14 +56,23 @@ public final class BookTextAmendments {
             if (overlap) {
                 warning.accept(rule.get("id").getAsString(), "Overlapping replacement in " + key); continue;
             }
-            var replacement = decode.apply(ResearchAmendments.styled(rule, translation.get("replace")));
-            // Explicit child styles must not override the provenance colour/tooltip.
-            var decorated = forceStyle(replacement, replacement.getStyle());
+            var replacement = translation.get("replace");
+            Component decorated = decode.apply(replacement);
+            if (mode != LegacyTextMode.HIDDEN) {
+                var styled = decode.apply(ResearchAmendments.styled(rule, replacement));
+                var style = styled.getStyle();
+                if (mode == LegacyTextMode.HIGHLIGHT) {
+                    var details = style.getHoverEvent().getValue(HoverEvent.Action.SHOW_TEXT).copy();
+                    details.append("\n").append(Component.translatable("thaumcraft.book.old_text", find));
+                    style = style.withHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, details));
+                }
+                decorated = forceStyle(styled, style);
+            }
             for (int i = 0; i < matches.size(); i++) for (int start : matches.get(i))
                 edits.get(i).add(new Edit(start, start + find.length(), decorated));
         }
         var result = new ArrayList<Component>();
-        for (int i = 0; i < input.size(); i++) result.add(edits.get(i).isEmpty() ? input.get(i) : replace(flattened.get(i), edits.get(i)));
+        for (int i = 0; i < input.size(); i++) result.add(edits.get(i).isEmpty() ? input.get(i) : replace(flattened.get(i), edits.get(i), mode));
         return List.copyOf(result);
     }
 
@@ -96,13 +111,30 @@ public final class BookTextAmendments {
                 .withStrikethrough(false).withInsertion(CORRECTION)));
         return out;
     }
-    private static Component replace(List<Run> runs, List<Edit> edits) {
+    private static Component replace(List<Run> runs, List<Edit> edits, LegacyTextMode mode) {
         String text = text(runs); var out = Component.empty(); int cursor = 0;
         edits.sort(Comparator.comparingInt(Edit::start));
         for (var edit : edits) {
             slice(out, runs, cursor, edit.start(), false);
-            slice(out, runs, edit.start(), edit.end(), true);
-            out.append(edit.replacement().copy()); cursor = edit.end();
+            if (mode == LegacyTextMode.ALL) slice(out, runs, edit.start(), edit.end(), true);
+            var replacement = edit.replacement().copy();
+            if (mode != LegacyTextMode.ALL) {
+                // A replacement inside a styled link keeps that link. A match that
+                // crosses unrelated links cannot safely inherit either target.
+                Style common = null;
+                int offset = 0;
+                for (var run : runs) {
+                    int end = offset + run.text().length();
+                    if (end > edit.start() && offset < edit.end()) {
+                        if (common == null) common = run.style();
+                        else if (!common.equals(run.style())) { common = null; break; }
+                    }
+                    if (end >= edit.end()) break;
+                    offset = end;
+                }
+                if (common != null) replacement.withStyle(common);
+            }
+            out.append(replacement); cursor = edit.end();
         }
         slice(out, runs, cursor, text.length(), false); return out;
     }

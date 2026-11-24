@@ -64,8 +64,7 @@ public class GolemMobileContainerGoal extends Goal {
         return golem.filters().matchingColors(item,golem.configuration()).stream().anyMatch(c->c==-1||c==marked.color);
     }
     private int wanted(Endpoint home,ItemStack item,GolemCoreType core){
-        if(core!=GolemCoreType.FILL)return golem.configuration().carryLimit();
-        if(golem.filters().isEmpty())return 0;
+        if(core!=GolemCoreType.FILL || golem.filters().isEmpty())return golem.configuration().carryLimit();
         int desired=golem.filters().amountNeeded(item,golem.configuration().upgrades(5)>0);
         return desired<=0?0:golem.configuration().toggle(0)?golem.configuration().carryLimit():Math.max(0,desired-count(home.target.items(),item));
     }
@@ -86,7 +85,7 @@ public class GolemMobileContainerGoal extends Goal {
             var inventory=source.target.items();if(inventory==null)continue;
             for(int slot=0;slot<inventory.getSlots();slot++){
                 var sample=inventory.getStackInSlot(slot);if(sample.isEmpty())continue;
-                if(core==GolemCoreType.FILL&&!color(source,sample)||core!=GolemCoreType.FILL&&core!=GolemCoreType.SORTING&&golem.filters().matchingColors(sample,golem.configuration()).isEmpty())continue;
+                if(core==GolemCoreType.FILL&&!golem.filters().isEmpty()&&!color(source,sample)||core!=GolemCoreType.FILL&&core!=GolemCoreType.SORTING&&golem.filters().matchingColors(sample,golem.configuration()).isEmpty())continue;
                 int limit=Math.min(golem.configuration().carryLimit(),wanted(home,sample,core));if(limit<=0)continue;
                 var extract=inventory.extractItem(slot,limit,true);if(extract.isEmpty())continue;
                 var destination=destination(home,marked,extract,core);if(destination==null)continue;

@@ -59,8 +59,11 @@ public  class ResearchReaderScreen extends Screen {
 
     private long layoutKnowledge=-1;
     private long layoutResources=-1;
+    private tc4revival.config.TCConfig.LegacyTextMode layoutTextMode;
 
     private int left, top;
+    // TC4 draws instability at recipe origin (top - 8) + 194, independent of the title.
+    int recipeFooterY() { return top + 186; }
 
     private boolean returning;
 
@@ -150,8 +153,10 @@ public  class ResearchReaderScreen extends Screen {
         source=amendments.visible(source);
         var language=net.minecraft.locale.Language.getInstance();
 
-        if(source.equals(sourcePages)&&layoutLanguage==language&&layoutKnowledge==ClientKnowledge.revision()
+        var textMode=tc4revival.config.TCConfig.CLIENT.legacyTextMode.get();
+        if(layoutTextMode==textMode && source.equals(sourcePages)&&layoutLanguage==language&&layoutKnowledge==ClientKnowledge.revision()
                 &&layoutResources==BookTextResources.generation())return formattedPages;
+        layoutTextMode=textMode;
         layoutResources=BookTextResources.generation();
 
         layoutKnowledge=ClientKnowledge.revision();

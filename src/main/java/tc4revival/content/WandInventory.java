@@ -32,12 +32,20 @@ public  class WandInventory {
         boolean consumeVis(ItemStack stack, Player player, Map<Aspect, Integer> costs, boolean commit);
     }
     public static boolean consume(Player player, Map<Aspect, Integer> costs) {
+        return consume(player, costs, false);
+    }
+    public static boolean consumeRepair(Player player, Map<Aspect, Integer> costs) {
+        return consume(player, costs, true);
+    }
+    private static boolean consume(Player player, Map<Aspect, Integer> costs, boolean repair) {
         if (player.level().isClientSide) return false;
         for (var stack : wornBaubles(player)) if (stack.getItem() instanceof VisAmulet amulet && amulet.consumeVis(stack, player, costs, true)) return true;
         var items = player.getInventory().items;
         for (int index = items.size() - 1; index >= 0; index--) {
             var stack = items.get(index);
-            if (stack.getItem() instanceof CastingWandItem wand && wand.consumeForPlayer(stack, player, costs, false, true, true)) return true;
+            if (stack.getItem() instanceof CastingWandItem wand && (repair
+                    ? wand.consumeForPlayer(stack, player, costs, false, true, true, true)
+                    : wand.consumeForPlayer(stack, player, costs, false, true, true))) return true;
         }
         return false;
     }

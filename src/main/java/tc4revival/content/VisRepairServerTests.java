@@ -45,26 +45,36 @@ public  class VisRepairServerTests {
     }
     @GameTest(template="wand_test_empty")
     public static void visRepairPaymentOrderAtomicityAndRank(GameTestHelper test) {
-        var player=player(test);var tool=damaged(TCItems.tool(ThaumiumToolType.PICKAXE),5);
+        var player=player(test);var tool=damaged(TCItems.tool(ThaumiumToolType.PICKAXE),4);
         var lower=wand();var higher=wand();player.getInventory().setItem(10,lower);player.getInventory().setItem(35,higher);
         var lowerBefore=lower.copy();var higherBefore=higher.copy();
         var base=ItemAspects.baseSession().base("thaumcraft:thaumium_pickaxe").orElseThrow();
         var primals=TCAspects.catalog().toPrimals(base,AspectCatalog.Reduction.SUM);
         test.assertTrue(primals.size()>1,"Fixture requires a real multi-aspect recipe cost");
         VisRepair.repair(tool,player);
-        test.assertTrue(tool.getDamageValue()==8 && ItemStack.isSameItemSameTags(lower,lowerBefore),"Rank clamps at two and reverse inventory order chooses the last wand");
+        test.assertTrue(tool.getDamageValue()==6 && ItemStack.isSameItemSameTags(lower,lowerBefore),"Rank four restores four durability and reverse inventory order chooses the last wand");
         for(var aspect:primals.aspects()) {
-            int oldCost=(int)Math.sqrt(primals.amount(aspect)*2.0)*2;
-            test.assertTrue(TCItems.CASTING_WAND.get().vis(higherBefore,aspect)-TCItems.CASTING_WAND.get().vis(higher,aspect)==oldCost,"Repair costs use base aspects and centivis without scan enchantment bonuses");
+            int expected=(int)Math.sqrt(primals.amount(aspect)*2.0);
+            test.assertTrue(TCItems.CASTING_WAND.get().vis(higherBefore,aspect)-TCItems.CASTING_WAND.get().vis(higher,aspect)==expected,"Repair costs use base aspects and centivis without scan enchantment bonuses");
         }
         // No donor may partially pay a cost and then fall through to another donor.
         var missing=primals.aspects().iterator().next();higher.getOrCreateTag().putInt(missing.tag(),0);
         player.getInventory().setItem(10,ItemStack.EMPTY);var insufficient=higher.copy();
         VisRepair.repair(tool,player);
-        test.assertTrue(tool.getDamageValue()==8 && ItemStack.isSameItemSameTags(higher,insufficient),"One missing component leaves all charge and durability unchanged");
+        test.assertTrue(tool.getDamageValue()==6 && ItemStack.isSameItemSameTags(higher,insufficient),"One missing component leaves all charge and durability unchanged");
         player.getInventory().setItem(10,lower);VisRepair.repair(tool,player);
-        test.assertTrue(tool.getDamageValue()==6 && ItemStack.isSameItemSameTags(higher,insufficient) && !ItemStack.isSameItemSameTags(lower,lowerBefore),"An insufficient later wand is untouched while the earlier wand pays the complete cost");
-        tool.setDamageValue(1);VisRepair.repair(tool,player);
+        test.assertTrue(tool.getDamageValue()==2 && ItemStack.isSameItemSameTags(higher,insufficient) && !ItemStack.isSameItemSameTags(lower,lowerBefore),"An insufficient later wand is untouched while the earlier wand pays the complete cost");
+        tool.setDamageValue(1);var beforePartial=lower.copy();VisRepair.repair(tool,player);
+        for(var aspect:primals.aspects()) {
+            int full=(int)Math.sqrt(primals.amount(aspect)*2.0);
+            test.assertTrue(WandVis.stored(beforePartial.getTag(),aspect)-WandVis.stored(lower.getTag(),aspect)==(full+3)/4,
+                    "One point at rank four pays one quarter rounded to a centivis");
+        }
+        var repair=TCEnchantments.REPAIR.get();
+        var unbreaking=net.minecraft.world.item.enchantment.Enchantments.UNBREAKING;
+        var mending=net.minecraft.world.item.enchantment.Enchantments.MENDING;
+        test.assertTrue(repair.isCompatibleWith(unbreaking) && unbreaking.isCompatibleWith(repair),"Unbreaking stacks in either order");
+        test.assertTrue(!repair.isCompatibleWith(mending) && !mending.isCompatibleWith(repair),"Mending conflicts in either order");
         test.assertTrue(tool.getDamageValue()==0,"Repair clamps at zero damage");
         var paid=lower.copy();VisRepair.repair(tool,player);
         test.assertTrue(ItemStack.isSameItemSameTags(lower,paid),"Undamaged equipment never consumes charge");

@@ -198,7 +198,7 @@ public final class BookAmendments {
                 value -> BookComponents.decode(value,null,AspectTextColorMode.DARK), (id, reason) -> {
             // One warning per rule/language/reason, even when a page is opened every frame.
             if (warned.add(id + ":" + BookTypography.locale() + ":" + reason)) LOGGER.warn("Book amendment {}: {}", id, reason);
-        });
+        }, tc4revival.config.TCConfig.CLIENT.legacyTextMode.get());
     }
 
     private static JsonElement revise(JsonElement input, JsonArray rules) {
