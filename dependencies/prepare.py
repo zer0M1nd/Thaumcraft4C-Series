@@ -48,7 +48,7 @@ def source_builds(directory, modids):
                     main_section = manifest.split("\n\n", 1)[0].replace("\n ", "")
                     version = next((line.partition(": ")[2] for line in main_section.splitlines()
                                     if line.lower().startswith("implementation-version: ")), "")
-                if not re.fullmatch(r"[0-9]+(?:\.[0-9]+){2,3}", version):
+                if not re.fullmatch(r"(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)(?:\.(?:0|[1-9][0-9]*)(?:\.[1-9][0-9]*)?)?", version):
                     raise ValueError(f"Expected a built series version in {path}: {version}")
                 if modid in found:
                     raise ValueError(f"Provide one main JAR for {modid}: {found[modid][0]} and {path}")
