@@ -1,22 +1,69 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "III",
-    "III",
-    "III"
-  ],
-  "key": {
-    "I": {
-      "item": "thaumcraft:void_ingot"
-    }
-  },
-  "result": {
-    "item": "thaumicomniverse:void_block"
-  },
-  "conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "allthemodium"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "allthemodium"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thaumicbases"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:stonecutting",
+        "ingredient": {
+          "item": "thaumicbases:void_block"
+        },
+        "result": "thaumicomniverse:void_block",
+        "count": 1
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "allthemodium"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "witchinggadgets"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:stonecutting",
+        "ingredient": {
+          "item": "witchinggadgets:void_metal_block"
+        },
+        "result": "thaumicomniverse:void_block",
+        "count": 1
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "allthemodium"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "III",
+          "III",
+          "III"
+        ],
+        "key": {
+          "I": {
+            "item": "thaumcraft:void_ingot"
+          }
+        },
+        "result": {
+          "item": "thaumicomniverse:void_block"
+        }
+      }
     }
   ]
 }

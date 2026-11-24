@@ -18,7 +18,7 @@ public final class VisItemRepair {
     private static int tier(ItemStack stack){return stack.getEnchantmentLevel(TCEnchantments.REPAIR.get());}
     private static AspectAmounts costs(ItemStack stack){
         var base=ItemAspects.baseSession().base(ForgeRegistries.ITEMS.getKey(stack.getItem()).toString()).orElse(null);
-        return base==null?new AspectAmounts():VisRepair.costs(TCAspects.catalog(),base,tier(stack));
+        return base==null?new AspectAmounts():VisRepair.costs(TCAspects.catalog(),base,tier(stack),stack.getDamageValue());
     }
     public static boolean repair(ItemStack stack,Level level,Player player,CompoundTag buffer,ToIntBiFunction<Aspect,Integer> source){
         if(!(level instanceof ServerLevel server)||level.getGameTime()%40!=0||!needsRepair(stack))return false;

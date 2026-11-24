@@ -203,7 +203,7 @@ public final class ArcaneMaterials {
                     ItemAspects.baseSession().base(source).ifPresent(aspects->aspects.view().forEach(base::merge));
                 }
             }
-            if(!base.isEmpty() && vis(player,VisRepair.costs(TCAspects.catalog(),base,level).view(),true))ToolDamageUtil.repair(tool,level);
+            if(!base.isEmpty() && WandInventory.consumeRepair(player,VisRepair.costs(TCAspects.catalog(),base,level,tool.getDamage()).view()))ToolDamageUtil.repair(tool,level);
         }
     }
     public static final class RunicShield extends MaterialUpgrade implements AttributesModifierHook {
