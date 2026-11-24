@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2wtlib"
+    }
+  ],
+  "type": "ae2wtlib:combine",
+  "terminalA": {
+    "item": "ae2:wireless_crafting_terminal"
+  },
+  "terminalB": {
+    "item": "thaumicenergistics:wireless_arcane_terminal"
+  },
+  "terminalAName": "crafting",
+  "terminalBName": "arcane"
+}

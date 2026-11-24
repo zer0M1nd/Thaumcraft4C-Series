@@ -27,14 +27,15 @@ public class WirelessArcaneTerminalItem extends WirelessTerminalItem {
         return new WirelessArcaneHost(player,slot,stack,(p,sm)->openFromInventory(p,slot,true));
     }
     @Override public void inventoryTick(ItemStack stack,net.minecraft.world.level.Level level,net.minecraft.world.entity.Entity entity,int slot,boolean selected){
-        super.inventoryTick(stack,level,entity,slot,selected);
+        if (stack.getItem() == this) super.inventoryTick(stack,level,entity,slot,selected);
+        if (!(stack.getItem() instanceof WirelessTerminalItem carrier)) return;
         if(!temodern.RevivalFeatures.charging()||level.isClientSide||level.getGameTime()%5!=0||!(entity instanceof net.minecraft.server.level.ServerPlayer player)
-                ||!getUpgrades(stack).isInstalled(temodern.TE.MATERIALS.get("vis_charging_card").get()))return;
+                ||!carrier.getUpgrades(stack).isInstalled(temodern.TE.MATERIALS.get("vis_charging_card").get()))return;
         if(player.containerMenu instanceof ArcaneTerminalMenu menu&&menu.usesItem(stack))return;
-        if(!hasPower(player,.5,stack))return;
+        if(!carrier.hasPower(player,.5,stack))return;
         var host=new WirelessArcaneHost(player,slot,stack,(p,sm)->{});
         // A closed terminal still pays for the five ticks of wireless access used to charge its wand.
         double cost=host.inAccessPointRange()?2.5:112.5;
-        if(host.active()&&hasPower(player,cost,stack)){usePower(player,cost,stack);host.charge();}
+        if(host.active()&&carrier.hasPower(player,cost,stack)){carrier.usePower(player,cost,stack);host.charge();}
     }
 }

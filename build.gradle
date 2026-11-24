@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.2.32'
+version = '1.2'
 group='temodern'
 base.archivesName='[TC4Continuation]Thaumic-Energistics'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
@@ -14,9 +14,10 @@ repositories {
 dependencies {
  compileOnly files('dependencies/jars/jei-1.20.1-common-api-15.20.0.106.jar','dependencies/jars/jei-1.20.1-forge-api-15.20.0.106.jar')
  minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
- implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.122'}")
+ implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '4.3'}")
  runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
  implementation fg.deobf('local.te:ae2:15.4.10')
+ compileOnly fg.deobf('local.te:ae2wtlib:15.3.0-forge')
  runtimeOnly fg.deobf('local.te:jei:15.59.0.211')
  runtimeOnly fg.deobf('local.te:guideme:20.1.15')
  runtimeOnly fg.deobf('local.te:curios:5.14.1')

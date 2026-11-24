@@ -50,3 +50,10 @@ mandatory=false
 versionRange="[0,)"
 ordering="NONE"
 side="CLIENT"
+
+[[dependencies.thaumicenergistics]]
+modId="ae2wtlib"
+mandatory=false
+versionRange="[15.3.0,16)"
+ordering="AFTER"
+side="BOTH"

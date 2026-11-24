@@ -34,9 +34,19 @@ public class ArcaneTerminalMenu extends CraftingTermMenu {
     @GuiSync(201) public boolean useInventoryWands;
     @GuiSync(202) public boolean canPayVis;
 
-    public ArcaneTerminalMenu(int id,Inventory inventory,FriendlyByteBuf data){this(id,inventory,MenuLocators.readFromPacket(data).locate(inventory.player,WorkHost.class));}
+    public ArcaneTerminalMenu(int id, Inventory inventory, FriendlyByteBuf data) {
+        this(id, inventory, MenuLocators.readFromPacket(data));
+    }
+    private ArcaneTerminalMenu(int id, Inventory inventory, appeng.menu.locator.MenuLocator locator) {
+        this(id, inventory, locator.locate(inventory.player, WorkHost.class), locator);
+    }
     public ArcaneTerminalMenu(int id,Inventory inventory,WorkHost host){
-        super(WorkMenu.TERMINAL.get(),id,inventory,host,true);machine=host;setLocator(host.locator());
+        this(id, inventory, host, host.locator());
+    }
+    private ArcaneTerminalMenu(int id, Inventory inventory, WorkHost host, appeng.menu.locator.MenuLocator locator) {
+        super(WorkMenu.TERMINAL.get(), id, inventory, host, true);
+        machine = host;
+        setLocator(locator);
         InternalInventory slots=new InternalInventory(){
             public int size(){return host.workstation().inventory.getContainerSize();}
             public ItemStack getStackInSlot(int slot){return host.workstation().inventory.getItem(slot);}
@@ -51,7 +61,7 @@ public class ArcaneTerminalMenu extends CraftingTermMenu {
         resultSlot=(CraftingTermSlot)getSlots(SlotSemantics.CRAFTING_RESULT).get(0);
         addSlot(new AppEngSlot(slots,9),WAND);
         if(!wireless())for(int i=0;i<4;i++)addSlot(new AppEngSlot(slots,18+i),ARMOR);
-        if(host instanceof WirelessArcaneHost wireless){
+        if(host instanceof PortableArcaneHost wireless){
             // MEStorageMenu already exposes the host's upgrades in AE2's native side panel.
             var singularity=new AppEngSlot(wireless.singularity(),0){
                 @Override public boolean mayPlace(ItemStack stack){return stack.is(appeng.core.definitions.AEItems.QUANTUM_ENTANGLED_SINGULARITY.asItem());}
@@ -71,14 +81,18 @@ public class ArcaneTerminalMenu extends CraftingTermMenu {
         }
         updatePreview();
     }
-    public static void open(ServerPlayer player,WorkHost machine){NetworkHooks.openScreen(player,new SimpleMenuProvider((id,inv,p)->new ArcaneTerminalMenu(id,inv,machine),machine.getMainMenuIcon().getHoverName()),buf->MenuLocators.writeToPacket(buf,machine.locator()));}
+    public static void open(ServerPlayer player, WorkHost machine) { open(player, machine, machine.locator()); }
+    public static void open(ServerPlayer player, WorkHost machine, appeng.menu.locator.MenuLocator locator) {
+        NetworkHooks.openScreen(player, new SimpleMenuProvider((id, inv, p) -> new ArcaneTerminalMenu(id, inv, machine, locator),
+                machine.getMainMenuIcon().getHoverName()), buf -> MenuLocators.writeToPacket(buf, locator));
+    }
     public ItemStack wand(){return machine.workstation().inventory.getItem(9);}
-    public boolean wireless(){return machine instanceof WirelessArcaneHost;}
-    public boolean usesItem(ItemStack stack){return machine instanceof WirelessArcaneHost host&&host.getItemStack()==stack;}
+    public boolean wireless(){return machine instanceof PortableArcaneHost;}
+    public boolean usesItem(ItemStack stack){return machine instanceof PortableArcaneHost host&&host.getItemStack()==stack;}
     @Override public appeng.api.networking.IGridNode getNetworkNode(){return machine==null?super.getNetworkNode():machine.getActionableNode();}
     public void inventoryWands(boolean enabled){
         if(isClientSide()){sendClientAction("te_inventory_wands",enabled);return;}
-        if(stillValid(getPlayer())&&machine instanceof WirelessArcaneHost host){host.inventoryWands(enabled);broadcastChanges();}
+        if(stillValid(getPlayer())&&machine instanceof PortableArcaneHost host){host.inventoryWands(enabled);broadcastChanges();}
     }
     public AppEngSlot resultSlot(){return resultSlot;}
     private void updatePreview(){
