@@ -56,7 +56,7 @@ final class ArchiveDownloadFixture {
                     }
                 }
                 if (last != null) {
-                    if (task.item().kind() == DownloadQueue.Kind.OPTIONAL)
+                    if (task.item().kind() == DownloadQueue.Kind.LOGO)
                         results.add(new Result(target.owner(), cache, last.toString(), ""));
                     else throw last;
                 }

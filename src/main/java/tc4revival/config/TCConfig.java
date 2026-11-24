@@ -211,7 +211,12 @@ public  class TCConfig {
         public final IntValue notificationDelay, notificationMax;
         private final IntValue golemLinkQuality;
 
+        public final ForgeConfigSpec.ConfigValue<String> chineseLocalization;
+
         private Client(ForgeConfigSpec.Builder builder) {
+            chineseLocalization = builder.comment("下载中文本地化资源。可填英文或中文。ENABLED / 启用，DISABLED / 禁用，DETECT / 检测（默认，检查网络出口是否在中国大陆）。",
+                    "Download Chinese localization resources. DETECT enables downloads only on a mainland China network.")
+                    .define(tc4revival.download.DownloadPreferences.KEY, "DETECT", value -> tc4revival.download.DownloadPreferences.parse(value).isPresent());
             revival = new RevivalConfig(builder, () -> SERVER.revival.profile());
             jeiResearch = revival.feature("jei.research_queries", "JEI 研究查询、前置页面与魔导手册快捷查询。DEFAULT 跟随聆听指引开关；显式 TRUE/FALSE 优先；需要安装 JEI。", "JEI research queries and book shortcuts. DEFAULT follows listening guidance; explicit TRUE/FALSE takes priority; requires JEI.", () -> SERVER.revival.listeningGuidance.get());
             maximumResearchBrowser = revival.feature("book.maximum_research_browser", "最大化手册视图；游戏内尺寸按钮保存显式偏好。", "Maximize the book; the in-game size button saves an explicit preference.", new RevivalConfig.Defaults(false, false, false, false));

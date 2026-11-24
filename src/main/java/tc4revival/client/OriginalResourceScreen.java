@@ -11,8 +11,10 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.*;
 
+@net.minecraftforge.fml.common.Mod.EventBusSubscriber(modid = "thaumcraft", value = net.minecraftforge.api.distmarker.Dist.CLIENT)
 public final class OriginalResourceScreen {
-    private static boolean opened, warned;
+    private static boolean completed, warned;
+    private static Screen active;
 
     private static void showWarnings() {
         var warnings = ResourceLoadingState.warnings();
@@ -28,21 +30,47 @@ public final class OriginalResourceScreen {
     }
 
     public static boolean beforeInitialScreen(Runnable continuation) {
-        if (opened) return false;
-        var tasks = OriginalDownloadBootstrap.pending();
-        String error = OriginalDownloadBootstrap.discoveryError();
-        if (tasks.isEmpty() && error == null && !ResourceLoadingState.missing()) {
-            showWarnings();
-            return false;
-        }
-        opened = true;
-        if (tasks.isEmpty()) tasks = List.of(repairTask());
-        Minecraft.getInstance().setScreen(screen(continuation, tasks));
+        Screen gate = gate(continuation);
+        if (gate == null) return false;
+        Minecraft.getInstance().setScreen(gate);
         return true;
     }
 
-    private static DownloadQueue.Task repairTask() {
+    // Forge's loading-warning screen opens the title screen directly, bypassing setInitialScreen.
+    @net.minecraftforge.eventbus.api.SubscribeEvent(priority = net.minecraftforge.eventbus.api.EventPriority.LOWEST)
+    public static void opening(net.minecraftforge.client.event.ScreenEvent.Opening event) {
+        Screen next = event.getNewScreen();
+        if (next instanceof net.minecraft.client.gui.screens.TitleScreen
+                || next instanceof net.minecraft.client.gui.screens.AccessibilityOnboardingScreen) {
+            Screen gate = gate(() -> Minecraft.getInstance().setScreen(next));
+            if (gate != null) event.setNewScreen(gate);
+        }
+    }
+
+    private static Screen gate(Runnable continuation) {
+        if (completed) return null;
+        if (active != null) return active;
+        var tasks = OriginalDownloadBootstrap.pending();
+        String error = OriginalDownloadBootstrap.discoveryError();
+        if (tasks.isEmpty() && error == null && !ResourceLoadingState.missing()) {
+            completed = true;
+            showWarnings();
+            return null;
+        }
+        if (tasks.isEmpty() || error != null) {
+            tasks = new ArrayList<>(tasks);
+            tasks.add(repairTask(error != null ? error : ResourceLoadingState.details()));
+        }
+        return screen(() -> {
+            completed = true;
+            active = null;
+            continuation.run();
+        }, tasks, false);
+    }
+
+    private static DownloadQueue.Task repairTask(String problem) {
         return new DownloadQueue.Task() {
+            private boolean reported;
             public DownloadQueue.Item item() {
                 return new DownloadQueue.Item(
                         "resource-check",
@@ -56,11 +84,17 @@ public final class OriginalResourceScreen {
                         List.of());
             }
 
-            public DownloadQueue.Prepared local() throws IOException {
+            private List<DownloadQueue.Task> followUp = List.of();
+            public List<DownloadQueue.Task> followUp() { return followUp; }
+            public DownloadQueue.Prepared check() throws IOException {
+                if (!reported) {
+                    reported = true;
+                    throw new IOException(problem);
+                }
                 OriginalDownloadBootstrap.discover();
                 if (OriginalDownloadBootstrap.discoveryError() != null)
                     throw new IOException(OriginalDownloadBootstrap.discoveryError());
-                return () -> "";
+                return () -> { followUp = OriginalDownloadBootstrap.pending(); return ""; };
             }
 
             public DownloadQueue.Prepared download(URI uri, DownloadQueue.Progress progress) {
@@ -69,10 +103,10 @@ public final class OriginalResourceScreen {
         };
     }
 
-    private static Screen screen(Runnable continuation, List<DownloadQueue.Task> tasks) {
+    private static Screen screen(Runnable continuation, List<DownloadQueue.Task> tasks, boolean previouslyAcceptedMissing) {
         var queue = new DownloadQueue(tasks);
         var mc = Minecraft.getInstance();
-        return new DownloadScreen(
+        active = new DownloadScreen(
                 new DownloadScreen.Controller() {
                     public String snapshot() {
                         return queue.snapshot();
@@ -87,40 +121,30 @@ public final class OriginalResourceScreen {
                             if (!queue.ready()) return false;
                             queue.close();
                         }
-                        if (tasks.stream().anyMatch(t -> t.item().id().equals("resource-check"))
-                                && !OriginalDownloadBootstrap.pending().isEmpty()) {
-                            mc.setScreen(screen(continuation, OriginalDownloadBootstrap.pending()));
+                        var followUp = tasks.stream().filter(t -> !queue.skipped(t.item().id()))
+                                .flatMap(t -> t.followUp().stream()).toList();
+                        boolean acceptedMissing = previouslyAcceptedMissing || tasks.stream().anyMatch(t -> t.item().kind() == DownloadQueue.Kind.RESOURCE && queue.skipped(t.item().id()));
+                        if (!followUp.isEmpty()) {
+                            mc.setScreen(screen(continuation, followUp, acceptedMissing));
                             return true;
                         }
                         showWarnings();
-                        ResourceLoadingState.clear();
-                        mc.reloadResourcePacks()
-                                .whenComplete(
-                                        (ok, error) ->
-                                                mc.execute(
-                                                        () -> {
-                                                            if (error != null)
-                                                                ResourceLoadingState.failure(
-                                                                        Objects.toString(
-                                                                                error.getMessage(),
-                                                                                error.toString()));
-                                                            if (ResourceLoadingState.missing()) {
-                                                                OriginalDownloadBootstrap
-                                                                        .discover();
-                                                                var retry =
-                                                                        OriginalDownloadBootstrap
-                                                                                .pending();
-                                                                mc.setScreen(
-                                                                        screen(
-                                                                                continuation,
-                                                                                retry.isEmpty()
-                                                                                        ? List.of(
-                                                                                                repairTask())
-                                                                                        : retry));
-                                                            } else continuation.run();
-                                                        }));
+                        reload(continuation, acceptedMissing);
                         return true;
                     }
                 });
+        return active;
+    }
+
+    private static void reload(Runnable continuation, boolean acceptedMissing) {
+        var mc = Minecraft.getInstance();
+        ResourceLoadingState.clear();
+        mc.reloadResourcePacks().whenComplete((ok, error) -> mc.execute(() -> {
+            if (error != null) ResourceLoadingState.failure(Objects.toString(error.getMessage(), error.toString()));
+            if (ResourceLoadingState.missing() && !acceptedMissing) {
+                var repair = repairTask(ResourceLoadingState.details());
+                mc.setScreen(screen(continuation, List.of(repair), false));
+            } else continuation.run();
+        }));
     }
 }

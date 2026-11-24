@@ -23,7 +23,7 @@ public class I18nUpdateBridge {
         config.getMethod("getAssetDetail", String.class, String.class);
     }
     public static Optional<I18nUpdateBridge> find() throws ReflectiveOperationException {
-        try { return Optional.of(new I18nUpdateBridge(Class.forName("i18nupdatemod.core.I18nConfig"))); }
+        try { return Optional.of(new I18nUpdateBridge(Class.forName("i18nupdatemod.core.I18nConfig", false, I18nUpdateBridge.class.getClassLoader()))); }
         catch (ClassNotFoundException absent) {
             // I18nUpdateMod is a ModLauncher transformation service, absent from Forge's ModList.
             var pending = new ArrayDeque<ModuleLayer>();
@@ -56,7 +56,7 @@ public class I18nUpdateBridge {
                 var entry = value.getAsJsonObject();
                 Path file = child(root, entry.get("file").getAsString());
                 validateZip(file);
-                if (!OriginalResources.sha256(Files.readAllBytes(file)).equals(entry.get("sha256").getAsString()))
+                if (!md5(file).equals(entry.get("md5").getAsString()) || !OriginalResources.sha256(Files.readAllBytes(file)).equals(entry.get("sha256").getAsString()))
                     throw new IOException("Damaged cached legacy translation archive");
                 result.add(file);
             }
@@ -80,18 +80,6 @@ public class I18nUpdateBridge {
             result.add(new Asset(name,uri,expected,(String)type.getField("targetVersion").get(asset)));
         }
         return List.copyOf(result);
-    }
-    static boolean stale(Path game,Asset asset,Path file) throws IOException {
-        Path index=cache(game).resolve(INDEX);
-        if(!Files.isRegularFile(index)) return false;
-        try {
-            for(var elem:JsonParser.parseString(Files.readString(index)).getAsJsonObject().getAsJsonArray("downloads")) {
-                var entry=elem.getAsJsonObject();
-                if(asset.name().equals(entry.get("file").getAsString()) && !asset.md5().equals(entry.get("md5").getAsString())
-                        && OriginalResources.sha256(Files.readAllBytes(file)).equals(entry.get("sha256").getAsString())) return true;
-            }
-        } catch(RuntimeException ignored) {}
-        return false;
     }
     static synchronized void record(Path game,Asset asset,Path file) throws IOException {
         Path index=cache(game).resolve(INDEX);

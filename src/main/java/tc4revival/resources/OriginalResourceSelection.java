@@ -15,10 +15,18 @@ public  class OriginalResourceSelection {
                        OriginalResources.Snapshot automatic) {}
 
     public static Scan scan(Path gameDirectory, Map<String, String> mapping) throws IOException {
+        return scan(gameDirectory, mapping, java.util.Set.of(OriginalResources.REFERENCE_SHA256));
+    }
+
+    public static Scan scan(Path gameDirectory, Map<String,String> mapping, java.util.Set<String> accepted) throws IOException {
         var usable = new ArrayList<OriginalResources.Snapshot>();
         var errors = new ArrayList<String>();
         for (Path file : OriginalResources.candidates(gameDirectory.resolve("thaumcraft"))) {
-            try { usable.add(OriginalResources.read(file, mapping)); }
+            try {
+                var candidate = OriginalResources.read(file, mapping);
+                if (accepted.contains(candidate.sha256())) usable.add(candidate);
+                else errors.add(file.getFileName() + ": SHA-256 mismatch");
+            }
             catch (IOException failure) { errors.add(file.getFileName() + ": " + failure.getMessage()); }
         }
         var known = usable.stream().filter(OriginalResources.Snapshot::reference).toList();
@@ -35,9 +43,7 @@ public  class OriginalResourceSelection {
                         candidate.file().toString().equals(remembered.getProperty("file"))
                         && candidate.sha256().equals(remembered.getProperty("sha256"))).findFirst().orElse(null);
             }
-            // Complete local variants remain usable even if every archive hash
-            // differs. A stale remembered choice must not turn them into a
-            // missing-resource error; prefer the stable candidate order.
+            // All candidates have a declared digest. A stale selection falls back to filename order.
             if (automatic == null) automatic = usable.get(0);
         }
         return new Scan(List.copyOf(usable), List.copyOf(errors), automatic);

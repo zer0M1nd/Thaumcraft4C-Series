@@ -16,7 +16,9 @@ public final class OriginalDownloadBootstrap {
             new java.util.concurrent.atomic.AtomicBoolean();
 
     public static synchronized List<DownloadQueue.Task> pending() {
-        return pending == null ? List.of() : pending;
+        // Some startup paths register pack finders before the Forge hook. Recheck once the mod list is available.
+        if (pending == null) discover();
+        return pending;
     }
 
     public static synchronized String discoveryError() {
@@ -48,6 +50,7 @@ public final class OriginalDownloadBootstrap {
         var missing = new ArrayList<DownloadQueue.Task>();
         discoveryError = null;
         try {
+            boolean chinese = tc4revival.download.DownloadPreferences.chinese(game);
             var targets = OriginalDownloadTargets.installed();
             var owners = LegacyModLogo.primarySourceOwners();
             var logos = new HashSet<String>();
@@ -64,8 +67,8 @@ public final class OriginalDownloadBootstrap {
                                 target,
                                 logos.contains(
                                         ProcessedOriginalResources.directoryName(
-                                                target.legacyModId(), target.minecraftVersion()))));
-            LegacyLocalizationLoading.collect(game, missing);
+                                                target.legacyModId(), target.minecraftVersion())), chinese));
+            LegacyLocalizationLoading.collect(game, missing, chinese);
         } catch (Exception e) {
             discoveryError = Objects.toString(e.getMessage(), e.toString());
             ResourceLoadingState.failure(discoveryError);

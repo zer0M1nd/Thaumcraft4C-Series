@@ -27,11 +27,16 @@ public class ExternalResourceLoading {
         var logos = new HashMap<String,byte[]>();
         try {
             var mapping=OriginalResources.mappings();
-            var scan=OriginalResourceSelection.scan(game,mapping);
+            var requirements = AddonResourceRequirements.installed();
+            var hashes = new HashSet<>(OriginalDownloadTargets.base(mapping).sources().hashes().values());
+            for (var req : requirements) if ("Thaumcraft".equals(req.legacyModId()) && "1.7.10".equals(req.minecraftVersion())) {
+                hashes.add(req.sha256());
+                hashes.addAll(req.sources().hashes().values());
+            }
+            var scan=OriginalResourceSelection.scan(game,mapping,hashes);
             var source=scan.automatic();
             if(source==null)ResourceLoadingState.failure("Thaumcraft 4.2.3.5: required resources are missing or damaged.\nhttps://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2227552");
             else {
-                if(!source.reference())ResourceLoadingState.warning("Thaumcraft 4: SHA-256 differs from reference: "+source.sha256());
                 var cache=ExternalResourceCache.prepare(game,source,mapping);
                 var allowed=new HashSet<>(mapping.keySet());allowed.addAll(DeepslateOreTextures.paths());
                 mapping.keySet().stream().filter(p->p.endsWith(".png")).forEach(p->allowed.add(p+".mcmeta"));
@@ -39,7 +44,6 @@ public class ExternalResourceLoading {
                 add(consumer,PACK_ID,"Thaumcraft 4 original resources",cache,allowed);
                 LOGGER.info("Loaded original TC4 assets from {} (SHA-256 {})",source.file(),source.sha256());
             }
-            var requirements = AddonResourceRequirements.installed();
             var primary = new HashMap<String,AddonResourceRequirements.Requirement>();
             var logoOwners = LegacyModLogo.primarySourceOwners();
             for (var requirement : requirements) {
