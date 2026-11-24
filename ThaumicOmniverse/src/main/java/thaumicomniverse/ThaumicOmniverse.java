@@ -79,7 +79,7 @@ public final class ThaumicOmniverse {
             if(net.minecraftforge.fml.ModList.get().isLoaded("create"))thaumicomniverse.compat.create.AuraDrops.setup();
             if(net.minecraftforge.fml.ModList.get().isLoaded("create")){
                 thaumicomniverse.compat.create.CreateDevices.setup();
-                thaumcraft.api.crafting.MagicRecipeProviders.registerCrucible("thaumicomniverse:assembly",0,thaumicomniverse.compat.create.AssemblyCrucibleRecipe::find);
+                thaumcraft.api.crafting.MagicRecipeProviders.registerCrucible("thaumicomniverse:assembly",0,thaumicomniverse.compat.create.AssemblyCrucibleRecipe::candidate);
                 thaumcraft.api.crafting.MagicRecipeProviders.registerInfusion("thaumicomniverse:assembly",0,thaumicomniverse.compat.create.AssemblyInfusionRecipe::find);
             }
             thaumcraft.api.research.ResearchDataContributors.register("thaumicomniverse:research",0,thaumcraft.api.research.ResearchDataContributors.Phase.BEFORE_ADDITIONS,source->{
