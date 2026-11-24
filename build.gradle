@@ -1,7 +1,7 @@
 plugins { id 'java' }
 
 group = 'dev.tc4.updater'
-version = '0.2.7'
+version = '0.2.7.1'
 base.archivesName = '[TC4Continuation]ThaumcraftUpdater'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
@@ -59,6 +59,6 @@ tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps = fal
 tasks.register('startupDownloadSources', Zip) {
     archiveFileName = 'startup-download-sources.zip'
     destinationDirectory = layout.buildDirectory.dir('distributions')
-    from('src/main/java') { include 'dev/tc4/download/DownloadQueue.java' }
+    from('src/main/java') { include 'dev/tc4/download/*.java' }
     from('clientui/src/main/java') { include 'dev/tc4/download/ui/DownloadScreen.java' }
 }

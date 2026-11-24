@@ -4,6 +4,8 @@ import com.google.gson.Gson;
 
 import java.io.*;
 import java.net.URI;
+import java.nio.file.*;
+import java.security.*;
 import java.util.*;
 import java.util.concurrent.*;
 
@@ -16,7 +18,8 @@ public final class DownloadQueue implements AutoCloseable {
         RESOURCE,
         UPDATE,
         INSTALL,
-        OPTIONAL
+        OPTIONAL,
+        LOGO
     }
 
     public record Item(
@@ -26,6 +29,7 @@ public final class DownloadQueue implements AutoCloseable {
             String directory,
             Kind kind,
             List<URI> links,
+            List<ManualLink> manualLinks,
             String changelog) {
         public Item(
                 String id,
@@ -34,11 +38,12 @@ public final class DownloadQueue implements AutoCloseable {
                 String directory,
                 Kind kind,
                 List<URI> links) {
-            this(id, name, detail, directory, kind, links, null);
+            this(id, name, detail, directory, kind, links, List.of(), null);
         }
 
         public Item {
             links = List.copyOf(new LinkedHashSet<>(links));
+            manualLinks = List.copyOf(manualLinks);
         }
     }
 
@@ -59,9 +64,38 @@ public final class DownloadQueue implements AutoCloseable {
         /**
          * Return null if the player has not supplied a usable file. Never access the network here.
          */
-        Prepared local() throws IOException;
+        default Prepared local() throws IOException { return null; }
+
+        /** Only user-selected bytes may satisfy this path. Return null for another item's file. */
+        default Prepared dropped(DroppedFile file) throws IOException { return null; }
+
+        /** A local discovery retry or a catalog check can have no artifact URLs. */
+        default Prepared check() throws IOException { return null; }
+
+        default List<Task> followUp() { return List.of(); }
 
         Prepared download(URI link, Progress progress) throws IOException;
+    }
+
+    public record DroppedFile(Path path, long size, String sha256, String md5) {
+        static DroppedFile read(Path path) throws IOException {
+            final long limit = 128L * 1024 * 1024;
+            if (!Files.isRegularFile(path, LinkOption.NOFOLLOW_LINKS) || Files.size(path) > limit)
+                throw new IOException("Expected a regular file of at most 128 MiB");
+            try (var in = Files.newInputStream(path)) {
+                var sha = MessageDigest.getInstance("SHA-256");
+                var md5 = MessageDigest.getInstance("MD5");
+                byte[] buffer = new byte[65536];
+                long size = 0;
+                for (int n; (n = in.read(buffer)) != -1;) {
+                    size += n;
+                    if (size > limit) throw new IOException("File exceeds size limit");
+                    sha.update(buffer, 0, n);
+                    md5.update(buffer, 0, n);
+                }
+                return new DroppedFile(path, size, HexFormat.of().formatHex(sha.digest()), HexFormat.of().formatHex(md5.digest()));
+            } catch (NoSuchAlgorithmException impossible) { throw new AssertionError(impossible); }
+        }
     }
 
     private enum State {
@@ -81,7 +115,7 @@ public final class DownloadQueue implements AutoCloseable {
         State state = State.QUEUED;
         long received, total = -1;
         int source, generation;
-        boolean running;
+        boolean running, failed;
         String message = "";
 
         Row(Task task) {
@@ -94,8 +128,9 @@ public final class DownloadQueue implements AutoCloseable {
     private final List<Row> rows;
     private final ExecutorService transfers =
             Executors.newCachedThreadPool(r -> daemon(r, "Startup download"));
-    private final ScheduledExecutorService detector =
-            Executors.newSingleThreadScheduledExecutor(r -> daemon(r, "Startup file check"));
+    private final ExecutorService drops = Executors.newSingleThreadExecutor(r -> daemon(r, "Startup file drop"));
+    private int pendingDrops;
+    private String dropMessage = "";
     private final Gson json = new Gson();
     private boolean started, manual, closed;
 
@@ -110,16 +145,23 @@ public final class DownloadQueue implements AutoCloseable {
     }
 
     public synchronized boolean ready() {
-        return rows.stream().allMatch(r -> r.state == State.DONE || r.state == State.SKIPPED);
+        return pendingDrops == 0 && rows.stream().allMatch(r -> r.state == State.DONE || omitted(r));
     }
 
     public synchronized boolean skipped(String id) {
-        return rows.stream().anyMatch(r -> r.item.id().equals(id) && r.state == State.SKIPPED);
+        return rows.stream().anyMatch(r -> r.item.id().equals(id) && omitted(r));
+    }
+
+    private static boolean omitted(Row r) {
+        return r.state == State.FAILED || r.state == State.SKIPPED;
+    }
+
+    private static boolean issue(Row r) {
+        return omitted(r) && (r.failed || r.item.kind() == Kind.INSTALL || r.item.kind() == Kind.RESOURCE);
     }
 
     public synchronized boolean needsConfirmation() {
-        return rows.stream()
-                .anyMatch(r -> r.state == State.SKIPPED && r.item.kind() == Kind.INSTALL);
+        return rows.stream().anyMatch(r -> issue(r) && r.item.kind() != Kind.OPTIONAL);
     }
 
     public synchronized String snapshot() {
@@ -135,6 +177,7 @@ public final class DownloadQueue implements AutoCloseable {
                             r.received,
                             "total",
                             r.total,
+                            "issue", issue(r),
                             "source",
                             r.source,
                             "message",
@@ -147,6 +190,7 @@ public final class DownloadQueue implements AutoCloseable {
                         ready(),
                         "auto",
                         started && !manual && ready(),
+                        "dropMessage", dropMessage,
                         "confirm",
                         needsConfirmation()));
     }
@@ -160,9 +204,14 @@ public final class DownloadQueue implements AutoCloseable {
                         System.Logger.Level.INFO,
                         "Startup download window visible ({0} items)",
                         rows.size());
-                detector.scheduleAtFixedRate(this::checkFiles, 5, 5, TimeUnit.SECONDS);
                 schedule();
             }
+            return;
+        }
+        if (action.equals("drop")) {
+            manual = true;
+            pendingDrops++;
+            drops.execute(() -> acceptDrop(id));
             return;
         }
         if (!started) return;
@@ -182,6 +231,7 @@ public final class DownloadQueue implements AutoCloseable {
                     if (r.state == State.FAILED
                             || r.state == State.CANCELLED
                             || r.state == State.SKIPPED) {
+                        manual = true;
                         r.state = State.QUEUED;
                         r.message = "";
                         r.received = 0;
@@ -199,7 +249,7 @@ public final class DownloadQueue implements AutoCloseable {
                     }
                 }
                 case "skip" -> {
-                    if (r.item.kind() != Kind.RESOURCE
+                    if ((r.item.kind() != Kind.RESOURCE || r.state == State.FAILED || r.state == State.CANCELLED)
                             && r.state != State.DONE
                             && r.state != State.PREPARING) {
                         r.generation++;
@@ -216,7 +266,7 @@ public final class DownloadQueue implements AutoCloseable {
     }
 
     private void schedule() {
-        if (closed) return;
+        if (closed || !started || pendingDrops > 0) return;
         int active =
                 (int)
                         rows.stream()
@@ -282,12 +332,22 @@ public final class DownloadQueue implements AutoCloseable {
                 }
                 return;
             }
+            if (r.item.links().isEmpty()) {
+                try (Prepared result = r.task.check()) {
+                    if (result != null) {
+                        if (reserve(r, generation, false)) finish(r, result);
+                        return;
+                    }
+                }
+            }
             throw new IOException(errors.isEmpty() ? "没有可自动下载的地址" : String.join(" / ", errors));
         } catch (IOException | RuntimeException ex) {
             synchronized (this) {
                 if (!closed && generation == r.generation) {
                     r.message = reason(ex);
                     r.state = State.FAILED;
+                    r.failed = true;
+                    LOG.log(System.Logger.Level.WARNING, r.item.name() + ": " + r.message);
                     manual = true;
                 }
             }
@@ -325,32 +385,42 @@ public final class DownloadQueue implements AutoCloseable {
             synchronized (this) {
                 r.message = Objects.toString(warning, "");
                 r.state = State.DONE;
+                r.failed = false;
             }
         } catch (IOException | RuntimeException ex) {
             synchronized (this) {
                 r.message = reason(ex);
                 r.state = State.FAILED;
+                r.failed = true;
+                LOG.log(System.Logger.Level.WARNING, r.item.name() + ": " + r.message);
                 manual = true;
             }
         }
     }
 
-    private void checkFiles() {
-        for (var r : rows) {
-            int generation;
-            synchronized (this) {
-                if (closed) return;
-                if (r.state == State.DONE || r.state == State.PREPARING) continue;
-                generation = r.generation;
+    private void acceptDrop(String path) {
+        boolean matched = false;
+        try {
+            var file = DroppedFile.read(Path.of(path));
+            for (var r : rows) {
+                int generation;
+                synchronized (this) {
+                    if (closed) return;
+                    if (r.state == State.DONE || r.state == State.PREPARING) continue;
+                    generation = r.generation;
+                }
+                try (var local = r.task.dropped(file)) {
+                    if (local != null && reserve(r, generation, true)) {
+                        finish(r, local);
+                        matched = true;
+                    }
+                }
             }
-            try (var local = r.task.local()) {
-                if (local != null && reserve(r, generation, true)) finish(r, local);
-            } catch (IOException | RuntimeException ignored) {
-                /* The player may still be copying the file. */
-            }
-        }
-        synchronized (this) {
-            schedule();
+            synchronized (this) { dropMessage = matched ? "" : "哈希与待下载项目不匹配 / No pending item matches this file's checksum"; }
+        } catch (IOException | RuntimeException e) {
+            synchronized (this) { dropMessage = reason(e); }
+        } finally {
+            synchronized (this) { pendingDrops--; schedule(); }
         }
     }
 
@@ -359,6 +429,7 @@ public final class DownloadQueue implements AutoCloseable {
         for (var row : rows)
             if (row.state == State.DONE) {
                 row.state = State.FAILED;
+                row.failed = true;
                 row.message = message;
             }
     }
@@ -366,7 +437,7 @@ public final class DownloadQueue implements AutoCloseable {
     public void awaitWorkers() throws IOException {
         try {
             if (!transfers.awaitTermination(15, TimeUnit.SECONDS)
-                    || !detector.awaitTermination(15, TimeUnit.SECONDS))
+                    || !drops.awaitTermination(15, TimeUnit.SECONDS))
                 throw new IOException("Download workers are still releasing temporary files");
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
@@ -379,6 +450,6 @@ public final class DownloadQueue implements AutoCloseable {
         closed = true;
         notifyAll();
         transfers.shutdownNow();
-        detector.shutdownNow();
+        drops.shutdownNow();
     }
 }

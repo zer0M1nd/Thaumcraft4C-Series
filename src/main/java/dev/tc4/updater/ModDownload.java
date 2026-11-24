@@ -1,172 +1,80 @@
 package dev.tc4.updater;
 
-import dev.tc4.download.DownloadQueue;
-
+import dev.tc4.download.*;
 import java.io.*;
 import java.net.URI;
 import java.nio.file.*;
-import java.nio.file.attribute.BasicFileAttributes;
 import java.util.*;
-import java.util.function.Consumer;
 
-/** Stages a verified network response or the actual bytes of a player-supplied release. */
+/** Only verified private copies enter the mods transaction. The dropped original stays in place. */
 final class ModDownload implements DownloadQueue.Task {
     private final ReleaseApi api;
     private final ReleaseApi.Release release;
-    private final Path mods, directory;
+    private final Path directory;
     private final DownloadQueue.Item item;
-    private final InstalledFiles files;
-    private final Consumer<String> log;
-    private Path prepared;
-    private Path manual;
-    private String hash;
+    private Path prepared, inMods;
+    private ReleaseApi.Source selected;
 
-    ModDownload(
-            ReleaseApi api,
-            ReleaseApi.Release release,
-            String name,
-            String current,
-            Path directory,
-            InstalledFiles files,
-            Consumer<String> log) {
+    ModDownload(ReleaseApi api, ReleaseApi.Release release, String name, String current, Path directory, Path mods,
+                boolean chinese) {
         this.api = api;
         this.release = release;
-        this.mods = files.mods;
         this.directory = directory;
-        this.files = files;
-        this.log = log;
-        String detail = current == null ? release.version() : current + " → " + release.version();
-        this.item =
-                new DownloadQueue.Item(
-                        release.modid(),
-                        name,
-                        detail,
-                        mods.toString(),
-                        current == null ? DownloadQueue.Kind.INSTALL : DownloadQueue.Kind.UPDATE,
-                        api.links(release),
-                        release.url()
-                                .resolve("/docs/changelogs/" + release.modid() + ".html")
-                                .toString());
+        this.item = new DownloadQueue.Item(release.modid(), name,
+                current == null ? release.version() : current + " → " + release.version(), mods.toString(),
+                current == null ? DownloadQueue.Kind.INSTALL : DownloadQueue.Kind.UPDATE, api.links(release),
+                ManualLink.ordered(api.manualPages(release), chinese), release.url().resolve("/docs/changelogs/" + release.modid() + ".html").toString());
     }
 
-    @Override
-    public DownloadQueue.Item item() {
-        return item;
+    public DownloadQueue.Item item() { return item; }
+    Path staged() { return prepared; }
+    Path inMods() { return inMods; }
+
+    ReleaseApi.Release verifiedRelease() {
+        return new ReleaseApi.Release(release.modid(), release.version(), release.filename(),
+                selected.sha256(), selected.size(), selected.url());
     }
 
-    Path staged() {
-        return prepared;
-    }
-
-    Path manual() {
-        return manual;
-    }
-
-    String hash() {
-        return hash;
-    }
-
-    @Override
-    public DownloadQueue.Prepared local() throws IOException {
-        for (var named : files.matching(release.modid(), release.version())) {
-            Path copy = Files.createTempFile(directory, "manual-", ".part");
-            try {
-                Files.copy(named, copy, StandardCopyOption.REPLACE_EXISTING);
-                UpdateEngine.requireCandidate(ModMetadata.read(copy), release);
-                return result(copy, named, FilesSupport.sha256(copy));
-            } catch (IOException ex) {
-                Files.deleteIfExists(copy);
-            }
+    public DownloadQueue.Prepared dropped(DownloadQueue.DroppedFile file) throws IOException {
+        var expected = release.matching(file.sha256(), file.size());
+        if (expected == null) return null;
+        Path copy = Files.createTempFile(directory, "manual-", ".part");
+        try {
+            Files.copy(file.path(), copy, StandardCopyOption.REPLACE_EXISTING);
+            if (Files.size(copy) != expected.size() || !FilesSupport.sha256(copy).equals(expected.sha256()))
+                throw new IOException("SHA-256 mismatch after copying " + file.path().getFileName());
+            Path original = file.path().toAbsolutePath().normalize();
+            Path installed = original.getParent().equals(Path.of(item.directory()).toAbsolutePath().normalize()) ? original : null;
+            return result(copy, expected, installed);
+        } catch (IOException | RuntimeException e) {
+            Files.deleteIfExists(copy);
+            throw e;
         }
-        return null;
     }
 
-    @Override
-    public DownloadQueue.Prepared download(URI source, DownloadQueue.Progress progress)
-            throws IOException {
+    public DownloadQueue.Prepared download(URI source, DownloadQueue.Progress progress) throws IOException {
         Path copy = directory.resolve(UUID.randomUUID() + ".part");
         try {
             api.download(release, source, copy, progress);
-            UpdateEngine.requireCandidate(ModMetadata.read(copy), release);
-            return result(copy, null, release.sha256());
-        } catch (IOException | RuntimeException ex) {
+            return result(copy, release.from(source), null);
+        } catch (IOException | RuntimeException e) {
             Files.deleteIfExists(copy);
-            throw ex;
+            throw e;
         }
     }
 
-    private DownloadQueue.Prepared result(Path copy, Path original, String actual) {
+    private DownloadQueue.Prepared result(Path copy, ReleaseApi.Source expected, Path installed) throws IOException {
+        UpdateEngine.requireCandidate(ModMetadata.read(copy), release);
         return new DownloadQueue.Prepared() {
             public String apply() throws IOException {
                 Path target = directory.resolve(release.modid() + ".ready");
                 Files.move(copy, target, StandardCopyOption.REPLACE_EXISTING);
                 prepared = target;
-                manual = original;
-                hash = actual;
-                if (actual.equals(release.sha256())) return "";
-                String warning =
-                        release.modid() + " " + release.version() + " · SHA-256 differs: " + actual;
-                log.accept(warning);
-                return warning;
+                selected = expected;
+                inMods = installed;
+                return "";
             }
-
-            public void close() throws IOException {
-                Files.deleteIfExists(copy);
-            }
+            public void close() throws IOException { Files.deleteIfExists(copy); }
         };
-    }
-
-    static final class InstalledFiles {
-        private record Cached(BasicFileAttributes stamp, ModMetadata metadata) {}
-
-        private final Path mods;
-        private final Map<Path, Cached> cache = new HashMap<>();
-
-        InstalledFiles(Path mods) {
-            this.mods = mods;
-        }
-
-        ModMetadata scan(Path path, Set<String> managed) throws IOException {
-            var stamp =
-                    Files.readAttributes(
-                            path, BasicFileAttributes.class, LinkOption.NOFOLLOW_LINKS);
-            var metadata = ModMetadata.scan(path, managed);
-            cache.put(path, new Cached(stamp, metadata));
-            return metadata;
-        }
-
-        List<Path> matching(String id, String version) throws IOException {
-            var matches = new ArrayList<Path>();
-            try (var stream = Files.list(mods)) {
-                for (Path path :
-                        stream.filter(
-                                        p ->
-                                                p.getFileName()
-                                                        .toString()
-                                                        .toLowerCase(Locale.ROOT)
-                                                        .endsWith(".jar"))
-                                .sorted()
-                                .toList()) {
-                    try {
-                        var stamp =
-                                Files.readAttributes(
-                                        path, BasicFileAttributes.class, LinkOption.NOFOLLOW_LINKS);
-                        if (!stamp.isRegularFile()) continue;
-                        var prior = cache.get(path);
-                        if (prior == null
-                                || prior.stamp.size() != stamp.size()
-                                || !prior.stamp.lastModifiedTime().equals(stamp.lastModifiedTime())
-                                || !Objects.equals(prior.stamp.fileKey(), stamp.fileKey())) {
-                            prior = new Cached(stamp, ModMetadata.scan(path, Set.of()));
-                            cache.put(path, prior);
-                        }
-                        if (version.equals(prior.metadata.mods().get(id))) matches.add(path);
-                    } catch (IOException ignored) {
-                        /* A file may still be moving into the directory. */
-                    }
-                }
-            }
-            return matches;
-        }
     }
 }

@@ -1,7 +1,7 @@
 package dev.tc4.updater;
 
 import com.google.gson.*;
-import dev.tc4.download.DownloadQueue;
+import dev.tc4.download.*;
 import org.apache.maven.artifact.versioning.DefaultArtifactVersion;
 import org.apache.maven.artifact.versioning.VersionRange;
 import java.io.IOException;
@@ -81,10 +81,6 @@ public final class UpdateEngine {
         try {
             var snapshot = api.snapshot(config.baseline(), config.testingUpdates() != UpdateMode.NO);
             managed = snapshot.managed(); catalog = snapshot.releases();
-            var versions=new TreeMap<String,String>();
-            catalog.forEach((id,channels)->{ if(channels.stable()!=null) versions.put(id,channels.stable().version()); });
-            FilesSupport.writeAtomic(state.resolve("stable-versions.json"),
-                    new Gson().toJson(versions).getBytes(StandardCharsets.UTF_8));
             FilesSupport.writeAtomic(state.resolve("managed-modids.json"),
                     new Gson().toJson(managed.stream().sorted().toList()).getBytes(StandardCharsets.UTF_8));
         } catch (IOException error) {
@@ -94,28 +90,13 @@ public final class UpdateEngine {
             } else if (window!=null && !config.installOnce().isEmpty()) {
                 var requested=config.installOnce().stream().filter(id->("*".equals(id) && config.installAll()) || (validModid(id)&&!EXCLUDED.contains(id))).distinct().toList();
                 var recovered=new java.util.concurrent.atomic.AtomicReference<ReleaseApi.Catalog>();
-                var knownVersions=new JsonObject();
-                Path cached=state.resolve("stable-versions.json");
-                if(Files.isRegularFile(cached,LinkOption.NOFOLLOW_LINKS)) try(var input=Files.newInputStream(cached)) {
-                    knownVersions=JsonParser.parseString(new String(FilesSupport.readBounded(input,65536),StandardCharsets.UTF_8)).getAsJsonObject();
-                } catch(IOException | RuntimeException invalid) { log.accept("Cannot read cached release versions: "+invalid.getMessage()); }
-                var reference=knownVersions;
                 var waiting=new ArrayList<DownloadQueue.Task>();
                 var baselineLinks = api.catalogLinks(config.baseline());
                 for (String id:requested) waiting.add(new DownloadQueue.Task() {
                     public DownloadQueue.Item item() {
                         boolean wildcard = "*".equals(id);
                         return new DownloadQueue.Item(id,wildcard ? config.baseline() : id,"等待版本清单 / Waiting for release catalog",game.resolve("mods").toString(),
-                                DownloadQueue.Kind.INSTALL,wildcard ? baselineLinks : api.manualPages(id));
-                    }
-                    public DownloadQueue.Prepared local() throws IOException {
-                        if (!reference.has(id) || !Files.isDirectory(game.resolve("mods"))) return null;
-                        String expected=reference.get(id).getAsString();
-                        try(var paths=Files.list(game.resolve("mods"))) {
-                            for(Path path:paths.filter(p->p.getFileName().toString().endsWith(".jar")).toList())
-                                if(expected.equals(ModMetadata.scan(path,Set.of()).mods().get(id))) return ()->"";
-                        }
-                        return null;
+                                DownloadQueue.Kind.INSTALL,baselineLinks,ManualLink.ordered(wildcard ? List.of() : api.manualPages(id),false),null);
                     }
                     public DownloadQueue.Prepared download(java.net.URI page,DownloadQueue.Progress progress) throws IOException {
                         var snapshot=recovered.get();
@@ -155,13 +136,13 @@ public final class UpdateEngine {
         Path modsDirectory = game.resolve("mods");
         if (!Files.exists(modsDirectory) && !requested.isEmpty()) Files.createDirectory(modsDirectory);
         if (!Files.isDirectory(modsDirectory)) return new Result(0, "No mods directory");
-        var installedFiles=new ModDownload.InstalledFiles(modsDirectory);
+
         Map<String, List<ModMetadata>> candidates = new LinkedHashMap<>();
         Map<String, String> externalVersions = new HashMap<>();
         Set<String> present = new HashSet<>();
         try (var files = Files.list(modsDirectory)) {
             for (Path jar : files.filter(path -> path.getFileName().toString().toLowerCase(Locale.ROOT).endsWith(".jar")).sorted().toList()) {
-                ModMetadata metadata = installedFiles.scan(jar, managed);
+                ModMetadata metadata = ModMetadata.scan(jar, managed);
                 present.addAll(metadata.mods().keySet()); present.addAll(metadata.embeddedMods().keySet());
                 metadata.embeddedMods().forEach((id, version) -> newestExternal(externalVersions, id, version));
                 for (var mod : metadata.mods().entrySet()) {
@@ -248,21 +229,13 @@ public final class UpdateEngine {
             for (var plan:offered) {
                 var release=plan.release;
                 var task=new ModDownload(api,release,catalog.get(release.modid()).name(),
-                        plan.installed==null?null:plan.installed.newest.mods().get(release.modid()),work,installedFiles,log);
+                        plan.installed==null?null:plan.installed.newest.mods().get(release.modid()),work,modsDirectory,
+                        !release.manualPages().isEmpty() && DownloadPreferences.chinese(game));
                 tasks.put(plan,task);
             }
             var rows=new ArrayList<DownloadQueue.Task>(tasks.values());
             for(String id:unavailable) rows.add(new DownloadQueue.Task() {
-                public DownloadQueue.Item item() { return new DownloadQueue.Item(id,id,"暂无稳定版 / No stable release",modsDirectory.toString(),DownloadQueue.Kind.INSTALL,api.manualPages(id)); }
-                public DownloadQueue.Prepared local() throws IOException {
-                    try(var paths=Files.list(modsDirectory)) {
-                        for(Path p:paths.filter(f->f.getFileName().toString().endsWith(".jar")).toList()) {
-                            var version=ModMetadata.scan(p,Set.of()).mods().get(id);
-                            if(version!=null && Version.parse(version).stable()) return ()->"";
-                        }
-                    }
-                    return null;
-                }
+                public DownloadQueue.Item item() { return new DownloadQueue.Item(id,id,"暂无稳定版 / No stable release",modsDirectory.toString(),DownloadQueue.Kind.INSTALL,List.of(),ManualLink.ordered(api.manualPages(id),false),null); }
                 public DownloadQueue.Prepared download(java.net.URI uri,DownloadQueue.Progress progress) throws IOException {
                     throw new IOException("No published stable version for "+id);
                 }
@@ -276,13 +249,13 @@ public final class UpdateEngine {
                     for (var pair:tasks.entrySet()) {
                         var plan=pair.getKey(); var task=pair.getValue(); var release=plan.release;
                         if (queue.skipped(release.modid())) continue;
+                        release = task.verifiedRelease();
                         var originals=new ArrayList<>(plan.originals);
-                        if (task.manual()!=null) {
-                            String filename=task.manual().getFileName().toString();
+                        if (task.inMods()!=null) {
+                            String filename=task.inMods().getFileName().toString();
                             // Manual replacement can remove the old JAR or overwrite it in place.
                             originals.removeIf(old->old.filename().equals(filename) || !Files.exists(modsDirectory.resolve(old.filename())));
-                            originals.add(new UpdateTransaction.Original(filename,task.hash()));
-                            release=new ReleaseApi.Release(release.modid(),release.version(),release.filename(),task.hash(),Files.size(task.staged()),release.url());
+                            originals.add(new UpdateTransaction.Original(filename,release.sha256()));
                         }
                         accepted.add(new Planned(plan.installed,release,List.copyOf(originals),task.staged()));
                     }

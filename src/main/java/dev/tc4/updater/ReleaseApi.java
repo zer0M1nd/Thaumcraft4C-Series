@@ -17,7 +17,27 @@ public final class ReleaseApi {
     private final List<URI> sites;
     private final int timeoutMillis;
 
-    public record Release(String modid, String version, String filename, String sha256, long size, URI url) {}
+    public record Source(URI url, String sha256, long size) {}
+    public record Release(String modid, String version, String filename, String sha256, long size, URI url,
+                          List<Source> sources, List<URI> manualPages, List<Source> manualFiles) {
+        public Release(String modid, String version, String filename, String sha256, long size, URI url) {
+            this(modid, version, filename, sha256, size, url, List.of(), List.of(), List.of());
+        }
+        public Release {
+            sources = sources == null ? List.of() : List.copyOf(sources);
+            manualPages = manualPages == null ? List.of() : List.copyOf(manualPages);
+            manualFiles = manualFiles == null ? List.of() : List.copyOf(manualFiles);
+        }
+        Source primary() { return new Source(url, sha256, size); }
+        Source from(URI uri) {
+            return sources.stream().filter(s -> s.url().equals(uri)).findFirst().orElse(primary());
+        }
+        Source matching(String hash, long length) {
+            if (sha256.equals(hash) && size == length) return primary();
+            return java.util.stream.Stream.concat(sources.stream(), manualFiles.stream())
+                    .filter(s -> s.sha256().equals(hash) && s.size() == length).findFirst().orElse(null);
+        }
+    }
     public record Channels(String name, URI changelog, Release stable, Release testing) {}
     public record Catalog(Set<String> managed, Map<String, Channels> releases) {}
 
@@ -71,7 +91,17 @@ public final class ReleaseApi {
     }
 
     public List<URI> manualPages(String id) {
-        return sites.stream().map(site->site.resolve("/mods/"+id+"/index.html")).toList();
+        URI site = sites.equals(SITES) ? URI.create("http://tc4c.zer0m1nd.me/") : sites.get(0);
+        return List.of(site.resolve("/mods/" + id + "/index.html"));
+    }
+
+    List<URI> manualPages(Release release) {
+        var pages = new LinkedHashSet<>(release.manualPages());
+        pages.addAll(manualPages(release.modid()));
+        // A named baseline may pin a file older than the releases listed on the project page.
+        URI archive = sites.equals(SITES) ? PUBLIC_SERVER : sites.get(0);
+        pages.add(archive.resolve(release.url().getRawPath()));
+        return List.copyOf(pages);
     }
     public Catalog catalogForPage(URI page,boolean testing) throws IOException {
         return catalogForPage(page, UpdaterConfig.DEFAULT_BASELINE, testing);
@@ -135,22 +165,54 @@ public final class ReleaseApi {
         requireOrigin(uri);
         if (!uri.normalize().equals(uri) || !uri.getPath().startsWith("/download/files/releases/" + id + "/")
                 || !uri.getPath().endsWith("/" + filename)) throw new IOException("Invalid release download path");
-        return new Release(id, version, filename, hash.toLowerCase(Locale.ROOT), size, uri);
+        var sources = new ArrayList<Source>();
+        var seen = new HashSet<URI>();
+        seen.add(uri);
+        if (row.has("sources")) for (var value : row.getAsJsonArray("sources")) {
+            var src = value.getAsJsonObject();
+            URI link = server.resolve(src.get("url").getAsString());
+            requireOrigin(link);
+            String digest = src.get("sha256").getAsString().toLowerCase(Locale.ROOT);
+            long length = src.get("size").getAsBigDecimal().longValueExact();
+            if (!digest.matches("[0-9a-f]{64}") || length <= 0 || length > MAX_JAR || !seen.add(link)
+                    || !link.normalize().equals(link) || !link.getPath().startsWith("/download/files/releases/" + id + "/"))
+                throw new IOException("Invalid alternate release source for " + id);
+            sources.add(new Source(link, digest, length));
+        }
+        var pages = new ArrayList<URI>();
+        var manualFiles = new ArrayList<Source>();
+        if (row.has("manual_links")) for (var value : row.getAsJsonArray("manual_links")) {
+            var page = URI.create(value.isJsonObject() ? value.getAsJsonObject().get("url").getAsString() : value.getAsString());
+            if (page.getHost() == null || page.getUserInfo() != null || !Set.of("http","https").contains(page.getScheme()))
+                throw new IOException("Invalid release browser link");
+            pages.add(page);
+            if (value.isJsonObject()) {
+                var file = value.getAsJsonObject();
+                String digest = file.get("sha256").getAsString().toLowerCase(Locale.ROOT);
+                long length = file.get("size").getAsBigDecimal().longValueExact();
+                if (!digest.matches("[0-9a-f]{64}") || length <= 0 || length > MAX_JAR)
+                    throw new IOException("Invalid manual release hash/size");
+                manualFiles.add(new Source(page, digest, length));
+            }
+        }
+        return new Release(id, version, filename, hash.toLowerCase(Locale.ROOT), size, uri, sources, pages, manualFiles);
     }
 
     public List<URI> links(Release release) {
         var result = new LinkedHashSet<URI>();
         result.add(release.url());
+        release.sources().forEach(source -> result.add(source.url()));
         for (var site : sites) result.add(site.resolve(release.url().getRawPath()));
         return List.copyOf(result);
     }
 
     public void download(Release release, URI source, Path destination, dev.tc4.download.DownloadQueue.Progress progress) throws IOException {
+        Source expected = release.from(source);
         try (OutputStream output = Files.newOutputStream(destination, StandardOpenOption.CREATE_NEW)) {
-            long count = transfer(source, output, release.size, Duration.ofSeconds(90), (n,ignored)->progress.bytes(n,release.size()));
-            if (count != release.size) throw new IOException("Truncated download for " + release.modid);
+            long count = transfer(source, output, expected.size(), Duration.ofSeconds(90), (n,ignored)->progress.bytes(n,expected.size()));
+            if (count != expected.size()) throw new IOException("Truncated download for " + release.modid);
         }
-        if (!FilesSupport.sha256(destination).equals(release.sha256)) throw new IOException("SHA-256 mismatch for " + release.modid);
+        if (!FilesSupport.sha256(destination).equals(expected.sha256())) throw new IOException("SHA-256 mismatch for " + release.modid);
         try (FileChannel channel = FileChannel.open(destination, StandardOpenOption.WRITE)) { channel.force(true); }
     }
 

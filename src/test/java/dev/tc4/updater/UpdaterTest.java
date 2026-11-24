@@ -51,8 +51,8 @@ class UpdaterTest {
     }
     private void visibleWindow(DownloadQueue q,UpdateEngine.Commit commit) throws IOException {
         q.action("shown","");
-        waitUntil(()->q.ready()||rows(q).stream().anyMatch(r->r.get("state").getAsString().equals("FAILED")));
-        if(!q.ready()) {
+        waitUntil(q::ready);
+        if(rows(q).stream().anyMatch(r->r.get("state").getAsString().equals("FAILED"))) {
             rows(q).forEach(r->logs.add(r.get("message").getAsString())); q.reject("Batch cancelled"); q.action("skip","");
         }
         try { commit.run(); } catch(IOException e) {
@@ -117,22 +117,56 @@ class UpdaterTest {
         });
         assertEquals(0,skip.run(game,CLIENT).updated()); assertEquals(1,engine().run(game,CLIENT).updated());
     }
-    @Test void fiveSecondCheckAcceptsManualTargetVersionAndUsesItsActualBytes() throws Exception {
+    @Test void dropsUseOnlyDeclaredHashesAndNeverFetchOrRemoveThePlayerFile() throws Exception {
         Path old=install("thaumcraft","0.1.0");
         var release=release("thaumcraft","0.1.1"); publish("thaumcraft",release,null);
-        downloads.clear(); byte[] manual=jar("thaumcraft","0.1.1","# player copy",false);
-        var engine=new UpdateEngine(api,logs::add,(q,c)->{
-            q.action("shown",""); waitUntil(()->rows(q).get(0).get("state").getAsString().equals("FAILED"));
-            Files.write(game.resolve("mods/drop.jar"),manual);
-            waitUntil(q::ready);
-            var view=JsonParser.parseString(q.snapshot()).getAsJsonObject();
-            assertFalse(view.get("auto").getAsBoolean()); assertTrue(rows(q).get(0).get("message").getAsString().contains("SHA-256"));
-            c.run();
+        byte[] valid=downloads.remove(release.get("url").getAsString());
+        Path wrong=game.resolve("same-version.jar"), right=game.resolve("renamed.bin");
+        Files.write(wrong,jar("thaumcraft","0.1.1","# player copy",false)); Files.write(right,valid);
+        var engine=new UpdateEngine(api,logs::add,(queue,commit)->{
+            queue.action("shown",""); waitUntil(()->rows(queue).get(0).get("state").getAsString().equals("FAILED"));
+            assertTrue(queue.needsConfirmation());
+            int requests=downloadRequests.size();
+            queue.action("drop",wrong.toString()); waitUntil(queue::ready);
+            assertTrue(queue.snapshot().contains("checksum")); assertTrue(queue.needsConfirmation());
+            queue.action("drop",right.toString()); waitUntil(queue::ready);
+            assertEquals("DONE", rows(queue).get(0).get("state").getAsString());
+            assertFalse(queue.needsConfirmation()); assertFalse(JsonParser.parseString(queue.snapshot()).getAsJsonObject().get("auto").getAsBoolean());
+            assertEquals(requests,downloadRequests.size()); commit.run();
         });
         assertEquals(1,engine.run(game,CLIENT).updated()); assertFalse(Files.exists(old));
-        assertArrayEquals(manual,Files.readAllBytes(game.resolve("mods/thaumcraft-0.1.1.jar")));
-        assertFalse(Files.exists(game.resolve("mods/drop.jar"))); assertNoTransactions();
+        assertArrayEquals(valid,Files.readAllBytes(game.resolve("mods/thaumcraft-0.1.1.jar")));
+        assertArrayEquals(valid,Files.readAllBytes(right)); assertTrue(Files.exists(wrong)); assertNoTransactions();
     }
+    @ParameterizedTest @ValueSource(booleans={false,true})
+    void eachReleaseSourcePinsItsOwnBytes(boolean browserOnly) throws Exception {
+        install("thaumcraft","0.1.0");
+        var primary=release("thaumcraft","0.1.1");
+        byte[] alternate=jar("thaumcraft","0.1.1","# alternate build",false);
+        String path=primary.get("url").getAsString().replace("/thaumcraft-0.1.1.jar","/mirror-0.1.1.jar");
+        downloads.put(primary.get("url").getAsString(),alternate);
+        var src=new JsonObject();
+        src.addProperty("url",browserOnly ? "https://www.mcmod.cn/download/999.html" : path);
+        src.addProperty("sha256",FilesSupport.sha256(alternate)); src.addProperty("size",alternate.length);
+        var sources=new JsonArray(); sources.add(src); primary.add(browserOnly?"manual_links":"sources",sources);
+        if(!browserOnly) downloads.put(path,alternate);
+        publish("thaumcraft",primary,null);
+        Path dropped=Files.write(game.resolve("player-copy.jar"),alternate);
+        Files.createDirectories(game.resolve("config"));
+        Files.writeString(game.resolve("config/thaumcraft-client.toml"),"[downloads]\nchinese_localization='DISABLED'\n");
+        var updater=new UpdateEngine(api,logs::add,(q,commit)->{
+            q.action("shown",""); waitUntil(q::ready);
+            if(browserOnly) {
+                assertTrue(q.needsConfirmation()); int before=downloadRequests.size();
+                q.action("drop",dropped.toString()); waitUntil(q::ready);
+                assertEquals(before,downloadRequests.size());
+            } else assertTrue(downloadRequests.contains(path));
+            assertEquals("DONE",rows(q).get(0).get("state").getAsString()); commit.run();
+        });
+        assertEquals(1,updater.run(game,CLIENT).updated());
+        assertArrayEquals(alternate,Files.readAllBytes(game.resolve("mods/thaumcraft-0.1.1.jar")));
+    }
+
     @Test void skippingAnUpdateNeedsNoConfirmationButSkippingAnInstallDoes() throws Exception {
         request("automagy"); install("thaumcraft","0.1.0");
         publish("thaumcraft",release("thaumcraft","0.1.1"),null); publish("automagy",release("automagy","0.1.1"),null);
@@ -169,7 +203,7 @@ class UpdaterTest {
         String url=row.get("url").getAsString(); byte[] bytes=downloads.remove(url);
         var engine=new UpdateEngine(api,logs::add,(q,c)->{
             q.action("shown",""); waitUntil(()->rows(q).get(0).get("state").getAsString().equals("FAILED"));
-            assertFalse(q.ready()); downloads.put(url,bytes); q.action("retry","thaumcraft");
+            assertTrue(q.ready()); assertTrue(q.needsConfirmation()); downloads.put(url,bytes); q.action("retry","thaumcraft");
             waitUntil(q::ready); assertFalse(JsonParser.parseString(q.snapshot()).getAsJsonObject().get("auto").getAsBoolean()); c.run();
         });
         assertEquals(1,engine.run(game,CLIENT).updated());
