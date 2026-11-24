@@ -16,6 +16,10 @@
     "ElementalArrowDamageMixin"
   ],
   "client": [
+    "AeAspectSearchMixin",
+    "AeAspectScreenMixin",
+    "AeAspectRepoMixin",
+    "JeiAspectSearchMixin",
     "EasyVillagersItemRendererMixin",
     "EasyVillagersBlockRendererMixin",
     "BookFontTypographyMixin",

@@ -10,7 +10,11 @@ Use Minecraft 1.20.1 with Forge 47.4.0 or later in the 47.x series.
 
 Required mods include TerraBlender `[3.0.1.7,3.1)`, Curios API `[5.14.1,6)`.
 
-Optional integrations include Just Enough Items `[15.20.0,16)`, agricraft, patchouli. [Forge dependency declarations](src/main/resources/META-INF/mods.toml)
+Optional integrations include Just Enough Items `[15.20.0,16)`, Applied Energistics 2, JECharacters, AgriCraft and Patchouli. [Forge dependency declarations](src/main/resources/META-INF/mods.toml)
+
+Start a JEI item search or AE2 storage terminal search with `!` or `！` to filter by aspects per item. For example, `!1<=ordo<=5` finds items with one to five Ordo, `!ordo&types=1` finds items containing only Ordo, and `!(aer|ignis)&-terra&sum>=4` requires Aer or Ignis, excludes Terra and requires at least four aspect points in total. Comparisons accept `=`, `<`, `>`, `<=` and `>=`. A name alone requires at least one point. Exact names take priority, followed by Latin name prefixes and substrings of translated names or Chinese pinyin. Pinyin requires JECharacters.
+
+Names are case-insensitive. Negation (`-`) binds first, then AND (`&`), then OR (`|`). Use parentheses to group conditions. An incomplete expression or an unknown aspect gives an empty list.
 
 ## Build
 

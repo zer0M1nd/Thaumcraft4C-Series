@@ -10,7 +10,11 @@
 
 必装模组为TerraBlender `[3.0.1.7,3.1)`、Curios API `[5.14.1,6)`。
 
-可选联动包括Just Enough Items `[15.20.0,16)`、agricraft、patchouli。 [完整的 Forge 依赖声明](src/main/resources/META-INF/mods.toml)
+可选联动包括 Just Enough Items（JEI）`[15.20.0,16)`、应用能源 2（AE2）、JECharacters、AgriCraft 和 Patchouli。 [完整的 Forge 依赖声明](src/main/resources/META-INF/mods.toml)
+
+在 JEI 物品列表或 AE2 存储终端中，以 `!` 或 `！` 开头可以按每件物品的要素筛选。例如 `!1<=ordo<=5` 查找含 1 至 5 点秩序的物品，`!ordo&types=1` 查找只含秩序的物品，`!(aer|ignis)&-terra&sum>=4` 要求含风或火、不含地且总量至少为 4。支持 `=`、`<`、`>`、`<=`、`>=`。省略数量表示至少 1 点。可输入拉丁名、当前语言的译名，安装 JECharacters 后也可输入中文拼音。精确名称优先，否则按拉丁名前缀、译名或拼音子串匹配。
+
+名称不区分大小写。先算 `-`（非），再算 `&`（与），最后算 `|`（或），英文括号可以改变顺序。表达式不完整或出现无法识别的要素名时，列表为空。
 
 ## 构建
 
