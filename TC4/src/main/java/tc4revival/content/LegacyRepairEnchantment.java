@@ -16,5 +16,5 @@ public  class LegacyRepairEnchantment extends Enchantment {
     @Override public int getMaxCost(int level) { return LegacyEnchantmentRules.Kind.REPAIR.maxCost(level); }
     @Override public boolean canEnchant(ItemStack stack) { return stack.isDamageableItem() && stack.is(REPAIRABLE); }
     @Override public boolean canApplyAtEnchantingTable(ItemStack stack) { return canEnchant(stack); }
-    @Override protected boolean checkCompatibility(Enchantment other) { return super.checkCompatibility(other) && other != Enchantments.UNBREAKING; }
+    @Override protected boolean checkCompatibility(Enchantment other) { return super.checkCompatibility(other) && other != Enchantments.MENDING; }
 }

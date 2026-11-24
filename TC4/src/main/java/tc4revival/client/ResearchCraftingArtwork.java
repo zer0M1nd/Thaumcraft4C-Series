@@ -103,7 +103,7 @@ public  class ResearchCraftingArtwork {
         } else {
             boolean enchant=type==ResearchPage.Type.INFUSION_ENCHANTMENT;
             label(g,enchant?"recipe.type.infusionenchantment":"recipe.type.infusion",start+56,y);
-            instability(g,row.instability(),start+56,y+(enchant?58:48));overlay(g,start,y+58,0,0,200,77,60,44);
+            instability(g,row.instability(),start+56,reader.recipeFooterY());overlay(g,start,y+58,0,0,200,77,60,44);
             if(enchant) {
                 var enchantments=net.minecraft.world.item.enchantment.EnchantmentHelper.getEnchantments(row.output());
                 var name=enchantments.isEmpty()?row.output().getHoverName():Component.translatable(enchantments.keySet().iterator().next().getDescriptionId());

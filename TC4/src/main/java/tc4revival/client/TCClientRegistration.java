@@ -23,6 +23,12 @@ public  class TCClientRegistration {
         event.registerEntityRenderer(net.minecraft.world.entity.EntityType.VILLAGER,LegacyVillagerRenderer::new);
         event.registerEntityRenderer(net.minecraft.world.entity.EntityType.ZOMBIE_VILLAGER,LegacyZombieVillagerRenderer::new);
     }
+    @SubscribeEvent public static void chaosItemColor(net.minecraftforge.client.event.RegisterColorHandlersEvent.Item event) {
+        event.register((stack, index) -> 0xB477EC, tc4revival.content.TCItems.CHAOS_MATRIX.get());
+    }
+    @SubscribeEvent public static void chaosBlockColor(net.minecraftforge.client.event.RegisterColorHandlersEvent.Block event) {
+        event.register((state, level, pos, index) -> 0xB477EC, tc4revival.content.TCArcane.CHAOS_MATRIX.get());
+    }
     @SubscribeEvent public static void taintedEggColors(net.minecraftforge.client.event.RegisterColorHandlersEvent.Item event) {
         event.register((stack,layer)->((tc4revival.content.TaintedSpawnEggItem)stack.getItem()).color(layer),tc4revival.content.TCItems.TAINT_HIVE_EGG.get(),tc4revival.content.TCItems.TAINT_SWARM_EGG.get());
         for(var kind:tc4revival.content.TaintedAnimalEntity.Kind.values())event.register((stack,layer)->((tc4revival.content.TaintedSpawnEggItem)stack.getItem()).color(layer),tc4revival.content.TCItems.taintedEgg(kind));
@@ -134,6 +140,8 @@ public  class TCClientRegistration {
         event.enqueueWork(()->net.minecraft.client.gui.screens.MenuScreens.register(tc4revival.content.TCArcane.GOLEM_MENU.get(),GolemScreen::new));
         event.enqueueWork(()->net.minecraft.client.gui.screens.MenuScreens.register(tc4revival.content.TCArcane.MAGIC_BOX_MENU.get(),MagicBoxScreen::new));
         event.enqueueWork(()->net.minecraft.client.gui.screens.MenuScreens.register(tc4revival.content.TCArcane.TRUNK_MENU.get(),TravelingTrunkScreen::new));
+        event.enqueueWork(() -> tc4revival.content.TCArcane.STORAGE_CHEST_MENUS.values().forEach(type ->
+                net.minecraft.client.gui.screens.MenuScreens.register(type.get(), StorageChestScreen::new)));
         event.enqueueWork(()->net.minecraft.client.gui.screens.MenuScreens.register(tc4revival.content.TCArcane.THAUMATORIUM_MENU.get(),ThaumatoriumScreen::new));
         event.enqueueWork(()->net.minecraft.client.gui.screens.MenuScreens.register(tc4revival.content.TCArcane.ALCHEMY_FURNACE_MENU.get(),AlchemyFurnaceScreen::new));
         event.enqueueWork(() -> net.minecraft.client.renderer.ItemBlockRenderTypes.setRenderLayer(tc4revival.content.TCFluids.GAS.get(), net.minecraft.client.renderer.RenderType.translucent()));

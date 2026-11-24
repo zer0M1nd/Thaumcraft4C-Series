@@ -30,7 +30,7 @@ public  class ThaumatoriumScreen extends AbstractContainerScreen<ThaumatoriumMen
             LegacyGui.blit(g,TEXTURE,leftPos+32,topPos+40,startAspect>0 ? 192 : 176,32,8,16);
             LegacyGui.blit(g,TEXTURE,leftPos+136,topPos+40,startAspect<aspects.size()-1 ? 200 : 184,32,8,16);
         }
-        boolean selected=process.selected().contains(recipe.getId());
+        boolean selected=process.chaotic() || process.selected().contains(recipe.getId());
         if (!process.selected().isEmpty()) {
             if (selected || inside(mx,my,112,16,16,16)) LegacyGui.blit(g,TEXTURE,leftPos+104,topPos+8,176,96,48,48);
             float alpha=.6f+(float)Math.sin(minecraft.player.tickCount/5f)*.4f+.4f;
@@ -49,12 +49,12 @@ public  class ThaumatoriumScreen extends AbstractContainerScreen<ThaumatoriumMen
             if (selected) {
                 LegacyGui.blit(g,TEXTURE,x+1,topPos+57,176,8,14,6);
                 int color=thaumcraft.api.client.ClientAspectViews.view(aspect).color(); g.setColor((color>>16&255)/255f,(color>>8&255)/255f,(color&255)/255f,1);
-                int width=(int)(stored.amount(aspect)/(float)costs.amount(aspect)*12);
+                int width=Math.min(12,(int)(stored.amount(aspect)/(float)costs.amount(aspect)*12));
                 LegacyGui.blit(g,TEXTURE,x+2,topPos+58,176,0,width,4); g.setColor(1,1,1,1);
             }
         }
         var output=recipe.getResultItem(minecraft.level.registryAccess());
-        boolean dull=process.selected().size()<process.limit() || selected;
+        boolean dull=!process.chaotic() && (process.selected().size()<process.limit() || selected);
         if (dull) g.setColor(.5f,.5f,.5f,.6f+(float)Math.sin(minecraft.player.tickCount/4f)*.3f);
         g.renderItem(output,leftPos+112,topPos+16); g.renderItemDecorations(font,output,leftPos+112,topPos+16);
         g.setColor(1,1,1,1);
@@ -71,7 +71,7 @@ public  class ThaumatoriumScreen extends AbstractContainerScreen<ThaumatoriumMen
         var choices=menu.choices(); var process=menu.process();
         if (process!=null && !choices.isEmpty() && index>=0 && index<choices.size()) {
             var recipe=choices.get(index); boolean changed=false,select=false;
-            if (inside(x,y,112,16,16,16) && (process.selected().size()<process.limit() || process.selected().contains(recipe.getId()))) {
+            if (!process.chaotic() && inside(x,y,112,16,16,16) && (process.selected().size()<process.limit() || process.selected().contains(recipe.getId()))) {
                 minecraft.gameMode.handleInventoryButtonClick(menu.containerId,index); changed=true; select=true;
             } else if (index>0 && inside(x,y,128,16,16,8)) { index--; changed=true; }
             else if (index<choices.size()-1 && inside(x,y,128,24,16,8)) { index++; changed=true; }

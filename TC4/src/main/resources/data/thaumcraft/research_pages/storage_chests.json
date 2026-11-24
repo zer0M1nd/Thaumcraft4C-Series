@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "key": "THAUMIUMCHEST",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.THAUMIUMCHEST.1"
+          },
+          "id": "thaumcraft:THAUMIUMCHEST/page/1",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "kind": "reference",
+            "keys": [
+              "thaumcraft:arcane/thaumium_chest"
+            ]
+          },
+          "recipeOutput": {
+            "item": "thaumcraft:thaumium_chest",
+            "count": 1,
+            "metadata": 0
+          },
+          "id": "thaumcraft:THAUMIUMCHEST/page/2",
+          "page_break": true
+        }
+      ]
+    },
+    {
+      "key": "VOIDCHEST",
+      "pages": [
+        {
+          "type": "TEXT",
+          "text": {
+            "translate": "tc.research_page.VOIDCHEST.1"
+          },
+          "id": "thaumcraft:VOIDCHEST/page/1",
+          "page_break": true
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "recipe": {
+            "class": "modern",
+            "kind": "reference",
+            "keys": [
+              "thaumcraft:arcane/void_chest"
+            ]
+          },
+          "recipeOutput": {
+            "item": "thaumcraft:void_chest",
+            "count": 1,
+            "metadata": 0
+          },
+          "id": "thaumcraft:VOIDCHEST/page/2",
+          "page_break": true
+        }
+      ]
+    }
+  ]
+}

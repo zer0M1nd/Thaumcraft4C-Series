@@ -12,9 +12,14 @@
     "WandBlockInteractionMixin",
     "FeatureRecipeReloadMixin",
     "FeatureRecipeConditionsMixin",
+    "MetalIngredientMixin",
     "ElementalArrowDamageMixin"
   ],
   "client": [
+    "AeAspectSearchMixin",
+    "AeAspectScreenMixin",
+    "AeAspectRepoMixin",
+    "JeiAspectSearchMixin",
     "EasyVillagersItemRendererMixin",
     "EasyVillagersBlockRendererMixin",
     "BookFontTypographyMixin",

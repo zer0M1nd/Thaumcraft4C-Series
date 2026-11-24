@@ -31,12 +31,17 @@ public  class GolemCropHarvest {
         if(registered.isPresent())return registered.get().mature(level,pos,state);
         var agricraft=AgriCraftCropHarvest.mature(level,pos);
         if(agricraft.isPresent())return agricraft.get();
+        if (column(state)) return level.getBlockState(pos.below()).is(state.getBlock())
+                && !level.getBlockState(pos.below(2)).is(state.getBlock());
         if (ModernCropHarvest.mature(state)) return true;
         if (state.is(Blocks.NETHER_WART)) return state.getValue(NetherWartBlock.AGE)>=3;
         if (state.is(Blocks.COCOA)) return state.getValue(CocoaBlock.AGE)>=2;
         if (state.is(TCArcane.MANA_POD.get())) return state.getValue(ManaPodBlock.AGE)==7;
         if (state.is(Blocks.MELON) || state.is(Blocks.PUMPKIN) || state.is(Blocks.CARVED_PUMPKIN)) return true;
-        return (state.is(Blocks.SUGAR_CANE) || state.is(Blocks.CACTUS)) && level.getBlockState(pos.below()).is(state.getBlock());
+        return false;
+    }
+    static boolean column(BlockState state) {
+        return state.getBlock() instanceof SugarCaneBlock || state.getBlock() instanceof CactusBlock;
     }
     public static void harvest(GolemWorkHost host,BlockPos pos,BlockState original) {
         if (!(host.mob().level() instanceof ServerLevel level)) return;
@@ -51,12 +56,12 @@ public  class GolemCropHarvest {
         }
         var agricraft=AgriCraftCropHarvest.harvest(context);
         if(agricraft.isPresent()) { if(agricraft.get())host.action();return; }
-        if(original.is(ModernCropHarvest.PICK)) {
+        if(ModernCropHarvest.pickedByUse(original)) {
             if(ModernCropHarvest.pick(context))host.action();
             return;
         }
         if(!context.breakBlock(pos,true))return;
-        if (host.configuration().upgrades(4)>0) replant(host,level,player,pos,original);
+        if (!column(original) && host.configuration().upgrades(4)>0) replant(host,level,player,pos,original);
         host.action();
     }
     private static void replant(GolemWorkHost host,ServerLevel level,FakePlayer player,BlockPos pos,BlockState original) {

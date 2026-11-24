@@ -7,8 +7,19 @@ import net.minecraft.world.phys.Vec3;
 
 public class GolemFillTravelGoal extends GolemMoveToGoal {
     public GolemFillTravelGoal(GolemWorkHost host) { super(host); }
+    @Override protected boolean arrived() { return GolemWorkRange.reaches(host,blockPos); }
     @Override protected BlockPos destination() {
-        if (!host.carried().isEmpty() || host.filters().isEmpty()) return null;
+        if (!host.carried().isEmpty()) return null;
+        if (host.filters().isEmpty()) {
+            if (!(mob.level() instanceof net.minecraft.server.level.ServerLevel level)) return null;
+            double range = host.configuration().range();
+            return GolemMarkedInventories.positions(host, false).stream()
+                    .filter(pos -> pos.closerToCenterThan(mob.position(),range)
+                            && !GolemInventoryViews.same(level,pos,host.homeInventory()))
+                    .filter(pos -> host.markers().faces(pos, level.dimension().location(), (byte)-1).stream()
+                            .anyMatch(face -> !GolemItemTransfer.first(GolemInventoryViews.single(level,pos,face),host.carrySpace(),false).isEmpty()))
+                    .min(java.util.Comparator.comparingDouble(pos -> mob.distanceToSqr(pos.getCenter()))).orElse(null);
+        }
         var missing = host.missingItems();
         if (missing == null) return null;
         BlockPos nearest = null;

@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "VOIDCHEST",
+  "pattern": [
+    "IWI",
+    "WCW",
+    "IWI"
+  ],
+  "key": {
+    "I": {
+      "item": "thaumcraft:void_ingot"
+    },
+    "W": {
+      "item": "thaumcraft:silverwood_planks"
+    },
+    "C": {
+      "item": "thaumcraft:thaumium_chest"
+    }
+  },
+  "vis": {
+    "ordo": 15,
+    "perditio": 15,
+    "terra": 10
+  },
+  "result": {
+    "item": "thaumcraft:void_chest",
+    "count": 1
+  }
+}

@@ -164,7 +164,7 @@ public class ThaumcraftJei implements IModPlugin {
             finally{filter.setFilterText(previous);}
         };
     }
-    @Override public void onRuntimeUnavailable(){restoreProjectedItems();projectionRevision="";researchBookClick=false;researchQueries.stop();JeiInferenceExport.runtime(null);tc4revival.client.EditorSearch.search=null;MinecraftForge.EVENT_BUS.unregister(this);ClientBrowserRecipes.receiver=p->{};runtime=null;clearQueries();dynamicDefinitions=List.of();registered.clear();visible.clear();emiRefreshAt=-1;visibleAspects.clear();connectionIdentity=null;appliedDataVersion=-1;}
+    @Override public void onRuntimeUnavailable(){JeiAspectRefresh.clear();restoreProjectedItems();projectionRevision="";researchBookClick=false;researchQueries.stop();JeiInferenceExport.runtime(null);tc4revival.client.EditorSearch.search=null;MinecraftForge.EVENT_BUS.unregister(this);ClientBrowserRecipes.receiver=p->{};runtime=null;clearQueries();dynamicDefinitions=List.of();registered.clear();visible.clear();emiRefreshAt=-1;visibleAspects.clear();connectionIdentity=null;appliedDataVersion=-1;}
     @SubscribeEvent public void reload(net.minecraftforge.client.event.RecipesUpdatedEvent e){dataVersion++;}
     @SubscribeEvent(priority=net.minecraftforge.eventbus.api.EventPriority.HIGHEST)
     public void researchClick(net.minecraftforge.client.event.ScreenEvent.MouseButtonPressed.Pre event) {
@@ -243,6 +243,7 @@ public class ThaumcraftJei implements IModPlugin {
     }
     @SubscribeEvent public void tick(TickEvent.ClientTickEvent e){
         if(e.phase!=TickEvent.Phase.END||runtime==null)return;
+        JeiAspectRefresh.tick();
         var mc=Minecraft.getInstance();if(mc.player==null||mc.level==null||mc.getConnection()==null)return;ticks++;
         if(registrationOnly()){
             // TMRV locks both registries after registration. Rebuild its snapshot once

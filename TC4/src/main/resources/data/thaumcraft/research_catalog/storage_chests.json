@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "categories": [
+    {
+      "key": "ARTIFICE",
+      "icon": "thaumcraft:textures/misc/r_artifice.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "research": [
+        {
+          "key": "THAUMIUMCHEST",
+          "category": "ARTIFICE",
+          "displayColumn": 1,
+          "displayRow": -1,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "vacuos",
+              "amount": 4
+            },
+            {
+              "aspect": "metallum",
+              "amount": 4
+            },
+            {
+              "aspect": "instrumentum",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "BASICARTIFACE",
+            "THAUMIUM"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumcraft:thaumium_chest",
+            "count": 1,
+            "metadata": 0
+          }
+        }
+      ]
+    },
+    {
+      "key": "ELDRITCH",
+      "icon": "thaumcraft:textures/misc/r_eldritch.png",
+      "background": "thaumcraft:textures/gui/gui_researchbackeldritch.png",
+      "research": [
+        {
+          "key": "VOIDCHEST",
+          "category": "ELDRITCH",
+          "displayColumn": 3,
+          "displayRow": -4,
+          "complexity": 1,
+          "aspects": [
+            {
+              "aspect": "vacuos",
+              "amount": 4
+            },
+            {
+              "aspect": "alienis",
+              "amount": 4
+            },
+            {
+              "aspect": "metallum",
+              "amount": 4
+            }
+          ],
+          "parents": [
+            "THAUMIUMCHEST",
+            "VOIDMETAL"
+          ],
+          "isSecondary": true,
+          "pageCount": 2,
+          "icon_item": {
+            "item": "thaumcraft:void_chest",
+            "count": 1,
+            "metadata": 0
+          }
+        }
+      ]
+    }
+  ]
+}

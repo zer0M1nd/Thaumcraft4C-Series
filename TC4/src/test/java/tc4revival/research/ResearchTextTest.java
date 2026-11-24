@@ -49,7 +49,8 @@ class ResearchTextTest {
     @Test void allShippedTranslationsParseAndTheirPicturesAreExactLegacyResources() throws Exception {
         // Brass/tubes belong to Omniverse; the three research-assistance stages add one page each.
         // B22 supplies the missing Chinese TUBES.4 page; the legacy English page already exists.
-        int[] expectedText = {313, 312}; int[] expectedPictures = {29, 28}; int[] expectedRules = {21,25}; int localeIndex = 0;
+        // The two storage chests each contribute one text page in both languages.
+        int[] expectedText = {315, 314}; int[] expectedPictures = {29, 28}; int[] expectedRules = {21,25}; int localeIndex = 0;
         var textures = new java.util.HashSet<String>();
         for (String locale : List.of("en_us", "zh_cn")) {
             try (var reader = new InputStreamReader(tc4revival.resources.ExternalTestResources.open("/assets/thaumcraft/lang/" + locale + ".json"), StandardCharsets.UTF_8)) {

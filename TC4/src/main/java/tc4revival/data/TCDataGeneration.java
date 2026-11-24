@@ -115,6 +115,17 @@ public  class TCDataGeneration {
             add("thaumcraft.infusion.recovery_restored",chinese?"已恢复原注魔事务。":"The saved infusion transaction has been restored.");
             add("thaumcraft.research.recipe_unavailable",chinese?"当前数据包中无可用配方":"No recipe in this datapack");
             add("thaumcraft.auto_research.inventory_full",chinese?"背包已满，发现已留在研究台中，批量研究已停止。":"Inventory full. The discovery remains on the research table; batch research has stopped.");
+            add("block.thaumcraft.chaos_matrix",chinese?"混沌矩阵":"Chaos Matrix");
+            add("block.thaumcraft.thaumium_chest",chinese?"神秘箱子":"Thaumium Chest");
+            add("block.thaumcraft.void_chest",chinese?"虚空箱子":"Void Chest");
+            add("block.thaumcraft.thaumium_chest.double",chinese?"大型神秘箱子":"Large Thaumium Chest");
+            add("block.thaumcraft.void_chest.double",chinese?"大型虚空箱子":"Large Void Chest");
+            add("tc.research_name.THAUMIUMCHEST",chinese?"神秘箱子":"Thaumium Chest");
+            add("tc.research_name.VOIDCHEST",chinese?"虚空箱子":"Void Chest");
+            add("tc.research_text.THAUMIUMCHEST",chinese?"储藏与修复":"Storage and repair");
+            add("tc.research_text.VOIDCHEST",chinese?"虚空中的工坊":"A workshop in the void");
+            add("tc.research_page.THAUMIUMCHEST.1",chinese?"神秘箱子可存放 6 排各 9 格物品。将同种箱子并排放置，容量便会翻倍。附近的魔力中继器可提供 cV，为箱内带有修复附魔的受损物品恢复耐久。每次修复的耐久与所需原始要素取决于附魔等级和物品。":"A Thaumium Chest holds six rows of nine stacks. Place a matching chest beside it to double the capacity. A nearby vis relay supplies cV to restore damaged items with the Repair enchantment. The item and enchantment level determine the primal vis cost and durability restored.");
+            add("tc.research_page.VOIDCHEST.1",chinese?"虚空箱子单箱容量为 9 排各 9 格，两只可以合并。魔力中继器仍可修复带有修复附魔的物品。虚空工具另可每秒自行恢复 1 点耐久，无需 cV。":"A Void Chest holds nine rows of nine stacks and can join another Void Chest. Relay vis still powers the Repair enchantment. Void tools also recover one durability per second without consuming vis.");
             add("container.thaumcraft.hungry_chest",chinese?"贪婪箱":"Hungry Chest");
             add("item.thaumcraft.thaumonomicon.cheat",chinese?"作弊指南":"Cheat Sheet");
             add("thaumcraft.mirror.already_linked",chinese?"这面镜子已连接至有效的目的地。":"That mirror is already linked to a valid destination.");
@@ -177,6 +188,7 @@ public  class TCDataGeneration {
             add("thaumcraft.research.search_mode.0",chinese?"搜索策略：仅原名（点击切换）":"Search: original names (click to cycle)");
             add("thaumcraft.research.search_mode.1",chinese?"搜索策略：仅译名（点击切换）":"Search: translated names (click to cycle)");
             add("thaumcraft.research.search_mode.2",chinese?"搜索策略：原名与译名（点击切换）":"Search: original and translated names (click to cycle)");
+            add("thaumcraft.search.item_aspects",chinese?"用 ! 或 ！ 搜索物品要素（如 !ordo&types=1）":"Use ! to search item aspects (!ordo&types=1)");
             add("thaumcraft.research.aspect_search.help",chinese?"输入要素原名或译名；原名英文仅匹配前缀，忽略大小写。~ 前缀搜索可直接连接的要素。空格或右键清空搜索并取消要素选择。安装 JustEnoughCharacters 后支持译名拼音。":"Search original or translated aspect names. Latin original names match prefixes, ignoring case. Prefix ~ finds directly related aspects. Space or right-click clears the search and aspect selection. JustEnoughCharacters enables pinyin matching of translated names.");
             add("thaumcraft.research.shortcuts",chinese?"快捷操作：%s":"Shortcuts: %s");
             add("thaumcraft.research.shortcuts.help",chinese?"滚轮或下方箭头切换选中列，数字 1–5 选择对应行要素；再次按同一数字取消。左键放置一次后取消选中，点空不会取消；拖动要素优先。右键可擦除笔记上的已放置要素，同时清空搜索。中键点击列表上的已知要素搜索其关联要素。在笔记上按住中键拖动可预览自动连线，松开后依次填入；负片格子不可填入。失焦时输入字母或 ~ 会清空旧搜索并开始新搜索。空格或右键同时清空搜索与要素选择。清空搜索恢复原列。Esc 关闭，E 不关闭。关闭快捷操作后保留搜索、搜索清空和原有拖放翻页，隐藏列框与数字。":"Wheel or arrows select a column. Keys 1\u20135 select a row; press the same key again to cancel. Left-click places once and clears the selection; invalid clicks keep it. Dragging takes priority. Right-click erases a placed aspect on the note and clears the search. Middle-click a known aspect in the list to search related aspects. Hold and drag the middle mouse button over the note to preview an automatic connection; release to place it. Negative cells cannot be filled. Typing a letter or ~ while unfocused clears the old query and starts a new search. Space or right-click clears both search and aspect selection. Clearing search restores the previous column. Esc closes; E does not. When disabled, search, clearing, original dragging and paging remain, while column highlighting and row labels are hidden.");

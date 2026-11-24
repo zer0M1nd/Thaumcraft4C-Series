@@ -14,6 +14,8 @@ import net.minecraft.world.item.ItemStack;
 public  class AlchemyFurnaceMenu extends AbstractContainerMenu {
     private final Container contents;
     private final ContainerData data;
+    // The original five fields are also supplied by addon furnaces with a 50-point tank.
+    private final net.minecraft.world.inventory.DataSlot tankCapacity = net.minecraft.world.inventory.DataSlot.standalone();
     public AlchemyFurnaceMenu(int id,Inventory inventory,FriendlyByteBuf buffer) { this(id,inventory,new SimpleContainer(2),new SimpleContainerData(5)); buffer.readBlockPos(); }
     public AlchemyFurnaceMenu(int id,Inventory inventory,Container contents,ContainerData data) {
         super(TCArcane.ALCHEMY_FURNACE_MENU.get(),id); this.contents=contents; this.data=data;
@@ -22,7 +24,10 @@ public  class AlchemyFurnaceMenu extends AbstractContainerMenu {
         addSlot(new Slot(contents,1,80,48));
         for (int row=0;row<3;row++) for (int col=0;col<9;col++) addSlot(new Slot(inventory,9+row*9+col,8+col*18,84+row*18));
         for (int col=0;col<9;col++) addSlot(new Slot(inventory,col,8+col*18,142)); addDataSlots(data);
+        tankCapacity.set(contents instanceof AlchemyFurnaceBlockEntity furnace ? furnace.capacity() : 50);
+        addDataSlot(tankCapacity);
     }
+    public int tankCapacity() { return tankCapacity.get(); }
     public int value(int index) { return data.get(index); }
     @Override public boolean stillValid(Player player) { return contents.stillValid(player); }
     @Override public ItemStack quickMoveStack(Player player,int index) {

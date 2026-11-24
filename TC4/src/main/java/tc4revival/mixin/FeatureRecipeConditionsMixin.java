@@ -19,4 +19,12 @@ public abstract class FeatureRecipeConditionsMixin {
     private Map<ResourceLocation, JsonElement> thaumcraft$deferConfigConditions(Map<ResourceLocation, JsonElement> recipes) {
         return thaumcraft.api.config.FeatureRecipes.prepare((RecipeManager)(Object)this, recipes, context);
     }
+    @Redirect(method="fromJson(Lnet/minecraft/resources/ResourceLocation;Lcom/google/gson/JsonObject;Lnet/minecraftforge/common/crafting/conditions/ICondition$IContext;)Lnet/minecraft/world/item/crafting/Recipe;",
+            at=@At(value="INVOKE", target="Lnet/minecraft/world/item/crafting/RecipeSerializer;fromJson(Lnet/minecraft/resources/ResourceLocation;Lcom/google/gson/JsonObject;Lnet/minecraftforge/common/crafting/conditions/ICondition$IContext;)Lnet/minecraft/world/item/crafting/Recipe;"), remap=false)
+    private static net.minecraft.world.item.crafting.Recipe<?> thaumcraft$readMaterialInputs(
+            net.minecraft.world.item.crafting.RecipeSerializer<?> serializer, ResourceLocation id,
+            com.google.gson.JsonObject json, ICondition.IContext context) {
+        return tc4revival.content.MetalRecipeIngredients.read(context, () -> serializer.fromJson(id, json, context));
+    }
+
 }

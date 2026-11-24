@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "THAUMIUMCHEST",
+  "pattern": [
+    "IWI",
+    "WCW",
+    "IWI"
+  ],
+  "key": {
+    "I": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "W": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "vis": {
+    "ordo": 10,
+    "terra": 10,
+    "aqua": 5
+  },
+  "result": {
+    "item": "thaumcraft:thaumium_chest",
+    "count": 1
+  }
+}

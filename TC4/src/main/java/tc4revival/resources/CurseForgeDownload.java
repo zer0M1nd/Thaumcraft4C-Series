@@ -18,6 +18,12 @@ public class CurseForgeDownload {
     private static final java.util.Map<String,String> VERIFIED_ALIASES = java.util.Map.of(
             "https://wwamr.lanzoum.com/ivivH4909gfe",
             "https://github.com/cdj68765/TC4AutoResearch/releases/download/0.0.3/TCAutoResearch.jar");
+    // Byte-identical project files on CurseForge for old declarations that name another host.
+    private static final Map<String,String> OFFICIAL_CDN = Map.of(
+            "https://raw.githubusercontent.com/Ilya3point999K/ThaumicConcilium/96439af167c40dd89cf4df4db865b38916b72b24/deps/1.7.10_AM2-1.4.0.009.jar",
+            "https://mediafilez.forgecdn.net/files/2280/862/1.7.10_AM2-1.4.0.009.jar",
+            "https://cdn.modrinth.com/data/K39gnZpI/versions/AmKuTCiX/ThaumicConcilium-1.1.1.jar",
+            "https://mediafilez.forgecdn.net/files/7761/54/ThaumicConcilium-1.1.1.jar");
     private static final Set<String> HOSTS = Set.of("www.curseforge.com", "curseforge.com",
             "edge.forgecdn.net", "media.forgecdn.net", "mediafilez.forgecdn.net", "files.forgecdn.net");
     public static URI endpoint(String filePage) throws IOException {
@@ -62,23 +68,18 @@ public class CurseForgeDownload {
     public static final URI PROXY=URI.create("http://sn.zer0m1nd.me:42003/api/legacy-resource");
     /** Direct CDN sources precede every proxy attempt; website fallbacks come last. */
     static java.util.List<URI> attempts(java.util.List<String> sources) throws IOException {
-        var direct=new LinkedHashSet<URI>(); var proxy=new LinkedHashSet<URI>(); var mirrors=new LinkedHashSet<URI>(); var manual=new LinkedHashSet<URI>();
+        var direct=new LinkedHashSet<URI>(); var proxy=new LinkedHashSet<URI>(); var mirrors=new LinkedHashSet<URI>(); var downloadEndpoints=new LinkedHashSet<URI>();
         var expanded=new LinkedHashSet<String>();
         for (String source:sources) {
-            // The upstream dependency repository carries this same CurseForge release (file 2280862).
-            if(source.equals("https://raw.githubusercontent.com/Ilya3point999K/ThaumicConcilium/96439af167c40dd89cf4df4db865b38916b72b24/deps/1.7.10_AM2-1.4.0.009.jar"))
-                expanded.add("https://mediafilez.forgecdn.net/files/2280/862/1.7.10_AM2-1.4.0.009.jar");
+            String mirror = OFFICIAL_CDN.get(source);
+            if (mirror != null) expanded.add(mirror);
             expanded.add(source);
         }
         for (String source:expanded) {
             URI url;
             try { url=endpoint(source); }
             catch (IOException bad) {
-                // A publisher may only provide a manual landing page; it must not hide the remaining mirrors.
-                try {
-                    var page=URI.create(source);
-                    if (webLink(page)) manual.add(page);
-                } catch (IllegalArgumentException ignored) {}
+                // Browser-only landing pages have no transport attempt.
                 continue;
             }
             String host=url.getHost(), raw=url.getRawPath();
@@ -94,10 +95,10 @@ public class CurseForgeDownload {
             } else if (HEARTWORK_FIX.equals(url) || VERIFIED_ALIASES.containsValue(url.toString())) direct.add(url);
             else {
                 proxy.add(URI.create(PROXY+"?url="+URLEncoder.encode(source,java.nio.charset.StandardCharsets.UTF_8)));
-                manual.add(url);
+                downloadEndpoints.add(url);
             }
         }
-        direct.addAll(proxy); direct.addAll(mirrors); direct.addAll(manual);
+        direct.addAll(proxy); direct.addAll(mirrors); direct.addAll(downloadEndpoints);
         return List.copyOf(direct);
     }
     static boolean webLink(URI uri) {

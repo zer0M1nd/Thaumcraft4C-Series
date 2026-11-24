@@ -16,6 +16,7 @@ updateJSONURL="http://tc4c.zer0m1nd.me/forge-updates/thaumcraft.json"
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
+logoFile="thaumcraft-logo.png"
 authors="zer0M1nd"
 credits="Original Thaumcraft 4 by Azanor."
 description='''
@@ -38,6 +39,20 @@ modId="jei"
 mandatory=false
 versionRange="[15.20.0,16)"
 ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.${mod_id}]]
+modId="ae2"
+mandatory=false
+versionRange="[15,16)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.${mod_id}]]
+modId="jecharacters"
+mandatory=false
+versionRange="[0,)"
+ordering="NONE"
 side="CLIENT"
 
 [[dependencies.${mod_id}]]

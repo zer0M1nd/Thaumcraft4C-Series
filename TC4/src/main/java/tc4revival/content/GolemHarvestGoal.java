@@ -31,8 +31,20 @@ public  class GolemHarvestGoal extends Goal {
             var pos=home.offset(x,y,z);
             if(level.hasChunkAt(pos) && GolemCropHarvest.mature(level,pos)) stops.add(pos);
         }
-        if(!route.plan(stops)) return false;
+        if(!route.plan(stops,0,this::approaches)) return false;
         select(route.target());return true;
+    }
+    private java.util.Set<BlockPos> approaches(BlockPos crop) {
+        // Walk up beside a cactus or underneath a fruiting vine. The harvested block
+        // remains the route destination for permissions, drops and animation.
+        var positions=new java.util.HashSet<BlockPos>();
+        double reach=2+tc4revival.config.TCConfig.SERVER.golemInteractionBonus.get();
+        for(int y=-2;y<=1;y++) for(int x=-1;x<=1;x++) for(int z=-1;z<=1;z++) {
+            var feet=crop.offset(x,y,z);
+            if (Vec3.atBottomCenterOf(feet).distanceToSqr(Vec3.atCenterOf(crop))<=reach*reach)
+                positions.add(feet);
+        }
+        return positions;
     }
     @Override public void start() { ticks=1200; route.start(); }
     @Override public boolean canContinueToUse() { return host.workEnabled() && !route.empty() && ticks>0; }

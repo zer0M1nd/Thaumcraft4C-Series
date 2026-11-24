@@ -47,7 +47,7 @@ class CurseForgeDownloadTest {
         var attempts=CurseForgeDownload.attempts(List.of(manual,raw));
         assertEquals("mediafilez.forgecdn.net",attempts.get(0).getHost());
         assertTrue(attempts.contains(URI.create("https://mod.mcimirror.top/files/2280/862/1.7.10_AM2-1.4.0.009.jar")));
-        assertTrue(attempts.contains(URI.create(raw))); assertTrue(attempts.contains(URI.create(manual)));
+        assertTrue(attempts.contains(URI.create(raw))); assertFalse(attempts.contains(URI.create(manual)));
         assertFalse(CurseForgeDownload.allowed(URI.create(manual)));
     }
     @Test void transportFollowsAllowedRedirectAndRejectsErrorsHtmlSizeAndLoops() throws Exception {

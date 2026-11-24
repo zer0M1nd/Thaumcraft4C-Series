@@ -34,12 +34,21 @@ public  class CastingWandItem extends Item {
                 frugal, !focus.isEmpty(), crafting, isSceptre(stack));
     }
     public boolean consumeForPlayer(ItemStack stack, Player player, Map<Aspect, Integer> costs, boolean wholeVis, boolean crafting, boolean commit) {
-        costs=SpellParameters.costs(stack,costs);
+        return consumeForPlayer(stack, player, costs, wholeVis, crafting, commit, false);
+    }
+    boolean consumeForPlayer(ItemStack stack, Player player, Map<Aspect, Integer> requested, boolean wholeVis,
+            boolean crafting, boolean commit, boolean repair) {
+        var costs=SpellParameters.costs(stack,requested);
         if (!thaumcraft.api.wands.WandAutomation.allowed(stack,player)
                 ||!thaumcraft.api.wands.MagicOperationRules.triggerAllows(stack,player,costs,commit)) return false;
         try (var automation = thaumcraft.api.wands.WandAutomation.open(stack,player)) {
-        return consume(stack, costs, aspect -> consumptionModifier(stack, player, aspect, crafting), wholeVis, commit, player.level());
-            }
+            return consume(stack, costs, aspect -> {
+                float modifier = consumptionModifier(stack, player, aspect, crafting);
+                int raw = costs.getOrDefault(aspect, 0);
+                // Keep a positive repair payable even after wand discounts and centivis truncation.
+                return repair && raw > 0 && raw * modifier < 1 ? Math.nextUp(1f / raw) : modifier;
+            }, wholeVis, commit, player.level());
+        }
     }
     @Override public void appendHoverText(ItemStack stack, Level level, java.util.List<net.minecraft.network.chat.Component> lines, net.minecraft.world.item.TooltipFlag flags) {
         tc4revival.client.WandTooltip.append(stack, lines, flags);

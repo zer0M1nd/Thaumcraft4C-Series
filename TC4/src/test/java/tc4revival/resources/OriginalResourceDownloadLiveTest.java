@@ -26,9 +26,11 @@ class OriginalResourceDownloadLiveTest {
                 }
             }
         }
-        assertEquals(16,OriginalResourceDownloads.grouped(targets).size());
+        var identities = targets.stream().map(t -> t.legacyModId() + "@" + t.minecraftVersion()).collect(java.util.stream.Collectors.toSet());
+        assertTrue(identities.containsAll(Set.of("Thaumcraft@1.7.10", "thaumcraft@1.12.2")));
+        assertEquals(identities.size(), OriginalResourceDownloads.grouped(targets).size());
         var results=ArchiveDownloadFixture.obtainMissing(game,targets,System.out::println,CurseForgeDownload::fetch);
-        assertEquals(16,results.size());
+        assertEquals(identities.size(),results.size());
         for(var result:results){assertEquals("",result.failure(),result.owner());assertTrue(Files.isDirectory(result.downloaded()));}
         assertTrue(ArchiveDownloadFixture.obtainMissing(game,targets,t->{},(u,p)->fail("Intact resources avoid network")).isEmpty());
         var tc6=targets.stream().filter(t->t.minecraftVersion().equals("1.12.2")).findFirst().orElseThrow();

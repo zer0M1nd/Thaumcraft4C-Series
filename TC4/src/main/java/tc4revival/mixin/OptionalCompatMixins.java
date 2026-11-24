@@ -7,6 +7,11 @@ import org.spongepowered.asm.mixin.extensibility.*;
 
 public final class OptionalCompatMixins implements IMixinConfigPlugin {
     @Override public boolean shouldApplyMixin(String target,String mixin) {
+        if (target.startsWith("appeng.") || target.startsWith("mezz.jei.")) {
+            String id = target.startsWith("appeng.") ? "ae2" : "jei";
+            return net.minecraftforge.fml.loading.FMLLoader.getLoadingModList().getMods().stream()
+                    .anyMatch(mod -> mod.getModId().equals(id));
+        }
         if(mixin.substring(mixin.lastIndexOf('.')+1).startsWith("EasyVillagers"))
             return net.minecraftforge.fml.loading.FMLLoader.getLoadingModList().getMods().stream().anyMatch(mod->mod.getModId().equals("easy_villagers"));
         if(!mixin.substring(mixin.lastIndexOf('.')+1).startsWith("AutoResearch"))return true;

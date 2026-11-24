@@ -34,6 +34,7 @@ public  class CrucibleRecipe implements Recipe<CrucibleRecipe.Input> {
     private final Ingredient catalyst;
     private final ItemStack output;
     private final AspectAmounts costs = new AspectAmounts();
+    private final AspectAmounts transmutationCosts;
     private final String research;
     private final int legacyOrder;
     private final JsonObject definition;
@@ -52,8 +53,17 @@ public  class CrucibleRecipe implements Recipe<CrucibleRecipe.Input> {
             costs.add(TCAspects.catalog().require(entry.getKey()), amount);
         });
         if (costs.isEmpty()) throw new IllegalArgumentException("Crucible recipes require aspects: " + id);
+        if (GsonHelper.getAsBoolean(json,"nugget_transmutation",false)) {
+            transmutationCosts=costs.copy();
+            transmutationCosts.add(TCAspects.catalog().require("metallum"),1);
+        } else transmutationCosts=null;
     }
-    public AspectAmounts costs() { return costs.copy(); }
+    private AspectAmounts configuredCosts() {
+        if (transmutationCosts!=null && (!tc4revival.config.TCConfig.SERVER_SPEC.isLoaded()
+                || tc4revival.config.TCConfig.SERVER.extraNuggetTransmutationCost.get())) return transmutationCosts;
+        return costs;
+    }
+    public AspectAmounts costs() { return configuredCosts().copy(); }
     public String research() { return research; }
     public net.minecraft.world.item.crafting.Ingredient displayCatalyst() { return catalyst; }
     public int legacyOrder() { return legacyOrder; }
@@ -61,9 +71,10 @@ public  class CrucibleRecipe implements Recipe<CrucibleRecipe.Input> {
     @Override public boolean matches(Input input, Level level) {
         if(!thaumcraft.api.research.ResearchCategories.enabled(research))return false;
         if (!input.research.test(research) || !catalystMatches(input.getItem(0))) return false;
-        return costs.view().entrySet().stream().allMatch(entry -> input.aspects.amount(entry.getKey()) >= entry.getValue());
+        return configuredCosts().view().entrySet().stream().allMatch(entry -> input.aspects.amount(entry.getKey()) >= entry.getValue());
     }
     public Optional<AspectAmounts> remainder(AspectAmounts contents) {
+        var costs=configuredCosts();
         if (costs.view().entrySet().stream().anyMatch(entry -> contents.amount(entry.getKey()) < entry.getValue())) return Optional.empty();
         var remainder = contents.copy(); costs.view().forEach(remainder::remove); return Optional.of(remainder);
     }

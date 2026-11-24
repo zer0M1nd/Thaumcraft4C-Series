@@ -2579,6 +2579,78 @@
           "en_us": "Additional-dimension node rates follow the multiplier table: Twilight Forest defaults to 2×; Ad Astra planets and orbits default to no natural nodes, configurable on the server."
         }
       }
+    },
+    {
+      "id": "thaumcraft:chaos_matrix",
+      "research": "THAUMATORIUM",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "在自动坩埚的记忆矩阵安装面装上混沌矩阵，即可使用任意坩埚配方。它会忘记已选配方，吸入各种源质，合计储存 100 点，并显示当前原料最接近的配方。满足需求时自动合成，保留剩余源质。一个矩阵维持原速，每多一个增加半倍吸取速度。灵魂火或点燃的灵魂篝火可独立提供 1.5 倍速度。",
+          "en_us": "Fit a Chaos Matrix to a mnemonic matrix mount to use any crucible recipe. The machine forgets selected recipes, draws any essentia up to 100 points in total and displays the closest recipe for its catalyst. It crafts when the ingredients are available and keeps unused essentia. The first matrix maintains normal intake speed. Each additional matrix adds half the base rate. Soul fire or a lit soul campfire supplies a separate 1.5× multiplier."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:nugget_transiron",
+      "research": "TRANSIRON",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "默认情况下，每净增两个金属粒消耗 3 点金属要素。可在服务器配置中恢复为 2 点。",
+          "en_us": "By default each two additional nuggets cost 3 Metallum. The server configuration can restore the cost of 2."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:nugget_transgold",
+      "research": "TRANSGOLD",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "默认情况下，每净增两个金属粒消耗 3 点金属要素。可在服务器配置中恢复为 2 点。",
+          "en_us": "By default each two additional nuggets cost 3 Metallum. The server configuration can restore the cost of 2."
+        }
+      }
+    },
+    {
+      "id": "thaumcraft:nugget_transcopper",
+      "research": "TRANSCOPPER",
+      "kind": "continuation",
+      "provider": "thaumcraft",
+      "provider_name": {
+        "localized": {
+          "zh_cn": "神秘时代 4",
+          "en_us": "Thaumcraft 4"
+        }
+      },
+      "text": {
+        "localized": {
+          "zh_cn": "默认情况下，每净增两个金属粒消耗 3 点金属要素。可在服务器配置中恢复为 2 点。",
+          "en_us": "By default each two additional nuggets cost 3 Metallum. The server configuration can restore the cost of 2."
+        }
+      }
     }
   ]
 }

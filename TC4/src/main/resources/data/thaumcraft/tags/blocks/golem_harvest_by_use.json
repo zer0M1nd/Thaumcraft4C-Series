@@ -1,1 +1,16 @@
-{"replace":false,"values":["minecraft:sweet_berry_bush","minecraft:cave_vines","minecraft:cave_vines_plant",{"id":"farmersdelight:tomatoes","required":false}]}
+{
+  "replace": false,
+  "values": [
+    "minecraft:sweet_berry_bush",
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant",
+    { "id": "#forge:berry_bushes", "required": false },
+    { "id": "aether:berry_bush", "required": false },
+    { "id": "ars_nouveau:sourceberry_bush", "required": false },
+    { "id": "blue_skies:brewberry_bush", "required": false },
+    "#thaumcraft:golem_harvest_before_max_age",
+    { "id": "twilightforest:torchberry_plant", "required": false },
+    { "id": "undergarden:blisterberry_bush", "required": false },
+    { "id": "farmersdelight:tomatoes", "required": false }
+  ]
+}

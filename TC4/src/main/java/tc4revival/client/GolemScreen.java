@@ -16,21 +16,22 @@ public  class GolemScreen extends AbstractContainerScreen<GolemMenu> {
         var random=menu.golem().getRandom(); threat=menu.golem().configuration().advanced() && random.nextInt(4)==0?random.nextInt(9):-1;
     }
     private record Toggle(int x,int y,int index,String label,boolean checked,boolean small,int color,boolean visible) {}
+    private static String label(String key) { return Component.translatable("thaumcraft.golem."+key).getString(); }
     private List<Toggle> toggles() {
         var result=new ArrayList<Toggle>(); var config=menu.golem().configuration(); var core=config.core();
         result.add(new Toggle(8,72,18,Component.translatable("thaumcraft.golem.axis_aligned").getString(),config.axisAligned(),true,0xFDFDFD,true));
         if (core==GolemCoreType.GUARD) {
-            String[] names={"Monsters","Animals","Players","Creepers"}; int[] colors={0xFFCCCC,0xFFFFCC,0xCCCCFF,0xCCFFCC};
+            String[] names={label("monsters"),label("animals"),label("players"),label("creepers")}; int[] colors={0xFFCCCC,0xFFFFCC,0xCCCCFF,0xCCFFCC};
             for (int i=0;i<4;i++) result.add(new Toggle(104,5+i*16,i+1,names[i],!config.toggle(i+1),false,colors[i],config.upgrades(4)>0));
         }
-        if (core==GolemCoreType.FILL) result.add(new Toggle(62,54,0,config.toggle(0)?"Any amount":"Precise amount",!config.toggle(0),true,0xFDFDFD,true));
+        if (core==GolemCoreType.FILL) result.add(new Toggle(62,54,0,config.toggle(0)?label("any_amount"):label("precise_amount"),!config.toggle(0),true,0xFDFDFD,true));
         if (core==GolemCoreType.USE) {
-            String[] names={config.toggle(0)?"Empty space":"Block",config.toggle(1)?"Left click":"Right click",config.toggle(2)?"Sneaking":"Not sneaking"};
+            String[] names={config.toggle(0)?label("empty_space"):label("block"),config.toggle(1)?label("left_click"):label("right_click"),config.toggle(2)?label("sneaking"):label("not_sneaking")};
             for (int i=0;i<3;i++) result.add(new Toggle(42,40+i*10,i,names[i],!config.toggle(i),true,0xFDFDFD,true));
         }
         if (core!=null && core.canSort && config.upgrades(5)>0) {
             int x=core==GolemCoreType.SORTING?66:180,y=core==GolemCoreType.SORTING?36:24;
-            String[] names={"Use material tags","Ignore item damage","Ignore NBT values"};
+            String[] names={label("use_material_tags"),label("ignore_item_damage"),label("ignore_nbt_values")};
             for (int i=0;i<3;i++) result.add(new Toggle(x,y+i*10,i+5,names[i],config.toggle(i+5),true,config.toggle(i+5)?0xFDFDFD:0x666666,true));
         }
         return result;
@@ -89,9 +90,8 @@ public  class GolemScreen extends AbstractContainerScreen<GolemMenu> {
         var config=menu.golem().configuration();
         // Original hover labels require entropy even though the color buttons require order.
         if (config.core()!=null && config.core().hasInventory && config.upgrades(5)>0) {
-            String[] names={"White","Orange","Magenta","Light Blue","Yellow","Lime","Pink","Gray","Light Gray","Cyan","Purple","Blue","Brown","Green","Red","Black"};
             for (int slot=0;slot<Math.min(6,menu.sampleCount());slot++) if (inside(x,y,96+slot/2*28,4+slot%2*31,24,12)) {
-                int color=menu.golem().filters().color(slot+menu.page()*6); String name=color<0?"Any color":names[color];
+                int color=menu.golem().filters().color(slot+menu.page()*6); String name=color<0?label("any_color"):Component.translatable("color.minecraft."+net.minecraft.world.item.DyeColor.byId(color).getName()).getString();
                 g.drawString(font,name,leftPos+133-font.width(name)/2,topPos-6,0xFDFDFD,false);
             }
         }

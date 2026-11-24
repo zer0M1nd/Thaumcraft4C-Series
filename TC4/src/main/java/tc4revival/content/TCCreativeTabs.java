@@ -55,6 +55,7 @@ public  class TCCreativeTabs {
                 for (var kind:LootBagItem.Kind.values()) output.accept(TCItems.lootBag(kind));
                 output.accept(TCItems.TAINTED_GOO.get()); output.accept(TCItems.TAINTED_TENDRIL.get());
                 output.accept(TCItems.NITOR.get());
+                output.accept(TCItems.THAUMIUM_CHEST.get()); output.accept(TCItems.VOID_CHEST.get());
                 output.accept(TCItems.CRUCIBLE.get());
                 output.accept(TCItems.BELLOWS.get());
                 output.accept(TCItems.ARCANE_PEDESTAL.get());
@@ -65,7 +66,7 @@ public  class TCCreativeTabs {
                 output.accept(TCItems.ESSENTIA_MIRROR.get());
                 output.accept(TCItems.WARDED_GLASS.get());
                 output.accept(TCItems.ARCANE_PRESSURE_PLATE.get());
-                output.accept(TCItems.ALCHEMICAL_CONSTRUCT.get()); output.accept(TCItems.ADVANCED_ALCHEMICAL_CONSTRUCT.get()); output.accept(TCItems.MNEMONIC_MATRIX.get());
+                output.accept(TCItems.ALCHEMICAL_CONSTRUCT.get()); output.accept(TCItems.ADVANCED_ALCHEMICAL_CONSTRUCT.get()); output.accept(TCItems.MNEMONIC_MATRIX.get()); output.accept(TCItems.CHAOS_MATRIX.get());
                 TCArcane.essentiaTubes().forEach(output::accept);
                 output.accept(TCItems.ESSENTIA_RESONATOR.get());
                 output.accept(TCItems.ESSENTIA_JAR.get()); output.accept(TCItems.VOID_JAR.get()); output.accept(TCItems.JAR_LABEL.get()); output.accept(TCItems.EMPTY_PHIAL.get());

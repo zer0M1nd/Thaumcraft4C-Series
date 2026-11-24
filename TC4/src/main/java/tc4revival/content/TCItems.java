@@ -30,6 +30,8 @@ public  class TCItems {
     public static final RegistryObject<GolemBellItem> GOLEM_BELL=ITEMS.register("golem_bell",()->new GolemBellItem(new Item.Properties(),TCItems::golem,TCItems::golemCore,TCItems::golemUpgrade));
     public static final RegistryObject<TravelingTrunkItem> TRAVELING_TRUNK=ITEMS.register("traveling_trunk",()->new TravelingTrunkItem(new Item.Properties()));
     public static final RegistryObject<LegacyWoodBlockItem> MAGIC_BOX=ITEMS.register("magic_box",()->new LegacyWoodBlockItem(TCArcane.MAGIC_BOX.get(),new Item.Properties()));
+    public static final RegistryObject<Item> THAUMIUM_CHEST = ITEMS.register("thaumium_chest", () -> new net.minecraft.world.item.BlockItem(TCArcane.THAUMIUM_CHEST.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VOID_CHEST = ITEMS.register("void_chest", () -> new net.minecraft.world.item.BlockItem(TCArcane.VOID_CHEST.get(), new Item.Properties()));
     public static final RegistryObject<HungryChestItem> HUNGRY_CHEST=ITEMS.register("hungry_chest",()->new HungryChestItem(TCArcane.HUNGRY_CHEST.get(),new Item.Properties()));
     public static GolemPlacerItem golem(GolemMaterial material) { return GOLEMS.get(material).get(); }
     public static GolemComponentItem golemCore(int index) { return index==100?GOLEM_CORE_BLANK.get():GOLEM_CORES.get(GolemCoreType.fromLegacy(index)).get(); }
@@ -105,6 +107,7 @@ public  class TCItems {
     public static final RegistryObject<Item> ADVANCED_ALCHEMICAL_CONSTRUCT=ITEMS.register("advanced_alchemical_construct",()->new net.minecraft.world.item.BlockItem(TCArcane.ADVANCED_ALCHEMICAL_CONSTRUCT.get(),new Item.Properties()));
     public static final RegistryObject<Item> ALCHEMICAL_CONSTRUCT=ITEMS.register("alchemical_construct",()->new net.minecraft.world.item.BlockItem(TCArcane.ALCHEMICAL_CONSTRUCT.get(),new Item.Properties()));
     public static final RegistryObject<Item> MNEMONIC_MATRIX=ITEMS.register("mnemonic_matrix",()->new net.minecraft.world.item.BlockItem(TCArcane.MNEMONIC_MATRIX.get(),new Item.Properties()));
+    public static final RegistryObject<Item> CHAOS_MATRIX=ITEMS.register("chaos_matrix",()->new net.minecraft.world.item.BlockItem(TCArcane.CHAOS_MATRIX.get(),new Item.Properties()));
     public static final RegistryObject<PureWaterBucketItem> PURE_WATER_BUCKET=ITEMS.register("purifying_water_bucket",PureWaterBucketItem::new);
     public static final RegistryObject<LiquidDeathBucketItem> LIQUID_DEATH_BUCKET=ITEMS.register("liquid_death_bucket",LiquidDeathBucketItem::new);
     public static final RegistryObject<Item> LIQUID_DEATH_ITEM=ITEMS.register("liquid_death",()->new net.minecraft.world.item.BlockItem(TCArcane.LIQUID_DEATH.get(),new Item.Properties()));

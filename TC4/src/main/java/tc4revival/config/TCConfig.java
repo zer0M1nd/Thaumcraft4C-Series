@@ -62,6 +62,7 @@ public  class TCConfig {
     }
 
     public enum ResearchObfuscation { DEFAULT, NEVER, ALWAYS, DISTANCE }
+    public enum LegacyTextMode { HIDDEN, HIGHLIGHT, ALL }
     public enum SearchStrategy { DEFAULT, ORIGINAL, TRANSLATED, BOTH }
 
     public static  class Server {
@@ -88,8 +89,11 @@ public  class TCConfig {
         public final IntValue inferredAspectSoftLimit, inferredAspectHardLimit, inferredAspectBeforeScaling;
         public final BooleanValue championMobs, allowMirrors, allowCheatSheet, wardedStone;
         public final BooleanValue hardNodes, disableWarp, taintFromFlux, golemChestInteract;
+        public final BooleanValue extraNuggetTransmutationCost;
 
         private Server(ForgeConfigSpec.Builder builder) {
+            extraNuggetTransmutationCost=builder.comment("金属粒嬗变复制两个金属粒消耗 3 点而非 2 点金属要素。 / Charge one additional Metallum to duplicate two metal nuggets. Default: true.")
+                    .define("extra_nugget_transmutation_cost",true);
             advancedAspectInference=builder.comment("进阶要素推断 / Advanced aspect inference. Fill missing aspects using recipes and configurable fallbacks. Requires JEI on the server. Restart the world/server after changing.").worldRestart().comment("根据配方和回退规则补全缺失要素；属于兼容适配，不受全局模式关闭","Supplement missing aspects from recipes and fallback rules; independent of the revival profile","初始值 / Default: " + String.valueOf(true) + "; 可选 / Allowed: true, false", "修改后重启世界/服务器；客户端项重开界面 / Restart world/server; reopen the screen for client settings.").define("advanced_aspect_inference",true);
             inferredAspectAmountLimit=builder.comment("自动推断的单种要素数值上限 / Maximum amount per automatically inferred aspect. Explicit definitions are unchanged. Restart the world/server.").worldRestart().comment("自动推断每种要素的数量上限，不改变显式要素","Maximum quantity of each inferred aspect; explicit entries are unchanged","初始值 / Default: " + String.valueOf(64) + "; 范围 / Range: " + String.valueOf(1) + ".." + String.valueOf(10000), "修改后重启世界/服务器；客户端项重开界面 / Restart world/server; reopen the screen for client settings.").defineInRange("inferred_aspect_amount_limit",64,1,10000);
             inferredAspectTypeLimit=builder.comment("自动推断的要素种类上限 / Maximum aspect types per automatically inferred entry. Explicit definitions are unchanged. Restart the world/server.").worldRestart().comment("每个推断条目的要素种类上限","Maximum aspect types in an inferred entry","初始值 / Default: " + String.valueOf(10) + "; 范围 / Range: " + String.valueOf(1) + ".." + String.valueOf(1024), "修改后重启世界/服务器；客户端项重开界面 / Restart world/server; reopen the screen for client settings.").defineInRange("inferred_aspect_type_limit",10,1,1024);
@@ -201,6 +205,7 @@ public  class TCConfig {
         public final RevivalConfig.Option aspectIconTooltips;
         public final RevivalConfig.Option researchTableShortcuts, researchTableAutoConnect;
         public final RevivalConfig.Option maximumResearchBrowser;
+        public final ForgeConfigSpec.EnumValue<LegacyTextMode> legacyTextMode;
         public final RevivalConfig.Option jeiResearch;
         public final ForgeConfigSpec.EnumValue<SearchStrategy> researchTableSearchStrategy;
         public final IntValue researchTableColumn;
@@ -209,7 +214,12 @@ public  class TCConfig {
         public final IntValue notificationDelay, notificationMax;
         private final IntValue golemLinkQuality;
 
+        public final ForgeConfigSpec.ConfigValue<String> chineseLocalization;
+
         private Client(ForgeConfigSpec.Builder builder) {
+            chineseLocalization = builder.comment("下载中文本地化资源。可填英文或中文。ENABLED / 启用，DISABLED / 禁用，DETECT / 检测（默认，检查网络出口是否在中国大陆）。",
+                    "Download Chinese localization resources. DETECT enables downloads only on a mainland China network.")
+                    .define(tc4revival.download.DownloadPreferences.KEY, "DETECT", value -> tc4revival.download.DownloadPreferences.parse(value).isPresent());
             revival = new RevivalConfig(builder, () -> SERVER.revival.profile());
             jeiResearch = revival.feature("jei.research_queries", "JEI 研究查询、前置页面与魔导手册快捷查询。DEFAULT 跟随聆听指引开关；显式 TRUE/FALSE 优先；需要安装 JEI。", "JEI research queries and book shortcuts. DEFAULT follows listening guidance; explicit TRUE/FALSE takes priority; requires JEI.", () -> SERVER.revival.listeningGuidance.get());
             maximumResearchBrowser = revival.feature("book.maximum_research_browser", "最大化手册视图；游戏内尺寸按钮保存显式偏好。", "Maximize the book; the in-game size button saves an explicit preference.", new RevivalConfig.Defaults(false, false, false, false));
@@ -218,6 +228,8 @@ public  class TCConfig {
             var localPreference = new RevivalConfig.Defaults(true, true, true, true);
             researchTableShortcuts = revival.feature("research_table.shortcuts", "允许基础快捷操作；仍受服务端对应功能配置控制。", "Allow basic shortcuts; the corresponding server feature must also be enabled.", localPreference);
             researchTableAutoConnect = revival.feature("research_table.auto_connect", "允许自动连线；仍受服务端功能及研究门槛控制。", "Allow auto-connect; server feature and research requirements still apply.", localPreference);
+            legacyTextMode = builder.comment("手册旧版文本变更显示方式。","Display of revised legacy book text: HIDDEN, HIGHLIGHT, ALL.")
+                    .defineEnum("revival_features.book.legacy_text_changes", LegacyTextMode.HIDDEN);
             researchObfuscation=builder.comment("研究标题混淆：DEFAULT 在 Everything/Easiest 为 NEVER，在 Hardest/Vanilla 为 ALWAYS；DISTANCE 使用距离阈值。", "Title obfuscation: DEFAULT is NEVER in Everything/Easiest, ALWAYS in Hardest/Vanilla; DISTANCE uses the threshold.", "初始 DEFAULT；可选 DEFAULT/NEVER/DISTANCE/ALWAYS；重开界面生效 / Default DEFAULT; allowed DEFAULT/NEVER/DISTANCE/ALWAYS; reopen the screen.").defineEnum("revival_features.book.research_obfuscation",ResearchObfuscation.DEFAULT);
             builder.push("visuals");
             nativeResearchTooltips = builder.comment("研究图标和分页使用原版物品样式提示框；默认开启，关闭后研究图标恢复旧样式。",

@@ -78,26 +78,32 @@ class OriginalResourcesTest {
     @Test void missingDirectoryCanBeRetriedInTheSameProcess() throws Exception {
         assertTrue(OriginalResourceSelection.scan(game, MAPPING).usable().isEmpty());
         Path added = jar("download.jar", "a");
-        assertEquals(added, OriginalResourceSelection.scan(game, MAPPING).automatic().file());
+        assertNull(OriginalResourceSelection.scan(game, MAPPING).automatic());
+        assertEquals(added, scanKnown(added).automatic().file());
     }
 
     @Test void corruptFilesAreReportedAndDoNotHideAUsableCandidate() throws Exception {
         Path expected = jar("valid.jar", "a");
         Files.writeString(expected.getParent().resolve("bad.jar"), "incomplete download");
-        var scan = OriginalResourceSelection.scan(game, MAPPING);
+        var scan = scanKnown(expected);
         assertEquals(expected, scan.automatic().file());
         assertEquals(1, scan.errors().size());
         assertTrue(scan.errors().get(0).contains("bad.jar"));
     }
 
-    @Test void multipleVariantsAndStaleRememberedHashNeverBlockLoading() throws Exception {
-        Path first = jar("a.jar", "a");
-        Path second = jar("b.jar", "b");
-        assertEquals(first, OriginalResourceSelection.scan(game, MAPPING).automatic().file());
+    private OriginalResourceSelection.Scan scanKnown(Path... files) throws IOException {
+        var hashes=new java.util.HashSet<String>();
+        for (Path file : files) hashes.add(OriginalResources.sha256(Files.readAllBytes(file)));
+        return OriginalResourceSelection.scan(game, MAPPING, hashes);
+    }
+
+    @Test void onlyPinnedVariantsCanUseARememberedSelection() throws Exception {
+        Path first = jar("a.jar", "a"), second = jar("b.jar", "b");
+        assertNull(OriginalResourceSelection.scan(game,MAPPING).automatic());
+        assertEquals(first, scanKnown(first,second).automatic().file());
         OriginalResourceSelection.remember(game, OriginalResources.read(second, MAPPING));
-        assertEquals(second, OriginalResourceSelection.scan(game, MAPPING).automatic().file());
-        jar("b.jar", "replacement");
-        assertEquals(first, OriginalResourceSelection.scan(game, MAPPING).automatic().file());
+        assertEquals(second, scanKnown(first,second).automatic().file());
+        assertEquals(first, scanKnown(first).automatic().file());
     }
 
     @Test void incompleteArchiveAndUnsafeResourcePathsAreRejected() throws Exception {
@@ -123,11 +129,11 @@ class OriginalResourcesTest {
         Files.copy(original, directory.resolve("b-reference.jar"));
         Files.copy(original, directory.resolve("a-reference.JAR"));
         var scan = OriginalResourceSelection.scan(game, Map.of());
-        assertEquals(3, scan.usable().size());
+        assertEquals(2, scan.usable().size());
         assertEquals(directory.resolve("a-reference.JAR"), scan.automatic().file());
         assertTrue(scan.automatic().reference());
         assertTrue(scan.errors().stream().anyMatch(message -> message.contains("相同")));
-        assertFalse(scan.usable().get(0).reference());
+        assertTrue(scan.usable().stream().allMatch(OriginalResources.Snapshot::reference));
     }
 
     @Test void replacingFileCannotChangeAnAlreadyValidatedSnapshot() throws Exception {

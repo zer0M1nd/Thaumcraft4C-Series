@@ -68,14 +68,23 @@ public  class ThaumatoriumBlockEntity extends BlockEntity implements WorldlyCont
     @Override public boolean powered() {
         return level.hasNeighborSignal(worldPosition) || level.hasNeighborSignal(worldPosition.below()) || level.hasNeighborSignal(worldPosition.above());
     }
-    @Override public int recipeLimit() {
-        int capacity=1;
+    @Override public boolean soulHeat() {
+        var pos=worldPosition.below(2);
+        if (!level.hasChunkAt(pos)) return false;
+        var heat=level.getBlockState(pos);
+        return heat.is(Blocks.SOUL_FIRE) || heat.is(Blocks.SOUL_CAMPFIRE)
+                && heat.getValue(net.minecraft.world.level.block.CampfireBlock.LIT);
+    }
+    @Override public int recipeLimit() { return 1+2*matrixCount(TCArcane.MNEMONIC_MATRIX.get()); }
+    @Override public int chaosMatrices() { return matrixCount(TCArcane.CHAOS_MATRIX.get()); }
+    private int matrixCount(MnemonicMatrixBlock block) {
+        int count=0;
         for (int y=0;y<=1;y++) for (var side:Direction.values()) if (side!=Direction.DOWN && side!=facing()) {
             var pos=worldPosition.above(y).relative(side);
-            if (level.hasChunkAt(pos) && level.getBlockState(pos).is(TCArcane.MNEMONIC_MATRIX.get())
-                    && level.getBlockState(pos).getValue(MnemonicMatrixBlock.FACING)==side.getOpposite()) capacity+=2;
+            if (level.hasChunkAt(pos) && level.getBlockState(pos).is(block)
+                    && level.getBlockState(pos).getValue(MnemonicMatrixBlock.FACING)==side.getOpposite()) count++;
         }
-        return capacity;
+        return count;
     }
     private Optional<IItemHandler> outputInventory() {
         var pos=worldPosition.offset(facing().getStepX(),0,facing().getStepZ()); if (!level.hasChunkAt(pos)) return Optional.empty();
@@ -87,22 +96,77 @@ public  class ThaumatoriumBlockEntity extends BlockEntity implements WorldlyCont
         return Optional.empty();
     }
     @Override public boolean outputFits(CrucibleRecipe recipe) {
-        if (!level.hasChunkAt(worldPosition.offset(facing().getStepX(),0,facing().getStepZ()))) return false;
-        return outputInventory().map(target->ItemHandlerHelper.insertItemStacked(target,recipe.getResultItem(level.registryAccess()),true).isEmpty()).orElse(true);
+        return outputFits(recipe.getResultItem(level.registryAccess()));
     }
-    @Override public int draw(Aspect aspect) {
+    private boolean outputFits(ItemStack result) {
+        if (!level.hasChunkAt(worldPosition.offset(facing().getStepX(),0,facing().getStepZ()))) return false;
+        return outputInventory().map(target->ItemHandlerHelper.insertItemStacked(target,result,true).isEmpty()).orElse(true);
+    }
+    @Override public int draw(Aspect aspect) { return drawFromPipe(aspect)==null ? 0 : 1; }
+    @Override public Aspect drawAny() { return drawFromPipe(null); }
+    private Aspect drawFromPipe(Aspect requested) {
         for (int y=0;y<=1;y++) for (var side:Direction.values()) {
             if (side==facing() || side==Direction.DOWN || y==0 && side==Direction.UP) continue;
             var pos=worldPosition.above(y).relative(side);
             if (!level.hasChunkAt(pos) || !(level.getBlockEntity(pos) instanceof EssentiaTransport source)
                     || !source.connectable(side.getOpposite()) || source.essentiaAmount(side.getOpposite())<=0
                     || source.suction(side.getOpposite())>=process.suctionAmount() || source.minimumSuction()>process.suctionAmount()) continue;
-            int drawn=source.takeEssentia(aspect,1,side.getOpposite()); if (drawn>0) return drawn;
+            var offered=source.essentiaType(side.getOpposite());
+            var aspect=requested!=null ? requested : offered;
+            if (aspect!=null && source.takeEssentia(aspect,1,side.getOpposite())>0) return aspect;
         }
-        return 0;
+        return null;
     }
+    private ItemStack candidateInput=ItemStack.EMPTY;
+    private java.util.List<CrucibleRecipe> candidates=java.util.List.of();
+    private long candidatesAt=Long.MIN_VALUE;
+    private java.util.List<CrucibleRecipe> recipesFor(CrucibleRecipe.Input input,boolean readyOnly) {
+        var catalyst=input.getItem(0);
+        long now=level.getGameTime();
+        if (!ItemStack.isSameItemSameTags(catalyst,candidateInput) || now-candidatesAt>=40 || now<candidatesAt) {
+            candidateInput=catalyst.copy();
+            candidatesAt=now;
+            candidates=level.getRecipeManager().getAllRecipesFor(TCArcane.CRUCIBLE_RECIPE_TYPE.get()).stream()
+                    .filter(r->r.catalystMatches(catalyst))
+                    .sorted(java.util.Comparator.comparingInt(CrucibleRecipe::legacyOrder).thenComparing(CrucibleRecipe::getId)).toList();
+        }
+        var available=thaumcraft.api.crafting.MagicRecipeProviders.crucibleCandidates(level,input,readyOnly);
+        for (var recipe:candidates)
+            if (level.getRecipeManager().byKey(recipe.getId()).orElse(null)==recipe
+                    && thaumcraft.api.research.ResearchCategories.enabled(recipe.research())
+                    && !recipe.getResultItem(level.registryAccess()).isEmpty()
+                    && (!readyOnly || recipe.matches(input,level))) available.add(recipe);
+        return available;
+    }
+    @Override public Optional<ThaumatoriumProcess.Craft> planChaos(AspectAmounts stock) {
+        var input=new CrucibleRecipe.Input(input().copy(),stock,key->true);
+        for (var recipe:recipesFor(input,true)) {
+            var result=recipe.assemble(input,level.registryAccess());
+            if (outputFits(result)) return Optional.of(new ThaumatoriumProcess.Craft(recipe,result));
+        }
+        return Optional.empty();
+    }
+    public Optional<CrucibleRecipe> closest(ItemStack catalyst,AspectAmounts stock,boolean requireOutput) {
+        if (level==null || catalyst.isEmpty()) return Optional.empty();
+        var input=new CrucibleRecipe.Input(catalyst,stock,key->true);
+        CrucibleRecipe best=null;
+        long shortest=Long.MAX_VALUE;
+        for (var recipe:recipesFor(input,requireOutput)) {
+            var cost=recipe.costs();
+            long missing=0;
+            for (var entry:cost.view().entrySet()) missing+=Math.max(0,entry.getValue()-stock.amount(entry.getKey()));
+            if (requireOutput && (missing!=0 || !outputFits(recipe))) continue;
+            if (missing<shortest) {
+                best=recipe; shortest=missing;
+            }
+        }
+        return Optional.ofNullable(best);
+    }
+    @Override public void finishChaos(ThaumatoriumProcess.Craft craft) { deliver(craft.result(),""); }
     @Override public void complete(CrucibleRecipe recipe,String author) {
-        var output=recipe.getResultItem(level.registryAccess());
+        deliver(recipe.getResultItem(level.registryAccess()),author);
+    }
+    private void deliver(ItemStack output,String author) {
         if (level instanceof net.minecraft.server.level.ServerLevel server) {
             var player=server.getServer().getPlayerList().getPlayerByName(author);
             if (player!=null && player.level()==level) net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(player,output,new net.minecraft.world.SimpleContainer(input.copy()));

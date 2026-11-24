@@ -11,8 +11,11 @@ import net.minecraftforge.fml.ModList;
 public  class AddonResourceRequirements {
     private static final org.slf4j.Logger LOGGER = com.mojang.logging.LogUtils.getLogger();
     public record Requirement(String owner,String name,String legacyModId,String sha256,String download,
-                              Map<String,String> mapping,Map<String,Map<String,String>> languages,String minecraftVersion, List<String> downloads,List<String> requiredResources,Set<String> namespaceAliases,OriginalResources.AnnotationIdentity annotationIdentity) {
-        public Requirement { namespaceAliases=Set.copyOf(namespaceAliases); }
+                              Map<String,String> mapping,Map<String,Map<String,String>> languages,String minecraftVersion, List<String> downloads,List<String> requiredResources,Set<String> namespaceAliases,OriginalResources.AnnotationIdentity annotationIdentity, ArchiveSources sources) {
+        public Requirement(String owner,String name,String legacyModId,String sha256,String download,Map<String,String> mapping,Map<String,Map<String,String>> languages,String minecraftVersion,List<String> downloads,List<String> requiredResources,Set<String> namespaceAliases,OriginalResources.AnnotationIdentity annotationIdentity) {
+            this(owner,name,legacyModId,sha256,download,mapping,languages,minecraftVersion,downloads,requiredResources,namespaceAliases,annotationIdentity,ArchiveSources.legacy(sha256,download,downloads));
+        }
+        public Requirement { namespaceAliases=Set.copyOf(namespaceAliases); sources=sources.withCatalog(sha256,download); }
         public Requirement(String owner,String name,String legacyModId,String sha256,String download,Map<String,String> mapping,Map<String,Map<String,String>> languages,String minecraftVersion,List<String> downloads,List<String> requiredResources,Set<String> namespaceAliases){
             this(owner,name,legacyModId,sha256,download,mapping,languages,minecraftVersion,downloads,requiredResources,namespaceAliases,null);
         }
@@ -86,14 +89,20 @@ public  class AddonResourceRequirements {
                         identity=new OriginalResources.AnnotationIdentity(annotation.get("class").getAsString(),annotation.get("version").getAsString(),hash);
                     }catch(RuntimeException invalid){throw new IOException("Invalid legacy_annotation for "+owner,invalid);}
                 }
-                var downloads=strings(json,"downloads",json.has("download")?List.of(json.get("download").getAsString()):List.of());
-                if(downloads.isEmpty())throw new IOException("Missing original resource download links");
-                String page=json.has("download")?json.get("download").getAsString():downloads.get(0);
+                var hashes = new LinkedHashMap<String,String>();
+                var downloads = ArchiveSources.read(json, "downloads", hash, hashes);
+                var pages = ArchiveSources.read(json, "manual_downloads", hash, hashes);
+                String page = json.has("download") ? json.get("download").getAsString()
+                        : !pages.isEmpty() ? pages.get(0) : !downloads.isEmpty() ? downloads.get(0) : null;
+                if (page == null) throw new IOException("Missing original resource sources");
+                if (!json.has("downloads") && json.has("download")) downloads.add(page);
+                hashes.putIfAbsent(page, hash);
+                if (pages.isEmpty()) pages.add(page);
                 result.add(new Requirement(owner,json.get("name").getAsString(),json.get("legacy_modid").getAsString(),
                     hash,page,Map.copyOf(mapping),Map.copyOf(languages),
                     json.has("legacy_minecraft_version")?json.get("legacy_minecraft_version").getAsString():"1.7.10",
                     downloads,
-                    strings(json,"required_resources",List.copyOf(mapping.values())),aliases,identity));
+                    strings(json,"required_resources",List.copyOf(mapping.values())),aliases,identity,new ArchiveSources(hashes,pages)));
         }
         return List.copyOf(result);
     }
@@ -112,13 +121,20 @@ public  class AddonResourceRequirements {
     public static Scan scan(Path game,List<Requirement> requirements) throws IOException {
         var resolved=new ArrayList<Resolved>();var missing=new ArrayList<String>();var warnings=new ArrayList<String>();
         var files=OriginalResources.candidates(game.resolve("thaumcraft"));
+        var accepted = new HashMap<String,Set<String>>();
+        for (var req : requirements) {
+            var hashes = accepted.computeIfAbsent(ProcessedOriginalResources.directoryName(req.legacyModId(),req.minecraftVersion()), key -> new HashSet<>());
+            hashes.add(req.sha256());
+            hashes.addAll(req.sources().hashes().values());
+        }
         for(var requirement:requirements) {
             var candidates=new ArrayList<OriginalResources.Snapshot>();
             for(var file:files)try {candidates.add(OriginalResources.read(file,requirement.mapping(),requirement.legacyModId(),requirement.minecraftVersion(),false,requirement.annotationIdentity()));}
                 catch(IOException ignored) { /* Other mods and incomplete archives are not candidates. */ }
+            var hashes = accepted.get(ProcessedOriginalResources.directoryName(requirement.legacyModId(),requirement.minecraftVersion()));
+            candidates.removeIf(candidate -> !hashes.contains(candidate.sha256()));
             if(candidates.isEmpty()) {missing.add(requirement.name()+" ("+requirement.legacyModId()+")\n"+requirement.download());continue;}
             var selected=candidates.stream().filter(s->s.sha256().equals(requirement.sha256())).findFirst().orElse(candidates.get(0));
-            if(!selected.sha256().equals(requirement.sha256()))warnings.add(requirement.name()+": SHA-256 differs from reference; using "+selected.file().getFileName());
             if(candidates.size()>1)warnings.add(requirement.name()+": multiple matching archives; using "+selected.file().getFileName());
             resolved.add(new Resolved(requirement,selected));
         }

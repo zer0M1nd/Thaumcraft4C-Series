@@ -29,6 +29,25 @@ class BookTextAmendmentsTest {
         assertEquals("Cost 8 XP; then 9.",original.getString());
         assertSame(out,apply(List.of(out),rules,new ArrayList<>()).get(0),"Already amended text is not amended again");
     }
+    @Test void hiddenAndHighlightedReplacementsRetainLinksAndExposeTheRequestedText() {
+        var click=new ClickEvent(ClickEvent.Action.CHANGE_PAGE,"target");
+        var original=Component.literal("Cost ").append(Component.literal("8 XP").withStyle(s->s.withClickEvent(click)));
+        var rules=new JsonArray();rules.add(rule("one","8 XP","9 XP",1));
+        for (var mode:List.of(tc4revival.config.TCConfig.LegacyTextMode.HIDDEN,tc4revival.config.TCConfig.LegacyTextMode.HIGHLIGHT)) {
+            var output=BookTextAmendments.apply(List.of(original),rules,"page.a","en_us",BookComponents::decode,(a,b)->fail(b),mode).get(0);
+            assertEquals("Cost 9 XP",output.getString());
+            var style=output.visit((s,t)->t.equals("9 XP")?Optional.of(s):Optional.empty(),Style.EMPTY).orElseThrow();
+            assertEquals(click,style.getClickEvent());assertFalse(style.isStrikethrough());
+            if (mode==tc4revival.config.TCConfig.LegacyTextMode.HIDDEN) {
+                assertNull(style.getColor());assertNull(style.getHoverEvent());
+            } else {
+                assertEquals(0x00aa00,style.getColor().getValue());
+                var tooltip=style.getHoverEvent().getValue(HoverEvent.Action.SHOW_TEXT);
+                assertTrue(tooltip.getString().contains("\n"));
+                assertTrue(Component.Serializer.toJson(tooltip).contains("8 XP"));
+            }
+        }
+    }
     @Test void countsCoverAllLegacyFragmentsAtomicallyAndMismatchKeepsOriginal() {
         var input=List.<Component>of(Component.literal("8"),Component.literal("8"));
         var rules=new JsonArray();rules.add(rule("one","8","280",1));var warnings=new ArrayList<String>();

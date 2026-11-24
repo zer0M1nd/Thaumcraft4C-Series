@@ -42,11 +42,12 @@ class LegacyModLogoTest {
         }
     }
 
-    @Test void addonsWithResearchIconsKeepTheirPackagedLogos() {
+    @Test void coreAndAddonsWithResearchIconsKeepTheirPackagedLogos() {
         var config = Config.inMemory();
         var declaration = new NightConfigWrapper(config);
         assertTrue(LegacyModLogo.usesPrimarySource("thaumicfutures", declaration));
         config.set("logoFile", "research.png");
+        assertFalse(LegacyModLogo.usesPrimarySource("thaumcraft", declaration));
         assertFalse(LegacyModLogo.usesPrimarySource("thaumicomniverse", declaration));
         assertFalse(LegacyModLogo.usesPrimarySource("thaumicfutures", declaration));
         assertTrue(LegacyModLogo.usesPrimarySource("automagy", declaration));
