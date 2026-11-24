@@ -22,9 +22,15 @@ public final class AssemblyCrucibleRecipe extends CrucibleRecipe {
         return json;
     }
     public static Optional<CrucibleRecipe> find(Level level, Input input) {
+        return candidate(level, input).filter(recipe -> recipe.matches(input, level));
+    }
+    public static Optional<CrucibleRecipe> candidate(Level level, Input input) {
         if (!thaumicomniverse.RevivalFeatures.Group.CREATE.enabled() || input.getItem(0).isEmpty()) return Optional.empty();
         return SequencedAssemblyRecipe.getRecipe(level, input.getItem(0), ArcaneAssembly.CRUCIBLE.type.get(), ArcaneProcessingRecipe.class)
-                .map(step -> new AssemblyCrucibleRecipe(step, input.getItem(0))).filter(recipe -> recipe.matches(input, level)).map(recipe -> recipe);
+                .map(step -> new AssemblyCrucibleRecipe(step, input.getItem(0)));
+    }
+    @Override public ItemStack getResultItem(RegistryAccess registries) {
+        return step.selectionOutput(registries);
     }
     @Override public ItemStack assemble(Input input, RegistryAccess registries) {
         var results = step.rollResults(); return results.isEmpty() ? ItemStack.EMPTY : results.get(0).copy();

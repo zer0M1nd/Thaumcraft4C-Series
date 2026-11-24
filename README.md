@@ -6,6 +6,8 @@ Tune magical equipment, route essentia and use Create to build arcane airships t
 
 Void Sand Paper has 64 durability. In the server configuration, enable `preserve_fake_player_void_tools` for wear-free void tools in deployers and animation tablets. Enable `repair_deployer_tools` to let a wand charger repair Repair-enchanted tools held by deployers. Both options default to false.
 
+A Chaos Matrix Thaumatorium displays the essentia needed by a Create sequenced assembly crucible step. Once supplied, it advances the intermediate item to its next step.
+
 ## Installation
 
 Use Minecraft 1.20.1 with Forge 47.4.0 or later in the 47.x series.
