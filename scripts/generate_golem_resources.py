@@ -27,24 +27,22 @@ fields=['health','armor','speed','fire_resistant','upgrades','carry','regenerati
 profiles=[dict(id=name,**dict(zip(fields,values)),sinks=name in ['rock','metal','redstone'],blocks=['minecraft:'+n for n in blocks.get(name,[])],tags=tags.get(name,[])) for name,values in stats.items()]
 write(f'data/{MOD}/golem_profiles.json',profiles)
 write(f'data/{MOD}/tags/blocks/animation_whitelist.json',{'replace':False,'values':['minecraft:cake','minecraft:cactus','minecraft:glass','minecraft:packed_ice','minecraft:ice','minecraft:cobweb','thaumcraft:amber_block','thaumcraft:greatwood_planks','thaumcraft:silverwood_planks']})
-for name,texture in [('golem_powder','golempowder'),('focus_animation','focus_animation'),('golem_placer','golem'),('golem_bell','newbell')]:
+for name,texture in [('golem_powder','golempowder'),('focus_animation','focus_animation'),('golem_placer','golem')]:
     write(f'assets/{MOD}/models/item/{name}.json',{'parent':'minecraft:item/generated','textures':{'layer0':f'{MOD}:items/{texture}'}})
-write(f'data/{MOD}/recipes/arcane/golem_bell.json',{'type':'thaumcraft:arcane','research':'GOLEMBELL','pattern':['QQ ','QQ ','  S'],'key':{'Q':{'item':'minecraft:quartz'},'S':{'tag':'forge:rods/wooden'}},'vis':{'ordo':5},'result':{'item':f'{MOD}:golem_bell'}})
 def stack(item):return {'kind':'stack','stack':{'item':item,'count':1,'metadata':0,'damageable':False}}
-bell={'key':'alternateGolemBell','category':'ThaumicHorizons','displayColumn':-2,'displayRow':0,'complexity':1,'aspects':[{'aspect':a,'amount':n} for a,n in {'ordo':2,'potentia':2,'vitreus':3}.items()],'siblings':['GOLEMBELL'],'isConcealed':True,'icon_item':{'item':f'{MOD}:golem_bell'},'pageCount':2}
-write(f'data/{MOD}/research_catalog/golems.json',{'format':1,'categories':[{'key':'ThaumicHorizons','icon':f'{MOD}:textures/misc/vat.png','background':'thaumcraft:textures/gui/gui_researchback.png','research':[bell]}]})
-write(f'data/{MOD}/research_pages/golems.json',{'format':1,'entries':[{'key':'alternateGolemBell','pages':[{'type':'TEXT','text':'alternateGolemBell1'},{'type':'ARCANE_CRAFTING','recipe':{'kind':'reference','class':'thaumcraft.api.crafting.ShapedArcaneRecipe','keys':[f'{MOD}:alternateGolemBell']}}]}]})
-write(f'data/{MOD}/research_page_recipes/golems.json',{'format':1,'entries':[{'key':f'{MOD}:alternateGolemBell','class':'thaumcraft.api.crafting.ShapedArcaneRecipe','data':{'kind':'arcane_shaped','research':'GOLEMBELL','aspects':{'ordo':5},'width':3,'height':3,'mirrored':True,'output':stack(f'{MOD}:golem_bell'),'ingredients':{'kind':'sequence','elements':[stack(i) if i else None for i in ['minecraft:quartz','minecraft:quartz',None,'minecraft:quartz','minecraft:quartz',None,None,None,'minecraft:stick']]}}}]})
+write(f'data/{MOD}/research_catalog/golems.json',{'format':1,'categories':[{'key':'ThaumicHorizons','icon':f'{MOD}:textures/misc/vat.png','background':'thaumcraft:textures/gui/gui_researchback.png','research':[]}]})
+write(f'data/{MOD}/research_pages/golems.json',{'format':1,'entries':[]})
+write(f'data/{MOD}/research_page_recipes/golems.json',{'format':1,'entries':[]})
 write(f'data/{MOD}/thaumcraft/focus_upgrades.json',[{'key':f'{MOD}:{name}','aspects':['telum'],'texture':f'{MOD}:textures/foci/{name}.png','name':f'focus.upgrade.{name}.name','description':f'focus.upgrade.{name}.text','foci':[f'{MOD}:focus_animation'],'ranks':[rank]} for name,rank in [('berserk',3),('detonation',5)]])
 write(f'data/{MOD}/recipes/crucible/golem_powder.json',{'type':'thaumcraft:crucible','research':'golemPowder','aspects':{'humanus':4,'spiritus':4,'motus':4},'catalyst':{'item':'thaumcraft:salis_mundus'},'result':{'item':f'{MOD}:golem_powder'}})
 manifest_path=f'data/{MOD}/thaumcraft/original_resources.json'
 manifest=json.loads((ROOT/manifest_path).read_text(encoding='utf-8'))
-for path in ['textures/items/golempowder.png','textures/items/focus_animation.png','textures/items/golem.png','textures/items/newbell.png','textures/models/golem_void.png','textures/foci/berserk.png','textures/foci/detonation.png']:
+for path in ['textures/items/golempowder.png','textures/items/focus_animation.png','textures/items/golem.png','textures/models/golem_void.png','textures/foci/berserk.png','textures/foci/detonation.png']:
     manifest['mapping'][f'assets/{MOD}/{path}']=f'assets/thaumichorizons/{path}'
 for keys in manifest['languages'].values():
     keys[f'item.{MOD}.golem_powder']='item.golemPowder.name';keys[f'item.{MOD}.focus_animation']='item.focusAnimation.name'
-    keys[f'item.{MOD}.golem_placer']='item.golemPlacer.name';keys[f'item.{MOD}.golem_bell']='item.GolemBellTH.name'
-    for key in ['alternateGolemBell1','tc.research_name.alternateGolemBell','tc.research_text.alternateGolemBell']+[f'thaumichorizons.golemWarning{i}' for i in range(1,4)]:keys[key]=key
+    keys[f'item.{MOD}.golem_placer']='item.golemPlacer.name'
+    for key in [f'thaumichorizons.golemWarning{i}' for i in range(1,4)]:keys[key]=key
     for name in ['berserk','detonation']:
         for suffix in ['name','text']:
             key=f'focus.upgrade.{name}.{suffix}';keys[key]=key

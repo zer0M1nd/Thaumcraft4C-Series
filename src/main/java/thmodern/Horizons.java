@@ -74,7 +74,15 @@ public final class Horizons {
  public static final RegistryObject<Item> GOLEM_POWDER=ITEMS.register("golem_powder",thmodern.golem.GolemPowderItem::new);
  public static final RegistryObject<Item> ANIMATION_FOCUS=ITEMS.register("focus_animation",thmodern.golem.AnimationFocusItem::new);
  public static final RegistryObject<Item> GOLEM_PLACER=ITEMS.register("golem_placer",thmodern.golem.AnimatedGolemPlacerItem::new);
- public static final RegistryObject<Item> GOLEM_BELL=ITEMS.register("golem_bell",thmodern.golem.HorizonsBellItem::new);
+ private static final net.minecraft.resources.ResourceLocation OLD_BELL = net.minecraft.resources.ResourceLocation.parse("thaumichorizons:golem_bell");
+ private static void aliasBell(RegisterEvent event) {
+     if (event.getRegistryKey().equals(ForgeRegistries.Keys.ITEMS) && ForgeRegistries.ITEMS instanceof ForgeRegistry<Item> registry)
+         registry.addAlias(OLD_BELL, tc4revival.content.TCItems.GOLEM_BELL.getId());
+ }
+ private static void migrateBell(MissingMappingsEvent event) {
+     for (var mapping : event.getMappings(ForgeRegistries.Keys.ITEMS, ID))
+         if (OLD_BELL.equals(mapping.getKey())) mapping.remap(tc4revival.content.TCItems.GOLEM_BELL.get());
+ }
  public static final RegistryObject<Item> EMPTY_SYRINGE=ITEMS.register("empty_syringe",thmodern.blood.EmptySyringeItem::new);
  public static final RegistryObject<Item> INCUBATED_EGG=ITEMS.register("incubated_egg",thmodern.blood.IncubatedEggItem::new);
  public static final RegistryObject<Item> INJECTOR=ITEMS.register("injector",thmodern.blood.InjectorItem::new);
@@ -133,7 +141,7 @@ public final class Horizons {
  static { for(var block:java.util.List.of(SYNTHETIC_NODE,VIS_DYNAMO,ESSENTIA_DYNAMO,RECOMBINATOR))ITEMS.register(block.getId().getPath(),()->new DeviceBlockItem(block.get())); }
  public static final RegistryObject<CreativeModeTab> TAB=TABS.register("main",()->CreativeModeTab.builder().title(net.minecraft.network.chat.Component.literal("Thaumic Horizons")).icon(()->new ItemStack(NODE_MONITOR_ITEM.get())).displayItems((p,o)->ITEMS.getEntries().forEach(i->o.accept(i.get()==DISPOSABLE_WAND.get()?DISPOSABLE_WAND.get().full():new ItemStack(i.get())))).build());
  public Horizons(FMLJavaModLoadingContext context){
-        RevivalFeatures.register();LegacyConfig.register();thmodern.plane.PlanarBlocks.register();thmodern.plane.PlanarDecorations.register();thmodern.plane.CloudBlocks.register();thmodern.plane.GatewayBlocks.register();thmodern.creature.PlanarSlimes.register();thmodern.creature.HorizonsSpawnEggs.register();thmodern.misc.CreativeTools.register();thmodern.vat.BodyNetwork.register();thmodern.lens.LensNetwork.register();var bus=context.getModEventBus();thmodern.focus.FocusRecipes.SERIALIZERS.register(bus);SOUNDS.register(bus);BLOCKS.register(bus);ITEMS.register(bus);MOBS.register(bus);ENTITIES.register(bus);TABS.register(bus);MENUS.register(bus);thmodern.blood.BloodEffects.REGISTRY.register(bus);bus.addListener((net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent event)->event.enqueueWork(thmodern.golem.GolemProfiles::register));}
+        RevivalFeatures.register();LegacyConfig.register();thmodern.plane.PlanarBlocks.register();thmodern.plane.PlanarDecorations.register();thmodern.plane.CloudBlocks.register();thmodern.plane.GatewayBlocks.register();thmodern.creature.PlanarSlimes.register();thmodern.creature.HorizonsSpawnEggs.register();thmodern.misc.CreativeTools.register();thmodern.vat.BodyNetwork.register();thmodern.lens.LensNetwork.register();var bus=context.getModEventBus();bus.addListener(Horizons::aliasBell);net.minecraftforge.common.MinecraftForge.EVENT_BUS.addListener(Horizons::migrateBell);thmodern.focus.FocusRecipes.SERIALIZERS.register(bus);SOUNDS.register(bus);BLOCKS.register(bus);ITEMS.register(bus);MOBS.register(bus);ENTITIES.register(bus);TABS.register(bus);MENUS.register(bus);thmodern.blood.BloodEffects.REGISTRY.register(bus);bus.addListener((net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent event)->event.enqueueWork(thmodern.golem.GolemProfiles::register));}
 }
 
 

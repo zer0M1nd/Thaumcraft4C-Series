@@ -20,9 +20,6 @@ public final class AnimatedGolemEvents {
     @SubscribeEvent public static void interact(PlayerInteractEvent.EntityInteract event){
         if(!(event.getTarget() instanceof GolemEntity golem))return;
         var held=event.getItemStack();
-        if(held.getItem() instanceof HorizonsBellItem bell){
-            event.setCanceled(true);event.setCancellationResult(bell.interactLivingEntity(held,event.getEntity(),golem,event.getHand()));return;
-        }
         if(!AnimatedGolems.isAnimated(golem)||golem.configuration().core()!=null)return;
         if(held.getItem() instanceof GolemBellItem)return;
         if(held.getItem() instanceof GolemComponentItem component&&component.kind()==GolemComponentItem.Kind.CORE)return;
@@ -32,7 +29,7 @@ public final class AnimatedGolemEvents {
     @SubscribeEvent public static void bell(AttackEntityEvent event){
         if(!(event.getTarget() instanceof GolemEntity golem)||!AnimatedGolems.isAnimated(golem)
                 ||!(event.getEntity().getMainHandItem().getItem() instanceof GolemBellItem))return;
-        event.setCanceled(true);HorizonsBellItem.recover(event.getEntity(),golem);
+        event.setCanceled(true);AnimatedGolemRecovery.recover(event.getEntity(),golem);
     }
     @SubscribeEvent public static void hurt(LivingHurtEvent event){
         if(event.getEntity().level().isClientSide)return;

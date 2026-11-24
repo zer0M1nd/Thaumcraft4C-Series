@@ -63,7 +63,7 @@ public final class AnimationServerTests {
         var golem=level.getEntitiesOfClass(GolemEntity.class,new AABB(pos).inflate(2)).get(0);
         golem.configuration().installCore(GolemCoreType.GATHER);AnimatedGolems.tick(golem);
         golem.setCustomName(net.minecraft.network.chat.Component.literal("Oak helper"));
-        var portable=HorizonsBellItem.portable(golem);
+        var portable=AnimatedGolemRecovery.portable(golem);
         test.assertTrue(portable.is(Horizons.GOLEM_PLACER.get()),"Uses addon portable item");
         var restored=TCEntities.GOLEM.get().create(level);
         GolemPlacerItem.restore(restored,portable,GolemMaterial.WOOD,pos,net.minecraft.core.Direction.UP,"SecondOwner");
@@ -91,7 +91,7 @@ public final class AnimationServerTests {
         var player=new FakePlayer(level,new GameProfile(UUID.randomUUID(),"AdvancedConstruct"));player.setGameMode(GameType.SURVIVAL);player.setPos(pos.getCenter());
         test.assertTrue(AnimatedGolems.animate(player,pos,200,true,false,()->true),"Source animates");
         var golem=level.getEntitiesOfClass(GolemEntity.class,new AABB(pos).inflate(2)).get(0);golem.configuration().installCore(GolemCoreType.GATHER);AnimatedGolems.tick(golem);golem.setCustomName(net.minecraft.network.chat.Component.literal("Preserved helper"));
-        var portable=HorizonsBellItem.portable(golem);golem.discard();
+        var portable=AnimatedGolemRecovery.portable(golem);golem.discard();
         var before=portable.getTag().copy();int slots=GolemProfiles.require("wood").material().upgrades();
         var recipe=(InfusionRecipe)level.getRecipeManager().byKey(net.minecraft.resources.ResourceLocation.parse("thaumichorizons:infusion/advanced_golem")).orElseThrow();
         var components=List.of(new net.minecraft.world.item.ItemStack(net.minecraft.world.item.Items.REDSTONE),new net.minecraft.world.item.ItemStack(net.minecraft.world.item.Items.GLOWSTONE_DUST),new net.minecraft.world.item.ItemStack(net.minecraft.world.item.Items.GUNPOWDER),new net.minecraft.world.item.ItemStack(net.minecraftforge.registries.ForgeRegistries.ITEMS.getValue(net.minecraft.resources.ResourceLocation.parse("thaumcraft:essentia_jar"))),new net.minecraft.world.item.ItemStack(TCItems.ZOMBIE_BRAIN.get()));
