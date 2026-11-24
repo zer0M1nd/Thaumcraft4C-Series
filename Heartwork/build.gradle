@@ -30,7 +30,7 @@ repositories {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
-    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.121'}")
+    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '4.3'}")
     compileOnly fg.deobf('local.validation:SlashBladeResharped-1.20.1:1.9.65')
     compileOnly fg.deobf('local.validation:ic2-forge:2.10.33-ex120')
     compileOnly fg.deobf('local.validation:Botania-1.20.1:456-FORGE')
