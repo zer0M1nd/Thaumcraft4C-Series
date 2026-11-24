@@ -4,6 +4,8 @@
 
 Wield grappling and building foci from Thaumcraft 5 and rediscover Thaumcraft 6 devices and classic cross-mod recipes.
 
+With Thaumcraft 4.3, a quartz sliver in a Chaos Matrix Thaumatorium previews a vis crystal and crystallizes when two points of its aspect are available.
+
 ## Installation
 
 Use Minecraft 1.20.1 with Forge 47.4.0 or later in the 47.x series.
