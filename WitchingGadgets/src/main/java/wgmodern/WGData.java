@@ -11,7 +11,19 @@ public class WGData implements DataProvider {
     public WGData(PackOutput output){this.output=output;}public static void gather(GatherDataEvent e){e.getGenerator().addProvider(true,new WGData(e.getGenerator().getPackOutput()));}public String getName(){return "Witching Gadgets data";}
     public static Map<String,Object> map(Object... pairs){var m=new LinkedHashMap<String,Object>();for(int i=0;i<pairs.length;i+=2)m.put((String)pairs[i],pairs[i+1]);return m;}
     CompletableFuture<?> save(CachedOutput cache,String path,Object value){return DataProvider.saveStable(cache,JSON.toJsonTree(value),output.getOutputFolder().resolve(path));}
-    static Object item(String id){return map("item",id);}
+    static Map<String, Object> infusionInput(String id) {
+        return switch (id) {
+            case "witchinggadgets:void_metal_block" -> map("tag", "forge:storage_blocks/void");
+            case "thaumcraft:void_ingot" -> map("tag", "forge:ingots/void");
+            default -> item(id);
+        };
+    }
+    static Object infusionDisplay(String id) {
+        var input = infusionInput(id);
+        if (!input.containsKey("tag")) return stack(id);
+        return map("kind", "ore", "names", List.of("#" + input.get("tag")), "elements", List.of(stack(id)));
+    }
+    static Map<String, Object> item(String id){return map("item",id);}
     static Object stack(String id){return map("kind","stack","stack",map("item",id,"count",1));}
     static Object sequence(List<?> entries){return map("kind","sequence","elements",entries);}
     static Object box(int x,int y,int z,int X,int Y,int Z,String side,String top){var faces=map();for(String face:List.of("north","south","east","west","up","down"))faces.put(face,map("texture",face.equals("up")?top:side));return map("from",List.of(x,y,z),"to",List.of(X,Y,Z),"faces",faces);}
@@ -22,7 +34,7 @@ public class WGData implements DataProvider {
         var inputs=new ArrayList<Object>();for(String row:pattern)for(char c:row.toCharArray()){if(c==' ')inputs.add(map("kind","sequence","elements",List.of()));else inputs.add(displayIngredient(JSON.toJsonTree(key.get(""+c)).getAsJsonObject()));}
         display.add(map("key","witchinggadgets:"+id,"class","modern","data",map("kind","arcane_shaped","research","witchinggadgets:"+research,"output",map("kind","stack","stack",map("item",result,"count",count)),"ingredients",sequence(inputs),"aspects",vis,"width",pattern.get(0).length(),"height",pattern.size())));
     }
-    void infusion(CachedOutput cache,List<CompletableFuture<?>> jobs,String id,String research,String result,String center,int instability,Map<String,Integer> aspects,List<String> parts){jobs.add(save(cache,"data/witchinggadgets/recipes/"+id+".json",map("type","thaumcraft:infusion","research","witchinggadgets:"+research,"instability",instability,"aspects",aspects,"center",map("ingredient",item(center)),"components",parts.stream().map(x->map("ingredient",item(x))).toList(),"result",item(result))));display.add(map("key","witchinggadgets:"+id,"class","modern","data",map("kind","infusion","research","witchinggadgets:"+research,"input",stack(center),"output",stack(result),"ingredients",sequence(parts.stream().map(WGData::stack).toList()),"aspects",aspects,"instability",instability)));}
+    void infusion(CachedOutput cache,List<CompletableFuture<?>> jobs,String id,String research,String result,String center,int instability,Map<String,Integer> aspects,List<String> parts){jobs.add(save(cache,"data/witchinggadgets/recipes/"+id+".json",map("type","thaumcraft:infusion","research","witchinggadgets:"+research,"instability",instability,"aspects",aspects,"center",map("ingredient",infusionInput(center)),"components",parts.stream().map(x->map("ingredient",infusionInput(x))).toList(),"result",item(result))));display.add(map("key","witchinggadgets:"+id,"class","modern","data",map("kind","infusion","research","witchinggadgets:"+research,"input",infusionDisplay(center),"output",stack(result),"ingredients",sequence(parts.stream().map(WGData::infusionDisplay).toList()),"aspects",aspects,"instability",instability)));}
     @Override public CompletableFuture<?> run(CachedOutput cache){var jobs=new ArrayList<CompletableFuture<?>>();
         saunaResources(cache,jobs);CreativeDeviceData.add(this,cache,jobs);MiscData.add(this,cache,jobs);CompatData.add(this,cache,jobs);
         jobs.add(save(cache,"assets/witchinggadgets/blockstates/ethereal_wall.json",map("variants",map("",map("model","witchinggadgets:block/ethereal_wall")))));

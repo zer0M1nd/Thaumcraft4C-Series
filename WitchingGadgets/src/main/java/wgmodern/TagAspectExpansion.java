@@ -3,9 +3,13 @@ package wgmodern;
 import com.google.gson.*;
 import java.util.*;
 import java.util.function.Function;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraft.core.Holder;
+import net.minecraft.server.packs.resources.ResourceManagerReloadListener;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.common.crafting.conditions.ICondition;
+import java.util.function.Supplier;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
@@ -14,25 +18,33 @@ import net.minecraft.tags.TagKey;
 /** Expand modern tag registrations during reload or against the client's synchronized tags. */
 @Mod.EventBusSubscriber(modid="witchinggadgets")
 public class TagAspectExpansion {
-    private static volatile ICondition.IContext context;
-    @SubscribeEvent public static void reload(net.minecraftforge.event.AddReloadListenerEvent event) {
-        context=event.getConditionContext();
+    private static volatile Map<ResourceLocation, Collection<Holder<Item>>> serverItemTags;
+
+    @SubscribeEvent(priority = EventPriority.HIGHEST)
+    public static void reload(net.minecraftforge.event.AddReloadListenerEvent event) {
+        var context = event.getConditionContext();
+        event.addListener(loadItemTags(() -> context.getAllTags(Registries.ITEM)));
+    }
+
+    static ResourceManagerReloadListener loadItemTags(Supplier<Map<ResourceLocation, Collection<Holder<Item>>>> next) {
+        // Vanilla loads tags before addon listeners apply. Until then an in-flight calculation needs the previous snapshot.
+        return resources -> serverItemTags = next.get();
     }
     @SubscribeEvent public static void stopped(net.minecraftforge.event.server.ServerStoppedEvent event) {
-        context=null;
+        serverItemTags = null;
     }
     public static void expand(JsonElement value) {
         if(!(value instanceof JsonObject root)||!root.has("witchinggadgets:tag_aspects"))return;
-        var staged=context;
+        var staged = serverItemTags;
         expand(value, id -> {
-            var key=TagKey.create(Registries.ITEM,ResourceLocation.parse(id));
+            var tag = ResourceLocation.parse(id);
             var ids=new TreeSet<String>();
             if(staged!=null) {
-                for(var holder:staged.getTag(key))holder.unwrapKey().ifPresent(k->ids.add(k.location().toString()));
+                for(var holder:staged.getOrDefault(tag, List.of()))holder.unwrapKey().ifPresent(k->ids.add(k.location().toString()));
             } else {
                 // Local calculation starts after vanilla tag synchronization, including datapack tags.
                 var tags=ForgeRegistries.ITEMS.tags();
-                if(tags!=null)for(var item:tags.getTag(key))ids.add(ForgeRegistries.ITEMS.getKey(item).toString());
+                if(tags!=null)for(var item:tags.getTag(TagKey.create(Registries.ITEM, tag)))ids.add(ForgeRegistries.ITEMS.getKey(item).toString());
             }
             return ids;
         });

@@ -42,7 +42,7 @@ def source_builds(directory, modids):
                 if modid not in modids:
                     continue
                 version = mod["version"]
-                if not re.fullmatch(r"[0-9]+(?:\.[0-9]+){2,3}", version):
+                if not re.fullmatch(r"(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)(?:\.(?:0|[1-9][0-9]*)(?:\.[1-9][0-9]*)?)?", version):
                     raise ValueError(f"Expected a built series version in {path}: {version}")
                 if modid in found:
                     raise ValueError(f"Provide one main JAR for {modid}: {found[modid][0]} and {path}")

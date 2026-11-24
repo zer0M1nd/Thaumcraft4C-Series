@@ -4,11 +4,13 @@
 
 Craft magical cloaks, accessories and machines for travel, resource processing and work with aura nodes.
 
+Additional nugget transmutations use the core Metallum setting and retain their metal-specific aspect costs. Ingot forms are available through their usual crafting and smelting routes.
+
 ## Installation
 
 Use Minecraft 1.20.1 with Forge 47.4.13 or later in the 47.x series.
 
-Required mods include Thaumcraft 4: Continuation `0.4.116.2+`, Curios API `5+`.
+Required mods include Thaumcraft 4: Continuation `4.3+`, Curios API `5+`.
 
 Thaumcraft itself also requires Curios API and TerraBlender.
 
