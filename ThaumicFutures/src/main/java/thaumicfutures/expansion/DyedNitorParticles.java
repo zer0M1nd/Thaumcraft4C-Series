@@ -42,12 +42,16 @@ public final class DyedNitorParticles {
     @SubscribeEvent public static void render(RenderLevelStageEvent event){
         if(event.getStage()!=RenderLevelStageEvent.Stage.AFTER_PARTICLES||!prepare(Minecraft.getInstance().level))return;
         var buffers=Minecraft.getInstance().renderBuffers().bufferSource();
-        var flames=tc4revival.client.TCRenderTypes.softParticles(TEXTURE);var out=tc4revival.client.TCRenderTypes.buffer(buffers,flames);
-        for(var mote:PARTICLES)if(!mote.core)mote.draw(out,event.getCamera(),event.getPartialTick(),event.getPoseStack());
-        tc4revival.client.TCRenderTypes.endBatch(buffers,flames);
-        var cores=tc4revival.client.TCRenderTypes.softTranslucent(TEXTURE);out=tc4revival.client.TCRenderTypes.buffer(buffers,cores);
+        // TC6 draws layer 1 first. Its dark, alpha-blended core is lit by the
+        // additive flames in layer 0; drawing it last leaves an opaque black dot.
+        var cores=tc4revival.client.TCRenderTypes.softTranslucent(TEXTURE);
+        var out=tc4revival.client.TCRenderTypes.buffer(buffers,cores);
         for(var mote:PARTICLES)if(mote.core)mote.draw(out,event.getCamera(),event.getPartialTick(),event.getPoseStack());
         tc4revival.client.TCRenderTypes.endBatch(buffers,cores);
+        var flames=tc4revival.client.TCRenderTypes.softParticles(TEXTURE);
+        out=tc4revival.client.TCRenderTypes.buffer(buffers,flames);
+        for(var mote:PARTICLES)if(!mote.core)mote.draw(out,event.getCamera(),event.getPartialTick(),event.getPoseStack());
+        tc4revival.client.TCRenderTypes.endBatch(buffers,flames);
     }
     private static final class Mote extends Particle {
         final boolean core;final float scale;
@@ -67,10 +71,10 @@ public final class DyedNitorParticles {
             float size=.1f*(core?scale:Mth.lerp(Math.min(1,(age+partial)/lifetime),scale,.05f));
             pose.pushPose();var eye=camera.getPosition();pose.translate(Mth.lerp(partial,xo,x)-eye.x,Mth.lerp(partial,yo,y)-eye.y,Mth.lerp(partial,zo,z)-eye.z);pose.mulPose(camera.rotation());
             var matrix=pose.last().pose();float a=core?1:.66f;
-            out.vertex(matrix,-size,-size,0).color(rCol,gCol,bCol,a).uv(u,v+1/64f).uv2(240).endVertex();
-            out.vertex(matrix,size,-size,0).color(rCol,gCol,bCol,a).uv(u+1/64f,v+1/64f).uv2(240).endVertex();
-            out.vertex(matrix,size,size,0).color(rCol,gCol,bCol,a).uv(u+1/64f,v).uv2(240).endVertex();
-            out.vertex(matrix,-size,size,0).color(rCol,gCol,bCol,a).uv(u,v).uv2(240).endVertex();pose.popPose();
+            out.vertex(matrix,-size,-size,0).color(rCol,gCol,bCol,a).uv(u,v+1/64f).uv2(net.minecraft.client.renderer.LightTexture.FULL_BRIGHT).endVertex();
+            out.vertex(matrix,size,-size,0).color(rCol,gCol,bCol,a).uv(u+1/64f,v+1/64f).uv2(net.minecraft.client.renderer.LightTexture.FULL_BRIGHT).endVertex();
+            out.vertex(matrix,size,size,0).color(rCol,gCol,bCol,a).uv(u+1/64f,v).uv2(net.minecraft.client.renderer.LightTexture.FULL_BRIGHT).endVertex();
+            out.vertex(matrix,-size,size,0).color(rCol,gCol,bCol,a).uv(u,v).uv2(net.minecraft.client.renderer.LightTexture.FULL_BRIGHT).endVertex();pose.popPose();
         }
         @Override public ParticleRenderType getRenderType(){return ParticleRenderType.CUSTOM;}
     }
