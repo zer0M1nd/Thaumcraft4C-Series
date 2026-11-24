@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.1.28.2'
+version = '0.1.29'
 group='tbmodern'
 base.archivesName='[TC4Continuation]Thaumic-Bases'
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)
@@ -20,7 +20,7 @@ repositories {
 dependencies {
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
  minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
- implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.121'}")
+ implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.122'}")
  compileOnly files("dependencies/jars/automagy-${findProperty('automagyValidationVersion') ?: '0.1.23'}.jar")
  if(project.hasProperty('addonAcceptance')) {
   runtimeOnly fg.deobf("local:automagy:${findProperty('automagyValidationVersion') ?: '0.1.23'}")
