@@ -30,7 +30,8 @@ public final class TE {
         for (String name : new String[]{"storage_casing", "diffusion_core", "coalescence_core", "iron_gear"})
             MATERIALS.put(name, ITEMS.register(name, () -> new Item(new Item.Properties())));
         MATERIALS.put("encoded_arcane_pattern", ITEMS.register("encoded_arcane_pattern", temodern.item.ArcanePatternItem::new));
-        MATERIALS.put("wireless_arcane_terminal",ITEMS.register("wireless_arcane_terminal",temodern.item.WirelessArcaneTerminalItem::new));
+        MATERIALS.put("wireless_arcane_terminal",ITEMS.register("wireless_arcane_terminal",() -> net.minecraftforge.fml.ModList.get().isLoaded("ae2wtlib")
+                ? temodern.compat.WTLibTerminal.create() : new temodern.item.WirelessArcaneTerminalItem()));
         MATERIALS.put("vis_charging_card",ITEMS.register("vis_charging_card",()->appeng.api.upgrades.Upgrades.createUpgradeCardItem(new Item.Properties())));
         MATERIALS.put("knowledge_core", ITEMS.register("knowledge_core", temodern.item.KnowledgeCore::new));
         MATERIALS.put("cell_microscope", ITEMS.register("cell_microscope", temodern.item.CellMicroscope::new));
@@ -58,10 +59,20 @@ public final class TE {
         Machines.register(bus); ITEMS.register(bus); TABS.register(bus);
         temodern.crafting.WorkMenu.MENUS.register(bus);
         bus.addListener(this::registerKeys);
+        if (net.minecraftforge.fml.ModList.get().isLoaded("ae2wtlib"))
+            bus.addListener(net.minecraftforge.eventbus.api.EventPriority.LOWEST, this::registerWirelessModule);
         bus.addListener(this::setup);
     }
     private void registerKeys(RegisterEvent event) {
         if (event.getRegistryKey().location().equals(new ResourceLocation("ae2", "keytypes"))) AEKeyTypes.register(EssentiaKeyType.INSTANCE);
+    }
+    private void registerWirelessModule(RegisterEvent event) {
+        var registry = event.getRegistryKey();
+        if ((registry.equals(net.minecraft.core.registries.Registries.ITEM)
+                || registry.equals(net.minecraft.core.registries.Registries.MENU))
+                && MATERIALS.get("wireless_arcane_terminal").isPresent()
+                && temodern.crafting.WorkMenu.TERMINAL.isPresent())
+            temodern.compat.WTLibTerminal.register();
     }
     private void setup(FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
@@ -69,13 +80,15 @@ public final class TE {
             appeng.api.features.GridLinkables.register(wireless,appeng.items.tools.powered.WirelessTerminalItem.LINKABLE_HANDLER);
             appeng.api.upgrades.Upgrades.add(MATERIALS.get("vis_charging_card").get(),wireless,1);
             appeng.api.upgrades.Upgrades.add(appeng.core.definitions.AEItems.ENERGY_CARD,wireless,2);
+            if (net.minecraftforge.fml.ModList.get().isLoaded("ae2wtlib")) temodern.compat.WTLibTerminal.registerUpgrade();
             var quantum=temodern.crafting.WirelessQuantumLink.card();
             if(quantum!=null)appeng.api.upgrades.Upgrades.add(quantum,wireless,1);
             appeng.api.upgrades.Upgrades.add(appeng.core.definitions.AEItems.SPEED_CARD,Machines.ALL.get("arcane_assembler").get(),5);
             appeng.menu.MenuOpener.addOpener(temodern.crafting.WorkMenu.TERMINAL.get(),(player,locator,returning)->{
                 var host=locator.locate(player,temodern.crafting.WorkHost.class);
                 if(host==null||!(player instanceof net.minecraft.server.level.ServerPlayer server))return false;
-                temodern.crafting.ArcaneTerminalMenu.open(server,host);return true;
+                if (host instanceof temodern.crafting.PortableArcaneHost && !RevivalFeatures.wireless()) return false;
+                temodern.crafting.ArcaneTerminalMenu.open(server,host,locator);return true;
             });
             EssentiaBus.register();
             thaumcraft.api.golems.GolemEssentiaProviders.register(new ResourceLocation(ID,"me_interface"),temodern.golem.InterfaceEssentia::find);

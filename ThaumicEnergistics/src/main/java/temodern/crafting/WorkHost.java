@@ -1,7 +1,10 @@
 package temodern.crafting;
 
 /** Common transaction host for standalone machines and cable-mounted terminals. */
-public interface WorkHost extends appeng.api.networking.security.IActionHost, appeng.api.storage.ITerminalHost {
+public interface WorkHost extends appeng.api.networking.security.IActionHost, appeng.api.storage.ITerminalHost, appeng.api.inventories.ISegmentedInventory {
+    @Override default appeng.api.inventories.InternalInventory getSubInventory(net.minecraft.resources.ResourceLocation id){
+        return appeng.parts.reporting.CraftingTerminalPart.INV_CRAFTING.equals(id)?workstation().craftingMatrix:null;
+    }
     net.minecraft.world.level.Level workLevel();
     net.minecraft.core.BlockPos workPosition();
     void markWorkChanged();

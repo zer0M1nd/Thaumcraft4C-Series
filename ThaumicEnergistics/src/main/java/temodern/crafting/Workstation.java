@@ -27,6 +27,13 @@ import temodern.essentia.EssentiaKey;
 /** Shared physical inventory and server transactions for the terminal, assembler and encoder. */
 public class Workstation implements ICraftingMachine, appeng.api.networking.crafting.ICraftingProvider {
     public final SimpleContainer inventory = new SimpleContainer(23);
+    public final appeng.api.inventories.InternalInventory craftingMatrix=new appeng.api.inventories.InternalInventory(){
+        public int size(){return 9;}
+        public ItemStack getStackInSlot(int slot){return inventory.getItem(slot);}
+        public void setItemDirect(int slot,ItemStack stack){inventory.setItem(slot,stack);}
+        public boolean isItemValid(int slot,ItemStack stack){return !stack.is(temodern.TE.MATERIALS.get("wireless_arcane_terminal").get());}
+        public void sendChangeNotification(int slot){inventory.setChanged();}
+    };
     private final WorkHost host;
     private String pendingRecipe = "";
     private final AutomationPatterns automationPatterns = new AutomationPatterns();
@@ -173,14 +180,33 @@ public class Workstation implements ICraftingMachine, appeng.api.networking.craf
     }
     /** A player-specific, non-persistent preview. Nothing is consumed by opening the terminal. */
     public record ManualPreview(ItemStack output, Map<Aspect,Integer> costs) {}
+    private CraftGrid previewInputs;
+    private Plan previewPlan;
+    private UUID previewPlayer;
+    private long previewRevision, previewTick;
+    private RecipeManager previewManager;
     public ManualPreview manualPreview(ServerPlayer player) {
-        var plan=plan(grid(),known(player),false);
+        var level=host.workLevel();
+        long now=level.getGameTime();
+        long revision=KnowledgeSavedData.get(player.getServer()).revision(player.getUUID());
+        boolean same=previewInputs!=null && player.getUUID().equals(previewPlayer) && revision==previewRevision
+                && previewManager==level.getRecipeManager() && now>=previewTick && now-previewTick<20;
+        for(int i=0;same && i<9;i++)same=ItemStack.matches(previewInputs.getItem(i),inventory.getItem(i));
+        if(!same){
+            previewInputs=grid();previewPlayer=player.getUUID();previewRevision=revision;
+            previewTick=now;previewManager=level.getRecipeManager();
+            previewPlan=previewInputs.isEmpty()?null:plan(previewInputs,known(player),false);
+        }
+        var plan=previewPlan;
         if(plan==null)return new ManualPreview(ItemStack.EMPTY,Map.of());
         var costs=new LinkedHashMap<Aspect,Integer>();
+        if(plan.cost.isEmpty())return new ManualPreview(host.active()?plan.result.copy():ItemStack.EMPTY,Map.of());
         var wand=craftingWand(plan,player);
         plan.cost.forEach((aspect,amount)->costs.put(aspect,(int)(tc4revival.content.ArcaneRecipe.hundredths(plan.cost,aspect)*
                 (wand.getItem() instanceof CastingWandItem item?item.consumptionModifier(wand,player,aspect,true):1f))));
-        return new ManualPreview(host.active()&&pay(plan,player,false)?plan.result.copy():ItemStack.EMPTY,costs);
+        boolean affordable=wand.getItem() instanceof CastingWandItem item && !item.isStaff(wand)
+                && item.consumeForPlayer(wand,player,plan.cost,true,true,false);
+        return new ManualPreview(affordable && host.active()?plan.result.copy():ItemStack.EMPTY,costs);
     }
     /** Recheck the recipe, research, destination and vis together on the server for every take. */
     public boolean takeManualResult(ServerPlayer player, ItemStack expected,
@@ -199,7 +225,7 @@ public class Workstation implements ICraftingMachine, appeng.api.networking.craf
         for(int i=0;i<9;i++){
             var stack=crafting.getItem(i).copy();
             if(!stack.isEmpty()&&!CraftRemainders.catalyst(plan.result,crafting,i))stack.shrink(1);
-            inventory.setItem(i,stack);
+            if(!ItemStack.matches(inventory.getItem(i),stack))inventory.setItem(i,stack);
         }
         // Reserve the output's destination before returning buckets or other remainders to the player.
         deliver.accept(plan.result.copy());

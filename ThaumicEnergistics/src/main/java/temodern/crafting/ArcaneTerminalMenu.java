@@ -5,9 +5,12 @@ import appeng.menu.SlotSemantic;
 import appeng.menu.SlotSemantics;
 import appeng.menu.guisync.GuiSync;
 import appeng.menu.locator.MenuLocators;
-import appeng.menu.me.common.MEStorageMenu;
+import appeng.menu.me.items.CraftingTermMenu;
+import appeng.menu.slot.CraftingTermSlot;
+import appeng.helpers.InventoryAction;
+import appeng.util.inv.CarriedItemInventory;
+import appeng.util.inv.PlayerInternalInventory;
 import appeng.menu.slot.AppEngSlot;
-import appeng.util.inv.AppEngInternalInventory;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.SimpleMenuProvider;
@@ -19,38 +22,46 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.network.NetworkHooks;
 
 /** Native ME browsing above the legacy terminal's real crafting grid and result preview. */
-public class ArcaneTerminalMenu extends MEStorageMenu {
+public class ArcaneTerminalMenu extends CraftingTermMenu {
     public static final SlotSemantic WAND=SlotSemantics.register("thaumicenergistics_wand",false);
     public static final SlotSemantic ARMOR=SlotSemantics.register("thaumicenergistics_armor",false);
     public static final SlotSemantic WIRELESS_UPGRADES=SlotSemantics.UPGRADE;
     public static final SlotSemantic SINGULARITY=SlotSemantics.register("thaumicenergistics_singularity",false);
     private static final EquipmentSlot[] ARMOR_TYPES={EquipmentSlot.HEAD,EquipmentSlot.CHEST,EquipmentSlot.LEGS,EquipmentSlot.FEET};
     private final WorkHost machine;
-    private final AppEngInternalInventory result=new AppEngInternalInventory(1);
-    private final AppEngSlot resultSlot;
+    private final CraftingTermSlot resultSlot;
     @GuiSync(200) public String visCosts="";
     @GuiSync(201) public boolean useInventoryWands;
     @GuiSync(202) public boolean canPayVis;
 
-    public ArcaneTerminalMenu(int id,Inventory inventory,FriendlyByteBuf data){this(id,inventory,MenuLocators.readFromPacket(data).locate(inventory.player,WorkHost.class));}
+    public ArcaneTerminalMenu(int id, Inventory inventory, FriendlyByteBuf data) {
+        this(id, inventory, MenuLocators.readFromPacket(data));
+    }
+    private ArcaneTerminalMenu(int id, Inventory inventory, appeng.menu.locator.MenuLocator locator) {
+        this(id, inventory, locator.locate(inventory.player, WorkHost.class), locator);
+    }
     public ArcaneTerminalMenu(int id,Inventory inventory,WorkHost host){
-        super(WorkMenu.TERMINAL.get(),id,inventory,host);machine=host;setLocator(host.locator());
+        this(id, inventory, host, host.locator());
+    }
+    private ArcaneTerminalMenu(int id, Inventory inventory, WorkHost host, appeng.menu.locator.MenuLocator locator) {
+        super(WorkMenu.TERMINAL.get(), id, inventory, host, true);
+        machine = host;
+        setLocator(locator);
         InternalInventory slots=new InternalInventory(){
             public int size(){return host.workstation().inventory.getContainerSize();}
             public ItemStack getStackInSlot(int slot){return host.workstation().inventory.getItem(slot);}
             public void setItemDirect(int slot,ItemStack stack){host.workstation().inventory.setItem(slot,stack);}
             public boolean isItemValid(int slot,ItemStack stack){
-                if(slot<9)return !stack.is(temodern.TE.MATERIALS.get("wireless_arcane_terminal").get());
                 if(slot==9)return stack.getItem() instanceof tc4revival.content.CastingWandItem wand&&!wand.isStaff(stack);
                 return slot>=18&&slot<22&&stack.canEquip(ARMOR_TYPES[slot-18],inventory.player);
             }
             public int getSlotLimit(int slot){return slot==9||slot>=18?1:64;}
             public void sendChangeNotification(int slot){host.workstation().inventory.setChanged();}
         };
-        for(int i=0;i<9;i++)addSlot(new AppEngSlot(slots,i),SlotSemantics.CRAFTING_GRID);
+        resultSlot=(CraftingTermSlot)getSlots(SlotSemantics.CRAFTING_RESULT).get(0);
         addSlot(new AppEngSlot(slots,9),WAND);
         if(!wireless())for(int i=0;i<4;i++)addSlot(new AppEngSlot(slots,18+i),ARMOR);
-        if(host instanceof WirelessArcaneHost wireless){
+        if(host instanceof PortableArcaneHost wireless){
             // MEStorageMenu already exposes the host's upgrades in AE2's native side panel.
             var singularity=new AppEngSlot(wireless.singularity(),0){
                 @Override public boolean mayPlace(ItemStack stack){return stack.is(appeng.core.definitions.AEItems.QUANTUM_ENTANGLED_SINGULARITY.asItem());}
@@ -59,13 +70,6 @@ public class ArcaneTerminalMenu extends MEStorageMenu {
             singularity.setEmptyTooltip(()->java.util.List.of(net.minecraft.network.chat.Component.translatable("gui.thaumicenergistics.quantum_singularity")));
             addSlot(singularity,SINGULARITY);
         }
-        resultSlot=new AppEngSlot(result,0){
-            @Override public boolean mayPlace(ItemStack stack){return false;}
-            @Override public boolean mayPickup(Player player){return false;}
-            @Override public boolean isDraggable(){return false;}
-        };
-        addSlot(resultSlot,SlotSemantics.CRAFTING_RESULT);
-        registerClientAction("te_take_result",String.class,this::takeResult);
         registerClientAction("te_clear",Boolean.class,this::clearGrid);
         registerClientAction("te_swap_armor",this::swapArmor);
         registerClientAction("te_inventory_wands",Boolean.class,this::inventoryWands);
@@ -77,52 +81,77 @@ public class ArcaneTerminalMenu extends MEStorageMenu {
         }
         updatePreview();
     }
-    public static void open(ServerPlayer player,WorkHost machine){NetworkHooks.openScreen(player,new SimpleMenuProvider((id,inv,p)->new ArcaneTerminalMenu(id,inv,machine),machine.getMainMenuIcon().getHoverName()),buf->MenuLocators.writeToPacket(buf,machine.locator()));}
+    public static void open(ServerPlayer player, WorkHost machine) { open(player, machine, machine.locator()); }
+    public static void open(ServerPlayer player, WorkHost machine, appeng.menu.locator.MenuLocator locator) {
+        NetworkHooks.openScreen(player, new SimpleMenuProvider((id, inv, p) -> new ArcaneTerminalMenu(id, inv, machine, locator),
+                machine.getMainMenuIcon().getHoverName()), buf -> MenuLocators.writeToPacket(buf, locator));
+    }
     public ItemStack wand(){return machine.workstation().inventory.getItem(9);}
-    public boolean wireless(){return machine instanceof WirelessArcaneHost;}
-    public boolean usesItem(ItemStack stack){return machine instanceof WirelessArcaneHost host&&host.getItemStack()==stack;}
+    public boolean wireless(){return machine instanceof PortableArcaneHost;}
+    public boolean usesItem(ItemStack stack){return machine instanceof PortableArcaneHost host&&host.getItemStack()==stack;}
     @Override public appeng.api.networking.IGridNode getNetworkNode(){return machine==null?super.getNetworkNode():machine.getActionableNode();}
     public void inventoryWands(boolean enabled){
         if(isClientSide()){sendClientAction("te_inventory_wands",enabled);return;}
-        if(stillValid(getPlayer())&&machine instanceof WirelessArcaneHost host){host.inventoryWands(enabled);broadcastChanges();}
+        if(stillValid(getPlayer())&&machine instanceof PortableArcaneHost host){host.inventoryWands(enabled);broadcastChanges();}
     }
     public AppEngSlot resultSlot(){return resultSlot;}
     private void updatePreview(){
         if(machine==null||isClientSide())return;
+        super.slotsChanged(machine.workstation().inventory);
         useInventoryWands=machine.inventoryWands();
+        // AE2 updates ordinary recipes locally when their matrix changes. Avoid a
+        // research snapshot and a full arcane recipe search on every storage sync.
+        if(getCurrentRecipe()!=null || getCraftingMatrix().isEmpty()){
+            visCosts="";canPayVis=getCurrentRecipe()!=null && machine.active();
+            if(!canPayVis)resultSlot.setDisplayedCraftingOutput(ItemStack.EMPTY);
+            else if(!resultSlot.hasItem())resultSlot.setDisplayedCraftingOutput(getCurrentRecipe().assemble(machine.workstation().grid(),machine.workLevel().registryAccess()));
+            return;
+        }
         var preview=machine.workstation().manualPreview((ServerPlayer)getPlayer());
-        result.setItemDirect(0,preview.output());
+        if(!ItemStack.matches(resultSlot.getItem(),preview.output()))resultSlot.setDisplayedCraftingOutput(preview.output());
         canPayVis=!preview.output().isEmpty();
         visCosts=preview.costs().entrySet().stream().map(e->e.getKey().tag()+":"+e.getValue()).collect(java.util.stream.Collectors.joining(";"));
     }
     @Override public void broadcastChanges(){updatePreview();super.broadcastChanges();}
-    public void takeResult(String mode){
-        if(isClientSide()){sendClientAction("te_take_result",mode);return;}
-        if(!stillValid(getPlayer())||!java.util.Set.of("one","stack","inventory").contains(mode))return;
-        updatePreview();var expected=result.getStackInSlot(0).copy();if(expected.isEmpty())return;
-        boolean toInventory=mode.equals("inventory");
-        // Shift crafts successive recipes into inventory, including unstackable outputs.
-        // Bound a click even when ME storage can continuously refill the crafting grid.
-        int times=mode.equals("one")?1:toInventory?64:Math.max(1,expected.getMaxStackSize()/expected.getCount());
-        var player=(ServerPlayer)getPlayer();
-        for(int i=0;i<times;i++)if(!machine.workstation().takeManualResult(player,expected,
-                output->fits(output,toInventory),output->{
-                    if(toInventory)player.getInventory().add(output);
-                    else if(getCarried().isEmpty())setCarried(output);
-                    else getCarried().grow(output.getCount());
-                }))break;
+    @Override public void doAction(ServerPlayer player,InventoryAction action,int slot,long id){
+        if(slot!=resultSlot.index){super.doAction(player,action,slot,id);return;}
+        if(!stillValid(player)||!machine.active())return;
+        updatePreview();
+        var expected=resultSlot.getItem().copy();
+        if(expected.isEmpty())return;
+        if(getCurrentRecipe()!=null && !expected.is(tc4revival.content.TCItems.ADVANCED_ALCHEMICAL_CONSTRUCT.get())
+                && !(expected.is(tc4revival.content.TCItems.JAR_LABEL.get())&&expected.hasTag())){
+            super.doAction(player,action,slot,id);
+            return;
+        }
+        var inventoryTarget=action==InventoryAction.CRAFT_SHIFT || action==InventoryAction.CRAFT_ALL;
+        InternalInventory target=inventoryTarget?new PlayerInternalInventory(player.getInventory()):new CarriedItemInventory(this);
+        int perStack=expected.getMaxStackSize()/expected.getCount();
+        int crafts=switch(action){
+            case CRAFT_ITEM -> 1;
+            case CRAFT_STACK,CRAFT_SHIFT -> perStack;
+            case CRAFT_ALL -> expected.getMaxStackSize()*Inventory.INVENTORY_SIZE/expected.getCount();
+            default -> 0;
+        };
+        for(int i=0;i<crafts;i++){
+            if(!machine.workstation().takeManualResult(player,expected,
+                    output->target.simulateAdd(output).isEmpty(),
+                    output->{var extra=target.addItems(output);if(!extra.isEmpty())player.drop(extra,false);}))break;
+        }
         broadcastChanges();
     }
-    private boolean fits(ItemStack output,boolean toInventory){
-        if(!toInventory)return getCarried().isEmpty()||ItemStack.isSameItemSameTags(getCarried(),output)
-                &&getCarried().getCount()+output.getCount()<=output.getMaxStackSize();
-        var copy=new net.minecraft.world.SimpleContainer(36);
-        for(int i=0;i<36;i++)copy.setItem(i,getPlayerInventory().getItem(i).copy());
-        return net.minecraftforge.items.ItemHandlerHelper.insertItemStacked(new net.minecraftforge.items.wrapper.InvWrapper(copy),output.copy(),true).isEmpty();
+    public void takeResult(String mode){
+        var action=switch(mode){
+            case "one" -> InventoryAction.CRAFT_ITEM;
+            case "stack" -> InventoryAction.CRAFT_STACK;
+            case "inventory" -> InventoryAction.CRAFT_SHIFT;
+            default -> null;
+        };
+        if(action!=null && getPlayer() instanceof ServerPlayer player)doAction(player,action,resultSlot.index,0);
     }
     @Override public void clicked(int slot,int button,ClickType type,Player player){
-        if(resultSlot!=null&&slot==resultSlot.index){
-            if(type==ClickType.PICKUP)takeResult("one");
+        if(resultSlot!=null && slot==resultSlot.index){
+            if(type==ClickType.PICKUP)takeResult(button==1?"stack":"one");
             else if(type==ClickType.QUICK_MOVE)takeResult("inventory");
             return;
         }
@@ -162,20 +191,57 @@ public class ArcaneTerminalMenu extends MEStorageMenu {
     @Override public boolean stillValid(Player player){return !machine.removed()&&player.level()==machine.workLevel()&&player.distanceToSqr(machine.workPosition().getCenter())<=64&&super.stillValid(player);}
     /** Transfer actual owned items only; JEI alternatives are never installed as ghost items. */
     public void fillCraftingGrid(java.util.List<net.minecraft.world.item.crafting.Ingredient> ingredients){
+        fillCraftingGrid(ingredients,false);
+    }
+    public void fillCraftingGrid(java.util.List<net.minecraft.world.item.crafting.Ingredient> ingredients,boolean craftMissing){
         if(isClientSide()||ingredients.size()!=9||!stillValid(getPlayer())||!machine.active())return;
-        clearGrid(false);clearGrid(true);
+        var network=machine.grid();if(network==null || storage==null)return;
         var inv=machine.workstation().inventory;var player=getPlayer();
+        boolean stored=false;
         for(int slot=0;slot<9;slot++){
-            if(!inv.getItem(slot).isEmpty())continue;
-            var needed=ingredients.get(slot);if(needed.isEmpty())continue;
-            for(int i=0;i<36;i++){
-                var item=player.getInventory().getItem(i);
-                if(needed.test(item)&&!item.is(temodern.TE.MATERIALS.get("wireless_arcane_terminal").get())){inv.setItem(slot,player.getInventory().removeItem(i,1));break;}
+            var current=inv.getItem(slot);
+            if(current.isEmpty() || ingredients.get(slot).test(current))continue;
+            var rest=current.copy();
+            long moved=appeng.api.storage.StorageHelper.poweredInsert(powerSource,storage,appeng.api.stacks.AEItemKey.of(rest),rest.getCount(),getActionSource());
+            stored|=moved>0;
+            rest.shrink((int)moved);
+            player.getInventory().add(rest);
+            inv.setItem(slot,rest);
+        }
+        if(stored)network.getStorageService().invalidateCache();
+        var available=network.getStorageService().getCachedInventory();
+        var filter=appeng.items.storage.ViewCellItem.createItemFilter(getViewCells());
+        var requests=new java.util.LinkedHashMap<appeng.api.stacks.AEItemKey,java.util.List<Integer>>();
+        for(int slot=0;slot<9;slot++){
+            var needed=ingredients.get(slot);
+            if(!inv.getItem(slot).isEmpty()||needed.isEmpty())continue;
+            var options=new java.util.LinkedHashSet<appeng.api.stacks.AEItemKey>();
+            for(var sample:needed.getItems()){
+                if(!getCraftingMatrix().isItemValid(slot,sample))continue;
+                for(var entry:available.findFuzzy(appeng.api.stacks.AEItemKey.of(sample),appeng.api.config.FuzzyMode.IGNORE_ALL)){
+                    if(entry.getLongValue()>0 && entry.getKey() instanceof appeng.api.stacks.AEItemKey key
+                            && key.matches(needed) && (filter==null || filter.isListed(key)))options.add(key);
+                }
             }
-            if(!inv.getItem(slot).isEmpty()||storage==null)continue;
-            for(var entry:storage.getAvailableStacks())if(entry.getKey() instanceof appeng.api.stacks.AEItemKey key&&entry.getLongValue()>0&&needed.test(key.toStack())
-                    &&!key.toStack().is(temodern.TE.MATERIALS.get("wireless_arcane_terminal").get())){
-                if(appeng.api.storage.StorageHelper.poweredExtraction(powerSource,storage,key,1,getActionSource())==1){inv.setItem(slot,key.toStack());break;}
+            for(var key:options){
+                if(appeng.api.storage.StorageHelper.poweredExtraction(powerSource,storage,key,1,getActionSource())==1){
+                    inv.setItem(slot,key.toStack());break;
+                }
+            }
+            if(!inv.getItem(slot).isEmpty())continue;
+            for(int i=0;i<Inventory.INVENTORY_SIZE;i++){
+                var item=player.getInventory().getItem(i);
+                if(!isPlayerInventorySlotLocked(i) && getCraftingMatrix().isItemValid(slot,item) && needed.test(item)){
+                    inv.setItem(slot,player.getInventory().removeItem(i,1));break;
+                }
+            }
+            if(craftMissing && inv.getItem(slot).isEmpty())for(var sample:needed.getItems()){
+                if(!getCraftingMatrix().isItemValid(slot,sample))continue;
+                var key=network.getCraftingService().getFuzzyCraftable(appeng.api.stacks.AEItemKey.of(sample),
+                        k->k instanceof appeng.api.stacks.AEItemKey item && item.matches(needed));
+                if(key instanceof appeng.api.stacks.AEItemKey item){
+                    requests.computeIfAbsent(item,ignored->new java.util.ArrayList<>()).add(slot);break;
+                }
             }
         }
         if(wand().isEmpty())for(int i=0;i<player.getInventory().getContainerSize();i++){
@@ -185,5 +251,9 @@ public class ArcaneTerminalMenu extends MEStorageMenu {
             }
         }
         player.getInventory().setChanged();broadcastChanges();
+        if(!requests.isEmpty()){
+            network.getStorageService().invalidateCache();
+            startAutoCrafting(requests.entrySet().stream().map(e->new AutoCraftEntry(e.getKey(),e.getValue())).toList());
+        }
     }
 }

@@ -12,7 +12,7 @@
 
 本体还需要 Curios API 和 TerraBlender。
 
-可选联动包括Just Enough Items。 [完整的 Forge 依赖声明](src/main/resources/META-INF/mods.toml)
+安装 AE2 Wireless Terminals 15.3 Forge 版后，可将无线奥术合成终端与通用无线终端或其他无线终端模块合成，在同一台终端上切换到奥术合成界面。Just Enough Items 支持转移配方。[完整的 Forge 依赖声明](src/main/resources/META-INF/mods.toml)
 
 ## 构建
 

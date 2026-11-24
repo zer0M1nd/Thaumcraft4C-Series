@@ -12,7 +12,7 @@ Required mods include Thaumcraft 4: Continuation `0.4.119.3+`, Applied Energisti
 
 Thaumcraft itself also requires Curios API and TerraBlender.
 
-Optional integrations include Just Enough Items. [Forge dependency declarations](src/main/resources/META-INF/mods.toml)
+With AE2 Wireless Terminals 15.3 on Forge, combine the wireless arcane crafting terminal with a universal terminal or another wireless terminal module. Switch to the arcane module to craft with the same ME network. Just Enough Items also supports recipe transfers. [Forge dependency declarations](src/main/resources/META-INF/mods.toml)
 
 ## Build
 
