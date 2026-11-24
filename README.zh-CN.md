@@ -50,7 +50,7 @@ AI 使用声明：本项目使用生成式 AI 进行开发。本项目原创内�
 
 | | 项目 | 原作 | 内容 | 前置 | 最新版本 |
 | :-: | --- | --- | --- | --- | --- |
-| 🟢 | [**神秘时代 4：承续版**](TC4/README.zh-CN.md)<br>Thaumcraft 4: Continuation | Azanor 的 Thaumcraft 4 | 要素、研究、炼金、注魔、法杖与傀儡，系列的核心。 | TerraBlender、Curios API | <!--v:thaumcraft-->0.4.122 |
+| 🟢 | [**神秘时代 4：承续版**](TC4/README.zh-CN.md)<br>Thaumcraft 4: Continuation | Azanor 的 Thaumcraft 4 | 要素、研究、炼金、注魔、法杖与傀儡，系列的核心。 | TerraBlender、Curios API | <!--v:thaumcraft-->4.3 |
 
 ### 原创附属
 
@@ -58,7 +58,7 @@ AI 使用声明：本项目使用生成式 AI 进行开发。本项目原创内�
 
 | | 项目 | 内容 | 前置 | 最新版本 |
 | :-: | --- | --- | --- | --- |
-| 🟢 | [**神秘万象**](ThaumicOmniverse/README.zh-CN.md)<br>Thaumic Omniverse | 神秘调谐、便捷源质设备、现代模组联动与奥术飞艇。 | 本体；可选：机械动力 | <!--v:thaumicomniverse-->0.2.48 |
+| 🟢 | [**神秘万象**](ThaumicOmniverse/README.zh-CN.md)<br>Thaumic Omniverse | 神秘调谐、便捷源质设备、现代模组联动与奥术飞艇。 | 本体；可选：机械动力 | <!--v:thaumicomniverse-->10.0 |
 
 ### 复刻附属
 
@@ -66,20 +66,20 @@ AI 使用声明：本项目使用生成式 AI 进行开发。本项目原创内�
 
 | | 项目 | 原作 | 内容 | 前置 | 最新版本 |
 | :-: | --- | --- | --- | --- | --- |
-| 🟢 | [**神秘时代：未来**](ThaumicFutures/README.zh-CN.md)<br>Thaumic Futures | Azanor 的 Thaumcraft 5、6 | 带回神秘时代 5、6 的部分设备、工具与机制。 | 本体 | <!--v:thaumicfutures-->0.2.14 |
-| 🟢 | [**神秘工匠**](ThaumicTinkerer/README.zh-CN.md)<br>Thaumic Tinkerer | Vazkii、pixlepix、nekosune 的 Thaumic Tinkerer | 实用工具、附魔与灵宝等后期装备。 | 本体 | <!--v:thaumic_tinkerer-->0.1.47 |
-| 🟢 | [**自动化魔法**](Automagy/README.zh-CN.md)<br>Automagy | Tuhljin、Draanor 的 Automagy | 物品整理、红石控制与源质自动化。 | 本体 | <!--v:automagy-->0.1.23 |
-| 🟢 | [**禁忌魔法**](ForbiddenMagic/README.zh-CN.md)<br>Forbidden Magic | SpitefulFox 的 Forbidden Magic | 七宗罪研究，禁忌法杖、工具与附魔。 | 本体；可选：血魔法、植物魔法 | <!--v:forbidden_magic-->0.1.22 |
-| 🟢 | [**神秘能源**](ThaumicEnergistics/README.zh-CN.md)<br>Thaumic Energistics | Nividica 的 Thaumic Energistics | 把源质接入应用能源 ME 网络。 | 本体、应用能源 2 | <!--v:thaumicenergistics-->0.2.32 |
-| 🟢 | [**神秘视界**](ThaumicHorizons/README.zh-CN.md)<br>Thaumic Horizons | Kentington 的 Thaumic Horizons | 生物改造、灵魂研究与特殊透镜。 | 本体 | <!--v:thaumichorizons-->0.1.29 |
-| 🟢 | [**神秘基础学**](ThaumicBases/README.zh-CN.md)<br>Thaumic Bases | Modbder 的 Thaumic Bases | 作物、材料、工具与实用装置。 | 本体 | <!--v:thaumicbases-->0.1.29 |
+| 🟢 | [**神秘时代：未来**](ThaumicFutures/README.zh-CN.md)<br>Thaumic Futures | Azanor 的 Thaumcraft 5、6 | 带回神秘时代 5、6 的部分设备、工具与机制。 | 本体 | <!--v:thaumicfutures-->6.2 |
+| 🟢 | [**神秘工匠**](ThaumicTinkerer/README.zh-CN.md)<br>Thaumic Tinkerer | Vazkii、pixlepix、nekosune 的 Thaumic Tinkerer | 实用工具、附魔与灵宝等后期装备。 | 本体 | <!--v:thaumic_tinkerer-->2.6 |
+| 🟢 | [**自动化魔法**](Automagy/README.zh-CN.md)<br>Automagy | Tuhljin、Draanor 的 Automagy | 物品整理、红石控制与源质自动化。 | 本体 | <!--v:automagy-->1.0 |
+| 🟢 | [**禁忌魔法**](ForbiddenMagic/README.zh-CN.md)<br>Forbidden Magic | SpitefulFox 的 Forbidden Magic | 七宗罪研究，禁忌法杖、工具与附魔。 | 本体；可选：血魔法、植物魔法 | <!--v:forbidden_magic-->1.0 |
+| 🟢 | [**神秘能源**](ThaumicEnergistics/README.zh-CN.md)<br>Thaumic Energistics | Nividica 的 Thaumic Energistics | 把源质接入应用能源 ME 网络。 | 本体、应用能源 2 | <!--v:thaumicenergistics-->1.2 |
+| 🟢 | [**神秘视界**](ThaumicHorizons/README.zh-CN.md)<br>Thaumic Horizons | Kentington 的 Thaumic Horizons | 生物改造、灵魂研究与特殊透镜。 | 本体 | <!--v:thaumichorizons-->1.2 |
+| 🟢 | [**神秘基础学**](ThaumicBases/README.zh-CN.md)<br>Thaumic Bases | Modbder 的 Thaumic Bases | 作物、材料、工具与实用装置。 | 本体 | <!--v:thaumicbases-->1.4 |
 | 🟡 | [**电力魔法工具**](ElectroMagicTools/README.zh-CN.md)<br>Electro-Magic Tools | fewizz、TheSilentium 的 Electro-Magic Tools | 电力驱动的魔法工具、装备与设备。 | 本体、工业时代 2 | <!--v:emt-->0.1.14 |
 | 🟡 | [**魔像秘经**](Gadomancy/README.zh-CN.md)<br>Gadomancy | makeo、HellFirePvP 的 Gadomancy | 扩展傀儡、节点与注魔设备。 | 本体 | <!--v:gadomancy-->0.1.16 |
 | 🟡 | [**节点力学**](NodalMechanics/README.zh-CN.md)<br>Nodal Mechanics | Shukaro 的 Nodal Mechanics | 构造和培育灵气节点。 | 本体 | <!--v:nodalmechanics-->0.1.7 |
 | 🟡 | [**污秽魔法**](TaintedMagic/README.zh-CN.md)<br>Tainted Magic | John Yorke（tadashi_3）的 Tainted Magic | 污秽与扭曲研究，影金装备与法杖核心。 | 本体 | <!--v:taintedmagic-->0.1.14 |
 | 🟡 | [**神秘注魔**](ThaumicInfusion/README.zh-CN.md)<br>Thaumic Infusion | DrunkMafia 的 Thaumic Infusion | 向方块注入要素，赋予魔法效果。 | 本体 | <!--v:thaumicinfusion-->0.1.11 |
 | 🟡 | [**神秘扭曲学**](WarpTheory/README.zh-CN.md)<br>Warp Theory | Shukaro、thegreatunclean 的 Warp Theory | 更多扭曲事件与异常效果。 | 本体 | <!--v:warptheory-->0.1.9 |
-| 🟡 | [**巫师宝具**](WitchingGadgets/README.zh-CN.md)<br>Witching Gadgets | BluSunrize 的 Witching Gadgets | 饰品、披风、工具与魔法设备。 | 本体 | <!--v:witchinggadgets-->0.1.26 |
+| 🟡 | [**巫师宝具**](WitchingGadgets/README.zh-CN.md)<br>Witching Gadgets | BluSunrize 的 Witching Gadgets | 饰品、披风、工具与魔法设备。 | 本体 | <!--v:witchinggadgets-->0.1.27 |
 | 🔴 | [**神秘议会**](ThaumicConcilium/README.zh-CN.md)<br>Thaumic Concilium | Ilya3000、BreadX22 的 Thaumic Concilium | 裂隙与虚体研究，法杖核心、法镯与新生物。 | 本体、禁忌魔法、神秘工匠 | <!--v:thaumicconcilium-->0.1.8 |
 | 🔴 | [**神秘染料**](ThaumicDyes/README.zh-CN.md)<br>Thaumic Dyes | KryptonCaptain、Amerem 的 Thaumic Dyes | 神秘护甲染色、符文装备与面具。 | 本体 | <!--v:thaumicdyes-->0.1.7 |
 | 🔴 | [**注魔酿造**](InfusionBrewing/README.zh-CN.md)<br>Infusion Brewing | mariri 的 Infusion Brewing | 流体药水、注魔强化与药水法杖核心。 | 本体 | <!--v:infusionbrewing-->0.1.4 |
@@ -95,7 +95,7 @@ AI 使用声明：本项目使用生成式 AI 进行开发。本项目原创内�
 
 | | 项目 | 用途 | 最新版本 |
 | :-: | --- | --- | --- |
-| 🟢 | [**ThaumcraftUpdater**](ThaumcraftUpdater/README.zh-CN.md)<br>神秘时代更新器 | 启动时更新已安装的系列模组。不属于神秘时代附属。 | <!--v:thaumcraftupdater-->0.2.8 |
+| 🟢 | [**ThaumcraftUpdater**](ThaumcraftUpdater/README.zh-CN.md)<br>神秘时代更新器 | 启动时更新已安装的系列模组。不属于神秘时代附属。 | <!--v:thaumcraftupdater-->1.0 |
 | 🟢 | [**ThaumcraftResourceAdapter**](ThaumcraftResourceAdapter/README.zh-CN.md)<br>资源包适配器 | 把旧版神秘时代资源包转换为 1.20.1 可用。仅客户端。 | <!--v:thaumcraftresourceadapter-->1.1.1 |
 
 ## 如何构建
