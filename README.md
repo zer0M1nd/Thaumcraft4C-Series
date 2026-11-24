@@ -111,5 +111,5 @@ Every project builds on its own with the Gradle wrapper in its folder. See the R
 
 The series is released under the TC4Revival Noncommercial License 1.0, which is the PolyForm Noncommercial License 1.0.0 with additional conditions on resale and paid modpacks. See [LICENSE](LICENSE) and [NOTICE](NOTICE) here, and the license files and notices in each project folder. Third-party material keeps its own terms.
 
-[site]: http://tc4c.zer0m1nd.me
+[site]: http://tc4c.zer0m1nd.me/en/index.html
 [issues]: https://github.com/zer0M1nd/Thaumcraft4C-Series/issues
