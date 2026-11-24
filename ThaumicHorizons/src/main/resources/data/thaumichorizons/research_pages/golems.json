@@ -2,32 +2,6 @@
   "format": 1,
   "entries": [
     {
-      "key": "alternateGolemBell",
-      "pages": [
-        {
-          "type": "TEXT",
-          "text": {
-            "translate": "alternateGolemBell1"
-          },
-          "id": "thaumichorizons:alternateGolemBell/page/1",
-          "page_break": true,
-          "import_legacy": true
-        },
-        {
-          "type": "ARCANE_CRAFTING",
-          "recipe": {
-            "kind": "reference",
-            "class": "thaumcraft.api.crafting.ShapedArcaneRecipe",
-            "keys": [
-              "thaumichorizons:alternateGolemBell"
-            ]
-          },
-          "id": "thaumichorizons:alternateGolemBell/page/2",
-          "page_break": true
-        }
-      ]
-    },
-    {
       "key": "focusAnimation",
       "pages": [
         {

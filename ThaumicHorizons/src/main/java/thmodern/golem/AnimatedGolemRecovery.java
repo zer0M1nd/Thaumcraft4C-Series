@@ -1,28 +1,13 @@
 package thmodern.golem;
 
 import net.minecraft.nbt.*;
-import net.minecraft.world.*;
-import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
-import net.minecraft.world.item.context.UseOnContext;
 import tc4revival.content.*;
 import thmodern.Horizons;
 
-/** Uses the frozen base's marker implementation without replacing its registry entry. */
-public final class HorizonsBellItem extends Item {
-    public HorizonsBellItem(){super(new Properties().stacksTo(1));}
-    @Override public InteractionResult onItemUseFirst(ItemStack stack,UseOnContext context){return TCItems.GOLEM_BELL.get().onItemUseFirst(stack,context);}
-    @Override public InteractionResult interactLivingEntity(ItemStack stack,Player player,LivingEntity entity,InteractionHand hand){return TCItems.GOLEM_BELL.get().interactLivingEntity(stack,player,entity,hand);}
-    @Override public InteractionResultHolder<ItemStack> use(net.minecraft.world.level.Level level,Player player,InteractionHand hand){
-        var stack=player.getItemInHand(hand);
-        if(player.isShiftKeyDown()){GolemBellItem.resetMarkers(stack,player);return InteractionResultHolder.sidedSuccess(stack,level.isClientSide);}
-        return InteractionResultHolder.pass(stack);
-    }
-    @Override public boolean onLeftClickEntity(ItemStack stack,Player player,Entity entity){
-        if(entity instanceof GolemEntity golem&&AnimatedGolems.isAnimated(golem))return recover(player,golem);
-        return TCItems.GOLEM_BELL.get().onLeftClickEntity(stack,player,entity);
-    }
+public final class AnimatedGolemRecovery {
+    private AnimatedGolemRecovery() {}
     public static ItemStack portable(GolemEntity golem){
         var stack=new ItemStack(Horizons.GOLEM_PLACER.get());var tag=stack.getOrCreateTag();var config=golem.configuration();
         config.saveExtension(tag);

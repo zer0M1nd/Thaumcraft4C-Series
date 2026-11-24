@@ -7,35 +7,6 @@
       "background": "thaumcraft:textures/gui/gui_researchback.png",
       "research": [
         {
-          "key": "alternateGolemBell",
-          "category": "ThaumicHorizons",
-          "displayColumn": -2,
-          "displayRow": 0,
-          "complexity": 1,
-          "aspects": [
-            {
-              "aspect": "ordo",
-              "amount": 2
-            },
-            {
-              "aspect": "potentia",
-              "amount": 2
-            },
-            {
-              "aspect": "vitreus",
-              "amount": 3
-            }
-          ],
-          "siblings": [
-            "GOLEMBELL"
-          ],
-          "isConcealed": true,
-          "icon_item": {
-            "item": "thaumichorizons:golem_bell"
-          },
-          "pageCount": 2
-        },
-        {
           "key": "focusAnimation",
           "category": "ThaumicHorizons",
           "displayColumn": 12,
