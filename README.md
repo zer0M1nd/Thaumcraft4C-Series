@@ -8,7 +8,7 @@ Tune magical equipment, route essentia and use Create to build arcane airships t
 
 Use Minecraft 1.20.1 with Forge 47.4.0 or later in the 47.x series.
 
-Required mods include Thaumcraft 4: Continuation `0.4.119.3+`.
+Required mods include Thaumcraft 4: Continuation `0.4.121.4+`.
 
 Thaumcraft itself also requires Curios API and TerraBlender.
 

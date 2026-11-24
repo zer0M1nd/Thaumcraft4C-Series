@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/void"
+  },
+  "result": "thaumicomniverse:void_block",
+  "count": 1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    },
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thaumicbases"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "witchinggadgets"
+        }
+      ]
+    }
+  ]
+}

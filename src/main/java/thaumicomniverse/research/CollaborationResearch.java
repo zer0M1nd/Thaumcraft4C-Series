@@ -36,12 +36,7 @@ public final class CollaborationResearch {
                 data.add("aspects", costs);
                 var ingredients = new JsonArray();
                 for (var component : expanded.getAsJsonArray("components")) {
-                    var stack = new JsonObject();
-                    stack.addProperty("kind", "stack");
-                    var item = component.getAsJsonObject().getAsJsonObject("ingredient").deepCopy();
-                    item.addProperty("count", 1);
-                    stack.add("stack", item);
-                    ingredients.add(stack);
+                    ingredients.add(certificateDisplay(component.getAsJsonObject()));
                 }
                 data.getAsJsonObject("ingredients").add("elements", ingredients);
                 row.remove("omniverse_certificate");
@@ -65,6 +60,33 @@ public final class CollaborationResearch {
             result.add(row);
         }
         return result;
+    }
+
+    static JsonObject certificateDisplay(JsonObject component) {
+        JsonObject ingredient = component.getAsJsonObject("ingredient");
+        if (!ingredient.has("tag")) return bookStack(ingredient);
+        var ore = new JsonObject();
+        ore.addProperty("kind", "ore");
+        var names = new JsonArray();
+        names.add("#" + ingredient.get("tag").getAsString());
+        ore.add("names", names);
+        var examples = new JsonArray();
+        if (component.has("display_item")) {
+            var sample = new JsonObject();
+            sample.add("item", component.get("display_item"));
+            examples.add(bookStack(sample));
+        }
+        ore.add("elements", examples);
+        return ore;
+    }
+
+    private static JsonObject bookStack(JsonObject ingredient) {
+        var item = ingredient.deepCopy();
+        item.addProperty("count", 1);
+        var stack = new JsonObject();
+        stack.addProperty("kind", "stack");
+        stack.add("stack", item);
+        return stack;
     }
 
     private static boolean enabled(JsonObject row, Predicate<String> loaded) {
