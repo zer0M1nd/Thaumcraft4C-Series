@@ -24,9 +24,13 @@ public final class QuartzCrystalRecipe extends CrucibleRecipe {
     static Optional<CrucibleRecipe> forSliver(Level level, Input input) {
         if (!input.getItem(0).is(LegacyContent.QUARTZ_SLIVER.get()) || !FutureFeatures.Group.RESTORATION.enabled())
             return Optional.empty();
-        return input.aspects().view().entrySet().stream()
-                .filter(entry -> entry.getValue() >= 2)
-                .map(entry -> (CrucibleRecipe)new QuartzCrystalRecipe(entry.getKey())).findFirst();
+        // The crucible checks the price before crafting. Its automatic variant also asks for
+        // the closest candidate before both points have arrived. Preserve the first ready aspect on a tie.
+        var aspect = input.aspects().view().entrySet().stream()
+                .max(java.util.Comparator.comparingInt(entry -> Math.min(2, entry.getValue())))
+                .map(java.util.Map.Entry::getKey)
+                .orElseGet(() -> tc4revival.aspect.TCAspects.catalog().require("aer"));
+        return Optional.of(new QuartzCrystalRecipe(aspect));
     }
 
     private static JsonObject definition(Aspect aspect) {
