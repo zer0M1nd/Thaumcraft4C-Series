@@ -1,5 +1,6 @@
 package temodern.client;
 
+import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
 import appeng.api.client.*;
 import net.minecraft.client.Minecraft;
@@ -12,6 +13,8 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import tc4revival.aspect.Aspect;
+import tc4revival.client.LegacyGui;
 import temodern.TE;
 import temodern.essentia.*;
 
@@ -27,18 +30,19 @@ public final class EssentiaRendering implements AEKeyRenderHandler<EssentiaKey> 
     }
     @Override public void drawInGui(Minecraft minecraft, GuiGraphics graphics, int x, int y, EssentiaKey key) {
         var aspect = key.aspect();
-        if (aspect != null) {
-            // AE2's amount selection screen does not enable blending for custom key icons.
-            // TC4 aspect textures have translucent edge pixels, so cutout rendering leaves a dark fringe.
-            graphics.flush();
-            com.mojang.blaze3d.systems.RenderSystem.enableBlend();
-            com.mojang.blaze3d.systems.RenderSystem.defaultBlendFunc();
-            graphics.setColor(((aspect.color() >> 16) & 255) / 255f, ((aspect.color() >> 8) & 255) / 255f, (aspect.color() & 255) / 255f, 1);
-            tc4revival.client.LegacyGui.blit(graphics,aspect.texture(), x, y, 0, 0, 16, 16, 16, 16);
-            graphics.setColor(1, 1, 1, 1);
-            com.mojang.blaze3d.systems.RenderSystem.disableBlend();
-        }
+        if (aspect != null) drawAspect(graphics, x, y, 16, aspect);
     }
+
+    public static void drawAspect(GuiGraphics graphics, int x, int y, int size, Aspect aspect) {
+        // Flush pending items before tinting. LegacyGui enables blending for the translucent texture edges.
+        graphics.flush();
+        int rgb = aspect.color();
+        graphics.setColor(((rgb >> 16) & 255) / 255f, ((rgb >> 8) & 255) / 255f, (rgb & 255) / 255f, 1);
+        LegacyGui.blit(graphics, aspect.texture(), x, y, size, size, 0, 0, 16, 16, 16, 16);
+        graphics.setColor(1, 1, 1, 1);
+        RenderSystem.disableBlend();
+    }
+
     @Override public void drawOnBlockFace(PoseStack pose, MultiBufferSource buffers, EssentiaKey key, float scale, int light, Level level) {
         var aspect = key.aspect();
         if (aspect == null) return;
