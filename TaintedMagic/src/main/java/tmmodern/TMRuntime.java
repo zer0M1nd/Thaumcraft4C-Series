@@ -1,6 +1,10 @@
 package tmmodern;
 import java.util.*;import net.minecraft.core.BlockPos;import net.minecraft.resources.*;import net.minecraft.world.entity.*;import net.minecraft.world.entity.player.Player;import net.minecraft.world.item.*;import net.minecraft.world.level.Level;import net.minecraft.world.level.block.Block;import net.minecraft.world.effect.*;import net.minecraft.server.level.*;import net.minecraftforge.eventbus.api.SubscribeEvent;import net.minecraftforge.event.TickEvent;import net.minecraftforge.registries.ForgeRegistries;import tc4revival.content.*;import tc4revival.research.*;
 public class TMRuntime {
+    private static final boolean APOTHEOSIS = net.minecraftforge.fml.ModList.get().isLoaded("apotheosis");
+    private static final net.minecraft.tags.TagKey<net.minecraft.world.item.Item> STEP_BOOTS =
+            net.minecraft.tags.ItemTags.create(net.minecraft.resources.ResourceLocation.parse("thaumcraft:traveller_step_boots"));
+
     public static Item item(String id){return ForgeRegistries.ITEMS.getValue(ResourceLocation.parse(id));}public static Block block(String id){return ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(id));}
     public static void sound(Level l,BlockPos p,String id,float volume,float pitch){var s=ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse(id));if(s!=null)l.playSound(null,p,s,net.minecraft.sounds.SoundSource.PLAYERS,volume,pitch);}
     public static net.minecraft.world.damagesource.DamageSource nightshade(Level l){return new net.minecraft.world.damagesource.DamageSource(l.registryAccess().registryOrThrow(net.minecraft.core.registries.Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(net.minecraft.core.registries.Registries.DAMAGE_TYPE,ResourceLocation.parse("taintedmagic:nightshade"))));}
@@ -19,7 +23,11 @@ public class TMRuntime {
     public static void setup(){TMProtection.setup();
         thaumcraft.api.research.ResearchPresentation.registerBackground("taintedmagic:background",0,"TAINTEDMAGIC",()->TMConfig.CUSTOM_BACKGROUND.get()?java.util.Optional.of("taintedmagic:textures/gui/gui_tm_researchback.png"):java.util.Optional.empty());for(String rod:List.of("taintedmagic:warpwood","taintedmagic:warpwood_staff"))thaumcraft.api.wands.WandRod.registerUpdate(rod,(stack,p)->{if(!(p instanceof ServerPlayer server)||p.hasEffect(TCEffects.WARP_WARD.get()))return;int warp=KnowledgeSavedData.get(server.server).snapshot(p.getUUID()).map(k->k.warp(PlayerKnowledge.WarpKind.PERMANENT)).orElse(0);if(warp<=0||p.tickCount%Math.max(1,Math.round(TMConfig.WARP_REFRESH.get()/(float)warp))!=0)return;var wand=(CastingWandItem)stack.getItem();for(String tag:List.of("aer","terra","ignis","aqua","ordo","perditio"))wand.addVis(stack,MagicFocus.aspect(tag),1,true,true);});TMEffects.register();}
     @SubscribeEvent public void tick(TickEvent.PlayerTickEvent event){if(event.phase!=TickEvent.Phase.END)return;Player p=event.player;var data=p.getPersistentData();boolean boots=p.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof TMArmor.Boots;var sash=curio(p,"voidwalker_sash");boolean boost=boots&&!sash.isEmpty()&&TMCurio.speed(sash);
-        if(boots){if(!data.contains("tmStep"))data.putFloat("tmStep",p.maxUpStep());p.setMaxUpStep(p.isShiftKeyDown()?data.getFloat("tmStep"):1);if(p.fallDistance>3)p.fallDistance=1;if(p.zza>0&&(p.onGround()||p.getAbilities().flying)){float amount=.12f*(boost?2:1)*(p.getAbilities().flying?.75f:1);p.moveRelative(amount,new net.minecraft.world.phys.Vec3(0,0,1));}}else if(data.contains("tmStep")){p.setMaxUpStep(data.getFloat("tmStep"));data.remove("tmStep");}
+        if(boots && !(APOTHEOSIS && p.getItemBySlot(EquipmentSlot.FEET).is(STEP_BOOTS))){
+            if(!data.contains("tmStep"))data.putFloat("tmStep",p.maxUpStep());
+            p.setMaxUpStep(p.isShiftKeyDown()?data.getFloat("tmStep"):1);
+        }else if(data.contains("tmStep")){p.setMaxUpStep(data.getFloat("tmStep"));data.remove("tmStep");}
+        if(boots){if(p.fallDistance>3)p.fallDistance=1;if(p.zza>0&&(p.onGround()||p.getAbilities().flying)){float amount=.12f*(boost?2:1)*(p.getAbilities().flying?.75f:1);p.moveRelative(amount,new net.minecraft.world.phys.Vec3(0,0,1));}}
         if(p.level().isClientSide)return;
         var attack=p.getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.ATTACK_DAMAGE);
         var powerId=UUID.fromString("f4a4d9e6-0852-4e28-b344-b7906b5afc5d");
