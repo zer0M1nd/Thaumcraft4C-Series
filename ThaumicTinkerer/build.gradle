@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.1.47'
+version = '2.6'
 group = 'ttmodern'
 base.archivesName = '[TC4Continuation]Thaumic-Tinkerer'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -14,8 +14,8 @@ repositories {
 dependencies {
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.121'}")
-    compileOnly files("dependencies/jars/thaumicbases-${findProperty('thaumicBasesValidationVersion') ?: '0.1.28'}.jar")
+    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '4.3'}")
+    compileOnly files("dependencies/jars/thaumicbases-${findProperty('thaumicBasesValidationVersion') ?: '1.4'}.jar")
     compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api")
     compileOnly files('dependencies/jars/cc-tweaked-1.20.1-core-api-1.120.2.jar')
     compileOnly files('dependencies/jars/cc-tweaked-1.20.1-forge-api-1.120.2.jar')
@@ -81,7 +81,7 @@ tasks.register('verifyNoBundledLegacyAssets') {
 tasks.named("test") { useJUnitPlatform() }
 
 tasks.register('verifyFrozenBase') {
-    def version = findProperty('tc4ValidationVersion') ?: '0.4.121'
+    def version = findProperty('tc4ValidationVersion') ?: '4.3'
     def base = file("dependencies/jars/Thaumcraft-${version}.jar")
     def lock = file('dependencies/artifacts.json')
     inputs.files(base, lock)
