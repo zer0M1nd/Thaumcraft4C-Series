@@ -67,6 +67,7 @@ public final class RevivalFeatures {
     public static final ForgeConfigSpec SPEC;
     public static final ForgeConfigSpec.BooleanValue THERMAL_DRAGONSTEEL, THERMAL_ABYSSAL;
     public static final ForgeConfigSpec.BooleanValue ANCIENT_FOREST;
+    public static final ForgeConfigSpec.BooleanValue VOID_FAKE_PLAYER_DURABILITY, DEPLOYER_REPAIR;
     public static final ForgeConfigSpec.DoubleValue ESSENTIA_FUEL_DURATION;
     public static final ForgeConfigSpec.IntValue AIRSHIP_FUEL_TICKS;
     public static final ForgeConfigSpec.DoubleValue AIRSHIP_TURN_SPEED,AIRSHIP_BEND_LENGTH,AIRSHIP_DEFAULT_BEND_RADIUS,AIRSHIP_SPEED_MULTIPLIER,AIRSHIP_POWERED_SPEED_MULTIPLIER;
@@ -74,6 +75,12 @@ public final class RevivalFeatures {
         var builder=new ForgeConfigSpec.Builder();
         CONFIG=new RevivalConfig(builder,true,()->tc4revival.config.TCConfig.SERVER.revival.profile());
         for(var group:Group.values()) group.option=CONFIG.feature(group.key,group.chinese,group.english,group.defaults);
+        builder.push("automation");
+        VOID_FAKE_PLAYER_DURABILITY=builder.comment("让机械手和代行石板使用虚空工具时免耗耐久。 / Preserve void tool durability in deployers and the animation tablet. Default: false.")
+                .define("preserve_fake_player_void_tools",false);
+        DEPLOYER_REPAIR=builder.comment("法杖充能器可修复机械手持有的修复附魔物品。 / Allow wand chargers to repair Repair-enchanted items held by deployers. Default: false.")
+                .define("repair_deployer_tools",false);
+        builder.pop();
         builder.push("thermal_extra");
         THERMAL_DRAGONSTEEL=builder.comment("龙钢配方以神秘锭替代镍锭，默认关闭。 / Replace nickel with thaumium in dragonsteel; disabled by default.").define("replace_dragonsteel_ingredient",false);
         THERMAL_ABYSSAL=builder.comment("深渊配方以虚空种子替代钻石粉，默认关闭。 / Replace diamond dust with void seeds in abyssal ingots; disabled by default.").define("replace_abyssal_ingredient",false);

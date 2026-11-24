@@ -193,7 +193,7 @@ public final class ArcaneMaterials {
         @Override public void onInventoryTick(IToolStackView tool,ModifierEntry entry,Level world,LivingEntity holder,int slot,boolean selected,boolean correctSlot,ItemStack stack) {
             if(!enabled() || !hasMaterial(tool) || !(holder instanceof ServerPlayer player) || player.isCreative() || holder.tickCount%40!=0 || tool.getDamage()<=0)return;
             if(!(slot>=0 && slot<9) && !(tool.getItem() instanceof ArmorItem && correctSlot))return;
-            int level=Math.min(2,entry.getLevel());
+            int level=entry.getLevel();
             var base=ItemAspects.baseSession().base(net.minecraftforge.registries.ForgeRegistries.ITEMS.getKey(tool.getItem()).toString()).orElseGet(AspectAmounts::new);
             if(base.isEmpty()) {
                 // Modular tools often have no fixed object tags. Use their actual thaumic materials, without enchantment scan bonuses.
@@ -203,7 +203,7 @@ public final class ArcaneMaterials {
                     ItemAspects.baseSession().base(source).ifPresent(aspects->aspects.view().forEach(base::merge));
                 }
             }
-            if(!base.isEmpty() && vis(player,VisRepair.costs(TCAspects.catalog(),base,level).view(),true))ToolDamageUtil.repair(tool,level);
+            if(!base.isEmpty() && WandInventory.consumeRepair(player,VisRepair.costs(TCAspects.catalog(),base,level,tool.getDamage()).view()))ToolDamageUtil.repair(tool,level);
         }
     }
     public static final class RunicShield extends MaterialUpgrade implements AttributesModifierHook {

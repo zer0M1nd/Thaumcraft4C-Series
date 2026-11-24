@@ -4,11 +4,13 @@
 
 Tune magical equipment, route essentia and use Create to build arcane airships that carry cargo along scheduled routes.
 
+Void Sand Paper has 64 durability. In the server configuration, enable `preserve_fake_player_void_tools` for wear-free void tools in deployers and animation tablets. Enable `repair_deployer_tools` to let a wand charger repair Repair-enchanted tools held by deployers. Both options default to false.
+
 ## Installation
 
 Use Minecraft 1.20.1 with Forge 47.4.0 or later in the 47.x series.
 
-Required mods include Thaumcraft 4: Continuation `0.4.119.3+`.
+Required mods include Thaumcraft 4: Continuation `4.3+`.
 
 Thaumcraft itself also requires Curios API and TerraBlender.
 

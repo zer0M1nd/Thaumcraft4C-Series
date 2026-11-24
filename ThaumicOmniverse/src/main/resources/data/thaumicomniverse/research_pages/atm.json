@@ -20,9 +20,9 @@
           "type": "INFUSION_CRAFTING",
           "recipe": {
             "kind": "reference",
-            "class": "thaumcraft.api.crafting.InfusionRecipe",
+            "class": "modern",
             "keys": [
-              "thaumicomniverse:THAUMATURGE_CERTIFICATE"
+              "thaumicomniverse:atm/thaumaturge_certificate"
             ]
           },
           "id": "thaumicomniverse:THAUMATURGE_CERTIFICATE/page/2",

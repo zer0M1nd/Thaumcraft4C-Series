@@ -70,13 +70,17 @@ public class ThaumicCrushingWheel extends CrushingWheelBlock {
     }
     public static class ControllerTile extends CrushingWheelControllerBlockEntity {
         private boolean simulating;
+        private static long bonus(long amount, net.minecraft.util.RandomSource random) {
+            int remainder = (int) (amount % 20);
+            return amount / 20 + (remainder > 0 && random.nextInt(20) < remainder ? 1 : 0);
+        }
         public void releaseEssentia(tc4revival.aspect.AspectAmounts aspects){
             if(level==null||level.isClientSide)return;
             var direction=Vec3.atLowerCornerOf(getBlockState().getValue(CrushingWheelControllerBlock.FACING).getNormal());
             var position=Vec3.atCenterOf(worldPosition).add(direction.scale(1.05));
             var motion=direction.scale(.1);
-            for(var entry:aspects.view().entrySet())for(int left=entry.getValue();left>0;){
-                int amount=Math.min(left,64);left-=amount;
+            for(var entry:aspects.view().entrySet())for(long left=entry.getValue()+bonus(entry.getValue(),level.random);left>0;){
+                int amount=(int)Math.min(left,64);left-=amount;
                 var drop=new net.minecraft.world.entity.item.ItemEntity(level,position.x,position.y,position.z,
                     TCItems.ESSENCE_CRYSTAL.get().of(entry.getKey(),amount));
                 drop.setDeltaMovement(motion);drop.setDefaultPickUpDelay();
@@ -107,15 +111,32 @@ public class ThaumicCrushingWheel extends CrushingWheelBlock {
         }
         @Override public Optional<ProcessingRecipe<RecipeWrapper>> findRecipe(){
             var input=inventory.getStackInSlot(0);if(input.isEmpty())return Optional.empty();
+            int batchSize=input.getCount();
+            var aspects=ItemStackAspects.resolve(input).orElseGet(tc4revival.aspect.AspectAmounts::new);
             var builder=new ProcessingRecipeBuilder<CrushingRecipe>(params->new CrushingRecipe(params){
+                private int rolls;
                 @Override protected int getMaxOutputCount(){return Integer.MAX_VALUE;}
+                @Override public List<ItemStack> rollResults(){
+                    var result=new ArrayList<>(super.rollResults());
+                    // Create rolls once per input. Round the bonus only once for the whole batch.
+                    if (++rolls==batchSize && level!=null && !level.isClientSide) {
+                        for (var entry:aspects.view().entrySet()) {
+                            long extra=bonus((long)entry.getValue()*batchSize,level.random);
+                            while (extra>0) {
+                                int count=(int)Math.min(extra,64);
+                                result.add(TCItems.ESSENCE_CRYSTAL.get().of(entry.getKey(),count)); extra-=count;
+                            }
+                        }
+                    }
+                    return result;
+                }
             },ResourceLocation.parse("thaumicomniverse:runtime_essentia_crushing")).duration(100);
             if(level!=null&&!level.isClientSide){
-                var aspects=ItemStackAspects.resolve(input).orElseGet(tc4revival.aspect.AspectAmounts::new);
                 int needed=1;
                 for(var entry:aspects.view().entrySet()){
                     int amount=entry.getValue();if(amount<=0)continue;
-                    needed=Math.addExact(needed,Math.toIntExact(((long)amount*input.getCount()+63)/64));
+                    long base=(long)amount*batchSize;
+                    needed=Math.addExact(needed,Math.toIntExact((base+(base+19)/20+63)/64));
                     for(int left=amount;left>0;left-=Math.min(left,64))builder.output(TCItems.ESSENCE_CRYSTAL.get().of(entry.getKey(),Math.min(left,64)));
                 }
                 // Native crushing has a fixed output inventory and otherwise truncates

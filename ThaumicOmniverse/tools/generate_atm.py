@@ -25,15 +25,23 @@ for material, maximum, color, chinese, english in [
     ('thaumium',4,(91,71,143),'神秘','Thaumium'),
     ('void',3,(42,26,62),'虚空','Void Metal'),
     ('alchemical_brass',4,(177,132,56),'炼金黄铜','Alchemical Brass')]:
-    previous = 'thaumcraft:thaumium_block' if material == 'thaumium' else ('thaumcraft:void_ingot' if material=='void' else 'thaumicomniverse:alchemical_brass_ingot')
-    for tier in range(1 if material=='thaumium' else 0, maximum+1):
+    previous = 'thaumcraft:thaumium_block' if material == 'thaumium' else ('thaumcraft:void_ingot' if material=='void' else 'thaumicfutures:alchemical_brass_block')
+    for tier in range(0 if material=='void' else 1, maximum+1):
         name = material+'_block'+('_'+str(tier)+'x' if tier else '')
         item = NS+':'+name
         blocks.append(item)
+        form = 'storage_blocks/'+material+('_'+str(tier)+'x' if tier else '')
+        previous_form = 'ingots/'+material if tier==0 else 'storage_blocks/'+material+('_'+str(tier-1)+'x' if tier>1 else '')
+        for registry in ('items','blocks'):
+            write(ROOT/'data'/'forge'/'tags'/registry/(form+'.json'), {'replace':False,'values':[{'id':item,'required':False}]})
+        required = list(CONDITIONS)
+        if material == 'alchemical_brass' and tier == 1:
+            required.append({'type':'forge:item_exists','item':previous})
         write(DATA/'recipes/atm'/(name+'.json'), {'type':'minecraft:crafting_shaped','pattern':['III']*3,
-            'key':{'I':{'item':previous}},'result':{'item':item},'conditions':CONDITIONS})
-        write(DATA/'recipes/atm'/(name+'_unpack.json'), {'type':'minecraft:crafting_shapeless',
-            'ingredients':[{'item':item}],'result':{'item':previous,'count':9},'conditions':CONDITIONS})
+            'key':{'I':{'tag':'forge:'+previous_form}},'result':{'item':item},'conditions':required})
+        if material != 'alchemical_brass' or tier != 1:
+            write(DATA/'recipes/atm'/(name+'_unpack.json'), {'type':'minecraft:crafting_shapeless',
+            'ingredients':[{'tag':'forge:'+form}],'result':{'item':previous,'count':9},'conditions':CONDITIONS})
         write(ROOT/'assets'/NS/'blockstates'/(name+'.json'),{'variants':{'':{'model':NS+':block/'+name}}})
         write(ASSETS/'models/block'/(name+'.json'),{'parent':'minecraft:block/cube_all','textures':{'all':NS+':block/'+name}})
         write(ASSETS/'models/item'/(name+'.json'),{'parent':NS+':block/'+name})
@@ -59,7 +67,11 @@ write(ASSETS/'models/item/thaumaturge_certificate.json',{'parent':'minecraft:ite
 names['item.'+NS+'.thaumaturge_certificate']=('神秘使之证','Thaumaturge Certificate')
 names['tooltip.'+NS+'.atm_recipe']=('配方受神秘时代影响','Recipe influenced by Thaumcraft')
 key = NS+':THAUMATURGE_CERTIFICATE'
-def ingredient(item): return {'ingredient':{'item':item}}
+certificate_metals = {f'{NS}:{metal}_block_{tier}x': f'forge:storage_blocks/{metal}_{tier}x'
+                      for metal, tier in [('void', 3), ('thaumium', 4), ('alchemical_brass', 4)]}
+def ingredient(item):
+    value = {'tag': certificate_metals[item]} if item in certificate_metals else {'item': item}
+    return {'ingredient': value}
 def stack(item): return {'kind':'stack','stack':{'item':item,'count':1}}
 components = [NS+':void_block_3x', NS+':thaumium_block_4x', NS+':alchemical_brass_block_4x',
     'thaumcraft:focus_hellbat','thaumcraft:liquid_death_bucket','thaumcraft:arcane_bore',
@@ -81,10 +93,13 @@ write(DATA/'research_catalog/atm.json',{'format':1,'categories':[{'key':'THAUMIC
         'omniverse_requires':['allthemodium']}]}]})
 write(DATA/'research_pages/atm.json',{'format':1,'entries':[{'key':key,'omniverse_requires':['allthemodium'],
     'pages':[{'type':'TEXT','text':'omniverse.page.thaumaturge_certificate'},
-        {'type':'INFUSION_CRAFTING','recipe':{'kind':'reference','class':'thaumcraft.api.crafting.InfusionRecipe','keys':[key]}}]}]})
+        {'type':'INFUSION_CRAFTING','recipe':{'kind':'reference','class':'modern','keys':[NS+':atm/thaumaturge_certificate']}}]}]})
+# Keep the old book reference available to addon pages, with a representative for each tagged input.
+book_recipe = dict(recipe, components=[dict(ingredient(item), display_item=item) if item in certificate_metals
+                                       else ingredient(item) for item in components])
 write(DATA/'research_page_recipes/atm.json',{'format':1,'entries':[{'key':key,
     'class':'thaumcraft.api.crafting.InfusionRecipe','omniverse_requires':['allthemodium'],
-    'omniverse_certificate':recipe,'data':{'kind':'infusion','research':key,'instability':30,
+    'omniverse_certificate':book_recipe,'data':{'kind':'infusion','research':key,'instability':30,
         'input':stack('thaumcraft:primordial_pearl'),'output':stack(NS+':thaumaturge_certificate'),
         'ingredients':{'kind':'sequence','elements':[]},'aspects':[]}}]})
 names['tc.research_name.'+key]=('神秘使之证','Thaumaturge Certificate')

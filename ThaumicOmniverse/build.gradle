@@ -1,5 +1,5 @@
 plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.42' }
-version = '0.2.47'
+version = '10.0'
 group = 'thaumicomniverse'
 base.archivesName = '[TC4Continuation]Thaumic-Omniverse'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -29,7 +29,7 @@ dependencies {
     compileOnly fg.deobf("local.collab:jei:local")
     compileOnly fg.deobf("local.collab:placebo:local")
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
-    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '0.4.121'}")
+    implementation fg.deobf("local.validation:Thaumcraft:${findProperty('tc4ValidationVersion') ?: '4.3'}")
     compileOnly fg.deobf('local.collab:journeymap_api_v2:local')
     testRuntimeOnly fg.deobf('local.collab:journeymap_api_v2:local')
     testRuntimeOnly fg.deobf('local.collab:journeymap:local')
@@ -53,8 +53,8 @@ dependencies {
     runtimeOnly fg.deobf('maven.modrinth:terrablender:HI0iCUpi')
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
     verificationCompileOnly fg.deobf('local.collab:placebo:local')
-    compileOnly fg.deobf("local.api:ThaumicFutures:${findProperty('futuresValidationVersion') ?: '0.2.13'}")
-    verificationImplementation fg.deobf("local.api:ThaumicFutures:${findProperty('futuresValidationVersion') ?: '0.2.13'}")
+    compileOnly fg.deobf("local.api:ThaumicFutures:${findProperty('futuresValidationVersion') ?: '6.2'}")
+    verificationImplementation fg.deobf("local.api:ThaumicFutures:${findProperty('futuresValidationVersion') ?: '6.2'}")
     if (project.hasProperty('collab')) {
         ['cucumber', 'allthemodium', 'allthetweaks', 'kubejs', 'alltheores', 'architectury', 'attributeslib',
          'geckolib', 'jei', 'mysticalagradditions', 'patchouli', 'placebo', 'rhino'].each { name ->

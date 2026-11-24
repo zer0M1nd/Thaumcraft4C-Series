@@ -101,7 +101,6 @@ public class UniversalAlchemy {
                     "clay","epoxy","nether_brick","polybenzimidazole","polycaprolactam","polyethylene","polyphenylene_sulfide","polytetrafluoroethylene","polyvinyl_chloride","raw_rubber","reinforced_epoxy_resin","rubber","silicone_rubber","styrene_butadiene_rubber").contains(material))continue;
             var ingot=representative(tag.toString());if(ingot.isEmpty())continue;
             String special=affinity(material);var nugget=representative("forge:nuggets/"+material);
-            addCrucible(all,"transmutation/"+material,TRANSMUTATION,tag.toString(),ingot.copyWithCount(3),Map.of("metallum",18,special,9));
             if(!nugget.isEmpty())addCrucible(all,"transmutation/nugget/"+material,TRANSMUTATION,"forge:nuggets/"+material,nugget.copyWithCount(3),Map.of("metallum",2,special,1));
         }
         manager.replaceRecipes(all.values());
@@ -113,6 +112,7 @@ public class UniversalAlchemy {
     private static void addCrucible(Map<ResourceLocation,Recipe<?>> all,String name,String research,String tag,ItemStack output,Map<String,Integer> amounts) {
         var id=ResourceLocation.parse("thaumicomniverse:universal/"+name);if(all.containsKey(id))return;
         var json=new JsonObject();json.addProperty("type","thaumcraft:crucible");json.addProperty("research",research);
+        if (research.equals(TRANSMUTATION)) json.addProperty("nugget_transmutation",true);
         var catalyst=new JsonObject();catalyst.addProperty("tag",tag);json.add("catalyst",catalyst);json.add("result",stack(output));
         var costs=new JsonObject();amounts.forEach(costs::addProperty);json.add("aspects",costs);
         all.put(id,tc4revival.content.TCArcane.CRUCIBLE_RECIPE_SERIALIZER.get().fromJson(id,json));
