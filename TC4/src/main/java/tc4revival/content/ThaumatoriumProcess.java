@@ -35,7 +35,6 @@ public  class ThaumatoriumProcess {
     }
     public record Craft(CrucibleRecipe recipe,ItemStack result) {}
     private final ArrayList<ResourceLocation> recipes=new ArrayList<>();
-    private final ArrayList<AspectAmounts> recipeEssentia=new ArrayList<>();
     private final ArrayList<String> authors=new ArrayList<>();
     private final java.util.Map<ResourceLocation,CrucibleRecipe> resolvedRecipes=new java.util.HashMap<>();
     private AspectAmounts stored=new AspectAmounts();
@@ -63,7 +62,6 @@ public  class ThaumatoriumProcess {
             maxRecipes=limit;
             while(recipes.size()>maxRecipes) {
                 int last=recipes.size()-1; resolvedRecipes.remove(recipes.remove(last));
-                if(last<recipeEssentia.size())recipeEssentia.remove(last);
                 if(last<authors.size())authors.remove(last);
             }
             current=-1;currentRecipe=null;suction=null;
@@ -76,32 +74,27 @@ public  class ThaumatoriumProcess {
         reconcile(host);
         int index=recipes.indexOf(recipe.getId());
         if (index>=0) {
-            recipes.remove(index); recipeEssentia.remove(index); authors.remove(index); current=-1;
+            recipes.remove(index); authors.remove(index); current=-1;
         } else {
             // The old GUI enforced the cap, but its packet handler did not. Reject forged over-cap requests.
             if (recipes.size()>=maxRecipes) return false;
-            recipes.add(recipe.getId()); recipeEssentia.add(recipe.costs()); authors.add(author);
+            recipes.add(recipe.getId()); authors.add(author);
             resolvedRecipes.put(recipe.getId(),recipe);
         }
         host.changed(); return true;
     }
     private void reconcile(Host host) {
         if (!reconcile && recipes.stream().anyMatch(id->host.recipe(id).orElse(null)!=resolvedRecipes.get(id))) {
-            // Modern datapacks can replace recipes while the machine is running. Never combine
-            // an old cached cost with the replacement recipe's output.
+            // A datapack reload can replace the recipe selected by this running machine.
             reconcile=true; current=-1; currentRecipe=null; suction=null;
         }
         if (reconcile) {
-            // Recipe ids are loaded before server recipes exist; reconstruct costs on the first server tick.
+            // Saved ids can only be resolved once server recipes are available.
             for (int index=recipes.size()-1;index>=0;index--) if (host.recipe(recipes.get(index)).isEmpty()) {
                 recipes.remove(index); if (index<authors.size()) authors.remove(index);
             }
-            recipeEssentia.clear();
             resolvedRecipes.clear();
-            for (var id:recipes) {
-                var recipe=host.recipe(id).orElseThrow();
-                recipeEssentia.add(recipe.costs()); resolvedRecipes.put(id,recipe);
-            }
+            for (var id:recipes) resolvedRecipes.put(id,host.recipe(id).orElseThrow());
             while (authors.size()<recipes.size()) authors.add("");
             while(authors.size()>recipes.size())authors.remove(authors.size()-1); reconcile=false;
             host.changed();
@@ -154,7 +147,7 @@ public  class ThaumatoriumProcess {
         var outputRecipe=host.recipe(recipes.get(current));
         if (outputRecipe.isEmpty()) { current=-1; currentRecipe=null; suction=null; return; }
         if (!host.outputFits(outputRecipe.get())) return;
-        suction=null; var demand=recipeEssentia.get(current);
+        suction=null; var demand=outputRecipe.get().costs();
         for (var aspect:demand.aspects().stream().sorted(java.util.Comparator.comparing(Aspect::tag)).toList()) {
             if (stored.amount(aspect)<demand.amount(aspect)) { suction=aspect; break; }
         }
@@ -185,7 +178,7 @@ public  class ThaumatoriumProcess {
     public void load(CompoundTag tag) {
         stored=AspectNbt.read(tag,TCAspects.catalog()).amounts(); chaosMatrices=Math.max(0,Math.min(9,tag.getByte("ChaosMatrices")));
         maxRecipes=chaotic()?0:Math.max(1,Math.min(19,tag.getByte("maxrec")));
-        recipes.clear(); recipeEssentia.clear(); authors.clear(); resolvedRecipes.clear();
+        recipes.clear(); authors.clear(); resolvedRecipes.clear();
         var selected=tag.getList("SelectedRecipes",Tag.TAG_STRING); var owners=tag.getList("OutputPlayer",Tag.TAG_STRING);
         for (int index=0;index<Math.min(maxRecipes,selected.size());index++) {
             var id=ResourceLocation.tryParse(selected.getString(index)); if (id==null) continue;
