@@ -30,9 +30,9 @@ def generate(write):
                {'G': 'thaumcraft:greatwood_planks', 'A': 'thaumcraft:air_shard', 'E': 'thaumcraft:earth_shard', 'W': 'thaumcraft:water_shard', 'N': center},
                {'aer': 5, 'terra': 15, 'aqua': 5})
     shaped('thaumicAnvilRec', 'ThaumicAnvil', 'thaumic_anvil', ['###', ' $ ', '$$$'],
-           {'#': 'thaumcraft:thaumium_block', '$': 'thaumcraft:thaumium_ingot'}, dict.fromkeys(PRIMALS, 25))
+           {'#': '#forge:storage_blocks/thaumium', '$': '#forge:ingots/thaumium'}, dict.fromkeys(PRIMALS, 25))
     infusion('voidAnvilRec', 'VoidAnvil', 'void_anvil', 'thaumicbases:thaumic_anvil', 3,
-             {'fabrico': 32, 'instrumentum': 24, 'telum': 24, 'ordo': 48}, ['thaumicbases:void_block'] * 5)
+             {'fabrico': 32, 'instrumentum': 24, 'telum': 24, 'ordo': 48}, ['#forge:storage_blocks/void'] * 5)
     shaped('campfireRec', 'Campfire', 'campfire', ['SSS', 'COC', 'GGG'],
            {'S': '#forge:rods/wooden', 'C': '#forge:cobblestone', 'O': ['coal', 'charcoal'], 'G': 'gravel'}, {'ignis': 5, 'perditio': 3})
     shaped('brazierRec', 'Brazier', 'brazier', ['SCS', ' V ', 'SSS'],
@@ -43,8 +43,8 @@ def generate(write):
         shaped('oldRec_' + str(i), 'DecoBlocks', output, ['###', '#@#', '###'],
                {'#': source, '@': 'thaumcraft:entropy_crystal_cluster'}, {'perditio': 5}, 8)
     emit('voidBlockRec', {'type': 'minecraft:crafting_shaped', 'pattern': ['###', '###', '###'],
-                         'key': {'#': ingredient('thaumcraft:void_ingot')}, 'result': {'item': 'thaumicbases:void_block'}})
-    emit('voidIngotRec', {'type': 'minecraft:crafting_shapeless', 'ingredients': [ingredient('thaumicbases:void_block')],
+                         'key': {'#': ingredient('#forge:ingots/void')}, 'result': {'item': 'thaumicbases:void_block'}})
+    emit('voidIngotRec', {'type': 'minecraft:crafting_shapeless', 'ingredients': [ingredient('#forge:storage_blocks/void')],
                          'result': {'item': 'thaumcraft:void_ingot', 'count': 9}})
     for name, output, keys in [
         ('eldritchArk', 'eldritch_ark', {'@': '#forge:nuggets/gold', '#': 'obsidian', '$': 'thaumcraft:order_crystal_cluster'}),

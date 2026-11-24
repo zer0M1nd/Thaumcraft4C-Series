@@ -328,8 +328,11 @@ def generate():
         shapeless(low.split(':')[1]+'_from_'+high.split(':')[1], [high], low, 9)
     shapeless('quicksilver_brick',['thaumicbases:quicksilver_block']*4,'thaumicbases:quicksilver_brick',4)
     shapeless('salis_mundus_from_block',['thaumicbases:salis_mundus_block'],'thaumcraft:salis_mundus',9)
-    for tag,name in [('ingots/thauminite','thauminite_ingot'),('nuggets/thauminite','thauminite_nugget'),('storage_blocks/thauminite','thauminite_block'),('storage_blocks/quicksilver','quicksilver_block'),('storage_blocks/void_metal','void_block')]:
+    for tag,name in [('ingots/thauminite','thauminite_ingot'),('nuggets/thauminite','thauminite_nugget'),('storage_blocks/thauminite','thauminite_block'),('storage_blocks/quicksilver','quicksilver_block'),('storage_blocks/void','void_block')]:
         write(f'data/forge/tags/items/{tag}.json',{'replace':False,'values':[f'{NAMESPACE}:{name}']})
+    write('data/forge/tags/blocks/storage_blocks/void.json', {'replace': False, 'values': ['thaumicbases:void_block']})
+    for registry in ('items', 'blocks'):
+        write(f'data/forge/tags/{registry}/storage_blocks/void_metal.json', {'replace': False, 'values': ['thaumicbases:void_block']})
     stabilized=['thaumic_anvil','void_anvil','ender_planks']+[n for n,_,_ in cubes if n!='old_gravel']+['crystal_'+k for k in ['air','fire','water','earth','order','entropy','mixed','tainted']]
     stabilized += [n+'_slab' for n in stabilized if (OUT/f'assets/{NAMESPACE}/blockstates/{n}_slab.json').exists()]
     write('data/thaumcraft/tags/blocks/infusion_stabilizers.json',{'replace':False,'values':[f'{NAMESPACE}:{name}' for name in stabilized]})
