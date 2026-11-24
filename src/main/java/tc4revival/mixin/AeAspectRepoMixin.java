@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import tc4revival.client.search.AspectExpression;
+import tc4revival.client.search.AspectSearchQuery;
 import tc4revival.client.search.ClientAspectSearch;
 
 @Pseudo
@@ -26,7 +26,7 @@ public abstract class AeAspectRepoMixin {
     @Inject(method = "updateView", at = @At("HEAD"))
     private void thaumcraft$checkQuery(CallbackInfo ci) {
         String text = getSearchString();
-        String query = AspectExpression.prefixed(text) ? text : null;
+        String query = AspectSearchQuery.hasAspectTerm(text) ? text : null;
         long epoch = query == null ? 0 : ClientAspectSearch.epoch();
         thaumcraft$queryChanged = !Objects.equals(query, thaumcraft$lastQuery) || epoch != thaumcraft$lastEpoch;
         thaumcraft$lastQuery = query;
@@ -43,6 +43,6 @@ public abstract class AeAspectRepoMixin {
     @Redirect(method = "addEntriesToView", at = @At(value = "INVOKE",
             target = "Lappeng/client/gui/me/common/PinnedKeys;isEmpty()Z"), require = 0)
     private boolean thaumcraft$filterPinnedItems() {
-        return PinnedKeys.isEmpty() || AspectExpression.prefixed(getSearchString());
+        return PinnedKeys.isEmpty() || AspectSearchQuery.hasAspectTerm(getSearchString());
     }
 }

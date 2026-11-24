@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import tc4revival.client.search.AspectExpression;
+import tc4revival.client.search.AspectSearchQuery;
 import tc4revival.client.search.ClientAspectSearch;
 import tc4revival.compat.jei.JeiAspectIndex;
 
@@ -21,6 +21,7 @@ public abstract class JeiAspectSearchMixin {
     @Shadow public abstract void invalidateCache();
     @Shadow protected abstract void notifyListenersOfChange();
     @Unique private JeiAspectIndex thaumcraft$index;
+    @Unique private String thaumcraft$nativeText;
     @Unique private long thaumcraft$epoch;
     @Unique private boolean thaumcraft$apiRequest;
     @Unique private int thaumcraft$ticks;
@@ -39,24 +40,25 @@ public abstract class JeiAspectSearchMixin {
 
     @Inject(method = "getIngredientListUncached", at = @At("HEAD"), cancellable = true)
     private void thaumcraft$search(String text, CallbackInfoReturnable<Stream<ITypedIngredient<?>>> ci) {
-        if (!AspectExpression.prefixed(text)) {
+        if (!AspectSearchQuery.hasAspectTerm(text)) {
             tc4revival.compat.jei.JeiAspectRefresh.clear();
             return;
         }
         long epoch = ClientAspectSearch.epoch();
         if (epoch != thaumcraft$epoch) thaumcraft$index = null;
         thaumcraft$epoch = epoch;
-        var query = ClientAspectSearch.query(text);
-        if (query == AspectExpression.INVALID) {
+        var query = ClientAspectSearch.parseSearch(text);
+        if (query == AspectSearchQuery.INVALID) {
             ci.setReturnValue(Stream.empty());
         } else {
-            if (thaumcraft$index == null) {
-                thaumcraft$index = new JeiAspectIndex(getIngredientListUncached(""), ClientAspectSearch::values);
+            if (thaumcraft$index == null || !query.nativeText().equals(thaumcraft$nativeText)) {
+                thaumcraft$nativeText = query.nativeText();
+                thaumcraft$index = new JeiAspectIndex(getIngredientListUncached(thaumcraft$nativeText), ClientAspectSearch::values);
                 thaumcraft$ticks = 0;
                 thaumcraft$index.advance(2_000_000);
             }
             if (thaumcraft$apiRequest) thaumcraft$index.advance(Long.MAX_VALUE);
-            ci.setReturnValue(thaumcraft$index.filter(query));
+            ci.setReturnValue(thaumcraft$index.filter(query.aspects()));
         }
         tc4revival.compat.jei.JeiAspectRefresh.watch(this::thaumcraft$tick);
     }

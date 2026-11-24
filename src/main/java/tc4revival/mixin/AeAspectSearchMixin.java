@@ -11,6 +11,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import tc4revival.client.search.AspectExpression;
+import tc4revival.client.search.AspectSearchQuery;
 import tc4revival.client.search.ClientAspectSearch;
 
 @Pseudo
@@ -18,24 +19,26 @@ import tc4revival.client.search.ClientAspectSearch;
 public abstract class AeAspectSearchMixin {
     @Shadow private String searchString;
     @Shadow private Predicate<GridInventoryEntry> search;
+    @Shadow private Predicate<GridInventoryEntry> fromString(String text) { throw new AssertionError(); }
     @Shadow @Final private Long2BooleanMap cache;
     @Unique private final Map<AEItemKey, AspectExpression.Values> thaumcraft$profiles = new WeakHashMap<>();
     @Unique private long thaumcraft$epoch;
 
     @Inject(method = "setSearchString", at = @At("HEAD"), cancellable = true)
     private void thaumcraft$search(String text, CallbackInfo ci) {
-        if (!AspectExpression.prefixed(text)) return;
+        if (!AspectSearchQuery.hasAspectTerm(text)) return;
         long epoch = ClientAspectSearch.epoch();
         if (epoch != thaumcraft$epoch || !text.equals(searchString)) {
             if (epoch != thaumcraft$epoch) thaumcraft$profiles.clear();
             thaumcraft$epoch = epoch;
-            var query = ClientAspectSearch.query(text);
+            var query = ClientAspectSearch.parseSearch(text);
             searchString = text;
-            search = entry -> {
-                if (query == AspectExpression.INVALID || !(entry.getWhat() instanceof AEItemKey item)) return false;
+            Predicate<GridInventoryEntry> byAspect = entry -> {
+                if (query == AspectSearchQuery.INVALID || !(entry.getWhat() instanceof AEItemKey item)) return false;
                 var values = thaumcraft$profiles.computeIfAbsent(item, key -> ClientAspectSearch.values(key.toStack()));
-                return values != null && query.test(values);
+                return values != null && query.aspects().test(values);
             };
+            search = query.nativeText().isEmpty() ? byAspect : fromString(query.nativeText()).and(byAspect);
             cache.clear();
         }
         ci.cancel();

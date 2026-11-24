@@ -7,7 +7,7 @@ import net.minecraft.network.chat.Component;
 import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import tc4revival.client.search.AspectExpression;
+import tc4revival.client.search.AspectSearchQuery;
 import tc4revival.client.search.ClientAspectSearch;
 
 @Pseudo
@@ -34,7 +34,7 @@ public abstract class AeAspectScreenMixin {
     @Inject(method = "updateSearch", at = @At("TAIL"))
     private void thaumcraft$refresh(CallbackInfo ci) {
         String text = repo.getSearchString();
-        if (!AspectExpression.prefixed(text)) return;
+        if (!AspectSearchQuery.hasAspectTerm(text)) return;
         long epoch = ClientAspectSearch.epoch();
         if (epoch != thaumcraft$epoch) {
             thaumcraft$epoch = epoch;

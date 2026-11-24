@@ -26,6 +26,8 @@ public final class ClientAspectSearch {
     private static AspectNames names;
     private static final Cache<String, Predicate<AspectExpression.Values>> queries =
             CacheBuilder.newBuilder().maximumSize(64).build();
+    private static final Cache<String, AspectSearchQuery> searches =
+            CacheBuilder.newBuilder().maximumSize(64).build();
     // Many JEI subtypes differ only in NBT that the aspect resolver does not read.
     private static final Cache<CompoundTag, AspectExpression.Values> recentProfiles =
             CacheBuilder.newBuilder().maximumSize(256).build();
@@ -36,10 +38,21 @@ public final class ClientAspectSearch {
             language = Language.getInstance();
             names = null;
             queries.invalidateAll();
+            searches.invalidateAll();
             recentProfiles.invalidateAll();
             epoch++;
         }
         return epoch;
+    }
+
+    public static AspectSearchQuery parseSearch(String input) {
+        epoch();
+        if (!ClientItemAspects.ready()) return AspectSearchQuery.INVALID;
+        var cached = searches.getIfPresent(input);
+        if (cached != null) return cached;
+        var result = AspectSearchQuery.compile(input, ClientAspectSearch::query);
+        searches.put(input, result);
+        return result;
     }
 
     public static Predicate<AspectExpression.Values> query(String input) {
