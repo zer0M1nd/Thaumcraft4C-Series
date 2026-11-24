@@ -298,7 +298,7 @@ public final class ReleaseApi {
             connection.setReadTimeout(timeoutMillis);
             connection.setInstanceFollowRedirects(false);
             connection.setUseCaches(false);
-            connection.setRequestProperty("User-Agent", "ThaumcraftUpdater");
+            connection.setRequestProperty("User-Agent", "ThaumcraftUpdater/1");
             connection.setRequestProperty("Accept-Encoding", "identity");
             try {
                 int status = connection.getResponseCode();

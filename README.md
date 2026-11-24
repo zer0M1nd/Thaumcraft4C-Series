@@ -4,6 +4,8 @@
 
 Choose which updates to apply to installed series mods before Forge loads them.
 
+Stable versions may use two or three numbers. The updater compares 4.3 and 4.3.0 as the same release. A development release such as 4.3.0.1 sorts after both.
+
 ## Installation
 
 Use Minecraft 1.20.1 with Forge 47.4.0 or later in the 47.x series.

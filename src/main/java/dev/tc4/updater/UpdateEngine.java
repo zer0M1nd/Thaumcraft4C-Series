@@ -177,7 +177,7 @@ public final class UpdateEngine {
                 log.accept("Previously approved update suspended by server whitelist: " + approval.modid()); continue;
             }
             Installed old = owners.get(approval.modid());
-            if (old != null && old.newest.mods().equals(Map.of(approval.modid(), approval.release().version()))) {
+            if (old != null && old.newest.mods().size() == 1 && Version.parse(old.newest.mods().get(approval.modid())).equals(Version.parse(approval.release().version()))) {
                 store.remove(List.of(approval.modid())); continue;
             }
             if (old == null || !old.originals().equals(approval.originals())
@@ -349,7 +349,9 @@ public final class UpdateEngine {
     static void requireCandidate(ModMetadata candidate, ReleaseApi.Release release) throws IOException {
         var expected = new HashMap<>(release.additionalMods());
         expected.put(release.modid(), release.version());
-        if (!candidate.mods().equals(expected) || (candidate.earlyService() && !release.modid().equals(SELF)))
+        boolean matches = release.thirdParty() ? candidate.mods().equals(expected)
+                : candidate.mods().keySet().equals(expected.keySet()) && Version.parse(candidate.mods().get(release.modid())).equals(Version.parse(release.version()));
+        if (!matches || (candidate.earlyService() && !release.modid().equals(SELF)))
             throw new IOException("Downloaded JAR identity/early-service mismatch: " + release.modid());
     }
     static void checkSelfCandidate(Path game, ReleaseApi.Release release, Path staged, Context context) throws IOException {

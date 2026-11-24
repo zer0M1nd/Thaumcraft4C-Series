@@ -527,8 +527,14 @@ class UpdaterTest {
         assertTrue(Version.parse("0.1.9.1").compareTo(Version.parse("0.1.9")) > 0);
         assertTrue(Version.parse("999999999999999999999.0.0").compareTo(Version.parse("4.9.0")) > 0);
     }
-    @ParameterizedTest @ValueSource(strings={"0.1", "0.1.2.0", "0.01.2", "0.1.2-beta", "-1.0.0", "1.2.3.4.5"})
+    @ParameterizedTest @ValueSource(strings={"0", "0.1.2.0", "0.01.2", "0.1.2-beta", "-1.0.0", "1.2.3.4.5"})
     void invalidVersionsAreRejected(String value) { assertThrows(IllegalArgumentException.class, () -> Version.parse(value)); }
+
+    @Test void twoPartReleasesAreStableAliases() {
+        assertEquals(Version.parse("4.3.0"), Version.parse("4.3"));
+        assertTrue(Version.parse("4.3").stable());
+        assertTrue(Version.parse("4.3.0.1").compareTo(Version.parse("4.3")) > 0);
+    }
     @Test void configurationDefaultsToAskMajorYesStableNoTestingAndEmptyInstallList() throws Exception {
         var defaults = new UpdaterConfig(UpdateMode.ASK, UpdateMode.YES, UpdateMode.NO, List.of());
         assertEquals(defaults, UpdaterConfig.read(game));
@@ -1249,6 +1255,18 @@ class UpdaterTest {
         var result=run();assertEquals(0,result.updated());assertTrue(result.message().contains("self-update staged"));assertEquals(before,modHashes());
         assertTrue(Files.exists(SelfUpdateHelper.pending(game)));SelfUpdateHelper.apply(game);
         assertEquals(Set.of("thaumcraftupdater-0.2.4.jar"),modHashes().keySet());assertFalse(Files.exists(SelfUpdateHelper.pending(game)));assertNoTransactions();
+    }
+    @Test void pendingSelfUpdateAcceptsTheSameReleaseWithAnExplicitZero() throws Exception {
+        policies("yes", "yes", "no");
+        Files.write(game.resolve("mods/self.jar"), jar("thaumcraftupdater", "0.2.8", "", true));
+        publish("thaumcraftupdater", release("thaumcraftupdater", "1.0", jar("thaumcraftupdater", "1.0.0", "", true)), null);
+        run();
+        var pending = SelfUpdateHelper.read(game);
+        var staged = UpdateTransaction.staged(game.resolve(".thaumcraftupdater/transactions").resolve(pending.batch()), 0);
+        SelfUpdate.stage(game, "1.0.0", pending.entry(), staged);
+        assertEquals(pending, SelfUpdateHelper.read(game));
+        SelfUpdateHelper.apply(game);
+        assertEquals(Set.of("thaumcraftupdater-1.0.jar"), modHashes().keySet());
     }
     @Test void selfUpdateAndNormalUpdateHaveDifferentActivationTimes() throws Exception {
         Files.write(game.resolve("mods/self.jar"),jar("thaumcraftupdater","0.2.3","",true));

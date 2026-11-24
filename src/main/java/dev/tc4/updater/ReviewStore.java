@@ -82,7 +82,10 @@ public final class ReviewStore {
         }
     }
     public List<Approval> approvals() { return List.copyOf(approvals.values()); }
-    public boolean ignored(String id, String version) { return ignored.getOrDefault(id, Set.of()).contains(version); }
+    public boolean ignored(String id, String version) {
+        Version candidate = Version.parse(version);
+        return ignored.getOrDefault(id, Set.of()).stream().map(Version::parse).anyMatch(candidate::equals);
+    }
     public Path staged(Approval approval) throws IOException {
         validate(approval);
         Path directory = root.resolve("approved");
