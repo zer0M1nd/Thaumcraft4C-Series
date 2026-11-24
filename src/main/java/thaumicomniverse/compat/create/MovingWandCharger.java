@@ -84,7 +84,7 @@ public class MovingWandCharger implements MovementBehaviour {
                 var stack=player.getMainHandItem();boolean changed=VisCharging.charge(stack,this::consume);
                 // Eligibility tags govern obtaining the enchantment. Once present (for
                 // example via Apotheosis shelves), Repair also works on ordinary tools.
-                changed|=VisItemRepair.repair(stack,level(),player,buffer,this::consume);
+                if (thaumicomniverse.RevivalFeatures.DEPLOYER_REPAIR.get()) changed|=VisItemRepair.repair(stack,level(),player,buffer,this::consume);
                 if(changed){
                     target.data.put("HeldItem",stack.save(new CompoundTag()));
                     target.blockEntityData.put("Inventory",player.getInventory().save(new ListTag()));

@@ -99,7 +99,7 @@ public class WandCharger extends BaseEntityBlock implements com.simibubi.create.
                 if(worker!=null){
                     var held=worker.getMainHandItem();
                     boolean repaired=VisCharging.charge(held,this::consumeVis);
-                    repaired|=VisItemRepair.repair(held,level,worker,repairVis,this::consumeVis);
+                    if (thaumicomniverse.RevivalFeatures.DEPLOYER_REPAIR.get()) repaired|=VisItemRepair.repair(held,level,worker,repairVis,this::consumeVis);
                     if(repaired){deployer.notifyUpdate();changed=true;}
                 }
             }
