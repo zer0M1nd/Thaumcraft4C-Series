@@ -48,7 +48,7 @@ public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, U
         Path file = game.resolve("config/thaumcraftupdater.toml");
         if (!Files.exists(file)) {
             Files.createDirectories(file.getParent());
-            Files.writeString(file, "# 版本基线，省略时使用 default。\nbaseline = \"default\"\n# 取值：yes / no / ask；兼容旧值 是 / 否 / 询问。\n# 是否更新大版本（第二段 x 变化）；与通道同时适用，否优先。\nmajorUpdates = \"ask\"\n# 是否更新稳定版（三段版本）。\nstableUpdates = \"yes\"\n# 是否更新测试版（四段版本）。\ntestingUpdates = \"no\"\n\n# 一次性安装缺失的模组。命名基线可用 [\"*\"]，每次启动补齐该基线。\ninstallOnce = []\n", StandardCharsets.UTF_8, StandardOpenOption.CREATE_NEW);
+            Files.writeString(file, "# 版本基线，省略时使用 default。\nbaseline = \"default\"\n# 取值：yes / no / ask；兼容旧值 是 / 否 / 询问。\n# 是否更新大版本（第二段 x 变化）；与通道同时适用，否优先。\nmajorUpdates = \"ask\"\n# 是否更新稳定版（两段或三段版本）。\nstableUpdates = \"yes\"\n# 是否更新测试版（四段版本）。\ntestingUpdates = \"no\"\n\n# 一次性安装缺失的模组。命名基线可用 [\"*\"]，每次启动补齐该基线。\ninstallOnce = []\n", StandardCharsets.UTF_8, StandardOpenOption.CREATE_NEW);
         }
         FilesSupport.regularFile(file);
         try {
@@ -96,7 +96,7 @@ public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, U
                 parsed.set("majorUpdates", major.configValue()); parsed.set("stableUpdates", stable.configValue()); parsed.set("testingUpdates", testing.configValue());
                 parsed.set("installOnce", retained);
                 parsed.setComment("majorUpdates", "是否更新 x 变化的大版本：yes / no / ask（兼容 是 / 否 / 询问）。与稳定/测试通道同时适用，no 优先。");
-                parsed.setComment("stableUpdates", "是否更新三段稳定版：yes / no / ask（兼容 是 / 否 / 询问）。");
+                parsed.setComment("stableUpdates", "是否更新两段或三段稳定版。可选 yes / no / ask（兼容 是 / 否 / 询问）。");
                 parsed.setComment("testingUpdates", "是否更新四段测试版：yes / no / ask（兼容 是 / 否 / 询问）。");
                 parsed.setComment("installOnce", "一次性安装缺失的系列 modid。命名基线可用 [\"*\"]，每次启动补齐该基线。");
                 FilesSupport.writeAtomic(file, new TomlWriter().writeToString(parsed).getBytes(StandardCharsets.UTF_8));
