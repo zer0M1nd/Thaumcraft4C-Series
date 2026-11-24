@@ -15,6 +15,10 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid="emt")
 public class ElectricTravellerBoots extends ItemArmorElectric implements thaumcraft.api.IVisDiscountGear {
+    private static final boolean APOTHEOSIS = net.minecraftforge.fml.ModList.get().isLoaded("apotheosis");
+    private static final net.minecraft.tags.TagKey<net.minecraft.world.item.Item> STEP_BOOTS =
+            net.minecraft.tags.ItemTags.create(net.minecraft.resources.ResourceLocation.parse("thaumcraft:traveller_step_boots"));
+
     protected final String kind;protected final int discount,energyPerDamage;
     protected static final java.util.Map<Player,Float> PREVIOUS_STEP=new java.util.WeakHashMap<>();
     public ElectricTravellerBoots(String kind){
@@ -36,7 +40,7 @@ public class ElectricTravellerBoots extends ItemArmorElectric implements thaumcr
     @Override public void onArmorTick(ItemStack stack,Level level,Player player){
         if(Keys.instance!=null)updateToggle(stack,Keys.instance.isBoostKeyDown(player)&&Keys.instance.isModeSwitchKeyDown(player));
         if(!player.getAbilities().flying&&player.zza>0){
-            if(level.isClientSide&&!player.isShiftKeyDown()){PREVIOUS_STEP.putIfAbsent(player,player.maxUpStep());player.setMaxUpStep(1);}
+            if(level.isClientSide&&!player.isShiftKeyDown()&&!(APOTHEOSIS && stack.is(STEP_BOOTS))){PREVIOUS_STEP.putIfAbsent(player,player.maxUpStep());player.setMaxUpStep(1);}
             if(boost(stack)&&player.onGround())player.moveRelative(speed(),new Vec3(0,0,1));
         }
     }
