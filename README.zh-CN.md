@@ -8,6 +8,10 @@
 
 适用于 Minecraft 1.20.1，最低要求为 Forge 47.4.0（47.x）。
 
+整合包可在 `config/thaumcraftupdater.toml` 中指定命名基线，并用 `installOnce = ["*"]` 在每次启动时补装新增成员。0.2.8.1 起也支持从维护者指定的上游地址补装第三方 Forge Mod。下载须通过文件大小、SHA-256、Mod 身份和版本校验。玩家已安装的第三方 Mod 会沿用现有版本。
+
+ATM9TC 静态补充包已配置 `baseline = "atm9tc"` 和 `thirdPartyOnly = true`。安装时将包内的 `config` 和 `mods` 一起合并到游戏目录。更新器只补装第三方 Mod，系列 Mod 随下一份静态补充包更新。
+
 ## 构建
 
 安装 JDK 17，将 `JAVA_HOME` 指向该 JDK。在仓库根目录执行以下命令。Wrapper 使用 Gradle 8.8，编译目标为 Forge 47.4.23。

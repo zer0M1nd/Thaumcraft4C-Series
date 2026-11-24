@@ -26,7 +26,11 @@ public final class ReviewStore {
         this(game, UpdaterConfig.DEFAULT_BASELINE);
     }
     ReviewStore(Path game, String baseline) throws IOException {
+        this(game, baseline, true);
+    }
+    ReviewStore(Path game, String baseline, boolean seriesEnabled) throws IOException {
         root = UpdaterConfig.stateDirectory(game, baseline);
+        if (!seriesEnabled) return;
         Files.createDirectories(root);
         JsonElement saved = read(root.resolve("approved.json"));
         if (saved != null) for (JsonElement element : saved.getAsJsonArray()) {

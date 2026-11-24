@@ -145,6 +145,7 @@ public final class DownloadScreen extends Screen {
     private String warning(JsonObject row) {
         return switch (str(item(row), "kind")) {
             case "INSTALL" -> t("下载神秘时代系列 Mod 失败。进入游戏可能缺失 Mod。", "Failed to download a Thaumcraft series mod. Mods may be missing in game.");
+            case "THIRD_PARTY_INSTALL" -> t("下载第三方 Mod 失败。进入游戏可能缺失整合包所需的 Mod。", "Failed to download a third-party mod required by this pack.");
             case "UPDATE" -> t("更新神秘时代系列 Mod 失败。进入游戏可能 Mod 与版本不匹配。", "Failed to update a Thaumcraft series mod. Mod versions may be incompatible.");
             case "OPTIONAL" -> t("下载中文补充包失败。进入游戏可能缺失少量本地化资源，可直接进入游玩。", "Failed to download a Chinese supplement. A few translations may be missing. You can play now.");
             default -> t("下载旧版资源失败。进入游戏可能缺失大量材质、音效、本地化资源。", "Failed to download legacy resources. Many textures, sounds and translations may be missing.");
@@ -153,7 +154,7 @@ public final class DownloadScreen extends Screen {
 
     private static int warningColor(JsonObject row) {
         return switch (str(item(row), "kind")) {
-            case "INSTALL" -> 0xff5555;
+            case "INSTALL", "THIRD_PARTY_INSTALL" -> 0xff5555;
             case "OPTIONAL" -> 0xffff55;
             default -> 0xffaa33;
         };

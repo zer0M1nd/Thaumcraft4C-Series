@@ -7,9 +7,13 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.util.*;
 
-public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, UpdateMode testingUpdates, List<String> installOnce, String baseline) {
+public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, UpdateMode testingUpdates,
+                            List<String> installOnce, String baseline, boolean thirdPartyOnly) {
     public static final String DEFAULT_BASELINE = "default";
     public UpdaterConfig { installOnce = List.copyOf(installOnce); }
+    public UpdaterConfig(UpdateMode major, UpdateMode stable, UpdateMode testing, List<String> installOnce, String baseline) {
+        this(major, stable, testing, installOnce, baseline, false);
+    }
     public UpdaterConfig(UpdateMode major, UpdateMode stable, UpdateMode testing, List<String> installOnce) {
         this(major, stable, testing, installOnce, DEFAULT_BASELINE);
     }
@@ -50,6 +54,8 @@ public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, U
         try {
             var parsed = new TomlParser().parse(Files.readString(file, StandardCharsets.UTF_8));
             String baseline = baselineName(parsed.getOrElse("baseline", DEFAULT_BASELINE));
+            Object thirdPartyOnly = parsed.getOrElse("thirdPartyOnly", false);
+            if (!(thirdPartyOnly instanceof Boolean only)) throw new IOException("thirdPartyOnly must be true or false");
             Object setting = parsed.getOrElse("installOnce", List.of());
             Object requested = "*".equals(setting) ? List.of("*") : setting;
             boolean all = !DEFAULT_BASELINE.equals(baseline) && requested instanceof List<?> list && list.contains("*");
@@ -74,7 +80,7 @@ public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, U
                 parsed.set("installOnce", retained);
                 FilesSupport.writeAtomic(file, new TomlWriter().writeToString(parsed).getBytes(StandardCharsets.UTF_8));
             }
-            Set<String> allowed = Set.of("baseline", "majorUpdates", "stableUpdates", "testingUpdates", "installOnce", "includeUnstable", "allowMajorUpdates");
+            Set<String> allowed = Set.of("baseline", "thirdPartyOnly", "majorUpdates", "stableUpdates", "testingUpdates", "installOnce", "includeUnstable", "allowMajorUpdates");
             if (!allowed.containsAll(parsed.valueMap().keySet()) || !(requested instanceof List<?> values)
                     || values.stream().anyMatch(value -> !(value instanceof String))) throw new IOException("Invalid updater settings/installOnce list");
             boolean legacyTesting = legacyBoolean(parsed.get("includeUnstable"));
@@ -96,7 +102,7 @@ public record UpdaterConfig(UpdateMode majorUpdates, UpdateMode stableUpdates, U
                 FilesSupport.writeAtomic(file, new TomlWriter().writeToString(parsed).getBytes(StandardCharsets.UTF_8));
             }
             return new UpdaterConfig(major, stable, testing, launch?List.copyOf(journaled):((List<?>) requested).stream()
-                    .map(String.class::cast).filter(id -> all || !id.equals("*")).distinct().toList(), baseline);
+                    .map(String.class::cast).filter(id -> all || !id.equals("*")).distinct().toList(), baseline, only);
         } catch (RuntimeException error) { throw new IOException("Invalid updater configuration: " + file, error); }
     }
     void restoreRequests(Path game, Collection<String> pending) throws IOException {

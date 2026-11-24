@@ -36,7 +36,7 @@ public final class UpdaterService implements ITransformationService {
             catch (java.io.IOException error) { log("Could not release updater lock: " + error.getMessage()); }
         }, "ThaumcraftUpdater lock release"));
         log("EARLY_UPDATE_COMPLETE: " + session.result().message());
-        SelfUpdate.launch(gameDirectory, UpdaterService::log);
+        if (session.allowSelfUpdate()) SelfUpdate.launch(gameDirectory, UpdaterService::log);
     }
     private static void log(String message) { LOG.log(System.Logger.Level.INFO, "[ThaumcraftUpdater] " + message); }
     @Override @SuppressWarnings("rawtypes") public List<ITransformer> transformers() { return List.of(); }

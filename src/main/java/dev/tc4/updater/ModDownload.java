@@ -20,10 +20,13 @@ final class ModDownload implements DownloadQueue.Task {
         this.api = api;
         this.release = release;
         this.directory = directory;
+        var kind = release.thirdParty() ? DownloadQueue.Kind.THIRD_PARTY_INSTALL
+                : current == null ? DownloadQueue.Kind.INSTALL : DownloadQueue.Kind.UPDATE;
         this.item = new DownloadQueue.Item(release.modid(), name,
                 current == null ? release.version() : current + " → " + release.version(), mods.toString(),
-                current == null ? DownloadQueue.Kind.INSTALL : DownloadQueue.Kind.UPDATE, api.links(release),
-                ManualLink.ordered(api.manualPages(release), chinese), release.url().resolve("/docs/changelogs/" + release.modid() + ".html").toString());
+                kind, api.links(release),
+                ManualLink.ordered(api.manualPages(release), chinese),
+                release.thirdParty() ? null : release.url().resolve("/docs/changelogs/" + release.modid() + ".html").toString());
     }
 
     public DownloadQueue.Item item() { return item; }
@@ -32,7 +35,7 @@ final class ModDownload implements DownloadQueue.Task {
 
     ReleaseApi.Release verifiedRelease() {
         return new ReleaseApi.Release(release.modid(), release.version(), release.filename(),
-                selected.sha256(), selected.size(), selected.url());
+                selected.sha256(), selected.size(), selected.url(), List.of(), List.of(), List.of(), release.thirdParty(), release.additionalMods());
     }
 
     public DownloadQueue.Prepared dropped(DownloadQueue.DroppedFile file) throws IOException {

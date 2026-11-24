@@ -18,6 +18,7 @@ public final class DownloadQueue implements AutoCloseable {
         RESOURCE,
         UPDATE,
         INSTALL,
+        THIRD_PARTY_INSTALL,
         OPTIONAL,
         LOGO
     }
@@ -157,7 +158,7 @@ public final class DownloadQueue implements AutoCloseable {
     }
 
     private static boolean issue(Row r) {
-        return omitted(r) && (r.failed || r.item.kind() == Kind.INSTALL || r.item.kind() == Kind.RESOURCE);
+        return omitted(r) && (r.failed || r.item.kind() == Kind.INSTALL || r.item.kind() == Kind.THIRD_PARTY_INSTALL || r.item.kind() == Kind.RESOURCE);
     }
 
     public synchronized boolean needsConfirmation() {
