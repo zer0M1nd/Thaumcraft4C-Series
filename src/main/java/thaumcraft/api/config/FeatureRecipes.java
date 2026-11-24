@@ -41,9 +41,11 @@ public class FeatureRecipes {
             Map<ResourceLocation, JsonElement> input, ICondition.IContext context) {
         var result = new HashMap<>(input);
         var deferred = new HashMap<ResourceLocation, JsonObject>();
+        var metalInputs = tc4revival.content.MetalRecipeIngredients.prepare(context);
         input.forEach((id, element) -> {
             if (!element.isJsonObject()) return;
-            var json = element.getAsJsonObject();
+            var json = metalInputs.normalized(element.getAsJsonObject());
+            if (json != element) result.put(id, json);
             if (!json.has("conditions") || !containsDeferred(json.get("conditions"))) return;
             deferred.put(id, json.deepCopy());
             var copy = json.deepCopy();
