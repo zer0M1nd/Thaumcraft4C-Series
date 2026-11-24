@@ -11,12 +11,15 @@ public class MetalCrucibleRecipe extends CrucibleRecipe {
   var direct=ItemAspects.directResolver();var snapshot=calculated;
   if(snapshot==null||snapshot.generation()!=direct){
    var amounts=ItemAspects.direct(BlastRecipe.tagged("forge:ingots/"+metal,1)).orElseGet(AspectAmounts::new).copy();
-   var metalAspect=TCAspects.catalog().require("metallum");amounts.remove(metalAspect,amounts.amount(metalAspect));amounts.add(metalAspect,2);
+   var metalAspect=TCAspects.catalog().require("metallum");amounts.remove(metalAspect,amounts.amount(metalAspect));
    // Recipe packets for different players can encode concurrently on Netty threads.
    // Publish the generation and the fully computed costs together, never the mutable work in progress.
    snapshot=new CostSnapshot(direct,amounts);calculated=snapshot;
   }
-  return snapshot.amounts().copy();
+  var result=snapshot.amounts().copy();
+  var metalAspect=TCAspects.catalog().require("metallum");
+  result.add(metalAspect,super.costs().amount(metalAspect));
+  return result;
  }
  public boolean available(){return transmutation?WGConfig.TRANSMUTATIONS.get()&&!BlastRecipe.tagged("forge:ingots/"+metal,1).isEmpty()&&!BlastRecipe.tagged("forge:nuggets/"+metal,1).isEmpty():Metallurgy.enabled(metal);}
  @Override public boolean matches(Input input,Level level){return available()&&thaumcraft.api.research.ResearchCategories.enabled(research())&&input.researchKnown(research())&&catalystMatches(input.getItem(0))&&remainder(input.aspects()).isPresent();}
@@ -24,5 +27,5 @@ public class MetalCrucibleRecipe extends CrucibleRecipe {
  @Override public ItemStack getResultItem(RegistryAccess r){if(!available())return ItemStack.EMPTY;return transmutation?BlastRecipe.tagged("forge:nuggets/"+metal,3):super.getResultItem(r);}
  @Override public ItemStack assemble(Input input,RegistryAccess r){return getResultItem(r);}
  @Override public RecipeSerializer<?> getSerializer(){return Content.METAL_CRUCIBLE.get();}
- public static class Serializer implements RecipeSerializer<MetalCrucibleRecipe>{public MetalCrucibleRecipe fromJson(ResourceLocation id,JsonObject j){return new MetalCrucibleRecipe(id,j,false);}public MetalCrucibleRecipe fromNetwork(ResourceLocation id,FriendlyByteBuf b){return new MetalCrucibleRecipe(id,JsonParser.parseString(b.readUtf(65536)).getAsJsonObject(),true);}public void toNetwork(FriendlyByteBuf b,MetalCrucibleRecipe r){var json=r.json.deepCopy();var fees=new JsonObject();r.costs().view().forEach((a,n)->fees.addProperty(a.tag(),n));json.add("aspects",fees);b.writeUtf(json.toString(),65536);}}
+ public static class Serializer implements RecipeSerializer<MetalCrucibleRecipe>{public MetalCrucibleRecipe fromJson(ResourceLocation id,JsonObject j){return new MetalCrucibleRecipe(id,j,false);}public MetalCrucibleRecipe fromNetwork(ResourceLocation id,FriendlyByteBuf b){return new MetalCrucibleRecipe(id,JsonParser.parseString(b.readUtf(65536)).getAsJsonObject(),true);}public void toNetwork(FriendlyByteBuf b,MetalCrucibleRecipe r){var json=r.json.deepCopy();json.remove("nugget_transmutation");var fees=new JsonObject();r.costs().view().forEach((a,n)->fees.addProperty(a.tag(),n));json.add("aspects",fees);b.writeUtf(json.toString(),65536);}}
 }
