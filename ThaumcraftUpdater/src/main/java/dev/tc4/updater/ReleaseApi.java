@@ -17,9 +17,51 @@ public final class ReleaseApi {
     private final List<URI> sites;
     private final int timeoutMillis;
 
-    public record Release(String modid, String version, String filename, String sha256, long size, URI url) {}
+    public record Source(URI url, String sha256, long size) {}
+    public record Release(String modid, String version, String filename, String sha256, long size, URI url,
+                          List<Source> sources, List<URI> manualPages, List<Source> manualFiles, boolean thirdParty,
+                          Map<String, String> additionalMods) {
+        public Release(String modid, String version, String filename, String sha256, long size, URI url) {
+            this(modid, version, filename, sha256, size, url, List.of(), List.of(), List.of(), false, Map.of());
+        }
+        public Release(String modid, String version, String filename, String sha256, long size, URI url,
+                       List<Source> sources, List<URI> manualPages, List<Source> manualFiles) {
+            this(modid, version, filename, sha256, size, url, sources, manualPages, manualFiles, false, Map.of());
+        }
+        public Release {
+            sources = sources == null ? List.of() : List.copyOf(sources);
+            manualPages = manualPages == null ? List.of() : List.copyOf(manualPages);
+            manualFiles = manualFiles == null ? List.of() : List.copyOf(manualFiles);
+            additionalMods = additionalMods == null ? Map.of() : Map.copyOf(additionalMods);
+        }
+        Source primary() { return new Source(url, sha256, size); }
+        Source from(URI uri) {
+            return sources.stream().filter(s -> s.url().equals(uri)).findFirst().orElse(primary());
+        }
+        Source matching(String hash, long length) {
+            if (sha256.equals(hash) && size == length) return primary();
+            return java.util.stream.Stream.concat(sources.stream(), manualFiles.stream())
+                    .filter(s -> s.sha256().equals(hash) && s.size() == length).findFirst().orElse(null);
+        }
+    }
     public record Channels(String name, URI changelog, Release stable, Release testing) {}
-    public record Catalog(Set<String> managed, Map<String, Channels> releases) {}
+    public record Catalog(Set<String> managed, Map<String, Channels> releases) {
+        boolean thirdParty(String id) {
+            Channels row = releases.get(id);
+            return row != null && row.stable() != null && row.stable().thirdParty();
+        }
+        Set<String> seriesIds() {
+            var ids = new HashSet<>(managed);
+            ids.removeIf(this::thirdParty);
+            return ids;
+        }
+        Catalog forScope(boolean thirdPartyOnly) {
+            if (!thirdPartyOnly) return this;
+            Map<String, Channels> included = new LinkedHashMap<>();
+            for (String id : managed) if (thirdParty(id)) included.put(id, releases.get(id));
+            return new Catalog(Set.copyOf(included.keySet()), Map.copyOf(included));
+        }
+    }
 
     public ReleaseApi() { this(SITES, 7000); }
     public ReleaseApi(URI server) { this(List.of(server), 10000); }
@@ -71,7 +113,18 @@ public final class ReleaseApi {
     }
 
     public List<URI> manualPages(String id) {
-        return sites.stream().map(site->site.resolve("/mods/"+id+"/index.html")).toList();
+        URI site = sites.equals(SITES) ? URI.create("http://tc4c.zer0m1nd.me/") : sites.get(0);
+        return List.of(site.resolve("/mods/" + id + "/index.html"));
+    }
+
+    List<URI> manualPages(Release release) {
+        if (release.thirdParty()) return List.of(release.url());
+        var pages = new LinkedHashSet<>(release.manualPages());
+        pages.addAll(manualPages(release.modid()));
+        // A named baseline may pin a file older than the releases listed on the project page.
+        URI archive = sites.equals(SITES) ? PUBLIC_SERVER : sites.get(0);
+        pages.add(archive.resolve(release.url().getRawPath()));
+        return List.copyOf(pages);
     }
     public Catalog catalogForPage(URI page,boolean testing) throws IOException {
         return catalogForPage(page, UpdaterConfig.DEFAULT_BASELINE, testing);
@@ -81,7 +134,7 @@ public final class ReleaseApi {
     }
     private Catalog snapshot(URI server, String path, String baseline, boolean includeTesting) throws IOException {
         ByteArrayOutputStream data = new ByteArrayOutputStream();
-        transfer(server.resolve(path), data, 4 * 1024 * 1024, Duration.ofSeconds(20), (n,total)->{});
+        transfer(server.resolve(path), data, 4 * 1024 * 1024, Duration.ofSeconds(20), (n,total)->{}, false);
         try {
             JsonObject root = JsonParser.parseString(data.toString(StandardCharsets.UTF_8)).getAsJsonObject();
             if (root.get("schema").getAsInt() != 2) throw new IOException("Unsupported release API schema");
@@ -113,10 +166,40 @@ public final class ReleaseApi {
             }
             if (!UpdaterConfig.DEFAULT_BASELINE.equals(baseline) && !releases.keySet().equals(managed))
                 throw new IOException("Incomplete release baseline: " + baseline);
+            Set<String> claimedIds = new HashSet<>(managed);
+            if (root.has("third_party")) for (var item : root.getAsJsonArray("third_party")) {
+                var row = item.getAsJsonObject();
+                String id = row.get("modid").getAsString();
+                String version = row.get("version").getAsString();
+                checkThirdPartyMod(claimedIds, id, version);
+                Map<String, String> additional = new LinkedHashMap<>();
+                if (row.has("additional_mods")) for (var entry : row.getAsJsonObject("additional_mods").entrySet()) {
+                    String otherVersion = entry.getValue().getAsString();
+                    checkThirdPartyMod(claimedIds, entry.getKey(), otherVersion);
+                    additional.put(entry.getKey(), otherVersion);
+                }
+                managed.add(id);
+                URI url = URI.create(row.get("url").getAsString());
+                requireWebUrl(url);
+                String hash = row.get("sha256").getAsString();
+                long size = row.get("size").getAsBigDecimal().longValueExact();
+                if (!hash.matches("[a-f0-9]{64}") || size <= 0 || size > MAX_JAR)
+                    throw new IOException("Invalid third-party release: " + id);
+                var downloaded = new Release(id, version, FilesSupport.filename(row.get("filename").getAsString()),
+                        hash, size, url, List.of(), List.of(), List.of(), true, additional);
+                releases.put(id, new Channels(id, null, downloaded, null));
+            }
             return new Catalog(Set.copyOf(managed), Map.copyOf(releases));
         } catch (RuntimeException error) {
             throw new IOException("Malformed release API response", error);
         }
+    }
+
+    private static void checkThirdPartyMod(Set<String> claimed, String id, String version) throws IOException {
+        if (!UpdateEngine.validModid(id) || UpdateEngine.EXCLUDED.contains(id)
+                || Set.of(UpdateEngine.SELF, "forge", "minecraft").contains(id) || !claimed.add(id)
+                || claimed.size() > 512 || version.isBlank() || version.length() > 256
+                || version.chars().anyMatch(Character::isISOControl)) throw new IOException("Invalid third-party mod: " + id);
     }
 
     private Release release(URI server, JsonElement element, String id, boolean stable) throws IOException {
@@ -135,22 +218,56 @@ public final class ReleaseApi {
         requireOrigin(uri);
         if (!uri.normalize().equals(uri) || !uri.getPath().startsWith("/download/files/releases/" + id + "/")
                 || !uri.getPath().endsWith("/" + filename)) throw new IOException("Invalid release download path");
-        return new Release(id, version, filename, hash.toLowerCase(Locale.ROOT), size, uri);
+        var sources = new ArrayList<Source>();
+        var seen = new HashSet<URI>();
+        seen.add(uri);
+        if (row.has("sources")) for (var value : row.getAsJsonArray("sources")) {
+            var src = value.getAsJsonObject();
+            URI link = server.resolve(src.get("url").getAsString());
+            requireOrigin(link);
+            String digest = src.get("sha256").getAsString().toLowerCase(Locale.ROOT);
+            long length = src.get("size").getAsBigDecimal().longValueExact();
+            if (!digest.matches("[0-9a-f]{64}") || length <= 0 || length > MAX_JAR || !seen.add(link)
+                    || !link.normalize().equals(link) || !link.getPath().startsWith("/download/files/releases/" + id + "/"))
+                throw new IOException("Invalid alternate release source for " + id);
+            sources.add(new Source(link, digest, length));
+        }
+        var pages = new ArrayList<URI>();
+        var manualFiles = new ArrayList<Source>();
+        if (row.has("manual_links")) for (var value : row.getAsJsonArray("manual_links")) {
+            var page = URI.create(value.isJsonObject() ? value.getAsJsonObject().get("url").getAsString() : value.getAsString());
+            if (page.getHost() == null || page.getUserInfo() != null || !Set.of("http","https").contains(page.getScheme()))
+                throw new IOException("Invalid release browser link");
+            pages.add(page);
+            if (value.isJsonObject()) {
+                var file = value.getAsJsonObject();
+                String digest = file.get("sha256").getAsString().toLowerCase(Locale.ROOT);
+                long length = file.get("size").getAsBigDecimal().longValueExact();
+                if (!digest.matches("[0-9a-f]{64}") || length <= 0 || length > MAX_JAR)
+                    throw new IOException("Invalid manual release hash/size");
+                manualFiles.add(new Source(page, digest, length));
+            }
+        }
+        return new Release(id, version, filename, hash.toLowerCase(Locale.ROOT), size, uri, sources, pages, manualFiles);
     }
 
     public List<URI> links(Release release) {
+        if (release.thirdParty()) return List.of(release.url());
         var result = new LinkedHashSet<URI>();
         result.add(release.url());
+        release.sources().forEach(source -> result.add(source.url()));
         for (var site : sites) result.add(site.resolve(release.url().getRawPath()));
         return List.copyOf(result);
     }
 
     public void download(Release release, URI source, Path destination, dev.tc4.download.DownloadQueue.Progress progress) throws IOException {
+        if (release.thirdParty() && !source.equals(release.url())) throw new IOException("Unexpected third-party download URL");
+        Source expected = release.from(source);
         try (OutputStream output = Files.newOutputStream(destination, StandardOpenOption.CREATE_NEW)) {
-            long count = transfer(source, output, release.size, Duration.ofSeconds(90), (n,ignored)->progress.bytes(n,release.size()));
-            if (count != release.size) throw new IOException("Truncated download for " + release.modid);
+            long count = transfer(source, output, expected.size(), Duration.ofSeconds(90), (n,ignored)->progress.bytes(n,expected.size()), release.thirdParty());
+            if (count != expected.size()) throw new IOException("Truncated download for " + release.modid);
         }
-        if (!FilesSupport.sha256(destination).equals(release.sha256)) throw new IOException("SHA-256 mismatch for " + release.modid);
+        if (!FilesSupport.sha256(destination).equals(expected.sha256())) throw new IOException("SHA-256 mismatch for " + release.modid);
         try (FileChannel channel = FileChannel.open(destination, StandardOpenOption.WRITE)) { channel.force(true); }
     }
 
@@ -164,16 +281,24 @@ public final class ReleaseApi {
             throw new IOException("Refusing download outside the release server: " + uri);
     }
 
-    private long transfer(URI uri, OutputStream output, long limit, Duration budget, dev.tc4.download.DownloadQueue.Progress progress) throws IOException {
+    private static void requireWebUrl(URI uri) throws IOException {
+        if (uri.getHost() == null || uri.getRawUserInfo() != null || uri.getFragment() != null
+                || !Set.of("http", "https").contains(uri.getScheme()))
+            throw new IOException("Expected a direct HTTP(S) mod download URL");
+    }
+
+    private long transfer(URI uri, OutputStream output, long limit, Duration budget,
+                          dev.tc4.download.DownloadQueue.Progress progress, boolean thirdParty) throws IOException {
         long deadline = System.nanoTime() + budget.toNanos();
         for (int redirect = 0; redirect < 4; redirect++) {
-            requireOrigin(uri);
+            if (thirdParty) requireWebUrl(uri);
+            else requireOrigin(uri);
             HttpURLConnection connection = (HttpURLConnection) uri.toURL().openConnection();
             connection.setConnectTimeout(Math.min(timeoutMillis, 5000));
             connection.setReadTimeout(timeoutMillis);
             connection.setInstanceFollowRedirects(false);
             connection.setUseCaches(false);
-            connection.setRequestProperty("User-Agent", "ThaumcraftUpdater");
+            connection.setRequestProperty("User-Agent", "ThaumcraftUpdater/1");
             connection.setRequestProperty("Accept-Encoding", "identity");
             try {
                 int status = connection.getResponseCode();

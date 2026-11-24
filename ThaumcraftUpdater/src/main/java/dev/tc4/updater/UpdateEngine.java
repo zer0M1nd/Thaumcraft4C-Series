@@ -1,7 +1,7 @@
 package dev.tc4.updater;
 
 import com.google.gson.*;
-import dev.tc4.download.DownloadQueue;
+import dev.tc4.download.*;
 import org.apache.maven.artifact.versioning.DefaultArtifactVersion;
 import org.apache.maven.artifact.versioning.VersionRange;
 import java.io.IOException;
@@ -16,7 +16,8 @@ public final class UpdateEngine {
     public static boolean validModid(String id) { return id != null && id.matches("[a-z][a-z0-9_]{1,63}"); }
     public record Context(String minecraft, String forge, String side) {}
     public record Result(int updated, String message) {}
-    public record Session(Result result, UpdateTransaction.Guard guard) implements AutoCloseable {
+    public record Session(Result result, UpdateTransaction.Guard guard, boolean allowSelfUpdate) implements AutoCloseable {
+        public Session(Result result, UpdateTransaction.Guard guard) { this(result, guard, true); }
         @Override public void close() throws IOException { guard.close(); }
     }
     private record Installed(ModMetadata newest, List<ModMetadata> all) {
@@ -59,7 +60,7 @@ public final class UpdateEngine {
                 String reason = "Update skipped; original mods retained: " + error.getMessage();
                 log.accept(reason); result = new Result(0, reason);
             }
-            return new Session(result, guard);
+            return new Session(result, guard, config != null && !config.thirdPartyOnly());
         } catch (IOException | RuntimeException error) {
             if (guard != null) try { guard.close(); } catch (IOException closeError) { error.addSuppressed(closeError); }
             if (error instanceof UpdateTransaction.StartupBlocked blocked) throw blocked;
@@ -68,7 +69,7 @@ public final class UpdateEngine {
     }
 
     private Result update(Path game, Context context, UpdateTransaction transaction, UpdaterConfig config) throws IOException {
-        ReviewStore store = new ReviewStore(game, config.baseline());
+        ReviewStore store = new ReviewStore(game, config.baseline(), !config.thirdPartyOnly());
         Path state = UpdaterConfig.stateDirectory(game, config.baseline());
         boolean installAll = config.installAll();
         if (config.stableUpdates()==UpdateMode.NO && config.testingUpdates()==UpdateMode.NO
@@ -77,45 +78,29 @@ public final class UpdateEngine {
         }
         Map<String, ReleaseApi.Channels> catalog;
         Set<String> managed;
+        Set<String> series;
         log.accept("Checking managed mods in release baseline " + config.baseline() + " before Forge mod scanning");
         try {
-            var snapshot = api.snapshot(config.baseline(), config.testingUpdates() != UpdateMode.NO);
+            var snapshot = api.snapshot(config.baseline(), config.testingUpdates() != UpdateMode.NO).forScope(config.thirdPartyOnly());
             managed = snapshot.managed(); catalog = snapshot.releases();
-            var versions=new TreeMap<String,String>();
-            catalog.forEach((id,channels)->{ if(channels.stable()!=null) versions.put(id,channels.stable().version()); });
-            FilesSupport.writeAtomic(state.resolve("stable-versions.json"),
-                    new Gson().toJson(versions).getBytes(StandardCharsets.UTF_8));
-            FilesSupport.writeAtomic(state.resolve("managed-modids.json"),
-                    new Gson().toJson(managed.stream().sorted().toList()).getBytes(StandardCharsets.UTF_8));
+            series = snapshot.seriesIds();
+            if (!config.thirdPartyOnly()) FilesSupport.writeAtomic(state.resolve("managed-modids.json"),
+                    new Gson().toJson(series.stream().sorted().toList()).getBytes(StandardCharsets.UTF_8));
         } catch (IOException error) {
             if (!installAll && !store.approvals().isEmpty()) {
-                managed = cachedManaged(state); catalog = Map.of();
+                managed = cachedManaged(state); series = managed; catalog = Map.of();
                 log.accept("Release check failed; applying previously approved downloads only with the last server whitelist: " + error.getMessage());
             } else if (window!=null && !config.installOnce().isEmpty()) {
                 var requested=config.installOnce().stream().filter(id->("*".equals(id) && config.installAll()) || (validModid(id)&&!EXCLUDED.contains(id))).distinct().toList();
                 var recovered=new java.util.concurrent.atomic.AtomicReference<ReleaseApi.Catalog>();
-                var knownVersions=new JsonObject();
-                Path cached=state.resolve("stable-versions.json");
-                if(Files.isRegularFile(cached,LinkOption.NOFOLLOW_LINKS)) try(var input=Files.newInputStream(cached)) {
-                    knownVersions=JsonParser.parseString(new String(FilesSupport.readBounded(input,65536),StandardCharsets.UTF_8)).getAsJsonObject();
-                } catch(IOException | RuntimeException invalid) { log.accept("Cannot read cached release versions: "+invalid.getMessage()); }
-                var reference=knownVersions;
                 var waiting=new ArrayList<DownloadQueue.Task>();
                 var baselineLinks = api.catalogLinks(config.baseline());
                 for (String id:requested) waiting.add(new DownloadQueue.Task() {
                     public DownloadQueue.Item item() {
                         boolean wildcard = "*".equals(id);
                         return new DownloadQueue.Item(id,wildcard ? config.baseline() : id,"等待版本清单 / Waiting for release catalog",game.resolve("mods").toString(),
-                                DownloadQueue.Kind.INSTALL,wildcard ? baselineLinks : api.manualPages(id));
-                    }
-                    public DownloadQueue.Prepared local() throws IOException {
-                        if (!reference.has(id) || !Files.isDirectory(game.resolve("mods"))) return null;
-                        String expected=reference.get(id).getAsString();
-                        try(var paths=Files.list(game.resolve("mods"))) {
-                            for(Path path:paths.filter(p->p.getFileName().toString().endsWith(".jar")).toList())
-                                if(expected.equals(ModMetadata.scan(path,Set.of()).mods().get(id))) return ()->"";
-                        }
-                        return null;
+                                config.thirdPartyOnly() ? DownloadQueue.Kind.THIRD_PARTY_INSTALL : DownloadQueue.Kind.INSTALL,
+                                baselineLinks,ManualLink.ordered(wildcard || config.thirdPartyOnly() ? List.of() : api.manualPages(id),false),null);
                     }
                     public DownloadQueue.Prepared download(java.net.URI page,DownloadQueue.Progress progress) throws IOException {
                         var snapshot=recovered.get();
@@ -136,8 +121,10 @@ public final class UpdateEngine {
                 if (skip.contains("*")) installAll = false;
                 var snapshot=recovered.get();
                 if(snapshot==null) return new Result(0,"Manual or skipped first installs");
+                snapshot = snapshot.forScope(config.thirdPartyOnly());
                 var allowed=new HashSet<>(snapshot.managed()); allowed.removeAll(skip);
                 managed=Set.copyOf(allowed); catalog=snapshot.releases();
+                series=snapshot.seriesIds(); series.retainAll(allowed);
             } else {
                 config.restoreRequests(game,config.installOnce());
                 if(window==null && (installAll || config.installOnce().stream().anyMatch(id->validModid(id)&&!EXCLUDED.contains(id))))
@@ -155,17 +142,17 @@ public final class UpdateEngine {
         Path modsDirectory = game.resolve("mods");
         if (!Files.exists(modsDirectory) && !requested.isEmpty()) Files.createDirectory(modsDirectory);
         if (!Files.isDirectory(modsDirectory)) return new Result(0, "No mods directory");
-        var installedFiles=new ModDownload.InstalledFiles(modsDirectory);
+
         Map<String, List<ModMetadata>> candidates = new LinkedHashMap<>();
         Map<String, String> externalVersions = new HashMap<>();
         Set<String> present = new HashSet<>();
         try (var files = Files.list(modsDirectory)) {
             for (Path jar : files.filter(path -> path.getFileName().toString().toLowerCase(Locale.ROOT).endsWith(".jar")).sorted().toList()) {
-                ModMetadata metadata = installedFiles.scan(jar, managed);
+                ModMetadata metadata = ModMetadata.scan(jar, managed);
                 present.addAll(metadata.mods().keySet()); present.addAll(metadata.embeddedMods().keySet());
                 metadata.embeddedMods().forEach((id, version) -> newestExternal(externalVersions, id, version));
                 for (var mod : metadata.mods().entrySet()) {
-                    if (managed.contains(mod.getKey())) {
+                    if (series.contains(mod.getKey())) {
                         FilesSupport.regularFile(jar); Version.parse(mod.getValue());
                         candidates.computeIfAbsent(mod.getKey(), ignored -> new ArrayList<>()).add(metadata);
                     } else newestExternal(externalVersions, mod.getKey(), mod.getValue());
@@ -186,11 +173,11 @@ public final class UpdateEngine {
         });
         List<Planned> updates = new ArrayList<>(); Set<String> approvedIds = new HashSet<>();
         for (var approval : store.approvals()) {
-            if (!managed.contains(approval.modid())) {
+            if (!series.contains(approval.modid())) {
                 log.accept("Previously approved update suspended by server whitelist: " + approval.modid()); continue;
             }
             Installed old = owners.get(approval.modid());
-            if (old != null && old.newest.mods().equals(Map.of(approval.modid(), approval.release().version()))) {
+            if (old != null && old.newest.mods().size() == 1 && Version.parse(old.newest.mods().get(approval.modid())).equals(Version.parse(approval.release().version()))) {
                 store.remove(List.of(approval.modid())); continue;
             }
             if (old == null || !old.originals().equals(approval.originals())
@@ -248,21 +235,13 @@ public final class UpdateEngine {
             for (var plan:offered) {
                 var release=plan.release;
                 var task=new ModDownload(api,release,catalog.get(release.modid()).name(),
-                        plan.installed==null?null:plan.installed.newest.mods().get(release.modid()),work,installedFiles,log);
+                        plan.installed==null?null:plan.installed.newest.mods().get(release.modid()),work,modsDirectory,
+                        !release.manualPages().isEmpty() && DownloadPreferences.chinese(game));
                 tasks.put(plan,task);
             }
             var rows=new ArrayList<DownloadQueue.Task>(tasks.values());
             for(String id:unavailable) rows.add(new DownloadQueue.Task() {
-                public DownloadQueue.Item item() { return new DownloadQueue.Item(id,id,"暂无稳定版 / No stable release",modsDirectory.toString(),DownloadQueue.Kind.INSTALL,api.manualPages(id)); }
-                public DownloadQueue.Prepared local() throws IOException {
-                    try(var paths=Files.list(modsDirectory)) {
-                        for(Path p:paths.filter(f->f.getFileName().toString().endsWith(".jar")).toList()) {
-                            var version=ModMetadata.scan(p,Set.of()).mods().get(id);
-                            if(version!=null && Version.parse(version).stable()) return ()->"";
-                        }
-                    }
-                    return null;
-                }
+                public DownloadQueue.Item item() { return new DownloadQueue.Item(id,id,"暂无稳定版 / No stable release",modsDirectory.toString(),DownloadQueue.Kind.INSTALL,List.of(),ManualLink.ordered(api.manualPages(id),false),null); }
                 public DownloadQueue.Prepared download(java.net.URI uri,DownloadQueue.Progress progress) throws IOException {
                     throw new IOException("No published stable version for "+id);
                 }
@@ -276,13 +255,13 @@ public final class UpdateEngine {
                     for (var pair:tasks.entrySet()) {
                         var plan=pair.getKey(); var task=pair.getValue(); var release=plan.release;
                         if (queue.skipped(release.modid())) continue;
+                        release = task.verifiedRelease();
                         var originals=new ArrayList<>(plan.originals);
-                        if (task.manual()!=null) {
-                            String filename=task.manual().getFileName().toString();
+                        if (task.inMods()!=null) {
+                            String filename=task.inMods().getFileName().toString();
                             // Manual replacement can remove the old JAR or overwrite it in place.
                             originals.removeIf(old->old.filename().equals(filename) || !Files.exists(modsDirectory.resolve(old.filename())));
-                            originals.add(new UpdateTransaction.Original(filename,task.hash()));
-                            release=new ReleaseApi.Release(release.modid(),release.version(),release.filename(),task.hash(),Files.size(task.staged()),release.url());
+                            originals.add(new UpdateTransaction.Original(filename,release.sha256()));
                         }
                         accepted.add(new Planned(plan.installed,release,List.copyOf(originals),task.staged()));
                     }
@@ -325,6 +304,10 @@ public final class UpdateEngine {
                 if (!FilesSupport.sha256(staged).equals(update.release.sha256())) throw new IOException("Prepared file changed before commit");
                 ModMetadata candidate = ModMetadata.read(staged);
                 requireCandidate(candidate, update.release);
+                if (update.release.thirdParty()) for (String id : candidate.mods().keySet()) {
+                    if (externalVersions.containsKey(id) || owners.containsKey(id))
+                        throw new IOException("Third-party JAR conflicts with an installed mod: " + id);
+                }
                 var entry = transactionEntry(update.originals, update.release);
                 if (update.release.modid().equals(SELF)) {
                     self = update; selfEntry = entry; selfStaged = staged; selfCandidates.add(candidate);
@@ -364,7 +347,11 @@ public final class UpdateEngine {
             throw new IOException("Cannot replace multi-mod/early-service JAR: " + mod.file());
     }
     static void requireCandidate(ModMetadata candidate, ReleaseApi.Release release) throws IOException {
-        if (!candidate.mods().equals(Map.of(release.modid(), release.version())) || (candidate.earlyService() && !release.modid().equals(SELF)))
+        var expected = new HashMap<>(release.additionalMods());
+        expected.put(release.modid(), release.version());
+        boolean matches = release.thirdParty() ? candidate.mods().equals(expected)
+                : candidate.mods().keySet().equals(expected.keySet()) && Version.parse(candidate.mods().get(release.modid())).equals(Version.parse(release.version()));
+        if (!matches || (candidate.earlyService() && !release.modid().equals(SELF)))
             throw new IOException("Downloaded JAR identity/early-service mismatch: " + release.modid());
     }
     static void checkSelfCandidate(Path game, ReleaseApi.Release release, Path staged, Context context) throws IOException {
@@ -401,6 +388,7 @@ public final class UpdateEngine {
         selfCandidates.forEach(mod -> changed.addAll(mod.mods().keySet()));
         List<ModMetadata> finalMods = new ArrayList<>(installed.stream().map(mod -> replacements.getOrDefault(mod.file(), mod)).toList());
         finalMods.addAll(additions);
+        for (ModMetadata mod : finalMods) mod.embeddedMods().forEach((id, version) -> newestExternal(versions, id, version));
         for (ModMetadata mod : finalMods) versions.putAll(mod.mods());
         versions.put("minecraft", context.minecraft); versions.put("forge", context.forge);
         finalMods.addAll(selfCandidates);

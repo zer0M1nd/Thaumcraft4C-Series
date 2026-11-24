@@ -6,7 +6,8 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.components.Tooltip;
-import net.minecraft.client.gui.screens.ConfirmScreen;
+import net.minecraft.util.FormattedCharSequence;
+import java.nio.file.Path;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.*;
 
@@ -28,7 +29,19 @@ public final class DownloadScreen extends Screen {
     private boolean painted, started, leaving;
     private String layout = "";
     private int first, ticks;
-    private static final int TOP = 32, ROW = 64;
+    private static final int TOP = 34;
+
+    private int rowHeight;
+
+    private int measureRowHeight() {
+        int lines = 1;
+        for (var element : rows()) {
+            var row = element.getAsJsonObject();
+            if (row.get("issue").getAsBoolean())
+                lines = Math.max(lines, font.split(Component.literal(warning(row)), Math.max(80, width - 36)).size());
+        }
+        return 55 + lines * font.lineHeight;
+    }
 
     public DownloadScreen(Controller controller) {
         super(Component.literal("Thaumcraft downloads"));
@@ -57,7 +70,7 @@ public final class DownloadScreen extends Screen {
     }
 
     private int visible() {
-        return Math.max(1, (bottom() - TOP) / ROW);
+        return Math.max(1, (bottom() - TOP) / rowHeight);
     }
 
     private Button button(Component label, int x, int y, int w, Runnable action) {
@@ -75,6 +88,7 @@ public final class DownloadScreen extends Screen {
         view = JsonParser.parseString(controller.snapshot()).getAsJsonObject();
         StringBuilder next = new StringBuilder();
         for (var elem : rows()) next.append(str(elem.getAsJsonObject(), "state")).append(',');
+        next.append(view.get("ready"));
         if (!layout.contentEquals(next)) {
             layout = next.toString();
             rebuildWidgets();
@@ -96,18 +110,7 @@ public final class DownloadScreen extends Screen {
     private void proceed() {
         if (leaving || !view.get("ready").getAsBoolean()) return;
         if (view.get("confirm").getAsBoolean()) {
-            minecraft.setScreen(
-                    new ConfirmScreen(
-                            yes -> {
-                                minecraft.setScreen(this);
-                                if (yes) finish();
-                            },
-                            Component.literal(t("仍有模组未下载", "Some mods were not downloaded")),
-                            Component.literal(
-                                    t(
-                                            "整合包可能不完整。仍要跳过这些模组并继续加载吗？",
-                                            "This modpack may be incomplete. Skip these mods and"
-                                                + " continue loading?"))));
+            minecraft.setScreen(new FailureConfirmation(this));
         } else finish();
     }
 
@@ -134,8 +137,35 @@ public final class DownloadScreen extends Screen {
         return false;
     }
 
+    @Override
+    public void onFilesDrop(List<Path> paths) {
+        for (Path path : paths) command("drop", path.toAbsolutePath().toString());
+    }
+
+    private String warning(JsonObject row) {
+        return switch (str(item(row), "kind")) {
+            case "INSTALL" -> t("下载神秘时代系列 Mod 失败。进入游戏可能缺失 Mod。", "Failed to download a Thaumcraft series mod. Mods may be missing in game.");
+            case "THIRD_PARTY_INSTALL" -> t("下载第三方 Mod 失败。进入游戏可能缺失整合包所需的 Mod。", "Failed to download a third-party mod required by this pack.");
+            case "UPDATE" -> t("更新神秘时代系列 Mod 失败。进入游戏可能 Mod 与版本不匹配。", "Failed to update a Thaumcraft series mod. Mod versions may be incompatible.");
+            case "OPTIONAL" -> t("下载中文补充包失败。进入游戏可能缺失少量本地化资源，可直接进入游玩。", "Failed to download a Chinese supplement. A few translations may be missing. You can play now.");
+            default -> t("下载旧版资源失败。进入游戏可能缺失大量材质、音效、本地化资源。", "Failed to download legacy resources. Many textures, sounds and translations may be missing.");
+        };
+    }
+
+    private static int warningColor(JsonObject row) {
+        return switch (str(item(row), "kind")) {
+            case "INSTALL", "THIRD_PARTY_INSTALL" -> 0xff5555;
+            case "OPTIONAL" -> 0xffff55;
+            default -> 0xffaa33;
+        };
+    }
+
+    private String dropHint() {
+        return t("手动下载后，将文件拖入 Minecraft 窗口。", "After downloading manually, drag the file into the Minecraft window.");
+    }
+
     private static boolean skippable(JsonObject row) {
-        return !str(item(row), "kind").equals("RESOURCE");
+        return !str(item(row), "kind").equals("RESOURCE") || str(row, "state").equals("CANCELLED");
     }
 
     private static boolean live(String s) {
@@ -161,12 +191,13 @@ public final class DownloadScreen extends Screen {
 
     private void linkButton(JsonObject row, int y, int room) {
         var data = item(row);
-        var links = data.getAsJsonArray("links");
+        var links = data.getAsJsonArray("manualLinks");
         if (links.isEmpty()) return;
-        String url = links.get(0).getAsString();
+        var page = links.get(0).getAsJsonObject();
+        String url = str(page, "url");
         int more = links.size() > 1 ? 84 : 0;
         int w = Math.max(50, room - more - 2);
-        var link = link(font.plainSubstrByWidth(url, w - 8), url);
+        var link = pageLabel(page, w - 8);
         var open = button(link, 14, y, w, () -> handleComponentClicked(link.getStyle()));
         open.setTooltip(Tooltip.create(Component.literal(url + "\n" + str(data, "directory"))));
         if (more > 0)
@@ -178,15 +209,24 @@ public final class DownloadScreen extends Screen {
                     () -> minecraft.setScreen(new Links(this, data)));
     }
 
+    private Component pageLabel(JsonObject page, int width) {
+        String type = str(page, "type");
+        if (type.equals("官网")) type = t("官网", "Official site");
+        if (type.equals("MC 百科")) type = t("MC 百科", "MCMod.cn");
+        String url = str(page, "url");
+        return link(font.plainSubstrByWidth("【" + type + "】" + url, width), url);
+    }
+
     @Override
     protected void init() {
+        rowHeight = measureRowHeight();
         first = Math.max(0, Math.min(first, rows().size() - visible()));
         int right = Math.min(92, width / 4), left = width - 10 - right, listWidth = left - 18;
         for (int i = first; i < Math.min(rows().size(), first + visible()); i++) {
             var row = rows().get(i).getAsJsonObject();
             var data = item(row);
             String s = str(row, "state"), id = str(data, "id");
-            int y = TOP + (i - first) * ROW;
+            int y = TOP + (i - first) * rowHeight;
             if (live(s))
                 button(
                         Component.literal(t("暂停", "Pause")),
@@ -313,15 +353,17 @@ public final class DownloadScreen extends Screen {
         }
         String title = t("启动下载", "Startup downloads") + "  " + count + " / " + rows().size();
         if (skipped > 0) title += "  ·  " + t("已跳过 ", "Skipped ") + skipped;
-        g.drawString(font, Component.literal(title), 12, 10, 0xffffff);
+        g.drawString(font, Component.literal(title), 12, 7, 0xffffff);
+        String drop = str(view, "dropMessage");
+        if (!drop.isEmpty()) g.drawString(font, font.plainSubstrByWidth(drop, width - 24), 12, 21, 0xffff55);
         int left = width - 10 - Math.min(92, width / 4), bar = left - 23;
         for (int i = first; i < Math.min(first + visible(), rows().size()); i++) {
             var row = rows().get(i).getAsJsonObject();
             var data = item(row);
-            int y = TOP + (i - first) * ROW;
+            int y = TOP + (i - first) * rowHeight;
             String s = str(row, "state"), message = str(row, "message");
             long received = row.get("received").getAsLong(), total = row.get("total").getAsLong();
-            g.fill(9, y, width - 8, y + ROW - 2, 0xb31a2029);
+            g.fill(9, y, width - 8, y + rowHeight - 2, 0xb31a2029);
             String name = str(data, "name") + "  " + str(data, "detail");
             g.drawString(font, font.plainSubstrByWidth(name, bar), 14, y + 3, 0xffffff);
             String line = stateText(row);
@@ -333,7 +375,7 @@ public final class DownloadScreen extends Screen {
                     font.plainSubstrByWidth(line, bar),
                     14,
                     y + 15,
-                    s.equals("FAILED") ? 0xff9587 : !message.isEmpty() ? 0xffd38a : 0xb7cbd7);
+                    s.equals("FAILED") ? warningColor(row) : !message.isEmpty() ? 0xffd38a : 0xb7cbd7);
             g.fill(14, y + 25, 14 + bar, y + 28, 0xff3d4652);
             int fill =
                     s.equals("DONE")
@@ -344,30 +386,26 @@ public final class DownloadScreen extends Screen {
                 int offset = (int) ((System.currentTimeMillis() / 25) % Math.max(1, bar - 14));
                 g.fill(14 + offset, y + 25, 28 + offset, y + 28, 0xff65b9cc);
             }
-            String directory = str(data, "directory");
-            if (font.width(directory) > bar)
-                directory = "…" + font.plainSubstrByWidth(directory, bar - font.width("…"), true);
-            g.drawString(
-                    font,
-                    directory,
-                    14,
-                    y + (manualLinks(s) || data.has("changelog") ? 51 : 34),
-                    0xa5acb3);
+            if (row.get("issue").getAsBoolean()) {
+                int lineY = y + 51;
+                for (var part : font.split(Component.literal(warning(row)), Math.max(80, width - 36))) {
+                    g.drawString(font, part, 14, lineY, warningColor(row));
+                    lineY += font.lineHeight;
+                }
+            }
         }
         g.drawCenteredString(
                 font,
                 Component.literal(
                         leaving
                                 ? t("正在应用并继续加载…", "Applying changes…")
-                                : t(
-                                        "每 5 秒检查手动放入的文件",
-                                        "Checks for manually placed files every 5 seconds")),
+                                : dropHint()),
                 width / 2,
                 height - 56,
                 0xb8c3cd);
         super.render(g, mx, my, partial);
         for (int i = first; i < Math.min(first + visible(), rows().size()); i++) {
-            int y = TOP + (i - first) * ROW;
+            int y = TOP + (i - first) * rowHeight;
             var row = rows().get(i).getAsJsonObject();
             if (mx >= 14 && mx < left && my >= y && my < y + 24) {
                 String message = str(row, "message");
@@ -391,6 +429,76 @@ public final class DownloadScreen extends Screen {
                 .toList();
     }
 
+    private static final class FailureConfirmation extends Screen {
+        private record Line(FormattedCharSequence text, int color) {}
+        private final DownloadScreen parent;
+        private final long unlock = System.nanoTime() + 5_000_000_000L;
+        private final List<Line> lines = new ArrayList<>();
+        private int first;
+        private Button proceed;
+
+        FailureConfirmation(DownloadScreen parent) {
+            super(Component.literal(parent.t("仍有下载问题，确定继续吗？", "Continue with these download problems?")));
+            this.parent = parent;
+        }
+
+        @Override
+        protected void init() {
+            lines.clear();
+            var groups = new LinkedHashMap<String,List<String>>();
+            for (var element : parent.rows()) {
+                var row = element.getAsJsonObject();
+                if (row.get("issue").getAsBoolean())
+                    groups.computeIfAbsent(parent.warning(row), key -> new ArrayList<>()).add(str(item(row), "name"));
+            }
+            for (var entry : groups.entrySet()) {
+                var row = parent.rows().asList().stream().map(JsonElement::getAsJsonObject)
+                        .filter(r -> parent.warning(r).equals(entry.getKey())).findFirst().orElseThrow();
+                for (var line : font.split(Component.literal(entry.getKey()), width - 46))
+                    lines.add(new Line(line, warningColor(row)));
+                for (var line : font.split(Component.literal(String.join(", ", entry.getValue())), width - 46))
+                    lines.add(new Line(line, 0xc8ced6));
+            }
+            proceed = addRenderableWidget(Button.builder(Component.literal(parent.t("继续", "Continue")), b -> {
+                if (System.nanoTime() < unlock) return;
+                minecraft.setScreen(parent);
+                parent.finish();
+            }).bounds(width / 2 - 104, height - 30, 100, 20).build());
+            addRenderableWidget(Button.builder(Component.literal(parent.t("返回", "Back")), b -> onClose())
+                    .bounds(width / 2 + 4, height - 30, 100, 20).build());
+            tick();
+        }
+
+        @Override
+        public void tick() {
+            long seconds = Math.max(0, (unlock - System.nanoTime() + 999_999_999L) / 1_000_000_000L);
+            proceed.active = seconds == 0;
+            proceed.setMessage(Component.literal(parent.t("继续", "Continue") + (seconds == 0 ? "" : " (" + seconds + ")")));
+        }
+
+        private int capacity() { return Math.max(1, (height - 80) / (font.lineHeight + 3)); }
+
+        @Override
+        public boolean mouseScrolled(double x, double y, double amount) {
+            first = Math.max(0, Math.min(Math.max(0, lines.size() - capacity()), first + (amount > 0 ? -1 : 1)));
+            return true;
+        }
+
+        @Override
+        public void onClose() { minecraft.setScreen(parent); }
+
+        @Override
+        public void render(GuiGraphics g, int mx, int my, float p) {
+            renderBackground(g);
+            g.drawCenteredString(font, title, width / 2, 12, 0xffffff);
+            for (int i = first; i < Math.min(lines.size(), first + capacity()); i++) {
+                var line = lines.get(i);
+                g.drawString(font, line.text(), 20, 36 + (i-first) * (font.lineHeight + 3), line.color());
+            }
+            super.render(g, mx, my, p);
+        }
+    }
+
     private static final class Links extends Screen {
         private final DownloadScreen parent;
         private final JsonObject item;
@@ -408,10 +516,11 @@ public final class DownloadScreen extends Screen {
 
         @Override
         protected void init() {
-            var urls = item.getAsJsonArray("links");
+            var urls = item.getAsJsonArray("manualLinks");
             for (int i = first; i < Math.min(urls.size(), first + capacity()); i++) {
-                String uri = urls.get(i).getAsString();
-                var label = link(font.plainSubstrByWidth(uri, width - 38), uri);
+                var page = urls.get(i).getAsJsonObject();
+                String uri = str(page, "url");
+                var label = parent.pageLabel(page, width - 38);
                 var b =
                         addRenderableWidget(
                                 Button.builder(
@@ -445,7 +554,7 @@ public final class DownloadScreen extends Screen {
             first =
                     Math.max(
                             0,
-                            Math.min(first + n, item.getAsJsonArray("links").size() - capacity()));
+                            Math.min(first + n, item.getAsJsonArray("manualLinks").size() - capacity()));
             rebuildWidgets();
         }
 
@@ -453,6 +562,12 @@ public final class DownloadScreen extends Screen {
         public boolean mouseScrolled(double x, double y, double delta) {
             scroll(delta > 0 ? -1 : 1);
             return true;
+        }
+
+        @Override
+        public void onFilesDrop(List<Path> paths) {
+            minecraft.setScreen(parent);
+            parent.onFilesDrop(paths);
         }
 
         @Override
@@ -466,7 +581,7 @@ public final class DownloadScreen extends Screen {
             g.drawCenteredString(font, title, width / 2, 10, 0xffffff);
             g.drawString(
                     font,
-                    font.plainSubstrByWidth(str(item, "directory"), width - 28),
+                    font.plainSubstrByWidth(parent.dropHint(), width - 28),
                     14,
                     28,
                     0xb7cbd7);

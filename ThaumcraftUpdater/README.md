@@ -4,9 +4,15 @@
 
 Choose which updates to apply to installed series mods before Forge loads them.
 
+Stable versions may use two or three numbers. The updater compares 4.3 and 4.3.0 as the same release. A development release such as 4.3.0.1 sorts after both.
+
 ## Installation
 
 Use Minecraft 1.20.1 with Forge 47.4.0 or later in the 47.x series.
+
+Pack authors can select a named baseline in `config/thaumcraftupdater.toml`. With `installOnce = ["*"]`, the client checks for new members on every launch. Version 0.2.8.1 also installs missing third-party Forge mods directly from the URLs pinned by the pack author. Each file must match the published size, SHA-256 and Forge mod metadata. Existing third-party installations are kept.
+
+The ATM9TC static extension sets `baseline = "atm9tc"` and `thirdPartyOnly = true`. Merge both its `config` and `mods` directories into the instance. Get the next static ZIP to change the bundled Thaumcraft series versions.
 
 ## Build
 

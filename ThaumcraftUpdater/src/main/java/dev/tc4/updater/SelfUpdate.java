@@ -11,7 +11,7 @@ public final class SelfUpdate {
         if (Files.exists(SelfUpdateHelper.pending(game), LinkOption.NOFOLLOW_LINKS)) {
             var previous = SelfUpdateHelper.read(game);
             if (SelfUpdateHelper.installed(game, previous)) Files.delete(SelfUpdateHelper.pending(game));
-            else if (previous.entry().equals(entry) && previous.version().equals(version)) {
+            else if (previous.entry().equals(entry) && Version.parse(previous.version()).equals(Version.parse(version))) {
                 Path staged = UpdateTransaction.staged(game.resolve(".thaumcraftupdater/transactions").resolve(previous.batch()), 0);
                 if (Files.isRegularFile(staged, LinkOption.NOFOLLOW_LINKS) && FilesSupport.sha256(staged).equals(entry.newHash())) return;
                 if (Files.exists(staged, LinkOption.NOFOLLOW_LINKS) || Files.exists(game.resolve(".thaumcraftupdater/active.json")))

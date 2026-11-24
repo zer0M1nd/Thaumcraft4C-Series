@@ -1,7 +1,7 @@
 plugins { id 'java' }
 
 group = 'dev.tc4.updater'
-version = '0.2.7'
+version = '1.0'
 base.archivesName = '[TC4Continuation]ThaumcraftUpdater'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
@@ -18,7 +18,10 @@ apply from: 'dependencies/build.gradle'
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 17 }
 tasks.named('processResources') {
     inputs.property 'version', project.version
-    filesMatching('META-INF/mods.toml') { expand version: project.version }
+    // Pre-1.0 updaters verify the outer SERVICE jar by exact three-component mod metadata.
+    // The nested marker loaded by Forge and the release manifest retain the public version.
+    def bootstrapVersion = project.version.toString().count('.') == 1 ? project.version + '.0' : project.version
+    filesMatching('META-INF/mods.toml') { expand version: bootstrapVersion }
 }
 // Early services live in SERVICE; the native review UI lives in GAME in a separate package.
 tasks.named('jar') {
@@ -59,6 +62,6 @@ tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps = fal
 tasks.register('startupDownloadSources', Zip) {
     archiveFileName = 'startup-download-sources.zip'
     destinationDirectory = layout.buildDirectory.dir('distributions')
-    from('src/main/java') { include 'dev/tc4/download/DownloadQueue.java' }
+    from('src/main/java') { include 'dev/tc4/download/*.java' }
     from('clientui/src/main/java') { include 'dev/tc4/download/ui/DownloadScreen.java' }
 }

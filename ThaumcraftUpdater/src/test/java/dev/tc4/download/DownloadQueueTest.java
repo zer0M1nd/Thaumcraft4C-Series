@@ -17,6 +17,36 @@ class DownloadQueueTest {
             SECOND = URI.create("https://example.org/second");
 
     @Test
+    void dropAtFirstFrameCompletesWithoutStartingAnAutomaticTransfer(@org.junit.jupiter.api.io.TempDir java.nio.file.Path dir) throws Exception {
+        var file = java.nio.file.Files.writeString(dir.resolve("provided.jar"), "selected bytes");
+        var calls = new AtomicInteger();
+        var manual = new AtomicBoolean();
+        var task = new DownloadQueue.Task() {
+            public DownloadQueue.Item item() {
+                return new DownloadQueue.Item("a", "A", "1", dir.toString(), DownloadQueue.Kind.INSTALL, List.of(FIRST));
+            }
+            public DownloadQueue.Prepared dropped(DownloadQueue.DroppedFile input) {
+                return () -> { manual.set(true); return ""; };
+            }
+            public DownloadQueue.Prepared download(URI uri, DownloadQueue.Progress progress) throws IOException {
+                calls.incrementAndGet();
+                throw new IOException("Unexpected download");
+            }
+        };
+        try (var queue = new DownloadQueue(List.of(task))) {
+            synchronized (queue) {
+                queue.action("drop", file.toString());
+                queue.action("shown", "");
+            }
+            long end = System.nanoTime() + TimeUnit.SECONDS.toNanos(2);
+            while (!queue.ready() && System.nanoTime() < end) Thread.sleep(5);
+            assertTrue(queue.ready());
+            assertTrue(manual.get());
+            assertEquals(0, calls.get());
+            assertFalse(JsonParser.parseString(queue.snapshot()).getAsJsonObject().get("auto").getAsBoolean());
+        }
+    }
+    @Test
     void noTransferBeforeRenderPauseResumesSameStreamAndFallbackExhaustsInOrder() throws Exception {
         var calls = new CopyOnWriteArrayList<URI>();
         var committed = new AtomicInteger();
@@ -84,7 +114,7 @@ class DownloadQueueTest {
     }
 
     @Test
-    void cancellingRequiredResourceKeepsContinueLockedAndDiscardsLateResult() throws Exception {
+    void cancellingRequiredResourceDiscardsLateResultAndSkippingRequiresConfirmation() throws Exception {
         var start = new CountDownLatch(1);
         var finish = new CountDownLatch(1);
         var closed = new CountDownLatch(1);
@@ -130,9 +160,11 @@ class DownloadQueueTest {
             queue.action("cancel", "a");
             finish.countDown();
             assertTrue(closed.await(2, TimeUnit.SECONDS));
-            queue.action("skip", "a");
             assertFalse(queue.ready());
-            assertTrue(queue.snapshot().contains("CANCELLED"));
+            queue.action("skip", "a");
+            assertTrue(queue.ready());
+            assertTrue(queue.needsConfirmation());
+            assertTrue(queue.snapshot().contains("SKIPPED"));
         }
     }
 }
