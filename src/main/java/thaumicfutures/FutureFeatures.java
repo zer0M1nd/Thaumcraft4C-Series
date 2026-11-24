@@ -55,8 +55,11 @@ public final class FutureFeatures {
             parents.visible().stream().filter(FutureFeatures::researchEnabled).toList(),parents.hidden().stream().filter(FutureFeatures::researchEnabled).toList()));
     }
     private static Group group(String kind,String key){var name=Ownership.group(kind,key);return name==null?null:Group.valueOf(name);}
-    public static Group itemGroup(String name){return group("items",name);}
-    public static Group recipeGroup(ResourceLocation id){return group("recipes",id.toString());}
+    public static Group itemGroup(String name){return name.equals("quartz_sliver") ? Group.RESTORATION : group("items",name);}
+    public static Group recipeGroup(ResourceLocation id){
+        if (id.getNamespace().equals("thaumicfutures") && id.getPath().equals("restored/quartz_slivers")) return Group.RESTORATION;
+        return group("recipes",id.toString());
+    }
     public static boolean ownsItem(String name){return itemGroup(name)!=null;}
     public static boolean itemEnabled(String name){var group=itemGroup(name);return group==null||group.enabled();}
     public static boolean researchEnabled(String name){var group=group("research",name);return group==null||group.enabled();}

@@ -12,6 +12,7 @@ public final class RestoredIntegration {
     public static boolean hideOldFurnace(){return FutureFeatures.Group.RESTORATION.enabled();}
     public static void register(){
         PreferredMaterialIngredient.register();
+        thaumcraft.api.crafting.MagicRecipeProviders.registerCrucible("thaumicfutures:quartz_sliver", 0, QuartzCrystalRecipe::forSliver);
         thaumcraft.api.research.ResearchCategories.registerEnablementFilter(ResourceLocation.parse("thaumicfutures:restored_smelter"),
                 key->!key.equals("TB.AdvAlc")||!hideOldFurnace());
         thaumcraft.api.config.FeatureRecipes.register(ResourceLocation.parse("thaumicfutures:replaced_smelter"),
