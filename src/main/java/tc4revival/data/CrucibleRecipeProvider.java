@@ -79,6 +79,7 @@ public  class CrucibleRecipeProvider implements DataProvider {
         var writes = new ArrayList<CompletableFuture<?>>();
         recipes.forEach((name, recipe) -> {
             var json = new JsonObject(); json.addProperty("type", "thaumcraft:crucible"); json.addProperty("research", recipe.research);
+            if (name.startsWith("transmute_")) json.addProperty("nugget_transmutation",true);
             json.addProperty("legacy_order", recipe.order); var catalyst = new JsonObject();
             catalyst.addProperty(recipe.catalyst.startsWith("#") ? "tag" : "item", recipe.catalyst.startsWith("#") ? recipe.catalyst.substring(1) : recipe.catalyst); json.add("catalyst", catalyst);
             var result = new JsonObject(); result.addProperty("item", recipe.output); result.addProperty("count", recipe.count); json.add("result", result);

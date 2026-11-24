@@ -115,6 +115,17 @@ public  class TCDataGeneration {
             add("thaumcraft.infusion.recovery_restored",chinese?"已恢复原注魔事务。":"The saved infusion transaction has been restored.");
             add("thaumcraft.research.recipe_unavailable",chinese?"当前数据包中无可用配方":"No recipe in this datapack");
             add("thaumcraft.auto_research.inventory_full",chinese?"背包已满，发现已留在研究台中，批量研究已停止。":"Inventory full. The discovery remains on the research table; batch research has stopped.");
+            add("block.thaumcraft.chaos_matrix",chinese?"混沌矩阵":"Chaos Matrix");
+            add("block.thaumcraft.thaumium_chest",chinese?"神秘箱子":"Thaumium Chest");
+            add("block.thaumcraft.void_chest",chinese?"虚空箱子":"Void Chest");
+            add("block.thaumcraft.thaumium_chest.double",chinese?"大型神秘箱子":"Large Thaumium Chest");
+            add("block.thaumcraft.void_chest.double",chinese?"大型虚空箱子":"Large Void Chest");
+            add("tc.research_name.THAUMIUMCHEST",chinese?"神秘箱子":"Thaumium Chest");
+            add("tc.research_name.VOIDCHEST",chinese?"虚空箱子":"Void Chest");
+            add("tc.research_text.THAUMIUMCHEST",chinese?"储藏与修复":"Storage and repair");
+            add("tc.research_text.VOIDCHEST",chinese?"虚空中的工坊":"A workshop in the void");
+            add("tc.research_page.THAUMIUMCHEST.1",chinese?"神秘箱子可存放 6 排各 9 格物品。将同种箱子并排放置，容量便会翻倍。附近的魔力中继器可提供 cV，为箱内带有修复附魔的受损物品恢复耐久。每次修复的耐久与所需原始要素取决于附魔等级和物品。":"A Thaumium Chest holds six rows of nine stacks. Place a matching chest beside it to double the capacity. A nearby vis relay supplies cV to restore damaged items with the Repair enchantment. The item and enchantment level determine the primal vis cost and durability restored.");
+            add("tc.research_page.VOIDCHEST.1",chinese?"虚空箱子单箱容量为 9 排各 9 格，两只可以合并。魔力中继器仍可修复带有修复附魔的物品。虚空工具另可每秒自行恢复 1 点耐久，无需 cV。":"A Void Chest holds nine rows of nine stacks and can join another Void Chest. Relay vis still powers the Repair enchantment. Void tools also recover one durability per second without consuming vis.");
             add("container.thaumcraft.hungry_chest",chinese?"贪婪箱":"Hungry Chest");
             add("item.thaumcraft.thaumonomicon.cheat",chinese?"作弊指南":"Cheat Sheet");
             add("thaumcraft.mirror.already_linked",chinese?"这面镜子已连接至有效的目的地。":"That mirror is already linked to a valid destination.");

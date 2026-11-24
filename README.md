@@ -4,6 +4,12 @@
 
 Scan the world to discover aspects, then put your research to work with wands, alchemy, infusion and golems.
 
+A Chaos Matrix lets the Thaumatorium craft from its current catalyst and essentia. It stores up to 100 points across all aspects. With x matrices, intake runs at 0.5 + 0.5x times the base rate. Soul fire or a lit soul campfire supplies an independent 1.5× bonus. An attached Chaos Matrix takes precedence over Mnemonic Matrices.
+
+Thaumium and Void Chests hold 54 and 81 stacks respectively. Placing two of the same kind together doubles their capacity. Vis from a nearby relay powers Repair-enchanted items inside either chest. Void tools also repair themselves inside a Void Chest. Both chest recipes unlock through secondary research.
+
+Nugget transmutation uses one nugget to make three. The default cost is 3 Metallum. Set `extra_nugget_transmutation_cost = false` in the world’s server configuration to restore the cost of 2. The same setting applies to supported addon nuggets.
+
 ## Installation
 
 Use Minecraft 1.20.1 with Forge 47.4.0 or later in the 47.x series.

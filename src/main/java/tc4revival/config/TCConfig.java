@@ -89,8 +89,11 @@ public  class TCConfig {
         public final IntValue inferredAspectSoftLimit, inferredAspectHardLimit, inferredAspectBeforeScaling;
         public final BooleanValue championMobs, allowMirrors, allowCheatSheet, wardedStone;
         public final BooleanValue hardNodes, disableWarp, taintFromFlux, golemChestInteract;
+        public final BooleanValue extraNuggetTransmutationCost;
 
         private Server(ForgeConfigSpec.Builder builder) {
+            extraNuggetTransmutationCost=builder.comment("金属粒嬗变复制两个金属粒消耗 3 点而非 2 点金属要素。 / Charge one additional Metallum to duplicate two metal nuggets. Default: true.")
+                    .define("extra_nugget_transmutation_cost",true);
             advancedAspectInference=builder.comment("进阶要素推断 / Advanced aspect inference. Fill missing aspects using recipes and configurable fallbacks. Requires JEI on the server. Restart the world/server after changing.").worldRestart().comment("根据配方和回退规则补全缺失要素；属于兼容适配，不受全局模式关闭","Supplement missing aspects from recipes and fallback rules; independent of the revival profile","初始值 / Default: " + String.valueOf(true) + "; 可选 / Allowed: true, false", "修改后重启世界/服务器；客户端项重开界面 / Restart world/server; reopen the screen for client settings.").define("advanced_aspect_inference",true);
             inferredAspectAmountLimit=builder.comment("自动推断的单种要素数值上限 / Maximum amount per automatically inferred aspect. Explicit definitions are unchanged. Restart the world/server.").worldRestart().comment("自动推断每种要素的数量上限，不改变显式要素","Maximum quantity of each inferred aspect; explicit entries are unchanged","初始值 / Default: " + String.valueOf(64) + "; 范围 / Range: " + String.valueOf(1) + ".." + String.valueOf(10000), "修改后重启世界/服务器；客户端项重开界面 / Restart world/server; reopen the screen for client settings.").defineInRange("inferred_aspect_amount_limit",64,1,10000);
             inferredAspectTypeLimit=builder.comment("自动推断的要素种类上限 / Maximum aspect types per automatically inferred entry. Explicit definitions are unchanged. Restart the world/server.").worldRestart().comment("每个推断条目的要素种类上限","Maximum aspect types in an inferred entry","初始值 / Default: " + String.valueOf(10) + "; 范围 / Range: " + String.valueOf(1) + ".." + String.valueOf(1024), "修改后重启世界/服务器；客户端项重开界面 / Restart world/server; reopen the screen for client settings.").defineInRange("inferred_aspect_type_limit",10,1,1024);

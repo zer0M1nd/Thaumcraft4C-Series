@@ -36,13 +36,16 @@ public  class ThaumatoriumMenu extends AbstractContainerMenu {
         return tc4revival.client.ClientKnowledge.snapshot().map(tc4revival.research.PlayerKnowledge::researchMarkers).orElse(Set.of());
     }
     public List<CrucibleRecipe> choices() {
+        if (controller!=null && process().chaotic()) {
+            return controller.closest(contents.getItem(0),process().stored(),false).stream().toList();
+        }
         var selected=process()==null ? List.<net.minecraft.resources.ResourceLocation>of() : process().selected(); var known=known();
         return player.level().getRecipeManager().getAllRecipesFor(TCArcane.CRUCIBLE_RECIPE_TYPE.get()).stream()
                 .filter(recipe->selected.contains(recipe.getId()) || known.contains(recipe.research()) && recipe.catalystMatches(contents.getItem(0)))
                 .sorted(Comparator.comparingInt(CrucibleRecipe::legacyOrder).thenComparing(recipe->recipe.getId().toString())).toList();
     }
     @Override public boolean clickMenuButton(Player player,int button) {
-        if (player.level().isClientSide || controller==null || !stillValid(player) || player.containerMenu!=this) return false;
+        if (player.level().isClientSide || controller==null || controller.chaosMatrices()>0 || !stillValid(player) || player.containerMenu!=this) return false;
         var choices=choices(); if (button<0 || button>=choices.size()) return false;
         return controller.process().toggle(choices.get(button),player.getGameProfile().getName(),controller);
     }

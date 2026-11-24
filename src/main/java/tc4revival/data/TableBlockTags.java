@@ -40,7 +40,7 @@ public  class TableBlockTags extends BlockTagsProvider {
         }
         tag(BlockTags.SLABS).add(tc4revival.content.TCEldritch.SLAB.get()); tag(BlockTags.STAIRS).add(tc4revival.content.TCEldritch.STAIRS.get());
         stabilizers().forEach(block->tag(tc4revival.content.InfusionLayout.STABILIZERS).add(block));
-        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(tc4revival.content.TCArcane.INFERNAL_FURNACE.get(),tc4revival.content.TCArcane.ADVANCED_ALCHEMY_FURNACE.get(),tc4revival.content.TCArcane.ADVANCED_ALCHEMICAL_CONSTRUCT.get(),tc4revival.content.TCArcane.ALCHEMICAL_CONSTRUCT.get(),tc4revival.content.TCArcane.MNEMONIC_MATRIX.get(),tc4revival.content.TCArcane.THAUMATORIUM.get());
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(tc4revival.content.TCArcane.INFERNAL_FURNACE.get(),tc4revival.content.TCArcane.ADVANCED_ALCHEMY_FURNACE.get(),tc4revival.content.TCArcane.ADVANCED_ALCHEMICAL_CONSTRUCT.get(),tc4revival.content.TCArcane.ALCHEMICAL_CONSTRUCT.get(),tc4revival.content.TCArcane.MNEMONIC_MATRIX.get(),tc4revival.content.TCArcane.CHAOS_MATRIX.get(),tc4revival.content.TCArcane.THAUMIUM_CHEST.get(),tc4revival.content.TCArcane.VOID_CHEST.get(),tc4revival.content.TCArcane.THAUMATORIUM.get());
         tag(tc4revival.content.PortableHoleFocusItem.BLACKLIST).add(tc4revival.content.TCArcane.INFERNAL_FURNACE.get());
         for (String name:tc4revival.content.TCArcane.woodworkNames()) {
             var block=tc4revival.content.TCArcane.woodwork(name); tag(BlockTags.MINEABLE_WITH_AXE).add(block);

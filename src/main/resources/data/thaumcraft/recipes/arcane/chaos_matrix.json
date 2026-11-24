@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "THAUMATORIUM",
+  "pattern": [
+    "IAI",
+    "ABA",
+    "IAI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "thaumcraft:entropy_shard"
+    },
+    "B": {
+      "item": "thaumcraft:zombie_brain"
+    }
+  },
+  "vis": {
+    "ignis": 5,
+    "aqua": 5,
+    "perditio": 5
+  },
+  "result": {
+    "item": "thaumcraft:chaos_matrix",
+    "count": 1
+  }
+}

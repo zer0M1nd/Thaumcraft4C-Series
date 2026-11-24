@@ -44,6 +44,17 @@ public  class TCArcane {
     public static final RegistryObject<MenuType<DeconstructionTableMenu>> DECONSTRUCTION_TABLE_MENU=MENUS.register("deconstruction_table",()->IForgeMenuType.create(DeconstructionTableMenu::new));
     public static final RegistryObject<Block> THAUMIUM_BLOCK=BLOCKS.register("thaumium_block",()->new Block(net.minecraft.world.level.block.state.BlockBehaviour.Properties.of().strength(4,6).requiresCorrectToolForDrops().sound(net.minecraft.world.level.block.SoundType.STONE)));
     public static final RegistryObject<GolemFetterBlock> GOLEM_FETTER=BLOCKS.register("golem_fetter",GolemFetterBlock::new);
+    public static final RegistryObject<StorageChestBlock> THAUMIUM_CHEST = BLOCKS.register("thaumium_chest", () -> new StorageChestBlock(54));
+    public static final RegistryObject<StorageChestBlock> VOID_CHEST = BLOCKS.register("void_chest", () -> new StorageChestBlock(81));
+    public static final RegistryObject<BlockEntityType<StorageChestBlockEntity>> STORAGE_CHEST_ENTITY = ENTITIES.register("storage_chest",
+            () -> BlockEntityType.Builder.of(StorageChestBlockEntity::new, THAUMIUM_CHEST.get(), VOID_CHEST.get()).build(null));
+    public static final java.util.Map<Integer, RegistryObject<MenuType<StorageChestMenu>>> STORAGE_CHEST_MENUS = new java.util.LinkedHashMap<>();
+    static {
+        for (int size : new int[]{54, 81, 108, 162})
+            STORAGE_CHEST_MENUS.put(size, MENUS.register("storage_chest_" + size, () -> IForgeMenuType.create((id, inv, data) ->
+                    new StorageChestMenu(id, inv, new net.minecraft.world.SimpleContainer(size)))));
+    }
+    public static MenuType<StorageChestMenu> storageChestMenu(int size) { return STORAGE_CHEST_MENUS.get(size).get(); }
     public static final RegistryObject<HungryChestBlock> HUNGRY_CHEST=BLOCKS.register("hungry_chest",HungryChestBlock::new);
     public static final RegistryObject<BlockEntityType<HungryChestBlockEntity>> HUNGRY_CHEST_ENTITY=ENTITIES.register("hungry_chest",()->BlockEntityType.Builder.of(HungryChestBlockEntity::new,HUNGRY_CHEST.get()).build(null));
     public static final RegistryObject<ArcaneBoreBlock> ARCANE_BORE_BASE=BLOCKS.register("arcane_bore_base",()->new ArcaneBoreBlock(true));
@@ -110,6 +121,7 @@ public  class TCArcane {
     public static final RegistryObject<BlockEntityType<AdvancedAlchemyBlockEntity>> ADVANCED_ALCHEMY_ENTITY=ENTITIES.register("advanced_alchemy_furnace",()->BlockEntityType.Builder.of(AdvancedAlchemyBlockEntity::new,ADVANCED_ALCHEMY_FURNACE.get()).build(null));
     public static final RegistryObject<Block> ALCHEMICAL_CONSTRUCT=BLOCKS.register("alchemical_construct",()->new Block(Block.Properties.of().strength(3,17).sound(net.minecraft.world.level.block.SoundType.METAL)));
     public static final RegistryObject<MnemonicMatrixBlock> MNEMONIC_MATRIX=BLOCKS.register("mnemonic_matrix",MnemonicMatrixBlock::new);
+    public static final RegistryObject<MnemonicMatrixBlock> CHAOS_MATRIX=BLOCKS.register("chaos_matrix",MnemonicMatrixBlock::new);
     public static final RegistryObject<ThaumatoriumBlock> THAUMATORIUM=BLOCKS.register("thaumatorium",ThaumatoriumBlock::new);
     public static final RegistryObject<BlockEntityType<ThaumatoriumBlockEntity>> THAUMATORIUM_ENTITY=ENTITIES.register("thaumatorium",()->BlockEntityType.Builder.of(ThaumatoriumBlockEntity::new,THAUMATORIUM.get()).build(null));
     public static final RegistryObject<MenuType<ThaumatoriumMenu>> THAUMATORIUM_MENU=MENUS.register("thaumatorium",()->IForgeMenuType.create(ThaumatoriumMenu::new));
