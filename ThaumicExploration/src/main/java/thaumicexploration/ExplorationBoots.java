@@ -9,6 +9,10 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.phys.Vec3;
 
 public class ExplorationBoots extends ArmorItem implements thaumcraft.api.IRepairable {
+    private static final boolean APOTHEOSIS = net.minecraftforge.fml.ModList.get().isLoaded("apotheosis");
+    private static final net.minecraft.tags.TagKey<net.minecraft.world.item.Item> STEP_BOOTS =
+            net.minecraft.tags.ItemTags.create(net.minecraft.resources.ResourceLocation.parse("thaumcraft:traveller_step_boots"));
+
     public final boolean meteor;
     private static final java.util.Map<Player,Float> PREVIOUS_STEP=new java.util.WeakHashMap<>();
     public ExplorationBoots(boolean meteor){super(tc4revival.content.SpecialArmorMaterial.INSTANCE,Type.BOOTS,new Properties().rarity(Rarity.RARE));this.meteor=meteor;}
@@ -22,7 +26,7 @@ public class ExplorationBoots extends ArmorItem implements thaumcraft.api.IRepai
         var tag=stack.getOrCreateTag();var motion=player.getDeltaMovement();
         if(meteor)player.fallDistance=0;else if(player.fallDistance>.25F)player.fallDistance-=.25F;
         if(!player.getAbilities().flying&&player.zza>0){
-            if(level.isClientSide&&!player.isShiftKeyDown()){PREVIOUS_STEP.putIfAbsent(player,player.maxUpStep());player.setMaxUpStep(1);}
+            if(level.isClientSide&&!player.isShiftKeyDown()&&!(APOTHEOSIS && stack.is(STEP_BOOTS))){PREVIOUS_STEP.putIfAbsent(player,player.maxUpStep());player.setMaxUpStep(1);}
             float bonus=meteor?.055F:.11F+(tag.getInt("runTicks")/5)*.003F;
             if(player.isInWater())bonus/=4;
             if(player.onGround()||!meteor&&player.onClimbable())player.moveRelative(bonus,new Vec3(0,0,1));
