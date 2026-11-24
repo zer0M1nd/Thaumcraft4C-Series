@@ -43,48 +43,59 @@ Stability at a glance:
 | 🟡 | Tested to some extent, with a small amount of real play. Bugs are possible, but it is playable overall. |
 | 🔴 | Development or porting is initially complete, but it has not been widely tested. Not recommended for regular play yet. |
 
+The Latest column shows the newest published version. Three-part versions are stable releases and four-part versions are development builds.
+
 ### Base mod
 
-| | Project | Based on | What it does | Requires |
-| :-: | --- | --- | --- | --- |
-| 🟢 | [**Thaumcraft 4: Continuation**](TC4/) | Thaumcraft 4 by Azanor | The heart of the series. Scan the world to discover aspects, then put your research to work with wands, alchemy, infusion and golems. | TerraBlender, Curios API |
+| | Project | Based on | What it does | Requires | Latest |
+| :-: | --- | --- | --- | --- | --- |
+| 🟢 | [**Thaumcraft 4: Continuation**](TC4/) | Thaumcraft 4 by Azanor | Aspects, research, alchemy, infusion, wands and golems. The heart of the series. | TerraBlender, Curios API | <!--v:thaumcraft-->0.4.121.4 |
 
-### Addons
+### Original addons
 
-| | Project | Based on | What it adds | Also requires |
+Addons created for this series.
+
+| | Project | What it adds | Requires | Latest |
 | :-: | --- | --- | --- | --- |
-| 🟢 | [**Thaumic Omniverse**](ThaumicOmniverse/) | Original to this series | Tune magical equipment, route essentia and use Create to build arcane airships that carry cargo along scheduled routes. Home of the series' integrations with modern mods. | Optional: Create |
-| 🟢 | [**Thaumic Futures**](ThaumicFutures/) | Thaumcraft 5 and 6 by Azanor | Brings the grappling and building foci of Thaumcraft 5 and a selection of Thaumcraft 6 devices, tools and mechanics back to Thaumcraft 4, along with classic cross-mod recipes. | |
-| 🟢 | [**Thaumic Tinkerer**](ThaumicTinkerer/) | Thaumic Tinkerer by Vazkii, pixlepix and nekosune | Craft specialized tools and enchantments, then progress through infusion to unlock Ichor equipment. | |
-| 🟢 | [**Automagy**](Automagy/) | Automagy by Tuhljin and Draanor | Build magical sorting networks, control redstone signals and automate essentia handling with golems and enchanted devices. | |
-| 🟢 | [**Forbidden Magic**](ForbiddenMagic/) | Forbidden Magic by SpitefulFox | Investigate the seven deadly sins and turn forbidden knowledge into wand parts, tools and enchantments. | Optional: Blood Magic, Botania |
-| 🟢 | [**Thaumic Energistics**](ThaumicEnergistics/) | Thaumic Energistics by Nividica | Store and transport essentia through an Applied Energistics 2 ME network to supply alchemy and infusion. | Applied Energistics 2 |
-| 🟢 | [**Thaumic Horizons**](ThaumicHorizons/) | Thaumic Horizons by Kentington | Infuse living creatures, experiment with souls and craft lenses that reveal new ways to see the world. | |
-| 🟢 | [**Thaumic Bases**](ThaumicBases/) | Thaumic Bases by Modbder | Grow magical crops and put them to use alongside new materials, wands and workshop devices. | |
-| 🟡 | [**Electro-Magic Tools**](ElectroMagicTools/) | Electro-Magic Tools by fewizz and TheSilentium | Combine electricity and vis to power tools, armor and machines that bridge industry and thaumaturgy. | Industrial Craft 2 |
-| 🟡 | [**Gadomancy**](Gadomancy/) | Gadomancy by makeo and HellFirePvP | Build specialized golems and devices to manipulate aura nodes and automate infusion. | |
-| 🟡 | [**Nodal Mechanics**](NodalMechanics/) | Nodal Mechanics by Shukaro | Catalyze aspects into an aura node and shape the supply of vis for your workshop. | |
-| 🟡 | [**Tainted Magic**](TaintedMagic/) | Tainted Magic by John Yorke (tadashi_3) | Study taint and warp to forge shadowmetal gear and wield new wand foci. | |
-| 🟡 | [**Thaumic Infusion**](ThaumicInfusion/) | Thaumic Infusion by DrunkMafia | Infuse ordinary blocks with aspects to give your buildings and contraptions magical properties. | |
-| 🟡 | [**Warp Theory**](WarpTheory/) | Warp Theory by Shukaro and thegreatunclean | Gain warp from forbidden research and face new apparitions, afflictions and unpredictable events. | |
-| 🟡 | [**Witching Gadgets**](WitchingGadgets/) | Witching Gadgets by BluSunrize | Craft magical cloaks, accessories and machines for travel, resource processing and work with aura nodes. | |
-| 🔴 | [**Thaumic Concilium**](ThaumicConcilium/) | Thaumic Concilium by Ilya3000 and BreadX22 | Study rifts and incorporeal beings to craft foci, bracelets and devices for solo or cooperative play. | Forbidden Magic, Thaumic Tinkerer |
-| 🔴 | [**Thaumic Dyes**](ThaumicDyes/) | Thaumic Dyes by KryptonCaptain and Amerem | Dye and wash thaumaturge armor, then upgrade it with runic protection and specialized masks. | |
-| 🔴 | [**Infusion Brewing**](InfusionBrewing/) | Infusion Brewing by mariri | Brew potions into fluids, strengthen them through infusion and channel their effects through baubles and a wand focus. | |
-| 🔴 | [**Arcane Arteries**](ArcaneArteries/) | Arcane Arteries by jordsta95 and MaxIsH0t | Craft sacrificial tools, slates and runes that connect thaumaturgy to Blood Magic's altar progression. | Blood Magic |
-| 🔴 | [**Arcane Engineering**](ArcaneEngineering/) | Arcane Engineering by Eris Izalith (cadaverous_queen) | Upgrade treated-wood wands, fit thaumic drill heads and fuel biodiesel boots to take flight. | Immersive Engineering |
-| 🔴 | [**Advanced Thaumaturgy**](AdvancedThaumaturgy/) | Advanced Thaumaturgy by Lycaon; Advanced Thaumaturgy 2 by MonzterAssassin, Nekosune and ToFam | Fit a mercurial wand with crystal upgrades, reshape aura nodes and turn essentia into power. | |
-| 🔴 | [**Forgotten Relics**](ForgottenRelics/) | Forgotten Relics by Integral (Aizistral) | Uncover lost research and combine thaumaturgy with Botania to craft relics, weapons and spellbooks. | Botania |
-| 🔴 | [**Thaumic Exploration**](ThaumicExploration/) | Thaumic Exploration by Flaxbeard and gaeakat (nekosune) | Meditate in an enchanted vat, link distant inventories and craft wands and boots with new abilities. | |
-| 🔴 | [**Technomancy**](Technomancy/) | Technomancy by Democretes, theflogat and Mordenkainen | Combine essentia and energy to build machines that purify ores, manufacture nodes and fuel rituals. | Optional: Botania, Blood Magic |
-| 🔴 | [**The Heartwork**](Heartwork/) | The Heartwork by Mysterious Mountain Smith | Forge sabers, grow crops for new dishes and use infusion to unlock named blades and their special moves. | Optional: SlashBlade Resharped |
+| 🟢 | [**Thaumic Omniverse**](ThaumicOmniverse/) | Equipment tuning, essentia routing, modern mod integrations and arcane airships. | Base mod. Optional: Create | <!--v:thaumicomniverse-->0.2.47.3 |
+
+### Remade addons
+
+Addons that recreate earlier mods.
+
+| | Project | Based on | What it adds | Requires | Latest |
+| :-: | --- | --- | --- | --- | --- |
+| 🟢 | [**Thaumic Futures**](ThaumicFutures/) | Thaumcraft 5 and 6 by Azanor | Devices, tools and mechanics brought back from Thaumcraft 5 and 6. | Base mod | <!--v:thaumicfutures-->0.2.13.1 |
+| 🟢 | [**Thaumic Tinkerer**](ThaumicTinkerer/) | Thaumic Tinkerer by Vazkii, pixlepix and nekosune | Specialized tools, enchantments and late-game Ichor equipment. | Base mod | <!--v:thaumic_tinkerer-->0.1.47 |
+| 🟢 | [**Automagy**](Automagy/) | Automagy by Tuhljin and Draanor | Item sorting, redstone control and essentia automation. | Base mod | <!--v:automagy-->0.1.23 |
+| 🟢 | [**Forbidden Magic**](ForbiddenMagic/) | Forbidden Magic by SpitefulFox | Deadly-sin research with forbidden wand parts, tools and enchantments. | Base mod. Optional: Blood Magic, Botania | <!--v:forbidden_magic-->0.1.22 |
+| 🟢 | [**Thaumic Energistics**](ThaumicEnergistics/) | Thaumic Energistics by Nividica | Essentia storage and transport on AE2 ME networks. | Base mod, Applied Energistics 2 | <!--v:thaumicenergistics-->0.2.31.2 |
+| 🟢 | [**Thaumic Horizons**](ThaumicHorizons/) | Thaumic Horizons by Kentington | Creature infusion, soul experiments and special lenses. | Base mod | <!--v:thaumichorizons-->0.1.28.2 |
+| 🟢 | [**Thaumic Bases**](ThaumicBases/) | Thaumic Bases by Modbder | Magical crops, materials, tools and workshop devices. | Base mod | <!--v:thaumicbases-->0.1.28.2 |
+| 🟡 | [**Electro-Magic Tools**](ElectroMagicTools/) | Electro-Magic Tools by fewizz and TheSilentium | Electrically powered thaumic tools, armor and machines. | Base mod, Industrial Craft 2 | <!--v:emt-->0.1.13.1 |
+| 🟡 | [**Gadomancy**](Gadomancy/) | Gadomancy by makeo and HellFirePvP | More golems, node devices and infusion automation. | Base mod | <!--v:gadomancy-->0.1.16 |
+| 🟡 | [**Nodal Mechanics**](NodalMechanics/) | Nodal Mechanics by Shukaro | Craft and grow your own aura nodes. | Base mod | <!--v:nodalmechanics-->0.1.7 |
+| 🟡 | [**Tainted Magic**](TaintedMagic/) | Tainted Magic by John Yorke (tadashi_3) | Taint and warp research, shadowmetal gear and wand foci. | Base mod | <!--v:taintedmagic-->0.1.13.1 |
+| 🟡 | [**Thaumic Infusion**](ThaumicInfusion/) | Thaumic Infusion by DrunkMafia | Infuse blocks with aspects to give them magical effects. | Base mod | <!--v:thaumicinfusion-->0.1.11 |
+| 🟡 | [**Warp Theory**](WarpTheory/) | Warp Theory by Shukaro and thegreatunclean | More warp events and afflictions. | Base mod | <!--v:warptheory-->0.1.9 |
+| 🟡 | [**Witching Gadgets**](WitchingGadgets/) | Witching Gadgets by BluSunrize | Cloaks, accessories, tools and magical machines. | Base mod | <!--v:witchinggadgets-->0.1.25.2 |
+| 🔴 | [**Thaumic Concilium**](ThaumicConcilium/) | Thaumic Concilium by Ilya3000 and BreadX22 | Rift and incorporeal research, foci, bracelets and new creatures. | Base mod, Forbidden Magic, Thaumic Tinkerer | <!--v:thaumicconcilium-->0.1.8 |
+| 🔴 | [**Thaumic Dyes**](ThaumicDyes/) | Thaumic Dyes by KryptonCaptain and Amerem | Dyeable thaumaturge armor, runic gear and masks. | Base mod | <!--v:thaumicdyes-->0.1.6.1 |
+| 🔴 | [**Infusion Brewing**](InfusionBrewing/) | Infusion Brewing by mariri | Fluid potions, infusion-boosted effects and a potion focus. | Base mod | <!--v:infusionbrewing-->0.1.4 |
+| 🔴 | [**Arcane Arteries**](ArcaneArteries/) | Arcane Arteries by jordsta95 and MaxIsH0t | Sacrificial tools, slates and runes that bridge to Blood Magic. | Base mod, Blood Magic | <!--v:arcanearteries-->0.1.4 |
+| 🔴 | [**Arcane Engineering**](ArcaneEngineering/) | Arcane Engineering by Eris Izalith (cadaverous_queen) | Upgradable wands, thaumic drill heads and biodiesel boots. | Base mod, Immersive Engineering | <!--v:arcane_engineering-->0.1.4 |
+| 🔴 | [**Advanced Thaumaturgy**](AdvancedThaumaturgy/) | Advanced Thaumaturgy by Lycaon; Advanced Thaumaturgy 2 by MonzterAssassin, Nekosune and ToFam | Mercurial wand upgrades, node modification and essentia engines. | Base mod | <!--v:advancedthaumaturgy-->0.1.4 |
+| 🔴 | [**Forgotten Relics**](ForgottenRelics/) | Forgotten Relics by Integral (Aizistral) | Relics, accessories and spellbooks that blend in Botania. | Base mod, Botania | <!--v:forgottenrelics-->0.1.4 |
+| 🔴 | [**Thaumic Exploration**](ThaumicExploration/) | Thaumic Exploration by Flaxbeard and gaeakat (nekosune) | Meditation vat, linked containers, wand parts and magic boots. | Base mod | <!--v:thaumicexploration-->0.1.4.1 |
+| 🔴 | [**Technomancy**](Technomancy/) | Technomancy by Democretes, theflogat and Mordenkainen | Essentia and energy machines, node manufacturing and rituals. | Base mod. Optional: Botania, Blood Magic | <!--v:technomancy-->0.1.4 |
+| 🔴 | [**The Heartwork**](Heartwork/) | The Heartwork by Mysterious Mountain Smith | Sabers, crops and dishes, and named blades. | Base mod. Optional: SlashBlade Resharped | <!--v:heartwork-->0.1.3 |
 
 ### Standalone tools
 
-| | Project | What it does |
-| :-: | --- | --- |
-| 🟢 | [**ThaumcraftUpdater**](ThaumcraftUpdater/) | Lets you choose which updates to apply to the installed series mods before Forge loads them. A launch-time tool, not a Thaumcraft addon. |
-| 🟢 | [**ThaumcraftResourceAdapter**](ThaumcraftResourceAdapter/) | Converts local resource packs made for older Thaumcraft versions and addons into packs you can enable in Minecraft 1.20.1. Client-side. |
+| | Project | What it does | Latest |
+| :-: | --- | --- | --- |
+| 🟢 | [**ThaumcraftUpdater**](ThaumcraftUpdater/) | Updates the installed series mods at launch. Not a Thaumcraft addon. | <!--v:thaumcraftupdater-->0.2.7 |
+| 🟢 | [**ThaumcraftResourceAdapter**](ThaumcraftResourceAdapter/) | Converts resource packs for older Thaumcraft versions for use in 1.20.1. Client-side. | <!--v:thaumcraftresourceadapter-->1.1.1 |
 
 ## Building
 
