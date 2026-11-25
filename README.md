@@ -95,7 +95,7 @@ Addons that recreate earlier mods.
 | | Project | What it does | Latest |
 | :-: | --- | --- | --- |
 | 🟢 | [**ThaumcraftUpdater**](ThaumcraftUpdater/) | Updates the installed series mods at launch. Not a Thaumcraft addon. | <!--v:thaumcraftupdater-->1.0 |
-| 🟢 | [**ThaumcraftResourceAdapter**](ThaumcraftResourceAdapter/) | Converts resource packs for older Thaumcraft versions for use in 1.20.1. Client-side. | <!--v:thaumcraftresourceadapter-->1.1.1 |
+| 🟢 | [**ThaumcraftResourceAdapter**](ThaumcraftResourceAdapter/) | Converts resource packs for older Thaumcraft versions for use in 1.20.1. Client-side. | <!--v:thaumcraftresourceadapter-->1.2 |
 
 ## Building
 

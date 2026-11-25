@@ -96,7 +96,7 @@ AI 使用声明：本项目使用生成式 AI 进行开发。本项目原创内�
 | | 项目 | 用途 | 最新版本 |
 | :-: | --- | --- | --- |
 | 🟢 | [**ThaumcraftUpdater**](ThaumcraftUpdater/README.zh-CN.md)<br>神秘时代更新器 | 启动时更新已安装的系列模组。不属于神秘时代附属。 | <!--v:thaumcraftupdater-->1.0 |
-| 🟢 | [**ThaumcraftResourceAdapter**](ThaumcraftResourceAdapter/README.zh-CN.md)<br>资源包适配器 | 把旧版神秘时代资源包转换为 1.20.1 可用。仅客户端。 | <!--v:thaumcraftresourceadapter-->1.1.1 |
+| 🟢 | [**ThaumcraftResourceAdapter**](ThaumcraftResourceAdapter/README.zh-CN.md)<br>资源包适配器 | 把旧版神秘时代资源包转换为 1.20.1 可用。仅客户端。 | <!--v:thaumcraftresourceadapter-->1.2 |
 
 ## 如何构建
 
